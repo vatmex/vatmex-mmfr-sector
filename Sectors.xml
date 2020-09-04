@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sector FullName="Cancun Clearance" Frequency="124.7" Callsign="MMUN_DEL" Name="CUD" />
+  <Sector FullName="Cancun Ground" Frequency="121.0" Callsign="MMUN_GND" Name="CUG" />
+  <Sector FullName="Cancun Tower" Frequency="118.1" Callsign="MMUN_TWR" Name="CUT" />
+  <Sector FullName="Cancun Approach" Frequency="124.7" Callsign="MMUN_APP" Name="CUA" >
+    <Volumes>MMUN_APP</Volumes>
+  </Sector>
+</Sectors>

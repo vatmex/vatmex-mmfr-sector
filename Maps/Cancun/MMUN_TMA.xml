@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MMUN_TMA" Priority="1" Centre="+210235.014-0865232.438">
+    <!--MMUN-->
+    <Runway Name="12L/30R">
+      <Threshold Name="12L" Position="+210316.963-0865252.928" ExtendedCentrelineTrack="304" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30R" Position="+210226.48-0865132.494" ExtendedCentrelineTrack="124" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="12R/30L">
+      <Threshold Name="12R" Position="+210243.08-0865327.611" ExtendedCentrelineTrack="304" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30L" Position="+210140.12-0865146.94" ExtendedCentrelineTrack="124" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--MMCZ-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="+203119.43-0865617.570" ExtendedCentrelineTrack="298" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="+203034.40-0865459.918" ExtendedCentrelineTrack="118" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="+203133.49-0865607.900" ExtendedCentrelineTrack="237" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30L" Position="+203218.70-0865459.299" ExtendedCentrelineTrack="057" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--Airway Routes-->
+  </Map>
+</Maps>

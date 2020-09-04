@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SystemRunways>
+    <Airport Name="MMUN">
+      <Runway Name="12L" DataRunway="12L">
+        <SID Name="ANTE2B" />
+        <SID Name="BOTO2B" />
+        <SID Name="CUN3B" Default="True" />
+        <SID Name="DUGN1B" />
+        <SID Name="DUMB1B" />
+        <SID Name="ENEB2B" />
+        <SID Name="LIDE2B" />
+        <SID Name="OMSU2B" />
+        <SID Name="VOBE2B" />
+        <SID Name="CZM1B" />
+        <SID Name="HECA1B" />
+        <SID Name="NOSU1B" />
+        <SID Name="NUDALB" />
+        <SID Name="NUKA1B" />
+        <SID Name="ROTG1B" />
+        <SID Name="TAKU1B" />
+        <SID Name="UDGU1B" />
+        <STAR Name="ILUB1F" ApproachName="ILS4"/>
+        <STAR Name="PAUL1H" ApproachName="ILS4"/>
+        <STAR Name="SIGM1H" ApproachName="ILS4"/>
+        <STAR Name="NOSA1B" ApproachName="ILS4"/>
+        <STAR Name="VOMA1A" ApproachName="ILS4"/>
+        <STAR Name="XUDU1A" ApproachName="ILS4"/>
+      </Runway>
+      <Runway Name="12R" DataRunway="12R">
+        <SID Name="ANTE2A" />
+        <SID Name="BOTO2A" />
+        <SID Name="CUN3A" Default="True" />
+        <SID Name="DUGN1A" />
+        <SID Name="DUMB1A" />
+        <SID Name="ENEB2A" />
+        <SID Name="LIDE2A" />
+        <SID Name="OMSU2A" />
+        <SID Name="VOBE2A" />
+        <SID Name="CZM1B" />
+        <SID Name="HECA1A" />
+        <SID Name="NOSU1A" />
+        <SID Name="NUDALA" />
+        <SID Name="NUKA1A" />
+        <SID Name="ROTG1A" />
+        <SID Name="TAKU1A" />
+        <SID Name="UDGU1A" />
+        <STAR Name="ILUB1E" ApproachName="ILS4"/>
+        <STAR Name="PAUL1G" ApproachName="ILS4"/>
+        <STAR Name="SIGM1G" ApproachName="ILS4"/>
+        <STAR Name="NOSA1B" ApproachName="ILS4"/>
+        <STAR Name="VOMA1A" ApproachName="ILS4"/>
+        <STAR Name="XUDU1A" ApproachName="ILS4"/>
+      </Runway>
+      <Runway Name="30L" DataRunway="30L">
+        <SID Name="ANTE2C" />
+        <SID Name="BOTO2C" />
+        <SID Name="CUN3C" Default="True" />
+        <SID Name="DUGN1C" />
+        <SID Name="DUMB1C" />
+        <SID Name="ENEB2C" />
+        <SID Name="LIDE2C" />
+        <SID Name="OMSU2C" />
+        <SID Name="VOBE2C" />
+        <SID Name="AVSE1F" />
+        <SID Name="CZM1F" />
+        <SID Name="NOSU1F" />
+        <SID Name="NUDALF" />
+        <SID Name="NUKA1F" />
+        <SID Name="ROTG1F" />
+        <SID Name="UDGU1F" />
+        <STAR Name="ILUB1G" ApproachName="RNP2"/>
+        <STAR Name="PAUL1K" ApproachName="RNP2"/>
+        <STAR Name="SIGM1I" ApproachName="RNP2"/>
+        <STAR Name="NOSA1D" ApproachName="RNP2"/>
+        <STAR Name="VOMA1C" ApproachName="RNP2"/>
+        <STAR Name="XUDUN1D" ApproachName="RNP2"/>
+      </Runway>
+      <Runway Name="30R" DataRunway="3RL">
+        <SID Name="ANTE2C" />
+        <SID Name="BOTO2C" />
+        <SID Name="CUN3C" Default="True" />
+        <SID Name="DUGN1C" />
+        <SID Name="DUMB1C" />
+        <SID Name="ENEB2C" />
+        <SID Name="LIDE2C" />
+        <SID Name="OMSU2C" />
+        <SID Name="VOBE2C" />
+        <SID Name="AVSE1F" />
+        <SID Name="CZM1F" />
+        <SID Name="NOSU1F" />
+        <SID Name="NUDALF" />
+        <SID Name="NUKA1F" />
+        <SID Name="ROTG1F" />
+        <SID Name="UDGU1F" />
+        <STAR Name="ILUB1G" ApproachName="RNP2"/>
+        <STAR Name="PAUL1L" ApproachName="RNP2"/>
+        <STAR Name="SIGM1I" ApproachName="RNP2"/>
+        <STAR Name="NOSA1D" ApproachName="RNP2"/>
+        <STAR Name="VOMA1C" ApproachName="RNP2"/>
+        <STAR Name="XUDUN1E" ApproachName="RNP2"/>
+      </Runway>
+	  </Airport>
+  </SystemRunways>
+</Airspace>

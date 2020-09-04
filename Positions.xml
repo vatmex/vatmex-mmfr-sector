@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Position Name="Cancun Approach" Type="ASD" DefaultCenter="+210235.014-0865232.438" DefaultRange="400">
+    <Sectors>
+      <Sector Name="CUA" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_TMA" />
+      <Map Name="Cancun/MMUN_TMA" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+      <Window Airport="MMUN" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="24000">
+      <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMUN" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Cancun Approach</Line>
+      <Line>ATIS available on 127.7</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
+</Positions>
