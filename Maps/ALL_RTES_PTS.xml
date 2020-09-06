@@ -1,0 +1,1828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ALL_ROUTES_HIGH" Priority="1" Center="+204657.054-0865400.018">
+    <Line Name="A317_0">TAP.A317.TECUN</Line>
+    <Symbol Type="SolidSquare">
+      <Point>LOCKA</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>LOCKA</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>LOCKA</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangleWithBorder">
+      <Point>APUKA</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangleWithBorder">
+      <Point>LANOP</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="ALL_ROUTES_LOW" Priority="1" Center="+204657.054-0865400.018">
+    <Line Name="A317">TAP.A317.TECUN</Line>
+    <Line Name="A552">TAM.A552.GABEN</Line>
+    <Line Name="A758">MID.A758.VIDNO</Line>
+    <Line Name="A766">KEHLI.A766.SIGMA</Line>
+    <Line Name="A770">KEHLI.A770.UKORO</Line>
+    <Line Name="B646">LENUK.B646.MID</Line>
+    <Line Name="B753">MID.B753.PIKRO</Line>
+    <Line Name="B764">EMOSA.B764.ANEPU</Line>
+    <Line Name="B879">NOSAT.B879.CZM</Line>
+    <Line Name="B881">CUN.B881.ANIKO</Line>
+    <Line Name="G521">CZM.G521.AMIDA</Line>
+    <Line Name="G633">VSA.G633.EMADA</Line>
+    <Line Name="G757">CTM.G757.KINAL</Line>
+    <Line Name="G765">NUKAN.G765.CTM</Line>
+    <Line Name="R506">NUDAL.R506.CUN</Line>
+    <Line Name="R522">ALURU.R522.PAZ</Line>
+    <Line Name="V1">TIJ.V1.CME</Line>
+    <Line Name="V1E">LTO.V1E.SJD</Line>
+    <Line Name="V1W">LTO.V1W.SJD</Line>
+    <Line Name="V2">CUU.V2.MAM</Line>
+    <Line Name="V3">TIJ.V3.CUN</Line>
+    <Line Name="V4">LTO.V4.SJD</Line>
+    <Line Name="V5">CUL.V5.CUA</Line>
+    <Line Name="V6">TTM.V6.TAM</Line>
+    <Line Name="V7">ENS.V7.CEN</Line>
+    <Line Name="V8">LMM.V8.LAP</Line>
+    <Line Name="V9">CEN.V9.CSL</Line>
+    <Line Name="V10">MAM.V10.LAP</Line>
+    <Line Name="V11">TRC.V11.ZIH</Line>
+    <Line Name="V12">CVM.V12.LTO</Line>
+    <Line Name="V13">REX.V13.MTY</Line>
+    <Line Name="V14">PVR.V14.QET</Line>
+    <Line Name="V14N">PVR.V14N.GDL</Line>
+    <Line Name="V14S">PVR.V14S.GDL</Line>
+    <Line Name="V15">PNG.V15.ACA</Line>
+    <Line Name="V15E">TEQ.V15E.ACA</Line>
+    <Line Name="V15W">TEQ.V15W.ACA</Line>
+    <Line Name="V16">AGU.V16.MID</Line>
+    <Line Name="V17">TAM.V17.UPN</Line>
+    <Line Name="V18">PAZ.V18.ZLO</Line>
+    <Line Name="V19">NLD.V19.APN</Line>
+    <Line Name="V20">NLD.V20.LAP</Line>
+    <Line Name="V21">REX.V21.ACA</Line>
+    <Line Name="V22">AGU.V22.CMT</Line>
+    <Line Name="V23">MOV.V23.CMT</Line>
+    <Line Name="V24">CUA.V24.ZIH</Line>
+    <Line Name="V25">MAM.V25.CUA</Line>
+    <Line Name="V26">NLD.V26.ZLO</Line>
+    <Line Name="V26W">GDL.V26W.ZLO</Line>
+    <Line Name="V27">LTO.V27.HUX</Line>
+    <Line Name="V27E">OAX.V27E.HUX</Line>
+    <Line Name="V28">MLM.V28.CTM</Line>
+    <Line Name="V29">PAZ.V29.PXM</Line>
+    <Line Name="V30">CZM.V30.CME</Line>
+    <Line Name="V31">MTT.V31.IZT</Line>
+    <Line Name="V32">GDL.V32.TEQ</Line>
+    <Line Name="V33">VER.V33.IZT</Line>
+    <Line Name="V34">PAZ.V34.UPN</Line>
+    <Line Name="V35">MTY.V35.REX</Line>
+    <Line Name="V36">CPE.V36.CTM</Line>
+    <Line Name="V37">NLD.V37.PVR</Line>
+
+    <Symbol Type="SolidSquare">
+
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <!--A317-->
+      <Point>TAP</Point>
+      <Point>TECUN</Point>
+
+      <!--A552-->
+      <Point>TAM</Point>
+      <Point>NOTOR</Point>
+      <Point>PAZ</Point>
+      <Point>VER</Point>
+      <Point>IPTAK</Point>
+      <Point>MTT</Point>
+      <Point>URVOD</Point>
+      <Point>TGZ</Point>
+      <Point>KESLI</Point>
+      <Point>GABEN</Point>
+
+      <!--A758-->
+      <Point>MID</Point>
+      <Point>TAXTE</Point>
+      <Point>SIFTO</Point>
+      <Point>DANIS</Point>
+      <Point>VIDNO</Point>
+
+      <!--A766-->
+      <Point>KEHLI</Point>
+      <Point>SUVUM</Point>
+      <Point>LEVAT</Point>
+      <Point>ITLOM</Point>
+      <Point>IGTOM</Point>
+      <Point>MUXOG</Point>
+      <Point>AXEVU</Point>
+      <Point>VIGTU</Point>
+      <Point>VOBED</Point>
+      <Point>CZM</Point>
+      <Point>ITAKU</Point>
+      <Point>SIGMA</Point>
+
+      <!--A770-->
+      <Point>KEHLI</Point>
+      <Point>TABSA</Point>
+      <Point>BETAS</Point>
+      <Point>MEDIR</Point>
+      <Point>MESNA</Point>
+      <Point>NAPLA</Point>
+      <Point>SISAL</Point>
+      <Point>MID</Point>
+      <Point>PAGAY</Point>
+      <Point>CANOZ</Point>
+      <Point>AXIMA</Point>
+      <Point>UKORO</Point>
+
+      <!--B646-->
+      <Point>LENUK</Point>
+      <Point>XOPGI</Point>
+      <Point>ALSEG</Point>
+      <Point>AXEVU</Point>
+      <Point>SEBAK</Point>
+      <Point>GABOB</Point>
+      <Point>LIBAB</Point>
+      <Point>MID</Point>
+
+      <!--B753-->
+      <Point>MID</Point>
+      <Point>DUSLO</Point>
+      <Point>GREPE</Point>
+      <Point>TUGET</Point>
+      <Point>PIKRO</Point>
+
+      <!--B764-->
+      <Point>EMOSA</Point>
+      <Point>KESPO</Point>
+      <Point>CZM</Point>
+      <Point>DAXUM</Point>
+      <Point>ANEPU</Point>
+
+      <!--B879-->
+      <Point>NOSAT</Point>
+      <Point>XOPUT</Point>
+      <Point>LETIS</Point>
+      <Point>CUN</Point>
+      <Point>TEFMO</Point>
+      <Point>CZM</Point>
+
+      <!--B881-->
+      <Point>CUN</Point>
+      <Point>LIDEK</Point>
+      <Point>CZM</Point>
+      <Point>OBTAM</Point>
+      <Point>ANIKO</Point>
+
+      <!--G521-->
+      <Point>CZM</Point>
+      <Point>ITPIG</Point>
+      <Point>AMIDA</Point>
+
+      <!--G633-->
+      <Point>VSA</Point>
+      <Point>TAKAN</Point>
+      <Point>EMADA</Point>
+
+      <!--G757-->
+      <Point>CTM</Point>
+      <Point>KINAL</Point>
+
+      <!--G765-->
+      <Point>NUKAN</Point>
+      <Point>URTOK</Point>
+      <Point>IMOLO</Point>
+      <Point>DUMBU</Point>
+      <Point>BOTOP</Point>
+      <Point>CZM</Point>
+      <Point>OTEDI</Point>
+      <Point>PAULE</Point>
+      <Point>CTM</Point>
+
+      <!--R506-->
+      <Point>NUDAL</Point>
+      <Point>CONAR</Point>
+      <Point>IMOLO</Point>
+      <Point>DUGNI</Point>
+      <Point>CUN</Point>
+
+      <!--R522-->
+      <Point>ALURU</Point>
+      <Point>XOPGI</Point>
+      <Point>XORAR</Point>
+      <Point>LEURV</Point>
+      <Point>MUXOG</Point>
+      <Point>OMVOM</Point>
+      <Point>MESNA</Point>
+      <Point>MARUS</Point>
+      <Point>DUPAS</Point>
+      <Point>MUNDA</Point>
+      <Point>AXOMU</Point>
+      <Point>LIDED</Point>
+      <Point>PAZ</Point>
+
+      <!--R644-->
+      <Point>TAP</Point>
+      <Point>IMSAO</Point>
+
+      <!--V1-->
+      <Point>TIJ</Point>
+      <Point>KREPE</Point>
+      <Point>ENS</Point>
+      <Point>TOVES</Point>
+      <Point>SQN</Point>
+      <Point>GRN</Point>
+      <Point>LTO</Point>
+      <Point>TULES</Point>
+      <Point>LAP</Point>
+      <Point>AMARI</Point>
+      <Point>SJD</Point>
+      <Point>AVAVU</Point>
+      <Point>KINOL</Point>
+      <Point>ISLAS</Point>
+      <Point>MZT</Point>
+      <Point>XUBUD</Point>
+      <Point>OBRUG</Point>
+      <Point>KENDU</Point>
+      <Point>PVR</Point>
+      <Point>ALPAP</Point>
+      <Point>OBVIX</Point>
+      <Point>USBAK</Point>
+      <Point>ZLO</Point>
+      <Point>BEXIN</Point>
+      <Point>TADIR</Point>
+      <Point>TABRA</Point>
+      <Point>SEGIP</Point>
+      <Point>ZIH</Point>
+      <Point>AVURO</Point>
+      <Point>NICOS</Point>
+      <Point>ACA</Point>
+      <Point>KATRA</Point>
+      <Point>ANVAN</Point>
+      <Point>PXM</Point>
+      <Point>HUX</Point>
+      <Point>XOSLO</Point>
+      <Point>IZT</Point>
+      <Point>IMITO</Point>
+      <Point>VILGI</Point>
+      <Point>TAP</Point>
+      <Point>MARIX</Point>
+      <Point>CMT</Point>
+      <Point>PQE</Point>
+      <Point>EBLEV</Point>
+      <Point>TETUK</Point>
+      <Point>CME</Point>
+
+      <!--V1E-->
+      <Point>LTO</Point>
+      <Point>DASVU</Point>
+      <Point>PISET</Point>
+      <Point>LAP</Point>
+      <Point>DAPIS</Point>
+      <Point>XOPRU</Point>
+      <Point>SJD</Point>
+
+      <!--V1W-->
+      <Point>LTO</Point>
+      <Point>GODOY</Point>
+      <Point>ORCAS</Point>
+      <Point>LAP</Point>
+      <Point>TAMET</Point>
+      <Point>SJD</Point>
+
+      <!--V2-->
+      <Point>CUU</Point>
+      <Point>OKAMA</Point>
+      <Point>ANEGI</Point>
+      <Point>ELQ</Point>
+      <Point>VOKES</Point>
+      <Point>TRC</Point>
+      <Point>IPSAG</Point>
+      <Point>MURDU</Point>
+      <Point>MOV</Point>
+      <Point>TAGIB</Point>
+      <Point>NOTAL</Point>
+      <Point>TALBI</Point>
+      <Point>CAMUI</Point>
+      <Point>REX</Point>
+      <Point>IRBID</Point>
+      <Point>MAM</Point>
+
+      <!--V3-->
+      <Point>TIJ</Point>
+      <Point>ULDUD</Point>
+      <Point>DAPAN</Point>
+      <Point>TANRI</Point>
+      <Point>AVRIL</Point>
+      <Point>PPE</Point>
+      <Point>LIDUK</Point>
+      <Point>OMTIB</Point>
+      <Point>HMO</Point>
+      <Point>MIURA</Point>
+      <Point>SEBEK</Point>
+      <Point>USBEN</Point>
+      <Point>CEN</Point>
+      <Point>BAMPO</Point>
+      <Point>VESKI</Point>
+      <Point>LMM</Point>
+      <Point>INDIO</Point>
+      <Point>NUBIK</Point>
+      <Point>EVATE</Point>
+      <Point>CUL</Point>
+      <Point>DANOP</Point>
+      <Point>MELBO</Point>
+      <Point>GAMOS</Point>
+      <Point>MZT</Point>
+      <Point>ALILI</Point>
+      <Point>TNY</Point>
+      <Point>VOLUX</Point>
+      <Point>TIKIT</Point>
+      <Point>GDL</Point>
+      <Point>EBDEG</Point>
+      <Point>ONGEL</Point>
+      <Point>UPN</Point>
+      <Point>AXAKI</Point>
+      <Point>AVROX</Point>
+      <Point>ZIH</Point>
+      <Point>AVURO</Point>
+      <Point>NICOS</Point>
+      <Point>ACA</Point>
+      <Point>SELIS</Point>
+      <Point>AMIDI</Point>
+      <Point>MEMDI</Point>
+      <Point>OTSUT</Point>
+      <Point>OAX</Point>
+      <Point>ISTMO</Point>
+      <Point>AVINA</Point>
+      <Point>IZT</Point>
+      <Point>XOMSO</Point>
+      <Point>TGZ</Point>
+      <Point>OMVAB</Point>
+      <Point>GRUTA</Point>
+      <Point>VSA</Point>
+      <Point>AGAVE</Point>
+      <Point>PAVON</Point>
+      <Point>CME</Point>
+      <Point>CONTO</Point>
+      <Point>CPE</Point>
+      <Point>ELSIP</Point>
+      <Point>VOLEB</Point>
+      <Point>MID</Point>
+      <Point>USBUS</Point>
+      <Point>XUDUN</Point>
+      <Point>XOVAV</Point>
+      <Point>BUBUN</Point>
+      <Point>XOTNA</Point>
+      <Point>CUN</Point>
+
+      <!--V3S-->
+      <Point>GDL</Point>
+      <Point>NUBIG</Point>
+      <Point>NOTUP</Point>
+      <Point>TNY</Point>
+
+      <!--V4-->
+      <Point>LTO</Point>
+      <Point>DASVU</Point>
+      <Point>ENEKO</Point>
+      <Point>MARUX</Point>
+      <Point>SJD</Point>
+
+      <!--V5-->
+      <Point>CUL</Point>
+      <Point>OLEXU</Point>
+      <Point>MUVEN</Point>
+      <Point>XOSGI</Point>
+      <Point>MZT</Point>
+      <Point>ALILI</Point>
+      <Point>TNY</Point>
+      <Point>VOLUX</Point>
+      <Point>TIKIT</Point>
+      <Point>GDL</Point>|
+      <Point>OVALI</Point>
+      <Point>LONKU</Point>
+      <Point>VOGAS</Point>
+      <Point>REMIL</Point>
+      <Point>MLM</Point>
+      <Point>PAMAB</Point>
+      <Point>ANEVU</Point>
+      <Point>TAKUG</Point>
+      <Point>TLC</Point>
+      <Point>TUGOL</Point>
+      <Point>CUA</Point>
+
+      <!--V6-->
+      <Point>TTM</Point>
+      <Point>TAKLA</Point>
+      <Point>TAM</Point>
+
+      <!--V7-->
+      <Point>ENS</Point>
+      <Point>KOBAM</Point>
+      <Point>URSEV</Point>
+      <Point>PPE</Point>
+      <Point>LIDUK</Point>
+      <Point>OMTIB</Point>
+      <Point>HMO</Point>
+      <Point>NOTOT</Point>
+      <Point>OMSUX</Point>
+      <Point>GYM</Point>
+      <Point>SUTNU</Point>
+      <Point>CEN</Point>
+
+      <!--V8-->
+      <Point>LMM</Point>
+      <Point>COPAS</Point>
+      <Point>OMSIB</Point>
+      <Point>XOMSA</Point>
+      <Point>LAP</Point>
+
+      <!--V9-->
+      <Point>CEN</Point>
+      <Point>ENATA</Point>
+      <Point>DURTU</Point>
+      <Point>LAP</Point>
+      <Point>TAMET</Point>
+      <Point>ATUMI</Point>
+      <Point>CSL</Point>
+
+      <!--V10-->
+      <Point>MAM</Point>
+      <Point>IRBID</Point>
+      <Point>REX</Point>
+      <Point>REALA</Point>
+      <Point>MTY</Point>
+      <Point>SLW</Point>
+      <Point>OMIXA</Point>
+      <Point>TETUN</Point>
+      <Point>TRC</Point>
+      <Point>XOTIN</Point>
+      <Point>VIKDO</Point>
+      <Point>DGO</Point>
+      <Point>LONRI</Point>
+      <Point>SAVOM</Point>
+      <Point>LIDIK</Point>
+      <Point>CUL</Point>
+      <Point>TOVER</Point>
+      <Point>ILAVI</Point>
+      <Point>ENEKO</Point>
+      <Point>MANUS</Point>
+      <Point>LAP</Point>
+
+      <!--V11-->
+      <Point>TRC</Point>
+      <Point>AVUVA</Point>
+      <Point>PESPA</Point>
+      <Point>CDR</Point>
+      <Point>LOMSA</Point>
+      <Point>IMODA</Point>
+      <Point>XOSIM</Point>
+      <Point>TTM</Point>
+      <Point>TMN</Point>
+      <Point>AVSAR</Point>
+      <Point>SLM</Point>
+      <Point>TLC</Point>
+      <Point>GADMU</Point>
+      <Point>TEQ</Point>
+      <Point>TADSI</Point>
+      <Point>NUXCO</Point>
+      <Point>ZIH</Point>
+
+      <!--V12-->
+      <Point>CVM</Point>
+      <Point>TEPAS</Point>
+      <Point>ITMAT</Point>
+      <Point>CDR</Point>
+      <Point>XORVO</Point>
+      <Point>DURPA</Point>
+      <Point>TUGIR</Point>
+      <Point>DGO</Point>
+      <Point>LONRI</Point>
+      <Point>SAVOM</Point>
+      <Point>LIDIK</Point>
+      <Point>CUL</Point>
+      <Point>XOMGA</Point>
+      <Point>IKBOR</Point>
+      <Point>LEPOM</Point>
+      <Point>GOSIM</Point>
+      <Point>MENVI</Point>
+      <Point>SJD</Point>
+      <Point>CSL</Point>
+      <Point>LETAT</Point>
+      <Point>URLET</Point>
+      <Point>GODOY</Point>
+      <Point>LTO</Point>
+
+      <!--V13-->
+      <Point>REX</Point>
+      <Point>CAMUI</Point>
+      <Point>ITPIS</Point>
+      <Point>MTY</Point>
+
+      <!--V14-->
+      <Point>PVR</Point>
+      <Point>DUNSU</Point>
+      <Point>GDL</Point>
+      <Point>KARUN</Point>
+      <Point>URVEM</Point>
+      <Point>FRESA</Point>
+      <Point>QET</Point>
+
+      <!--V14N-->
+      <Point>PVR</Point>
+      <Point>NOTUP</Point>
+      <Point>NUBIG</Point>
+      <Point>GDL</Point>
+
+      <!--V14S-->
+      <Point>PVR</Point>
+      <Point>VOLAT</Point>
+      <Point>DEBRO</Point>
+      <Point>GDL</Point>
+
+      <!--V15-->
+      <Point>PNG</Point>
+      <Point>ALUXO</Point>
+      <Point>USBAR</Point>
+      <Point>EMPIX</Point>
+      <Point>NOTAL</Point>
+      <Point>URTUS</Point>
+      <Point>MTY</Point>
+      <Point>CVM</Point>
+      <Point>TALPU</Point>
+      <Point>TMN</Point>
+      <Point>PCA</Point>
+      <Point>SLM</Point>
+      <Point>MEX</Point>
+      <Point>DUXOP</Point>
+      <Point>TEQ</Point>
+      <Point>TEXCA</Point>
+      <Point>ACA</Point>
+
+      <!--V15E-->
+      <Point>TEQ</Point>
+      <Point>ANALU</Point>
+      <Point>COTIL</Point>
+      <Point>ACA</Point>
+
+      <!--V15W-->
+      <Point>TEQ</Point>
+      <Point>ALNUS</Point>
+      <Point>VELAS</Point>
+      <Point>ACA</Point>
+
+      <!--V16-->
+      <Point>AGU</Point>
+      <Point>ALIPA</Point>
+      <Point>TIDIL</Point>
+      <Point>AXOBI</Point>
+      <Point>MLM</Point>
+      <Point>VERBA</Point>
+      <Point>MAXUL</Point>
+      <Point>TEQ</Point>
+      <Point>AMEKU</Point>
+      <Point>GARES</Point>
+      <Point>TAMBI</Point>
+      <Point>OAX</Point>
+      <Point>XOSVO</Point>
+      <Point>KANAL</Point>
+      <Point>OMATO</Point>
+      <Point>MTT</Point>
+      <Point>NUKAR</Point>
+      <Point>VSA</Point>
+      <Point>AGAVE</Point>
+      <Point>PAVON</Point>
+      <Point>CME</Point>
+      <Point>CONTO</Point>
+      <Point>CPE</Point>
+      <Point>ILELA</Point>
+      <Point>URPUP</Point>
+      <Point>MID</Point>
+
+      <!--V18-->
+      <Point>PAZ</Point>
+      <Point>APN</Point>
+      <Point>MEX</Point>
+      <Point>TLC</Point>
+      <Point>ZARCO</Point>
+      <Point>TUZAS</Point>
+      <Point>UPN</Point>
+      <Point>COL</Point>
+      <Point>MEKLI</Point>
+      <Point>ZLO</Point>
+
+      <!--V19-->
+      <Point>NLD</Point>
+      <Point>ONKAL</Point>
+      <Point>SASES</Point>
+      <Point>NOTAL</Point>
+      <Point>URTUS</Point>
+      <Point>MTY</Point>
+      <Point>URSUR</Point>
+      <Point>KERGA</Point>
+      <Point>ITBEN</Point>
+      <Point>ONGUB</Point>
+      <Point>CVM</Point>
+      <Point>OTOBA</Point>
+      <Point>JEREZ</Point>
+      <Point>TAM</Point>
+      <Point>XOSOK</Point>
+      <Point>MUXEP</Point>
+      <Point>APN</Point>
+
+      <!--V20-->
+      <Point>NLD</Point>
+      <Point>NOTAK</Point>
+      <Point>USBAR</Point>
+      <Point>ITPUM</Point>
+      <Point>MOV</Point>
+      <Point>MURDU</Point>
+      <Point>IPSAG</Point>
+      <Point>TRC</Point>
+      <Point>RUBNA</Point>
+      <Point>ELOLU</Point>
+      <Point>SUSOV</Point>
+      <Point>MIVIS</Point>
+      <Point>DGO</Point>
+      <Point>UKIKI</Point>
+      <Point>LESIT</Point>
+      <Point>MZT</Point>
+      <Point>DUPOP</Point>
+      <Point>OLESI</Point>
+      <Point>KIPUM</Point>
+      <Point>MARUX</Point>
+      <Point>ONGEX</Point>
+      <Point>LAP</Point>
+
+      <!--V21-->
+      <Point>REX</Point>
+      <Point>AXANI</Point>
+      <Point>ELIXI</Point>
+      <Point>MALPA</Point>
+      <Point>CVM</Point>
+      <Point>TALPU</Point>
+      <Point>TMM</Point>
+      <Point>PCA</Point>
+      <Point>APN</Point>
+      <Point>ALITA</Point>
+      <Point>PBC</Point>
+      <Point>TUMEN</Point>
+      <Point>CUA</Point>
+      <Point>AMEKU</Point>
+      <Point>ANALU</Point>
+      <Point>COTIL</Point>
+      <Point>ACA</Point>
+
+      <!--V22-->
+      <Point>AGU</Point>
+      <Point>SETOS</Point>
+      <Point>AMOVA</Point>
+      <Point>BJX</Point>
+      <Point>AVRIK</Point>
+      <Point>MEDAB</Point>
+      <Point>URNAT</Point>
+      <Point>QET</Point>
+      <Point>TIKEB</Point>
+      <Point>SLM</Point>
+      <Point>ALKOM</Point>
+      <Point>APN</Point>
+      <Point>ALMET</Point>
+      <Point>TEVET</Point>
+      <Point>VER</Point>
+      <Point>IPTAK</Point>
+      <Point>DUPLO</Point>
+      <Point>MTT</Point>
+      <Point>URVOD</Point>
+      <Point>TGZ</Point>
+      <Point>LENOP</Point>
+      <Point>CMT</Point>
+
+      <!--V23-->
+      <Point>MOV</Point>
+      <Point>OBSEV</Point>
+      <Point>MTY</Point>
+      <Point>RETOS</Point>
+      <Point>SESNO</Point>
+      <Point>ESVUR</Point>
+      <Point>CVM</Point>
+      <Point>CUEVA</Point>
+      <Point>NADOR</Point>
+      <Point>XOXAD</Point>
+      <Point>XORMA</Point>
+      <Point>TAM</Point>
+      <Point>NOTOR</Point>
+      <Point>PAZ</Point>
+      <Point>VER</Point>
+      <Point>IMARA</Point>
+      <Point>ELOGO</Point>
+      <Point>ALUEN</Point>
+      <Point>YOLKO</Point>
+      <Point>VSA</Point>
+      <Point>SIKDI</Point>
+      <Point>CMT</Point>
+
+      <!--V24-->
+      <Point>CUA</Point>
+      <Point>TEQ</Point>
+      <Point>LENEG</Point>
+      <Point>ILENA</Point>
+      <Point>ZIH</Point>
+
+      <!--V25-->
+      <Point>MAM</Point>
+      <Point>AXIPU</Point>
+      <Point>NUGUS</Point>
+      <Point>DUSPI</Point>
+      <Point>MAPIL</Point>
+      <Point>TAM</Point>
+      <Point>LETIL</Point>
+      <Point>PIVOL</Point>
+      <Point>PCA</Point>
+      <Point>ALKOM</Point>
+      <Point>OTMOS</Point>
+      <Point>CUA</Point>
+
+      <!--V26-->
+      <Point>NLD</Point>
+      <Point>XOVES</Point>
+      <Point>RUDMA</Point>
+      <Point>MTY</Point>
+      <Point>URTOB</Point>
+      <Point>BEROS</Point>
+      <Point>CDR</Point>
+      <Point>EMUDA</Point>
+      <Point>ZCL</Point>
+      <Point>MITIM</Point>
+      <Point>RABIL</Point>
+      <Point>GOYAS</Point>
+      <Point>EMIGU</Point>
+      <Point>IRBEK</Point>
+      <Point>TIDEK</Point>
+      <Point>ZLO</Point>
+
+      <!--V26W-->
+      <Point>GDL</Point>
+      <Point>USBIM</Point>
+      <Point>IGROT</Point>
+      <Point>UDLOG</Point>
+      <Point>ZLO</Point>
+
+      <!--V27-->
+      <Point>LTO</Point>
+      <Point>NUDIL</Point>
+      <Point>LMM</Point>
+      <Point>INDIO</Point>
+      <Point>NUBIK</Point>
+      <Point>EVATE</Point>
+      <Point>CUL</Point>
+      <Point>LIDIK</Point>
+      <Point>SAVOM</Point>
+      <Point>LONRI</Point>
+      <Point>DGO</Point>
+      <Point>SEKUB</Point>
+      <Point>XOLGA</Point>
+      <Point>ESTIV</Point>
+      <Point>ZCL</Point>
+      <Point>CUL</Point>
+      <Point>LIDIK</Point>
+      <Point>SAVOM</Point>
+      <Point>LONRI</Point>
+      <Point>DGO</Point>
+      <Point>SEKUB</Point>
+      <Point>XOLGA</Point>
+      <Point>ESTIV</Point>
+      <Point>ZCL</Point>
+      <Point>TEDZI</Point>
+      <Point>AGU</Point>
+      <Point>ANILA</Point>
+      <Point>MANTA</Point>
+      <Point>UKIRO</Point>
+      <Point>ONBIK</Point>
+      <Point>QET</Point>
+      <Point>XUKVA</Point>
+      <Point>XOVAB</Point>
+      <Point>ANEVU</Point>
+      <Point>TAKUG</Point>
+      <Point>TLC</Point>
+      <Point>GADMU</Point>
+      <Point>TEQ</Point>
+      <Point>AMEKU</Point>
+      <Point>GARES</Point>
+      <Point>TABMI</Point>
+      <Point>OAX</Point>
+      <Point>XONTA</Point>
+      <Point>HUX</Point>
+
+      <!--V27E-->
+      <Point>OAX</Point>
+      <Point>KESGO</Point>
+      <Point>NUDOS</Point>
+      <Point>HUX</Point>
+
+      <!--V28-->
+      <Point>MLM</Point>
+      <Point>GADET</Point>
+      <Point>PTJ</Point>
+      <Point>TLC</Point>
+      <Point>MEX</Point>
+      <Point>APN</Point>
+      <Point>REXES</Point>
+      <Point>IKLES</Point>
+      <Point>ONBAD</Point>
+      <Point>VER</Point>
+      <Point>AXELI</Point>
+      <Point>NOREL</Point>
+      <Point>BASKO</Point>
+      <Point>PIGNO</Point>
+      <Point>CME</Point>
+      <Point>DUTKA</Point>
+      <Point>CTM</Point>
+
+      <!--V29-->
+      <Point>PAZ</Point>
+      <Point>LIDAR</Point>
+      <Point>AMORA</Point>
+      <Point>VER</Point>
+      <Point>LEXUR</Point>
+      <Point>MASAS</Point>
+      <Point>PXM</Point>
+
+      <!--V30-->
+      <Point>CZM</Point>
+      <Point>OKUVA</Point>
+      <Point>AVSIM</Point>
+      <Point>CPE</Point>
+      <Point>CONTO</Point>
+      <Point>CME</Point>
+
+      <!--V31-->
+      <Point>MTT</Point>
+      <Point>IZT</Point>
+
+      <!--V32-->
+      <Point>GDL</Point>
+      <Point>XORID</Point>
+      <Point>AMORA</Point>
+      <Point>VER</Point>
+      <Point>LEXUR</Point>
+      <Point>MASAS</Point>
+      <Point>PXM</Point>
+      <Point>NAGIV</Point>
+      <Point>FRESA</Point>
+      <Point>XOVAB</Point>
+      <Point>XOTKI</Point>
+      <Point>PTJ</Point>
+      <Point>TLC</Point>
+      <Point>CVJ</Point>
+      <Point>TEQ</Point>
+
+      <!--V33-->
+      <Point>VER</Point>
+      <Point>OTILO</Point>
+      <Point>AMORA</Point>
+      <Point>MISAS</Point>
+      <Point>RETOM</Point>
+      <Point>OMATO</Point>
+      <Point>IZT</Point>
+
+      <!--V34-->
+      <Point>PAZ</Point>
+      <Point>PCA</Point>
+      <Point>SLM</Point>
+      <Point>PTJ</Point>
+      <Point>ANEVU</Point>
+      <Point>VERBA</Point>
+      <Point>UPN</Point>
+
+      <!--V35-->
+      <Point>MTY</Point>
+      <Point>EMAKI</Point>
+      <Point>REX</Point>
+
+      <!--V36-->
+      <Point>CPE</Point>
+      <Point>AXIMA</Point>
+      <Point>DANIS</Point>
+      <Point>CTM</Point>.
+
+      <!--V37-->
+      <Point>NLD</Point>
+      <Point>ILIGO</Point>
+      <Point>RIKAN</Point>
+      <Point>DAJOR</Point>
+      <Point>URTAN</Point>
+      <Point>MTY</Point>
+      <Point>UBVIV</Point>
+      <Point>RABAX</Point>
+      <Point>TRC</Point>
+      <Point>EMIMO</Point>
+      <Point>BOPEM</Point>
+      <Point>DGO</Point>
+      <Point>TAKNI</Point>
+      <Point>MAVED</Point>
+      <Point>TNY</Point>
+      <Point>ENEMI</Point>
+      <Point>PVR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <!--V6-->
+      <Point>SILAC</Point>
+
+      <!--V14-->
+      <Point>ERBOS</Point>
+
+      <!--V15-->
+      <Point>SILAC</Point>
+
+      <!--V18-->
+      <Point>TAKRO</Point>
+
+      <!--V37-->
+      <Point>BRISA</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangleWithBorder">
+      <!--R522-->
+      <Point>NUBEL</Point>
+
+      <!--V14-->
+      <Point>LIPEP</Point>
+
+      <!--V15E-->
+      <Point>PACOS</Point>
+
+      <!--V15W-->
+      <Point>KANOX</Point>
+
+      <!--V21-->
+      <Point>PACOS</Point>
+
+      <!--V24-->
+      <Point>OLULA</Point>
+
+      <!--V24-->
+      <Point>DOTOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangleWithBorder">
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="ALL_POINTS_LOW" Priority="1" Center="+204657.054-0865400.018">
+    <Label>
+      <Point>TAP</Point>
+      <Point>TECUN</Point>
+
+      <!--A552-->
+      <Point>TAM</Point>
+      <Point>NOTOR</Point>
+      <Point>PAZ</Point>
+      <Point>VER</Point>
+      <Point>IPTAK</Point>
+      <Point>MTT</Point>
+      <Point>URVOD</Point>
+      <Point>TGZ</Point>
+      <Point>KESLI</Point>
+      <Point>GABEN</Point>
+
+      <!--A758-->
+      <Point>MID</Point>
+      <Point>TAXTE</Point>
+      <Point>SIFTO</Point>
+      <Point>DANIS</Point>
+      <Point>VIDNO</Point>
+
+      <!--A766-->
+      <Point>KEHLI</Point>
+      <Point>SUVUM</Point>
+      <Point>LEVAT</Point>
+      <Point>ITLOM</Point>
+      <Point>IGTOM</Point>
+      <Point>MUXOG</Point>
+      <Point>AXEVU</Point>
+      <Point>VIGTU</Point>
+      <Point>VOBED</Point>
+      <Point>CZM</Point>
+      <Point>ITAKU</Point>
+      <Point>SIGMA</Point>
+
+      <!--A770-->
+      <Point>KEHLI</Point>
+      <Point>TABSA</Point>
+      <Point>BETAS</Point>
+      <Point>MEDIR</Point>
+      <Point>MESNA</Point>
+      <Point>NAPLA</Point>
+      <Point>SISAL</Point>
+      <Point>MID</Point>
+      <Point>PAGAY</Point>
+      <Point>CANOZ</Point>
+      <Point>AXIMA</Point>
+      <Point>UKORO</Point>
+
+      <!--B646-->
+      <Point>LENUK</Point>
+      <Point>XOPGI</Point>
+      <Point>ALSEG</Point>
+      <Point>AXEVU</Point>
+      <Point>SEBAK</Point>
+      <Point>GABOB</Point>
+      <Point>LIBAB</Point>
+      <Point>MID</Point>
+
+      <!--B753-->
+      <Point>MID</Point>
+      <Point>DUSLO</Point>
+      <Point>GREPE</Point>
+      <Point>TUGET</Point>
+      <Point>PIKRO</Point>
+
+      <!--B764-->
+      <Point>EMOSA</Point>
+      <Point>KESPO</Point>
+      <Point>CZM</Point>
+      <Point>DAXUM</Point>
+      <Point>ANEPU</Point>
+
+      <!--B879-->
+      <Point>NOSAT</Point>
+      <Point>XOPUT</Point>
+      <Point>LETIS</Point>
+      <Point>CUN</Point>
+      <Point>TEFMO</Point>
+      <Point>CZM</Point>
+
+      <!--B881-->
+      <Point>CUN</Point>
+      <Point>LIDEK</Point>
+      <Point>CZM</Point>
+      <Point>OBTAM</Point>
+      <Point>ANIKO</Point>
+
+      <!--G521-->
+      <Point>CZM</Point>
+      <Point>ITPIG</Point>
+      <Point>AMIDA</Point>
+
+      <!--G633-->
+      <Point>VSA</Point>
+      <Point>TAKAN</Point>
+      <Point>EMADA</Point>
+
+      <!--G757-->
+      <Point>CTM</Point>
+      <Point>KINAL</Point>
+
+      <!--G765-->
+      <Point>NUKAN</Point>
+      <Point>URTOK</Point>
+      <Point>IMOLO</Point>
+      <Point>DUMBU</Point>
+      <Point>BOTOP</Point>
+      <Point>CZM</Point>
+      <Point>OTEDI</Point>
+      <Point>PAULE</Point>
+      <Point>CTM</Point>
+
+      <!--R506-->
+      <Point>NUDAL</Point>
+      <Point>CONAR</Point>
+      <Point>IMOLO</Point>
+      <Point>DUGNI</Point>
+      <Point>CUN</Point>
+
+      <!--R522-->
+      <Point>ALURU</Point>
+      <Point>XOPGI</Point>
+      <Point>XORAR</Point>
+      <Point>LEURV</Point>
+      <Point>MUXOG</Point>
+      <Point>OMVOM</Point>
+      <Point>MESNA</Point>
+      <Point>MARUS</Point>
+      <Point>DUPAS</Point>
+      <Point>MUNDA</Point>
+      <Point>AXOMU</Point>
+      <Point>LIDED</Point>
+      <Point>PAZ</Point>
+
+      <!--R644-->
+      <Point>TAP</Point>
+      <Point>IMSAO</Point>
+
+      <!--V1-->
+      <Point>TIJ</Point>
+      <Point>KREPE</Point>
+      <Point>ENS</Point>
+      <Point>TOVES</Point>
+      <Point>SQN</Point>
+      <Point>GRN</Point>
+      <Point>LTO</Point>
+      <Point>TULES</Point>
+      <Point>LAP</Point>
+      <Point>AMARI</Point>
+      <Point>SJD</Point>
+      <Point>AVAVU</Point>
+      <Point>KINOL</Point>
+      <Point>ISLAS</Point>
+      <Point>MZT</Point>
+      <Point>XUBUD</Point>
+      <Point>OBRUG</Point>
+      <Point>KENDU</Point>
+      <Point>PVR</Point>
+      <Point>ALPAP</Point>
+      <Point>OBVIX</Point>
+      <Point>USBAK</Point>
+      <Point>ZLO</Point>
+      <Point>BEXIN</Point>
+      <Point>TADIR</Point>
+      <Point>TABRA</Point>
+      <Point>SEGIP</Point>
+      <Point>ZIH</Point>
+      <Point>AVURO</Point>
+      <Point>NICOS</Point>
+      <Point>ACA</Point>
+      <Point>KATRA</Point>
+      <Point>ANVAN</Point>
+      <Point>PXM</Point>
+      <Point>HUX</Point>
+      <Point>XOSLO</Point>
+      <Point>IZT</Point>
+      <Point>IMITO</Point>
+      <Point>VILGI</Point>
+      <Point>TAP</Point>
+      <Point>MARIX</Point>
+      <Point>CMT</Point>
+      <Point>PQE</Point>
+      <Point>EBLEV</Point>
+      <Point>TETUK</Point>
+      <Point>CME</Point>
+
+      <!--V1E-->
+      <Point>LTO</Point>
+      <Point>DASVU</Point>
+      <Point>PISET</Point>
+      <Point>LAP</Point>
+      <Point>DAPIS</Point>
+      <Point>XOPRU</Point>
+      <Point>SJD</Point>
+
+      <!--V1W-->
+      <Point>LTO</Point>
+      <Point>GODOY</Point>
+      <Point>ORCAS</Point>
+      <Point>LAP</Point>
+      <Point>TAMET</Point>
+      <Point>SJD</Point>
+
+      <!--V2-->
+      <Point>CUU</Point>
+      <Point>OKAMA</Point>
+      <Point>ANEGI</Point>
+      <Point>ELQ</Point>
+      <Point>VOKES</Point>
+      <Point>TRC</Point>
+      <Point>IPSAG</Point>
+      <Point>MURDU</Point>
+      <Point>MOV</Point>
+      <Point>TAGIB</Point>
+      <Point>NOTAL</Point>
+      <Point>TALBI</Point>
+      <Point>CAMUI</Point>
+      <Point>REX</Point>
+      <Point>IRBID</Point>
+      <Point>MAM</Point>
+
+      <!--V3-->
+      <Point>TIJ</Point>
+      <Point>ULDUD</Point>
+      <Point>DAPAN</Point>
+      <Point>TANRI</Point>
+      <Point>AVRIL</Point>
+      <Point>PPE</Point>
+      <Point>LIDUK</Point>
+      <Point>OMTIB</Point>
+      <Point>HMO</Point>
+      <Point>MIURA</Point>
+      <Point>SEBEK</Point>
+      <Point>USBEN</Point>
+      <Point>CEN</Point>
+      <Point>BAMPO</Point>
+      <Point>VESKI</Point>
+      <Point>LMM</Point>
+      <Point>INDIO</Point>
+      <Point>NUBIK</Point>
+      <Point>EVATE</Point>
+      <Point>CUL</Point>
+      <Point>DANOP</Point>
+      <Point>MELBO</Point>
+      <Point>GAMOS</Point>
+      <Point>MZT</Point>
+      <Point>ALILI</Point>
+      <Point>TNY</Point>
+      <Point>VOLUX</Point>
+      <Point>TIKIT</Point>
+      <Point>GDL</Point>
+      <Point>EBDEG</Point>
+      <Point>ONGEL</Point>
+      <Point>UPN</Point>
+      <Point>AXAKI</Point>
+      <Point>AVROX</Point>
+      <Point>ZIH</Point>
+      <Point>AVURO</Point>
+      <Point>NICOS</Point>
+      <Point>ACA</Point>
+      <Point>SELIS</Point>
+      <Point>AMIDI</Point>
+      <Point>MEMDI</Point>
+      <Point>OTSUT</Point>
+      <Point>OAX</Point>
+      <Point>ISTMO</Point>
+      <Point>AVINA</Point>
+      <Point>IZT</Point>
+      <Point>XOMSO</Point>
+      <Point>TGZ</Point>
+      <Point>OMVAB</Point>
+      <Point>GRUTA</Point>
+      <Point>VSA</Point>
+      <Point>AGAVE</Point>
+      <Point>PAVON</Point>
+      <Point>CME</Point>
+      <Point>CONTO</Point>
+      <Point>CPE</Point>
+      <Point>ELSIP</Point>
+      <Point>VOLEB</Point>
+      <Point>MID</Point>
+      <Point>USBUS</Point>
+      <Point>XUDUN</Point>
+      <Point>XOVAV</Point>
+      <Point>BUBUN</Point>
+      <Point>XOTNA</Point>
+      <Point>CUN</Point>
+
+      <!--V3S-->
+      <Point>GDL</Point>
+      <Point>NUBIG</Point>
+      <Point>NOTUP</Point>
+      <Point>TNY</Point>
+
+      <!--V4-->
+      <Point>LTO</Point>
+      <Point>DASVU</Point>
+      <Point>ENEKO</Point>
+      <Point>MARUX</Point>
+      <Point>SJD</Point>
+
+      <!--V5-->
+      <Point>CUL</Point>
+      <Point>OLEXU</Point>
+      <Point>MUVEN</Point>
+      <Point>XOSGI</Point>
+      <Point>MZT</Point>
+      <Point>ALILI</Point>
+      <Point>TNY</Point>
+      <Point>VOLUX</Point>
+      <Point>TIKIT</Point>
+      <Point>GDL</Point>|
+      <Point>OVALI</Point>
+      <Point>LONKU</Point>
+      <Point>VOGAS</Point>
+      <Point>REMIL</Point>
+      <Point>MLM</Point>
+      <Point>PAMAB</Point>
+      <Point>ANEVU</Point>
+      <Point>TAKUG</Point>
+      <Point>TLC</Point>
+      <Point>TUGOL</Point>
+      <Point>CUA</Point>
+
+      <!--V6-->
+      <Point>TTM</Point>
+      <Point>SILAC</Point>
+      <Point>TAKLA</Point>
+      <Point>TAM</Point>
+
+      <!--V7-->
+      <Point>ENS</Point>
+      <Point>KOBAM</Point>
+      <Point>URSEV</Point>
+      <Point>PPE</Point>
+      <Point>LIDUK</Point>
+      <Point>OMTIB</Point>
+      <Point>HMO</Point>
+      <Point>NOTOT</Point>
+      <Point>OMSUX</Point>
+      <Point>GYM</Point>
+      <Point>SUTNU</Point>
+      <Point>CEN</Point>
+
+      <!--V8-->
+      <Point>LMM</Point>
+      <Point>COPAS</Point>
+      <Point>OMSIB</Point>
+      <Point>XOMSA</Point>
+      <Point>LAP</Point>
+
+      <!--V9-->
+      <Point>CEN</Point>
+      <Point>ENATA</Point>
+      <Point>DURTU</Point>
+      <Point>LAP</Point>
+      <Point>TAMET</Point>
+      <Point>ATUMI</Point>
+      <Point>CSL</Point>
+
+      <!--V10-->
+      <Point>MAM</Point>
+      <Point>IRBID</Point>
+      <Point>REX</Point>
+      <Point>REALA</Point>
+      <Point>MTY</Point>
+      <Point>SLW</Point>
+      <Point>OMIXA</Point>
+      <Point>TETUN</Point>
+      <Point>TRC</Point>
+      <Point>XOTIN</Point>
+      <Point>VIKDO</Point>
+      <Point>DGO</Point>
+      <Point>LONRI</Point>
+      <Point>SAVOM</Point>
+      <Point>LIDIK</Point>
+      <Point>CUL</Point>
+      <Point>TOVER</Point>
+      <Point>ILAVI</Point>
+      <Point>ENEKO</Point>
+      <Point>MANUS</Point>
+      <Point>LAP</Point>
+
+      <!--V11-->
+      <Point>TRC</Point>
+      <Point>AVUVA</Point>
+      <Point>PESPA</Point>
+      <Point>CDR</Point>
+      <Point>LOMSA</Point>
+      <Point>IMODA</Point>
+      <Point>XOSIM</Point>
+      <Point>TTM</Point>
+      <Point>TMN</Point>
+      <Point>AVSAR</Point>
+      <Point>SLM</Point>
+      <Point>TLC</Point>
+      <Point>GADMU</Point>
+      <Point>TEQ</Point>
+      <Point>TADSI</Point>
+      <Point>NUXCO</Point>
+      <Point>ZIH</Point>
+
+      <!--V12-->
+      <Point>CVM</Point>
+      <Point>TEPAS</Point>
+      <Point>ITMAT</Point>
+      <Point>CDR</Point>
+      <Point>XORVO</Point>
+      <Point>DURPA</Point>
+      <Point>TUGIR</Point>
+      <Point>DGO</Point>
+      <Point>LONRI</Point>
+      <Point>SAVOM</Point>
+      <Point>LIDIK</Point>
+      <Point>CUL</Point>
+      <Point>XOMGA</Point>
+      <Point>IKBOR</Point>
+      <Point>LEPOM</Point>
+      <Point>GOSIM</Point>
+      <Point>MENVI</Point>
+      <Point>SJD</Point>
+      <Point>CSL</Point>
+      <Point>LETAT</Point>
+      <Point>URLET</Point>
+      <Point>GODOY</Point>
+      <Point>LTO</Point>
+
+      <!--V13-->
+      <Point>REX</Point>
+      <Point>CAMUI</Point>
+      <Point>ITPIS</Point>
+      <Point>MTY</Point>
+
+      <!--V14-->
+      <Point>PVR</Point>
+      <Point>LIPEP</Point>
+      <Point>DUNSU</Point>
+      <Point>GDL</Point>
+      <Point>KARUN</Point>
+      <Point>ERBOS</Point>
+      <Point>URVEM</Point>
+      <Point>FRESA</Point>
+      <Point>QET</Point>
+
+      <!--V14N-->
+      <Point>PVR</Point>
+      <Point>NOTUP</Point>
+      <Point>NUBIG</Point>
+      <Point>GDL</Point>
+
+      <!--V14S-->
+      <Point>PVR</Point>
+      <Point>VOLAT</Point>
+      <Point>DEBRO</Point>
+      <Point>GDL</Point>
+
+      <!--V15-->
+      <Point>PNG</Point>
+      <Point>ALUXO</Point>
+      <Point>USBAR</Point>
+      <Point>EMPIX</Point>
+      <Point>NOTAL</Point>
+      <Point>URTUS</Point>
+      <Point>MTY</Point>
+      <Point>CVM</Point>
+      <Point>TALPU</Point>
+      <Point>SILAC</Point>
+      <Point>TMN</Point>
+      <Point>PCA</Point>
+      <Point>SLM</Point>
+      <Point>MEX</Point>
+      <Point>DUXOP</Point>
+      <Point>TEQ</Point>
+      <Point>TEXCA</Point>
+      <Point>ACA</Point>
+
+      <!--V15E-->
+      <Point>TEQ</Point>
+      <Point>PACOS</Point>
+      <Point>ANALU</Point>
+      <Point>COTIL</Point>
+      <Point>ACA</Point>
+
+      <!--V15W-->
+      <Point>TEQ</Point>
+      <Point>KANOX</Point>
+      <Point>ALNUS</Point>
+      <Point>VELAS</Point>
+      <Point>ACA</Point>
+
+      <!--V16-->
+      <Point>AGU</Point>
+      <Point>ALIPA</Point>
+      <Point>TIDIL</Point>
+      <Point>AXOBI</Point>
+      <Point>MLM</Point>
+      <Point>VERBA</Point>
+      <Point>MAXUL</Point>
+      <Point>TEQ</Point>
+      <Point>AMEKU</Point>
+      <Point>GARES</Point>
+      <Point>TAMBI</Point>
+      <Point>OAX</Point>
+      <Point>XOSVO</Point>
+      <Point>KANAL</Point>
+      <Point>OMATO</Point>
+      <Point>MTT</Point>
+      <Point>NUKAR</Point>
+      <Point>VSA</Point>
+      <Point>AGAVE</Point>
+      <Point>PAVON</Point>
+      <Point>CME</Point>
+      <Point>CONTO</Point>
+      <Point>CPE</Point>
+      <Point>ILELA</Point>
+      <Point>URPUP</Point>
+      <Point>MID</Point>
+
+      <!--V18-->
+      <Point>PAZ</Point>
+      <Point>APN</Point>
+      <Point>MEX</Point>
+      <Point>TLC</Point>
+      <Point>ZARCO</Point>
+      <Point>TUZAS</Point>
+      <Point>UPN</Point>
+      <Point>TAKRO</Point>
+      <Point>COL</Point>
+      <Point>MEKLI</Point>
+      <Point>ZLO</Point>
+
+      <!--V19-->
+      <Point>NLD</Point>
+      <Point>ONKAL</Point>
+      <Point>SASES</Point>
+      <Point>NOTAL</Point>
+      <Point>URTUS</Point>
+      <Point>MTY</Point>
+      <Point>URSUR</Point>
+      <Point>KERGA</Point>
+      <Point>ITBEN</Point>
+      <Point>ONGUB</Point>
+      <Point>CVM</Point>
+      <Point>OTOBA</Point>
+      <Point>JEREZ</Point>
+      <Point>TAM</Point>
+      <Point>XOSOK</Point>
+      <Point>MUXEP</Point>
+      <Point>APN</Point>
+
+      <!--V20-->
+      <Point>NLD</Point>
+      <Point>NOTAK</Point>
+      <Point>USBAR</Point>
+      <Point>ITPUM</Point>
+      <Point>MOV</Point>
+      <Point>MURDU</Point>
+      <Point>IPSAG</Point>
+      <Point>TRC</Point>
+      <Point>RUBNA</Point>
+      <Point>ELOLU</Point>
+      <Point>SUSOV</Point>
+      <Point>MIVIS</Point>
+      <Point>DGO</Point>
+      <Point>UKIKI</Point>
+      <Point>LESIT</Point>
+      <Point>MZT</Point>
+      <Point>DUPOP</Point>
+      <Point>OLESI</Point>
+      <Point>KIPUM</Point>
+      <Point>MARUX</Point>
+      <Point>ONGEX</Point>
+      <Point>LAP</Point>
+
+      <!--V21-->
+      <Point>REX</Point>
+      <Point>AXANI</Point>
+      <Point>ELIXI</Point>
+      <Point>MALPA</Point>
+      <Point>CVM</Point>
+      <Point>TALPU</Point>
+      <Point>SILAC</Point>
+      <Point>TMM</Point>
+      <Point>PCA</Point>
+      <Point>APN</Point>
+      <Point>ALITA</Point>
+      <Point>PBC</Point>
+      <Point>TUMEN</Point>
+      <Point>CUA</Point>
+      <Point>AMEKU</Point>
+      <Point>PACOS</Point>
+      <Point>ANALU</Point>
+      <Point>COTIL</Point>
+      <Point>ACA</Point>
+
+      <!--V22-->
+      <Point>AGU</Point>
+      <Point>SETOS</Point>
+      <Point>AMOVA</Point>
+      <Point>BJX</Point>
+      <Point>AVRIK</Point>
+      <Point>MEDAB</Point>
+      <Point>URNAT</Point>
+      <Point>QET</Point>
+      <Point>TIKEB</Point>
+      <Point>SLM</Point>
+      <Point>ALKOM</Point>
+      <Point>APN</Point>
+      <Point>ALMET</Point>
+      <Point>TEVET</Point>
+      <Point>VER</Point>
+      <Point>IPTAK</Point>
+      <Point>DUPLO</Point>
+      <Point>MTT</Point>
+      <Point>URVOD</Point>
+      <Point>TGZ</Point>
+      <Point>LENOP</Point>
+      <Point>CMT</Point>
+
+      <!--V23-->
+      <Point>MOV</Point>
+      <Point>OBSEV</Point>
+      <Point>MTY</Point>
+      <Point>RETOS</Point>
+      <Point>SESNO</Point>
+      <Point>ESVUR</Point>
+      <Point>CVM</Point>
+      <Point>CUEVA</Point>
+      <Point>NADOR</Point>
+      <Point>XOXAD</Point>
+      <Point>XORMA</Point>
+      <Point>TAM</Point>
+      <Point>NOTOR</Point>
+      <Point>PAZ</Point>
+      <Point>VER</Point>
+      <Point>IMARA</Point>
+      <Point>ELOGO</Point>
+      <Point>ALUEN</Point>
+      <Point>YOLKO</Point>
+      <Point>VSA</Point>
+      <Point>SIKDI</Point>
+      <Point>CMT</Point>
+
+      <!--V24-->
+      <Point>CUA</Point>
+      <Point>TEQ</Point>
+      <Point>LENEG</Point>
+      <Point>ILENA</Point>
+      <Point>OLULA</Point>
+      <Point>ZIH</Point>
+
+      <!--V25-->
+      <Point>MAM</Point>
+      <Point>AXIPU</Point>
+      <Point>NUGUS</Point>
+      <Point>DUSPI</Point>
+      <Point>MAPIL</Point>
+      <Point>TAM</Point>
+      <Point>LETIL</Point>
+      <Point>PIVOL</Point>
+      <Point>PCA</Point>
+      <Point>ALKOM</Point>
+      <Point>OTMOS</Point>
+      <Point>CUA</Point>
+
+      <!--V26-->
+      <Point>NLD</Point>
+      <Point>XOVES</Point>
+      <Point>RUDMA</Point>
+      <Point>MTY</Point>
+      <Point>URTOB</Point>
+      <Point>BEROS</Point>
+      <Point>CDR</Point>
+      <Point>EMUDA</Point>
+      <Point>ZCL</Point>
+      <Point>MITIM</Point>
+      <Point>RABIL</Point>
+      <Point>GOYAS</Point>
+      <Point>EMIGU</Point>
+      <Point>IRBEK</Point>
+      <Point>TIDEK</Point>
+      <Point>ZLO</Point>
+
+      <!--V26W-->
+      <Point>GDL</Point>
+      <Point>USBIM</Point>
+      <Point>IGROT</Point>
+      <Point>UDLOG</Point>
+      <Point>ZLO</Point>
+
+      <!--V27-->
+      <Point>LTO</Point>
+      <Point>NUDIL</Point>
+      <Point>LMM</Point>
+      <Point>INDIO</Point>
+      <Point>NUBIK</Point>
+      <Point>EVATE</Point>
+      <Point>CUL</Point>
+      <Point>LIDIK</Point>
+      <Point>SAVOM</Point>
+      <Point>LONRI</Point>
+      <Point>DGO</Point>
+      <Point>SEKUB</Point>
+      <Point>XOLGA</Point>
+      <Point>ESTIV</Point>
+      <Point>ZCL</Point>
+      <Point>CUL</Point>
+      <Point>LIDIK</Point>
+      <Point>SAVOM</Point>
+      <Point>LONRI</Point>
+      <Point>DGO</Point>
+      <Point>SEKUB</Point>
+      <Point>XOLGA</Point>
+      <Point>ESTIV</Point>
+      <Point>ZCL</Point>
+      <Point>TEDZI</Point>
+      <Point>AGU</Point>
+      <Point>ANILA</Point>
+      <Point>MANTA</Point>
+      <Point>UKIRO</Point>
+      <Point>ONBIK</Point>
+      <Point>QET</Point>
+      <Point>XUKVA</Point>
+      <Point>XOVAB</Point>
+      <Point>ANEVU</Point>
+      <Point>TAKUG</Point>
+      <Point>TLC</Point>
+      <Point>GADMU</Point>
+      <Point>TEQ</Point>
+      <Point>AMEKU</Point>
+      <Point>GARES</Point>
+      <Point>TABMI</Point>
+      <Point>OAX</Point>
+      <Point>XONTA</Point>
+      <Point>HUX</Point>
+
+      <!--V27E-->
+      <Point>OAX</Point>
+      <Point>KESGO</Point>
+      <Point>NUDOS</Point>
+      <Point>HUX</Point>
+
+      <!--V28-->
+      <Point>MLM</Point>
+      <Point>GADET</Point>
+      <Point>PTJ</Point>
+      <Point>TLC</Point>
+      <Point>MEX</Point>
+      <Point>APN</Point>
+      <Point>REXES</Point>
+      <Point>IKLES</Point>
+      <Point>ONBAD</Point>
+      <Point>VER</Point>
+      <Point>AXELI</Point>
+      <Point>NOREL</Point>
+      <Point>BASKO</Point>
+      <Point>PIGNO</Point>
+      <Point>CME</Point>
+      <Point>DUTKA</Point>
+      <Point>CTM</Point>
+
+      <!--V29-->
+      <Point>PAZ</Point>
+      <Point>LIDAR</Point>
+      <Point>AMORA</Point>
+      <Point>VER</Point>
+      <Point>LEXUR</Point>
+      <Point>MASAS</Point>
+      <Point>PXM</Point>
+
+      <!--V30-->
+      <Point>CZM</Point>
+      <Point>OKUVA</Point>
+      <Point>AVSIM</Point>
+      <Point>CPE</Point>
+      <Point>CONTO</Point>
+      <Point>CME</Point>
+
+      <!--V31-->
+      <Point>MTT</Point>
+      <Point>IZT</Point>
+
+      <!--V32-->
+      <Point>GDL</Point>
+      <Point>XORID</Point>
+      <Point>AMORA</Point>
+      <Point>VER</Point>
+      <Point>LEXUR</Point>
+      <Point>MASAS</Point>
+      <Point>PXM</Point>
+      <Point>NAGIV</Point>
+      <Point>FRESA</Point>
+      <Point>XOVAB</Point>
+      <Point>XOTKI</Point>
+      <Point>PTJ</Point>
+      <Point>TLC</Point>
+      <Point>CVJ</Point>
+      <Point>TEQ</Point>
+
+      <!--V33-->
+      <Point>VER</Point>
+      <Point>OTILO</Point>
+      <Point>AMORA</Point>
+      <Point>MISAS</Point>
+      <Point>RETOM</Point>
+      <Point>OMATO</Point>
+      <Point>IZT</Point>
+
+      <!--V34-->
+      <Point>PAZ</Point>
+      <Point>PCA</Point>
+      <Point>SLM</Point>
+      <Point>PTJ</Point>
+      <Point>ANEVU</Point>
+      <Point>VERBA</Point>
+      <Point>UPN</Point>
+
+      <!--V35-->
+      <Point>MTY</Point>
+      <Point>EMAKI</Point>
+      <Point>DOTOR</Point>
+      <Point>REX</Point>
+
+      <!--V36-->
+      <Point>CPE</Point>
+      <Point>AXIMA</Point>
+      <Point>DANIS</Point>
+      <Point>CTM</Point>.
+
+      <!--V37-->
+      <Point>NLD</Point>
+      <Point>ILIGO</Point>
+      <Point>RIKAN</Point>
+      <Point>DAJOR</Point>
+      <Point>URTAN</Point>
+      <Point>MTY</Point>
+      <Point>UBVIV</Point>
+      <Point>RABAX</Point>
+      <Point>TRC</Point>
+      <Point>EMIMO</Point>
+      <Point>BOPEM</Point>
+      <Point>DGO</Point>
+      <Point>TAKNI</Point>
+      <Point>MAVED</Point>
+      <Point>BRISA</Point>
+      <Point>TNY</Point>
+      <Point>ENEMI</Point>
+      <Point>PVR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="ALL_POINTS_HIGH" Priority="1" Center="+204657.054-0865400.018">
+    <Label>
+      <Point>LOCKA</Point>
+    </Label>
+  </Map>
+</Maps>
