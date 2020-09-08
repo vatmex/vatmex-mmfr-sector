@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Cancun Approach" Type="ASD" DefaultCenter="+210235.014-0865232.438" DefaultRange="400">
+   <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="3" MagneticVariation="-8">
+    <Maps>
+      <Map Name="ASMGCS_YPAD_RWY" />
+      <Map Name="ASMGCS_YPAD_TWY" />
+      <Map Name="ASMGCS_YPAD_APR" />
+      <Map Name="ASMGCS_YPAD_BLD" />
+    </Maps>
+  </Position>
+   <Position Name="Cancun Approach" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="400">
     <Sectors>
-      <Sector Name="CUA" />
+      <Sector Name="UNA" />
     </Sectors>
     <Maps>
       <Map Name="ALL_TMA" />
