@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Sector FullName="Cancun Clearance" Frequency="124.7" Callsign="MMUN_DEL" Name="UND" />
-  <Sector FullName="Cancun Ground" Frequency="121.0" Callsign="MMUN_GND" Name="UNG" />
-  <Sector FullName="Cancun Tower" Frequency="118.1" Callsign="MMUN_TWR" Name="UNT" />
-  <Sector FullName="Cancun Approach" Frequency="124.7" Callsign="MMUN_APP" Name="UNA" >
-    <Volumes>UNA</Volumes>
+  <Sector FullName="Cancun Clearance" Frequency="124.725" Callsign="MMUN_DEL" Name="MMUN_DEL" />
+  <Sector FullName="Cancun Ground" Frequency="121.000" Callsign="MMUN_GND" Name="MMUN_GND" />
+  <Sector FullName="Cancun Tower" Frequency="118.100" Callsign="MMUN_TWR" Name="MMUN_TWR" />
+  <Sector FullName="Cancun Approach" Frequency="124.700" Callsign="MMUN_APP" Name="MMUN_APP" >
+    <Volumes>MMUN_APP</Volumes>
+  </Sector>
+  <Sector FullName="Centro Merida" Frequency="128.300" Callsign="MMID_CTR" Name="MMID_CTR" >
+    <Volumes>MMID_CTR</Volumes>
   </Sector>
 </Sectors>
