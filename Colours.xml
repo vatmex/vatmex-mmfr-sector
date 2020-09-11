@@ -94,9 +94,9 @@
   <Colour id="Warning">
 		<Use>Warning Indications</Use>
 		<Name>BrightYellow</Name>
-		<R>255</R>
-		<G>255</G>
-		<B>0</B>
+		<R>210</R>
+    <G>148</G>
+    <B>68</B>
 	</Colour>
   <Colour id="VSCSBackground">
     <Use>VSCS Background</Use>
@@ -157,12 +157,9 @@
   <Colour id="VSCSButtonDepressed">
     <Use>VSCS Generic Buttons</Use>
     <Name>DarkGrey</Name>
-<!--    <R>90</R>
-    <G>90</G>
-    <B>90</B>-->
-	<R>130</R>
-	<G>146</G>
-	<B>146</B>
+  	<R>130</R>
+  	<G>146</G>
+  	<B>146</B>
   </Colour>
   <Colour id="VSCSButtonSelected">
     <Use>VSCS Buttons that are selected / highlighted</Use>
@@ -178,12 +175,13 @@
 		<G>90</G>
 		<B>90</B>
 	</Colour>
+  <!--Sector Inactivo-->
   <Colour id="ASDBackground">
 		<Use>ASD Backgrounds</Use>
-		<Name>MidGrey</Name>
-		<R>127</R>
-		<G>127</G>
-		<B>127</B>
+		<Name>DarkBlue</Name>
+		<R>6</R>
+		<G>21</G>
+		<B>33</B>
 	</Colour>
   <Colour id="CPDLCSendButton">
 		<Use>CPDLC Hot-Send Button</Use>
@@ -202,9 +200,9 @@
 	<Colour id="Jurisdiction">
 		<Use>Jurisdiction</Use>
 		<Name>LightGreen</Name>
-		<R>200</R>
-		<G>255</G>
-		<B>200</B>
+		<R>119</R>
+		<G>198</G>
+		<B>136</B>
 	</Colour>
   <Colour id="GhostJurisdiction">
     <Use>GhostJurisdiction</Use>
@@ -251,9 +249,9 @@
   <Colour id="NonJurisdiction">
 		<Use>Non Jurisdiction Tracks and Strips</Use>
 		<Name>Black</Name>
-		<R>0</R>
-		<G>0</G>
-		<B>0</B>
+		<R>187</R>
+		<G>187</G>
+		<B>187</B>
 	</Colour>
   <Colour id="NonJurisdictionLabel">
 		<Use>Non Jurisdiction Labels</Use>
@@ -335,30 +333,31 @@
   <Colour id="UserMap">
     <Use>Custom Maps and Text</Use>
     <Name>Yellow</Name>
-    <R>235</R>
-    <G>235</G>
-    <B>0</B>
+    <R>210</R>
+    <G>148</G>
+    <B>68</B>
   </Colour>
   <Colour id="PrimaryMap">
 		<Use>System Maps</Use>
-		<Name>DarkGrey</Name>
-		<R>90</R>
-		<G>90</G>
+		<Name>LightBlue</Name>
+		<R>37</R>
+		<G>72</G>
 		<B>90</B>
 	</Colour>
+  <!--Sector Activo-->
   <Colour id="Infill">
 		<Use>Filled Area Map</Use>
 		<Name>MidGrey</Name>
-		<R>133</R>
-		<G>133</G>
-		<B>133</B>
+		<R>5</R>
+    <G>17</G>
+    <B>27</B>
 	</Colour>
   <Colour id="SecondaryMap">
 		<Use>Alternative System Map</Use>
-		<Name>BlueGrey</Name>
-		<R>145</R>
-		<G>178</G>
-		<B>177</B>
+		<Name>White</Name>
+		<R>153</R>
+		<G>153</G>
+		<B>153</B>
 	</Colour>
   <Colour id="GroundRunway">
     <Use>A-SMGCS Runway</Use>
@@ -436,5 +435,13 @@
     <R>235</R>
     <G>235</G>
     <B>0</B>
+  </Colour>
+  <!--Cobertura Radar Aerovías-->
+  <Colour id="Custom">
+    <Use>Radar Airways</Use>
+    <Name>RadarAirway</Name>
+    <R>4</R>
+    <G>8</G>
+    <B>11</B>
   </Colour>
 </Colours>

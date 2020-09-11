@@ -38,15 +38,16 @@
   </Position>
   <Position Name="Centro Merida" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="1200">
     <Sectors>
+      <Sector Name="MMID_CTR" />
     </Sectors>
     <Maps>
-      <Map Name="ALL_POINTS_LOW" />
-      <Map Name="ALL_ROUTES_LOW" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="ALL_ROUTES_HIGH" />
       <Map Name="ALL_TMA" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_TMA" />
-      <Map Name="MMID_RADAR_AIRWAYS" />
-      <Map Name="Cancun/MMUN_TMA" />
+      <Map Name="ALL_COAST" />
+      <Map Name="ALL_RADAR_AIRWAYS" />
+
+      <Map Name="MMID_FIR_LIMITS" />
     </Maps>
     <ATIS>
       <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
