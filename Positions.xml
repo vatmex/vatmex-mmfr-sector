@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="3" MagneticVariation="-8">
+   <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210229.00-0865224.000" DefaultRange="3" MagneticVariation="+2">
     <Maps>
-      <Map Name="ASMGCS_YPAD_RWY" />
-      <Map Name="ASMGCS_YPAD_TWY" />
-      <Map Name="ASMGCS_YPAD_APR" />
-      <Map Name="ASMGCS_YPAD_BLD" />
+      <Map Name="ASMGCS_MMUN_RWY" />
+      <Map Name="ASMGCS_MMUN_APR" />
+      <Map Name="ASMGCS_MMUN_TWY" />
+      <Map Name="ASMGCS_MMUN_BLD" />
     </Maps>
   </Position>
-   <Position Name="Cancun Approach" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="400">
+  <Position Name="Aproximación Cancún" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="400">
     <Sectors>
-      <Sector Name="UNA" />
+      <Sector Name="MMUN_APP" />
     </Sectors>
     <Maps>
       <Map Name="ALL_TMA" />
       <Map Name="Cancun/MMUN_TMA" />
       <Map Name="Cancun/MMUN_12S_ARR" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+      <Window Airport="MMUN" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="24000">
+      <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMUN" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Cancun Approach</Line>
+      <Line>ATIS available on 127.700</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Centro Merida" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="1200">
+    <Sectors>
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_POINTS_LOW" />
+      <Map Name="ALL_ROUTES_LOW" />
+      <Map Name="ALL_TMA" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_TMA" />
+      <Map Name="MMID_RADAR_AIRWAYS" />
+      <Map Name="Cancun/MMUN_TMA" />
     </Maps>
     <ATIS>
       <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
