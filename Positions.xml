@@ -2,10 +2,10 @@
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210229.00-0865224.000" DefaultRange="3" MagneticVariation="+2">
     <Maps>
-      <Map Name="ASMGCS_MMUN_RWY" />
-      <Map Name="ASMGCS_MMUN_APR" />
-      <Map Name="ASMGCS_MMUN_TWY" />
-      <Map Name="ASMGCS_MMUN_BLD" />
+      <Map Name="MMID/ASMGCS_MMUN_RWY" />
+      <Map Name="MMID/ASMGCS_MMUN_APR" />
+      <Map Name="MMID/ASMGCS_MMUN_TWY" />
+      <Map Name="MMID/ASMGCS_MMUN_BLD" />
     </Maps>
   </Position>
   <Position Name="Aproximación Cancún" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="400">
@@ -13,9 +13,17 @@
       <Sector Name="MMUN_APP" />
     </Sectors>
     <Maps>
-      <Map Name="ALL_TMA" />
       <Map Name="Cancun/MMUN_TMA" />
       <Map Name="Cancun/MMUN_12S_ARR" />
+      <Map Name="Cancun/MMUN_12S_ARR_NAMES" />
+      <Map Name="Cancun/MMUN_12S_RNAV_DEPS" />
+      <Map Name="Cancun/MMUN_12S_RNAV_DEPS_NAMES" />
+
+      <Map Name="MMID/MMID_FIR_LIMITS" />
+
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_COAST" />
+      <Map Name="ALL_RADAR_AIRWAYS" />
     </Maps>
     <ATIS>
       <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
@@ -43,11 +51,14 @@
     <Maps>
       <Map Name="ALL_POINTS_HIGH" />
       <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_RNAV" />
+      <Map Name="ALL_ROUTES_RNAV" />
       <Map Name="ALL_TMA" />
       <Map Name="ALL_COAST" />
       <Map Name="ALL_RADAR_AIRWAYS" />
 
-      <Map Name="MMID_FIR_LIMITS" />
+      <Map Name="MMID/MMID_FIR_LIMITS" />
+      <Map Name="MMID/MMID_VECTORS_NORTHWEST" />
     </Maps>
     <ATIS>
       <Editor Airport="MMUN" Frequency="127.7" Server="NA" />

@@ -1,11 +1,210 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Radars>
-  <Radar Name="Cancun TMA" Type="PRI" Elevation="30" MaxRange="255">
-    <Lat>21.040832</Lat>
-    <Long>-86.8735444</Long>
+  <Radar Name="Alacranes" Type="PRI" Elevation="50" MaxRange="255">
+    <Lat>22.417932</Lat>
+    <Long>19.834998</Long>
   </Radar>
-  <Radar Name="Cancun TMA" Type="SSR_ModeC" Elevation="30" MaxRange="255">
-    <Lat>21.040832</Lat>
-    <Long>-86.8735444</Long>
+  <Radar Name="Alacranes" Type="SSR_ModeC" Elevation="50" MaxRange="255">
+    <Lat>22.417932</Lat>
+    <Long>19.834998</Long>
+  </Radar>
+  <Radar Name="Alacranes" Type="ADSB" Elevation="50" MaxRange="255">
+    <Lat>22.417932</Lat>
+    <Long>19.834998</Long>
+  </Radar>
+
+  <Radar Name="Campeche" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>19.834998</Lat>
+    <Long>-90.509445</Long>
+  </Radar>
+  <Radar Name="Campeche" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>19.834998</Lat>
+    <Long>-90.509445</Long>
+  </Radar>
+  <Radar Name="Campeche" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>19.834998</Lat>
+    <Long>-90.509445</Long>
+  </Radar>
+
+  <Radar Name="Cancun" Type="PRI" Elevation="30" MaxRange="255">
+    <Lat>21.04042</Lat>
+    <Long>-86.874435</Long>
+  </Radar>
+  <Radar Name="Cancun" Type="SSR_ModeC" Elevation="30" MaxRange="255">
+    <Lat>21.04042</Lat>
+    <Long>-86.874435</Long>
+  </Radar>
+  <Radar Name="Cancun" Type="ADSB" Elevation="30" MaxRange="255">
+    <Lat>21.04042</Lat>
+    <Long>-86.874435</Long>
+  </Radar>
+
+  <Radar Name="Chetumal" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>18.481941</Lat>
+    <Long>-88.333336</Long>
+  </Radar>
+  <Radar Name="Chetumal" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>18.481941</Lat>
+    <Long>-88.333336</Long>
+  </Radar>
+  <Radar Name="Chetumal" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>18.481941</Lat>
+    <Long>-88.333336</Long>
+  </Radar>
+
+  <Radar Name="Chichen Itza" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>20.666665</Lat>
+    <Long>-88.566666</Long>
+  </Radar>
+  <Radar Name="Chichen Itza" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>20.666665</Lat>
+    <Long>-88.566666</Long>
+  </Radar>
+  <Radar Name="Chichen Itza" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>20.666665</Lat>
+    <Long>-88.566666</Long>
+  </Radar>
+
+  <Radar Name="Ciudad del Carmen" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>18.651028</Lat>
+    <Long>-91.802734</Long>
+  </Radar>
+  <Radar Name="Ciudad del Carmen" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>18.651028</Lat>
+    <Long>-91.802734</Long>
+  </Radar>
+  <Radar Name="Ciudad del Carmen" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>18.651028</Lat>
+    <Long>-91.802734</Long>
+  </Radar>
+
+  <Radar Name="Cozumel" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>20.511198</Lat>
+    <Long>-86.930466</Long>
+  </Radar>
+  <Radar Name="Cozumel" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>20.511198</Lat>
+    <Long>-86.930466</Long>
+  </Radar>
+  <Radar Name="Cozumel" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>20.511198</Lat>
+    <Long>-86.930466</Long>
+  </Radar>
+
+  <Radar Name="Lagarto" Type="PRI" Elevation="4" MaxRange="255">
+    <Lat>21.618175</Lat>
+    <Long>-88.158588</Long>
+  </Radar>
+  <Radar Name="Lagarto" Type="SSR_ModeC" Elevation="4" MaxRange="255">
+    <Lat>21.618175</Lat>
+    <Long>-88.158588</Long>
+  </Radar>
+  <Radar Name="Lagarto" Type="ADSB" Elevation="4" MaxRange="255">
+    <Lat>21.618175</Lat>
+    <Long>-88.158588</Long>
+  </Radar>
+
+  <Radar Name="Merida" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>20.933727</Lat>
+    <Long>-89.66375</Long>
+  </Radar>
+  <Radar Name="Merida" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>20.933727</Lat>
+    <Long>-89.66375</Long>
+  </Radar>
+  <Radar Name="Merida" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>20.933727</Lat>
+    <Long>-89.66375</Long>
+  </Radar>
+
+  <Radar Name="Minatitlan" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>18.260653</Lat>
+    <Long>-94.471436</Long>
+  </Radar>
+  <Radar Name="Minatitlan" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>18.260653</Lat>
+    <Long>-94.471436</Long>
+  </Radar>
+  <Radar Name="Minatitlan" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>18.260653</Lat>
+    <Long>-94.471436</Long>
+  </Radar>
+
+  <Radar Name="Palenque" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>17.533055</Lat>
+    <Long>-92.015555</Long>
+  </Radar>
+  <Radar Name="Palenque" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>17.533055</Lat>
+    <Long>-92.015555</Long>
+  </Radar>
+  <Radar Name="Palenque" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>17.533055</Lat>
+    <Long>-92.015555</Long>
+  </Radar>
+
+  <Radar Name="Sisal" Type="PRI" Elevation="3" MaxRange="255">
+    <Lat>21.166333</Lat>
+    <Long>-90.024719</Long>
+  </Radar>
+  <Radar Name="Sisal" Type="SSR_ModeC" Elevation="3" MaxRange="255">
+    <Lat>21.166333</Lat>
+    <Long>-90.024719</Long>
+  </Radar>
+  <Radar Name="Sisal" Type="ADSB" Elevation="3" MaxRange="255">
+    <Lat>21.166333</Lat>
+    <Long>-90.024719</Long>
+  </Radar>
+
+  <Radar Name="Tapachula" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>14.90972</Lat>
+    <Long>-92.25306</Long>
+  </Radar>
+  <Radar Name="Tapachula" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>14.90972</Lat>
+    <Long>-92.25306</Long>
+  </Radar>
+  <Radar Name="Tapachula" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>14.90972</Lat>
+    <Long>-92.25306</Long>
+  </Radar>
+
+  <Radar Name="Tlacotepec" Type="PRI" Elevation="950" MaxRange="255">
+    <Lat>16.534354</Lat>
+    <Long>-95.221081</Long>
+  </Radar>
+  <Radar Name="Tlacotepec" Type="SSR_ModeC" Elevation="950" MaxRange="255">
+    <Lat>16.534354</Lat>
+    <Long>-95.221081</Long>
+  </Radar>
+  <Radar Name="Tlacotepec" Type="ADSB" Elevation="950" MaxRange="255">
+    <Lat>16.534354</Lat>
+    <Long>-95.221081</Long>
+  </Radar>
+
+  <Radar Name="Tuxtla" Type="PRI" Elevation="950" MaxRange="255">
+    <Lat>16.789751</Lat>
+    <Long>-93.159256</Long>
+  </Radar>
+  <Radar Name="Tuxtla" Type="SSR_ModeC" Elevation="950" MaxRange="255">
+    <Lat>16.789751</Lat>
+    <Long>-93.159256</Long>
+  </Radar>
+  <Radar Name="Tuxtla" Type="ADSB" Elevation="950" MaxRange="255">
+    <Lat>16.789751</Lat>
+    <Long>-93.159256</Long>
+  </Radar>
+
+  <Radar Name="Villahermosa" Type="PRI" Elevation="366" MaxRange="255">
+    <Lat>17.992428</Lat>
+    <Long>-92.818985</Long>
+  </Radar>
+  <Radar Name="Villahermosa" Type="SSR_ModeC" Elevation="366" MaxRange="255">
+    <Lat>17.992428</Lat>
+    <Long>-92.818985</Long>
+  </Radar>
+  <Radar Name="Villahermosa" Type="ADSB" Elevation="366" MaxRange="255">
+    <Lat>17.992428</Lat>
+    <Long>-92.818985</Long>
   </Radar>
 </Radars>
