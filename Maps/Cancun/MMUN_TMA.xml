@@ -4,11 +4,11 @@
     <!--MMUN-->
     <Runway Name="12L/30R">
       <Threshold Name="12L" Position="+210316.96-0865252.928" ExtendedCentrelineTrack="304" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="30R" Position="+210226.48-0865132.494" ExtendedCentrelineTrack="124" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30R" Position="+210226.48-0865132.494" ExtendedCentrelineTrack="124" ExtendedCentrelineLength="0" ExtendedCentrelineTickInterval="0" />
     </Runway>
     <Runway Name="12R/30L">
       <Threshold Name="12R" Position="+210243.08-0865327.611" ExtendedCentrelineTrack="304" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="30L" Position="+210140.12-0865146.94" ExtendedCentrelineTrack="124" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30L" Position="+210140.12-0865146.94" ExtendedCentrelineTrack="124" ExtendedCentrelineLength="0" ExtendedCentrelineTickInterval="0" />
     </Runway>
     <!--MMCZ-->
     <Runway Name="12/30">
@@ -20,5 +20,60 @@
       <Threshold Name="30L" Position="+203218.70-0865459.299" ExtendedCentrelineTrack="057" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--Airway Routes-->
+    <Line Name="12L_APPROACH_LINE" Pattern="Broken">
++210308.657-0865239.113/
++213639.012-0874552.763</Line>
+    <Line Name="12L_APPROACH_60" Pattern="Broken">
++212834.386-0874901.323/
++213026.196-0874800.284/
++213215.948-0874655.102/
++213403.511-0874545.855/
++213548.753-0874432.629/
++213731.545-0874315.513/
++213911.763-0874154.599/
++214049.284-0874029.988/
++214223.990-0873901.781</Line>
+    <Line Name="12L_APPROACH_50" Pattern="Solid">
++212411.722-0873924.315/
++212544.896-0873833.450/
++212716.357-0873739.131/
++212845.992-0873641.426/
++213013.694-0873540.404/
++213139.354-0873436.140/
++213302.869-0873328.712/
++213424.136-0873218.203/
++213543.058-0873104.698</Line>
+    <Line Name="12L_APPROACH_40" Pattern="Broken">
++211949.057-0872947.308/
++212103.597-0872906.616/
++212216.765-0872823.161/
++212328.474-0872736.997/
++212438.635-0872648.179/
++212547.163-0872556.768/
++212653.975-0872502.826/
++212758.989-0872406.418/
++212902.126-0872307.614</Line>
+    <Line Name="12L_APPROACH_30" Pattern="Solid">
++211526.392-0872010.301/
++211622.297-0871939.782/
++211717.173-0871907.191/
++211810.955-0871832.567/
++211903.576-0871755.954/
++211954.972-0871717.396/
++212045.081-0871636.939/
++212133.841-0871554.634/
++212221.194-0871510.530</Line>
+    <Line Name="12L_APPROACH_20" Pattern="Broken">
++211025.818-0871052.234/
++211103.728-0871033.294/
++211140.998-0871012.948/
++211217.582-0870951.220/
++211253.436-0870928.138/
++211328.517-0870903.729/
++211402.781-0870838.024/
++211436.187-0870811.053/
++211508.694-0870742.849/
++211540.262-0870713.447/
++211610.854-0870642.882</Line>
   </Map>
 </Maps>
