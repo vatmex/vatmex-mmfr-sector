@@ -79,4 +79,47 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
+
+  <Position Name="Centro México" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000">
+    <Sectors>
+      <Sector Name="MMEX_1_CTR" />
+      <Sector Name="MMEX_2_CTR" />
+      <Sector Name="MMEX_3_CTR" />
+      <Sector Name="MMEX_4_CTR" />
+      <Sector Name="MMEX_5_CTR" />
+      <Sector Name="MMEX_6_CTR" />
+      <Sector Name="MMEX_7_CTR" />
+      <Sector Name="MMEX_8_CTR" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_RNAV" />
+      <Map Name="ALL_ROUTES_RNAV" />
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_COAST" />
+      <Map Name="ALL_RADAR_AIRWAYS" />
+
+      <Map Name="MMEX/MMEX_FIR_LIMITS" />
+      <Map Name="MMEX/MMEX_VECTORS_NORTH" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
+      <Window Airport="MMMX" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="27000">
+      <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMMX" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Cancun Approach</Line>
+      <Line>ATIS available on 127.700</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
 </Positions>
