@@ -21,9 +21,9 @@
 
       <Map Name="MMID/MMID_FIR_LIMITS" />
 
-      <Map Name="ALL_TMA" />
-      <Map Name="ALL_COAST" />
-      <Map Name="ALL_RADAR_AIRWAYS" />
+      <Map Name="ALL/ALL_TMA" />
+      <Map Name="ALL/ALL_COAST" />
+      <Map Name="ALL/ALL_RADAR_AIRWAYS" />
     </Maps>
     <ATIS>
       <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
@@ -49,16 +49,15 @@
       <Sector Name="MMID_CTR" />
     </Sectors>
     <Maps>
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_RNAV" />
-      <Map Name="ALL_ROUTES_RNAV" />
-      <Map Name="ALL_TMA" />
-      <Map Name="ALL_COAST" />
-      <Map Name="ALL_RADAR_AIRWAYS" />
+      <Map Name="ALL/ALL_POINTS_HIGH" />
+      <Map Name="ALL/ALL_ROUTES_HIGH" />
+      <Map Name="ALL/ALL_POINTS_RNAV" />
+      <Map Name="ALL/ALL_ROUTES_RNAV" />
+      <Map Name="ALL/ALL_TMA" />
+      <Map Name="ALL/ALL_COAST" />
+      <Map Name="ALL/ALL_RADAR_AIRWAYS" />
 
       <Map Name="MMID/MMID_FIR_LIMITS" />
-      <Map Name="MMID/MMID_VECTORS_NORTHWEST" />
     </Maps>
     <ATIS>
       <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
@@ -99,11 +98,12 @@
       <Map Name="Guadalajara/MMGL_RWY_28" />
       <Map Name="Guadalajara/MMGL_28_ARR" />
       <Map Name="Guadalajara/MMGL_28_ARR_NAMES" />
-      <Map Name="MMEX/MMEX_FIR_LIMITS" />
 
-      <Map Name="ALL_TMA" />
-      <Map Name="ALL_COAST" />
-      <Map Name="ALL_RADAR_AIRWAYS" />
+      <Map Name="ACC MMEX/MMEX_FIR_LIMITS" />
+
+      <Map Name="ALL/ALL_TMA" />
+      <Map Name="ALL/ALL_COAST" />
+      <Map Name="ALL/ALL_RADAR_AIRWAYS" />
     </Maps>
     <ATIS>
       <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
@@ -144,9 +144,9 @@
       <Map Name="Veracruz/MMGL_01_ARR_NAMES" />
       <Map Name="MMEX/MMEX_FIR_LIMITS" />
 
-      <Map Name="ALL_TMA" />
-      <Map Name="ALL_COAST" />
-      <Map Name="ALL_RADAR_AIRWAYS" />
+      <Map Name="ALL/ALL_TMA" />
+      <Map Name="ALL/ALL_COAST" />
+      <Map Name="ALL/ALL_RADAR_AIRWAYS" />
     </Maps>
     <ATIS>
       <Editor Airport="MMVR" Frequency="127.9" Server="NA" />
@@ -179,17 +179,16 @@
       <Sector Name="MMEX_8_CTR" />
     </Sectors>
     <Maps>
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_RNAV" />
-      <Map Name="ALL_ROUTES_RNAV" />
-      <Map Name="ALL_TMA" />
-      <Map Name="ALL_COAST" />
-      <Map Name="ALL_RADAR_AIRWAYS" />
+      <Map Name="ALL/ALL_POINTS_HIGH" />
+      <Map Name="ALL/ALL_ROUTES_HIGH" />
+      <Map Name="ALL/ALL_POINTS_RNAV" />
+      <Map Name="ALL/ALL_ROUTES_RNAV" />
+      <Map Name="ALL/ALL_TMA" />
+      <Map Name="ALL/ALL_COAST" />
+      <Map Name="ALL/ALL_RADAR_AIRWAYS" />
 
-      <Map Name="MMEX/MMEX_FIR_LIMITS" />
-      <Map Name="MMEX/MMEX_VECTORS_NORTH" />
-      <Map Name="MMEX/MMEX_AIRFIELDS" />
+      <Map Name="ACC MMEX/MMEX_FIR_LIMITS" />
+      <Map Name="ACC MMEX/MMEX_AIRFIELDS" />
     </Maps>
     <ATIS>
       <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
