@@ -81,7 +81,7 @@
   </Position>
 
 
-  <Position Name="MMGL" Type="ASMGCS" ASMGCSAirport="MMGL" DefaultCenter="+203124.32-1031841.798" DefaultRange="3" MagneticVariation="+2">
+  <Position Name="MMGL" Type="ASMGCS" ASMGCSAirport="MMGL" DefaultCenter="+203124.32-1031841.798" DefaultRange="3" MagneticVariation="+6">
     <Maps>
       <Map Name="Guadalajara/ASMGCS_MMGL_RWY" />
       <Map Name="Guadalajara/ASMGCS_MMGL_APR" />
@@ -99,7 +99,6 @@
       <Map Name="Guadalajara/MMGL_RWY_28" />
       <Map Name="Guadalajara/MMGL_28_ARR" />
       <Map Name="Guadalajara/MMGL_28_ARR_NAMES" />
-MMGL_RWY_28
       <Map Name="MMEX/MMEX_FIR_LIMITS" />
 
       <Map Name="ALL_TMA" />
@@ -113,7 +112,7 @@ MMGL_RWY_28
     <Strips Mode="Beacon" Sort="Alpha">
       <Window Type="ADEP" Beacon="MMGL" Visible="true" />
     </Strips>
-    <CFL QuickLevel="230">
+    <CFL QuickLevel="23000">
       <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
     </CFL>
     <ArrivalLists>
@@ -122,6 +121,49 @@ MMGL_RWY_28
     <ControllerInfo>
       <Line>Terminal Guadalajara / Guadalara Approach</Line>
       <Line>ATIS available on 127.900</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="MMVR" Type="ASMGCS" ASMGCSAirport="MMVR" DefaultCenter="+190828.600-0961114.400" DefaultRange="3" MagneticVariation="+4">
+    <Maps>
+      <Map Name="Veracruz/ASMGCS_MMVR_RWY" />
+      <Map Name="Veracruz/ASMGCS_MMVR_APR" />
+      <Map Name="Veracruz/ASMGCS_MMVR_TWY" />
+      <Map Name="Veracruz/ASMGCS_MMVR_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="Terminal Veracruz" Type="ASD" DefaultCenter="+190835.640-0961120.869" DefaultRange="200">
+    <Sectors>
+      <Sector Name="MMVR_APP" />
+    </Sectors>
+    <Maps>
+      <Map Name="Veracruz/MMVR_MVA" />
+      <Map Name="Veracruz/MMVR_MVA_LABELS" />
+      <Map Name="Veracruz/MMVR_RWY_01" />
+      <Map Name="Veracruz/MMGL_01_ARR" />
+      <Map Name="Veracruz/MMGL_01_ARR_NAMES" />
+      <Map Name="MMEX/MMEX_FIR_LIMITS" />
+
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_COAST" />
+      <Map Name="ALL_RADAR_AIRWAYS" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMVR" Frequency="127.9" Server="NA" />
+      <Window Airport="MMVR" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMVER" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="19000">
+      <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMVR" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Terminal Veracruz / Veracruz Approach</Line>
+      <Line>ATIS available on 127.800</Line>
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
@@ -147,6 +189,7 @@ MMGL_RWY_28
 
       <Map Name="MMEX/MMEX_FIR_LIMITS" />
       <Map Name="MMEX/MMEX_VECTORS_NORTH" />
+      <Map Name="MMEX/MMEX_AIRFIELDS" />
     </Maps>
     <ATIS>
       <Editor Airport="MMMX" Frequency="126.750" Server="NA" />

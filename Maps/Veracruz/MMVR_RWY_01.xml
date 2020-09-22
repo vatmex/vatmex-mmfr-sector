@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="MMVR_RWY_01" Priority="1" Centre="+203124.320-1031841.798">
+    <!--MMUN-->
+    <Runway Name="10/28">
+      <Threshold Name="01" Position="+190744.00-0961127.200" ExtendedCentrelineTrack="192" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1"/>
+      <Threshold Name="19" Position="+190857.30-0961112.000" />
+    </Runway>
+  </Map>
+  <Map Type="System2" Name="MMVR_RWY_19" Priority="1" Centre="+203124.320-1031841.798">
+    <!--MMUN-->
+    <Runway Name="10/28">
+      <Threshold Name="10" Position="+203142.80-1031937.900" />
+      <Threshold Name="28" Position="+203051.30-1031735.100" ExtendedCentrelineTrack="012" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="02/20">
+      <Threshold Name="02" Position="+203116.70-1031841.400" />
+      <Threshold Name="20" Position="+203155.80-1031817.100" />
+    </Runway>
+  </Map>
+</Maps>
