@@ -8,7 +8,7 @@
       <Map Name="MMID/ASMGCS_MMUN_BLD" />
     </Maps>
   </Position>
-  <Position Name="Aproximación Cancún" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="400">
+  <Position Name="Terminal Cancún" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="400">
     <Sectors>
       <Sector Name="MMUN_APP" />
     </Sectors>
@@ -39,7 +39,7 @@
       <Airport Name="MMUN" />
     </ArrivalLists>
     <ControllerInfo>
-      <Line>Cancun Approach</Line>
+      <Line>Terminal Cancún / Cancun Approach</Line>
       <Line>ATIS available on 127.700</Line>
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
@@ -74,12 +74,57 @@
       <Airport Name="MMUN" />
     </ArrivalLists>
     <ControllerInfo>
-      <Line>Cancun Approach</Line>
-      <Line>ATIS available on 127.700</Line>
+      <Line>Centro Mérida / Merida Center</Line>
+      <Line>MMUN ATIS available on 127.700</Line>
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
 
+
+  <Position Name="MMGL" Type="ASMGCS" ASMGCSAirport="MMGL" DefaultCenter="+203124.32-1031841.798" DefaultRange="3" MagneticVariation="+2">
+    <Maps>
+      <Map Name="Guadalajara/ASMGCS_MMGL_RWY" />
+      <Map Name="Guadalajara/ASMGCS_MMGL_APR" />
+      <Map Name="Guadalajara/ASMGCS_MMGL_TWY" />
+      <Map Name="Guadalajara/ASMGCS_MMGL_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="Terminal Guadalajara" Type="ASD" DefaultCenter="+203124.320-1031841.798" DefaultRange="200">
+    <Sectors>
+      <Sector Name="MMGL_APP" />
+    </Sectors>
+    <Maps>
+      <Map Name="Guadalajara/MMGL_MVA" />
+      <Map Name="Guadalajara/MMGL_MVA_LABELS" />
+      <Map Name="Guadalajara/MMGL_RWY_28" />
+      <Map Name="Guadalajara/MMGL_28_ARR" />
+      <Map Name="Guadalajara/MMGL_28_ARR_NAMES" />
+MMGL_RWY_28
+      <Map Name="MMEX/MMEX_FIR_LIMITS" />
+
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_COAST" />
+      <Map Name="ALL_RADAR_AIRWAYS" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
+      <Window Airport="MMGL" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="230">
+      <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMGL" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Terminal Guadalajara / Guadalara Approach</Line>
+      <Line>ATIS available on 127.900</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
   <Position Name="Centro México" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000">
     <Sectors>
       <Sector Name="MMEX_1_CTR" />
@@ -117,8 +162,8 @@
       <Airport Name="MMMX" />
     </ArrivalLists>
     <ControllerInfo>
-      <Line>Cancun Approach</Line>
-      <Line>ATIS available on 127.700</Line>
+      <Line>Centro México / Mexico Center</Line>
+      <Line>MMMX ATIS available on 126.750</Line>
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>

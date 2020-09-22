@@ -103,6 +103,7 @@
 	  </Airport>
   </SystemRunways>
   <Intersections>
+    <!--MMZT ACC-->
     <Point Name="GRN" Type="Navaid" NavaidType="NDB" Frequency="382.000">+280136.821-1140120.249</Point>
 
     <Point Name="BOKTA" Type="Fix">+250527.000-1074546.000</Point>
@@ -111,5 +112,12 @@
     <Point Name="INDIO" Type="Fix">+252458.000-1083609.000</Point>
     <Point Name="ISLAS" Type="Fix">+230945.000-1063801.000</Point>
     <Point Name="PISET" Type="Fix">+242959.000-1102518.000</Point>
+
+    <!--MMGL TMA -->
+    <Point Name="GL810" Type="Fix">+204248.695-1031606.918</Point>
+    <Point Name="GL835" Type="Fix">+204912.446-1025758.667</Point>
+    <Point Name="SAMAR" Type="Fix">+210947.297-1033112.883</Point>
+    <Point Name="CARLO" Type="Fix">+210302.649-1025225.057</Point>
+    <Point Name="NUBIG" Type="Fix">+204159.000-1034838.000</Point>
   </Intersections>
 </Airspace>
