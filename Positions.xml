@@ -2,10 +2,10 @@
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210229.00-0865224.000" DefaultRange="3" MagneticVariation="+2">
     <Maps>
-      <Map Name="MMID/ASMGCS_MMUN_RWY" />
-      <Map Name="MMID/ASMGCS_MMUN_APR" />
-      <Map Name="MMID/ASMGCS_MMUN_TWY" />
-      <Map Name="MMID/ASMGCS_MMUN_BLD" />
+      <Map Name="Cancun/ASMGCS_MMUN_RWY" />
+      <Map Name="Cancun/ASMGCS_MMUN_APR" />
+      <Map Name="Cancun/ASMGCS_MMUN_TWY" />
+      <Map Name="Cancun/ASMGCS_MMUN_BLD" />
     </Maps>
   </Position>
   <Position Name="Aproximación Cancún" Type="ASD" DefaultCenter="+204657.054-0865400.018" DefaultRange="400">
@@ -124,7 +124,15 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="MMVR" Type="ASMGCS" ASMGCSAirport="MMVR" DefaultCenter="+190828.600-0961114.400" DefaultRange="3" MagneticVariation="+4">
+  <Position Name="MMMX" Type="ASMGCS" ASMGCSAirport="MMMX" DefaultCenter="+192600.00-0990418.000" DefaultRange="3" MagneticVariation="+6">
+    <Maps>
+      <Map Name="Mexico/ASMGCS_MMMX_RWY" />
+      <Map Name="Mexico/ASMGCS_MMMX_APR" />
+      <Map Name="Mexico/ASMGCS_MMMX_TWY" />
+      <Map Name="Mexico/ASMGCS_MMMX_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="MMVR" Type="ASMGCS" ASMGCSAirport="MMVR" DefaultCenter="+190828.600-0961114.400" DefaultRange="2" MagneticVariation="+4">
     <Maps>
       <Map Name="Veracruz/ASMGCS_MMVR_RWY" />
       <Map Name="Veracruz/ASMGCS_MMVR_APR" />
