@@ -124,7 +124,7 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="MMMX" Type="ASMGCS" ASMGCSAirport="MMMX" DefaultCenter="+192600.00-0990418.000" DefaultRange="3" MagneticVariation="+6">
+  <Position Name="MMMX" Type="ASMGCS" ASMGCSAirport="MMMX" DefaultCenter="+192600.00-0990418.000" DefaultRange="3" MagneticVariation="-6">
     <Maps>
       <Map Name="Mexico/ASMGCS_MMMX_RWY" />
       <Map Name="Mexico/ASMGCS_MMMX_APR" />
@@ -132,7 +132,7 @@
       <Map Name="Mexico/ASMGCS_MMMX_BLD" />
     </Maps>
   </Position>
-  <Position Name="Aproximación México" Type="ASD" DefaultCenter="+194433.990-0990147.300" DefaultRange="280">
+  <Position Name="Aproximación México" Type="ASD" DefaultCenter="+194433.990-0990147.300" DefaultRange="280" MagneticVariation="-6">
     <Sectors>
       <Sector Name="MMMX_APP" />
       <Sector Name="MMTO_APP" />
@@ -140,9 +140,10 @@
     <Maps>
       <Map Name="Mexico/MMMX_MVA" />
       <Map Name="Mexico/MMMX_MVA_LABELS" />
-      <Map Name="Mexico/MMMX_RWYS_05" />
+      <Map Name="Mexico/MMMX_05_RWYS" />
       <Map Name="Mexico/MMMX_05_ARR" />
       <Map Name="Mexico/MMMX_05_ARR_NAMES" />
+      <Map Name="Mexico/MMMX_05R_ILS" />
 
       <Map Name="ACC MMEX/MMEX_FIR_LIMITS" />
 
