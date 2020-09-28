@@ -132,6 +132,44 @@
       <Map Name="Mexico/ASMGCS_MMMX_BLD" />
     </Maps>
   </Position>
+  <Position Name="Aproximación México" Type="ASD" DefaultCenter="+194433.990-0990147.300" DefaultRange="280">
+    <Sectors>
+      <Sector Name="MMMX_APP" />
+      <Sector Name="MMTO_APP" />
+    </Sectors>
+    <Maps>
+      <Map Name="Mexico/MMMX_MVA" />
+      <Map Name="Mexico/MMMX_MVA_LABELS" />
+      <Map Name="Mexico/MMMX_RWYS_05" />
+      <Map Name="Mexico/MMMX_05_ARR" />
+      <Map Name="Mexico/MMMX_05_ARR_NAMES" />
+
+      <Map Name="ACC MMEX/MMEX_FIR_LIMITS" />
+
+      <Map Name="ALL/ALL_TMA" />
+      <Map Name="ALL/ALL_COAST" />
+      <Map Name="ALL/ALL_RADAR_AIRWAYS" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMMX" Frequency="127.65" Server="NA" />
+      <Window Airport="MMMX" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="23000">
+      <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMMX" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Aproximación México / Mexico Approach</Line>
+      <Line>Serving MMMX, MMTO and MMCV arrivals and departures</Line>
+      <Line>ATIS available on 127.650</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
   <Position Name="MMVR" Type="ASMGCS" ASMGCSAirport="MMVR" DefaultCenter="+190828.600-0961114.400" DefaultRange="2" MagneticVariation="+4">
     <Maps>
       <Map Name="Veracruz/ASMGCS_MMVR_RWY" />
