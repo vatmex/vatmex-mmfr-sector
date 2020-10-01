@@ -80,7 +80,7 @@
   </Position>
 
 
-  <Position Name="MMGL" Type="ASMGCS" ASMGCSAirport="MMGL" DefaultCenter="+203124.32-1031841.798" DefaultRange="3" MagneticVariation="+6">
+  <Position Name="MMGL" Type="ASMGCS" ASMGCSAirport="MMGL" DefaultCenter="+203124.32-1031841.798" DefaultRange="3" MagneticVariation="-6">
     <Maps>
       <Map Name="Guadalajara/ASMGCS_MMGL_RWY" />
       <Map Name="Guadalajara/ASMGCS_MMGL_APR" />
@@ -144,6 +144,8 @@
       <Map Name="Mexico/MMMX_05_ARR" />
       <Map Name="Mexico/MMMX_05_ARR_NAMES" />
       <Map Name="Mexico/MMMX_05R_ILS" />
+      <Map Name="Mexico/MMMX_05_DEP" />
+      <Map Name="Mexico/MMMX_05_DEP_NAMES" />
 
       <Map Name="ACC MMEX/MMEX_FIR_LIMITS" />
 
