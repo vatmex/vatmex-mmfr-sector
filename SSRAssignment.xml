@@ -1,60 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <SSRAssignment>
-<!-- Code "Bins" define available codes and their assigned Regex rules. 
+<!-- Code "Bins" define available codes and their assigned Regex rules.
 		Priority is applied by the order they appear in this file. -->
-		
+
   <!-- Excluded Codes are never assigned -->
   <Bin>
     <Rule Excluded="true"/>
     <Codes>
-      7615
+      0000,0040,2050,2077,7501,7577,7601
     </Codes>
   </Bin>
   <!-- VFR Flights -->
   <Bin>
     <Rule FlightRule="V"/>
-    <Codes Start="0401" End="0477"/>
-	<Codes Start="0501" End="0577"/>
-	<Codes Start="0640" End="0647"/>
-	<Codes Start="0302" End="0377"/>
-	<Codes Start="3401" End="3477"/>
-	<Codes Start="1601" End="1677"/>
-	<Codes Start="1701" End="1777"/>
-	<Codes Start="3301" End="3377"/>
+    <Codes Start="1201" End="1277"/>
   </Bin>
-    <!-- Military Flights -->
+  <!-- Helicopter Flights -->
   <Bin>
-    <Rule Remarks="(\/|\b)(RAAF|MILITARY|USAF|RAF|RAN|ARMY)\b"/>
-    <Codes Start="2501" End="2577"/>
-	<Codes Start="7301" End="7307"/>
-	<Codes Start="2001" End="2077"/>
-	<Codes Start="7310" End="7357"/>
+    <Rule Remarks="(\/|\b)(HELIPCOPTER)\b"/>
+    <Codes Start="1501" End="1547"/>
   </Bin>
-  <!-- Domestic Flights -->
+    <!-- Search and Rescue -->
+  <Bin>
+    <Rule Remarks="(\/|\b)(SAR|Search And Rescue)\b"/>
+    <Codes Start="7711" End="7717"/>
+	<Codes Start="7721" End="7727"/>
+  </Bin>
+  <!-- APP ACA -->
+  <Bin>
+    <Rule Departure="MMAA" Destination="MM\w{w}"/>
+    <Codes Start="1201" End="1277"/>
+  </Bin>
+  <Bin>
+    <Rule Departure="MMAA"/>
+    <Codes Start="4340" End="4357"/>
+  </Bin>
+  <!-- APP GDL -->
+  <Bin>
+    <Rule Departure="MMGL" Destination="MM\w{w}"/>
+    <Codes Start="1301" End="1377"/>
+  </Bin>
+  <Bin>
+    <Rule Departure="MMGL"/>
+    <Codes Start="2640" End="2677"/>
+  </Bin>
+  <!-- APP BJX -->
+  <Bin>
+    <Rule Departure="MMAS" Destination="MM\w{w}"/>
+    <Codes Start="0001" End="0037"/>
+  </Bin>
+  <Bin>
+    <Rule Departure="MMAS"/>
+    <Codes Start="4360" End="4377"/>
+  </Bin>
+  <Bin>
+    <Rule Departure="MMLO" Destination="MM\w{w}"/>
+    <Codes Start="0001" End="0037"/>
+  </Bin>
+  <Bin>
+    <Rule Departure="MMLO"/>
+    <Codes Start="4360" End="4377"/>
+  </Bin>
+  <!-- APP TLC -->
+  <Bin>
+    <Rule Departure="MMTO" Destination="MM\w{w}"/>
+    <Codes Start="1550" End="1577"/>
+  </Bin>
+  <Bin>
+    <Rule Departure="MMTO"/>
+    <Codes Start="7050" End="7077"/>
+  </Bin>
+  <!-- FIR MEXICO -->
   <Bin>
     <Rule Departure="MM\w{w}" Destination="MM\w{w}"/>
-    <Codes Start="3601" End="3677"/>
-	<Codes Start="3701" End="3777"/>
-	<Codes Start="4001" End="4077"/>
-	<Codes Start="4201" End="4277"/>
-	<Codes Start="4301" End="4377"/>
-	<Codes Start="7201" End="7257"/>
-	<Codes Start="3234" End="3277"/>
-	<Codes Start="4401" End="4452"/>
-	<Codes Start="4454" End="4477"/>
-	<Codes Start="4501" End="4577"/>
-	<Codes Start="4701" End="4777"/>
-	<Codes Start="6001" End="6077"/>
-	<Codes Start="3201" End="3233"/>
+    <Codes Start="1001" End="1077"/>
+	<Codes Start="1501" End="1547"/>
   </Bin>
   <!-- Transit Flights -->
   <Bin>
-	<Codes Start="1001" End="1077"/>
-	<Codes Start="1101" End="1177"/>
-	<Codes Start="1201" End="1227"/>
-    <Codes Start="1301" End="1377"/>
-	<Codes Start="1401" End="1477"/>
-	<Codes Start="1501" End="1567"/>
-	<Codes Start="1240" End="1277"/>
+	<Codes Start="3201" End="3277"/>
+	<Codes Start="4201" End="4277"/>
   </Bin>
 </SSRAssignment>
