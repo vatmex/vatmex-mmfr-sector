@@ -10,23 +10,21 @@
     <Volumes>MMID_CTR</Volumes>
   </Sector>
 
-  <Sector FullName="Aproxima|ción Guadalara" Frequency="119.300" Callsign="MMGL_APP" Name="MMGL_APP">
-    <Volumes>MMGL_TMA</Volumes>
-  </Sector>
+  <!--MMMX-->
   <Sector FullName="Autorizaciones México" Frequency="122.100" Callsign="MMMX_DEL" Name="MMMX_DEL" />
   <Sector FullName="Terrestre México" Frequency="121.850" Callsign="MMMX_GND" Name="MMMX_GND" />
   <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MMMX_TWR" />
   <Sector FullName="Aproximación México" Frequency="121.200" Callsign="MMMX_APP" Name="MMMX_APP">
-    <Volumes>MMMX_TMA</Volumes>
+    <Volumes>MMMX_APP</Volumes>
   </Sector>
+  <!--MMTO-->
   <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="MMTO_GND" />
   <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="MMTO_TWR" />
-  <Sector FullName="Aproximación Toluca" Frequency="128.900" Callsign="MMTO_APP" Name="MMTO_APP">
-    <Volumes>MMTO_TMA</Volumes>
-  </Sector>
+  <!--MMVR-->
   <Sector FullName="Aproximación Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="MMVR_APP">
     <Volumes>MMVR_TMA</Volumes>
   </Sector>
+  <!--MMEX ACC-->
   <Sector FullName="ACC México Sector 1" Frequency="126.600" Callsign="MMEX_CTR" Name="MMEX_1_CTR">
     <Volumes>MMEX_SECTOR_1</Volumes>
   </Sector>
