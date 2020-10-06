@@ -80,7 +80,7 @@
   </Position>
 
   <!--MMMX-->
-  <Position Name="MMMX" Type="ASMGCS" ASMGCSAirport="MMMX" DefaultCenter="+192600.00-0990418.000" DefaultRange="3" MagneticVariation="-6">
+  <Position Name="MMMX" Type="ASMGCS" ASMGCSAirport="MMMX" DefaultCenter="+192600.00-0990418.000" DefaultRange="3" MagneticVariation="-4">
     <Maps>
       <Map Name="Mexico/ASMGCS_MMMX_RWY" />
       <Map Name="Mexico/ASMGCS_MMMX_APR" />
@@ -88,20 +88,20 @@
       <Map Name="Mexico/ASMGCS_MMMX_BLD" />
     </Maps>
   </Position>
-  <Position Name="Aproximación Mexico" Type="ASD" DefaultCenter="+194433.990-0990147.300" DefaultRange="280" MagneticVariation="-6">
+  <Position Name="Aproximacion Mexico" Type="ASD" DefaultCenter="+192617.580-0990407.680" DefaultRange="235" MagneticVariation="-4">
     <Sectors>
       <Sector Name="MMMX_APP" />
     </Sectors>
     <Maps>
-      <Map Name="Mexico/MMMX_MVA" />
-      <Map Name="Mexico/MMMX_MVA_LABELS" />
       <Map Name="Mexico/MMMX_CTR" />
       <Map Name="Mexico/MMMX_05_RWYS" />
-      <Map Name="Mexico/MMMX_05_ARR" />
-      <Map Name="Mexico/MMMX_05_ARR_NAMES" />
       <Map Name="Mexico/MMMX_05R_ILS" />
-      <Map Name="Mexico/MMMX_05_DEP" />
-      <Map Name="Mexico/MMMX_05_DEP_NAMES" />
+      <Map Name="Mexico/MMMX_05_RNAV_ARR" />
+      <Map Name="Mexico/MMMX_05_RNAV_ARR_VECTORS" />
+      <Map Name="Mexico/MMMX_05_RNAV_ARR_NAMES" />
+      <Map Name="Mexico/MMMX_05_RNAV_DEP" />
+      <Map Name="Mexico/MMMX_05_RNAV_DEP_NAMES" />
+      <Map Name="Mexico/MMMX_TMA" />
 
       <Map Name="ACC MMEX/MMEX_FIR_LIMITS" />
 
