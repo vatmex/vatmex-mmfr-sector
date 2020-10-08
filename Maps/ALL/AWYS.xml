@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Sector - Aerovias Generales" Priority="1" Center="+204657.054-0865400.018">
+  <Map Type="System" Name="Sector - Aerovias Baja" Priority="1" Center="+204657.054-0865400.018">
     <Line Name="A317">TAP.A317.TECUN</Line>
     <Line Name="A552">TAM.A552.GABEN</Line>
     <Line Name="A758">MID.A758.VIDNO</Line>
@@ -22,6 +22,7 @@
     <Line Name="V1W">LTO.V1W.SJD</Line>
     <Line Name="V2">CUU.V2.MAM</Line>
     <Line Name="V3">TIJ.V3.CUN</Line>
+    <Line Name="V3S">GDL.V3S.TNY</Line>
     <Line Name="V4">LTO.V4.SJD</Line>
     <Line Name="V5">CUL.V5.CUA</Line>
     <Line Name="V6">TTM.V6.TAM</Line>
@@ -95,67 +96,9 @@
     <Line Name="V137">IPL.V137.MXL</Line>
     <Line Name="V163">BRO.V163.MAM</Line>
     <Line Name="V280">ELP.V280.CUU</Line>
-    <Line Name="V359">LRD.V359.NLD</Line>
+    <Line Name="V359">WEGUS.V359.NLD</Line>
     <Line Name="V387">MFE.V387.TAM</Line>
     <Line Name="V393">OLS.V393.SJD</Line>
     <Line Name="V625">OLS.V625.HMO</Line>
-    <Symbol Type="HollowSquare">
-      <!--MMID-->
-      <Point>MTT</Point>
-      <Point>IZT</Point>
-      <Point>VSA</Point>
-      <Point>TGZ</Point>
-      <Point>TAP</Point>
-      <Point>CME</Point>
-      <Point>CTM</Point>
-      <Point>CPE</Point>
-      <Point>MID</Point>
-      <Point>CZA</Point>
-      <Point>CZM</Point>
-      <Point>CUN</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <!--MMEX-->
-      <Point>ZCL</Point>
-      <Point>SLP</Point>
-      <Point>TTM</Point>
-      <Point>TMN</Point>
-      <Point>TAM</Point>
-      <Point>AGU</Point>
-      <Point>BJX</Point>
-      <Point>QET</Point>
-      <Point>PAZ</Point>
-      <Point>PVR</Point>
-      <Point>GDL</Point>
-      <Point>MLM</Point>
-      <Point>VER</Point>
-      <Point>ZLO</Point>
-      <Point>COL</Point>
-      <Point>UPN</Point>
-      <Point>ZIH</Point>
-      <Point>ACA</Point>
-      <Point>OAX</Point>
-      <Point>PXM</Point>
-      <Point>PXM</Point>
-      <Point>HUX</Point>
-      <Point>SLM</Point>
-      <Point>SMO</Point>
-      <Point>APN</Point>
-      <Point>PTJ</Point>
-      <Point>TLC</Point>
-      <Point>MEX</Point>
-      <Point>PBC</Point>
-      <Point>CVJ</Point>
-      <Point>TEQ</Point>
-      <Point>CUA</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-    </Symbol>
-    <Symbol Type="SolidTriangleWithBorder">
-    </Symbol>
-    <Symbol Type="HollowTriangleWithBorder">
-    </Symbol>
   </Map>
 </Maps>
