@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Pistas" Priority="1" Centre="+203124.320-1031841.798">
-    <!--MMUN-->
-    <Runway Name="10/28">
-      <Threshold Name="10" Position="+203142.80-1031937.900" />
-      <Threshold Name="28" Position="+203051.30-1031735.100" />
-    </Runway>
-    <Runway Name="02/20">
-      <Threshold Name="02" Position="+203116.70-1031841.400" />
-      <Threshold Name="20" Position="+203155.80-1031817.100" />
-    </Runway>
-  </Map>
   <Map Type="System" Name="Pista 28 - Llegadas RNAV" Priority="1" Centre="+203124.320-1031841.798">
     <Line Name="LONVA1D" Pattern="Dashed">
       LONVA/GL820/GL821/GL822/VOLIN/GL824/GL825/GL826/GL827/GL828/PLADE
@@ -59,7 +48,7 @@
       <Point>VOLIN</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 28 - Llegadas RNAV(Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Llegadas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>LONVA</Point>
       <Point>LIVRI</Point>
@@ -70,7 +59,7 @@
       <Point>PLADE</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 28 - Llegadas RNAV(Vectores)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Llegadas RNAV (Vectores)" Priority="1" Centre="+203124.320-1031841.798">
     <Line Name="PLADER022">
       +202353.280-1030101.559/
       +204555.865-1024831.278
@@ -210,7 +199,7 @@
 +201908.358-1025922.788/
 +201900.242-1025955.104</Line>
   </Map>
-  <Map Type="System" Name="Pista 28 - ILS Z" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - ILS Z 28" Priority="1" Centre="+203124.320-1031841.798">
     <Line Pattern="Solid">
       PLADE/GDL
     </Line>
@@ -376,7 +365,7 @@
       <Point>SEDEM</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 28 - Salidas RNAV(Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Salidas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>OTOKI</Point>
       <Point>FEISE</Point>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="TMA" Priority="1">
+  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Centre="+203124.320-1031841.798">
+    <!--MMUN-->
+    <Runway Name="10/28">
+      <Threshold Name="10" Position="+203142.80-1031937.900" />
+      <Threshold Name="28" Position="+203051.30-1031735.100" />
+    </Runway>
+    <Runway Name="02/20">
+      <Threshold Name="02" Position="+203116.70-1031841.400" />
+      <Threshold Name="20" Position="+203155.80-1031817.100" />
+    </Runway>
+  </Map>
+  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
   	<Line Pattern="Dashed">
   		+213126.000-1032224.000/
 +204857.000-1022449.000/
@@ -71,7 +82,7 @@
 +213054.332-1032521.247/
 +213126.000-1032224.000</Line>
   </Map>
-  <Map Type="System" Name="MVA" Priority="1">
+  <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo (MVA)" Priority="1">
     <Line Name="8D">
 +202511.804-1031319.695/
 +202456.528-1031340.955/
@@ -606,7 +617,7 @@
 +203124.320-1031841.798/
 +204120.207-1031734.921</Line>
   </Map>
-  <Map Type="System2" Name="MVA(Etiquetas)" Priority="0">
+  <Map Type="System2" Name="Aeropuerto - MVA (Etiquetas)" Priority="0">
   	<Label HasLeader="false">
       <Point Name="7500">+203321.336-1031602.971</Point>
       <Point Name="8000">+204530.898-1031852.309</Point>
@@ -623,7 +634,7 @@
       <Point Name="16000">+195106.312-1033946.540</Point>
     </Label>
   </Map>
-    <Map Type="System" Name="Zona de Control(CTR)" Priority="1">
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
   	<Line Pattern="Dashed">
 +203622.264-1031808.360/
 +203617.358-1031735.289/

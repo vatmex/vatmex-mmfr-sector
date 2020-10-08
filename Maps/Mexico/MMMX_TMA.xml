@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="MMMX_TMA" Priority="1">
-  	<Line Name="TMA_MEXICO">
+  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Centre="+192617.580-0990407.680">
+    <!--MMUN-->
+    <Runway Name="05L/23R">
+      <Threshold Name="05L" Position="+192547.50-0990511.500" />
+      <Threshold Name="23R" Position="+192635.90-0990345.200" />
+    </Runway>
+    <Runway Name="05R/23L">
+      <Threshold Name="05R" Position="+192545.10-0990455.100" />
+      <Threshold Name="23L" Position="+192641.40-0990314.600" />
+    </Runway>
+  </Map>
+  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+  	<Line Name="TMA MMMX" Pattern="Dashed">
 +195106.000-0975956.000/
 +202530.000-0983746.000/
 +202714.000-0993059.000/
@@ -12,7 +23,7 @@
 +190057.000-0980146.000/
 +195106.000-0975956.000</Line>
   </Map>
-  <Map Type="System" Name="MMMX_MVA" Priority="1">
+  <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo(MVA)" Priority="1">
     <Line Name="MEXD10">
 +193613.442-0990301.264/
 +193603.633-0990155.578/
@@ -556,25 +567,7 @@
 +193921.013-0993846.933/
 +194902.368-0994120.850</Line>
   </Map>
-  <Map Type="System2" Name="MMMX_MVA_LABELS" Priority="0">
-  	<Label HasLeader="false">
-      <!--MMID-->
-      <Point Name="7500">+203321.336-1031602.971</Point>
-      <Point Name="8000">+204530.898-1031852.309</Point>
-      <Point Name="8200">+202350.203-1031005.433</Point>
-      <Point Name="8500">+203218.337-1033700.211</Point>
-      <Point Name="9000">+203311.828-1030345.768</Point>
-      <Point Name="9200">+201953.231-1031628.871</Point>
-      <Point Name="10000">+205538.888-1031847.309</Point>
-      <Point Name="10000">+202549.816-1023942.285</Point>
-      <Point Name="11000">+201939.992-1032613.795</Point>
-      <Point Name="11000">+211133.552-1031444.010</Point>
-      <Point Name="12000">+200105.567-1032847.603</Point>
-      <Point Name="12000">+203424.622-1040137.385</Point>
-      <Point Name="16000">+195106.312-1033946.540</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMMX_CTR" Priority="1">
+  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
   	<Line Pattern="Dashed">
 +192745.974-0985512.728/
 +191939.434-0990948.778/

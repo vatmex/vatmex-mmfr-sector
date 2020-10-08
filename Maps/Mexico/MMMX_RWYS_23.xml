@@ -1,115 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="MMMX_23_RWYS" Priority="1" Centre="+192617.580-0990407.680">
-    <!--MMUN-->
-    <Runway Name="05L/23R">
-      <Threshold Name="05L" Position="+192547.50-0990511.500" />
-      <Threshold Name="23R" Position="+192635.90-0990345.200" />
-    </Runway>
-    <Runway Name="05R/23L">
-      <Threshold Name="05R" Position="+192545.10-0990455.100" />
-      <Threshold Name="23L" Position="+192641.40-0990314.600" />
-    </Runway>
-  </Map>
-  <Map Type="System" Name="MMMX_23_ARR" Priority="1" Centre="+192617.580-0990407.680">
-    <!--STARs-->
-    <!--Rwys05 TIKEB1A/TIKEB1C-->
-    <Line Pattern="Dashed">
-      TIKEB/SL303/SLM
-    </Line>
-    <Line Pattern="Dashed">
-      SASUT/SL342/SLM
-    </Line>
-    <Line Pattern="Dashed">
-      AVSAR/SL359/SLM
-    </Line>
-    <Line Pattern="Dashed">
-      DATUL/SL017/SLM
-    </Line>
-    <!--Rwys23 SLM1A-->
-    <Line Pattern="Dashed">
-      SLM/ALKOM
-    </Line>
-    <!--Rwys23 PCA1A-->
-    <Line Pattern="Dashed">
-      PCA/ALKOM
-    </Line>
-    <!--Rwys23 MEX3B-->
-    <Line Pattern="Dashed">
-+192617.579-0990407.679/
-+194538.857-0991724.568/
-+194719.355-0991833.915/
-+194730.217-0991840.593/
-+194741.676-0991846.015/
-+194753.605-0991850.135/
-+194805.873-0991852.907/
-+194818.348-0991854.300/
-+194830.891-0991854.300/
-+194843.365-0991852.907/
-+194855.634-0991850.135/
-+194907.563-0991846.015/
-+194919.021-0991840.593/
-+194929.884-0991833.927/
-+194940.031-0991826.091/
-+194949.352-0991817.170/
-+194957.745-0991807.263/
-+195005.118-0991756.477/
-+195011.389-0991744.931/
-+195021.328-0991723.488/
-+195128.487-0991426.220/
-+195137.066-0991401.127/
-+195143.135-0991335.258/
-+195146.626-0991308.855/
-+195147.501-0991242.210/
-+195145.752-0991215.613/
-+195141.395-0991149.357/
-+195134.481-0991123.728/
-+195125.083-0991059.008/
-+195113.306-0991035.467/
-+195052.822-0991001.960/
-SLM</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>TIKEB</Point>
-      <Point>SASUT</Point>
-      <Point>AVSAR</Point>
-      <Point>DATUL</Point>
-      <Point>ALKOM</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>SL303</Point>
-      <Point>SL342</Point>
-      <Point>SL359</Point>
-      <Point>SL017</Point>
-      <Point>D053T</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>PCA</Point>
-      <Point>SLM</Point>
-      <Point>SMO</Point>
-      <Point>MEX</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>PCA</Point>
-      <Point>SLM</Point>
-      <Point>SMO</Point>
-      <Point>MEX</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMMX_23_ARR_NAMES" Priority="1" Centre="+192617.580-0990407.680">
-    <Label HasLeader="false">
-      <Point>TIKEB</Point>
-      <Point>SASUT</Point>
-      <Point>AVSAR</Point>
-      <Point>DATUL</Point>
-      <Point>ALKOM</Point>
-
-      <Point>PCA</Point>
-      <Point>SLM</Point>
-      <Point>SMO</Point>
-      <Point>MEX</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMMX_23_RNAV_ARR" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pistas 23 - Llegadas RNAV" Priority="1" Centre="+192617.580-0990407.680">
     <!--DARAN1A-->
     <Line Pattern="Dashed">
 DARAN/MX600/ESTAR/MX602/MX603/MX605/SESTA/KOZLO
@@ -150,7 +41,7 @@ ESPOS/MX610/MX611/PITEL
       <Point>SESTA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMMX_23_RNAV_ARR_NAMES" Priority="2" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pistas 23 - Llegadas RNAV (Nombres)" Priority="2" Centre="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>DARAN</Point>
       <Point>ENAGA</Point>
@@ -160,7 +51,7 @@ ESPOS/MX610/MX611/PITEL
       <Point>KOZLO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMMX_23_RNAV_ARR_VECTORS" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pistas 23 - Llegadas RNAV (Vectores)" Priority="1" Centre="+192617.580-0990407.680">
     <Line Name="SESTAR289" Pattern="Solid">
 +193524.908-0984738.440/
 +195511.546-0984441.421</Line>
@@ -287,7 +178,7 @@ ESPOS/MX610/MX611/PITEL
 +193627.622-0982628.253/
 +193606.728-0982627.285</Line>
   </Map>
-  <Map Type="System" Name="MMMX_23L_ILS" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pistas 23 - ILS Z 23L" Priority="1" Centre="+192617.580-0990407.680">
     <Line Pattern="Solid">
 KOZLO/MEX</Line>
     <!--D1-->
@@ -335,91 +226,7 @@ KOZLO/MEX</Line>
 +193131.538-0985352.717/
 +193202.670-0985411.788</Line>
   </Map>
-  <Map Type="System" Name="MMMX_23_DEP" Priority="1" Centre="+192617.580-0990407.680">
-    <!--OTMOS1-->
-    <Line Pattern="Dotted">
-+192617.579-0990407.679/
-+192414.145-0990745.524/
-+192405.728-0990758.734/
-+192356.053-0990810.955/
-+192345.226-0990822.038/
-+192333.365-0990831.861/
-+192320.601-0990840.315/
-+192307.073-0990847.309/
-+192252.930-0990852.766/
-+192238.325-0990856.626/
-+192223.421-0990858.846/
-+192208.378-0990859.403/
-+192153.364-0990858.290/
-+192138.541-0990855.519/
-+192124.073-0990851.122/
-+192110.118-0990845.145/
-+192056.828-0990837.655/
-+192044.350-0990828.734/
-+192032.820-0990818.478/
-+192022.365-0990807.002/
-+192013.098-0990754.429/
-+192005.122-0990740.899/
-+191958.524-0990726.560/
-+191953.376-0990711.568/
-+191949.735-0990656.087/
-+191947.640-0990640.288/
-+191947.115-0990624.343/
-+191948.165-0990608.428/
-+191952.919-0990553.614/
-+191958.496-0990540.857/
-+192148.825-0990128.516/
-+192150.234-0990124.817/
-+192151.271-0990120.983/
-+192151.925-0990117.055/
-+192152.187-0990113.077/
-+192152.056-0990109.091/
-+192151.532-0990105.142/
-+192150.622-0990101.272/
-+192149.335-0990057.524/
-+192147.685-0990053.940/
-+192145.691-0990050.558/
-+192143.375-0990047.415/
-+192140.474-0990044.952/
-+192140.474-0990044.952/
-+190821.000-0985038.999/
-CUA</Line>
-    <!--APN5B-->
-    <Line Pattern="Dotted">
-+192148.825-0990128.516/
-APN</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>OTMOS</Point>
-    </Symbol>
-    <Symbol Type="HollowTriangle">
-      <Point>+192414.145-0990745.524</Point>
-      <Point>D239Z</Point>
-      <Point>D239Q</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>APN</Point>
-      <Point>CUA</Point>
-      <Point>MEX</Point>
-      <Point>PBC</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>APN</Point>
-      <Point>CUA</Point>
-      <Point>MEX</Point>
-      <Point>PBC</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMMX_23_DEPS_NAMES" Priority="2" Centre="+192617.580-0990407.680">
-    <Label HasLeader="false">
-      <Point>OTMOS</Point>
-      <Point>OMPUT</Point>
-
-      <Point>APN</Point>
-      <Point>CUA</Point>
-      <Point>PBC</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMMX_23_RNAV_DEP" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pistas 23 - Salidas RNAV" Priority="1" Centre="+192617.580-0990407.680">
     <!--ATURO1A-->
     <Line Pattern="Dotted">
 MEX/MX503/MX520/MX530/MX531/MX532/ATURO</Line>
@@ -482,7 +289,7 @@ MX522/MX523/ULEBA</Line>
       <Point>UKUNO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMMX_23_RNAV_DEP_NAMES" Priority="2" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pistas 23 - Salidas RNAV (Nombres)" Priority="2" Centre="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>ATURO</Point>
       <Point>AXIRI</Point>
