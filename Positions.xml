@@ -79,6 +79,56 @@
     </ControllerInfo>
   </Position>
 
+  <!--MMGL-->
+  <Position Name="MMGL" Type="ASMGCS" ASMGCSAirport="MMGL" DefaultCenter="+203124.320-1031841.800" DefaultRange="3" MagneticVariation="-6">
+    <Maps>
+      <Map Name="Guadalajara/ASMGCS_MMGL_RWY" />
+      <Map Name="Guadalajara/ASMGCS_MMGL_APR" />
+      <Map Name="Guadalajara/ASMGCS_MMGL_TWY" />
+      <Map Name="Guadalajara/ASMGCS_MMGL_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="Aproximacion Guadalajara" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6">
+    <Sectors>
+      <Sector Name="MMGL_APP" />
+    </Sectors>
+    <Maps>
+      <Map Name="Guadalajara/TMA" />
+      <Map Name="Guadalajara/Zona de Control(CTR)" />
+      <Map Name="Guadalajara/Pistas" />
+      <Map Name="Guadalajara/Pista 10 - Llegadas RNAV" />
+      <Map Name="Guadalajara/Pista 10 - Llegadas RNAV(Nombres)" />
+      <Map Name="Guadalajara/Pista 10 - Llegadas RNAV(Vectores)" />
+      <Map Name="Guadalajara/Pista 10 - ILS Z" />
+      <Map Name="Guadalajara/Pista 10 - Salidas RNAV" />
+      <Map Name="Guadalajara/Pista 10 - Salidas RNAV(Nombres)" />
+
+      <Map Name="ACC MMEX/MMEX_FIR_LIMITS" />
+
+      <Map Name="ALL/ALL_TMA" />
+      <Map Name="ALL/ALL_COAST" />
+      <Map Name="ALL/ALL_RADAR_AIRWAYS" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
+      <Window Airport="MMGL" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="23000">
+      <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMGL" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Aproximación Guadalajara / Guadalajara Approach</Line>
+      <Line>Serving MMGL arrivals and departures</Line>
+      <Line>ATIS available on 127.900</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
   <!--MMMX-->
   <Position Name="MMMX" Type="ASMGCS" ASMGCSAirport="MMMX" DefaultCenter="+192600.00-0990418.000" DefaultRange="3" MagneticVariation="-4">
     <Maps>
