@@ -104,6 +104,43 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
+  <Position Name="MMQT" Type="ASMGCS" ASMGCSAirport="MMQT" DefaultCenter="+203702.850-1001125.000" DefaultRange="4" MagneticVariation="-4">
+    <Maps>
+      <Map Name="Queretaro/ASMGCS_MMQT_RWY" />
+      <Map Name="Queretaro/ASMGCS_MMQT_APR" />
+      <Map Name="Queretaro/ASMGCS_MMQT_TWY" />
+      <Map Name="Queretaro/ASMGCS_MMQT_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="TWR Queretaro" Type="ASD" DefaultCenter="+203702.850-1001137.060" DefaultRange="50" MagneticVariation="-7">
+    <Sectors>
+      <Sector Name="MMQT_TWR" />
+    </Sectors>
+    <Maps>
+      <Map Name="Queretaro/Aeropuerto - Pista" />
+      <Map Name="Queretaro/Aeropuerto - Zona de Control (CTR)" />
+
+      <Map Name="ALL/Sector - Aerovias Radar" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMQT" Frequency="128.700" Server="NA" />
+      <Window Airport="MMQT" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMQT" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="27000">
+      <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMQT" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Torre Queretaro / Queretaro Tower</Line>
+      <Line>ATIS available on 128.700</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
   <Position Name="ACC México" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000">
     <Sectors>
       <Sector Name="MMEX_1_CTR" />
