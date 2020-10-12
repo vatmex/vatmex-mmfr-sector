@@ -1,33 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="Pista 10 - Llegadas RNAV" Priority="1" Centre="+203124.320-1031841.798">
-    <Line Name="ULUVO1A" Pattern="Dashed">
+    <Line Name="ANALU1A" Pattern="Dashed">
+      ANALU/AA413/AA412/APREN
     </Line>
-    <Line Name="USBIM1C" Pattern="Dashed">
-      USBIM/EMEXO/GL522/GL523/GL524/DATSO
+    <Line Name="ANVAN1A" Pattern="Dashed">
+      ANVAN/AA417/AA416/ATUMU
     </Line>
-    <Line Name="LIPEP1C" Pattern="Dashed">
-      LIPEP/GL520/VISDA/GL522
-    </Line>
-    <Line Name="LONVA1C" Pattern="Dashed">
-      LONVA/ERDAN/GL501/GL502/DULNO
-    </Line>
-    <Line Name="LIVRI1C" Pattern="Dashed">
-      LIVRI/IKBAN/ULOGA/GL512/GL513/GL514/DULNO
-    </Line>
-    <Line Name="MODEX1A" Pattern="Dashed">
-      MODEX/GL540/ULOGA
+    <Line Name="AVURO1A" Pattern="Dashed">
+      AVURO/AA409/APLUR
     </Line>
     <Symbol Type="HollowStar">
+      <Point>AA409</Point>
+      <Point>AA412</Point>
+      <Point>AA413</Point>
+      <Point>AA416</Point>
+      <Point>AA417</Point>
+      <Point>ANALU</Point>
+      <Point>ANVAN</Point>
+      <Point>APLUR</Point>
+      <Point>APREN</Point>
+      <Point>ATUMU</Point>
+      <Point>AVURO</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
     <Label HasLeader="false">
+      <Point>ANALU</Point>
+      <Point>ANVAN</Point>
+      <Point>APLUR</Point>
+      <Point>APREN</Point>
+      <Point>ATUMU</Point>
+      <Point>AVURO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 10 - ILS" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 10 - ILS 3" Priority="1" Centre="+203124.320-1031841.798">
     <Line Pattern="Solid">
+      APLUR/+164535.800-0994546.400
     </Line>
+    <Line Pattern="Solid">
+      APREN/ATUMU
+    </Line>
+    <Line Pattern="Solid">
+      +164537.217-0994651.704/
+      +164611.404-0994640.103
+    </Line>
+    <Line Pattern="Solid">
+      +164555.729-0994751.208/
+      +164629.916-0994739.610
+    </Line>
+    <Line Pattern="Solid">
+      +164614.241-0994850.714/
+      +164648.428-0994839.119
+    </Line>
+    <Line Pattern="Solid">
+      +164632.753-0994950.222/
+      +164706.940-0994938.630
+    </Line>
+    <Line Pattern="Solid">
+      +164651.265-0995049.731/
+      +164725.452-0995038.142
+    </Line>
+    <Line Pattern="Solid">
+      +164709.777-0995149.242/
+      +164743.964-0995137.656
+    </Line>
+    <Line Pattern="Solid">
+      +164728.289-0995248.754/
+      +164802.476-0995237.171
+    </Line>
+    <Line Pattern="Solid">
+      +164746.801-0995348.268/
+      +164820.988-0995336.688
+    </Line>
+    <Line Pattern="Solid">
+      +164805.313-0995447.784/
+      +164839.500-0995436.207
+    </Line>
+    <Line Pattern="Solid">
+      +164823.825-0995547.301/
+      +164858.012-0995535.727
+    </Line>
+    <Line Pattern="Solid">
+      +164842.337-0995646.820/
+      +164916.524-0995635.249
+    </Line>
+    <Line Pattern="Solid">
+      +164900.849-0995746.341/
+      +164935.036-0995734.773
+    </Line>
+    <Line Pattern="Solid">
+      +164919.361-0995845.863/
+      +164953.548-0995834.298
+    </Line>
+    <Line Pattern="Solid">
+      +164937.873-0995945.387/
+      +165012.060-0995933.825
+    </Line>
+    <Line Pattern="Solid">
+      +164956.385-1000044.912/
+      +165030.572-1000033.353
+    </Line>
+    <Line Pattern="Solid">
+      +165014.897-1000144.439/
+      +165049.084-1000132.883
+    </Line>
+    <Line Pattern="Solid">
+      +165033.409-1000243.968/
+      +165107.596-1000232.415
+    </Line>
+    <Line Pattern="Solid">
+      +165051.921-1000343.498/
+      +165126.109-1000331.948
+    </Line>
+    <Line Pattern="Solid">
+      +165336.274-0995752.709/
+      +165325.167-0995716.982
+    </Line>
+    <Line Pattern="Solid">
+      +165239.296-0995812.056/
+      +165228.189-0995736.329
+    </Line>
+    <Line Pattern="Solid">
+      +165142.318-0995831.402/
+      +165131.211-0995755.675
+    </Line>
+    <Line Pattern="Solid">
+      +165045.340-0995850.746/
+      +165034.233-0995815.019
+    </Line>
+    <Line Pattern="Solid">
+      +164851.384-0995929.430/
+      +164840.277-0995853.702
+    </Line>
+    <Line Pattern="Solid">
+      +164754.406-0995948.769/
+      +164743.299-0995913.041
+    </Line>
+    <Line Pattern="Solid">
+      +164657.428-1000008.107/
+      +164646.321-0995932.378
+    </Line>
+    <Line Pattern="Solid">
+      +164600.450-1000027.443/
+      +164549.343-0995951.714
+    </Line>
+    <Symbol Type="HollowStar">
+      <Point>APLUR</Point>
+      <Point>APREN</Point>
+      <Point>ATUMU</Point>
+      <Point>AA403</Point>
+      <Point>AA401</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="Pista 10 - Salidas" Priority="1" Centre="+203124.320-1031841.798">
     <Line Name="ACA3A" Pattern="Dotted">

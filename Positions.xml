@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--MMAA-->
-  <Position Name="MMAA" Type="ASMGCS" ASMGCSAirport="MMAA" DefaultCenter="+164530.500-0994514.270" DefaultRange="3" MagneticVariation="-5">
+  <Position Name="MMAA" Type="ASMGCS" ASMGCSAirport="MMAA" DefaultCenter="+164520.000-0994455.000" DefaultRange="2" MagneticVariation="-5">
     <Maps>
       <Map Name="Acapulco/ASMGCS_MMAA_RWY" />
       <Map Name="Acapulco/ASMGCS_MMAA_APR" />
@@ -16,6 +16,7 @@
     <Maps>
       <Map Name="Acapulco/Aeropuerto - Pistas" />
       <Map Name="Acapulco/Aeropuerto - Zona de Control (CTR)" />
+      <Map Name="Acapulco/Pista 28 - ILS 3" />
 
       <Map Name="ALL/Geografia - Linea de Costa" />
       <Map Name="ALL/Sector - Aerovias Radar" />
@@ -47,8 +48,12 @@
       <Map Name="Acapulco/Aeropuerto - Area Terminal (TMA)" />
       <Map Name="Acapulco/Aeropuerto - Pistas" />
 
-      <Map Name="Acapulco/Pista 10 - Salidas RNAV" />
-      <Map Name="Acapulco/Pista 10 - Salidas RNAV (Nombres)" />
+      <Map Name="Acapulco/Pista 28 - Llegadas RNAV" />
+      <Map Name="Acapulco/Pista 28 - Llegadas RNAV (Nombres)" />
+      <Map Name="Acapulco/Pista 28 - ILS 3" />
+
+      <Map Name="Acapulco/Pista 28 - Salidas RNAV" />
+      <Map Name="Acapulco/Pista 28 - Salidas RNAV (Nombres)" />
 
       <Map Name="ACC Mexico/Limites FIR" />
 
