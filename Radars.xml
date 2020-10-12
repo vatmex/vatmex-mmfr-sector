@@ -48,7 +48,7 @@
     <Long>-107.47406</Long>
   </Radar>
 
-  <Radar Name="Cancun Primario" Type="PRI" Elevation="52" MaxRange="200">
+  <Radar Name="Cancun Primario" Type="PRI" Elevation="52" MaxRange="50">
     <Lat>21.047133</Lat>
     <Long>-86.879846</Long>
   </Radar>
@@ -57,7 +57,7 @@
     <Long>-86.879846</Long>
   </Radar>
 
-  <Radar Name="Guadalajara Primario" Type="PRI" Elevation="5046" MaxRange="200">
+  <Radar Name="Guadalajara Primario" Type="PRI" Elevation="5046" MaxRange="50">
     <Lat>20.53284</Lat>
     <Long>-103.309975</Long>
   </Radar>
@@ -95,7 +95,7 @@
     <Long>-89.652717</Long>
   </Radar>
 
-  <Radar Name="Monterrey Primario" Type="PRI" Elevation="1306" MaxRange="200">
+  <Radar Name="Monterrey Primario" Type="PRI" Elevation="1306" MaxRange="30">
     <Lat>25.790521</Lat>
     <Long>-100.107565</Long>
   </Radar>
@@ -108,7 +108,7 @@
     <Long>-100.107565</Long>
   </Radar>
 
-  <Radar Name="Cerro del Penon Primario" Type="PRI" Elevation="7530" MaxRange="200">
+  <Radar Name="Cerro del Penon Primario" Type="PRI" Elevation="7530" MaxRange="40">
     <Lat>19.440812</Lat>
     <Long>-99.083347</Long>
   </Radar>
@@ -155,7 +155,7 @@
     <Long>-93.015379</Long>
   </Radar>
 
-  <Radar Name="Tijuana Primario" Type="PRI" Elevation="517" MaxRange="200">
+  <Radar Name="Tijuana Primario" Type="PRI" Elevation="517" MaxRange="50">
     <Lat>32.539045</Lat>
     <Long>-116.97821</Long>
   </Radar>
@@ -164,7 +164,7 @@
     <Long>-116.97821</Long>
   </Radar>
 
-  <Radar Name="Toluca Primario" Type="PRI" Elevation="8496" MaxRange="200">
+  <Radar Name="Toluca Primario" Type="PRI" Elevation="8496" MaxRange="30">
     <Lat>19.336215</Lat>
     <Long>-99.570331</Long>
   </Radar>
@@ -185,5 +185,10 @@
   <Radar Name="Villahermosa MSSR" Type="SSR_ModeS" Elevation="76" MaxRange="200">
     <Lat>17.991352</Lat>
     <Long>-92.810148</Long>
+  </Radar>
+
+  <Radar Name="MMMX SMR" Type="SMR" Elevation="7316" MaxRange="10">
+    <Lat>19.430379</Lat>
+    <Long>-99.069947</Long>
   </Radar>
 </Radars>
