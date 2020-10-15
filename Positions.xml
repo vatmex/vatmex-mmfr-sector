@@ -40,6 +40,48 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
+  <!--MMAA/MMLO-->
+  <Position Name="Aproximacion Bajio" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
+    <Sectors>
+      <Sector Name="MMLO_APP" />
+    </Sectors>
+    <Maps>
+      <Map Name="Bajio/Bajio - Area Terminal (TMA)" />
+      <Map Name="Bajio/Bajio - Pistas" />
+
+      <Map Name="Bajio/MMAS - Pista 18 - Llegadas RNAV" />
+      <Map Name="Bajio/MMAS - Pista 18 - Llegadas RNAV (Nombres)" />
+      <Map Name="Bajio/MMAS - Pista 18 - RNP 18" />
+      <Map Name="Bajio/MMAS - Pista 18 - Salidas RNAV" />
+      <Map Name="Bajio/MMAS - Pista 18 - Salidas RNAV (Nombres)" />
+
+      <Map Name="ACC Mexico/Limites FIR" />
+
+      <Map Name="ALL/Geografia - Linea de Costa" />
+      <Map Name="ALL/Sector - Aerovias Radar" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMLO" Frequency="128.400" Server="NA" />
+      <Window Airport="MMLO" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMAS" Visible="true" />
+      <Window Type="ADEP" Beacon="MMLO" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="23000">
+      <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMAS" />
+      <Airport Name="MMLO" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Aproximacion Bajio / Bajio Approach</Line>
+      <Line>Serving MMAA arrivals and departures</Line>
+      <Line>ATIS available on 128.400</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
   <Position Name="Aproximacion Acapulco" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5">
     <Sectors>
       <Sector Name="MMAA_APP" />
