@@ -82,6 +82,24 @@
         <STAR Name="VOLER1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMBT">
+      <Runway Name="07" DataRunway="07">
+        <SID Name="HUX2A" Default="True"/>
+        <SID Name="HUX2B" />
+      </Runway>
+      <Runway Name="25" DataRunway="25">
+        <SID Name="HUX2C" Default="True"/>
+        <SID Name="HUX2D" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMIA">
+      <Runway Name="07" DataRunway="07">
+        <SID Name="COL2A" Default="True"/>
+      </Runway>
+      <Runway Name="25" DataRunway="25">
+        <SID Name="COL2B" Default="True"/>
+      </Runway>
+    </Airport>
   </SystemRunways>
   <Airways>
     <Airway Name="A317">
@@ -2292,6 +2310,26 @@
     <STAR Name="VOLER1B" Airport="MMAS" Runways="36">
       <Route Runway="36">VOLER AS517 AS515 AS512 ETBAM</Route>
     </STAR>
+    <!--MMBT-->
+    <SID Name="HUX2A" Airport="MMBT" Runways="07">
+      <Route Runway="07">HUX</Route>
+    </SID>
+    <SID Name="HUX2B" Airport="MMBT" Runways="07">
+      <Route Runway="07">HUX</Route>
+    </SID>
+    <SID Name="HUX2C" Airport="MMBT" Runways="25">
+      <Route Runway="25">HUX</Route>
+    </SID>
+    <SID Name="HUX2D" Airport="MMBT" Runways="25">
+      <Route Runway="25">HUX</Route>
+    </SID>
+    <!--MMIA-->
+    <SID Name="COL2A" Airport="MMIA" Runways="07">
+      <Route Runway="07">COL</Route>
+    </SID>
+    <SID Name="COL2B" Airport="MMIA" Runways="25">
+      <Route Runway="25">COL</Route>
+    </SID>
   </SIDSTARs>
   <Airports>
     <Airport ICAO="MMAA" Position="+164525.551-0994513.752" Elevation="16">
