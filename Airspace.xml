@@ -37,6 +37,51 @@
         <SID Name="ACA5D" />
       </Runway>
     </Airport>
+    <Airport Name="MMAS">
+      <Runway Name="18" DataRunway="18">
+        <SID Name="AGU1A" Default="True"/>
+        <SID Name="ALIPA1" />
+        <SID Name="ANILA1A" />
+        <SID Name="MEZCA1" />
+        <SID Name="SETOS1" />
+        <SID Name="HORTA1A" />
+        <SID Name="LIVRI1C" />
+        <SID Name="MITIN1A" />
+        <SID Name="TEDZI1B" />
+        <SID Name="TIDIL1A" />
+        <SID Name="UKIRO1A" />
+        <STAR Name="BJX1C" />
+        <STAR Name="BOPAX1A" />
+        <STAR Name="OMINA1A" />
+        <STAR Name="GRUSI1A" />
+        <STAR Name="IGSAM1A" />
+        <STAR Name="KEDRI1A" />
+        <STAR Name="RAKAL1A" />
+        <STAR Name="VOLER1A" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <SID Name="AGU1B" Default="True"/>
+        <SID Name="ANILA1B" />
+        <SID Name="DANGO1" />
+        <SID Name="RABIL1" />
+        <SID Name="TEDZI1" />
+        <SID Name="XOTOL1" />
+        <SID Name="HORTA1B" />
+        <SID Name="LIVRI1D" />
+        <SID Name="MITIN1B" />
+        <SID Name="TEDZI1C" />
+        <SID Name="TIDIL1B" />
+        <SID Name="UKIRO1B" />
+        <STAR Name="BJX1D" />
+        <STAR Name="BOPAX1B" />
+        <STAR Name="OMINA1B" />
+        <STAR Name="GRUSI1B" />
+        <STAR Name="IGSAM1B" />
+        <STAR Name="KEDRI1B" />
+        <STAR Name="RAKAL1B" />
+        <STAR Name="VOLER1B" />
+      </Runway>
+    </Airport>
   </SystemRunways>
   <Airways>
     <Airway Name="A317">
@@ -2067,7 +2112,7 @@
       <Route Runway="10">KASTRA</Route>
     </SID>
     <SID Name="SELIS3" Airport="MMAA" Runways="10">
-      <Route Runway="10">SELIS</Route>|
+      <Route Runway="10">SELIS</Route>
     </SID>
     <SID Name="TEXCA3A" Airport="MMAA" Runways="10">
       <Route Runway="10">TEXCA</Route>
@@ -2128,6 +2173,124 @@
     </STAR>
     <STAR Name="AVURO1B" Airport="MMAA" Runways="28">
       <Route Runway="28">AVURU AA409 AA505 ITRAM</Route>
+    </STAR>
+    <!--MMAS-->
+    <SID Name="AGU1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">AGU</Route>
+    </SID>
+    <SID Name="AGU1B" Airport="MMAS" Runways="36">
+      <Route Runway="10">AGU</Route>
+    </SID>
+    <SID Name="ALIPA1" Airport="MMAS" Runways="18">
+      <Route Runway="18">ALIPA</Route>
+    </SID>
+    <SID Name="ANILA1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">ANILA</Route>
+    </SID>
+    <SID Name="ANILA1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">ANILA</Route>
+    </SID>
+    <SID Name="MEZCA1" Airport="MMAS" Runways="18">
+      <Route Runway="18">MEZCA</Route>
+    </SID>
+    <SID Name="SETOS1" Airport="MMAS" Runways="18">
+      <Route Runway="18">SETOS3</Route>
+    </SID>
+    <SID Name="DANGO1" Airport="MMAS" Runways="36">
+      <Route Runway="36">DANGO</Route>
+    </SID>
+    <SID Name="RABIL1" Airport="MMAS" Runways="36">
+      <Route Runway="36">RABIL</Route>
+    </SID>
+    <SID Name="TEDZI1" Airport="MMAS" Runways="36">
+      <Route Runway="36">TEDZI</Route>
+    </SID>
+    <SID Name="XOTOL1" Airport="MMAS" Runways="36">
+      <Route Runway="36">XOTOL</Route>
+    </SID>
+    <SID Name="HORTA1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">AS801 AS805 AS810 HORTA</Route>
+    </SID>
+    <SID Name="HORTA1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">AS801 AS805 AS810 HORTA</Route>
+    </SID>
+    <SID Name="LIVRI1C" Airport="MMAS" Runways="18">
+      <Route Runway="18">AS801 LIVRI</Route>
+    </SID>
+    <SID Name="LIVRI1D" Airport="MMAS" Runways="36">
+      <Route Runway="36">AS801 LIVRI</Route>
+    </SID>
+    <SID Name="MITIN1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">AS801 AS802 AS803 AS804 TEDZI MITIN</Route>
+    </SID>
+    <SID Name="MITIN1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">AS801 AS802 AS803 AS804 TEDZI MITIN</Route>
+    </SID>
+    <SID Name="TEDZI1B" Airport="MMAS" Runways="18">
+      <Route Runway="18">AS801 AS802 AS803 AS804 TEDZI</Route>
+    </SID>
+    <SID Name="TEDZI1C" Airport="MMAS" Runways="36">
+      <Route Runway="36">AS801 AS802 AS803 AS804 TEDZI</Route>
+    </SID>
+    <SID Name="TIDIL1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">AS801 AS808 AS618 TIDIL</Route>
+    </SID>
+    <SID Name="TIDIL1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">AS801 AS808 AS618 TIDIL</Route>
+    </SID>
+    <SID Name="UKIRO1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">AS801 AS805 AS810 AS807 AS809 MANTA UKIRO</Route>
+    </SID>
+    <SID Name="UKIRO1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">AS801 AS805 AS810 AS807 AS809 MANTA UKIRO</Route>
+    </SID>
+    <STAR Name="BJX1C" Airport="MMAS" Runways="18">
+      <Route Runway="18">BJX LO403 AS513 AS912 ETBAM AS901 SESKO</Route>
+    </STAR>
+    <STAR Name="BJX1D" Airport="MMAS" Runways="36">
+      <Route Runway="36">BJX LO403 AS513 MIDLA</Route>
+    </STAR>
+    <STAR Name="BOPAX1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">BOPAX AS905 AS904 SESKO</Route>
+    </STAR>
+    <STAR Name="BOPAX1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">BOPAX AS516 AS515 AS512 ETBAM</Route>
+    </STAR>
+    <STAR Name="OMINA1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">OMINA AS519 AS513 AS912 ETBAM AS901 SESKO</Route>
+    </STAR>
+    <STAR Name="OMINA1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">OMINA ELSUL AS519 AS513 MIDLA</Route>
+    </STAR>
+    <STAR Name="GRUSI1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">GRUSI AMAPU AS900 TETES</Route>
+    </STAR>
+    <STAR Name="GRUSI1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">GRUSI AS510 PUSAN</Route>
+    </STAR>
+    <STAR Name="IGSAM1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">IGSAM SUTOM</Route>
+    </STAR>
+    <STAR Name="IGSAM1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">IGSAM AS517 AS515 AS512 ETBAM</Route>
+    </STAR>
+    <STAR Name="KEDRI1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">KEDRI AS909 AS908 AS900 TETES</Route>
+    </STAR>
+    <STAR Name="KEDRI1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">KEDRI DUVUB AS510 PUSAN</Route>
+    </STAR>
+    <STAR Name="RAKAL1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">RAKAL AS907 AS906 AS900 TETES</Route>
+    </STAR>
+    <STAR Name="RAKAL1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">RAKAL AS518 DUVUB AS510 PUSAN</Route>
+    </STAR>
+    <STAR Name="VOLER1A" Airport="MMAS" Runways="18">
+      <Route Runway="18">VOLER SUTOM</Route>
+    </STAR>
+    <STAR Name="VOLER1B" Airport="MMAS" Runways="36">
+      <Route Runway="36">VOLER AS517 AS515 AS512 ETBAM</Route>
     </STAR>
   </SIDSTARs>
   <Airports>
