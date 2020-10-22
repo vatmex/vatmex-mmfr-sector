@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SystemRunways>
-
+    <Airport Name="MMAA">
+      <Runway Name="10" DataRunway="10">
+        <SID Name="ACA3A" Default="True"/>
+        <SID Name="KATRA3" />
+        <SID Name="SELIS3" />
+        <SID Name="TEXCA3A" />
+        <SID Name="VELAS3A" />
+        <SID Name="AGLON1A" />
+        <SID Name="ALNUS1A" />
+        <SID Name="AMIDI1A" />
+        <SID Name="AMUSI1A" />
+        <STAR Name="ANALU1A" />
+        <STAR Name="ANVAN1A" />
+        <STAR Name="AVURO1A" />
+      </Runway>
+      <Runway Name="28" DataRunway="28">
+        <SID Name="ACA3B" Default="True"/>
+        <SID Name="ALANS3" />
+        <SID Name="NICOS3" />
+        <SID Name="TEXCA2B" />
+        <SID Name="VELAS2B" />
+        <SID Name="AGLON1B" />
+        <SID Name="ALNUS1B" />
+        <SID Name="AMIDI1B" />
+        <SID Name="AMUSI1B" />
+        <STAR Name="ANALU1B" />
+        <STAR Name="ANVAN1B" />
+        <STAR Name="AVURO1B" />
+      </Runway>
+      <Runway Name="06" DataRunway="06">
+        <SID Name="ACA3C" />
+      </Runway>
+      <Runway Name="24" DataRunway="24">
+        <SID Name="ACA5D" />
+      </Runway>
+    </Airport>
   </SystemRunways>
   <Airways>
     <Airway Name="A317">
@@ -2014,6 +2049,87 @@
     <Point Name="TCS" Type="Navaid" NavaidType="VOR" Frequency="112.700">+331657.000-1071650.000</Point>
     <Point Name="TUS" Type="Navaid" NavaidType="VOR" Frequency="116.000">+320543.000-1105454.000</Point>
   </Intersections>
+  <SIDSTARs>
+    <!--MMAA-->
+    <SID Name="ACA3A" Airport="MMAA" Runways="10">
+      <Route Runway="10">ACA</Route>
+    </SID>
+    <SID Name="ACA3B" Airport="MMAA" Runways="28">
+      <Route Runway="10">ACA</Route>
+    </SID>
+    <SID Name="ACA3C" Airport="MMAA" Runways="06">
+      <Route Runway="06">ACA</Route>
+    </SID>
+    <SID Name="ACA5D" Airport="MMAA" Runways="24">
+      <Route Runway="24">ACA</Route>
+    </SID>
+    <SID Name="KATRA3" Airport="MMAA" Runways="10">
+      <Route Runway="10">KASTRA</Route>
+    </SID>
+    <SID Name="SELIS3" Airport="MMAA" Runways="10">
+      <Route Runway="10">SELIS</Route>|
+    </SID>
+    <SID Name="TEXCA3A" Airport="MMAA" Runways="10">
+      <Route Runway="10">TEXCA</Route>
+    </SID>
+    <SID Name="TEXCA2B" Airport="MMAA" Runways="28">
+      <Route Runway="28">TEXCA</Route>
+    </SID>
+    <SID Name="VELAS3A" Airport="MMAA" Runways="10">
+      <Route Runway="10">VELAS</Route>
+    </SID>
+    <SID Name="VELAS2B" Airport="MMAA" Runways="28">
+      <Route Runway="28">VELAS</Route>
+    </SID>
+    <SID Name="NICOS3" Airport="MMAA" Runways="28">
+      <Route Runway="28">NICOS</Route>
+    </SID>
+    <SID Name="ALANS3" Airport="MMAA" Runways="28">
+      <Route Runway="28">ALANS</Route>
+    </SID>
+    <SID Name="AMUSI1A" Airport="MMAA" Runways="10">
+      <Route Runway="10">AA422 AA423 AMUSI</Route>
+    </SID>
+    <SID Name="AMUSI1B" Airport="MMAA" Runways="28">
+      <Route Runway="28">AA512 AA516 A513 AMUSI</Route>
+    </SID>
+    <SID Name="AMIDI1A" Airport="MMAA" Runways="10">
+      <Route Runway="10">AA422 AMIDI</Route>
+    </SID>
+    <SID Name="AMIDI1B" Airport="MMAA" Runways="28">
+      <Route Runway="28">AA512 AA516 AA517 AMIDI</Route>
+    </SID>
+    <SID Name="ALNUS1A" Airport="MMAA" Runways="10">
+      <Route Runway="10">AA422 AA426 AA427 ALNUS</Route>
+    </SID>
+    <SID Name="ALNUS1B" Airport="MMAA" Runways="28">
+      <Route Runway="28">AA508 AA509 AA427 ALNUS</Route>
+    </SID>
+    <SID Name="AGLON1A" Airport="MMAA" Runways="10">
+      <Route Runway="10">AA422 AA426 AA427 AGLON</Route>
+    </SID>
+    <SID Name="AGLON1B" Airport="MMAA" Runways="28">
+      <Route Runway="28">AA508 AA509 AA510 AGLON</Route>
+    </SID>
+    <STAR Name="ANALU1A" Airport="MMAA" Runways="10">
+      <Route Runway="10">ANALU AA413 AA412 APREN</Route>
+    </STAR>
+    <STAR Name="ANALU1B" Airport="MMAA" Runways="28">
+      <Route Runway="10">ANALU AA507 AA506 ANALU</Route>
+    </STAR>
+    <STAR Name="ANVAN1A" Airport="MMAA" Runways="10">
+      <Route Runway="10">ANVAN AA417 AA416 ATUMU</Route>
+    </STAR>
+    <STAR Name="ANVAN1B" Airport="MMAA" Runways="28">
+      <Route Runway="28">ANVAN AA417 AA416 ATUMU</Route>
+    </STAR>
+    <STAR Name="AVURO1A" Airport="MMAA" Runways="10">
+      <Route Runway="10">AVURU AA409 APLUR</Route>
+    </STAR>
+    <STAR Name="AVURO1B" Airport="MMAA" Runways="28">
+      <Route Runway="28">AVURU AA409 AA505 ITRAM</Route>
+    </STAR>
+  </SIDSTARs>
   <Airports>
     <Airport ICAO="MMAA" Position="+164525.551-0994513.752" Elevation="16">
       <Runway Name="10" Position="+164535.990-0994547.110" />
