@@ -937,6 +937,16 @@
     <Point Name="CANOZ" Type="Fix">+200632.000-0894624.000</Point>
     <Point Name="CAPUL" Type="Fix">+223942.000-1045215.000</Point>
     <Point Name="CAREL" Type="Fix">+151106.000-0923109.000</Point>
+    <Point Name="CB500" Type="Fix">+184807.420-0991657.390</Point>
+    <Point Name="CB501" Type="Fix">+184524.510-0991842.840</Point>
+    <Point Name="CB600" Type="Fix">+184435.920-0992325.250</Point>
+    <Point Name="CB601" Type="Fix">+184725.640-0990910.510</Point>
+    <Point Name="CB611" Type="Fix">+184319.530-0990125.490</Point>
+    <Point Name="CB700" Type="Fix">+183626.410-0990451.700</Point>
+    <Point Name="CB701" Type="Fix">+183735.410-0991216.680</Point>
+    <Point Name="CB800" Type="Fix">+185402.920-0991307.070</Point>
+    <Point Name="CB810" Type="Fix">+184345.330-0990415.410</Point>
+    <Point Name="CB820" Type="Fix">+184122.000-0991438.400</Point>
     <Point Name="CHALY" Type="Fix">+200932.000-0975323.000</Point>
     <Point Name="CI05R" Type="Fix">+192227.000-0991058.000</Point>
     <Point Name="CLONN" Type="Fix">+253800.000-0953100.000</Point>
@@ -984,6 +994,7 @@
     <Point Name="DUMBO" Type="Fix">+303026.000-1105919.000</Point>
     <Point Name="DUMBU" Type="Fix">+205024.000-0863108.000</Point>
     <Point Name="DUMKO" Type="Fix">+193713.000-0994216.000</Point>
+    <Point Name="DUNPA" Type="Fix">+183825.310-0991739.980</Point>
     <Point Name="DUNSU" Type="Fix">+203448.000-1035549.000</Point>
     <Point Name="DUPAS" Type="Fix">+214216.000-0911804.000</Point>
     <Point Name="DUPEM" Type="Fix">+222030.000-0901823.000</Point>
@@ -1608,7 +1619,7 @@
     <Point Name="OTILO" Type="Fix">+184519.000-0960143.000</Point>
     <Point Name="OTIPO" Type="Fix">+240600.000-0890421.000</Point>
     <Point Name="OTITI" Type="Fix">+232027.000-0990629.000</Point>
-    <Point Name="OTIVO" Type="Fix">+184306.000-0994020.000</Point>
+    <Point Name="OTIVO" Type="Fix">+184306.000-0994019.840</Point>
     <Point Name="OTMOS" Type="Fix">+190821.000-0985039.000</Point>
     <Point Name="OTMUT" Type="Fix">+203742.000-0864307.000</Point>
     <Point Name="OTNOG" Type="Fix">+285630.000-1112942.000</Point>
@@ -1724,6 +1735,7 @@
     <Point Name="SEDEM" Type="Fix">+210619.510-1035701.710</Point>
     <Point Name="SEGIP" Type="Fix">+175021.000-1015621.000</Point>
     <Point Name="SEKEV" Type="Fix">+205154.000-1053237.000</Point>
+    <Point Name="SEKOS" Type="Fix">+184741.630-0990537.660</Point>
     <Point Name="SEKUB" Type="Fix">+233830.000-1034705.000</Point>
     <Point Name="SELIR" Type="Fix">+212717.000-0975451.000</Point>
     <Point Name="SELIS" Type="Fix">+164842.000-0990335.000</Point>
@@ -1746,7 +1758,7 @@
     <Point Name="SIGMA" Type="Fix">+193702.000-0862200.000</Point>
     <Point Name="SIKDI" Type="Fix">+173639.000-0923917.000</Point>
     <Point Name="SIKMA" Type="Fix">+300717.000-1063821.000</Point>
-    <Point Name="SIKMO" Type="Fix">+183553.000-0990114.000</Point>
+    <Point Name="SIKMO" Type="Fix">+183552.560-0990114.270</Point>
     <Point Name="SILAC" Type="Fix">+223854.000-0985146.000</Point>
     <Point Name="SILMA" Type="Fix">+210209.000-1052933.000</Point>
     <Point Name="SINLO" Type="Fix">+275930.000-1045515.000</Point>
@@ -1866,6 +1878,7 @@
     <Point Name="ULUMU" Type="Fix">+204646.000-1012531.900</Point>
     <Point Name="ULURO" Type="Fix">+290749.000-1060124.000</Point>
     <Point Name="ULUVO" Type="Fix">+195655.150-1022617.320</Point>
+    <Point Name="UMADA" Type="Fix">+184626.700-0990130.200</Point>
     <Point Name="UMAVO" Type="Fix">+200750.000-0974750.000</Point>
     <Point Name="UMAXA" Type="Fix">+271541.000-1072855.000</Point>
     <Point Name="UMEDO" Type="Fix">+295230.000-1060828.000</Point>
@@ -1938,6 +1951,7 @@
     <Point Name="VIXER" Type="Fix">+291417.000-1070857.000</Point>
     <Point Name="VOBED" Type="Fix">+205623.000-0871313.000</Point>
     <Point Name="VODAG" Type="Fix">+201701.000-0942610.000</Point>
+    <Point Name="VODIS" Type="Fix">+183656.920-0992411.240</Point>
     <Point Name="VODIV" Type="Fix">+201848.000-0920258.000</Point>
     <Point Name="VOGAS" Type="Fix">+200929.000-1020426.000</Point>
     <Point Name="VOGIL" Type="Fix">+261525.000-1110330.000</Point>
@@ -2330,6 +2344,52 @@
     <SID Name="COL2B" Airport="MMIA" Runways="25">
       <Route Runway="25">COL</Route>
     </SID>
+    <!--MMCB-->
+    <SID Name="CVJ1A" Airport="MMCB" Runways="02">
+      <Route Runway="02">CVJ</Route>
+    </SID>
+    <SID Name="CVJ1B" Airport="MMCB" Runways="20">
+      <Route Runway="20">CVJJ</Route>
+    </SID>
+    <SID Name="CUA1E" Airport="MMCB" Runways="02">
+      <Route Runway="02">CUA</Route>
+    </SID>
+    <SID Name="CUA1F" Airport="MMCB" Runways="20">
+      <Route Runway="20">CUA</Route>
+    </SID>
+    <SID Name="TEQ1C" Airport="MMCB" Runways="02">
+      <Route Runway="02">TEQ</Route>
+    </SID>
+    <SID Name="TEQ1D" Airport="MMCB" Runways="20">
+      <Route Runway="20">TEQ</Route>
+    </SID>
+    <SID Name="MAXUL1C" Airport="MMCB" Runways="20">
+      <Route Runway="20">MAXUL</Route>
+    </SID>
+    <SID Name="SIKMO1C" Airport="MMCB" Runways="02">
+      <Route Runway="02">CB800 CB810 SIKMO</Route>
+    </SID>
+    <SID Name="SIKMO1D" Airport="MMCB" Runways="20">
+      <Route Runway="20">CB500 CB501 SIKMO</Route>
+    </SID>
+    <SID Name="OTIVO1C" Airport="MMCB" Runways="02">
+      <Route Runway="02">CB800 CB820 OTIVO</Route>
+    </SID>
+    <SID Name="OTIVO1D" Airport="MMCB" Runways="20">
+      <Route Runway="20">CB500 CB501 OTIVO</Route>
+    </SID>
+    <STAR Name="SIKMO1A" Airport="MMCB" Runways="02">
+      <Route Runway="02">SIKMO CB700 CB701 DUNPA</Route>
+    </STAR>
+    <STAR Name="SIKMO1B" Airport="MMCB" Runways="20">
+      <Route Runway="20">SIKMO CB611 UMADA</Route>
+    </STAR>
+    <STAR Name="OTIVO1A" Airport="MMCB" Runways="02">
+      <Route Runway="02">OTIVO VODIS</Route>
+    </STAR>
+    <STAR Name="OTIVO1B" Airport="MMCB" Runways="20">
+      <Route Runway="20">OTIVO CB600 CB601 SEKOS</Route>
+    </STAR>
   </SIDSTARs>
   <Airports>
     <Airport ICAO="MMAA" Position="+164525.551-0994513.752" Elevation="16">
