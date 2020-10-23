@@ -100,6 +100,27 @@
         <SID Name="COL2B" Default="True"/>
       </Runway>
     </Airport>
+    <Airport Name="MMCB">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="CVJ1A" Default="True"/>
+        <SID Name="CUA1E" />
+        <SID Name="TEQ1C" />
+        <SID Name="SIKMO1C" />
+        <SID Name="OTIVO1C" />
+        <STAR Name="SIKMO1A" />
+        <STAR Name="OTIVO1A" />
+      </Runway>
+      <Runway Name="20" DataRunway="20">
+        <SID Name="CVJ1B" Default="True"/>
+        <SID Name="CUA1F" />
+        <SID Name="TEQ1D" />
+        <SID Name="MAXUL1C" />
+        <SID Name="SIKMO1D" />
+        <SID Name="OTIVO1D" />
+        <STAR Name="SIKMO1B" />
+        <STAR Name="OTIVO1B" />
+      </Runway>
+    </Airport>
   </SystemRunways>
   <Airways>
     <Airway Name="A317">
