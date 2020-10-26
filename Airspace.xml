@@ -273,6 +273,19 @@
         <STAR Name="VILTO1D" />
       </Runway>
     </Airport>
+    <Airport Name="MMZO">
+      <Runway Name="10" DataRunway="10">
+        <SID Name="ZLO3A" Default="True" />
+        <SID Name="BEXIN1" />
+        <SID Name="MEKLI1" />
+        <SID Name="UDLOG1" />
+      </Runway>
+      <Runway Name="28" DataRunway="28">
+        <SID Name="ZLO3B" Default="True" />
+        <SID Name="NUDAS1" />
+        <SID Name="USBAK1" />
+      </Runway>
+    </Airport>
   </SystemRunways>
   <Airways>
     <Airway Name="A317">
@@ -3050,6 +3063,28 @@
     <STAR Name="VILTO1D" Airport="MMZH" Runways="26">
       <Route Runway="26">VILTO ZH707 ZH709 ZH710 ZH711 SEGOB</Route>
     </STAR>
+    <!--MMZO-->
+    <SID Name="ZLO3A" Airport="MMZO" Runways="10">
+      <Route Runway="10">COL</Route>
+    </SID>
+    <SID Name="ZLO3B" Airport="MMZO" Runways="28">
+      <Route Runway="28">COL</Route>
+    </SID>
+    <SID Name="BEXIN1" Airport="MMZO" Runways="10">
+      <Route Runway="10">BEXIN</Route>
+    </SID>
+    <SID Name="MEKLI1" Airport="MMZO" Runways="10">
+      <Route Runway="10">MEKLI</Route>
+    </SID>
+    <SID Name="NUDAS1" Airport="MMZO" Runways="28">
+      <Route Runway="28">NUDAS</Route>
+    </SID>
+    <SID Name="UDLOG1" Airport="MMZO" Runways="10">
+      <Route Runway="10">UDLOG1</Route>
+    </SID>
+    <SID Name="USBAK1" Airport="MMZO" Runways="28">
+      <Route Runway="28">USBAK</Route>
+    </SID>
   </SIDSTARs>
   <Airports>
     <Airport ICAO="MMAA" Position="+164525.551-0994513.752" Elevation="16">
