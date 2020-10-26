@@ -199,6 +199,44 @@
         <SID Name="COL2B" Default="True" />
       </Runway>
     </Airport>
+    <Airport Name="MMLO">
+      <Runway Name="13" DataRunway="13">
+        <SID Name="BJX3A" Default="True" />
+        <SID Name="AGU1C" />
+        <SID Name="AVRIK3" />
+        <SID Name="ANILA1D" />
+        <SID Name="JASTO1C" />
+        <SID Name="KARIR1" />
+        <SID Name="TIDIL1C" />
+        <SID Name="UKIRO1C" />
+        <SID Name="URVEM3" />
+        <STAR Name="AGU1E" />
+        <STAR Name="JASTO1E" />
+        <STAR Name="LIBOL1A" />
+        <STAR Name="MEDAB1A" />
+        <STAR Name="NAGIV1A" />
+        <STAR Name="OMINA1C" />
+      </Runway>
+      <Runway Name="31" DataRunway="31">
+        <SID Name="BJX3B" Default="True" />
+        <SID Name="AGU1D" />
+        <SID Name="AMOVA3" />
+        <SID Name="ANILA3C" />
+        <SID Name="ANILA2E" />
+        <SID Name="HORTA1C" />
+        <SID Name="JASTO1D" />
+        <SID Name="MANTA3" />
+        <SID Name="NOSUK3" />
+        <SID Name="TIDIL1D" />
+        <SID Name="UKIRO1D" />
+        <STAR Name="AGU1F" />
+        <STAR Name="JASTO1F" />
+        <STAR Name="LIBOL1B" />
+        <STAR Name="MEDAB1B" />
+        <STAR Name="NAGIV1B" />
+        <STAR Name="OMINA1D" />
+      </Runway>
+    </Airport>
     <Airport Name="MMZH">
       <Runway Name="08" DataRunway="08">
         <SID Name="ZIH3A" Default="True" />
@@ -2821,6 +2859,103 @@
     <SID Name="COL2B" Airport="MMIA" Runways="25">
       <Route Runway="25">COL</Route>
     </SID>
+    <!--MMLO-->
+    <SID Name="BJX3A" Airport="MMLO" Runways="13">
+      <Route Runway="13">BJX</Route>
+    </SID>
+    <SID Name="BJX3B" Airport="MMLO" Runways="31">
+      <Route Runway="31">BJX</Route>
+    </SID>
+    <SID Name="AGU1C" Airport="MMLO" Runways="13">
+      <Route Runway="13">LO900 LO901 LO902 ANILA AGU</Route>
+    </SID>
+    <SID Name="AGU1D" Airport="MMLO" Runways="31">
+      <Route Runway="31">LO701 LO710 ANILA AGU</Route>
+    </SID>
+    <SID Name="ANILA3C" Airport="MMLO" Runways="31">
+      <Route Runway="31">ANILA</Route>
+    </SID>
+    <SID Name="ANILA1D" Airport="MMLO" Runways="13">
+      <Route Runway="13">LO900 LO901 LO902 ANILA</Route>
+    </SID>
+    <SID Name="ANILA2E" Airport="MMLO" Runways="31">
+      <Route Runway="31">LO710 ANILA</Route>
+    </SID>
+    <SID Name="AMOVA3" Airport="MMLO" Runways="31">
+      <Route Runway="31">AMOVA</Route>
+    </SID>
+    <SID Name="AVRIK3" Airport="MMLO" Runways="13">
+      <Route Runway="13">AVRIK</Route>
+    </SID>
+    <SID Name="HORTA1C" Airport="MMLO" Runways="31">
+      <Route Runway="31">LO712 HORTA</Route>
+    </SID>
+    <SID Name="JASTO1C" Airport="MMLO" Runways="13">
+      <Route Runway="13">LO900 LO905 LO906 JASTO</Route>
+    </SID>
+    <SID Name="JASTO1D" Airport="MMLO" Runways="31">
+      <Route Runway="31">LO701 LO703 LO704 JASTO</Route>
+    </SID>
+    <SID Name="KARIR1" Airport="MMLO" Runways="13">
+      <Route Runway="13">LO900 LO901 LO903 LO904 KARIR</Route>
+    </SID>
+    <SID Name="MANTA3" Airport="MMLO" Runways="31">
+      <Route Runway="31">MANTA</Route>
+    </SID>
+    <SID Name="NOSUK3" Airport="MMLO" Runways="31">
+      <Route Runway="31">NOSUK</Route>
+    </SID>
+    <SID Name="TIDIL1C" Airport="MMLO" Runways="13">
+      <Route Runway="13">LO900 LO905 LO906 TIDIL</Route>
+    </SID>
+    <SID Name="TIDIL1D" Airport="MMLO" Runways="31">
+      <Route Runway="31">LO701 LO703 LO704 TIDIL</Route>
+    </SID>
+    <SID Name="UKIRO1C" Airport="MMLO" Runways="13">
+      <Route Runway="13">LO900 LO901 UKIRO</Route>
+    </SID>
+    <SID Name="UKIRO1D" Airport="MMLO" Runways="31">
+      <Route Runway="31">LO701 LO702 UKIRO</Route>
+    </SID>
+    <SID Name="URVEM3" Airport="MMLO" Runways="13">
+      <Route Runway="13">URVEM</Route>
+    </SID>
+    <STAR Name="AGU1E" Airport="MMLO" Runways="13">
+      <Route Runway="13">AGU LO420 SETOS AMOVA ODGAR</Route>
+    </STAR>
+    <STAR Name="AGU1F" Airport="MMLO" Runways="31">
+      <Route Runway="31">AGU LO805 LO403 LO804 ULUMU</Route>
+    </STAR>
+    <STAR Name="JASTO1E" Airport="MMLO" Runways="13">
+      <Route Runway="13">JASTO LO424 LO423 RIGEP</Route>
+    </STAR>
+    <STAR Name="JASTO1F" Airport="MMLO" Runways="31">
+      <Route Runway="31">JASTO LO424 LO423 LO403 LO804 ULUMU</Route>
+    </STAR>
+    <STAR Name="LIBOL1A" Airport="MMLO" Runways="13">
+      <Route Runway="13">LIBOL LO422 LO421 ODGAR</Route>
+    </STAR>
+    <STAR Name="LIBOL1B" Airport="MMLO" Runways="31">
+      <Route Runway="31">LIBOL LO810 LO802 LO801 VIRVO</Route>
+    </STAR>
+    <STAR Name="MEDAB1A" Airport="MMLO" Runways="13">
+      <Route Runway="13">MEDAB LO502 LO425 RIGEP</Route>
+    </STAR>
+    <STAR Name="MEDAB1B" Airport="MMLO" Runways="31">
+      <Route Runway="31">MEDAB XESIN</Route>
+    </STAR>
+    <STAR Name="NAGIV1A" Airport="MMLO" Runways="13">
+      <Route Runway="13">NAGIV TOXOS LO502 LO425 RIGEP</Route>
+    </STAR>
+    <STAR Name="NAGIV1B" Airport="MMLO" Runways="31">
+      <Route Runway="31">NAGIV XESIN</Route>
+    </STAR>
+    <STAR Name="OMINA1C" Airport="MMLO" Runways="13">
+      <Route Runway="13">OMINA LO502 LO425 RIGEP</Route>
+    </STAR>
+    <STAR Name="OMINA1D" Airport="MMLO" Runways="31">
+      <Route Runway="31">OMINA AVREN XESIN</Route>
+    </STAR>
     <!--MMZH-->
     <SID Name="ZIH3A" Airport="MMZH" Runways="08">
       <Route Runway="08">ZIH</Route>
