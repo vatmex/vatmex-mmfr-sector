@@ -20,6 +20,16 @@
       <Threshold Name="02" Position="+185042.400-0991517.000" />
       <Threshold Name="20" Position="+184937.100-0991559.300" />
     </Runway>
+    <!--MMPB-->
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="+191027.200-0982219.600" />
+      <Threshold Name="35" Position="+190831.600-0982215.500" />
+    </Runway>
+    <!--LUCIA-->
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="+194443.400-0990143.500" />
+      <Threshold Name="22" Position="+194547.100-0990025.700" />
+    </Runway>
   </Map>
   <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
   	<Line Name="TMA MMMX" Pattern="Dashed">
