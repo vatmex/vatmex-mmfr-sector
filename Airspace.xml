@@ -237,6 +237,130 @@
         <STAR Name="OMINA1D" />
       </Runway>
     </Airport>
+    <Airport Name="MMMX">
+      <Runway Name="05L" DataRunway="05L">
+        <SID Name="APN7A" />
+        <SID Name="ATURO1A" />
+        <SID Name="AXIRI1A" />
+        <SID Name="CUA5A" />
+        <SID Name="IKLAN1A" />
+        <SID Name="ILETO1A" />
+        <SID Name="MUXEP1" />
+        <SID Name="NOXOS1A" />
+        <SID Name="UKUNO1A" />
+        <SID Name="OMPUT1" />
+        <SID Name="OVAGO1A" />
+        <SID Name="PTJ5A" />
+        <SID Name="PBC4C" />
+        <SID Name="SEBON1A" />
+        <SID Name="TEVOS1A" />
+        <SID Name="TLC6A" />
+        <SID Name="ULEBA1A" />
+        <STAR Name="AVSAR4A" />
+        <STAR Name="AVSAR1C" />
+        <STAR Name="DARAN1A" />
+        <STAR Name="DATUL4A" />
+        <STAR Name="DATUL1C" />
+        <STAR Name="DUXOP1" />
+        <STAR Name="ENAGA1A" />
+        <STAR Name="ESPOS1A" />
+        <STAR Name="LARLO1A" />
+        <STAR Name="MEX5A" />
+        <STAR Name="SASUT1A" />
+        <STAR Name="SASUT1C" />
+        <STAR Name="TIKEB1A" />
+        <STAR Name="TIKEB1C" />
+      </Runway>
+      <Runway Name="05R" DataRunway="05R">
+        <SID Name="APN7A" />
+        <SID Name="ATURO1A" />
+        <SID Name="AXIRI1A" />
+        <SID Name="CUA5A" />
+        <SID Name="IKLAN1A" />
+        <SID Name="ILETO1A" />
+        <SID Name="MUXEP1" />
+        <SID Name="NOXOS1A" />
+        <SID Name="UKUNO1A" />
+        <SID Name="OMPUT1" />
+        <SID Name="OVAGO1A" />
+        <SID Name="PTJ5A" />
+        <SID Name="PBC4C" />
+        <SID Name="SEBON1A" />
+        <SID Name="TEVOS1A" />
+        <SID Name="TLC6A" />
+        <SID Name="ULEBA1A" />
+        <STAR Name="AVSAR4A" />
+        <STAR Name="AVSAR1C" />
+        <STAR Name="DARAN1A" />
+        <STAR Name="DATUL4A" />
+        <STAR Name="DATUL1C" />
+        <STAR Name="DUXOP1" />
+        <STAR Name="ENAGA1A" />
+        <STAR Name="ESPOS1A" />
+        <STAR Name="LARLO1A" />
+        <STAR Name="MEX5A" />
+        <STAR Name="SASUT1A" />
+        <STAR Name="SASUT1C" />
+        <STAR Name="TIKEB1A" />
+        <STAR Name="TIKEB1C" />
+      </Runway>
+      <Runway Name="23L" DataRunway="23L">
+        <SID Name="APN5B" />
+        <SID Name="ATURO1B" />
+        <SID Name="AXIRI1B" />
+        <SID Name="IKLAN1B" />
+        <SID Name="ILETO1B" />
+        <SID Name="NOXOS1B" />
+        <SID Name="OTMOS1" />
+        <SID Name="OVAGO1B" />
+        <SID Name="PTJ5B" />
+        <SID Name="PBC3D" />
+        <SID Name="SEBON1B" />
+        <SID Name="TEVOS1B" />
+        <SID Name="TLC6B" />
+        <SID Name="TLC4C" />
+        <SID Name="ULEBA1B" />
+        <STAR Name="AVSAR3B" />
+        <STAR Name="DARAN1B" />
+        <STAR Name="DATUL3B" />
+        <STAR Name="ENAGA1B" />
+        <STAR Name="ESPOS1B" />
+        <STAR Name="LARLO1B" />
+        <STAR Name="MEX3B" />
+        <STAR Name="PCA1A" />
+        <STAR Name="SASUT1B" />
+        <STAR Name="SLM1A" />
+        <STAR Name="TIKEB1B" />
+      </Runway>
+      <Runway Name="23R" DataRunway="23R">
+        <SID Name="APN5B" />
+        <SID Name="ATURO1B" />
+        <SID Name="AXIRI1B" />
+        <SID Name="IKLAN1B" />
+        <SID Name="ILETO1B" />
+        <SID Name="NOXOS1B" />
+        <SID Name="OTMOS1" />
+        <SID Name="OVAGO1B" />
+        <SID Name="PTJ5B" />
+        <SID Name="PBC3D" />
+        <SID Name="SEBON1B" />
+        <SID Name="TEVOS1B" />
+        <SID Name="TLC6B" />
+        <SID Name="TLC4C" />
+        <SID Name="ULEBA1B" />
+        <STAR Name="AVSAR3B" />
+        <STAR Name="DARAN1B" />
+        <STAR Name="DATUL3B" />
+        <STAR Name="ENAGA1B" />
+        <STAR Name="ESPOS1B" />
+        <STAR Name="LARLO1B" />
+        <STAR Name="MEX3B" />
+        <STAR Name="PCA1A" />
+        <STAR Name="SASUT1B" />
+        <STAR Name="SLM1A" />
+        <STAR Name="TIKEB1B" />
+      </Runway>
+    </Airport>
     <Airport Name="MMZH">
       <Runway Name="08" DataRunway="08">
         <SID Name="ZIH3A" Default="True" />
@@ -2969,6 +3093,239 @@
     <STAR Name="OMINA1D" Airport="MMLO" Runways="31">
       <Route Runway="31">OMINA AVREN XESIN</Route>
     </STAR>
+    <!--MMMX-->
+    <SID Name="APN7A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">APN</Route>
+      <Route Runway="05R">APN</Route>
+    </SID>
+    <SID Name="APN5B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">APN</Route>
+      <Route Runway="23R">APN</Route>
+    </SID>
+    <SID Name="ATURO1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX801 ATURO</Route>
+      <Route Runway="05R">MX800 MX801 ATURO</Route>
+    </SID>
+    <SID Name="ATURO1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 MX530 MX531 MX532 ATURO</Route>
+      <Route Runway="23R">MX503 MX520 MX530 MX531 MX532 ATURO</Route>
+    </SID>
+    <SID Name="AXIRI1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX801 AXIRI</Route>
+      <Route Runway="05R">MX800 MX801 AXIRI</Route>
+    </SID>
+    <SID Name="AXIRI1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 MX530 MX531 MX532 AXIRI</Route>
+      <Route Runway="23R">MX503 MX520 MX530 MX531 MX532 AXIRI</Route>
+    </SID>
+    <SID Name="CUA5A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">CUA</Route>
+      <Route Runway="05R">CUA</Route>
+    </SID>
+    <SID Name="IKLAN1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX801 IKLAN</Route>
+      <Route Runway="05R">MX800 MX801 IKLAN</Route>
+    </SID>
+    <SID Name="IKLAN1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX820 MX530 MX531 MX532 IKLAN</Route>
+      <Route Runway="23R">MX503 MX820 MX530 MX531 MX532 IKLAN</Route>
+    </SID>
+    <SID Name="ILETO1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX810 MX836 ILETO</Route>
+      <Route Runway="05R">MX800 MX810 MX836 ILETO</Route>
+    </SID>
+    <SID Name="ILETO1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX540 MX541 MX500 MX501 MX502 ILETO</Route>
+      <Route Runway="23R">MX503 MX540 MX541 MX500 MX501 MX502 ILETO</Route>
+    </SID>
+    <SID Name="MUXEP1" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MUXEP</Route>
+      <Route Runway="05R">MUXEP</Route>
+    </SID>
+    <SID Name="NOXOS1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX810 MX825 NOXOS</Route>
+      <Route Runway="05R">MX800 MX810 MX825 NOXOS</Route>
+    </SID>
+    <SID Name="NOXOS1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX540 MX541 MX500 MX501 MX502 NOXOS</Route>
+      <Route Runway="23R">MX503 MX540 MX541 MX500 MX501 MX502 NOXOS</Route>
+    </SID>
+    <SID Name="OMPUT1" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">OMPUT</Route>
+      <Route Runway="05R">OMPUT</Route>
+    </SID>
+    <SID Name="OTMOS1" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">OTMOS CUA</Route>
+      <Route Runway="23R">OTMOS CUA</Route>
+    </SID>
+    <SID Name="OVAGO1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX850 MX852 MX861 OVAGO</Route>
+      <Route Runway="05R">MX800 MX850 MX852 MX861 OVAGO</Route>
+    </SID>
+    <SID Name="OVAGO1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 MX521 MX522 MX525 OVAGO</Route>
+      <Route Runway="23R">MX503 MX520 MX521 MX522 MX525 OVAGO</Route>
+    </SID>
+    <SID Name="PBC4C" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">PBC</Route>
+      <Route Runway="05R">PBC</Route>
+    </SID>
+    <SID Name="PBC3D" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">PBC</Route>
+      <Route Runway="23R">PBC</Route>
+    </SID>
+    <SID Name="PTJ5A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">PTJ</Route>
+      <Route Runway="05R">PTJ</Route>
+    </SID>
+    <SID Name="PTJ5B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">SMO PTJ</Route>
+      <Route Runway="23R">SMO PTJ</Route>
+    </SID>
+    <SID Name="SEBON1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX850 MX852 MX854 SEBON</Route>
+      <Route Runway="05R">MX800 MX850 MX852 MX854 SEBON</Route>
+    </SID>
+    <SID Name="SEBON1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 MX521 MX522 MX524 SEBON</Route>
+      <Route Runway="23R">MX503 MX520 MX521 MX522 MX524 SEBON</Route>
+    </SID>
+    <SID Name="TEVOS1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX839 MX840 USBAN ULOTO TEVOS</Route>
+      <Route Runway="05R">MX800 MX839 MX840 USBAN ULOTO TEVOS</Route>
+    </SID>
+    <SID Name="TEVOS1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX510 MX511 MX512 MX513 TEVOS</Route>
+      <Route Runway="23R">MX503 MX510 MX511 MX512 MX513 TEVOS</Route>
+    </SID>
+    <SID Name="TLC6A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">TLC</Route>
+      <Route Runway="05R">TLC</Route>
+    </SID>
+    <SID Name="TLC6B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">SMO TLC</Route>
+      <Route Runway="23R">SMO TLC</Route>
+    </SID>
+    <SID Name="TLC4C" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">TLC</Route>
+      <Route Runway="23R">TLC</Route>
+    </SID>
+    <SID Name="UKUNO1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX810 MX835 UKUNO</Route>
+      <Route Runway="05R">MX800 MX810 MX835 UKUNO</Route>
+    </SID>
+    <SID Name="UKUNO1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX540 MX541 MX500 MX501 MX502 UKUNO</Route>
+      <Route Runway="23R">MX503 MX540 MX541 MX500 MX501 MX502 UKUNO</Route>
+    </SID>
+    <SID Name="ULEBA1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MX800 MX850 MX852 MX865 ULEBA</Route>
+      <Route Runway="05R">MX800 MX850 MX852 MX865 ULEBA</Route>
+    </SID>
+    <SID Name="ULEBA1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 MX521 MX522 MX523 ULEBA</Route>
+      <Route Runway="23R">MX503 MX520 MX521 MX522 MX523 ULEBA</Route>
+    </SID>
+    <STAR Name="AVSAR4A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">AVSAR SLM SMO</Route>
+      <Route Runway="05R">AVSAR SLM SMO</Route>
+    </STAR>
+    <STAR Name="AVSAR3B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">AVSAR SLM</Route>
+      <Route Runway="23R">AVSAR SLM</Route>
+    </STAR>
+    <STAR Name="AVSAR1C" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">AVSAR SLM MAVEK</Route>
+      <Route Runway="05R">AVSAR SLM MAVEK</Route>
+    </STAR>
+    <STAR Name="DARAN1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">DARAN SAUZA MX710 MX712 MX713 MX715 ALMIS MX717 SUTAS</Route>
+      <Route Runway="05R">DARAN SAUZA MX710 MX712 MX713 MX715 ALMIS MX717 SUTAS</Route>
+    </STAR>
+    <STAR Name="DARAN1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">DARAN MX600 ESTAR MX602 MX603 MX605 SESTA KOZLO</Route>
+      <Route Runway="23R">DARAN MX600 ESTAR MX602 MX603 MX605 SESTA KOZLO</Route>
+    </STAR>
+    <STAR Name="DATUL4A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">DATUL SLM SMO</Route>
+      <Route Runway="05R">DATUL SLM SMO</Route>
+    </STAR>
+    <STAR Name="DATUL3B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">DATUL SLM</Route>
+      <Route Runway="23R">DATUL SLM</Route>
+    </STAR>
+    <STAR Name="DATUL1C" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">DATUL SLM MAVEK</Route>
+      <Route Runway="05R">DATUL SLM MAVEK</Route>
+    </STAR>
+    <STAR Name="DUXOP1" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">TEQ DUXOP MEX SMO</Route>
+      <Route Runway="05R">TEQ DUXOP MEX SMO</Route>
+    </STAR>
+    <STAR Name="ENAGA1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">ENAGA MX701 MX702 MX703 MX704 LIDES MX705 MX707 ALMIS MX717 SUTAS</Route>
+      <Route Runway="05R">ENAGA MX701 MX702 MX703 MX704 LIDES MX705 MX707 ALMIS MX717 SUTAS</Route>
+    </STAR>
+    <STAR Name="ENAGA1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">ENAGA NUGIR MX602 MX603 MX605 SESTA KOZLO</Route>
+      <Route Runway="23R">ENAGA NUGIR MX602 MX603 MX605 SESTA KOZLO</Route>
+    </STAR>
+    <STAR Name="ESPOS1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">ESPOS LEXIT MX732 MX733 MX735 URNOK MX741 VOLUN</Route>
+      <Route Runway="05R">ESPOS LEXIT MX732 MX733 MX735 URNOK MX741 VOLUN</Route>
+    </STAR>
+    <STAR Name="ESPOS1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">ESPOS MX610 MX611 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
+      <Route Runway="23R">ESPOS MX610 MX611 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
+    </STAR>
+    <STAR Name="LARLO1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">LARLO MX721 OTEDA MX723 MX724 MX726 URNOK MX741 VOLUN</Route>
+      <Route Runway="05R">LARLO MX721 OTEDA MX723 MX724 MX726 URNOK MX741 VOLUN</Route>
+    </STAR>
+    <STAR Name="LARLO1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">LARLO MX639 MX640 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
+      <Route Runway="23R">LARLO MX639 MX640 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
+    </STAR>
+    <STAR Name="MEX5A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">MEX SMO</Route>
+      <Route Runway="05R">MEX SMO</Route>
+    </STAR>
+    <STAR Name="MEX3B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MEX SLM</Route>
+      <Route Runway="23R">MEX SLM</Route>
+    </STAR>
+    <STAR Name="PCA1A" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">PCA ALKOM</Route>
+      <Route Runway="23R">PCA ALKOM</Route>
+    </STAR>
+    <STAR Name="SASUT1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">SASUT SLM SMO</Route>
+      <Route Runway="05R">SASUT SLM SMO</Route>
+    </STAR>
+    <STAR Name="SASUT1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">SASUT SLM</Route>
+      <Route Runway="23R">SASUT SLM</Route>
+    </STAR>
+    <STAR Name="SASUT1C" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">SASUT SLM MAVEK</Route>
+      <Route Runway="05R">SASUT SLM MAVEK</Route>
+    </STAR>
+    <STAR Name="SLM1A" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">SLM ALKOM</Route>
+      <Route Runway="23R">SLM ALKOM</Route>
+    </STAR>
+    <STAR Name="TIKEB1A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">TIKEB SLM SMO</Route>
+      <Route Runway="05R">TIKEB SLM SMO</Route>
+    </STAR>
+    <STAR Name="TIKEB1B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">TIKEB SLM</Route>
+      <Route Runway="23R">TIKEB SLM</Route>
+    </STAR>
+    <STAR Name="TIKEB1C" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">TIKEB SLM MAVEK</Route>
+      <Route Runway="05R">TIKEB SLM MAVEK</Route>
+    </STAR>
     <!--MMZH-->
     <SID Name="ZIH3A" Airport="MMZH" Runways="08">
       <Route Runway="08">ZIH</Route>
@@ -3245,14 +3602,8 @@
     <Airport ICAO="MMMX" Position="+192611.027-0990419.098" Elevation="7316">
       <Runway Name="05L" Position="+192547.050-0990512.010" />
       <Runway Name="23R" Position="+192636.200-0990344.540" />
-      <Runway Name="05L" Position="+192544.790-0990455.640" />
-      <Runway Name="23R" Position="+192641.780-0990314.010" />
-    </Airport>
-    <Airport ICAO="MMMX" Position="+192611.027-0990419.098" Elevation="7316">
-      <Runway Name="05L" Position="+192547.050-0990512.010" />
-      <Runway Name="23R" Position="+192636.200-0990344.540" />
-      <Runway Name="05L" Position="+192544.790-0990455.640" />
-      <Runway Name="23R" Position="+192641.780-0990314.010" />
+      <Runway Name="05R" Position="+192544.790-0990455.640" />
+      <Runway Name="23L" Position="+192641.780-0990314.010" />
     </Airport>
     <Airport ICAO="MMMT" Position="+180612.033-0943450.213" Elevation="36">
       <Runway Name="01" Position="+180539.529-0943501.202" />
