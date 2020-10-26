@@ -380,6 +380,29 @@
         <STAR Name="TIKEB1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMOX">
+      <Runway Name="01" DataRunway="01">
+        <SID Name="OAX3A" Default="True" />
+        <SID Name="MAXIL4" />
+        <SID Name="TABMI4" />
+      </Runway>
+      <Runway Name="19" DataRunway="19">
+        <SID Name="OAX3B" Default="True" />
+        <SID Name="ISTMO3" />
+        <SID Name="KESGO1" />
+        <SID Name="MASAS3" />
+        <SID Name="OTSUT2" />
+        <SID Name="XONTA3" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMPA">
+      <Runway Name="08" DataRunway="08">
+        <SID Name="PAZ3A" Default="True" />
+      </Runway>
+      <Runway Name="26" DataRunway="26">
+        <SID Name="PAZ3B" Default="True" />
+      </Runway>
+    </Airport>
     <Airport Name="MMZH">
       <Runway Name="08" DataRunway="08">
         <SID Name="ZIH3A" Default="True" />
@@ -3385,6 +3408,41 @@
       <Route Runway="05L">TIKEB SLM MAVEK</Route>
       <Route Runway="05R">TIKEB SLM MAVEK</Route>
     </STAR>
+    <!--MMOX-->
+    <SID Name="OAX3A" Airport="MMOX" Runways="01">
+      <Route Runway="01">OAX</Route>
+    </SID>
+    <SID Name="OAX3B" Airport="MMOX" Runways="19">
+      <Route Runway="19">OAX</Route>
+    </SID>
+    <SID Name="ISTMO3" Airport="MMOX" Runways="19">
+      <Route Runway="19">ISTMO</Route>
+    </SID>
+    <SID Name="KESGO1" Airport="MMOX" Runways="19">
+      <Route Runway="19">KESGO</Route>
+    </SID>
+    <SID Name="MASAS3" Airport="MMOX" Runways="19">
+      <Route Runway="19">MASAS</Route>
+    </SID>
+    <SID Name="MAXIL4" Airport="MMOX" Runways="01">
+      <Route Runway="01">MAXIL</Route>
+    </SID>
+    <SID Name="OTSUT2" Airport="MMOX" Runways="19">
+      <Route Runway="19">OTSUT</Route>
+    </SID>
+    <SID Name="TABMI4" Airport="MMOX" Runways="01">
+      <Route Runway="01">TABMI</Route>
+    </SID>
+    <SID Name="XONTA3" Airport="MMOX" Runways="19">
+      <Route Runway="19">XONTA</Route>
+    </SID>
+    <!--MMPA-->
+    <SID Name="PAZ3A" Airport="MMPA" Runways="08">
+      <Route Runway="08">PAZ3A</Route>
+    </SID>
+    <SID Name="PAZ3B" Airport="MMPA" Runways="26">
+      <Route Runway="26">PAZ3B</Route>
+    </SID>
     <!--MMZH-->
     <SID Name="ZIH3A" Airport="MMZH" Runways="08">
       <Route Runway="08">ZIH</Route>
@@ -3696,8 +3754,8 @@
       <Runway Name="32" Position="+272607.629-0993353.928" />
     </Airport>
     <Airport ICAO="MMOX" Position="+165954.914-0964333.745" Elevation="4989">
-      <Runway Name="14" Position="+165916.890-0964344.830" />
-      <Runway Name="32" Position="+170033.550-0964322.470" />
+      <Runway Name="01" Position="+165916.890-0964344.830" />
+      <Runway Name="19" Position="+170033.550-0964322.470" />
     </Airport>
     <Airport ICAO="MMPC" Position="+200425.000-0984700.000" Elevation="7598" />
     <Airport ICAO="MMPQ" Position="+173158.855-0920056.124" Elevation="165">
