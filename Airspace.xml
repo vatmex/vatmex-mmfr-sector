@@ -403,6 +403,33 @@
         <SID Name="PAZ3B" Default="True" />
       </Runway>
     </Airport>
+    <Airport Name="MMPB">
+      <Runway Name="17" DataRunway="17">
+        <SID Name="PBC3A" Default="True" />
+        <SID Name="ATUKA1C" />
+        <SID Name="ILETO1C" />
+        <SID Name="MAPEN2" />
+        <SID Name="NOXOS1C" />
+        <SID Name="TAKAL1C" />
+        <SID Name="UKUNO1C" />
+        <STAR Name="ATUKA1A" />
+        <STAR Name="LARLO1C" />
+        <STAR Name="TAKAL1A" />
+      </Runway>
+      <Runway Name="35" DataRunway="35">
+        <SID Name="PBC2B" Default="True" />
+        <SID Name="ALITA2" />
+        <SID Name="ALMET1" />
+        <SID Name="ATUKA1D" />
+        <SID Name="ILETO1D" />
+        <SID Name="NOXOS1D" />
+        <SID Name="TAKAL1D" />
+        <SID Name="UKUNO1D" />
+        <STAR Name="ATUKA1B" />
+        <STAR Name="LARLO1D" />
+        <STAR Name="TAKAL1B" />
+      </Runway>
+    </Airport>
     <Airport Name="MMZH">
       <Runway Name="08" DataRunway="08">
         <SID Name="ZIH3A" Default="True" />
@@ -1197,7 +1224,7 @@
     <Point Name="ASOKU" Type="Fix">+160437.000-0912256.000</Point>
     <Point Name="ASUTA" Type="Fix">+323909.000-1153911.000</Point>
     <Point Name="ATOXO" Type="Fix">+195701.550-1025643.560</Point>
-    <Point Name="ATUKA" Type="Fix">+194155.000-0981544.000</Point>
+    <Point Name="ATUKA" Type="Fix">+194154.780-0981544.060</Point>
     <Point Name="ATUMI" Type="Fix">+231936.000-1100518.000</Point>
     <Point Name="ATUMU" Type="Fix">+164454.700-1000028.800</Point>
     <Point Name="ATURO" Type="Fix">+202644.450-0991504.720</Point>
@@ -1583,13 +1610,14 @@
     <Point Name="ILELA" Type="Fix">+203046.000-0902519.000</Point>
     <Point Name="ILEMA" Type="Fix">+221005.000-1000214.000</Point>
     <Point Name="ILENA" Type="Fix">+175900.000-1004155.400</Point>
-    <Point Name="ILETO" Type="Fix">+191549.970-0980113.280</Point>
+    <Point Name="ILETO" Type="Fix">+191549.870-0980113.280</Point>
     <Point Name="ILIGA" Type="Fix">+222139.000-1084012.000</Point>
     <Point Name="ILIGO" Type="Fix">+263606.000-0993507.000</Point>
     <Point Name="ILOLI" Type="Fix">+222603.000-0913703.000</Point>
     <Point Name="ILOLU" Type="Fix">+195032.000-0972054.000</Point>
     <Point Name="ILUBA" Type="Fix">+201122.000-0852028.000</Point>
     <Point Name="ILURA" Type="Fix">+200221.000-1022248.000</Point>
+    <Point Name="IMALO" Type="Fix">+190737.720-0981956.950</Point>
     <Point Name="IMARA" Type="Fix">+190022.000-0954622.000</Point>
     <Point Name="IMARI" Type="Fix">+270618.000-1073832.000</Point>
     <Point Name="IMASO" Type="Fix">+144602.000-0920938.000</Point>
@@ -1691,6 +1719,7 @@
     <Point Name="LEROK" Type="Fix">+200955.000-1030457.000</Point>
     <Point Name="LEROV" Type="Fix">+193133.000-0993905.000</Point>
     <Point Name="LEROX" Type="Fix">+224624.000-1040314.000</Point>
+    <Point Name="LERUS" Type="Fix">+192043.770-0981543.040</Point>
     <Point Name="LERUV" Type="Fix">+221443.000-0873851.000</Point>
     <Point Name="LESIT" Type="Fix">+233033.000-1053908.000</Point>
     <Point Name="LETAL" Type="Fix">+210243.000-1055651.000</Point>
@@ -1778,6 +1807,7 @@
     <Point Name="MARUS" Type="Fix">+214855.000-0903540.000</Point>
     <Point Name="MARUX" Type="Fix">+235427.000-1093145.000</Point>
     <Point Name="MASAS" Type="Fix">+162629.000-0965405.000</Point>
+    <Point Name="MASEL" Type="Fix">+185842.630-0981455.470</Point>
     <Point Name="MATOL" Type="Fix">+235240.000-0935022.000</Point>
     <Point Name="MATUR" Type="Fix">+263638.000-0992537.000</Point>
     <Point Name="MAVED" Type="Fix">+223558.000-1044200.000</Point>
@@ -2039,6 +2069,29 @@
     <Point Name="PAMAB" Type="Fix">+194205.000-1003715.000</Point>
     <Point Name="PAULE" Type="Fix">+194855.000-0872434.000</Point>
     <Point Name="PAVON" Type="Fix">+182530.000-0921004.000</Point>
+    <Point Name="PB400" Type="Fix">+185206.960-0982803.130</Point>
+    <Point Name="PB401" Type="Fix">+185902.540-0982426.290</Point>
+    <Point Name="PB403" Type="Fix">+191236.340-0981657.740</Point>
+    <Point Name="PB404" Type="Fix">+191525.580-0981516.080</Point>
+    <Point Name="PB410" Type="Fix">+185800.120-0981956.510</Point>
+    <Point Name="PB500" Type="Fix">+190229.990-0982201.960</Point>
+    <Point Name="PB501" Type="Fix">+190240.750-0981627.430</Point>
+    <Point Name="PB502" Type="Fix">+190250.170-0981142.580</Point>
+    <Point Name="PB503" Type="Fix">+191028.360-0980905.660</Point>
+    <Point Name="PB504" Type="Fix">+191306.500-0980513.470</Point>
+    <Point Name="PB510" Type="Fix">+192542.810-0981218.430</Point>
+    <Point Name="PB520" Type="Fix">+185719.790-0982501.810</Point>
+    <Point Name="PB600" Type="Fix">+191311.460-0981705.980</Point>
+    <Point Name="PB601" Type="Fix">+190400.720-0981507.190</Point>
+    <Point Name="PB620" Type="Fix">+192729.490-0981732.550</Point>
+    <Point Name="PB630" Type="Fix">+190808.540-0981600.620</Point>
+    <Point Name="PB700" Type="Fix">+191629.170-0982232.890</Point>
+    <Point Name="PB701" Type="Fix">+191653.010-0981023.910</Point>
+    <Point Name="PB702" Type="Fix">+190727.190-0981003.020</Point>
+    <Point Name="PB703" Type="Fix">+185549.250-0982144.110</Point>
+    <Point Name="PB710" Type="Fix">+192448.860-0981128.870</Point>
+    <Point Name="PB711" Type="Fix">+191752.660-0980333.340</Point>
+    <Point Name="PB730" Type="Fix">+192814.630-0980654.750</Point>
     <Point Name="PEKSI" Type="Fix">+180706.000-1005518.000</Point>
     <Point Name="PELNI" Type="Fix">+280937.000-1073832.000</Point>
     <Point Name="PELSA" Type="Fix">+250936.000-1073731.000</Point>
@@ -2046,6 +2099,7 @@
     <Point Name="PERBU" Type="Fix">+212853.000-1033729.000</Point>
     <Point Name="PERGO" Type="Fix">+211624.000-0894249.000</Point>
     <Point Name="PESPA" Type="Fix">+245552.000-1023200.000</Point>
+    <Point Name="PESTA" Type="Fix">+185151.550-0982138.470</Point>
     <Point Name="PIDNI" Type="Fix">+225304.000-1043958.000</Point>
     <Point Name="PIGNO" Type="Fix">+184248.000-0921429.000</Point>
     <Point Name="PIGVU" Type="Fix">+205440.000-1003037.000</Point>
@@ -2082,6 +2136,7 @@
     <Point Name="REMIL" Type="Fix">+195821.000-1012731.000</Point>
     <Point Name="RENES" Type="Fix">+203404.000-0892706.000</Point>
     <Point Name="RERAS" Type="Fix">+190913.000-0970410.000</Point>
+    <Point Name="RETEX" Type="Fix">+193039.670-0981738.450</Point>
     <Point Name="RETOM" Type="Fix">+181848.000-0955047.000</Point>
     <Point Name="RETOS" Type="Fix">+251228.000-0992532.000</Point>
     <Point Name="REXES" Type="Fix">+195509.000-0973355.000</Point>
@@ -2176,7 +2231,7 @@
     <Point Name="TAGIB" Type="Fix">+264347.000-1004656.000</Point>
     <Point Name="TAGMO" Type="Fix">+251808.000-1115317.000</Point>
     <Point Name="TAJIN" Type="Fix">+203832.000-0964822.000</Point>
-    <Point Name="TAKAL" Type="Fix">+184244.000-0983450.000</Point>
+    <Point Name="TAKAL" Type="Fix">+184243.630-0983450.040</Point>
     <Point Name="TAKAN" Type="Fix">+175640.000-0921343.000</Point>
     <Point Name="TAKLA" Type="Fix">+222628.000-0981658.000</Point>
     <Point Name="TAKNI" Type="Fix">+231825.000-1043658.000</Point>
@@ -2332,6 +2387,7 @@
     <Point Name="VILPO" Type="Fix">+283420.000-1062411.000</Point>
     <Point Name="VILTO" Type="Fix">+182532.400-1011900.100</Point>
     <Point Name="VIMBO" Type="Fix">+181416.000-0975033.000</Point>
+    <Point Name="VINGA" Type="Fix">+192617.360-0981918.190</Point>
     <Point Name="VINVA" Type="Fix">+275436.000-1082228.000</Point>
     <Point Name="VIRVO" Type="Fix">+205524.500-1011636.400</Point>
     <Point Name="VISDA" Type="Fix">+202421.440-1040203.300</Point>
@@ -3443,6 +3499,70 @@
     <SID Name="PAZ3B" Airport="MMPA" Runways="26">
       <Route Runway="26">PAZ3B</Route>
     </SID>
+    <!--MMPB-->
+    <SID Name="PBC3A" Airport="MMPB" Runways="17">
+      <Route Runway="17">PBC</Route>
+    </SID>
+    <SID Name="PBC2B" Airport="MMPB" Runways="35">
+      <Route Runway="35">PBC</Route>
+    </SID>
+    <SID Name="ALITA2" Airport="MMPB" Runways="35">
+      <Route Runway="35">ALITA</Route>
+    </SID>
+    <SID Name="ALMET1" Airport="MMPB" Runways="35">
+      <Route Runway="35">ALMET</Route>
+    </SID>
+    <SID Name="ATUKA1C" Airport="MMPB" Runways="17">
+      <Route Runway="17">PB500 PB501 PB502 PB503 PB510 ATUKA</Route>
+    </SID>
+    <SID Name="ATUKA1D" Airport="MMPB" Runways="35">
+      <Route Runway="35">PB700 RETEX ATUKA</Route>
+    </SID>
+    <SID Name="ILETO1C" Airport="MMPB" Runways="17">
+      <Route Runway="17">PB500 PB501 PB502 PB503 PB504 ILETO</Route>
+    </SID>
+    <SID Name="ILETO1D" Airport="MMPB" Runways="35">
+      <Route Runway="35">PB700 PB710 PB711 ILETO</Route>
+    </SID>
+    <SID Name="MAPEN2" Airport="MMPB" Runways="17">
+      <Route Runway="17">MAPEN</Route>
+    </SID>
+    <SID Name="NOXOS1C" Airport="MMPB" Runways="17">
+      <Route Runway="17">PB500 PB501 PB502 PB503 NOXOS</Route>
+    </SID>
+    <SID Name="NOXOS1D" Airport="MMPB" Runways="35">
+      <Route Runway="35">PB700 PB710 PB730 NOXOS</Route>
+    </SID>
+    <SID Name="TAKAL1C" Airport="MMPB" Runways="17">
+      <Route Runway="17">PB500 PB520 PB400 TAKAL</Route>
+    </SID>
+    <SID Name="TAKAL1D" Airport="MMPB" Runways="35">
+      <Route Runway="35">PB700 PB701 PB702 PB703 TAKAL</Route>
+    </SID>
+    <SID Name="UKUNO1C" Airport="MMPB" Runways="17">
+      <Route Runway="17">PB501 PB502 PB503 UKUNO</Route>
+    </SID>
+    <SID Name="UKUNO1D" Airport="MMPB" Runways="35">
+      <Route Runway="35">PB700 PB710 UKUNO</Route>
+    </SID>
+    <STAR Name="ATUKA1A" Airport="MMPB" Runways="17">
+      <Route Runway="17">ATUKA RETEX VINGA</Route>
+    </STAR>
+    <STAR Name="ATUKA1B" Airport="MMPB" Runways="35">
+      <Route Runway="35">ATUKA RETEX PB620 PB600 PB630 PB601 MASEL</Route>
+    </STAR>
+    <STAR Name="LARLO1C" Airport="MMPB" Runways="17">
+      <Route Runway="17">LARLO PB410 IMALO PB403 PB404 LERUS</Route>
+    </STAR>
+    <STAR Name="LARLO1D" Airport="MMPB" Runways="35">
+      <Route Runway="35">LARLO PESTA</Route>
+    </STAR>
+    <STAR Name="TAKAL1A" Airport="MMPB" Runways="17">
+      <Route Runway="17">TAKAL PB400 PB401 IMALO PB403 PB404 LERUS</Route>
+    </STAR>
+    <STAR Name="TAKAL1B" Airport="MMPB" Runways="35">
+      <Route Runway="35">TAKAL PESTA</Route>
+    </STAR>
     <!--MMZH-->
     <SID Name="ZIH3A" Airport="MMZH" Runways="08">
       <Route Runway="08">ZIH</Route>
