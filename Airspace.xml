@@ -430,6 +430,45 @@
         <STAR Name="TAKAL1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMPR">
+      <Runway Name="04" DataRunway="04">
+        <SID Name="PVR4A" Default="True" />
+        <SID Name="BOBDI1A" />
+        <SID Name="BUBEV2A" />
+        <SID Name="ENEMI2" />
+        <SID Name="KENDU2A" />
+        <SID Name="LIPEP1C" />
+        <SID Name="SEKEV2A" />
+        <SID Name="SILMA2A" />
+        <SID Name="VOLAT1C" />
+        <SID Name="XOSPU2A" />
+        <SID Name="XUDED1A" />
+        <STAR Name="KEDIX1A" />
+        <STAR Name="KEDMA1A" />
+        <STAR Name="NOTUP1A" />
+        <STAR Name="OBRUG1A" />
+      </Runway>
+      <Runway Name="22" DataRunway="22">
+        <SID Name="PVR4B" Default="True" />
+        <SID Name="ALPAP2" />
+        <SID Name="BOBDI1B" />
+        <SID Name="BUBEV2B" />
+        <SID Name="DETBO2" />
+        <SID Name="KENDU2B" />
+        <SID Name="LIPEP1D" />
+        <SID Name="SEKEV2B" />
+        <SID Name="SILMA2B" />
+        <SID Name="VOLAT1D" />
+        <SID Name="XOSPU2B" />
+        <SID Name="XUDED1B" />
+        <STAR Name="ESVEL1" />
+        <STAR Name="KEDIX1B" />
+        <STAR Name="KEDMA1B" />
+        <STAR Name="LIPEP1E" />
+        <STAR Name="NOTUP1B" />
+        <STAR Name="OBRUG1B" />
+      </Runway>
+    </Airport>
     <Airport Name="MMZH">
       <Runway Name="08" DataRunway="08">
         <SID Name="ZIH3A" Default="True" />
@@ -1410,7 +1449,7 @@
     <Point Name="BIBER" Type="Fix">+210824.000-0884730.000</Point>
     <Point Name="BISGA" Type="Fix">+255721.000-1033408.000</Point>
     <Point Name="BITVE" Type="Fix">+312044.000-1104836.000</Point>
-    <Point Name="BOBDI" Type="Fix">+212246.000-1054448.000</Point>
+    <Point Name="BOBDI" Type="Fix">+212245.700-1054448.400</Point>
     <Point Name="BOKMO" Type="Fix">+273644.000-1062340.000</Point>
     <Point Name="BOKTA" Type="Fix">+250527.000-1074546.000</Point>
     <Point Name="BOLTA" Type="Fix">+191603.000-0954605.000</Point>
@@ -1575,6 +1614,7 @@
     <Point Name="ESTAR" Type="Fix">+195645.970-0985020.020</Point>
     <Point Name="ESTIR" Type="Fix">+194219.000-0890947.000</Point>
     <Point Name="ESTIV" Type="Fix">+230846.000-1030354.000</Point>
+    <Point Name="ESVEL" Type="Fix">+211536.200-1043508.800</Point>
     <Point Name="ESVUR" Type="Fix">+241209.000-0990104.000</Point>
     <Point Name="ETBAM" Type="Fix">+213102.900-1021311.100</Point>
     <Point Name="ETLEP" Type="Fix">+264419.000-1042016.000</Point>
@@ -1788,8 +1828,8 @@
     <Point Name="KAVRA" Type="Fix">+241802.000-1085544.000</Point>
     <Point Name="KAVRU" Type="Fix">+190057.000-0980146.000</Point>
     <Point Name="KEBEX" Type="Fix">+260559.000-1083927.000</Point>
-    <Point Name="KEDIX" Type="Fix">+211744.000-1061828.000</Point>
-    <Point Name="KEDMA" Type="Fix">+214424.000-1043922.000</Point>
+    <Point Name="KEDIX" Type="Fix">+211744.400-1061827.600</Point>
+    <Point Name="KEDMA" Type="Fix">+214424.500-1043922.000</Point>
     <Point Name="KEDRI" Type="Fix">+220134.500-1030856.600</Point>
     <Point Name="KEHLI" Type="Fix">+242910.000-0895025.000</Point>
     <Point Name="KEKMA" Type="Fix">+284713.000-1115605.000</Point>
@@ -1926,6 +1966,7 @@
     <Point Name="MAVIK" Type="Fix">+210449.000-1055528.000</Point>
     <Point Name="MAXIL" Type="Fix">+171845.000-0965858.000</Point>
     <Point Name="MAXUL" Type="Fix">+185319.000-1000332.000</Point>
+    <Point Name="MAYTE" Type="Fix">+202921.500-1051944.600</Point>
     <Point Name="MEBAS" Type="Fix">+183610.000-0974042.000</Point>
     <Point Name="MEBIP" Type="Fix">+192545.000-0990456.000</Point>
     <Point Name="MEDAB" Type="Fix">+205054.800-1005821.300</Point>
@@ -1962,6 +2003,7 @@
     <Point Name="MURDU" Type="Fix">+263815.000-1015516.000</Point>
     <Point Name="MUTUB" Type="Fix">+233001.000-1035543.000</Point>
     <Point Name="MUVAP" Type="Fix">+174900.000-0900647.000</Point>
+    <Point Name="MUVBA" Type="Fix">+205512.600-1050729.100</Point>
     <Point Name="MUVEN" Type="Fix">+241928.000-1064201.000</Point>
     <Point Name="MUXEP" Type="Fix">+195008.000-0982133.000</Point>
     <Point Name="MUXOG" Type="Fix">+221050.000-0880706.000</Point>
@@ -2080,7 +2122,7 @@
     <Point Name="NUKAR" Type="Fix">+180134.000-0931519.000</Point>
     <Point Name="NUXCO" Type="Fix">+174639.000-1003737.000</Point>
     <Point Name="OASIS" Type="Fix">+321158.000-1163111.000</Point>
-    <Point Name="OBRUG" Type="Fix">+214701.000-1054127.000</Point>
+    <Point Name="OBRUG" Type="Fix">+214701.100-1054126.900</Point>
     <Point Name="OBSEV" Type="Fix">+262400.000-1004925.000</Point>
     <Point Name="OBTAM" Type="Fix">+200521.000-0865428.000</Point>
     <Point Name="OBVIX" Type="Fix">+195506.000-1045409.000</Point>
@@ -2230,6 +2272,39 @@
     <Point Name="PLAYA" Type="Fix">+250058.000-0972453.000</Point>
     <Point Name="PLAZA" Type="Fix">+192329.000-0990908.000</Point>
     <Point Name="POSTA" Type="Fix">+233936.000-1061741.000</Point>
+    <Point Name="PR502" Type="Fix">+204932.400-1050513.100</Point>
+    <Point Name="PR503" Type="Fix">+211136.900-1050441.600</Point>
+    <Point Name="PR505" Type="Fix">+211828.900-1052919.300</Point>
+    <Point Name="PR506" Type="Fix">+204142.700-1043534.000</Point>
+    <Point Name="PR551" Type="Fix">+205214.300-1052338.300</Point>
+    <Point Name="PR552" Type="Fix">+210215.500-1052414.100</Point>
+    <Point Name="PR553" Type="Fix">+210848.000-1052130.300</Point>
+    <Point Name="PR555" Type="Fix">+202319.500-1044936.200</Point>
+    <Point Name="PR557" Type="Fix">+203522.500-1052123.700</Point>
+    <Point Name="PR558" Type="Fix">+202417.700-1051507.900</Point>
+    <Point Name="PR601" Type="Fix">+204234.000-1052345.300</Point>
+    <Point Name="PR602" Type="Fix">+205001.600-1051758.200</Point>
+    <Point Name="PR604" Type="Fix">+204140.800-1053259.700</Point>
+    <Point Name="PR605" Type="Fix">+210235.300-1050812.000</Point>
+    <Point Name="PR606" Type="Fix">+212618.500-1053720.100</Point>
+    <Point Name="PR607" Type="Fix">+203314.800-1051517.400</Point>
+    <Point Name="PR608" Type="Fix">+203430.300-1050613.300</Point>
+    <Point Name="PR609" Type="Fix">+203546.200-1045702.800</Point>
+    <Point Name="PR610" Type="Fix">+204158.700-1044318.000</Point>
+    <Point Name="PR611" Type="Fix">+204427.600-1043747.100</Point>
+    <Point Name="PR614" Type="Fix">+204352.400-1052858.200</Point>
+    <Point Name="PR656" Type="Fix">+205744.400-1045547.700</Point>
+    <Point Name="PR658" Type="Fix">+210149.500-1045105.000</Point>
+    <Point Name="PR659" Type="Fix">+210926.700-1044216.700</Point>
+    <Point Name="PR660" Type="Fix">+205828.300-1054412.500</Point>
+    <Point Name="PR661" Type="Fix">+205234.600-1045734.300</Point>
+    <Point Name="PR662" Type="Fix">+205140.800-1044911.400</Point>
+    <Point Name="PR663" Type="Fix">+204639.600-1043815.200</Point>
+    <Point Name="PR664" Type="Fix">+205022.400-1043705.800</Point>
+    <Point Name="PR665" Type="Fix">+205825.400-1045926.500</Point>
+    <Point Name="PR667" Type="Fix">+210352.500-1045735.700</Point>
+    <Point Name="PR668" Type="Fix">+211819.000-1052234.400</Point>
+    <Point Name="PR669" Type="Fix">+205701.300-1052741.500</Point>
     <Point Name="PURAL" Type="Fix">+192436.000-0982030.000</Point>
     <Point Name="PURAM" Type="Fix">+201204.000-1024123.000</Point>
     <Point Name="PUSAN" Type="Fix">+213135.900-1022553.800</Point>
@@ -2262,6 +2337,7 @@
     <Point Name="ROLDA" Type="Fix">+202317.000-0980058.000</Point>
     <Point Name="ROLMI" Type="Fix">+191418.000-0902317.000</Point>
     <Point Name="RORLA" Type="Fix">+224634.000-0883321.000</Point>
+    <Point Name="RORPO" Type="Fix">+203727.400-1052742.700</Point>
     <Point Name="ROTGI" Type="Fix">+215035.000-0864019.000</Point>
     <Point Name="RUBNA" Type="Fix">+251327.000-1034031.000</Point>
     <Point Name="RUDLO" Type="Fix">+274245.000-1041812.000</Point>
@@ -2300,6 +2376,7 @@
     <Point Name="SESNO" Type="Fix">+245618.000-0990621.000</Point>
     <Point Name="SESTA" Type="Fix">+193524.910-0984738.440</Point>
     <Point Name="SESVA" Type="Fix">+232025.000-1041441.000</Point>
+    <Point Name="SETLU" Type="Fix">+204916.700-1042703.400</Point>
     <Point Name="SETMA" Type="Fix">+290731.000-1060323.000</Point>
     <Point Name="SETOS" Type="Fix">+212549.000-1015918.000</Point>
     <Point Name="SETRO" Type="Fix">+281654.000-1090740.000</Point>
@@ -2481,7 +2558,7 @@
     <Point Name="VERBA" Type="Fix">+193243.000-1004347.000</Point>
     <Point Name="VESKI" Type="Fix">+260850.000-1091637.000</Point>
     <Point Name="VESKO" Type="Fix">+240906.000-0943410.000</Point>
-    <Point Name="VETRI" Type="Fix">+213027.000-0891421.000</Point>
+    <Point Name="VETKA" Type="Fix">+205258.300-1050117.100</Point>
     <Point Name="VEVRA" Type="Fix">+234212.000-1035231.000</Point>
     <Point Name="VIBSA" Type="Fix">+230950.000-1070534.000</Point>
     <Point Name="VICKY" Type="Fix">+221819.000-1035351.000</Point>
@@ -2574,7 +2651,7 @@
     <Point Name="XUBNO" Type="Fix">+224046.000-0920144.000</Point>
     <Point Name="XUBSU" Type="Fix">+213508.000-0901309.000</Point>
     <Point Name="XUBUD" Type="Fix">+224137.000-1060422.000</Point>
-    <Point Name="XUDED" Type="Fix">+215104.000-1050345.000</Point>
+    <Point Name="XUDED" Type="Fix">+215103.700-1050344.900</Point>
     <Point Name="XUDUN" Type="Fix">+212211.000-0882517.000</Point>
     <Point Name="XUGAD" Type="Fix">+250507.000-1023947.000</Point>
     <Point Name="XUGNU" Type="Fix">+225622.000-1091944.000</Point>
@@ -3674,7 +3751,107 @@
     <STAR Name="TAKAL1B" Airport="MMPB" Runways="35">
       <Route Runway="35">TAKAL PESTA</Route>
     </STAR>
-    <!--MMPA-->
+    <!--MMPR-->
+    <SID Name="PVR4A" Airport="MMPR" Runways="04">
+      <Route Runway="04">PVR</Route>
+    </SID>
+    <SID Name="PVR4B" Airport="MMPR" Runways="22">
+      <Route Runway="22">PVR</Route>
+    </SID>
+    <SID Name="ALPAP2" Airport="MMPR" Runways="22">
+      <Route Runway="22">ALPAP</Route>
+    </SID>
+    <SID Name="BOBDI1A" Airport="MMPR" Runways="04">
+      <Route Runway="04">PR502 PR503 PR505 BOBDI</Route>
+    </SID>
+    <SID Name="BOBDI1B" Airport="MMPR" Runways="22">
+      <Route Runway="22">PR551 PR552 BOBDI</Route>
+    </SID>
+    <SID Name="BUBEV2A" Airport="MMPR" Runways="04">
+      <Route Runway="04">BUBEV</Route>
+    </SID>
+    <SID Name="BUBEV2B" Airport="MMPR" Runways="22">
+      <Route Runway="22">BUBEV</Route>
+    </SID>
+    <SID Name="DETBO2" Airport="MMPR" Runways="22">
+      <Route Runway="22">DETBO</Route>
+    </SID>
+    <SID Name="ENEMI2" Airport="MMPR" Runways="04">
+      <Route Runway="04">ENEMI</Route>
+    </SID>
+    <SID Name="KENDU2A" Airport="MMPR" Runways="04">
+      <Route Runway="04">KENDU</Route>
+    </SID>
+    <SID Name="KENDU2B" Airport="MMPR" Runways="22">
+      <Route Runway="22">KENDU</Route>
+    </SID>
+    <SID Name="LIPEP1C" Airport="MMPR" Runways="04">
+      <Route Runway="04">PR502 PR506 LIPEP</Route>
+    </SID>
+    <SID Name="LIPEP1D" Airport="MMPR" Runways="22">
+      <Route Runway="22">PR557 PR558 PR555 LIPEP</Route>
+    </SID>
+    <SID Name="SEKEV2A" Airport="MMPR" Runways="04">
+      <Route Runway="04">SEKEV</Route>
+    </SID>
+    <SID Name="SEKEV2B" Airport="MMPR" Runways="22">
+      <Route Runway="22">SEKEV</Route>
+    </SID>
+    <SID Name="SILMA2A" Airport="MMPR" Runways="04">
+      <Route Runway="04">SILMA</Route>
+    </SID>
+    <SID Name="SILMA2B" Airport="MMPR" Runways="22">
+      <Route Runway="22">SILMA</Route>
+    </SID>
+    <SID Name="VOLAT1C" Airport="MMPR" Runways="04">
+      <Route Runway="04">PR502 PR506 VOLAT</Route>
+    </SID>
+    <SID Name="VOLAT1D" Airport="MMPR" Runways="22">
+      <Route Runway="22">PR557 PR558 PR555 VOLAT</Route>
+    </SID>
+    <SID Name="XOSPU2A" Airport="MMPR" Runways="04">
+      <Route Runway="04">XOSPU</Route>
+    </SID>
+    <SID Name="XOSPU2B" Airport="MMPR" Runways="22">
+      <Route Runway="22">XOSPU</Route>
+    </SID>
+    <SID Name="XUDED1A" Airport="MMPR" Runways="04">
+      <Route Runway="04">PR502 PR503 XUDED</Route>
+    </SID>
+    <SID Name="XUDED1B" Airport="MMPR" Runways="22">
+      <Route Runway="22">PR551 PR552 PR553 XUDED</Route>
+    </SID>
+    <STAR Name="ESVEL1" Airport="MMPR" Runways="22">
+      <Route Runway="22">ESVEL PR659 PR658 PR656 VETKA</Route>
+    </STAR>
+    <STAR Name="KEDIX1A" Airport="MMPR" Runways="04">
+      <Route Runway="04">KEDIX PR604 RORPO</Route>
+    </STAR>
+    <STAR Name="KEDIX1B" Airport="MMPR" Runways="22">
+      <Route Runway="22">KEDIX PR660 PR669 MUVBA</Route>
+    </STAR>
+    <STAR Name="KEDMA1A" Airport="MMPR" Runways="04">
+      <Route Runway="04">KEDMA TNY PR605 PR602 PR601 RORPO</Route>
+    </STAR>
+    <STAR Name="KEDMA1B" Airport="MMPR" Runways="22">
+      <Route Runway="22">KEDMA TNY PR667 PR665 VETKA</Route>
+    </STAR>
+    <STAR Name="LIPEP1E" Airport="MMPR" Runways="22">
+      <Route Runway="22">LIPEP PR663 PR662 PR661 VETKA</Route>
+    </STAR>
+    <STAR Name="NOTUP1A" Airport="MMPR" Runways="04">
+      <Route Runway="04">NOTUP SETLU PR611 PR610 PR609 PR608 PR607 MAYTE</Route>
+    </STAR>
+    <STAR Name="NOTUP1B" Airport="MMPR" Runways="22">
+      <Route Runway="22">NOTUP SETLU PR664 PR662 PR661 VETKA</Route>
+    </STAR>
+    <STAR Name="OBRUG1A" Airport="MMPR" Runways="04">
+      <Route Runway="04">OBRUG PR606 PR614 RORPO</Route>
+    </STAR>
+    <STAR Name="OBRUG1B" Airport="MMPR" Runways="22">
+      <Route Runway="22">OBRUG PR668 MUVBA</Route>
+    </STAR>
+    <!--MMPS-->
     <SID Name="PXM4A" Airport="MMPS" Runways="09">
       <Route Runway="09">PXM</Route>
     </SID>
