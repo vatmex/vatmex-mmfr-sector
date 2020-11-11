@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Centro Mazatlan" Type="ASD" DefaultCenter="+262814.000-1090044.000" DefaultRange="1500">
+  <Position Name="Centro Mazatlan" Type="ASD" DefaultCenter="+254101.960-1094559.406" DefaultRange="1600">
     <Sectors>
       <Sector Name="MMZT_1_CTR" />
       <Sector Name="MMZT_2_CTR" />
@@ -40,6 +40,53 @@
     <ControllerInfo>
       <Line>Centro Mazatlan / Mazatlan Center</Line>
       <Line>MMTJ ATIS available on 127.900</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+    <ManualVisibility>
+      <Point>+22.887442-102.693261</Point>
+      <Point>+22.289603-097.863022</Point>
+      <Point>+15.875106-097.081714</Point>
+      <Point>+19.149414-104.571297</Point>
+    </ManualVisibility>
+  </Position>
+
+  <Position Name="Centro Merida" Type="ASD" DefaultCenter="+175945.835-0924904.218" DefaultRange="1550">
+    <Sectors>
+      <Sector Name="MMID_1_CTR" />
+      <Sector Name="MMID_2_CTR" />
+      <Sector Name="MMID_3_CTR" />
+      <Sector Name="MMID_4_CTR" />
+      <Sector Name="MMID_5_CTR" />
+      <Sector Name="MMID_6_CTR" />
+    </Sectors>
+    <Maps>
+      <Map Name="ACC Merida/Limites FIR" />
+      <Map Name="ACC Merida/Aerodromos" />
+
+      <Map Name="ALL/Geografia - Linea de Costa" />
+      <Map Name="ALL/Sector - Aerovias" />
+      <Map Name="ALL/Sector - Aerovias Radar" />
+      <Map Name="ALL/Sector - Radioayudas" />
+      <Map Name="ALL/Sector - Radioayudas (Nombres)" />
+      <Map Name="ALL/Sector - Fijos Principales" />
+      <Map Name="ALL/Sector - Fijos Principales (Nombres)" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
+      <Window Airport="MMUN" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="27000">
+      <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMUN" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Centro Merida / Merida Center</Line>
+      <Line>MMUN ATIS available on 127.700</Line>
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
     <ManualVisibility>
@@ -375,6 +422,52 @@
     <ControllerInfo>
       <Line>Centro Mexico / Mexico Center</Line>
       <Line>MMMX ATIS available on 126.750</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+    <ManualVisibility>
+      <Point>+22.887442-102.693261</Point>
+      <Point>+22.289603-097.863022</Point>
+      <Point>+15.875106-097.081714</Point>
+      <Point>+19.149414-104.571297</Point>
+    </ManualVisibility>
+  </Position>
+
+  <Position Name="Centro Monterrey" Type="ASD" DefaultCenter="+272622.750-0993352.593" DefaultRange="1150">
+    <Sectors>
+      <Sector Name="MMTY_1_CTR" />
+      <Sector Name="MMTY_2_CTR" />
+      <Sector Name="MMTY_3_CTR" />
+      <Sector Name="MMTY_4_CTR" />
+      <Sector Name="MMTY_5_CTR" />
+    </Sectors>
+    <Maps>
+      <Map Name="ACC Monterrey/Limites FIR" />
+      <Map Name="ACC Monterrey/Aerodromos" />
+
+      <Map Name="ALL/Geografia - Linea de Costa" />
+      <Map Name="ALL/Sector - Aerovias" />
+      <Map Name="ALL/Sector - Aerovias Radar" />
+      <Map Name="ALL/Sector - Radioayudas" />
+      <Map Name="ALL/Sector - Radioayudas (Nombres)" />
+      <Map Name="ALL/Sector - Fijos Principales" />
+      <Map Name="ALL/Sector - Fijos Principales (Nombres)" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMTY" Frequency="127.700" Server="NA" />
+      <Window Airport="MMTY" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMTY" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="27000">
+      <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMTY" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Centro Merida / Merida Center</Line>
+      <Line>MMTY ATIS available on 127.700</Line>
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
     <ManualVisibility>
