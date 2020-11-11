@@ -94,9 +94,9 @@
   <Colour id="Warning">
     <Use>Warning Indications</Use>
     <Name>BrightYellow</Name>
-    <R>210</R>
-    <G>148</G>
-    <B>68</B>
+    <R>200</R>
+    <G>180</G>
+    <B>85</B>
   </Colour>
   <Colour id="VSCSBackground">
     <Use>VSCS Background</Use>
@@ -179,9 +179,9 @@
   <Colour id="ASDBackground">
     <Use>ASD Backgrounds</Use>
     <Name>DarkBlue</Name>
-    <R>5</R>
-    <G>17</G>
-    <B>27</B>
+    <R>16</R>
+    <G>55</G>
+    <B>70</B>
   </Colour>
   <Colour id="CPDLCSendButton">
     <Use>CPDLC Hot-Send Button</Use>
@@ -193,9 +193,9 @@
   <Colour id="GroundBackground">
     <Use>A-SMGCS Background</Use>
     <Name>Grey</Name>
-    <R>105</R>
-    <G>105</G>
-    <B>105</B>
+    <R>0</R>
+    <G>98</G>
+    <B>123</B>
   </Colour>
   <Colour id="Jurisdiction">
     <Use>Jurisdiction</Use>
@@ -333,31 +333,31 @@
   <Colour id="UserMap">
     <Use>Custom Maps and Text</Use>
     <Name>Yellow</Name>
-    <R>210</R>
-    <G>148</G>
-    <B>68</B>
+    <R>200</R>
+    <G>180</G>
+    <B>85</B>
   </Colour>
   <Colour id="PrimaryMap">
     <Use>System Maps</Use>
     <Name>LightBlue</Name>
-    <R>37</R>
-    <G>72</G>
-    <B>90</B>
+    <R>52</R>
+    <G>99</G>
+    <B>128</B>
   </Colour>
   <!--Sector Activo-->
   <Colour id="Infill">
     <Use>Filled Area Map</Use>
     <Name>MidGrey</Name>
-    <R>5</R>
-    <G>17</G>
-    <B>27</B>
+    <R>16</R>
+    <G>55</G>
+    <B>70</B>
   </Colour>
   <Colour id="SecondaryMap">
     <Use>Alternative System Map</Use>
     <Name>White</Name>
-    <R>153</R>
-    <G>153</G>
-    <B>153</B>
+    <R>190</R>
+    <G>190</G>
+    <B>190</B>
   </Colour>
   <Colour id="GroundRunway">
     <Use>A-SMGCS Runway</Use>
@@ -369,9 +369,9 @@
   <Colour id="GroundTaxiway">
     <Use>A-SMGCS Taxiway</Use>
     <Name>DarkGrey</Name>
-    <R>60</R>
-    <G>60</G>
-    <B>60</B>
+    <R>57</R>
+    <G>57</G>
+    <B>57</B>
   </Colour>
   <Colour id="GroundApron">
     <Use>A-SMGCS Apron</Use>
@@ -383,9 +383,16 @@
   <Colour id="GroundBuilding">
     <Use>A-SMGCS Building</Use>
     <Name>LightGrey</Name>
-    <R>90</R>
-    <G>90</G>
-    <B>90</B>
+    <R>83</R>
+    <G>83</G>
+    <B>83</B>
+  </Colour>
+  <Colour id="Custom">
+    <Use>Dynamic Tool In Use</Use>
+    <Name>GroundLabel</Name>
+    <R>190</R>
+    <G>190</G>
+    <B>190</B>
   </Colour>
   <Colour id="DynamicTools">
     <Use>Dynamic Tool In Use</Use>
@@ -440,8 +447,8 @@
   <Colour id="Custom">
     <Use>Radar Airways</Use>
     <Name>RadarAirway</Name>
-    <R>4</R>
-    <G>8</G>
-    <B>11</B>
+    <R>11</R>
+    <G>19</G>
+    <B>25</B>
   </Colour>
 </Colours>

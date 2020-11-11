@@ -7,6 +7,7 @@
       <Map Name="Acapulco/ASMGCS_MMAA_APR" />
       <Map Name="Acapulco/ASMGCS_MMAA_TWY" />
       <Map Name="Acapulco/ASMGCS_MMAA_BLD" />
+      <Map Name="Acapulco/ASMGCS_MMAA_LABELS" />
     </Maps>
   </Position>
   <Position Name="Aproximacion Acapulco" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5">
@@ -56,6 +57,7 @@
       <Map Name="Bajio/ASMGCS_MMAS_APR" />
       <Map Name="Bajio/ASMGCS_MMAS_TWY" />
       <Map Name="Bajio/ASMGCS_MMAS_BLD" />
+      <Map Name="Bajio/ASMGCS_MMAS_LABELS" />
     </Maps>
   </Position>
   <Position Name="MMLO" Type="ASMGCS" ASMGCSAirport="MMLO" DefaultCenter="+205936.300-1012853.000" DefaultRange="2" MagneticVariation="-6">
@@ -64,6 +66,7 @@
       <Map Name="Bajio/ASMGCS_MMLO_APR" />
       <Map Name="Bajio/ASMGCS_MMLO_TWY" />
       <Map Name="Bajio/ASMGCS_MMLO_BLD" />
+      <Map Name="Bajio/ASMGCS_MMLO_LABELS" />
     </Maps>
   </Position>
   <Position Name="Aproximacion Bajio" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
@@ -116,6 +119,16 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
+  <!--MMBT-->
+  <Position Name="MMBT" Type="ASMGCS" ASMGCSAirport="MMBT" DefaultCenter="+154631.183-0961545.199" DefaultRange="2" MagneticVariation="-5">
+    <Maps>
+      <Map Name="Bahias Huatulco/ASMGCS_MMBT_RWY" />
+      <Map Name="Bahias Huatulco/ASMGCS_MMBT_APR" />
+      <Map Name="Bahias Huatulco/ASMGCS_MMBT_TWY" />
+      <Map Name="Bahias Huatulco/ASMGCS_MMBT_BLD" />
+      <Map Name="Bahias Huatulco/ASMGCS_MMBT_LABELS" />
+    </Maps>
+  </Position>
   <!--MMGL-->
   <Position Name="MMGL" Type="ASMGCS" ASMGCSAirport="MMGL" DefaultCenter="+203124.320-1031841.800" DefaultRange="3" MagneticVariation="-6">
     <Maps>
@@ -123,6 +136,7 @@
       <Map Name="Guadalajara/ASMGCS_MMGL_APR" />
       <Map Name="Guadalajara/ASMGCS_MMGL_TWY" />
       <Map Name="Guadalajara/ASMGCS_MMGL_BLD" />
+      <Map Name="Guadalajara/ASMGCS_MMGL_LABELS" />
     </Maps>
   </Position>
   <Position Name="Aproximacion Guadalajara" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6">
@@ -168,6 +182,16 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
+  <!--MMIA-->
+  <Position Name="MMIA" Type="ASMGCS" ASMGCSAirport="MMIA" DefaultCenter="+191637.240-1033439.370" DefaultRange="2" MagneticVariation="-8">
+    <Maps>
+      <Map Name="Colima/ASMGCS_MMIA_RWY" />
+      <Map Name="Colima/ASMGCS_MMIA_APR" />
+      <Map Name="Colima/ASMGCS_MMIA_TWY" />
+      <Map Name="Colima/ASMGCS_MMIA_BLD" />
+      <Map Name="Colima/ASMGCS_MMIA_LABELS" />
+    </Maps>
+  </Position>
   <!--MMMX-->
   <Position Name="MMMX" Type="ASMGCS" ASMGCSAirport="MMMX" DefaultCenter="+192600.00-0990418.000" DefaultRange="3" MagneticVariation="-4">
     <Maps>
@@ -175,6 +199,7 @@
       <Map Name="Mexico/ASMGCS_MMMX_APR" />
       <Map Name="Mexico/ASMGCS_MMMX_TWY" />
       <Map Name="Mexico/ASMGCS_MMMX_BLD" />
+      <Map Name="Mexico/ASMGCS_MMMX_LABELS" />
     </Maps>
   </Position>
   <Position Name="Aproximacion Mexico" Type="ASD" DefaultCenter="+192617.580-0990407.680" DefaultRange="235" MagneticVariation="-4">
