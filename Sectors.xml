@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!--MMZT ACC-->
+  <Sector FullName="ACC Mazatlan Sector 1" Frequency="128.300" Callsign="MMZT_CTR" Name="MMZT_1_CTR">
+    <Volumes>MMZT_SECTOR_1</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mazatlan Sector 2" Frequency="126.300" Callsign="MMZT_2_CTR" Name="MMZT_2_CTR">
+    <Volumes>MMZT_SECTOR_2</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mazatlan Sector 3" Frequency="128.000" Callsign="MMZT_3_CTR" Name="MMZT_3_CTR">
+    <Volumes>MMZT_SECTOR_3</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mazatlan Sector 4" Frequency="124.400" Callsign="MMZT_4_CTR" Name="MMZT_4_CTR">
+    <Volumes>MMZT_SECTOR_4</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mazatlan Sector 5" Frequency="124.200" Callsign="MMZT_5_CTR" Name="MMZT_5_CTR">
+    <Volumes>MMZT_SECTOR_5</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mazatlan Sector 6" Frequency="126.500" Callsign="MMZT_6_CTR" Name="MMZT_6_CTR">
+    <Volumes>MMZT_SECTOR_6</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mazatlan Sector 7" Frequency="128.750" Callsign="MMZT_7_CTR" Name="MMZT_7_CTR">
+    <Volumes>MMZT_SECTOR_7</Volumes>
+  </Sector>
+
   <!--MMAA-->
   <Sector FullName="Torre Acapulco" Frequency="118.500" Callsign="MMAA_TWR" Name="MMAA_TWR">
     <Volumes>MMAA_CTR</Volumes>
