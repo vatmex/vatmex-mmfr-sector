@@ -50,6 +50,53 @@
     </ManualVisibility>
   </Position>
 
+  <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210233.870-0865223.520" DefaultRange="3" MagneticVariation="+2">
+    <Maps>
+      <Map Name="Cancun/ASMGCS_MMUN_RWY" />
+      <Map Name="Cancun/ASMGCS_MMUN_APR" />
+      <Map Name="Cancun/ASMGCS_MMUN_TWY" />
+      <Map Name="Cancun/ASMGCS_MMUN_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="Aproximacion Cancun" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
+    <Sectors>
+      <Sector Name="MMUN_APP" />
+    </Sectors>
+    <Maps>
+      <Map Name="Cancun/Aeropuerto - Area Terminal (TMA)" />
+      <Map Name="Cancun/Aeropuerto - Minimas de Vectoreo" />
+      <Map Name="Cancun/Aeropuerto - Pistas" />
+
+      <Map Name="Cancun/Pistas 12 - Llegadas RNAV" />
+      <Map Name="Cancun/Pistas 12 - Llegadas RNAV (Nombres)" />
+      <Map Name="Cancun/Pistas 12 - ILS DME 4 12R" />
+      <Map Name="Cancun/Pistas 12 - Salidas RNAV" />
+      <Map Name="Cancun/Pistas 12 - Salidas RNAV (Nombres)" />
+
+      <Map Name="ACC Merida/Limites FIR" />
+
+      <Map Name="ALL/Geografia - Linea de Costa" />
+      <Map Name="ALL/Sector - Aerovias Radar" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+      <Window Airport="MMUN" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="24000">
+      <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMUN" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Aproximacion Cancun / Cancun Approach</Line>
+      <Line>ATIS available on 127.700</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
   <Position Name="Centro Merida" Type="ASD" DefaultCenter="+175945.835-0924904.218" DefaultRange="1550">
     <Sectors>
       <Sector Name="MMID_1_CTR" />
@@ -379,7 +426,7 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Centro Mexico" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000">
+  <Position Name="Centro Mexico" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-6">
     <Sectors>
       <Sector Name="MMEX_1_CTR" />
       <Sector Name="MMEX_2_CTR" />
