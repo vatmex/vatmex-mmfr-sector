@@ -97,6 +97,15 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
+  <Position Name="MMMD" Type="ASMGCS" ASMGCSAirport="MMMD" DefaultCenter="+205607.1641-0893908.5313" DefaultRange="2" MagneticVariation="0">
+    <Maps>
+      <Map Name="Merida/ASMGCS_MMMD_RWY" />
+      <Map Name="Merida/ASMGCS_MMMD_APR" />
+      <Map Name="Merida/ASMGCS_MMMD_TWY" />
+      <Map Name="Merida/ASMGCS_MMMD_BLD" />
+      <Map Name="Merida/ASMGCS_MMMD_LABELS" />
+    </Maps>
+  </Position>
   <Position Name="Centro Merida" Type="ASD" DefaultCenter="+175945.835-0924904.218" DefaultRange="1550">
     <Sectors>
       <Sector Name="MMID_1_CTR" />
