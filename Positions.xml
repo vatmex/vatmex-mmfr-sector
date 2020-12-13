@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Centro Mazatlan" Type="ASD" DefaultCenter="+254101.960-1094559.406" DefaultRange="1600">
+  <Position Name="Centro Mazatlan" Type="ASD" DefaultCenter="+254101.960-1094559.406" DefaultRange="1600" MagneticVariation="-12">
     <Sectors>
       <Sector Name="MMZT_1_CTR" />
       <Sector Name="MMZT_2_CTR" />
@@ -18,7 +18,7 @@
 
       <Map Name="ALL/Geografia - Linea de Costa" />
       <Map Name="ALL/Sector - Aerovias" />
-      <Map Name="ALL/Sector - Aerovias Radar" />
+      <Map Name="ALL/Sector - Cobertura Radar MMZT" />
       <Map Name="ALL/Sector - Radioayudas" />
       <Map Name="ALL/Sector - Radioayudas (Nombres)" />
       <Map Name="ALL/Sector - Fijos Principales" />
