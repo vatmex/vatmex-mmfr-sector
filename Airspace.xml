@@ -113,6 +113,61 @@
         <STAR Name="OTIV1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMCU">
+      <Runway Name="18L" DataRunway="18L">
+        <SID Name="CUU4A" Default="True" />
+        <SID Name="ANEG1A" />
+        <SID Name="AXEP1A" />
+        <SID Name="BOKM1A" />
+        <SID Name="IMIN1A" />
+        <SID Name="KIPA1A" />
+        <SID Name="OKOMA1" />
+        <SID Name="OTOS1A" />
+        <SID Name="OVEKO1" />
+        <SID Name="OVOGI2" />
+        <SID Name="OXAL1A" />
+        <SID Name="ROKBI2" />
+        <SID Name="SUTA1A" />
+        <SID Name="TAST1A" />
+        <SID Name="TATG1A" />
+        <SID Name="VILPO1" />
+        <STAR Name="BOKM1C" />
+        <STAR Name="KIPA1C" />
+        <STAR Name="LENE1A" />
+        <STAR Name="OTOS1C" />
+        <STAR Name="SINL1A" />
+        <STAR Name="UMED1A" />
+        <STAR Name="VIXE1A" />
+        <STAR Name="VOMA1A" />
+      </Runway>
+      <Runway Name="36R" DataRunway="36R">
+        <SID Name="CUU6B" Default="True" />
+        <SID Name="IMIN1B" />
+        <SID Name="ONGIV3" />
+        <SID Name="SETMA1" />
+        <SID Name="TAST1B" />
+        <SID Name="ULURO3" />
+        <SID Name="URPAV3" />
+        <SID Name="VIKMU3" />
+        <SID Name="ANEG2B" />
+        <SID Name="AXEP1B" />
+        <SID Name="BOKM1B" />
+        <SID Name="KIPA1B" />
+        <SID Name="OTOS1B" />
+        <SID Name="OXAL1B" />
+        <SID Name="SUTA1B" />
+        <SID Name="TATG1B" />
+        <STAR Name="BOKM1D" />
+        <STAR Name="KIPA1D" />
+        <STAR Name="LENE2B" />
+        <STAR Name="OTOS1D" />
+        <STAR Name="SINL2B" />
+        <STAR Name="TATG1C" />
+        <STAR Name="UMED1B" />
+        <STAR Name="VIXE1B" />
+        <STAR Name="VOMA2B" />
+      </Runway>
+    </Airport>
     <Airport Name="MMGL">
       <Runway Name="10" DataRunway="10">
         <SID Name="GDL4A" Default="True" />
@@ -3992,7 +4047,7 @@
       <Route Runway="02">CVJ</Route>
     </SID>
     <SID Name="CVJ1B" Airport="MMCB" Runways="20">
-      <Route Runway="20">CVJJ</Route>
+      <Route Runway="20">CVJ</Route>
     </SID>
     <SID Name="CUA1E" Airport="MMCB" Runways="02">
       <Route Runway="02">CUA</Route>
@@ -4032,6 +4087,154 @@
     </STAR>
     <STAR Name="OTIV1B" Airport="MMCB" Runways="20">
       <Route Runway="20">OTIVO CB600 CB601 SEKOS</Route>
+    </STAR>
+    <!--MMCU-->
+    <SID Name="CUU4A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CUU</Route>
+    </SID>
+    <SID Name="CUU6B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CUU</Route>
+    </SID>
+    <SID Name="ANEG1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CU700 ANEGI</Route>
+    </SID>
+    <SID Name="ANEG2B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CU600 CU601 CU602 CU603 ANEGI</Route>
+    </SID>
+    <SID Name="AXEP1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CU700 CU706 CU707 AXEPA</Route>
+    </SID>
+    <SID Name="AXEP1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CU600 CU601 CU602 CU611 AXEPA</Route>
+    </SID>
+    <SID Name="BOKM1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CU700 CU705 BOKMO</Route>
+    </SID>
+    <SID Name="BOKM1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CU600 CU604 CU605 CU606 BOKMO</Route>
+    </SID>
+    <SID Name="IMIN1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">IMINO</Route>
+    </SID>
+    <SID Name="IMIN1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">IMINO</Route>
+    </SID>
+    <SID Name="KIPA1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CU700 CU710 CU801 KIPAL</Route>
+    </SID>
+    <SID Name="KIPA1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CU600 CU803 KIPAL</Route>
+    </SID>
+    <SID Name="OKOMA1" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">OKOMA</Route>
+    </SID>
+    <SID Name="ONGIV3" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">ONGIV</Route>
+    </SID>
+    <SID Name="OTOS1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CU700 CU703 CU704 CU802 OTOSO</Route>
+    </SID>
+    <SID Name="OTOS1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CU600 CU604 CU605 CU802 OTOSO</Route>
+    </SID>
+    <SID Name="OVEKO1" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">OVEKO</Route>
+    </SID>
+    <SID Name="OVOGI2" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">OVOGI</Route>
+    </SID>
+    <SID Name="OXAL1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CU700 CU701 CU702 OMISI OXALA</Route>
+    </SID>
+    <SID Name="OXAL1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CU600 CU607 CU608 CU609 OXALA</Route>
+    </SID>
+    <SID Name="ROKBI2" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">ROKBI</Route>
+    </SID>
+    <SID Name="SETMA1" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">SETMA</Route>
+    </SID>
+    <SID Name="SUTA1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CU700 CU710 CU711 SUTAR</Route>
+    </SID>
+    <SID Name="SUTA1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CU600 CU610 SUTAR</Route>
+    </SID>
+    <SID Name="TAST1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">TASTO</Route>
+    </SID>
+    <SID Name="TAST1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">TASTO</Route>
+    </SID>
+    <SID Name="TATG1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">CU700 CU701 CU702 OMISI TATGA</Route>
+    </SID>
+    <SID Name="TATG1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">CU600 CU607 CU608 CU609 TATGA</Route>
+    </SID>
+    <SID Name="ULURO3" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">ULURO</Route>
+    </SID>
+    <SID Name="URPAV3" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">URPAV</Route>
+    </SID>
+    <SID Name="VIKMU3" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">VIKMU</Route>
+    </SID>
+    <SID Name="VILPO1" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">VILPO</Route>
+    </SID>
+    <STAR Name="BOKM1C" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">BOKMO CU514 CU512 CU211 CU506 PELTA</Route>
+    </STAR>
+    <STAR Name="BOKM1D" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">BOKMO CU606 BESUD</Route>
+    </STAR>
+    <STAR Name="KIPA1C" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">KIPAL CU803 CU509 EBLOR</Route>
+    </STAR>
+    <STAR Name="KIPA1D" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">KIPAL CU801 CU417 GADIK</Route>
+    </STAR>
+    <STAR Name="LENE1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">LENEM CU517 CU516 CU515 RIBAD</Route>
+    </STAR>
+    <STAR Name="LENE2B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">LENEM CU411 CU410 GADIK</Route>
+    </STAR>
+    <STAR Name="OTOS1C" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">OTOSO CU519 CU518 CU506 PELTA</Route>
+    </STAR>
+    <STAR Name="OTOS1D" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">OTOSO CU802 ELVAN AMURU</Route>
+    </STAR>
+    <STAR Name="SINL1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">SINLO CU517 CU516 CU515 RIBAD</Route>
+    </STAR>
+    <STAR Name="SINL2B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">SINLO CU412 CU410 GADIK</Route>
+    </STAR>
+    <STAR Name="TATG1C" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">TATGA CU420 ELVAN AMURU</Route>
+    </STAR>
+    <STAR Name="UMED1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">UMEDO CU508 EBLOR</Route>
+    </STAR>
+    <STAR Name="UMED1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">UMEDO CU419 CU418 ELVAN</Route>
+    </STAR>
+    <STAR Name="VIXE1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">VIXER CU507 CU506 PELTA</Route>
+    </STAR>
+    <STAR Name="VIXE1B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">VIXER CU416 CU415 ELVAN AMURU</Route>
+    </STAR>
+    <STAR Name="VOMA1A" Airport="MMCU" Runways="18L">
+      <Route Runway="18L">VOMAS CU517 CU516 CU515 RIBAD</Route>
+    </STAR>
+    <STAR Name="VOMA2B" Airport="MMCU" Runways="36R">
+      <Route Runway="36R">VOMAS CU413 CU410 GADIK</Route>
     </STAR>
     <!--MMGL-->
     <SID Name="GDL4A" Airport="MMGL" Runways="10">
