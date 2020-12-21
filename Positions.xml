@@ -2,13 +2,13 @@
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Position Name="Centro Mazatlan" Type="ASD" DefaultCenter="+254101.960-1094559.406" DefaultRange="1600" MagneticVariation="-12">
     <Sectors>
-      <Sector Name="MMZT_1_CTR" />
-      <Sector Name="MMZT_2_CTR" />
-      <Sector Name="MMZT_3_CTR" />
-      <Sector Name="MMZT_4_CTR" />
-      <Sector Name="MMZT_5_CTR" />
-      <Sector Name="MMZT_6_CTR" />
-      <Sector Name="MMZT_7_CTR" />
+      <Sector Name="ZT1" />
+      <Sector Name="ZT2" />
+      <Sector Name="ZT3" />
+      <Sector Name="ZT4" />
+      <Sector Name="ZT5" />
+      <Sector Name="ZT6" />
+      <Sector Name="ZT7" />
     </Sectors>
     <Maps>
       <Map Name="Mexico/Aeropuerto - Area Terminal (CTR)" />
@@ -60,7 +60,7 @@
   </Position>
   <Position Name="Aproximacion Cancun" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
     <Sectors>
-      <Sector Name="MMUN_APP" />
+      <Sector Name="UNA" />
     </Sectors>
     <Maps>
       <Map Name="Cancun/Aeropuerto - Area Terminal (TMA)" />
@@ -108,12 +108,12 @@
   </Position>
   <Position Name="Centro Merida" Type="ASD" DefaultCenter="+175945.835-0924904.218" DefaultRange="1550" MagneticVariation="+2">
     <Sectors>
-      <Sector Name="MMID_1_CTR" />
-      <Sector Name="MMID_2_CTR" />
-      <Sector Name="MMID_3_CTR" />
-      <Sector Name="MMID_4_CTR" />
-      <Sector Name="MMID_5_CTR" />
-      <Sector Name="MMID_6_CTR" />
+      <Sector Name="ID1" />
+      <Sector Name="ID2" />
+      <Sector Name="ID3" />
+      <Sector Name="ID4" />
+      <Sector Name="ID5" />
+      <Sector Name="ID6" />
     </Sectors>
     <Maps>
       <Map Name="ACC Merida/Limites FIR" />
@@ -165,7 +165,7 @@
   </Position>
   <Position Name="Aproximacion Acapulco" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5">
     <Sectors>
-      <Sector Name="MMAA_APP" />
+      <Sector Name="AAA" />
     </Sectors>
     <Maps>
       <Map Name="Acapulco/Aeropuerto - Area Terminal (TMA)" />
@@ -224,7 +224,7 @@
   </Position>
   <Position Name="Aproximacion Bajio" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
     <Sectors>
-      <Sector Name="MMLO_APP" />
+      <Sector Name="LOA" />
     </Sectors>
     <Maps>
       <Map Name="Bajio/Bajio - Area Terminal (TMA)" />
@@ -294,7 +294,7 @@
   </Position>
   <Position Name="Aproximacion Guadalajara" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6">
     <Sectors>
-      <Sector Name="MMGL_APP" />
+      <Sector Name="GLA" />
     </Sectors>
     <Maps>
       <Map Name="Guadalajara/Aeropuerto - Area Terminal (TMA)" />
@@ -357,7 +357,7 @@
   </Position>
   <Position Name="Aproximacion Mexico" Type="ASD" DefaultCenter="+192617.580-0990407.680" DefaultRange="235" MagneticVariation="-4">
     <Sectors>
-      <Sector Name="MMMX_APP" />
+      <Sector Name="MXA" />
     </Sectors>
     <Maps>
       <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
@@ -406,47 +406,11 @@
       <Map Name="Queretaro/ASMGCS_MMQT_BLD" />
     </Maps>
   </Position>
-  <Position Name="Torre Queretaro" Type="ASD" DefaultCenter="+203702.850-1001137.060" DefaultRange="50" MagneticVariation="-7">
-    <Sectors>
-      <Sector Name="MMQT_TWR" />
-    </Sectors>
-    <Maps>
-      <Map Name="Queretaro/Aeropuerto - Pista" />
-      <Map Name="Queretaro/Aeropuerto - Zona de Control (CTR)" />
-
-      <Map Name="ALL/Sector - Aerovias Radar" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="MMQT" Frequency="128.700" Server="NA" />
-      <Window Airport="MMQT" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="MMQT" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="27000">
-      <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="MMQT" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Torre Queretaro / Queretaro Tower</Line>
-      <Line>ATIS available on 128.700</Line>
-      <Line>ATC feedback - vatmex.com.mx</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="Centro Mexico" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-6">
     <Sectors>
-      <Sector Name="MMEX_1_CTR" />
-      <Sector Name="MMEX_2_CTR" />
-      <Sector Name="MMEX_3_CTR" />
-      <Sector Name="MMEX_4_CTR" />
-      <Sector Name="MMEX_5_CTR" />
-      <Sector Name="MMEX_6_CTR" />
-      <Sector Name="MMEX_7_CTR" />
-      <Sector Name="MMEX_8_CTR" />
-      <Sector Name="MMEX_9_CTR" />
-      <Sector Name="MMEX_10_CTR" />
+      <Sector Name="EXC" />
+      <Sector Name="EXW" />
+      <Sector Name="EXE" />
     </Sectors>
     <Maps>
       <Map Name="Mexico/Aeropuerto - Area Terminal (CTR)" />
@@ -490,7 +454,7 @@
 
   <Position Name="Aproximacion Chihuahua" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8">
     <Sectors>
-      <Sector Name="MMCU_APP" />
+      <Sector Name="CUA" />
     </Sectors>
     <Maps>
       <Map Name="Chihuahua/Aeropuerto - Area Terminal (TMA)" />
@@ -531,11 +495,11 @@
   </Position>
   <Position Name="Centro Monterrey" Type="ASD" DefaultCenter="+272622.750-0993352.593" DefaultRange="1150" MagneticVariation="-5">
     <Sectors>
-      <Sector Name="MMTY_1_CTR" />
-      <Sector Name="MMTY_2_CTR" />
-      <Sector Name="MMTY_3_CTR" />
-      <Sector Name="MMTY_4_CTR" />
-      <Sector Name="MMTY_5_CTR" />
+      <Sector Name="TY1" />
+      <Sector Name="TY2" />
+      <Sector Name="TY3" />
+      <Sector Name="TY4" />
+      <Sector Name="TY5" />
     </Sectors>
     <Maps>
       <Map Name="ACC Monterrey/Limites FIR" />
