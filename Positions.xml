@@ -106,7 +106,7 @@
       <Map Name="Merida/ASMGCS_MMMD_LABELS" />
     </Maps>
   </Position>
-  <Position Name="Centro Merida" Type="ASD" DefaultCenter="+175945.835-0924904.218" DefaultRange="1550">
+  <Position Name="Centro Merida" Type="ASD" DefaultCenter="+175945.835-0924904.218" DefaultRange="1550" MagneticVariation="+2">
     <Sectors>
       <Sector Name="MMID_1_CTR" />
       <Sector Name="MMID_2_CTR" />
@@ -146,10 +146,10 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
     <ManualVisibility>
-      <Point>+22.887442-102.693261</Point>
-      <Point>+22.289603-097.863022</Point>
-      <Point>+15.875106-097.081714</Point>
-      <Point>+19.149414-104.571297</Point>
+      <Point>+210249.9531-0865231.1875</Point>
+      <Point>+194642.2891-0902841.3750</Point>
+      <Point>+163526.8633-0930236.1563</Point>
+      <Point>+131132.2695-0965002.6875</Point>
     </ManualVisibility>
   </Position>
 
@@ -488,7 +488,47 @@
     </ManualVisibility>
   </Position>
 
-  <Position Name="Centro Monterrey" Type="ASD" DefaultCenter="+272622.750-0993352.593" DefaultRange="1150">
+  <Position Name="Aproximacion Chihuahua" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8">
+    <Sectors>
+      <Sector Name="MMCU_APP" />
+    </Sectors>
+    <Maps>
+      <Map Name="Chihuahua/Aeropuerto - Area Terminal (TMA)" />
+      <Map Name="Chihuahua/Aeropuerto - Pistas" />
+      <Map Name="Chihuahua/Aeropuerto - Zona de Control (CTR)" />
+      <Map Name="Chihuahua/Aeropuerto - Minimas de Vectoreo" />
+
+      <Map Name="Chihuahua/Pistas 18 - Llegadas RNAV" />
+      <Map Name="Chihuahua/Pistas 18 - Llegadas RNAV (Nombres)" />
+      <Map Name="Chihuahua/Pistas 18 - Salidas RNAV" />
+      <Map Name="Chihuahua/Pistas 18 - Salidas RNAV (Nombres)" />
+
+      <Map Name="ACC Monterrey/Limites FIR" />
+
+      <Map Name="ALL/Geografia - Linea de Costa" />
+      <Map Name="ALL/Sector - Cobertura Radar MMTY" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMCU" Frequency="127.900" Server="NA" />
+      <Window Airport="MMCU" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMCU" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="9000">
+      <AdditionalLevels>10700,10400,8300,7800,7300</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMCU" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Aproximacion Chihuahua / Chihuahua Approach</Line>
+      <Line>Serving MMCU arrivals and departures</Line>
+      <Line>ATIS available on 127.900</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Centro Monterrey" Type="ASD" DefaultCenter="+272622.750-0993352.593" DefaultRange="1150" MagneticVariation="-5">
     <Sectors>
       <Sector Name="MMTY_1_CTR" />
       <Sector Name="MMTY_2_CTR" />
@@ -502,7 +542,7 @@
 
       <Map Name="ALL/Geografia - Linea de Costa" />
       <Map Name="ALL/Sector - Aerovias" />
-      <Map Name="ALL/Sector - Aerovias Radar" />
+      <Map Name="ALL/Sector - Cobertura Radar MMTY" />
       <Map Name="ALL/Sector - Radioayudas" />
       <Map Name="ALL/Sector - Radioayudas (Nombres)" />
       <Map Name="ALL/Sector - Fijos Principales" />

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Pistas 18 - Llegadas RNAV" Priority="1" Centre="+284208.380-1055746.670">
+    <Line Name="BOKMO1A" Pattern="Dashed">BOKMO/CU514/CU512/CU511/CU506/PELTA</Line>
+    <Line Name="KIPAL1C" Pattern="Dashed">KIPAL/CU803/CU509/EBLOR</Line>
+    <Line Name="LENEM1A" Pattern="Dashed">LENEM/CU517</Line>
+    <Line Name="OTOSO1C" Pattern="Dashed">OTOSO/CU519/CU518/CU506</Line>
+    <Line Name="SINLO1A" Pattern="Dashed">SINLO/CU517</Line>
+    <Line Name="UMEDO1A" Pattern="Dashed">UMEDO/CU508/EBLOR</Line>
+    <Line Name="VIXER1A" Pattern="Dashed">VIXER/CU507/CU506</Line>
+    <Line Name="VOMAS1A" Pattern="Dashed">VOMAS/CU517/CU516/CU515/RIBAD</Line>
+    <Symbol Type="HollowStar">
+      <Point>BOKMO</Point>
+      <Point>CU506</Point>
+      <Point>CU507</Point>
+      <Point>CU508</Point>
+      <Point>CU509</Point>
+      <Point>CU511</Point>
+      <Point>CU512</Point>
+      <Point>CU514</Point>
+      <Point>CU515</Point>
+      <Point>CU516</Point>
+      <Point>CU517</Point>
+      <Point>CU518</Point>
+      <Point>CU519</Point>
+      <Point>CU803</Point>
+      <Point>EBLOR</Point>
+      <Point>KIPAL</Point>
+      <Point>LENEM</Point>
+      <Point>OTOSO</Point>
+      <Point>PELTA</Point>
+      <Point>RIBAD</Point>
+      <Point>SINLO</Point>
+      <Point>UMEDO</Point>
+      <Point>VIXER</Point>
+      <Point>VOMAS</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pistas 18 - Llegadas RNAV (Nombres)" Priority="1" Centre="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>BOKMO</Point>
+      <Point>KIPAL</Point>
+      <Point>LENEM</Point>
+      <Point>OTOSO</Point>
+      <Point>SINLO</Point>
+      <Point>UMEDO</Point>
+      <Point>VIXER</Point>
+      <Point>VOMAS</Point>
+
+      <Point>EBLOR</Point>
+      <Point>PELTA</Point>
+      <Point>RIBAD</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pistas 18 - RNP 18L" Priority="1" Centre="+284208.380-1055746.670">
+    <Line Pattern="Solid">PELTA/RIBAD</Line>
+    <Line Pattern="Solid">EBLOR/+284252.930-1055739.560</Line>
+    <Symbol Type="HollowStar">
+      <Point>PELTA</Point>
+      <Point>EBLOR</Point>
+      <Point>RIBAD</Point>
+      <Point>CU500</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pistas 18 - Salidas RNAV" Priority="1" Centre="+284208.380-1055746.670">
+    <Line Name="ANEGI1A" Pattern="Dotted">CU700/ANEGI</Line>
+    <Line Name="AXEPA1A" Pattern="Dotted">CU700/CU706/CU707/AXEPA</Line>
+    <Line Name="BOKMO1A" Pattern="Dotted">CU700/CU705/BOKMO</Line>
+    <Line Name="KIPAL1A" Pattern="Dotted">CU710/CU801/KIPAL</Line>
+    <Line Name="OTOSO1A" Pattern="Dotted">CU700/CU703/CU704/CU802/OTOSO</Line>
+    <Line Name="OXALA1A" Pattern="Dotted">OMISI/OXALA</Line>
+    <Line Name="SUTAR1A" Pattern="Dotted">+284252.930-1055739.560/CU700/CU710/CU711/SUTAR</Line>
+    <Line Name="TATGA1A" Pattern="Dotted">CU700/CU701/CU702/OMISI/TATGA</Line>
+    <Symbol Type="HollowStar">
+      <Point>ANEGI</Point>
+      <Point>AXEPA</Point>
+      <Point>BOKMO</Point>
+      <Point>CU700</Point>
+      <Point>CU701</Point>
+      <Point>CU702</Point>
+      <Point>CU703</Point>
+      <Point>CU704</Point>
+      <Point>CU705</Point>
+      <Point>CU706</Point>
+      <Point>CU707</Point>
+      <Point>CU710</Point>
+      <Point>CU711</Point>
+      <Point>CU801</Point>
+      <Point>CU802</Point>
+      <Point>KIPAL</Point>
+      <Point>OMISI</Point>
+      <Point>OTOSO</Point>
+      <Point>OXALA</Point>
+      <Point>SUTAR</Point>
+      <Point>TATGA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pistas 18 - Salidas RNAV (Nombres)" Priority="1" Centre="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>ANEGI</Point>
+      <Point>AXEPA</Point>
+      <Point>BOKMO</Point>
+      <Point>KIPAL</Point>
+      <Point>OTOSO</Point>
+      <Point>OXALA</Point>
+      <Point>SUTAR</Point>
+      <Point>TATGA</Point>
+    </Label>
+  </Map>
+</Maps>
