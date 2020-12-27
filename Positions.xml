@@ -493,6 +493,48 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
+  <Position Name="Aproximacion Monterrey" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5">
+    <Sectors>
+      <Sector Name="MYA" />
+    </Sectors>
+    <Maps>
+      <Map Name="Monterrey/Aeropuerto - Area Terminal (TMA)" />
+      <Map Name="Monterrey/Aeropuerto - Pistas" />
+      <Map Name="Monterrey/Aeropuerto - Zona de Control (CTR)" />
+      <Map Name="Monterrey/Aeropuerto - Minimas de Vectoreo" />
+
+      <Map Name="Monterrey/Pista 29 - Llegadas RNAV" />
+      <Map Name="Monterrey/Pista 29 - Llegadas RNAV (Nombres)" />
+      <Map Name="Monterrey/Pista 29 - ILS 4 29" />
+      <Map Name="Monterrey/Pista 29 - ILS 5 29" />
+      <Map Name="Monterrey/Pista 29 - Salidas RNAV" />
+      <Map Name="Monterrey/Pista 29 - Salidas RNAV (Nombres)" />
+
+      <Map Name="ACC Monterrey/Limites FIR" />
+
+      <Map Name="ALL/Geografia - Linea de Costa" />
+      <Map Name="ALL/Sector - Cobertura Radar MMTY" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="MMMY" Frequency="127.900" Server="NA" />
+      <Window Airport="MMMY" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="9000">
+      <AdditionalLevels>10700,10400,8300,7800,7300</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="MMMY" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Aproximacion Chihuahua / Chihuahua Approach</Line>
+      <Line>Serving MMCU arrivals and departures</Line>
+      <Line>ATIS available on 127.900</Line>
+      <Line>ATC feedback - vatmex.com.mx</Line>
+    </ControllerInfo>
+  </Position>
   <Position Name="Centro Monterrey" Type="ASD" DefaultCenter="+272622.750-0993352.593" DefaultRange="1150" MagneticVariation="-5">
     <Sectors>
       <Sector Name="TY1" />
@@ -503,6 +545,7 @@
     </Sectors>
     <Maps>
       <Map Name="ACC Monterrey/Limites FIR" />
+      <Map Name="ACC Monterrey/Limites Terminales" />
       <Map Name="ACC Monterrey/Aerodromos" />
 
       <Map Name="ALL/Geografia - Linea de Costa" />
