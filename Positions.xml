@@ -493,6 +493,14 @@
       <Line>ATC feedback - vatmex.com.mx</Line>
     </ControllerInfo>
   </Position>
+  <Position Name="MMMY" Type="ASMGCS" ASMGCSAirport="MMMY" DefaultCenter="+254642.810-1000625.150" DefaultRange="2" MagneticVariation="-5">
+    <Maps>
+      <Map Name="Monterrey/ASMGCS_MMMY_RWY" />
+      <Map Name="Monterrey/ASMGCS_MMMY_APR" />
+      <Map Name="Monterrey/ASMGCS_MMMY_TWY" />
+      <Map Name="Monterrey/ASMGCS_MMMY_BLD" />
+    </Maps>
+  </Position>
   <Position Name="Aproximacion Monterrey" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5">
     <Sectors>
       <Sector Name="MYA" />
