@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Group Name="ACC Mazatlan">  
+  <Group Name="ACC Mazatlan">
     <Position Name="Centro Mazatlan" Type="ASD" DefaultCenter="+254101.960-1094559.406" DefaultRange="1600" MagneticVariation="-12">
       <Sectors>
         <Sector Name="ZT1" />
@@ -107,8 +107,8 @@
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
-    </Position>    
-    <Position Name="Centro Merida" Type="ASD" DefaultCenter="+175945.835-0924904.218" DefaultRange="1550" MagneticVariation="+2">
+    </Position>
+    <Position Name="Centro Merida" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
       <Sectors>
         <Sector Name="ID1" />
         <Sector Name="ID2" />
@@ -151,7 +151,7 @@
         <Point>+210249.9531-0865231.1875</Point>
         <Point>+194642.2891-0902841.3750</Point>
         <Point>+163526.8633-0930236.1563</Point>
-        <Point>+131132.2695-0965002.6875</Point>
+        <Point>+123404.2930-0985708.3125</Point>
       </ManualVisibility>
     </Position>
   </Group>
@@ -173,7 +173,7 @@
         <Map Name="Bajio/ASMGCS_MMAS_BLD" />
         <Map Name="Bajio/ASMGCS_MMAS_LABELS" />
       </Maps>
-    </Position>  
+    </Position>
     <Position Name="MMBT" Type="ASMGCS" ASMGCSAirport="MMBT" DefaultCenter="+154631.183-0961545.199" DefaultRange="2" MagneticVariation="-5">
       <Maps>
         <Map Name="Bahias Huatulco/ASMGCS_MMBT_RWY" />
@@ -191,7 +191,7 @@
         <Map Name="Guadalajara/ASMGCS_MMGL_BLD" />
         <Map Name="Guadalajara/ASMGCS_MMGL_LABELS" />
       </Maps>
-    </Position>  
+    </Position>
     <Position Name="MMIA" Type="ASMGCS" ASMGCSAirport="MMIA" DefaultCenter="+191637.240-1033439.370" DefaultRange="2" MagneticVariation="-8">
       <Maps>
         <Map Name="Colima/ASMGCS_MMIA_RWY" />
@@ -209,7 +209,7 @@
         <Map Name="Bajio/ASMGCS_MMLO_BLD" />
         <Map Name="Bajio/ASMGCS_MMLO_LABELS" />
       </Maps>
-    </Position>  
+    </Position>
     <Position Name="MMMX" Type="ASMGCS" ASMGCSAirport="MMMX" DefaultCenter="+192600.00-0990418.000" DefaultRange="3" MagneticVariation="-4">
       <Maps>
         <Map Name="Mexico/ASMGCS_MMMX_RWY" />
@@ -360,23 +360,23 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximacion Mexico" Type="ASD" DefaultCenter="+192617.580-0990407.680" DefaultRange="235" MagneticVariation="-4">
+    <Position Name="Aproximacion Mexico" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXA" />
       </Sectors>
       <Maps>
-        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
         <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
         <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
 
-        <Map Name="Mexico/Pistas 05 - Llegadas RNAV" />
-        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Nombres)" />
-        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Vectores)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
+        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
 
-        <Map Name="Mexico/Pistas 05 - ILS Z 05R" />|
+        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
 
-        <Map Name="Mexico/Pistas 05 - Salidas RNAV" />
-        <Map Name="Mexico/Pistas 05 - Salidas RNAV (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
+        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
@@ -403,7 +403,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Mexico" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-6">
+    <Position Name="Centro Mexico" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
       <Sectors>
         <Sector Name="EXC" />
         <Sector Name="EXW" />
@@ -430,7 +430,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMX" Visible="true" />
       </Strips>
-      <CFL QuickLevel="27000">
+      <CFL QuickLevel="12000">
         <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
       </CFL>
       <ArrivalLists>
@@ -498,7 +498,7 @@
         <Line>ATIS available on 127.900</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
-    </Position>    
+    </Position>
     <Position Name="Aproximacion Monterrey" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5">
       <Sectors>
         <Sector Name="MYA" />
@@ -557,34 +557,32 @@
         <Map Name="ALL/Geografia - Linea de Costa" />
         <Map Name="ALL/Sector - Aerovias" />
         <Map Name="ALL/Sector - Cobertura Radar MMTY" />
-        <Map Name="ALL/Sector - Radioayudas" />
-        <Map Name="ALL/Sector - Radioayudas (Nombres)" />
+        <Map Name="ALL/Sector - Radioayudas (Monterrey)" />
         <Map Name="ALL/Sector - Fijos Principales" />
-        <Map Name="ALL/Sector - Fijos Principales (Nombres)" />
       </Maps>
       <ATIS>
-        <Editor Airport="MMTY" Frequency="127.700" Server="NA" />
-        <Window Airport="MMTY" />
+        <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
+        <Window Airport="MMMY" />
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMTY" Visible="true" />
       </Strips>
-      <CFL QuickLevel="27000">
-        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+      <CFL QuickLevel="4800">
+        <AdditionalLevels>4400,4800</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMTY" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Centro Merida / Merida Center</Line>
+        <Line>Centro Monterrey / Monterrey Center</Line>
         <Line>MMTY ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
       <ManualVisibility>
-        <Point>+22.887442-102.693261</Point>
-        <Point>+22.289603-097.863022</Point>
-        <Point>+15.875106-097.081714</Point>
-        <Point>+19.149414-104.571297</Point>
+        <Point>+284326.9063-1055601.5313</Point>
+        <Point>+261311.2344-1015737.9063</Point>
+        <Point>+234442.7969-0985719.0000</Point>
+        <Point>+242209.9141-0950934.2813</Point>
       </ManualVisibility>
     </Position>
   </Group>
