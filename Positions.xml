@@ -51,7 +51,7 @@
       </ManualVisibility>
     </Position>
   </Group>
-  <Group Name="ACC Merida">
+  <Group Name="ACC Mérida">
     <Position Name="MMMD" Type="ASMGCS" ASMGCSAirport="MMMD" DefaultCenter="+205607.1641-0893908.5313" DefaultRange="2" MagneticVariation="0">
       <Maps>
         <Map Name="Merida/ASMGCS_MMMD_RWY" />
@@ -69,7 +69,7 @@
         <Map Name="Cancun/ASMGCS_MMUN_BLD" />
       </Maps>
     </Position>
-    <Position Name="Aproximacion Cancun" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
+    <Position Name="Aproximación Cancún" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
       <Sectors>
         <Sector Name="UNA" />
       </Sectors>
@@ -108,7 +108,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Merida" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
+    <Position Name="Centro Mérida" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
       <Sectors>
         <Sector Name="ID1" />
         <Sector Name="ID2" />
@@ -155,7 +155,7 @@
       </ManualVisibility>
     </Position>
   </Group>
-  <Group Name="ACC Mexico">
+  <Group Name="ACC México">
     <Position Name="MMAA" Type="ASMGCS" ASMGCSAirport="MMAA" DefaultCenter="+164523.800-0994455.300" DefaultRange="2" MagneticVariation="-5">
       <Maps>
         <Map Name="Acapulco/ASMGCS_MMAA_RWY" />
@@ -227,7 +227,7 @@
         <Map Name="Queretaro/ASMGCS_MMQT_BLD" />
       </Maps>
     </Position>
-    <Position Name="Aproximacion Acapulco" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5">
+    <Position Name="Aproximación Acapulco" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5">
       <Sectors>
         <Sector Name="AAA" />
       </Sectors>
@@ -267,7 +267,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximacion Bajio" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
+    <Position Name="Aproximación Bajio" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
       <Sectors>
         <Sector Name="LOA" />
       </Sectors>
@@ -317,7 +317,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximacion Guadalajara" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6">
+    <Position Name="Aproximación Guadalajara" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6">
       <Sectors>
         <Sector Name="GLA" />
       </Sectors>
@@ -360,7 +360,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximacion Mexico" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4">
+    <Position Name="Aproximación México" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXA" />
       </Sectors>
@@ -403,10 +403,139 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Mexico" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
+    <Position Name="Centro México - Combinado" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
       <Sectors>
         <Sector Name="EXC" />
         <Sector Name="EXW" />
+        <Sector Name="EXE" />
+      </Sectors>
+      <Maps>
+        <Map Name="Mexico/Aeropuerto - Area Terminal (CTR)" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+        <Map Name="ACC Mexico/Aerodromos" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+        <Map Name="ALL/Sector - Radioayudas" />
+        <Map Name="ALL/Sector - Radioayudas (Nombres)" />
+        <Map Name="ALL/Sector - Fijos Principales" />
+        <Map Name="ALL/Sector - Fijos Principales (Nombres)" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Centro Mexico / Mexico Center</Line>
+        <Line>MMMX ATIS available on 126.750</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+22.887442-102.693261</Point>
+        <Point>+22.289603-097.863022</Point>
+        <Point>+15.875106-097.081714</Point>
+        <Point>+19.149414-104.571297</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Centro México - SW" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="EXW" />
+      </Sectors>
+      <Maps>
+        <Map Name="Mexico/Aeropuerto - Area Terminal (CTR)" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+        <Map Name="ACC Mexico/Aerodromos" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+        <Map Name="ALL/Sector - Radioayudas" />
+        <Map Name="ALL/Sector - Radioayudas (Nombres)" />
+        <Map Name="ALL/Sector - Fijos Principales" />
+        <Map Name="ALL/Sector - Fijos Principales (Nombres)" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Centro Mexico / Mexico Center</Line>
+        <Line>MMMX ATIS available on 126.750</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+22.887442-102.693261</Point>
+        <Point>+22.289603-097.863022</Point>
+        <Point>+15.875106-097.081714</Point>
+        <Point>+19.149414-104.571297</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Centro México - SC" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="EXC" />
+      </Sectors>
+      <Maps>
+        <Map Name="Mexico/Aeropuerto - Area Terminal (CTR)" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+        <Map Name="ACC Mexico/Aerodromos" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+        <Map Name="ALL/Sector - Radioayudas" />
+        <Map Name="ALL/Sector - Radioayudas (Nombres)" />
+        <Map Name="ALL/Sector - Fijos Principales" />
+        <Map Name="ALL/Sector - Fijos Principales (Nombres)" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Centro Mexico / Mexico Center</Line>
+        <Line>MMMX ATIS available on 126.750</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+22.887442-102.693261</Point>
+        <Point>+22.289603-097.863022</Point>
+        <Point>+15.875106-097.081714</Point>
+        <Point>+19.149414-104.571297</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Centro México - SE" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
+      <Sectors>
         <Sector Name="EXE" />
       </Sectors>
       <Maps>
@@ -458,7 +587,7 @@
         <Map Name="Monterrey/ASMGCS_MMMY_BLD" />
       </Maps>
     </Position>
-    <Position Name="Aproximacion Chihuahua" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8">
+    <Position Name="Aproximación Chihuahua" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8">
       <Sectors>
         <Sector Name="CUA" />
       </Sectors>
@@ -499,7 +628,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximacion Monterrey" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5">
+    <Position Name="Aproximación Monterrey" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5">
       <Sectors>
         <Sector Name="MYA" />
       </Sectors>
