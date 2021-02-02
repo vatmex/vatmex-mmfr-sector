@@ -24,91 +24,84 @@
   </Sector>
 
   <!--MMID ACC-->
-  <Sector FullName="ACC Merida Sector 1" Frequency="128.300" Callsign="MMID_CTR" Name="ID1">
+  <Sector FullName="ACC Mérida Sector 1" Frequency="128.300" Callsign="MMID_CTR" Name="ID1">
     <Volumes>MMID_SECTOR_1</Volumes>
   </Sector>
-  <Sector FullName="ACC Merida Sector 2" Frequency="125.800" Callsign="MMID_2_CTR" Name="ID2">
+  <Sector FullName="ACC Mérida Sector 2" Frequency="125.800" Callsign="MMID_2_CTR" Name="ID2">
     <Volumes>MMID_SECTOR_2</Volumes>
   </Sector>
-  <Sector FullName="ACC Merida Sector 3" Frequency="128.200" Callsign="MMID_3_CTR" Name="ID3">
+  <Sector FullName="ACC Mérida Sector 3" Frequency="128.200" Callsign="MMID_3_CTR" Name="ID3">
     <Volumes>MMID_SECTOR_3</Volumes>
   </Sector>
-  <Sector FullName="ACC Merida Sector 4" Frequency="125.200" Callsign="MMID_4_CTR" Name="ID4">
+  <Sector FullName="ACC Mérida Sector 4" Frequency="125.200" Callsign="MMID_4_CTR" Name="ID4">
     <Volumes>MMID_SECTOR_4</Volumes>
   </Sector>
-  <Sector FullName="ACC Merida Sector 5" Frequency="123.750" Callsign="MMID_5_CTR" Name="ID5">
+  <Sector FullName="ACC Mérida Sector 5" Frequency="123.750" Callsign="MMID_5_CTR" Name="ID5">
     <Volumes>MMID_SECTOR_5</Volumes>
   </Sector>
-  <Sector FullName="ACC Merida Sector 6" Frequency="126.700" Callsign="MMID_6_CTR" Name="ID6">
+  <Sector FullName="ACC Mérida Sector 6" Frequency="126.700" Callsign="MMID_6_CTR" Name="ID6">
     <Volumes>MMID_SECTOR_6</Volumes>
   </Sector>
 
   <!--MMAA-->
-  <Sector FullName="Aproximacion Acapulco" Frequency="119.900" Callsign="MMAA_APP" Name="AAA">
+  <Sector FullName="Aproximación Acapulco" Frequency="119.900" Callsign="MMAA_APP" Name="AAA">
     <Volumes>MMAA_TMA</Volumes>
   </Sector>
   <!--MMAS/MMLO-->
-  <Sector FullName="Aproximacion Bajio" Frequency="119.050" Callsign="MMLO_APP" Name="LOA">
+  <Sector FullName="Aproximación Bajio" Frequency="119.050" Callsign="MMLO_APP" Name="LOA">
     <Volumes>MMLO_TMA</Volumes>
   </Sector>
   <!--MMMX-->
-  <Sector FullName="Aproximacion Mexico" Frequency="121.200" Callsign="MMMX_APP" Name="MXA">
+  <Sector FullName="Aproximación México" Frequency="121.200" Callsign="MMMX_APP" Name="MXA">
     <Volumes>MMMX_APP</Volumes>
   </Sector>
   <!--MMVR-->
-  <Sector FullName="Aproximacion Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="VRA">
+  <Sector FullName="Aproximación Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="VRA">
     <Volumes>MMVR_TMA</Volumes>
   </Sector>
   <!--MMEX ACC-->
-  <Sector FullName="ACC Mexico Sector SC" Frequency="126.600" Callsign="MMEX_CTR" Name="EXC">
-    <Volumes>MMEX_SECTOR_5</Volumes>
-    <Volumes>MMEX_SECTOR_9</Volumes>
-    <Volumes>MMEX_SECTOR_10</Volumes>
+  <Sector FullName="ACC México Sector SC" Frequency="126.600" Callsign="MMEX_CTR" Name="EXC">
+    <Volumes>MMEX_SECTOR_5, MMEX_SECTOR_9, MMEX_SECTOR_10</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector SW" Frequency="123.900" Callsign="MMEX_W_CTR" Name="EXW">
-    <Volumes>MMEX_SECTOR_6</Volumes>
-    <Volumes>MMEX_SECTOR_7</Volumes>
-    <Volumes>MMEX_SECTOR_8</Volumes>
+  <Sector FullName="ACC México Sector SW" Frequency="123.900" Callsign="MMEX_W_CTR" Name="EXW">
+    <Volumes>MMEX_SECTOR_6, MMEX_SECTOR_7, MMEX_SECTOR_8</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector SE" Frequency="123.500" Callsign="MMEX_E_CTR" Name="EXE">
-    <Volumes>MMEX_SECTOR_1</Volumes>
-    <Volumes>MMEX_SECTOR_2</Volumes>
-    <Volumes>MMEX_SECTOR_3</Volumes>
-    <Volumes>MMEX_SECTOR_4</Volumes>
+  <Sector FullName="ACC México Sector SE" Frequency="123.500" Callsign="MMEX_E_CTR" Name="EXE">
+    <Volumes>MMEX_SECTOR_1, MMEX_SECTOR_2, MMEX_SECTOR_2, MMEX_SECTOR_3, MMEX_SECTOR_4</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 1" Frequency="126.600" Callsign="MMEX_1_CTR" Name="EX1">
+  <Sector FullName="ACC México Sector 1" Frequency="126.600" Callsign="MMEX_1_CTR" Name="EX1">
     <Volumes>MMEX_SECTOR_1</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 2" Frequency="128.000" Callsign="MMEX_2_CTR" Name="EX2">  
+  <Sector FullName="ACC México Sector 2" Frequency="128.000" Callsign="MMEX_2_CTR" Name="EX2">
     <Volumes>MMEX_SECTOR_2</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 3" Frequency="128.500" Callsign="MMEX_3_CTR" Name="EX3">
+  <Sector FullName="ACC México Sector 3" Frequency="128.500" Callsign="MMEX_3_CTR" Name="EX3">
     <Volumes>MMEX_SECTOR_3</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 4" Frequency="123.500" Callsign="MMEX_4_CTR" Name="EX4">
+  <Sector FullName="ACC México Sector 4" Frequency="123.500" Callsign="MMEX_4_CTR" Name="EX4">
     <Volumes>MMEX_SECTOR_4</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 5" Frequency="125.100" Callsign="MMEX_5_CTR" Name="EX5">
+  <Sector FullName="ACC México Sector 5" Frequency="125.100" Callsign="MMEX_5_CTR" Name="EX5">
     <Volumes>MMEX_SECTOR_5</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 6" Frequency="126.200" Callsign="MMEX_6_CTR" Name="EX6">
+  <Sector FullName="ACC México Sector 6" Frequency="126.200" Callsign="MMEX_6_CTR" Name="EX6">
     <Volumes>MMEX_SECTOR_6</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 7" Frequency="123.900" Callsign="MMEX_7_CTR" Name="EX7">
+  <Sector FullName="ACC México Sector 7" Frequency="123.900" Callsign="MMEX_7_CTR" Name="EX7">
     <Volumes>MMEX_SECTOR_7</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 8" Frequency="127.300" Callsign="MMEX_8_CTR" Name="EX8">
+  <Sector FullName="ACC México Sector 8" Frequency="127.300" Callsign="MMEX_8_CTR" Name="EX8">
     <Volumes>MMEX_SECTOR_8</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 9" Frequency="133.100" Callsign="MMEX_9_CTR" Name="EX9">
+  <Sector FullName="ACC México Sector 9" Frequency="133.100" Callsign="MMEX_9_CTR" Name="EX9">
     <Volumes>MMEX_SECTOR_9</Volumes>
   </Sector>
-  <Sector FullName="ACC Mexico Sector 10" Frequency="133.200" Callsign="MMEX_10_CTR" Name="EX10">
+  <Sector FullName="ACC México Sector 10" Frequency="133.200" Callsign="MMEX_10_CTR" Name="EX10">
     <Volumes>MMEX_SECTOR_10</Volumes>
   </Sector>
 
   <!--MMCU-->
-  <Sector FullName="Aproximacion Chihuahua" Frequency="121.000" Callsign="MMCU_APP" Name="CUA">
+  <Sector FullName="Aproximación Chihuahua" Frequency="121.000" Callsign="MMCU_APP" Name="CUA">
     <Volumes>MMCU_TMA</Volumes>
   </Sector>
   <!--MMTY ACC-->
