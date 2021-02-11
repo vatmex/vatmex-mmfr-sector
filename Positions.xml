@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="ACC Mazatlan">
-    <Position Name="Centro Mazatlan" Type="ASD" DefaultCenter="+254101.960-1094559.406" DefaultRange="1600" MagneticVariation="-12">
+    <Position Name="Centro Mazatlan" Type="ASD" DefaultCenter="+254101.960-1094559.406" DefaultRange="1600" MagneticVariation="-12" DynamicInfill="false">
       <Sectors>
         <Sector Name="ZT1" />
         <Sector Name="ZT2" />
@@ -87,7 +87,6 @@
         <Map Name="ACC Merida/Limites FIR" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
@@ -123,7 +122,6 @@
 
         <Map Name="ALL/Geografia - Linea de Costa" />
         <Map Name="ALL/Sector - Aerovias" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
         <Map Name="ALL/Sector - Radioayudas" />
         <Map Name="ALL/Sector - Radioayudas (Nombres)" />
         <Map Name="ALL/Sector - Fijos Principales" />
@@ -227,13 +225,22 @@
         <Map Name="Queretaro/ASMGCS_MMQT_BLD" />
       </Maps>
     </Position>
-    <Position Name="Aproximación Acapulco" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5">
+    <Position Name="MMTO" Type="ASMGCS" ASMGCSAirport="MMTO" DefaultCenter="+192013.510-0993357.730" DefaultRange="3" MagneticVariation="-4">
+      <Maps>
+        <Map Name="Toluca/ASMGCS_MMTO_RWY" />
+        <Map Name="Toluca/ASMGCS_MMTO_APR" />
+        <Map Name="Toluca/ASMGCS_MMTO_TWY" />
+        <Map Name="Toluca/ASMGCS_MMTO_BLD" />
+      </Maps>
+    </Position>
+    <Position Name="Aproximación Acapulco" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="AAA" />
       </Sectors>
       <Maps>
-        <Map Name="Acapulco/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Acapulco/Aeropuerto - Pistas" />
+        <Map Name="Acapulco/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Acapulco/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="Acapulco/Pista 28 - Llegadas RNAV" />
         <Map Name="Acapulco/Pista 28 - Llegadas RNAV (Nombres)" />
@@ -254,8 +261,8 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMAA" Visible="true" />
       </Strips>
-      <CFL QuickLevel="23000">
-        <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+      <CFL QuickLevel="4000">
+        <AdditionalLevels>2200,3100,5200,5700,7200,9400</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMAA" />
@@ -267,16 +274,14 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Bajio" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
+    <Position Name="Aproximación Bajio" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6" DynamicInfill="false">
       <Sectors>
         <Sector Name="LOA" />
       </Sectors>
       <Maps>
-        <Map Name="Bajio/Bajio - Area Terminal (TMA)" />
-        <Map Name="Bajio/Bajio - Pistas" />
-
-        <Map Name="Bajio/MMAS - Zona de Control (CTR)" />
-        <Map Name="Bajio/MMLO - Zona de Control (CTR)" />
+        <Map Name="Bajio/Aeropuerto - Pistas" />
+        <Map Name="Bajio/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Bajio/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="Bajio/MMAS - Pista 18 - Llegadas RNAV" />
         <Map Name="Bajio/MMAS - Pista 18 - Llegadas RNAV (Nombres)" />
@@ -303,8 +308,8 @@
         <Window Type="ADEP" Beacon="MMAS" Visible="true" />
         <Window Type="ADEP" Beacon="MMLO" Visible="true" />
       </Strips>
-      <CFL QuickLevel="23000">
-        <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+      <CFL QuickLevel="10200">
+        <AdditionalLevels>9100,10200,10200,10800</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMAS" />
@@ -317,23 +322,16 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Guadalajara" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6">
+    <Position Name="Aproximación Guadalajara" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
       <Sectors>
         <Sector Name="GLA" />
       </Sectors>
       <Maps>
-        <Map Name="Guadalajara/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Guadalajara/Aeropuerto - Pistas" />
-        <Map Name="Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Guadalajara/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Guadalajara/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV" />
-        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV (Nombres)" />
-        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV (Vectores)" />
-
-        <Map Name="Guadalajara/Pista 28 - ILS Z 28" />
-
-        <Map Name="Guadalajara/Pista 28 - Salidas RNAV" />
-        <Map Name="Guadalajara/Pista 28 - Salidas RNAV (Nombres)" />
+        <Map Name="Guadalajara/Pista 28 - ILS DME 28" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
@@ -347,8 +345,8 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMGL" Visible="true" />
       </Strips>
-      <CFL QuickLevel="23000">
-        <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+      <CFL QuickLevel="7600">
+        <AdditionalLevels>8200,9200,9400</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMGL" />
@@ -360,7 +358,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4">
+    <Position Name="Llegadas México" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MXA" />
       </Sectors>
@@ -403,7 +401,209 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro México - Combinado" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
+    <Position Name="Aproximación México" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="MXA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
+        <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
+        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
+        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
+
+        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
+
+        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
+        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="127.65" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="27000">
+        <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Mexico / Mexico Approach</Line>
+        <Line>Serving MMMX, MMTO, MMCV, and MMPB arrivals and departures</Line>
+        <Line>ATIS available on 127.650</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Final México" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="MXA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
+        <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
+        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
+        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
+
+        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
+
+        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
+        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="127.65" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="27000">
+        <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Mexico / Mexico Approach</Line>
+        <Line>Serving MMMX, MMTO, MMCV, and MMPB arrivals and departures</Line>
+        <Line>ATIS available on 127.650</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Salidas México" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="MXA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
+        <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
+        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
+        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
+
+        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
+
+        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
+        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="127.65" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="27000">
+        <AdditionalLevels>7500,8000,8200,8500,9000,9200,10000,11000,12000,16000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Mexico / Mexico Approach</Line>
+        <Line>Serving MMMX, MMTO, MMCV, and MMPB arrivals and departures</Line>
+        <Line>ATIS available on 127.650</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Vallarta" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="GLA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Guadalajara/Aeropuerto - Pistas" />
+        <Map Name="Guadalajara/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="Guadalajara/Pista 28 - ILS DME 28" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
+        <Window Airport="MMGL" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="7600">
+        <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMGL" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Guadalajara / Guadalajara Approach</Line>
+        <Line>Serving MMGL arrivals and departures</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Veracruz" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="270" MagneticVariation="-4" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="VRA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Veracruz/Aeropuerto - Pistas" />
+        <Map Name="Veracruz/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Veracruz/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="Veracruz/Pista 01 - Salidas RNAV" />
+        <Map Name="Veracruz/Pista 01 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMVR" Frequency="127.8" Server="NA" />
+        <Window Airport="MMVR" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMVR" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="7600">
+        <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMVR" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Veracruz / Veracruz Approach</Line>
+        <Line>Serving MMVR arrivals and departures</Line>
+        <Line>ATIS available on 127.800</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Centro México - Combinado" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="EXC" />
         <Sector Name="EXW" />
@@ -448,7 +648,7 @@
         <Point>+19.149414-104.571297</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro México - SW" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
+    <Position Name="Centro México - SW" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="EXW" />
       </Sectors>
@@ -491,7 +691,7 @@
         <Point>+19.149414-104.571297</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro México - SC" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
+    <Position Name="Centro México - SC" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="EXC" />
       </Sectors>
@@ -534,7 +734,7 @@
         <Point>+19.149414-104.571297</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro México - SE" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4">
+    <Position Name="Centro México - SE" Type="ASD" DefaultCenter="+192619.380-0990407.560" DefaultRange="1000" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="EXE" />
       </Sectors>
@@ -587,7 +787,7 @@
         <Map Name="Monterrey/ASMGCS_MMMY_BLD" />
       </Maps>
     </Position>
-    <Position Name="Aproximación Chihuahua" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8">
+    <Position Name="Aproximación Chihuahua" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8" DynamicInfill="false">
       <Sectors>
         <Sector Name="CUA" />
       </Sectors>
@@ -628,7 +828,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Monterrey" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5">
+    <Position Name="Aproximación Monterrey" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="MYA" />
       </Sectors>
@@ -640,7 +840,6 @@
 
         <Map Name="Monterrey/Pista 29 - Llegadas RNAV" />
         <Map Name="Monterrey/Pista 29 - Llegadas RNAV (Nombres)" />
-        <Map Name="Monterrey/Pista 29 - ILS 4 29" />
         <Map Name="Monterrey/Pista 29 - ILS 5 29" />
         <Map Name="Monterrey/Pista 29 - Salidas RNAV" />
         <Map Name="Monterrey/Pista 29 - Salidas RNAV (Nombres)" />
@@ -670,7 +869,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Monterrey" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5">
+    <Position Name="Centro Monterrey" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="TY1" />
         <Sector Name="TY2" />

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 10 - Llegadas RNAV" Priority="1" Centre="+203124.320-1031841.798">
-    <Line Name="ULUVO1A" Pattern="Dashed">
-      ULUVO/GL530/GL531/GL532/BRUJA/GL534/GL535/DATSO
+  <Map Type="System" Name="Pista 10 - Llegadas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+    <Line Name="DUPLO1C" Pattern="Dashed">
+      +190858.910-0961111.580/VR602/AXELI/VR606/VR605/DUPLO
     </Line>
     <Line Name="USBIM1C" Pattern="Dashed">
       USBIM/EMEXO/GL522/GL523/GL524/DATSO
@@ -51,7 +51,7 @@
       <Point>VISDA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Centre="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>LONVA</Point>
       <Point>LIVRI</Point>
@@ -63,7 +63,7 @@
       <Point>DULNO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 10 - Llegadas RNAV (Vectores)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 10 - Llegadas RNAV (Vectores)" Priority="1" Centre="+192617.580-0990407.680">
     <Line Name="DULNOR338">
       +210625.847-1033928.910/
       +204226.875-1033206.377
@@ -241,7 +241,7 @@
 +203047.116-1034105.719/
 +203105.782-1034115.760</Line>
   </Map>
-  <Map Type="System" Name="Pista 10 - ILS DME 10" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 10 - ILS DME 10" Priority="1" Centre="+192617.580-0990407.680">
     <Line Pattern="Solid">
       DANUN/+203142.80-1031937.900
     </Line>
@@ -314,7 +314,7 @@
       <Point>GL815</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 10 - ILS Z 10" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 10 - ILS Z 10" Priority="1" Centre="+192617.580-0990407.680">
     <Line Pattern="Solid">
       DATSO/DULNO
     </Line>
@@ -422,56 +422,72 @@
       +203204.919-1031932.528
     </Line>
   </Map>
-  <Map Type="System" Name="Pista 01 - Salidas RNAV" Priority="1" Centre="+203124.320-1031841.798">
-    <Line Name="OTOKI1A" Pattern="Dotted">
-      GDL/GL406/GL405/GL410/GL411/OTOKI
+  <Map Type="System" Name="Pista 19 - Salidas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+    <Line Name="DUPLO1D" Pattern="Dotted">
+      +190742.340-0961127.460/IPTAK/VR506/DUPLO
     </Line>
-    <Line Name="FEISE1A" Pattern="Dotted">
-      GL410/FEISE
+    <Line Name="ELIKU1C" Pattern="Dotted">
+      +190742.340-0961127.460/VR515/URSOT/VR507/VR513/ELIKU
     </Line>
-    <Line Name="KELVA1A" Pattern="Dotted">
-      GL405/KELVA
+    <Line Name="ELOGO1C" Pattern="Dotted">
+      IPTAK/VR514/VR505/ELOGO
     </Line>
-    <Line Name="LONKU1D" Pattern="Dotted">
-      GL405/LONKU
+    <Line Name="GOTAS1C" Pattern="Dotted">
+      VR602/VR407/VR603/GOTAS
     </Line>
-    <Line Name="EMIRI1A" Pattern="Dotted">
-      GL405/GL430/ATOXO/EMIRI
+    <Line Name="IKLES1C" Pattern="Dotted">
+      VR602/VR510/VR600/VR511/IKLES
     </Line>
-    <Line Name="NOTUP1B" Pattern="Dotted">
-      GL406/GL420/GL421/GL422/NOTUP
+    <Line Name="LIDAR1" Pattern="Dotted">
+      VR602/LIDAR
     </Line>
-    <Line Name="SEDEM1A" Pattern="Dotted">
-      GL422/SEDEM
+    <Line Name="NOREL1A" Pattern="Dotted">
+      AXELI/NOREL
     </Line>
+    <Line Name="OMPAN1C" Pattern="Dotted">
+      VR407/OMPAN
+    </Line>
+    <Line Name="RERAS1A" Pattern="Dotted">
+      VR513/RERAS
+    </Line>
+    <Symbol Type="SolidTriangle">
+      <Point>LIDAR</Point>
+      <Point>OMPAN</Point>
+      <Point>GOTAS</Point>
+      <Point>NOREL</Point>
+      <Point>ELOGO</Point>
+      <Point>DUPLO</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
-      <Point>ATOXO</Point>
-      <Point>EMIRI</Point>
-      <Point>FEISE</Point>
-      <Point>GL405</Point>
-      <Point>GL406</Point>
-      <Point>GL410</Point>
-      <Point>GL411</Point>
-      <Point>GL420</Point>
-      <Point>GL421</Point>
-      <Point>GL422</Point>
-      <Point>GL430</Point>
-      <Point>KELVA</Point>
-      <Point>LONKU</Point>
-      <Point>NOTUP</Point>
-      <Point>OTOKI</Point>
-      <Point>SEDEM</Point>
+      <Point>AXELI</Point>
+      <Point>ELIKU</Point>
+      <Point>IKLES</Point>
+      <Point>RERAS</Point>
+      <Point>URSOT</Point>
+      <Point>VR407</Point>
+      <Point>VR510</Point>
+      <Point>VR511</Point>
+      <Point>VR513</Point>
+      <Point>VR600</Point>
+      <Point>VR601</Point>
+      <Point>VR602</Point>
+      <Point>VR603</Point>
+      <Point>VR604</Point>
+      <Point>VR605</Point>
+      <Point>VR606</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 10 - Salidas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 19 - Salidas RNAV (Nombres)" Priority="1" Centre="+192617.580-0990407.680">
     <Label HasLeader="false">
-      <Point>OTOKI</Point>
-      <Point>FEISE</Point>
-      <Point>KELVA</Point>
-      <Point>LONKU</Point>
-      <Point>EMIRI</Point>
-      <Point>NOTUP</Point>
-      <Point>SEDEM</Point>
+      <Point>DUPLO</Point>
+      <Point>ELIKU</Point>
+      <Point>ELOGO</Point>
+      <Point>GOTAS</Point>
+      <Point>IKLES</Point>
+      <Point>LIDAR</Point>
+      <Point>NOREL</Point>
+      <Point>OMPAN</Point>
+      <Point>RERAS</Point>
     </Label>
   </Map>
 </Maps>

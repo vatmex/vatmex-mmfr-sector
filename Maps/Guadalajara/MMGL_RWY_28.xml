@@ -199,6 +199,60 @@
 +201908.358-1025922.788/
 +201900.242-1025955.104</Line>
   </Map>
+  <Map Type="System" Name="Pista 28 - ILS DME 28" Priority="1" Centre="+203124.320-1031841.798">
+    <Line Pattern="Solid">
+      GL960/+203051.30-1031735.100
+    </Line>
+    <Line Pattern="Solid">
+      LORSI/JAYES
+    </Line>
+    <Line Pattern="Solid">
+      GL960/DUNER
+    </Line>
+    <Line Name="D2" Pattern="Solid">
+      +203018.266-1031653.323/
+      +203050.979-1031637.406
+    </Line>
+    <Line Name="D3" Pattern="Solid">
+      +202953.418-1031555.109/
+      +203026.131-1031539.192/
+    </Line>
+    <Line Name="D4" Pattern="Solid">
+      +202928.571-1031456.898/
+      +203001.284-1031440.982/
+    </Line>
+    <Line Name="D5" Pattern="Solid">
+      +202936.436-1031342.776/
+      +202903.722-1031358.691
+    </Line>
+    <Line Name="D6" Pattern="Solid">
+      +202838.874-1031300.486/
+      +202911.587-1031244.572
+    </Line>
+    <Line Name="D7" Pattern="Solid">
+      +202814.026-1031202.283/
+      +202846.739-1031146.369
+    </Line>
+    <Line Name="D8" Pattern="Solid">
+      +202749.179-1031104.084/
+      +202821.891-1031048.171
+    </Line>
+    <Line Name="D9" Pattern="Solid">
+      +202724.331-1031005.887/
+      +202757.044-1030949.975
+    </Line>
+    <Line Name="D10" Pattern="Solid">
+      +202659.482-1030907.692/
+      +202732.195-1030851.780
+    </Line>
+    <Symbol Type="HollowStar">
+      <Point>GL961</Point>
+      <Point>GL960</Point>
+      <Point>JAYES</Point>
+      <Point>LORSI</Point>
+      <Point>DUNER</Point>
+    </Symbol>
+  </Map>
   <Map Type="System" Name="Pista 28 - ILS Z 28" Priority="1" Centre="+203124.320-1031841.798">
     <Line Pattern="Solid">
       PLADE/GDL
