@@ -7,7 +7,7 @@
     </Runway>
   </Map>
   <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-    <Line Name="TMA MMMX" Pattern="Dashed">
+    <Line Pattern="Dashed">
 +180901.000-0964756.000/
 +181812.000-0964538.000/
 +182016.709-0964831.720/
@@ -568,8 +568,18 @@
 +193810.931-0961618.505/
 +194802.706-0961758.021</Line>
 </Map>
-  <Map Type="System2" Name="MMVR_MVA_LABELS" Priority="0">
+  <Map Type="System2" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
     <Label HasLeader="false">
+      <Point Name="18">+190356.2891-0961225.8750</Point>
+      <Point Name="20">+192309.3984-0960434.9063</Point>
+      <Point Name="22">+185314.1484-0961237.5000</Point>
+      <Point Name="22">+192244.8906-0962156.9688</Point>
+      <Point Name="35">+193148.9453-0954840.4063</Point>
+      <Point Name="35">+183859.1953-0960400.1250</Point>
+      <Point Name="39">+190908.9375-0963827.6563</Point>
+      <Point Name="50">+194112.3047-0962608.3125</Point>
+      <Point Name="68">+192921.5156-0964344.8125</Point>
+      <Point Name="85">+190332.7734-0965011.6250</Point>
     </Label>
   </Map>
 </Maps>
