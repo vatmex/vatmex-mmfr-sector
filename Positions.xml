@@ -566,6 +566,39 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="MXT - Torre México" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="30" MagneticVariation="-4" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="MXT" />
+      </Sectors>
+      <Maps>
+        <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="127.65" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="27000">
+        <AdditionalLevels>20000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Mexico / Mexico Tower</Line>
+        <Line>Serving MMMX arrivals and departures</Line>
+        <Line>ATIS available on 127.650</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="PRL - Aproximación Vallarta 2" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
       <Sectors>
         <Sector Name="GLA" />
