@@ -60,7 +60,16 @@
     <Volumes>MMGL_TMA</Volumes>
   </Sector>
   <!--MMMX-->
+  <Sector FullName="Llegadas México" Frequency="129.650" Callsign="MMMX_T_APP" Name="MXL">
+    <Volumes>MMMX_TMA</Volumes>
+  </Sector>
   <Sector FullName="Aproximación México" Frequency="121.200" Callsign="MMMX_APP" Name="MXA">
+    <Volumes>MMMX_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Final México" Frequency="119.750" Callsign="MMMX_F_APP" Name="MXF">
+    <Volumes>MMMX_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Salidas México" Frequency="120.500" Callsign="MMMX_DEP" Name="MXD">
     <Volumes>MMMX_TMA</Volumes>
   </Sector>
   <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXT">
