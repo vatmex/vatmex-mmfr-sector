@@ -50,6 +50,55 @@
         <Point>+19.149414-104.571297</Point>
       </ManualVisibility>
     </Position>
+    <Position Name="MMSD" Type="ASMGCS" ASMGCSAirport="MMSD" DefaultCenter="+230915.8516-1094312.8125/" DefaultRange="2" MagneticVariation="-8">
+      <Maps>
+        <Map Name="Los Cabos/ASMGCS_MMSD_RWY" />
+        <Map Name="Los Cabos/ASMGCS_MMSD_TWY" />
+        <Map Name="Los Cabos/ASMGCS_MMSD_APR" />
+        <Map Name="Los Cabos/ASMGCS_MMSD_BLD" />
+        <Map Name="Los Cabos/ASMGCS_MMSD_LABELS" />
+      </Maps>
+    </Position>
+            <Position Name="SDA - Aproximación Los Cabos" Type="ASD" DefaultCenter="+230846.179-1094317.540" DefaultRange="225" MagneticVariation="-8" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="SDA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Los Cabos/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Los Cabos/Aeropuerto - Pistas" />
+        <Map Name="Los Cabos/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Los Cabos/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+
+        <Map Name="Los Cabos/Pista 34 - Llegadas RNAV" />
+        <Map Name="Los Cabos/Pista 34 - Llegadas RNAV (Nombres)" />
+        <Map Name="Los Cabos/Pista 34 - RNP 34" />
+
+        <Map Name="Los Cabos/Pista 34 - Salidas RNAV" />
+        <Map Name="Los Cabos/Pista 34 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Cobertura Radar MMZT" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMSD" Frequency="127.900" Server="NA" />
+        <Window Airport="MMSD" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMSD" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="1200">
+        <AdditionalLevels>7400,3200,2400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMSD" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion San Jose / San Jose Approach</Line>
+        <Line>Serving MMSD MMSL arrivals and departures</Line>
+        <Line>ATIS available on 127.600</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
   </Group>
   <Group Name="ACC Mérida">
     <Position Name="MMMD" Type="ASMGCS" ASMGCSAirport="MMMD" DefaultCenter="+205607.1641-0893908.5313" DefaultRange="2" MagneticVariation="0">
@@ -748,7 +797,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Centro Mexico / Mexico Center</Line>
-        <Line>MMMX ATIS available on 126.750</Line>
+        <Line>MMMX ATIS available on 127.650</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
       <ManualVisibility>
