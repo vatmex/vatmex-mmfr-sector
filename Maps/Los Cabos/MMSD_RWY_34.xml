@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Pista 34 - Llegadas RNAV" Priority="1" Centre="+230818.898-1094307.170">
+    <Line Name="ALRIN1F" Pattern="Dashed">
+      ALRIN/SD403/DASON/SD602/AVURU
+    </Line>
+    <Line Name="ENEKO1B" Pattern="Dashed">
+      ENEKO/MARUX/DASON/SD602/AVURU
+    </Line>
+    <Line Name="LEPOM1B" Pattern="Dashed">
+      LEPOM/GOSIM/DASON/SD602/AVURU
+    </Line>
+    <Line Name="TENAY1B" Pattern="Dashed">
+      TENAY/SHAWA/SD601/BALCE/AVURU
+    </Line>
+    <Symbol Type="SolidTriangle">
+      <Point>ENEKO</Point>
+      <Point>MARUX</Point>
+      <Point>DASON</Point>
+      <Point>ALRIN</Point>
+      <Point>LEPOM</Point>
+      <Point>BALCE</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>GOSIM</Point>
+      <Point>TENAY</Point>
+      <Point>SHAWA</Point>
+      <Point>AVURU</Point>
+      <Point>SD403</Point>
+      <Point>SD601</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>SJD</Point>
+      <Point>CSL</Point>
+    </Symbol>
+      <Symbol Type="Circle">
+      <Point>SJD</Point>
+      <Point>CSL</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 34 - Llegadas RNAV (Nombres)" Priority="1" Centre="+230818.898-1094307.170">
+    <Label HasLeader="false">
+      <Point>ENEKO</Point>
+      <Point>ALRIN</Point>
+      <Point>LEPOM</Point>
+      <Point>TENAY</Point>
+      <Point>AVURU</Point>
+      <Point>SJD</Point>
+      <Point>CSL</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 34 - RNP 34" Priority="1" Centre="+230818.898-1094307.170">
+    <Line Pattern="Solid">
+      AVURU/SD901
+    </Line>
+    <Line Pattern="Solid">SD901/+230818.898-1094307.170</Line>
+      <Line Pattern="Solid">+230717.768-1094315.313/+230720.285-1094249.419</Line>
+      <Line Pattern="Solid">+230617.895-1094308.509/+230620.412-1094242.619</Line>
+      <Line Pattern="Solid">+230518.022-1094301.707/+230520.539-1094235.820</Line>
+      <Line Pattern="Solid">+230418.148-1094254.907/+230420.665-1094229.023</Line>
+      <Line Pattern="Solid">+230317.015-1094301.048/+230322.050-1094209.287</Line>
+      <Line Pattern="Solid">+230218.400-1094241.311/+230220.918-1094215.434</Line>
+      <Line Pattern="Solid">+230118.526-1094234.516/+230121.043-1094208.642</Line>
+      <Line Pattern="Solid">+230018.652-1094227.722/+230021.169-1094201.851</Line>
+      <Line Pattern="Solid">+225918.777-1094220.930/+225921.294-1094155.062</Line>
+      <Line Pattern="Solid">+225817.643-1094227.072/+225822.678-1094135.343</Line>
+
+      <Symbol Type="HollowStar">
+      <Point>SD500</Point>
+      <Point>SD901</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 34 - Salidas RNAV" Priority="1" Centre="+230956.019-1094320.211">
+    <Line Name="ALRIN1B" Pattern="Dotted">
+      ALRIN/SD403/SD508/SD507/USBOG/SD702/SD700/+230956.019-1094320.211</Line>
+    <Line Name="ANEGO1B" Pattern="Dotted">
+      ANEGO/TAMET/SD800/SD700/+230956.019-1094320.211</Line>
+    <Line Name="ILIGA1B" Pattern="Dotted">
+      ILIGA/SD704/SD703/USBOG/SD702/SD700/+230956.019-1094320.211</Line>
+    <Line Name="KINOL1" Pattern="Dotted">
+      KINOL/USBOG/SD702/SD700/+230956.019-1094320.211</Line>
+    <Line Name="UKUXA1B" Pattern="Dotted">
+      UKUXA/USBOG/SD702/SD700/+230956.019-1094320.211</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>TAMET</Point>
+      <Point>ILIGA</Point>
+      <Point>KINOL</Point>
+      <Point>UKUXA</Point>
+      <Point>ALRIN</Point>
+      <Point>USBOG</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANEGO</Point>
+      <Point>SD800</Point>
+      <Point>SD700</Point>
+      <Point>SD702</Point>
+      <Point>SD507</Point>
+      <Point>SD508</Point>
+      <Point>SD403</Point>
+      <Point>SD703</Point>
+      <Point>SD704</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 34 - Salidas RNAV (Nombres)" Priority="1" Centre="+230956.019-1094320.211">
+    <Label HasLeader="false">
+      <Point>ALRIN</Point>
+      <Point>UKUXA</Point>
+      <Point>KINOL</Point>
+      <Point>ILIGA</Point>
+      <Point>ANEGO</Point>
+      <Point>SJD</Point>
+      <Point>CSL</Point>
+    </Label>
+  </Map>
+</Maps>

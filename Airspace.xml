@@ -751,6 +751,55 @@
         <SID Name="REALA1" />
       </Runway>
     </Airport>
+    <Airport Name="MMSD">
+        <Runway Name="16" DataRunway="16">
+        <SID Name="SJD3A" Default="True" />
+        <SID Name="ATUM2A" />
+        <SID Name="AVAV3A" />
+        <SID Name="BALC3A" />
+        <SID Name="DASO2A" />
+        <SID Name="LETE3A" />
+        <SID Name="MENV3A" />
+        <SID Name="OLUVU2" />
+        <SID Name="SIBA3A" />
+        <SID Name="USBO3A" />
+        <SID Name="XUGN2A" />
+        <SID Name="ALRI1A" />
+        <SID Name="ANEG1A" />
+        <SID Name="AVAV1C" />
+        <SID Name="ILIG1A" />
+        <SID Name="UKUX1A" />
+        <STAR Name="ALRI1E" />
+        <STAR Name="ENEK1A" />
+        <STAR Name="LEPO1A" />
+        <STAR Name="TENA1A" />
+       </Runway>
+      </Airport>
+    <Airport Name="MMSD">
+        <Runway Name="34" DataRunway="34">
+        <SID Name="SJD3B" Default="True" />
+        <SID Name="AMAR3A" />
+        <SID Name="ATUM2B" />
+        <SID Name="AVAV3B" />
+        <SID Name="BALC3B" />
+        <SID Name="DASO2B" />
+        <SID Name="LETE3B" />
+        <SID Name="MENV3B" />
+        <SID Name="SIBA3B" />
+        <SID Name="TAME2A" />
+        <SID Name="USBO3B" />
+        <SID Name="XUGN2B" />
+        <SID Name="ALRI1B" />
+        <SID Name="ANEG1B" />
+        <SID Name="ILIG1B" />
+        <SID Name="KINOL1" />
+        <SID Name="UKUX1B" />
+        <STAR Name="ALRI1F" />
+        <STAR Name="ENEK1B" />
+        <STAR Name="LEPO1B" />
+        <STAR Name="TENA1B" />
+       </Runway>
+      </Airport>
     <Airport Name="MMSP">
       <Runway Name="14" DataRunway="14">
         <SID Name="SLP4A" Default="True" />
@@ -3583,8 +3632,24 @@
     <Point Name="SAYUL" Type="Fix">+324225.000-1145316.000</Point>
     <Point Name="SCAHA" Type="Fix">+211326.700-0872047.700</Point>
     <Point Name="SD403" Type="Fix">+235940.500-1090825.900</Point>
+	<Point Name="SD407" Type="Fix">+230946.598-1092749.201</Point>
     <Point Name="SD507" Type="Fix">+233230.700-1091236.200</Point>
+    <Point Name="SD500" Type="Fix">+230319.501-1094235.099</Point>
+    <Point Name="SD504" Type="Fix">+230730.900-1095404.899</Point>
+    <Point Name="SD505" Type="Fix">+225938.698-1093304.899</Point>
+    <Point Name="SD506" Type="Fix">+224141.701-1090653.398</Point>
+    <Point Name="SD501" Type="Fix">+230801.899-1092124.800</Point>
+    <Point Name="SD507" Type="Fix">+233230.699-1091236.201</Point>
     <Point Name="SD508" Type="Fix">+234829.700-1091009.100</Point>
+    <Point Name="SD601" Type="Fix">+225501.099-1090216.900</Point>
+    <Point Name="SD602" Type="Fix">+231347.600-1093253.699</Point>
+    <Point Name="SD700" Type="Fix">+231255.598-1094340.598</Point>
+    <Point Name="SD702" Type="Fix">+231648.799-1092846.401</Point>
+    <Point Name="SD703" Type="Fix">+230317.301-1091020.600</Point>
+    <Point Name="SD704" Type="Fix">+224330.899-1085947.900</Point>
+    <Point Name="SD800" Type="Fix">+231954.699-1094428.399</Point>
+    <Point Name="SD801" Type="Fix">+231455.399-1094354.300</Point>
+    <Point Name="SD901" Type="Fix">+225820.398-1094201.299</Point>
     <Point Name="SEAGL" Type="Fix">+263248.000-0934618.000</Point>
     <Point Name="SEBAK" Type="Fix">+213702.000-0881335.000</Point>
     <Point Name="SEBED" Type="Fix">+192851.000-0985935.000</Point>
@@ -5861,6 +5926,130 @@
     <SID Name="REALA1" Airport="MMRX" Runways="31">
       <Route Runway="31">REALA</Route>
     </SID>
+    <!--MMSD-->
+       <SID Name="SJD3B" Airport="MMSD" Runways="34">
+       <Route Runway="34">SJD</Route>
+    </SID>
+       <SID Name="AMAR3A" Airport="MMSD" Runways="34">
+       <Route Runway="34">AMARI</Route>
+    </SID>
+       <SID Name="ATUM2B" Airport="MMSD" Runways="34">
+       <Route Runway="34">ATUMI</Route>
+    </SID>
+       <SID Name="AVAV3B" Airport="MMSD" Runways="34">
+       <Route Runway="34">AVAVU</Route>
+    </SID>
+       <SID Name="BALC3B" Airport="MMSD" Runways="34">
+       <Route Runway="34">BALCE</Route>
+    </SID>
+       <SID Name="DASO2B" Airport="MMSD" Runways="34">
+       <Route Runway="34">DASON</Route>
+    </SID>
+       <SID Name="LETE3B" Airport="MMSD" Runways="34">
+       <Route Runway="34">LETER</Route>
+    </SID>
+       <SID Name="MENV3B" Airport="MMSD" Runways="34">
+       <Route Runway="34">MENVU</Route>
+    </SID>
+       <SID Name="SIBA3B" Airport="MMSD" Runways="34">
+       <Route Runway="34">SIBAU</Route>
+    </SID>
+       <SID Name="TAME2A" Airport="MMSD" Runways="34">
+       <Route Runway="34">TAMET</Route>
+    </SID>
+       <SID Name="USBO3B" Airport="MMSD" Runways="34">
+       <Route Runway="34">USBOG</Route>
+    </SID>
+       <SID Name="XUGN2B" Airport="MMSD" Runways="34">
+       <Route Runway="34">XUGNU</Route>
+    </SID>
+       <SID Name="ALRI1B" Airport="MMSD" Runways="34">
+       <Route Runway="34">SD700 SD702 USBOG SD507 SD508 SD403 ALRIN</Route>
+    </SID>
+       <SID Name="ANEG1B" Airport="MMSD" Runways="34">
+       <Route Runway="34">SD700 SD800 TAMET ANEGO </Route>
+    </SID>
+       <SID Name="ILIG1B" Airport="MMSD" Runways="34">
+       <Route Runway="34">SD700 SD702 USBOG SD703 SD704 ILIGA</Route>
+    </SID>
+       <SID Name="KINOL1" Airport="MMSD" Runways="34">
+       <Route Runway="34">SD700 SD702 USBOG KINOL</Route>
+    </SID>
+       <SID Name="UKUX1B" Airport="MMSD" Runways="34">
+       <Route Runway="34">SD700 SD702 USBOG UKUXA</Route>
+    </SID>
+    <SID Name="SJD3A" Airport="MMSD" Runways="16">
+       <Route Runway="16">SJD</Route>
+    </SID>
+        <SID Name="ATUM2A" Airport="MMSD" Runways="16">
+       <Route Runway="16">ATUMI</Route>
+    </SID>
+        <SID Name="AVAV3A" Airport="MMSD" Runways="16">
+       <Route Runway="16">AVAVU</Route>
+    </SID>
+        <SID Name="BALC3A" Airport="MMSD" Runways="16">
+       <Route Runway="16">BALCE</Route>
+    </SID>
+        <SID Name="DASO2A" Airport="MMSD" Runways="16">
+       <Route Runway="16">DASON</Route>
+    </SID>
+        <SID Name="LETE3A" Airport="MMSD" Runways="16">
+       <Route Runway="16">LETER</Route>
+    </SID>
+        <SID Name="MENV3A" Airport="MMSD" Runways="16">
+       <Route Runway="16">MENVI</Route>
+    </SID>
+        <SID Name="OLUVU2" Airport="MMSD" Runways="16">
+       <Route Runway="16">OLUVU</Route>
+    </SID>
+        <SID Name="SIBA3A" Airport="MMSD" Runways="16">
+       <Route Runway="16">SIBAU</Route>
+    </SID>
+        <SID Name="USBO3A" Airport="MMSD" Runways="16">
+       <Route Runway="16">USBOG</Route>
+    </SID>
+        <SID Name="XUGN2A" Airport="MMSD" Runways="16">
+       <Route Runway="16">XUGNU</Route>
+    </SID>
+        <SID Name="ALRI1A" Airport="MMSD" Runways="16">
+       <Route Runway="16">SD500 SD501 AVAVU SD507 SD508 SD403 ALRIN</Route>
+    </SID>
+        <SID Name="ANEG1A" Airport="MMSD" Runways="16">
+       <Route Runway="16">SD500 SD504 TAMET ANEGO</Route>
+    </SID>
+        <SID Name="AVAV1C" Airport="MMSD" Runways="16">
+       <Route Runway="16">SD500 SD501 AVAVU</Route>
+    </SID>
+        <SID Name="ILIG1A" Airport="MMSD" Runways="16">
+       <Route Runway="16">SD500 SD505 LETER SD506 ILIGA</Route>
+    </SID>
+        <SID Name="UKUX1A" Airport="MMSD" Runways="16">
+       <Route Runway="16">SD500 SD501 AVAVU UKUXA</Route>
+    </SID>
+        <STAR Name="ALRI1E" Airport="MMSD" Runways="16">
+      <Route Runway="16">ALRIN SD403 DASON AXEDA</Route>
+    </STAR>
+        <STAR Name="ENEK1A" Airport="MMSD" Runways="16">
+      <Route Runway="16">ENEKO MARUX MARAK</Route>
+    </STAR>
+        <STAR Name="LEPO1A" Airport="MMSD" Runways="16">
+      <Route Runway="16">LEPOM GOSIM DASON AXEDA</Route>
+    </STAR>
+        <STAR Name="TENA1A" Airport="MMSD" Runways="16">
+      <Route Runway="16">TENAY SHAWA BALCE SD407 AXEDA</Route>
+    </STAR>
+        <STAR Name="ALRI1F" Airport="MMSD" Runways="34">
+      <Route Runway="34">ALRIN SD403 DASON SD602 AVURU</Route>
+    </STAR>
+            <STAR Name="ENEK1B" Airport="MMSD" Runways="34">
+      <Route Runway="34">ENEKO MARUX DASON SD602 AVURU</Route>
+    </STAR>
+            <STAR Name="LEPO1B" Airport="MMSD" Runways="34">
+      <Route Runway="34">LEPOM GOSIM DASON SD602 AVURU</Route>
+    </STAR>
+            <STAR Name="TENA1B" Airport="MMSD" Runways="34">
+      <Route Runway="34">TENAY SHAWA SD601 BALCE AVURU</Route>
+    </STAR>
     <!--MMSP-->
     <SID Name="SLP4A" Airport="MMSP" Runways="14">
       <Route Runway="14">SLP</Route>
@@ -6924,6 +7113,10 @@
     <Airport ICAO="MMRX" Position="+260030.910-0981341.696" Elevation="139">
       <Runway Name="13" Position="+260054.944-0981403.226" />
       <Runway Name="31" Position="+260007.047-0981320.168" />
+    </Airport>
+    <Airport ICAO="MMSD" Position="+230907.46-1094314.69" Elevation="379">
+      <Runway Name="16" Position="+230956.019-1094320.211" />
+      <Runway Name="34" Position="+230818.898-1094307.170" />
     </Airport>
     <Airport ICAO="MMSF" Position="+305553.000-1144832.000" Elevation="98" />
     <Airport ICAO="MMSP" Position="+221515.342-1005550.737" Elevation="6035">
