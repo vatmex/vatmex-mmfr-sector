@@ -50,7 +50,7 @@
         <Point>+19.149414-104.571297</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="MMSD" Type="ASMGCS" ASMGCSAirport="MMSD" DefaultCenter="+230915.8516-1094312.8125/" DefaultRange="2" MagneticVariation="-8">
+    <Position Name="MMSD" Type="ASMGCS" ASMGCSAirport="MMSD" DefaultCenter="+230915.8516-1094312.8125" DefaultRange="2" MagneticVariation="-8">
       <Maps>
         <Map Name="Los Cabos/ASMGCS_MMSD_RWY" />
         <Map Name="Los Cabos/ASMGCS_MMSD_TWY" />
@@ -97,6 +97,15 @@
         <Line>ATIS available on 127.600</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+    </Position>
+    <Position Name="MMHO" Type="ASMGCS" ASMGCSAirport="MMHO" DefaultCenter="+290544.93-1110252.29" DefaultRange="2" MagneticVariation="-9">
+      <Maps>
+        <Map Name="Hermosillo/ASMGCS_MMHO_RWY" />
+        <Map Name="Hermosillo/ASMGCS_MMHO_TWY" />
+        <Map Name="Hermosillo/ASMGCS_MMHO_APR" />
+        <Map Name="Hermosillo/ASMGCS_MMHO_BLD" />
+        <Map Name="Hermosillo/ASMGCS_MMHO_LABELS" />
+      </Maps>
     </Position>
              <Position Name="HOA - Aproximación Hermosillo" Type="ASD" DefaultCenter="+290544.93-1110252.29" DefaultRange="225" MagneticVariation="-9">
       <Sectors>
