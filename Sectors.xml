@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--MMZT ACC-->
+    <!--MMHO-->
+  <Sector FullName="Aproximación Hermosillo" Frequency="121.400" Callsign="MMHO_APP" Name="HOA">
+    <Volumes>MMHO_TMA</Volumes>
+  </Sector>
+    <!--MMSD-->
+  <Sector FullName="Aproximación San Jose" Frequency="120.900" Callsign="MMSD_APP" Name="SDA">
+    <Volumes>MMSD_TMA</Volumes>
+  </Sector>
   <Sector FullName="ACC Mazatlan Sector 1" Frequency="128.300" Callsign="MMZT_CTR" Name="ZT1">
     <Volumes>MMZT_SECTOR_1</Volumes>
   </Sector>

@@ -298,6 +298,53 @@
         <STAR Name="VOLA1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMHO">
+      <Runway Name="05" DataRunway="05">
+        <SID Name="HMO5A" Default="True" />
+        <SID Name="DUVUV2" />
+        <SID Name="MIUR4A" />
+        <SID Name="NOTO2A" />
+        <SID Name="OMIKA2" />
+        <SID Name="OMTI2A" />
+        <SID Name="ONBIR3" />
+        <SID Name="OTUB4A" />
+        <SID Name="SUVLI3" />
+        <SID Name="VENUS4" />
+        <SID Name="VIGL1A" />
+        <SID Name="BOPA1B" />
+        <SID Name="GYM2B" />
+        <SID Name="IGTA1B" />
+        <SID Name="KEKM1B" />
+        <SID Name="LIDU1A" />
+        <SID Name="SEBE2A" />
+        <STAR Name="AVTE1A" />
+        <STAR Name="BOPA1A" />
+        <STAR Name="IGTA1A" />
+        <STAR Name="KEKM1A" />
+       </Runway>
+      <Runway Name="23" DataRunway="23">
+        <SID Name="HMO5B" Default="True" />
+        <SID Name="MIUR4B" />
+        <SID Name="NOTO2B" />
+        <SID Name="OMTI3B" />
+        <SID Name="ONBI4B" />
+        <SID Name="OTNOG2" />
+        <SID Name="OTUB4B" />
+        <SID Name="SUVL4B" />
+        <SID Name="VIGL1B" />
+        <SID Name="BOPA1D" />
+        <SID Name="GYM1C" />
+        <SID Name="IGTA1D" />
+        <SID Name="KEKM1D" />
+        <SID Name="LIDU1B" />
+        <SID Name="SEBE1B" />
+        <STAR Name="AVTE1B" />
+        <STAR Name="BOPA1C" />
+        <STAR Name="IGTA1C" />
+        <STAR Name="KEKM1C" />
+        <STAR Name="NABL1B" />
+      </Runway>
+    </Airport>
     <Airport Name="MMIA">
       <Runway Name="07" DataRunway="07">
         <SID Name="COL2A" Default="True" />
@@ -2334,6 +2381,7 @@
     <Point Name="AMEDA" Type="Fix">+255219.000-1075338.000</Point>
     <Point Name="AMEKU" Type="Fix">+182952.000-0985911.000</Point>
     <Point Name="AMELA" Type="Fix">+191036.000-0993544.000</Point>
+    <Point Name="AMEVI" Type="Fix">+291342.301-1104753.001</Point>
     <Point Name="AMESO" Type="Fix">+185255.900-0961431.100</Point>
     <Point Name="AMIDA" Type="Fix">+183441.000-0872059.000</Point>
     <Point Name="AMIDI" Type="Fix">+164927.600-0985316.900</Point>
@@ -2658,6 +2706,7 @@
     <Point Name="DUNPA" Type="Fix">+183825.310-0991739.980</Point>
     <Point Name="DUNSU" Type="Fix">+203448.000-1035549.000</Point>
     <Point Name="DUPAS" Type="Fix">+214216.000-0911804.000</Point>
+    <Point Name="DUPOS" Type="Fix">+291524.199-1105543.798</Point>
     <Point Name="DUPEM" Type="Fix">+222030.000-0901823.000</Point>
     <Point Name="DUPIX" Type="Fix">+203252.000-0872114.000</Point>
     <Point Name="DUPLO" Type="Fix">+183316.800-0951630.300</Point>
@@ -2881,6 +2930,42 @@
     <Point Name="HECAT" Type="Fix">+203346.100-0860050.000</Point>
     <Point Name="HERSS" Type="Fix">+254033.300-1000950.300</Point>
     <Point Name="HERTY" Type="Fix">+255741.200-1005242.100</Point>
+    <Point Name="HO408" Type="Fix">+290557.598-1104023.098</Point>
+    <Point Name="HO409" Type="Fix">+290455.599-1102912.501</Point>
+    <Point Name="HO415" Type="Fix">+281458.300-1102631.099</Point>
+    <Point Name="HO418" Type="Fix">+290802.400-1111137.499</Point>
+    <Point Name="HO419" Type="Fix">+290336.500-1112108.899</Point>
+    <Point Name="HO431" Type="Fix">+295043.501-1105914.899</Point>
+    <Point Name="HO432" Type="Fix">+290314.399-1101115.799</Point>
+    <Point Name="HO501" Type="Fix">+291038.600-1111535.701</Point>
+    <Point Name="HO502" Type="Fix">+290847.601-1102844.500</Point>
+    <Point Name="HO503" Type="Fix">+290706.398-1101047.301</Point>
+    <Point Name="HO504" Type="Fix">+290516.000-1105245.299</Point>
+    <Point Name="HO505" Type="Fix">+291009.501-1104331.799</Point>
+    <Point Name="HO510" Type="Fix">+284633.999-1114258.600</Point>
+    <Point Name="HO531" Type="Fix">+294720.000-1110542.100</Point>
+    <Point Name="HO601" Type="Fix">+291147.799-1110231.200</Point>
+    <Point Name="HO612" Type="Fix">+291018.598-1112326.199</Point>
+    <Point Name="HO630" Type="Fix">+292545.501-1110158.900</Point>
+    <Point Name="HO631" Type="Fix">+285724.400-1105028.500</Point>
+    <Point Name="HO632" Type="Fix">+290015.299-1101343.201</Point>
+    <Point Name="HO700" Type="Fix">+290831.199-1105739.700</Point>
+    <Point Name="HO701" Type="Fix">+291858.298-1105526.900</Point>
+    <Point Name="HO712" Type="Fix">+290953.100-1111801.299</Point>
+    <Point Name="HO713" Type="Fix">+291700.499-1110557.299</Point>
+    <Point Name="HO739" Type="Fix">+283347.599-1104235.398</Point>
+    <Point Name="HO740" Type="Fix">+295450.299-1105151.299</Point>
+    <Point Name="HO741" Type="Fix">+290613.298-1101443.101</Point>
+    <Point Name="HO742" Type="Fix">+285504.799-1104520.098</Point>
+    <Point Name="HO743" Type="Fix">+283353.899-1103406.999</Point>
+    <Point Name="HO744" Type="Fix">+282304.898-1102946.100</Point>
+    <Point Name="HO800" Type="Fix">+290004.600-1111330.601</Point>
+    <Point Name="HO801" Type="Fix">+290240.700-1110838.101</Point>
+    <Point Name="HO802" Type="Fix">+290657.700-1110035.499</Point>
+    <Point Name="HO900" Type="Fix">+291106.799-1105246.401</Point>
+    <Point Name="HO901" Type="Fix">+290902.300-1105640.999</Point>
+    <Point Name="HO902" Type="Fix">+290759.998-1105838.301</Point>
+    <Point Name="HO903" Type="Fix">+290414.300-1110542.500</Point>
     <Point Name="HORTA" Type="Fix">+215006.000-1013109.000</Point>
     <Point Name="HURIN" Type="Fix">+202304.000-0863501.400</Point>
     <Point Name="ICARO" Type="Fix">+150555.000-0954538.000</Point>
@@ -2919,6 +3004,7 @@
     <Point Name="ILOLI" Type="Fix">+222603.000-0913703.000</Point>
     <Point Name="ILOLU" Type="Fix">+195032.000-0972054.000</Point>
     <Point Name="ILUBA" Type="Fix">+201122.000-0852028.000</Point>
+    <Point Name="ILUDA" Type="Fix">+290421.601-1111628.401</Point>
     <Point Name="ILURA" Type="Fix">+200221.000-1022248.000</Point>
     <Point Name="IMALO" Type="Fix">+190737.720-0981956.950</Point>
     <Point Name="IMARA" Type="Fix">+190021.600-0954622.300</Point>
@@ -3151,6 +3237,7 @@
     <Point Name="MAYTE" Type="Fix">+202921.500-1051944.600</Point>
     <Point Name="MEBAS" Type="Fix">+183610.000-0974042.000</Point>
     <Point Name="MEBIP" Type="Fix">+192545.000-0990456.000</Point>
+    <Point Name="MEBSO" Type="Fix">+285728.299-1111822.899</Point>
     <Point Name="MEDAB" Type="Fix">+205054.800-1005821.300</Point>
     <Point Name="MEDES" Type="Fix">+260622.000-1092207.000</Point>
     <Point Name="MEDEX" Type="Fix">+243035.000-0954318.000</Point>
@@ -3371,6 +3458,7 @@
     <Point Name="OBRUG" Type="Fix">+214701.100-1054126.900</Point>
     <Point Name="OBSEV" Type="Fix">+262400.000-1004925.000</Point>
     <Point Name="OBTAM" Type="Fix">+200521.000-0865428.000</Point>
+    <Point Name="OBRES" Type="Fix">+285547.600-1111032.998</Point>
     <Point Name="OBVIX" Type="Fix">+195506.000-1045409.000</Point>
     <Point Name="ODGAR" Type="Fix">+211044.700-1014106.300</Point>
     <Point Name="ODKOK" Type="Fix">+242834.000-1034056.000</Point>
@@ -4988,6 +5076,130 @@
     </STAR>
     <STAR Name="VOLA1B" Airport="MMGL" Runways="28">
       <Route Runway="28">VOLAT GL860 GL861 LORSI</Route>
+    </STAR>
+    <!--MMHO-->
+    <SID Name="DUVUV2" Airport="MMHO" Runways="05">
+      <Route Runway="05">DUVUV</Route>
+    </SID>
+        <SID Name="HMO5A" Airport="MMHO" Runways="05">
+      <Route Runway="05">HMO</Route>
+    </SID>
+        <SID Name="MIUR4A" Airport="MMHO" Runways="05">
+      <Route Runway="05">MIURA</Route>
+    </SID>
+    <SID Name="NOTO2A" Airport="MMHO" Runways="05">
+      <Route Runway="05">NOTOT</Route>
+    </SID>
+    <SID Name="OMIKA2" Airport="MMHO" Runways="05">
+      <Route Runway="05">OMIKA</Route>
+    </SID>
+    <SID Name="OMTI2A" Airport="MMHO" Runways="05">
+      <Route Runway="05">OMTIB</Route>
+    </SID>
+    <SID Name="ONBIR3" Airport="MMHO" Runways="05">
+      <Route Runway="05">ONBIR</Route>
+    </SID>
+    <SID Name="OTUB4A" Airport="MMHO" Runways="05">
+      <Route Runway="05">OTUBO</Route>
+    </SID>
+    <SID Name="SUVLI3" Airport="MMHO" Runways="05">
+      <Route Runway="05">SUVLI</Route>
+    </SID>
+    <SID Name="VENUS4" Airport="MMHO" Runways="05">
+      <Route Runway="05">VENUS</Route>
+    </SID>
+    <SID Name="VIGL1A" Airport="MMHO" Runways="05">
+      <Route Runway="05">VIGLA</Route>
+    </SID>
+    <SID Name="BOPA1B" Airport="MMHO" Runways="05">
+      <Route Runway="05">HO700 HO701 HO740 BOPAP</Route>
+    </SID>
+    <SID Name="GYM2B" Airport="MMHO" Runways="05">
+      <Route Runway="05">HO700 HO742 VIGLA HO739 GYM</Route>
+    </SID>
+    <SID Name="IGTA1B" Airport="MMHO" Runways="05">
+      <Route Runway="05">HO700 HO741 IGTAN</Route>
+    </SID>
+    <SID Name="KEKM1B" Airport="MMHO" Runways="05">
+      <Route Runway="05">HO700 HO713 HO712 KEKMA</Route>
+    </SID>
+    <SID Name="LIDU1A" Airport="MMHO" Runways="05">
+      <Route Runway="05">HO700 HO713 OMTIB LIDUK</Route>
+    </SID>
+    <SID Name="SEBE2A" Airport="MMHO" Runways="05">
+      <Route Runway="05">HO700 HO742 VIGLA HO743 HO744 HO415 SEBEK</Route>
+    </SID>
+    <STAR Name="AVTE1A" Airport="MMHO" Runways="05">
+      <Route Runway="05">AVTEN HO612 ILUDA</Route>
+    </STAR>
+    <STAR Name="BOPA1A" Airport="MMHO" Runways="05">
+      <Route Runway="05">BOPAP HO630 HO601 ILUDA</Route>
+    </STAR>
+    <STAR Name="IGTA1A" Airport="MMHO" Runways="05">
+      <Route Runway="05">IGTAN HO632 HO631 OBRES</Route>
+    </STAR>
+    <STAR Name="KEKM1A" Airport="MMHO" Runways="05">
+      <Route Runway="05">KEKMA MEBSO</Route>
+    </STAR>
+    <SID Name="HMO5B" Airport="MMHO" Runways="23">
+      <Route Runway="23">HMO</Route>
+    </SID>
+    <SID Name="MIUR4B" Airport="MMHO" Runways="23">
+      <Route Runway="23">MIURA</Route>
+    </SID>
+    <SID Name="NOTO2B" Airport="MMHO" Runways="23">
+      <Route Runway="23">NOTOT</Route>
+    </SID>
+    <SID Name="OMTI3B" Airport="MMHO" Runways="23">
+      <Route Runway="23">OMTIB</Route>
+    </SID>
+    <SID Name="ONBI4B" Airport="MMHO" Runways="23">
+      <Route Runway="23">ONBIR</Route>
+    </SID>
+    <SID Name="OTNOG2" Airport="MMHO" Runways="23">
+      <Route Runway="23">OTNOG</Route>
+    </SID>
+    <SID Name="OTUB4B" Airport="MMHO" Runways="23">
+      <Route Runway="23">OTUBO</Route>
+    </SID>
+    <SID Name="SUVL4B" Airport="MMHO" Runways="23">
+      <Route Runway="23">SUVLI</Route>
+    </SID>
+    <SID Name="VIGL1B" Airport="MMHO" Runways="23">
+      <Route Runway="23">VIGLA</Route>
+    </SID>
+    <SID Name="BOPA1D" Airport="MMHO" Runways="23">
+      <Route Runway="23">HO801 HO501 HO531 BOPAP</Route>
+    </SID>
+    <SID Name="GYM1C" Airport="MMHO" Runways="23">
+    </SID>
+      <Route Runway="23">HO801 GYM</Route>
+    <SID Name="IGTA1D" Airport="MMHO" Runways="23">
+      <Route Runway="23">HO801 HO504 HO505 HO502 HO503 IGTAN</Route>
+    </SID>
+    <SID Name="KEKM1D" Airport="MMHO" Runways="23">
+      <Route Runway="23">HO801 HO510 KEKMA</Route>
+    </SID>
+    <SID Name="LIDU1B" Airport="MMHO" Runways="23">
+      <Route Runway="23">HO801 HO501 OMTIB LIDUK</Route>
+    </SID>
+    <SID Name="SEBE1B" Airport="MMHO" Runways="23">
+      <Route Runway="23">HO801 SEBEK</Route>
+    </SID>
+    <STAR Name="AVTE1B" Airport="MMHO" Runways="23">
+      <Route Runway="23">AVTEN HO419 HO418 DUPOS</Route>
+    </STAR>
+    <STAR Name="BOPA1C" Airport="MMHO" Runways="23">
+      <Route Runway="23">BOPAP HO431 DUPOS</Route>
+    </STAR>
+    <STAR Name="IGTA1C" Airport="MMHO" Runways="23">
+      <Route Runway="23">IGTAN HO432 HO409 HO408 GORIG</Route>
+    </STAR>
+    <STAR Name="KEKM1C" Airport="MMHO" Runways="23">
+      <Route Runway="23">KEKMA HO419 HO418 DUPOS</Route>
+    </STAR>
+    <STAR Name="NABL1B" Airport="MMHO" Runways="23">
+      <Route Runway="23">NABLA GORIG</Route>
     </STAR>
     <!--MMIA-->
     <SID Name="COL2A" Airport="MMIA" Runways="07">
