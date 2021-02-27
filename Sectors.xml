@@ -56,10 +56,19 @@
   </Sector>
 
   <!--MMAA-->
+  <Sector FullName="Torre Acapulco" Frequency="118.500" Callsign="MMAA_TWR" Name="AAT">
+    <Volumes>MMAA_CTR</Volumes>
+  </Sector>
   <Sector FullName="Aproximación Acapulco" Frequency="119.900" Callsign="MMAA_APP" Name="AAA">
     <Volumes>MMAA_TMA</Volumes>
   </Sector>
   <!--MMAS/MMLO-->
+  <Sector FullName="Torre Aguascalientes" Frequency="118.600" Callsign="MMAS_TWR" Name="AST">
+    <Volumes>MMAS_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Torre León" Frequency="118.350" Callsign="MMLO_TWR" Name="LOT">
+    <Volumes>MMLO_CTR</Volumes>
+  </Sector>
   <Sector FullName="Aproximación Bajio" Frequency="119.050" Callsign="MMLO_APP" Name="LOA">
     <Volumes>MMLO_TMA</Volumes>
   </Sector>
