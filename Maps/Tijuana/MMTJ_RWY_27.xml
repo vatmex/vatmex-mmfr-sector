@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+	<Map Type="System" Name="Pista 27 - Llegadas RNAV" Priority="1" Centre="+323227.810-1165811.890">
+		<Line Name="TANR1B" Pattern="Dashed">
+			TANRI/ULDUD
+		</Line>
+		<Line Name="TOVE2B" Pattern="Dashed">
+			TOVES/ENS/KREPE
+		</Line>
+		<Symbol Type="SolidTriangle">
+			<Point>TOVES</Point>
+			<Point>KREPE</Point>
+			<Point>TANRI</Point>
+			<Point>ULDUD</Point>
+		</Symbol>
+		<Symbol Type="Circle">
+			<Point>KREPE</Point>
+			<Point>ULDUD</Point>
+		</Symbol>
+		<Symbol Type="DotFillCircle">
+			<Point>ENS</Point>
+		</Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>TIJ</Point>
+    </Symbol>
+      <Symbol Type="Circle">
+      <Point>TIJ</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 27 - Llegadas RNAV (Nombres)" Priority="1" Centre="+323227.810-1165811.890">
+    <Label HasLeader="false">
+      <Point>TOVES</Point>
+      <Point>TANRI</Point>
+      <Point>KREPE</Point>
+      <Point>ULDUD</Point>
+      <Point>TIJ</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 27 - RNP 27" Priority="1" Centre="+323227.810-1165811.890">
+    <Line Pattern="Solid">
+      KREPE/TJ556/TJ563/TJ745/TJ557</Line>
+    <Line Pattern="Solid">
+      ULDUD/TJ557</Line>
+    <Line Pattern="Solid">
+      TJ557/TJ560/TJ410/TJ408/TJ407/TJ406/TJ405/+323220.380-1165715.810</Line>
+    <Line Pattern="Solid">
+      +323126.423-1165449.741/+323148.393-1165438.195</Line>
+      <Line Pattern="Solid">
+      +323101.956-1165344.919/+323123.925-1165333.374</Line>
+      <Line Pattern="Solid">
+      +323037.479-1165240.107/+323059.448-1165228.563</Line>
+      <Line Pattern="Solid">
+      +323012.993-1165135.305/+323034.962-1165123.761</Line>
+      <Line Pattern="Solid">
+      +322937.513-1165036.283/+323021.452-1165013.198</Line>
+      <Line Pattern="Solid">
+      +322923.993-1164925.729/+322945.963-1164914.188</Line>
+      <Line Pattern="Solid">
+      +322859.479-1164820.956/+322921.449-1164809.416</Line>
+      <Line Pattern="Solid">
+      +322834.956-1164716.193/+322856.925-1164704.653</Line>
+      <Line Pattern="Solid">
+      +322810.423-1164611.440/+322832.393-1164559.901</Line>
+      <Line Pattern="Solid">
+      +322734.897-1164512.465/+322818.836-1164449.388</Line>
+      <Line Pattern="Solid">
+      +322721.331-1164401.962/+322743.300-1164350.425</Line>
+      <Line Pattern="Solid">
+      +322656.770-1164257.238/+322718.740-1164245.702</Line>
+      <Line Pattern="Solid">
+      +322632.201-1164152.524/+322654.171-1164140.988</Line>
+      <Line Pattern="Solid">
+      +322607.622-1164047.819/+322629.592-1164036.284</Line>
+      <Line Pattern="Solid">
+      +322532.049-1163948.890/+322615.988-1163925.823</Line>
+    <Symbol Type="HollowStar">
+      <Point>KREPE</Point>
+      <Point>TJ556</Point>
+      <Point>TJ563</Point>
+      <Point>TJ745</Point>
+      <Point>TJ557</Point>
+      <Point>TJ410</Point>
+      <Point>TJ408</Point>
+      <Point>ULDUD</Point>
+      <Point>TIJ</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>ULDUD</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 27 - Salidas RNAV" Priority="1" Centre="+323227.810-1165811.890">
+    <Line Name="KOBA2B" Pattern="Dotted">
+      +323235.230-1165907.980/TJ567/TJ561/OASIS/KOBAM
+    </Line>
+    <Line Name="TEVI2B" Pattern="Dotted">
+      +323235.230-1165907.980/TJ567/TJ561/OASIS/TEVIR
+    </Line>
+    <Line Name="TUMA2B" Pattern="Dotted">
+      +323235.230-1165907.980/TJ567/TJ561/OASIS/TUMAP
+    </Line>
+    <Symbol Type="SolidTriangle">
+      <Point>OASIS</Point>
+      <Point>KOBAM</Point>
+      <Point>TEVIR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>TJ567</Point>
+      <Point>TJ561</Point>
+      <Point>TUMAP</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 27 - Salidas RNAV (Nombres)" Priority="1" Centre="+323227.810-1165811.890">
+    <Label HasLeader="false">
+      <Point>TIJ</Point>
+      <Point>KOBAM</Point>
+      <Point>TUMAP</Point>
+      <Point>TEVIR</Point>
+    </Label>
+  </Map>
+</Maps>

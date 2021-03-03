@@ -50,6 +50,54 @@
         <Point>+19.149414-104.571297</Point>
       </ManualVisibility>
     </Position>
+    <Position Name="MMHO" Type="ASMGCS" ASMGCSAirport="MMHO" DefaultCenter="+290544.93-1110252.29" DefaultRange="2" MagneticVariation="-9">
+      <Maps>
+        <Map Name="Hermosillo/ASMGCS_MMHO_RWY" />
+        <Map Name="Hermosillo/ASMGCS_MMHO_TWY" />
+        <Map Name="Hermosillo/ASMGCS_MMHO_APR" />
+        <Map Name="Hermosillo/ASMGCS_MMHO_BLD" />
+        <Map Name="Hermosillo/ASMGCS_MMHO_LABELS" />
+      </Maps>
+    </Position>
+             <Position Name="HOA - Aproximación Hermosillo" Type="ASD" DefaultCenter="+290544.93-1110252.29" DefaultRange="225" MagneticVariation="-9">
+      <Sectors>
+        <Sector Name="HOA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Hermosillo/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Hermosillo/Aeropuerto - Pistas" />
+        <Map Name="Hermosillo/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Hermosillo/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+
+        <Map Name="Hermosillo/Pista 05 - Llegadas RNAV" />
+        <Map Name="Hermosillo/Pista 05 - Llegadas RNAV (Nombres)" />
+        <Map Name="Hermosillo/Pista 05 - RNP 05" />
+
+        <Map Name="Hermosillo/Pista 05 - Salidas RNAV" />
+        <Map Name="Hermosillo/Pista 05 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMHO" Frequency="127.700" Server="NA" />
+        <Window Airport="MMHO" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMHO" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="1200">
+        <AdditionalLevels>4600,3300,3100,2700</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMHO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Hermosillo / Hermosillo Approach</Line>
+        <Line>Serving MMHO arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="MMSD" Type="ASMGCS" ASMGCSAirport="MMSD" DefaultCenter="+230915.8516-1094312.8125" DefaultRange="2" MagneticVariation="-8">
       <Maps>
         <Map Name="Los Cabos/ASMGCS_MMSD_RWY" />
@@ -98,51 +146,54 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="MMHO" Type="ASMGCS" ASMGCSAirport="MMHO" DefaultCenter="+290544.93-1110252.29" DefaultRange="2" MagneticVariation="-9">
+    <Position Name="MMTJ" Type="ASMGCS" ASMGCSAirport="MMTJ" DefaultCenter="+323227.810-1165811.890" DefaultRange="2" MagneticVariation="-12">
       <Maps>
-        <Map Name="Hermosillo/ASMGCS_MMHO_RWY" />
-        <Map Name="Hermosillo/ASMGCS_MMHO_TWY" />
-        <Map Name="Hermosillo/ASMGCS_MMHO_APR" />
-        <Map Name="Hermosillo/ASMGCS_MMHO_BLD" />
-        <Map Name="Hermosillo/ASMGCS_MMHO_LABELS" />
+        <Map Name="Tijuana/ASMGCS_MMTJ_RWY" />
+        <Map Name="Tijuana/ASMGCS_MMTJ_TWY" />
+        <Map Name="Tijuana/ASMGCS_MMTJ_APR" />
+        <Map Name="Tijuana/ASMGCS_MMTJ_BLD" />
+        <Map Name="Tijuana/ASMGCS_MMTJ_LABELS" />
       </Maps>
     </Position>
-             <Position Name="HOA - Aproximación Hermosillo" Type="ASD" DefaultCenter="+290544.93-1110252.29" DefaultRange="225" MagneticVariation="-9">
+             <Position Name="TJA - Aproximación Tijuana" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="225" MagneticVariation="-12">
       <Sectors>
-        <Sector Name="HOA" />
+        <Sector Name="TJA" />
       </Sectors>
       <Maps>
-        <Map Name="Hermosillo/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="Hermosillo/Aeropuerto - Pistas" />
-        <Map Name="Hermosillo/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="Hermosillo/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+        <Map Name="Tijuana/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Tijuana/Aeropuerto - Pistas" />
+        <Map Name="Tijuana/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Tijuana/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+        <Map Name="Tijuana/Aeropuerto - Zona de Transito de Aerodromo (ATZ) MMES" />
 
-        <Map Name="Hermosillo/Pista 05 - Llegadas RNAV" />
-        <Map Name="Hermosillo/Pista 05 - Llegadas RNAV (Nombres)" />
-        <Map Name="Hermosillo/Pista 05 - RNP 05" />
+        <Map Name="Tijuana/Pista 27 - Llegadas RNAV" />
+        <Map Name="Tijuana/Pista 27 - Llegadas RNAV (Nombres)" />
+        <Map Name="Tijuana/Pista 27 - RNP 27" />
 
-        <Map Name="Hermosillo/Pista 05 - Salidas RNAV" />
-        <Map Name="Hermosillo/Pista 05 - Salidas RNAV (Nombres)" />
+        <Map Name="Tijuana/Pista 27 - Salidas RNAV" />
+        <Map Name="Tijuana/Pista 27 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ACC Mazatlan/Limites FIR" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
       </Maps>
       <ATIS>
-        <Editor Airport="MMHO" Frequency="127.700" Server="NA" />
-        <Window Airport="MMHO" />
+        <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
+        <Window Airport="MMTJ" />
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMHO" Visible="true" />
+        <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
       </Strips>
-      <CFL QuickLevel="1200">
-        <AdditionalLevels>4600,3300,3100,2700</AdditionalLevels>
+      <CFL QuickLevel="8000">
+        <AdditionalLevels>2600,3300,4100</AdditionalLevels>
       </CFL>
       <ArrivalLists>
-        <Airport Name="MMHO" />
+        <Airport Name="MMTJ" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Aproximacion Hermosillo / Hermosillo Approach</Line>
-        <Line>Serving MMHO arrivals and departures</Line>
-        <Line>ATIS available on 127.700</Line>
+        <Line>Aproximacion Tijuana / Tijuana Approach</Line>
+        <Line>Serving MMTJ MMES arrivals and departures</Line>
+        <Line>ATIS available on 127.900</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
