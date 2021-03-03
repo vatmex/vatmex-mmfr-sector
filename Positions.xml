@@ -208,6 +208,40 @@
         <Map Name="Merida/ASMGCS_MMMD_LABELS" />
       </Maps>
     </Position>
+    <Position Name="MDA - Aproximación Merida" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="300" MagneticVariation="0">
+      <Sectors>
+        <Sector Name="MDA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Merida/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Merida/Aeropuerto - Pistas" />
+
+        <Map Name="Merida/Pista 10 - Llegadas RNAV" />
+        <Map Name="Merida/Pista 10 - Llegadas RNAV (Nombres)" />
+        <Map Name="Merida/Pista 10 - ILS DME 3 10" />
+        <Map Name="Merida/Pista 10 - Salidas RNAV" />
+        <Map Name="Merida/Pista 10 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
+        <Window Airport="MMMD" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMD" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMD" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Merida / Merida Approach</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210233.870-0865223.520" DefaultRange="3" MagneticVariation="+2">
       <Maps>
         <Map Name="Cancun/ASMGCS_MMUN_RWY" />
