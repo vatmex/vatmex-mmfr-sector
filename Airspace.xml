@@ -885,6 +885,34 @@
         <SID Name="XOTIN3" />
       </Runway>
     </Airport>
+    <Airport Name="MMTJ">
+      <Runway Name="09" DataRunway="09">
+        <SID Name="TIJ3B" Default="True" />
+        <SID Name="AVEN4A" />
+        <SID Name="OASI4A" />
+        <SID Name="SEVRA4" />
+        <SID Name="TOPO5A" />
+        <SID Name="ULDU1A" />
+        <SID Name="KOBA1A" />
+        <SID Name="TEVI1A" />
+        <SID Name="TUMA1A" />
+        <STAR Name="TANR1A" />
+        <STAR Name="TOVE1A" />
+      </Runway>
+      <Runway Name="27" DataRunway="27">
+        <SID Name="TIJ4A" Default="True" />
+        <SID Name="AVEN5B" />
+        <SID Name="KREP1B" />
+        <SID Name="OASI5B" />
+        <SID Name="TOPO5B" />
+        <SID Name="ULDU1B" />
+        <SID Name="KOBA2B" />
+        <SID Name="TEVI2B" />
+        <SID Name="TUMA2B" />
+        <STAR Name="TANR1B" />
+        <STAR Name="TOVE2B" />
+      </Runway>
+    </Airport>
     <Airport Name="MMTM">
       <Runway Name="13" DataRunway="13">
         <SID Name="TAM3A" Default="True" />
@@ -3857,10 +3885,37 @@
     <Point Name="TILAN" Type="Fix">+171550.700-1012022.900</Point>
     <Point Name="TILOB" Type="Fix">+191311.000-0971902.000</Point>
     <Point Name="TIMAS" Type="Fix">+245708.000-0960025.000</Point>
+    <Point Name="TJ402" Type="Fix">+322851.499-1171114.600</Point>
+    <Point Name="TJ405" Type="Fix">+323213.401-1165622.801</Point>
+    <Point Name="TJ406" Type="Fix">+323116.298-1165350.701</Point>
+    <Point Name="TJ407" Type="Fix">+323000.698-1165029.900</Point>
+    <Point Name="TJ408" Type="Fix">+322922.801-1164848.801</Point>
+    <Point Name="TJ410" Type="Fix">+322757.499-1164501.800</Point>
+    <Point Name="TJ414" Type="Fix">+323403.698-1171018.501</Point>
+    <Point Name="TJ415" Type="Fix">+323333.901-1170631.899</Point>
+    <Point Name="TJ416" Type="Fix">+323317.398-1170427.699</Point>
+    <Point Name="TJ420" Type="Fix">+323238.299-1165931.200</Point>
+    <Point Name="TJ423" Type="Fix">+322520.899-1170813.498</Point>
+    <Point Name="TJ455" Type="Fix">+321527.298-1170819.298</Point>
+    <Point Name="TJ456" Type="Fix">+315955.399-1164916.701</Point>
+    <Point Name="TJ500" Type="Fix">+323201.798-1165455.699</Point>
+    <Point Name="TJ501" Type="Fix">+322927.700-1164932.001</Point>
+    <Point Name="TJ502" Type="Fix">+322749.701-1164606.700</Point>
+    <Point Name="TJ556" Type="Fix">+320958.499-1164641.998</Point>
+    <Point Name="TJ557" Type="Fix">+322526.000-1163818.999</Point>
+    <Point Name="TJ560" Type="Fix">+322703.898-1164239.200</Point>
+    <Point Name="TJ561" Type="Fix">+322026.300-1164550.299</Point>
+    <Point Name="TJ563" Type="Fix">+321454.700-1164401.701</Point>
+    <Point Name="TJ564" Type="Fix">+322140.100-1164621.500</Point>
+    <Point Name="TJ565" Type="Fix">+321754.301-1163646.000</Point>
+    <Point Name="TJ566" Type="Fix">+322359.301-1164229.401</Point>
+    <Point Name="TJ567" Type="Fix">+323112.899-1170406.801</Point>
+    <Point Name="TJ745" Type="Fix">+322111.401-1164037.300</Point>
     <Point Name="TOPOS" Type="Fix">+320907.000-1163449.000</Point>
     <Point Name="TOVER" Type="Fix">+243949.000-1075520.000</Point>
     <Point Name="TOVES" Type="Fix">+312734.000-1162548.000</Point>
     <Point Name="TOXOS" Type="Fix">+204311.400-1011337.300</Point>
+    <Point Name="TUBUS" Type="Fix">+322109.900-1170437.999</Point>
     <Point Name="TUGET" Type="Fix">+182356.000-0883856.000</Point>
     <Point Name="TUGIR" Type="Fix">+240903.000-1033620.000</Point>
     <Point Name="TUGOL" Type="Fix">+190330.000-0991345.000</Point>
@@ -6342,6 +6397,73 @@
     <SID Name="XOTIN3" Airport="MMTC" Runways="31">
       <Route Runway="31">XOTIN</Route>
     </SID>
+    <!--MMTJ-->
+    <SID Name="TIJ3B" Airport="MMTJ" Runways="09">
+      <Route Runway="09">TIJ</Route>
+    </SID>
+    <SID Name="TIJ4A" Airport="MMTJ" Runways="27">
+      <Route Runway="27">TIJ</Route>
+    </SID>
+    <SID Name="AVEN4A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">AVENA</Route>
+    </SID>
+    <SID Name="AVEN5B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">AVENA</Route>
+    </SID>
+    <SID Name="OASI4A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">OASIS</Route>
+    </SID>
+    <SID Name="SEVRA4" Airport="MMTJ" Runways="09">
+      <Route Runway="09">SEVRA</Route>
+    </SID>
+    <SID Name="KREP1B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">KREPE</Route>
+    </SID>
+    <SID Name="OASI5B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">OASIS</Route>
+    </SID>
+    <SID Name="TOPO5A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">TOPOS</Route>
+    </SID>
+    <SID Name="TOPO5B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">TOPOS</Route>
+    </SID>
+    <SID Name="ULDU1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">ULDUD</Route>
+    </SID>
+    <SID Name="ULDU1B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">ULDUD</Route>
+    </SID>
+    <SID Name="KOBA1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">TJ500 TJ501 TJ502 TJ566 TJ565 OASIS KOBAM</Route>
+    </SID>
+    <SID Name="KOBA2B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">TJ567 TJ561 OASIS KOBAM</Route>
+    </SID>
+    <SID Name="TEVI1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">TJ500 TJ501 TJ502 TJ566 TJ565 OASIS TEVIR</Route>
+    </SID>
+    <SID Name="TEVI2B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">TJ567 TJ561 OASIS TEVIR</Route>
+    </SID>
+    <SID Name="TUMA1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">TJ500 TJ501 TJ502 TJ566 TJ565 OASIS TUMAP</Route>
+    </SID>
+    <SID Name="TUMA2B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">TJ567 TJ561 OASIS TUMAP</Route>
+    </SID>
+    <STAR Name="TANR1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">TANRI ULDUD TJ564 TUBUS</Route>
+    </STAR>
+    <STAR Name="TANR1B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">TANRI ULDUD</Route>
+    </STAR>
+    <STAR Name="TOVE1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">TOVES ENS KREPE TUBUS</Route>
+    </STAR>
+    <STAR Name="TOVE2B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">TOVES ENS KREPE</Route>
+    </STAR>
     <!--MMTM-->
     <SID Name="TAM3A" Airport="MMTM" Runways="13">
       <Route Runway="13">TAM</Route>
