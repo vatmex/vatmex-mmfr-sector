@@ -93,10 +93,10 @@
   </Colour>
   <Colour id="Warning">
     <Use>Warning Indications</Use>
-    <Name>Yellow</Name>
-    <R>253</R>
-    <G>255</G>
-    <B>144</B>
+    <Name>BrightYellow</Name>
+    <R>200</R>
+    <G>180</G>
+    <B>85</B>
   </Colour>
   <Colour id="VSCSBackground">
     <Use>VSCS Background</Use>
@@ -179,9 +179,9 @@
   <Colour id="ASDBackground">
     <Use>ASD Backgrounds</Use>
     <Name>DarkBlue</Name>
-    <R>23</R>
-    <G>129</G>
-    <B>161</B>
+    <R>4</R>
+    <G>69</G>
+    <B>87</B>
   </Colour>
   <Colour id="CPDLCSendButton">
     <Use>CPDLC Hot-Send Button</Use>
@@ -201,8 +201,8 @@
     <Use>Jurisdiction</Use>
     <Name>Green</Name>
     <R>10</R>
-    <G>235</G>
-    <B>100</B>
+    <G>215</G>
+    <B>73</B>
   </Colour>
   <Colour id="GhostJurisdiction">
     <Use>GhostJurisdiction</Use>
@@ -333,31 +333,31 @@
   <Colour id="UserMap">
     <Use>Custom Maps and Text</Use>
     <Name>Yellow</Name>
-    <R>253</R>
-    <G>255</G>
-    <B>144</B>
+    <R>200</R>
+    <G>180</G>
+    <B>85</B>
   </Colour>
   <Colour id="PrimaryMap">
     <Use>System Maps</Use>
     <Name>LightBlue</Name>
-    <R>35</R>
-    <G>170</G>
-    <B>210</B>
+    <R>52</R>
+    <G>99</G>
+    <B>128</B>
   </Colour>
   <!--Sector Activo-->
   <Colour id="Infill">
     <Use>Filled Area Map</Use>
-    <Name>DarkBlue</Name>
-    <R>2</R>
-    <G>55</G>
-    <B>77</B>
+    <Name>MidGrey</Name>
+    <R>0</R>
+    <G>35</G>
+    <B>45</B>
   </Colour>
   <Colour id="SecondaryMap">
     <Use>Alternative System Map</Use>
     <Name>White</Name>
-    <R>210</R>
-    <G>210</G>
-    <B>210</B>
+    <R>190</R>
+    <G>190</G>
+    <B>190</B>
   </Colour>
   <Colour id="GroundRunway">
     <Use>A-SMGCS Runway</Use>
@@ -443,12 +443,12 @@
     <G>235</G>
     <B>0</B>
   </Colour>
-  <!--Cobertura Radar-->
+  <!--Cobertura Radar Aerovías-->
   <Colour id="Custom">
     <Use>Radar Airways</Use>
     <Name>RadarAirway</Name>
-    <R>2</R>
-    <G>55</G>
-    <B>77</B>
+    <R>0</R>
+    <G>35</G>
+    <B>45</B>
   </Colour>
 </Colours>
