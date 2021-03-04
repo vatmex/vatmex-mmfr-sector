@@ -59,7 +59,7 @@
         <Map Name="Hermosillo/ASMGCS_MMHO_LABELS" />
       </Maps>
     </Position>
-             <Position Name="HOA - Aproximación Hermosillo" Type="ASD" DefaultCenter="+290544.93-1110252.29" DefaultRange="225" MagneticVariation="-9">
+             <Position Name="Aproximación Hermosillo - HOA" Type="ASD" DefaultCenter="+290544.93-1110252.29" DefaultRange="225" MagneticVariation="-9">
       <Sectors>
         <Sector Name="HOA" />
       </Sectors>
@@ -107,7 +107,7 @@
         <Map Name="Los Cabos/ASMGCS_MMSD_LABELS" />
       </Maps>
     </Position>
-    <Position Name="SDA - Aproximación San Jose" Type="ASD" DefaultCenter="+230846.179-1094317.540" DefaultRange="225" MagneticVariation="-8">
+    <Position Name="Aproximación San Jose - SDA" Type="ASD" DefaultCenter="+230846.179-1094317.540" DefaultRange="225" MagneticVariation="-8">
       <Sectors>
         <Sector Name="SDA" />
       </Sectors>
@@ -155,7 +155,7 @@
         <Map Name="Tijuana/ASMGCS_MMTJ_LABELS" />
       </Maps>
     </Position>
-             <Position Name="TJA - Aproximación Tijuana" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="225" MagneticVariation="-12">
+             <Position Name="Aproximación Tijuana - TJA" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="225" MagneticVariation="-12">
       <Sectors>
         <Sector Name="TJA" />
       </Sectors>
@@ -207,6 +207,40 @@
         <Map Name="Merida/ASMGCS_MMMD_BLD" />
         <Map Name="Merida/ASMGCS_MMMD_LABELS" />
       </Maps>
+    </Position>
+    <Position Name="Aproximación Merida - MDA" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="300" MagneticVariation="0">
+      <Sectors>
+        <Sector Name="MDA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Merida/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Merida/Aeropuerto - Pistas" />
+
+        <Map Name="Merida/Pista 10 - Llegadas RNAV" />
+        <Map Name="Merida/Pista 10 - Llegadas RNAV (Nombres)" />
+        <Map Name="Merida/Pista 10 - ILS DME 3 10" />
+        <Map Name="Merida/Pista 10 - Salidas RNAV" />
+        <Map Name="Merida/Pista 10 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
+        <Window Airport="MMMD" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMD" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMD" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Merida / Merida Approach</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210233.870-0865223.520" DefaultRange="3" MagneticVariation="+2">
       <Maps>
