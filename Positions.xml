@@ -199,6 +199,64 @@
     </Position>
   </Group>
   <Group Name="ACC Mérida">
+	<Position Name="MMCE" Type="ASMGCS" ASMGCSAirport="MMCE" DefaultCenter="+183906.380-0914758.720" DefaultRange="3" MagneticVariation="-1">
+      <Maps>
+        <Map Name="Ciudad del Carmen/ASMGCS_MMCE_RWY" />
+        <Map Name="Ciudad del Carmen/ASMGCS_MMCE_APR" />
+        <Map Name="Ciudad del Carmen/ASMGCS_MMCE_TWY" />
+        <Map Name="Ciudad del Carmen/ASMGCS_MMCE_BLD" />
+		<Map Name="Ciudad del Carmen/ASMGCS_MMCE_LABELS" />
+		<Map Name="Ciudad del Carmen/ASMGCS_MMCE_GATES" />
+      </Maps>
+    </Position>
+	<Position Name="MMCM" Type="ASMGCS" ASMGCSAirport="MMCM" DefaultCenter="+183017.620-0881938.930" DefaultRange="3" MagneticVariation="+1">
+      <Maps>
+        <Map Name="Chetumal/ASMGCS_MMCM_RWY" />
+        <Map Name="Chetumal/ASMGCS_MMCM_APR" />
+        <Map Name="Chetumal/ASMGCS_MMCM_TWY" />
+        <Map Name="Chetumal/ASMGCS_MMCM_BLD" />
+		<Map Name="Chetumal/ASMGCS_MMCM_LABELS" />
+		<Map Name="Chetumal/ASMGCS_MMCM_GATES" />
+      </Maps>
+    </Position>
+	<Position Name="MMCP" Type="ASMGCS" ASMGCSAirport="MMCP" DefaultCenter="+194901.050-0903001.770" DefaultRange="3" MagneticVariation="-1">
+      <Maps>
+        <Map Name="Campeche/ASMGCS_MMCP_RWY" />
+        <Map Name="Campeche/ASMGCS_MMCP_APR" />
+        <Map Name="Campeche/ASMGCS_MMCP_TWY" />
+        <Map Name="Campeche/ASMGCS_MMCP_BLD" />
+		<Map Name="Campeche/ASMGCS_MMCP_LABELS" />
+		<Map Name="Campeche/ASMGCS_MMCP_GATES" />
+      </Maps>
+    </Position>
+	<Position Name="MMCT" Type="ASMGCS" ASMGCSAirport="MMCT" DefaultCenter="+203828.510-0882654.000" DefaultRange="3" MagneticVariation="+1">
+      <Maps>
+        <Map Name="Chichen Itza/ASMGCS_MMCT_RWY" />
+        <Map Name="Chichen Itza/ASMGCS_MMCT_APR" />
+        <Map Name="Chichen Itza/ASMGCS_MMCT_TWY" />
+        <Map Name="Chichen Itza/ASMGCS_MMCT_BLD" />
+		<Map Name="Chichen Itza/ASMGCS_MMCT_LABELS" />
+      </Maps>
+    </Position>
+	<Position Name="MMCZ" Type="ASMGCS" ASMGCSAirport="MMCZ" DefaultCenter="+203117.420-0865546.070" DefaultRange="3" MagneticVariation="+2">
+      <Maps>
+        <Map Name="Cozumel/ASMGCS_MMCZ_RWY" />
+        <Map Name="Cozumel/ASMGCS_MMCZ_APR" />
+        <Map Name="Cozumel/ASMGCS_MMCZ_TWY" />
+        <Map Name="Cozumel/ASMGCS_MMCZ_BLD" />
+		<Map Name="Cozumel/ASMGCS_MMCZ_LABELS" />
+		<Map Name="Cozumel/ASMGCS_MMCZ_GATES" />
+      </Maps>
+    </Position>
+	<Position Name="MMIT" Type="ASMGCS" ASMGCSAirport="MMIT" DefaultCenter="+162656.290-0950537.110" DefaultRange="3" MagneticVariation="-4">
+      <Maps>
+        <Map Name="Ixtepec/ASMGCS_MMIT_RWY" />
+        <Map Name="Ixtepec/ASMGCS_MMIT_APR" />
+        <Map Name="Ixtepec/ASMGCS_MMIT_TWY" />
+        <Map Name="Ixtepec/ASMGCS_MMIT_BLD" />
+		<Map Name="Ixtepec/ASMGCS_MMIT_LABELS" />
+      </Maps>
+    </Position>
     <Position Name="MMMD" Type="ASMGCS" ASMGCSAirport="MMMD" DefaultCenter="+205607.1641-0893908.5313" DefaultRange="2" MagneticVariation="0">
       <Maps>
         <Map Name="Merida/ASMGCS_MMMD_RWY" />
@@ -206,6 +264,78 @@
         <Map Name="Merida/ASMGCS_MMMD_TWY" />
         <Map Name="Merida/ASMGCS_MMMD_BLD" />
         <Map Name="Merida/ASMGCS_MMMD_LABELS" />
+      </Maps>
+    </Position>
+    <Position Name="Aproximación Merida - MDA" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="300" MagneticVariation="0">
+      <Sectors>
+        <Sector Name="MDA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Merida/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Merida/Aeropuerto - Pistas" />
+
+        <Map Name="Merida/Pista 10 - Llegadas RNAV" />
+        <Map Name="Merida/Pista 10 - Llegadas RNAV (Nombres)" />
+        <Map Name="Merida/Pista 10 - ILS DME 3 10" />
+        <Map Name="Merida/Pista 10 - Salidas RNAV" />
+        <Map Name="Merida/Pista 10 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
+        <Window Airport="MMMD" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMD" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMD" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Merida / Merida Approach</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+	<Position Name="MMMT" Type="ASMGCS" ASMGCSAirport="MMMT" DefaultCenter="+180612.960-0943449.940" DefaultRange="3" MagneticVariation="-4">
+      <Maps>
+        <Map Name="Minatitlan/ASMGCS_MMMT_RWY" />
+        <Map Name="Minatitlan/ASMGCS_MMMT_APR" />
+        <Map Name="Minatitlan/ASMGCS_MMMT_TWY" />
+        <Map Name="Minatitlan/ASMGCS_MMMT_BLD" />
+		<Map Name="Minatitlan/ASMGCS_MMMT_LABELS" />
+      </Maps>
+    </Position>
+	<Position Name="MMPQ" Type="ASMGCS" ASMGCSAirport="MMPQ" DefaultCenter="+173159.020-0920056.400" DefaultRange="3" MagneticVariation="-1">
+      <Maps>
+        <Map Name="Palenque/ASMGCS_MMPQ_RWY" />
+        <Map Name="Palenque/ASMGCS_MMPQ_APR" />
+        <Map Name="Palenque/ASMGCS_MMPQ_TWY" />
+        <Map Name="Palenque/ASMGCS_MMPQ_BLD" />
+		<Map Name="Palenque/ASMGCS_MMPQ_LABELS" />
+      </Maps>
+    </Position>
+	<Position Name="MMTG" Type="ASMGCS" ASMGCSAirport="MMTG" DefaultCenter="+163342.390-0930133.990" DefaultRange="3" MagneticVariation="-4">
+      <Maps>
+        <Map Name="Tuxtla Gutierrez/ASMGCS_MMTG_RWY" />
+        <Map Name="Tuxtla Gutierrez/ASMGCS_MMTG_APR" />
+        <Map Name="Tuxtla Gutierrez/ASMGCS_MMTG_TWY" />
+        <Map Name="Tuxtla Gutierrez/ASMGCS_MMTG_BLD" />
+		<Map Name="Tuxtla Gutierrez/ASMGCS_MMTG_LABELS" />
+		<Map Name="Tuxtla Gutierrez/ASMGCS_MMTG_GATES" />
+      </Maps>
+    </Position>
+	<Position Name="MMTP" Type="ASMGCS" ASMGCSAirport="MMTP" DefaultCenter="+144737.580-0922213.140" DefaultRange="3" MagneticVariation="-4">
+      <Maps>
+        <Map Name="Tapachula/ASMGCS_MMTP_RWY" />
+        <Map Name="Tapachula/ASMGCS_MMTP_APR" />
+        <Map Name="Tapachula/ASMGCS_MMTP_TWY" />
+        <Map Name="Tapachula/ASMGCS_MMTP_BLD" />
+		<Map Name="Tapachula/ASMGCS_MMTP_LABELS" />
+		<Map Name="Tapachula/ASMGCS_MMTP_GATES" />
       </Maps>
     </Position>
     <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210233.870-0865223.520" DefaultRange="3" MagneticVariation="+2">
@@ -253,6 +383,16 @@
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+    </Position>
+	<Position Name="MMVA" Type="ASMGCS" ASMGCSAirport="MMVA" DefaultCenter="+175947.160-0924901.680" DefaultRange="3" MagneticVariation="-4">
+      <Maps>
+        <Map Name="Villahermosa/ASMGCS_MMVA_RWY" />
+        <Map Name="Villahermosa/ASMGCS_MMVA_APR" />
+        <Map Name="Villahermosa/ASMGCS_MMVA_TWY" />
+        <Map Name="Villahermosa/ASMGCS_MMVA_BLD" />
+		<Map Name="Villahermosa/ASMGCS_MMVA_LABELS" />
+		<Map Name="Villahermosa/ASMGCS_MMVA_GATES" />
+      </Maps>
     </Position>
     <Position Name="Centro Mérida" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
       <Sectors>
