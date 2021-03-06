@@ -58,45 +58,6 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Hermosillo - HOA" Type="ASD" DefaultCenter="+290544.93-1110252.29" DefaultRange="225" MagneticVariation="-9">
-      <Sectors>
-        <Sector Name="HOA" />
-      </Sectors>
-      <Maps>
-        <Map Name="Hermosillo/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="Hermosillo/Aeropuerto - Pistas" />
-        <Map Name="Hermosillo/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="Hermosillo/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
-
-        <Map Name="Hermosillo/Pista 05 - Llegadas RNAV" />
-        <Map Name="Hermosillo/Pista 05 - Llegadas RNAV (Nombres)" />
-        <Map Name="Hermosillo/Pista 05 - RNP 05" />
-
-        <Map Name="Hermosillo/Pista 05 - Salidas RNAV" />
-        <Map Name="Hermosillo/Pista 05 - Salidas RNAV (Nombres)" />
-
-        <Map Name="ALL/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMHO" Frequency="127.700" Server="NA" />
-        <Window Airport="MMHO" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMHO" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="1200">
-        <AdditionalLevels>4600,3300,3100,2700</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMHO" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Hermosillo / Hermosillo Approach</Line>
-        <Line>Serving MMHO arrivals and departures</Line>
-        <Line>ATIS available on 127.700</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
     <Position Name="Aproximación San Jose - SDA" Type="ASD" DefaultCenter="+230846.179-1094317.540" DefaultRange="225" MagneticVariation="-8">
       <Sectors>
         <Sector Name="SDA" />
