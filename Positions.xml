@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Group Name="ACC Mazatlan">
+  <Group Name="ACC Mazatlan">    
     <Position Name="MMSD" Type="ASMGCS" ASMGCSAirport="MMSD" DefaultCenter="+230915.8516-1094312.8125" DefaultRange="2" MagneticVariation="-8">
       <Maps>
         <Map Name="Los Cabos/ASMGCS_MMSD_RWY" />
@@ -294,6 +294,40 @@
         <Map Name="Tapachula/ASMGCS_MMTP_LABELS" />
         <Map Name="Tapachula/ASMGCS_MMTP_GATES" />
       </Maps>
+    </Position>
+    <Position Name="Aproximación Merida - MDA" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="300" MagneticVariation="0">
+      <Sectors>
+        <Sector Name="MDA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Merida/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Merida/Aeropuerto - Pistas" />
+
+        <Map Name="Merida/Pista 10 - Llegadas RNAV" />
+        <Map Name="Merida/Pista 10 - Llegadas RNAV (Nombres)" />
+        <Map Name="Merida/Pista 10 - ILS DME 3 10" />
+        <Map Name="Merida/Pista 10 - Salidas RNAV" />
+        <Map Name="Merida/Pista 10 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
+        <Window Airport="MMMD" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMD" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMD" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Merida / Merida Approach</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210233.870-0865223.520" DefaultRange="3" MagneticVariation="+2">
       <Maps>
