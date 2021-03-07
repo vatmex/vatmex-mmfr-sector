@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Group Name="ACC Mazatlan">    
+  <Group Name="ACC Mazatlan">
     <Position Name="MMSD" Type="ASMGCS" ASMGCSAirport="MMSD" DefaultCenter="+230915.8516-1094312.8125" DefaultRange="2" MagneticVariation="-8">
       <Maps>
         <Map Name="Los Cabos/ASMGCS_MMSD_RWY" />
@@ -295,40 +295,6 @@
         <Map Name="Tapachula/ASMGCS_MMTP_GATES" />
       </Maps>
     </Position>
-    <Position Name="Aproximación Merida - MDA" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="300" MagneticVariation="0">
-      <Sectors>
-        <Sector Name="MDA" />
-      </Sectors>
-      <Maps>
-        <Map Name="Merida/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="Merida/Aeropuerto - Pistas" />
-
-        <Map Name="Merida/Pista 10 - Llegadas RNAV" />
-        <Map Name="Merida/Pista 10 - Llegadas RNAV (Nombres)" />
-        <Map Name="Merida/Pista 10 - ILS DME 3 10" />
-        <Map Name="Merida/Pista 10 - Salidas RNAV" />
-        <Map Name="Merida/Pista 10 - Salidas RNAV (Nombres)" />
-
-        <Map Name="ALL/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
-        <Window Airport="MMMD" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMMD" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="20000">
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMMD" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Merida / Merida Approach</Line>
-        <Line>ATIS available on 127.900</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
     <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210233.870-0865223.520" DefaultRange="3" MagneticVariation="+2">
       <Maps>
         <Map Name="Cancun/ASMGCS_MMUN_RWY" />
@@ -419,14 +385,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Mérida" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
+    <Position Name="Centro Mérida (Combinado) - IDC" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
       <Sectors>
-        <Sector Name="ID1" />
-        <Sector Name="ID2" />
-        <Sector Name="ID3" />
-        <Sector Name="ID4" />
-        <Sector Name="ID5" />
-        <Sector Name="ID6" />
+        <Sector Name="IDC" />
       </Sectors>
       <Maps>
         <Map Name="ACC Merida/Limites FIR" />
@@ -448,6 +409,88 @@
       </Strips>
       <CFL QuickLevel="27000">
         <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Centro Merida / Merida Center</Line>
+        <Line>MMUN ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+210249.9531-0865231.1875</Point>
+        <Point>+194642.2891-0902841.3750</Point>
+        <Point>+163526.8633-0930236.1563</Point>
+        <Point>+123404.2930-0985708.3125</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Centro Mérida (SE) - IDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="IDE" />
+      </Sectors>
+      <Maps>
+        <Map Name="ACC Merida/Limites FIR" />
+        <Map Name="ACC Merida/Limites FIR (Referencia)" />
+        <Map Name="ACC Merida/Aerodromos" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias" />
+        <Map Name="ALL/Sector - Radioayudas" />
+        <Map Name="ALL/Sector - Radioayudas (Nombres)" />
+        <Map Name="ALL/Sector - Fijos Principales" />
+        <Map Name="ALL/Sector - Fijos Principales (Nombres)" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="27000">
+        <AdditionalLevels>8800,9300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Centro Merida / Merida Center</Line>
+        <Line>MMUN ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+210249.9531-0865231.1875</Point>
+        <Point>+194642.2891-0902841.3750</Point>
+        <Point>+163526.8633-0930236.1563</Point>
+        <Point>+123404.2930-0985708.3125</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Centro Mérida (SW) - IDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="IDW" />
+      </Sectors>
+      <Maps>
+        <Map Name="ACC Merida/Limites FIR" />
+        <Map Name="ACC Merida/Limites FIR (Referencia)" />
+        <Map Name="ACC Merida/Aerodromos" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias" />
+        <Map Name="ALL/Sector - Radioayudas" />
+        <Map Name="ALL/Sector - Radioayudas (Nombres)" />
+        <Map Name="ALL/Sector - Fijos Principales" />
+        <Map Name="ALL/Sector - Fijos Principales (Nombres)" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="27000">
+        <AdditionalLevels>8800,9300</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMUN" />
@@ -884,7 +927,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México - MXA" Type="ASD" DefaultCenter="+193856.929-0990742.093" DefaultRange="75" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Separado) - MXA" Type="ASD" DefaultCenter="+193856.929-0990742.093" DefaultRange="75" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MXA" />
       </Sectors>

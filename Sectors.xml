@@ -45,7 +45,16 @@
     <Volumes>MMUN_TMA</Volumes>
   </Sector>
   <!--MMID ACC-->
-  <Sector FullName="ACC Mérida Sector 1" Frequency="128.300" Callsign="MMID_CTR" Name="ID1">
+  <Sector FullName="ACC Mérida Sector SC" Frequency="133.100" Callsign="MMID_CTR" Name="IDC">
+    <Volumes>MMID_SECTOR_1, MMID_SECTOR_2, MMID_SECTOR_3, MMID_SECTOR_4, MMID_SECTOR_5, MMID_SECTOR_6</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mérida Sector SE" Frequency="126.600" Callsign="MMID_E_CTR" Name="IDE">
+    <Volumes>MMID_SECTOR_2, MMID_SECTOR_3, MMID_SECTOR_4</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mérida Sector SW" Frequency="123.900" Callsign="MMID_W_CTR" Name="IDW">
+    <Volumes>MMID_SECTOR_1, MMID_SECTOR_5, MMID_SECTOR_6</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mérida Sector 1" Frequency="128.300" Callsign="MMID_1_CTR" Name="ID1">
     <Volumes>MMID_SECTOR_1</Volumes>
   </Sector>
   <Sector FullName="ACC Mérida Sector 2" Frequency="125.800" Callsign="MMID_2_CTR" Name="ID2">
