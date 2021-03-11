@@ -41,7 +41,19 @@
   <Sector FullName="Torre Merida" Frequency="118.300" Callsign="MMMD_TWR" Name="MDT">
     <Volumes>MMMD_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Cancun" Frequency="124.700" Callsign="MMUN_APP" Name="UNA">
+  <Sector FullName="Aproximación Cancún" Frequency="124.700" Callsign="MMUN_APP" Name="UNA">
+    <Volumes>MMUN_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZT">
+    <Volumes>MMCZ_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Torre Cancún" Frequency="118.100" Callsign="MMUN_TWR" Name="UNT">
+    <Volumes>MMUN_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Llegadas Cancún" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNL">
+    <Volumes>MMUN_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Salidas Cancún" Frequency="124.200" Callsign="MMUN_DEP" Name="UND">
     <Volumes>MMUN_TMA</Volumes>
   </Sector>
   <!--MMID ACC-->
