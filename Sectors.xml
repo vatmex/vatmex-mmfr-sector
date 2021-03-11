@@ -41,11 +41,32 @@
   <Sector FullName="Torre Merida" Frequency="118.300" Callsign="MMMD_TWR" Name="MDT">
     <Volumes>MMMD_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Cancun" Frequency="124.700" Callsign="MMUN_APP" Name="UNA">
+  <Sector FullName="Aproximación Cancún" Frequency="124.700" Callsign="MMUN_APP" Name="UNA">
+    <Volumes>MMUN_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZT">
+    <Volumes>MMCZ_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Torre Cancún" Frequency="118.100" Callsign="MMUN_TWR" Name="UNT">
+    <Volumes>MMUN_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Llegadas Cancún" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNL">
+    <Volumes>MMUN_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Salidas Cancún" Frequency="124.200" Callsign="MMUN_DEP" Name="UND">
     <Volumes>MMUN_TMA</Volumes>
   </Sector>
   <!--MMID ACC-->
-  <Sector FullName="ACC Mérida Sector 1" Frequency="128.300" Callsign="MMID_CTR" Name="ID1">
+  <Sector FullName="ACC Mérida Sector SC" Frequency="133.100" Callsign="MMID_CTR" Name="IDC">
+    <Volumes>MMID_SECTOR_1, MMID_SECTOR_2, MMID_SECTOR_3, MMID_SECTOR_4, MMID_SECTOR_5, MMID_SECTOR_6</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mérida Sector SE" Frequency="126.600" Callsign="MMID_E_CTR" Name="IDE">
+    <Volumes>MMID_SECTOR_2, MMID_SECTOR_3, MMID_SECTOR_4</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mérida Sector SW" Frequency="123.900" Callsign="MMID_W_CTR" Name="IDW">
+    <Volumes>MMID_SECTOR_1, MMID_SECTOR_5, MMID_SECTOR_6</Volumes>
+  </Sector>
+  <Sector FullName="ACC Mérida Sector 1" Frequency="128.300" Callsign="MMID_1_CTR" Name="ID1">
     <Volumes>MMID_SECTOR_1</Volumes>
   </Sector>
   <Sector FullName="ACC Mérida Sector 2" Frequency="125.800" Callsign="MMID_2_CTR" Name="ID2">
