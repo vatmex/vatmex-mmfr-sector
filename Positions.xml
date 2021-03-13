@@ -725,6 +725,15 @@
         <Map Name="Mexico/ASMGCS_MMMX_LABELS" />
       </Maps>
     </Position>
+     <Position Name="MMPR" Type="ASMGCS" ASMGCSAirport="MMPR" DefaultCenter="+204048.261-1051515.123" DefaultRange="2" MagneticVariation="-7">
+      <Maps>
+        <Map Name="Vallarta/ASMGCS_MMPR_RWY" />
+        <Map Name="Vallarta/ASMGCS_MMPR_APR" />
+        <Map Name="Vallarta/ASMGCS_MMPR_TWY" />
+        <Map Name="Vallarta/ASMGCS_MMPR_BLD" />
+        <Map Name="Vallarta/ASMGCS_MMPR_LABELS" />
+      </Maps>
+    </Position>
     <Position Name="MMQT" Type="ASMGCS" ASMGCSAirport="MMQT" DefaultCenter="+203702.850-1001125.000" DefaultRange="4" MagneticVariation="-4">
       <Maps>
         <Map Name="Queretaro/ASMGCS_MMQT_RWY" />
@@ -1246,7 +1255,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximacion Vallarta (Terminal) - PRL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Aproximacion Vallarta (Terminal) - PRL" Type="ASD" DefaultCenter="+204048.261-1051515.123" DefaultRange="235" MagneticVariation="-7" DynamicInfill="false">
       <Sectors>
         <Sector Name="PRL" />
       </Sectors>
@@ -1282,39 +1291,42 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Vallarta - PRA" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Aproximación Vallarta - PRA" Type="ASD" DefaultCenter="+204048.261-1051515.123" DefaultRange="235" MagneticVariation="-7">
       <Sectors>
         <Sector Name="PRA" />
       </Sectors>
       <Maps>
-        <Map Name="Guadalajara/Aeropuerto - Pistas" />
-        <Map Name="Guadalajara/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Vallarta/Aeropuerto - Pistas" />
+        <Map Name="Vallarta/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Vallarta/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="Guadalajara/Pista 28 - ILS DME 28" />
+        <Map Name="Vallarta/Pista 04 - RNP 04" />
+        <Map Name="Vallarta/Pista 04 - Llegadas RNAV (Nombres)" />
+        <Map Name="Vallarta/Pista 04 - Llegadas RNAV" />
+        <Map Name="Vallarta/Pista 04 - Salidas RNAV" />
+        <Map Name="Vallarta/Pista 04 - Salidas RNAV (Nombres)" />
+
 
         <Map Name="ACC Mexico/Limites FIR" />
-
         <Map Name="ALL/Geografia - Linea de Costa" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
       </Maps>
       <ATIS>
-        <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
-        <Window Airport="MMGL" />
+        <Editor Airport="MMPR" Frequency="127.5" Server="NA" />
+        <Window Airport="MMPR" />
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+        <Window Type="ADEP" Beacon="MMPR" Visible="true" />
       </Strips>
-      <CFL QuickLevel="7600">
-        <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+      <CFL QuickLevel="5500">
+        <AdditionalLevels>1800,5200,9700,8300,8900,5800,5200,3600,3200,4900,5300,4400,3400</AdditionalLevels>
       </CFL>
       <ArrivalLists>
-        <Airport Name="MMGL" />
+        <Airport Name="MMPR" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Aproximacion Guadalajara / Guadalajara Approach</Line>
-        <Line>Serving MMGL arrivals and departures</Line>
-        <Line>ATIS available on 127.900</Line>
+        <Line>Aproximacion Vallarta / Vallarta Approach</Line>
+        <Line>Serving MMPR arrivals and departures</Line>
+        <Line>ATIS available on 127.500</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
