@@ -543,7 +543,7 @@
         <Sector Name="IDC" />
       </Sectors>
       <Maps>
-        <Map Name="ACC Merida/Limites FIR" />
+        <Map Name="ACC Merida/Limites FIR (Individual)" />
         <Map Name="ACC Merida/Aerodromos" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
@@ -916,7 +916,7 @@
         <Window Type="ADEP" Beacon="MMLO" Visible="true" />
       </Strips>
       <CFL QuickLevel="10200">
-        <AdditionalLevels>9100,10200,10200,10800</AdditionalLevels>
+        <AdditionalLevels>9100,10200,10800</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMAS" />
@@ -1001,24 +1001,23 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximacion México (Combinado) - MXA" Type="ASD" DefaultCenter="+194025.265-0990206.031" DefaultRange="300" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Combinado) - MXA" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MXA" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
-        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
-        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
-        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Toluca" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Puebla" />
 
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
-
-        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
-
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Vectores)" />
+        <Map Name="Mexico/Pistas 05 - ILS Z 05R" />
+        <Map Name="Mexico/Pistas 05 - Salidas RNAV" />
+        <Map Name="Mexico/Pistas 05 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
@@ -1045,24 +1044,23 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Llegadas) - MXL" Type="ASD" DefaultCenter="+201357.367-0990826.031" DefaultRange="165" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Llegadas) - MXL" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MXL" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
-        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
-        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
-        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Toluca" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Puebla (Cortado)" />
+        <Map Name="Mexico/Pistas 05 - Sectores Llegadas" />
 
-        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
-
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Vectores)" />
+        <Map Name="Mexico/Pistas 05 - ILS Z 05R" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
@@ -1089,24 +1087,23 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Separado) - MXA" Type="ASD" DefaultCenter="+193856.929-0990742.093" DefaultRange="75" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Separado) - MXA" Type="ASD" DefaultCenter="+192156.773-0992016.469" DefaultRange="150" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MXA" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
-        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
-        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
-        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Toluca" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Puebla (Cortado)" />
+        <Map Name="Mexico/Pistas 05 - Sectores Aproximación" />
 
-        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
-
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Vectores)" />
+        <Map Name="Mexico/Pistas 05 - ILS Z 05R" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
@@ -1133,24 +1130,22 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Final) - MXF" Type="ASD" DefaultCenter="+192721.664-0990856.0625" DefaultRange="35" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Final) - MXF" Type="ASD" DefaultCenter="+192418.890-0990748.500" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MXF" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
-        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
-        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
-        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Toluca" />
+        <Map Name="Mexico/Pistas 05 - Sectores Final" />
 
-        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
-
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Vectores)" />
+        <Map Name="Mexico/Pistas 05 - ILS Z 05R" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
@@ -1177,24 +1172,20 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Salidas México - MXD" Type="ASD" DefaultCenter="+192244.297-0990444.375" DefaultRange="160" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Salidas México - MXD" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MXD" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
-        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA) Legacy" />
-        <Map Name="Mexico/Aeropuerto - Sectores Aproximacion Legacy" />
-        <Map Name="Mexico/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Llegadas Legacy (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - Sectores Salidas" />
 
-        <Map Name="Mexico/Pistas 05 - ILS DME 05R" />|
-
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy" />
-        <Map Name="Mexico/Pistas 05 - Salidas Legacy (Nombres)" />
+        <Map Name="Mexico/Pistas 05 - ILS Z 05R" />
+        <Map Name="Mexico/Pistas 05 - Salidas RNAV" />
+        <Map Name="Mexico/Pistas 05 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
