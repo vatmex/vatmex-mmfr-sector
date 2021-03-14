@@ -1543,12 +1543,121 @@
     </Position>
   </Group>
   <Group Name="ACC Monterrey">
+  <Position Name="MMAN" Type="ASMGCS" ASMGCSAirport="MMAN" DefaultCenter="+255154.480-1001424.670" DefaultRange="2" MagneticVariation="-5">
+      <Maps>
+        <Map Name="Del Norte/ASMGCS_MMAN_RWY" />
+        <Map Name="Del Norte/ASMGCS_MMAN_APR" />
+        <Map Name="Del Norte/ASMGCS_MMAN_TWY" />
+        <Map Name="Del Norte/ASMGCS_MMAN_BLD" />
+      </Maps>
+    </Position>
+    <Position Name="MMCS" Type="ASMGCS" ASMGCSAirport="MMCS" DefaultCenter="+313810.210-1062543.810" DefaultRange="3" MagneticVariation="-10">
+      <Maps>
+        <Map Name="Ciudad Juarez/ASMGCS_MMCS_RWY" />
+        <Map Name="Ciudad Juarez/ASMGCS_MMCS_APR" />
+        <Map Name="Ciudad Juarez/ASMGCS_MMCS_TWY" />
+        <Map Name="Ciudad Juarez/ASMGCS_MMCS_BLD" />
+        <Map Name="Ciudad Juarez/ASMGCS_MMCS_LABELS" />
+        <Map Name="Ciudad Juarez/ASMGCS_MMCS_GATES" />
+      </Maps>
+    </Position>
+    <Position Name="MMCU" Type="ASMGCS" ASMGCSAirport="MMCU" DefaultCenter="+284211.310-1055757.380" DefaultRange="3" MagneticVariation="-8">
+      <Maps>
+        <Map Name="Chihuahua/ASMGCS_MMCU_RWY" />
+        <Map Name="Chihuahua/ASMGCS_MMCU_APR" />
+        <Map Name="Chihuahua/ASMGCS_MMCU_TWY" />
+        <Map Name="Chihuahua/ASMGCS_MMCU_BLD" />
+        <Map Name="Chihuahua/ASMGCS_MMCU_LABELS" />
+        <Map Name="Chihuahua/ASMGCS_MMCU_GATES" />
+      </Maps>
+    </Position>
+    <Position Name="MMCV" Type="ASMGCS" ASMGCSAirport="MMCV" DefaultCenter="+234211.500-0985723.630" DefaultRange="2" MagneticVariation="-6">
+      <Maps>
+        <Map Name="Ciudad Victoria/ASMGCS_MMCV_RWY" />
+        <Map Name="Ciudad Victoria/ASMGCS_MMCV_APR" />
+        <Map Name="Ciudad Victoria/ASMGCS_MMCV_TWY" />
+        <Map Name="Ciudad Victoria/ASMGCS_MMCV_BLD" />
+        <Map Name="Ciudad Victoria/ASMGCS_MMCV_LABELS" />
+        <Map Name="Ciudad Victoria/ASMGCS_MMCV_GATES" />
+      </Maps>
+    </Position>
+    <Position Name="MMIO" Type="ASMGCS" ASMGCSAirport="MMIO" DefaultCenter="+253219.390-1005545.990" DefaultRange="2" MagneticVariation="-6">
+      <Maps>
+        <Map Name="Saltillo/ASMGCS_MMIO_RWY" />
+        <Map Name="Saltillo/ASMGCS_MMIO_APR" />
+        <Map Name="Saltillo/ASMGCS_MMIO_TWY" />
+        <Map Name="Saltillo/ASMGCS_MMIO_BLD" />
+        <Map Name="Saltillo/ASMGCS_MMIO_LABELS" />
+        <Map Name="Saltillo/ASMGCS_MMIO_GATES" />
+      </Maps>
+    </Position>
+    <Position Name="MMMA" Type="ASMGCS" ASMGCSAirport="MMMA" DefaultCenter="+254609.830-0973131.900" DefaultRange="2" MagneticVariation="-4">
+      <Maps>
+        <Map Name="Matamoros/ASMGCS_MMMA_RWY" />
+        <Map Name="Matamoros/ASMGCS_MMMA_APR" />
+        <Map Name="Matamoros/ASMGCS_MMMA_TWY" />
+        <Map Name="Matamoros/ASMGCS_MMMA_BLD" />
+        <Map Name="Matamoros/ASMGCS_MMMA_LABELS" />
+        <Map Name="Matamoros/ASMGCS_MMMA_GATES" />
+      </Maps>
+    </Position>
+    <Position Name="MMMV" Type="ASMGCS" ASMGCSAirport="MMMV" DefaultCenter="+265717.190-1012808.970" DefaultRange="2" MagneticVariation="-6">
+      <Maps>
+        <Map Name="Monclova/ASMGCS_MMMV_RWY" />
+        <Map Name="Monclova/ASMGCS_MMMV_APR" />
+        <Map Name="Monclova/ASMGCS_MMMV_TWY" />
+        <Map Name="Monclova/ASMGCS_MMMV_BLD" />
+        <Map Name="Monclova/ASMGCS_MMMV_LABELS" />
+      </Maps>
+    </Position>
     <Position Name="MMMY" Type="ASMGCS" ASMGCSAirport="MMMY" DefaultCenter="+254642.810-1000625.150" DefaultRange="2" MagneticVariation="-5">
       <Maps>
         <Map Name="Monterrey/ASMGCS_MMMY_RWY" />
         <Map Name="Monterrey/ASMGCS_MMMY_APR" />
         <Map Name="Monterrey/ASMGCS_MMMY_TWY" />
         <Map Name="Monterrey/ASMGCS_MMMY_BLD" />
+        <Map Name="Monterrey/ASMGCS_MMMY_LABELS" />
+        <Map Name="Monterrey/ASMGCS_MMMY_GATES" />
+        <Map Name="Monterrey/ASMGCS_MMMY_LINES" />
+      </Maps>
+    </Position>
+    <Position Name="MMNL" Type="ASMGCS" ASMGCSAirport="MMNL" DefaultCenter="+272636.140-0993405.560" DefaultRange="2" MagneticVariation="-5">
+      <Maps>
+        <Map Name="Nuevo Laredo/ASMGCS_MMNL_RWY" />
+        <Map Name="Nuevo Laredo/ASMGCS_MMNL_APR" />
+        <Map Name="Nuevo Laredo/ASMGCS_MMNL_TWY" />
+        <Map Name="Nuevo Laredo/ASMGCS_MMNL_BLD" />
+        <Map Name="Nuevo Laredo/ASMGCS_MMNL_LABELS" />
+        <Map Name="Nuevo Laredo/ASMGCS_MMNL_GATES" />
+      </Maps>
+    </Position>
+    <Position Name="MMPG" Type="ASMGCS" ASMGCSAirport="MMPG" DefaultCenter="+283739.840-1003205.950" DefaultRange="2" MagneticVariation="-5">
+      <Maps>
+        <Map Name="Piedras Negras/ASMGCS_MMPG_RWY" />
+        <Map Name="Piedras Negras/ASMGCS_MMPG_APR" />
+        <Map Name="Piedras Negras/ASMGCS_MMPG_TWY" />
+        <Map Name="Piedras Negras/ASMGCS_MMPG_BLD" />
+        <Map Name="Piedras Negras/ASMGCS_MMPG_LABELS" />
+      </Maps>
+    </Position>
+    <Position Name="MMRX" Type="ASMGCS" ASMGCSAirport="MMRX" DefaultCenter="+260030.620-0981342.070" DefaultRange="1" MagneticVariation="-8">
+      <Maps>
+        <Map Name="Reynosa/ASMGCS_MMRX_RWY" />
+        <Map Name="Reynosa/ASMGCS_MMRX_APR" />
+        <Map Name="Reynosa/ASMGCS_MMRX_TWY" />
+        <Map Name="Reynosa/ASMGCS_MMRX_BLD" />
+        <Map Name="Reynosa/ASMGCS_MMRX_LABELS" />
+        <Map Name="Reynosa/ASMGCS_MMRX_GATES" />
+      </Maps>
+    </Position>
+    <Position Name="MMTC" Type="ASMGCS" ASMGCSAirport="MMTC" DefaultCenter="+253345.410-1032416.980" DefaultRange="2" MagneticVariation="-7">
+      <Maps>
+        <Map Name="Torreon/ASMGCS_MMTC_RWY" />
+        <Map Name="Torreon/ASMGCS_MMTC_APR" />
+        <Map Name="Torreon/ASMGCS_MMTC_TWY" />
+        <Map Name="Torreon/ASMGCS_MMTC_BLD" />
+        <Map Name="Torreon/ASMGCS_MMTC_LABELS" />
+        <Map Name="Torreon/ASMGCS_MMTC_GATES" />
       </Maps>
     </Position>
     <Position Name="Aproximación Chihuahua" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8" DynamicInfill="false">
