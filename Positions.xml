@@ -19,6 +19,39 @@
         <Map Name="Tijuana/ASMGCS_MMTJ_LABELS" />
       </Maps>
     </Position>
+          <Position Name="Aproximación Culiacan - CLA" Type="ASD" DefaultCenter="+244554.215-1072830.547" DefaultRange="250" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="CLA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Culiacan/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Culiacan/Aeropuerto - Pistas" />
+        <Map Name="Culiacan/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="Culiacan/Pista 20 - Llegadas RNAV" />
+        <Map Name="Culiacan/Pista 20 - Llegadas RNAV (Nombres)" />
+        <Map Name="Culiacan/Pista 20 - RNP 20" />
+
+        <Map Name="Culiacan/Pista 20 - Salidas RNAV" />
+        <Map Name="Culiacan/Pista 20 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCL" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4000">
+        <AdditionalLevels>1800,2800,5100,9700,10600,11200</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMCL" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Culiacan / Culiacan Approach</Line>
+        <Line>Serving MMCL arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Aproximación Hermosillo - HOA" Type="ASD" DefaultCenter="+290544.93-1110252.29" DefaultRange="225" MagneticVariation="-9">
       <Sectors>
         <Sector Name="HOA" />
