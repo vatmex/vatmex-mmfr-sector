@@ -136,7 +136,7 @@
         <STAR Name="OTIV1B" />
       </Runway>
     </Airport>
-        <Airport Name="MMCL">
+    <Airport Name="MMCL">
       <Runway Name="02" DataRunway="02">
         <SID Name="CUL3A" Default="True" />
         <SID Name="AVTA1A" />
@@ -5072,10 +5072,8 @@
     <STAR Name="OTIV1B" Airport="MMCB" Runways="20">
       <Route Runway="20">OTIVO CB600 CB601 SEKOS</Route>
     </STAR>
-
-    
     <!--MMCL-->
-        <SID Name="CUL3A" Airport="MMCL" Runways="02">
+    <SID Name="CUL3A" Airport="MMCL" Runways="02">
       <Route Runway="02">CUL</Route>
     </SID>
     <SID Name="CUL3B" Airport="MMCL" Runways="20">
@@ -5165,31 +5163,31 @@
     <STAR Name="ELEG1C" Airport="MMCL" Runways="02">
       <Route Runway="02">ELEGU CL407 CL408 CL414 VODAS CL405 USDAP</Route>
     </STAR>
-<STAR Name="ELEG1D" Airport="MMCL" Runways="20">
+    <STAR Name="ELEG1D" Airport="MMCL" Runways="20">
       <Route Runway="20">ELEGU CL508 CL520 CL507 OTIMA</Route>
     </STAR>
     <STAR Name="ILAV1C" Airport="MMCL" Runways="02">
       <Route Runway="02">ILAVI CL411 BERUR</Route>
     </STAR>
-<STAR Name="ILAV1D" Airport="MMCL" Runways="20">
+    <STAR Name="ILAV1D" Airport="MMCL" Runways="20">
       <Route Runway="20">ILAVI CL510 CL518 CL515 CL514 TALNU</Route>
     </STAR>
     <STAR Name="MELB1A" Airport="MMCL" Runways="02">
       <Route Runway="02">MELBO CL804 VEVLO</Route>
     </STAR>
-<STAR Name="MELB1B" Airport="MMCL" Runways="20">
+    <STAR Name="MELB1B" Airport="MMCL" Runways="20">
       <Route Runway="20">MELBO CL804 CL524 CL803 SAVIR</Route>
     </STAR>
     <STAR Name="NUBI1A" Airport="MMCL" Runways="02">
       <Route Runway="02">NUBIK CL802 VODAS CL405 USDAP</Route>
     </STAR>
-<STAR Name="NUBI1B" Airport="MMCL" Runways="20">
+    <STAR Name="NUBI1B" Airport="MMCL" Runways="20">
       <Route Runway="20">NUBIK CL530 CL519 CL514 TALNU</Route>
     </STAR>
     <STAR Name="OLAK1A" Airport="MMCL" Runways="02">
       <Route Runway="02">OLAKA VIVUX BERUR</Route>
     </STAR>
-<STAR Name="OLAK1B" Airport="MMCL" Runways="20">
+    <STAR Name="OLAK1B" Airport="MMCL" Runways="20">
       <Route Runway="20">OLAKA CL526 CL510 CL518 CL515 CL514 TALNU</Route>
     </STAR>
     <STAR Name="SAVO1A" Airport="MMCL" Runways="02">
