@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--MMZT ACC-->
+  <!--MMCL-->
+  <Sector FullName="Aproximación Culiacan" Frequency="119.750" Callsign="MMCL_APP" Name="CLA">
+    <Volumes>MMCL_TMA</Volumes>
+  </Sector>
     <!--MMHO-->
   <Sector FullName="Aproximación Hermosillo" Frequency="121.400" Callsign="MMHO_APP" Name="HOA">
     <Volumes>MMHO_TMA</Volumes>

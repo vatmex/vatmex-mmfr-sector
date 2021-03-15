@@ -136,6 +136,53 @@
         <STAR Name="OTIV1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMCL">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="CUL3A" Default="True" />
+        <SID Name="AVTA1A" />
+        <SID Name="BOKT2A" />
+        <SID Name="ELEG1A" />
+        <SID Name="IKBO1A" />
+        <SID Name="ILAV1A" />
+        <SID Name="KIPA1A" />
+        <SID Name="LIDIK3" />
+        <SID Name="MUVE1A" />
+        <SID Name="OLEX3A" />
+        <SID Name="PELSA1" />
+        <SID Name="XUKMA2" />
+        <STAR Name="AVTA1C" />
+        <STAR Name="ELEG1C" />
+        <STAR Name="ILAV1C" />
+        <STAR Name="MELB1A" />
+        <STAR Name="NUBI1A" />
+        <STAR Name="OLAK1A" />
+        <STAR Name="SAVO1A" />
+      </Runway>
+      <Runway Name="20" DataRunway="20">
+        <SID Name="CUL3B" Default="True" />
+        <SID Name="AVTA1B" />
+        <SID Name="BOKT2B" />
+        <SID Name="DANOP3" />
+        <SID Name="ELEG1B" />
+        <SID Name="EVATE3" />
+        <SID Name="IKBO1B" />
+        <SID Name="ILAV1B" />
+        <SID Name="KIPA1B" />
+        <SID Name="MUVE1B" />
+        <SID Name="OLEX3B" />
+        <SID Name="TOVER2" />
+        <SID Name="VIVUX2" />
+        <SID Name="XOMGA3" />
+        <SID Name="XORUB3" />
+        <STAR Name="AVTA1D" />
+        <STAR Name="ELEG1D" />
+        <STAR Name="ILAV1D" />
+        <STAR Name="MELB1B" />
+        <STAR Name="NUBI1B" />
+        <STAR Name="OLAK1B" />
+        <STAR Name="SAVO1B" />
+      </Runway>
+    </Airport>
     <Airport Name="MMCS">
       <Runway Name="03" DataRunway="03">
         <SID Name="CJS3A" Default="True" />
@@ -2681,7 +2728,7 @@
     <Point Name="AVSIM" Type="Fix">+202102.100-0874700.800</Point>
     <Point Name="AVSIX" Type="Fix">+163730.600-0993649.200</Point>
     <Point Name="AVSUB" Type="Fix">+212524.000-0992446.000</Point>
-    <Point Name="AVTAL" Type="Fix">+250003.000-1061315.000</Point>
+    <Point Name="AVTAL" Type="Fix">+250003.000-1061314.800</Point>
     <Point Name="AVTEN" Type="Fix">+294018.000-1115849.000</Point>
     <Point Name="AVTUD" Type="Fix">+181921.000-0952034.000</Point>
     <Point Name="AVTUX" Type="Fix">+184336.000-0961154.000</Point>
@@ -2724,6 +2771,7 @@
     <Point Name="BEPOR" Type="Fix">+211747.300-0880427.900</Point>
     <Point Name="BEREB" Type="Fix">+202142.300-0864742.800</Point>
     <Point Name="BEROS" Type="Fix">+244858.500-1005547.800</Point>
+    <Point Name="BERUR" Type="Fix">+243249.000-1073750.400</Point>
     <Point Name="BESOG" Type="Fix">+222640.000-0923040.000</Point>
     <Point Name="BESUD" Type="Fix">+282605.000-1060118.600</Point>
     <Point Name="BESUV" Type="Fix">+231853.000-0985049.000</Point>
@@ -2783,6 +2831,57 @@
     <Point Name="CHALY" Type="Fix">+200932.000-0975323.000</Point>
     <Point Name="CI05R" Type="Fix">+192227.000-0991058.000</Point>
     <Point Name="CIMAT" Type="Fix">+204648.799-0901630.100</Point>
+    <Point Name="CL400" Type="Fix">+244133.500-1073136.700</Point>
+    <Point Name="CL401" Type="Fix">+243721.400-1073436.400</Point>
+    <Point Name="CL405" Type="Fix">+244444.800-1074430.200</Point>
+    <Point Name="CL407" Type="Fix">+252458.600-1072410.900</Point>
+    <Point Name="CL408" Type="Fix">+250848.900-1073609.100</Point>
+    <Point Name="CL409" Type="Fix">+243743.800-1071331.900</Point>
+    <Point Name="CL411" Type="Fix">+242410.900-1075117.400</Point>
+    <Point Name="CL414" Type="Fix">+250147.400-1074120.100</Point>
+    <Point Name="CL500" Type="Fix">+245006.500-1072530.100</Point>
+    <Point Name="CL501" Type="Fix">+245418.500-1072229.700</Point>
+    <Point Name="CL507" Type="Fix">+250809.700-1071650.800</Point>
+    <Point Name="CL508" Type="Fix">+252819.400-1070642.500</Point>
+    <Point Name="CL510" Type="Fix">+244620.300-1073808.100</Point>
+    <Point Name="CL514" Type="Fix">+245911.300-1073041.800</Point>
+    <Point Name="CL515" Type="Fix">+245341.900-1073437.700</Point>
+    <Point Name="CL518" Type="Fix">+245045.200-1073601.900</Point>
+    <Point Name="CL519" Type="Fix">+250611.800-1073849.400</Point>
+    <Point Name="CL520" Type="Fix">+251939.500-1071104.400</Point>
+    <Point Name="CL521" Type="Fix">+243853.300-1063751.400</Point>
+    <Point Name="CL524" Type="Fix">+243418.600-1071105.400</Point>
+    <Point Name="CL526" Type="Fix">+244141.900-1074020.400</Point>
+    <Point Name="CL527" Type="Fix">+245035.700-1070354.900</Point>
+    <Point Name="CL528" Type="Fix">+245309.200-1065022.300</Point>
+    <Point Name="CL530" Type="Fix">+251056.700-1080131.200</Point>
+    <Point Name="CL601" Type="Fix">+244458.100-1073935.000</Point>
+    <Point Name="CL602" Type="Fix">+250216.200-1073559.600</Point>
+    <Point Name="CL603" Type="Fix">+250741.200-1074158.600</Point>
+    <Point Name="CL604" Type="Fix">+244225.000-1071228.900</Point>
+    <Point Name="CL605" Type="Fix">+243529.400-1070720.500</Point>
+    <Point Name="CL608" Type="Fix">+243717.400-1080004.300</Point>
+    <Point Name="CL620" Type="Fix">+245142.300-1072421.600</Point>
+    <Point Name="CL700" Type="Fix">+243930.000-1073304.800</Point>
+    <Point Name="CL704" Type="Fix">+242407.500-1082140.000</Point>
+    <Point Name="CL706" Type="Fix">+250005.000-1073752.600</Point>
+    <Point Name="CL707" Type="Fix">+253102.900-1071744.100</Point>
+    <Point Name="CL712" Type="Fix">+243655.900-1071443.000</Point>
+    <Point Name="CL714" Type="Fix">+243746.500-1070712.400</Point>
+    <Point Name="CL715" Type="Fix">+243618.900-1072009.700</Point>
+    <Point Name="CL716" Type="Fix">+243957.800-1065803.800</Point>
+    <Point Name="CL717" Type="Fix">+243306.900-1075009.600</Point>
+    <Point Name="CL718" Type="Fix">+244958.500-1074424.500</Point>
+    <Point Name="CL719" Type="Fix">+250524.800-1075331.900</Point>
+    <Point Name="CL801" Type="Fix">+244017.200-1070103.900</Point>
+    <Point Name="CL802" Type="Fix">+250201.800-1075622.100</Point>
+    <Point Name="CL803" Type="Fix">+244859.200-1071222.500</Point>
+    <Point Name="CL804" Type="Fix">+242118.600-1070957.300</Point>
+    <Point Name="CL811" Type="Fix">+244016.500-1074441.800</Point>
+    <Point Name="CL819" Type="Fix">+242448.400-1065123.700</Point>
+    <Point Name="CL820" Type="Fix">+244621.100-1063106.300</Point>
+    <Point Name="CL821" Type="Fix">+240858.400-1065131.000</Point>
+    <Point Name="CL822" Type="Fix">+243120.900-1075520.800</Point>
     <Point Name="CLONN" Type="Fix">+253800.000-0953100.000</Point>
     <Point Name="CLOVR" Type="Fix">+253721.100-0994924.900</Point>
     <Point Name="COAPA" Type="Fix">+213019.000-0965523.000</Point>
@@ -2966,7 +3065,7 @@
     <Point Name="EBLON" Type="Fix">+234943.000-1034511.000</Point>
     <Point Name="EBLOR" Type="Fix">+285942.900-1055358.900</Point>
     <Point Name="EBMIS" Type="Fix">+210821.300-0871236.600</Point>
-    <Point Name="ELEGU" Type="Fix">+255221.000-1070346.000</Point>
+    <Point Name="ELEGU" Type="Fix">+255220.700-1070345.700</Point>
     <Point Name="ELERA" Type="Fix">+245705.600-1001701.400</Point>
     <Point Name="ELIKO" Type="Fix">+252958.300-0994247.900</Point>
     <Point Name="ELIKU" Type="Fix">+190116.800-0970854.500</Point>
@@ -3204,7 +3303,7 @@
     <Point Name="IGVES" Type="Fix">+192304.000-1012831.000</Point>
     <Point Name="IGVOR" Type="Fix">+255257.000-1005317.000</Point>
     <Point Name="IKBAN" Type="Fix">+210705.370-1024902.300</Point>
-    <Point Name="IKBOR" Type="Fix">+240246.000-1082911.000</Point>
+    <Point Name="IKBOR" Type="Fix">+240245.600-1082910.700</Point>
     <Point Name="IKLAN" Type="Fix">+202602.170-0985326.220</Point>
     <Point Name="IKLEK" Type="Fix">+204240.000-0881013.000</Point>
     <Point Name="IKLEM" Type="Fix">+181049.000-1005039.000</Point>
@@ -3215,7 +3314,7 @@
     <Point Name="IKNOR" Type="Fix">+273518.000-1091739.000</Point>
     <Point Name="ILAMA" Type="Fix">+294840.000-1083000.000</Point>
     <Point Name="ILARI" Type="Fix">+222431.000-1012059.000</Point>
-    <Point Name="ILAVI" Type="Fix">+242846.000-1084309.000</Point>
+    <Point Name="ILAVI" Type="Fix">+242846.300-1084308.900</Point>
     <Point Name="ILAXA" Type="Fix">+194128.000-0985938.000</Point>
     <Point Name="ILEKO" Type="Fix">+201344.200-0865807.300</Point>
     <Point Name="ILELA" Type="Fix">+203046.000-0902519.000</Point>
@@ -3340,7 +3439,7 @@
     <Point Name="KINON" Type="Fix">+194629.800-0862906.500</Point>
     <Point Name="KIPAG" Type="Fix">+170918.000-0924127.000</Point>
     <Point Name="KIPAL" Type="Fix">+293013.800-1045826.000</Point>
-    <Point Name="KIPAX" Type="Fix">+253240.000-1080945.000</Point>
+    <Point Name="KIPAX" Type="Fix">+253239.800-1080944.500</Point>
     <Point Name="KIPUM" Type="Fix">+235043.000-1091437.000</Point>
     <Point Name="KIROG" Type="Fix">+195359.000-0972229.000</Point>
     <Point Name="KITON" Type="Fix">+255417.000-1034032.000</Point>
@@ -3518,7 +3617,7 @@
     <Point Name="MEGNA" Type="Fix">+254914.300-0994754.700</Point>
     <Point Name="MEKLI" Type="Fix">+191219.000-1040806.000</Point>
     <Point Name="MEKSA" Type="Fix">+271805.400-0994848.100</Point>
-    <Point Name="MELBO" Type="Fix">+235749.000-1065213.000</Point>
+    <Point Name="MELBO" Type="Fix">+235749.000-1065213.200</Point>
     <Point Name="MELNO" Type="Fix">+232404.000-0993734.000</Point>
     <Point Name="MEMDI" Type="Fix">+165350.000-0975155.000</Point>
     <Point Name="MEMIE" Type="Fix">+223404.400-1094505.200</Point>
@@ -3552,7 +3651,7 @@
     <Point Name="MUTUB" Type="Fix">+233001.000-1035543.000</Point>
     <Point Name="MUVAP" Type="Fix">+174900.000-0900647.000</Point>
     <Point Name="MUVBA" Type="Fix">+205512.600-1050729.100</Point>
-    <Point Name="MUVEN" Type="Fix">+241928.000-1064201.000</Point>
+    <Point Name="MUVEN" Type="Fix">+241927.700-1064201.100</Point>
     <Point Name="MUXEP" Type="Fix">+195008.000-0982133.000</Point>
     <Point Name="MUXOG" Type="Fix">+221050.000-0880706.000</Point>
     <Point Name="MX400" Type="Fix">+192918.050-0985835.200</Point>
@@ -3712,7 +3811,7 @@
     <Point Name="NOXOS" Type="Fix">+193608.350-0980028.920</Point>
     <Point Name="NUBEL" Type="Fix">+210104.000-0951649.000</Point>
     <Point Name="NUBIG" Type="Fix">+204159.000-1034838.000</Point>
-    <Point Name="NUBIK" Type="Fix">+251415.000-1081732.000</Point>
+    <Point Name="NUBIK" Type="Fix">+251415.400-1081731.700</Point>
     <Point Name="NUBIT" Type="Fix">+203720.000-0950000.000</Point>
     <Point Name="NUDAL" Type="Fix">+211547.980-0853713.970</Point>
     <Point Name="NUDAN" Type="Fix">+194640.000-0910015.000</Point>
@@ -3743,9 +3842,9 @@
     <Point Name="OKUBI" Type="Fix">+180900.000-0983000.000</Point>
     <Point Name="OKUMU" Type="Fix">+191841.000-0902408.000</Point>
     <Point Name="OKUVA" Type="Fix">+202546.000-0872053.000</Point>
-    <Point Name="OLAKA" Type="Fix">+234506.000-1080701.000</Point>
+    <Point Name="OLAKA" Type="Fix">+234505.500-1080701.000</Point>
     <Point Name="OLESI" Type="Fix">+233647.000-1081213.000</Point>
-    <Point Name="OLEXU" Type="Fix">+243241.000-1070516.000</Point>
+    <Point Name="OLEXU" Type="Fix">+243241.300-1070516.000</Point>
     <Point Name="OLOSA" Type="Fix">+250023.000-1061125.000</Point>
     <Point Name="OLULA" Type="Fix">+175649.000-1004624.000</Point>
     <Point Name="OLULI" Type="Fix">+270842.000-1100630.000</Point>
@@ -3798,6 +3897,7 @@
     <Point Name="OTETA" Type="Fix">+200159.080-1030524.470</Point>
     <Point Name="OTEXA" Type="Fix">+284030.000-1083000.000</Point>
     <Point Name="OTILO" Type="Fix">+184519.000-0960143.000</Point>
+    <Point Name="OTIMA" Type="Fix">+245935.000-1072108.500</Point>
     <Point Name="OTIPO" Type="Fix">+240600.000-0890421.000</Point>
     <Point Name="OTITI" Type="Fix">+232027.000-0990629.000</Point>
     <Point Name="OTIVO" Type="Fix">+184306.000-0994019.840</Point>
@@ -3994,7 +4094,8 @@
     <Point Name="SATAT" Type="Fix">+184656.000-0892928.000</Point>
     <Point Name="SAUZA" Type="Fix">+195433.880-0994207.020</Point>
     <Point Name="SAVEK" Type="Fix">+242753.000-0950734.000</Point>
-    <Point Name="SAVOM" Type="Fix">+242730.000-1055935.000</Point>
+    <Point Name="SAVIR" Type="Fix">+245304.400-1071642.800</Point>
+    <Point Name="SAVOM" Type="Fix">+242730.500-1055935.500</Point>
     <Point Name="SAXAV" Type="Fix">+170246.000-0923227.000</Point>
     <Point Name="SAYUL" Type="Fix">+324225.000-1145316.000</Point>
     <Point Name="SCAHA" Type="Fix">+211326.700-0872047.700</Point>
@@ -4108,6 +4209,7 @@
     <Point Name="TAKUG" Type="Fix">+192327.000-0994336.000</Point>
     <Point Name="TAKUX" Type="Fix">+200137.000-0855346.000</Point>
     <Point Name="TALBI" Type="Fix">+261917.000-0992245.000</Point>
+    <Point Name="TALNU" Type="Fix">+245716.200-1072728.200</Point>
     <Point Name="TALPU" Type="Fix">+231921.000-0985526.000</Point>
     <Point Name="TAMET" Type="Fix">+233215.000-1101032.000</Point>
     <Point Name="TAMSA" Type="Fix">+215220.000-1004522.000</Point>
@@ -4338,6 +4440,7 @@
     <Point Name="USBOG" Type="Fix">+231702.000-1091737.000</Point>
     <Point Name="USBUS" Type="Fix">+210357.000-0891738.000</Point>
     <Point Name="USDAD" Type="Fix">+221216.000-1051042.000</Point>
+    <Point Name="USDAP" Type="Fix">+244018.700-1073934.500</Point>
     <Point Name="VELAS" Type="Fix">+172530.000-0994605.000</Point>
     <Point Name="VENUS" Type="Fix">+292242.000-1103346.000</Point>
     <Point Name="VERBA" Type="Fix">+193243.000-1004347.000</Point>
@@ -4346,6 +4449,7 @@
     <Point Name="VESKO" Type="Fix">+240906.000-0943410.000</Point>
     <Point Name="VETKA" Type="Fix">+205258.300-1050117.100</Point>
     <Point Name="VETNU" Type="Fix">+261954.300-1000244.800</Point>
+    <Point Name="VEVLO" Type="Fix">+243423.900-1072938.600</Point>
     <Point Name="VEVRA" Type="Fix">+234212.000-1035231.000</Point>
     <Point Name="VIBLA" Type="Fix">+204001.500-0870335.900</Point>
     <Point Name="VIBSA" Type="Fix">+230950.000-1070534.000</Point>
@@ -4369,14 +4473,16 @@
     <Point Name="VINBO" Type="Fix">+271251.900-0993203.000</Point>
     <Point Name="VINGA" Type="Fix">+192617.360-0981918.190</Point>
     <Point Name="VINVA" Type="Fix">+275436.000-1082228.000</Point>
+    <Point Name="VIRKI" Type="Fix">+242655.700-1073806.200</Point>
     <Point Name="VIRVO" Type="Fix">+205524.500-1011636.400</Point>
     <Point Name="VISDA" Type="Fix">+202421.440-1040203.300</Point>
     <Point Name="VIVAD" Type="Fix">+290808.000-1073445.000</Point>
     <Point Name="VIVEP" Type="Fix">+210955.000-0903055.000</Point>
-    <Point Name="VIVUX" Type="Fix">+242411.000-1074225.000</Point>
+    <Point Name="VIVUX" Type="Fix">+242410.900-1074225.000</Point>
     <Point Name="VIXER" Type="Fix">+291417.300-1070857.300</Point>
     <Point Name="VOBED" Type="Fix">+205623.000-0871313.000</Point>
     <Point Name="VODAG" Type="Fix">+201701.000-0942610.000</Point>
+    <Point Name="VODAS" Type="Fix">+245120.400-1074901.300</Point>
     <Point Name="VODIS" Type="Fix">+183656.920-0992411.240</Point>
     <Point Name="VODIV" Type="Fix">+201848.000-0920258.000</Point>
     <Point Name="VOGAS" Type="Fix">+200929.000-1020426.000</Point>
@@ -4966,6 +5072,132 @@
     <STAR Name="OTIV1B" Airport="MMCB" Runways="20">
       <Route Runway="20">OTIVO CB600 CB601 SEKOS</Route>
     </STAR>
+    <!--MMCL-->
+    <SID Name="CUL3A" Airport="MMCL" Runways="02">
+      <Route Runway="02">CUL</Route>
+    </SID>
+    <SID Name="CUL3B" Airport="MMCL" Runways="20">
+      <Route Runway="20">CUL</Route>
+    </SID>
+    <SID Name="AVTA1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">CL620 CL803 AVTAL</Route>
+    </SID>
+    <SID Name="AVTA1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">CL700 CL715 CL712 CL714 CL716 CL820 AVTAL</Route>
+    </SID>
+    <SID Name="BOKT2A" Airport="MMCL" Runways="02">
+      <Route Runway="02">BOKTA</Route>
+    </SID>
+    <SID Name="BOKT2B" Airport="MMCL" Runways="20">
+      <Route Runway="20">BOKTA</Route>
+    </SID>
+    <SID Name="DANOP3" Airport="MMCL" Runways="20">
+      <Route Runway="20">DANOP</Route>
+    </SID>
+    <SID Name="ELEG1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">CL620 ELEGU</Route>
+    </SID>
+    <SID Name="ELEG1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">CL700 CL718 CL706 CL707 ELEGU</Route>
+    </SID>
+    <SID Name="EVATE3" Airport="MMCL" Runways="20">
+      <Route Runway="20">EVATE</Route>
+    </SID>
+    <SID Name="IKBO1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">CL620 CL601 CL811 CL822 IKBOR</Route>
+    </SID>
+    <SID Name="IKBO1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">CL700 CL717 CL822 IKBOR</Route>
+    </SID>
+    <SID Name="ILAV1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">SIKMO CB611 UMADA</Route>
+    </SID>
+    <SID Name="ILAV1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">CL620 CL601 CL811 CL608 ILAVI</Route>
+    </SID>
+    <SID Name="KIPA1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">CL620 CL602 CL603 KIPAX</Route>
+    </SID>
+     <SID Name="KIPA1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">CL700 CL718 CL719 KIPAX</Route>
+    </SID>
+     <SID Name="LIDIK3" Airport="MMCL" Runways="02">
+      <Route Runway="02">LIDIK</Route>
+    </SID>
+     <SID Name="MUVE1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">CL620 CL604 CL605 OLEXU CL819 MUVEN</Route>
+    </SID>
+     <SID Name="MUVE1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">CL700 CL715 CL712 CL714 CL819 MUVEN</Route>
+    </SID>
+     <SID Name="OLEX3A" Airport="MMCL" Runways="02">
+      <Route Runway="02">OLEXU</Route>
+    </SID>
+     <SID Name="OLEX3B" Airport="MMCL" Runways="20">
+      <Route Runway="20">OLEXU</Route>
+    </SID>
+     <SID Name="PELSA1" Airport="MMCL" Runways="02">
+      <Route Runway="02">PELSA</Route>
+    </SID>
+     <SID Name="TOVER2" Airport="MMCL" Runways="20">
+      <Route Runway="20">TOVER</Route>
+    </SID>
+     <SID Name="VIVUX2" Airport="MMCL" Runways="20">
+      <Route Runway="20">VIVUX</Route>
+    </SID>
+    <SID Name="XOMGA3" Airport="MMCL" Runways="20">
+      <Route Runway="20">XOMGA</Route>
+    </SID>
+    <SID Name="XORUB3" Airport="MMCL" Runways="20">
+      <Route Runway="20">XORUB</Route>
+    </SID>
+    <SID Name="XUKMA2" Airport="MMCL" Runways="02">
+      <Route Runway="02">XUKMA</Route>
+    </SID>
+    <STAR Name="AVTA1C" Airport="MMCL" Runways="02">
+      <Route Runway="02">AVTAL CL820 CL801 CL409 VEVLO</Route>
+    </STAR>
+      <STAR Name="AVTA1D" Airport="MMCL" Runways="20">
+      <Route Runway="20">AVTAL CL528 CL527 CL803 SAVIR</Route>
+    </STAR>
+    <STAR Name="ELEG1C" Airport="MMCL" Runways="02">
+      <Route Runway="02">ELEGU CL407 CL408 CL414 VODAS CL405 USDAP</Route>
+    </STAR>
+    <STAR Name="ELEG1D" Airport="MMCL" Runways="20">
+      <Route Runway="20">ELEGU CL508 CL520 CL507 OTIMA</Route>
+    </STAR>
+    <STAR Name="ILAV1C" Airport="MMCL" Runways="02">
+      <Route Runway="02">ILAVI CL411 BERUR</Route>
+    </STAR>
+    <STAR Name="ILAV1D" Airport="MMCL" Runways="20">
+      <Route Runway="20">ILAVI CL510 CL518 CL515 CL514 TALNU</Route>
+    </STAR>
+    <STAR Name="MELB1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">MELBO CL804 VEVLO</Route>
+    </STAR>
+    <STAR Name="MELB1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">MELBO CL804 CL524 CL803 SAVIR</Route>
+    </STAR>
+    <STAR Name="NUBI1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">NUBIK CL802 VODAS CL405 USDAP</Route>
+    </STAR>
+    <STAR Name="NUBI1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">NUBIK CL530 CL519 CL514 TALNU</Route>
+    </STAR>
+    <STAR Name="OLAK1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">OLAKA VIVUX BERUR</Route>
+    </STAR>
+    <STAR Name="OLAK1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">OLAKA CL526 CL510 CL518 CL515 CL514 TALNU</Route>
+    </STAR>
+    <STAR Name="SAVO1A" Airport="MMCL" Runways="02">
+      <Route Runway="02">SAVOM CL801 CL409 VEVLO</Route>
+    </STAR>
+    <STAR Name="SAVO1B" Airport="MMCL" Runways="20">
+      <Route Runway="20">SAVOM CL521 CL803 SAVIR</Route>
+    </STAR>
+
+
     <!--MMCS-->
     <SID Name="CJS3A" Airport="MMCS" Runways="03">
       <Route Runway="03">CJS</Route>

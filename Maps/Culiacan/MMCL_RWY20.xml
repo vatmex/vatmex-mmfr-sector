@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Pista 20 - Llegadas RNAV" CLiority="1" Centre="+244554.215-1072830.547">
+    <!--STARs-->
+    <Line Name="AVTAL1D" Pattern="Dashed">AVTAL/CL528/CL527/CL803/SAVIR</Line>
+    <Line Name="ELEGU1D" Pattern="Dashed">ELEGU/CL508/CL520/CL507/OTIMA</Line>
+    <Line Name="ILAVI1D" Pattern="Dashed">ILAVI/CL510/CL518/CL515/CL514/TALNU</Line>
+    <Line Name="MELBO1B" Pattern="Dashed">MELBO/CL804/CL524/CL803</Line>
+    <Line Name="NUBIK1B" Pattern="Dashed">NUBIK/CL530/CL519/CL514</Line>
+    <Line Name="OLAKA1B" Pattern="Dashed">OLAKA/CL526/CL510</Line>
+    <Line Name="SAVOM1B" Pattern="Dashed">SAVOM/CL521/CL803</Line>
+    <Symbol Type="HollowStar">
+      <Point>AVTAL</Point>
+      <Point>CL507</Point>
+      <Point>CL508</Point>
+      <Point>CL510</Point>
+      <Point>CL514</Point>
+      <Point>CL515</Point>
+      <Point>CL518</Point>
+      <Point>CL519</Point>
+      <Point>CL520</Point>
+      <Point>CL521</Point>
+      <Point>CL524</Point>
+      <Point>CL526</Point>
+      <Point>CL527</Point>
+      <Point>CL528</Point>
+      <Point>CL530</Point>
+      <Point>CL803</Point>
+      <Point>CL804</Point>
+      <Point>ELEGU</Point>
+      <Point>ILAVI</Point>
+      <Point>MELBO</Point>
+      <Point>NUBIK</Point>
+      <Point>OLAKA</Point>
+      <Point>OTIMA</Point>
+      <Point>SAVIR</Point>
+      <Point>SAVOM</Point>
+      <Point>TALNU</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 20 - Llegadas RNAV (Nombres)" CLiority="2" Centre="+244554.215-1072830.547">
+    <Label HasLeader="false">
+      <Point>CUL</Point>
+      <Point>OTIMA</Point>
+      <Point>SAVIR</Point>
+      <Point>TALNU</Point>
+
+      <Point>AVTAL</Point>
+      <Point>ELEGU</Point>
+      <Point>ILAVI</Point>
+      <Point>MELBO</Point>
+      <Point>NUBIK</Point>
+      <Point>OLAKA</Point>
+      <Point>SAVOM</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 20 - RNP 20" CLiority="1" Centre="+244554.215-1072830.547">
+    <Line Name="OTIMA" Pattern="Solid">OTIMA/CL501</Line>
+    <Line Name="SAVIR" Pattern="Solid">SAVIR/CL501</Line>
+    <Line Name="TALNU" Pattern="Solid">TALNU/CL501</Line>
+    <Line Name="FINAL" Pattern="Solid">CL501/+244618.240-1072813.370</Line>
+
+    <Line Name="D1" Pattern="Solid">
++244724.817-1072805.095/
++244652.178-1072709.733</Line>
+    <Line Name="D2" Pattern="Solid">
++244815.075-1072729.142/
++244742.435-1072633.774</Line>
+    <Line Name="D3" Pattern="Solid">
++244905.335-1072653.185/
++244832.695-1072557.811</Line>
+    <Line Name="D4" Pattern="Solid">
++244955.594-1072617.223/
++244922.954-1072521.842</Line>
+    <Line Name="D5" Pattern="Solid">
++245045.852-1072541.259/
++245013.212-1072445.872</Line>
+    <Line Name="D6" Pattern="Solid">
++245136.112-1072505.289/
++245103.472-1072409.896</Line>
+    <Line Name="D7" Pattern="Solid">
++245226.371-1072429.317/
++245153.731-1072333.917</Line>
+    <Line Name="D8" Pattern="Solid">
++245316.629-1072353.340/
++245243.989-1072257.934</Line>
+    <Line Name="D9" Pattern="Solid">
++245406.889-1072317.359/
++245334.249-1072221.947</Line>
+  </Map>
+  <Map Type="System" Name="Pista 20 - Salidas RNAV" CLiority="1" Centre="+244554.215-1072830.547">
+    <!--SIDS-->
+    <Line Name="AVTAL1B" Pattern="Dotted">+244522.920-1072852.900/CL700/CL715/CL712/CL714/CL716/CL820/AVTAL</Line>
+    <Line Name="ELEGU1B" Pattern="Dotted">CL700/CL718/CL706/CL707/ELEGU</Line>
+    <Line Name="IKBOR1B" Pattern="Dotted">CL700/CL717/CL822/IKBOR</Line>
+    <Line Name="ILAVI1B" Pattern="Dotted">CL822/CL704/ILAVI</Line>
+    <Line Name="KIPAX1B" Pattern="Dotted">CL718/CL719/KIPAX</Line>
+    <Line Name="MUVEN1B" Pattern="Dotted">CL714/CL819/MUVEN</Line>
+    <Symbol Type="HollowStar">
+      <Point>AVTAL</Point>
+      <Point>CL700</Point>
+      <Point>CL704</Point>
+      <Point>CL706</Point>
+      <Point>CL707</Point>
+      <Point>CL712</Point>
+      <Point>CL714</Point>
+      <Point>CL715</Point>
+      <Point>CL716</Point>
+      <Point>CL717</Point>
+      <Point>CL718</Point>
+      <Point>CL719</Point>
+      <Point>CL819</Point>
+      <Point>CL820</Point>
+      <Point>CL822</Point>
+      <Point>ELEGU</Point>
+      <Point>IKBOR</Point>
+      <Point>ILAVI</Point>
+      <Point>KIPAX</Point>
+      <Point>MUVEN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 20 - Salidas RNAV (Nombres)" CLiority="2" Centre="+244554.215-1072830.547">
+    <Label HasLeader="false">
+      <Point>AVTAL</Point>
+      <Point>ELEGU</Point>
+      <Point>IKBOR</Point>
+      <Point>ILABI</Point>
+      <Point>KIPAX</Point>
+      <Point>MUVEN</Point>
+    </Label>
+  </Map>
+</Maps>
