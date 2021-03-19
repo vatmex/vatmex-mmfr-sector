@@ -848,6 +848,16 @@
         <Map Name="Bahias Huatulco/ASMGCS_MMBT_LABELS" />
       </Maps>
     </Position>
+    <Position Name="MMEP" Type="ASMGCS" ASMGCSAirport="MMEP" DefaultCenter="+212510.040-1045031.170" DefaultRange="2" MagneticVariation="-8">
+      <Maps>
+        <Map Name="Tepic/ASMGCS_MMEP_RWY" />
+        <Map Name="Tepic/ASMGCS_MMEP_APR" />
+        <Map Name="Tepic/ASMGCS_MMEP_TWY" />
+        <Map Name="Tepic/ASMGCS_MMEP_BLD" />
+        <Map Name="Tepic/ASMGCS_MMEP_LABELS" />
+        <Map Name="Tepic/ASMGCS_MMEP_GATES" />
+      </Maps>
+    </Position>
     <Position Name="MMGL" Type="ASMGCS" ASMGCSAirport="MMGL" DefaultCenter="+203124.320-1031841.800" DefaultRange="3" MagneticVariation="-6">
       <Maps>
         <Map Name="Guadalajara/ASMGCS_MMGL_RWY" />
