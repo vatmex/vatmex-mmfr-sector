@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--MMZT ACC-->
-  <!--MMCL-->
   <Sector FullName="Aproximación Culiacan" Frequency="119.750" Callsign="MMCL_APP" Name="CLA">
     <Volumes>MMCL_TMA</Volumes>
   </Sector>
-    <!--MMHO-->
   <Sector FullName="Aproximación Hermosillo" Frequency="121.400" Callsign="MMHO_APP" Name="HOA">
     <Volumes>MMHO_TMA</Volumes>
   </Sector>
-    <!--MMSD-->
   <Sector FullName="Aproximación San Jose" Frequency="120.900" Callsign="MMSD_APP" Name="SDA">
     <Volumes>MMSD_TMA</Volumes>
   </Sector>
@@ -60,7 +57,6 @@
   <Sector FullName="Salidas Cancún" Frequency="124.200" Callsign="MMUN_DEP" Name="UND">
     <Volumes>MMUN_TMA</Volumes>
   </Sector>
-  <!--MMID ACC-->
   <Sector FullName="ACC Mérida Sector SC" Frequency="133.100" Callsign="MMID_CTR" Name="IDC">
     <Volumes>MMID_SECTOR_1, MMID_SECTOR_2, MMID_SECTOR_3, MMID_SECTOR_4, MMID_SECTOR_5, MMID_SECTOR_6</Volumes>
   </Sector>
@@ -89,14 +85,13 @@
     <Volumes>MMID_SECTOR_6</Volumes>
   </Sector>
 
-  <!--MMAA-->
+  <!--MMEX ACC-->
   <Sector FullName="Torre Acapulco" Frequency="118.500" Callsign="MMAA_TWR" Name="AAT">
     <Volumes>MMAA_CTR</Volumes>
   </Sector>
   <Sector FullName="Aproximación Acapulco" Frequency="119.900" Callsign="MMAA_APP" Name="AAA">
     <Volumes>MMAA_TMA</Volumes>
   </Sector>
-  <!--MMAS/MMLO-->
   <Sector FullName="Torre Aguascalientes" Frequency="118.600" Callsign="MMAS_TWR" Name="AST">
     <Volumes>MMAS_CTR</Volumes>
   </Sector>
@@ -106,11 +101,9 @@
   <Sector FullName="Aproximación Bajio" Frequency="119.050" Callsign="MMLO_APP" Name="LOA">
     <Volumes>MMLO_TMA</Volumes>
   </Sector>
-  <!--MMGL-->
   <Sector FullName="Aproximación Guadalara" Frequency="120.800" Callsign="MMGL_APP" Name="GLA">
     <Volumes>MMGL_TMA</Volumes>
   </Sector>
-  <!--MMMX-->
   <Sector FullName="Llegadas México" Frequency="129.650" Callsign="MMMX_T_APP" Name="MXL">
     <Volumes>MMMX_TMA</Volumes>
   </Sector>
@@ -126,19 +119,15 @@
   <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXT">
     <Volumes>MMMX_CTR</Volumes>
   </Sector>
-  <!--MMPR-->
   <Sector FullName="Aproximación Vallarta" Frequency="119.000" Callsign="MMPR_APP" Name="PRA">
     <Volumes>MMPR_TMA</Volumes>
   </Sector>
-  <!--MMTO-->
   <Sector FullName="Aproximación Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOA">
     <Volumes>MMTO_APP</Volumes>
   </Sector>
-  <!--MMVR-->
   <Sector FullName="Aproximación Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="VRA">
     <Volumes>MMVR_TMA</Volumes>
   </Sector>
-  <!--MMEX ACC-->
   <Sector FullName="ACC México Sector SC" Frequency="133.100" Callsign="MMEX_CTR" Name="EXC">
     <Volumes>MMEX_SECTOR_5, MMEX_SECTOR_9, MMEX_SECTOR_10</Volumes>
   </Sector>
@@ -179,12 +168,20 @@
     <Volumes>MMEX_SECTOR_10</Volumes>
   </Sector>
 
-  <!--MMCU-->
+  <!--MMTY ACC-->
   <Sector FullName="Aproximación Chihuahua" Frequency="121.000" Callsign="MMCU_APP" Name="CUA">
     <Volumes>MMCU_TMA</Volumes>
   </Sector>
-  <!--MMTY ACC-->
-  <Sector FullName="ACC Monterrey Sector 1" Frequency="128.300" Callsign="MMTY_CTR" Name="TY1">
+  <Sector FullName="ACC Monterrey SC" Frequency="128.300" Callsign="MMTY_CTR" Name="TYC">
+    <Volumes>MMTY_SECTOR_1, MMTY_SECTOR_2, MMTY_SECTOR_3, MMTY_SECTOR_4, MMTY_SECTOR_5</Volumes>
+  </Sector>
+  <Sector FullName="ACC Monterrey SW" Frequency="125.600" Callsign="MMTY_E_CTR" Name="TYW">
+    <Volumes>MMTY_SECTOR_3, MMTY_SECTOR_4, MMTY_SECTOR_5</Volumes>
+  </Sector>
+  <Sector FullName="ACC Monterrey SE" Frequency="124.500" Callsign="MMTY_W_CTR" Name="TYE">
+    <Volumes>MMTY_SECTOR_1, MMTY_SECTOR_2</Volumes>
+  </Sector>
+  <Sector FullName="ACC Monterrey Sector 1" Frequency="128.300" Callsign="MMTY_1_CTR" Name="TY1">
     <Volumes>MMTY_SECTOR_1</Volumes>
   </Sector>
   <Sector FullName="ACC Monterrey Sector 2" Frequency="125.800" Callsign="MMTY_2_CTR" Name="TY2">

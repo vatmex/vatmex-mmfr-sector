@@ -1952,13 +1952,89 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Monterrey" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Centro Monterrey (Combinado) - TYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
-        <Sector Name="TY1" />
-        <Sector Name="TY2" />
-        <Sector Name="TY3" />
-        <Sector Name="TY4" />
-        <Sector Name="TY5" />
+        <Sector Name="TYC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ACC Monterrey/Limites FIR" />
+        <Map Name="ACC Monterrey/Limites Terminales" />
+        <Map Name="ACC Monterrey/Aerodromos" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias" />
+        <Map Name="ALL/Sector - Cobertura Radar MMTY" />
+        <Map Name="ALL/Sector - Radioayudas (Monterrey)" />
+        <Map Name="ALL/Sector - Fijos Principales" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
+        <Window Airport="MMMY" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMTY" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4800">
+        <AdditionalLevels>4400,4800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMTY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Centro Monterrey / Monterrey Center</Line>
+        <Line>MMTY ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+284326.9063-1055601.5313</Point>
+        <Point>+261311.2344-1015737.9063</Point>
+        <Point>+234442.7969-0985719.0000</Point>
+        <Point>+242209.9141-0950934.2813</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Centro Monterrey SE - TYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="TYE" />
+      </Sectors>
+      <Maps>
+        <Map Name="ACC Monterrey/Limites FIR" />
+        <Map Name="ACC Monterrey/Limites Terminales" />
+        <Map Name="ACC Monterrey/Aerodromos" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias" />
+        <Map Name="ALL/Sector - Cobertura Radar MMTY" />
+        <Map Name="ALL/Sector - Radioayudas (Monterrey)" />
+        <Map Name="ALL/Sector - Fijos Principales" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
+        <Window Airport="MMMY" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMTY" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4800">
+        <AdditionalLevels>4400,4800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMTY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Centro Monterrey / Monterrey Center</Line>
+        <Line>MMTY ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+284326.9063-1055601.5313</Point>
+        <Point>+261311.2344-1015737.9063</Point>
+        <Point>+234442.7969-0985719.0000</Point>
+        <Point>+242209.9141-0950934.2813</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Centro Monterrey SW - TYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="TYW" />
       </Sectors>
       <Maps>
         <Map Name="ACC Monterrey/Limites FIR" />
