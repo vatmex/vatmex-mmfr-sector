@@ -1088,9 +1088,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Guadalajara (Terminal)- GLL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Aproximación Guadalajara - GLA" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
       <Sectors>
-        <Sector Name="GLL" />
+        <Sector Name="GLA" />
       </Sectors>
       <Maps>
         <Map Name="Guadalajara/Aeropuerto - Pistas" />
@@ -1124,9 +1124,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Guadalajara - GLA" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Aproximación Guadalajara (Terminal) - GLL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
       <Sectors>
-        <Sector Name="GLA" />
+        <Sector Name="GLL" />
       </Sectors>
       <Maps>
         <Map Name="Guadalajara/Aeropuerto - Pistas" />
@@ -1456,7 +1456,6 @@
         <Map Name="Vallarta/Pista 04 - Salidas RNAV" />
         <Map Name="Vallarta/Pista 04 - Salidas RNAV (Nombres)" />
 
-
         <Map Name="ACC Mexico/Limites FIR" />
         <Map Name="ALL/Geografia - Linea de Costa" />
       </Maps>
@@ -1477,6 +1476,48 @@
         <Line>Aproximacion Vallarta / Vallarta Approach</Line>
         <Line>Serving MMPR arrivals and departures</Line>
         <Line>ATIS available on 127.500</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Toluca - TOA" Type="ASD" DefaultCenter="+192448.188-0994940.063" DefaultRange="160" MagneticVariation="-4" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="TOA" />
+      </Sectors>
+      <Maps>
+        <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Toluca" />
+
+        <Map Name="Toluca/Pista 15 - Llegadas RNAV" />
+        <Map Name="Toluca/Pista 15 - Llegadas RNAV (Nombres)" />
+        <Map Name="Toluca/Pista 15 - Llegadas RNAV (Vectores)" />
+        <Map Name="Toluca/Pista 15 - ILS Z 15" />
+        <Map Name="Toluca/Pista 15 - Salidas RNAV" />
+        <Map Name="Toluca/Pista 15 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="13000">
+        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Mexico / Mexico Approach</Line>
+        <Line>Serving MMMX, MMTO, MMCB, and MMPB north arrivals</Line>
+        <Line>ATIS available on 127.650</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>

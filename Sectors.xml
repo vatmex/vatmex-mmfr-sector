@@ -128,7 +128,11 @@
   </Sector>
   <!--MMPR-->
   <Sector FullName="Aproximación Vallarta" Frequency="119.000" Callsign="MMPR_APP" Name="PRA">
-  <Volumes>MMPR_TMA</Volumes>
+    <Volumes>MMPR_TMA</Volumes>
+  </Sector>
+  <!--MMTO-->
+  <Sector FullName="Aproximación Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOA">
+    <Volumes>MMTO_APP</Volumes>
   </Sector>
   <!--MMVR-->
   <Sector FullName="Aproximación Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="VRA">

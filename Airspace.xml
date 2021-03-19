@@ -1174,15 +1174,24 @@
         <SID Name="CUA2B" />
         <SID Name="CUA1D" />
         <SID Name="MAXU5A" />
+        <SID Name="OMPE1A" />
+        <SID Name="OVAG1C" />
         <SID Name="PTJ2C" />
+        <SID Name="PURA1A" />
+        <SID Name="SEBO1C" />
         <SID Name="TEQ2A" />
+        <SID Name="TEVO1C" />
+        <SID Name="ULEB1C" />
         <SID Name="XOTK1A" />
         <SID Name="ZARC1B" />
         <STAR Name="ANEV1A" />
         <STAR Name="DERVI4" />
+        <STAR Name="ELIL1A" />
+        <STAR Name="ITLA1A" />
         <STAR Name="LENE1A" />
-        <STAR Name="MEX4C" />
+        <STAR Name="LENU1A" />
         <STAR Name="MEX2E" />
+        <STAR Name="MEX4C" />
         <STAR Name="TEQ1A" />
         <STAR Name="URTO4A" />
         <STAR Name="XOSU1A" />
@@ -1191,13 +1200,21 @@
         <SID Name="TLC6E" Default="True" />
         <SID Name="APN3D" />
         <SID Name="CUA2C" />
+        <SID Name="KEBS1A" />
         <SID Name="MAXU5B" />
+        <SID Name="OVAG1D" />
         <SID Name="PTJ2D" />
+        <SID Name="SEBO1D" />
         <SID Name="TEQ2B" />
+        <SID Name="TEVO1D" />
+        <SID Name="ULEB1D" />
         <SID Name="XOTK1B" />
-        <SID Name="ZARC5A" />
         <SID Name="ZARC1C" />
+        <SID Name="ZARC5A" />
         <STAR Name="ANEV1B" />
+        <STAR Name="ELIL1B" />
+        <STAR Name="ILAX1A" />
+        <STAR Name="ITLA1B" />
         <STAR Name="LENE1B" />
         <STAR Name="MEX3D" />
         <STAR Name="PTJ3" />
@@ -2576,7 +2593,7 @@
     <Point Name="ALNUR" Type="Fix">+223929.000-0875301.000</Point>
     <Point Name="ALNUS" Type="Fix">+173542.000-0994618.400</Point>
     <Point Name="ALOMA" Type="Fix">+220007.000-1011712.000</Point>
-    <Point Name="ALOMI" Type="Fix">+192718.000-0993710.000</Point>
+    <Point Name="ALOMI" Type="Fix">+192717.860-0993710.080</Point>
     <Point Name="ALOVO" Type="Fix">+233238.000-1011819.000</Point>
     <Point Name="ALPAP" Type="Fix">+201819.000-1050414.000</Point>
     <Point Name="ALPES" Type="Fix">+192854.000-0994518.000</Point>
@@ -3069,7 +3086,7 @@
     <Point Name="ELERA" Type="Fix">+245705.600-1001701.400</Point>
     <Point Name="ELIKO" Type="Fix">+252958.300-0994247.900</Point>
     <Point Name="ELIKU" Type="Fix">+190116.800-0970854.500</Point>
-    <Point Name="ELILA" Type="Fix">+185043.000-0995718.000</Point>
+    <Point Name="ELILA" Type="Fix">+185042.810-0995717.980</Point>
     <Point Name="ELINO" Type="Fix">+210509.100-0870727.700</Point>
     <Point Name="ELISO" Type="Fix">+215957.000-0912542.000</Point>
     <Point Name="ELIXI" Type="Fix">+251856.000-0982715.000</Point>
@@ -3143,6 +3160,7 @@
     <Point Name="GADMU" Type="Fix">+185706.000-0992300.000</Point>
     <Point Name="GAGLO" Type="Fix">+273719.500-0995909.900</Point>
     <Point Name="GAGPI" Type="Fix">+252227.000-0973952.000</Point>
+    <Point Name="GAINY" Type="Fix">+193257.050-0994506.020</Point>
     <Point Name="GAMOS" Type="Fix">+233425.000-1063441.000</Point>
     <Point Name="GAONA" Type="Fix">+220022.000-1051840.000</Point>
     <Point Name="GARES" Type="Fix">+174138.000-0974719.000</Point>
@@ -3382,7 +3400,7 @@
     <Point Name="ISTMO" Type="Fix">+165214.000-0962359.000</Point>
     <Point Name="ITAKU" Type="Fix">+200846.000-0864120.000</Point>
     <Point Name="ITBEN" Type="Fix">+243938.000-0995815.000</Point>
-    <Point Name="ITLAS" Type="Fix">+195757.000-1000004.000</Point>
+    <Point Name="ITLAS" Type="Fix">+195756.530-1000004.050</Point>
     <Point Name="ITLOM" Type="Fix">+223958.000-0882829.000</Point>
     <Point Name="ITMAT" Type="Fix">+235233.000-0995242.000</Point>
     <Point Name="ITPEB" Type="Fix">+203410.898-0900116.298</Point>
@@ -3415,6 +3433,7 @@
     <Point Name="KAVRA" Type="Fix">+241802.000-1085544.000</Point>
     <Point Name="KAVRU" Type="Fix">+190057.000-0980146.000</Point>
     <Point Name="KEBEX" Type="Fix">+260559.000-1083927.000</Point>
+    <Point Name="KEBSO" Type="Fix">+191456.880-0990030.940</Point>
     <Point Name="KEDIX" Type="Fix">+211744.400-1061827.600</Point>
     <Point Name="KEDMA" Type="Fix">+214424.500-1043922.000</Point>
     <Point Name="KEDRI" Type="Fix">+220134.500-1030856.600</Point>
@@ -3458,7 +3477,7 @@
     <Point Name="LENIM" Type="Fix">+224023.000-1005549.000</Point>
     <Point Name="LENOP" Type="Fix">+162435.000-0923747.000</Point>
     <Point Name="LENUK" Type="Fix">+223751.000-0860000.000</Point>
-    <Point Name="LENUL" Type="Fix">+194523.000-0983537.000</Point>
+    <Point Name="LENUL" Type="Fix">+194522.930-0983536.780</Point>
     <Point Name="LEPOM" Type="Fix">+235222.200-1084335.100</Point>
     <Point Name="LERIL" Type="Fix">+230816.000-0915534.000</Point>
     <Point Name="LERIV" Type="Fix">+251755.000-1075643.000</Point>
@@ -3647,6 +3666,7 @@
     <Point Name="MURBU" Type="Fix">+193712.000-0872014.000</Point>
     <Point Name="MURDA" Type="Fix">+223334.000-1014607.000</Point>
     <Point Name="MURDU" Type="Fix">+263815.000-1015516.000</Point>
+    <Point Name="MUSOS" Type="Fix">+190746.940-0993555.710</Point>
     <Point Name="MUSYL" Type="Fix">+281012.000-0940748.000</Point>
     <Point Name="MUTUB" Type="Fix">+233001.000-1035543.000</Point>
     <Point Name="MUVAP" Type="Fix">+174900.000-0900647.000</Point>
@@ -3858,7 +3878,7 @@
     <Point Name="OMIXA" Type="Fix">+253313.400-1012857.400</Point>
     <Point Name="OMOKU" Type="Fix">+194013.000-0972114.000</Point>
     <Point Name="OMPAN" Type="Fix">+192927.200-0950000.000</Point>
-    <Point Name="OMPER" Type="Fix">+192958.000-0990139.000</Point>
+    <Point Name="OMPER" Type="Fix">+195321.290-0990246.590</Point>
     <Point Name="OMPUT" Type="Fix">+195259.000-0981626.000</Point>
     <Point Name="OMSEK" Type="Fix">+311118.000-1062925.000</Point>
     <Point Name="OMSIB" Type="Fix">+245822.000-1093856.000</Point>
@@ -3972,6 +3992,7 @@
     <Point Name="PELSA" Type="Fix">+250936.000-1073731.000</Point>
     <Point Name="PELTA" Type="Fix">+285459.400-1060216.100</Point>
     <Point Name="PENVA" Type="Fix">+145405.000-0924730.000</Point>
+    <Point Name="PEPTO" Type="Fix">+192205.030-0995628.620</Point>
     <Point Name="PERBU" Type="Fix">+212853.000-1033729.000</Point>
     <Point Name="PERGO" Type="Fix">+211624.000-0894249.000</Point>
     <Point Name="PESPA" Type="Fix">+245552.000-1023200.000</Point>
@@ -4037,7 +4058,7 @@
     <Point Name="PR667" Type="Fix">+210352.500-1045735.700</Point>
     <Point Name="PR668" Type="Fix">+211819.000-1052234.400</Point>
     <Point Name="PR669" Type="Fix">+205701.300-1052741.500</Point>
-    <Point Name="PURAL" Type="Fix">+192436.000-0982030.000</Point>
+    <Point Name="PURAL" Type="Fix">+192435.800-0982030.360</Point>
     <Point Name="PURAM" Type="Fix">+201204.000-1024123.000</Point>
     <Point Name="PUREG" Type="Fix">+205832.900-0863518.400</Point>
     <Point Name="PUSAN" Type="Fix">+213135.900-1022553.800</Point>
@@ -4125,6 +4146,7 @@
     <Point Name="SEBEP" Type="Fix">+205402.199-0895113.899</Point>
     <Point Name="SEBON" Type="Fix">+192056.530-1000759.670</Point>
     <Point Name="SEDEM" Type="Fix">+210619.510-1035701.710</Point>
+    <Point Name="SEDIM" Type="Fix">+193219.130-0994652.610</Point>
     <Point Name="SEGIP" Type="Fix">+175021.000-1015621.000</Point>
     <Point Name="SEGOB" Type="Fix">+174219.100-1011941.600</Point>
     <Point Name="SEKEV" Type="Fix">+205154.000-1053237.000</Point>
@@ -4274,6 +4296,69 @@
     <Point Name="TJ566" Type="Fix">+322359.301-1164229.401</Point>
     <Point Name="TJ567" Type="Fix">+323112.899-1170406.801</Point>
     <Point Name="TJ745" Type="Fix">+322111.401-1164037.300</Point>
+    <Point Name="TO401" Type="Fix">+191918.940-0994257.160</Point>
+    <Point Name="TO402" Type="Fix">+190721.370-0993920.490</Point>
+    <Point Name="TO403" Type="Fix">+190010.820-0993802.160</Point>
+    <Point Name="TO404" Type="Fix">+185447.410-0993257.140</Point>
+    <Point Name="TO405" Type="Fix">+185353.480-0992524.120</Point>
+    <Point Name="TO410" Type="Fix">+185710.590-0995310.230</Point>
+    <Point Name="TO411" Type="Fix">+185730.360-0994921.170</Point>
+    <Point Name="TO412" Type="Fix">+185805.750-0994228.800</Point>
+    <Point Name="TO413" Type="Fix">+185948.880-0993901.130</Point>
+    <Point Name="TO414" Type="Fix">+185354.050-0993326.500</Point>
+    <Point Name="TO415" Type="Fix">+185254.870-0992509.490</Point>
+    <Point Name="TO420" Type="Fix">+193526.980-0993648.910</Point>
+    <Point Name="TO421" Type="Fix">+194133.050-0994243.050</Point>
+    <Point Name="TO422" Type="Fix">+194122.320-0995127.180</Point>
+    <Point Name="TO430" Type="Fix">+194535.230-0995337.880</Point>
+    <Point Name="TO431" Type="Fix">+194216.640-0995154.640</Point>
+    <Point Name="TO432" Type="Fix">+194228.440-0994218.090</Point>
+    <Point Name="TO433" Type="Fix">+193545.780-0993548.530</Point>
+    <Point Name="TO500" Type="Fix">+192402.310-0993541.250</Point>
+    <Point Name="TO501" Type="Fix">+192021.160-0994938.010</Point>
+    <Point Name="TO502" Type="Fix">+191215.660-0995734.780</Point>
+    <Point Name="TO503" Type="Fix">+190358.640-0994859.600</Point>
+    <Point Name="TO504" Type="Fix">+185818.680-0994308.070</Point>
+    <Point Name="TO601" Type="Fix">+193847.130-0991910.510</Point>
+    <Point Name="TO602" Type="Fix">+193657.840-0992853.930</Point>
+    <Point Name="TO603" Type="Fix">+193511.670-0993816.660</Point>
+    <Point Name="TO604" Type="Fix">+194404.550-0994348.530</Point>
+    <Point Name="TO605" Type="Fix">+194226.700-0994955.870</Point>
+    <Point Name="TO606" Type="Fix">+193810.930-0995445.300</Point>
+    <Point Name="TO607" Type="Fix">+193204.620-0995610.790</Point>
+    <Point Name="TO608" Type="Fix">+192616.970-0995342.470</Point>
+    <Point Name="TO613" Type="Fix">+194132.440-0994928.270</Point>
+    <Point Name="TO614" Type="Fix">+193741.010-0995350.130</Point>
+    <Point Name="TO615" Type="Fix">+193209.590-0995507.480</Point>
+    <Point Name="TO616" Type="Fix">+192655.090-0995253.320</Point>
+    <Point Name="TO621" Type="Fix">+185850.320-0995838.470</Point>
+    <Point Name="TO622" Type="Fix">+190157.070-0995909.340</Point>
+    <Point Name="TO623" Type="Fix">+191338.340-1000105.450</Point>
+    <Point Name="TO625" Type="Fix">+192538.840-0995431.620</Point>
+    <Point Name="TO626" Type="Fix">+193159.640-0995714.110</Point>
+    <Point Name="TO627" Type="Fix">+193840.840-0995540.470</Point>
+    <Point Name="TO628" Type="Fix">+194320.960-0995023.470</Point>
+    <Point Name="TO641" Type="Fix">+194215.480-0985446.720</Point>
+    <Point Name="TO641" Type="Fix">+194215.480-0985446.720</Point>
+    <Point Name="TO700" Type="Fix">+191343.410-0993101.470</Point>
+    <Point Name="TO701" Type="Fix">+190715.930-0992806.600</Point>
+    <Point Name="TO702" Type="Fix">+190143.810-0992536.750</Point>
+    <Point Name="TO703" Type="Fix">+190814.920-0991224.870</Point>
+    <Point Name="TO707" Type="Fix">+193401.700-0990140.080</Point>
+    <Point Name="TO708" Type="Fix">+192237.400-0984652.240</Point>
+    <Point Name="TO710" Type="Fix">+191033.180-0993847.460</Point>
+    <Point Name="TO720" Type="Fix">+191159.050-0994507.070</Point>
+    <Point Name="TO722" Type="Fix">+191332.360-0995201.070</Point>
+    <Point Name="TO725" Type="Fix">+191544.610-0995645.930</Point>
+    <Point Name="TO726" Type="Fix">+191242.260-0995713.670</Point>
+    <Point Name="TO727" Type="Fix">+191024.770-0995609.050</Point>
+    <Point Name="TO730" Type="Fix">+185216.720-0990249.590</Point>
+    <Point Name="TO800" Type="Fix">+191500.510-0993135.960</Point>
+    <Point Name="TO801" Type="Fix">+191023.830-0992930.780</Point>
+    <Point Name="TO810" Type="Fix">+192542.770-0993626.980</Point>
+    <Point Name="TO902" Type="Fix">+193154.460-0993915.630</Point>
+    <Point Name="TO910" Type="Fix">+191611.960-0993208.320</Point>
+    <Point Name="TO911" Type="Fix">+191808.150-0994645.260</Point>
     <Point Name="TOPOS" Type="Fix">+320907.000-1163449.000</Point>
     <Point Name="TOTIL" Type="Fix">+203634.801-0894926.900</Point>
     <Point Name="TOVER" Type="Fix">+243949.000-1075520.000</Point>
@@ -4444,6 +4529,7 @@
     <Point Name="VELAS" Type="Fix">+172530.000-0994605.000</Point>
     <Point Name="VENUS" Type="Fix">+292242.000-1103346.000</Point>
     <Point Name="VERBA" Type="Fix">+193243.000-1004347.000</Point>
+    <Point Name="VERLU" Type="Fix">+190357.090-0992754.760</Point>
     <Point Name="VERVA" Type="Fix">+202907.598-0895325.198</Point>
     <Point Name="VESKI" Type="Fix">+260850.000-1091637.000</Point>
     <Point Name="VESKO" Type="Fix">+240906.000-0943410.000</Point>
@@ -7523,11 +7609,23 @@
     <SID Name="CUA1D" Airport="MMTO" Runways="15">
       <Route Runway="15">PIVAS OTOMI EBDIN CUA</Route>
     </SID>
+    <SID Name="KEBS1A" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO500 TO501 TO502 TO503 TO504 TO740 KEBSO</Route>
+    </SID>
     <SID Name="MAXU5A" Airport="MMTO" Runways="15">
       <Route Runway="15">MAXUL</Route>
     </SID>
     <SID Name="MAXU5B" Airport="MMTO" Runways="33">
       <Route Runway="33">MAXUL</Route>
+    </SID>
+    <SID Name="OMPE1A" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO700 TO701 TO702 TO703 KEBSO TO707 OMPER</Route>
+    </SID>
+    <SID Name="OVAG1C" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO700 TO710 TO720 TO722 TO726 OVAGO</Route>
+    </SID>
+    <SID Name="OVAG1D" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO500 TO501 OVAGO</Route>
     </SID>
     <SID Name="PTJ2C" Airport="MMTO" Runways="15">
       <Route Runway="15">PTJ</Route>
@@ -7535,11 +7633,32 @@
     <SID Name="PTJ2D" Airport="MMTO" Runways="33">
       <Route Runway="33">PTJ</Route>
     </SID>
+    <SID Name="PURA1A" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO700 TO701 TO702 TO703 KEBSO TO708 PURAL</Route>
+    </SID>
+    <SID Name="SEBO1C" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO700 TO710 TO720 TO722 TO725 SEBON</Route>
+    </SID>
+    <SID Name="SEBO1D" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO500 TO501 SEBON</Route>
+    </SID>
     <SID Name="TEQ2A" Airport="MMTO" Runways="15">
       <Route Runway="15">TEQ</Route>
     </SID>
     <SID Name="TEQ2B" Airport="MMTO" Runways="33">
       <Route Runway="33">TEQ</Route>
+    </SID>
+    <SID Name="TEVO1C" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO700 TO701 TO702 TO703 TO730 ULOTO TEVOS</Route>
+    </SID>
+    <SID Name="TEVO1D" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO500 TO501 TO502 TO503 TO504 TO740 TO730 ULOTO TEVOS</Route>
+    </SID>
+    <SID Name="ULEB1C" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO700 TO710 TO720 TO722 TO727 ULEBA</Route>
+    </SID>
+    <SID Name="ULEB1D" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO500 TO501 TO502 ULEBA</Route>
     </SID>
     <SID Name="XOTK1A" Airport="MMTO" Runways="15">
       <Route Runway="15">PIVAS AMELA ONBET XOTKI</Route>
@@ -7565,11 +7684,29 @@
     <STAR Name="DERVI4" Airport="MMTO" Runways="15">
       <Route Runway="15">DERVI</Route>
     </STAR>
+    <STAR Name="ELIL1A" Airport="MMTO" Runways="15">
+      <Route Runway="15">ELILA TO621 TO622 TO623 PEPTO TO625 TO626 TO627 TO628 GAINY</Route>
+    </STAR>
+    <STAR Name="ELIL1B" Airport="MMTO" Runways="33">
+      <Route Runway="33">ELILA TO410 TO411 TO412 TO413 TO414 TO415 VERLU</Route>
+    </STAR>
+    <STAR Name="ILAX1A" Airport="MMTO" Runways="33">
+      <Route Runway="33">ILAXA TO601 TO602 TO420 TO421 TO422 SEDIM TO401 TO402 TO403 TO404 TO405 VERLU</Route>
+    </STAR>
+    <STAR Name="ITLA1A" Airport="MMTO" Runways="15">
+      <Route Runway="15">ITLAS TO613 TO614 TO615 TO616 GAINY</Route>
+    </STAR>
+    <STAR Name="ITLA1B" Airport="MMTO" Runways="33">
+      <Route Runway="33">ITLAS TO430 TO431 TO432 TO433 SEDIM TO401 TO402 TO403 TO404 TO405 VERLU</Route>
+    </STAR>
     <STAR Name="LENE1A" Airport="MMTO" Runways="15">
       <Route Runway="15">LENEG IPSOP ALPES</Route>
     </STAR>
     <STAR Name="LENE1B" Airport="MMTO" Runways="33">
       <Route Runway="33">LENEG TAGDA</Route>
+    </STAR>
+    <STAR Name="LENU1A" Airport="MMTO" Runways="15">
+      <Route Runway="15">LENUL TO641 TO601 TO602 TO603 TO604 TO605 TO606 TO607 TO608 GAINY</Route>
     </STAR>
     <STAR Name="MEX4C" Airport="MMTO" Runways="15">
       <Route Runway="15">MEX DERVI</Route>
