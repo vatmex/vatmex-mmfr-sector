@@ -1001,6 +1001,16 @@
         <Map Name="Tampico/ASMGCS_MMTM_GATES" />
       </Maps>
     </Position>
+    <Position Name="MMTN" Type="ASMGCS" ASMGCSAirport="MMTN" DefaultCenter="+220217.010-0984823.710" DefaultRange="1" MagneticVariation="-6">
+      <Maps>
+        <Map Name="Tamuin/ASMGCS_MMTN_RWY" />
+        <Map Name="Tamuin/ASMGCS_MMTN_APR" />
+        <Map Name="Tamuin/ASMGCS_MMTN_TWY" />
+        <Map Name="Tamuin/ASMGCS_MMTN_BLD" />
+        <Map Name="Tamuin/ASMGCS_MMTN_LABELS" />
+        <Map Name="Tamuin/ASMGCS_MMTN_GATES" />
+      </Maps>
+    </Position>
     <Position Name="MMTO" Type="ASMGCS" ASMGCSAirport="MMTO" DefaultCenter="+192013.510-0993357.730" DefaultRange="3" MagneticVariation="-4">
       <Maps>
         <Map Name="Toluca/ASMGCS_MMTO_RWY" />
