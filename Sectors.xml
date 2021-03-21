@@ -172,6 +172,15 @@
   <Sector FullName="Aproximación Chihuahua" Frequency="121.000" Callsign="MMCU_APP" Name="CUA">
     <Volumes>MMCU_TMA</Volumes>
   </Sector>
+  <Sector FullName="Torre Chihuahua" Frequency="118.400" Callsign="MMCU_TWR" Name="CUT">
+    <Volumes>MMCU_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Monterrey" Frequency="119.750" Callsign="MMMY_APP" Name="MYA">
+    <Volumes>MMMY_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Torre Monterrey" Frequency="121.900" Callsign="MMMY_TWR" Name="MYT">
+    <Volumes>MMMY_CTR</Volumes>
+  </Sector>
   <Sector FullName="ACC Monterrey SC" Frequency="128.300" Callsign="MMTY_CTR" Name="TYC">
     <Volumes>MMTY_SECTOR_1, MMTY_SECTOR_2, MMTY_SECTOR_3, MMTY_SECTOR_4, MMTY_SECTOR_5</Volumes>
   </Sector>
