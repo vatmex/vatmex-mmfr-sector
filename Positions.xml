@@ -305,7 +305,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Terrestre San Jose - SDG" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="25" MagneticVariation="-8">
+    <Position Name="Terrestre San Jose - SDG" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
       <Sectors>
         <Sector Name="SDG" />
       </Sectors>
@@ -1561,6 +1561,115 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Autorización Guadalajara - GLC" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="GLC" />
+      </Sectors>
+      <Maps>
+        <Map Name="Guadalajara/Aeropuerto - Pistas" />
+        <Map Name="Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Guadalajara/Pista 28 - ILS Z 28" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="23000">
+        <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMGL" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Guadalajara / Guadalajara Approach</Line>
+        <Line>Serving MMGL arrivals and departures</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+20.521804-103.311110</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Terrestre Guadalajara - GLG" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="GLG" />
+      </Sectors>
+      <Maps>
+        <Map Name="Guadalajara/Aeropuerto - Pistas" />
+        <Map Name="Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Guadalajara/Pista 28 - ILS Z 28" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="23000">
+        <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMGL" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Guadalajara / Guadalajara Approach</Line>
+        <Line>Serving MMGL arrivals and departures</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+20.521804-103.311110</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Torre Guadalajara - GLT" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="GLT" />
+      </Sectors>
+      <Maps>
+        <Map Name="Guadalajara/Aeropuerto - Pistas" />
+        <Map Name="Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Guadalajara/Pista 28 - ILS Z 28" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
+        <Window Airport="MMGL" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="23000">
+        <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMGL" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Guadalajara / Guadalajara Approach</Line>
+        <Line>Serving MMGL arrivals and departures</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+20.521804-103.311110</Point>
+      </ManualVisibility>
+    </Position>
     <Position Name="Aproximación Guadalajara - GLA" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
       <Sectors>
         <Sector Name="GLA" />
@@ -1570,7 +1679,12 @@
         <Map Name="Guadalajara/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Guadalajara/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="Guadalajara/Pista 28 - ILS DME 28" />
+        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV" />
+        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV (Nombres)" />
+        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV (Vectores)" />
+        <Map Name="Guadalajara/Pista 28 - ILS Z 28" />
+        <Map Name="Guadalajara/Pista 28 - Salidas RNAV" />
+        <Map Name="Guadalajara/Pista 28 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
@@ -1596,6 +1710,9 @@
         <Line>ATIS available on 127.900</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+      <ManualVisibility>
+        <Point>+20.521804-103.311110</Point>
+      </ManualVisibility>
     </Position>
     <Position Name="Aproximación Guadalajara (Terminal) - GLL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
       <Sectors>
@@ -1606,7 +1723,12 @@
         <Map Name="Guadalajara/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Guadalajara/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="Guadalajara/Pista 28 - ILS DME 28" />
+        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV" />
+        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV (Nombres)" />
+        <Map Name="Guadalajara/Pista 28 - Llegadas RNAV (Vectores)" />
+        <Map Name="Guadalajara/Pista 28 - ILS Z 28" />
+        <Map Name="Guadalajara/Pista 28 - Salidas RNAV" />
+        <Map Name="Guadalajara/Pista 28 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
@@ -1632,6 +1754,9 @@
         <Line>ATIS available on 127.900</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+      <ManualVisibility>
+        <Point>+20.521804-103.311110</Point>
+      </ManualVisibility>
     </Position>
     <Position Name="Aproximación México (Combinado) - MXA" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
