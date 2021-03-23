@@ -77,6 +77,9 @@
   <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZT">
     <Volumes>MMCZ_CTR</Volumes>
   </Sector>
+  <Sector FullName="Terrestre Cancún" Frequency="121.000" Callsign="MMUN_GND" Name="UNG"/>
+  <Sector FullName="Terrestre Este Cancún" Frequency="121.700" Callsign="MMUN_E_GND" Name="UNR"/>
+  <Sector FullName="Autorización Cancún" Frequency="122.100" Callsign="MMUN_DEL" Name="UNC"/>
   <Sector FullName="Torre Cancún" Frequency="118.100" Callsign="MMUN_TWR" Name="UNT">
     <Volumes>MMUN_CTR</Volumes>
   </Sector>
@@ -216,11 +219,12 @@
   <Sector FullName="Torre Chihuahua" Frequency="118.400" Callsign="MMCU_TWR" Name="CUT">
     <Volumes>MMCU_CTR</Volumes>
   </Sector>
+  <Sector FullName="Terrestre Monterrey" Frequency="121.900" Callsign="MMMY_GND" Name="MYG"/>
+  <Sector FullName="Torre Monterrey" Frequency="118.100" Callsign="MMMY_TWR" Name="MYT">
+    <Volumes>MMMY_CTR</Volumes>
+  </Sector>
   <Sector FullName="Aproximación Monterrey" Frequency="119.750" Callsign="MMMY_APP" Name="MYA">
     <Volumes>MMMY_TMA</Volumes>
-  </Sector>
-  <Sector FullName="Torre Monterrey" Frequency="121.900" Callsign="MMMY_TWR" Name="MYT">
-    <Volumes>MMMY_CTR</Volumes>
   </Sector>
   <Sector FullName="ACC Monterrey SC" Frequency="128.300" Callsign="MMTY_CTR" Name="TYC">
     <Volumes>MMTY_SECTOR_1, MMTY_SECTOR_2, MMTY_SECTOR_3, MMTY_SECTOR_4, MMTY_SECTOR_5</Volumes>

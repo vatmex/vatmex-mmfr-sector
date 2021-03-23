@@ -829,6 +829,33 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Merida - MDT" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="50" MagneticVariation="0">
+      <Sectors>
+        <Sector Name="MDT" />
+      </Sectors>
+      <Maps>
+        <Map Name="Merida/Aeropuerto - Pistas" />
+        <Map Name="Merida/Aeropuerto - Zona de Control (CTR TMA) MMMD" />
+
+        <Map Name="Merida/Pista 10 - ILS DME 3 10" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMD" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMD" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Merida / Merida Tower</Line>
+        <Line>Serving MMMD arrivals and departures</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Aproximación Cancún - UNA" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
       <Sectors>
         <Sector Name="UNA" />
@@ -871,6 +898,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Cancun / Cancun Approach</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
@@ -913,6 +941,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Cancun / Cancun Approach</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
@@ -953,6 +982,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Cancun / Cancun Approach</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
@@ -987,6 +1017,112 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Torre Cancun / Cancun Torre</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Terrestre Cancún - UNG" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="UNG" />
+      </Sectors>
+      <Maps>
+        <Map Name="Cancun/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="Cancun/Pistas 12 - ILS DME 4 12R" />
+
+        <Map Name="ACC Merida/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Terrestre Cancun / Cancun Ground</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Terrestre Este Cancun - UNR" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="UNR" />
+      </Sectors>
+      <Maps>
+        <Map Name="Cancun/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="Cancun/Pistas 12 - ILS DME 4 12R" />
+
+        <Map Name="ACC Merida/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Terrestre Este Cancun / Cancun Ground East</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Autorización Cancún - UNC" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="UNC" />
+      </Sectors>
+      <Maps>
+        <Map Name="Cancun/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="Cancun/Pistas 12 - ILS DME 4 12R" />
+
+        <Map Name="ACC Merida/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Autorizacion Cancun / Cancun Delivery</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
@@ -1017,6 +1153,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Torre Cozumel / Cozumel Tower</Line>
+        <Line>Serving MMCZ arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
@@ -2762,6 +2899,39 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Torre Monterrey / Monterrey Tower</Line>
+        <Line>Serving MMMY arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Terrestre Monterrey - MYG" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="MYG" />
+      </Sectors>
+      <Maps>
+        <Map Name="Monterrey/Aeropuerto - Pistas" />
+        <Map Name="Monterrey/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Monterrey/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="Monterrey/Pista 29 - ILS 5 29" />
+
+        <Map Name="ACC Monterrey/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
+        <Window Airport="MMMY" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMMY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Terrestre Monterrey / Monterrey Ground</Line>
         <Line>Serving MMMY arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
