@@ -141,6 +141,12 @@
   <Sector FullName="Aproximación Guadalara" Frequency="120.800" Callsign="MMGL_APP" Name="GLA">
     <Volumes>MMGL_TMA</Volumes>
   </Sector>
+  <Sector FullName="Autorización México" Frequency="122.100" Callsign="MMMX_DEL" Name="MXC" />
+  <Sector FullName="Terrestre México" Frequency="121.850" Callsign="MMMX_GND" Name="MXG" />
+  <Sector FullName="Terrestre Sur México" Frequency="121.000" Callsign="MMMX_S_GND" Name="MXR" />
+  <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXT">
+    <Volumes>MMMX_CTR</Volumes>
+  </Sector>
   <Sector FullName="Llegadas México" Frequency="129.650" Callsign="MMMX_T_APP" Name="MXL">
     <Volumes>MMMX_TMA</Volumes>
   </Sector>
@@ -153,14 +159,15 @@
   <Sector FullName="Salidas México" Frequency="120.500" Callsign="MMMX_DEP" Name="MXD">
     <Volumes>MMMX_TMA</Volumes>
   </Sector>
-  <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXT">
-    <Volumes>MMMX_CTR</Volumes>
-  </Sector>
   <Sector FullName="Torre Vallarta" Frequency="118.500" Callsign="MMPR_TWR" Name="PRT">
     <Volumes>MMPR_CTR</Volumes>
   </Sector>
   <Sector FullName="Aproximación Vallarta" Frequency="119.000" Callsign="MMPR_APP" Name="PRA">
     <Volumes>MMPR_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOG" />
+  <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOT">
+    <Volumes>MMTO_CTR</Volumes>
   </Sector>
   <Sector FullName="Aproximación Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOA">
     <Volumes>MMTO_APP</Volumes>
