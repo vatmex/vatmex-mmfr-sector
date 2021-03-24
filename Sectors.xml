@@ -156,6 +156,9 @@
   <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXT">
     <Volumes>MMMX_CTR</Volumes>
   </Sector>
+  <Sector FullName="Torre Vallarta" Frequency="118.500" Callsign="MMPR_TWR" Name="PRT">
+    <Volumes>MMPR_CTR</Volumes>
+  </Sector>
   <Sector FullName="Aproximación Vallarta" Frequency="119.000" Callsign="MMPR_APP" Name="PRA">
     <Volumes>MMPR_TMA</Volumes>
   </Sector>
@@ -164,6 +167,9 @@
   </Sector>
   <Sector FullName="Aproximación Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="VRA">
     <Volumes>MMVR_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Torre Veracruz" Frequency="118.500" Callsign="MMVR_TWR" Name="VRT">
+    <Volumes>MMVR_CTR</Volumes>
   </Sector>
   <Sector FullName="ACC México Sector SC" Frequency="133.100" Callsign="MMEX_CTR" Name="EXC">
     <Volumes>MMEX_SECTOR_5, MMEX_SECTOR_9, MMEX_SECTOR_10</Volumes>
@@ -212,6 +218,7 @@
   <Sector FullName="Torre Chihuahua" Frequency="118.400" Callsign="MMCU_TWR" Name="CUT">
     <Volumes>MMCU_CTR</Volumes>
   </Sector>
+  <Sector FullName="Autorización Monterrey" Frequency="123.750" Callsign="MMMY_DEL" Name="MYC"/>
   <Sector FullName="Terrestre Monterrey" Frequency="121.900" Callsign="MMMY_GND" Name="MYG"/>
   <Sector FullName="Torre Monterrey" Frequency="118.100" Callsign="MMMY_TWR" Name="MYT">
     <Volumes>MMMY_CTR</Volumes>
