@@ -2230,7 +2230,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Vallarta - PRA" Type="ASD" DefaultCenter="+204048.261-1051515.123" DefaultRange="235" MagneticVariation="-7">
+    <Position Name="Aproximación Vallarta - PRA" Type="ASD" DefaultCenter="+204048.261-1051515.123" DefaultRange="235" MagneticVariation="-7" DynamicInfill="false">
       <Sectors>
         <Sector Name="PRA" />
       </Sectors>
@@ -2303,7 +2303,7 @@
         <Line>ATIS available on 127.900</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
-    </Position>
+    </Position
     <Position Name="Terrestre Toluca - TOG" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="TOG" />
@@ -2372,6 +2372,41 @@
         <Line>Torre Toluca / Toluca Tower</Line>
         <Line>Serving MMMX, MMTO, MMCB, and MMPB north arrivals</Line>
         <Line>ATIS available on 127.800</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Vallarta - PRT" Type="ASD" DefaultCenter="+204048.261-1051515.123" DefaultRange="50" MagneticVariation="-7" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="PRT" />
+      </Sectors>
+      <Maps>
+        <Map Name="Vallarta/Aeropuerto - Pistas" />
+        <Map Name="Vallarta/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Vallarta/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="Vallarta/Pista 04 - RNP 04" />
+
+        <Map Name="ACC Mexico/Limites FIR" />
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMPR" Frequency="127.5" Server="NA" />
+        <Window Airport="MMPR" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPR" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000">
+        <AdditionalLevels>1800,5200,9700,8300,8900,5800,5200,3600,3200,4900,5300,4400,3400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMPR" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Vallarta / Vallarta Tower</Line>
+        <Line>Serving MMPR arrivals and departures</Line>
+        <Line>ATIS available on 127.500</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
@@ -2454,6 +2489,42 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Veracruz / Veracruz Approach</Line>
+        <Line>Serving MMVR arrivals and departures</Line>
+        <Line>ATIS available on 127.800</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Veracruz - VRT" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="50" MagneticVariation="-4" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="VRT" />
+      </Sectors>
+      <Maps>
+        <Map Name="Veracruz/Aeropuerto - Pistas" />
+        <Map Name="Veracruz/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="Veracruz/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="Veracruz/Pista 01 - RNP 01" />|
+
+        <Map Name="ACC Mexico/Limites FIR" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMVR" Frequency="127.8" Server="NA" />
+        <Window Airport="MMVR" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMVR" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000">
+        <AdditionalLevels>1800,2200,3900,6800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMVR" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Veracruz / Veracruz Tower</Line>
         <Line>Serving MMVR arrivals and departures</Line>
         <Line>ATIS available on 127.800</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
@@ -2756,7 +2827,7 @@
         <Map Name="Torreon/ASMGCS_MMTC_GATES" />
       </Maps>
     </Position>
-    <Position Name="Aproximación Chihuahua" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8" DynamicInfill="false">
+    <Position Name="Aproximación Chihuahua - CUA" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8" DynamicInfill="false">
       <Sectors>
         <Sector Name="CUA" />
       </Sectors>
@@ -2830,7 +2901,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Monterrey" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Aproximación Monterrey - MYA" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="MYA" />
       </Sectors>
@@ -2883,6 +2954,7 @@
         <Map Name="Monterrey/Pista 29 - ILS 5 29" />
 
         <Map Name="ACC Monterrey/Limites FIR" />
+        <Map Name="ALL/Sector - Cobertura Radar MMTY" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
         <Map Name="ALL/Sector - Aerovias Radar" />
@@ -2916,6 +2988,7 @@
         <Map Name="Monterrey/Pista 29 - ILS 5 29" />
 
         <Map Name="ACC Monterrey/Limites FIR" />
+        <Map Name="ALL/Sector - Cobertura Radar MMTY" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
         <Map Name="ALL/Sector - Aerovias Radar" />
@@ -2932,6 +3005,40 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Terrestre Monterrey / Monterrey Ground</Line>
+        <Line>Serving MMMY arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Autorización Monterrey - MYC" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="MYC" />
+      </Sectors>
+      <Maps>
+        <Map Name="Monterrey/Aeropuerto - Pistas" />
+        <Map Name="Monterrey/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="Monterrey/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="Monterrey/Pista 29 - ILS 5 29" />
+
+        <Map Name="ACC Monterrey/Limites FIR" />
+        <Map Name="ALL/Sector - Cobertura Radar MMTY" />
+
+        <Map Name="ALL/Geografia - Linea de Costa" />
+        <Map Name="ALL/Sector - Aerovias Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
+        <Window Airport="MMMY" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMMY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Autorizacion Monterrey / Monterrey Delivery</Line>
         <Line>Serving MMMY arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
