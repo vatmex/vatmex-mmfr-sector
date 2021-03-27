@@ -2,13 +2,13 @@
 <Maps>
   <Map Type="System" Name="Pistas 30 - Llegadas RNAV" Priority="1" Centre="+210235.014-0865232.438">
     <!--STARs-->
-    <Line Name="NOSSAT1D" Pattern="Dotted">NOSAT/HACHO/LETIS/UN500/PUREG/OTSOL</Line>
-    <Line Name="ILUBA1G" Pattern="Dotted">ILUBA/ALRIP/QUADY/SESLI</Line>
-    <Line Name="SIGMA1I" Pattern="Dotted">SIGMA/BALCH/UN617/QUADY/SESLI</Line>
-    <Line Name="PAULE1#" Pattern="Dotted">PAULE/UN610/CZM/UN611/UN612/LOPKA</Line>
-    <Line Name="XUDUN1#" Pattern="Dotted">XUDUN/BEPOR/BUBUN/SCAHA/UN605/UN608/DEPVA/LOPKA</Line>
-    <Line Name="VOMAR1C" Pattern="Dotted">VOMAR/AGNIX/EPNEL/ODLAR/UN606/UN500/PUREG/OTSOL</Line>
-    <Symbol Type="HollowTriangle">
+    <Line Name="NOSAT1D" Pattern="Dashed">NOSAT/HACHO/LETIS/UN500/PUREG/OTSOL</Line>
+    <Line Name="ILUBA1G" Pattern="Dashed">ILUBA/ALRIP/QUADY/SESLI</Line>
+    <Line Name="SIGMA1I" Pattern="Dashed">SIGMA/BALCH/UN617/QUADY</Line>
+    <Line Name="PAULE1#" Pattern="Dashed">PAULE/UN610/CZM/UN611/UN612/LOPKA</Line>
+    <Line Name="XUDUN1#" Pattern="Dashed">XUDUN/BEPOR/BUBUN/SCAHA/UN605/UN608/DEPVA/LOPKA</Line>
+    <Line Name="VOMAR1C" Pattern="Dashed">VOMAR/AGNIX/EPNEL/ODLAR/UN606/UN500</Line>
+    <Symbol Type="SolidTriangle">
       <Point>BEPOR</Point>
       <Point>BUBUN</Point>
       <Point>ILUBA</Point>
@@ -18,8 +18,6 @@
       <Point>SIGMA</Point>
       <Point>XUDUN</Point>
     </Symbol>
-    <Symbol Type="SolidStar" />
-    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>AGNIX</Point>
       <Point>ALRIP</Point>
@@ -42,6 +40,12 @@
       <Point>UN612</Point>
       <Point>UN617</Point>
       <Point>VOMAR</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>CZM</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>CZM</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="Pistas 30 - Llegadas RNAV (Nombres)" Priority="2" Centre="-34.945000+138.530556">
@@ -195,13 +199,13 @@
   </Map>
   <Map Type="System" Name="Pistas 30 - Salidas RNAV" Priority="1" Centre="+210235.014-0865232.438">
     <!--SIDS-->
-    <Line Name="NUKAN1" Pattern="Broken">UN708/UN700/ULBOX/NUKAN</Line>
-    <Line Name="NUDAL1" Pattern="Broken">UN700/SEVKA/NUDAL</Line>
-    <Line Name="AVSEB1" Pattern="Broken">CZM/UN713/AVSEB</Line>
-    <Line Name="CZM1" Pattern="Broken">UN712/UN703/UN706/CZM/</Line>
-    <Line Name="UDGUV1" Pattern="Broken">UN710/UN704/UN711/UDGUV</Line>
-    <Line Name="NOSUG1" Pattern="Broken">UN705/UN709/UN701/NOSUG</Line>
-    <Line Name="ROTGI1" Pattern="Broken">UN702/UN707/ROTGI</Line>
+    <Line Name="NUKAN1" Pattern="Dotted">+210243.080-0865327.611/UN708/UN700/ULBOX/NUKAN</Line>
+    <Line Name="NUDAL1" Pattern="Dotted">UN700/SEVKA/NUDAL</Line>
+    <Line Name="AVSEB1" Pattern="Dotted">CZM/UN713/AVSEB</Line>
+    <Line Name="CZM1" Pattern="Dotted">+210243.080-0865327.611/UN712/UN703/UN706/CZM/</Line>
+    <Line Name="UDGUV1" Pattern="Dotted">+210243.080-0865327.611/UN710/UN704/UN711/UDGUV</Line>
+    <Line Name="NOSUG1" Pattern="Dotted">+210243.080-0865327.611/UN705/UN709/UN701/NOSUG</Line>
+    <Line Name="ROTGI1" Pattern="Dotted">+210243.080-0865327.611/UN702/UN707/ROTGI</Line>
     <Symbol Type="HollowTriangle">
       <Point>NUDAL</Point>
       <Point>NUKAN</Point>
@@ -228,6 +232,12 @@
       <Point>UN711</Point>
       <Point>UN712</Point>
       <Point>UN713</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>CZM</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>CZM</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="Pistas 30 - Salidas RNAV (Nombres)" Priority="2" Centre="-34.945000+138.530556">

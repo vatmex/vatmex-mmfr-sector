@@ -12,5 +12,16 @@
         </Departure>
       </Rules>
     </RuleSet>
+    <RuleSet Name="MMTO_DEPS">
+      <Rules>
+        <Departure Values="MMTO">
+          <Rules>
+            <Default>
+              <AssignSector Order="TOA,MXD,MXA,EXC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
   </RuleSets>
 </DefaultJurisdiction>

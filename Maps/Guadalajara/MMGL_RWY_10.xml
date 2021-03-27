@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="Pista 10 - Llegadas RNAV" Priority="1" Centre="+203124.320-1031841.798">
-    <Line Name="ULUVO1A" Pattern="Dashed">
-      ULUVO/GL530/GL531/GL532/BRUJA/GL534/GL535/DATSO
-    </Line>
-    <Line Name="USBIM1C" Pattern="Dashed">
-      USBIM/EMEXO/GL522/GL523/GL524/DATSO
-    </Line>
-    <Line Name="LIPEP1C" Pattern="Dashed">
-      LIPEP/GL520/VISDA/GL522
-    </Line>
-    <Line Name="LONVA1C" Pattern="Dashed">
-      LONVA/ERDAN/GL501/GL502/DULNO
-    </Line>
-    <Line Name="LIVRI1C" Pattern="Dashed">
-      LIVRI/IKBAN/ULOGA/GL512/GL513/GL514/DULNO
-    </Line>
+    <Line Name="ULUVO1A" Pattern="Dashed">ULUVO/GL530/GL531/GL532/BRUJA/GL534/GL535/DATSO</Line>
+    <Line Name="USBIM1C" Pattern="Dashed">USBIM/EMEXO/GL522/GL523/GL524/DATSO</Line>
+    <Line Name="LIPEP1C" Pattern="Dashed">LIPEP/GL520/VISDA/GL522</Line>
+    <Line Name="LONVA1C" Pattern="Dashed">LONVA/ERDAN/GL501/GL502/DULNO</Line>
+    <Line Name="LIVRI1C" Pattern="Dashed">LIVRI/IKBAN/ULOGA/GL512/GL513/GL514/DULNO</Line>
     <Line Name="MODEX1A" Pattern="Dashed">
       MODEX/GL540/ULOGA
     </Line>
@@ -53,25 +43,19 @@
   </Map>
   <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
     <Label HasLeader="false">
-      <Point>LONVA</Point>
-      <Point>LIVRI</Point>
-      <Point>MODEX</Point>
-      <Point>ULUVO</Point>
-      <Point>LIPEP</Point>
-      <Point>USBIM</Point>
       <Point>DATSO</Point>
       <Point>DULNO</Point>
+      <Point>LIPEP</Point>
+      <Point>LIVRI</Point>
+      <Point>LONVA</Point>
+      <Point>MODEX</Point>
+      <Point>ULUVO</Point>
+      <Point>USBIM</Point>
     </Label>
   </Map>
   <Map Type="System" Name="Pista 10 - Llegadas RNAV (Vectores)" Priority="1" Centre="+203124.320-1031841.798">
-    <Line Name="DULNOR338">
-      +210625.847-1033928.910/
-      +204226.875-1033206.377
-    </Line>
-    <Line Name="DULNOR058">
-      +205322.543-1030810.696/
-      +204226.875-1033206.377
-    </Line>
+    <Line Name="DULNOR338">+210625.847-1033928.910/+204226.875-1033206.377</Line>
+    <Line Name="DULNOR058">+205322.543-1030810.696/+204226.875-1033206.377</Line>
     <Line Name="DULNOD25">
 +210625.848-1033928.911/
 +210652.114-1033741.037/
@@ -152,14 +136,8 @@
 +204523.002-1032748.977/
 +204456.702-1032730.719/
 +204437.868-1032719.550</Line>
-    <Line Name="DATSOR338">
-      +203316.910-1033628.630/
-      +202220.260-1040026.502
-    </Line>
-    <Line Name="DATSOR058">
-      +203316.910-1033628.630/
-      +200917.007-1032907.670
-    </Line>
+    <Line Name="DATSOR338">+203316.910-1033628.630/+202220.260-1040026.502</Line>
+    <Line Name="DATSOR058">+203316.910-1033628.630/+200917.007-1032907.670</Line>
     <Line Name="DATSOD25">
 +200917.007-1032907.670/
 +200851.713-1033056.017/
@@ -241,209 +219,51 @@
 +203047.116-1034105.719/
 +203105.782-1034115.760</Line>
   </Map>
-  <Map Type="System" Name="Pista 10 - ILS DME 10" Priority="1" Centre="+203124.320-1031841.798">
-    <Line Pattern="Solid">
-      DANUN/+203142.80-1031937.900
-    </Line>
-    <Line Pattern="Solid">
-      DATSO/DULNO
-    </Line>
-    <Line Name="D11" Pattern="Solid">
-      +203710.582-1033327.933/
-      +203743.424-1033312.309
-    </Line>
-    <Line Name="D12" Pattern="Solid">
-      +203646.404-1033229.360/
-      +203719.246-1033213.737
-    </Line>
-    <Line Name="D13" Pattern="Solid">
-      +203622.223-1033130.790/
-      +203655.065-1033115.168
-    </Line>
-    <Line Name="D14" Pattern="Solid">
-      +203558.045-1033032.221/
-      +203630.887-1033016.599
-    </Line>
-    <Line Name="D15" Pattern="Solid">
-      +203533.867-1032933.656/
-      +203606.709-1032918.035
-    </Line>
-    <Line Name="D16" Pattern="Solid">
-      +203509.688-1032835.093/
-      +203542.530-1032819.473
-    </Line>
-    <Line Name="D17" Pattern="Solid">
-      +203445.508-1032736.532/
-      +203518.350-1032720.912
-    </Line>
-    <Line Name="D18" Pattern="Solid">
-      +203421.329-1032637.973/
-      +203454.171-1032622.354
-    </Line>
-    <Line Name="D19" Pattern="Solid">
-      +203357.151-1032539.418/
-      +203429.993-1032523.800
-    </Line>
-    <Line Name="D20" Pattern="Solid">
-      +203332.971-1032440.865/
-      +203405.813-1032425.248
-    </Line>
-    <Line Name="D21" Pattern="Solid">
-      +203308.792-1032342.315/
-      +203341.634-1032326.698
-    </Line>
-    <Line Name="D22" Pattern="Solid">
-      +203244.614-1032243.768/
-      +203317.456-1032228.152
-    </Line>
-    <Line Name="D23" Pattern="Solid">
-      +203220.435-1032145.223/
-      +203253.277-1032129.608
-    </Line>
-    <Line Name="D24" Pattern="Solid">
-      +203156.255-1032046.681/
-      +203229.097-1032031.066
-    </Line>
+  <Map Type="System" Name="Pista 10 - ILS Z 10" Priority="1" Centre="+203124.320-1031841.798">
+    <Line Pattern="Solid">DATSO/DULNO</Line>
+    <Line Pattern="Solid">GL620/GL621/GL622/GL623/GDL</Line>
+    <Line Name="D1" Pattern="Solid">+203404.335-1033545.061/+203418.957-1033620.139</Line>
+    <Line Name="D2" Pattern="Solid">+203459.072-1033519.028/+203513.694-1033554.109</Line>
+    <Line Name="D3" Pattern="Solid">+203553.809-1033452.994/+203608.431-1033528.079</Line>
+    <Line Name="D4" Pattern="Solid">+203648.546-1033426.955/+203703.168-1033502.043</Line>
+    <Line Name="D5" Pattern="Solid">+203743.283-1033400.916/+203757.905-1033436.008</Line>
+    <Line Name="D6" Pattern="Solid">+203838.020-1033334.872/+203852.642-1033409.967</Line>
+    <Line Name="D7" Pattern="Solid">+203932.757-1033308.828/+203947.379-1033343.927</Line>
+    <Line Name="D8" Pattern="Solid">+204027.494-1033242.779/+204042.116-1033317.882</Line>
+    <Line Name="D9" Pattern="Solid">+204122.231-1033216.729/+204136.853-1033251.835</Line>
+    <Line Name="D10" Pattern="Solid">+203734.761-1033426.510/+203807.603-1033410.886</Line>
+    <Line Name="D11" Pattern="Solid">+203710.582-1033327.933/+203743.424-1033312.309</Line>
+    <Line Name="D12" Pattern="Solid">+203646.404-1033229.360/+203719.246-1033213.737</Line>
+    <Line Name="D13" Pattern="Solid">+203622.223-1033130.790/+203655.065-1033115.168</Line>
+    <Line Name="D14" Pattern="Solid">+203558.045-1033032.221/+203630.887-1033016.599</Line>
+    <Line Name="D15" Pattern="Solid">+203533.867-1032933.656/+203606.709-1032918.035</Line>
+    <Line Name="D16" Pattern="Solid">+203509.688-1032835.093/+203542.530-1032819.473</Line>
+    <Line Name="D17" Pattern="Solid">+203445.508-1032736.532/+203518.350-1032720.912</Line>
+    <Line Name="D18" Pattern="Solid">+203421.329-1032637.973/+203454.171-1032622.354</Line>
+    <Line Name="D19" Pattern="Solid">+203357.151-1032539.418/+203429.993-1032523.800</Line>
+    <Line Name="D20" Pattern="Solid">+203332.971-1032440.865/+203405.813-1032425.248</Line>
+    <Line Name="D21" Pattern="Solid">+203308.792-1032342.315/+203341.634-1032326.698</Line>
+    <Line Name="D22" Pattern="Solid">+203244.614-1032243.768/+203317.456-1032228.152</Line>
+    <Line Name="D23" Pattern="Solid">+203220.435-1032145.223/+203253.277-1032129.608</Line>
+    <Line Name="D24" Pattern="Solid">+203156.255-1032046.681/+203229.097-1032031.066</Line>
+    <Line Name="D25" Pattern="Solid">+203132.077-1031948.142/+203204.919-1031932.528</Line>
     <Symbol Type="HollowStar">
-      <Point>DANUN</Point>
-      <Point>DULNO</Point>
       <Point>DATSO</Point>
-      <Point>GL812</Point>
-      <Point>GL813</Point>
-      <Point>GL814</Point>
-      <Point>GL815</Point>
+      <Point>DULNO</Point>
+      <Point>GL620</Point>
+      <Point>GL621</Point>
+      <Point>GL622</Point>
+      <Point>GL623</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 10 - ILS Z 10" Priority="1" Centre="+203124.320-1031841.798">
-    <Line Pattern="Solid">
-      DATSO/DULNO
-    </Line>
-    <Line Pattern="Solid">
-      GL620/GL621/GL622/GL623/GDL
-    </Line>
-    <Line Name="D1" Pattern="Solid">
-      +203404.335-1033545.061/
-      +203418.957-1033620.139
-    </Line>
-    <Line Name="D2" Pattern="Solid">
-      +203459.072-1033519.028/
-      +203513.694-1033554.109
-    </Line>
-    <Line Name="D3" Pattern="Solid">
-      +203553.809-1033452.994/
-      +203608.431-1033528.079
-    </Line>
-    <Line Name="D4" Pattern="Solid">
-      +203648.546-1033426.955/
-      +203703.168-1033502.043
-    </Line>
-    <Line Name="D5" Pattern="Solid">
-      +203743.283-1033400.916/
-      +203757.905-1033436.008
-    </Line>
-    <Line Name="D6" Pattern="Solid">
-      +203838.020-1033334.872/
-      +203852.642-1033409.967
-    </Line>
-    <Line Name="D7" Pattern="Solid">
-      +203932.757-1033308.828/
-      +203947.379-1033343.927
-    </Line>
-    <Line Name="D8" Pattern="Solid">
-      +204027.494-1033242.779/
-      +204042.116-1033317.882
-    </Line>
-    <Line Name="D9" Pattern="Solid">
-      +204122.231-1033216.729/
-      +204136.853-1033251.835
-    </Line>
-    <Line Name="D10" Pattern="Solid">
-      +203734.761-1033426.510/
-      +203807.603-1033410.886
-    </Line>
-    <Line Name="D11" Pattern="Solid">
-      +203710.582-1033327.933/
-      +203743.424-1033312.309
-    </Line>
-    <Line Name="D12" Pattern="Solid">
-      +203646.404-1033229.360/
-      +203719.246-1033213.737
-    </Line>
-    <Line Name="D13" Pattern="Solid">
-      +203622.223-1033130.790/
-      +203655.065-1033115.168
-    </Line>
-    <Line Name="D14" Pattern="Solid">
-      +203558.045-1033032.221/
-      +203630.887-1033016.599
-    </Line>
-    <Line Name="D15" Pattern="Solid">
-      +203533.867-1032933.656/
-      +203606.709-1032918.035
-    </Line>
-    <Line Name="D16" Pattern="Solid">
-      +203509.688-1032835.093/
-      +203542.530-1032819.473
-    </Line>
-    <Line Name="D17" Pattern="Solid">
-      +203445.508-1032736.532/
-      +203518.350-1032720.912
-    </Line>
-    <Line Name="D18" Pattern="Solid">
-      +203421.329-1032637.973/
-      +203454.171-1032622.354
-    </Line>
-    <Line Name="D19" Pattern="Solid">
-      +203357.151-1032539.418/
-      +203429.993-1032523.800
-    </Line>
-    <Line Name="D20" Pattern="Solid">
-      +203332.971-1032440.865/
-      +203405.813-1032425.248
-    </Line>
-    <Line Name="D21" Pattern="Solid">
-      +203308.792-1032342.315/
-      +203341.634-1032326.698
-    </Line>
-    <Line Name="D22" Pattern="Solid">
-      +203244.614-1032243.768/
-      +203317.456-1032228.152
-    </Line>
-    <Line Name="D23" Pattern="Solid">
-      +203220.435-1032145.223/
-      +203253.277-1032129.608
-    </Line>
-    <Line Name="D24" Pattern="Solid">
-      +203156.255-1032046.681/
-      +203229.097-1032031.066
-    </Line>
-    <Line Name="D25" Pattern="Solid">
-      +203132.077-1031948.142/
-      +203204.919-1031932.528
-    </Line>
-  </Map>
   <Map Type="System" Name="Pista 01 - Salidas RNAV" Priority="1" Centre="+203124.320-1031841.798">
-    <Line Name="OTOKI1A" Pattern="Dotted">
-      GDL/GL406/GL405/GL410/GL411/OTOKI
-    </Line>
-    <Line Name="FEISE1A" Pattern="Dotted">
-      GL410/FEISE
-    </Line>
-    <Line Name="KELVA1A" Pattern="Dotted">
-      GL405/KELVA
-    </Line>
-    <Line Name="LONKU1D" Pattern="Dotted">
-      GL405/LONKU
-    </Line>
-    <Line Name="EMIRI1A" Pattern="Dotted">
-      GL405/GL430/ATOXO/EMIRI
-    </Line>
-    <Line Name="NOTUP1B" Pattern="Dotted">
-      GL406/GL420/GL421/GL422/NOTUP
-    </Line>
-    <Line Name="SEDEM1A" Pattern="Dotted">
-      GL422/SEDEM
-    </Line>
+    <Line Name="OTOKI1A" Pattern="Dotted">GDL/GL406/GL405/GL410/GL411/OTOKI</Line>
+    <Line Name="FEISE1A" Pattern="Dotted">GL410/FEISE</Line>
+    <Line Name="KELVA1A" Pattern="Dotted">GL405/KELVA</Line>
+    <Line Name="LONKU1D" Pattern="Dotted">GL405/LONKU</Line>
+    <Line Name="EMIRI1A" Pattern="Dotted">GL405/GL430/ATOXO/EMIRI</Line>
+    <Line Name="NOTUP1B" Pattern="Dotted">GL406/GL420/GL421/GL422/NOTUP</Line>
+    <Line Name="SEDEM1A" Pattern="Dotted">GL422/SEDEM</Line>
     <Symbol Type="HollowStar">
       <Point>ATOXO</Point>
       <Point>EMIRI</Point>
@@ -465,12 +285,12 @@
   </Map>
   <Map Type="System" Name="Pista 10 - Salidas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
     <Label HasLeader="false">
-      <Point>OTOKI</Point>
+      <Point>EMIRI</Point>
       <Point>FEISE</Point>
       <Point>KELVA</Point>
       <Point>LONKU</Point>
-      <Point>EMIRI</Point>
       <Point>NOTUP</Point>
+      <Point>OTOKI</Point>
       <Point>SEDEM</Point>
     </Label>
   </Map>
