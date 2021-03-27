@@ -321,19 +321,19 @@
   </Map>
   <Map Type="System2" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
   	<Label HasLeader="false">
-      <Point Name="55">+292637.0859-1105111.1563</Point>
-      <Point Name="46">+292845.4297-1112129.5938</Point>
-      <Point Name="41">+291954.5156-1111218.5625</Point>
-      <Point Name="40">+284820.6172-1112436.250</Point>
-      <Point Name="40">+285850.2891-1104232.375</Point>
-      <Point Name="31">+290147.8203-1105741.4063</Point>
-      <Point Name="40">+291352.4375-1110205.2813</Point>
-      <Point Name="33">+291019.1563-1110118.2813</Point>
-      <Point Name="30">+285407.7109-1111314.4063</Point>
       <Point Name="27">+290533.2969-1111040.0313</Point>
+      <Point Name="30">+285407.7109-1111314.4063</Point>
+      <Point Name="31">+290147.8203-1105741.4063</Point>
+      <Point Name="33">+291019.1563-1110118.2813</Point>
+      <Point Name="40">+284820.6172-1112436.2500</Point>
+      <Point Name="40">+285850.2891-1104232.3750</Point>
+      <Point Name="40">+291352.4375-1110205.2813</Point>
+      <Point Name="41">+291954.5156-1111218.5625</Point>
+      <Point Name="46">+292845.4297-1112129.5938</Point>
+      <Point Name="55">+292637.0859-1105111.1563</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR) MMHO" Priority="1">
+  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
   	<Line Pattern="Dashed">
 +291746.755-1110252.290/
 +291746.176-1110219.344/
@@ -493,5 +493,5 @@
 +291744.440-1110358.129/
 +291746.176-1110325.236/
 +291746.755-1110252.290</Line>
-</Map>
+  </Map>
 </Maps>
