@@ -136,6 +136,21 @@
         <STAR Name="OTIV1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMCE">
+      <Runway Name="13" DataRunway="13">
+        <SID Name="CME4A" Default="True" />
+        <SID Name="CONT2A" />
+        <SID Name="DUTKA2" />
+        <SID Name="TETU2A" />
+      </Runway>
+      <Runway Name="31" DataRunway="31">
+        <SID Name="CME4B" Default="True" />
+        <SID Name="CONT2B" />
+        <SID Name="PAVON2" />
+        <SID Name="PIGNO2" />
+        <SID Name="TETU2B" />
+      </Runway>
+    </Airport>
     <Airport Name="MMCL">
       <Runway Name="02" DataRunway="02">
         <SID Name="CUL3A" Default="True" />
@@ -183,6 +198,38 @@
         <STAR Name="SAVO1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMCM">
+      <Runway Name="10" DataRunway="10">
+        <SID Name="CTM3A" Default="True" />
+      </Runway>
+      <Runway Name="28" DataRunway="28">
+        <SID Name="CTM3B" Default="True" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMCN">
+      <Runway Name="13" DataRunway="13">
+        <SID Name="CEN4A" Default="True" />
+        <SID Name="BAMPO3" />
+        <SID Name="EMANI2" />
+        <SID Name="ENATA3" />
+        <SID Name="OLUL2A" />
+        <SID Name="TETIN1" />
+      </Runway>
+      <Runway Name="31" DataRunway="31">
+        <SID Name="CEN4B" Default="True" />
+        <SID Name="OLUL2B" />
+        <SID Name="SUTNU2" />
+        <SID Name="USBEN3" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMCP">
+      <Runway Name="16" DataRunway="16">
+        <SID Name="CPE3A" Default="True" />
+      </Runway>
+      <Runway Name="34" DataRunway="34">
+        <SID Name="CPE3B" Default="True" />
+      </Runway>
+    </Airport>
     <Airport Name="MMCS">
       <Runway Name="03" DataRunway="03">
         <SID Name="CJS3A" Default="True" />
@@ -192,6 +239,14 @@
         <SID Name="DUXAT1" />
         <SID Name="GADMI3" />
         <SID Name="OMSEK1" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMCT">
+      <Runway Name="10" DataRunway="10">
+        <SID Name="CZA4A" Default="True" />
+      </Runway>
+      <Runway Name="28" DataRunway="28">
+        <SID Name="CZA4B" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="MMCU">
@@ -314,6 +369,14 @@
         <SID Name="XOSI1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMEP">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="TNY3A" Default="True" />
+      </Runway>
+      <Runway Name="20" DataRunway="20">
+        <SID Name="TNY3B" Default="True" />
+      </Runway>
+    </Airport>
     <Airport Name="MMES">
       <Runway Name="29" DataRunway="29">
         <SID Name="ENS3" Default="True" />
@@ -395,6 +458,11 @@
         <STAR Name="USBI1B" />
         <STAR Name="USBI1D" />
         <STAR Name="VOLA1B" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMGM">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="GYM1" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="MMHO">
@@ -479,6 +547,54 @@
         <STAR Name="NOVU1C" />
         <STAR Name="OMIX1B" />
         <STAR Name="RAIL1B" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMLM">
+      <Runway Name="09" DataRunway="09">
+        <SID Name="LMM4A" Default="True" />
+        <SID Name="INDIO3" />
+        <SID Name="KEBEX1" />
+        <SID Name="NOVOP2" />
+        <SID Name="TEKAS3" />
+        <SID Name="URSAT2" />
+      </Runway>
+      <Runway Name="27" DataRunway="27">
+        <SID Name="LMM4B" Default="True" />
+        <SID Name="COPAS4" />
+        <SID Name="MEDES2" />
+        <SID Name="NUDIL2" />
+        <SID Name="VESKI2" />
+        <SID Name="VIKVU2" />
+        <SID Name="XULMA3" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMLP">
+      <Runway Name="18" DataRunway="18">
+        <SID Name="LAP4A" Default="True" />
+        <SID Name="AMAR2B" />
+        <SID Name="DAPIS1" />
+        <SID Name="MANU2A" />
+        <SID Name="MORS2A" />
+        <SID Name="ONGE2A" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <SID Name="LAP3B" Default="True" />
+        <SID Name="DURTU2" />
+        <SID Name="MANU2B" />
+        <SID Name="MORS2B" />
+        <SID Name="ONGE2B" />
+        <SID Name="ORCAS2" />
+        <SID Name="PISET1" />
+        <SID Name="TULES2" />
+        <SID Name="XOMS2B" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMLT">
+      <Runway Name="16" DataRunway="16">
+        <SID Name="LTO4A" Default="True" />
+      </Runway>
+      <Runway Name="34" DataRunway="34">
+        <SID Name="LTO4B" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="MMLO">
@@ -647,6 +763,20 @@
         <STAR Name="NAPR1F" />
       </Runway>
     </Airport>
+    <Airport Name="MMML">
+      <Runway Name="10" DataRunway="10">
+        <SID Name="MXL2A" Default="True" />
+        <SID Name="AMUDI1" />
+        <SID Name="AVRIL2" />
+        <SID Name="ONDU2A" />
+      </Runway>
+      <Runway Name="28" DataRunway="28">
+        <SID Name="MXL3B" Default="True" />
+        <SID Name="NORAR2" />
+        <SID Name="ONDU2B" />
+        <SID Name="URSIX3" />
+      </Runway>
+    </Airport>
     <Airport Name="MMMM">
       <Runway Name="05" DataRunway="05">
         <SID Name="MLM4A" Default="True" />
@@ -664,6 +794,14 @@
         <SID Name="SUVSU3" />
         <SID Name="TADKO3" />
         <SID Name="TUZAS3" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMMT">
+      <Runway Name="01" DataRunway="01">
+        <SID Name="MTT3A" Default="True" />
+      </Runway>
+      <Runway Name="19" DataRunway="19">
+        <SID Name="MTT3B" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="MMMV">
@@ -859,6 +997,14 @@
         <STAR Name="TAKA1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMPE">
+      <Runway Name="18" DataRunway="18">
+        <SID Name="PPE1A" Default="True" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <SID Name="PPE1B" Default="True" />
+      </Runway>
+    </Airport>
     <Airport Name="MMPG">
       <Runway Name="12" DataRunway="12">
         <SID Name="PNG4A" Default="True" />
@@ -870,6 +1016,14 @@
     <Airport Name="MMPN">
       <Runway Name="20" DataRunway="20">
         <SID Name="UPN3" Default="True" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMPQ">
+      <Runway Name="10" DataRunway="10">
+        <SID Name="PQE2A" Default="True" />
+      </Runway>
+      <Runway Name="28" DataRunway="28">
+        <SID Name="PQE2B" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="MMPR">
@@ -1075,6 +1229,22 @@
         <SID Name="XOTIN3" />
       </Runway>
     </Airport>
+    <Airport Name="MMTG">
+      <Runway Name="14" DataRunway="14">
+        <SID Name="TGZ3A" Default="True" />
+        <SID Name="KESLI1" />
+        <SID Name="LENOP1" />
+        <SID Name="ONVIP2" />
+      </Runway>
+      <Runway Name="32" DataRunway="32">
+        <SID Name="TGZ3B" Default="True" />
+        <SID Name="KIPAG1" />
+        <SID Name="OMVAB2" />
+        <SID Name="SAXAV1" />
+        <SID Name="URVOD2" />
+        <SID Name="XOMSO2" />
+      </Runway>
+    </Airport>
     <Airport Name="MMTJ">
       <Runway Name="09" DataRunway="09">
         <SID Name="TIJ3B" Default="True" />
@@ -1206,6 +1376,19 @@
         <STAR Name="XOSU1B" />
       </Runway>
     </Airport>
+    <Airport Name="MMTP">
+      <Runway Name="05" DataRunway="05">
+        <SID Name="TAP3A" Default="True" />
+        <SID Name="CARE1A" />
+        <SID Name="MARIX1" />
+      </Runway>
+      <Runway Name="23" DataRunway="23">
+        <SID Name="TAP3B" Default="True" />
+        <SID Name="CARE1B" />
+        <SID Name="PENVA1" />
+        <SID Name="VILGI1" />
+      </Runway>
+    </Airport>
     <Airport Name="MMUN">
       <Runway Name="12R" DataRunway="12R">
         <SID Name="CUN3A" Default="True" />
@@ -1304,6 +1487,22 @@
         <STAR Name="SIGM1I" />
         <STAR Name="VOMA1C" />
         <STAR Name="XUDU1E" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMVA">
+      <Runway Name="08" DataRunway="08">
+        <SID Name="VSA3A" Default="True" />
+        <SID Name="AGAVE3" />
+        <SID Name="NOXEG2" />
+        <SID Name="SIKDI2" />
+        <SID Name="TAKAN2" />
+        <SID Name="VIDBA2" />
+      </Runway>
+      <Runway Name="26" DataRunway="26">
+        <SID Name="VSA3B" Default="True" />
+        <SID Name="GRUTA4" />
+        <SID Name="NUKAR3" />
+        <SID Name="YOLKO3" />
       </Runway>
     </Airport>
     <Airport Name="MMVR">
@@ -5142,6 +5341,34 @@
     <STAR Name="OTIV1B" Airport="MMCB" Runways="20">
       <Route Runway="20">OTIVO CB600 CB601 SEKOS</Route>
     </STAR>
+    <!--MMCE-->
+    <SID Name="CME4A" Airport="MMCE" Runways="13">
+      <Route Runway="13">CME</Route>
+    </SID>
+    <SID Name="CME4B" Airport="MMCE" Runways="31">
+      <Route Runway="31">CME</Route>
+    </SID>
+    <SID Name="CONT2A" Airport="MMCE" Runways="13">
+      <Route Runway="13">CONTO</Route>
+    </SID>
+    <SID Name="CONT2B" Airport="MMCE" Runways="31">
+      <Route Runway="31">CONTO</Route>
+    </SID>
+    <SID Name="DUTKA2" Airport="MMCE" Runways="13">
+      <Route Runway="13">DUTKA</Route>
+    </SID>
+    <SID Name="PAVON2" Airport="MMCE" Runways="31">
+      <Route Runway="31">PAVON</Route>
+    </SID>
+    <SID Name="PIGNO2" Airport="MMCE" Runways="31">
+      <Route Runway="31">PIGNO</Route>
+    </SID>
+    <SID Name="TETU2A" Airport="MMCE" Runways="13">
+      <Route Runway="13">TETUK</Route>
+    </SID>
+    <SID Name="TETU2B" Airport="MMCE" Runways="31">
+      <Route Runway="31">TETUK</Route>
+    </SID>
     <!--MMCL-->
     <SID Name="CUL3A" Airport="MMCL" Runways="02">
       <Route Runway="02">CUL</Route>
@@ -5266,8 +5493,51 @@
     <STAR Name="SAVO1B" Airport="MMCL" Runways="20">
       <Route Runway="20">SAVOM CL521 CL803 SAVIR</Route>
     </STAR>
-
-
+    <!--MMCM-->
+    <SID Name="CTM3A" Airport="MMCM" Runways="10">
+      <Route Runway="10">CTM</Route>
+    </SID>
+    <SID Name="CTM3B" Airport="MMCM" Runways="28">
+      <Route Runway="28">CTM</Route>
+    </SID>
+    <!--MMCN-->
+    <SID Name="CEN4A" Airport="MMCN" Runways="13">
+      <Route Runway="13">CEN</Route>
+    </SID>
+    <SID Name="CEN4B" Airport="MMCN" Runways="31">
+      <Route Runway="31">CEN</Route>
+    </SID>
+    <SID Name="BAMPO3" Airport="MMCN" Runways="13">
+      <Route Runway="13">BAMPO</Route>
+    </SID>
+    <SID Name="EMANI2" Airport="MMCN" Runways="13">
+      <Route Runway="13">EMANI</Route>
+    </SID>
+    <SID Name="ENATA3" Airport="MMCN" Runways="13">
+      <Route Runway="13">ENATA</Route>
+    </SID>
+    <SID Name="OLUL2A" Airport="MMCN" Runways="13">
+      <Route Runway="13">OLULI</Route>
+    </SID>
+    <SID Name="OLUL2B" Airport="MMCN" Runways="31">
+      <Route Runway="31">OLULI</Route>
+    </SID>
+    <SID Name="SUTNU2" Airport="MMCN" Runways="31">
+      <Route Runway="31">SUTNU</Route>
+    </SID>
+    <SID Name="TETIN1" Airport="MMCN" Runways="13">
+      <Route Runway="13">TETIN</Route>
+    </SID>
+    <SID Name="USBEN3" Airport="MMCN" Runways="31">
+      <Route Runway="31">USBEN</Route>
+    </SID>
+    <!--MMCP-->
+    <SID Name="CPE3A" Airport="MMCP" Runways="16">
+      <Route Runway="16">CPE</Route>
+    </SID>
+    <SID Name="CPE3B" Airport="MMCP" Runways="34">
+      <Route Runway="34">CPE</Route>
+    </SID>
     <!--MMCS-->
     <SID Name="CJS3A" Airport="MMCS" Runways="03">
       <Route Runway="03">CJS</Route>
@@ -5283,6 +5553,13 @@
     </SID>
     <SID Name="OMSEK1" Airport="MMCS" Runways="21">
       <Route Runway="21">OMSEK</Route>
+    </SID>
+    <!--MMCT-->
+    <SID Name="CZA4A" Airport="MMCT" Runways="10">
+      <Route Runway="10">CZA</Route>
+    </SID>
+    <SID Name="CZA4B" Airport="MMCT" Runways="28">
+      <Route Runway="28">CZA</Route>
     </SID>
     <!--MMCU-->
     <SID Name="CUU4A" Airport="MMCU" Runways="18L">
@@ -5826,14 +6103,18 @@
     <STAR Name="VOLA1B" Airport="MMGL" Runways="28">
       <Route Runway="28">VOLAT GL860 GL861 LORSI</Route>
     </STAR>
+    <!--MMGM-->
+    <SID Name="GYM1" Airport="MMGM" Runways="02">
+      <Route Runway="02">GYM</Route>
+    </SID>
     <!--MMHO-->
     <SID Name="DUVUV2" Airport="MMHO" Runways="05">
       <Route Runway="05">DUVUV</Route>
     </SID>
-        <SID Name="HMO5A" Airport="MMHO" Runways="05">
+    <SID Name="HMO5A" Airport="MMHO" Runways="05">
       <Route Runway="05">HMO</Route>
     </SID>
-        <SID Name="MIUR4A" Airport="MMHO" Runways="05">
+    <SID Name="MIUR4A" Airport="MMHO" Runways="05">
       <Route Runway="05">MIURA</Route>
     </SID>
     <SID Name="NOTO2A" Airport="MMHO" Runways="05">
@@ -5921,8 +6202,8 @@
       <Route Runway="23">HO801 HO501 HO531 BOPAP</Route>
     </SID>
     <SID Name="GYM1C" Airport="MMHO" Runways="23">
-    </SID>
       <Route Runway="23">HO801 GYM</Route>
+    </SID>
     <SID Name="IGTA1D" Airport="MMHO" Runways="23">
       <Route Runway="23">HO801 HO504 HO505 HO502 HO503 IGTAN</Route>
     </SID>
@@ -6027,6 +6308,53 @@
     <STAR Name="RAIL1B" Airport="MMIO" Runways="35">
       <Route Runway="35">RAILY VOLIK</Route>
     </STAR>
+    <!--MMIO-->
+    <SID Name="IZT1A" Airport="MMIT" Runways="18">
+      <Route Runway="18">IZT</Route>
+    </SID>
+    <SID Name="IZT1B" Airport="MMIT" Runways="36">
+      <Route Runway="36">IZT</Route>
+    </SID>
+    <!--MMLM-->
+    <SID Name="LMM4A" Airport="MMLM" Runways="09">
+      <Route Runway="09">LMM</Route>
+    </SID>
+    <SID Name="LMM4B" Airport="MMLM" Runways="27">
+      <Route Runway="27">LMM</Route>
+    </SID>
+    <SID Name="COPAS4" Airport="MMLM" Runways="27">
+      <Route Runway="27">COPAS</Route>
+    </SID>
+    <SID Name="INDIO3" Airport="MMLM" Runways="09">
+      <Route Runway="09">INDIO</Route>
+    </SID>
+    <SID Name="KEBEX1" Airport="MMLM" Runways="09">
+      <Route Runway="09">KEBEX</Route>
+    </SID>
+    <SID Name="MEDES2" Airport="MMLM" Runways="27">
+      <Route Runway="27">MEDES</Route>
+    </SID>
+    <SID Name="NOVOP2" Airport="MMLM" Runways="09">
+      <Route Runway="09">NOVOP</Route>
+    </SID>
+    <SID Name="NUDIL2" Airport="MMLM" Runways="27">
+      <Route Runway="27">NUDIL</Route>
+    </SID>
+    <SID Name="TEKAS3" Airport="MMLM" Runways="09">
+      <Route Runway="09">TEKAS</Route>
+    </SID>
+    <SID Name="URSAT2" Airport="MMLM" Runways="09">
+      <Route Runway="09">URSAT</Route>
+    </SID>
+    <SID Name="VESKI2" Airport="MMLM" Runways="27">
+      <Route Runway="27">VESKI</Route>
+    </SID>
+    <SID Name="VIKVU2" Airport="MMLM" Runways="27">
+      <Route Runway="27">VIKVU</Route>
+    </SID>
+    <SID Name="XULMA3" Airport="MMLM" Runways="27">
+      <Route Runway="27">XULMA</Route>
+    </SID>
     <!--MMLO-->
     <SID Name="BJX3A" Airport="MMLO" Runways="13">
       <Route Runway="13">BJX</Route>
@@ -6124,6 +6452,59 @@
     <STAR Name="OMIN1D" Airport="MMLO" Runways="31">
       <Route Runway="31">OMINA AVREN XESIN</Route>
     </STAR>
+    <!--MMLP-->
+    <SID Name="LAP4A" Airport="MMLP" Runways="18">
+      <Route Runway="18">LAP</Route>
+    </SID>
+    <SID Name="LAP3B" Airport="MMLP" Runways="36">
+      <Route Runway="36">LAP</Route>
+    </SID>
+    <SID Name="AMAR2B" Airport="MMLP" Runways="18">
+      <Route Runway="18">AMARI</Route>
+    </SID>
+    <SID Name="DAPIS1" Airport="MMLP" Runways="18">
+      <Route Runway="18">DAPIS</Route>
+    </SID>
+    <SID Name="DURTU2" Airport="MMLP" Runways="36">
+      <Route Runway="36">DURTU</Route>
+    </SID>
+    <SID Name="MANU2A" Airport="MMLP" Runways="18">
+      <Route Runway="18">MANUS</Route>
+    </SID>
+    <SID Name="MANU2B" Airport="MMLP" Runways="36">
+      <Route Runway="36">MANUS</Route>
+    </SID>
+    <SID Name="MORS2A" Airport="MMLP" Runways="18">
+      <Route Runway="18">MORSA</Route>
+    </SID>
+    <SID Name="MORS2B" Airport="MMLP" Runways="36">
+      <Route Runway="36">MORSA</Route>
+    </SID>
+    <SID Name="ONGE2A" Airport="MMLP" Runways="18">
+      <Route Runway="18">ONGEX</Route>
+    </SID>
+    <SID Name="ONGE2B" Airport="MMLP" Runways="36">
+      <Route Runway="36">ONGEX</Route>
+    </SID>
+    <SID Name="ORCAS2" Airport="MMLP" Runways="36">
+      <Route Runway="36">ORCAS</Route>
+    </SID>
+    <SID Name="PISET1" Airport="MMLP" Runways="36">
+      <Route Runway="36">PISET</Route>
+    </SID>
+    <SID Name="TULES2" Airport="MMLP" Runways="36">
+      <Route Runway="36">TULES</Route>
+    </SID>
+    <SID Name="XOMS2B" Airport="MMLP" Runways="36">
+      <Route Runway="36">XOMSA</Route>
+    </SID>
+    <!--MMLT-->
+    <SID Name="LTO4A" Airport="MMLT" Runways="16">
+      <Route Runway="16">LTO</Route>
+    </SID>
+    <SID Name="LTO4B" Airport="MMLT" Runways="34">
+      <Route Runway="34">LTO</Route>
+    </SID>
     <!--MMMA-->
     <SID Name="MAM4A" Airport="MMMA" Runways="15">
       <Route Runway="15">MAM</Route>
@@ -6462,6 +6843,31 @@
     <STAR Name="NAPR1F" Airport="MMMD" Runways="36">
       <Route Runway="36">NAPRI BUYCK MD914 ULILI</Route>
     </STAR>
+    <!--MMML-->
+    <SID Name="MXL2A" Airport="MMML" Runways="10">
+      <Route Runway="10">MXL</Route>
+    </SID>
+    <SID Name="MXL3B" Airport="MMML" Runways="28">
+      <Route Runway="28">MXL</Route>
+    </SID>
+    <SID Name="AMUDI1" Airport="MMML" Runways="10">
+      <Route Runway="10">AMUDI</Route>
+    </SID>
+    <SID Name="AVRIL2" Airport="MMML" Runways="10">
+      <Route Runway="10">AVRIL</Route>
+    </SID>
+    <SID Name="NORAR2" Airport="MMML" Runways="28">
+      <Route Runway="28">NORAR</Route>
+    </SID>
+    <SID Name="ONDU2A" Airport="MMML" Runways="10">
+      <Route Runway="10">ONDUM</Route>
+    </SID>
+    <SID Name="ONDU2B" Airport="MMML" Runways="28">
+      <Route Runway="28">ONDUM</Route>
+    </SID>
+    <SID Name="URSIX3" Airport="MMML" Runways="28">
+      <Route Runway="28">URSIX</Route>
+    </SID>
     <!--MMMM-->
     <SID Name="MLM4A" Airport="MMMM" Runways="05">
       <Route Runway="05">MLM</Route>
@@ -6501,6 +6907,13 @@
     </SID>
     <SID Name="VERBA4" Airport="MMMM" Runways="05">
       <Route Runway="05">VERBA</Route>
+    </SID>
+    <!--MMMT-->
+    <SID Name="MTT3A" Airport="MMMT" Runways="01">
+      <Route Runway="01">MTT</Route>
+    </SID>
+    <SID Name="MTT3B" Airport="MMMT" Runways="19">
+      <Route Runway="19">MTT</Route>
     </SID>
     <!--MMMV-->
     <SID Name="MOV4A" Airport="MMMV" Runways="06R">
@@ -6817,6 +7230,49 @@
     <STAR Name="SLW1C" Airport="MMMY" Runways="29">
       <Route Runway="29">SLW ESRAP WICLO MISUL MY410 CLOVR OKOTO</Route>
     </STAR>
+    <!--MMMZ-->
+    <SID Name="MZT3A" Airport="MMMZ" Runways="08">
+      <Route Runway="08">MZT</Route>
+    </SID>
+    <SID Name="MZT3B" Airport="MMMZ" Runways="26">
+      <Route Runway="26">MZT</Route>
+    </SID>
+    <SID Name="AJORO2" Airport="MMMT" Runways="01">
+      <Route Runway="01">AJORO</Route>
+    </SID>
+    <SID Name="ALILI2" Airport="MMMT" Runways="01">
+      <Route Runway="01">ALILI</Route>
+    </SID>
+    <SID Name="DUPOP1" Airport="MMMZ" Runways="26">
+      <Route Runway="26">DUPOP</Route>
+    </SID>
+    <SID Name="GAMOS2" Airport="MMMZ" Runways="26">
+      <Route Runway="26">GAMOS</Route>
+    </SID>
+    <SID Name="ISLAS2" Airport="MMMZ" Runways="26">
+      <Route Runway="26">ISLAS</Route>
+    </SID>
+    <SID Name="LESIT1" Airport="MMMT" Runways="01">
+      <Route Runway="01">LESIT</Route>
+    </SID>
+    <SID Name="PALIA2" Airport="MMMZ" Runways="26">
+      <Route Runway="26">PALIA</Route>
+    </SID>
+    <SID Name="POST2A" Airport="MMMT" Runways="01">
+      <Route Runway="01">POSTA</Route>
+    </SID>
+    <SID Name="POST2B" Airport="MMMZ" Runways="26">
+      <Route Runway="26">POSTA</Route>
+    </SID>
+    <SID Name="SARIO2" Airport="MMMT" Runways="01">
+      <Route Runway="01">SARIO</Route>
+    </SID>
+    <SID Name="UKRIG1" Airport="MMMZ" Runways="26">
+      <Route Runway="26">UKRIG</Route>
+    </SID>
+    <SID Name="XUBUD1" Airport="MMMT" Runways="01">
+      <Route Runway="01">XUBUD</Route>
+    </SID>
     <!--MMNL-->
     <SID Name="NLD3A" Airport="MMNL" Runways="14">
       <Route Runway="14">NLD</Route>
@@ -6998,6 +7454,13 @@
     <STAR Name="TAKA1B" Airport="MMPB" Runways="35">
       <Route Runway="35">TAKAL PESTA</Route>
     </STAR>
+    <!--MMPE-->
+    <SID Name="PPE1A" Airport="MMPE" Runways="18">
+      <Route Runway="18">PPE</Route>
+    </SID>
+    <SID Name="PPE1B" Airport="MMPE" Runways="36">
+      <Route Runway="36">PPE</Route>
+    </SID>
     <!--MMPG-->
     <SID Name="PNG4A" Airport="MMPG" Runways="12">
       <Route Runway="12">PNG</Route>
@@ -7008,6 +7471,13 @@
     <!--MMPN-->
     <SID Name="UPN3" Airport="MMPN" Runways="20">
       <Route Runway="20">UPN</Route>
+    </SID>
+    <!--MMPE-->
+    <SID Name="PQE2A" Airport="MMPQ" Runways="10">
+      <Route Runway="10">PQE</Route>
+    </SID>
+    <SID Name="PQE2B" Airport="MMPQ" Runways="28">
+      <Route Runway="28">PQE</Route>
     </SID>
     <!--MMPR-->
     <SID Name="PVR4A" Airport="MMPR" Runways="04">
@@ -7482,6 +7952,37 @@
     <SID Name="XOTIN3" Airport="MMTC" Runways="31">
       <Route Runway="31">XOTIN</Route>
     </SID>
+    <!--MMTC-->
+    <SID Name="TGZ3A" Airport="MMTG" Runways="14">
+      <Route Runway="14">TGZ</Route>
+    </SID>
+    <SID Name="TGZ3B" Airport="MMTG" Runways="32">
+      <Route Runway="32">TGZ</Route>
+    </SID>
+    <SID Name="KESLI1" Airport="MMTG" Runways="14">
+      <Route Runway="14">KESLI</Route>
+    </SID>
+    <SID Name="KIPAG1" Airport="MMTG" Runways="32">
+      <Route Runway="32">KIPAG</Route>
+    </SID>
+    <SID Name="LENOP1" Airport="MMTG" Runways="14">
+      <Route Runway="14">LENOP</Route>
+    </SID>
+    <SID Name="OMVAB2" Airport="MMTG" Runways="32">
+      <Route Runway="32">OMVAB</Route>
+    </SID>
+    <SID Name="ONVIP2" Airport="MMTG" Runways="14">
+      <Route Runway="14">ONVIP</Route>
+    </SID>
+    <SID Name="SAXAV1" Airport="MMTG" Runways="32">
+      <Route Runway="32">SAXAV</Route>
+    </SID>
+    <SID Name="URVOD2" Airport="MMTG" Runways="32">
+      <Route Runway="32">ORVOD</Route>
+    </SID>
+    <SID Name="XOMSO2" Airport="MMTG" Runways="32">
+      <Route Runway="32">XOMSO</Route>
+    </SID>
     <!--MMTJ-->
     <SID Name="TIJ3B" Airport="MMTJ" Runways="09">
       <Route Runway="09">TIJ</Route>
@@ -7798,6 +8299,28 @@
     <STAR Name="XOSU1B" Airport="MMTO" Runways="33">
       <Route Runway="33">XOSUD ALPES IPSOP XOLVI</Route>
     </STAR>
+    <!--MMTP-->
+    <SID Name="TAP3A" Airport="MMTP" Runways="05">
+      <Route Runway="05">TAP</Route>
+    </SID>
+    <SID Name="TAP3B" Airport="MMTP" Runways="23">
+      <Route Runway="23">TAP</Route>
+    </SID>
+    <SID Name="CARE1A" Airport="MMTP" Runways="05">
+      <Route Runway="05">CAREL</Route>
+    </SID>
+    <SID Name="CARE1B" Airport="MMTP" Runways="23">
+      <Route Runway="23">CAREL</Route>
+    </SID>
+    <SID Name="MARIX1" Airport="MMTP" Runways="05">
+      <Route Runway="05">MARIX</Route>
+    </SID>
+    <SID Name="PENVA1" Airport="MMTP" Runways="23">
+      <Route Runway="23">PENVA</Route>
+    </SID>
+    <SID Name="VILGI1" Airport="MMTP" Runways="23">
+      <Route Runway="23">VILGI</Route>
+    </SID>
     <!--MMUN-->
     <SID Name="CUN3A" Airport="MMUN" Runways="12R">
       <Route Runway="12R">CUN</Route>
@@ -8056,6 +8579,37 @@
     <STAR Name="XUDU1E" Airport="MMUN" Runways="30R">
       <Route Runway="30R">XUDUN BEPOR BUBUN SCAHA UN605 UN608 DEPVA LOPKA</Route>
     </STAR>
+    <!--MMVA-->
+    <SID Name="VSA3A" Airport="MMVA" Runways="08">
+      <Route Runway="08">VSA</Route>
+    </SID>
+    <SID Name="VSA3B" Airport="MMVA" Runways="26">
+      <Route Runway="26">VSA</Route>
+    </SID>
+    <SID Name="AGAVE3" Airport="MMVA" Runways="08">
+      <Route Runway="08">AGAVE</Route>
+    </SID>
+    <SID Name="GRUTA4" Airport="MMVA" Runways="26">
+      <Route Runway="26">GRUTA</Route>
+    </SID>
+    <SID Name="NOXEG2" Airport="MMVA" Runways="08">
+      <Route Runway="08">NOXEG</Route>
+    </SID>
+    <SID Name="NUKAR3" Airport="MMVA" Runways="26">
+      <Route Runway="26">NUKAR</Route>
+    </SID>
+    <SID Name="SIKDI2" Airport="MMVA" Runways="08">
+      <Route Runway="08">SIKDI</Route>
+    </SID>
+    <SID Name="TAKAN2" Airport="MMVA" Runways="08">
+      <Route Runway="08">TAKAN</Route>
+    </SID>
+    <SID Name="VIDBA2" Airport="MMVA" Runways="08">
+      <Route Runway="08">VIDBA</Route>
+    </SID>
+    <SID Name="YOLKO3" Airport="MMVA" Runways="26">
+      <Route Runway="26">YOLKO</Route>
+    </SID>
     <!--MMVR-->
     <SID Name="VER1A" Airport="MMVR" Runways="01">
       <Route Runway="01">VER</Route>
@@ -8356,6 +8910,10 @@
       <Runway Name="02" Position="+184925.970-0991606.490" />
       <Runway Name="20" Position="+185043.030-0991516.610" />
     </Airport>
+    <Airport ICAO="MMCE" Position="+183907.072-0914758.356" Elevation="10">
+      <Runway Name="13" Position="+183934.224-0914822.440" />
+      <Runway Name="31" Position="+183839.910-0914734.313" />
+    </Airport>
     <Airport ICAO="MMCL" Position="+244554.215-1072830.547" Elevation="105">
       <Runway Name="02" Position="+244522.920-1072852.900" />
       <Runway Name="20" Position="+244618.240-1072813.370" />
@@ -8395,10 +8953,6 @@
       <Runway Name="33" Position="+234139.670-0985707.850" />
     </Airport>
     <Airport ICAO="MMCY" Position="+203300.000-1005400.000" Elevation="5709" />
-    <Airport ICAO="MMCE" Position="+183907.071-0914758.355" Elevation="10">
-      <Runway Name="16" Position="+183934.224-0914822.439" />
-      <Runway Name="34" Position="+183839.909-0914734.313" />
-    </Airport>
     <Airport ICAO="MMCZ" Position="+203119.430-0865545.400" Elevation="2467">
       <Runway Name="12" Position="+203109.529-0865617.574" />
       <Runway Name="30" Position="+203109.529-0865617.574" />
@@ -8445,15 +8999,7 @@
       <Runway Name="36" Position="+162619.638-0950537.264" />
     </Airport>
     <Airport ICAO="MMJA" Position="+192830.201-0964751.025" Elevation="3136" />
-    <Airport ICAO="MMLP" Position="+240421.889-1102145.150" Elevation="69">
-      <Runway Name="18" Position="+240502.150-1102139.312" />
-      <Runway Name="36" Position="+240341.602-1102150.986" />
-    </Airport>
     <Airport ICAO="MMJC" Position="+193429.340-0991720.100" Elevation="8120" />
-    <Airport ICAO="MMSL" Position="+225653.965-1095617.973" Elevation="692">
-      <Runway Name="11" Position="+225710.810-1095650.230" />
-      <Runway Name="29" Position="+225637.170-1095545.780" />
-    </Airport>
     <Airport ICAO="MMLO" Position="+205935.880-1012851.460" Elevation="5956">
       <Runway Name="13" Position="+210015.510-1012934.930" />
       <Runway Name="31" Position="+205856.240-1012808.000" />
@@ -8461,6 +9007,10 @@
     <Airport ICAO="MMLM" Position="+254107.880-1090452.190" Elevation="16">
       <Runway Name="09" Position="+254113.460-1090527.620" />
       <Runway Name="27" Position="+254102.280-1090416.690" />
+    </Airport>
+    <Airport ICAO="MMLP" Position="+240421.889-1102145.150" Elevation="69">
+      <Runway Name="18" Position="+240502.150-1102139.312" />
+      <Runway Name="36" Position="+240341.602-1102150.986" />
     </Airport>
     <Airport ICAO="MMLT" Position="+255923.530-1112054.060" Elevation="36">
       <Runway Name="16" Position="+255959.058-1112058.877" />
@@ -8529,8 +9079,8 @@
     </Airport>
     <Airport ICAO="MMPC" Position="+200425.000-0984700.000" Elevation="7598" />
     <Airport ICAO="MMPE" Position="+312103.240-1131800.900" Elevation="88">
-      <Runway Name="09" Position="+312146.380-1131809.120" />
-      <Runway Name="27" Position="+312027.240-1131829.940" />
+      <Runway Name="18" Position="+312146.380-1131809.120" />
+      <Runway Name="36" Position="+312027.240-1131829.940" />
     </Airport>
     <Airport ICAO="MMPG" Position="+283738.530-1003203.860" Elevation="901">
       <Runway Name="12" Position="+283758.292-1003233.935" />
@@ -8565,6 +9115,10 @@
       <Runway Name="34" Position="+230818.898-1094307.170" />
     </Airport>
     <Airport ICAO="MMSF" Position="+305553.000-1144832.000" Elevation="98" />
+    <Airport ICAO="MMSL" Position="+225653.965-1095617.973" Elevation="692">
+      <Runway Name="11" Position="+225710.810-1095650.230" />
+      <Runway Name="29" Position="+225637.170-1095545.780" />
+    </Airport>
     <Airport ICAO="MMSP" Position="+221515.342-1005550.737" Elevation="6035">
       <Runway Name="14" Position="+221624.813-1005635.068" />
       <Runway Name="32" Position="+221500.809-1005541.445" />
@@ -8580,8 +9134,8 @@
       <Runway Name="27" Position="+221802.416-0975142.371" />
     </Airport>
     <Airport ICAO="MMTP" Position="+144739.664-0922211.888" Elevation="97">
-      <Runway Name="13" Position="+144721.250-0922239.590" />
-      <Runway Name="31" Position="+144758.060-0922144.180" />
+      <Runway Name="05" Position="+144721.250-0922239.590" />
+      <Runway Name="23" Position="+144758.060-0922144.180" />
     </Airport>
     <Airport ICAO="MMTC" Position="+253405.840-1032438.440" Elevation="3688">
       <Runway Name="13" Position="+253419.203-1032452.810" />
