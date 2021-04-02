@@ -2019,14 +2019,20 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Combinado) - MXA" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Combinado) - MXA" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXA" />
+        <Sector Name="MXAC" />
+        <Sector Name="TOA" />
+        <Sector Name="PBA" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Volcanes" />
         <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Mexico/Aeropuerto - Corredor Satélite" />
+        <Map Name="Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
         <Map Name="Mexico/Aeropuerto - Sector Aproximación Toluca" />
         <Map Name="Mexico/Aeropuerto - Sector Aproximación Puebla" />
 
@@ -2040,7 +2046,7 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
+        <Map Name="ALL/Sector - Radioayudas" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
@@ -2062,19 +2068,25 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Llegadas) - MXL" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Llegadas) - MXL" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXL" />
+        <Sector Name="MXLN5" />
+        <Sector Name="MXLS5" />
+        <Sector Name="TOA" />
+        <Sector Name="PBA" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Volcanes" />
         <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
-
+        <Map Name="Mexico/Aeropuerto - Corredor Satélite" />
+        <Map Name="Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
         <Map Name="Mexico/Aeropuerto - Sector Aproximación Toluca" />
-        <Map Name="Mexico/Aeropuerto - Sector Aproximación Puebla (Cortado)" />
-        <Map Name="Mexico/Pistas 05 - Sectores Llegadas" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Puebla" />
 
+        <Map Name="Mexico/Pistas 05 - Sectores Llegadas" />
         <Map Name="Mexico/Pistas 05 - Llegadas RNAV" />
         <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Nombres)" />
         <Map Name="Mexico/Pistas 05 - Llegadas RNAV (Vectores)" />
@@ -2083,7 +2095,7 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
+        <Map Name="ALL/Sector - Radioayudas" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
@@ -2105,17 +2117,19 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Separado) - MXA" Type="ASD" DefaultCenter="+192156.773-0992016.469" DefaultRange="150" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Separado) - MXA" Type="ASD" DefaultCenter="+192156.773-0992016.469" DefaultRange="150" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXA" />
+        <Sector Name="MXA5" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Volcanes" />
         <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="Mexico/Aeropuerto - Sector Aproximación Toluca" />
-        <Map Name="Mexico/Aeropuerto - Sector Aproximación Puebla (Cortado)" />
+        <Map Name="Mexico/Aeropuerto - Sector Aproximación Puebla" />
         <Map Name="Mexico/Pistas 05 - Sectores Aproximación" />
 
         <Map Name="Mexico/Pistas 05 - Llegadas RNAV" />
@@ -2126,7 +2140,7 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
+        <Map Name="ALL/Sector - Radioayudas" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
@@ -2148,12 +2162,14 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Final) - MXF" Type="ASD" DefaultCenter="+192418.890-0990748.500" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación México (Final) - MXF" Type="ASD" DefaultCenter="+192418.890-0990748.500" DefaultRange="70" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXF" />
+        <Sector Name="MXF5" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Volcanes" />
         <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
 
@@ -2168,7 +2184,7 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
+        <Map Name="ALL/Sector - Radioayudas" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
@@ -2190,14 +2206,18 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Salidas México - MXD" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Salidas México - MXD" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXD" />
+        <Sector Name="MXD5" />
       </Sectors>
       <Maps>
         <Map Name="Mexico/Aeropuerto - Pistas" />
+        <Map Name="Mexico/Aeropuerto - Volcanes" />
         <Map Name="Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="Mexico/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="Mexico/Aeropuerto - Corredor Satélite" />
+        <Map Name="Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
 
         <Map Name="Mexico/Pistas 05 - Sectores Salidas" />
 
@@ -2208,7 +2228,7 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
+        <Map Name="ALL/Sector - Radioayudas" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
@@ -2410,7 +2430,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Toluca - TOA" Type="ASD" DefaultCenter="+192448.188-0994940.063" DefaultRange="160" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación Toluca - TOA" Type="ASD" DefaultCenter="+192448.188-0994940.063" DefaultRange="160" MagneticVariation="-4">
       <Sectors>
         <Sector Name="TOA" />
       </Sectors>
@@ -2430,7 +2450,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="ALL/Geografia - Linea de Costa" />
-        <Map Name="ALL/Sector - Aerovias Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
