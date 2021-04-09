@@ -141,6 +141,9 @@
   <Sector FullName="Aproximación Guadalara" Frequency="120.800" Callsign="MMGL_APP" Name="GLA">
     <Volumes>MMGL_TMA</Volumes>
   </Sector>
+  <Sector FullName="Terminal Guadalara" Frequency="119.300" Callsign="MMGL_T_APP" Name="GLL">
+    <Volumes>MMGL_TMA</Volumes>
+  </Sector>
   <Sector FullName="Autorización México" Frequency="122.100" Callsign="MMMX_DEL" Name="MXC" />
   <Sector FullName="Terrestre México" Frequency="121.850" Callsign="MMMX_GND" Name="MXG" />
   <Sector FullName="Terrestre Sur México" Frequency="121.000" Callsign="MMMX_S_GND" Name="MXR" />
@@ -191,6 +194,9 @@
     <Volumes>MMPR_CTR</Volumes>
   </Sector>
   <Sector FullName="Aproximación Vallarta" Frequency="119.000" Callsign="MMPR_APP" Name="PRA">
+    <Volumes>MMPR_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Terminal Vallarta" Frequency="121.300" Callsign="MMPR_T_APP" Name="PRL">
     <Volumes>MMPR_TMA</Volumes>
   </Sector>
   <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOG" />
