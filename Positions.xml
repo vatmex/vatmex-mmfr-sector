@@ -1500,7 +1500,7 @@
         <Map Name="TMA Manzanillo/ASMGCS_MMZO_GATES" />
       </Maps>
     </Position>
-    <Position Name="Torre Acapulco - AAT" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Torre Acapulco - AAT" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="75" MagneticVariation="-5">
       <Sectors>
         <Sector Name="AAT" />
       </Sectors>
@@ -1514,7 +1514,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMAA" Frequency="115.9" Server="NA" />
@@ -1533,7 +1532,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Acapulco - AAA" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Aproximación Acapulco - AAA" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5">
       <Sectors>
         <Sector Name="AAA" />
       </Sectors>
@@ -1552,7 +1551,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMAA" Frequency="115.9" Server="NA" />
@@ -1574,7 +1572,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Aguascalientes - AAT" Type="ASD" DefaultCenter="+214241.671-1021907.937" DefaultRange="45" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Torre Aguascalientes - AAT" Type="ASD" DefaultCenter="+214241.671-1021907.937" DefaultRange="45" MagneticVariation="-6">
       <Sectors>
         <Sector Name="AST" />
       </Sectors>
@@ -1586,7 +1584,6 @@
         <Map Name="TMA Leon/MMAS - Pista 18 - RNP 18" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMAA" Visible="true" />
@@ -1600,7 +1597,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre León - LOT" Type="ASD" DefaultCenter="+205951.320-1012858.281" DefaultRange="75" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Torre León - LOT" Type="ASD" DefaultCenter="+205951.320-1012858.281" DefaultRange="75" MagneticVariation="-6">
       <Sectors>
         <Sector Name="LOT" />
       </Sectors>
@@ -1612,7 +1609,6 @@
         <Map Name="TMA Leon/MMLO - Zona de Control (CTR)" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMAA" Frequency="128.400" Server="NA" />
@@ -1631,7 +1627,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación León - LOA" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Aproximación León - LOA" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
       <Sectors>
         <Sector Name="LOA" />
       </Sectors>
@@ -1655,7 +1651,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMLO" Frequency="128.400" Server="NA" />
@@ -1679,7 +1674,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Autorización Guadalajara - GLC" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Autorización Guadalajara - GLC" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
       <Sectors>
         <Sector Name="GLC" />
       </Sectors>
@@ -1693,7 +1688,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMGL" Visible="true" />
@@ -1714,7 +1708,7 @@
         <Point>+20.521804-103.311110</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Terrestre Guadalajara - GLG" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Terrestre Guadalajara - GLG" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
       <Sectors>
         <Sector Name="GLG" />
       </Sectors>
@@ -1728,7 +1722,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMGL" Visible="true" />
@@ -1749,7 +1742,7 @@
         <Point>+20.521804-103.311110</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Torre Guadalajara - GLT" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Torre Guadalajara - GLT" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
       <Sectors>
         <Sector Name="GLT" />
       </Sectors>
@@ -1763,7 +1756,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
@@ -1788,7 +1780,7 @@
         <Point>+20.521804-103.311110</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Aproximación Guadalajara - GLA" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Aproximación Guadalajara - GLA" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6">
       <Sectors>
         <Sector Name="GLA" />
       </Sectors>
@@ -1807,7 +1799,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
@@ -1832,7 +1823,7 @@
         <Point>+20.521804-103.311110</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Aproximación Guadalajara (Terminal) - GLL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" DynamicInfill="false">
+    <Position Name="Aproximación Guadalajara (Terminal) - GLL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6">
       <Sectors>
         <Sector Name="GLL" />
       </Sectors>
@@ -1851,7 +1842,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
@@ -1876,7 +1866,7 @@
         <Point>+20.521804-103.311110</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Autorización México - MXC" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Autorización México - MXC" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXC" />
       </Sectors>
@@ -1888,7 +1878,6 @@
         <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMX" Visible="true" />
@@ -1906,7 +1895,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Terrestre México - MXG" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Terrestre México - MXG" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXG" />
       </Sectors>
@@ -1918,7 +1907,6 @@
         <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMX" Visible="true" />
@@ -1936,7 +1924,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Terrestre México Sur - MXR" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Terrestre México Sur - MXR" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXR" />
       </Sectors>
@@ -1948,7 +1936,6 @@
         <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMX" Visible="true" />
@@ -1966,7 +1953,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre México - MXT" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Torre México - MXT" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
       <Sectors>
         <Sector Name="MXT" />
       </Sectors>
@@ -2000,7 +1987,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Combinado) - MXA" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4">
+    <Position Name="Aproximación México (Combinado) - MXA" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240">
       <Sectors>
         <Sector Name="MXA" />
         <Sector Name="MXAC" />
@@ -2026,7 +2013,6 @@
 
         <Map Name="ACC Mexico/Limites FIR" />
 
-        <Map Name="Universal/Geografia - Linea de Costa" />
         <Map Name="Universal/Sector - Radioayudas" />
       </Maps>
       <ATIS>
@@ -2049,7 +2035,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Llegadas) - MXL" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4">
+    <Position Name="Aproximación México (Llegadas) - MXL" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240">
       <Sectors>
         <Sector Name="MXL" />
         <Sector Name="MXLN5" />
@@ -2075,7 +2061,6 @@
 
         <Map Name="ACC Mexico/Limites FIR" />
 
-        <Map Name="Universal/Geografia - Linea de Costa" />
         <Map Name="Universal/Sector - Radioayudas" />
       </Maps>
       <ATIS>
@@ -2231,7 +2216,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Vallarta - PRT" Type="ASD" DefaultCenter="+204048.261-1051515.123" DefaultRange="50" MagneticVariation="-7" DynamicInfill="false">
+    <Position Name="Torre Vallarta - PRT" Type="ASD" DefaultCenter="+204048.261-1051515.123" DefaultRange="50" MagneticVariation="-7">
       <Sectors>
         <Sector Name="PRT" />
       </Sectors>
@@ -2243,8 +2228,8 @@
         <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
 
         <Map Name="ACC Mexico/Limites FIR" />
+
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMPR" Frequency="127.5" Server="NA" />
@@ -2342,7 +2327,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Terrestre Toluca - TOG" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Terrestre Toluca - TOG" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4">
       <Sectors>
         <Sector Name="TOG" />
       </Sectors>
@@ -2357,7 +2342,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
@@ -2376,7 +2360,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Toluca - TOT" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Torre Toluca - TOT" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4">
       <Sectors>
         <Sector Name="TOT" />
       </Sectors>
@@ -2391,7 +2375,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
@@ -2454,7 +2437,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Veracruz - VRT" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="50" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Torre Veracruz - VRT" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="50" MagneticVariation="-4">
       <Sectors>
         <Sector Name="VRT" />
       </Sectors>
@@ -2463,12 +2446,11 @@
         <Map Name="TMA Veracruz/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Veracruz/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="TMA Veracruz/Pista 01 - RNP 01" />|
+        <Map Name="TMA Veracruz/Pista 01 - RNP 01" />
 
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMVR" Frequency="127.8" Server="NA" />
@@ -2490,7 +2472,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Veracruz - VRA" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="270" MagneticVariation="-4" DynamicInfill="false">
+    <Position Name="Aproximación Veracruz - VRA" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="270" MagneticVariation="-4">
       <Sectors>
         <Sector Name="VRA" />
       </Sectors>
@@ -2502,7 +2484,7 @@
         <Map Name="TMA Veracruz/Pista 01 - Llegadas RNAV" />
         <Map Name="TMA Veracruz/Pista 01 - Llegadas RNAV (Nombres)" />
 
-        <Map Name="TMA Veracruz/Pista 01 - RNP 01" />|
+        <Map Name="TMA Veracruz/Pista 01 - RNP 01" />
 
         <Map Name="TMA Veracruz/Pista 01 - Salidas RNAV" />
         <Map Name="TMA Veracruz/Pista 01 - Salidas RNAV (Nombres)" />
@@ -2510,7 +2492,6 @@
         <Map Name="ACC Mexico/Limites FIR" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMVR" Frequency="127.8" Server="NA" />
