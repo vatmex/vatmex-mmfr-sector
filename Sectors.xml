@@ -208,6 +208,13 @@
   <Sector FullName="Aproximación Oaxaca" Frequency="121.100" Callsign="MMOX_APP" Name="OXA">
     <Volumes>MMOX_TMA</Volumes>
   </Sector>
+  <!--MMTM TMA-->
+  <Sector FullName="Torre Tampico" Frequency="118.300" Callsign="MMTM_TWR" Name="TMT">
+    <Volumes>MMTM_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Tampico" Frequency="120.300" Callsign="MMTM_APP" Name="TMA">
+    <Volumes>MMTM_TMA</Volumes>
+  </Sector>
   <!--MMPR TMA-->
   <Sector FullName="Torre Vallarta" Frequency="118.500" Callsign="MMPR_TWR" Name="PRT">
     <Volumes>MMPR_CTR</Volumes>

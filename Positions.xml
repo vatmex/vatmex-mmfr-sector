@@ -2337,21 +2337,16 @@
         <Map Name="ACC Mexico/Limites - Sectores" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
-      <ATIS>
-        <Editor Airport="MMPR" Frequency="127.5" Server="NA" />
-        <Window Airport="MMPR" />
-      </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMPR" Visible="true" />
+        <Window Type="ADEP" Beacon="MMOX" Visible="true" />
       </Strips>
       <CFL QuickLevel="20000" />
       <ArrivalLists>
-        <Airport Name="MMPR" />
+        <Airport Name="MMOX" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Torre Vallarta / Vallarta Tower</Line>
-        <Line>Serving MMPR arrivals and departures</Line>
-        <Line>ATIS available on 127.500</Line>
+        <Line>Torre Oaxaca / Oaxaca Tower</Line>
+        <Line>Serving MMOX arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
@@ -2449,6 +2444,54 @@
         <Line>Aproximacion Vallarta / Vallarta Approach</Line>
         <Line>Serving MMPR arrivals and departures</Line>
         <Line>ATIS available on 127.500</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Tampico - TMT" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="60" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="TMT" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Tampico/Aeropuerto - Pistas" />
+        <Map Name="TMA Tampico/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMTM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMTM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Tampico / Tampico Tower</Line>
+        <Line>Serving MMOX arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Tampico - TMA" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="240" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="TMA" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Tampico/Aeropuerto - Pistas" />
+        <Map Name="TMA Tampico/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMOX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMTM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Tampico / Tampico Approach</Line>
+        <Line>Serving MMOX arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
