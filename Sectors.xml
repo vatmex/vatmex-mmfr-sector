@@ -208,6 +208,13 @@
   <Sector FullName="Aproximación Oaxaca" Frequency="121.100" Callsign="MMOX_APP" Name="OXA">
     <Volumes>MMOX_TMA</Volumes>
   </Sector>
+  <!--MMSP TMA-->
+  <Sector FullName="Torre Potosí" Frequency="118.900" Callsign="MMSP_TWR" Name="SPT">
+    <Volumes>MMSP_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Potosí" Frequency="127.500" Callsign="MMSP_APP" Name="SPA">
+    <Volumes>MMSP_TMA</Volumes>
+  </Sector>
   <!--MMTM TMA-->
   <Sector FullName="Torre Tampico" Frequency="118.300" Callsign="MMTM_TWR" Name="TMT">
     <Volumes>MMTM_CTR</Volumes>
@@ -231,6 +238,10 @@
   </Sector>
   <Sector FullName="Torre Veracruz" Frequency="118.500" Callsign="MMVR_TWR" Name="VRT">
     <Volumes>MMVR_CTR</Volumes>
+  </Sector>
+  <!--MMVR TMA-->
+  <Sector FullName="Torre Zacatecas" Frequency="118.000" Callsign="MMZC_TWR" Name="ZCT">
+    <Volumes>MMZC_ATZ</Volumes>
   </Sector>
   <!--MMEX ACC-->
   <Sector FullName="ACC México Sector SC" Frequency="133.100" Callsign="MMEX_CTR" Name="EXC">

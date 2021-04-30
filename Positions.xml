@@ -2447,7 +2447,65 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Tampico - TMT" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="60" MagneticVariation="-4">
+    <Position Name="Torre Potosí - SPT" Type="ASD" DefaultCenter="+221515.342-1005550.738" DefaultRange="60" MagneticVariation="-5">
+      <Sectors>
+        <Sector Name="SPT" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Potosi/Aeropuerto - Pistas" />
+        <Map Name="TMA Potosi/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMSP" Visible="true" />
+      </Strips>
+      <ATIS>
+        <Editor Airport="MMSP" Frequency="127.150" Server="NA" />
+        <Window Airport="MMSP" />
+      </ATIS>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMSP" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Potosi / Potosi Tower</Line>
+        <Line>Serving MMSP arrivals and departures</Line>
+        <Line>ATIS available on 127.150</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Potosí - SPA" Type="ASD" DefaultCenter="+221948.727-1005226.813" DefaultRange="220" MagneticVariation="-5">
+      <Sectors>
+        <Sector Name="SPA" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Potosi/Aeropuerto - Pistas" />
+        <Map Name="TMA Potosi/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMSP" Visible="true" />
+      </Strips>
+      <ATIS>
+        <Editor Airport="MMSP" Frequency="127.150" Server="NA" />
+        <Window Airport="MMSP" />
+      </ATIS>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMSP" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Potosi / Potosi Approach</Line>
+        <Line>Serving MMSP arrivals and departures</Line>
+        <Line>ATIS available on 127.150</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Tampico - TMT" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="60" MagneticVariation="-6">
       <Sectors>
         <Sector Name="TMT" />
       </Sectors>
@@ -2467,11 +2525,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Torre Tampico / Tampico Tower</Line>
-        <Line>Serving MMOX arrivals and departures</Line>
+        <Line>Serving MMTM arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Tampico - TMA" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="240" MagneticVariation="-4">
+    <Position Name="Aproximación Tampico - TMA" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="240" MagneticVariation="-6">
       <Sectors>
         <Sector Name="TMA" />
       </Sectors>
@@ -2483,7 +2541,7 @@
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMOX" Visible="true" />
+        <Window Type="ADEP" Beacon="MMTM" Visible="true" />
       </Strips>
       <CFL QuickLevel="20000" />
       <ArrivalLists>
@@ -2491,7 +2549,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Tampico / Tampico Approach</Line>
-        <Line>Serving MMOX arrivals and departures</Line>
+        <Line>Serving MMTM arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
@@ -2606,6 +2664,31 @@
         <Line>Aproximacion Veracruz / Veracruz Approach</Line>
         <Line>Serving MMVR arrivals and departures</Line>
         <Line>ATIS available on 127.800</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Zacatecas - ZCT" Type="ASD" DefaultCenter="+225350.623-1024108.772" DefaultRange="20" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="ZCT" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Zacatecas/Aeropuerto - Pistas" />
+        <Map Name="ATZ Zacatecas/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMZC" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMZC" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Zacatecas / Zacatecas Tower</Line>
+        <Line>Serving MMZC arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
