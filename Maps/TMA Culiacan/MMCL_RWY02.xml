@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 02 - Llegadas RNAV" Priority="1" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 02 - Llegadas RNAV" Priority="1" Center="+244554.215-1072830.547">
     <!--STARs-->
     <Line Name="AVTAL1C" Pattern="Dashed">AVTAL/CL820/CL801/CL409/VEVLO</Line>
     <Line Name="ELEGU1C" Pattern="Dashed">ELEGU/CL407/CL408/CL414/VODAS/CL405/USDAP</Line>
@@ -34,7 +34,7 @@
       <Point>VODAS</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 02 - Llegadas RNAV (Nombres)" Priority="2" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 02 - Llegadas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
     <Label HasLeader="false">
       <Point>AVTAL</Point>
       <Point>BERUR</Point>
@@ -49,7 +49,7 @@
       <Point>VEVLO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 02 - RNP 02" Priority="1" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 02 - RNP 02" Priority="1" Center="+244554.215-1072830.547">
     <Line Name="BERUR" Pattern="Solid">BERUR/CL401</Line>
     <Line Name="USDAP" Pattern="Solid">USDAP/CL401</Line>
     <Line Name="VEVLO" Pattern="Solid">VEVLO/CL401</Line>
@@ -71,7 +71,7 @@
       <Point>VEVLO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 02 - Salidas RNAV" Priority="1" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 02 - Salidas RNAV" Priority="1" Center="+244554.215-1072830.547">
     <Line Name="AVTAL1A" Pattern="Dotted">CL620/CL803/AVTAL</Line>
     <Line Name="ELEGU1A" Pattern="Dotted">+244618.240-1072813.370/CL620/ELEGU</Line>
     <Line Name="IKBOR1A" Pattern="Dotted">CL620/CL601/CL811/CL822/IKBOR</Line>
@@ -99,7 +99,7 @@
       <Point>OLEXU</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 02 - Salidas RNAV (Nombres)" Priority="2" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 02 - Salidas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
     <Label HasLeader="false">
       <Point>AVTAL</Point>
       <Point>ELEGU</Point>

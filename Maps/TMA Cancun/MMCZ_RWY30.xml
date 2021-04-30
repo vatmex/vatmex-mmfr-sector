@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMCZ - Pista 30 - Llegadas RNAV" Priority="1" Centre="+210235.014-0865232.438">
+  <Map Type="System" Name="MMCZ - Pista 30 - Llegadas RNAV" Priority="1" Center="+210235.014-0865232.438">
     <Line Name="AVSIM1D" Pattern="Dashed">AVSIM/CZ501</Line>
     <Line Name="EMOSA1B" Pattern="Dashed">EMOSA/UKVAS/CZ512/CUN/VIBLA/ONGAV/CZ702/BEREB</Line>
     <Line Name="ILUBA1D" Pattern="Dashed">ILUBA/MARJE/CZ704/CZ701/EMPAM</Line>
@@ -40,7 +40,7 @@
       <Point>CUN</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMCZ - Pista 30 - Llegadas RNAV (Nombres)" Priority="2" Centre="-34.945000+138.530556">
+  <Map Type="System" Name="MMCZ - Pista 30 - Llegadas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
     <Label HasLeader="false">
       <Point>EMOSA</Point>
       <Point>ILUBA</Point>
@@ -53,7 +53,7 @@
       <Point>BEREB</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMCZ - Pista 30 - RNP 30" Priority="1" Centre="-34.945000+138.530556">
+  <Map Type="System" Name="MMCZ - Pista 30 - RNP 30" Priority="1" Center="-34.945000+138.530556">
     <Line Name="LAT" Pattern="Solid">BEREB/CZ705</Line>
     <Line Name="FINAL" Pattern="Solid">EMPAM/+203034.399-0865459.915</Line>
     <Symbol Type="HollowStar">
@@ -63,7 +63,7 @@
       <Point>CZ706</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMCZ - Pista 30 - Salidas RNAV" Priority="1" Centre="+210235.014-0865232.438">
+  <Map Type="System" Name="MMCZ - Pista 30 - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
     <Line Name="AVSEB1C" Pattern="Dotted">CZ603/AVSEB</Line>
     <Line Name="AVSIM1B" Pattern="Dotted">+203109.529-0865617.574/CZ605/CZ606/AVSIM</Line>
     <Line Name="DAXUM1D" Pattern="Dotted">IRDUS/DAXUM</Line>
@@ -105,7 +105,7 @@
       <Point>ROTGI</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMCZ - Pista 30 - Salidas RNAV (Nombres)" Priority="2" Centre="-34.945000+138.530556">
+  <Map Type="System" Name="MMCZ - Pista 30 - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
     <Label HasLeader="false">
       <Point>AVSEB</Point>
       <Point>AVSIM</Point>

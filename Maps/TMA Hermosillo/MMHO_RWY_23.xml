@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 23 - Llegadas RNAV" Priority="1" Centre="+290555.39-1110232.64">
+  <Map Type="System" Name="Pista 23 - Llegadas RNAV" Priority="1" Center="+290555.39-1110232.64">
     <Line Name="AVTE1B" Pattern="Dashed">AVTEN/HO419/HO418/DUPOS</Line>
     <Line Name="BOPA1C" Pattern="Dashed">BOPAP/HO431/DUPOS</Line>
     <Line Name="IGTA1C" Pattern="Dashed">IGTAN/HO432/HO409/HO408/GORIG</Line>
@@ -30,7 +30,7 @@
       <Point>HMO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 23 - Llegadas RNAV (Nombres)" Priority="1" Centre="+290555.39-1110232.64">
+  <Map Type="System" Name="Pista 23 - Llegadas RNAV (Nombres)" Priority="1" Center="+290555.39-1110232.64">
     <Label HasLeader="false">
       <Point>AVTEN</Point>
       <Point>KEKMA</Point>
@@ -42,7 +42,7 @@
       <Point>HMO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 23 - RNP 23" Priority="1" Centre="+290555.39-1110232.64">
+  <Map Type="System" Name="Pista 23 - RNP 23" Priority="1" Center="+290555.39-1110232.64">
     <Line Pattern="Solid">DUPOS/HO900</Line>
     <Line Pattern="Solid">AMEVI/HO900</Line>
     <Line Pattern="Solid">GORIG/HO900</Line>
@@ -64,7 +64,7 @@
       <Point>HO901</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 23 - Salidas RNAV" Priority="1" Centre="+290555.39-1110232.64">
+  <Map Type="System" Name="Pista 23 - Salidas RNAV" Priority="1" Center="+290555.39-1110232.64">
     <Line Name="BOPA1D" Pattern="Dotted">+290516.66-1110345.41/HO801/HO501/HO531/BOPAP</Line>
     <Line Name="GYM1C" Pattern="Dotted">+290516.66-1110345.41/HO801/GYM</Line>
     <Line Name="IGTA1D" Pattern="Dotted">+290516.66-1110345.41/HO801/HO504/HO505/HO502/HO503/IGTAN</Line>
@@ -99,7 +99,7 @@
       <Point>GYM</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 23 - Salidas RNAV (Nombres)" Priority="1" Centre="+290555.39-1110232.64">
+  <Map Type="System" Name="Pista 23 - Salidas RNAV (Nombres)" Priority="1" Center="+290555.39-1110232.64">
     <Label HasLeader="false">
       <Point>AMEVI</Point>
       <Point>BOPAP</Point>

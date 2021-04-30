@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMSD - Pista 34 - Llegadas RNAV" Priority="1" Centre="+230818.898-1094307.170">
+  <Map Type="System" Name="MMSD - Pista 34 - Llegadas RNAV" Priority="1" Center="+230818.898-1094307.170">
     <Line Name="ALRIN1F" Pattern="Dashed">ALRIN/SD403/DASON/SD602/AVURU</Line>
     <Line Name="ENEKO1B" Pattern="Dashed">ENEKO/MARUX/DASON</Line>
     <Line Name="LEPOM1B" Pattern="Dashed">LEPOM/GOSIM/DASON</Line>
@@ -30,7 +30,7 @@
       <Point>CSL</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMSD - Pista 34 - Llegadas RNAV (Nombres)" Priority="1" Centre="+230818.898-1094307.170">
+  <Map Type="System" Name="MMSD - Pista 34 - Llegadas RNAV (Nombres)" Priority="1" Center="+230818.898-1094307.170">
     <Label HasLeader="false">
       <Point>ALRIN</Point>
       <Point>AVURU</Point>
@@ -41,7 +41,7 @@
       <Point>TENAY</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMSD - Pista 34 - RNP 34" Priority="1" Centre="+230818.898-1094307.170">
+  <Map Type="System" Name="MMSD - Pista 34 - RNP 34" Priority="1" Center="+230818.898-1094307.170">
     <Line Pattern="Solid">AVURU/SD901</Line>
     <Line Pattern="Solid">SD901/+230818.898-1094307.170</Line>
     <Line Pattern="Solid">+230717.768-1094315.313/+230720.285-1094249.419</Line>
@@ -59,7 +59,7 @@
       <Point>SD901</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMSD - Pista 34 - Salidas RNAV" Priority="1" Centre="+230956.019-1094320.211">
+  <Map Type="System" Name="MMSD - Pista 34 - Salidas RNAV" Priority="1" Center="+230956.019-1094320.211">
     <Line Name="ALRIN1B" Pattern="Dotted">+230956.019-1094320.211/SD700/SD702/USBOG/SD507/SD508/SD403/ALRIN</Line>
     <Line Name="ANEGO1B" Pattern="Dotted">SD700/SD800/TAMET/ANEGO</Line>
     <Line Name="ILIGA1B" Pattern="Dotted">USBOG/SD703/SD704/ILIGA</Line>
@@ -85,7 +85,7 @@
       <Point>SD800</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMSD - Pista 34 - Salidas RNAV (Nombres)" Priority="1" Centre="+230956.019-1094320.211">
+  <Map Type="System" Name="MMSD - Pista 34 - Salidas RNAV (Nombres)" Priority="1" Center="+230956.019-1094320.211">
     <Label HasLeader="false">
       <Point>ALRIN</Point>
       <Point>ANEGO</Point>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 19 - Llegadas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 19 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="DUPLO1B" Pattern="Dashed">
       DUPLO/VR408/VR417/IMARA/VR405/SUVUL
     </Line>
@@ -51,7 +51,7 @@
       <Point>VR417</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 19 - Llegadas RNAV (Nombres)" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 19 - Llegadas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>DUPLO</Point>
       <Point>DURIB</Point>
@@ -66,7 +66,7 @@
       <Point>VIMRA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 19 - ILS DME 19" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 19 - ILS DME 19" Priority="1" Center="+192617.580-0990407.680">
     <Line Pattern="Solid">
       OVUVA/+190858.910-0961111.580
     </Line>
@@ -83,7 +83,7 @@
       <Point>GL815</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 19 - Salidas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 19 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="DUPLO1D" Pattern="Dotted">
       +190742.340-0961127.460/IPTAK/VR506/DUPLO
     </Line>
@@ -138,7 +138,7 @@
       <Point>VR513</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 19 - Salidas RNAV (Nombres)" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 19 - Salidas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>DUPLO</Point>
       <Point>DURIB</Point>

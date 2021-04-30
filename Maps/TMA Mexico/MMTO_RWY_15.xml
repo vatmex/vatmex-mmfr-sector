@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="LENUL1A" Pattern="Dashed">LENUL/TO641/TO601/TO602/TO603/TO604/TO605/TO606/TO607/TO608/GAINY</Line>
     <Line Name="ELILA1A" Pattern="Dashed">ELILA/TO621/TO622/TO623/PEPTO/TO625/TO626/TO627/TO628/GAINY</Line>
     <Line Name="ITLAS1A" Pattern="Dashed">ITLAS/TO613/TO614/TO615/TO616/</Line>
@@ -32,7 +32,7 @@
       <Point>TO641</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV (Nombres)" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>ELILA</Point>
       <Point>GAINY</Point>
@@ -40,7 +40,7 @@
       <Point>LENUL</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV (Vectores)" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="GAINYR340" Pattern="Solid">
 +193257.049-0994506.020/
 +194720.957-0994928.896</Line>
@@ -177,7 +177,7 @@
 +194711.786-0995000.730/
 +194720.957-0994928.896</Line>
   </Map>
-  <Map Type="System" Name="MMTO - Pista 15 - ILS Z 15" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMTO - Pista 15 - ILS Z 15" Priority="1" Center="+192617.580-0990407.680">
     <Line Pattern="Solid">GAINY/TO902/ALOMI/+192115.700-0993425.900</Line>
     <Symbol Type="HollowStar">
       <Point>ALOMI</Point>
@@ -185,7 +185,7 @@
       <Point>TO902</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMTO - Pista 15 - Salidas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMTO - Pista 15 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="OMPER1A" Pattern="Dotted">+191916.200-0993331.800/TO700/TO701/TO702/TO703/KEBSO/TO707/OMPER</Line>
     <Line Name="PURAL1A" Pattern="Dotted">KEBSO/TO708/PURAL</Line>
     <Line Name="TEVOS1C" Pattern="Dotted">TO703/TO730/ULOTO/TEVOS</Line>
@@ -216,7 +216,7 @@
       <Point>ULOTO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMTO - Pista 15 - Salidas RNAV (Nombres)" Priority="2" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMTO - Pista 15 - Salidas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>OMPER</Point>
       <Point>OVAGO</Point>

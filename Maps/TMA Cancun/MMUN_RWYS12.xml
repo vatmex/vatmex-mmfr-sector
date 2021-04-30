@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMUN - Pistas 12 - Llegadas RNAV" Priority="1" Centre="+210235.014-0865232.438">
+  <Map Type="System" Name="MMUN - Pistas 12 - Llegadas RNAV" Priority="1" Center="+210235.014-0865232.438">
     <!--STARs-->
     <Line Name="ILUBA1E" Pattern="Dashed">ILUBA/URVEN/UN524/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
     <Line Name="PUALE1G" Pattern="Dashed">PAULE/CZM/UN518/UN511</Line>
@@ -51,7 +51,7 @@
       <Point>CZM</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMUN - Pistas 12 - Llegadas RNAV (Nombres)" Priority="2" Centre="-34.945000+138.530556">
+  <Map Type="System" Name="MMUN - Pistas 12 - Llegadas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
     <Label HasLeader="false">
       <Point>EBMIS</Point>
       <Point>ILUBA</Point>
@@ -67,7 +67,7 @@
       <Point>XUDUN</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMUN - Pistas 12 - ILS DME 4 12R" Priority="1" Centre="-34.945000+138.530556">
+  <Map Type="System" Name="MMUN - Pistas 12 - ILS DME 4 12R" Priority="1" Center="-34.945000+138.530556">
     <Line Name="EBMIS" Pattern="Solid">EBMIS/UN506</Line>
     <Line Name="KAROR" Pattern="Solid">KAROR/UN506</Line>
     <Line Name="VIKSI" Pattern="Solid">VIKSI/UN506</Line>
@@ -137,7 +137,7 @@
       <Point>UN545</Point>
     </Symbol>
   </Map>
-  <Map Type="System2" Name="MMUN - Pistas 12 - Final Extendido" Priority="1" Centre="-34.945000+138.530556">
+  <Map Type="System2" Name="MMUN - Pistas 12 - Final Extendido" Priority="1" Center="-34.945000+138.530556">
     <Line Name="12L_APPROACH_LINE" Pattern="Broken">
 +210308.657-0865239.113/
 +213639.012-0874552.763</Line>
@@ -194,7 +194,7 @@
 +211540.262-0870713.447/
 +211610.854-0870642.882</Line>
   </Map>
-  <Map Type="System" Name="MMUN - Pistas 12 - Salidas RNAV" Priority="1" Centre="+210235.014-0865232.438">
+  <Map Type="System" Name="MMUN - Pistas 12 - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
     <!--SIDS-->
     <Line Name="CZM1B" Pattern="Dotted">+210140.120-0865146.940/UN402/UN408/CZM</Line>
     <Line Name="HECAT1B" Pattern="Dotted">UN402/UN410/UN416/UN400/HECAT</Line>
@@ -241,7 +241,7 @@
       <Point>CZM</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMUN - Pistas 12 - Salidas RNAV (Nombres)" Priority="2" Centre="-34.945000+138.530556">
+  <Map Type="System" Name="MMUN - Pistas 12 - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
     <Label HasLeader="false">
       <Point>CZM</Point>
       <Point>HECAT</Point>

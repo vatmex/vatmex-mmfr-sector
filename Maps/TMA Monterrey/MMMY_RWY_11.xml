@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 11 - Llegadas RNAV" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pista 11 - Llegadas RNAV" Priority="1" Center="+284208.380-1055746.670">
     <Line Name="ITPIS1A" Pattern="Dashed">ITPIS/ULAVA/AGMUM</Line>
     <Line Name="NOTAL1A" Pattern="Dashed">NOTAL/VETNU/NAPNO/AGMUM/KATPO/MEGNA/CURTO/SIKRO/DUXAM/MY600/MY601/TASNA</Line>
     <Line Name="RETOS1A" Pattern="Dashed">RETOS/MIBTA/KATPO</Line>
@@ -37,7 +37,7 @@
       <Point>WICLO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 11 - Llegadas RNAV (Nombres)" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pista 11 - Llegadas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
     <Label HasLeader="false">
       <Point>ITPIS</Point>
       <Point>NOTAL</Point>
@@ -47,9 +47,9 @@
       <Point>TASNA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 11 - RNP 11" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pista 11 - RNP 11" Priority="1" Center="+284208.380-1055746.670">
     <Line Pattern="Solid">TASNA/+254703.060-1000701.990</Line>
-    
+
     <Line Pattern="Solid">+254708.280-1000816.190/+254759.651-1000741.909</Line>
     <Line Pattern="Solid">+254739.146-1000913.241/+254830.517-1000838.967</Line>
     <Line Pattern="Solid">+254810.012-1001010.296/+254901.383-1000936.029</Line>
@@ -67,7 +67,7 @@
       <Point>MY604</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 11 - Salidas RNAV" Priority="1" Centre="+254642.810-1000625.150">
+  <Map Type="System" Name="Pista 11 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
     <Line Name="DAJOR1A" Pattern="Dotted">+254612.450-1000529.930/MY702/HERSS/ALSEX/PILDA/GUELF/RALLO/AXILO/DAJOR</Line>
     <Line Name="DOTOR1A" Pattern="Dotted">MY702/MY700/MY703/DOTOR</Line>
     <Line Name="KERGA1A" Pattern="Dotted">MY702/MY721/KERGA</Line>
@@ -92,7 +92,7 @@
       <Point>RALLO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 11 - Salidas RNAV (Nombres)" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pista 11 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
     <Label HasLeader="false">
       <Point>DAJOR</Point>
       <Point>DOTOR</Point>

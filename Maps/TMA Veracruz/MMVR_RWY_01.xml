@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 01 - Llegadas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 01 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="DUPLO1A" Pattern="Dashed">
       DUPLO/VR707/ALRAD
     </Line>
@@ -52,7 +52,7 @@
       <Point>VR708</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 01 - Llegadas RNAV (Nombres)" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 01 - Llegadas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>DUPLO</Point>
       <Point>DURIB</Point>
@@ -68,7 +68,7 @@
       <Point>BOBLI</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 01 - RNP 01" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 01 - RNP 01" Priority="1" Center="+192617.580-0990407.680">
     <Line Pattern="Solid">
       AMESO/+190858.910-0961111.580
     </Line>
@@ -141,7 +141,7 @@
       <Point>GL815</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 01 - Salidas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 01 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="DUPLO1C" Pattern="Dotted">
       +190858.910-0961111.580/VR602/AXELI/VR606/VR605/DUPLO
     </Line>
@@ -196,7 +196,7 @@
       <Point>VR606</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 01 - Salidas RNAV (Nombres)" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="Pista 01 - Salidas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>DUPLO</Point>
       <Point>ELIKU</Point>

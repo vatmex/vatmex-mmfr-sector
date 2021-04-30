@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="DARAN1B" Pattern="Dashed">DARAN/MX600/ESTAR/MX602/MX603/MX605/SESTA/KOZLO</Line>
     <Line Name="ENAGA1B" Pattern="Dashed">ENAGA/NUGIR/MX602</Line>
     <Line Name="SESTA1B" Pattern="Dashed">LARLO/MX639/MX640/PITEL/OTOSA/MX615/MX616/MX617/SESTA</Line>
@@ -29,7 +29,7 @@
       <Point>SESTA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Nombres)" Priority="2" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>DARAN</Point>
       <Point>ENAGA</Point>
@@ -39,7 +39,7 @@
       <Point>SESTA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Vectores)" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="SESTAR289" Pattern="Solid">+193524.908-0984738.440/+195511.546-0984441.421</Line>
     <Line Name="SESTAR006" Pattern="Solid">+193524.908-0984738.440/+193606.728-0982627.285</Line>
     <Line Name="SESTAD5" Pattern="Solid">
@@ -162,7 +162,7 @@
 +193627.622-0982628.253/
 +193606.728-0982627.285</Line>
   </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - ILS DME 23L" Priority="1" Centre="+192617.57-0990407.679">
+  <Map Type="System" Name="MMMX - Pistas 23 - ILS DME 23L" Priority="1" Center="+192617.57-0990407.679">
     <Line Pattern="Solid">+192617.579-0990407.679/+193629.359-0984555.040/+194150.000-0984517.000</Line>
     <Line Pattern="Solid">+192825.320-0985918.631/+192617.579-0990407.679</Line>
     <Line Pattern="Solid">+192825.320-0985918.633/+192916.676-0985951.363</Line>
@@ -260,7 +260,7 @@
 +193101.900-0985438.959/
 +193057.815-0985445.097</Line>
   </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - ILS Z 23L" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMMX - Pistas 23 - ILS Z 23L" Priority="1" Center="+192617.580-0990407.680">
     <Line Pattern="Solid">KOZLO/+192641.40-0990314.600</Line>
     <Line Pattern="Solid">+192631.968-0990303.123/+192703.100-0990322.184</Line>
     <Line Pattern="Solid">+192701.925-0990208.095/+192733.057-0990227.157</Line>
@@ -279,7 +279,7 @@
       <Point>MX401</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV" Priority="1" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="ATURO1B" Pattern="Dotted">MEX/MX503/MX520/MX530/MX531/MX532/ATURO</Line>
     <Line Name="AXIRI1B" Pattern="Dotted">MX532/AXIRI</Line>
     <Line Name="IKLAN1B" Pattern="Dotted">MX532/IKLAN</Line>
@@ -322,7 +322,7 @@
       <Point>ULEBA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV (Nombres)" Priority="2" Centre="+192617.580-0990407.680">
+  <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
     <Label HasLeader="false">
       <Point>ATURO</Point>
       <Point>AXIRI</Point>

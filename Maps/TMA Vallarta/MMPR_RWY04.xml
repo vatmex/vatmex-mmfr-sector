@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 04 - Llegadas RNAV" Priority="1" Centre="+204048.261-1051515.123">
+  <Map Type="System" Name="Pista 04 - Llegadas RNAV" Priority="1" Center="+204048.261-1051515.123">
     <!--STARs-->
     <Line Name="KEDIX1A" Pattern="Dashed">KEDIX/PR604/RORPO</Line>
     <Line Name="OBRUG1A" Pattern="Dashed">OBRUG/PR606/PR614/RORPO</Line>
@@ -35,7 +35,7 @@
       <Point>TNY</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 04 - Llegadas RNAV (Nombres)" Priority="2" Centre="+204048.261-1051515.123">
+  <Map Type="System" Name="Pista 04 - Llegadas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
     <Label HasLeader="false">
       <Point>MAYTE</Point>
       <Point>RORPO</Point>
@@ -47,7 +47,7 @@
       <Point>KEDIX</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 04 - RNP 04" Priority="1" Centre="+204048.261-1051515.123">
+  <Map Type="System" Name="Pista 04 - RNP 04" Priority="1" Center="+204048.261-1051515.123">
     <Line Name="RORPO" Pattern="Solid">RORPO/PR401</Line>
     <Line Name="MAYTE" Pattern="Solid">MAYTE/PR401</Line>
     <Line Name="FINAL" Pattern="Solid">PR401/+204013.930-1051554.489</Line>
@@ -81,7 +81,7 @@
 +203913.310-1051750.951</Line>
   </Map>
 
-  <Map Type="System" Name="Pista 04 - Salidas RNAV" Priority="1" Centre="+204048.261-1051515.123">
+  <Map Type="System" Name="Pista 04 - Salidas RNAV" Priority="1" Center="+204048.261-1051515.123">
     <!--SIDS-->
     <Line Name="BOBDI1A" Pattern="Dotted">+204122.591-1051435.752/PR502/PR503/PR505/BOBDI</Line>
     <Line Name="XUDED1A" Pattern="Dotted">PR503/XUDED</Line>
@@ -102,7 +102,7 @@
       <Point>VOLAT</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 04 - Salidas RNAV (Nombres)" Priority="2" Centre="+204048.261-1051515.123">
+  <Map Type="System" Name="Pista 04 - Salidas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
     <Label HasLeader="false">
       <Point>BOBDI</Point>
       <Point>XUDED</Point>

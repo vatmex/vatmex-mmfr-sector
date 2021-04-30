@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMAS - Pista 18 - Llegadas RNAV" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMAS - Pista 18 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="RAKAL1A" Pattern="Dashed">
       RAKAL/AS907/AS906/AS900/TETES
     </Line>
@@ -59,7 +59,7 @@
       <Point>VOLER</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMAS - Pista 18 - Llegadas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMAS - Pista 18 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>RAKAL</Point>
       <Point>IGSAM</Point>
@@ -74,7 +74,7 @@
       <Point>SESKO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMAS - Pista 18 - RNP 18" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMAS - Pista 18 - RNP 18" Priority="1" Center="+203124.320-1031841.798">
     <Line Pattern="Solid">
       TETES/SESKO
     </Line>
@@ -185,7 +185,7 @@
       <Point>AA401</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMAS - Pista 18 - Salidas" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMAS - Pista 18 - Salidas" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="AGU1A" Pattern="Dotted">
 +214241.040-1021908.570/
 +213542.174-1021932.198/
@@ -461,7 +461,7 @@ ALIPA</Line>
       <Point>ANILA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMAS - Pista 18 - Salidas (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMAS - Pista 18 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>AGU</Point>
       <Point>MEZCA</Point>
@@ -470,7 +470,7 @@ ALIPA</Line>
       <Point>ANILA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMAS - Pista 18 - Salidas RNAV" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMAS - Pista 18 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="TEDZI1B" Pattern="Dotted">
       AGU/AS801/AS802/AS803/AS804/TEDZI
     </Line>
@@ -513,7 +513,7 @@ ALIPA</Line>
       <Point>MANTA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMAS - Pista 18 - Salidas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMAS - Pista 18 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>MITIN</Point>
       <Point>TEDZI</Point>

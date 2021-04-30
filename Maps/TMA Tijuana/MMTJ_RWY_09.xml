@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 09 - Llegadas RNAV" Priority="1" Centre="+323227.810-1165811.890">
+  <Map Type="System" Name="Pista 09 - Llegadas RNAV" Priority="1" Center="+323227.810-1165811.890">
     <Line Name="TANR1A" Pattern="Dashed">TANRI/ULDUD/TJ564/TUBUS</Line>
     <Line Name="TOVE1A" Pattern="Dashed">TOVES/ENS/KREPE/TUBUS</Line>
     <Symbol Type="SolidTriangle">
@@ -21,14 +21,14 @@
       <Point>TUBUS</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 09 - Llegadas RNAV (Nombres)" Priority="1" Centre="+323227.810-1165811.890">
+  <Map Type="System" Name="Pista 09 - Llegadas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
     <Label HasLeader="false">
       <Point>TANRI</Point>
       <Point>TOVES</Point>
       <Point>TUBUS</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 09 - RNP 09" Priority="1" Centre="+323227.810-1165811.890">
+  <Map Type="System" Name="Pista 09 - RNP 09" Priority="1" Center="+323227.810-1165811.890">
     <Line Pattern="Solid">TUBUS/TJ423/TJ402/TJ414</Line>
     <Line Pattern="Solid">TJ414/+323235.230-1165907.980</Line>
     <Line Pattern="Solid">+323251.138-1165942.502/+323227.378-1165946.884</Line>
@@ -48,7 +48,7 @@
       <Point>TJ423</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 09 - Salidas RNAV" Priority="1" Centre="+323227.810-1165811.890">
+  <Map Type="System" Name="Pista 09 - Salidas RNAV" Priority="1" Center="+323227.810-1165811.890">
     <Line Name="KOBA1A" Pattern="Dotted">+323220.380-1165715.810/TJ500/TJ501/TJ502/TJ566/TJ565/OASIS/KOBAM</Line>
     <Line Name="TEVI1A" Pattern="Dotted">OASIS/TEVIR</Line>
     <Line Name="TUMA1A" Pattern="Dotted">OASIS/TUMAP</Line>
@@ -66,7 +66,7 @@
       <Point>TUMAP</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 09 - Salidas RNAV (Nombres)" Priority="1" Centre="+323227.810-1165811.890">
+  <Map Type="System" Name="Pista 09 - Salidas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
     <Label HasLeader="false">
       <Point>KOBAM</Point>
       <Point>TEVIR</Point>

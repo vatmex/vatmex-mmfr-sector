@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 20 - Llegadas RNAV" CLiority="1" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 20 - Llegadas RNAV" CLiority="1" Center="+244554.215-1072830.547">
     <!--STARs-->
     <Line Name="AVTAL1D" Pattern="Dashed">AVTAL/CL528/CL527/CL803/SAVIR</Line>
     <Line Name="ELEGU1D" Pattern="Dashed">ELEGU/CL508/CL520/CL507/OTIMA</Line>
@@ -38,7 +38,7 @@
       <Point>TALNU</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 20 - Llegadas RNAV (Nombres)" CLiority="2" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 20 - Llegadas RNAV (Nombres)" CLiority="2" Center="+244554.215-1072830.547">
     <Label HasLeader="false">
       <Point>AVTAL</Point>
       <Point>CUL</Point>
@@ -53,7 +53,7 @@
       <Point>TALNU</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 20 - RNP 20" CLiority="1" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 20 - RNP 20" CLiority="1" Center="+244554.215-1072830.547">
     <Line Name="OTIMA" Pattern="Solid">OTIMA/CL501</Line>
     <Line Name="SAVIR" Pattern="Solid">SAVIR/CL501</Line>
     <Line Name="TALNU" Pattern="Solid">TALNU/CL501</Line>
@@ -75,7 +75,7 @@
       <Point>TALNU</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 20 - Salidas RNAV" CLiority="1" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 20 - Salidas RNAV" CLiority="1" Center="+244554.215-1072830.547">
     <Line Name="AVTAL1B" Pattern="Dotted">+244522.920-1072852.900/CL700/CL715/CL712/CL714/CL716/CL820/AVTAL</Line>
     <Line Name="ELEGU1B" Pattern="Dotted">CL700/CL718/CL706/CL707/ELEGU</Line>
     <Line Name="IKBOR1B" Pattern="Dotted">CL700/CL717/CL822/IKBOR</Line>
@@ -105,7 +105,7 @@
       <Point>MUVEN</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 20 - Salidas RNAV (Nombres)" CLiority="2" Centre="+244554.215-1072830.547">
+  <Map Type="System" Name="Pista 20 - Salidas RNAV (Nombres)" CLiority="2" Center="+244554.215-1072830.547">
     <Label HasLeader="false">
       <Point>AVTAL</Point>
       <Point>ELEGU</Point>

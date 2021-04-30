@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMLO - Pista 31 - Llegadas RNAV" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMLO - Pista 31 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="LIBOL1B" Pattern="Dashed">
       LIBOL/LO810/LO802/VIRVO
     </Line>
@@ -45,7 +45,7 @@
       <Point>XESIN</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMLO - Pista 31 - Llegadas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMLO - Pista 31 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>AGU</Point>
       <Point>LIBOL</Point>
@@ -58,7 +58,7 @@
       <Point>VIRVO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMLO - Pista 31 - RNP 31" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMLO - Pista 31 - RNP 31" Priority="1" Center="+203124.320-1031841.798">
     <Line Pattern="Solid">
       ULUMU/VIRVO
     </Line>
@@ -174,7 +174,7 @@
       <Point>LO501</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMLO - Pista 31 - Salidas" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMLO - Pista 31 - Salidas" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="LEON3B" Pattern="Dotted">
 +205951.210-1012857.319/
 +210537.842-1013619.803/
@@ -385,7 +385,7 @@ ANILA</Line>
       <Point>MANTA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMLO - Pista 31 - Salidas (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMLO - Pista 31 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>BJX</Point>
       <Point>NOSUK</Point>
@@ -394,7 +394,7 @@ ANILA</Line>
       <Point>MANTA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMLO - Pista 31 - Salidas RNAV" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMLO - Pista 31 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="HORTA1C" Pattern="Dotted">
       BJX/LO712/HORTA
     </Line>
@@ -437,7 +437,7 @@ ANILA</Line>
       <Point>AGU</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MMLO - Pista 31 - Salidas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="MMLO - Pista 31 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>AGU</Point>
       <Point>ANILA</Point>

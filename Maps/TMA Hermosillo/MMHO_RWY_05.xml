@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 05 - Llegadas RNAV" Priority="1" Centre="+290544.93-1110252.29">
+  <Map Type="System" Name="Pista 05 - Llegadas RNAV" Priority="1" Center="+290544.93-1110252.29">
     <Line Name="AVTE1A" Pattern="Dashed">AVTEN/HO612/ILUDA</Line>
     <Line Name="BOPA1A" Pattern="Dashed">BOPAP/HO630/HO601/ILUDA</Line>
     <Line Name="IGTA1A" Pattern="Dashed">IGTAN/HO632/HO631/OBRES</Line>
@@ -28,7 +28,7 @@
       <Point>HMO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 05 - Llegadas RNAV (Nombres)" Priority="1" Centre="+230846.179-1094317.540">
+  <Map Type="System" Name="Pista 05 - Llegadas RNAV (Nombres)" Priority="1" Center="+230846.179-1094317.540">
     <Label HasLeader="false">
       <Point>AVTEN</Point>
       <Point>BOPAP</Point>
@@ -40,7 +40,7 @@
       <Point>OBRES</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 05 - RNP 05" Priority="1" Centre="+230846.179-1094317.540">
+  <Map Type="System" Name="Pista 05 - RNP 05" Priority="1" Center="+230846.179-1094317.540">
     <Line Pattern="Solid">ILUDA/HO800</Line>
     <Line Pattern="Solid">MEBSO/HO800</Line>
     <Line Pattern="Solid">OBRES/HO800</Line>
@@ -62,7 +62,7 @@
       <Point>OBRES</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 05 - Salidas RNAV" Priority="1" Centre="+230956.019-1094320.211">
+  <Map Type="System" Name="Pista 05 - Salidas RNAV" Priority="1" Center="+230956.019-1094320.211">
     <Line Name="BOPA1B" Pattern="Dotted">+290555.39-1110232.64/HO700/HO701/HO740/BOPAP</Line>
     <Line Name="GYM2B" Pattern="Dotted">+290555.39-1110232.64/HO700/HO742/VIGLA/HO739/GYM</Line>
     <Line Name="IGTA1B" Pattern="Dotted">+290555.39-1110232.64/HO700/HO741/IGTAN</Line>
@@ -100,7 +100,7 @@
       <Point>GYM</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 05 - Salidas RNAV (Nombres)" Priority="1" Centre="+230956.019-1094320.211">
+  <Map Type="System" Name="Pista 05 - Salidas RNAV (Nombres)" Priority="1" Center="+230956.019-1094320.211">
     <Label HasLeader="false">
       <Point>BOPAP</Point>
       <Point>GYM</Point>

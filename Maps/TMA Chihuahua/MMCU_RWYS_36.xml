@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pistas 36 - Llegadas RNAV" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pistas 36 - Llegadas RNAV" Priority="1" Center="+284208.380-1055746.670">
     <Line Name="BOKMO1D" Pattern="Dashed">BOKMO/CU606/BESUD</Line>
     <Line Name="KIPAL1D" Pattern="Dashed">KIPAL/CU801/CU417/GADIK</Line>
     <Line Name="LENEM2B" Pattern="Dashed">LENEM/CU411/CU410</Line>
@@ -39,7 +39,7 @@
       <Point>VOMAS</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pistas 36 - Llegadas RNAV (Nombres)" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pistas 36 - Llegadas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
     <Label HasLeader="false">
       <Point>BOKMO</Point>
       <Point>KIPAL</Point>
@@ -55,10 +55,10 @@
       <Point>GADIK</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pistas 36 - ILS 4 36R" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pistas 36 - ILS 4 36R" Priority="1" Center="+284208.380-1055746.670">
     <Line Pattern="Solid">AMURU/CU401</Line>
     <Line Pattern="Solid">GADIK/CU401</Line>
-    <Line Pattern="Solid">BESUD/+284129.800-1055757.670</Line> 
+    <Line Pattern="Solid">BESUD/+284129.800-1055757.670</Line>
 
     <Line Pattern="Solid">+282658.116-1060032.134/+282709.553-1060139.053</Line>
     <Line Pattern="Solid">+282756.952-1060019.126/+282808.389-1060126.045</Line>
@@ -101,7 +101,7 @@
       <Point>CU400</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pistas 36 - Salidas RNAV" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pistas 36 - Salidas RNAV" Priority="1" Center="+284208.380-1055746.670">
     <Line Name="ANEGI2B" Pattern="Dotted">CU602/CU603/ANEGI</Line>
     <Line Name="AXEPA1B" Pattern="Dotted">CU600/CU601/CU602/CU611/AXEPA</Line>
     <Line Name="BOKMO1B" Pattern="Dotted">CU600/CU604/CU605/CU606/BOKMO</Line>
@@ -128,14 +128,14 @@
       <Point>CU611</Point>
       <Point>CU802</Point>
       <Point>CU803</Point>
-      <Point>KIPAL</Point>      
+      <Point>KIPAL</Point>
       <Point>OTOSO</Point>
       <Point>OXALA</Point>
       <Point>SUTAR</Point>
       <Point>TATGA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pistas 36 - Salidas RNAV (Nombres)" Priority="1" Centre="+284208.380-1055746.670">
+  <Map Type="System" Name="Pistas 36 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
     <Label HasLeader="false">
       <Point>ANEGI</Point>
       <Point>AXEPA</Point>

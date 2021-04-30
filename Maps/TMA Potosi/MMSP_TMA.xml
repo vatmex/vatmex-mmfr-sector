@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Centre="+221515.342-1005550.738">
+  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+221515.342-1005550.738">
     <Runway Name="14/32">
       <Threshold Name="14" Position="+221624.814-1005635.068" />
       <Threshold Name="32" Position="+221500.810-1005541.446" />
@@ -10,7 +10,7 @@
       <Threshold Name="22" Position="+221530.366-1005533.180" />
     </Runway>
   </Map>
-  <Map Type="System" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Centre="+221515.342-1005550.738">
+  <Map Type="System" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+221515.342-1005550.738">
   	<Line Pattern="Dashed">
 +223826.000-1015537.000/
 +224227.219-1015332.239/
@@ -82,7 +82,7 @@
 +214431.000-1013101.000/
 +223826.000-1015537.000</Line>
   </Map>
-  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1" Centre="+221515.342-1005550.738">
+  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1" Center="+221515.342-1005550.738">
     <Line Pattern="Dashed">
 +222812.420-1005452.024/
 +222808.511-1005408.162/

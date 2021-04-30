@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 10 - Llegadas RNAV" Priority="1" Centre="+205613.280-0893927.700">
+  <Map Type="System" Name="Pista 10 - Llegadas RNAV" Priority="1" Center="+205613.280-0893927.700">
     <Line Name="AVOM1A" Pattern="Dashed">
     	AVOMA/ETGOT/MD805/TEXOB
     </Line>
@@ -79,7 +79,7 @@
       <Point>CZA</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Centre="+205613.280-0893927.700">
+  <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Center="+205613.280-0893927.700">
 	<Label HasLeader="false">
       <Point>DYSON</Point>
       <Point>ILELA</Point>
@@ -99,7 +99,7 @@
       <Point>CZA</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 10 - ILS DME 3 10" Priority="1" Centre="+205613.280-0893927.700">
+  <Map Type="System" Name="Pista 10 - ILS DME 3 10" Priority="1" Center="+205613.280-0893927.700">
     <Line Pattern="Solid">
       TEXOB/MD400
     </Line>
@@ -134,7 +134,7 @@
       <Point>MD401</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 10 - Salidas RNAV" Priority="1" Centre="+205613.280-0893927.700">
+  <Map Type="System" Name="Pista 10 - Salidas RNAV" Priority="1" Center="+205613.280-0893927.700">
     <Line Name="BIBE1A" Pattern="Dotted">
       +205548.151-0893749.929/MD600/MD500/MD820/BIBER</Line>
     <Line Name="CAEA1A" Pattern="Dotted">
@@ -190,7 +190,7 @@
       <Point>CZA</Point>
     </Symbol>
 	</Map>
-  <Map Type="System" Name="Pista 10 - Salidas RNAV (Nombres)" Priority="1" Centre="+205613.280-0893927.700">
+  <Map Type="System" Name="Pista 10 - Salidas RNAV (Nombres)" Priority="1" Center="+205613.280-0893927.700">
     <Label HasLeader="false">
       <Point>ISARO</Point>
       <Point>VIVEP</Point>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 28 - Llegadas RNAV" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="ANALU1B" Pattern="Dashed">
       ANALU/AA507/AA506/ITRAM
     </Line>
@@ -23,7 +23,7 @@
       <Point>ATRIM</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 28 - Llegadas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>ANALU</Point>
       <Point>ANVAN</Point>
@@ -32,7 +32,7 @@
       <Point>ATRIM</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 28 - ILS 3" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - ILS 3" Priority="1" Center="+203124.320-1031841.798">
     <Line Pattern="Solid">
       AVRIM/+164503.100-0994401.800
     </Line>
@@ -132,7 +132,7 @@
       <Point>AA500</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 28 - Salidas" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Salidas" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="ACA3B" Pattern="Dotted">
 +164530.500-0994514.270/
 +164643.320-0995225.581/
@@ -367,7 +367,7 @@ VIDRU</Line>
       <Point>NICOS</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 28 - Salidas (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>ACA</Point>
       <Point>TEXCA</Point>
@@ -376,7 +376,7 @@ VIDRU</Line>
       <Point>NICOS</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 28 - Salidas RNAV" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
     <Line Name="AGLON1B" Pattern="Dotted">
       ACA/AA508/AA509/AA510/AGLON
     </Line>
@@ -459,7 +459,7 @@ AMIDI</Line>
       <Point>AMUSI</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 28 - Salidas RNAV (Nombres)" Priority="1" Centre="+203124.320-1031841.798">
+  <Map Type="System" Name="Pista 28 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>AGLON</Point>
       <Point>ALNUS</Point>
