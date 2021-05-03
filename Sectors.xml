@@ -239,6 +239,13 @@
   <Sector FullName="Torre Veracruz" Frequency="118.500" Callsign="MMVR_TWR" Name="VRT">
     <Volumes>MMVR_CTR</Volumes>
   </Sector>
+  <!--MMZH TMA-->
+  <Sector FullName="Aproximación Zihuatanejo" Frequency="121.000" Callsign="MMZH_APP" Name="ZHA">
+    <Volumes>MMZH_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Torre Zihuatanejo" Frequency="118.300" Callsign="MMZH_TWR" Name="ZHT">
+    <Volumes>MMZH_CTR</Volumes>
+  </Sector>
   <!--MMVR TMA-->
   <Sector FullName="Torre Zacatecas" Frequency="118.000" Callsign="MMZC_TWR" Name="ZCT">
     <Volumes>MMZC_ATZ</Volumes>

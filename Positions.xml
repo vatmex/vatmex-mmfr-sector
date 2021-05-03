@@ -2597,7 +2597,7 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Veracruz/Aeropuerto - Pistas" />
-        <Map Name="TMA Veracruz/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Veracruz/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Veracruz/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="TMA Veracruz/Pista 01 - RNP 01" />
@@ -2689,6 +2689,54 @@
       <ControllerInfo>
         <Line>Torre Zacatecas / Zacatecas Tower</Line>
         <Line>Serving MMZC arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Zihuatanejo - ZHT" Type="ASD" DefaultCenter="+173605.840-1012737.990" DefaultRange="50" MagneticVariation="-6">
+      <Sectors>
+        <Sector Name="ZHT" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Zihuatanejo/Aeropuerto - Pistas" />
+        <Map Name="TMA Zihuatanejo/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMZH" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMZH" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Zihuatanejo / Zihuatanejo Tower</Line>
+        <Line>Serving MMZH arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Zihuatanejo - ZHA" Type="ASD" DefaultCenter="+174139.629-1012701.469" DefaultRange="260" MagneticVariation="-6">
+      <Sectors>
+        <Sector Name="ZHA" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Zihuatanejo/Aeropuerto - Pistas" />
+        <Map Name="TMA Zihuatanejo/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMZH" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMZH" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Zihuatanejo / Zihuatanejo Approach</Line>
+        <Line>Serving MMZH arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
