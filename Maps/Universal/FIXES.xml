@@ -134,7 +134,6 @@
       <Point>ETLEP</Point>
       <Point>FOBOS</Point>
       <Point>FRESA</Point>
-      <Point>FRESA</Point>
       <Point>GABAT</Point>
       <Point>GABLI</Point>
       <Point>GAONA</Point>
@@ -220,7 +219,6 @@
       <Point>LIBAR</Point>
       <Point>LIDAM</Point>
       <Point>LIDAR</Point>
-      <Point>LIDED</Point>
       <Point>LIPEP</Point>
       <Point>LIRGA</Point>
       <Point>LIRPO</Point>
@@ -291,7 +289,6 @@
       <Point>OKOMA</Point>
       <Point>OLESI</Point>
       <Point>OLULA</Point>
-      <Point>OLUNO</Point>
       <Point>OLUNO</Point>
       <Point>OMATO</Point>
       <Point>OMISI</Point>
@@ -496,7 +493,6 @@
       <Point>ALITA</Point>
       <Point>ALITO</Point>
       <Point>ALKEM</Point>
-      <Point>ALKEN</Point>
       <Point>ALNUR</Point>
       <Point>ALNUS</Point>
       <Point>ALOMA</Point>
@@ -510,7 +506,6 @@
       <Point>ALURU</Point>
       <Point>ALUXO</Point>
       <Point>ALUXU</Point>
-      <Point>AMAGA</Point>
       <Point>AMEKU</Point>
       <Point>AMIDA</Point>
       <Point>AMILO</Point>
@@ -557,7 +552,6 @@
       <Point>BOPEM</Point>
       <Point>BOSAS</Point>
       <Point>CAMUI</Point>
-      <Point>CAPUL</Point>
       <Point>CHALY</Point>
       <Point>CLONN</Point>
       <Point>COAPA</Point>
@@ -619,8 +613,6 @@
       <Point>ESTIV</Point>
       <Point>ETLEP</Point>
       <Point>FOBOS</Point>
-      <Point>FRESA</Point>
-      <Point>FRESA</Point>
       <Point>GABAT</Point>
       <Point>GABLI</Point>
       <Point>GAONA</Point>
@@ -685,7 +677,6 @@
       <Point>KEKRI</Point>
       <Point>KENDU</Point>
       <Point>KERGA</Point>
-      <Point>KESMI</Point>
       <Point>KEYLO</Point>
       <Point>KIPAL</Point>
       <Point>KOBAM</Point>
@@ -699,11 +690,9 @@
       <Point>LERIL</Point>
       <Point>LERIV</Point>
       <Point>LEROX</Point>
-      <Point>LETAL</Point>
       <Point>LEVAT</Point>
       <Point>LEXOR</Point>
       <Point>LEXUD</Point>
-      <Point>LIBAR</Point>
       <Point>LIDAM</Point>
       <Point>LIDAR</Point>
       <Point>LIDED</Point>
@@ -776,9 +765,6 @@
       <Point>ODKOK</Point>
       <Point>OKOMA</Point>
       <Point>OLESI</Point>
-      <Point>OLULA</Point>
-      <Point>OLUNO</Point>
-      <Point>OLUNO</Point>
       <Point>OMATO</Point>
       <Point>OMISI</Point>
       <Point>OMIXA</Point>
@@ -808,7 +794,6 @@
       <Point>OXALA</Point>
       <Point>PACOS</Point>
       <Point>PAMAB</Point>
-      <Point>PEKSI</Point>
       <Point>PERGO</Point>
       <Point>PESPA</Point>
       <Point>PIDNI</Point>
@@ -843,7 +828,6 @@
       <Point>SAVEK</Point>
       <Point>SEBON</Point>
       <Point>SESNO</Point>
-      <Point>SESVA</Point>
       <Point>SETMA</Point>
       <Point>SHAPA</Point>
       <Point>SIGMA</Point>
@@ -879,7 +863,6 @@
       <Point>TEVOS</Point>
       <Point>TIKEB</Point>
       <Point>TIMAS</Point>
-      <Point>TUGIR</Point>
       <Point>TUGOL</Point>
       <Point>TUKEV</Point>
       <Point>TULUM</Point>
@@ -910,7 +893,6 @@
       <Point>URKOM</Point>
       <Point>URKOP</Point>
       <Point>URLET</Point>
-      <Point>URLIX</Point>
       <Point>URPAV</Point>
       <Point>URSUR</Point>
       <Point>URTOK</Point>
@@ -927,7 +909,6 @@
       <Point>VEVRA</Point>
       <Point>VEVRA</Point>
       <Point>VIBSA</Point>
-      <Point>VICKY</Point>
       <Point>VIDNO</Point>
       <Point>VIKDO</Point>
       <Point>VILPO</Point>
@@ -948,7 +929,6 @@
       <Point>VOMAS</Point>
       <Point>VYLLA</Point>
       <Point>WIPPO</Point>
-      <Point>XOMLU</Point>
       <Point>XOPRU</Point>
       <Point>XOPVO</Point>
       <Point>XORUV</Point>
@@ -963,13 +943,34 @@
       <Point>XOTUG</Point>
       <Point>XOVAB</Point>
       <Point>XOVOM</Point>
-      <Point>XOXAD</Point>
       <Point>XOXIL</Point>
       <Point>XUDED</Point>
       <Point>XUDUN</Point>
       <Point>XUGAD</Point>
       <Point>YEDRA</Point>
       <Point>ZARCO</Point>
+    </Label>
+    <Label HasLeader="false" LabelOrientation="S">
+      <Point>ALKEN</Point>
+      <Point>AMAGA</Point>
+      <Point>AMAGA</Point>
+      <Point>FRESA</Point>
+      <Point>KESMI</Point>
+      <Point>LETAL</Point>
+      <Point>SESVA</Point>
+      <Point>VICKY</Point>
+      <Point>XOMLU</Point>
+      <Point>XOXAD</Point>
+      <Point>URLIX</Point>
+    </Label>
+    <Label HasLeader="false" LabelOrientation="SW">
+      <Point>LIBAR</Point>
+    </Label>
+    <Label HasLeader="false" LabelOrientation="W">
+      <Point>CAPUL</Point>
+      <Point>OLUNO</Point>
+      <Point>TUGIR</Point>
+      <Point>LIDED</Point>
     </Label>
   </Map>
   <Map Type="System" Name="Sector - Radioayudas" Priority="1" Center="+204657.054-0865400.018">
