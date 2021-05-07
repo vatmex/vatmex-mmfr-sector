@@ -1987,7 +1987,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación México (Combinado) - MXA" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240">
+    <Position Name="Aproximación México (Combinado) - MXA" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" DynamicInfill="false">
       <Sectors>
         <Sector Name="MXA" />
         <Sector Name="MXAC" />
@@ -2012,7 +2012,7 @@
         <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
-
+        <Map Name="ACC Mexico/Radar - TMA México" />
         <Map Name="Universal/Sector - Radioayudas" />
       </Maps>
       <ATIS>
