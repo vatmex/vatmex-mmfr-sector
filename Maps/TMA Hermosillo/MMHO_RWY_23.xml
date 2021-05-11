@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Pista 23 - Llegadas RNAV" Priority="1" Center="+290555.39-1110232.64">
+    <Line Name="AVTE1B" Pattern="Dashed">AVTEN/HO419/HO418/DUPOS</Line>
+    <Line Name="BOPA1C" Pattern="Dashed">BOPAP/HO431/DUPOS</Line>
+    <Line Name="IGTA1C" Pattern="Dashed">IGTAN/HO432/HO409/HO408/GORIG</Line>
+    <Line Name="KEKM1C" Pattern="Dashed">KEKMA/HO419/HO418/DUPOS</Line>
+    <Line Name="NABL1B" Pattern="Dashed">NABLA/GORIG</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>AVTEN</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>BOPAP</Point>
+      <Point>DUPOS</Point>
+      <Point>GORIG</Point>
+      <Point>HO408</Point>
+      <Point>HO409</Point>
+      <Point>HO418</Point>
+      <Point>HO419</Point>
+      <Point>HO431</Point>
+      <Point>HO432</Point>
+      <Point>IGTAN</Point>
+      <Point>KEKMA</Point>
+      <Point>NABLA</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>HMO</Point>
+    </Symbol>
+      <Symbol Type="Circle">
+      <Point>HMO</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 23 - Llegadas RNAV (Nombres)" Priority="1" Center="+290555.39-1110232.64">
+    <Label HasLeader="false">
+      <Point>AVTEN</Point>
+      <Point>KEKMA</Point>
+      <Point>BOPAP</Point>
+      <Point>IGTAN</Point>
+      <Point>NABLA</Point>
+      <Point>DUPOS</Point>
+      <Point>GORIG</Point>
+      <Point>HMO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 23 - RNP 23" Priority="1" Center="+290555.39-1110232.64">
+    <Line Pattern="Solid">DUPOS/HO900</Line>
+    <Line Pattern="Solid">AMEVI/HO900</Line>
+    <Line Pattern="Solid">GORIG/HO900</Line>
+    <Line Pattern="Solid">HO900/+290516.66-1110345.41</Line>
+    <Line Pattern="Solid">+290621.412-1110130.509/+290631.701-1110137.607</Line>
+    <Line Pattern="Solid">+290652.571-1110031.916/+290702.860-1110039.015</Line>
+    <Line Pattern="Solid">+290723.723-1105933.314/+290734.012-1105940.414</Line>
+    <Line Pattern="Solid">+290754.867-1105834.702/+290805.157-1105841.802</Line>
+    <Line Pattern="Solid">+290837.585-1105743.593/+290824.906-1105734.937</Line>
+    <Line Pattern="Solid">+290852.164-1105634.156/+290912.945-1105648.312</Line>
+    <Line Pattern="Solid">+290928.259-1105538.807/+290938.548-1105545.909</Line>
+    <Line Pattern="Solid">+290959.375-1105440.156/+291009.664-1105447.259</Line>
+    <Line Pattern="Solid">+291030.484-1105341.495/+291040.773-1105348.598</Line>
+    <Symbol Type="HollowStar">
+      <Point>AMEVI</Point>
+      <Point>DUPUS</Point>
+      <Point>GORIG</Point>
+      <Point>HO900</Point>
+      <Point>HO901</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 23 - Salidas RNAV" Priority="1" Center="+290555.39-1110232.64">
+    <Line Name="BOPA1D" Pattern="Dotted">+290516.66-1110345.41/HO801/HO501/HO531/BOPAP</Line>
+    <Line Name="GYM1C" Pattern="Dotted">+290516.66-1110345.41/HO801/GYM</Line>
+    <Line Name="IGTA1D" Pattern="Dotted">+290516.66-1110345.41/HO801/HO504/HO505/HO502/HO503/IGTAN</Line>
+    <Line Name="KEKM1D" Pattern="Dotted">+290516.66-1110345.41/HO801/HO510/KEKMA</Line>
+    <Line Name="LIDU1B" Pattern="Dotted">+290516.66-1110345.41/HO801/HO501/OMTIB/LIDUK</Line>
+    <Line Name="SEBE1B" Pattern="Dotted">+290516.66-1110345.41/HO801/SEBEK</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>OMTIB</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AMEVI</Point>
+      <Point>BOPAP</Point>
+      <Point>HO501</Point>
+      <Point>HO502</Point>
+      <Point>HO503</Point>
+      <Point>HO504</Point>
+      <Point>HO505</Point>
+      <Point>HO510</Point>
+      <Point>HO531</Point>
+      <Point>HO801</Point>
+      <Point>IGTAN</Point>
+      <Point>KEKMA</Point>
+      <Point>LIDUK</Point>
+      <Point>SEBEK</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>HMO</Point>
+      <Point>GYM</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>HMO</Point>
+      <Point>GYM</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 23 - Salidas RNAV (Nombres)" Priority="1" Center="+290555.39-1110232.64">
+    <Label HasLeader="false">
+      <Point>AMEVI</Point>
+      <Point>BOPAP</Point>
+      <Point>GYM</Point>
+      <Point>IGTAN</Point>
+      <Point>KEKMA</Point>
+      <Point>LIDUK</Point>
+      <Point>SEBEK</Point>
+    </Label>
+  </Map>
+</Maps>

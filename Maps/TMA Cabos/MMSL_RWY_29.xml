@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MMSL - Pista 29 - Llegadas RNAV" Priority="1" Center="+225653.965-1095617.973">
+    <Line Name="ENEKO1C" Pattern="Dotted">ENEKO/MARUX/DASON/SL404/SL400/AVURU/SL406/TESAC</Line>
+    <Line Name="ALRIN1G" Pattern="Dotted">ALRIN/SD403/DASON</Line>
+    <Line Name="LEPOM1C" Pattern="Dotted">LEPOM/GOSIM/SL405/DASON</Line>
+    <Line Name="ILIGA1E" Pattern="Dotted">ILIGA/SL402/TESAC</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>ALRIN</Point>
+      <Point>DASON</Point>
+      <Point>ENEKO</Point>
+      <Point>ILIGA</Point>
+      <Point>LEPOM</Point>
+      <Point>MARUK</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AVURO</Point>
+      <Point>GOSIM</Point>
+      <Point>SD403</Point>
+      <Point>SL400</Point>
+      <Point>SL404</Point>
+      <Point>SL405</Point>
+      <Point>SL405</Point>
+      <Point>TESAC</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMSL - Pista 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
+    <Label HasLeader="false">
+      <Point>ALRIN</Point>
+      <Point>ENEKO</Point>
+      <Point>ILIGA</Point>
+      <Point>LEPOM</Point>
+      <Point>TESAV</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="MMSL - Pista 29 - RNP 29" Priority="1" Center="+225653.965-1095617.973">
+    <Line Pattern="Solid">JERVI/SL702</Line>
+    <Line Pattern="Solid">TESAC/+225637.170-1095545.780</Line>
+    <Symbol Type="HollowStar">
+      <Point>JERVI</Point>
+      <Point>SL700</Point>
+      <Point>SL701</Point>
+      <Point>SL702</Point>
+      <Point>TESAC</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMSL - Pista 29 - Salidas RNAV" Priority="1" Center="+225653.965-1095617.973">
+    <Line Name="ALRIN1C" Pattern="Dotted">+225637.170-1095545.780/SL502/SL504/AVAVU</Line>
+    <Line Name="ANEGO1A" Pattern="Dotted">+225637.170-1095545.780/SL600/LETAT/ANEGO</Line>
+    <Line Name="ILIGA1A" Pattern="Dotted">SL502/SL501/ILIGA</Line>
+    <Line Name="UKUXA1A" Pattern="Dotted">AVAVU/UKUXA</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>ALRIN</Point>
+      <Point>AVAVU</Point>
+      <Point>ILIGA</Point>
+      <Point>LETAT</Point>
+      <Point>UKUXA</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANEGO</Point>
+      <Point>SD403</Point>
+      <Point>SD507</Point>
+      <Point>SD508</Point>
+      <Point>SL501</Point>
+      <Point>SL502</Point>
+      <Point>SL504</Point>
+      <Point>SL600</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMSL - Pista 29 - Salidas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
+    <Label HasLeader="false">
+      <Point>ALRIN</Point>
+      <Point>ANEGO</Point>
+      <Point>ILIGA</Point>
+      <Point>UKUXA</Point>
+    </Label>
+  </Map>
+</Maps>
