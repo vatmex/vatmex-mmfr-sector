@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Local_Private" Name="Limites FIR" Priority="2">
+  <Map Type="Local_Private" Name="Limites - Sectores" Priority="2">
     <Line Name="MMZT_BORDER" Pattern="Broken">
 +312000.000-1083000.000/
 +280000.000-1083000.000/
@@ -39,7 +39,7 @@
 +273327.000-1095640.000/
 +280000.000-1083000.000</Line>
   </Map>
-  <Map Type="System2" Name="Limites FIR (Referencia)" Priority="2">
+  <Map Type="System2" Name="Limites - Sectores (Referencia)" Priority="2">
     <Line Name="MMZT_127_BORDER" Pattern="Broken">
 +275516.000-1172949.000/
 +292652.000-1144232.000/
@@ -64,7 +64,7 @@
 +233433.000-1062340.000/
 +261114.000-1060234.000</Line>
   </Map>
-  <Map Type="Local_Private" Name="Limites FIR (Individual)" Priority="2">
+  <Map Type="Local_Private" Name="Limites - Sectores Individuales" Priority="2">
     <Line Name="MMZT_BORDER" Pattern="Broken">
 +312000.000-1083000.000/
 +280000.000-1083000.000/
@@ -123,17 +123,5 @@
 +221708.000-1050718.000/
 +225414.000-1054900.000/
 +233433.000-1062340.000</Line>
-  </Map>
-  <Map Type="Local_Private" Name="MMZT_FIR_FREQS" Priority="0">
-    <Label HasLeader="false">
-      <Point Name="126.600">+221500.000-0972500.000</Point>
-      <Point Name="128.000">+200000.000-0963000.000</Point>
-      <Point Name="128.500">+174651.000-0994500.000</Point>
-      <Point Name="123.000">+180000.000-1033000.000</Point>
-      <Point Name="125.100">+210000.000-1013000.000</Point>
-      <Point Name="126.000">+220000.000-1000000.000</Point>
-      <Point Name="123.900">+223000.000-1023000.000</Point>
-      <Point Name="127.300">+153000.000-0991000.000</Point>
-    </Label>
   </Map>
 </Maps>

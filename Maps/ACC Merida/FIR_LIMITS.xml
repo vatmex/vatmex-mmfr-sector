@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Local_Private" Name="Limites FIR" Priority="2">
+  <Map Type="Local_Private" Name="Limites - Sectores" Priority="2">
     <Line Name="MMID_BORDER" Pattern="Broken">
 +230000.000-0950000.000/
 +243000.000-0930000.000/
@@ -65,7 +65,7 @@
 +190244.000-0904541.000/
 +174900.000-0903600.000</Line>
   </Map>
-  <Map Type="System2" Name="Limites FIR (Referencia)" Priority="2">
+  <Map Type="System2" Name="Limites - Sectores (Referencia)" Priority="2">
     <Line Name="MMID_56_BORDER" Pattern="Broken">
 +213330.000-0950012.000/
 +213835.000-0933341.000/
@@ -86,7 +86,7 @@
 +205008.000-0855850.000/
 +205920.000-0852849.000</Line>
   </Map>
-  <Map Type="Local_Private" Name="Limites FIR (Individual)" Priority="2">
+  <Map Type="Local_Private" Name="Limites - Sectores Individuales" Priority="2">
     <Line Name="MMID_BORDER" Pattern="Broken">
 +230000.000-0950000.000/
 +243000.000-0930000.000/
@@ -171,7 +171,7 @@
 +213835.000-0933341.000/
 +213330.000-0950012.000</Line>
   </Map>
-  <Map Type="System2" Name="Limites Terminales" Priority="2">
+  <Map Type="System2" Name="Limites - Terminales" Priority="2">
     <Line Name="MMUN" Pattern="Solid">
 +205259.234-0880550.465/
 +205524.833-0880607.730/

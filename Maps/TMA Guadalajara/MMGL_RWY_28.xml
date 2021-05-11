@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Pista 28 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
+    <Line Name="LONVA1D" Pattern="Dashed">LONVA/GL820/GL821/GL822/VOLIN/GL824/GL825/GL826/GL827/GL828/PLADE</Line>
+    <Line Name="LIVRI1D" Pattern="Dashed">LIVRI/IKBAN/GL840/UKOSI/GL824</Line>
+    <Line Name="MODEX1B" Pattern="Dashed">MODEX/GL825</Line>
+    <Line Name="ULUVO1B" Pattern="Dashed">ULUVO/GL530/GL802/GL803/GL804/GL805/PLADE</Line>
+    <Line Name="USBIM1D" Pattern="Dashed">USBIM/OTETA/GL801/GL802</Line>
+    <Line Name="LIPEP1D" Pattern="Dashed">LIPEP/OTETA</Line>
+    <Symbol Type="HollowStar">
+      <Point>GL530</Point>
+      <Point>GL801</Point>
+      <Point>GL802</Point>
+      <Point>GL803</Point>
+      <Point>GL804</Point>
+      <Point>GL805</Point>
+      <Point>GL820</Point>
+      <Point>GL821</Point>
+      <Point>GL822</Point>
+      <Point>GL824</Point>
+      <Point>GL825</Point>
+      <Point>GL826</Point>
+      <Point>GL827</Point>
+      <Point>GL828</Point>
+      <Point>GL840</Point>
+      <Point>IKBAN</Point>
+      <Point>LIPEP</Point>
+      <Point>LIVRI</Point>
+      <Point>LONVA</Point>
+      <Point>MODEX</Point>
+      <Point>OTETA</Point>
+      <Point>PLADE</Point>
+      <Point>UKOSI</Point>
+      <Point>ULUVO</Point>
+      <Point>USBIM</Point>
+      <Point>VOLIN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 28 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Label HasLeader="false">
+      <Point>LIPEP</Point>
+      <Point>LIVRI</Point>
+      <Point>LONVA</Point>
+      <Point>MODEX</Point>
+      <Point>PLADE</Point>
+      <Point>ULUVO</Point>
+      <Point>USBIM</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 28 - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
+    <Line Name="PLADER022">+202353.280-1030101.559/+204555.865-1024831.278</Line>
+    <Line Name="PLADER162">+202353.280-1030101.559/+195928.092-1025529.287</Line>
+    <Line Name="PLADED25">
++204555.865-1024831.278/
++204530.517-1024742.489/
++204405.123-1024522.196/
++204226.452-1024312.195/
++204035.584-1024113.910/
++203833.735-1023928.637/
++203622.240-1023757.530/
++203402.539-1023641.586/
++203136.163-1023541.638/
++202904.715-1023458.343/
++202629.855-1023432.175/
++202353.280-1023423.420/
++202116.704-1023432.175/
++201841.844-1023458.343/
++201610.396-1023541.638/
++201344.020-1023641.586/
++201124.319-1023757.530/
++200912.824-1023928.637/
++200710.975-1024113.910/
++200520.107-1024312.195/
++200341.436-1024522.196/
++200216.042-1024742.489/
++200104.860-1025011.537/
++200008.672-1025247.706/
++195928.092-1025529.287</Line>
+    <Line Name="PLADED20">
++204130.748-1025101.674/
++204111.070-1025022.303/
++204002.754-1024830.069/
++203843.817-1024646.068/
++203715.123-1024511.440/
++203537.644-1024347.221/
++203352.448-1024234.336/
++203200.687-1024133.581/
++203003.586-1024045.622/
++202802.428-1024010.986/
++202558.540-1023950.051/
++202353.280-1023943.048/
++202148.019-1023950.051/
++201944.131-1024010.986/
++201742.973-1024045.622/
++201545.872-1024133.581/
++201354.111-1024234.336/
++201208.915-1024347.221/
++201031.436-1024511.440/
++200902.742-1024646.068/
++200743.805-1024830.069/
++200635.489-1025022.303/
++200538.544-1025221.541/
++200453.593-1025426.477/
++200421.129-1025635.741</Line>
+    <Line Name="PLADED15">
++203704.866-1025332.505/
++203651.622-1025302.117/
++203600.386-1025137.941/
++203501.183-1025019.940/
++203354.662-1024908.969/
++203241.553-1024805.806/
++203122.656-1024711.141/
++202958.835-1024625.575/
++202831.009-1024549.606/
++202700.141-1024523.629/
++202527.225-1024507.928/
++202353.280-1024502.675/
++202219.334-1024507.928/
++202046.418-1024523.629/
++201915.550-1024549.606/
++201747.724-1024625.575/
++201623.903-1024711.141/
++201505.006-1024805.806/
++201351.897-1024908.969/
++201245.376-1025019.940/
++201146.173-1025137.941/
++201054.937-1025302.117/
++201012.228-1025431.546/
++200938.515-1025605.247/
++200914.167-1025742.195</Line>
+    <Line Name="PLADED10">
++203243.200-1025600.943/
++203232.175-1025541.931/
++203158.017-1025445.814/
++203118.548-1025353.813/
++203034.201-1025306.499/
++202945.462-1025224.390/
++202852.864-1025147.947/
++202756.983-1025117.570/
++202658.433-1025053.590/
++202557.854-1025036.272/
++202455.910-1025025.805/
++202353.280-1025022.303/
++202250.649-1025025.805/
++202148.705-1025036.272/
++202048.126-1025053.590/
++201949.576-1025117.570/
++201853.695-1025147.947/
++201801.097-1025224.390/
++201712.358-1025306.499/
++201628.011-1025353.813/
++201548.542-1025445.814/
++201514.384-1025541.931/
++201445.912-1025641.550/
++201423.436-1025744.018/
++201407.204-1025848.650</Line>
+    <Line Name="PLADED5">
++202818.670-1025831.007/
++202812.727-1025821.745/
++202755.648-1025753.686/
++202735.914-1025727.686/
++202713.740-1025704.029/
++202649.371-1025642.974/
++202623.072-1025624.753/
++202555.131-1025609.564/
++202525.856-1025557.574/
++202455.567-1025548.915/
++202424.595-1025543.682/
++202353.280-1025541.931/
++202321.964-1025543.682/
++202250.992-1025548.915/
++202220.703-1025557.574/
++202151.428-1025609.564/
++202123.487-1025624.753/
++202057.188-1025642.974/
++202032.819-1025704.029/
++202010.645-1025727.686/
++201950.911-1025753.686/
++201933.832-1025821.745/
++201919.596-1025851.554/
++201908.358-1025922.788/
++201900.242-1025955.104</Line>
+  </Map>
+  <Map Type="System" Name="Pista 28 - ILS Z 28" Priority="1" Center="+203124.320-1031841.798">
+    <Line Pattern="Solid">PLADE/GDL</Line>
+    <Line Pattern="Solid">APRIM/AXELO</Line>
+    <Line Name="D1" Pattern="Solid">+203043.113-1031751.539/+203115.826-1031735.621</Line>
+    <Line Name="D2" Pattern="Solid">+203018.266-1031653.323/+203050.979-1031637.406</Line>
+    <Line Name="D3" Pattern="Solid">+202953.418-1031555.109/+203026.131-1031539.192/</Line>
+    <Line Name="D4" Pattern="Solid">+202928.571-1031456.898/+203001.284-1031440.982/</Line>
+    <Line Name="D5" Pattern="Solid">+202936.436-1031342.776/+202903.722-1031358.691</Line>
+    <Line Name="D6" Pattern="Solid">+202838.874-1031300.486/+202911.587-1031244.572</Line>
+    <Line Name="D7" Pattern="Solid">+202814.026-1031202.283/+202846.739-1031146.369</Line>
+    <Line Name="D8" Pattern="Solid">+202749.179-1031104.084/+202821.891-1031048.171</Line>
+    <Line Name="D9" Pattern="Solid">+202724.331-1031005.887/+202757.044-1030949.975</Line>
+    <Line Name="D10" Pattern="Solid">+202659.482-1030907.692/+202732.195-1030851.780</Line>
+    <Line Name="D11" Pattern="Solid">+202634.634-1030809.500/+202707.346-1030753.589</Line>
+    <Line Name="D12" Pattern="Solid">+202609.787-1030711.311/+202642.500-1030655.401</Line>
+    <Line Name="D13" Pattern="Solid">+202617.652-1030557.215/+202544.938-1030613.124</Line>
+    <Line Name="D14" Pattern="Solid">+202520.091-1030514.940/+202552.804-1030459.031</Line>
+    <Line Name="D15" Pattern="Solid">+202455.242-1030416.758/+202527.955-1030400.850</Line>
+    <Line Name="D16" Pattern="Solid">+202430.394-1030318.579/+202503.107-1030302.672</Line>
+    <Line Name="D17" Pattern="Solid">+202405.547-1030220.403/+202438.260-1030204.496</Line>
+    <Line Name="D18" Pattern="Solid">+202029.102-1030600.706/+202043.724-1030635.732</Line>
+    <Line Name="D19" Pattern="Solid">+202123.839-1030534.711/+202138.461-1030609.740</Line>
+    <Line Name="D20" Pattern="Solid">+202218.574-1030508.715/+202233.196-1030543.748</Line>
+    <Line Name="D21" Pattern="Solid">+202313.311-1030442.717/+202327.933-1030517.753</Line>
+    <Line Name="D22" Pattern="Solid">+202408.045-1030416.715/+202422.667-1030451.755</Line>
+    <Line Name="D23" Pattern="Solid">+202502.782-1030350.710/+202517.404-1030425.753</Line>
+    <Line Name="D24" Pattern="Solid">+202557.519-1030324.705/+202612.141-1030359.752</Line>
+    <Line Name="D25" Pattern="Solid">+202652.254-1030258.695/+202706.876-1030333.745</Line>
+    <Line Name="D26" Pattern="Solid">+202746.991-1030232.682/+202801.613-1030307.736</Line>
+    <Line Name="D27" Pattern="Solid">+202841.726-1030206.667/+202856.348-1030241.724</Line>
+    <Line Name="D28" Pattern="Solid">+202936.463-1030140.652/+202951.085-1030215.713</Line>
+    <Symbol Type="HollowStar">
+      <Point>APRIM</Point>
+      <Point>AXELO</Point>
+      <Point>GL980</Point>
+      <Point>GL981</Point>
+      <Point>PLADE</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 28 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
+    <Line Name="OTOKI1B" Pattern="Dotted">GDL/GL710/GL711/GL712/OTOKI</Line>
+    <Line Name="FEISE1B" Pattern="Dotted">GL710/GL720/GL721/FEISE</Line>
+    <Line Name="KELVA1B" Pattern="Dotted">GL720/GL725/KELVA</Line>
+    <Line Name="LONKUIE" Pattern="Dotted">GL720/GL726/LONKU</Line>
+    <Line Name="EMIRI1B" Pattern="Dotted">GL710/GL730/GL731/ATOXO/EMIRI</Line>
+    <Line Name="NOTUP1C" Pattern="Dotted">GL710/NOTUP</Line>
+    <Line Name="SEDEM1B" Pattern="Dotted">GL710/SEDEM</Line>
+    <Symbol Type="HollowStar">
+      <Point>ATOXO</Point>
+      <Point>EMIRI</Point>
+      <Point>FEISE</Point>
+      <Point>GL710</Point>
+      <Point>GL711</Point>
+      <Point>GL712</Point>
+      <Point>GL720</Point>
+      <Point>GL721</Point>
+      <Point>GL725</Point>
+      <Point>GL726</Point>
+      <Point>GL730</Point>
+      <Point>GL731</Point>
+      <Point>KELVA</Point>
+      <Point>LONKU</Point>
+      <Point>NOTUP</Point>
+      <Point>OTOKI</Point>
+      <Point>SEDEM</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 28 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Label HasLeader="false">
+      <Point>EMIRI</Point>
+      <Point>FEISE</Point>
+      <Point>KELVA</Point>
+      <Point>LONKU</Point>
+      <Point>NOTUP</Point>
+      <Point>OTOKI</Point>
+      <Point>SEDEM</Point>
+    </Label>
+  </Map>
+</Maps>

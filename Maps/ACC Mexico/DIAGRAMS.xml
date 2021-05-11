@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Volcanes" Priority="1">
+  <Map Type="System2" Name="Sector - Aerodromos" Priority="2">
+    <Label HasLeader="false">
+      <Point Name="AZG">+190537.400-1022334.200</Point>
+      <Point Name="CAT">+181933.400-1003753.400</Point>
+      <Point Name="CRV">+185220.000-0965722.000</Point>
+      <Point Name="CVD">+215442.900-0985722.300</Point>
+      <Point Name="CYA">+203245.398-1005311.158</Point>
+      <Point Name="JAL">+192830.200-0964751.028</Point>
+      <Point Name="JJC">+193429.000-0991720.400</Point>
+      <Point Name="LBG">+210733.700-1002421.800</Point>
+      <Point Name="LBO">+225713.600-0985736.000</Point>
+      <Point Name="LZC">+180006.200-1021313.200</Point>
+      <Point Name="OCT">+202208.100-1024628.100</Point>
+      <Point Name="PCA">+200431.400-0984701.600</Point>
+      <Point Name="SCZ">+161242.800-0951205.000</Point>
+      <Point Name="TNC">+183000.000-0972500.000</Point>
+      <Point Name="ZAM">+200240.900-1021631.300</Point>
+      <Point Name="ZKA">+181608.000-0993038.000</Point>
+      <Point Name="ZPU">+195105.000-1014504.000</Point>
+    </Label>
+    <Symbol Type="Circle">
+      <Point>+161242.800-0951205.000</Point>
+      <Point>+180006.200-1021313.200</Point>
+      <Point>+181608.000-0993038.000</Point>
+      <Point>+181933.400-1003753.400</Point>
+      <Point>+183000.000-0972500.000</Point>
+      <Point>+185220.000-0965722.000</Point>
+      <Point>+190537.400-1022334.200</Point>
+      <Point>+192830.200-0964751.028</Point>
+      <Point>+193429.000-0991720.400</Point>
+      <Point>+195105.000-1014504.000</Point>
+      <Point>+200240.900-1021631.300</Point>
+      <Point>+200431.400-0984701.600</Point>
+      <Point>+202208.100-1024628.100</Point>
+      <Point>+203245.398-1005311.158</Point>
+      <Point>+210733.700-1002421.800</Point>
+      <Point>+215442.900-0985722.300</Point>
+      <Point>+225713.600-0985736.000</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System2" Name="Sector - Volcanes" Priority="1">
     <Line Name="Popocatepetl" Pattern="Solid">
 +191117.854-0983612.753/
 +191108.044-0983507.234/
