@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Pista 19 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
+    <Line Name="DUPLO1B" Pattern="Dashed">
+      DUPLO/VR408/VR417/IMARA/VR405/SUVUL
+    </Line>
+    <Line Name="DURIB1B" Pattern="Dashed">
+      DURIB/OVUVA
+    </Line>
+    <Line Name="ELIKU1B" Pattern="Dashed">
+      ELIKU/VR414/VR416/VR412/VIMRA
+    </Line>
+    <Line Name="ELOGO1B" Pattern="Dashed">
+      ELOGO/VR408
+    </Line>
+    <Line Name="GOTAS1B" Pattern="Dashed">
+      GOTAS/VR406/VR407/SUVUL
+    </Line>
+    <Line Name="IKLES1B" Pattern="Dashed">
+      IKLES/VR412
+    </Line>
+    <Line Name="OMPAN1B" Pattern="Dashed">
+      OMPAN/VR407
+    </Line>
+    <Line Name="TEVET1B" Pattern="Dashed">
+      TEVET/VR412
+    </Line>
+    <Symbol Type="SolidTriangle">
+      <Point>DUPLO</Point>
+      <Point>ELOGO</Point>
+      <Point>GOTAS</Point>
+      <Point>OMPAN</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>DURIB</Point>
+      <Point>ELIKU</Point>
+      <Point>IKLES</Point>
+      <Point>IMARA</Point>
+      <Point>OVUVA</Point>
+      <Point>SUVUL</Point>
+      <Point>TEVET</Point>
+      <Point>VIMRA</Point>
+      <Point>VR404</Point>
+      <Point>VR405</Point>
+      <Point>VR406</Point>
+      <Point>VR407</Point>
+      <Point>VR408</Point>
+      <Point>VR412</Point>
+      <Point>VR414</Point>
+      <Point>VR416</Point>
+      <Point>VR417</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 19 - Llegadas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
+    <Label HasLeader="false">
+      <Point>DUPLO</Point>
+      <Point>DURIB</Point>
+      <Point>ELIKU</Point>
+      <Point>ELOGO</Point>
+      <Point>GOTAS</Point>
+      <Point>IKLES</Point>
+      <Point>OMPAN</Point>
+      <Point>OVUVA</Point>
+      <Point>SUVUL</Point>
+      <Point>TEVET</Point>
+      <Point>VIMRA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 19 - ILS DME 19" Priority="1" Center="+192617.580-0990407.680">
+    <Line Pattern="Solid">
+      OVUVA/+190858.910-0961111.580
+    </Line>
+    <Line Pattern="Solid">
+      VIMRA/SUVUL
+    </Line>
+    <Symbol Type="HollowStar">
+      <Point>DANUN</Point>
+      <Point>DULNO</Point>
+      <Point>DATSO</Point>
+      <Point>GL812</Point>
+      <Point>GL813</Point>
+      <Point>GL814</Point>
+      <Point>GL815</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 19 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
+    <Line Name="DUPLO1D" Pattern="Dotted">
+      +190742.340-0961127.460/IPTAK/VR506/DUPLO
+    </Line>
+    <Line Name="DURIB1C" Pattern="Dotted">
+      +190742.340-0961127.460/VR512/VR509/VR510/VR511/DURIB
+    </Line>
+    <Line Name="ELIKU1D" Pattern="Dotted">
+      +190742.340-0961127.460/VR512/URSOT/VR507/VR513/ELIKU
+    </Line>
+    <Line Name="ELOGO1D" Pattern="Dotted">
+      IPTAK/VR514/VR505/ELOGO
+    </Line>
+    <Line Name="GOTAS1D" Pattern="Dotted">
+      +190742.340-0961127.460/VR501/AXELI/VR502/VR504/GOTAS
+    </Line>
+    <Line Name="IKLES1D" Pattern="Dotted">
+      VR511/IKLES
+    </Line>
+    <Line Name="NOREL1B" Pattern="Dotted">
+      AXELI/NOREL
+    </Line>
+    <Line Name="OMPAN1D" Pattern="Dotted">
+      VR502/VR503/OMPAN
+    </Line>
+    <Line Name="RERAS1B" Pattern="Dotted">
+      VR513/RERAS
+    </Line>
+    <Symbol Type="SolidTriangle">
+      <Point>DUPLO</Point>
+      <Point>ELOGO</Point>
+      <Point>GOTAS</Point>
+      <Point>NOREL</Point>
+      <Point>OMPAN</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AXELI</Point>
+      <Point>DURIB</Point>
+      <Point>ELIKU</Point>
+      <Point>IKLES</Point>
+      <Point>IPTAK</Point>
+      <Point>RERAS</Point>
+      <Point>URSOT</Point>
+      <Point>VR501</Point>
+      <Point>VR502</Point>
+      <Point>VR503</Point>
+      <Point>VR504</Point>
+      <Point>VR507</Point>
+      <Point>VR509</Point>
+      <Point>VR510</Point>
+      <Point>VR511</Point>
+      <Point>VR512</Point>
+      <Point>VR513</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 19 - Salidas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
+    <Label HasLeader="false">
+      <Point>DUPLO</Point>
+      <Point>DURIB</Point>
+      <Point>ELIKU</Point>
+      <Point>ELOGO</Point>
+      <Point>GOTAS</Point>
+      <Point>IKLES</Point>
+      <Point>NOREL</Point>
+      <Point>OMPAN</Point>
+      <Point>RERAS</Point>
+    </Label>
+  </Map>
+</Maps>

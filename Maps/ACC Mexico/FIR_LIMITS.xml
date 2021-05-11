@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Local_Private" Name="Limites FIR" Priority="2">
+  <Map Type="Local_Private" Name="Limites - Sectores" Priority="2">
     <Line Name="MMEX_SECTOR_SW" Pattern="Broken">
 +240909.000-1032608.000/
 +234000.000-1025000.000/
@@ -57,7 +57,7 @@
 +132121.000-0982715.000/
 +130712.000-0991330.000</Line>
   </Map>
-  <Map Type="Local_Private" Name="Limites FIR - Individual" Priority="2">
+  <Map Type="Local_Private" Name="Limites - Sectores Individuales" Priority="2">
     <Line Name="MMEX_BORDER" Pattern="Broken">
 +234000.000-1025000.000/
 +233611.000-1015759.000/
@@ -229,19 +229,7 @@
 +214417.000-1013025.000/
 +205655.000-1023533.000</Line>
   </Map>
-  <Map Type="Local_Private" Name="MMEX_FIR_FREQS" Priority="0">
-  	<Label HasLeader="false">
-      <Point Name="126.600">+221500.000-0972500.000</Point>
-      <Point Name="128.000">+200000.000-0963000.000</Point>
-      <Point Name="128.500">+174651.000-0994500.000</Point>
-      <Point Name="123.000">+180000.000-1033000.000</Point>
-      <Point Name="125.100">+210000.000-1013000.000</Point>
-      <Point Name="126.000">+220000.000-1000000.000</Point>
-      <Point Name="123.900">+223000.000-1023000.000</Point>
-      <Point Name="127.300">+153000.000-0991000.000</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="Limites Terminales" Priority="2">
+  <Map Type="System2" Name="Limites - Terminales" Priority="2">
     <Line Name="MMAA" Pattern="Solid">
 +173200.000-1002459.000/
 +173354.049-1002200.526/

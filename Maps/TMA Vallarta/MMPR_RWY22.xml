@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Pista 22 - Llegadas RNAV" Priority="1" Center="+204048.261-1051515.123">
+    <!--STARs-->
+    <Line Name="KEDIX1B" Pattern="Dashed">KEDIX/PR660/PR669/MUVBA</Line>
+    <Line Name="OBRUG1B" Pattern="Dashed">OBRUG/PR668/MUVBA</Line>
+    <Line Name="KEDMA1B" Pattern="Dashed">KEDMA/TNY/PR667/PR665/VETKA</Line>
+    <Line Name="ESVEL1" Pattern="Dashed">ESVEL/PR659/PR658/PR656/VETKA</Line>
+    <Line Name="NOTUP1B" Pattern="Dashed">NOTUP/SETLU//PR664/PR662/PR661/VETKA</Line>
+    <Line Name="LIPEP1E" Pattern="Dashed">LIPEP/PR663/PR662</Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KEDMA</Point>
+      <Point>NOTUP</Point>
+      <Point>LIPEP</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>KEDIX</Point>
+      <Point>MAYTE</Point>
+      <Point>PR660</Point>
+      <Point>PR668</Point>
+      <Point>PR669</Point>
+      <Point>MUVBA</Point>
+      <Point>PR667</Point>
+      <Point>PR665</Point>
+      <Point>VETKA</Point>
+      <Point>ESVEL</Point>
+      <Point>PR659</Point>
+      <Point>PR658</Point>
+      <Point>PR656</Point>
+      <Point>PR661</Point>
+      <Point>NOTUP</Point>
+      <Point>LIPEP</Point>
+      <Point>PR663</Point>
+      <Point>PR664</Point>
+      <Point>PR662</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>TNY</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>TNY</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 22 - Llegadas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
+    <Label HasLeader="false">
+      <Point>KEDIX</Point>
+      <Point>OBRUG</Point>
+      <Point>KEDMA</Point>
+      <Point>ESVEL</Point>
+      <Point>NOTUP</Point>
+      <Point>LIPEP</Point>
+
+      <Point>MUVBA</Point>
+      <Point>VETKA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 22 - RNP 22" Priority="1" Center="+204048.261-1051515.123">
+    <Line Name="MUVBA" Pattern="Solid">MUVBA/PR407</Line>
+    <Line Name="VETKA" Pattern="Solid">VETKA/PR407</Line>
+    <Line Name="FINAL" Pattern="Solid">PR407/+204122.591-1051435.752</Line>
+
+    <Line Name="D1" Pattern="Solid">
++204139.756-1051328.614/
++204223.576-1051412.296</Line>
+    <Line Name="D2" Pattern="Solid">
++204220.618-1051241.768/
++204304.438-1051325.453</Line>
+    <Line Name="D3" Pattern="Solid">
++204301.483-1051154.918/
++204345.303-1051238.606</Line>
+    <Line Name="D4" Pattern="Solid">
++204342.347-1051108.064/
++204426.167-1051151.756</Line>
+    <Line Name="D5" Pattern="Solid">
++204423.211-1051021.208/
++204507.031-1051104.903</Line>
+    <Line Name="D6" Pattern="Solid">
++204504.075-1050934.347/
++204547.896-1051018.045</Line>
+    <Line Name="D7" Pattern="Solid">
++204544.939-1050847.484/
++204628.760-1050931.185</Line>
+    <Line Name="D8" Pattern="Solid">
++204625.803-1050800.615/
++204709.624-1050844.320</Line>
+    <Line Name="D9" Pattern="Solid">
++204706.668-1050713.743/
++204750.489-1050757.451</Line>
+    <Line Name="D10" Pattern="Solid">
++204747.532-1050626.869/
++204831.353-1050710.580</Line>
+    <Line Name="D11" Pattern="Solid">
++204828.396-1050539.992/
++204912.217-1050623.707</Line>
+    <Line Name="D12" Pattern="Solid">
++204909.260-1050453.110/
++204953.081-1050536.828</Line>
+    <Line Name="D13" Pattern="Solid">
++204950.124-1050406.223/
++205033.945-1050449.944</Line>
+  </Map>
+
+  <Map Type="System" Name="Pista 22 - Salidas RNAV" Priority="1" Center="+204048.261-1051515.123">
+    <!--SIDS-->
+    <Line Name="BOBDI1B" Pattern="Dotted">+204013.929-1051554.489/PR557/PR551/PR552/BOBDI</Line>
+    <Line Name="XUDED1B" Pattern="Dotted">PR552/PR553/XUDED</Line>
+    <Line Name="LIPEP1D" Pattern="Dotted">PR557/PR558/PR555/LIPEP</Line>
+    <Line Name="VOLAT1D" Pattern="Dotted">PR555/VOLAT</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>LIPEP</Point>
+      <Point>VOLAT</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>PR557</Point>
+      <Point>PR551</Point>
+      <Point>PR552</Point>
+      <Point>PR553</Point>
+      <Point>XUDED</Point>
+      <Point>BOBDI</Point>
+      <Point>PR558</Point>
+      <Point>PR555</Point>
+      <Point>LIPEP</Point>
+      <Point>VOLAT</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 22 - Salidas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
+    <Label HasLeader="false">
+      <Point>BOBDI</Point>
+      <Point>XUDED</Point>
+      <Point>LIPEP</Point>
+      <Point>VOLAT</Point>
+    </Label>
+  </Map>
+</Maps>
