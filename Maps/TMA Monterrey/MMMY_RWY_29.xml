@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Pista 29 - Llegadas RNAV" Priority="1" Center="+284208.380-1055746.670">
+    <Line Name="ITPIS1A" Pattern="Dashed">ITPIS/ULAVA/AGMUM/KATPO/MY401/CLOVR/OKOTO</Line>
+    <Line Name="NOTAL1A" Pattern="Dashed">NOTAL/VETNU/NAPNO/MY498/AGMUM</Line>
+    <Line Name="RETOS1A" Pattern="Dashed">RETOS/MIBTA/CLOVR</Line>
+    <Line Name="SLW1B" Pattern="Dashed">SLW/ESRAP/WICLO/MISUL/MY410/CLOVR</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>NOTAL</Point>
+      <Point>ITPIS</Point>
+      <Point>RETOS</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>SLW</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>SLW</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AGMUM</Point>
+      <Point>CLOVR</Point>
+      <Point>ESRAP</Point>
+      <Point>KATPO</Point>
+      <Point>MIBTA</Point>
+      <Point>MISUL</Point>
+      <Point>MY401</Point>
+      <Point>MY410</Point>
+      <Point>MY498</Point>
+      <Point>NAPNO</Point>
+      <Point>OKOTO</Point>
+      <Point>ULAVA</Point>
+      <Point>VETNU</Point>
+      <Point>WICLO</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>ITPIS</Point>
+      <Point>NOTAL</Point>
+      <Point>RETOS</Point>
+      <Point>SLW</Point>
+
+      <Point>OKOTO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 29 - ILS 4 29" Priority="1" Center="+284208.380-1055746.670">
+    <Line Pattern="Solid">
++255155.589-1001419.660/
++254546.633-0995533.103/
++254546.633-0995533.103/
++254541.730-0995520.295/
++254538.833-0995514.116/
++254535.648-0995508.114/
++254532.184-0995502.305/
++254528.452-0995456.705/
++254524.460-0995451.330/
++254520.221-0995446.194/
++254515.745-0995441.312/
++254511.045-0995436.696/
++254506.134-0995432.360/
++254501.025-0995428.314/
++254455.733-0995424.572/
++254450.271-0995421.141/
++254444.655-0995418.033/
++254438.901-0995415.256/
++254433.023-0995412.816/
++254427.038-0995410.721/
++254420.963-0995408.977/
++254414.814-0995407.588/
++254408.608-0995406.559/
++254402.361-0995405.891/
++254356.092-0995405.587/
++254349.817-0995405.648/
++254343.554-0995406.073/
++254337.319-0995406.862/
++254331.130-0995408.012/
++254325.003-0995409.519/
++254318.956-0995411.381/
++254313.005-0995413.591/
++254307.167-0995416.144/
++254301.457-0995419.033/
++254255.891-0995422.249/
++254250.484-0995425.785/
++254245.251-0995429.630/
++254240.207-0995433.773/
++254235.365-0995438.204/
++254230.738-0995442.910/
++254226.340-0995447.879/
++254222.182-0995453.096/
++254218.275-0995458.548/
++254214.631-0995504.219/
++254211.260-0995510.094/
++254208.170-0995516.156/
++254205.370-0995522.391/
++254202.867-0995528.779/
++254200.670-0995535.304/
++254158.783-0995541.947/
++254157.212-0995548.691/
++254155.961-0995555.517/
++254155.033-0995602.407/
++254154.432-0995609.341/
++254154.158-0995616.300/
++254154.213-0995623.266/
++254154.596-0995630.219/
++254155.306-0995637.140/
++254156.342-0995644.010/
++254157.700-0995650.811/
++254159.377-0995657.524/
++254201.368-0995704.130/
++254203.668-0995710.611/
++254206.270-0995716.950/
+MY408</Line>
+    <Symbol Type="Circle">
+      <Point>ADN</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>ADN</Point>
+    </Symbol>
+    <Label HasLeader="false">
+      <Point>ADN</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Pista 29 - ILS 5 29" Priority="1" Center="+284208.380-1055746.670">
+    <Line Pattern="Solid">OKOTO/+254612.450-1000529.930</Line>
+
+    <Line Pattern="Solid">+254708.280-1000816.190/+254759.651-1000741.909</Line>
+    <Line Pattern="Solid">+254739.146-1000913.241/+254830.517-1000838.967</Line>
+    <Line Pattern="Solid">+254810.012-1001010.296/+254901.383-1000936.029</Line>
+    <Line Pattern="Solid">+254840.878-1001107.355/+254932.249-1001033.095</Line>
+    <Line Pattern="Solid">+254911.744-1001204.418/+255003.115-1001130.165</Line>
+    <Line Pattern="Solid">+254942.610-1001301.485/+255033.981-1001227.239</Line>
+    <Line Pattern="Solid">+255013.476-1001358.557/+255104.847-1001324.317</Line>
+    <Line Pattern="Solid">+255044.342-1001455.633/+255135.713-1001421.400</Line>
+    <Line Pattern="Solid">+255115.208-1001552.713/+255206.579-1001518.487</Line>
+    <Line Pattern="Solid">+255146.074-1001649.797/+255237.445-1001615.578</Line>
+    <Line Pattern="Solid">+255216.940-1001746.885/+255308.311-1001712.673</Line>
+    <Line Pattern="Solid">+255247.806-1001843.977/+255339.177-1001809.772</Line>
+    <Symbol Type="HollowStar">
+      <Point>OKOTO</Point>
+      <Point>MY408</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 29 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
+    <Line Name="DAJOR1B" Pattern="Dotted">+254703.060-1000701.990/MY604/MY605/GUELF/RALLO/AXILO/DAJOR</Line>
+    <Line Name="DOTOR1B" Pattern="Dotted">MY605/ALSEX/MY606/HANAY/ANADO/ELIKO/DOTOR</Line>
+    <Line Name="KERGA1B" Pattern="Dotted">HANAY/KERGA</Line>
+    <Line Name="GRALA1B" Pattern="Dotted">GUELF/MY501/GRALA</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>DAJOR</Point>
+      <Point>DOTOR</Point>
+      <Point>GRALA</Point>
+      <Point>KERGA</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ALSEX</Point>
+      <Point>ANADO</Point>
+      <Point>AXILO</Point>
+      <Point>ELIKO</Point>
+      <Point>GUELF</Point>
+      <Point>HANAY</Point>
+      <Point>MY501</Point>
+      <Point>MY604</Point>
+      <Point>MY605</Point>
+      <Point>MY606</Point>
+      <Point>RALLO</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Pista 29 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>DAJOR</Point>
+      <Point>DOTOR</Point>
+      <Point>GRALA</Point>
+      <Point>KERGA</Point>
+    </Label>
+  </Map>
+</Maps>

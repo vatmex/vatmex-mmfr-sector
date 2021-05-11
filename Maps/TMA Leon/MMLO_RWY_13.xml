@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MMLO - Pista 13 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
+    <Line Name="LIBOL1A" Pattern="Dashed">
+      LIBOL/LO422/LO421/ODGAR
+    </Line>
+    <Line Name="MEDAB1A" Pattern="Dashed">
+      MEDAB/LO502/LO425/RIGEP
+    </Line>
+    <Line Name="NAGIV1A" Pattern="Dashed">
+      NAGIV/TOXOS/LO502
+    </Line>
+    <Line Name="OMINA1C" Pattern="Dashed">
+      OMINA/LO502
+    </Line>
+    <Line Name="JASTO1E" Pattern="Dashed">
+      JASTO/LO424/LO423/RIGEP
+    </Line>
+    <Line Name="AGU1E" Pattern="Dashed">
+      AGU/LO420/SETOS/AMOVA/ODGAR
+    </Line>
+    <Symbol Type="HollowSquare">
+      <Point>AGU</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AGU</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AMOVA</Point>
+      <Point>JASTO</Point>
+      <Point>LIBOL</Point>
+      <Point>LO420</Point>
+      <Point>LO421</Point>
+      <Point>LO422</Point>
+      <Point>LO423</Point>
+      <Point>LO424</Point>
+      <Point>LO425</Point>
+      <Point>LO502</Point>
+      <Point>MEDAB</Point>
+      <Point>NAGIV</Point>
+      <Point>ODGAR</Point>
+      <Point>OMINA</Point>
+      <Point>RIGEP</Point>
+      <Point>SETOS</Point>
+      <Point>TOXOS</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMLO - Pista 13 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Label HasLeader="false">
+      <Point>AGU</Point>
+      <Point>LIBOL</Point>
+      <Point>MEDAB</Point>
+      <Point>NAGIV</Point>
+      <Point>OMINA</Point>
+      <Point>JASTO</Point>
+      <Point>ODGAR</Point>
+      <Point>RIGEP</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="MMLO - Pista 13 - RNP 13" Priority="1" Center="+203124.320-1031841.798">
+    <Line Pattern="Solid">
+      RIGEP/LO401
+    </Line>
+    <Line Pattern="Solid">
+      ODGAR/+210015.000-1012934.400
+    </Line>
+    <Line Pattern="Solid">
+      +210110.061-1013007.721/
+      +210044.200-1013034.474
+    </Line>
+    <Line Pattern="Solid">
+      +210151.683-1013053.895/
+      +210125.822-1013120.645
+    </Line>
+    <Line Pattern="Solid">
+      +210233.305-1013140.072/
+      +210207.444-1013206.820
+    </Line>
+    <Line Pattern="Solid">
+      +210314.927-1013226.253/
+      +210249.066-1013252.999
+    </Line>
+    <Line Pattern="Solid">
+      +210356.549-1013312.438/
+      +210330.688-1013339.181
+    </Line>
+    <Line Pattern="Solid">
+      +210438.171-1013358.626/
+      +210412.310-1013425.367
+    </Line>
+    <Line Pattern="Solid">
+      +210519.793-1013444.818/
+      +210453.932-1013511.557
+    </Line>
+    <Line Pattern="Solid">
+      +210601.415-1013531.013/
+      +210535.554-1013557.750
+    </Line>
+    <Line Pattern="Solid">
+      +210643.037-1013617.212/
+      +210617.176-1013643.947
+    </Line>
+    <Line Pattern="Solid">
+      +210724.659-1013703.415/
+      +210658.798-1013730.147
+    </Line>
+    <Line Pattern="Solid">
+      +210806.281-1013749.621/
+      +210740.420-1013816.351
+    </Line>
+    <Line Pattern="Solid">
+      +210847.903-1013835.831/
+      +210822.042-1013902.559
+    </Line>
+    <Line Pattern="Solid">
+      +210929.525-1013922.044/
+      +210903.664-1013948.770
+    </Line>
+    <Line Pattern="Solid">
+      +215649.094-1021756.193/
+      +215650.975-1021834.842
+    </Line>
+    <Line Pattern="Solid">
+      +211011.147-1014008.261/
+      +210945.286-1014034.985
+    </Line>
+    <Line Pattern="Solid">
+      +210243.212-1014130.041/
+      +210308.186-1014157.758
+    </Line>
+    <Line Pattern="Solid">
+      +210326.313-1014045.443/
+      +210351.287-1014113.158
+    </Line>
+    <Line Pattern="Solid">
+      +210409.414-1014000.841/
+      +210434.388-1014028.554
+    </Line>
+    <Line Pattern="Solid">
+      +210452.515-1013916.236/
+      +210517.489-1013943.946
+    </Line>
+    <Line Pattern="Solid">
+      +210535.616-1013831.627/
+      +210600.590-1013859.335
+    </Line>
+    <Line Pattern="Solid">
+      +210618.717-1013747.014/
+      +210643.691-1013814.720
+    </Line>
+    <Line Pattern="Solid">
+      +210701.818-1013702.398/
+      +210726.792-1013730.102
+    </Line>
+    <Symbol Type="HollowStar">
+      <Point>RIGEP</Point>
+      <Point>ODGAR</Point>
+      <Point>LO401</Point>
+      <Point>LO400</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMLO - Pista 13 - Salidas" Priority="1" Center="+203124.320-1031841.798">
+    <Line Name="LEON3A" Pattern="Dotted">
++205951.210-1012857.319/
++205310.458-1012230.814/
++205305.686-1012226.467/
++205255.539-1012218.577/
++205244.675-1012211.864/
++205233.216-1012206.405/
++205221.287-1012202.256/
++205209.017-1012159.465/
++205156.542-1012158.062/
++205143.999-1012158.062/
++205131.524-1012159.465/
++205119.256-1012202.256/
++205107.326-1012206.405/
++205055.866-1012211.864/
++205045.004-1012218.577/
++205034.856-1012226.467/
++205025.535-1012235.448/
++205017.141-1012245.425/
++205009.768-1012256.285/
++205003.496-1012307.910/
++204958.394-1012320.174/
++204954.518-1012332.939/
++204951.910-1012346.070/
++204950.599-1012359.420/
++204950.599-1012412.844/
++204951.910-1012426.194/
++204954.518-1012439.325/
++204958.394-1012452.091/
++205003.496-1012504.354/
++205009.768-1012515.980/
++205017.141-1012526.840/
++205025.535-1012536.816/
++205034.856-1012545.798/
++205045.004-1012553.687/
++205055.866-1012600.400/
++205107.326-1012605.859/
++205119.256-1012610.008/
+BJX</Line>
+  <Line Name="AVRIK3" Pattern="Dotted">
++205310.458-1012230.814/
++205056.873-1012022.074/
++205427.304-1011035.468/
+AVRIK</Line>
+  <Line Name="URVEM3" Pattern="Dotted">
++205056.873-1012022.074/
++204300.140-1012229.265/
+URVEM</Line>
+    <Symbol Type="HollowSquare">
+      <Point>BJX</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>BJX</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>AVRIK</Point>
+      <Point>URVEM</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMLO - Pista 13 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Label HasLeader="false">
+      <Point>BJX</Point>
+      <Point>AVRIK</Point>
+      <Point>URVEM</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="MMLO - Pista 13 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
+    <Line Name="KARIR1" Pattern="Dotted">
+      BJX/LO900/LO901/LO903/LO904/KARIR
+    </Line>
+    <Line Name="UKIRO1C" Pattern="Dotted">
+      LO901/UKIRO
+    </Line>
+    <Line Name="TIDIL1C" Pattern="Dotted">
+      LO900/LO905/LO906/TIDIL
+    </Line>
+    <Line Name="JASTO1C" Pattern="Dotted">
+      LO906/JASTO
+    </Line>
+    <Line Name="ANILA1D" Pattern="Dotted">
+      LO901/LO902/ANILA
+    </Line>
+    <Line Name="AUG1C" Pattern="Dotted">
+      ANILA/AGU
+    </Line>
+    <Symbol Type="HollowStar">
+      <Point>AS618</Point>
+      <Point>AS801</Point>
+      <Point>AS802</Point>
+      <Point>AS803</Point>
+      <Point>AS804</Point>
+      <Point>AS805</Point>
+      <Point>AS807</Point>
+      <Point>AS808</Point>
+      <Point>AS809</Point>
+      <Point>AS810</Point>
+      <Point>UKIRO</Point>
+      <Point>TIDIL</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>KARIR</Point>
+      <Point>ANILA</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>AGU</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AGU</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMLO - Pista 13 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Label HasLeader="false">
+      <Point>AGU</Point>
+      <Point>ANILA</Point>
+      <Point>KARIR</Point>
+      <Point>UKIRO</Point>
+      <Point>TIDIL</Point>
+      <Point>JASTO</Point>
+    </Label>
+  </Map>
+</Maps>
