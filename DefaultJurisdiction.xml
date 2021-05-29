@@ -23,5 +23,28 @@
         </Departure>
       </Rules>
     </RuleSet>
+    <!--MMTY ACC-->
+    <RuleSet Name="MMMY_DEPS">
+      <Rules>
+        <Departure Values="MMMY">
+          <Rules>
+            <Default>
+              <AssignSector Order="MYAPP,MTYE,MTYC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMCU_DEPS">
+      <Rules>
+        <Departure Values="MMCU">
+          <Rules>
+            <Default>
+              <AssignSector Order="MYAPP,MTYW,MTYC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
   </RuleSets>
 </DefaultJurisdiction>
