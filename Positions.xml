@@ -3081,9 +3081,42 @@
         <Map Name="TMA Torreon/ASMGCS_MMTC_GATES" />
       </Maps>
     </Position>
-    <Position Name="Aproximación Chihuahua - CUA" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8" DynamicInfill="false">
+    <Position Name="Torre Chihuahua - CUTWR" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="75" MagneticVariation="-8" DynamicInfill="false">
       <Sectors>
-        <Sector Name="CUA" />
+        <Sector Name="CUTWR" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Chihuahua/Aeropuerto - Pistas" />
+        <Map Name="TMA Chihuahua/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Chihuahua/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="TMA Chihuahua/Pistas 36 - ILS 4 36R" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+        <Map Name="ACC Mexico/Cobertura Radar" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMCU" Frequency="127.900" Server="NA" />
+        <Window Airport="MMCU" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCU" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMCU" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Chihuahua / Chihuahua Tower</Line>
+        <Line>Serving MMCU arrivals and departures</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Chihuahua - CUAPP" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="CUAPP" />
       </Sectors>
       <Maps>
         <Map Name="TMA Chihuahua/Aeropuerto - Area Terminal (TMA)" />
@@ -3122,42 +3155,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Chihuahua - CUT" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="75" MagneticVariation="-8" DynamicInfill="false">
+    <Position Name="Autorización Monterrey - MYDEL" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
-        <Sector Name="CUT" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Chihuahua/Aeropuerto - Pistas" />
-        <Map Name="TMA Chihuahua/Aeropuerto - Zona de Control (CTR)" />
-        <Map Name="TMA Chihuahua/Aeropuerto - Minimas de Vectoreo" />
-
-        <Map Name="TMA Chihuahua/Pistas 36 - ILS 4 36R" />
-
-        <Map Name="ACC Monterrey/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMCU" Frequency="127.900" Server="NA" />
-        <Window Airport="MMCU" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMCU" Visible="true" />
-      </Strips>
-      <ArrivalLists>
-        <Airport Name="MMCU" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Torre Chihuahua / Chihuahua Tower</Line>
-        <Line>Serving MMCU arrivals and departures</Line>
-        <Line>ATIS available on 127.900</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Autorización Monterrey - MYC" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
-      <Sectors>
-        <Sector Name="MYC" />
+        <Sector Name="MYDEL" />
       </Sectors>
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
@@ -3189,9 +3189,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Terrestre Monterrey - MYG" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Terrestre Monterrey - MYGND" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
-        <Sector Name="MYG" />
+        <Sector Name="MYGND" />
       </Sectors>
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
@@ -3223,9 +3223,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Monterrey - MYT" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Torre Monterrey - MYTWR" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
-        <Sector Name="MYT" />
+        <Sector Name="MYTWR" />
       </Sectors>
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
@@ -3257,9 +3257,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Monterrey - MYA" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Aproximación Monterrey - MYAPP" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
-        <Sector Name="MYA" />
+        <Sector Name="MYAPP" />
       </Sectors>
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Area Terminal (TMA)" />
@@ -3298,9 +3298,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Monterrey (Combinado) - TYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Centro Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
-        <Sector Name="TYC" />
+        <Sector Name="MTYC" />
       </Sectors>
       <Maps>
         <Map Name="ACC Monterrey/Radar - Cobertura" />
@@ -3337,9 +3337,9 @@
         <Point>+242209.9141-0950934.2813</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro Monterrey SE - TYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Centro Monterrey SE - MTYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
-        <Sector Name="TYE" />
+        <Sector Name="MTYE" />
       </Sectors>
       <Maps>
         <Map Name="ACC Monterrey/Radar - Cobertura" />
@@ -3376,9 +3376,9 @@
         <Point>+242209.9141-0950934.2813</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro Monterrey SW - TYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Centro Monterrey SW - MTYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
-        <Sector Name="TYW" />
+        <Sector Name="MTYW" />
       </Sectors>
       <Maps>
         <Map Name="ACC Monterrey/Radar - Cobertura" />
