@@ -119,42 +119,42 @@
 
   <!--Centro de Control México-->
   <!--MMAA TMA-->
-  <Sector FullName="Torre Acapulco" Frequency="118.500" Callsign="MMAA_TWR" Name="AAT">
+  <Sector FullName="Torre Acapulco" Frequency="118.500" Callsign="MMAA_TWR" Name="ACTW1">
     <Volumes>MMAA_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Acapulco" Frequency="119.900" Callsign="MMAA_APP" Name="AAA">
+  <Sector FullName="Aproximación Acapulco" Frequency="119.900" Callsign="MMAA_APP" Name="ACAPP">
     <Volumes>MMAA_TMA</Volumes>
   </Sector>
   <!--MMGL TMA-->
-  <Sector FullName="Autorización Guadalara" Frequency="132.800" Callsign="MMGL_DEL" Name="GLC" />
-  <Sector FullName="Terrestre Guadalara" Frequency="121.900" Callsign="MMGL_GND" Name="GLG" />
-  <Sector FullName="Torre Guadalara" Frequency="118.100" Callsign="MMGL_TWR" Name="GLT">
+  <Sector FullName="Autorización Guadalara" Frequency="132.800" Callsign="MMGL_DEL" Name="GLCDL" />
+  <Sector FullName="Terrestre Guadalara" Frequency="121.900" Callsign="MMGL_GND" Name="GLSMC" />
+  <Sector FullName="Torre Guadalara" Frequency="118.100" Callsign="MMGL_TWR" Name="GLTW1">
     <Volumes>MMGL_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Guadalara" Frequency="120.800" Callsign="MMGL_APP" Name="GLA">
+  <Sector FullName="Aproximación Guadalara" Frequency="120.800" Callsign="MMGL_APP" Name="GLAPP">
     <Volumes>MMGL_TMA</Volumes>
   </Sector>
-  <Sector FullName="Terminal Guadalara" Frequency="119.300" Callsign="MMGL_T_APP" Name="GLL">
+  <Sector FullName="Terminal Guadalara" Frequency="119.300" Callsign="MMGL_T_APP" Name="GLTMA">
     <Volumes>MMGL_TMA</Volumes>
   </Sector>
   <!--MMLO TMA-->
-  <Sector FullName="Torre Aguascalientes" Frequency="118.600" Callsign="MMAS_TWR" Name="AST">
+  <Sector FullName="Torre Aguascalientes" Frequency="118.600" Callsign="MMAS_TWR" Name="ASTW1">
     <Volumes>MMAS_CTR</Volumes>
   </Sector>
-  <Sector FullName="Torre León" Frequency="118.350" Callsign="MMLO_TWR" Name="LOT">
+  <Sector FullName="Torre León" Frequency="118.350" Callsign="MMLO_TWR" Name="LOTW1">
     <Volumes>MMLO_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Bajio" Frequency="119.050" Callsign="MMLO_APP" Name="LOA">
+  <Sector FullName="Aproximación Bajio" Frequency="119.050" Callsign="MMLO_APP" Name="BXAPP">
     <Volumes>MMLO_TMA</Volumes>
   </Sector>
   <!--MMMX TMA-->
-  <Sector FullName="Autorización México" Frequency="122.100" Callsign="MMMX_DEL" Name="MXC" />
-  <Sector FullName="Terrestre México" Frequency="121.850" Callsign="MMMX_GND" Name="MXG" />
-  <Sector FullName="Terrestre Sur México" Frequency="121.000" Callsign="MMMX_S_GND" Name="MXR" />
-  <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXT">
+  <Sector FullName="Autorización México" Frequency="122.100" Callsign="MMMX_DEL" Name="MXCDL" />
+  <Sector FullName="Terrestre México" Frequency="121.850" Callsign="MMMX_GND" Name="MXSMC" />
+  <Sector FullName="Terrestre Sur México" Frequency="121.000" Callsign="MMMX_S_GND" Name="MXRMP" />
+  <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXTWR">
     <Volumes>MMMX_CTR</Volumes>
   </Sector>
-  <Sector FullName="Llegadas México" Frequency="129.650" Callsign="MMMX_T_APP" Name="MXL" />
+  <Sector FullName="Llegadas México" Frequency="129.650" Callsign="MMMX_T_APP" Name="MARR1" />
   <Sector FullName="Llegadas Norte México 05" Frequency="129.650" Callsign="MMMX_TN5_APP" Name="MXLN5" >
     <Volumes>MXLN5</Volumes>
   </Sector>
@@ -167,130 +167,129 @@
   <Sector FullName="Llegadas Sur México 23" Frequency="129.650" Callsign="MMMX_TS3_APP" Name="MXLS23" >
     <Volumes>MXLS23</Volumes>
   </Sector>
-  <Sector FullName="Aproximación México" Frequency="121.200" Callsign="MMMX_APP" Name="MXA" />
-  <Sector FullName="Aproximación México Combinado" Frequency="121.200" Callsign="MMMX_C_APP" Name="MXAC">
+  <Sector FullName="Aproximación México Combinado" Frequency="121.200" Callsign="MMMX_APP" Name="MAPPC">
     <Volumes>MXAC</Volumes>
   </Sector>
+  <Sector FullName="Aproximación México" Frequency="121.200" Callsign="MMMX_1_APP" Name="MAPP1" />
   <Sector FullName="Aproximación México 05" Frequency="121.200" Callsign="MMMX_5_APP" Name="MXA5">
     <Volumes>MXA5</Volumes>
   </Sector>
   <Sector FullName="Aproximación México 23" Frequency="121.200" Callsign="MMMX_3_APP" Name="MXA23">
     <Volumes>MXA23</Volumes>
   </Sector>
-  <Sector FullName="Final México" Frequency="119.750" Callsign="MMMX_F_APP" Name="MXF" />
-  <Sector FullName="Final México 05" Frequency="119.750" Callsign="MMMX_F5_APP" Name="MXF5" >
+  <Sector FullName="Final México 05" Frequency="119.750" Callsign="MMMX_F_APP" Name="FNL05" >
     <Volumes>MXF5</Volumes>
   </Sector>
-  <Sector FullName="Final México 23" Frequency="119.750" Callsign="MMMX_F3_APP" Name="MXF23" >
+  <Sector FullName="Final México 23" Frequency="119.750" Callsign="MMMX_F2_APP" Name="FNL23" >
     <Volumes>MXF23</Volumes>
   </Sector>
-  <Sector FullName="Salidas México" Frequency="120.500" Callsign="MMMX_DEP" Name="MXD" />
+  <Sector FullName="Salidas México" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP" />
   <Sector FullName="Salidas México 05" Frequency="120.500" Callsign="MMMX_5_DEP" Name="MXD5">
     <Volumes>MXD5</Volumes>
   </Sector>
   <Sector FullName="Salidas México 23" Frequency="120.500" Callsign="MMMX_3_DEP" Name="MXD23">
     <Volumes>MXD23</Volumes>
   </Sector>
-  <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOG" />
-  <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOT">
+  <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" />
+  <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1">
     <Volumes>MMTO_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOA">
+  <Sector FullName="Aproximación Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOAPP">
     <Volumes>MMTO_APP</Volumes>
   </Sector>
-  <Sector FullName="Torre Puebla" Frequency="118.200" Callsign="MMPB_TWR" Name="PBT">
+  <Sector FullName="Torre Puebla" Frequency="118.200" Callsign="MMPB_TWR" Name="PBTW1">
     <Volumes>MMPB_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBA">
+  <Sector FullName="Aproximación Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP">
     <Volumes>MMPB_APP</Volumes>
   </Sector>
   <!--MMOX TMA-->
-  <Sector FullName="Torre Oaxaca" Frequency="118.300" Callsign="MMOX_TWR" Name="OXT">
+  <Sector FullName="Torre Oaxaca" Frequency="118.300" Callsign="MMOX_TWR" Name="OXTW1">
     <Volumes>MMOX_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Oaxaca" Frequency="121.100" Callsign="MMOX_APP" Name="OXA">
+  <Sector FullName="Aproximación Oaxaca" Frequency="121.100" Callsign="MMOX_APP" Name="OXAPP">
     <Volumes>MMOX_TMA</Volumes>
   </Sector>
   <!--MMSP TMA-->
-  <Sector FullName="Torre Potosí" Frequency="118.900" Callsign="MMSP_TWR" Name="SPT">
+  <Sector FullName="Torre Potosí" Frequency="118.900" Callsign="MMSP_TWR" Name="SPTW1">
     <Volumes>MMSP_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Potosí" Frequency="127.500" Callsign="MMSP_APP" Name="SPA">
+  <Sector FullName="Aproximación Potosí" Frequency="127.500" Callsign="MMSP_APP" Name="SPAPP">
     <Volumes>MMSP_TMA</Volumes>
   </Sector>
   <!--MMTM TMA-->
-  <Sector FullName="Torre Tampico" Frequency="118.300" Callsign="MMTM_TWR" Name="TMT">
+  <Sector FullName="Torre Tampico" Frequency="118.300" Callsign="MMTM_TWR" Name="TMTW1">
     <Volumes>MMTM_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Tampico" Frequency="120.300" Callsign="MMTM_APP" Name="TMA">
+  <Sector FullName="Aproximación Tampico" Frequency="120.300" Callsign="MMTM_APP" Name="TMAPP">
     <Volumes>MMTM_TMA</Volumes>
   </Sector>
   <!--MMPR TMA-->
-  <Sector FullName="Torre Vallarta" Frequency="118.500" Callsign="MMPR_TWR" Name="PRT">
+  <Sector FullName="Torre Vallarta" Frequency="118.500" Callsign="MMPR_TWR" Name="PRTW1">
     <Volumes>MMPR_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Vallarta" Frequency="119.000" Callsign="MMPR_APP" Name="PRA">
+  <Sector FullName="Aproximación Vallarta" Frequency="119.000" Callsign="MMPR_APP" Name="PRAPP">
     <Volumes>MMPR_TMA</Volumes>
   </Sector>
-  <Sector FullName="Terminal Vallarta" Frequency="121.300" Callsign="MMPR_T_APP" Name="PRL">
+  <Sector FullName="Terminal Vallarta" Frequency="121.300" Callsign="MMPR_T_APP" Name="PRTMA">
     <Volumes>MMPR_TMA</Volumes>
   </Sector>
   <!--MMVR TMA-->
-  <Sector FullName="Aproximación Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="VRA">
-    <Volumes>MMVR_TMA</Volumes>
-  </Sector>
-  <Sector FullName="Torre Veracruz" Frequency="118.500" Callsign="MMVR_TWR" Name="VRT">
+  <Sector FullName="Torre Veracruz" Frequency="118.500" Callsign="MMVR_TWR" Name="VRTW1">
     <Volumes>MMVR_CTR</Volumes>
   </Sector>
-  <!--MMZH TMA-->
-  <Sector FullName="Aproximación Zihuatanejo" Frequency="121.000" Callsign="MMZH_APP" Name="ZHA">
-    <Volumes>MMZH_TMA</Volumes>
+  <Sector FullName="Aproximación Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="VRAPP">
+    <Volumes>MMVR_TMA</Volumes>
   </Sector>
-  <Sector FullName="Torre Zihuatanejo" Frequency="118.300" Callsign="MMZH_TWR" Name="ZHT">
+  <!--MMZH TMA-->
+  <Sector FullName="Torre Zihuatanejo" Frequency="118.300" Callsign="MMZH_TWR" Name="ZHTW1">
     <Volumes>MMZH_CTR</Volumes>
   </Sector>
+  <Sector FullName="Aproximación Zihuatanejo" Frequency="121.000" Callsign="MMZH_APP" Name="ZHAPP">
+    <Volumes>MMZH_TMA</Volumes>
+  </Sector>
   <!--MMVR TMA-->
-  <Sector FullName="Torre Zacatecas" Frequency="118.000" Callsign="MMZC_TWR" Name="ZCT">
+  <Sector FullName="Torre Zacatecas" Frequency="118.000" Callsign="MMZC_TWR" Name="ZCTW1">
     <Volumes>MMZC_ATZ</Volumes>
   </Sector>
   <!--MMEX ACC-->
-  <Sector FullName="ACC México Sector SC" Frequency="133.100" Callsign="MMEX_CTR" Name="EXC">
+  <Sector FullName="ACC México Sector SC" Frequency="133.100" Callsign="MMEX_CTR" Name="MEXC">
     <Volumes>MMEX_SECTOR_5, MMEX_SECTOR_9, MMEX_SECTOR_10</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector SW" Frequency="123.900" Callsign="MMEX_W_CTR" Name="EXW">
+  <Sector FullName="ACC México Sector SW" Frequency="123.900" Callsign="MMEX_W_CTR" Name="MEXW">
     <Volumes>MMEX_SECTOR_6, MMEX_SECTOR_7, MMEX_SECTOR_8</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector SE" Frequency="126.600" Callsign="MMEX_E_CTR" Name="EXE">
+  <Sector FullName="ACC México Sector SE" Frequency="126.600" Callsign="MMEX_E_CTR" Name="MEXE">
     <Volumes>MMEX_SECTOR_1, MMEX_SECTOR_2, MMEX_SECTOR_2, MMEX_SECTOR_3, MMEX_SECTOR_4</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 1" Frequency="126.600" Callsign="MMEX_1_CTR" Name="EX1">
+  <Sector FullName="ACC México Sector 1" Frequency="126.600" Callsign="MMEX_1_CTR" Name="MEX1">
     <Volumes>MMEX_SECTOR_1</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 2" Frequency="128.000" Callsign="MMEX_2_CTR" Name="EX2">
+  <Sector FullName="ACC México Sector 2" Frequency="128.000" Callsign="MMEX_2_CTR" Name="MEX2">
     <Volumes>MMEX_SECTOR_2</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 3" Frequency="128.500" Callsign="MMEX_3_CTR" Name="EX3">
+  <Sector FullName="ACC México Sector 3" Frequency="128.500" Callsign="MMEX_3_CTR" Name="MEX3">
     <Volumes>MMEX_SECTOR_3</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 4" Frequency="123.500" Callsign="MMEX_4_CTR" Name="EX4">
+  <Sector FullName="ACC México Sector 4" Frequency="123.500" Callsign="MMEX_4_CTR" Name="MEX4">
     <Volumes>MMEX_SECTOR_4</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 5" Frequency="125.100" Callsign="MMEX_5_CTR" Name="EX5">
+  <Sector FullName="ACC México Sector 5" Frequency="125.100" Callsign="MMEX_5_CTR" Name="MEX5">
     <Volumes>MMEX_SECTOR_5</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 6" Frequency="126.200" Callsign="MMEX_6_CTR" Name="EX6">
+  <Sector FullName="ACC México Sector 6" Frequency="126.200" Callsign="MMEX_6_CTR" Name="MEX6">
     <Volumes>MMEX_SECTOR_6</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 7" Frequency="123.900" Callsign="MMEX_7_CTR" Name="EX7">
+  <Sector FullName="ACC México Sector 7" Frequency="123.900" Callsign="MMEX_7_CTR" Name="MEX7">
     <Volumes>MMEX_SECTOR_7</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 8" Frequency="127.300" Callsign="MMEX_8_CTR" Name="EX8">
+  <Sector FullName="ACC México Sector 8" Frequency="127.300" Callsign="MMEX_8_CTR" Name="MEX8">
     <Volumes>MMEX_SECTOR_8</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 9" Frequency="133.100" Callsign="MMEX_9_CTR" Name="EX9">
+  <Sector FullName="ACC México Sector 9" Frequency="133.100" Callsign="MMEX_9_CTR" Name="MEX9">
     <Volumes>MMEX_SECTOR_9</Volumes>
   </Sector>
-  <Sector FullName="ACC México Sector 10" Frequency="133.200" Callsign="MMEX_10_CTR" Name="EX10">
+  <Sector FullName="ACC México Sector 10" Frequency="133.200" Callsign="MMEX_10_CTR" Name="MEX10">
     <Volumes>MMEX_SECTOR_10</Volumes>
   </Sector>
 
