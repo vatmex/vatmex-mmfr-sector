@@ -103,12 +103,56 @@
       </Rules>
     </RuleSet>
     <!--MMEX ACC-->
+    <RuleSet Name="MMAA_DEPS">
+      <Rules>
+        <Departure Values="MMAA">
+          <Rules>
+            <Default>
+              <AssignSector Order="ACAPP,MEX4,MEXE,MEXC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMAS_DEPS">
+      <Rules>
+        <Departure Values="MMAS">
+          <Rules>
+            <Default>
+              <AssignSector Order="BXAPP,MEX8,MEXW,MEXC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMGL_DEPS">
+      <Rules>
+        <Departure Values="MMGL">
+          <Rules>
+            <Default>
+              <AssignSector Order="GLAPP,MEX6,MEXW,MEXC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMLO_DEPS">
+      <Rules>
+        <Departure Values="MMLO">
+          <Rules>
+            <Default>
+              <AssignSector Order="BXAPP,MEX10,MEXC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
     <RuleSet Name="MMMX_DEPS">
       <Rules>
         <Departure Values="MMMX">
           <Rules>
             <Default>
-              <AssignSector Order="MXD,MXA,EXC"/>
+              <AssignSector Order="MXDEP,MAPP1,MAPPC,MEX3,MEXC"/>
             </Default>
           </Rules>
         </Departure>
@@ -119,7 +163,29 @@
         <Departure Values="MMTO">
           <Rules>
             <Default>
-              <AssignSector Order="TOA,MXD,MXA,EXC"/>
+              <AssignSector Order="TOAPP,MXDEP,MAPP1,MAPPC,MEX5,MEXC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMPR_DEPS">
+      <Rules>
+        <Departure Values="MMPR">
+          <Rules>
+            <Default>
+              <AssignSector Order="PRAPP,MEX6,MEXW,MEXC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMVR_DEPS">
+      <Rules>
+        <Departure Values="MMVR">
+          <Rules>
+            <Default>
+              <AssignSector Order="VRAPP,MEX3,MEXE,MEXC"/>
             </Default>
           </Rules>
         </Departure>
