@@ -192,6 +192,30 @@
       </Rules>
     </RuleSet>
     <!--MMTY ACC-->
+    <RuleSet Name="MMAN_DEPS">
+      <Rules>
+        <Departure Values="MMAN">
+          <Rules>
+            <Default>
+              <AssignSector Order="MYAPP,MTYE,MTYC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+  </RuleSets>
+  <RuleSet Name="MMCU_DEPS">
+      <Rules>
+        <Departure Values="MMCU">
+          <Rules>
+            <Default>
+              <AssignSector Order="CUAPP,MTYW,MTYC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+  </RuleSets>
     <RuleSet Name="MMMY_DEPS">
       <Rules>
         <Departure Values="MMMY">
@@ -203,16 +227,4 @@
         </Departure>
       </Rules>
     </RuleSet>
-    <RuleSet Name="MMCU_DEPS">
-      <Rules>
-        <Departure Values="MMCU">
-          <Rules>
-            <Default>
-              <AssignSector Order="MYAPP,MTYW,MTYC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-  </RuleSets>
 </DefaultJurisdiction>
