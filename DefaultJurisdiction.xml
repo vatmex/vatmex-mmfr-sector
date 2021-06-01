@@ -68,6 +68,40 @@
         </Departure>
       </Rules>
     </RuleSet>
+    <!--MMID ACC-->
+    <RuleSet Name="MMCZ_DEPS">
+      <Rules>
+        <Departure Values="MMCZ">
+          <Rules>
+            <Default>
+              <AssignSector Order="UNDEP,UNAPP,MID2,MIDE,MIDC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMID_DEPS">
+      <Rules>
+        <Departure Values="MMID">
+          <Rules>
+            <Default>
+              <AssignSector Order="MDAPP,MID2,MIDE,MIDC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMUN_DEPS">
+      <Rules>
+        <Departure Values="MMUN">
+          <Rules>
+            <Default>
+              <AssignSector Order="UNDEP,UNAPP,MID2,MIDE,MIDC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
     <!--MMEX ACC-->
     <RuleSet Name="MMMX_DEPS">
       <Rules>
