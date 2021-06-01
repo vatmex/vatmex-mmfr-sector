@@ -795,9 +795,9 @@
         <Map Name="TMA Villahermosa/ASMGCS_MMVA_GATES" />
       </Maps>
     </Position>
-    <Position Name="Torre Mérida - MDT" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="50" MagneticVariation="0">
+    <Position Name="Torre Mérida - MDTW1" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="50" MagneticVariation="0">
       <Sectors>
-        <Sector Name="MDT" />
+        <Sector Name="MDTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Merida/Aeropuerto - Pistas" />
@@ -822,9 +822,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Mérida - MDA" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="230" MagneticVariation="0">
+    <Position Name="Aproximación Mérida - MDAPP" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="230" MagneticVariation="0">
       <Sectors>
-        <Sector Name="MDA" />
+        <Sector Name="MDAPP" />
       </Sectors>
       <Maps>
         <Map Name="TMA Merida/Aeropuerto - Area Terminal (TMA)" />
@@ -856,226 +856,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Cancún - UNA" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
+    <Position Name="Autorización Cancún - UNCDL" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
       <Sectors>
-        <Sector Name="UNA" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV (Nombres)" />
-
-        <Map Name="ACC Merida/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-        <Window Airport="MMUN" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="24000">
-        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMUN" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Cancun / Cancun Approach</Line>
-        <Line>Serving MMUN arrivals and departures</Line>
-        <Line>ATIS available on 127.700</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Aproximación Cancún (Llegadas) - UNL" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
-      <Sectors>
-        <Sector Name="UNL" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
-
-        <Map Name="ACC Merida/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-        <Window Airport="MMUN" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="24000">
-        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMUN" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Cancun / Cancun Approach</Line>
-        <Line>Serving MMUN arrivals and departures</Line>
-        <Line>ATIS available on 127.700</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Salidas Cancún - UND" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
-      <Sectors>
-        <Sector Name="UND" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV (Nombres)" />
-
-        <Map Name="ACC Merida/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-        <Window Airport="MMUN" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="24000">
-        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMUN" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Cancun / Cancun Approach</Line>
-        <Line>Serving MMUN arrivals and departures</Line>
-        <Line>ATIS available on 127.700</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Torre Cancún - UNT" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
-      <Sectors>
-        <Sector Name="UNT" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
-        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
-
-        <Map Name="ACC Merida/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-        <Window Airport="MMUN" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="24000">
-        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMUN" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Torre Cancun / Cancun Torre</Line>
-        <Line>Serving MMUN arrivals and departures</Line>
-        <Line>ATIS available on 127.700</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Terrestre Cancún - UNG" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
-      <Sectors>
-        <Sector Name="UNG" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
-        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
-
-        <Map Name="ACC Merida/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-        <Window Airport="MMUN" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="24000">
-        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMUN" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Terrestre Cancun / Cancun Ground</Line>
-        <Line>Serving MMUN arrivals and departures</Line>
-        <Line>ATIS available on 127.700</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Terrestre Cancun Este - UNR" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
-      <Sectors>
-        <Sector Name="UNR" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
-        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
-
-        <Map Name="ACC Merida/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-        <Window Airport="MMUN" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="24000">
-        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMUN" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Terrestre Este Cancun / Cancun Ground East</Line>
-        <Line>Serving MMUN arrivals and departures</Line>
-        <Line>ATIS available on 127.700</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Autorización Cancún - UNC" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
-      <Sectors>
-        <Sector Name="UNC" />
+        <Sector Name="UNCDL" />
       </Sectors>
       <Maps>
         <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
@@ -1108,9 +891,114 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Cozumel - CZT" Type="ASD" DefaultCenter="+203123.258-0865535.437" DefaultRange="50" MagneticVariation="+2">
+    <Position Name="Terrestre Cancún - UNSMC" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
       <Sectors>
-        <Sector Name="CZT" />
+        <Sector Name="UNSMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+
+        <Map Name="ACC Merida/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Terrestre Cancun / Cancun Ground</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Terrestre Cancun Este - UNRMP" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="UNRMP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+
+        <Map Name="ACC Merida/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Terrestre Este Cancun / Cancun Ground East</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Cancún - UNTW1" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="UNTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+
+        <Map Name="ACC Merida/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Cancun / Cancun Torre</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Cozumel - CZTW1" Type="ASD" DefaultCenter="+203123.258-0865535.437" DefaultRange="50" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="CZTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
@@ -1138,9 +1026,121 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Mérida (Combinado) - IDC" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
+    <Position Name="Aproximación Cancún - UNAPP" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
       <Sectors>
-        <Sector Name="IDC" />
+        <Sector Name="UNAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ACC Merida/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Cancun / Cancun Approach</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Cancún (Llegadas) - UNARR" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="UNARR" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+
+        <Map Name="ACC Merida/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Cancun / Cancun Approach</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Salidas Cancún - UNDEP" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="UNDEP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV" />
+        <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ACC Merida/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+        <Window Airport="MMUN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMUN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Cancun / Cancun Approach</Line>
+        <Line>Serving MMUN arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Centro Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
+      <Sectors>
+        <Sector Name="MIDC" />
       </Sectors>
       <Maps>
         <Map Name="ACC Merida/Limites - Terminales" />
@@ -1178,9 +1178,9 @@
         <Point>+123404.2930-0985708.3125</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro Mérida (SE) - IDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
+    <Position Name="Centro Mérida (SE) - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
       <Sectors>
-        <Sector Name="IDE" />
+        <Sector Name="MIDE" />
       </Sectors>
       <Maps>
         <Map Name="ACC Merida/Limites - Sectores" />
@@ -1219,9 +1219,9 @@
         <Point>+123404.2930-0985708.3125</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro Mérida (SW) - IDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
+    <Position Name="Centro Mérida (SW) - MIDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
       <Sectors>
-        <Sector Name="IDW" />
+        <Sector Name="MIDW" />
       </Sectors>
       <Maps>
         <Map Name="ACC Merida/Limites - Sectores" />
