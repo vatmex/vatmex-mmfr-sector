@@ -1,6 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
   <RuleSets>
+    <!--MMZT ACC-->
+    <RuleSet Name="MMCL_DEPS">
+      <Rules>
+        <Departure Values="MMCL">
+          <Rules>
+            <Default>
+              <AssignSector Order="CUAPP,MZT4,MZTE,MZTC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMES_DEPS">
+      <Rules>
+        <Departure Values="MMES">
+          <Rules>
+            <Default>
+              <AssignSector Order="TJAPP,MZT1,MZTW,MZTC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMHO_DEPS">
+      <Rules>
+        <Departure Values="MMHO">
+          <Rules>
+            <Default>
+              <AssignSector Order="HOAPP,MZT2,MZTW,MZTC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMSD_DEPS">
+      <Rules>
+        <Departure Values="MMSD">
+          <Rules>
+            <Default>
+              <AssignSector Order="SDAPP,MZT3,MZTE,MZTC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMSL_DEPS">
+      <Rules>
+        <Departure Values="MMSL">
+          <Rules>
+            <Default>
+              <AssignSector Order="SDAPP,MZT3,MZTE,MZTC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="MMTJ_DEPS">
+      <Rules>
+        <Departure Values="MMTJ">
+          <Rules>
+            <Default>
+              <AssignSector Order="TJAPP,MZT1,MZTW,MZTC"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <!--MMEX ACC-->
     <RuleSet Name="MMMX_DEPS">
       <Rules>
         <Departure Values="MMMX">
