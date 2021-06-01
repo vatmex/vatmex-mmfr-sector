@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--Centro de Control Mazatlan-->
-  <Sector FullName="Torre Culiacan" Frequency="118.500" Callsign="MMCL_TWR" Name="CLT">
+  <Sector FullName="Torre Culiacan" Frequency="118.500" Callsign="MMCL_TWR" Name="CLTW1">
     <Volumes>MMCL_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Culiacan" Frequency="119.750" Callsign="MMCL_APP" Name="CLA">
+  <Sector FullName="Aproximación Culiacan" Frequency="119.750" Callsign="MMCL_APP" Name="CLAPP">
     <Volumes>MMCL_TMA</Volumes>
   </Sector>
-  <Sector FullName="Torre Hermosillo" Frequency="118.500" Callsign="MMHO_TWR" Name="HOT">
+  <Sector FullName="Torre Hermosillo" Frequency="118.500" Callsign="MMHO_TWR" Name="HOTW1">
     <Volumes>MMHO_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Hermosillo" Frequency="121.400" Callsign="MMHO_APP" Name="HOA">
+  <Sector FullName="Aproximación Hermosillo" Frequency="121.400" Callsign="MMHO_APP" Name="HOAPP">
     <Volumes>MMHO_TMA</Volumes>
   </Sector>
-  <Sector FullName="Terrestre San José" Frequency="134.100" Callsign="MMSD_GND" Name="SDG" />
-  <Sector FullName="Torre San José" Frequency="118.900" Callsign="MMSD_TWR" Name="SDT">
+  <Sector FullName="Terrestre San José" Frequency="134.100" Callsign="MMSD_GND" Name="SDSMC" />
+  <Sector FullName="Torre San José" Frequency="118.900" Callsign="MMSD_TWR" Name="SDTW1">
     <Volumes>MMSD_CTR</Volumes>
   </Sector>
-  <Sector FullName="Torre San Lucas" Frequency="118.750" Callsign="MMSL_TWR" Name="SLT">
+  <Sector FullName="Torre San Lucas" Frequency="118.750" Callsign="MMSL_TWR" Name="SLTW1">
     <Volumes>MMSL_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación San Jose" Frequency="120.900" Callsign="MMSD_APP" Name="SDA">
+  <Sector FullName="Aproximación San Jose" Frequency="120.900" Callsign="MMSD_APP" Name="SDAPP">
     <Volumes>MMSD_TMA</Volumes>
   </Sector>
-  <Sector FullName="Autorización Tijuana" Frequency="122.350" Callsign="MMTJ_DEL" Name="TJC" />
-  <Sector FullName="Torre Tijuana" Frequency="118.100" Callsign="MMTJ_TWR" Name="TJT">
+  <Sector FullName="Autorización Tijuana" Frequency="122.350" Callsign="MMTJ_DEL" Name="TJCDL" />
+  <Sector FullName="Torre Tijuana" Frequency="118.100" Callsign="MMTJ_TWR" Name="TJTW1">
     <Volumes>MMTJ_CTR</Volumes>
   </Sector>
-  <Sector FullName="Torre Ensenada" Frequency="119.750" Callsign="MMES_TWR" Name="EST">
+  <Sector FullName="Torre Ensenada" Frequency="119.750" Callsign="MMES_TWR" Name="ESTW1">
     <Volumes>MMES_ATZ</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Tijuana" Frequency="120.300" Callsign="MMTJ_APP" Name="TJA">
+  <Sector FullName="Aproximación Tijuana" Frequency="120.300" Callsign="MMTJ_APP" Name="TJAPP">
     <Volumes>MMTJ_TMA</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan SC" Frequency="128.300" Callsign="MMZT_CTR" Name="ZTC">
+  <Sector FullName="ACC Mazatlan SC" Frequency="128.300" Callsign="MMZT_CTR" Name="MZTC">
     <Volumes>MMZT_SECTOR_1,MMZT_SECTOR_2,MMZT_SECTOR_3,MMZT_SECTOR_4,MMZT_SECTOR_5,MMZT_SECTOR_6,MMZT_SECTOR_7</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan SW" Frequency="128.300" Callsign="MMZT_W_CTR" Name="ZTW">
+  <Sector FullName="ACC Mazatlan SW" Frequency="128.300" Callsign="MMZT_W_CTR" Name="MZTW">
     <Volumes>MMZT_SECTOR_1,MMZT_SECTOR_2,MMZT_SECTOR_7</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan SE" Frequency="128.000" Callsign="MMZT_E_CTR" Name="ZTE">
+  <Sector FullName="ACC Mazatlan SE" Frequency="128.000" Callsign="MMZT_E_CTR" Name="MZTE">
     <Volumes>MMZT_SECTOR_3,MMZT_SECTOR_4,MMZT_SECTOR_5,MMZT_SECTOR_6</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan Sector 1" Frequency="128.300" Callsign="MMZT_1_CTR" Name="ZT1">
+  <Sector FullName="ACC Mazatlan Sector 1" Frequency="128.300" Callsign="MMZT_1_CTR" Name="MZT1">
     <Volumes>MMZT_SECTOR_1</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan Sector 2" Frequency="126.300" Callsign="MMZT_2_CTR" Name="ZT2">
+  <Sector FullName="ACC Mazatlan Sector 2" Frequency="126.300" Callsign="MMZT_2_CTR" Name="MZT2">
     <Volumes>MMZT_SECTOR_2</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan Sector 3" Frequency="128.000" Callsign="MMZT_3_CTR" Name="ZT3">
+  <Sector FullName="ACC Mazatlan Sector 3" Frequency="128.000" Callsign="MMZT_3_CTR" Name="MZT3">
     <Volumes>MMZT_SECTOR_3</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan Sector 4" Frequency="124.400" Callsign="MMZT_4_CTR" Name="ZT4">
+  <Sector FullName="ACC Mazatlan Sector 4" Frequency="124.400" Callsign="MMZT_4_CTR" Name="MZT4">
     <Volumes>MMZT_SECTOR_4</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan Sector 5" Frequency="124.200" Callsign="MMZT_5_CTR" Name="ZT5">
+  <Sector FullName="ACC Mazatlan Sector 5" Frequency="124.200" Callsign="MMZT_5_CTR" Name="MZT5">
     <Volumes>MMZT_SECTOR_5</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan Sector 6" Frequency="126.500" Callsign="MMZT_6_CTR" Name="ZT6">
+  <Sector FullName="ACC Mazatlan Sector 6" Frequency="126.500" Callsign="MMZT_6_CTR" Name="MZT6">
     <Volumes>MMZT_SECTOR_6</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan Sector 7" Frequency="128.750" Callsign="MMZT_7_CTR" Name="ZT7">
+  <Sector FullName="ACC Mazatlan Sector 7" Frequency="128.750" Callsign="MMZT_7_CTR" Name="MZT7">
     <Volumes>MMZT_SECTOR_7</Volumes>
   </Sector>
 

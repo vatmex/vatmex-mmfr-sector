@@ -145,9 +145,9 @@
         <Map Name="TMA Tijuana/ASMGCS_MMTJ_LABELS" />
       </Maps>
     </Position>
-    <Position Name="Torre Culiacán - CLT" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-8">
+    <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-8">
       <Sectors>
-        <Sector Name="CLT" />
+        <Sector Name="CLTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Culiacan/Aeropuerto - Pistas" />
@@ -173,9 +173,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Culiacán - CLA" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-8">
+    <Position Name="Aproximación Culiacán - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-8">
       <Sectors>
-        <Sector Name="CLA" />
+        <Sector Name="CLAPP" />
       </Sectors>
       <Maps>
         <Map Name="TMA Culiacan/Aeropuerto - Pistas" />
@@ -205,9 +205,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Hermosillo - HOT" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="50" MagneticVariation="-9">
+    <Position Name="Torre Hermosillo - HOTW1" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="50" MagneticVariation="-9">
       <Sectors>
-        <Sector Name="HOT" />
+        <Sector Name="HOTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Hermosillo/Aeropuerto - Pistas" />
@@ -238,9 +238,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Hermosillo - HOA" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="550" MagneticVariation="-9">
+    <Position Name="Aproximación Hermosillo - HOAPP" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="550" MagneticVariation="-9">
       <Sectors>
-        <Sector Name="HOA" />
+        <Sector Name="HOAPP" />
       </Sectors>
       <Maps>
         <Map Name="TMA Hermosillo/Aeropuerto - Area Terminal (TMA)" />
@@ -276,9 +276,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre San Lucas - SDA" Type="ASD" DefaultCenter="+225653.965-1095617.973" DefaultRange="40" MagneticVariation="-8">
+    <Position Name="Torre San Lucas - SLTW1" Type="ASD" DefaultCenter="+225653.965-1095617.973" DefaultRange="40" MagneticVariation="-8">
       <Sectors>
-        <Sector Name="SLT" />
+        <Sector Name="SLTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Cabos/Aeropuerto - Pistas" />
@@ -305,9 +305,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Terrestre San Jose - SDG" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
+    <Position Name="Terrestre San Jose - SDSMC" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
       <Sectors>
-        <Sector Name="SDG" />
+        <Sector Name="SDSMC" />
       </Sectors>
       <Maps>
         <Map Name="TMA Cabos/Aeropuerto - Pistas" />
@@ -335,9 +335,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre San Jose - SDT" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
+    <Position Name="Torre San Jose - SDTW1" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
       <Sectors>
-        <Sector Name="SDT" />
+        <Sector Name="SDTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Cabos/Aeropuerto - Pistas" />
@@ -369,9 +369,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación San Jose - SDA" Type="ASD" DefaultCenter="+232502.992-1093916.281" DefaultRange="280" MagneticVariation="-8">
+    <Position Name="Aproximación San Jose - SDAPP" Type="ASD" DefaultCenter="+232502.992-1093916.281" DefaultRange="280" MagneticVariation="-8">
       <Sectors>
-        <Sector Name="SDA" />
+        <Sector Name="SDAPP" />
       </Sectors>
       <Maps>
         <Map Name="TMA Cabos/Aeropuerto - Pistas" />
@@ -407,9 +407,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Ensenada - EST" Type="ASD" DefaultCenter="+314742.900-1163613.350" DefaultRange="30" MagneticVariation="-12">
+    <Position Name="Torre Ensenada - ESTW1" Type="ASD" DefaultCenter="+314742.900-1163613.350" DefaultRange="30" MagneticVariation="-12">
       <Sectors>
-        <Sector Name="EST" />
+        <Sector Name="ESTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Tijuana/Aeropuerto - Pistas" />
@@ -440,9 +440,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Autorización Tijuana - TJC" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="10" MagneticVariation="-12">
+    <Position Name="Autorización Tijuana - TJCDL" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="10" MagneticVariation="-12">
       <Sectors>
-        <Sector Name="TJC" />
+        <Sector Name="TJCDL" />
       </Sectors>
       <Maps>
         <Map Name="TMA Tijuana/Aeropuerto - Pistas" />
@@ -471,9 +471,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Tijuana - TJT" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="50" MagneticVariation="-12">
+    <Position Name="Torre Tijuana - TJTW1" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="50" MagneticVariation="-12">
       <Sectors>
-        <Sector Name="TJT" />
+        <Sector Name="TJTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Tijuana/Aeropuerto - Pistas" />
@@ -506,9 +506,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Tijuana - TJA" Type="ASD" DefaultCenter="+320145.000-1164445.812" DefaultRange="170" MagneticVariation="-12">
+    <Position Name="Aproximación Tijuana - TJAPP" Type="ASD" DefaultCenter="+320145.000-1164445.812" DefaultRange="170" MagneticVariation="-12">
       <Sectors>
-        <Sector Name="TJA" />
+        <Sector Name="TJAPP" />
       </Sectors>
       <Maps>
         <Map Name="TMA Tijuana/Aeropuerto - Pistas" />
@@ -547,9 +547,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Centro Mazatlan (Combinado) - ZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false">
+    <Position Name="Centro Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false">
       <Sectors>
-        <Sector Name="ZTC" />
+        <Sector Name="MZTC" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mazatlan/Radar - Cobertura" />
@@ -587,9 +587,9 @@
         <Point>+19.149414-104.571297</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro Mazatlan (SE) - ZTE" Type="ASD" DefaultCenter="+231401.508-1081845.656" DefaultRange="1150" MagneticVariation="-12" DynamicInfill="false">
+    <Position Name="Centro Mazatlan (SE) - MZTE" Type="ASD" DefaultCenter="+231401.508-1081845.656" DefaultRange="1150" MagneticVariation="-12" DynamicInfill="false">
       <Sectors>
-        <Sector Name="ZTE" />
+        <Sector Name="MZTE" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mazatlan/Radar - Cobertura" />
@@ -628,9 +628,9 @@
         <Point>+19.149414-104.571297</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro Mazatlan (SW) - ZTW" Type="ASD" DefaultCenter="+282947.445-1142936.531" DefaultRange="1000" MagneticVariation="-12" DynamicInfill="false">
+    <Position Name="Centro Mazatlan (SW) - MZTW" Type="ASD" DefaultCenter="+282947.445-1142936.531" DefaultRange="1000" MagneticVariation="-12" DynamicInfill="false">
       <Sectors>
-        <Sector Name="ZTW" />
+        <Sector Name="MZTW" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mazatlan/Radar - Cobertura" />
