@@ -203,8 +203,7 @@
         </Departure>
       </Rules>
     </RuleSet>
-  </RuleSets>
-  <RuleSet Name="MMCU_DEPS">
+    <RuleSet Name="MMCU_DEPS">
       <Rules>
         <Departure Values="MMCU">
           <Rules>
@@ -215,7 +214,6 @@
         </Departure>
       </Rules>
     </RuleSet>
-  </RuleSets>
     <RuleSet Name="MMMY_DEPS">
       <Rules>
         <Departure Values="MMMY">
@@ -227,4 +225,5 @@
         </Departure>
       </Rules>
     </RuleSet>
+  </RuleSets>
 </DefaultJurisdiction>
