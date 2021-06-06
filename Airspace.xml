@@ -407,20 +407,12 @@
         <SID Name="TEIL1B" />
         <SID Name="VOLUX1" />
         <SID Name="XORID2" />
-        <STAR Name="JAST1A" />
-        <STAR Name="LIPE1A" />
-        <STAR Name="LIPE1C" />
-        <STAR Name="LIVR1A" />
+        <STAR Name="LIPE1F" />
         <STAR Name="LIVR1C" />
-        <STAR Name="LONK1B" />
-        <STAR Name="LONV1A" />
         <STAR Name="LONV1C" />
         <STAR Name="MODE1A" />
-        <STAR Name="ONGE1A" />
         <STAR Name="ULUV1A" />
-        <STAR Name="USBI1A" />
         <STAR Name="USBI1C" />
-        <STAR Name="VOLA1A" />
       </Runway>
       <Runway Name="28" DataRunway="28">
         <SID Name="GDL4B" Default="True" />
@@ -444,20 +436,12 @@
         <SID Name="TEILA3" />
         <SID Name="TIKI1B" />
         <SID Name="TIKIT3" />
-        <STAR Name="JAST1B" />
-        <STAR Name="LIPE1B" />
-        <STAR Name="LIPE1D" />
-        <STAR Name="LIVR1B" />
+        <STAR Name="LIPE1G" />
         <STAR Name="LIVR1D" />
-        <STAR Name="LONK1C" />
-        <STAR Name="LONV1B" />
         <STAR Name="LONV1D" />
         <STAR Name="MODE1B" />
-        <STAR Name="ONGE1B" />
         <STAR Name="ULUV1B" />
-        <STAR Name="USBI1B" />
         <STAR Name="USBI1D" />
-        <STAR Name="VOLA1B" />
       </Runway>
     </Airport>
     <Airport Name="MMGM">
@@ -6013,47 +5997,17 @@
     <SID Name="XORID2" Airport="MMGL" Runways="10">
       <Route Runway="10">XORD</Route>
     </SID>
-    <STAR Name="JAST1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">JASTO GL563 GL564 APDAV DULNO</Route>
-    </STAR>
-    <STAR Name="JAST1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">JASTO GL835 GL830 GL862 JAYES</Route>
-    </STAR>
-    <STAR Name="LIPE1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">LIPEP DANUN</Route>
-    </STAR>
-    <STAR Name="LIPE1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">LIPEP GL860 GL861 LORSI</Route>
-    </STAR>
-    <STAR Name="LIPE1C" Airport="MMGL" Runways="10">
+    <STAR Name="LIPE1F" Airport="MMGL" Runways="10">
       <Route Runway="10">LIPEP GL520 VISDA GL522 GL523 GL524 DATSO</Route>
     </STAR>
-    <STAR Name="LIPE1D" Airport="MMGL" Runways="28">
+    <STAR Name="LIPE1G" Airport="MMGL" Runways="28">
       <Route Runway="28">LIPEP OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
-    </STAR>
-    <STAR Name="LIVR1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">LIVRI CARLO APDAV DULNO</Route>
-    </STAR>
-    <STAR Name="LIVR1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">LIVRI CARLO GL835 GL830 GL862 JAYES</Route>
     </STAR>
     <STAR Name="LIVR1C" Airport="MMGL" Runways="10">
       <Route Runway="10">LIVRI IKBAN ULOGA GL512 GL513 GL514 DULNO</Route>
     </STAR>
     <STAR Name="LIVR1D" Airport="MMGL" Runways="28">
       <Route Runway="28">LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
-    </STAR>
-    <STAR Name="LONK1B" Airport="MMGL" Runways="10">
-      <Route Runway="10">LONKU GL560 LONPO DATSO</Route>
-    </STAR>
-    <STAR Name="LONK1C" Airport="MMGL" Runways="28">
-      <Route Runway="28">LONKU DUNER</Route>
-    </STAR>
-    <STAR Name="LONV1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">LONVA SAMAR APDAV DULNO</Route>
-    </STAR>
-    <STAR Name="LONV1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">LONVA SAMAR GL810 GL863 GL862 JAYES</Route>
     </STAR>
     <STAR Name="LONV1C" Airport="MMGL" Runways="10">
       <Route Runway="10">LONVA ERDAN GL501 GL502 DULNO</Route>
@@ -6067,24 +6021,6 @@
     <STAR Name="MODE1B" Airport="MMGL" Runways="28">
       <Route Runway="28">MODEX GL825 GL826 GL827 GL828 PLADE</Route>
     </STAR>
-    <STAR Name="ONGE1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">ONGEL EBDEG LONPO DATSO</Route>
-    </STAR>
-    <STAR Name="ONGE1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">ONGEL EBDEG GL850 DUNER</Route>
-    </STAR>
-    <SID Name="SEDE1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL420 GL421 GL422 SEDEM</Route>
-    </SID>
-    <SID Name="SEDE1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 SEDEM</Route>
-    </SID>
-    <STAR Name="USBI1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">USBIM GL561 DATSO</Route>
-    </STAR>
-    <STAR Name="USBI1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">USBIM GL860 GL861 LORSI</Route>
-    </STAR>
     <STAR Name="USBI1C" Airport="MMGL" Runways="10">
       <Route Runway="10">USBIM EMEXO GL522 GL523 GL824 DATSO</Route>
     </STAR>
@@ -6096,12 +6032,6 @@
     </STAR>
     <STAR Name="ULUV1B" Airport="MMGL" Runways="28">
       <Route Runway="28">ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
-    </STAR>
-    <STAR Name="VOLA1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">VOLAT GL562 DATSO</Route>
-    </STAR>
-    <STAR Name="VOLA1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">VOLAT GL860 GL861 LORSI</Route>
     </STAR>
     <!--MMGM-->
     <SID Name="GYM1" Airport="MMGM" Runways="02">
