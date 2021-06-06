@@ -116,7 +116,7 @@
       </Runway>
     </Airport>
     <Airport Name="MMCB">
-      <Runway Name="02" DataRunway="02">
+      <Runway Name="03" DataRunway="03">
         <SID Name="CVJ1A" Default="True" />
         <SID Name="CUA1E" />
         <SID Name="TEQ1C" />
@@ -125,7 +125,7 @@
         <STAR Name="SIKM1A" />
         <STAR Name="OTIV1A" />
       </Runway>
-      <Runway Name="20" DataRunway="20">
+      <Runway Name="21" DataRunway="21">
         <SID Name="CVJ1B" Default="True" />
         <SID Name="CUA1F" />
         <SID Name="TEQ1D" />
@@ -5280,49 +5280,49 @@
       <Route Runway="25">HUX</Route>
     </SID>
     <!--MMCB-->
-    <SID Name="CVJ1A" Airport="MMCB" Runways="02">
+    <SID Name="CVJ1A" Airport="MMCB" Runways="03">
       <Route Runway="02">CVJ</Route>
     </SID>
-    <SID Name="CVJ1B" Airport="MMCB" Runways="20">
+    <SID Name="CVJ1B" Airport="MMCB" Runways="21">
       <Route Runway="20">CVJ</Route>
     </SID>
-    <SID Name="CUA1E" Airport="MMCB" Runways="02">
+    <SID Name="CUA1E" Airport="MMCB" Runways="03">
       <Route Runway="02">CUA</Route>
     </SID>
-    <SID Name="CUA1F" Airport="MMCB" Runways="20">
+    <SID Name="CUA1F" Airport="MMCB" Runways="21">
       <Route Runway="20">CUA</Route>
     </SID>
-    <SID Name="TEQ1C" Airport="MMCB" Runways="02">
+    <SID Name="TEQ1C" Airport="MMCB" Runways="03">
       <Route Runway="02">TEQ</Route>
     </SID>
-    <SID Name="TEQ1D" Airport="MMCB" Runways="20">
+    <SID Name="TEQ1D" Airport="MMCB" Runways="21">
       <Route Runway="20">TEQ</Route>
     </SID>
-    <SID Name="MAXU1C" Airport="MMCB" Runways="20">
+    <SID Name="MAXU1C" Airport="MMCB" Runways="21">
       <Route Runway="20">MAXUL</Route>
     </SID>
-    <SID Name="SIKM1C" Airport="MMCB" Runways="02">
+    <SID Name="SIKM1C" Airport="MMCB" Runways="03">
       <Route Runway="02">CB800 CB810 SIKMO</Route>
     </SID>
-    <SID Name="SIKM1D" Airport="MMCB" Runways="20">
+    <SID Name="SIKM1D" Airport="MMCB" Runways="21">
       <Route Runway="20">CB500 CB501 SIKMO</Route>
     </SID>
-    <SID Name="OTIV1C" Airport="MMCB" Runways="02">
+    <SID Name="OTIV1C" Airport="MMCB" Runways="03">
       <Route Runway="02">CB800 CB820 OTIVO</Route>
     </SID>
-    <SID Name="OTIV1D" Airport="MMCB" Runways="20">
+    <SID Name="OTIV1D" Airport="MMCB" Runways="21">
       <Route Runway="20">CB500 CB501 OTIVO</Route>
     </SID>
-    <STAR Name="SIKM1A" Airport="MMCB" Runways="02">
+    <STAR Name="SIKM1A" Airport="MMCB" Runways="03">
       <Route Runway="02">SIKMO CB700 CB701 DUNPA</Route>
     </STAR>
-    <STAR Name="SIKM1B" Airport="MMCB" Runways="20">
+    <STAR Name="SIKM1B" Airport="MMCB" Runways="21">
       <Route Runway="20">SIKMO CB611 UMADA</Route>
     </STAR>
-    <STAR Name="OTIV1A" Airport="MMCB" Runways="02">
+    <STAR Name="OTIV1A" Airport="MMCB" Runways="03">
       <Route Runway="02">OTIVO VODIS</Route>
     </STAR>
-    <STAR Name="OTIV1B" Airport="MMCB" Runways="20">
+    <STAR Name="OTIV1B" Airport="MMCB" Runways="21">
       <Route Runway="20">OTIVO CB600 CB601 SEKOS</Route>
     </STAR>
     <!--MMCE-->
