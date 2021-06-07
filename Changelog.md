@@ -1,7 +1,30 @@
-# Changelog 2104
+
+# Registro de Cambios
+
+## Airac 2105a
 
 ### Mayores
-- Agrega Plugin Mexico para etiquetas de tráfico
+- Nuevo esquema de nombres de sectores
+- Agrega rutas de aproximación (No manualmente seleccionables) a llegadas RNAV
+- Agrega jurisicciones de salida para todos los aeropuertos radares de MMFR
+- Modifica las trazas para utilizar las usadas por SENEAM y retira las Australianas (Tambíen actualiza Plugin)
+
+### Menores
+- Remueve procedimientos retirados MMGL
+- Remueve procedimientos cancelados MMMX
+- Actualiza nombre de pista MMCB a 03/21
+- Agrega llegadas Standard a MMMD
+- Agrega llegadas faltanes a MMCZ
+- Agrega MVA's a MMUN
+
+## Airac 2104b
+
+Experimental. Release no oficial.
+
+## Airac 2104a
+
+### Mayores
+- Agrega Plugin México para etiquetas de tráfico
 - Agrega varias posiciones no radares para Centro México.
 - Modifica TMA México para funcionar por sectores.
 - Modifica organización de mapas para una agrupación mas ordenada
