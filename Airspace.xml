@@ -12,9 +12,9 @@
         <SID Name="ALNU1A" />
         <SID Name="AMID1A" />
         <SID Name="AMUS1A" />
-        <STAR Name="ANAL1A" />
-        <STAR Name="ANVA1A" />
-        <STAR Name="AVUR1A" />
+        <STAR Name="ANAL1A" ApproachName="ILS103.APREN" />
+        <STAR Name="ANVA1A" ApproachName="ILS103.ATUMU" />
+        <STAR Name="AVUR1A" ApproachName="ILS103.APLUR" />
       </Runway>
       <Runway Name="28" DataRunway="28">
         <SID Name="ACA3B" Default="True" />
@@ -26,9 +26,9 @@
         <SID Name="ALNU1B" />
         <SID Name="AMID1B" />
         <SID Name="AMUS1B" />
-        <STAR Name="ANAL1B" />
-        <STAR Name="ANVA1B" />
-        <STAR Name="AVUR1B" />
+        <STAR Name="ANAL1B" ApproachName="ILS283.ITRAM" />
+        <STAR Name="ANVA1B" ApproachName="ILS283.AVRIM" />
+        <STAR Name="AVUR1B" ApproachName="ILS283.ITRAM" />
       </Runway>
       <Runway Name="06" DataRunway="06">
         <SID Name="ACA3C" />
@@ -54,9 +54,9 @@
         <SID Name="DOTO2C" />
         <SID Name="GRAL2D" />
         <SID Name="KERG2D" />
-        <STAR Name="ITPI1C" />
-        <STAR Name="NOTA1C" />
-        <STAR Name="RETO1C" />
+        <STAR Name="ITPI1C" ApproachName="ILS283.DUXAM" />
+        <STAR Name="NOTA1C" ApproachName="ILS283.OBNIN" />
+        <STAR Name="RETO1C" ApproachName="ILS283.DUXAM" />
         <STAR Name="SLW1D" />
       </Runway>
     </Airport>
@@ -73,14 +73,14 @@
         <SID Name="TEDZ1B" />
         <SID Name="TIDI1A" />
         <SID Name="UKIR1A" />
-        <STAR Name="BJX1C" />
-        <STAR Name="BOPA1A" />
-        <STAR Name="OMIN1A" />
-        <STAR Name="GRUS1A" />
-        <STAR Name="IGSA1A" />
-        <STAR Name="KEDR1A" />
-        <STAR Name="RAKA1A" />
-        <STAR Name="VOLE1A" />
+        <STAR Name="BJX1C" ApproachName="RNP18.SESKO" />
+        <STAR Name="BOPA1A" ApproachName="RNP18.SESKO" />
+        <STAR Name="OMIN1A" ApproachName="RNP18.SESKO" />
+        <STAR Name="GRUS1A" ApproachName="RNP18.TETES" />
+        <STAR Name="IGSA1A" ApproachName="RNP18.SUTOM" />
+        <STAR Name="KEDR1A" ApproachName="RNP18.TETES" />
+        <STAR Name="RAKA1A" ApproachName="RNP18.TETES" />
+        <STAR Name="VOLE1A" ApproachName="RNP18.SUTOM" />
       </Runway>
       <Runway Name="36" DataRunway="36">
         <SID Name="AGU1B" Default="True" />
@@ -95,14 +95,14 @@
         <SID Name="TEDZ1C" />
         <SID Name="TIDI1B" />
         <SID Name="UKIR1B" />
-        <STAR Name="BJX1D" />
-        <STAR Name="BOPA1B" />
-        <STAR Name="OMIN1B" />
-        <STAR Name="GRUS1B" />
-        <STAR Name="IGSA1B" />
-        <STAR Name="KEDR1B" />
-        <STAR Name="RAKA1B" />
-        <STAR Name="VOLE1B" />
+        <STAR Name="BJX1D" ApproachName="RNP36.MIDLA" />
+        <STAR Name="BOPA1B" ApproachName="RNP36.ETBAM" />
+        <STAR Name="OMIN1B" ApproachName="RNP36.MIDLA" />
+        <STAR Name="GRUS1B" ApproachName="RNP36.PUSAN" />
+        <STAR Name="IGSA1B" ApproachName="RNP36.ETBAM" />
+        <STAR Name="KEDR1B" ApproachName="RNP36.PUSAN" />
+        <STAR Name="RAKA1B" ApproachName="RNP36.PUSAN" />
+        <STAR Name="VOLE1B" ApproachName="RNP36.ETBAM" />
       </Runway>
     </Airport>
     <Airport Name="MMBT">
@@ -116,24 +116,24 @@
       </Runway>
     </Airport>
     <Airport Name="MMCB">
-      <Runway Name="02" DataRunway="02">
+      <Runway Name="03" DataRunway="03">
         <SID Name="CVJ1A" Default="True" />
         <SID Name="CUA1E" />
         <SID Name="TEQ1C" />
         <SID Name="SIKM1C" />
         <SID Name="OTIV1C" />
-        <STAR Name="SIKM1A" />
-        <STAR Name="OTIV1A" />
+        <STAR Name="SIKM1A" ApproachName="RNP03.DUNPA" />
+        <STAR Name="OTIV1A" ApproachName="RNP03.VODIS" />
       </Runway>
-      <Runway Name="20" DataRunway="20">
+      <Runway Name="21" DataRunway="21">
         <SID Name="CVJ1B" Default="True" />
         <SID Name="CUA1F" />
         <SID Name="TEQ1D" />
         <SID Name="MAXU1C" />
         <SID Name="SIKM1D" />
         <SID Name="OTIV1D" />
-        <STAR Name="SIKM1B" />
-        <STAR Name="OTIV1B" />
+        <STAR Name="SIKM1B" ApproachName="RNP21.UMADA" />
+        <STAR Name="OTIV1B" ApproachName="RNP21.SEKOS" />
       </Runway>
     </Airport>
     <Airport Name="MMCE">
@@ -165,13 +165,13 @@
         <SID Name="OLEX3A" />
         <SID Name="PELSA1" />
         <SID Name="XUKMA2" />
-        <STAR Name="AVTA1C" />
-        <STAR Name="ELEG1C" />
-        <STAR Name="ILAV1C" />
-        <STAR Name="MELB1A" />
-        <STAR Name="NUBI1A" />
-        <STAR Name="OLAK1A" />
-        <STAR Name="SAVO1A" />
+        <STAR Name="AVTA1C" ApproachName="RNP02.VEVLO" />
+        <STAR Name="ELEG1C" ApproachName="RNP02.USDAP" />
+        <STAR Name="ILAV1C" ApproachName="RNP02.BERUR" />
+        <STAR Name="MELB1A" ApproachName="RNP02.VEVLO" />
+        <STAR Name="NUBI1A" ApproachName="RNP02.USDAP" />
+        <STAR Name="OLAK1A" ApproachName="RNP02.BERUR" />
+        <STAR Name="SAVO1A" ApproachName="RNP02.VEVLO" />
       </Runway>
       <Runway Name="20" DataRunway="20">
         <SID Name="CUL3B" Default="True" />
@@ -189,13 +189,13 @@
         <SID Name="VIVUX2" />
         <SID Name="XOMGA3" />
         <SID Name="XORUB3" />
-        <STAR Name="AVTA1D" />
-        <STAR Name="ELEG1D" />
-        <STAR Name="ILAV1D" />
-        <STAR Name="MELB1B" />
-        <STAR Name="NUBI1B" />
-        <STAR Name="OLAK1B" />
-        <STAR Name="SAVO1B" />
+        <STAR Name="AVTA1D" ApproachName="RNP20.SAVIR" />
+        <STAR Name="ELEG1D" ApproachName="RNP20.OTIMA" />
+        <STAR Name="ILAV1D" ApproachName="RNP20.TALNU" />
+        <STAR Name="MELB1B" ApproachName="RNP20.SAVIR" />
+        <STAR Name="NUBI1B" ApproachName="RNP20.TALNU" />
+        <STAR Name="OLAK1B" ApproachName="RNP20.TALNU" />
+        <STAR Name="SAVO1B" ApproachName="RNP20.SAVIR" />
       </Runway>
     </Airport>
     <Airport Name="MMCM">
@@ -267,14 +267,14 @@
         <SID Name="TAST1A" />
         <SID Name="TATG1A" />
         <SID Name="VILPO1" />
-        <STAR Name="BOKM1C" />
-        <STAR Name="KIPA1C" />
-        <STAR Name="LENE1A" />
-        <STAR Name="OTOS1C" />
-        <STAR Name="SINL1A" />
-        <STAR Name="UMED1A" />
-        <STAR Name="VIXE1A" />
-        <STAR Name="VOMA1A" />
+        <STAR Name="BOKM1C" ApproachName="RNP18L.PELTA" />
+        <STAR Name="KIPA1C" ApproachName="RNP18L.EBLOR" />
+        <STAR Name="LENE1A" ApproachName="RNP18L.RIBAD" />
+        <STAR Name="OTOS1C" ApproachName="RNP18L.PELTA" />
+        <STAR Name="SINL1A" ApproachName="RNP18L.RIBAD" />
+        <STAR Name="UMED1A" ApproachName="RNP18L.EBLOR" />
+        <STAR Name="VIXE1A" ApproachName="RNP18L.PELTA" />
+        <STAR Name="VOMA1A" ApproachName="RNP18L.RIBAD" />
       </Runway>
       <Runway Name="36R" DataRunway="36R">
         <SID Name="CUU6B" Default="True" />
@@ -293,15 +293,15 @@
         <SID Name="OXAL1B" />
         <SID Name="SUTA1B" />
         <SID Name="TATG1B" />
-        <STAR Name="BOKM1D" />
-        <STAR Name="KIPA1D" />
-        <STAR Name="LENE2B" />
-        <STAR Name="OTOS1D" />
-        <STAR Name="SINL2B" />
-        <STAR Name="TATG1C" />
-        <STAR Name="UMED1B" />
-        <STAR Name="VIXE1B" />
-        <STAR Name="VOMA2B" />
+        <STAR Name="BOKM1D" ApproachName="ILS36R4.BESUD" />
+        <STAR Name="KIPA1D" ApproachName="ILS36R4.GADIK" />
+        <STAR Name="LENE2B" ApproachName="ILS36R4.GADIK" />
+        <STAR Name="OTOS1D" ApproachName="ILS36R4.AMURU" />
+        <STAR Name="SINL2B" ApproachName="ILS36R4.GADIK" />
+        <STAR Name="TATG1C" ApproachName="ILS36R4.AMURU" />
+        <STAR Name="UMED1B" ApproachName="ILS36R4.AMURU" />
+        <STAR Name="VIXE1B" ApproachName="ILS36R4.AMURU" />
+        <STAR Name="VOMA2B" ApproachName="ILS36R4.GADIK" />
       </Runway>
     </Airport>
     <Airport Name="MMCV">
@@ -344,6 +344,12 @@
         <SID Name="ROTG1C" />
         <SID Name="SIGM1A" />
         <SID Name="XOSI1A" />
+        <STAR Name="AVSI1C" ApproachName="RNP12.ONGAV" />
+        <STAR Name="EMOS1A" ApproachName="RNP12.VIBLA" />
+        <STAR Name="ILUB1C" ApproachName="RNP12.ONGAV" />
+        <STAR Name="PAUL1E" ApproachName="RNP12.ONGAV" />
+        <STAR Name="SIGM1C" ApproachName="RNP12.ONGAV" />
+        <STAR Name="VIGT1A" ApproachName="RNP12.XUBLI" />
       </Runway>
       <Runway Name="30" DataRunway="30">
         <SID Name="CZM7D" Default="True" />
@@ -367,6 +373,12 @@
         <SID Name="SIGM1B" />
         <SID Name="VOBE2E" />
         <SID Name="XOSI1B" />
+        <STAR Name="AVSI1D" ApproachName="RNP30.BEREB" />
+        <STAR Name="EMOS1B" ApproachName="RNP30.BEREB" />
+        <STAR Name="ILUB1D" ApproachName="RNP30.EMPAM" />
+        <STAR Name="PAUL1F" ApproachName="RNP30.BEREB" />
+        <STAR Name="SIGM1D" ApproachName="RNP30.BEREB" />
+        <STAR Name="VIGT1B" ApproachName="RNP30.BEREB" />
       </Runway>
     </Airport>
     <Airport Name="MMEP">
@@ -398,7 +410,7 @@
         <SID Name="LEROK3" />
         <SID Name="LONK1D" />
         <SID Name="NOTUP1" />
-        <SID Name="NOTU1B" />
+        <SID Name="NOTU1D" />
         <SID Name="OTOK1A" />
         <SID Name="OVALI4" />
         <SID Name="PIRAR3" />
@@ -407,20 +419,12 @@
         <SID Name="TEIL1B" />
         <SID Name="VOLUX1" />
         <SID Name="XORID2" />
-        <STAR Name="JAST1A" />
-        <STAR Name="LIPE1A" />
-        <STAR Name="LIPE1C" />
-        <STAR Name="LIVR1A" />
-        <STAR Name="LIVR1C" />
-        <STAR Name="LONK1B" />
-        <STAR Name="LONV1A" />
-        <STAR Name="LONV1C" />
-        <STAR Name="MODE1A" />
-        <STAR Name="ONGE1A" />
-        <STAR Name="ULUV1A" />
-        <STAR Name="USBI1A" />
-        <STAR Name="USBI1C" />
-        <STAR Name="VOLA1A" />
+        <STAR Name="LIPE1F" ApproachName="ILS10Z.DATSO" />
+        <STAR Name="LIVR1C" ApproachName="ILS10Z.DULNO" />
+        <STAR Name="LONV1C" ApproachName="ILS10Z.DULNO" />
+        <STAR Name="MODE1A" ApproachName="ILS10Z.DULNO" />
+        <STAR Name="ULUV1A" ApproachName="ILS10Z.DATSO" />
+        <STAR Name="USBI1C" ApproachName="ILS10Z.DATSO" />
       </Runway>
       <Runway Name="28" DataRunway="28">
         <SID Name="GDL4B" Default="True" />
@@ -444,20 +448,12 @@
         <SID Name="TEILA3" />
         <SID Name="TIKI1B" />
         <SID Name="TIKIT3" />
-        <STAR Name="JAST1B" />
-        <STAR Name="LIPE1B" />
-        <STAR Name="LIPE1D" />
-        <STAR Name="LIVR1B" />
-        <STAR Name="LIVR1D" />
-        <STAR Name="LONK1C" />
-        <STAR Name="LONV1B" />
-        <STAR Name="LONV1D" />
-        <STAR Name="MODE1B" />
-        <STAR Name="ONGE1B" />
-        <STAR Name="ULUV1B" />
-        <STAR Name="USBI1B" />
-        <STAR Name="USBI1D" />
-        <STAR Name="VOLA1B" />
+        <STAR Name="LIPE1G" ApproachName="ILS28Z.PLADE" />
+        <STAR Name="LIVR1D" ApproachName="ILS28Z.PLADE" />
+        <STAR Name="LONV1D" ApproachName="ILS28Z.PLADE" />
+        <STAR Name="MODE1B" ApproachName="ILS28Z.PLADE" />
+        <STAR Name="ULUV1B" ApproachName="ILS28Z.PLADE" />
+        <STAR Name="USBI1D" ApproachName="ILS28Z.PLADE" />
       </Runway>
     </Airport>
     <Airport Name="MMGM">
@@ -484,10 +480,10 @@
         <SID Name="KEKM1B" />
         <SID Name="LIDU1A" />
         <SID Name="SEBE2A" />
-        <STAR Name="AVTE1A" />
-        <STAR Name="BOPA1A" />
-        <STAR Name="IGTA1A" />
-        <STAR Name="KEKM1A" />
+        <STAR Name="AVTE1A" ApproachName="RNP05.ILUDA" />
+        <STAR Name="BOPA1A" ApproachName="RNP05.ILUDA" />
+        <STAR Name="IGTA1A" ApproachName="RNP05.OBRES" />
+        <STAR Name="KEKM1A" ApproachName="RNP05.MEBSO" />
        </Runway>
       <Runway Name="23" DataRunway="23">
         <SID Name="HMO5B" Default="True" />
@@ -505,11 +501,11 @@
         <SID Name="KEKM1D" />
         <SID Name="LIDU1B" />
         <SID Name="SEBE1B" />
-        <STAR Name="AVTE1B" />
-        <STAR Name="BOPA1C" />
-        <STAR Name="IGTA1C" />
-        <STAR Name="KEKM1C" />
-        <STAR Name="NABL1B" />
+        <STAR Name="AVTE1B" ApproachName="RNP23.DUPUS" />
+        <STAR Name="BOPA1C" ApproachName="RNP23.DUPUS" />
+        <STAR Name="IGTA1C" ApproachName="RNP23.GORIG" />
+        <STAR Name="KEKM1C" ApproachName="RNP23.DUPUS" />
+        <STAR Name="NABL1B" ApproachName="RNP23.GORIG" />
       </Runway>
     </Airport>
     <Airport Name="MMIA">
@@ -528,11 +524,11 @@
         <SID Name="RABA1A" />
         <SID Name="SIGDO2" />
         <SID Name="VOLI1A" />
-        <STAR Name="BERO1A" />
-        <STAR Name="FLAN1A" />
-        <STAR Name="NOVU1B" />
-        <STAR Name="OMIX1A" />
-        <STAR Name="RAIL1A" />
+        <STAR Name="BERO1A" ApproachName="ILS174.ILOKA" />
+        <STAR Name="FLAN1A" ApproachName="ILS174.ILOKA" />
+        <STAR Name="NOVU1B" ApproachName="ILS174.KEMTA" />
+        <STAR Name="OMIX1A" ApproachName="ILS174.ILOKA" />
+        <STAR Name="RAIL1A" ApproachName="ILS174.ILOKA" />
       </Runway>
       <Runway Name="35" DataRunway="35">
         <SID Name="SLW1A" Default="True" />
@@ -542,11 +538,11 @@
         <SID Name="PIKBU2" />
         <SID Name="RABA1B" />
         <SID Name="VOLI1B" />
-        <STAR Name="BERO1B" />
-        <STAR Name="FLAN1B" />
-        <STAR Name="NOVU1C" />
-        <STAR Name="OMIX1B" />
-        <STAR Name="RAIL1B" />
+        <STAR Name="BERO1B" ApproachName="RNP35.VOLIK" />
+        <STAR Name="FLAN1B" ApproachName="RNP35.VOLIK" />
+        <STAR Name="NOVU1C" ApproachName="RNP35.ALTUM" />
+        <STAR Name="OMIX1B" ApproachName="RNP35.ALTUM" />
+        <STAR Name="RAIL1B" ApproachName="RNP35.VOLIK" />
       </Runway>
     </Airport>
     <Airport Name="MMLM">
@@ -608,12 +604,12 @@
         <SID Name="TIDI1C" />
         <SID Name="UKIR1C" />
         <SID Name="URVEM3" />
-        <STAR Name="AGU1E" />
-        <STAR Name="JAST1E" />
-        <STAR Name="LIBO1A" />
-        <STAR Name="MEDA1A" />
-        <STAR Name="NAGI1A" />
-        <STAR Name="OMIN1C" />
+        <STAR Name="AGU1E" ApproachName="RNP13.ODGAR" />
+        <STAR Name="JAST1E" ApproachName="RNP13.JASTO" />
+        <STAR Name="LIBO1A" ApproachName="RNP13.ODGAR" />
+        <STAR Name="MEDA1A" ApproachName="RNP13.JASTO" />
+        <STAR Name="NAGI1A" ApproachName="RNP13.JASTO" />
+        <STAR Name="OMIN1C" ApproachName="RNP13.JASTO" />
       </Runway>
       <Runway Name="31" DataRunway="31">
         <SID Name="BJX3B" Default="True" />
@@ -627,12 +623,12 @@
         <SID Name="NOSUK3" />
         <SID Name="TIDI1D" />
         <SID Name="UKIR1D" />
-        <STAR Name="AGU1F" />
-        <STAR Name="JAST1F" />
-        <STAR Name="LIBO1B" />
-        <STAR Name="MEDA1B" />
-        <STAR Name="NAGI1B" />
-        <STAR Name="OMIN1D" />
+        <STAR Name="AGU1F" ApproachName="RNP31.ULUMU" />
+        <STAR Name="JAST1F" ApproachName="RNP31.ULUMU" />
+        <STAR Name="LIBO1B" ApproachName="RNP31.VIRVO" />
+        <STAR Name="MEDA1B" ApproachName="RNP31.XESIN" />
+        <STAR Name="NAGI1B" ApproachName="RNP31.XESIN" />
+        <STAR Name="OMIN1D" ApproachName="RNP31.XESIN" />
       </Runway>
     </Airport>
     <Airport Name="MMMA">
@@ -674,18 +670,21 @@
         <SID Name="NAPL1A" />
         <SID Name="SIFT1A" />
         <SID Name="VIVE1C" />
-        <STAR Name="AVOM1A" />
-        <STAR Name="CAEA1D" />
-        <STAR Name="CANO1A" />
-        <STAR Name="DYSO1A" />
-        <STAR Name="GABO1A" />
-        <STAR Name="ILEL1A" />
-        <STAR Name="LIFT1A" />
-        <STAR Name="NAPR1A" />
-        <STAR Name="XUBS1B" />
-        <STAR Name="ELSI1D" />
-        <STAR Name="LIFT1B" />
-        <STAR Name="NAPR1B" />
+        <STAR Name="AVOM1A" ApproachName="ILS103.TEXOB" />
+        <STAR Name="CAEA1D" ApproachName="ILS103.TEXOB" />
+        <STAR Name="CANO1A" ApproachName="ILS103.SEBEP" />
+        <STAR Name="DYSO1A" ApproachName="ILS103.OTMAM" />
+        <STAR Name="ELSI1D" ApproachName="ILS103.SEBEP" />
+        <STAR Name="GABO1A" ApproachName="ILS103.TEXOB" />
+        <STAR Name="ILEL1A" ApproachName="ILS103.SEBEP" />
+        <STAR Name="ISAR1D" />
+        <STAR Name="LIFT1A" ApproachName="ILS103.SEBEP" />
+        <STAR Name="LIFT1B" ApproachName="ILS103.SEBEP" />
+        <STAR Name="NAPR1A" ApproachName="ILS103.SEBEP" />
+        <STAR Name="NAPR1B" ApproachName="ILS103.SEBEP" />
+        <STAR Name="VIVE1F" />
+        <STAR Name="XUBS1A" />
+        <STAR Name="XUBS1B" ApproachName="ILS103.TEXOB" />
       </Runway>
       <Runway Name="18" DataRunway="18">
         <SID Name="MID4C" Default="True" />
@@ -698,6 +697,9 @@
         <SID Name="URPU2A" />
         <SID Name="VOLE2B" />
         <SID Name="XOLR2A" />
+        <STAR Name="ISAR1D" />
+        <STAR Name="VIVE1F" />
+        <STAR Name="XUBS1A" />
       </Runway>
       <Runway Name="28" DataRunway="28">
         <SID Name="MID4B" Default="True" />
@@ -824,10 +826,10 @@
         <SID Name="TEVO1A" />
         <SID Name="UKUN1A" />
         <SID Name="ULEB1A" />
-        <STAR Name="DARA1A" />
-        <STAR Name="ENAG1A" />
-        <STAR Name="ESPO1A" />
-        <STAR Name="LARL1A" />
+        <STAR Name="DARA1A" ApproachName="RNP05L.SUTAS" />
+        <STAR Name="ENAG1A" ApproachName="RNP05L.SUTAS" />
+        <STAR Name="ESPO1A" ApproachName="RNP05L.VOLUN" />
+        <STAR Name="LARL1A" ApproachName="RNP05L.VOLUN" />
       </Runway>
       <Runway Name="05R" DataRunway="05R">
         <SID Name="ATUR1A" />
@@ -840,10 +842,10 @@
         <SID Name="TEVO1A" />
         <SID Name="UKUN1A" />
         <SID Name="ULEB1A" />
-        <STAR Name="DARA1A" />
-        <STAR Name="ENAG1A" />
-        <STAR Name="ESPO1A" />
-        <STAR Name="LARL1A" />
+        <STAR Name="DARA1A" ApproachName="ILS05RZ.SUTAS" />
+        <STAR Name="ENAG1A" ApproachName="ILS05RZ.SUTAS" />
+        <STAR Name="ESPO1A" ApproachName="ILS05RZ.VOLUN" />
+        <STAR Name="LARL1A" ApproachName="ILS05RZ.VOLUN" />
       </Runway>
       <Runway Name="23L" DataRunway="23L">
         <SID Name="ATUR1B" />
@@ -856,10 +858,10 @@
         <SID Name="TEVO1B" />
         <SID Name="UKUN1B" />
         <SID Name="ULEB1B" />
-        <STAR Name="DARA1B" />
-        <STAR Name="ENAG1B" />
-        <STAR Name="ESPO1B" />
-        <STAR Name="LARL1B" />
+        <STAR Name="DARA1B" ApproachName="ILS23LZ.KOZLO" />
+        <STAR Name="ENAG1B" ApproachName="ILS23LZ.KOZLO" />
+        <STAR Name="ESPO1B" ApproachName="ILS23LZ.KOZLO" />
+        <STAR Name="LARL1B" ApproachName="ILS23LZ.KOZLO" />
       </Runway>
       <Runway Name="23R" DataRunway="23R">
         <SID Name="ATUR1B" />
@@ -872,10 +874,10 @@
         <SID Name="TEVO1B" />
         <SID Name="UKUN1B" />
         <SID Name="ULEB1B" />
-        <STAR Name="DARA1B" />
-        <STAR Name="ENAG1B" />
-        <STAR Name="ESPO1B" />
-        <STAR Name="LARL1B" />
+        <STAR Name="DARA1B" ApproachName="RNP23R.KOZLO" />
+        <STAR Name="ENAG1B" ApproachName="RNP23R.KOZLO" />
+        <STAR Name="ESPO1B" ApproachName="RNP23R.KOZLO" />
+        <STAR Name="LARL1B" ApproachName="RNP23R.KOZLO" />
       </Runway>
     </Airport>
     <Airport Name="MMMY">
@@ -891,10 +893,10 @@
         <SID Name="URTA4A" />
         <SID Name="URTO3A" />
         <SID Name="XOTAT3" />
-        <STAR Name="ITPI1A" />
-        <STAR Name="NOTA1A" />
-        <STAR Name="RETO1A" />
-        <STAR Name="SLW1B" />
+        <STAR Name="ITPI1A" ApproachName="RNP11.TASNA" />
+        <STAR Name="NOTA1A" ApproachName="RNP11.TASNA" />
+        <STAR Name="RETO1A" ApproachName="RNP11.TASNA" />
+        <STAR Name="SLW1B" ApproachName="RNP11.TASNA" />
       </Runway>
       <Runway Name="29" DataRunway="29">
         <SID Name="MTY5B" Default="True" />
@@ -908,10 +910,10 @@
         <SID Name="URTA3B" />
         <SID Name="URTO3B" />
         <SID Name="URTU3A" />
-        <STAR Name="ITPI1B" />
-        <STAR Name="NOTA1B" />
-        <STAR Name="RETO1B" />
-        <STAR Name="SLW1C" />
+        <STAR Name="ITPI1B" ApproachName="ILS295.OKOTO" />
+        <STAR Name="NOTA1B" ApproachName="ILS295.OKOTO" />
+        <STAR Name="RETO1B" ApproachName="ILS295.OKOTO" />
+        <STAR Name="SLW1C" ApproachName="ILS295.OKOTO" />
       </Runway>
     </Airport>
     <Airport Name="MMNL">
@@ -925,11 +927,11 @@
         <SID Name="RUDM1A" />
         <SID Name="SASE1A" />
         <SID Name="XOVES3" />
-        <STAR Name="EMPI1A" />
-        <STAR Name="ILIG1A" />
-        <STAR Name="MATU1A" />
-        <STAR Name="RUDM1C" />
-        <STAR Name="USBA1A" />
+        <STAR Name="EMPI1A" ApproachName="ILS143.IRDAN" />
+        <STAR Name="ILIG1A" ApproachName="ILS143.IRDAN" />
+        <STAR Name="MATU1A" ApproachName="ILS143.IRDAN" />
+        <STAR Name="RUDM1C" ApproachName="ILS143.IRDAN" />
+        <STAR Name="USBA1A" ApproachName="ILS143.IRDAN" />
       </Runway>
       <Runway Name="32" DataRunway="32">
         <SID Name="NLD2B" Default="True" />
@@ -940,11 +942,11 @@
         <SID Name="ONKA2B" />
         <SID Name="RUDM1B" />
         <SID Name="SASE1B" />
-        <STAR Name="EMPI1B" />
-        <STAR Name="ILIG1B" />
-        <STAR Name="MATU1B" />
-        <STAR Name="RUDM1D" />
-        <STAR Name="USBA1B" />
+        <STAR Name="EMPI1B" ApproachName="RNP32.ITREB" />
+        <STAR Name="ILIG1B" ApproachName="RNP32.VINBO" />
+        <STAR Name="MATU1B" ApproachName="RNP32.VINBO" />
+        <STAR Name="RUDM1D" ApproachName="RNP32.VINBO" />
+        <STAR Name="USBA1B" ApproachName="RNP32.ITREB" />
       </Runway>
     </Airport>
     <Airport Name="MMOX">
@@ -979,9 +981,9 @@
         <SID Name="NOXO1C" />
         <SID Name="TAKA1C" />
         <SID Name="UKUN1C" />
-        <STAR Name="ATUK1A" />
-        <STAR Name="LARL1C" />
-        <STAR Name="TAKA1A" />
+        <STAR Name="ATUK1A" ApproachName="RNP17.VINGA" />
+        <STAR Name="LARL1C" ApproachName="RNP17.LERUS" />
+        <STAR Name="TAKA1A" ApproachName="RNP17.LERUS" />
       </Runway>
       <Runway Name="35" DataRunway="35">
         <SID Name="PBC2B" Default="True" />
@@ -992,9 +994,9 @@
         <SID Name="NOXO1D" />
         <SID Name="TAKA1D" />
         <SID Name="UKUN1D" />
-        <STAR Name="ATUK1B" />
-        <STAR Name="LARL1D" />
-        <STAR Name="TAKA1B" />
+        <STAR Name="ATUK1B" ApproachName="RNP35.MASEL" />
+        <STAR Name="LARL1D" ApproachName="RNP35.PESTA" />
+        <STAR Name="TAKA1B" ApproachName="RNP35.PESTA" />
       </Runway>
     </Airport>
     <Airport Name="MMPE">
@@ -1039,10 +1041,10 @@
         <SID Name="VOLA1C" />
         <SID Name="XOSP2A" />
         <SID Name="XUDE1A" />
-        <STAR Name="KEDI1A" />
-        <STAR Name="KEDM1A" />
-        <STAR Name="NOTU1A" />
-        <STAR Name="OBRU1A" />
+        <STAR Name="KEDI1A" ApproachName="RNP04.RORPO" />
+        <STAR Name="KEDM1A" ApproachName="RNP04.RORPO" />
+        <STAR Name="NOTU1A" ApproachName="RNP04.MAYTE" />
+        <STAR Name="OBRU1A" ApproachName="RNP04.RORPO" />
       </Runway>
       <Runway Name="22" DataRunway="22">
         <SID Name="PVR4B" Default="True" />
@@ -1057,12 +1059,12 @@
         <SID Name="VOLA1D" />
         <SID Name="XOSP2B" />
         <SID Name="XUDE1B" />
-        <STAR Name="ESVEL1" />
-        <STAR Name="KEDI1B" />
-        <STAR Name="KEDM1B" />
-        <STAR Name="LIPE1E" />
-        <STAR Name="NOTU1B" />
-        <STAR Name="OBRU1B" />
+        <STAR Name="ESVEL1" ApproachName="RNP22.VETKA" />
+        <STAR Name="KEDI1B" ApproachName="RNP22.MUVBA" />
+        <STAR Name="KEDM1B" ApproachName="RNP22.VETKA" />
+        <STAR Name="LIPE1E" ApproachName="RNP22.VETKA" />
+        <STAR Name="NOTU1B" ApproachName="RNP22.VETKA" />
+        <STAR Name="OBRU1B" ApproachName="RNP22.MUVBA" />
       </Runway>
     </Airport>
     <Airport Name="MMPS">
@@ -1125,10 +1127,10 @@
         <SID Name="AVAV1C" />
         <SID Name="ILIG1A" />
         <SID Name="UKUX1A" />
-        <STAR Name="ALRI1E" />
-        <STAR Name="ENEK1A" />
-        <STAR Name="LEPO1A" />
-        <STAR Name="TENA1A" />
+        <STAR Name="ALRI1E" ApproachName="RNP16.AXEDA" />
+        <STAR Name="ENEK1A" ApproachName="RNP16.MARAK" />
+        <STAR Name="LEPO1A" ApproachName="RNP16.AXEDA" />
+        <STAR Name="TENA1A" ApproachName="RNP16.AXEDA" />
       </Runway>
       <Runway Name="34" DataRunway="34">
         <SID Name="SJD3B" Default="True" />
@@ -1148,10 +1150,10 @@
         <SID Name="ILIG1B" />
         <SID Name="KINOL1" />
         <SID Name="UKUX1B" />
-        <STAR Name="ALRI1F" />
-        <STAR Name="ENEK1B" />
-        <STAR Name="LEPO1B" />
-        <STAR Name="TENA1B" />
+        <STAR Name="ALRI1F" ApproachName="RNP34.AVURU" />
+        <STAR Name="ENEK1B" ApproachName="RNP34.AVURU" />
+        <STAR Name="LEPO1B" ApproachName="RNP34.AVURU" />
+        <STAR Name="TENA1B" ApproachName="RNP34.AVURU" />
       </Runway>
     </Airport>
     <Airport Name="MMSL">
@@ -1176,11 +1178,11 @@
         <SID Name="LETAT2" />
         <SID Name="SJD2E" />
         <SID Name="UKUX1D" />
-        <STAR Name="ALRI1G" />
-        <STAR Name="CSL3" />
-        <STAR Name="ENEK1C" />
-        <STAR Name="ILIG1E" />
-        <STAR Name="LEPO1C" />
+        <STAR Name="ALRI1G" ApproachName="RNP29.TESAC" />
+        <STAR Name="CSL3" ApproachName="RNP29.TESAC" />
+        <STAR Name="ENEK1C" ApproachName="RNP29.TESAC" />
+        <STAR Name="ILIG1E" ApproachName="RNP29.TESAC" />
+        <STAR Name="LEPO1C" ApproachName="RNP29.TESAC" />
       </Runway>
     </Airport>
     <Airport Name="MMSP">
@@ -1256,8 +1258,8 @@
         <SID Name="KOBA1A" />
         <SID Name="TEVI1A" />
         <SID Name="TUMA1A" />
-        <STAR Name="TANR1A" />
-        <STAR Name="TOVE1A" />
+        <STAR Name="TANR1A" ApproachName="ILS093.TUBUS" />
+        <STAR Name="TOVE1A" ApproachName="ILS093.TUBUS" />
       </Runway>
       <Runway Name="27" DataRunway="27">
         <SID Name="TIJ4A" Default="True" />
@@ -1269,8 +1271,8 @@
         <SID Name="KOBA2B" />
         <SID Name="TEVI2B" />
         <SID Name="TUMA2B" />
-        <STAR Name="TANR1B" />
-        <STAR Name="TOVE2B" />
+        <STAR Name="TANR1B" ApproachName="RNP27.ULDUD" />
+        <STAR Name="TOVE2B" ApproachName="RNP27.KREPE" />
       </Runway>
     </Airport>
     <Airport Name="MMTM">
@@ -1338,10 +1340,10 @@
         <SID Name="ZARC1B" />
         <STAR Name="ANEV1A" />
         <STAR Name="DERVI4" />
-        <STAR Name="ELIL1A" />
-        <STAR Name="ITLA1A" />
+        <STAR Name="ELIL1A" ApproachName="ILS15Z.GAINY" />
+        <STAR Name="ITLA1A" ApproachName="ILS15Z.GAINY" />
         <STAR Name="LENE1A" />
-        <STAR Name="LENU1A" />
+        <STAR Name="LENU1A" ApproachName="ILS15Z.GAINY" />
         <STAR Name="MEX2E" />
         <STAR Name="MEX4C" />
         <STAR Name="TEQ1A" />
@@ -1364,9 +1366,9 @@
         <SID Name="ZARC1C" />
         <SID Name="ZARC5A" />
         <STAR Name="ANEV1B" />
-        <STAR Name="ELIL1B" />
-        <STAR Name="ILAX1A" />
-        <STAR Name="ITLA1B" />
+        <STAR Name="ELIL1B" ApproachName="RNP33.VERLU" />
+        <STAR Name="ILAX1A" ApproachName="RNP33.VERLU" />
+        <STAR Name="ITLA1B" ApproachName="RNP33.VERLU" />
         <STAR Name="LENE1B" />
         <STAR Name="MEX3D" />
         <STAR Name="PTJ3" />
@@ -1408,12 +1410,12 @@
         <SID Name="TAKU1A" />
         <SID Name="UDGU1A" />
         <SID Name="VOBE2A" />
-        <STAR Name="ILUB1E" />
-        <STAR Name="NOSA1B" />
-        <STAR Name="PAUL1G" />
-        <STAR Name="SIGM1G" />
-        <STAR Name="VOMA1A" />
-        <STAR Name="XUDU1A" />
+        <STAR Name="ILUB1E" ApproachName="ILS12R4.EBMIS" />
+        <STAR Name="NOSA1B" ApproachName="ILS12R4.RIDUG" />
+        <STAR Name="PAUL1G" ApproachName="ILS12R4.EBMIS" />
+        <STAR Name="SIGM1G" ApproachName="ILS12R4.EBMIS" />
+        <STAR Name="VOMA1A" ApproachName="ILS12R4.VIKSI" />
+        <STAR Name="XUDU1A" ApproachName="ILS12R4.KAROR" />
       </Runway>
       <Runway Name="12L" DataRunway="12L">
         <SID Name="CUN3B" Default="True" />
@@ -1433,12 +1435,12 @@
         <SID Name="TAKU1B" />
         <SID Name="UDGU1B" />
         <SID Name="VOBE2B" />
-        <STAR Name="ILUB1F" />
-        <STAR Name="NOSA1B" />
-        <STAR Name="PAUL1H" />
-        <STAR Name="SIGM1H" />
-        <STAR Name="VOMA1A" />
-        <STAR Name="XUDU1A" />
+        <STAR Name="ILUB1F" ApproachName="ILS12L4.EBMIS" />
+        <STAR Name="NOSA1B" ApproachName="ILS12L4.RIDUG" />
+        <STAR Name="PAUL1H" ApproachName="ILS12L4.EBMIS" />
+        <STAR Name="SIGM1H" ApproachName="ILS12L4.EBMIS" />
+        <STAR Name="VOMA1A" ApproachName="ILS12L4.VIKSI" />
+        <STAR Name="XUDU1A" ApproachName="ILS12L4.KAROR" />
       </Runway>
       <Runway Name="30L" DataRunway="30L">
         <SID Name="CUN3C" Default="True" />
@@ -1457,12 +1459,12 @@
         <SID Name="ROTG1F" />
         <SID Name="UDGU1F" />
         <SID Name="VOBE2C" />
-        <STAR Name="ILUB1G" />
-        <STAR Name="NOSA1D" />
-        <STAR Name="PAUL1K" />
-        <STAR Name="SIGM1I" />
-        <STAR Name="VOMA1C" />
-        <STAR Name="XUDU1D" />
+        <STAR Name="ILUB1G" ApproachName="RNP30L2.SESLI" />
+        <STAR Name="NOSA1D" ApproachName="RNP30L2.OTSOL" />
+        <STAR Name="PAUL1K" ApproachName="RNP30L2.LOPKA" />
+        <STAR Name="SIGM1I" ApproachName="RNP30L2.SESLI" />
+        <STAR Name="VOMA1C" ApproachName="RNP30L2.OTSOL" />
+        <STAR Name="XUDU1D" ApproachName="RNP30L2.LOPKA" />
       </Runway>
       <Runway Name="30R" DataRunway="30R">
         <SID Name="CUN3D" Default="True" />
@@ -1481,12 +1483,12 @@
         <SID Name="ROTG1E" />
         <SID Name="UDGU1E" />
         <SID Name="VOBE2D" />
-        <STAR Name="ILUB1G" />
-        <STAR Name="NOSA1D" />
-        <STAR Name="PAUL1L" />
-        <STAR Name="SIGM1I" />
-        <STAR Name="VOMA1C" />
-        <STAR Name="XUDU1E" />
+        <STAR Name="ILUB1G" ApproachName="RNP30R2.SESLI" />
+        <STAR Name="NOSA1D" ApproachName="RNP30R2.OTSOL" />
+        <STAR Name="PAUL1L" ApproachName="RNP30R2.LOPKA" />
+        <STAR Name="SIGM1I" ApproachName="RNP30R2.SESLI" />
+        <STAR Name="VOMA1C" ApproachName="RNP30R2.OTSOL" />
+        <STAR Name="XUDU1E" ApproachName="RNP30R2.LOPKA" />
       </Runway>
     </Airport>
     <Airport Name="MMVA">
@@ -1523,14 +1525,14 @@
         <SID Name="OMPA1C" />
         <SID Name="ONBAD1" />
         <SID Name="RERA1A" />
-        <STAR Name="DUPL1A" />
-        <STAR Name="DURI1A" />
-        <STAR Name="ELIK1A" />
-        <STAR Name="ELOG1A" />
-        <STAR Name="GOTA1A" />
-        <STAR Name="IKLE1A" />
-        <STAR Name="OMPA1A" />
-        <STAR Name="TEVE1A" />
+        <STAR Name="DUPL1A" ApproachName="RNP01.ALRAD" />
+        <STAR Name="DURI1A" ApproachName="RNP01.BOBLI" />
+        <STAR Name="ELIK1A" ApproachName="RNP01.AMESO" />
+        <STAR Name="ELOG1A" ApproachName="RNP01.ALRAD" />
+        <STAR Name="GOTA1A" ApproachName="RNP01.ALRAD" />
+        <STAR Name="IKLE1A" ApproachName="RNP01.BOBLI" />
+        <STAR Name="OMPA1A" ApproachName="RNP01.ALRAD" />
+        <STAR Name="TEVE1A" ApproachName="RNP01.BOBLI" />
       </Runway>
       <Runway Name="19" DataRunway="19">
         <SID Name="VER1B" Default="True" />
@@ -1552,14 +1554,14 @@
         <SID Name="RERA1B" />
         <SID Name="TAMVO1" />
         <SID Name="URSOT1" />
-        <STAR Name="DUPL1B" />
-        <STAR Name="DURI1B" />
-        <STAR Name="ELIK1B" />
-        <STAR Name="ELOG1B" />
-        <STAR Name="GOTA1B" />
-        <STAR Name="IKLE1B" />
-        <STAR Name="OMPA1B" />
-        <STAR Name="TEVE1B" />
+        <STAR Name="DUPL1B" ApproachName="RNP19.SUVUL" />
+        <STAR Name="DURI1B" ApproachName="RNP19.OVUVA" />
+        <STAR Name="ELIK1B" ApproachName="RNP19.VIMRA" />
+        <STAR Name="ELOG1B" ApproachName="RNP19.SUVUL" />
+        <STAR Name="GOTA1B" ApproachName="RNP19.SUVUL" />
+        <STAR Name="IKLE1B" ApproachName="RNP19.VIMRA" />
+        <STAR Name="OMPA1B" ApproachName="RNP19.SUVUL" />
+        <STAR Name="TEVE1B" ApproachName="RNP19.VIMRA" />
       </Runway>
     </Airport>
     <Airport Name="MMZC">
@@ -1580,12 +1582,12 @@
         <SID Name="ILEN1A" />
         <SID Name="TABR1A" />
         <SID Name="VILT1A" />
-        <STAR Name="AVUR1E" />
-        <STAR Name="IGSA1C" />
-        <STAR Name="IKLE1C" />
-        <STAR Name="IKLU1C" />
-        <STAR Name="TABR1C" />
-        <STAR Name="VILT1C" />
+        <STAR Name="AVUR1E" ApproachName="RNP08.ALUNO" />
+        <STAR Name="IGSA1C" ApproachName="RNP08.IMENU" />
+        <STAR Name="IKLE1C" ApproachName="RNP08.IMENU" />
+        <STAR Name="IKLU1C" ApproachName="RNP08.IMENU" />
+        <STAR Name="TABR1C" ApproachName="RNP08.IMENU" />
+        <STAR Name="VILT1C" ApproachName="RNP08.IMENU" />
       </Runway>
       <Runway Name="26" DataRunway="26">
         <SID Name="ZIH2B" Default="True" />
@@ -1598,12 +1600,12 @@
         <SID Name="SEGIP2" />
         <SID Name="TABR1B" />
         <SID Name="VILT1B" />
-        <STAR Name="AVUR1F" />
-        <STAR Name="IGSA1D" />
-        <STAR Name="IKLE1D" />
-        <STAR Name="IKLU1D" />
-        <STAR Name="TABR1D" />
-        <STAR Name="VILT1D" />
+        <STAR Name="AVUR1F" ApproachName="RNP26.IMIBA" />
+        <STAR Name="IGSA1D" ApproachName="RNP26.SEGOB" />
+        <STAR Name="IKLE1D" ApproachName="RNP26.SEGOB" />
+        <STAR Name="IKLU1D" ApproachName="RNP26.SEGOB" />
+        <STAR Name="TABR1D" ApproachName="RNP26.SEGOB" />
+        <STAR Name="VILT1D" ApproachName="RNP26.SEGOB" />
       </Runway>
     </Airport>
     <Airport Name="MMZO">
@@ -5109,6 +5111,24 @@
     <STAR Name="AVUR1B" Airport="MMAA" Runways="28">
       <Route Runway="28">AVURO AA409 AA505 ITRAM</Route>
     </STAR>
+    <Approach Name="ILS103.APREN" Airport="MMAA" Runway="10">
+      <Route>APREN AA403 AA401</Route>
+    </Approach>
+    <Approach Name="ILS103.APLUR" Airport="MMAA" Runway="10">
+      <Route>APLUR AA403 AA401</Route>
+    </Approach>
+    <Approach Name="ILS103.ATUMU" Airport="MMAA" Runway="10">
+      <Route>ATUMU AA403 AA401</Route>
+    </Approach>
+    <Approach Name="ILS283.ITRAM" Airport="MMAA" Runway="28">
+      <Route>ITRAM AA501 AA500</Route>
+    </Approach>
+    <Approach Name="ILS283.AVRIM" Airport="MMAA" Runway="28">
+      <Route>AVRIM AA501 AA500</Route>
+    </Approach>
+    <Approach Name="ILS283.AVSIX" Airport="MMAA" Runway="28">
+      <Route>AVSIX AA501 AA500</Route>
+    </Approach>
     <!--MMAN-->
     <SID Name="MTY2C" Airport="MMAN" Runways="02">
       <Route Runway="02">MTY</Route>
@@ -5164,6 +5184,12 @@
     <STAR Name="SLW1D" Airport="MMAN" Runways="20">
       <Route Runway="20">SLW ESRAP WICLO MISUL SUTNA ENTRI SIKRO</Route>
     </STAR>
+    <Approach Name="ILS203.OBNIN" Airport="MMAA" Runway="20">
+      <Route>OBNIN AN900 AN807</Route>
+    </Approach>
+    <Approach Name="ILS203.DUXAM" Airport="MMAA" Runway="20">
+      <Route>DUXAM AN900 AN807</Route>
+    </Approach>
     <!--MMAS-->
     <SID Name="AGU1A" Airport="MMAS" Runways="18">
       <Route Runway="18">AGU</Route>
@@ -5282,6 +5308,24 @@
     <STAR Name="VOLE1B" Airport="MMAS" Runways="36">
       <Route Runway="36">VOLER AS517 AS515 AS512 ETBAM</Route>
     </STAR>
+    <Approach Name="RNP18.TETES" Airport="MMAS" Runway="18">
+      <Route>TETES AS401 AS400</Route>
+    </Approach>
+    <Approach Name="RNP18.SUTOM" Airport="MMAS" Runway="18">
+      <Route>SUTOM AS401 AS400</Route>
+    </Approach>
+    <Approach Name="RNP18.SESKO" Airport="MMAS" Runway="18">
+      <Route>SESKO AS401 AS400</Route>
+    </Approach>
+    <Approach Name="RNP36.PUSAN" Airport="MMAS" Runway="36">
+      <Route>PUSAN AS501 AS500</Route>
+    </Approach>
+    <Approach Name="RNP36.ETBAM" Airport="MMAS" Runway="36">
+      <Route>ETBAM AS501 AS500</Route>
+    </Approach>
+    <Approach Name="RNP36.MIDLA" Airport="MMAS" Runway="36">
+      <Route>MIDLA AS501 AS500</Route>
+    </Approach>
     <!--MMBT-->
     <SID Name="HUX2A" Airport="MMBT" Runways="07">
       <Route Runway="07">HUX</Route>
@@ -5296,51 +5340,63 @@
       <Route Runway="25">HUX</Route>
     </SID>
     <!--MMCB-->
-    <SID Name="CVJ1A" Airport="MMCB" Runways="02">
+    <SID Name="CVJ1A" Airport="MMCB" Runways="03">
       <Route Runway="02">CVJ</Route>
     </SID>
-    <SID Name="CVJ1B" Airport="MMCB" Runways="20">
+    <SID Name="CVJ1B" Airport="MMCB" Runways="21">
       <Route Runway="20">CVJ</Route>
     </SID>
-    <SID Name="CUA1E" Airport="MMCB" Runways="02">
+    <SID Name="CUA1E" Airport="MMCB" Runways="03">
       <Route Runway="02">CUA</Route>
     </SID>
-    <SID Name="CUA1F" Airport="MMCB" Runways="20">
+    <SID Name="CUA1F" Airport="MMCB" Runways="21">
       <Route Runway="20">CUA</Route>
     </SID>
-    <SID Name="TEQ1C" Airport="MMCB" Runways="02">
+    <SID Name="TEQ1C" Airport="MMCB" Runways="03">
       <Route Runway="02">TEQ</Route>
     </SID>
-    <SID Name="TEQ1D" Airport="MMCB" Runways="20">
+    <SID Name="TEQ1D" Airport="MMCB" Runways="21">
       <Route Runway="20">TEQ</Route>
     </SID>
-    <SID Name="MAXU1C" Airport="MMCB" Runways="20">
+    <SID Name="MAXU1C" Airport="MMCB" Runways="21">
       <Route Runway="20">MAXUL</Route>
     </SID>
-    <SID Name="SIKM1C" Airport="MMCB" Runways="02">
+    <SID Name="SIKM1C" Airport="MMCB" Runways="03">
       <Route Runway="02">CB800 CB810 SIKMO</Route>
     </SID>
-    <SID Name="SIKM1D" Airport="MMCB" Runways="20">
+    <SID Name="SIKM1D" Airport="MMCB" Runways="21">
       <Route Runway="20">CB500 CB501 SIKMO</Route>
     </SID>
-    <SID Name="OTIV1C" Airport="MMCB" Runways="02">
+    <SID Name="OTIV1C" Airport="MMCB" Runways="03">
       <Route Runway="02">CB800 CB820 OTIVO</Route>
     </SID>
-    <SID Name="OTIV1D" Airport="MMCB" Runways="20">
+    <SID Name="OTIV1D" Airport="MMCB" Runways="21">
       <Route Runway="20">CB500 CB501 OTIVO</Route>
     </SID>
-    <STAR Name="SIKM1A" Airport="MMCB" Runways="02">
+    <STAR Name="SIKM1A" Airport="MMCB" Runways="03">
       <Route Runway="02">SIKMO CB700 CB701 DUNPA</Route>
     </STAR>
-    <STAR Name="SIKM1B" Airport="MMCB" Runways="20">
+    <STAR Name="SIKM1B" Airport="MMCB" Runways="21">
       <Route Runway="20">SIKMO CB611 UMADA</Route>
     </STAR>
-    <STAR Name="OTIV1A" Airport="MMCB" Runways="02">
+    <STAR Name="OTIV1A" Airport="MMCB" Runways="03">
       <Route Runway="02">OTIVO VODIS</Route>
     </STAR>
-    <STAR Name="OTIV1B" Airport="MMCB" Runways="20">
+    <STAR Name="OTIV1B" Airport="MMCB" Runways="21">
       <Route Runway="20">OTIVO CB600 CB601 SEKOS</Route>
     </STAR>
+    <Approach Name="RNP03.VODIS" Airport="MMCB" Runway="03">
+      <Route>VODIS CB400 CB401</Route>
+    </Approach>
+    <Approach Name="RNP03.DUNPA" Airport="MMCB" Runway="03">
+      <Route>DUNPA CB400 CB401</Route>
+    </Approach>
+    <Approach Name="RNP21.UMADA" Airport="MMCB" Runway="21">
+      <Route>UMADA CB900 CB901 CB902 CB903 CB904 CB401</Route>
+    </Approach>
+    <Approach Name="RNP21.SEKOS" Airport="MMCB" Runway="21">
+      <Route>SEKOS CB900 CB901 CB902 CB903 CB904 CB401</Route>
+    </Approach>
     <!--MMCE-->
     <SID Name="CME4A" Airport="MMCE" Runways="13">
       <Route Runway="13">CME</Route>
@@ -5493,6 +5549,24 @@
     <STAR Name="SAVO1B" Airport="MMCL" Runways="20">
       <Route Runway="20">SAVOM CL521 CL803 SAVIR</Route>
     </STAR>
+    <Approach Name="RNP02.USDAP" Airport="MMCL" Runway="02">
+      <Route>USDAP CL401 CL400</Route>
+    </Approach>
+    <Approach Name="RNP02.BERUR" Airport="MMCL" Runway="02">
+      <Route>BERUR CL401 CL400</Route>
+    </Approach>
+    <Approach Name="RNP02.VEVLO" Airport="MMCL" Runway="02">
+      <Route>VEVLO CL401 CL400</Route>
+    </Approach>
+    <Approach Name="RNP20.TALNU" Airport="MMCL" Runway="20">
+      <Route>TALNU CL501 CL500</Route>
+    </Approach>
+    <Approach Name="RNP20.OTIMA" Airport="MMCL" Runway="20">
+      <Route>OTIMA CL501 CL500</Route>
+    </Approach>
+    <Approach Name="RNP20.SAVIR" Airport="MMCL" Runway="20">
+      <Route>SAVIR CL501 CL500</Route>
+    </Approach>
     <!--MMCM-->
     <SID Name="CTM3A" Airport="MMCM" Runways="10">
       <Route Runway="10">CTM</Route>
@@ -5709,6 +5783,24 @@
     <STAR Name="VOMA2B" Airport="MMCU" Runways="36R">
       <Route Runway="36R">VOMAS CU413 CU410 GADIK</Route>
     </STAR>
+    <Approach Name="RNP18L.PELTA" Airport="MMCU" Runway="18L">
+      <Route>PELTA CU504 CU501 CU500 CU550</Route>
+    </Approach>
+    <Approach Name="RNP18L.EBLOR" Airport="MMCU" Runway="18L">
+      <Route>EBLOR CU501 CU500 CU550</Route>
+    </Approach>
+    <Approach Name="RNP18L.RIBAD" Airport="MMCU" Runway="18L">
+      <Route>RIBAD CU501 CU500 CU550</Route>
+    </Approach>
+    <Approach Name="ILS36R4.AMURU" Airport="MMCU" Runway="36R">
+      <Route>AMURU CU403 CU401 CU400</Route>
+    </Approach>
+    <Approach Name="ILS36R4.BESUD" Airport="MMCU" Runway="36R">
+      <Route>BESUD CU405 CU401 CU400</Route>
+    </Approach>
+    <Approach Name="ILS36R4.GADIK" Airport="MMCU" Runway="36R">
+      <Route>GADIK CU401 CU400</Route>
+    </Approach>
     <!--MMCV-->
     <SID Name="CVM4A" Airport="MMCV" Runways="15">
       <Route Runway="15">CVM</Route>
@@ -5870,6 +5962,57 @@
     <SID Name="XOSI1B" Airport="MMCZ" Runways="30">
       <Route Runway="30">CZ606 XOSIX</Route>
     </SID>
+    <STAR Name="AVSI1C" Airport="MMCZ" Runways="12">
+      <Route Runway="12">AVSIM CZ522 CZ501 ONGAV</Route>
+    </STAR>
+    <STAR Name="AVSI1D" Airport="MMCZ" Runways="30">
+      <Route Runway="30">AVSIM CZ501 ONGAV CZ702 BEREB</Route>
+    </STAR>
+    <STAR Name="EMOS1A" Airport="MMCZ" Runways="12">
+      <Route Runway="12">EMOSA UKVAS CZ512 CUN VIBLA</Route>
+    </STAR>
+    <STAR Name="EMOS1B" Airport="MMCZ" Runways="30">
+      <Route Runway="30">EMOSA UKVAS CZ512 CUN VIBLA ONGAV CZ702 BEREB</Route>
+    </STAR>
+    <STAR Name="ILUB1C" Airport="MMCZ" Runways="12">
+      <Route Runway="12">ILUBA MARJE CZ514 BEREB CZ506 ONGAV</Route>
+    </STAR>
+    <STAR Name="ILUB1D" Airport="MMCZ" Runways="30">
+      <Route Runway="30">ILUBA MARJE CZ704 CZ701 EMPAM</Route>
+    </STAR>
+    <STAR Name="PAUL1E" Airport="MMCZ" Runways="12">
+      <Route Runway="12">PAULE CZ501 ONGAV</Route>
+    </STAR>
+    <STAR Name="PAUL1F" Airport="MMCZ" Runways="30">
+      <Route Runway="30">PAULE CZ501 ONGAV CZ702 BEREB</Route>
+    </STAR>
+    <STAR Name="SIGM1C" Airport="MMCZ" Runways="12">
+      <Route Runway="12">SIGMA EBKUG CZ517 BEREB CZ506 ONGAV</Route>
+    </STAR>
+    <STAR Name="SIGM1D" Airport="MMCZ" Runways="30">
+      <Route Runway="30">SIGMA EBKUG CZ517 BEREB</Route>
+    </STAR>
+    <STAR Name="VIGT1A" Airport="MMCZ" Runways="12">
+      <Route Runway="12">VIGTU CZ518 CZ505 XUBLI</Route>
+    </STAR>
+    <STAR Name="VIGT1B" Airport="MMCZ" Runways="30">
+      <Route Runway="30">VIGTU CZ518 CZ505 XUBLI ONGAV CZ702 BEREB</Route>
+    </STAR>
+    <Approach Name="RNP12.VIBLA" Airport="MMCZ" Runway="12">
+      <Route>VIBLA CZ519 CALHO</Route>
+    </Approach>
+    <Approach Name="RNP12.XUBLI" Airport="MMCZ" Runway="12">
+      <Route>XUBLI CZ519 CALHO</Route>
+    </Approach>
+    <Approach Name="RNP12.ONGAV" Airport="MMCZ" Runway="12">
+      <Route>ONGAV CZ519 CALHO</Route>
+    </Approach>
+    <Approach Name="RNP30.EMPAM" Airport="MMCZ" Runway="30">
+      <Route>EMPAM CZ705 CZ706</Route>
+    </Approach>
+    <Approach Name="RNP30.BEREB" Airport="MMCZ" Runway="30">
+      <Route>BEREB CZ705 CZ706</Route>
+    </Approach>
     <!--MMES-->
     <SID Name="ENS3" Airport="MMES" Runways="29">
       <Route Runway="29">ENS</Route>
@@ -5959,11 +6102,11 @@
     <SID Name="NOTUP1" Airport="MMGL" Runways="10">
       <Route Runway="10">GL406 GL402 GL408 GL401 TEILA VOLUX NOTUP</Route>
     </SID>
-    <SID Name="NOTU1B" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL420 GL421 GL422 NOTUP</Route>
-    </SID>
     <SID Name="NOTU1C" Airport="MMGL" Runways="28">
       <Route Runway="28">GL710 NOTUP</Route>
+    </SID>
+    <SID Name="NOTU1D" Airport="MMGL" Runways="10">
+      <Route Runway="10">GL406 GL420 GL421 GL422 NOTUP</Route>
     </SID>
     <SID Name="NUBIG2" Airport="MMGL" Runways="28">
       <Route Runway="28">NUBIG</Route>
@@ -5985,6 +6128,12 @@
     </SID>
     <SID Name="PIRAR3" Airport="MMGL" Runways="10">
       <Route Runway="10">PIRAR</Route>
+    </SID>
+    <SID Name="SEDE1A" Airport="MMGL" Runways="10">
+      <Route Runway="10">GL406 GL420 GL421 GL422 SEDEM</Route>
+    </SID>
+    <SID Name="SEDE1B" Airport="MMGL" Runways="28">
+      <Route Runway="28">GL710 SEDEM</Route>
     </SID>
     <SID Name="TABG3A" Airport="MMGL" Runways="10">
       <Route Runway="10">TABGO</Route>
@@ -6013,47 +6162,17 @@
     <SID Name="XORID2" Airport="MMGL" Runways="10">
       <Route Runway="10">XORD</Route>
     </SID>
-    <STAR Name="JAST1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">JASTO GL563 GL564 APDAV DULNO</Route>
-    </STAR>
-    <STAR Name="JAST1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">JASTO GL835 GL830 GL862 JAYES</Route>
-    </STAR>
-    <STAR Name="LIPE1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">LIPEP DANUN</Route>
-    </STAR>
-    <STAR Name="LIPE1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">LIPEP GL860 GL861 LORSI</Route>
-    </STAR>
-    <STAR Name="LIPE1C" Airport="MMGL" Runways="10">
+    <STAR Name="LIPE1F" Airport="MMGL" Runways="10">
       <Route Runway="10">LIPEP GL520 VISDA GL522 GL523 GL524 DATSO</Route>
     </STAR>
-    <STAR Name="LIPE1D" Airport="MMGL" Runways="28">
+    <STAR Name="LIPE1G" Airport="MMGL" Runways="28">
       <Route Runway="28">LIPEP OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
-    </STAR>
-    <STAR Name="LIVR1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">LIVRI CARLO APDAV DULNO</Route>
-    </STAR>
-    <STAR Name="LIVR1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">LIVRI CARLO GL835 GL830 GL862 JAYES</Route>
     </STAR>
     <STAR Name="LIVR1C" Airport="MMGL" Runways="10">
       <Route Runway="10">LIVRI IKBAN ULOGA GL512 GL513 GL514 DULNO</Route>
     </STAR>
     <STAR Name="LIVR1D" Airport="MMGL" Runways="28">
       <Route Runway="28">LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
-    </STAR>
-    <STAR Name="LONK1B" Airport="MMGL" Runways="10">
-      <Route Runway="10">LONKU GL560 LONPO DATSO</Route>
-    </STAR>
-    <STAR Name="LONK1C" Airport="MMGL" Runways="28">
-      <Route Runway="28">LONKU DUNER</Route>
-    </STAR>
-    <STAR Name="LONV1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">LONVA SAMAR APDAV DULNO</Route>
-    </STAR>
-    <STAR Name="LONV1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">LONVA SAMAR GL810 GL863 GL862 JAYES</Route>
     </STAR>
     <STAR Name="LONV1C" Airport="MMGL" Runways="10">
       <Route Runway="10">LONVA ERDAN GL501 GL502 DULNO</Route>
@@ -6067,24 +6186,6 @@
     <STAR Name="MODE1B" Airport="MMGL" Runways="28">
       <Route Runway="28">MODEX GL825 GL826 GL827 GL828 PLADE</Route>
     </STAR>
-    <STAR Name="ONGE1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">ONGEL EBDEG LONPO DATSO</Route>
-    </STAR>
-    <STAR Name="ONGE1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">ONGEL EBDEG GL850 DUNER</Route>
-    </STAR>
-    <SID Name="SEDE1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL420 GL421 GL422 SEDEM</Route>
-    </SID>
-    <SID Name="SEDE1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 SEDEM</Route>
-    </SID>
-    <STAR Name="USBI1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">USBIM GL561 DATSO</Route>
-    </STAR>
-    <STAR Name="USBI1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">USBIM GL860 GL861 LORSI</Route>
-    </STAR>
     <STAR Name="USBI1C" Airport="MMGL" Runways="10">
       <Route Runway="10">USBIM EMEXO GL522 GL523 GL824 DATSO</Route>
     </STAR>
@@ -6097,12 +6198,15 @@
     <STAR Name="ULUV1B" Airport="MMGL" Runways="28">
       <Route Runway="28">ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
     </STAR>
-    <STAR Name="VOLA1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">VOLAT GL562 DATSO</Route>
-    </STAR>
-    <STAR Name="VOLA1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">VOLAT GL860 GL861 LORSI</Route>
-    </STAR>
+    <Approach Name="ILS10Z.DULNO" Airport="MMGL" Runway="10">
+      <Route>DULNO GL620 GL621 GL523</Route>
+    </Approach>
+    <Approach Name="ILS10Z.DATSO" Airport="MMGL" Runway="10">
+      <Route>DATSO GL620 GL621 GL523</Route>
+    </Approach>
+    <Approach Name="ILS28Z.PLADE" Airport="MMGL" Runway="28">
+      <Route>PLADE GL980 GL981</Route>
+    </Approach>
     <!--MMGM-->
     <SID Name="GYM1" Airport="MMGM" Runways="02">
       <Route Runway="02">GYM</Route>
@@ -6231,6 +6335,21 @@
     <STAR Name="NABL1B" Airport="MMHO" Runways="23">
       <Route Runway="23">NABLA GORIG</Route>
     </STAR>
+    <Approach Name="RNP05.ILUDA" Airport="MMHO" Runway="05">
+      <Route>ILUDA HO800 HO801</Route>
+    </Approach>
+    <Approach Name="RNP05.MEBSO" Airport="MMHO" Runway="05">
+      <Route>MEBSO HO800 HO801</Route>
+    </Approach>
+    <Approach Name="RNP05.OBRES" Airport="MMHO" Runway="05">
+      <Route>OBRES HO800 HO801</Route>
+    </Approach>
+    <Approach Name="RNP23.DUPUS" Airport="MMHO" Runway="23">
+      <Route>DUPUS HO900 HO901 HO902</Route>
+    </Approach>
+    <Approach Name="RNP23.GORIG" Airport="MMHO" Runway="23">
+      <Route>GORIG HO900 HO901 HO902</Route>
+    </Approach>
     <!--MMIA-->
     <SID Name="COL2A" Airport="MMIA" Runways="07">
       <Route Runway="07">COL</Route>
@@ -6308,7 +6427,19 @@
     <STAR Name="RAIL1B" Airport="MMIO" Runways="35">
       <Route Runway="35">RAILY VOLIK</Route>
     </STAR>
-    <!--MMIO-->
+    <Approach Name="ILS174.ILOKA" Airport="MMIO" Runway="17">
+      <Route>ILOKA IO506 IO900</Route>
+    </Approach>
+    <Approach Name="ILS174.KEMTA" Airport="MMIO" Runway="17">
+      <Route>KEMTA IO506 IO900</Route>
+    </Approach>
+    <Approach Name="RNP35.VOLIK" Airport="MMIO" Runway="35">
+      <Route>VOLIK IO600 IO504 IO502 IO501 IO500</Route>
+    </Approach>
+    <Approach Name="RNP35.ALTUM" Airport="MMIO" Runway="35">
+      <Route>ALTUM IO503 IO502 IO501 IO500</Route>
+    </Approach>
+    <!--MMIT-->
     <SID Name="IZT1A" Airport="MMIT" Runways="18">
       <Route Runway="18">IZT</Route>
     </SID>
@@ -6452,6 +6583,21 @@
     <STAR Name="OMIN1D" Airport="MMLO" Runways="31">
       <Route Runway="31">OMINA AVREN XESIN</Route>
     </STAR>
+    <Approach Name="RNP13.ODGAR" Airport="MMLO" Runway="13">
+      <Route>ODGAR LO401 LO400</Route>
+    </Approach>
+    <Approach Name="RNP13.RIGEP" Airport="MMLO" Runway="13">
+      <Route>RIGEP LO401 LO400</Route>
+    </Approach>
+    <Approach Name="RNP31.ULUMU" Airport="MMLO" Runway="31">
+      <Route>ULUMU LO501 LO500</Route>
+    </Approach>
+    <Approach Name="RNP31.XESIN" Airport="MMLO" Runway="31">
+      <Route>XESIN LO501 LO500</Route>
+    </Approach>
+    <Approach Name="RNP31.VIRVO" Airport="MMLO" Runway="31">
+      <Route>VIRVO LO501 LO500</Route>
+    </Approach>
     <!--MMLP-->
     <SID Name="LAP4A" Airport="MMLP" Runways="18">
       <Route Runway="18">LAP</Route>
@@ -6774,6 +6920,18 @@
     <STAR Name="NAPR1B" Airport="MMMD" Runways="10">
       <Route Runway="10">NAPRI KETNI MD604 SEBEP</Route>
     </STAR>
+    <STAR Name="ISAR1D" Airport="MMMD" Runways="10,18">
+      <Route Runway="10">ISARO MID</Route>
+      <Route Runway="18">ISARO MID</Route>
+    </STAR>
+    <STAR Name="VIVE1F" Airport="MMMD" Runways="10,18">
+      <Route Runway="10">VIVEP MID</Route>
+      <Route Runway="18">VIVEP MID</Route>
+    </STAR>
+    <STAR Name="XUBS1A" Airport="MMMD" Runways="10,18">
+      <Route Runway="10">XUBSU MID</Route>
+      <Route Runway="18">XUBSU MID</Route>
+    </STAR>
     <STAR Name="AVOM1B" Airport="MMMD" Runways="28">
       <Route Runway="28">AVOMA ETGOT MD805 TEXOB MD802 HADOW</Route>
     </STAR>
@@ -6843,6 +7001,33 @@
     <STAR Name="NAPR1F" Airport="MMMD" Runways="36">
       <Route Runway="36">NAPRI BUYCK MD914 ULILI</Route>
     </STAR>
+    <Approach Name="ILS103.TEXOB" Airport="MMMD" Runway="10">
+      <Route>TEXOB MD400 MD401</Route>
+    </Approach>
+    <Approach Name="ILS103.OTMAM" Airport="MMMD" Runway="10">
+      <Route>OTMAM MD400 MD401</Route>
+    </Approach>
+    <Approach Name="ILS103.SEBEP" Airport="MMMD" Runway="10">
+      <Route>SEBEP MD400 MD401</Route>
+    </Approach>
+    <Approach Name="RNP28.HADOW" Airport="MMMD" Runway="28">
+      <Route>HADOW MD500 MD501</Route>
+    </Approach>
+    <Approach Name="RNP28.VOLOR" Airport="MMMD" Runway="28">
+      <Route>VOLOR MD500 MD501</Route>
+    </Approach>
+    <Approach Name="RNP28.ALRUN" Airport="MMMD" Runway="28">
+      <Route>ALRUN MD500 MD501</Route>
+    </Approach>
+    <Approach Name="RNP36.ITSAK" Airport="MMMD" Runway="36">
+      <Route>ITSAK MD900 MD901</Route>
+    </Approach>
+    <Approach Name="RNP36.AVRUB" Airport="MMMD" Runway="36">
+      <Route>AVRUB MD900 MD901</Route>
+    </Approach>
+    <Approach Name="RNP36.ULILI" Airport="MMMD" Runway="36">
+      <Route>ULILI MD900 MD901</Route>
+    </Approach>
     <!--MMML-->
     <SID Name="MXL2A" Airport="MMML" Runways="10">
       <Route Runway="10">MXL</Route>
@@ -6923,14 +7108,6 @@
       <Route Runway="24L">MOV</Route>
     </SID>
     <!--MMMX-->
-    <SID Name="APN8A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">APN</Route>
-      <Route Runway="05R">APN</Route>
-    </SID>
-    <SID Name="APN6B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">APN</Route>
-      <Route Runway="23R">APN</Route>
-    </SID>
     <SID Name="ATUR1A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX801 ATURO</Route>
       <Route Runway="05R">MX800 MX801 ATURO</Route>
@@ -6946,10 +7123,6 @@
     <SID Name="AXIR1B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">MX503 MX520 MX530 MX531 MX532 AXIRI</Route>
       <Route Runway="23R">MX503 MX520 MX530 MX531 MX532 AXIRI</Route>
-    </SID>
-    <SID Name="CUA6A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">CUA</Route>
-      <Route Runway="05R">CUA</Route>
     </SID>
     <SID Name="IKLA1A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX801 IKLAN</Route>
@@ -6967,10 +7140,6 @@
       <Route Runway="23L">MX503 MX540 MX541 MX500 MX501 MX502 ILETO</Route>
       <Route Runway="23R">MX503 MX540 MX541 MX500 MX501 MX502 ILETO</Route>
     </SID>
-    <SID Name="MUXEP2" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">MUXEP</Route>
-      <Route Runway="05R">MUXEP</Route>
-    </SID>
     <SID Name="NOXO1A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX810 MX825 NOXOS</Route>
       <Route Runway="05R">MX800 MX810 MX825 NOXOS</Route>
@@ -6978,10 +7147,6 @@
     <SID Name="NOXO1B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">MX503 MX540 MX541 MX500 MX501 MX502 NOXOS</Route>
       <Route Runway="23R">MX503 MX540 MX541 MX500 MX501 MX502 NOXOS</Route>
-    </SID>
-    <SID Name="OMPUT2" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">OMPUT</Route>
-      <Route Runway="05R">OMPUT</Route>
     </SID>
     <SID Name="OTMOS2" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">OTMOS CUA</Route>
@@ -6994,22 +7159,6 @@
     <SID Name="OVAG1B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">MX503 MX520 MX521 MX522 MX525 OVAGO</Route>
       <Route Runway="23R">MX503 MX520 MX521 MX522 MX525 OVAGO</Route>
-    </SID>
-    <SID Name="PBC5C" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">PBC</Route>
-      <Route Runway="05R">PBC</Route>
-    </SID>
-    <SID Name="PBC4D" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">PBC</Route>
-      <Route Runway="23R">PBC</Route>
-    </SID>
-    <SID Name="PTJ6A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">PTJ</Route>
-      <Route Runway="05R">PTJ</Route>
-    </SID>
-    <SID Name="PTJ6B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">SMO PTJ</Route>
-      <Route Runway="23R">SMO PTJ</Route>
     </SID>
     <SID Name="SEBO1A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX850 MX852 MX854 SEBON</Route>
@@ -7027,18 +7176,6 @@
       <Route Runway="23L">MX503 MX510 MX511 MX512 MX513 TEVOS</Route>
       <Route Runway="23R">MX503 MX510 MX511 MX512 MX513 TEVOS</Route>
     </SID>
-    <SID Name="TLC7A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">TLC</Route>
-      <Route Runway="05R">TLC</Route>
-    </SID>
-    <SID Name="TLC7B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">SMO TLC</Route>
-      <Route Runway="23R">SMO TLC</Route>
-    </SID>
-    <SID Name="TLC5C" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">TLC</Route>
-      <Route Runway="23R">TLC</Route>
-    </SID>
     <SID Name="UKUN1A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX810 MX835 UKUNO</Route>
       <Route Runway="05R">MX800 MX810 MX835 UKUNO</Route>
@@ -7055,14 +7192,6 @@
       <Route Runway="23L">MX503 MX520 MX521 MX522 MX523 ULEBA</Route>
       <Route Runway="23R">MX503 MX520 MX521 MX522 MX523 ULEBA</Route>
     </SID>
-    <STAR Name="AVSA4A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">AVSAR SLM SMO</Route>
-      <Route Runway="05R">AVSAR SLM SMO</Route>
-    </STAR>
-    <STAR Name="AVSA3B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">AVSAR SLM</Route>
-      <Route Runway="23R">AVSAR SLM</Route>
-    </STAR>
     <STAR Name="DARA1A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">DARAN SAUZA MX710 MX712 MX713 MX715 ALMIS MX717 SUTAS</Route>
       <Route Runway="05R">DARAN SAUZA MX710 MX712 MX713 MX715 ALMIS MX717 SUTAS</Route>
@@ -7070,18 +7199,6 @@
     <STAR Name="DARA1B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">DARAN MX600 ESTAR MX602 MX603 MX605 SESTA KOZLO</Route>
       <Route Runway="23R">DARAN MX600 ESTAR MX602 MX603 MX605 SESTA KOZLO</Route>
-    </STAR>
-    <STAR Name="DATU4A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">DATUL SLM SMO</Route>
-      <Route Runway="05R">DATUL SLM SMO</Route>
-    </STAR>
-    <STAR Name="DATU3B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">DATUL SLM</Route>
-      <Route Runway="23R">DATUL SLM</Route>
-    </STAR>
-    <STAR Name="DUXOP1" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">TEQ DUXOP MEX SMO</Route>
-      <Route Runway="05R">TEQ DUXOP MEX SMO</Route>
     </STAR>
     <STAR Name="ENAG1A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">ENAGA MX701 MX702 MX703 MX704 LIDES MX705 MX707 ALMIS MX717 SUTAS</Route>
@@ -7107,38 +7224,24 @@
       <Route Runway="23L">LARLO MX639 MX640 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
       <Route Runway="23R">LARLO MX639 MX640 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
     </STAR>
-    <STAR Name="MEX6A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">MEX SMO</Route>
-      <Route Runway="05R">MEX SMO</Route>
-    </STAR>
-    <STAR Name="MEX4B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MEX SLM</Route>
-      <Route Runway="23R">MEX SLM</Route>
-    </STAR>
-    <STAR Name="PCA2A" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">PCA ALKOM</Route>
-      <Route Runway="23R">PCA ALKOM</Route>
-    </STAR>
-    <STAR Name="SASU1A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">SASUT SLM SMO</Route>
-      <Route Runway="05R">SASUT SLM SMO</Route>
-    </STAR>
-    <STAR Name="SASU1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">SASUT SLM</Route>
-      <Route Runway="23R">SASUT SLM</Route>
-    </STAR>
-    <STAR Name="SLM2A" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">SLM ALKOM</Route>
-      <Route Runway="23R">SLM ALKOM</Route>
-    </STAR>
-    <STAR Name="TIKE1A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">TIKEB SLM SMO</Route>
-      <Route Runway="05R">TIKEB SLM SMO</Route>
-    </STAR>
-    <STAR Name="TIKE1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">TIKEB SLM</Route>
-      <Route Runway="23R">TIKEB SLM</Route>
-    </STAR>
+    <Approach Name="RNP05L.SUTAS" Airport="MMMX" Runway="05L">
+      <Route>SUTAS MX930 MX931</Route>
+    </Approach>
+    <Approach Name="ILS05RZ.SUTAS" Airport="MMMX" Runway="05R">
+      <Route>SUTAS MX901 MX900</Route>
+    </Approach>
+    <Approach Name="RNP05L.VOLUN" Airport="MMMX" Runway="05L">
+      <Route>VOLUN MX930 MX931</Route>
+    </Approach>
+    <Approach Name="ILS05RZ.VOLUN" Airport="MMMX" Runway="05R">
+      <Route>VOLUN MX901 MX900</Route>
+    </Approach>
+    <Approach Name="ILS23LZ.KOZLO" Airport="MMMX" Runway="23L">
+      <Route>KOZLO MX401 MX400</Route>
+    </Approach>
+    <Approach Name="RNP23R.KOZLO" Airport="MMMX" Runway="23R">
+      <Route>KOZLO MX450 MX451</Route>
+    </Approach>
     <!--MMMY-->
     <SID Name="MTY6A" Airport="MMMY" Runways="11">
       <Route Runway="11">MTY</Route>
@@ -7230,6 +7333,12 @@
     <STAR Name="SLW1C" Airport="MMMY" Runways="29">
       <Route Runway="29">SLW ESRAP WICLO MISUL MY410 CLOVR OKOTO</Route>
     </STAR>
+    <Approach Name="RNP11.TASNA" Airport="MMMY" Runway="11">
+      <Route>TASNA MY603 MY604</Route>
+    </Approach>
+    <Approach Name="ILS295.OKOTO" Airport="MMMY" Runway="29">
+      <Route>OKOTO MY403 MY408</Route>
+    </Approach>
     <!--MMMZ-->
     <SID Name="MZT3A" Airport="MMMZ" Runways="08">
       <Route Runway="08">MZT</Route>
@@ -7355,6 +7464,15 @@
     <STAR Name="USBA1B" Airport="MMNL" Runways="32">
       <Route Runway="32">USBAR NL710 MEKSA ITREB</Route>
     </STAR>
+    <Approach Name="ILS143.IRDAN" Airport="MMNL" Runway="14">
+      <Route>IRDAN NL401 NL400</Route>
+    </Approach>
+    <Approach Name="RNP32.VINBO" Airport="MMNL" Runway="32">
+      <Route>VINBO NL501 NL500</Route>
+    </Approach>
+    <Approach Name="RNP32.ITREB" Airport="MMNL" Runway="32">
+      <Route>ITREB NL501 NL500</Route>
+    </Approach>
     <!--MMOX-->
     <SID Name="OAX3A" Airport="MMOX" Runways="01">
       <Route Runway="01">OAX</Route>
@@ -7454,6 +7572,18 @@
     <STAR Name="TAKA1B" Airport="MMPB" Runways="35">
       <Route Runway="35">TAKAL PESTA</Route>
     </STAR>
+    <Approach Name="RNP17.ITREB" Airport="MMPB" Runway="17">
+      <Route>VINGA PB900 PB901 PBSD1</Route>
+    </Approach>
+    <Approach Name="RNP17.LERUS" Airport="MMPB" Runway="17">
+      <Route>LERUS PB900 PB901 PBSD1</Route>
+    </Approach>
+    <Approach Name="RNP35.PESTA" Airport="MMPB" Runway="35">
+      <Route>PESTA PB800 PB801</Route>
+    </Approach>
+    <Approach Name="RNP35.MASEL" Airport="MMPB" Runway="35">
+      <Route>MASEL PB800 PB801</Route>
+    </Approach>
     <!--MMPE-->
     <SID Name="PPE1A" Airport="MMPE" Runways="18">
       <Route Runway="18">PPE</Route>
@@ -7579,6 +7709,18 @@
     <STAR Name="OBRU1B" Airport="MMPR" Runways="22">
       <Route Runway="22">OBRUG PR668 MUVBA</Route>
     </STAR>
+    <Approach Name="RNP04.RORPO" Airport="MMPR" Runway="04">
+      <Route>RORPO PR401 PR400</Route>
+    </Approach>
+    <Approach Name="RNP04.MAYTE" Airport="MMPR" Runway="04">
+      <Route>MAYTE PR401 PR400</Route>
+    </Approach>
+    <Approach Name="RNP22.VETKA" Airport="MMPR" Runway="22">
+      <Route>VETKA PR407 PR405 PR404</Route>
+    </Approach>
+    <Approach Name="RNP22.MUVBA" Airport="MMPR" Runway="22">
+      <Route>MUVBA PR407 PR405 PR404</Route>
+    </Approach>
     <!--MMPS-->
     <SID Name="PXM4A" Airport="MMPS" Runways="09">
       <Route Runway="09">PXM</Route>
@@ -7778,6 +7920,15 @@
     <STAR Name="TENA1B" Airport="MMSD" Runways="34">
       <Route Runway="34">TENAY SHAWA SD601 BALCE AVURU</Route>
     </STAR>
+    <Approach Name="RNP16.MARAK" Airport="MMSD" Runway="16">
+      <Route>MARAK SD800 SD801</Route>
+    </Approach>
+    <Approach Name="RNP16.AXEDA" Airport="MMSD" Runway="16">
+      <Route>AXEDA SD800 SD801</Route>
+    </Approach>
+    <Approach Name="RNP34.AVURU" Airport="MMSD" Runway="34">
+      <Route>AVURU SD901 SD500</Route>
+    </Approach>
     <!--MMSL-->
     <SID Name="CSL3A" Airport="MMSL" Runways="11">
       <Route Runway="11">CSL</Route>
@@ -7848,6 +7999,9 @@
     <STAR Name="LEPO1C" Airport="MMSL" Runways="29">
       <Route Runway="29">LEPOM GOSIM SL405 DASON SL404 SL400 AVURU SL406 TESAC</Route>
     </STAR>
+    <Approach Name="RNP29.TESAC" Airport="MMSL" Runway="29">
+      <Route>TESAC SL702 SL701 SL700</Route>
+    </Approach>
     <!--MMSP-->
     <SID Name="SLP4A" Airport="MMSP" Runways="14">
       <Route Runway="14">SLP</Route>
@@ -8050,6 +8204,15 @@
     <STAR Name="TOVE2B" Airport="MMTJ" Runways="27">
       <Route Runway="27">TOVES ENS KREPE</Route>
     </STAR>
+    <Approach Name="ILS093.TUBUS" Airport="MMTJ" Runway="09">
+      <Route>TUBUS TJ423 TJ402 TJ414 TJ415 TJ416</Route>
+    </Approach>
+    <Approach Name="RNP27.KREPE" Airport="MMTJ" Runway="27">
+      <Route>KREPE TJ556 TJ563 TJ745 TJ557 TL560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
+    </Approach>
+    <Approach Name="RNP27.ULDUD" Airport="MMTJ" Runway="27">
+      <Route>ULDUD TJ557 TL560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
+    </Approach>
     <!--MMTM-->
     <SID Name="TAM3A" Airport="MMTM" Runways="13">
       <Route Runway="13">TAM</Route>
@@ -8299,6 +8462,12 @@
     <STAR Name="XOSU1B" Airport="MMTO" Runways="33">
       <Route Runway="33">XOSUD ALPES IPSOP XOLVI</Route>
     </STAR>
+    <Approach Name="ILS15Z.GAINY" Airport="MMTO" Runway="15">
+      <Route>GAINY TO902 ALOMI</Route>
+    </Approach>
+    <Approach Name="RNP33.VERLU" Airport="MMTO" Runway="33">
+      <Route>VERLU TO801 TO800</Route>
+    </Approach>
     <!--MMTP-->
     <SID Name="TAP3A" Airport="MMTP" Runways="05">
       <Route Runway="05">TAP</Route>
@@ -8579,6 +8748,48 @@
     <STAR Name="XUDU1E" Airport="MMUN" Runways="30R">
       <Route Runway="30R">XUDUN BEPOR BUBUN SCAHA UN605 UN608 DEPVA LOPKA</Route>
     </STAR>
+    <Approach Name="ILS12L4.RIDUG" Airport="MMUN" Runway="12L">
+      <Route>RIDUG UN505 UN528 UN529 UN532</Route>
+    </Approach>
+    <Approach Name="ILS12L4.VIKSI" Airport="MMUN" Runway="12L">
+      <Route>VIKSI UN505 UN528 UN529 UN532</Route>
+    </Approach>
+    <Approach Name="ILS12L4.KAROR" Airport="MMUN" Runway="12L">
+      <Route>KAROR UN505 UN528 UN529 UN532</Route>
+    </Approach>
+    <Approach Name="ILS12L4.EBMIS" Airport="MMUN" Runway="12L">
+      <Route>EBMIS UN505 UN528 UN529 UN532</Route>
+    </Approach>
+    <Approach Name="ILS12R4.RIDUG" Airport="MMUN" Runway="12R">
+      <Route>RIDUG UN506 UN540 UN545</Route>
+    </Approach>
+    <Approach Name="ILS12R4.VIKSI" Airport="MMUN" Runway="12R">
+      <Route>VIKSI UN506 UN540 UN545</Route>
+    </Approach>
+    <Approach Name="ILS12R4.KAROR" Airport="MMUN" Runway="12R">
+      <Route>KAROR UN506 UN540 UN545</Route>
+    </Approach>
+    <Approach Name="ILS12R4.EBMIS" Airport="MMUN" Runway="12R">
+      <Route>EBMIS UN506 UN540 UN545</Route>
+    </Approach>
+    <Approach Name="RNP30L2.OTSOL" Airport="MMUN" Runway="30L">
+      <Route>OTSOL UN604 UN630 UN631 UN632</Route>
+    </Approach>
+    <Approach Name="RNP30L2.SESLI" Airport="MMUN" Runway="30L">
+      <Route>SESLI UN604 UN630 UN631 UN632</Route>
+    </Approach>
+    <Approach Name="RNP30L2.LOPKA" Airport="MMUN" Runway="30L">
+      <Route>LOPKA UN604 UN630 UN631 UN632</Route>
+    </Approach>
+    <Approach Name="RNP30R2.OTSOL" Airport="MMUN" Runway="30R">
+      <Route>OTSOL UN601 UN619 UN620 UN621 UN622</Route>
+    </Approach>
+    <Approach Name="RNP30R2.SESLI" Airport="MMUN" Runway="30R">
+      <Route>SESLI UN601 UN619 UN620 UN621 UN622</Route>
+    </Approach>
+    <Approach Name="RNP30R2.LOPKA" Airport="MMUN" Runway="30R">
+      <Route>LOPKA UN601 UN619 UN620 UN621 UN622</Route>
+    </Approach>
     <!--MMVA-->
     <SID Name="VSA3A" Airport="MMVA" Runways="08">
       <Route Runway="08">VSA</Route>
@@ -8761,6 +8972,24 @@
     <STAR Name="TEVE1B" Airport="MMVR" Runways="19">
       <Route Runway="19">TEVET VR412 VR404 VIMRA</Route>
     </STAR>
+    <Approach Name="RNP01.BOBLI" Airport="MMVR" Runway="01">
+      <Route>BOBLI VR900 VR901</Route>
+    </Approach>
+    <Approach Name="RNP01.AMESO" Airport="MMVR" Runway="01">
+      <Route>AMESO VR900 VR901</Route>
+    </Approach>
+    <Approach Name="RNP01.ALRAD" Airport="MMVR" Runway="01">
+      <Route>ALRAD VR900 VR901</Route>
+    </Approach>
+    <Approach Name="RNP19.VIMRA" Airport="MMVR" Runway="19">
+      <Route>VIMRA VR800 VR602</Route>
+    </Approach>
+    <Approach Name="RNP19.OVUVA" Airport="MMVR" Runway="19">
+      <Route>OVUVA VR800 VR602</Route>
+    </Approach>
+    <Approach Name="RNP19.SUVUL" Airport="MMVR" Runway="19">
+      <Route>SUVUL VR800 VR602</Route>
+    </Approach>
     <!--MMZC-->
     <SID Name="ZCL2A" Airport="MMZC" Runways="02">
       <Route Runway="02">ZCL</Route>
@@ -8862,6 +9091,18 @@
     <STAR Name="VILT1D" Airport="MMZH" Runways="26">
       <Route Runway="26">VILTO ZH707 ZH709 ZH710 ZH711 SEGOB</Route>
     </STAR>
+    <Approach Name="RNP08.IMENU" Airport="MMZH" Runway="08">
+      <Route>IMENU ZH400 ZH408</Route>
+    </Approach>
+    <Approach Name="RNP08.ALUNO" Airport="MMZH" Runway="08">
+      <Route>ALUNO ZH400 ZH408</Route>
+    </Approach>
+    <Approach Name="RNP26.SEGOB" Airport="MMZH" Runway="26">
+      <Route>SEGOB ZH500 ZH501</Route>
+    </Approach>
+    <Approach Name="RNP26.IMIBA" Airport="MMZH" Runway="26">
+      <Route>IMIBA ZH503 ZH500 ZH501</Route>
+    </Approach>
     <!--MMZO-->
     <SID Name="ZLO3A" Airport="MMZO" Runways="10">
       <Route Runway="10">COL</Route>
@@ -8907,8 +9148,8 @@
       <Runway Name="25" Position="+154641.180-0961450.870" />
     </Airport>
     <Airport ICAO="MMCB" Position="+185004.238-0991541.730" Elevation="4295">
-      <Runway Name="02" Position="+184925.970-0991606.490" />
-      <Runway Name="20" Position="+185043.030-0991516.610" />
+      <Runway Name="03" Position="+184925.970-0991606.490" />
+      <Runway Name="21" Position="+185043.030-0991516.610" />
     </Airport>
     <Airport ICAO="MMCE" Position="+183907.072-0914758.356" Elevation="10">
       <Runway Name="13" Position="+183934.224-0914822.440" />

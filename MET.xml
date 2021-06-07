@@ -6,8 +6,8 @@
 	<TAF url="https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=tafs&amp;requestType=retrieve&amp;format=xml&amp;stationString=%ICAO&amp;hoursBeforeNow=0&amp;timeType=valid&amp;mostRecent=true" xmlDataTag="raw_text" mostRecent="true"/>
     <NOTAM url="http://api.vateud.net/notams/%ICAO.xml" xmlDataTag="raw" />
   </ProductTypes>
-  <Browsers><!--bomw0007-->
+  <Browsers>
 	  <Notams url="https://www.notams.faa.gov/" />
-	  <WXRadars url="https://smn.conagua.gob.mx/es/observando-el-tiempo/radares-meteorologicos" />
+	  <WXRadars url="https://smn.conagua.gob.mx/es/observando-el-tiempo/imagenes-de-satelite" />
   </Browsers>
 </MET>
