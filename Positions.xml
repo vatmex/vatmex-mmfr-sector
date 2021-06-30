@@ -205,6 +205,58 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Obregon (Procedimientos) - CNTW1" Type="ASD" DefaultCenter="+271551.856-1095003.388" DefaultRange="225" MagneticVariation="-9">
+      <Sectors>
+        <Sector Name="CNTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Ciudad Obregon/Aeropuerto - Pistas" />
+        <Map Name="TMA Ciudad Obregon/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMCN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Obregon / Obregon Tower</Line>
+        <Line>Serving MMCN arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Durango (Procedimientos) - DOTW1" Type="ASD" DefaultCenter="+241008.814-1043117.976" DefaultRange="215" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="DOTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Durango/Aeropuerto - Pistas" />
+        <Map Name="TMA Durango/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Durango/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMDO" Frequency="132.100" Server="NA" />
+        <Window Airport="MMDO" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMDO" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMDO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Durango / Durango Torre</Line>
+        <Line>Serving MMDO arrivals and departures</Line>
+        <Line>ATIS available on 132.100</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Hermosillo - HOTW1" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="50" MagneticVariation="-9">
       <Sectors>
         <Sector Name="HOTW1" />
@@ -272,6 +324,160 @@
       <ControllerInfo>
         <Line>Aproximacion Hermosillo / Hermosillo Approach</Line>
         <Line>Serving MMHO arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Los Mochis (Procedimientos) - LMTW1" Type="ASD" DefaultCenter="+253113.203-1090601.835" DefaultRange="240" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="LMTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Los Mochis/Aeropuerto - Pistas" />
+        <Map Name="TMA Los Mochis/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+        <Map Name="TMA Los Mochis/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMLM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMLM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Los Mochis / Los Mochis Tower</Line>
+        <Line>Serving MMLM arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre La Paz - LPTW1" Type="ASD" DefaultCenter="+240421.890-1102145.150" DefaultRange="50" MagneticVariation="-10">
+      <Sectors>
+        <Sector Name="LPTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA La Paz/Aeropuerto - Pistas" />
+        <Map Name="TMA La Paz/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMLP" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMLP" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre La Paz / La Paz Tower</Line>
+        <Line>Serving MMLP arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación La Paz - LPAPP" Type="ASD" DefaultCenter="+242441.410-1101750.755" DefaultRange="180" MagneticVariation="-10">
+      <Sectors>
+        <Sector Name="LPAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA La Paz/Aeropuerto - Pistas" />
+        <Map Name="TMA La Paz/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMLP" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMLP" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion La Paz / La Paz Approach</Line>
+        <Line>Serving MMLP arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Mexicali (Procedimientos) - MLTW1" Type="ASD" DefaultCenter="+321658.378-1151644.096" DefaultRange="120" MagneticVariation="-10">
+      <Sectors>
+        <Sector Name="MLTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mexicali/Aeropuerto - Pistas" />
+        <Map Name="TMA Mexicali/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Mexicali/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMML" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMML" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre La Paz / La Paz Tower</Line>
+        <Line>Serving MMML arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Mazatlan - MZTW1" Type="ASD" DefaultCenter="+230927.423-1061621.931" DefaultRange="50" MagneticVariation="-9">
+      <Sectors>
+        <Sector Name="MZTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mazatlan/Aeropuerto - Pistas" />
+        <Map Name="TMA Mazatlan/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Mazatlan/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="TMA Mazatlan/Pista 05 - RNP 05" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMZ" Frequency="127.700" Server="NA" />
+        <Window Airport="MMMZ" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMZ" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMMZ" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Mazatlan / Mazatlan Tower</Line>
+        <Line>Serving MMMZ arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Mazatlan - MZAPP" Type="ASD" DefaultCenter="+231854.352-1061500.742" DefaultRange="250" MagneticVariation="-9">
+      <Sectors>
+        <Sector Name="MZAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mazatlan/Aeropuerto - Pistas" />
+        <Map Name="TMA Mazatlan/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Mazatlan/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMZ" Frequency="127.700" Server="NA" />
+        <Window Airport="MMMZ" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMZ" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMMZ" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Mazatlan / Mazatlan Approach</Line>
+        <Line>Serving MMMZ arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
@@ -554,6 +760,7 @@
       <Maps>
         <Map Name="ACC Mazatlan/Radar - Cobertura" />
         <Map Name="ACC Mazatlan/Limites - Sectores Individuales" />
+        <Map Name="ACC Mazatlan/Limites - Terminales" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
         <Map Name="Universal/Sector - Aerovias" />
