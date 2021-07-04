@@ -133,4 +133,32 @@
 +323946.311-1152706.492/
 +324005.000-1152715.000</Line>
 	</Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 10" Priority="1" Center="+240421.890-1102145.150">
+    <Symbol Type="SolidTriangle">
+      <Point>NORAR</Point>
+      <Point>ONDUM</Point>
+      <Point>URSIX</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 10 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+    <Label HasLeader="false">
+      <Point>NORAR</Point>
+      <Point>ONDUM</Point>
+      <Point>URSIX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 28" Priority="1" Center="+240421.890-1102145.150">
+    <Symbol Type="SolidTriangle">
+      <Point>AMUDI</Point>
+      <Point>AXASA</Point>
+      <Point>ONDUM</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 28 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+    <Label HasLeader="false">
+      <Point>AMUDI</Point>
+      <Point>AXASA</Point>
+      <Point>ONDUM</Point>
+    </Label>
+  </Map>
 </Maps>
