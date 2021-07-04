@@ -252,4 +252,42 @@
 +254607.484-1090446.386/
 +254606.799-1090428.995</Line>
   </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 09" Priority="1" Center="+240421.890-1102145.150">
+    <Symbol Type="SolidTriangle">
+      <Point>COPAS</Point>
+      <Point>MEDES</Point>
+      <Point>NUDAL</Point>
+      <Point>VESKI</Point>
+      <Point>VIKVU</Point>
+      <Point>XULMA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 09 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+    <Label HasLeader="false">
+      <Point>COPAS</Point>
+      <Point>MEDES</Point>
+      <Point>NUDAL</Point>
+      <Point>VESKI</Point>
+      <Point>VIKVU</Point>
+      <Point>XULMA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 27" Priority="1" Center="+240421.890-1102145.150">
+    <Symbol Type="SolidTriangle">
+      <Point>INDIO</Point>
+      <Point>KEBEX</Point>
+      <Point>NOVOP</Point>
+      <Point>TEKAS</Point>
+      <Point>URSAT</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 27 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+    <Label HasLeader="false">
+      <Point>INDIO</Point>
+      <Point>KEBEX</Point>
+      <Point>NOVOP</Point>
+      <Point>TEKAS</Point>
+      <Point>URSAT</Point>
+    </Label>
+  </Map>
 </Maps>
