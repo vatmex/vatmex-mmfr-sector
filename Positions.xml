@@ -1026,6 +1026,58 @@
         <Map Name="TMA Villahermosa/ASMGCS_MMVA_GATES" />
       </Maps>
     </Position>
+    <Position Name="Torre Carmen - CETW1" Type="ASD" DefaultCenter="+183907.072-0914758.356" DefaultRange="20" MagneticVariation="-1">
+      <Sectors>
+        <Sector Name="CETW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Ciudad del Carmen/Aeropuerto - Pistas" />
+        <Map Name="TMA Ciudad del Carmen/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCE" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMCE" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Carmen / Carmen Tower</Line>
+        <Line>Serving MMCE arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Carmen - CEAPP" Type="ASD" DefaultCenter="+184620.228-0914750.371" DefaultRange="130" MagneticVariation="-1">
+      <Sectors>
+        <Sector Name="CEAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Ciudad del Carmen/Aeropuerto - Pistas" />
+        <Map Name="TMA Ciudad del Carmen/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Ciudad del Carmen/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="TMA Ciudad del Carmen/Aeropuerto - Fijos 13" />
+        <Map Name="TMA Ciudad del Carmen/Aeropuerto - Fijos 13 (Nombres)" />
+
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCE" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMCE" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Carmen / Carmen Approach</Line>
+        <Line>Serving MMCE arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Mérida - MDTW1" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="50" MagneticVariation="0">
       <Sectors>
         <Sector Name="MDTW1" />

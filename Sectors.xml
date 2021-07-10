@@ -89,11 +89,17 @@
   </Sector>
 
   <!--Centro de Control Mérida-->
-  <Sector FullName="Aproximación Merida" Frequency="121.200" Callsign="MMMD_APP" Name="MDAPP">
-    <Volumes>MMMD_TMA</Volumes>
+  <Sector FullName="Torre Carmen" Frequency="118.400" Callsign="MMCETWR" Name="CETW1" DisplayInHandoffWindow="False">
+    <Volumes>MMCE_ATZ</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Carmen" Frequency="119.100" Callsign="MMCE_APP" Name="CEAPP">
+    <Volumes>MMCE_TMA</Volumes>
   </Sector>
   <Sector FullName="Torre Merida" Frequency="118.300" Callsign="MMMD_TWR" Name="MDTW1" DisplayInHandoffWindow="False">
     <Volumes>MMMD_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Merida" Frequency="121.200" Callsign="MMMD_APP" Name="MDAPP">
+    <Volumes>MMMD_TMA</Volumes>
   </Sector>
   <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZTW1" DisplayInHandoffWindow="False">
     <Volumes>MMCZ_CTR</Volumes>
