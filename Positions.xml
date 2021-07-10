@@ -1139,6 +1139,34 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Tuxtla (Procedimientos) - TGTW1" Type="ASD" DefaultCenter="+162914.929-0930242.378" DefaultRange="210" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="TGTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Pistas" />
+        <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Fijos 32" />
+        <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Fijos 32 (Nombres)" />
+
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMTG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMTG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Tuxtla / Tuxtla Tower</Line>
+        <Line>Serving MMTG arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Autorización Cancún - UNCDL" Type="ASD" DefaultCenter="+210233.336-0865225.562" DefaultRange="50" MagneticVariation="+2">
       <Sectors>
         <Sector Name="UNCDL" />
