@@ -158,6 +158,10 @@
   <Sector FullName="Aproximación Acapulco" Frequency="119.900" Callsign="MMAA_APP" Name="ACAPP" DisplayInHandoffWindow="False">
     <Volumes>MMAA_TMA</Volumes>
   </Sector>
+  <!--MMBT ATZ-->
+  <Sector FullName="Torre Huatulco" Frequency="118.000" Callsign="MMBT_TWR" Name="BTTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMBT_ATZ</Volumes>
+  </Sector>
   <!--MMGL TMA-->
   <Sector FullName="Autorización Guadalara" Frequency="132.800" Callsign="MMGL_DEL" Name="GLCDL" DisplayInHandoffWindow="False"/>
   <Sector FullName="Terrestre Guadalara" Frequency="121.900" Callsign="MMGL_GND" Name="GLSMC" DisplayInHandoffWindow="False"/>

@@ -1833,6 +1833,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMAA" Visible="true" />
       </Strips>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMAA" />
       </ArrivalLists>
@@ -1880,6 +1881,29 @@
         <Line>Aproximacion Acapulco / Acapulco Approach</Line>
         <Line>Serving MMAA arrivals and departures</Line>
         <Line>ATIS available on 115.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Huatulco - BTTW1" Type="ASD" DefaultCenter="+154631.183-0961545.199" DefaultRange="25" MagneticVariation="-5">
+      <Sectors>
+        <Sector Name="BTTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Huatulco/Aeropuerto - Pistas" />
+        <Map Name="ATZ Huatulco/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMBT" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMBT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Huatulco / Huatulco Tower</Line>
+        <Line>Serving MMBT arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
