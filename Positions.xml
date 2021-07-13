@@ -1907,108 +1907,6 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Aguascalientes - ASTW1" Type="ASD" DefaultCenter="+214241.671-1021907.937" DefaultRange="45" MagneticVariation="-6">
-      <Sectors>
-        <Sector Name="ASTW1" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Leon/Aeropuerto - Pistas" />
-        <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
-
-        <Map Name="TMA Leon/MMAS - Zona de Control (CTR)" />
-        <Map Name="TMA Leon/MMAS - Pista 18 - RNP 18" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMAA" Visible="true" />
-      </Strips>
-      <ArrivalLists>
-        <Airport Name="MMAS" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Torre Aguascalientes / Aguascalientes Tower</Line>
-        <Line>Serving MMAS arrivals and departures</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Torre León - LOTW1" Type="ASD" DefaultCenter="+205951.320-1012858.281" DefaultRange="75" MagneticVariation="-6">
-      <Sectors>
-        <Sector Name="LOTW1" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Leon/Aeropuerto - Pistas" />
-        <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
-
-        <Map Name="TMA Leon/MMLO - Pista 13 - RNP 13" />
-        <Map Name="TMA Leon/MMLO - Zona de Control (CTR)" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMAA" Frequency="128.400" Server="NA" />
-        <Window Airport="MMAA" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMLO" Visible="true" />
-      </Strips>
-      <ArrivalLists>
-        <Airport Name="MMLO" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Torre Leon / Leon Tower</Line>
-        <Line>Serving MMLO arrivals and departures</Line>
-        <Line>ATIS available on 128.400</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Aproximación León - BXAPP" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
-      <Sectors>
-        <Sector Name="BXAPP" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Leon/Aeropuerto - Pistas" />
-        <Map Name="TMA Leon/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
-
-        <Map Name="TMA Leon/MMAS - Pista 18 - Llegadas RNAV" />
-        <Map Name="TMA Leon/MMAS - Pista 18 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Leon/MMAS - Pista 18 - RNP 18" />
-        <Map Name="TMA Leon/MMAS - Pista 18 - Salidas RNAV" />
-        <Map Name="TMA Leon/MMAS - Pista 18 - Salidas RNAV (Nombres)" />
-
-        <Map Name="TMA Leon/MMLO - Pista 13 - Llegadas RNAV" />
-        <Map Name="TMA Leon/MMLO - Pista 13 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Leon/MMLO - Pista 13 - RNP 13" />
-        <Map Name="TMA Leon/MMLO - Pista 13 - Salidas RNAV" />
-        <Map Name="TMA Leon/MMLO - Pista 13 - Salidas RNAV (Nombres)" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMLO" Frequency="128.400" Server="NA" />
-        <Window Airport="MMLO" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMAS" Visible="true" />
-        <Window Type="ADEP" Beacon="MMLO" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="10200">
-        <AdditionalLevels>9100,10200,10800</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMAS" />
-        <Airport Name="MMLO" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Leon / Leon Approach</Line>
-        <Line>Serving MMAS and MMLO arrivals and departures</Line>
-        <Line>ATIS available on 128.400</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
     <Position Name="Autorización Guadalajara - GLCDL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
       <Sectors>
         <Sector Name="GLCDL" />
@@ -2200,6 +2098,295 @@
       <ManualVisibility>
         <Point>+20.521804-103.311110</Point>
       </ManualVisibility>
+    </Position>
+    <Position Name="Torre Aguascalientes - ASTW1" Type="ASD" DefaultCenter="+214241.671-1021907.937" DefaultRange="45" MagneticVariation="-6">
+      <Sectors>
+        <Sector Name="ASTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Leon/Aeropuerto - Pistas" />
+        <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="TMA Leon/MMAS - Zona de Control (CTR)" />
+        <Map Name="TMA Leon/MMAS - Pista 18 - RNP 18" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMAA" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMAS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Aguascalientes / Aguascalientes Tower</Line>
+        <Line>Serving MMAS arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre León - LOTW1" Type="ASD" DefaultCenter="+205951.320-1012858.281" DefaultRange="75" MagneticVariation="-6">
+      <Sectors>
+        <Sector Name="LOTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Leon/Aeropuerto - Pistas" />
+        <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="TMA Leon/MMLO - Pista 13 - RNP 13" />
+        <Map Name="TMA Leon/MMLO - Zona de Control (CTR)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMAA" Frequency="128.400" Server="NA" />
+        <Window Airport="MMAA" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMLO" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMLO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Leon / Leon Tower</Line>
+        <Line>Serving MMLO arrivals and departures</Line>
+        <Line>ATIS available on 128.400</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación León - BXAPP" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6">
+      <Sectors>
+        <Sector Name="BXAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Leon/Aeropuerto - Pistas" />
+        <Map Name="TMA Leon/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="TMA Leon/MMAS - Pista 18 - Llegadas RNAV" />
+        <Map Name="TMA Leon/MMAS - Pista 18 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Leon/MMAS - Pista 18 - RNP 18" />
+        <Map Name="TMA Leon/MMAS - Pista 18 - Salidas RNAV" />
+        <Map Name="TMA Leon/MMAS - Pista 18 - Salidas RNAV (Nombres)" />
+
+        <Map Name="TMA Leon/MMLO - Pista 13 - Llegadas RNAV" />
+        <Map Name="TMA Leon/MMLO - Pista 13 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Leon/MMLO - Pista 13 - RNP 13" />
+        <Map Name="TMA Leon/MMLO - Pista 13 - Salidas RNAV" />
+        <Map Name="TMA Leon/MMLO - Pista 13 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMLO" Frequency="128.400" Server="NA" />
+        <Window Airport="MMLO" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMAS" Visible="true" />
+        <Window Type="ADEP" Beacon="MMLO" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="10200">
+        <AdditionalLevels>9100,10200,10800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMAS" />
+        <Airport Name="MMLO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Leon / Leon Approach</Line>
+        <Line>Serving MMAS and MMLO arrivals and departures</Line>
+        <Line>ATIS available on 128.400</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Cuernava - CBTW1" Type="ASD" DefaultCenter="+185004.239-0991541.730" DefaultRange="65" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="CBTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+        <Map Name="TMA Mexico/MMCB - Zona de Control (CTR)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCB" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMCB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Cuernavaca / Cuernavaca Tower</Line>
+        <Line>Serving MMCB arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Puebla - PBTW1" Type="ASD" DefaultCenter="+190929.300-0982217.408" DefaultRange="70" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="PBTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+        <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPB" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMPB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Puebla / Puebla Tower</Line>
+        <Line>Serving MMPB arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Puebla - PBAPP" Type="ASD" DefaultCenter="+190917.820-0981448.438" DefaultRange="130" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="PBAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPB" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMPB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Puebla / Puebla Approach</Line>
+        <Line>Serving MMPB arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Terrestre Toluca - TOSMC" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="TOSMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+        <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
+        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
+
+        <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
+        <Window Airport="MMTO" />
+      </ATIS>
+      <CFL QuickLevel="13000">
+        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMTO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Terrestre Toluca / Toluca Terrestre</Line>
+        <Line>Serving MMTO Departures</Line>
+        <Line>ATIS available on 127.800</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Toluca - TOTW1" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="TOTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+        <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
+        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
+
+        <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
+        <Window Airport="MMTO" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMTO" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="13000">
+        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMTO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Toluca / Toluca Tower</Line>
+        <Line>Serving MMTO arrivals and departures</Line>
+        <Line>ATIS available on 127.800</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Toluca - TOAPP" Type="ASD" DefaultCenter="+192448.188-0994940.063" DefaultRange="160" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="TOAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
+
+        <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV" />
+        <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV (Vectores)" />
+        <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
+        <Map Name="TMA Mexico/MMTO - Pista 15 - Salidas RNAV" />
+        <Map Name="TMA Mexico/MMTO - Pista 15 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
+        <Window Airport="MMTO" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMTO" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="13000">
+        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMTO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Mexico / Mexico Approach</Line>
+        <Line>Serving MMTO arrivals and departures</Line>
+        <Line>ATIS available on 127.650</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Autorización México - MXCDL" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
       <Sectors>
@@ -2636,57 +2823,6 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Puebla - PBTW1" Type="ASD" DefaultCenter="+190929.300-0982217.408" DefaultRange="70" MagneticVariation="-4">
-      <Sectors>
-        <Sector Name="PBTW1" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
-        <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMPB" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="20000" />
-      <ArrivalLists>
-        <Airport Name="MMPB" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Torre Puebla / Puebla Tower</Line>
-        <Line>Serving MMPB arrivals and departures</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Aproximación Puebla - PBAPP" Type="ASD" DefaultCenter="+190917.820-0981448.438" DefaultRange="130" MagneticVariation="-4">
-      <Sectors>
-        <Sector Name="PBAPP" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMPB" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="20000" />
-      <ArrivalLists>
-        <Airport Name="MMPB" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Puebla / Puebla Approach</Line>
-        <Line>Serving MMPB arrivals and departures</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
     <Position Name="Torre Vallarta - PRTW1" Type="ASD" DefaultCenter="+204048.261-1051515.123" DefaultRange="30" MagneticVariation="-7">
       <Sectors>
         <Sector Name="PRTW1" />
@@ -2901,116 +3037,6 @@
       <ControllerInfo>
         <Line>Aproximacion Tampico / Tampico Approach</Line>
         <Line>Serving MMTM arrivals and departures</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Terrestre Toluca - TOSMC" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4">
-      <Sectors>
-        <Sector Name="TOSMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
-        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
-
-        <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
-        <Window Airport="MMTO" />
-      </ATIS>
-      <CFL QuickLevel="13000">
-        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMTO" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Terrestre Toluca / Toluca Terrestre</Line>
-        <Line>Serving MMTO Departures</Line>
-        <Line>ATIS available on 127.800</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Torre Toluca - TOTW1" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4">
-      <Sectors>
-        <Sector Name="TOTW1" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
-        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
-
-        <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
-        <Window Airport="MMTO" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMTO" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="13000">
-        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMTO" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Torre Toluca / Toluca Tower</Line>
-        <Line>Serving MMTO arrivals and departures</Line>
-        <Line>ATIS available on 127.800</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Aproximación Toluca - TOAPP" Type="ASD" DefaultCenter="+192448.188-0994940.063" DefaultRange="160" MagneticVariation="-4">
-      <Sectors>
-        <Sector Name="TOAPP" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
-
-        <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV" />
-        <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV (Vectores)" />
-        <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
-        <Map Name="TMA Mexico/MMTO - Pista 15 - Salidas RNAV" />
-        <Map Name="TMA Mexico/MMTO - Pista 15 - Salidas RNAV (Nombres)" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
-        <Window Airport="MMTO" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMTO" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="13000">
-        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMTO" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Mexico / Mexico Approach</Line>
-        <Line>Serving MMTO arrivals and departures</Line>
-        <Line>ATIS available on 127.650</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>

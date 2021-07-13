@@ -185,6 +185,22 @@
     <Volumes>MMLO_TMA</Volumes>
   </Sector>
   <!--MMMX TMA-->
+  <Sector FullName="Torre Cuernavaca" Frequency="118.350" Callsign="MMCB_TWR" Name="CBTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMCB_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Torre Puebla" Frequency="118.200" Callsign="MMPB_TWR" Name="PBTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMPB_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP" DisplayInHandoffWindow="False">
+    <Volumes>MMPB_APP</Volumes>
+  </Sector>
+  <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False"/>
+  <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMTO_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOAPP">
+    <Volumes>MMTO_APP</Volumes>
+  </Sector>
   <Sector FullName="Autorización México" Frequency="122.100" Callsign="MMMX_DEL" Name="MXCDL" DisplayInHandoffWindow="False"/>
   <Sector FullName="Terrestre México" Frequency="121.850" Callsign="MMMX_GND" Name="MXSMC" DisplayInHandoffWindow="False"/>
   <Sector FullName="Terrestre Sur México" Frequency="121.000" Callsign="MMMX_S_GND" Name="MXRMP" DisplayInHandoffWindow="False"/>
@@ -226,19 +242,6 @@
   </Sector>
   <Sector FullName="Salidas México 23" Frequency="120.500" Callsign="MMMX_3_DEP" Name="MXD23" DisplayInHandoffWindow="False">
     <Volumes>MXD23</Volumes>
-  </Sector>
-  <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False"/>
-  <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1" DisplayInHandoffWindow="False">
-    <Volumes>MMTO_CTR</Volumes>
-  </Sector>
-  <Sector FullName="Aproximación Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOAPP">
-    <Volumes>MMTO_APP</Volumes>
-  </Sector>
-  <Sector FullName="Torre Puebla" Frequency="118.200" Callsign="MMPB_TWR" Name="PBTW1" DisplayInHandoffWindow="False">
-    <Volumes>MMPB_CTR</Volumes>
-  </Sector>
-  <Sector FullName="Aproximación Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP" DisplayInHandoffWindow="False">
-    <Volumes>MMPB_APP</Volumes>
   </Sector>
   <!--MMOX TMA-->
   <Sector FullName="Torre Oaxaca" Frequency="118.300" Callsign="MMOX_TWR" Name="OXTW1" DisplayInHandoffWindow="False">
