@@ -1078,6 +1078,29 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Chetumal - CMTW1" Type="ASD" DefaultCenter="+183016.692-0881936.469" DefaultRange="20" MagneticVariation="+1">
+      <Sectors>
+        <Sector Name="CMTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Chetumal/Aeropuerto - Pistas" />
+        <Map Name="ATZ Chetumal/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMCM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Chetumal / Chetumal Tower</Line>
+        <Line>Serving MMCM arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Mérida - MDTW1" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="50" MagneticVariation="0">
       <Sectors>
         <Sector Name="MDTW1" />
