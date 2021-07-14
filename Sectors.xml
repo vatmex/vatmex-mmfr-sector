@@ -92,11 +92,14 @@
   <Sector FullName="Torre Carmen" Frequency="118.400" Callsign="MMCETWR" Name="CETW1" DisplayInHandoffWindow="False">
     <Volumes>MMCE_ATZ</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Carmen" Frequency="119.100" Callsign="MMCE_APP" Name="CEAPP">
+  <Sector FullName="Aproximación Carmen" Frequency="119.100" Callsign="MMCE_APP" Name="CEAPP" DisplayInHandoffWindow="False">
     <Volumes>MMCE_TMA</Volumes>
   </Sector>
-  <Sector FullName="Torre Chetumal" Frequency="118.800" Callsign="MMCM_TW1" Name="CMTW1">
+  <Sector FullName="Torre Chetumal" Frequency="118.800" Callsign="MMCM_TWR" Name="CMTW1" DisplayInHandoffWindow="False">
     <Volumes>MMCM_ATZ</Volumes>
+  </Sector>
+  <Sector FullName="Torre Campeche" Frequency="118.500" Callsign="MMCP_TWR" Name="CPTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMCP_ATZ</Volumes>
   </Sector>
   <Sector FullName="Torre Merida" Frequency="118.300" Callsign="MMMD_TWR" Name="MDTW1" DisplayInHandoffWindow="False">
     <Volumes>MMMD_CTR</Volumes>

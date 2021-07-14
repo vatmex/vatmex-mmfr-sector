@@ -1101,6 +1101,29 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Campeche - CPTW1" Type="ASD" DefaultCenter="+194900.500-0903001.109" DefaultRange="20" MagneticVariation="-1">
+      <Sectors>
+        <Sector Name="CPTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Campeche/Aeropuerto - Pistas" />
+        <Map Name="ATZ Campeche/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCP" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMCP" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Campeche / Campeche Tower</Line>
+        <Line>Serving MMCP arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Mérida - MDTW1" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="50" MagneticVariation="0">
       <Sectors>
         <Sector Name="MDTW1" />
