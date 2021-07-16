@@ -340,11 +340,17 @@
   </Sector>
 
   <!--Centro de Control Monterrey-->
-  <Sector FullName="Aproximación Chihuahua" Frequency="121.000" Callsign="MMCU_APP" Name="CUAPP">
-    <Volumes>MMCU_TMA</Volumes>
+  <Sector FullName="Torre Juarez" Frequency="118.900" Callsign="MMCS_TWR" Name="CSTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMCS_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Juarez" Frequency="119.900" Callsign="MMCS_APP" Name="CSAPP" DisplayInHandoffWindow="False">
+    <Volumes>MMCS_TMA</Volumes>
   </Sector>
   <Sector FullName="Torre Chihuahua" Frequency="118.400" Callsign="MMCU_TWR" Name="CUTWR" DisplayInHandoffWindow="False">
     <Volumes>MMCU_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Chihuahua" Frequency="121.000" Callsign="MMCU_APP" Name="CUAPP">
+    <Volumes>MMCU_TMA</Volumes>
   </Sector>
   <Sector FullName="Autorización Monterrey" Frequency="123.750" Callsign="MMMY_DEL" Name="MYDEL" DisplayInHandoffWindow="False"/>
   <Sector FullName="Terrestre Monterrey" Frequency="121.900" Callsign="MMMY_GND" Name="MYGND" DisplayInHandoffWindow="False"/>

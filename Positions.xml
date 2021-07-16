@@ -3525,6 +3525,60 @@
         <Map Name="TMA Torreon/ASMGCS_MMTC_GATES" />
       </Maps>
     </Position>
+    <Position Name="Torre Juarez - CSTW1" Type="ASD" DefaultCenter="+313810.896-1062543.544" DefaultRange="20" MagneticVariation="-10">
+      <Sectors>
+        <Sector Name="CSTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Ciudad Juarez/Aeropuerto - Pistas" />
+        <Map Name="TMA Ciudad Juarez/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCS" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMCS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Juarez / Juarez Tower</Line>
+        <Line>Serving MMCS arrivals and departures</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Juarez - CSAPP" Type="ASD" DefaultCenter="+311744.273-1063406.231" DefaultRange="125" MagneticVariation="-10">
+      <Sectors>
+        <Sector Name="CSAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Ciudad Juarez/Aeropuerto - Pistas" />
+        <Map Name="TMA Ciudad Juarez/Aeropuerto - Fijos 03" />
+        <Map Name="TMA Ciudad Juarez/Aeropuerto - Fijos 03 (Nombres)" />
+        <Map Name="TMA Ciudad Juarez/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Ciudad Juarez/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMCS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Juarez / Juarez Approach</Line>
+        <Line>Serving MMCS arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Chihuahua - CUTWR" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="75" MagneticVariation="-8" DynamicInfill="false">
       <Sectors>
         <Sector Name="CUTWR" />
