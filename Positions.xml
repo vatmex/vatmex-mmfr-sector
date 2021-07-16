@@ -3579,9 +3579,9 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Chihuahua - CUTWR" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="75" MagneticVariation="-8" DynamicInfill="false">
+    <Position Name="Torre Chihuahua - CUTW1" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="40" MagneticVariation="-8">
       <Sectors>
-        <Sector Name="CUTWR" />
+        <Sector Name="CUTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Chihuahua/Aeropuerto - Pistas" />
@@ -3612,7 +3612,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Chihuahua - CUAPP" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8" DynamicInfill="false">
+    <Position Name="Aproximación Chihuahua - CUAPP" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8">
       <Sectors>
         <Sector Name="CUAPP" />
       </Sectors>
@@ -3629,9 +3629,7 @@
         <Map Name="TMA Chihuahua/Pistas 36 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Monterrey/Limites - Sectores" />
-
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Monterrey/Radar - Cobertura" />
       </Maps>
       <ATIS>
         <Editor Airport="MMCU" Frequency="127.900" Server="NA" />
