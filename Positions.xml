@@ -3651,7 +3651,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Autorización Monterrey - MYDEL" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Autorización Monterrey - MYDEL" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5">
       <Sectors>
         <Sector Name="MYDEL" />
       </Sectors>
@@ -3660,13 +3660,10 @@
         <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="TMA Monterrey/Pista 29 - ILS 5 29" />
+        <Map Name="TMA Monterrey/Pista 11 - RNP 11" />
 
         <Map Name="ACC Monterrey/Limites - Sectores" />
-        <Map Name="ACC Monterrey/Radar - Cobertura" />
-
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
@@ -3685,7 +3682,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Terrestre Monterrey - MYGND" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Terrestre Monterrey - MYGND" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5" >
       <Sectors>
         <Sector Name="MYGND" />
       </Sectors>
@@ -3694,13 +3691,10 @@
         <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="TMA Monterrey/Pista 29 - ILS 5 29" />
+        <Map Name="TMA Monterrey/Pista 11 - RNP 11" />
 
         <Map Name="ACC Monterrey/Limites - Sectores" />
-        <Map Name="ACC Monterrey/Radar - Cobertura" />
-
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
@@ -3719,7 +3713,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Monterrey - MYTWR" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="75" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Torre Monterrey - MYTWR" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5">
       <Sectors>
         <Sector Name="MYTWR" />
       </Sectors>
@@ -3728,13 +3722,10 @@
         <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="TMA Monterrey/Pista 29 - ILS 5 29" />
+        <Map Name="TMA Monterrey/Pista 11 - RNP 11" />
 
         <Map Name="ACC Monterrey/Limites - Sectores" />
-        <Map Name="ACC Monterrey/Radar - Cobertura" />
-
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Mexico/Cobertura Radar" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
@@ -3753,26 +3744,63 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Monterrey - MYAPP" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" DynamicInfill="false">
+    <Position Name="Aproximación Monterrey - MYAPP" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5">
       <Sectors>
         <Sector Name="MYAPP" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Monterrey/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
+        <Map Name="TMA Monterrey/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-        <Map Name="TMA Monterrey/Pista 29 - Llegadas RNAV" />
-        <Map Name="TMA Monterrey/Pista 29 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Monterrey/Pista 29 - ILS 5 29" />
-        <Map Name="TMA Monterrey/Pista 29 - Salidas RNAV" />
-        <Map Name="TMA Monterrey/Pista 29 - Salidas RNAV (Nombres)" />
+        <Map Name="TMA Monterrey/Pista 11 - Llegadas RNAV" />
+        <Map Name="TMA Monterrey/Pista 11 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Monterrey/Pista 11 - RNP 11" />
+        <Map Name="TMA Monterrey/Pista 11 - Salidas RNAV" />
+        <Map Name="TMA Monterrey/Pista 11 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Monterrey/Limites - Sectores" />
-
         <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="ACC Monterrey/Radar - Cobertura" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
+        <Window Airport="MMMY" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000">
+        <AdditionalLevels>10700,10400,8300,7800,7300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Monterrey / Monterrey Approach</Line>
+        <Line>Serving MMMY arrivals and departures</Line>
+        <Line>ATIS available on 127.700</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Monterrey (Terminal) - MYTMA" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5">
+      <Sectors>
+        <Sector Name="MYTMA" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
+        <Map Name="TMA Monterrey/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="TMA Monterrey/Pista 11 - Llegadas RNAV" />
+        <Map Name="TMA Monterrey/Pista 11 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Monterrey/Pista 11 - RNP 11" />
+        <Map Name="TMA Monterrey/Pista 11 - Salidas RNAV" />
+        <Map Name="TMA Monterrey/Pista 11 - Salidas RNAV (Nombres)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <ATIS>
         <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
