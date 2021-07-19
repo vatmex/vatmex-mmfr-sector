@@ -1124,6 +1124,29 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Chichen-Itza - CTTW1" Type="ASD" DefaultCenter="+203828.823-0882646.381" DefaultRange="20" MagneticVariation="+1">
+      <Sectors>
+        <Sector Name="CTTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Chichen Itza/Aeropuerto - Pistas" />
+        <Map Name="ATZ Chichen Itza/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCT" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMCT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Chichen-Itza / Chichen-Itza Tower</Line>
+        <Line>Serving MMCT arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Mérida - MDTW1" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="50" MagneticVariation="0">
       <Sectors>
         <Sector Name="MDTW1" />
