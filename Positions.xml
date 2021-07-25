@@ -265,6 +265,30 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Guaymas - GMTW1" Type="ASD" DefaultCenter="+275809.560-1105525.380" DefaultRange="20" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="GMTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Hermosillo/Aeropuerto - Pistas" />
+        <Map Name="TMA Hermosillo/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Hermosillo/MMGM - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMGM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMGM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Guaymas / Guaymas Tower</Line>
+        <Line>Serving MMGM arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Hermosillo - HOTW1" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="50" MagneticVariation="-9">
       <Sectors>
         <Sector Name="HOTW1" />
@@ -272,7 +296,7 @@
       <Maps>
         <Map Name="TMA Hermosillo/Aeropuerto - Pistas" />
         <Map Name="TMA Hermosillo/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Hermosillo/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Hermosillo/MMHO - Zona de Control (CTR)" />
 
         <Map Name="TMA Hermosillo/Pista 05 - RNP 05" />
 
@@ -285,9 +309,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMHO" Visible="true" />
       </Strips>
-      <CFL QuickLevel="1200">
-        <AdditionalLevels>4600,3300,3100,2700</AdditionalLevels>
-      </CFL>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMHO" />
       </ArrivalLists>
@@ -303,8 +325,8 @@
         <Sector Name="HOAPP" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Hermosillo/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Hermosillo/Aeropuerto - Pistas" />
+        <Map Name="TMA Hermosillo/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Hermosillo/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="TMA Hermosillo/Pista 05 - Llegadas RNAV" />
