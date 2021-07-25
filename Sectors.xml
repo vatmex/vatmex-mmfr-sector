@@ -186,7 +186,7 @@
   <Sector FullName="Terminal Guadalara" Frequency="119.300" Callsign="MMGL_T_APP" Name="GLTMA">
     <Volumes>MMGL_TMA</Volumes>
   </Sector>
-  <!--MMIO ATZ-->
+  <!--MMIA ATZ-->
   <Sector FullName="Torre Colima" Frequency="118.900" Callsign="MMIA_TWR" Name="IATW1" DisplayInHandoffWindow="False">
     <Volumes>MMIA_ATZ</Volumes>
   </Sector>
@@ -364,6 +364,9 @@
   </Sector>
   <Sector FullName="Aproximación Chihuahua" Frequency="121.000" Callsign="MMCU_APP" Name="CUAPP">
     <Volumes>MMCU_TMA</Volumes>
+  </Sector>
+  <Sector FullName="Torre Saltillo" Frequency="118.400" Callsign="MMIO_TWR" Name="IOTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMIO_CTR</Volumes>
   </Sector>
   <Sector FullName="Torre Victoria" Frequency="118.200" Callsign="MMCV_TWR" Name="CVTW1" DisplayInHandoffWindow="False">
     <Volumes>MMCV_ATZ</Volumes>

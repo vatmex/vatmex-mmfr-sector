@@ -3756,12 +3756,37 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMCV" Visible="true" />
       </Strips>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMCV" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Torre Victoria / Victoria Tower</Line>
         <Line>Serving MMCV arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Saltillo - IOTW1" Type="ASD" DefaultCenter="+253259.233-1005542.075" DefaultRange="50" MagneticVariation="-6">
+      <Sectors>
+        <Sector Name="IOTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Saltillo/Aeropuerto - Pistas" />
+        <Map Name="TMA Saltillo/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMIO" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMIO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Saltillo / Saltillo Tower</Line>
+        <Line>Serving MMIO arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
@@ -3786,6 +3811,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMY" Visible="true" />
       </Strips>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMMY" />
       </ArrivalLists>
@@ -3817,6 +3843,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMY" Visible="true" />
       </Strips>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMMY" />
       </ArrivalLists>
@@ -3848,6 +3875,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMY" Visible="true" />
       </Strips>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMMY" />
       </ArrivalLists>
