@@ -2190,6 +2190,29 @@
         <Point>+20.521804-103.311110</Point>
       </ManualVisibility>
     </Position>
+    <Position Name="Torre Colima - IATW1" Type="ASD" DefaultCenter="+191637.240-1033439.370" DefaultRange="20" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="IATW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Colima/Aeropuerto - Pistas" />
+        <Map Name="ATZ Colima/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMIA" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMIA" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Colima / Colima Tower</Line>
+        <Line>Serving MMIA arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Aguascalientes - ASTW1" Type="ASD" DefaultCenter="+214241.671-1021907.937" DefaultRange="45" MagneticVariation="-6">
       <Sectors>
         <Sector Name="ASTW1" />
@@ -2204,8 +2227,9 @@
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMAA" Visible="true" />
+        <Window Type="ADEP" Beacon="MMAS" Visible="true" />
       </Strips>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMAS" />
       </ArrivalLists>
@@ -2235,6 +2259,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMLO" Visible="true" />
       </Strips>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMLO" />
       </ArrivalLists>

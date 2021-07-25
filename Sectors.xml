@@ -186,6 +186,10 @@
   <Sector FullName="Terminal Guadalara" Frequency="119.300" Callsign="MMGL_T_APP" Name="GLTMA">
     <Volumes>MMGL_TMA</Volumes>
   </Sector>
+  <!--MMIO ATZ-->
+  <Sector FullName="Torre Colima" Frequency="118.900" Callsign="MMIA_TWR" Name="IATW1" DisplayInHandoffWindow="False">
+    <Volumes>MMIA_ATZ</Volumes>
+  </Sector>
   <!--MMLO TMA-->
   <Sector FullName="Torre Aguascalientes" Frequency="118.600" Callsign="MMAS_TWR" Name="ASTW1" DisplayInHandoffWindow="False">
     <Volumes>MMAS_CTR</Volumes>
