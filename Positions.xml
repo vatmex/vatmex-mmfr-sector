@@ -2884,11 +2884,35 @@
       </Strips>
       <CFL QuickLevel="20000" />
       <ArrivalLists>
-        <Airport Name="MMPR" />
+        <Airport Name="MMOX" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Oaxaca / Oaxaca Approach</Line>
         <Line>Serving MMOX arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Tepic - EPTW1" Type="ASD" DefaultCenter="+212509.930-1045033.180" DefaultRange="50" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="EPTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
+        <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMEP" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000"/>
+      <ArrivalLists>
+        <Airport Name="MMEP" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Tepic / Tepic Tower</Line>
+        <Line>Serving MMEP arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
@@ -2898,13 +2922,12 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
-        <Map Name="TMA Vallarta/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
         <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
-
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <ATIS>
@@ -2914,9 +2937,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMPR" Visible="true" />
       </Strips>
-      <CFL QuickLevel="20000">
-        <AdditionalLevels>1800,5200,9700,8300,8900,5800,5200,3600,3200,4900,5300,4400,3400</AdditionalLevels>
-      </CFL>
+      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMPR" />
       </ArrivalLists>
