@@ -2664,7 +2664,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Llegadas Mexico / Llegadas Approach</Line>
-        <Line>Serving MMMX, MMTO, MMCV, and MMPB arrivals</Line>
+        <Line>Serving MMMX, MMTO, MMCB, and MMPB arrivals</Line>
         <Line>ATIS available on 127.650</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
@@ -3671,6 +3671,29 @@
         <Line>Aproximacion Chihuahua / Chihuahua Approach</Line>
         <Line>Serving MMCU arrivals and departures</Line>
         <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Victoria - CVTW1" Type="ASD" DefaultCenter="+234212.350-0985723.200" DefaultRange="20" MagneticVariation="-6">
+      <Sectors>
+        <Sector Name="CVTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Ciudad Victoria/Aeropuerto - Pistas" />
+        <Map Name="TMA Ciudad Victoria/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMCV" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMCV" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Victoria / Victoria Tower</Line>
+        <Line>Serving MMCV arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
