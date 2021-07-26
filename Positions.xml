@@ -4087,6 +4087,33 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Nuevo Laredo (Procedimientos) - NLTW1" Type="ASD" DefaultCenter="+271946.331-0994545.566" DefaultRange="190" MagneticVariation="-5">
+      <Sectors>
+        <Sector Name="NLTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Nuevo Laredo/Aeropuerto - Pistas" />
+        <Map Name="TMA Nuevo Laredo/Aeropuerto - Fijos 14" />
+        <Map Name="TMA Nuevo Laredo/Aeropuerto - Fijos 14 (Nombres)" />
+        <Map Name="TMA Nuevo Laredo/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMNL" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMNL" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Nuevo Laredo / Nuevo Laredo Tower</Line>
+        <Line>Serving MMNL arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Centro Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="MTYC" />
