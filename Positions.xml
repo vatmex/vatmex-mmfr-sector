@@ -3839,6 +3839,30 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Matamoros - MATW1" Type="ASD" DefaultCenter="+254611.814-0973130.844" DefaultRange="40" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="MATW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Matamoros/Aeropuerto - Pistas" />
+        <Map Name="TMA Matamoros/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMA" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMMA" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Matamoros / Matamoros Tower</Line>
+        <Line>Serving MMMA arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Autorización Monterrey - MYDEL" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5">
       <Sectors>
         <Sector Name="MYDEL" />
