@@ -2366,6 +2366,33 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Morelia (Procedimientos) - MMTW1" Type="ASD" DefaultCenter="+193747.029-1010428.121" DefaultRange="220" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="MMTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Morelia/Aeropuerto - Pistas" />
+        <Map Name="TMA Morelia/Aeropuerto - Fijos 05" />
+        <Map Name="TMA Morelia/Aeropuerto - Fijos 05 (Nombres)" />
+        <Map Name="TMA Morelia/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMMM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Morelia / Morelia Tower</Line>
+        <Line>Serving MMMM arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Cuernava - CBTW1" Type="ASD" DefaultCenter="+185004.239-0991541.730" DefaultRange="65" MagneticVariation="-4">
       <Sectors>
         <Sector Name="CBTW1" />
