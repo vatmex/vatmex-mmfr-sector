@@ -436,6 +436,29 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="20" MagneticVariation="-9">
+      <Sectors>
+        <Sector Name="LTTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Loreto/Aeropuerto - Pistas" />
+        <Map Name="ATZ Loreto/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMLT" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMLT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Loreto / Loreto Tower</Line>
+        <Line>Serving MMLT arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Mexicali (Procedimientos) - MLTW1" Type="ASD" DefaultCenter="+321658.378-1151644.096" DefaultRange="120" MagneticVariation="-10">
       <Sectors>
         <Sector Name="MLTW1" />
