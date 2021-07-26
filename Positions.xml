@@ -1279,6 +1279,29 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Minatitlan - MTTW1" Type="ASD" DefaultCenter="+180612.034-0943450.213" DefaultRange="20" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="MTTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Minatitlan/Aeropuerto - Pistas" />
+        <Map Name="ATZ Minatitlan/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMT" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMMT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Minatitlan / Minatitlan Tower</Line>
+        <Line>Serving MMMT arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Tuxtla (Procedimientos) - TGTW1" Type="ASD" DefaultCenter="+162914.929-0930242.378" DefaultRange="210" MagneticVariation="-4">
       <Sectors>
         <Sector Name="TGTW1" />

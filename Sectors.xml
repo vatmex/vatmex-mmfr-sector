@@ -119,8 +119,8 @@
   <Sector FullName="Aproximación Merida" Frequency="121.200" Callsign="MMMD_APP" Name="MDAPP">
     <Volumes>MMMD_TMA</Volumes>
   </Sector>
-  <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZTW1" DisplayInHandoffWindow="False">
-    <Volumes>MMCZ_CTR</Volumes>
+  <Sector FullName="Torre Minatitlan" Frequency="118.100" Callsign="MMMT_TWR" Name="MTTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMMT_ATZ</Volumes>
   </Sector>
   <Sector FullName="Torre Tuxtla" Frequency="118.600" Callsign="MMTG_APP" Name="TGTW1" DisplayInHandoffWindow="False">
     <Volumes>MMTG_TMA</Volumes>
@@ -128,6 +128,9 @@
   <Sector FullName="Terrestre Cancún" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False"/>
   <Sector FullName="Terrestre Este Cancún" Frequency="121.700" Callsign="MMUN_E_GND" Name="UNRMP" DisplayInHandoffWindow="False"/>
   <Sector FullName="Autorización Cancún" Frequency="122.100" Callsign="MMUN_DEL" Name="UNCDL" DisplayInHandoffWindow="False"/>
+  <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMCZ_CTR</Volumes>
+  </Sector>
   <Sector FullName="Torre Cancún" Frequency="118.100" Callsign="MMUN_TWR" Name="UNTW1" DisplayInHandoffWindow="False">
     <Volumes>MMUN_CTR</Volumes>
   </Sector>
