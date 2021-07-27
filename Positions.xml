@@ -3038,6 +3038,30 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Poza Rica - PATW1" Type="ASD" DefaultCenter="+203607.540-0972738.140" DefaultRange="20" MagneticVariation="-5">
+      <Sectors>
+        <Sector Name="PATW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Poza Rica/Aeropuerto - Pistas" />
+        <Map Name="ATZ Poza Rica/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPA" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMPA" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Poza Rica / Poza Rica Tower</Line>
+        <Line>Serving MMPA arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Tepic - EPTW1" Type="ASD" DefaultCenter="+212509.930-1045033.180" DefaultRange="50" MagneticVariation="-7">
       <Sectors>
         <Sector Name="EPTW1" />

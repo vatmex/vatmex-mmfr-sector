@@ -279,6 +279,10 @@
   <Sector FullName="Aproximación Oaxaca" Frequency="121.100" Callsign="MMOX_APP" Name="OXAPP" DisplayInHandoffWindow="False">
     <Volumes>MMOX_TMA</Volumes>
   </Sector>
+  <!--MMPA ATZ-->
+  <Sector FullName="Torre Poza Rica" Frequency="118.900" Callsign="MMPA_TWR" Name="PATW1" DisplayInHandoffWindow="False">
+    <Volumes>MMPA_ATZ</Volumes>
+  </Sector>
   <!--MMSP TMA-->
   <Sector FullName="Torre Potosí" Frequency="118.900" Callsign="MMSP_TWR" Name="SPTW1" DisplayInHandoffWindow="False">
     <Volumes>MMSP_CTR</Volumes>
