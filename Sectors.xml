@@ -43,6 +43,9 @@
   <Sector FullName="Aproximación Mazatlan" Frequency="121.200" Callsign="MMMZ_APP" Name="MZAPP" DisplayInHandoffWindow="False">
     <Volumes>MMMZ_TMA</Volumes>
   </Sector>
+  <Sector FullName="Torre Peñasco" Frequency="118.850" Callsign="MMPE_TWR" Name="PETW1" DisplayInHandoffWindow="False">
+    <Volumes>MMPE_ATZ</Volumes>
+  </Sector>
   <Sector FullName="Terrestre San José" Frequency="134.100" Callsign="MMSD_GND" Name="SDSMC" DisplayInHandoffWindow="False"/>
   <Sector FullName="Torre San José" Frequency="118.900" Callsign="MMSD_TWR" Name="SDTW1" DisplayInHandoffWindow="False">
     <Volumes>MMSD_CTR</Volumes>

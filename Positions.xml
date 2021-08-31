@@ -551,6 +551,28 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Peñasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="20" MagneticVariation="-12">
+      <Sectors>
+        <Sector Name="PETW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Puerto Peñasco/Aeropuerto - Pistas" />
+        <Map Name="ATZ Puerto Peñasco/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPE" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMPE" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Peñasco / Peñasco Tower</Line>
+        <Line>Serving MMPE arrivals and departures</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre San Lucas - SLTW1" Type="ASD" DefaultCenter="+225653.965-1095617.973" DefaultRange="40" MagneticVariation="-8">
       <Sectors>
         <Sector Name="SLTW1" />
