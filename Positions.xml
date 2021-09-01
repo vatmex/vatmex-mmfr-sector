@@ -173,7 +173,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Culiacán - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-8">
+    <Position Name="Aproximación Culiacán - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-8" VisibilityRange="150">
       <Sectors>
         <Sector Name="CLAPP" />
       </Sectors>
@@ -204,6 +204,9 @@
         <Line>Serving MMCL arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+      <ManualVisibility>
+        <Point>+244601.668-1072829.390</Point>
+      </ManualVisibility>
     </Position>
     <Position Name="Torre Obregon (Procedimientos) - CNTW1" Type="ASD" DefaultCenter="+271551.856-1095003.388" DefaultRange="225" MagneticVariation="-9">
       <Sectors>
@@ -320,7 +323,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Hermosillo - HOAPP" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="550" MagneticVariation="-9">
+    <Position Name="Aproximación Hermosillo - HOAPP" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="550" MagneticVariation="-9" VisibilityRange="150">
       <Sectors>
         <Sector Name="HOAPP" />
       </Sectors>
@@ -357,6 +360,11 @@
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+      <ManualVisibility>
+        <Point>+301228.142-1113914.645</Point>
+        <Point>+283329.482-1103359.117</Point>
+        <Point>+271340.583-1093523.767</Point>
+      </ManualVisibility>
     </Position>
     <Position Name="Torre Los Mochis (Procedimientos) - LMTW1" Type="ASD" DefaultCenter="+253113.203-1090601.835" DefaultRange="240" MagneticVariation="-8">
       <Sectors>
@@ -409,7 +417,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación La Paz - LPAPP" Type="ASD" DefaultCenter="+242441.410-1101750.755" DefaultRange="180" MagneticVariation="-10">
+    <Position Name="Aproximación La Paz - LPAPP" Type="ASD" DefaultCenter="+242441.410-1101750.755" DefaultRange="180" MagneticVariation="-10" VisibilityRange="150">
       <Sectors>
         <Sector Name="LPAPP" />
       </Sectors>
@@ -435,6 +443,9 @@
         <Line>Serving MMLP arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+      <ManualVisibility>
+        <Point>+240439.904-1102148.252</Point>
+      </ManualVisibility>
     </Position>
     <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="20" MagneticVariation="-9">
       <Sectors>
@@ -518,7 +529,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Mazatlan - MZAPP" Type="ASD" DefaultCenter="+231854.352-1061500.742" DefaultRange="250" MagneticVariation="-9">
+    <Position Name="Aproximación Mazatlan - MZAPP" Type="ASD" DefaultCenter="+231854.352-1061500.742" DefaultRange="250" MagneticVariation="-9" VisibilityRange="150">
       <Sectors>
         <Sector Name="MZAPP" />
       </Sectors>
@@ -550,6 +561,9 @@
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+      <ManualVisibility>
+        <Point>+230950.865-1061611.768</Point>
+      </ManualVisibility>
     </Position>
     <Position Name="Torre Peñasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="20" MagneticVariation="-12">
       <Sectors>
@@ -666,7 +680,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación San Jose - SDAPP" Type="ASD" DefaultCenter="+232502.992-1093916.281" DefaultRange="280" MagneticVariation="-8">
+    <Position Name="Aproximación San Jose - SDAPP" Type="ASD" DefaultCenter="+232502.992-1093916.281" DefaultRange="280" MagneticVariation="-8" VisibilityRange="150">
       <Sectors>
         <Sector Name="SDAPP" />
       </Sectors>
@@ -703,6 +717,9 @@
         <Line>ATIS available on 127.600</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+      <ManualVisibility>
+        <Point>+230849.836-1094325.930</Point>
+      </ManualVisibility>
     </Position>
     <Position Name="Torre Ensenada - ESTW1" Type="ASD" DefaultCenter="+314742.900-1163613.350" DefaultRange="30" MagneticVariation="-12">
       <Sectors>
@@ -803,7 +820,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Tijuana - TJAPP" Type="ASD" DefaultCenter="+320145.000-1164445.812" DefaultRange="170" MagneticVariation="-12">
+    <Position Name="Aproximación Tijuana - TJAPP" Type="ASD" DefaultCenter="+320145.000-1164445.812" DefaultRange="170" MagneticVariation="-12" VisibilityRange="150">
       <Sectors>
         <Sector Name="TJAPP" />
       </Sectors>
@@ -843,8 +860,11 @@
         <Line>ATIS available on 127.900</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+      <ManualVisibility>
+        <Point>+323235.360-1165813.350</Point>
+      </ManualVisibility>
     </Position>
-    <Position Name="Centro Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false">
+    <Position Name="Centro Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="400">
       <Sectors>
         <Sector Name="MZTC" />
       </Sectors>
@@ -868,7 +888,7 @@
         <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
       </Strips>
       <CFL QuickLevel="27000">
-        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+        <AdditionalLevels>8800,9300</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMTJ" />
@@ -879,13 +899,13 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
       <ManualVisibility>
-        <Point>+22.887442-102.693261</Point>
-        <Point>+22.289603-097.863022</Point>
-        <Point>+15.875106-097.081714</Point>
-        <Point>+19.149414-104.571297</Point>
+        <Point>+293843.176-1180137.394</Point>
+        <Point>+280153.729-1082942.724</Point>
+        <Point>+200511.991-1133814.193</Point>
+        <Point>+213939.948-1025505.017</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro Mazatlan (SE) - MZTE" Type="ASD" DefaultCenter="+231401.508-1081845.656" DefaultRange="1150" MagneticVariation="-12" DynamicInfill="false">
+    <Position Name="Centro Mazatlan (SE) - MZTE" Type="ASD" DefaultCenter="+231401.508-1081845.656" DefaultRange="1150" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="300">
       <Sectors>
         <Sector Name="MZTE" />
       </Sectors>
@@ -909,7 +929,7 @@
         <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
       </Strips>
       <CFL QuickLevel="27000">
-        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+        <AdditionalLevels>8800,9300</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMTJ" />
@@ -920,13 +940,13 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
       <ManualVisibility>
-        <Point>+22.887442-102.693261</Point>
-        <Point>+22.289603-097.863022</Point>
-        <Point>+15.875106-097.081714</Point>
-        <Point>+19.149414-104.571297</Point>
+        <Point>+274123.933-1093434.548</Point>
+        <Point>+260055.975-1121344.414</Point>
+        <Point>+232552.176-1041110.523</Point>
+        <Point>+200841.775-1063051.306</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Centro Mazatlan (SW) - MZTW" Type="ASD" DefaultCenter="+282947.445-1142936.531" DefaultRange="1000" MagneticVariation="-12" DynamicInfill="false">
+    <Position Name="Centro Mazatlan (SW) - MZTW" Type="ASD" DefaultCenter="+282947.445-1142936.531" DefaultRange="1000" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="300">
       <Sectors>
         <Sector Name="MZTW" />
       </Sectors>
@@ -950,7 +970,7 @@
         <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
       </Strips>
       <CFL QuickLevel="27000">
-        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+        <AdditionalLevels>8800,9300</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMTJ" />
@@ -961,10 +981,10 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
       <ManualVisibility>
-        <Point>+22.887442-102.693261</Point>
-        <Point>+22.289603-097.863022</Point>
-        <Point>+15.875106-097.081714</Point>
-        <Point>+19.149414-104.571297</Point>
+        <Point>+320131.681-1181616.190</Point>
+        <Point>+312004.479-1105609.617</Point>
+        <Point>+274340.335-1092714.216</Point>
+        <Point>+254759.084-1121909.005</Point>
       </ManualVisibility>
     </Position>
   </Group>
