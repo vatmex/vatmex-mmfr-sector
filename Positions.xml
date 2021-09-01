@@ -3106,6 +3106,30 @@
         <Line>Serving MMPA arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
+    </Position>    
+    <Position Name="Torre Uruapan - PNTW1" Type="ASD" DefaultCenter="+192347.230-1020219.990" DefaultRange="20" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="PNTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Uruapan/Aeropuerto - Pistas" />
+        <Map Name="ATZ Uruapan/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMPN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Uruapan / Uruapan Tower</Line>
+        <Line>Serving MMPN arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Torre Tepic - EPTW1" Type="ASD" DefaultCenter="+212509.930-1045033.180" DefaultRange="50" MagneticVariation="-7">
       <Sectors>
@@ -3128,30 +3152,6 @@
       <ControllerInfo>
         <Line>Torre Tepic / Tepic Tower</Line>
         <Line>Serving MMEP arrivals and departures</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Torre Uruapan - PNTW1" Type="ASD" DefaultCenter="+192347.230-1020219.990" DefaultRange="20" MagneticVariation="-7">
-      <Sectors>
-        <Sector Name="PNTW1" />
-      </Sectors>
-      <Maps>
-        <Map Name="ATZ Uruapan/Aeropuerto - Pistas" />
-        <Map Name="ATZ Uruapan/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMPN" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="20000" />
-      <ArrivalLists>
-        <Airport Name="MMPN" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Torre Uruapan / Uruapan Tower</Line>
-        <Line>Serving MMPN arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
@@ -3260,6 +3260,30 @@
         <Line>Aproximacion Vallarta / Vallarta Approach</Line>
         <Line>Serving MMPR arrivals and departures</Line>
         <Line>ATIS available on 127.500</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Escondido - PSTW1" Type="ASD" DefaultCenter="+155236.901-0970520.700" DefaultRange="20" MagneticVariation="-4">
+      <Sectors>
+        <Sector Name="PSTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Puerto Escondido/Aeropuerto - Pistas" />
+        <Map Name="ATZ Puerto Escondido/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMPS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Escondido / Escondido Tower</Line>
+        <Line>Serving MMPS arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>

@@ -320,6 +320,10 @@
   <Sector FullName="Terminal Vallarta" Frequency="121.300" Callsign="MMPR_T_APP" Name="PRTMA">
     <Volumes>MMPR_TMA</Volumes>
   </Sector>
+  <!--MMPR TMA-->
+  <Sector FullName="Torre Escondido" Frequency="118.900" Callsign="MMPS_TWR" Name="PSTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMPS_ATZ</Volumes>
+  </Sector>
   <!--MMVR TMA-->
   <Sector FullName="Torre Veracruz" Frequency="118.500" Callsign="MMVR_TWR" Name="VRTW1" DisplayInHandoffWindow="False">
     <Volumes>MMVR_CTR</Volumes>
