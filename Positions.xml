@@ -1324,6 +1324,29 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Palenque - PQTW1" Type="ASD" DefaultCenter="+173158.856-0920056.125" DefaultRange="20" MagneticVariation="-2">
+      <Sectors>
+        <Sector Name="PQTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Palenque/Aeropuerto - Pistas" />
+        <Map Name="ATZ Palenque/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPQ" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMPQ" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Palenque / Palenque Tower</Line>
+        <Line>Serving MMPQ arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Tuxtla (Procedimientos) - TGTW1" Type="ASD" DefaultCenter="+162914.929-0930242.378" DefaultRange="210" MagneticVariation="-4">
       <Sectors>
         <Sector Name="TGTW1" />
@@ -3105,6 +3128,30 @@
       <ControllerInfo>
         <Line>Torre Tepic / Tepic Tower</Line>
         <Line>Serving MMEP arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Uruapan - PNTW1" Type="ASD" DefaultCenter="+192347.230-1020219.990" DefaultRange="20" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="PNTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="ATZ Uruapan/Aeropuerto - Pistas" />
+        <Map Name="ATZ Uruapan/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMPN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMPN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Uruapan / Uruapan Tower</Line>
+        <Line>Serving MMPN arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
