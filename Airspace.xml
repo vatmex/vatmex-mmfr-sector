@@ -381,6 +381,34 @@
         <STAR Name="VIGT1B" ApproachName="RNP30.BEREB" />
       </Runway>
     </Airport>
+    <Airport Name="MMDO">
+      <Runway Name="03" DataRunway="03">
+        <SID Name="DGO4A" Default="True" />
+        <SID Name="AVOX3A" />
+        <SID Name="BOPEM2" />
+        <SID Name="ELOLU2" />
+        <SID Name="IKMAN1" />
+        <SID Name="ODKOK2" />
+        <SID Name="SEKU2A" />
+        <SID Name="TUGIR2" />
+        <SID Name="VIKDO2" />
+      </Runway>
+      <Runway Name="21" DataRunway="21">
+        <SID Name="DGO4B" Default="True" />
+        <SID Name="AVOX3B" />
+        <SID Name="LONRI2" />
+        <SID Name="MUTUB2" />
+        <SID Name="SEKU2B" />
+        <SID Name="SESVA2" />
+        <SID Name="TAKNI2" />
+        <SID Name="UKIKI2" />
+      </Runway>
+    </Airport>
+    <Airport Name="MMES">
+      <Runway Name="29" DataRunway="29">
+        <SID Name="ENS3" Default="True" />
+      </Runway>
+    </Airport>
     <Airport Name="MMEP">
       <Runway Name="02" DataRunway="02">
         <SID Name="TNY3A" Default="True" />
@@ -6018,6 +6046,58 @@
     <Approach Name="RNP30.BEREB" Airport="MMCZ" Runway="30">
       <Route>BEREB CZ705 CZ706</Route>
     </Approach>
+    <!--MMDO-->
+    <SID Name="DGO4A" Airport="MMDO" Runways="03">
+      <Route Runway="03">DGO</Route>
+    </SID>
+    <SID Name="AVOX3A" Airport="MMDO" Runways="03">
+      <Route Runway="03">AVOXU</Route>
+    </SID>
+    <SID Name="BOPEM2" Airport="MMDO" Runways="03">
+      <Route Runway="03">BOPEM</Route>
+    </SID>
+    <SID Name="ELOLU2" Airport="MMDO" Runways="03">
+      <Route Runway="03">ELOLU</Route>
+    </SID>
+    <SID Name="IKMAN1" Airport="MMDO" Runways="03">
+      <Route Runway="03">IKMAN</Route>
+    </SID>
+    <SID Name="ODKOK2" Airport="MMDO" Runways="03">
+      <Route Runway="03">ODKOK</Route>
+    </SID>
+    <SID Name="SEKU2A" Airport="MMDO" Runways="03">
+      <Route Runway="03">SEKUB</Route>
+    </SID>
+    <SID Name="TUGIR2" Airport="MMDO" Runways="03">
+      <Route Runway="03">TUGIR</Route>
+    </SID>
+    <SID Name="VIKDO2" Airport="MMDO" Runways="03">
+      <Route Runway="03">VIKDO</Route>
+    </SID>
+    <SID Name="DGO4B" Airport="MMDO" Runways="21">
+      <Route Runway="21">DGO</Route>
+    </SID>
+    <SID Name="AVOX3B" Airport="MMDO" Runways="21">
+      <Route Runway="21">AVOXU</Route>
+    </SID>
+    <SID Name="LONRI2" Airport="MMDO" Runways="21">
+      <Route Runway="21">LONRI</Route>
+    </SID>
+    <SID Name="MUTUB2" Airport="MMDO" Runways="21">
+      <Route Runway="21">MUTUB</Route>
+    </SID>
+    <SID Name="SEKU2B" Airport="MMDO" Runways="21">
+      <Route Runway="21">SEKUB</Route>
+    </SID>
+    <SID Name="SESVA2" Airport="MMDO" Runways="21">
+      <Route Runway="21">SESVA</Route>
+    </SID>
+    <SID Name="TAKNI2" Airport="MMDO" Runways="21">
+      <Route Runway="21">TAKNI</Route>
+    </SID>
+    <SID Name="UKIKI2" Airport="MMDO" Runways="21">
+      <Route Runway="21">UKIKI</Route>
+    </SID>
     <!--MMES-->
     <SID Name="ENS3" Airport="MMES" Runways="29">
       <Route Runway="29">ENS</Route>
