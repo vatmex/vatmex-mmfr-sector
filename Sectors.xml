@@ -324,6 +324,13 @@
   <Sector FullName="Torre Escondido" Frequency="118.900" Callsign="MMPS_TWR" Name="PSTW1" DisplayInHandoffWindow="False">
     <Volumes>MMPS_ATZ</Volumes>
   </Sector>
+  <!--MMQT TMA-->
+  <Sector FullName="Torre Querétaro" Frequency="118.950" Callsign="MMQT_TWR" Name="QTTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMQT_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Querétaro" Frequency="127.200" Callsign="MMQT_APP" Name="QTAPP" >
+    <Volumes>MMQT_TMA</Volumes>
+  </Sector>
   <!--MMVR TMA-->
   <Sector FullName="Torre Veracruz" Frequency="118.500" Callsign="MMVR_TWR" Name="VRTW1" DisplayInHandoffWindow="False">
     <Volumes>MMVR_CTR</Volumes>

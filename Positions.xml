@@ -3307,6 +3307,55 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Querétaro - QTTW1" Type="ASD" DefaultCenter="+203704.000-1001112.000" DefaultRange="70" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="QTTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Queretaro/Aeropuerto - Pista" />
+        <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMQT" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMQT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Queretaro / Queretaro Tower</Line>
+        <Line>Serving MMQT arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Querétaro - QTAPP" Type="ASD" DefaultCenter="+204132.000-0995817.000" DefaultRange="230" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="QTAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Queretaro/Aeropuerto - Pista" />
+        <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Queretaro/Aeropuerto - Area Terminal (TMA)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMQT" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMQT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Queretaro / Queretaro Approach</Line>
+        <Line>Serving MMQT arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Potosí - SPTW1" Type="ASD" DefaultCenter="+221515.342-1005550.738" DefaultRange="60" MagneticVariation="-5">
       <Sectors>
         <Sector Name="SPTW1" />
