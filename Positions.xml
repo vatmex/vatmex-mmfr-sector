@@ -4050,13 +4050,76 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Autorización Monterrey - MYDEL" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5">
+    <Position Name="Terrestre Del Norte - ANSMC" Type="ASD" DefaultCenter="+255156.180-1001413.960" DefaultRange="50" MagneticVariation="-5" >
       <Sectors>
-        <Sector Name="MYDEL" />
+        <Sector Name="ANSMC" />
       </Sectors>
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
-        <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMAN - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMAN" Frequency="127.550" Server="NA" />
+        <Window Airport="MMAN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMAN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMAN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Terrestre Del Norte / Del Norte Ground</Line>
+        <Line>Serving MMAN arrivals and departures</Line>
+        <Line>ATIS available on 127.550</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Torre Del Norte - ANTW1" Type="ASD" DefaultCenter="+255156.180-1001413.960" DefaultRange="50" MagneticVariation="-5">
+      <Sectors>
+        <Sector Name="ANTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
+        <Map Name="TMA Monterrey/MMAN - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMAN" Frequency="127.550" Server="NA" />
+        <Window Airport="MMAN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMAN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMAN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Del Norte / Del Norte Tower</Line>
+        <Line>Serving MMAN arrivals and departures</Line>
+        <Line>ATIS available on 127.550</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Autorización Monterrey - MYCDL" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5">
+      <Sectors>
+        <Sector Name="MYCDL" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
+        <Map Name="TMA Monterrey/MMAN - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="TMA Monterrey/Pista 11 - RNP 11" />
@@ -4082,13 +4145,14 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Terrestre Monterrey - MYGND" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5" >
+    <Position Name="Terrestre Monterrey - MYSMC" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5" >
       <Sectors>
-        <Sector Name="MYGND" />
+        <Sector Name="MYSMC" />
       </Sectors>
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
-        <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMAN - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="TMA Monterrey/Pista 11 - RNP 11" />
@@ -4120,7 +4184,8 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
-        <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMAN - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="TMA Monterrey/Pista 11 - RNP 11" />
@@ -4153,7 +4218,8 @@
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
         <Map Name="TMA Monterrey/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMAN - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="TMA Monterrey/Pista 11 - Llegadas RNAV" />
@@ -4180,7 +4246,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Monterrey / Monterrey Approach</Line>
-        <Line>Serving MMMY arrivals and departures</Line>
+        <Line>Serving MMMY and MMAN arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
@@ -4192,7 +4258,8 @@
       <Maps>
         <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
         <Map Name="TMA Monterrey/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Monterrey/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMAN - Zona de Control (CTR)" />
+        <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
         <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
         <Map Name="TMA Monterrey/Pista 11 - Llegadas RNAV" />
@@ -4219,7 +4286,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Monterrey / Monterrey Approach</Line>
-        <Line>Serving MMMY arrivals and departures</Line>
+        <Line>Serving MMMY and MMAN arrivals and departures</Line>
         <Line>ATIS available on 127.700</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
