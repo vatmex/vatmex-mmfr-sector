@@ -3420,7 +3420,7 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Tampico/Aeropuerto - Pistas" />
-        <Map Name="TMA Tampico/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Tampico/MMTM - Zona de Control (CTR)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
         <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3438,6 +3438,30 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Tamuín - TNTW1" Type="ASD" DefaultCenter="+220218.100-0984823.600" DefaultRange="20" MagneticVariation="-6">
+      <Sectors>
+        <Sector Name="TNTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Tampico/Aeropuerto - Pistas" />
+        <Map Name="TMA Tampico/MMTN - Zona de Tránsito de Aeródromo (ATZ)" />
+
+        <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMTN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMTN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Tamuin / Tamuin Tower</Line>
+        <Line>Serving MMTN arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Aproximación Tampico - TMAPP" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="240" MagneticVariation="-6">
       <Sectors>
         <Sector Name="TMAPP" />
@@ -3445,6 +3469,8 @@
       <Maps>
         <Map Name="TMA Tampico/Aeropuerto - Pistas" />
         <Map Name="TMA Tampico/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Tampico/MMTM - Zona de Control (CTR)" />
+        <Map Name="TMA Tampico/MMTN - Zona de Tránsito de Aeródromo (ATZ)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
         <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3458,7 +3484,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Aproximacion Tampico / Tampico Approach</Line>
-        <Line>Serving MMTM arrivals and departures</Line>
+        <Line>Serving MMTM and MMTN arrivals and departures</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
