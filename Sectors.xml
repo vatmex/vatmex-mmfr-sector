@@ -436,15 +436,21 @@
   <Sector FullName="Terminal Monterrey" Frequency="120.400" Callsign="MMMY_T_APP" Name="MYTMA">
     <Volumes>MMMY_TMA</Volumes>
   </Sector>
+  <Sector FullName="Torre Nuevo Laredo" Frequency="118.300" Callsign="MMNL_APP" Name="NLTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMNL_TMA</Volumes>
+  </Sector>
   <Sector FullName="Torre Reynosa" Frequency="118.800" Callsign="MMRX_TWR" Name="RXTW1" DisplayInHandoffWindow="False">
     <Volumes>MMRX_CTR</Volumes>
   </Sector>
   <Sector FullName="Aproximación Reynosa" Frequency="127.200" Callsign="MMRX_APP" Name="RXAPP" DisplayInHandoffWindow="False">
     <Volumes>MMRX_TMA</Volumes>
   </Sector>
-  <Sector FullName="Torre Nuevo Laredo" Frequency="118.300" Callsign="MMNL_APP" Name="NLTW1" DisplayInHandoffWindow="False">
-    <Volumes>MMNL_TMA</Volumes>
+  <Sector FullName="Torre Torreón" Frequency="118.500" Callsign="MMTC_TWR" Name="TCTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMTC_CTR</Volumes>
   </Sector>
+  <Sector FullName="Aproximación Torreón" Frequency="119.600" Callsign="MMTC_APP" Name="TCAPP" DisplayInHandoffWindow="False">
+    <Volumes>MMTC_TMA</Volumes>
+  </Sector>  
   <Sector FullName="ACC Monterrey SC" Frequency="124.500" Callsign="MMTY_CTR" Name="MTYC">
     <Volumes>MMTY_SECTOR_1, MMTY_SECTOR_2, MMTY_SECTOR_3, MMTY_SECTOR_4, MMTY_SECTOR_5</Volumes>
   </Sector>

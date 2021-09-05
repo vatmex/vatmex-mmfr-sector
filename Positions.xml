@@ -4420,6 +4420,59 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Torreón - TCTW1" Type="ASD" DefaultCenter="+253405.840-1032438.440" DefaultRange="20" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="TCTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Torreon/Aeropuerto - Pistas" />
+        <Map Name="TMA Torreon/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMTC" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMTC" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Torreon / Torreon Tower</Line>
+        <Line>Serving MMRX arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Torreón - TCAPP" Type="ASD" DefaultCenter="+252943.240-1032452.740" DefaultRange="215" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="TCAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Torreon/Aeropuerto - Pistas" />
+        <Map Name="TMA Torreon/Aeropuerto - Fijos 13" />
+        <Map Name="TMA Torreon/Aeropuerto - Fijos 13 (Nombres)" />
+        <Map Name="TMA Torreon/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Torreon/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMRX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMTC" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Torreon / Torreon Approach</Line>
+        <Line>Serving MMTC arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Centro Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="MTYC" />
