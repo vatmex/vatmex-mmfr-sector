@@ -4367,6 +4367,59 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Reynosa - RXTW1" Type="ASD" DefaultCenter="+260030.910-0981341.697" DefaultRange="40" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="RXTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Reynosa/Aeropuerto - Pistas" />
+        <Map Name="TMA Reynosa/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMRX" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMRX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Reynosa / Reynosa Tower</Line>
+        <Line>Serving MMRX arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Aproximación Reynosa - RXAPP" Type="ASD" DefaultCenter="+255128.284-0982723.280" DefaultRange="120" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="RXAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Reynosa/Aeropuerto - Pistas" />
+        <Map Name="TMA Reynosa/Aeropuerto - Fijos 31" />
+        <Map Name="TMA Reynosa/Aeropuerto - Fijos 31 (Nombres)" />
+        <Map Name="TMA Reynosa/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Reynosa/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="ACC Monterrey/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMRX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMRX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Aproximacion Reynosa / Reynosa Approach</Line>
+        <Line>Serving MMRX arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Centro Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="MTYC" />
