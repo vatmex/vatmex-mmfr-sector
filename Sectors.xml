@@ -149,6 +149,12 @@
   <Sector FullName="Aproximación Cancún" Frequency="124.700" Callsign="MMUN_APP" Name="UNAPP">
     <Volumes>MMUN_TMA</Volumes>
   </Sector>
+  <Sector FullName="Torre Villahermosa" Frequency="118.700" Callsign="MMVA_TWR" Name="VATW1" DisplayInHandoffWindow="False">
+    <Volumes>MMVA_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Villahermosa" Frequency="120.900" Callsign="MMVA_APP" Name="VAAPP">
+    <Volumes>MMVA_TMA</Volumes>
+  </Sector>
   <Sector FullName="ACC Mérida Sector SC" Frequency="128.300" Callsign="MMID_CTR" Name="MIDC">
     <Volumes>MMID_SECTOR_1, MMID_SECTOR_2, MMID_SECTOR_3, MMID_SECTOR_4, MMID_SECTOR_5, MMID_SECTOR_6</Volumes>
   </Sector>
