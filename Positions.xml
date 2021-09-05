@@ -3689,6 +3689,34 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Torre Manzanillo (Procedimientos) - ZOTW1" Type="ASD" DefaultCenter="+190841.140-1043330.530" DefaultRange="240" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="ZOTW1" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Manzanillo/Aeropuerto - Pistas" />
+        <Map Name="TMA Manzanillo/Aeropuerto - Fijos 10" />
+        <Map Name="TMA Manzanillo/Aeropuerto - Fijos 10 (Nombres)" />
+        <Map Name="TMA Manzanillo/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Manzanillo/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMZO" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="20000" />
+      <ArrivalLists>
+        <Airport Name="MMZO" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Torre Manzanillo / Manzanillo Tower</Line>
+        <Line>Serving MMZO arrivals and departures</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Centro México (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MEXC" />

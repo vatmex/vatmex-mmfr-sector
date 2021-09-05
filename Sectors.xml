@@ -347,6 +347,10 @@
   <Sector FullName="Aproximación Veracruz" Frequency="120.400" Callsign="MMVR_APP" Name="VRAPP">
     <Volumes>MMVR_TMA</Volumes>
   </Sector>
+  <!--MMZC TMA-->
+  <Sector FullName="Torre Zacatecas" Frequency="118.000" Callsign="MMZC_TWR" Name="ZCTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMZC_ATZ</Volumes>
+  </Sector>
   <!--MMZH TMA-->
   <Sector FullName="Torre Zihuatanejo" Frequency="118.300" Callsign="MMZH_TWR" Name="ZHTW1" DisplayInHandoffWindow="False">
     <Volumes>MMZH_CTR</Volumes>
@@ -354,10 +358,10 @@
   <Sector FullName="Aproximación Zihuatanejo" Frequency="121.000" Callsign="MMZH_APP" Name="ZHAPP" DisplayInHandoffWindow="False">
     <Volumes>MMZH_TMA</Volumes>
   </Sector>
-  <!--MMVR TMA-->
-  <Sector FullName="Torre Zacatecas" Frequency="118.000" Callsign="MMZC_TWR" Name="ZCTW1" DisplayInHandoffWindow="False">
-    <Volumes>MMZC_ATZ</Volumes>
-  </Sector>
+  <!--MMZH TMA-->
+  <Sector FullName="Torre Manzanillo" Frequency="118.700" Callsign="MMZO_APP" Name="ZOTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMZO_TMA</Volumes>
+  </Sector>  
   <!--MMEX ACC-->
   <Sector FullName="ACC México Sector SC" Frequency="125.100" Callsign="MMEX_CTR" Name="MEXC">
     <Volumes>MMEX_SECTOR_5, MMEX_SECTOR_9, MMEX_SECTOR_10</Volumes>
