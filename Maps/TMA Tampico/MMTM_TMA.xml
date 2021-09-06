@@ -20,7 +20,7 @@
       <Threshold Name="34" Position="+220154.500-0984821.500" />
     </Runway>
   </Map>
-  <Map Type="System" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+221723.359-0975151.892">
+  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+221723.359-0975151.892">
   	<Line Pattern="Dashed">
 +231658.584-0974505.840/
 +231634.016-0974144.153/
@@ -391,5 +391,87 @@
 +220717.657-0984829.240/
 +220717.521-0984812.319/
 +220716.563-0984755.429</Line>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 13" Priority="1" Center="+221723.359-0975151.892">
+    <Symbol Type="SolidTriangle">
+      <Point>EMORO</Point>
+      <Point>IPTUN</Point>
+      <Point>JEREZ</Point>
+      <Point>MAPIL</Point>
+      <Point>TAKLA</Point>
+      <Point>URVOX</Point>
+      <Point>XORMA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 13 (Nombres)" Priority="1" Center="+221723.359-0975151.892">
+    <Label HasLeader="false">
+      <Point>EMORO</Point>
+      <Point>IPTUN</Point>
+      <Point>JEREZ</Point>
+      <Point>MAPIL</Point>
+      <Point>TAKLA</Point>
+      <Point>URVOX</Point>
+      <Point>XORMA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 18" Priority="1" Center="+221723.359-0975151.892">
+    <Symbol Type="SolidTriangle">
+      <Point>EMORO</Point>
+      <Point>IPTUN</Point>
+      <Point>JEREZ</Point>
+      <Point>MAPIL</Point>
+      <Point>TAKLA</Point>
+      <Point>URVOX</Point>
+      <Point>XORMA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 18 (Nombres)" Priority="1" Center="+221723.359-0975151.892">
+    <Label HasLeader="false">
+      <Point>EMORO</Point>
+      <Point>IPTUN</Point>
+      <Point>JEREZ</Point>
+      <Point>MAPIL</Point>
+      <Point>TAKLA</Point>
+      <Point>URVOX</Point>
+      <Point>XORMA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 31" Priority="1" Center="+221723.359-0975151.892">
+    <Symbol Type="SolidTriangle">
+      <Point>ANILO</Point>
+      <Point>LEXOR</Point>
+      <Point>LOSBA</Point>
+      <Point>NOTOR</Point>
+      <Point>ONBUL</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 31 (Nombres)" Priority="1" Center="+221723.359-0975151.892">
+    <Label HasLeader="false">
+      <Point>ANILO</Point>
+      <Point>LEXOR</Point>
+      <Point>LOSBA</Point>
+      <Point>NOTOR</Point>
+      <Point>ONBUL</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 18" Priority="1" Center="+221723.359-0975151.892">
+    <Symbol Type="SolidTriangle">
+      <Point>ANILO</Point>
+      <Point>IPTUN</Point>
+      <Point>LEXOR</Point>
+      <Point>LOSBA</Point>
+      <Point>NOTOR</Point>
+      <Point>ONBUL</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 18 (Nombres)" Priority="1" Center="+221723.359-0975151.892">
+    <Label HasLeader="false">
+      <Point>ANILO</Point>
+      <Point>IPTUN</Point>
+      <Point>LEXOR</Point>
+      <Point>LOSBA</Point>
+      <Point>NOTOR</Point>
+      <Point>ONBUL</Point>
+    </Label>
   </Map>
 </Maps>

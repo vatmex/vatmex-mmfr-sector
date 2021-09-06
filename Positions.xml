@@ -179,7 +179,9 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Culiacan/Aeropuerto - Pistas" />
+        <Map Name="TMA Culiacan/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Culiacan/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Culiacan/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Culiacan/Pista 20 - Llegadas RNAV" />
         <Map Name="TMA Culiacan/Pista 20 - Llegadas RNAV (Nombres)" />
@@ -329,8 +331,10 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Hermosillo/Aeropuerto - Pistas" />
-        <Map Name="TMA Hermosillo/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Hermosillo/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Hermosillo/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Hermosillo/MMHO - Zona de Control (CTR)" />
+        <Map Name="TMA Hermosillo/MMGM - Zona de Transito de Aerodromo (ATZ)" />
 
         <Map Name="TMA Hermosillo/Pista 05 - Llegadas RNAV" />
         <Map Name="TMA Hermosillo/Pista 05 - Llegadas RNAV (Nombres)" />
@@ -426,6 +430,7 @@
         <Map Name="TMA La Paz/Aeropuerto - Fijos 18" />
         <Map Name="TMA La Paz/Aeropuerto - Fijos 18 (Nombres)" />
         <Map Name="TMA La Paz/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA La Paz/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="Universal/Sector - Aerovias" />
         <Map Name="Universal/Sector - Radioayudas" />
@@ -686,8 +691,10 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Cabos/Aeropuerto - Pistas" />
-        <Map Name="TMA Cabos/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Cabos/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cabos/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Cabos/MMSD - Zona de Control (CTR)" />
+        <Map Name="TMA Cabos/MMSL - Zona de Control (CTR)" />
 
         <Map Name="TMA Cabos/MMSD - Pista 34 - Llegadas RNAV" />
         <Map Name="TMA Cabos/MMSD - Pista 34 - Llegadas RNAV (Nombres)" />
@@ -761,7 +768,7 @@
       <Maps>
         <Map Name="TMA Tijuana/Aeropuerto - Pistas" />
         <Map Name="TMA Tijuana/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Tijuana/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Tijuana/MMTJ - Zona de Control (CTR)" />
 
         <Map Name="TMA Tijuana/Pista 27 - RNP 27" />
 
@@ -829,6 +836,7 @@
         <Map Name="TMA Tijuana/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Tijuana/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Tijuana/MMES - Zona de Transito de Aerodromo (ATZ)" />
+        <Map Name="TMA Tijuana/MMTJ - Zona de Control (CTR)" />
 
         <Map Name="TMA Tijuana/Pista 27 - Llegadas RNAV" />
         <Map Name="TMA Tijuana/Pista 27 - Llegadas RNAV (Nombres)" />
@@ -1263,7 +1271,7 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Merida/Aeropuerto - Pistas" />
-        <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR TMA) MMMD" />
+        <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Merida/Pista 10 - ILS DME 3 10" />
 
@@ -1292,8 +1300,9 @@
         <Sector Name="MDAPP" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Merida/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Merida/Aeropuerto - Pistas" />
+        <Map Name="TMA Merida/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Merida/Pista 10 - Llegadas RNAV" />
         <Map Name="TMA Merida/Pista 10 - Llegadas RNAV (Nombres)" />
@@ -1400,10 +1409,10 @@
         <Sector Name="UNCDL" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+
         <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
 
         <Map Name="ACC Merida/Limites - Sectores" />
@@ -1435,10 +1444,10 @@
         <Sector Name="UNSMC" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+
         <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
 
         <Map Name="ACC Merida/Limites - Sectores" />
@@ -1470,10 +1479,10 @@
         <Sector Name="UNRMP" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+
         <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
 
         <Map Name="ACC Merida/Limites - Sectores" />
@@ -1505,10 +1514,10 @@
         <Sector Name="UNTW1" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+
         <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
 
         <Map Name="ACC Merida/Limites - Sectores" />
@@ -1542,8 +1551,8 @@
       <Maps>
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
         <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-
         <Map Name="TMA Cancun/MMCZ - Zona de Control (CTR)" />
+
         <Map Name="TMA Cancun/MMCZ - Pista 12 - RNP 12" />
 
         <Map Name="ACC Merida/Limites - Sectores" />
@@ -1570,9 +1579,11 @@
         <Sector Name="UNAPP" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+        <Map Name="TMA Cancun/MMCZ - Zona de Control (CTR)" />
 
         <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV" />
         <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV (Nombres)" />
@@ -1609,9 +1620,11 @@
         <Sector Name="UNARR" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+        <Map Name="TMA Cancun/MMCZ - Zona de Control (CTR)" />
 
         <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV" />
         <Map Name="TMA Cancun/MMUN - Pistas 12 - Llegadas RNAV (Nombres)" />
@@ -1646,9 +1659,11 @@
         <Sector Name="UNDEP" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+        <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+        <Map Name="TMA Cancun/MMCZ - Zona de Control (CTR)" />
 
         <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV" />
         <Map Name="TMA Cancun/MMUN - Pistas 12 - Salidas RNAV (Nombres)" />
@@ -2097,8 +2112,8 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Acapulco/Aeropuerto - Pistas" />
-        <Map Name="TMA Acapulco/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Acapulco/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Acapulco/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Acapulco/Pista 28 - ILS 3" />
 
@@ -2130,8 +2145,9 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Acapulco/Aeropuerto - Pistas" />
-        <Map Name="TMA Acapulco/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Acapulco/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Acapulco/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Acapulco/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Acapulco/Pista 28 - Llegadas RNAV" />
         <Map Name="TMA Acapulco/Pista 28 - Llegadas RNAV (Nombres)" />
@@ -2299,8 +2315,9 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
-        <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV" />
         <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV (Nombres)" />
@@ -2342,8 +2359,9 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
-        <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV" />
         <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV (Nombres)" />
@@ -2409,8 +2427,8 @@
       <Maps>
         <Map Name="TMA Leon/Aeropuerto - Pistas" />
         <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
-
         <Map Name="TMA Leon/MMAS - Zona de Control (CTR)" />
+
         <Map Name="TMA Leon/MMAS - Pista 18 - RNP 18" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
@@ -2435,9 +2453,9 @@
       <Maps>
         <Map Name="TMA Leon/Aeropuerto - Pistas" />
         <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Leon/MMLO - Zona de Control (CTR)" />
 
         <Map Name="TMA Leon/MMLO - Pista 13 - RNP 13" />
-        <Map Name="TMA Leon/MMLO - Zona de Control (CTR)" />
 
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
@@ -2465,8 +2483,10 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Leon/Aeropuerto - Pistas" />
-        <Map Name="TMA Leon/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Leon/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Leon/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Leon/MMAS - Zona de Control (CTR)" />
+        <Map Name="TMA Leon/MMLO - Zona de Control (CTR)" />
 
         <Map Name="TMA Leon/MMAS - Pista 18 - Llegadas RNAV" />
         <Map Name="TMA Leon/MMAS - Pista 18 - Llegadas RNAV (Nombres)" />
@@ -2569,7 +2589,9 @@
         <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
         <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
 
+
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -2593,8 +2615,12 @@
         <Map Name="TMA Mexico/Aeropuerto - Pistas" />
         <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+        <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite" />
+        <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
+        <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3116,6 +3142,8 @@
         <Map Name="TMA Oaxaca/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3138,8 +3166,13 @@
       <Maps>
         <Map Name="TMA Oaxaca/Aeropuerto - Pistas" />
         <Map Name="TMA Oaxaca/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Oaxaca/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Oaxaca/Aeropuerto - Fijos 01" />
+        <Map Name="TMA Oaxaca/Aeropuerto - Fijos 01 (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3233,8 +3266,8 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
-        <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
         <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
 
         <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
 
@@ -3265,8 +3298,10 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
-        <Map Name="TMA Vallarta/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Vallarta/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
+        <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
 
         <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
         <Map Name="TMA Vallarta/Pista 04 - Llegadas RNAV (Nombres)" />
@@ -3303,8 +3338,10 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
-        <Map Name="TMA Vallarta/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Vallarta/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
+        <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
 
         <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
         <Map Name="TMA Vallarta/Pista 04 - Llegadas RNAV (Nombres)" />
@@ -3368,6 +3405,8 @@
         <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3383,16 +3422,20 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Querétaro - QTAPP" Type="ASD" DefaultCenter="+204132.000-0995817.000" DefaultRange="230" MagneticVariation="-7">
+    <Position Name="Aproximación Querétaro - QTAPP" Type="ASD" DefaultCenter="+204132.000-0995817.000" DefaultRange="220" MagneticVariation="-7">
       <Sectors>
         <Sector Name="QTAPP" />
       </Sectors>
       <Maps>
         <Map Name="TMA Queretaro/Aeropuerto - Pista" />
-        <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Queretaro/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Queretaro/Aeropuerto - Fijos 09" />
+        <Map Name="TMA Queretaro/Aeropuerto - Fijos 09 (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3417,6 +3460,8 @@
         <Map Name="TMA Potosi/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3444,8 +3489,13 @@
       <Maps>
         <Map Name="TMA Potosi/Aeropuerto - Pistas" />
         <Map Name="TMA Potosi/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Potosi/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Potosi/Aeropuerto - Fijos 14" />
+        <Map Name="TMA Potosi/Aeropuerto - Fijos 14 (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3523,8 +3573,12 @@
         <Map Name="TMA Tampico/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Tampico/MMTM - Zona de Control (CTR)" />
         <Map Name="TMA Tampico/MMTN - Zona de Tránsito de Aeródromo (ATZ)" />
+        <Map Name="TMA Tampico/Aeropuerto - Fijos 13" />
+        <Map Name="TMA Tampico/Aeropuerto - Fijos 13 (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3540,14 +3594,14 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Veracruz - VRTW1" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="50" MagneticVariation="-4">
+    <Position Name="Torre Veracruz - VRTW1" Type="ASD" DefaultCenter="+190844.810-0961114.510" DefaultRange="50" MagneticVariation="-4">
       <Sectors>
         <Sector Name="VRTW1" />
       </Sectors>
       <Maps>
         <Map Name="TMA Veracruz/Aeropuerto - Pistas" />
-        <Map Name="TMA Veracruz/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Veracruz/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Veracruz/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Veracruz/Pista 01 - RNP 01" />
 
@@ -3581,19 +3635,17 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Veracruz/Aeropuerto - Pistas" />
-        <Map Name="TMA Veracruz/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Veracruz/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Veracruz/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Veracruz/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Veracruz/Pista 01 - Llegadas RNAV" />
         <Map Name="TMA Veracruz/Pista 01 - Llegadas RNAV (Nombres)" />
-
         <Map Name="TMA Veracruz/Pista 01 - RNP 01" />
-
         <Map Name="TMA Veracruz/Pista 01 - Salidas RNAV" />
         <Map Name="TMA Veracruz/Pista 01 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
-
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <ATIS>
@@ -3672,8 +3724,12 @@
       <Maps>
         <Map Name="TMA Zihuatanejo/Aeropuerto - Pistas" />
         <Map Name="TMA Zihuatanejo/Aeropuerto - Area Terminal (TMA)" />
+        <Map Name="TMA Zihuatanejo/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Zihuatanejo/Aeropuerto - Fijos 32" />
+        <Map Name="TMA Zihuatanejo/Aeropuerto - Fijos 32 (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
+        <Map Name="Universal/Sector - Radioayudas" />
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -3695,10 +3751,10 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Manzanillo/Aeropuerto - Pistas" />
-        <Map Name="TMA Manzanillo/Aeropuerto - Fijos 10" />
-        <Map Name="TMA Manzanillo/Aeropuerto - Fijos 10 (Nombres)" />
         <Map Name="TMA Manzanillo/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Manzanillo/Aeropuerto - Zona de Control (CTR)" />
+        <Map Name="TMA Manzanillo/Aeropuerto - Fijos 10" />
+        <Map Name="TMA Manzanillo/Aeropuerto - Fijos 10 (Nombres)" />
 
         <Map Name="Universal/Sector - Aerovias" />
         <Map Name="Universal/Sector - Radioayudas" />
@@ -4067,8 +4123,8 @@
       </Sectors>
       <Maps>
         <Map Name="TMA Chihuahua/Aeropuerto - Pistas" />
-        <Map Name="TMA Chihuahua/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Chihuahua/Aeropuerto - Minimas de Vectoreo" />
+        <Map Name="TMA Chihuahua/Aeropuerto - Zona de Control (CTR)" />
 
         <Map Name="TMA Chihuahua/Pistas 36 - ILS 4 36R" />
 
@@ -4099,8 +4155,8 @@
         <Sector Name="CUAPP" />
       </Sectors>
       <Maps>
-        <Map Name="TMA Chihuahua/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Chihuahua/Aeropuerto - Pistas" />
+        <Map Name="TMA Chihuahua/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Chihuahua/Aeropuerto - Zona de Control (CTR)" />
         <Map Name="TMA Chihuahua/Aeropuerto - Minimas de Vectoreo" />
 
