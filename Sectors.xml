@@ -46,7 +46,9 @@
   <Sector FullName="Torre Peñasco" Frequency="118.850" Callsign="MMPE_TWR" Name="PETW1" DisplayInHandoffWindow="False">
     <Volumes>MMPE_ATZ</Volumes>
   </Sector>
-  <Sector FullName="Terrestre San José" Frequency="134.100" Callsign="MMSD_GND" Name="SDSMC" DisplayInHandoffWindow="False"/>
+  <Sector FullName="Terrestre San José" Frequency="134.100" Callsign="MMSD_GND" Name="SDSMC" DisplayInHandoffWindow="False">
+    <Volumes>MMSD_CTR</Volumes>
+  </Sector>
   <Sector FullName="Torre San José" Frequency="118.900" Callsign="MMSD_TWR" Name="SDTW1" DisplayInHandoffWindow="False">
     <Volumes>MMSD_CTR</Volumes>
   </Sector>
@@ -56,7 +58,9 @@
   <Sector FullName="Aproximación San Jose" Frequency="120.900" Callsign="MMSD_APP" Name="SDAPP" DisplayInHandoffWindow="False">
     <Volumes>MMSD_TMA</Volumes>
   </Sector>
-  <Sector FullName="Autorización Tijuana" Frequency="122.350" Callsign="MMTJ_DEL" Name="TJCDL" DisplayInHandoffWindow="False"/>
+  <Sector FullName="Autorización Tijuana" Frequency="122.350" Callsign="MMTJ_DEL" Name="TJCDL" DisplayInHandoffWindow="False">
+    <Volumes>MMTJ_CTR</Volumes>
+  </Sector>
   <Sector FullName="Torre Tijuana" Frequency="118.100" Callsign="MMTJ_TWR" Name="TJTW1" DisplayInHandoffWindow="False">
     <Volumes>MMTJ_CTR</Volumes>
   </Sector>
@@ -131,9 +135,15 @@
   <Sector FullName="Torre Tuxtla" Frequency="118.600" Callsign="MMTG_APP" Name="TGTW1" DisplayInHandoffWindow="False">
     <Volumes>MMTG_TMA</Volumes>
   </Sector>
-  <Sector FullName="Terrestre Cancún" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False"/>
-  <Sector FullName="Terrestre Este Cancún" Frequency="121.700" Callsign="MMUN_E_GND" Name="UNRMP" DisplayInHandoffWindow="False"/>
-  <Sector FullName="Autorización Cancún" Frequency="122.100" Callsign="MMUN_DEL" Name="UNCDL" DisplayInHandoffWindow="False"/>
+  <Sector FullName="Terrestre Cancún" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False">
+    <Volumes>MMUN_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Terrestre Este Cancún" Frequency="121.700" Callsign="MMUN_E_GND" Name="UNRMP" DisplayInHandoffWindow="False">
+    <Volumes>MMUN_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Autorización Cancún" Frequency="122.100" Callsign="MMUN_DEL" Name="UNCDL" DisplayInHandoffWindow="False">
+    <Volumes>MMUN_CTR</Volumes>
+  </Sector>
   <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZTW1" DisplayInHandoffWindow="False">
     <Volumes>MMCZ_CTR</Volumes>
   </Sector>
@@ -196,8 +206,12 @@
     <Volumes>MMBT_ATZ</Volumes>
   </Sector>
   <!--MMGL TMA-->
-  <Sector FullName="Autorización Guadalara" Frequency="132.800" Callsign="MMGL_DEL" Name="GLCDL" DisplayInHandoffWindow="False"/>
-  <Sector FullName="Terrestre Guadalara" Frequency="121.900" Callsign="MMGL_GND" Name="GLSMC" DisplayInHandoffWindow="False"/>
+  <Sector FullName="Autorización Guadalara" Frequency="132.800" Callsign="MMGL_DEL" Name="GLCDL" DisplayInHandoffWindow="False">
+    <Volumes>MMGL_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Terrestre Guadalara" Frequency="121.900" Callsign="MMGL_GND" Name="GLSMC" DisplayInHandoffWindow="False">
+    <Volumes>MMGL_CTR</Volumes>
+  </Sector>
   <Sector FullName="Torre Guadalara" Frequency="118.100" Callsign="MMGL_TWR" Name="GLTW1" DisplayInHandoffWindow="False">
     <Volumes>MMGL_CTR</Volumes>
   </Sector>
@@ -242,9 +256,15 @@
   <Sector FullName="Aproximación Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOAPP">
     <Volumes>MMTO_APP</Volumes>
   </Sector>
-  <Sector FullName="Autorización México" Frequency="122.100" Callsign="MMMX_DEL" Name="MXCDL" DisplayInHandoffWindow="False"/>
-  <Sector FullName="Terrestre México" Frequency="121.850" Callsign="MMMX_GND" Name="MXSMC" DisplayInHandoffWindow="False"/>
-  <Sector FullName="Terrestre Sur México" Frequency="121.000" Callsign="MMMX_S_GND" Name="MXRMP" DisplayInHandoffWindow="False"/>
+  <Sector FullName="Autorización México" Frequency="122.100" Callsign="MMMX_DEL" Name="MXCDL" DisplayInHandoffWindow="False">
+    <Volumes>MMMX_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Terrestre México" Frequency="121.850" Callsign="MMMX_GND" Name="MXSMC" DisplayInHandoffWindow="False">
+    <Volumes>MMMX_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Terrestre Sur México" Frequency="121.000" Callsign="MMMX_S_GND" Name="MXRMP" DisplayInHandoffWindow="False">
+    <Volumes>MMMX_CTR</Volumes>
+  </Sector>
   <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXTWR" DisplayInHandoffWindow="False">
     <Volumes>MMMX_CTR</Volumes>
   </Sector>
