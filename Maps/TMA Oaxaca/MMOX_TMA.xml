@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+284208.380-1055746.670">
+  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1">
     <Runway Name="01/19">
       <Threshold Name="01" Position="+165916.890-0964344.830" />
       <Threshold Name="19" Position="+170033.550-0964322.470" />
     </Runway>
   </Map>
-  <Map Type="System" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
   	<Line Pattern="Dashed">
 +175939.000-0960706.000/
 +175027.000-0960925.000/
@@ -243,5 +243,23 @@
 +171453.010-0964406.541/
 +171453.421-0964317.345/
 +171451.369-0964228.195</Line>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 01" Priority="1" Center="+165954.915-0964333.746">
+    <Symbol Type="SolidTriangle">
+      <Point>ISTMO</Point>
+      <Point>KESGO</Point>
+      <Point>MASAS</Point>
+      <Point>OTSUT</Point>
+      <Point>XONTA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 01 (Nombres)" Priority="1" Center="+165954.915-0964333.746">
+    <Label HasLeader="false">
+      <Point>ISTMO</Point>
+      <Point>KESGO</Point>
+      <Point>MASAS</Point>
+      <Point>OTSUT</Point>
+      <Point>XONTA</Point>
+    </Label>
   </Map>
 </Maps>
