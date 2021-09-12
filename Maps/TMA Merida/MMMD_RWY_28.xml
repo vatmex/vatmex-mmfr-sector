@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="Pista 28 - Llegadas RNAV" Priority="1" Center="+205613.280-0893927.700">
-    <Line Name="AVOM1B" Pattern="Dashed">
-    	AVOMA/ETGOT/MD805/TEXOB/MD802/HADOW
-    </Line>
-    <Line Name="CAEA1E" Pattern="Dashed">
-      CAEAR/ULISO/HADOW
-    </Line>
-    <Line Name="DYSO1B" Pattern="Dashed">
-      DYSON/XUDER/SEBEP
-    </Line>
-    <Line Name="GABO1B" Pattern="Dashed">
-      GABOB/ULISO/HADOW
-    </Line>
-    <Line Name="ILEL1B" Pattern="Dashed">
-      ILELA/UDNAP/SEBEP/MD801/ALRUN
-    </Line>
-    <Line Name="LIFT1C" Pattern="Dashed">
-      LIFTS/KETNI/ALRUN
-    </Line>
-    <Line Name="NAPR1C" Pattern="Dashed">
-      NAPRI/RAKEP/VOLOR
-    </Line>
-    <Line Name="XUBS1C" Pattern="Dashed">
-      XUBSU/ETGOT/MD805/TEXOB/MD802/HADOW
-    </Line>
-    <Line Name="ELSI1E" Pattern="Dashed">
-      ELSIP/VERVA/ALRUN
-    </Line>
-    <Line Name="LIFT1D" Pattern="Dashed">
-      LIFTS/KETNI/ALRUN
-    </Line>
-    <Line Name="NAPR1D" Pattern="Dashed">
-      NAPRI/RAKEP/VOLOR
-    </Line>
+    <Line Name="AVOM1B" Pattern="Dashed">AVOMA/ETGOT/MD805/TEXOB/MD802/HADOW</Line>
+    <Line Name="CAEA1E" Pattern="Dashed">CAEAR/ULISO/HADOW</Line>
+    <Line Name="DYSO1B" Pattern="Dashed">DYSON/XUDER/SEBEP</Line>
+    <Line Name="ELSI1E" Pattern="Dashed">ELSIP/VERVA/ALRUN</Line>
+    <Line Name="GABO1B" Pattern="Dashed">GABOB/ULISO/HADOW</Line>
+    <Line Name="ILEL1B" Pattern="Dashed">ILELA/UDNAP/SEBEP/MD801/ALRUN</Line>
+    <Line Name="LIFT1C" Pattern="Dashed">LIFTS/KETNI/ALRUN</Line>
+    <Line Name="LIFT1D" Pattern="Dashed">LIFTS/KETNI/ALRUN</Line>
+    <Line Name="NAPR1C" Pattern="Dashed">NAPRI/RAKEP/VOLOR</Line>
+    <Line Name="NAPR1D" Pattern="Dashed">NAPRI/RAKEP/VOLOR</Line>
+    <Line Name="XUBS1C" Pattern="Dashed">XUBSU/ETGOT/MD805/TEXOB/MD802/HADOW</Line>
     <Symbol Type="SolidTriangle">
       <Point>DYSON</Point>
       <Point>ILELA</Point>
@@ -94,59 +72,38 @@
     </Label>
   </Map>
   <Map Type="System" Name="Pista 28 - RNP 28" Priority="1" Center="+205613.280-0893927.700">
-    <Line Pattern="Solid">
-      HADOW/MD500
-    </Line>
-    <Line Pattern="Solid">
-      VOLOR/MD500</Line>
-    <Line Pattern="Solid">
-      ALRUN/MD500</Line>
-    <Line Pattern="Solid">
-      MD500/+205548.151-0893749.929</Line>
-      <Line Pattern="Solid">
-      +205520.649-0893651.485/+205543.884-0893644.724</Line>
-      <Line Pattern="Solid">
-      +205504.760-0893549.663/+205527.995-0893542.902</Line>
-      <Line Pattern="Solid">
-      +205448.864-0893447.844/+205512.099-0893441.084</Line>
-      <Line Pattern="Solid">
-      +205432.963-0893346.030/+205456.198-0893339.269</Line>
-      <Line Pattern="Solid">
-      +205405.437-0893247.598/+205451.907-0893234.078</Line>
-      <Line Pattern="Solid">
-      +205401.140-0893142.411/+205424.375-0893135.651</Line>
-      <Line Pattern="Solid">
-      +205345.220-0893040.607/+205408.455-0893033.847</Line>
-      <Line Pattern="Solid">
-      +205329.293-0892938.807/+205352.528-0892932.047</Line>
-      <Line Pattern="Solid">
-      +205313.360-0892837.010/+205336.595-0892830.251</Line>
-      <Line Pattern="Solid">
-      +205245.804-0892738.596/+205332.274-0892725.078</Line>
+    <Line Pattern="Solid">HADOW/MD500</Line>
+    <Line Pattern="Solid">VOLOR/MD500</Line>
+    <Line Pattern="Solid">ALRUN/MD500</Line>
+    <Line Pattern="Solid">MD500/+205548.151-0893749.929</Line>
+    <Line Pattern="Solid">+205520.649-0893651.485/+205543.884-0893644.724</Line>
+    <Line Pattern="Solid">+205504.760-0893549.663/+205527.995-0893542.902</Line>
+    <Line Pattern="Solid">+205448.864-0893447.844/+205512.099-0893441.084</Line>
+    <Line Pattern="Solid">+205432.963-0893346.030/+205456.198-0893339.269</Line>
+    <Line Pattern="Solid">+205405.437-0893247.598/+205451.907-0893234.078</Line>
+    <Line Pattern="Solid">+205401.140-0893142.411/+205424.375-0893135.651</Line>
+    <Line Pattern="Solid">+205345.220-0893040.607/+205408.455-0893033.847</Line>
+    <Line Pattern="Solid">+205329.293-0892938.807/+205352.528-0892932.047</Line>
+    <Line Pattern="Solid">+205313.360-0892837.010/+205336.595-0892830.251</Line>
+    <Line Pattern="Solid">+205245.804-0892738.596/+205332.274-0892725.078</Line>
     <Symbol Type="HollowStar">
+      <Point>ALRUN</Point>
+      <Point>HADOW</Point>
       <Point>MD500</Point>
       <Point>MD501</Point>
+      <Point>VOLOR</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="Pista 28 - Salidas RNAV" Priority="1" Center="+205613.280-0893927.700">
-    <Line Name="BIBE1B" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/MD701/MD702/MD803/BIBER</Line>
-    <Line Name="CAEA1B" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/MD701/CAEAR</Line>
-    <Line Name="ELSI1B" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/MD704/MD703/ELSIP</Line>
-    <Line Name="EPNA1B" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/MD701/MD702/MD803/EPNAS</Line>
-    <Line Name="GREP1B" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/MD704/MD804/GREPE</Line>
-    <Line Name="ISAR1B" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/OTMAM/ISARO</Line>
-    <Line Name="NAPL1B" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/MD701/NAPLA</Line>
-    <Line Name="SIFT1B" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/MD704/SIFTO</Line>
-    <Line Name="VIVE1D" Pattern="Dotted">
-      +205612.900-0893926.266/MD700/OTMAM/VIVEP</Line>
+    <Line Name="BIBE1B" Pattern="Dotted">+205612.900-0893926.266/MD700/MD701/MD702/MD803/BIBER</Line>
+    <Line Name="CAEA1B" Pattern="Dotted">+205612.900-0893926.266/MD700/MD701/CAEAR</Line>
+    <Line Name="ELSI1B" Pattern="Dotted">+205612.900-0893926.266/MD700/MD704/MD703/ELSIP</Line>
+    <Line Name="EPNA1B" Pattern="Dotted">+205612.900-0893926.266/MD700/MD701/MD702/MD803/EPNAS</Line>
+    <Line Name="GREP1B" Pattern="Dotted">+205612.900-0893926.266/MD700/MD704/MD804/GREPE</Line>
+    <Line Name="ISAR1B" Pattern="Dotted">+205612.900-0893926.266/MD700/OTMAM/ISARO</Line>
+    <Line Name="NAPL1B" Pattern="Dotted">+205612.900-0893926.266/MD700/MD701/NAPLA</Line>
+    <Line Name="SIFT1B" Pattern="Dotted">+205612.900-0893926.266/MD700/MD704/SIFTO</Line>
+    <Line Name="VIVE1D" Pattern="Dotted">+205612.900-0893926.266/MD700/OTMAM/VIVEP</Line>
     <Symbol Type="SolidTriangle">
       <Point>ELSIP</Point>
       <Point>SIFTO</Point>
