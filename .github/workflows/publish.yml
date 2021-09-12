@@ -20,6 +20,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: ftp://ftp.sawbe.com/${{ steps.branch-name.outputs.current_branch }}
+        ftp-server: ftp://ftp.sawbe.com/${{ steps.branch-name.outputs.ref_branch }}
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
