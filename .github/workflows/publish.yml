@@ -15,8 +15,8 @@ jobs:
         filename: 'profile.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig *.md'
     - name: Get branch names
-        id: branch-name
-        uses: tj-actions/branch-names@v4.9
+      id: branch-name
+      uses: tj-actions/branch-names@v4.9
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
