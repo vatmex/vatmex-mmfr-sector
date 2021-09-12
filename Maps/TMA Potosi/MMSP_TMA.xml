@@ -10,7 +10,7 @@
       <Threshold Name="22" Position="+221530.366-1005533.180" />
     </Runway>
   </Map>
-  <Map Type="System" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+221515.342-1005550.738">
+  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+221515.342-1005550.738">
   	<Line Pattern="Dashed">
 +223826.000-1015537.000/
 +224227.219-1015332.239/
@@ -205,5 +205,43 @@
 +222813.843-1005620.110/
 +222814.199-1005536.047/
 +222812.420-1005452.024</Line>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 14" Priority="1" Center="+253405.840-1032438.440">
+    <Symbol Type="SolidTriangle">
+      <Point>ALOMA</Point>
+      <Point>DUPMI</Point>
+      <Point>ESPOT</Point>
+      <Point>ILARI</Point>
+      <Point>KEPLU</Point>
+      <Point>LENIM</Point>
+      <Point>LIDOX</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 14 (Nombres)" Priority="1" Center="+253405.840-1032438.440">
+    <Label HasLeader="false">
+      <Point>ALOMA</Point>
+      <Point>DUPMI</Point>
+      <Point>ESPOT</Point>
+      <Point>ILARI</Point>
+      <Point>KEPLU</Point>
+      <Point>LENIM</Point>
+      <Point>LIDOX</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 32" Priority="1" Center="+253405.840-1032438.440">
+    <Symbol Type="SolidTriangle">
+      <Point>ALOMA</Point>
+      <Point>COYOL</Point>
+      <Point>MERGO</Point>
+      <Point>TAMSA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aeropuerto - Fijos 32 (Nombres)" Priority="1" Center="+253405.840-1032438.440">
+    <Label HasLeader="false">
+      <Point>ALOMA</Point>
+      <Point>COYOL</Point>
+      <Point>MERGO</Point>
+      <Point>TAMSA</Point>
+    </Label>
   </Map>
 </Maps>
