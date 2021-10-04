@@ -162,7 +162,7 @@
   <Sector FullName="Torre Villahermosa" Frequency="118.700" Callsign="MMVA_TWR" Name="VATW1" DisplayInHandoffWindow="False">
     <Volumes>MMVA_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Villahermosa" Frequency="120.900" Callsign="MMVA_APP" Name="VAAPP">
+  <Sector FullName="Aproximación Villahermosa" Frequency="120.900" Callsign="MMVA_APP" Name="VAAPP" DisplayInHandoffWindow="False">
     <Volumes>MMVA_TMA</Volumes>
   </Sector>
   <Sector FullName="ACC Mérida Sector SC" Frequency="128.300" Callsign="MMID_CTR" Name="MIDC">
@@ -236,7 +236,7 @@
     <Volumes>MMLO_TMA</Volumes>
   </Sector>
   <!--MMMM TMA-->
-  <Sector FullName="Torre Morelia" Frequency="118.500" Callsign="MMMM_APP" Name="MMTW1">
+  <Sector FullName="Torre Morelia" Frequency="118.500" Callsign="MMMM_APP" Name="MMTW1" DisplayInHandoffWindow="False">
     <Volumes>MMMM_TMA</Volumes>
   </Sector>
   <!--MMMX TMA-->
