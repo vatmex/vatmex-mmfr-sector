@@ -503,7 +503,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Mazatlan - MZTW1" Type="ASD" DefaultCenter="+230927.423-1061621.931" DefaultRange="50" MagneticVariation="-9">
+    <Position Name="Torre Mazatlan - MZTW1" Type="ASD" DefaultCenter="+230927.423-1061621.931" DefaultRange="50" MagneticVariation="-7">
       <Sectors>
         <Sector Name="MZTW1" />
       </Sectors>
@@ -534,7 +534,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Aproximación Mazatlan - MZAPP" Type="ASD" DefaultCenter="+231854.352-1061500.742" DefaultRange="250" MagneticVariation="-9" VisibilityRange="150">
+    <Position Name="Aproximación Mazatlan - MZAPP" Type="ASD" DefaultCenter="+231854.352-1061500.742" DefaultRange="250" MagneticVariation="-7" VisibilityRange="150">
       <Sectors>
         <Sector Name="MZAPP" />
       </Sectors>
@@ -1946,6 +1946,7 @@
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_TWY" />
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_BLD" />
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_LABELS" />
+        <Map Name="TMA Guadalajara/ASMGCS_MMGL_LINES" />
       </Maps>
     </Position>
     <Position Name="MMIA" Type="ASMGCS" ASMGCSAirport="MMIA" DefaultCenter="+191637.240-1033439.370" DefaultRange="2" MagneticVariation="-8">
@@ -2050,6 +2051,7 @@
         <Map Name="TMA Queretaro/ASMGCS_MMQT_APR" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_TWY" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_BLD" />
+        <Map Name="TMA Queretaro/ASMGCS_MMQT_LABELS" />
       </Maps>
     </Position>
     <Position Name="MMSP" Type="ASMGCS" ASMGCSAirport="MMSP" DefaultCenter="+221540.500-1005604.000" DefaultRange="2" MagneticVariation="-5">
@@ -2207,7 +2209,7 @@
         <Point>+164515.456-0994448.684</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Torre Huatulco - BTTW1" Type="ASD" DefaultCenter="+154631.183-0961545.199" DefaultRange="25" MagneticVariation="-5">
+    <Position Name="Torre Huatulco - BTTW1" Type="ASD" DefaultCenter="+154631.183-0961545.199" DefaultRange="25" MagneticVariation="-3">
       <Sectors>
         <Sector Name="BTTW1" />
       </Sectors>

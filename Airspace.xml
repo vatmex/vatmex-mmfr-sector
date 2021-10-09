@@ -944,6 +944,28 @@
         <STAR Name="SLW1C" ApproachName="ILS295.OKOTO" />
       </Runway>
     </Airport>
+    <Airport Name="MMMZ">
+      <Runway Name="09" DataRunway="09">
+        <SID Name="MZT5A" Default="True" />
+        <SID Name="AJORO4" />
+        <SID Name="ALILI4" />
+        <SID Name="LESIT3" />
+        <SID Name="POST4A" />
+        <SID Name="SARIO4" />
+        <SID Name="TAPR2A" />
+        <SID Name="XUBUD3" />
+      </Runway>
+      <Runway Name="27" DataRunway="27">
+        <SID Name="MZT5B" Default="True" />
+        <SID Name="DUPOP3" />
+        <SID Name="GAMOS4" />
+        <SID Name="ISLAS4" />
+        <SID Name="PALIA4" />
+        <SID Name="POST4B" />
+        <SID Name="TAPR2B" />
+        <SID Name="UKRIG3" />
+      </Runway>
+    </Airport>
     <Airport Name="MMNL">
       <Runway Name="14" DataRunway="14">
         <SID Name="NLD3A" Default="True" />
@@ -7425,47 +7447,53 @@
       <Route>OKOTO MY403 MY408</Route>
     </Approach>
     <!--MMMZ-->
-    <SID Name="MZT3A" Airport="MMMZ" Runways="08">
-      <Route Runway="08">MZT</Route>
+    <SID Name="MZT5A" Airport="MMMZ" Runways="09">
+      <Route Runway="09">MZT</Route>
     </SID>
-    <SID Name="MZT3B" Airport="MMMZ" Runways="26">
-      <Route Runway="26">MZT</Route>
+    <SID Name="MZT5B" Airport="MMMZ" Runways="27">
+      <Route Runway="27">MZT</Route>
     </SID>
-    <SID Name="AJORO2" Airport="MMMT" Runways="01">
-      <Route Runway="01">AJORO</Route>
+    <SID Name="AJORO4" Airport="MMMZ" Runways="09">
+      <Route Runway="09">AJORO</Route>
     </SID>
-    <SID Name="ALILI2" Airport="MMMT" Runways="01">
-      <Route Runway="01">ALILI</Route>
+    <SID Name="ALILI4" Airport="MMMZ" Runways="09">
+      <Route Runway="09">ALILI</Route>
     </SID>
-    <SID Name="DUPOP1" Airport="MMMZ" Runways="26">
-      <Route Runway="26">DUPOP</Route>
+    <SID Name="DUPOP3" Airport="MMMZ" Runways="27">
+      <Route Runway="27">DUPOP</Route>
     </SID>
-    <SID Name="GAMOS2" Airport="MMMZ" Runways="26">
-      <Route Runway="26">GAMOS</Route>
+    <SID Name="GAMOS4" Airport="MMMZ" Runways="27">
+      <Route Runway="27">GAMOS</Route>
     </SID>
-    <SID Name="ISLAS2" Airport="MMMZ" Runways="26">
-      <Route Runway="26">ISLAS</Route>
+    <SID Name="ISLAS4" Airport="MMMZ" Runways="27">
+      <Route Runway="27">ISLAS</Route>
     </SID>
-    <SID Name="LESIT1" Airport="MMMT" Runways="01">
-      <Route Runway="01">LESIT</Route>
+    <SID Name="LESIT3" Airport="MMMZ" Runways="09">
+      <Route Runway="09">LESIT</Route>
     </SID>
-    <SID Name="PALIA2" Airport="MMMZ" Runways="26">
-      <Route Runway="26">PALIA</Route>
+    <SID Name="PALIA4" Airport="MMMZ" Runways="27">
+      <Route Runway="27">PALIA</Route>
     </SID>
-    <SID Name="POST2A" Airport="MMMT" Runways="01">
-      <Route Runway="01">POSTA</Route>
+    <SID Name="POST4A" Airport="MMMZ" Runways="09">
+      <Route Runway="09">POSTA</Route>
     </SID>
-    <SID Name="POST2B" Airport="MMMZ" Runways="26">
-      <Route Runway="26">POSTA</Route>
+    <SID Name="POST4B" Airport="MMMZ" Runways="27">
+      <Route Runway="27">POSTA</Route>
     </SID>
-    <SID Name="SARIO2" Airport="MMMT" Runways="01">
-      <Route Runway="01">SARIO</Route>
+    <SID Name="SARIO4" Airport="MMMZ" Runways="09">
+      <Route Runway="09">SARIO</Route>
     </SID>
-    <SID Name="UKRIG1" Airport="MMMZ" Runways="26">
-      <Route Runway="26">UKRIG</Route>
+    <SID Name="TAPR2A" Airport="MMMZ" Runways="09">
+      <Route Runway="09">TAPRO</Route>
     </SID>
-    <SID Name="XUBUD1" Airport="MMMT" Runways="01">
-      <Route Runway="01">XUBUD</Route>
+    <SID Name="TAPR2B" Airport="MMMZ" Runways="27">
+      <Route Runway="27">TAPRO</Route>
+    </SID>
+    <SID Name="UKRIG3" Airport="MMMZ" Runways="27">
+      <Route Runway="27">UKRIG</Route>
+    </SID>
+    <SID Name="XUBUD3" Airport="MMMZ" Runways="09">
+      <Route Runway="09">XUBUD</Route>
     </SID>
     <!--MMNL-->
     <SID Name="NLD3A" Airport="MMNL" Runways="14">
@@ -9383,8 +9411,8 @@
       <Runway Name="34" Position="+254620.770-1000618.970" />
     </Airport>
     <Airport ICAO="MMMZ" FullName="MAZATLAN" Position="+230941.330-1061552.460" Elevation="38">
-      <Runway Name="08" Position="+230943.630-1061639.900" />
-      <Runway Name="26" Position="+230938.990-1061504.980" />
+      <Runway Name="09" Position="+230943.630-1061639.900" />
+      <Runway Name="27" Position="+230938.990-1061504.980" />
     </Airport>
     <Airport ICAO="MMNG" FullName="NOGALES" Position="+311335.000-1105836.000" Elevation="4010" />
     <Airport ICAO="MMNL" FullName="NUEVO LEON" Position="+272636.113-0993411.709" Elevation="484">
