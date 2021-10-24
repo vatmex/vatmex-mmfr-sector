@@ -70,14 +70,14 @@
   <Sector FullName="Aproximación Tijuana" Frequency="120.300" Callsign="MMTJ_APP" Name="TJAPP">
     <Volumes>MMTJ_TMA</Volumes>
   </Sector>
-  <Sector FullName="ACC Mazatlan SC" Frequency="128.300" Callsign="MMZT_CTR" Name="MZTC">
-    <Volumes>MMZT_SECTOR_1,MMZT_SECTOR_2,MMZT_SECTOR_3,MMZT_SECTOR_4,MMZT_SECTOR_5,MMZT_SECTOR_6,MMZT_SECTOR_7</Volumes>
+  <Sector FullName="ACC Mazatlan Combinado" Frequency="128.300" Callsign="MMZT_CTR" Name="MZTC">
+    <ResponsibleSectors>MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC Mazatlan SW" Frequency="128.300" Callsign="MMZT_W_CTR" Name="MZTW">
-    <Volumes>MMZT_SECTOR_1,MMZT_SECTOR_2,MMZT_SECTOR_7</Volumes>
+    <ResponsibleSectors>MZT1,MZT2,MZT7</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC Mazatlan SE" Frequency="128.000" Callsign="MMZT_E_CTR" Name="MZTE">
-    <Volumes>MMZT_SECTOR_3,MMZT_SECTOR_4,MMZT_SECTOR_5,MMZT_SECTOR_6</Volumes>
+    <ResponsibleSectors>MZT3,MZT4,MZT5,MZT6</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC Mazatlan Sector 1" Frequency="128.300" Callsign="MMZT_1_CTR" Name="MZT1">
     <Volumes>MMZT_SECTOR_1</Volumes>
@@ -165,14 +165,14 @@
   <Sector FullName="Aproximación Villahermosa" Frequency="120.900" Callsign="MMVA_APP" Name="VAAPP" DisplayInHandoffWindow="False">
     <Volumes>MMVA_TMA</Volumes>
   </Sector>
-  <Sector FullName="ACC Mérida Sector SC" Frequency="128.300" Callsign="MMID_CTR" Name="MIDC">
-    <Volumes>MMID_SECTOR_1, MMID_SECTOR_2, MMID_SECTOR_3, MMID_SECTOR_4, MMID_SECTOR_5, MMID_SECTOR_6</Volumes>
+  <Sector FullName="ACC Mérida Combinado" Frequency="128.300" Callsign="MMID_CTR" Name="MIDC">
+    <ResponsibleSectors>MID1,MID2,MID3,MID4,MID5,MID6</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC Mérida Sector SE" Frequency="125.800" Callsign="MMID_E_CTR" Name="MIDE">
-    <Volumes>MMID_SECTOR_2, MMID_SECTOR_3, MMID_SECTOR_4</Volumes>
+    <ResponsibleSectors>MID2,MID3,MID4</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC Mérida Sector SW" Frequency="128.300" Callsign="MMID_W_CTR" Name="MIDW">
-    <Volumes>MMID_SECTOR_1, MMID_SECTOR_5, MMID_SECTOR_6</Volumes>
+    <ResponsibleSectors>MID1,MID5,MID6</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC Mérida Sector 1" Frequency="128.300" Callsign="MMID_1_CTR" Name="MID1">
     <Volumes>MMID_SECTOR_1</Volumes>
@@ -268,7 +268,9 @@
   <Sector FullName="Torre México" Frequency="118.550" Callsign="MMMX_TWR" Name="MXTWR" DisplayInHandoffWindow="False">
     <Volumes>MMMX_CTR</Volumes>
   </Sector>
-  <Sector FullName="Llegadas México" Frequency="129.650" Callsign="MMMX_T_APP" Name="MARR1" />
+  <Sector FullName="Llegadas México" Frequency="129.650" Callsign="MMMX_T_APP" Name="MARR1">
+    <ResponsibleSectors>MXLN5,MXLS5,MXLN23,MXLS23</ResponsibleSectors>
+  </Sector>
   <Sector FullName="Llegadas Norte México 05" Frequency="129.650" Callsign="MMMX_TN5_APP" Name="MXLN5" DisplayInHandoffWindow="False">
     <Volumes>MXLN5</Volumes>
   </Sector>
@@ -284,20 +286,24 @@
   <Sector FullName="Aproximación México Combinado" Frequency="121.200" Callsign="MMMX_APP" Name="MAPPC">
     <Volumes>MXAC</Volumes>
   </Sector>
-  <Sector FullName="Aproximación México" Frequency="121.200" Callsign="MMMX_1_APP" Name="MAPP1" />
+  <Sector FullName="Aproximación México" Frequency="121.200" Callsign="MMMX_1_APP" Name="MAPP1">
+    <ResponsibleSectors>MXA5,MXA23</ResponsibleSectors>
+  </Sector>
   <Sector FullName="Aproximación México 05" Frequency="121.200" Callsign="MMMX_5_APP" Name="MXA5" DisplayInHandoffWindow="False">
     <Volumes>MXA5</Volumes>
   </Sector>
   <Sector FullName="Aproximación México 23" Frequency="121.200" Callsign="MMMX_3_APP" Name="MXA23" DisplayInHandoffWindow="False">
     <Volumes>MXA23</Volumes>
   </Sector>
-  <Sector FullName="Final México 05" Frequency="119.750" Callsign="MMMX_F_APP" Name="FNL05" >
+  <Sector FullName="Final México 05" Frequency="119.750" Callsign="MMMX_F_APP" Name="FNL05">
     <Volumes>MXF5</Volumes>
   </Sector>
-  <Sector FullName="Final México 23" Frequency="119.750" Callsign="MMMX_F2_APP" Name="FNL23" >
+  <Sector FullName="Final México 23" Frequency="119.750" Callsign="MMMX_F2_APP" Name="FNL23">
     <Volumes>MXF23</Volumes>
   </Sector>
-  <Sector FullName="Salidas México" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP" />
+  <Sector FullName="Salidas México" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP">
+    <ResponsibleSectors>MXD5,MXD23</ResponsibleSectors>
+  </Sector>
   <Sector FullName="Salidas México 05" Frequency="120.500" Callsign="MMMX_5_DEP" Name="MXD5" DisplayInHandoffWindow="False">
     <Volumes>MXD5</Volumes>
   </Sector>
@@ -383,14 +389,17 @@
     <Volumes>MMZO_TMA</Volumes>
   </Sector>  
   <!--MMEX ACC-->
-  <Sector FullName="ACC México Sector SC" Frequency="125.100" Callsign="MMEX_CTR" Name="MEXC">
-    <Volumes>MMEX_SECTOR_5, MMEX_SECTOR_9, MMEX_SECTOR_10</Volumes>
+  <Sector FullName="ACC México Combinado" Frequency="126.600" Callsign="MMEX_CTR" Name="MEXC">
+    <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="ACC México Sector SS" Frequency="126.600" Callsign="MMEX_S_CTR" Name="MEXS">
+    <ResponsibleSectors>MEX5,MEX9,MEX10</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC México Sector SW" Frequency="126.150" Callsign="MMEX_W_CTR" Name="MEXW">
-    <Volumes>MMEX_SECTOR_6, MMEX_SECTOR_7, MMEX_SECTOR_8</Volumes>
+    <ResponsibleSectors>MEX6,MEX7,MEX8</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC México Sector SE" Frequency="123.500" Callsign="MMEX_E_CTR" Name="MEXE">
-    <Volumes>MMEX_SECTOR_1, MMEX_SECTOR_2, MMEX_SECTOR_2, MMEX_SECTOR_3, MMEX_SECTOR_4</Volumes>
+    <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4</ResponsibleSectors>    
   </Sector>
   <Sector FullName="ACC México Sector 1" Frequency="126.600" Callsign="MMEX_1_CTR" Name="MEX1">
     <Volumes>MMEX_SECTOR_1</Volumes>
@@ -484,14 +493,14 @@
   <Sector FullName="Aproximación Torreón" Frequency="119.600" Callsign="MMTC_APP" Name="TCAPP" DisplayInHandoffWindow="False">
     <Volumes>MMTC_TMA</Volumes>
   </Sector>  
-  <Sector FullName="ACC Monterrey SC" Frequency="124.500" Callsign="MMTY_CTR" Name="MTYC">
-    <Volumes>MMTY_SECTOR_1, MMTY_SECTOR_2, MMTY_SECTOR_3, MMTY_SECTOR_4, MMTY_SECTOR_5</Volumes>
+  <Sector FullName="ACC Monterrey Combinado" Frequency="124.500" Callsign="MMTY_CTR" Name="MTYC">
+    <ResponsibleSectors>MTY1,MTY2,MTY3,MTY4,MTY5</ResponsibleSectors>
   </Sector>
-  <Sector FullName="ACC Monterrey SW" Frequency="124.500" Callsign="MMTY_W_CTR" Name="MTYW">
-    <Volumes>MMTY_SECTOR_3, MMTY_SECTOR_4, MMTY_SECTOR_5</Volumes>
+  <Sector FullName="ACC Monterrey SW" Frequency="124.500" Callsign="MMTY_W_CTR" Name="MTYW">    
+    <ResponsibleSectors>MTY3,MTY4,MTY5</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC Monterrey SE" Frequency="124.500" Callsign="MMTY_E_CTR" Name="MTYE">
-    <Volumes>MMTY_SECTOR_1, MMTY_SECTOR_2</Volumes>
+    <ResponsibleSectors>MTY1,MTY2</ResponsibleSectors>
   </Sector>
   <Sector FullName="ACC Monterrey Sector 1" Frequency="124.500" Callsign="MMTY_1_CTR" Name="MTY1">
     <Volumes>MMTY_SECTOR_1</Volumes>

@@ -875,6 +875,13 @@
     <Position Name="Centro Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="400">
       <Sectors>
         <Sector Name="MZTC" />
+        <Sector Name="MZT1" />
+        <Sector Name="MZT2" />
+        <Sector Name="MZT3" />
+        <Sector Name="MZT4" />
+        <Sector Name="MZT5" />
+        <Sector Name="MZT6" />
+        <Sector Name="MZT7" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mazatlan/Radar - Cobertura" />
@@ -916,6 +923,10 @@
     <Position Name="Centro Mazatlan (SE) - MZTE" Type="ASD" DefaultCenter="+231401.508-1081845.656" DefaultRange="1150" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="300">
       <Sectors>
         <Sector Name="MZTE" />
+        <Sector Name="MZT3" />
+        <Sector Name="MZT4" />
+        <Sector Name="MZT5" />
+        <Sector Name="MZT6" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mazatlan/Radar - Cobertura" />
@@ -957,6 +968,9 @@
     <Position Name="Centro Mazatlan (SW) - MZTW" Type="ASD" DefaultCenter="+282947.445-1142936.531" DefaultRange="1000" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="300">
       <Sectors>
         <Sector Name="MZTW" />
+        <Sector Name="MZT1" />
+        <Sector Name="MZT2" />
+        <Sector Name="MZT7" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mazatlan/Radar - Cobertura" />
@@ -1771,6 +1785,12 @@
     <Position Name="Centro Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
       <Sectors>
         <Sector Name="MIDC" />
+        <Sector Name="MID1" />
+        <Sector Name="MID2" />
+        <Sector Name="MID3" />
+        <Sector Name="MID4" />
+        <Sector Name="MID5" />
+        <Sector Name="MID6" />
       </Sectors>
       <Maps>
         <Map Name="ACC Merida/Limites - Terminales" />
@@ -1791,7 +1811,7 @@
         <Window Type="ADEP" Beacon="MMUN" Visible="true" />
       </Strips>
       <CFL QuickLevel="27000">
-        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+        <AdditionalLevels>8800,9300</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMUN" />
@@ -1811,6 +1831,9 @@
     <Position Name="Centro Mérida (SE) - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
       <Sectors>
         <Sector Name="MIDE" />
+        <Sector Name="MID2" />
+        <Sector Name="MID3" />
+        <Sector Name="MID4" />
       </Sectors>
       <Maps>
         <Map Name="ACC Merida/Limites - Sectores" />
@@ -1852,6 +1875,9 @@
     <Position Name="Centro Mérida (SW) - MIDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
       <Sectors>
         <Sector Name="MIDW" />
+        <Sector Name="MID1" />
+        <Sector Name="MID5" />
+        <Sector Name="MID6" />
       </Sectors>
       <Maps>
         <Map Name="ACC Merida/Limites - Sectores" />
@@ -2999,14 +3025,14 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMX" Visible="true" />
       </Strips>
-      <CFL QuickLevel="13000">
+      <CFL QuickLevel="18000">
         <AdditionalLevels>8200,9200</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="MMMX" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Llegadas Mexico / Llegadas Approach</Line>
+        <Line>Llegadas Mexico / Mexico Arrivals</Line>
         <Line>Serving MMMX, MMTO, MMCB, and MMPB arrivals</Line>
         <Line>ATIS available on 127.650</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
@@ -3887,8 +3913,61 @@
     <Position Name="Centro México (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MEXC" />
-        <Sector Name="MEXW" />
-        <Sector Name="MEXE" />
+        <Sector Name="MEX1" />
+        <Sector Name="MEX2" />
+        <Sector Name="MEX3" />
+        <Sector Name="MEX4" />
+        <Sector Name="MEX5" />
+        <Sector Name="MEX6" />
+        <Sector Name="MEX7" />
+        <Sector Name="MEX8" />
+        <Sector Name="MEX9" />
+        <Sector Name="MEX10" />
+      </Sectors>
+      <Maps>
+        <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
+        <Map Name="ACC Mexico/Sector - Volcanes" />
+        <Map Name="ACC Mexico/Sector - Aerodromos" />
+        <Map Name="ACC Mexico/Limites - Sectores" />
+
+        <Map Name="Universal/Sector - Aerovias" />
+        <Map Name="Universal/Sector - Radioayudas" />
+        <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+        <Map Name="Universal/Sector - Fijos Principales" />
+        <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
+        <Window Airport="MMMX" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="MMMX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Centro Mexico / Mexico Center</Line>
+        <Line>MMMX ATIS available on 127.650</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+      <ManualVisibility>
+        <Point>+22.887442-102.693261</Point>
+        <Point>+22.289603-097.863022</Point>
+        <Point>+15.875106-097.081714</Point>
+        <Point>+19.149414-104.571297</Point>
+      </ManualVisibility>
+    </Position>
+    <Position Name="Centro México (SS) - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="MEXS" />
+        <Sector Name="MEX5" />
+        <Sector Name="MEX9" />
+        <Sector Name="MEX10" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
@@ -3931,48 +4010,9 @@
     <Position Name="Centro México (SW) - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MEXW" />
-      </Sectors>
-      <Maps>
-        <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
-        <Map Name="ACC Mexico/Sector - Volcanes" />
-        <Map Name="ACC Mexico/Sector - Aerodromos" />
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Sector - Aerovias" />
-        <Map Name="Universal/Sector - Radioayudas" />
-        <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-        <Map Name="Universal/Sector - Fijos Principales" />
-        <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
-        <Map Name="Universal/Geografia - Linea de Costa" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
-        <Window Airport="MMMX" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="12000">
-        <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMMX" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Centro Mexico / Mexico Center</Line>
-        <Line>MMMX ATIS available on 126.750</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-      <ManualVisibility>
-        <Point>+22.887442-102.693261</Point>
-        <Point>+22.289603-097.863022</Point>
-        <Point>+15.875106-097.081714</Point>
-        <Point>+19.149414-104.571297</Point>
-      </ManualVisibility>
-    </Position>
-    <Position Name="Centro México (SC) - MEXC" Type="ASD" DefaultCenter="+193548.414-1001642.625" DefaultRange="750" MagneticVariation="-4" DynamicInfill="false">
-      <Sectors>
-        <Sector Name="MEXC" />
+        <Sector Name="MEX6" />
+        <Sector Name="MEX7" />
+        <Sector Name="MEX8" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
@@ -4015,6 +4055,10 @@
     <Position Name="Centro México (SE) - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="890" MagneticVariation="-4" DynamicInfill="false">
       <Sectors>
         <Sector Name="MEXE" />
+        <Sector Name="MEX1" />
+        <Sector Name="MEX2" />
+        <Sector Name="MEX3" />
+        <Sector Name="MEX4" />
       </Sectors>
       <Maps>
         <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
@@ -4774,6 +4818,11 @@
     <Position Name="Centro Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="MTYC" />
+        <Sector Name="MTY1" />
+        <Sector Name="MTY2" />
+        <Sector Name="MTY3" />
+        <Sector Name="MTY4" />
+        <Sector Name="MTY5" />
       </Sectors>
       <Maps>
         <Map Name="ACC Monterrey/Radar - Cobertura" />
@@ -4813,6 +4862,8 @@
     <Position Name="Centro Monterrey SE - MTYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="MTYE" />
+        <Sector Name="MTY1" />
+        <Sector Name="MTY2" />
       </Sectors>
       <Maps>
         <Map Name="ACC Monterrey/Radar - Cobertura" />
@@ -4852,6 +4903,9 @@
     <Position Name="Centro Monterrey SW - MTYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="false">
       <Sectors>
         <Sector Name="MTYW" />
+        <Sector Name="MTY3" />
+        <Sector Name="MTY4" />
+        <Sector Name="MTY5" />
       </Sectors>
       <Maps>
         <Map Name="ACC Monterrey/Radar - Cobertura" />
