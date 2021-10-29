@@ -1011,17 +1011,17 @@
     </Position>
   </Group>
   <Group Name="ACC Mérida">
-    <Position Name="MMCE" Type="ASMGCS" ASMGCSAirport="MMCE" DefaultCenter="+183906.380-0914758.720" DefaultRange="3" MagneticVariation="-1">
+    <Position Name="MMCE" Type="ASMGCS" ASMGCSAirport="MMCE" DefaultCenter="+183906.380-0914758.720" DefaultRange="2" MagneticVariation="-3" Rotation="313">
       <Maps>
-      <Map Name="ATZ Ciudad del Carmen/ASMGCS_MMCE_RWY" />
-      <Map Name="ATZ Ciudad del Carmen/ASMGCS_MMCE_APR" />
-      <Map Name="ATZ Ciudad del Carmen/ASMGCS_MMCE_TWY" />
-      <Map Name="ATZ Ciudad del Carmen/ASMGCS_MMCE_BLD" />
-      <Map Name="ATZ Ciudad del Carmen/ASMGCS_MMCE_LABELS" />
-      <Map Name="ATZ Ciudad del Carmen/ASMGCS_MMCE_GATES" />
+      <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_RWY" />
+      <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_APR" />
+      <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_TWY" />
+      <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_BLD" />
+      <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_LABELS" />
+      <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_GATES" />
       </Maps>
     </Position>
-    <Position Name="MMCM" Type="ASMGCS" ASMGCSAirport="MMCM" DefaultCenter="+183017.620-0881938.930" DefaultRange="3" MagneticVariation="+1">
+    <Position Name="MMCM" Type="ASMGCS" ASMGCSAirport="MMCM" DefaultCenter="+183017.620-0881938.930" DefaultRange="2" MagneticVariation="+1" Rotation="161">
       <Maps>
         <Map Name="ATZ Chetumal/ASMGCS_MMCM_RWY" />
         <Map Name="ATZ Chetumal/ASMGCS_MMCM_APR" />
@@ -1031,7 +1031,7 @@
         <Map Name="ATZ Chetumal/ASMGCS_MMCM_GATES" />
       </Maps>
     </Position>
-    <Position Name="MMCP" Type="ASMGCS" ASMGCSAirport="MMCP" DefaultCenter="+194901.050-0903001.770" DefaultRange="3" MagneticVariation="-1">
+    <Position Name="MMCP" Type="ASMGCS" ASMGCSAirport="MMCP" DefaultCenter="+194901.050-0903001.770" DefaultRange="3" MagneticVariation="-1" Rotation="285">
       <Maps>
         <Map Name="ATZ Campeche/ASMGCS_MMCP_RWY" />
         <Map Name="ATZ Campeche/ASMGCS_MMCP_APR" />
@@ -1041,7 +1041,7 @@
         <Map Name="ATZ Campeche/ASMGCS_MMCP_GATES" />
       </Maps>
     </Position>
-    <Position Name="MMCT" Type="ASMGCS" ASMGCSAirport="MMCT" DefaultCenter="+203828.510-0882654.000" DefaultRange="3" MagneticVariation="+1">
+    <Position Name="MMCT" Type="ASMGCS" ASMGCSAirport="MMCT" DefaultCenter="+203828.510-0882654.000" DefaultRange="2" MagneticVariation="+1" Rotation="349">
       <Maps>
         <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_RWY" />
         <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_APR" />
@@ -1050,7 +1050,7 @@
         <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMCZ" Type="ASMGCS" ASMGCSAirport="MMCZ" DefaultCenter="+203117.420-0865546.070" DefaultRange="3" MagneticVariation="+2">
+    <Position Name="MMCZ" Type="ASMGCS" ASMGCSAirport="MMCZ" DefaultCenter="+203132.271-0865526.386" DefaultRange="3" MagneticVariation="+2" Rotation="332">
       <Maps>
         <Map Name="TMA Cancun/ASMGCS_MMCZ_RWY" />
         <Map Name="TMA Cancun/ASMGCS_MMCZ_APR" />
@@ -1060,16 +1060,16 @@
         <Map Name="TMA Cancun/ASMGCS_MMCZ_GATES" />
       </Maps>
     </Position>
-    <Position Name="MMIT" Type="ASMGCS" ASMGCSAirport="MMIT" DefaultCenter="+162656.290-0950537.110" DefaultRange="3" MagneticVariation="-4">
+    <Position Name="MMIT" Type="ASMGCS" ASMGCSAirport="MMIT" DefaultCenter="+162656.290-0950537.110" DefaultRange="2" MagneticVariation="-4" Rotation="94">
       <Maps>
-        <Map Name="CTR Ixtepec/ASMGCS_MMIT_RWY" />
-        <Map Name="CTR Ixtepec/ASMGCS_MMIT_APR" />
-        <Map Name="CTR Ixtepec/ASMGCS_MMIT_TWY" />
-        <Map Name="CTR Ixtepec/ASMGCS_MMIT_BLD" />
-        <Map Name="CTR Ixtepec/ASMGCS_MMIT_LABELS" />
+        <Map Name="ATZ Ixtepec/ASMGCS_MMIT_RWY" />
+        <Map Name="ATZ Ixtepec/ASMGCS_MMIT_APR" />
+        <Map Name="ATZ Ixtepec/ASMGCS_MMIT_TWY" />
+        <Map Name="ATZ Ixtepec/ASMGCS_MMIT_BLD" />
+        <Map Name="ATZ Ixtepec/ASMGCS_MMIT_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMMD" Type="ASMGCS" ASMGCSAirport="MMMD" DefaultCenter="+205607.1641-0893908.5313" DefaultRange="2" MagneticVariation="0">
+    <Position Name="MMMD" Type="ASMGCS" ASMGCSAirport="MMMD" DefaultCenter="+205546.230-0893851.052" DefaultRange="3" MagneticVariation="0" Rotation="269">
       <Maps>
         <Map Name="TMA Merida/ASMGCS_MMMD_RWY" />
         <Map Name="TMA Merida/ASMGCS_MMMD_APR" />
@@ -1078,7 +1078,7 @@
         <Map Name="TMA Merida/ASMGCS_MMMD_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMMT" Type="ASMGCS" ASMGCSAirport="MMMT" DefaultCenter="+180612.960-0943449.940" DefaultRange="3" MagneticVariation="-4">
+    <Position Name="MMMT" Type="ASMGCS" ASMGCSAirport="MMMT" DefaultCenter="+180612.960-0943449.940" DefaultRange="2" MagneticVariation="-4" Rotation="76">
       <Maps>
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_RWY" />
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_APR" />
@@ -1087,7 +1087,7 @@
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMPQ" Type="ASMGCS" ASMGCSAirport="MMPQ" DefaultCenter="+173159.020-0920056.400" DefaultRange="3" MagneticVariation="-1">
+    <Position Name="MMPQ" Type="ASMGCS" ASMGCSAirport="MMPQ" DefaultCenter="+173159.020-0920056.400" DefaultRange="2" MagneticVariation="-4" Rotation="169">
       <Maps>
         <Map Name="ATZ Palenque/ASMGCS_MMPQ_RWY" />
         <Map Name="ATZ Palenque/ASMGCS_MMPQ_APR" />
@@ -1096,7 +1096,7 @@
         <Map Name="ATZ Palenque/ASMGCS_MMPQ_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMTG" Type="ASMGCS" ASMGCSAirport="MMTG" DefaultCenter="+163342.390-0930133.990" DefaultRange="3" MagneticVariation="-4">
+    <Position Name="MMTG" Type="ASMGCS" ASMGCSAirport="MMTG" DefaultCenter="+163342.390-0930133.990" DefaultRange="2" MagneticVariation="-4" Rotation="126">
       <Maps>
         <Map Name="TMA Tuxtla Gutierrez/ASMGCS_MMTG_RWY" />
         <Map Name="TMA Tuxtla Gutierrez/ASMGCS_MMTG_APR" />
@@ -1106,7 +1106,7 @@
         <Map Name="TMA Tuxtla Gutierrez/ASMGCS_MMTG_GATES" />
       </Maps>
     </Position>
-    <Position Name="MMTP" Type="ASMGCS" ASMGCSAirport="MMTP" DefaultCenter="+144737.580-0922213.140" DefaultRange="3" MagneticVariation="-4">
+    <Position Name="MMTP" Type="ASMGCS" ASMGCSAirport="MMTP" DefaultCenter="+144737.580-0922213.140" DefaultRange="2" MagneticVariation="-4" Rotation="39">
       <Maps>
         <Map Name="ADA Tapachula/ASMGCS_MMTP_RWY" />
         <Map Name="ADA Tapachula/ASMGCS_MMTP_APR" />
@@ -1116,7 +1116,7 @@
         <Map Name="ADA Tapachula/ASMGCS_MMTP_GATES" />
       </Maps>
     </Position>
-    <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210233.870-0865223.520" DefaultRange="3" MagneticVariation="+2">
+    <Position Name="MMUN" Type="ASMGCS" ASMGCSAirport="MMUN" DefaultCenter="+210233.870-0865223.520" DefaultRange="2" MagneticVariation="+2" Rotation="324">
       <Maps>
         <Map Name="TMA Cancun/ASMGCS_MMUN_RWY" />
         <Map Name="TMA Cancun/ASMGCS_MMUN_APR" />
@@ -1125,7 +1125,7 @@
         <Map Name="TMA Cancun/ASMGCS_MMUN_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMVA" Type="ASMGCS" ASMGCSAirport="MMVA" DefaultCenter="+175947.160-0924901.680" DefaultRange="3" MagneticVariation="-4">
+    <Position Name="MMVA" Type="ASMGCS" ASMGCSAirport="MMVA" DefaultCenter="+175947.160-0924901.680" DefaultRange="2" MagneticVariation="-3" Rotation="6">
       <Maps>
         <Map Name="TMA Villahermosa/ASMGCS_MMVA_RWY" />
         <Map Name="TMA Villahermosa/ASMGCS_MMVA_APR" />
@@ -1370,7 +1370,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Palenque - PQTW1" Type="ASD" DefaultCenter="+173158.856-0920056.125" DefaultRange="20" MagneticVariation="-2">
+    <Position Name="Torre Palenque - PQTW1" Type="ASD" DefaultCenter="+173158.856-0920056.125" DefaultRange="20" MagneticVariation="-4">
       <Sectors>
         <Sector Name="PQTW1" />
       </Sectors>
