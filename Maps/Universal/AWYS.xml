@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
+  <Map Type="Local_Private" Name="Wordflight Rutas" Priority="1" Center="+204657.054-0865400.018">
+    <Line Name="Llegadas">JETIN/EVANZ/CLAMP/REMIS/KEHLI/AXOMU/ANALU</Line>
+    <Line Name="Salidas">ACA/KATRA/ANVAN/PXM/HUX/IPSUM/PENVA/TAP/PIXEN/PINDO/NOROS/IMOLA/ISEBA/BDT</Line>
+  </Map>
   <Map Type="System" Name="Sector - Aerovias" Priority="1" Center="+204657.054-0865400.018">
     <Line Width="0.6" Name="A317">TAP.A317.TECUN</Line>
     <Line Width="0.6" Name="A552">TAM.A552.GABEN</Line>
@@ -285,7 +289,7 @@
     <Line Width="0.6" Name="UT75">ILIGA.UT75.KEDIX</Line>
     <Line Width="0.6" Name="UT100">TAM.UT100.ENAGA</Line>
     <Line Width="0.6" Name="UT101">UBVOV.UT101.ENAGA</Line>
-    <Line Width="0.6" Name="UT103">TAM.UT103.UMAVO</Line>
+    <Line Width="0.6" Name="UT103">LEXOR.UT103.UMAVO</Line>
     <Line Width="0.6" Name="UT104">PAZ.UT104.LENUL</Line>
     <Line Width="0.6" Name="UT105">NOXOS.UT105.CHALY</Line>
     <Line Width="0.6" Name="UT106">ILOLU.UT106.COFRE</Line>
