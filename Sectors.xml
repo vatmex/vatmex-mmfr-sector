@@ -195,6 +195,12 @@
 
   <!--Centro de Control México-->
   <!--MMAA TMA-->
+  <Sector FullName="Autorización Acapulco" Frequency="123.900" Callsign="MMAA_DEL" Name="ACCDL" DisplayInHandoffWindow="False">
+    <Volumes>MMAA_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Terrestre Acapulco" Frequency="121.900" Callsign="MMAA_GND" Name="ACSMC" DisplayInHandoffWindow="False">
+    <Volumes>MMAA_CTR</Volumes>
+  </Sector>
   <Sector FullName="Torre Acapulco" Frequency="118.500" Callsign="MMAA_TWR" Name="ACTW1" DisplayInHandoffWindow="False">
     <Volumes>MMAA_CTR</Volumes>
   </Sector>
@@ -392,14 +398,17 @@
   <Sector FullName="ACC México Combinado" Frequency="126.600" Callsign="MMEX_CTR" Name="MEXC">
     <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>
   </Sector>
-  <Sector FullName="ACC México Sector SS" Frequency="126.600" Callsign="MMEX_SS_CTR" Name="MEXS">
-    <ResponsibleSectors>MEX5,MEX9,MEX10</ResponsibleSectors>
+  <Sector FullName="ACC México Sector NS" Frequency="128.500" Callsign="MMEX_NS_CTR" Name="MEXN">
+    <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>
   </Sector>
-  <Sector FullName="ACC México Sector SW" Frequency="126.150" Callsign="MMEX_WS_CTR" Name="MEXW">
-    <ResponsibleSectors>MEX6,MEX7,MEX8</ResponsibleSectors>
+  <Sector FullName="ACC México Sector SS" Frequency="123.500" Callsign="MMEX_SS_CTR" Name="MEXS">
+    <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>
   </Sector>
-  <Sector FullName="ACC México Sector SE" Frequency="123.500" Callsign="MMEX_ES_CTR" Name="MEXE">
-    <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4</ResponsibleSectors>    
+  <Sector FullName="ACC México Sector WS" Frequency="126.150" Callsign="MMEX_WS_CTR" Name="MEXW">
+    <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="ACC México Sector ES" Frequency="123.500" Callsign="MMEX_ES_CTR" Name="MEXE">
+    <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>    
   </Sector>
   <Sector FullName="ACC México Sector 1" Frequency="126.600" Callsign="MMEX_1_CTR" Name="MEX1">
     <Volumes>MMEX_SECTOR_1</Volumes>
