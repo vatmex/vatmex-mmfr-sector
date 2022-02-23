@@ -1683,7 +1683,7 @@
         MID/TAXTE/SIFTO/DANIS/VIDNO
     </Airway>
     <Airway Name="A766">
-        SBI/LAURL/KENGS/KELPP/KEHLI/SUVUM/LEVAT/ITLOM/IGTOB/MUXOG/AXEVU/VIGTU/VOBED/CZM/ITAKU/SIGMA
+        KEHLI/SUVUM/LEVAT/ITLOM/IGTOB/MUXOG/AXEVU/VIGTU/VOBED/CZM/ITAKU/SIGMA
     </Airway>
     <Airway Name="A770">
         KEHLI/TABSA/BETAS/MEDIR/MESNA/NAPLA/SISAL/MID/PAGAY/CANOZ/AXIMA/UKORO
@@ -2800,6 +2800,7 @@
     <Point Name="AA517" Type="Fix">+163602.700-0992401.700</Point>
     <Point Name="AA518" Type="Fix">+163623.000-0991657.500</Point>
     <Point Name="ACREW" Type="Fix">+255436.000-0973948.000</Point>
+    <Point Name="ADRAX" Type="Fix">+204429.000-0985514.000</Point>
     <Point Name="ADSUN" Type="Fix">+213056.000-0872011.000</Point>
     <Point Name="AGAVE" Type="Fix">+181404.000-0922724.000</Point>
     <Point Name="AGLON" Type="Fix">+172417.900-1001822.400</Point>
@@ -2956,6 +2957,7 @@
     <Point Name="ATUTO" Type="Fix">+174900.000-0902436.000</Point>
     <Point Name="AUTLA" Type="Fix">+153847.000-0960951.000</Point>
     <Point Name="AVALI" Type="Fix">+201130.000-0964444.000</Point>
+    <Point Name="AVAPA" Type="Fix">+295651.000-1093335.000</Point>
     <Point Name="AVATA" Type="Fix">+205830.000-0883821.000</Point>
     <Point Name="AVAVU" Type="Fix">+230908.400-1091606.400</Point>
     <Point Name="AVENA" Type="Fix">+321610.000-1162718.000</Point>
@@ -3020,11 +3022,12 @@
     <Point Name="BALCH" Type="Fix">+195019.100-0862249.900</Point>
     <Point Name="BAMPO" Type="Fix">+270508.000-1094150.000</Point>
     <Point Name="BASKO" Type="Fix">+185018.000-0932033.000</Point>
-    <Point Name="BECON" Type="Fix">+314717.000-1064243.000</Point>
+    <Point Name="BECON" Type="Fix">+314718.000-1064245.000</Point>
     <Point Name="BEPOR" Type="Fix">+211747.300-0880427.900</Point>
     <Point Name="BEREB" Type="Fix">+202142.300-0864742.800</Point>
     <Point Name="BEROS" Type="Fix">+244858.500-1005547.800</Point>
     <Point Name="BERUR" Type="Fix">+243249.000-1073750.400</Point>
+    <Point Name="BESAN" Type="Fix">+190858.000-0992831.000</Point>
     <Point Name="BESOG" Type="Fix">+222640.000-0923040.000</Point>
     <Point Name="BESUD" Type="Fix">+282605.000-1060118.600</Point>
     <Point Name="BESUV" Type="Fix">+231853.000-0985049.000</Point>
@@ -3033,6 +3036,7 @@
     <Point Name="BEXOL" Type="Fix">+221100.000-1062052.000</Point>
     <Point Name="BIBER" Type="Fix">+210824.000-0884730.000</Point>
     <Point Name="BISGA" Type="Fix">+255721.000-1033408.000</Point>
+    <Point Name="BITRO" Type="Fix">+204315.000-0991407.000</Point>
     <Point Name="BITVE" Type="Fix">+312044.000-1104836.000</Point>
     <Point Name="BOBDI" Type="Fix">+212245.700-1054448.400</Point>
     <Point Name="BOBLI" Type="Fix">+185849.500-0961840.500</Point>
@@ -3051,9 +3055,10 @@
     <Point Name="BUYCK" Type="Fix">+204503.801-0891252.300</Point>
     <Point Name="CAEAR" Type="Fix">+213738.000-0890903.000</Point>
     <Point Name="CAFIS" Type="Fix">+250402.000-1055121.000</Point>
+    <Point Name="CALIZ" Type="Fix">+202210.000-0992733.000</Point>
     <Point Name="CALHO" Type="Fix">+203319.800-0870105.800</Point>
     <Point Name="CAMUI" Type="Fix">+260755.000-0984029.000</Point>
-    <Point Name="CANOZ" Type="Fix">+200632.000-0894624.000</Point>
+    <Point Name="CANOZ" Type="Fix">+200632.000-0894623.000</Point>
     <Point Name="CAPUL" Type="Fix">+223942.000-1045215.000</Point>
     <Point Name="CAREL" Type="Fix">+151106.000-0923109.000</Point>
     <Point Name="CARLO" Type="Fix">+210302.649-1025225.057</Point>
@@ -3360,6 +3365,7 @@
     <Point Name="EPNEL" Type="Fix">+213833.500-0872738.600</Point>
     <Point Name="EPSEN" Type="Fix">+201110.000-1063030.000</Point>
     <Point Name="ERBOS" Type="Fix">+203402.000-1020504.000</Point>
+    <Point Name="ERDEL" Type="Fix">+183926.000-0975918.000</Point>
     <Point Name="ERDAM" Type="Fix">+211430.000-0870047.600</Point>
     <Point Name="ERDAN" Type="Fix">+210523.740-1033438.920</Point>
     <Point Name="ERILI" Type="Fix">+213345.000-0991635.000</Point>
@@ -3375,6 +3381,7 @@
     <Point Name="ETBAM" Type="Fix">+213102.900-1021311.100</Point>
     <Point Name="ETGOT" Type="Fix">+212516.298-0895512.399</Point>
     <Point Name="ETLEP" Type="Fix">+264419.000-1042016.000</Point>
+    <Point Name="ETMES" Type="Fix">+245545.000-0980721.000</Point>
     <Point Name="ETNAS" Type="Fix">+191209.000-0954509.000</Point>
     <Point Name="EVATE" Type="Fix">+245923.000-1075149.000</Point>
     <Point Name="FARCY" Type="Fix">+314234.000-1062205.000</Point>
@@ -3492,6 +3499,7 @@
     <Point Name="GOSIM" Type="Fix">+233957.100-1090042.700</Point>
     <Point Name="GOSUL" Type="Fix">+202516.000-0862840.000</Point>
     <Point Name="GOTAS" Type="Fix">+191741.000-0950328.400</Point>
+    <Point Name="GOXUM" Type="Fix">+255436.000-0973948.000</Point>
     <Point Name="GOYAS" Type="Fix">+210722.440-1030924.360</Point>
     <Point Name="GRALA" Type="Fix">+261407.900-1010401.100</Point>
     <Point Name="GREPE" Type="Fix">+200921.000-0892030.000</Point>
@@ -3548,7 +3556,7 @@
     <Point Name="IDEAL" Type="Fix">+232251.000-1014520.000</Point>
     <Point Name="IGROT" Type="Fix">+194950.000-1041327.000</Point>
     <Point Name="IGSAM" Type="Fix">+223034.500-1020304.900</Point>
-    <Point Name="IGSAR" Type="Fix">+211757.000-0883733.000</Point>
+    <Point Name="IGSAR" Type="Fix">+211757.000-0883732.000</Point>
     <Point Name="IGSAT" Type="Fix">+180828.700-1020844.700</Point>
     <Point Name="IGSON" Type="Fix">+195400.000-1021733.000</Point>
     <Point Name="IGTAN" Type="Fix">+290140.000-1095449.000</Point>
@@ -3558,6 +3566,7 @@
     <Point Name="IGVOR" Type="Fix">+255257.000-1005317.000</Point>
     <Point Name="IKBAN" Type="Fix">+210705.370-1024902.300</Point>
     <Point Name="IKBOR" Type="Fix">+240245.600-1082910.700</Point>
+    <Point Name="IKDOL" Type="Fix">+151106.000-0923109.000</Point>
     <Point Name="IKLAN" Type="Fix">+202602.170-0985326.220</Point>
     <Point Name="IKLEK" Type="Fix">+204240.000-0881013.000</Point>
     <Point Name="IKLEM" Type="Fix">+181049.000-1005039.000</Point>
@@ -3568,6 +3577,7 @@
     <Point Name="IKNOR" Type="Fix">+273518.000-1091739.000</Point>
     <Point Name="ILAMA" Type="Fix">+294840.000-1083000.000</Point>
     <Point Name="ILARI" Type="Fix">+222431.000-1012059.000</Point>
+    <Point Name="ILATO" Type="Fix">+261525.000-1110330.000</Point>
     <Point Name="ILAVI" Type="Fix">+242846.300-1084308.900</Point>
     <Point Name="ILAXA" Type="Fix">+194128.000-0985938.000</Point>
     <Point Name="ILEKO" Type="Fix">+201344.200-0865807.300</Point>
@@ -3580,6 +3590,7 @@
     <Point Name="ILOKA" Type="Fix">+254442.600-1010447.600</Point>
     <Point Name="ILOLI" Type="Fix">+222603.000-0913703.000</Point>
     <Point Name="ILOLU" Type="Fix">+195032.000-0972054.000</Point>
+    <Point Name="ILONO" Type="Fix">+195902.000-0981457.000</Point>
     <Point Name="ILUBA" Type="Fix">+201122.000-0852028.000</Point>
     <Point Name="ILUDA" Type="Fix">+290421.601-1111628.401</Point>
     <Point Name="ILURA" Type="Fix">+200221.000-1022248.000</Point>
@@ -3596,7 +3607,7 @@
     <Point Name="IMODA" Type="Fix">+233402.000-1003740.000</Point>
     <Point Name="IMOLI" Type="Fix">+232405.000-1041007.000</Point>
     <Point Name="IMOLO" Type="Fix">+211000.000-0860746.000</Point>
-    <Point Name="IMOSO" Type="Fix">+220433.000-1025409.000</Point>
+    <Point Name="IMOSO" Type="Fix">+220433.000-1025429.000</Point>
     <Point Name="IMUSU" Type="Fix">+271942.000-1121613.000</Point>
     <Point Name="INDIO" Type="Fix">+252458.000-1083609.000</Point>
     <Point Name="IO401" Type="Fix">+254004.200-1010446.900</Point>
@@ -3676,6 +3687,7 @@
     <Point Name="KEHLI" Type="Fix">+242910.000-0895025.000</Point>
     <Point Name="KEKMA" Type="Fix">+284713.000-1115605.000</Point>
     <Point Name="KEKRI" Type="Fix">+230455.000-0955838.000</Point>
+    <Point Name="KELBO" Type="Fix">+192127.000-0992548.000</Point>
     <Point Name="KELPP" Type="Fix">+271030.000-0915700.000</Point>
     <Point Name="KELVA" Type="Fix">+203007.790-1021921.080</Point>
     <Point Name="KEMTA" Type="Fix">+254711.600-1005053.700</Point>
@@ -3792,6 +3804,7 @@
     <Point Name="LOKMA" Type="Fix">+205931.000-0880629.000</Point>
     <Point Name="LOKRO" Type="Fix">+275034.000-1083406.000</Point>
     <Point Name="LOMSA" Type="Fix">+234637.000-1005549.000</Point>
+    <Point Name="LONBU" Type="Fix">+200745.000-0980255.000</Point>
     <Point Name="LONKU" Type="Fix">+201628.170-1022752.820</Point>
     <Point Name="LONPO" Type="Fix">+202005.832-1031651.646</Point>
     <Point Name="LONRI" Type="Fix">+241957.000-1052411.000</Point>
@@ -4042,9 +4055,11 @@
     <Point Name="NL903" Type="Fix">+271101.300-0994345.500</Point>
     <Point Name="NL910" Type="Fix">+265752.500-0995402.000</Point>
     <Point Name="NL913" Type="Fix">+274454.500-1001634.700</Point>
+    <Point Name="NOPON" Type="Fix">+182530.000-0921004.000</Point>
     <Point Name="NORAR" Type="Fix">+322316.000-1153820.000</Point>
     <Point Name="NOREL" Type="Fix">+190207.600-0950803.100</Point>
     <Point Name="NOSAT" Type="Fix">+215748.900-0855852.100</Point>
+    <Point Name="NOSIT" Type="Fix">+194154.000-0984516.000</Point>
     <Point Name="NOSOL" Type="Fix">+214506.000-1052850.000</Point>
     <Point Name="NOSOS" Type="Fix">+212355.000-0930846.000</Point>
     <Point Name="NOSUG" Type="Fix">+215131.700-0865545.800</Point>
@@ -4140,6 +4155,7 @@
     <Point Name="ONGEX" Type="Fix">+235721.000-1094508.000</Point>
     <Point Name="ONGIG" Type="Fix">+193141.000-0931150.000</Point>
     <Point Name="ONGIV" Type="Fix">+290605.000-1060835.000</Point>
+    <Point Name="ONGOB" Type="Fix">+231636.000-0982326.000</Point>
     <Point Name="ONGON" Type="Fix">+203125.000-1061720.000</Point>
     <Point Name="ONGUB" Type="Fix">+240357.000-0992017.000</Point>
     <Point Name="ONKAL" Type="Fix">+270523.000-0994915.000</Point>
@@ -4152,6 +4168,7 @@
     <Point Name="OTEKA" Type="Fix">+240235.000-1031757.000</Point>
     <Point Name="OTETA" Type="Fix">+200159.080-1030524.470</Point>
     <Point Name="OTEXA" Type="Fix">+284030.000-1083000.000</Point>
+    <Point Name="OTIGA" Type="Fix">+185313.000-0980944.000</Point>
     <Point Name="OTILO" Type="Fix">+184519.000-0960143.000</Point>
     <Point Name="OTIMA" Type="Fix">+245935.000-1072108.500</Point>
     <Point Name="OTIPO" Type="Fix">+240600.000-0890421.000</Point>
@@ -4243,6 +4260,7 @@
     <Point Name="PIRAR" Type="Fix">+205002.000-1025333.000</Point>
     <Point Name="PISAD" Type="Fix">+241719.000-0870825.000</Point>
     <Point Name="PISET" Type="Fix">+242959.000-1102518.000</Point>
+    <Point Name="PITUS" Type="Fix">+202135.000-0995032.000</Point>
     <Point Name="PITEL" Type="Fix">+192337.730-0983148.630</Point>
     <Point Name="PIVAN" Type="Fix">+200808.000-1004314.000</Point>
     <Point Name="PIVAS" Type="Fix">+191432.000-0993125.000</Point>
@@ -4251,7 +4269,7 @@
     <Point Name="PIXON" Type="Fix">+244051.000-1031008.000</Point>
     <Point Name="PLADE" Type="Fix">+202353.280-1030101.560</Point>
     <Point Name="PLAYA" Type="Fix">+250058.000-0972453.000</Point>
-    <Point Name="PLAZA" Type="Fix">+192329.000-0990908.000</Point>
+    <Point Name="PODIR" Type="Fix">+250934.000-1031754.000</Point>
     <Point Name="POSTA" Type="Fix">+233936.000-1061741.000</Point>
     <Point Name="PR400" Type="Fix">+203649.200-1051949.100</Point>
     <Point Name="PR401" Type="Fix">+203324.500-1052343.600</Point>
@@ -4323,6 +4341,7 @@
     <Point Name="RIBAX" Type="Fix">+185353.000-1001437.000</Point>
     <Point Name="RIBET" Type="Fix">+203148.000-0960901.000</Point>
     <Point Name="RIBIS" Type="Fix">+183515.000-0984221.000</Point>
+    <Point Name="RIDOL" Type="Fix">+292242.000-1103346.000</Point>
     <Point Name="RIDUG" Type="Fix">+211743.700-0870558.300</Point>
     <Point Name="RIGEP" Type="Fix">+210212.600-1014228.500</Point>
     <Point Name="RIKAN" Type="Fix">+263230.000-0993512.000</Point>
@@ -4344,6 +4363,7 @@
     <Point Name="SABOL" Type="Fix">+185635.000-0974439.000</Point>
     <Point Name="SAMAR" Type="Fix">+210947.297-1033112.883</Point>
     <Point Name="SANFE" Type="Fix">+305354.000-1145451.000</Point>
+    <Point Name="SANJE" Type="Fix">+202812.000-0995422.000</Point>
     <Point Name="SARIO" Type="Fix">+225517.000-1053541.000</Point>
     <Point Name="SASEN" Type="Fix">+215504.000-0885610.000</Point>
     <Point Name="SASES" Type="Fix">+264416.600-1000436.400</Point>
@@ -4406,6 +4426,7 @@
     <Point Name="SHAPA" Type="Fix">+244610.000-0954029.000</Point>
     <Point Name="SHAWA" Type="Fix">+225139.000-1085221.000</Point>
     <Point Name="SIBAU" Type="Fix">+225120.000-1092349.000</Point>
+    <Point Name="SIDGA" Type="Fix">+314443.000-1161037.000</Point>
     <Point Name="SIDPA" Type="Fix">+284206.000-1050114.000</Point>
     <Point Name="SIFTO" Type="Fix">+200614.000-0893531.000</Point>
     <Point Name="SIGDO" Type="Fix">+245746.000-1005548.000</Point>
@@ -4492,7 +4513,7 @@
     <Point Name="TETES" Type="Fix">+215303.200-1022500.300</Point>
     <Point Name="TETIN" Type="Fix">+270932.000-1092032.000</Point>
     <Point Name="TETUK" Type="Fix">+181747.000-0920115.000</Point>
-    <Point Name="TETUN" Type="Fix">+253350.000-1025648.000</Point>
+    <Point Name="TETUN" Type="Fix">+253350.000-1025647.000</Point>
     <Point Name="TEVEK" Type="Fix">+200800.000-1043444.000</Point>
     <Point Name="TEVET" Type="Fix">+192017.900-0970244.100</Point>
     <Point Name="TEVIR" Type="Fix">+315423.000-1154750.000</Point>
@@ -4598,6 +4619,7 @@
     <Point Name="TO910" Type="Fix">+191611.960-0993208.320</Point>
     <Point Name="TO911" Type="Fix">+191808.150-0994645.260</Point>
     <Point Name="TOPOS" Type="Fix">+320907.000-1163449.000</Point>
+    <Point Name="TOREO" Type="Fix">+201955.000-0993816.000</Point>
     <Point Name="TOTIL" Type="Fix">+203634.801-0894926.900</Point>
     <Point Name="TOVER" Type="Fix">+243949.000-1075520.000</Point>
     <Point Name="TOVES" Type="Fix">+312734.000-1162548.000</Point>
@@ -4620,6 +4642,7 @@
     <Point Name="UDGUV" Type="Fix">+204826.000-0874629.000</Point>
     <Point Name="UDLOG" Type="Fix">+193134.000-1042247.000</Point>
     <Point Name="UDMAN" Type="Fix">+211721.000-0993237.000</Point>
+    <Point Name="UDMOV" Type="Fix">+321158.000-1163111.000</Point>
     <Point Name="UDNAP" Type="Fix">+204236.100-0900801.399</Point>
     <Point Name="UGATA" Type="Fix">+185959.000-0950841.000</Point>
     <Point Name="UGERO" Type="Fix">+165037.000-0954727.000</Point>
@@ -4644,6 +4667,7 @@
     <Point Name="ULDUD" Type="Fix">+322212.000-1162344.000</Point>
     <Point Name="ULEBA" Type="Fix">+190052.630-1000843.370</Point>
     <Point Name="ULEGO" Type="Fix">+194846.000-1000109.000</Point>
+    <Point Name="ULIKO" Type="Fix">+245627.000-1044617.000</Point>
     <Point Name="ULEVA" Type="Fix">+175717.999-0881853.999</Point>
     <Point Name="ULILI" Type="Fix">+204609.501-0893419.200</Point>
     <Point Name="ULISO" Type="Fix">+210955.598-0891054.199</Point>
@@ -4730,6 +4754,7 @@
     <Point Name="URKOP" Type="Fix">+264249.000-1064432.000</Point>
     <Point Name="URLET" Type="Fix">+234253.000-1105308.000</Point>
     <Point Name="URLIX" Type="Fix">+205426.000-0952844.000</Point>
+    <Point Name="URMAS" Type="Fix">+202034.000-0983831.000</Point>
     <Point Name="URNAD" Type="Fix">+262714.000-1065031.000</Point>
     <Point Name="URNAT" Type="Fix">+204437.000-1003702.000</Point>
     <Point Name="URNOK" Type="Fix">+191040.280-0990042.770</Point>
@@ -4790,13 +4815,17 @@
     <Point Name="VILGI" Type="Fix">+150106.000-0924416.000</Point>
     <Point Name="VILGO" Type="Fix">+230827.000-1005548.000</Point>
     <Point Name="VILPO" Type="Fix">+283420.000-1062411.000</Point>
+    <Point Name="VILPO" Type="Fix">+283420.000-1062411.000</Point>
     <Point Name="VILTO" Type="Fix">+182532.400-1011900.100</Point>
+    <Point Name="VILSI" Type="Fix">+204242.000-0994635.000</Point>
     <Point Name="VIMBO" Type="Fix">+181416.000-0975033.000</Point>
     <Point Name="VIMRA" Type="Fix">+191948.100-0961420.100</Point>
     <Point Name="VIMSO" Type="Fix">+203907.300-1055416.200</Point>
     <Point Name="VINBO" Type="Fix">+271251.900-0993203.000</Point>
     <Point Name="VINGA" Type="Fix">+192617.360-0981918.190</Point>
     <Point Name="VINVA" Type="Fix">+275436.000-1082228.000</Point>
+    <Point Name="VITOS" Type="Fix">+200738.000-0981804.000</Point>
+    <Point Name="VITUP" Type="Fix">+193333.000-0960942.000</Point>
     <Point Name="VIRKI" Type="Fix">+242655.700-1073806.200</Point>
     <Point Name="VIRVO" Type="Fix">+205524.500-1011636.400</Point>
     <Point Name="VISDA" Type="Fix">+202421.440-1040203.300</Point>
@@ -4817,7 +4846,7 @@
     <Point Name="VOKOM" Type="Fix">+302726.000-1061404.000</Point>
     <Point Name="VOLAT" Type="Fix">+202201.980-1041755.960</Point>
     <Point Name="VOLEB" Type="Fix">+203600.000-0895500.000</Point>
-    <Point Name="VOLER" Type="Fix">+222351.400-1014822.700</Point>
+    <Point Name="VOLER" Type="Fix">+222351.400-1014823.700</Point>
     <Point Name="VOLIK" Type="Fix">+251307.400-1010906.400</Point>
     <Point Name="VOLIN" Type="Fix">+204941.430-1025223.540</Point>
     <Point Name="VOLIS" Type="Fix">+251324.700-1014643.300</Point>
@@ -4968,7 +4997,7 @@
     <Point Name="ZUAZO" Type="Fix">+190415.000-0992453.000</Point>
     <!--Foraneos-->
     <Point Name="KEYLO" Type="Fix">+305908.000-1052318.000</Point>
-    <Point Name="TECUN" Type="Fix">+143948.000-0920842.000</Point>
+    <Point Name="TECUN" Type="Fix">+143947.000-0920841.000</Point>
     <Point Name="PIKRO" Type="Fix">+175548.000-0882800.000</Point>
     <Point Name="KINAL" Type="Fix">+173907.000-0890945.000</Point>
     <!--NAVAIDS-->
