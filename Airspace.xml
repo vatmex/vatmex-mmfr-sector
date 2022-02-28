@@ -876,32 +876,32 @@
         <STAR Name="LARL1A" ApproachName="ILS05RZ.VOLUN" />
       </Runway>
       <Runway Name="23L" DataRunway="23L">
-        <SID Name="ATUR1B" />
-        <SID Name="AXIR1B" />
-        <SID Name="IKLA1B" />
-        <SID Name="ILET1B" />
-        <SID Name="NOXO1B" />
-        <SID Name="OVAG1B" />
-        <SID Name="SEBO1B" />
-        <SID Name="TEVO1B" />
-        <SID Name="UKUN1B" />
-        <SID Name="ULEB1B" />
+        <SID Name="ATUR2B" />
+        <SID Name="AXIR2B" />
+        <SID Name="IKLA2B" />
+        <SID Name="ILET2B" />
+        <SID Name="NOXO2B" />
+        <SID Name="OVAG2B" />
+        <SID Name="SEBO2B" />
+        <SID Name="TEVO2B" />
+        <SID Name="UKUN2B" />
+        <SID Name="ULEB2B" />
         <STAR Name="DARA1B" ApproachName="ILS23LZ.KOZLO" />
         <STAR Name="ENAG1B" ApproachName="ILS23LZ.KOZLO" />
         <STAR Name="ESPO1B" ApproachName="ILS23LZ.KOZLO" />
         <STAR Name="LARL1B" ApproachName="ILS23LZ.KOZLO" />
       </Runway>
       <Runway Name="23R" DataRunway="23R">
-        <SID Name="ATUR1B" />
-        <SID Name="AXIR1B" />
-        <SID Name="IKLA1B" />
-        <SID Name="ILET1B" />
-        <SID Name="NOXO1B" />
-        <SID Name="OVAG1B" />
-        <SID Name="SEBO1B" />
-        <SID Name="TEVO1B" />
-        <SID Name="UKUN1B" />
-        <SID Name="ULEB1B" />
+        <SID Name="ATUR2B" />
+        <SID Name="AXIR2B" />
+        <SID Name="IKLA2B" />
+        <SID Name="ILET2B" />
+        <SID Name="NOXO2B" />
+        <SID Name="OVAG2B" />
+        <SID Name="SEBO2B" />
+        <SID Name="TEVO2B" />
+        <SID Name="UKUN2B" />
+        <SID Name="ULEB2B" />
         <STAR Name="DARA1B" ApproachName="RNP23R.KOZLO" />
         <STAR Name="ENAG1B" ApproachName="RNP23R.KOZLO" />
         <STAR Name="ESPO1B" ApproachName="RNP23R.KOZLO" />
@@ -3386,6 +3386,7 @@
     <Point Name="ESTIR" Type="Fix">+194219.000-0890947.000</Point>
     <Point Name="ESTIV" Type="Fix">+230846.000-1030354.000</Point>
     <Point Name="ESVEL" Type="Fix">+211536.200-1043508.800</Point>
+    <Point Name="ESVOR" Type="Fix">+191818.500-0994836.600</Point>
     <Point Name="ESVUR" Type="Fix">+241209.000-0990104.000</Point>
     <Point Name="ETBAM" Type="Fix">+213102.900-1021311.100</Point>
     <Point Name="ETGOT" Type="Fix">+212516.298-0895512.399</Point>
@@ -3946,6 +3947,8 @@
     <Point Name="MX501" Type="Fix">+192842.620-0984216.840</Point>
     <Point Name="MX502" Type="Fix">+193052.540-0983609.150</Point>
     <Point Name="MX503" Type="Fix">+192135.230-0991239.750</Point>
+    <Point Name="MX504" Type="Fix">+192313.500-0990945.000</Point>
+    <Point Name="MX505" Type="Fix">+192816.100-0983133.700</Point>
     <Point Name="MX510" Type="Fix">+191141.950-0990750.070</Point>
     <Point Name="MX511" Type="Fix">+190751.100-0990534.680</Point>
     <Point Name="MX512" Type="Fix">+185545.070-0985829.760</Point>
@@ -3956,9 +3959,12 @@
     <Point Name="MX523" Type="Fix">+191435.240-0994811.170</Point>
     <Point Name="MX524" Type="Fix">+192208.790-0994902.780</Point>
     <Point Name="MX525" Type="Fix">+191818.500-0994836.570</Point>
+    <Point Name="MX526" Type="Fix">+195709.000-0991328.100</Point>
+    <Point Name="MX527" Type="Fix">+201455.100-0990753.700</Point>
     <Point Name="MX530" Type="Fix">+194452.830-0990947.350</Point>
     <Point Name="MX531" Type="Fix">+195241.390-0990626.280</Point>
     <Point Name="MX532" Type="Fix">+200541.170-0990057.590</Point>
+    <Point Name="MX533" Type="Fix">+190224.500-0985403.700</Point>
     <Point Name="MX540" Type="Fix">+191550.330-0990211.940</Point>
     <Point Name="MX541" Type="Fix">+191757.050-0985615.530</Point>
     <Point Name="MX600" Type="Fix">+200135.310-0991012.270</Point>
@@ -4210,6 +4216,7 @@
     <Point Name="OTUPA" Type="Fix">+285548.000-1083000.000</Point>
     <Point Name="OVAGO" Type="Fix">+191054.590-1000821.550</Point>
     <Point Name="OVALI" Type="Fix">+202228.410-1024811.240</Point>
+    <Point Name="OVATI" Type="Fix">+192754.200-0982253.900</Point>
     <Point Name="OVAXU" Type="Fix">+212440.000-0883951.000</Point>
     <Point Name="OVDER" Type="Fix">+211339.900-0855937.500</Point>
     <Point Name="OVDOR" Type="Fix">+195323.000-1052925.000</Point>
@@ -4258,6 +4265,7 @@
     <Point Name="PELNI" Type="Fix">+280937.000-1073832.000</Point>
     <Point Name="PELSA" Type="Fix">+250936.000-1073731.000</Point>
     <Point Name="PELTA" Type="Fix">+285459.400-1060216.100</Point>
+    <Point Name="PEMSA" Type="Fix">+184509.100-0985218.700</Point>
     <Point Name="PENVA" Type="Fix">+145405.000-0924730.000</Point>
     <Point Name="PEPTO" Type="Fix">+192205.030-0995628.620</Point>
     <Point Name="PERBU" Type="Fix">+212853.000-1033729.000</Point>
@@ -7260,41 +7268,41 @@
       <Route Runway="05L">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL ATURO</Route>
       <Route Runway="05R">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL ATURO</Route>
     </SID>
-    <SID Name="ATUR1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX520 MX530 MX531 MX532 ATURO</Route>
-      <Route Runway="23R">MX503 MX520 MX530 MX531 MX532 ATURO</Route>
+    <SID Name="ATUR2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 TO601 MX526 MX527 ATURO</Route>
+      <Route Runway="23R">MX503 MX520 TO601 MX526 MX527 ATURO</Route>
     </SID>
     <SID Name="AXIR2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL AXIRI</Route>
       <Route Runway="05R">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL AXIRI</Route>
     </SID>
-    <SID Name="AXIR1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX520 MX530 MX531 MX532 AXIRI</Route>
-      <Route Runway="23R">MX503 MX520 MX530 MX531 MX532 AXIRI</Route>
+    <SID Name="AXIR2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 TO601 MX526 MX527 AXIRI</Route>
+      <Route Runway="23R">MX503 MX520 TO601 MX526 MX527 AXIRI</Route>
     </SID>
     <SID Name="IKLA2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL IKLAN</Route>
       <Route Runway="05R">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL IKLAN</Route>
     </SID>
-    <SID Name="IKLA1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX820 MX530 MX531 MX532 IKLAN</Route>
-      <Route Runway="23R">MX503 MX820 MX530 MX531 MX532 IKLAN</Route>
+    <SID Name="IKLA2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 TO601 MX526 MX527 IKLAN</Route>
+      <Route Runway="23R">MX503 MX520 TO601 MX526 MX527 IKLAN</Route>
     </SID>
     <SID Name="ILET2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX802 MX811 MX815 ILETO</Route>
       <Route Runway="05R">MX800 MX802 MX811 MX815 ILETO</Route>
     </SID>
-    <SID Name="ILET1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX540 MX541 MX500 MX501 MX502 ILETO</Route>
-      <Route Runway="23R">MX503 MX540 MX541 MX500 MX501 MX502 ILETO</Route>
+    <SID Name="ILET2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX504 MX540 MX541 MUXAN MX501 MX505 OVATI ILETO</Route>
+      <Route Runway="23R">MX504 MX540 MX541 MUXAN MX501 MX505 OVATI ILETO</Route>
     </SID>
     <SID Name="NOXO2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX802 MX811 MX812 SELOX NOXOS</Route>
       <Route Runway="05R">MX800 MX802 MX811 MX812 SELOX NOXOS</Route>
     </SID>
-    <SID Name="NOXO1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX540 MX541 MX500 MX501 MX502 NOXOS</Route>
-      <Route Runway="23R">MX503 MX540 MX541 MX500 MX501 MX502 NOXOS</Route>
+    <SID Name="NOXO2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX504 MX540 MX541 MUXAN MX501 MX505 OVATI NOXOS</Route>
+      <Route Runway="23R">MX504 MX540 MX541 MUXAN MX501 MX505 OVATI NOXOS</Route>
     </SID>
     <SID Name="OTMOS2" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">OTMOS CUA</Route>
@@ -7304,41 +7312,41 @@
       <Route Runway="05L">MX800 MX851 MX852 SERNU OVAGO</Route>
       <Route Runway="05R">MX800 MX851 MX852 SERNU OVAGO</Route>
     </SID>
-    <SID Name="OVAG1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX520 MX521 MX522 MX525 OVAGO</Route>
-      <Route Runway="23R">MX503 MX520 MX521 MX522 MX525 OVAGO</Route>
+    <SID Name="OVAG2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 MX521 RAKEM ESVOR OVAGO</Route>
+      <Route Runway="23R">MX503 MX520 MX521 RAKEM ESVOR OVAGO</Route>
     </SID>
     <SID Name="SEBO2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX851 MX852 RAKEM MASAP SEBON</Route>
       <Route Runway="05R">MX800 MX851 MX852 RAKEM MASAP SEBON</Route>
     </SID>
-    <SID Name="SEBO1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX520 MX521 MX522 MX524 SEBON</Route>
-      <Route Runway="23R">MX503 MX520 MX521 MX522 MX524 SEBON</Route>
+    <SID Name="SEBO2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 MX521 RAKEM MASAP SEBON</Route>
+      <Route Runway="23R">MX503 MX520 MX521 RAKEM MASAP SEBON</Route>
     </SID>
     <SID Name="TEVO2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX839 MX840 USBAN ULOTO TEVOS</Route>
       <Route Runway="05R">MX800 MX839 MX840 USBAN ULOTO TEVOS</Route>
     </SID>
-    <SID Name="TEVO1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX510 MX511 MX512 MX513 TEVOS</Route>
-      <Route Runway="23R">MX503 MX510 MX511 MX512 MX513 TEVOS</Route>
+    <SID Name="TEVO2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX504 MX540 MX533 USBAN PEMSA ULOTO TEVOS</Route>
+      <Route Runway="23R">MX504 MX540 MX533 USBAN PEMSA ULOTO TEVOS</Route>
     </SID>
     <SID Name="UKUN2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX802 MX811 MX814 UKUNO</Route>
       <Route Runway="05R">MX800 MX802 MX811 MX814 UKUNO</Route>
     </SID>
-    <SID Name="UKUN1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX540 MX541 MX500 MX501 MX502 UKUNO</Route>
-      <Route Runway="23R">MX503 MX540 MX541 MX500 MX501 MX502 UKUNO</Route>
+    <SID Name="UKUN2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX504 MX540 MX541 MUXAN MX501 MX505 OVATI UKUNO</Route>
+      <Route Runway="23R">MX504 MX540 MX541 MUXAN MX501 MX505 OVATI UKUNO</Route>
     </SID>
     <SID Name="ULEB2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">MX800 MX851 MX852 MX865 ULEBA</Route>
       <Route Runway="05R">MX800 MX851 MX852 MX865 ULEBA</Route>
     </SID>
-    <SID Name="ULEB1B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">MX503 MX520 MX521 MX522 MX523 ULEBA</Route>
-      <Route Runway="23R">MX503 MX520 MX521 MX522 MX523 ULEBA</Route>
+    <SID Name="ULEB2B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">MX503 MX520 MX521 RAKEM SERNU ULEBA</Route>
+      <Route Runway="23R">MX503 MX520 MX521 RAKEM SERNU ULEBA</Route>
     </SID>
     <STAR Name="DARA1A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">DARAN SAUZA MX710 MX712 MX713 MX715 ALMIS MX717 SUTAS</Route>
