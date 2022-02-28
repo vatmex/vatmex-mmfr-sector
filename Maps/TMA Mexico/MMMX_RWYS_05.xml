@@ -392,14 +392,14 @@
     </Symbol>
   </Map>
   <Map Type="System" Name="MMMX - Pistas 05 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
-    <Line Name="ATURO1A" Pattern="Dotted">MEX/MX800/MX801/ATURO</Line>
-    <Line Name="AXIRI1A" Pattern="Dotted">MX801/AXIRI</Line>
-    <Line Name="IKLAN1A" Pattern="Dotted">MX801/IKLAN</Line>
-    <Line Name="NOXOS1A" Pattern="Dotted">MX800/MX810/MX825/NOXOS</Line>
-    <Line Name="UKUNO1A" Pattern="Dotted">MX810/MX835/UKUNO</Line>
-    <Line Name="ILETO1A" Pattern="Dotted">MX810/MX836/ILETO</Line>
-    <Line Name="TEVOS1A" Pattern="Dotted">MX800/MX839/MX840/USBAN/ULOTO/TEVOS</Line>
-    <Line Name="SEBON1A" Pattern="Dotted">
+    <Line Name="ATURO2A" Pattern="Dotted">MEX/MX800/MX802/MX803/MX804/MX805/OTMAL/ATURO</Line>
+    <Line Name="AXIRI2A" Pattern="Dotted">OTMAL/AXIRI</Line>
+    <Line Name="IKLAN2A" Pattern="Dotted">OTMAL/IKLAN</Line>
+    <Line Name="NOXOS2A" Pattern="Dotted">MX802/MX811/MX812/SELOX/NOXOS</Line>
+    <Line Name="UKUNO2A" Pattern="Dotted">MX811/MX814/UKUNO</Line>
+    <Line Name="ILETO2A" Pattern="Dotted">MX811/MX815/ILETO</Line>
+    <Line Name="TEVOS2A" Pattern="Dotted">MX800/MX839/MX840/USBAN/ULOTO/TEVOS</Line>
+    <Line Name="SEBON2A" Pattern="Dotted">
 MX800/
 +192939.080-0985815.042/
 +192941.673-0985805.451/
@@ -429,33 +429,40 @@ MX800/
 +192715.143-0985632.066/
 +192708.376-0985638.997/
 +192702.329-0985646.640/
-MX850/
+MX851/
 MX852/
-MX854/
+RAKEM/
+MASAP/
 SEBON</Line>
-    <Line Name="OVAGO1A" Pattern="Dotted">MX852/MX861/OVAGO</Line>
+    <Line Name="OVAGO1A" Pattern="Dotted">MX852/SERNU/OVAGO</Line>
     <Line Name="ULEBA1A" Pattern="Dotted">MX852/MX865/ULEBA</Line>
     <Symbol Type="HollowStar">
       <Point>ATURO</Point>
       <Point>AXIRI</Point>
       <Point>IKLAN</Point>
       <Point>ILETO</Point>
+      <Point>MASAP</Point>
       <Point>MX800</Point>
-      <Point>MX801</Point>
-      <Point>MX810</Point>
-      <Point>MX825</Point>
-      <Point>MX835</Point>
-      <Point>MX836</Point>
+      <Point>MX802</Point>
+      <Point>MX803</Point>
+      <Point>MX804</Point>
+      <Point>MX805</Point>
+      <Point>MX811</Point>
+      <Point>MX812</Point>
+      <Point>MX814</Point>
+      <Point>MX815</Point>
       <Point>MX839</Point>
       <Point>MX840</Point>
-      <Point>MX850</Point>
+      <Point>MX851</Point>
       <Point>MX852</Point>
-      <Point>MX854</Point>
-      <Point>MX861</Point>
       <Point>MX865</Point>
       <Point>NOXOS</Point>
+      <Point>OTMAL</Point>
       <Point>OVAGO</Point>
+      <Point>RAKEM</Point>
       <Point>SEBON</Point>
+      <Point>SELOX</Point>
+      <Point>SERNU</Point>
       <Point>TEVOS</Point>
       <Point>UKUNO</Point>
       <Point>ULEBA</Point>
