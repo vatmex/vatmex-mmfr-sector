@@ -272,7 +272,8 @@
 +193057.815-0985445.097</Line>
   </Map>
   <Map Type="System" Name="MMMX - Pistas 23 - ILS Z 23L" Priority="1" Center="+192617.580-0990407.680">
-    <Line Pattern="Solid">KOZLO/+192641.40-0990314.600</Line>
+    <Line Pattern="Solid">ESTIN/+192641.40-0990314.600</Line>
+    <Line Pattern="Solid">VIKSA/MX403</Line>
     <Line Pattern="Solid">+192631.968-0990303.123/+192703.100-0990322.184</Line>
     <Line Pattern="Solid">+192701.925-0990208.095/+192733.057-0990227.157</Line>
     <Line Pattern="Solid">+192731.883-0990113.065/+192803.015-0990132.128</Line>
@@ -285,9 +286,10 @@
     <Line Pattern="Solid">+193101.582-0985447.770/+193132.714-0985506.840</Line>
     <Line Pattern="Solid">+193131.538-0985352.717/+193202.670-0985411.788</Line>
     <Symbol Type="HollowStar">
-      <Point>KOZLO</Point>
-      <Point>MX400</Point>
-      <Point>MX401</Point>
+      <Point>ESTIN</Point>
+      <Point>MX402</Point>
+      <Point>MX403</Point>
+      <Point>VIKSA</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">

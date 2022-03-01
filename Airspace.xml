@@ -886,10 +886,10 @@
         <SID Name="TEVO2B" />
         <SID Name="UKUN2B" />
         <SID Name="ULEB2B" />
-        <STAR Name="DARA2B" ApproachName="ILS23LZ.KOZLO" />
-        <STAR Name="ENAG2B" ApproachName="ILS23LZ.KOZLO" />
-        <STAR Name="ESPO2B" ApproachName="ILS23LZ.KOZLO" />
-        <STAR Name="LARL2B" ApproachName="ILS23LZ.KOZLO" />
+        <STAR Name="DARA2B" ApproachName="ILS23LZ.ESTIN" />
+        <STAR Name="ENAG2B" ApproachName="ILS23LZ.ESTIN" />
+        <STAR Name="ESPO2B" ApproachName="ILS23LZ.ESTIN" />
+        <STAR Name="LARL2B" ApproachName="ILS23LZ.ESTIN" />
       </Runway>
       <Runway Name="23R" DataRunway="23R">
         <SID Name="ATUR2B" />
@@ -902,10 +902,10 @@
         <SID Name="TEVO2B" />
         <SID Name="UKUN2B" />
         <SID Name="ULEB2B" />
-        <STAR Name="DARA2B" ApproachName="RNP23R.KOZLO" />
-        <STAR Name="ENAG2B" ApproachName="RNP23R.KOZLO" />
-        <STAR Name="ESPO2B" ApproachName="RNP23R.KOZLO" />
-        <STAR Name="LARL2B" ApproachName="RNP23R.KOZLO" />
+        <STAR Name="DARA2B" ApproachName="RNP23R.ESTIN" />
+        <STAR Name="ENAG2B" ApproachName="RNP23R.ESTIN" />
+        <STAR Name="ESPO2B" ApproachName="RNP23R.ESTIN" />
+        <STAR Name="LARL2B" ApproachName="RNP23R.ESTIN" />
       </Runway>
     </Airport>
     <Airport Name="MMMY">
@@ -3725,7 +3725,6 @@
     <Point Name="KLAMS" Type="Fix">+281500.000-0924942.000</Point>
     <Point Name="KODEK" Type="Fix">+173553.000-0971141.000</Point>
     <Point Name="KONLA" Type="Fix">+195429.000-0933143.000</Point>
-    <Point Name="KOZLO" Type="Fix">+193154.080-0985356.230</Point>
     <Point Name="KREPE" Type="Fix">+320428.000-1164408.000</Point>
     <Point Name="LARLO" Type="Fix">+184300.940-0981955.820</Point>
     <Point Name="LAURL" Type="Fix">+285254.000-0932118.000</Point>
@@ -3936,15 +3935,22 @@
     <Point Name="MUXOG" Type="Fix">+221050.000-0880706.000</Point>
     <Point Name="MX400" Type="Fix">+192918.050-0985835.200</Point>
     <Point Name="MX401" Type="Fix">+193019.340-0985645.850</Point>
+    <Point Name="MX402" Type="Fix">+192920.100-0985831.300</Point>
+    <Point Name="MX403" Type="Fix">+193049.800-0985551.100</Point>
     <Point Name="MX410" Type="Fix">+192316.290-0990920.310</Point>
     <Point Name="MX411" Type="Fix">+191155.550-0990216.480</Point>
     <Point Name="MX412" Type="Fix">+192003.590-0984744.680</Point>
     <Point Name="MX413" Type="Fix">+192733.780-0985114.660</Point>
+    <Point Name="MX415" Type="Fix">+192353.200-0990814.600</Point>
+    <Point Name="MX416" Type="Fix">+192329.800-0985703.900</Point>
     <Point Name="MX450" Type="Fix">+193027.840-0985651.140</Point>
     <Point Name="MX451" Type="Fix">+192926.600-0985840.530</Point>
+    <Point Name="MX452" Type="Fix">+192915.100-0985901.500</Point>
+    <Point Name="MX453" Type="Fix">+193058.500-0985557.200</Point>
     <Point Name="MX460" Type="Fix">+192332.870-0990910.650</Point>
     <Point Name="MX461" Type="Fix">+193638.500-0990824.090</Point>
     <Point Name="MX462" Type="Fix">+194143.740-0985919.920</Point>
+    <Point Name="MX463" Type="Fix">+192631.800-0990456.600</Point>
     <Point Name="MX500" Type="Fix">+192629.090-0984831.500</Point>
     <Point Name="MX501" Type="Fix">+192842.620-0984216.840</Point>
     <Point Name="MX502" Type="Fix">+193052.540-0983609.150</Point>
@@ -4012,6 +4018,7 @@
     <Point Name="MX732" Type="Fix">+185848.540-0991337.020</Point>
     <Point Name="MX733" Type="Fix">+185423.650-0990606.290</Point>
     <Point Name="MX735" Type="Fix">+185355.120-0985717.500</Point>
+    <Point Name="MX740" Type="Fix">+192122.300-0985114.100</Point>
     <Point Name="MX741" Type="Fix">+191432.390-0990433.460</Point>
     <Point Name="MX750" Type="Fix">+195015.400-0994106.500</Point>
     <Point Name="MX751" Type="Fix">+195430.000-0984420.300</Point>
@@ -4058,6 +4065,8 @@
     <Point Name="MX931" Type="Fix">+192330.020-0990915.760</Point>
     <Point Name="MX940" Type="Fix">+192650.350-0990319.360</Point>
     <Point Name="MX941" Type="Fix">+193431.990-0990000.620</Point>
+    <Point Name="MX942" Type="Fix">+192906.500-0985916.900</Point>
+    <Point Name="MX949" Type="Fix">+192718.500-0990208.600</Point>
     <Point Name="MX950" Type="Fix">+192646.870-0985401.660</Point>
     <Point Name="MX951" Type="Fix">+191532.820-0985403.900</Point>
     <Point Name="MY401" Type="Fix">+254138.200-0994632.400</Point>
@@ -4679,6 +4688,7 @@
     <Point Name="TOVER" Type="Fix">+243949.000-1075520.000</Point>
     <Point Name="TOVES" Type="Fix">+312734.000-1162548.000</Point>
     <Point Name="TOXOS" Type="Fix">+204311.400-1011337.300</Point>
+    <Point Name="TRANA" Type="Fix">+193005.800-0991129.900</Point>
     <Point Name="TUBUS" Type="Fix">+322109.900-1170437.999</Point>
     <Point Name="TUGET" Type="Fix">+182356.000-0883856.000</Point>
     <Point Name="TUGIR" Type="Fix">+240903.000-1033620.000</Point>
@@ -4863,6 +4873,7 @@
     <Point Name="VIGTU" Type="Fix">+212843.700-0873629.100</Point>
     <Point Name="VIKDO" Type="Fix">+245914.000-1041031.000</Point>
     <Point Name="VIKMU" Type="Fix">+285954.000-1053631.000</Point>
+    <Point Name="VIKSA" Type="Fix">+192722.300-0985342.100</Point>
     <Point Name="VIKSI" Type="Fix">+211751.000-0871128.900</Point>
     <Point Name="VIKVU" Type="Fix">+260247.000-1092711.000</Point>
     <Point Name="VILGI" Type="Fix">+150106.000-0924416.000</Point>
@@ -7425,11 +7436,11 @@
     <Approach Name="ILS05RZ.VOLUN" Airport="MMMX" Runway="05R">
       <Route>VOLUN MX901 MX900</Route>
     </Approach>
-    <Approach Name="ILS23LZ.KOZLO" Airport="MMMX" Runway="23L">
-      <Route>KOZLO MX401 MX400</Route>
+    <Approach Name="ILS23LZ.ESTIN" Airport="MMMX" Runway="23L">
+      <Route>ESTIN MX403 MX402</Route>
     </Approach>
-    <Approach Name="RNP23R.KOZLO" Airport="MMMX" Runway="23R">
-      <Route>KOZLO MX450 MX451</Route>
+    <Approach Name="RNP23R.ESTIN" Airport="MMMX" Runway="23R">
+      <Route>ESTIN MX453 MX452</Route>
     </Approach>
     <!--MMMY-->
     <SID Name="MTY6A" Airport="MMMY" Runways="11">
