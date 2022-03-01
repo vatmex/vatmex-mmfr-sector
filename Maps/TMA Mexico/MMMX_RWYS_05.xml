@@ -1,38 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="MMMX - Pistas 05 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
-    <Line Name="DARAN1A" Pattern="Dashed">DARAN/SAUZA/MX710/MX712/MX713/MX715/ALMIS/MX717/SUTAS</Line>
-    <Line Name="ENAGA1A" Pattern="Dashed">ENAGA/MX701/MX702/MX703/MX704/LIDES/MX705/MX707/ALMIS</Line>
-    <Line Name="LARLO1A" Pattern="Dashed">LARLO/MX721/OTEDA/MX723/MX724/MX726/URNOK/MX741/VOLUN</Line>
-    <Line Name="ESPOS1" Pattern="Dashed">ESPOS/LEXIT/MX732/MX733/MX735/URNOK</Line>
-    <Symbol Type="HollowStar">
+    <Line Name="DARAN1A" Pattern="Dashed">DARAN/MX750/MX752/MX754/MX756/ALMIS/MX717/SUTAS</Line>
+    <Line Name="ENAGA1A" Pattern="Dashed">ENAGA/MX751/MX753/MX755/MX757/MX759/ALMIS</Line>
+    <Line Name="LARLO1A" Pattern="Dashed">LARLO/MX771/MX773/MX775/MX777/URNOK/MX741/VOLUN</Line>
+    <Line Name="ESPOS1" Pattern="Dashed">ESPOS/MX770/MX772/MX774/MX776/URNOK</Line>
+    <Symbol Type="HollowStar">      
       <Point>ALMIS</Point>
       <Point>DARAN</Point>
       <Point>ENAGA</Point>
       <Point>ESPOS</Point>
       <Point>LARLO</Point>
-      <Point>LEXIT</Point>
-      <Point>LIDES</Point>
-      <Point>MX701</Point>
-      <Point>MX702</Point>
-      <Point>MX703</Point>
-      <Point>MX704</Point>
-      <Point>MX705</Point>
-      <Point>MX707</Point>
-      <Point>MX710</Point>
-      <Point>MX712</Point>
-      <Point>MX713</Point>
-      <Point>MX715</Point>
       <Point>MX717</Point>
-      <Point>MX721</Point>
-      <Point>MX723</Point>
-      <Point>MX724</Point>
-      <Point>MX726</Point>
-      <Point>MX732</Point>
-      <Point>MX735</Point>
       <Point>MX741</Point>
-      <Point>OTEDA</Point>
-      <Point>SAUZA</Point>
+      <Point>MX750</Point>
+      <Point>MX751</Point>
+      <Point>MX752</Point>
+      <Point>MX753</Point>
+      <Point>MX754</Point>
+      <Point>MX755</Point>
+      <Point>MX756</Point>
+      <Point>MX757</Point>
+      <Point>MX759</Point>
+      <Point>MX770</Point>
+      <Point>MX771</Point>
+      <Point>MX772</Point>
+      <Point>MX773</Point>
+      <Point>MX774</Point>
+      <Point>MX775</Point>
+      <Point>MX776</Point>
+      <Point>MX777</Point>
       <Point>SUTAS</Point>
       <Point>URNOK</Point>
       <Point>VOLUN</Point>

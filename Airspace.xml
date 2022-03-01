@@ -854,10 +854,10 @@
         <SID Name="TEVO2A" />
         <SID Name="UKUN2A" />
         <SID Name="ULEB2A" />
-        <STAR Name="DARA1A" ApproachName="RNP05L.SUTAS" />
-        <STAR Name="ENAG1A" ApproachName="RNP05L.SUTAS" />
-        <STAR Name="ESPO1A" ApproachName="RNP05L.VOLUN" />
-        <STAR Name="LARL1A" ApproachName="RNP05L.VOLUN" />
+        <STAR Name="DARA2A" ApproachName="RNP05L.SUTAS" />
+        <STAR Name="ENAG2A" ApproachName="RNP05L.SUTAS" />
+        <STAR Name="ESPO2A" ApproachName="RNP05L.VOLUN" />
+        <STAR Name="LARL2A" ApproachName="RNP05L.VOLUN" />
       </Runway>
       <Runway Name="05R" DataRunway="05R">
         <SID Name="ATUR2A" />
@@ -870,10 +870,10 @@
         <SID Name="TEVO2A" />
         <SID Name="UKUN2A" />
         <SID Name="ULEB2A" />
-        <STAR Name="DARA1A" ApproachName="ILS05RZ.SUTAS" />
-        <STAR Name="ENAG1A" ApproachName="ILS05RZ.SUTAS" />
-        <STAR Name="ESPO1A" ApproachName="ILS05RZ.VOLUN" />
-        <STAR Name="LARL1A" ApproachName="ILS05RZ.VOLUN" />
+        <STAR Name="DARA2A" ApproachName="ILS05RZ.SUTAS" />
+        <STAR Name="ENAG2A" ApproachName="ILS05RZ.SUTAS" />
+        <STAR Name="ESPO2A" ApproachName="ILS05RZ.VOLUN" />
+        <STAR Name="LARL2A" ApproachName="ILS05RZ.VOLUN" />
       </Runway>
       <Runway Name="23L" DataRunway="23L">
         <SID Name="ATUR2B" />
@@ -3997,6 +3997,23 @@
     <Point Name="MX733" Type="Fix">+185423.650-0990606.290</Point>
     <Point Name="MX735" Type="Fix">+185355.120-0985717.500</Point>
     <Point Name="MX741" Type="Fix">+191432.390-0990433.460</Point>
+    <Point Name="MX750" Type="Fix">+195015.400-0994106.500</Point>
+    <Point Name="MX751" Type="Fix">+195430.000-0984420.300</Point>
+    <Point Name="MX752" Type="Fix">+194632.200-0993526.100</Point>
+    <Point Name="MX753" Type="Fix">+195325.000-0985405.300</Point>
+    <Point Name="MX754" Type="Fix">+195327.700-0992744.600</Point>
+    <Point Name="MX755" Type="Fix">+195458.800-0991727.700</Point>
+    <Point Name="MX756" Type="Fix">+195559.000-0991727.700</Point>
+    <Point Name="MX757" Type="Fix">+195235.000-0992713.700</Point>
+    <Point Name="MX759" Type="Fix">+194600.400-0993432.100</Point>
+    <Point Name="MX770" Type="Fix">+185518.000-0992235.700</Point>
+    <Point Name="MX771" Type="Fix">+184816.700-0984848.600</Point>
+    <Point Name="MX772" Type="Fix">+185808.900-0991550.600</Point>
+    <Point Name="MX773" Type="Fix">+185036.700-0985949.300</Point>
+    <Point Name="MX774" Type="Fix">+185308.900-0990838.100</Point>
+    <Point Name="MX775" Type="Fix">+185213.600-0990903.000</Point>
+    <Point Name="MX776" Type="Fix">+185136.900-0985951.900</Point>
+    <Point Name="MX777" Type="Fix">+185729.300-0991638.300</Point>
     <Point Name="MX800" Type="Fix">+192931.140-0985833.110</Point>
     <Point Name="MX801" Type="Fix">+195334.410-0985810.430</Point>
     <Point Name="MX802" Type="Fix">+193157.000-0985412.800</Point>
@@ -7348,33 +7365,33 @@
       <Route Runway="23L">MX503 MX520 MX521 RAKEM SERNU ULEBA</Route>
       <Route Runway="23R">MX503 MX520 MX521 RAKEM SERNU ULEBA</Route>
     </SID>
-    <STAR Name="DARA1A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">DARAN SAUZA MX710 MX712 MX713 MX715 ALMIS MX717 SUTAS</Route>
-      <Route Runway="05R">DARAN SAUZA MX710 MX712 MX713 MX715 ALMIS MX717 SUTAS</Route>
+    <STAR Name="DARA2A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">DARAN MX750 MX752 MX754 MX756 ALMIS MX717 SUTAS</Route>
+      <Route Runway="05R">DARAN MX750 MX752 MX754 MX756 ALMIS MX717 SUTAS</Route>
     </STAR>
     <STAR Name="DARA1B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">DARAN MX600 ESTAR MX602 MX603 MX605 SESTA KOZLO</Route>
       <Route Runway="23R">DARAN MX600 ESTAR MX602 MX603 MX605 SESTA KOZLO</Route>
     </STAR>
-    <STAR Name="ENAG1A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">ENAGA MX701 MX702 MX703 MX704 LIDES MX705 MX707 ALMIS MX717 SUTAS</Route>
-      <Route Runway="05R">ENAGA MX701 MX702 MX703 MX704 LIDES MX705 MX707 ALMIS MX717 SUTAS</Route>
+    <STAR Name="ENAG2A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">ENAGA MX751 MX753 MX755 MX759 ALMIS MX717 SUTAS</Route>
+      <Route Runway="05R">ENAGA MX751 MX753 MX755 MX759 ALMIS MX717 SUTAS</Route>
     </STAR>
     <STAR Name="ENAG1B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">ENAGA NUGIR MX602 MX603 MX605 SESTA KOZLO</Route>
       <Route Runway="23R">ENAGA NUGIR MX602 MX603 MX605 SESTA KOZLO</Route>
     </STAR>
-    <STAR Name="ESPO1A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">ESPOS LEXIT MX732 MX733 MX735 URNOK MX741 VOLUN</Route>
-      <Route Runway="05R">ESPOS LEXIT MX732 MX733 MX735 URNOK MX741 VOLUN</Route>
+    <STAR Name="ESPO2A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">ESPOS MX770 MX772 MX774 MX776 URNOK MX741 VOLUN</Route>
+      <Route Runway="05R">ESPOS MX770 MX772 MX774 MX776 URNOK MX741 VOLUN</Route>
     </STAR>
     <STAR Name="ESPO1B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">ESPOS MX610 MX611 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
       <Route Runway="23R">ESPOS MX610 MX611 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
     </STAR>
-    <STAR Name="LARL1A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">LARLO MX721 OTEDA MX723 MX724 MX726 URNOK MX741 VOLUN</Route>
-      <Route Runway="05R">LARLO MX721 OTEDA MX723 MX724 MX726 URNOK MX741 VOLUN</Route>
+    <STAR Name="LARL2A" Airport="MMMX" Runways="05L,05R">
+      <Route Runway="05L">LARLO MX771 MX773 MX775 MX777 URNOK MX741 VOLUN</Route>
+      <Route Runway="05R">LARLO MX771 MX773 MX775 MX777 URNOK MX741 VOLUN</Route>
     </STAR>
     <STAR Name="LARL1B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">LARLO MX639 MX640 PITEL OTOSA MX615 MX616 MX617 SESTA KOZLO</Route>
