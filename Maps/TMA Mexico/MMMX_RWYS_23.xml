@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
-    <Line Name="DARAN1B" Pattern="Dashed">DARAN/MX600/ESTAR/MX602/MX603/MX605/SESTA/KOZLO</Line>
-    <Line Name="ENAGA1B" Pattern="Dashed">ENAGA/NUGIR/MX602</Line>
-    <Line Name="SESTA1B" Pattern="Dashed">LARLO/MX639/MX640/PITEL/OTOSA/MX615/MX616/MX617/SESTA</Line>
-    <Line Name="ESPOS1B" Pattern="Dashed">ESPOS/MX610/MX611/PITEL</Line>
+    <Line Name="DARAN2B" Pattern="Dashed">DARAN/MX650/MX652/DUSGO/MX617/MX619/MX621/MX623/SESTA/ESTIN</Line>
+    <Line Name="ENAGA2B" Pattern="Dashed">ENAGA/MX641/MX643/MX645/MX647/MX649/MX602</Line>
+    <Line Name="LARLO1B" Pattern="Dashed">LARLO/PBC/MX665/MX667/MX669/MX671/MX602/SESTA</Line>
+    <Line Name="ESPOS1B" Pattern="Dashed">ESPOS/MX770/MX661/OTMOS/MX665</Line>
     <Symbol Type="HollowStar">
       <Point>DARAN</Point>
+      <Point>DUSGO</Point>
       <Point>ENAGA</Point>
       <Point>ESPOS</Point>
-      <Point>ESTAR</Point>
-      <Point>KOZLO</Point>
+      <Point>ESTIN</Point>
       <Point>LARLO</Point>
-      <Point>MX600</Point>
       <Point>MX602</Point>
-      <Point>MX603</Point>
-      <Point>MX605</Point>
-      <Point>MX610</Point>
-      <Point>MX611</Point>
-      <Point>MX615</Point>
-      <Point>MX616</Point>
       <Point>MX617</Point>
-      <Point>MX639</Point>
-      <Point>MX640</Point>
-      <Point>NUGIR</Point>
-      <Point>OTOSA</Point>
-      <Point>PITEL</Point>
+      <Point>MX619</Point>
+      <Point>MX621</Point>
+      <Point>MX623</Point>
+      <Point>MX641</Point>
+      <Point>MX643</Point>
+      <Point>MX645</Point>
+      <Point>MX647</Point>
+      <Point>MX649</Point>
+      <Point>MX650</Point>
+      <Point>MX652</Point>
+      <Point>MX661</Point>
+      <Point>MX665</Point>
+      <Point>MX667</Point>
+      <Point>MX669</Point>
+      <Point>MX671</Point>
+      <Point>MX770</Point>
+      <Point>OTMOS</Point>
       <Point>SESTA</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>PBC</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>PBC</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
@@ -34,7 +45,7 @@
       <Point>DARAN</Point>
       <Point>ENAGA</Point>
       <Point>ESPOS</Point>
-      <Point>KOZLO</Point>
+      <Point>ESTIN</Point>
       <Point>LARLO</Point>
       <Point>SESTA</Point>
     </Label>
