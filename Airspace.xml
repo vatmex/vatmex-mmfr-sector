@@ -1025,10 +1025,10 @@
     <Airport Name="MMPB">
       <Runway Name="17" DataRunway="17">
         <SID Name="PBC3A" Default="True" />
-        <SID Name="ATUK1C" />
         <SID Name="ILET1C" />
         <SID Name="MAPEN2" />
         <SID Name="NOXO1C" />
+        <SID Name="OTAG1A" />
         <SID Name="TAKA1C" />
         <SID Name="UKUN1C" />
         <STAR Name="ATUK1A" ApproachName="RNP17.VINGA" />
@@ -1039,9 +1039,9 @@
         <SID Name="PBC2B" Default="True" />
         <SID Name="ALITA2" />
         <SID Name="ALMET1" />
-        <SID Name="ATUK1D" />
         <SID Name="ILET1D" />
         <SID Name="NOXO1D" />
+        <SID Name="OTAG1B" />
         <SID Name="TAKA1D" />
         <SID Name="UKUN1D" />
         <STAR Name="ATUK1B" ApproachName="RNP35.MASEL" />
@@ -4287,6 +4287,7 @@
     <Point Name="PB504" Type="Fix">+191306.500-0980513.470</Point>
     <Point Name="PB510" Type="Fix">+192542.810-0981218.430</Point>
     <Point Name="PB520" Type="Fix">+185719.790-0982501.810</Point>
+    <Point Name="PB530" Type="Fix">+194659.000-0981041.800</Point>
     <Point Name="PB600" Type="Fix">+191311.460-0981705.980</Point>
     <Point Name="PB601" Type="Fix">+190400.720-0981507.190</Point>
     <Point Name="PB620" Type="Fix">+192729.490-0981732.550</Point>
@@ -7727,12 +7728,6 @@
     <SID Name="ALMET1" Airport="MMPB" Runways="35">
       <Route Runway="35">ALMET</Route>
     </SID>
-    <SID Name="ATUK1C" Airport="MMPB" Runways="17">
-      <Route Runway="17">PB500 PB501 PB502 PB503 PB510 ATUKA</Route>
-    </SID>
-    <SID Name="ATUK1D" Airport="MMPB" Runways="35">
-      <Route Runway="35">PB700 RETEX ATUKA</Route>
-    </SID>
     <SID Name="ILET1C" Airport="MMPB" Runways="17">
       <Route Runway="17">PB500 PB501 PB502 PB503 PB504 ILETO</Route>
     </SID>
@@ -7747,6 +7742,12 @@
     </SID>
     <SID Name="NOXO1D" Airport="MMPB" Runways="35">
       <Route Runway="35">PB700 PB710 PB730 NOXOS</Route>
+    </SID>
+    <SID Name="OTAG1A" Airport="MMPB" Runways="17">
+      <Route Runway="17">PB500 PB501 PB502 PB503 PB510 PB530 OTAGO</Route>
+    </SID>
+    <SID Name="OTAG1B" Airport="MMPB" Runways="35">
+      <Route Runway="35">PB700 PB710 PB530 OTAGO</Route>
     </SID>
     <SID Name="TAKA1C" Airport="MMPB" Runways="17">
       <Route Runway="17">PB500 PB520 PB400 TAKAL</Route>
