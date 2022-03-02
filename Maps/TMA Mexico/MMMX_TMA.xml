@@ -26,9 +26,17 @@
       <Threshold Name="35" Position="+190831.600-0982215.500" />
     </Runway>
     <!--MMSM-->
-    <Runway Name="04/22">
-      <Threshold Name="04" Position="+194443.400-0990143.500" />
-      <Threshold Name="22" Position="+194547.100-0990025.700" />
+    <Runway Name="04L/22R">
+      <Threshold Name="04L" Position="+194402.690-0990222.910" />
+      <Threshold Name="22R" Position="+194538.340-0990026.010" />
+    </Runway>
+    <Runway Name="04C/22C">
+      <Threshold Name="04C" Position="+194342.820-0990123.180" />
+      <Threshold Name="22C" Position="+194518.460-0985926.270" />
+    </Runway>
+    <Runway Name="04R/22L">
+      <Threshold Name="04R" Position="+194332.960-0990114.260" />
+      <Threshold Name="22L" Position="+194447.400-0985943.260" />
     </Runway>
   </Map>
   <Map Type="System" Name="Aeropuerto - Volcanes" Priority="1">
