@@ -1235,6 +1235,92 @@
         <STAR Name="LEPO1C" ApproachName="RNP29.TESAC" />
       </Runway>
     </Airport>
+    <Airport Name="MMSM">
+      <Runway Name="04C" DataRunway="04C">
+        <SID Name="ATUR1C" />
+        <SID Name="AXIR1C" />
+        <SID Name="IKLA1C" />
+        <SID Name="LORS1A" />
+        <SID Name="NOXO1E" />
+        <SID Name="UKUN1E" />
+        <SID Name="ILET1E" />
+        <SID Name="TEVO1E" />
+        <SID Name="TEVO1J" />
+        <SID Name="ULEB1E" />
+        <SID Name="ULEB1J" />
+        <SID Name="OVAG1E" />
+        <SID Name="OVAG1J" />
+        <SID Name="SEBO1E" />
+        <SID Name="SEBO1J" />
+        <SID Name="KATM1A" />
+        <STAR Name="KELB1A" ApproachName="ILS04C.NADUN" />
+        <STAR Name="OTMO1A" ApproachName="ILS04C.NADUN" />
+        <STAR Name="PBC1C" ApproachName="ILS04C.NADUN" />
+        <STAR Name="TORE1A" ApproachName="ILS04C.NADUN" />
+        <STAR Name="VITO1A" ApproachName="ILS04C.NADUN" />
+      </Runway>
+      <Runway Name="04L" DataRunway="04L">
+        <SID Name="ATUR1D" />
+        <SID Name="AXIR1D" />
+        <SID Name="IKLA1D" />
+        <SID Name="LORS1B" />
+        <SID Name="NOXO1F" />
+        <SID Name="UKUN1F" />
+        <SID Name="ILET1F" />
+        <SID Name="TEVO1F" />
+        <SID Name="TEVO1J" />
+        <SID Name="ULEB1F" />
+        <SID Name="ULEB1J" />
+        <SID Name="OVAG1F" />
+        <SID Name="OVAG1J" />
+        <SID Name="SEBO1F" />
+        <SID Name="SEBO1J" />
+        <SID Name="KATM1B" />
+        <STAR Name="KELB1A" ApproachName="ILS04L.NADUN" />
+        <STAR Name="OTMO1A" ApproachName="ILS04L.NADUN" />
+        <STAR Name="PBC1C" ApproachName="ILS04L.NADUN" />
+        <STAR Name="TORE1A" ApproachName="ILS04L.NADUN" />
+        <STAR Name="VITO1A" ApproachName="ILS04L.NADUN" />
+      </Runway>
+      <Runway Name="22C" DataRunway="22C">
+        <SID Name="ATUR1E" />
+        <SID Name="AXIR1E" />
+        <SID Name="IKLA1E" />
+        <SID Name="LORS1C" />
+        <SID Name="NOXO1G" />
+        <SID Name="UKUN1G" />
+        <SID Name="ILET1G" />
+        <SID Name="TEVO1G" />
+        <SID Name="ULEB1G" />
+        <SID Name="OVAG1G" />
+        <SID Name="SEBO1G" />
+        <SID Name="KATM1G" />
+        <STAR Name="KELB1B" ApproachName="ILS22C.EMOXI" />
+        <STAR Name="OTIG1A" ApproachName="ILS22C.EMOXI" />
+        <STAR Name="OTMO1B" ApproachName="ILS22C.EMOXI" />
+        <STAR Name="TORE1B" ApproachName="ILS22C.EMOXI" />
+        <STAR Name="VITO1B" ApproachName="ILS22C.EMOXI" />
+      </Runway>
+      <Runway Name="22R" DataRunway="22R">
+        <SID Name="ATUR1F" />
+        <SID Name="AXIR1F" />
+        <SID Name="IKLA1F" />
+        <SID Name="LORS1D" />
+        <SID Name="NOXO1H" />
+        <SID Name="UKUN1H" />
+        <SID Name="ILET1H" />
+        <SID Name="TEVO1H" />
+        <SID Name="ULEB1H" />
+        <SID Name="OVAG1H" />
+        <SID Name="SEBO1H" />
+        <SID Name="KATM1H" />
+        <STAR Name="KELB1B" ApproachName="ILS22R.EMOXI" />
+        <STAR Name="OTIG1A" ApproachName="ILS22R.EMOXI" />
+        <STAR Name="OTMO1B" ApproachName="ILS22R.EMOXI" />
+        <STAR Name="TORE1B" ApproachName="ILS22R.EMOXI" />
+        <STAR Name="VITO1B" ApproachName="ILS22R.EMOXI" />
+      </Runway>
+    </Airport>
     <Airport Name="MMSP">
       <Runway Name="14" DataRunway="14">
         <SID Name="SLP4A" Default="True" />
@@ -3685,6 +3771,7 @@
     <Point Name="KATIS" Type="Fix">+115910.000-0982504.000</Point>
     <Point Name="KATLA" Type="Fix">+244850.000-1024957.000</Point>
     <Point Name="KATLI" Type="Fix">+252527.000-1062249.000</Point>
+    <Point Name="KATMI" Type="Fix">+193149.600-1000735.900 </Point>
     <Point Name="KATPO" Type="Fix">+254633.200-0994314.200</Point>
     <Point Name="KATRA" Type="Fix">+163906.000-0992527.000</Point>
     <Point Name="KAVOR" Type="Fix">+211545.000-1054816.000</Point>
@@ -3820,6 +3907,7 @@
     <Point Name="LONVA" Type="Fix">+211922.950-1033421.390</Point>
     <Point Name="LOPKA" Type="Fix">+204623.600-0863732.100</Point>
     <Point Name="LORSI" Type="Fix">+202125.920-1031034.060</Point>
+    <Point Name="LORSU" Type="Fix">+194220.800-0980015.300</Point>
     <Point Name="LOSBA" Type="Fix">+212805.000-0980152.000</Point>
     <Point Name="MALPA" Type="Fix">+240134.000-0985134.000</Point>
     <Point Name="MANTA" Type="Fix">+211819.000-1012055.000</Point>
@@ -4520,6 +4608,24 @@
     <Point Name="SL700" Type="Fix">+225546.100-1095425.300</Point>
     <Point Name="SL701" Type="Fix">+225347.000-1095117.700</Point>
     <Point Name="SL702" Type="Fix">+225056.800-1094649.800</Point>
+    <Point Name="SM500" Type="Fix">+194701.000-0985844.900</Point>
+    <Point Name="SM501" Type="Fix">+194621.400-0985809.200</Point>
+    <Point Name="SM502" Type="Fix">+194800.100-0985732.700</Point>
+    <Point Name="SM503" Type="Fix">+195158.400-0985407.300</Point>
+    <Point Name="SM504" Type="Fix">+194918.800-0985556.300</Point>
+    <Point Name="SM505" Type="Fix">+194720.500-0985657.000</Point>
+    <Point Name="SM506" Type="Fix">+200927.700-0985342.700</Point>
+    <Point Name="SM509" Type="Fix">+194909.200-0985443.900</Point>
+    <Point Name="SM510" Type="Fix">+194700.400-0983830.700</Point>
+    <Point Name="SM512" Type="Fix">+194240.500-0982145.400</Point>
+    <Point Name="SM520" Type="Fix">+193625.200-0990335.100</Point>
+    <Point Name="SM522" Type="Fix">+192615.300-0990045.700</Point>
+    <Point Name="SM524" Type="Fix">+191605.200-0985756.600</Point>
+    <Point Name="SM526" Type="Fix">+190203.000-0985714.200</Point>
+    <Point Name="SM530" Type="Fix">+193312.000-0990907.000</Point>
+    <Point Name="SM532" Type="Fix">+192856.400-0992022.600</Point>
+    <Point Name="SM534" Type="Fix">+192853.500-0993038.600</Point>
+    <Point Name="SM536" Type="Fix">+192846.400-0994949.000</Point>
     <Point Name="SOUSY" Type="Fix">+222615.000-1050119.000</Point>
     <Point Name="SUSOV" Type="Fix">+244050.000-1040555.000</Point>
     <Point Name="SUTAR" Type="Fix">+295236.100-1054727.100</Point>
@@ -4730,7 +4836,7 @@
     <Point Name="ULAVA" Type="Fix">+255709.600-0992147.000</Point>
     <Point Name="ULBOX" Type="Fix">+211901.900-0860123.500</Point>
     <Point Name="ULDUD" Type="Fix">+322212.000-1162344.000</Point>
-    <Point Name="ULEBA" Type="Fix">+190052.630-1000843.370</Point>
+    <Point Name="ULEBA" Type="Fix">+190052.630-1000843.370</Point>C
     <Point Name="ULEGO" Type="Fix">+194846.000-1000109.000</Point>
     <Point Name="ULEVA" Type="Fix">+175717.999-0881853.999</Point>
     <Point Name="ULIKO" Type="Fix">+245627.000-1044617.000</Point>
@@ -8209,6 +8315,79 @@
     <Approach Name="RNP29.TESAC" Airport="MMSL" Runway="29">
       <Route>TESAC SL702 SL701 SL700</Route>
     </Approach>
+    <!--MMSL-->
+    <SID Name="ATUR1C" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM503 SM506 OTMAL ATURO</Route>
+    </SID>
+    <SID Name="ATUR1D" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 MX753 SM506 OTMAL ATURO</Route>
+    </SID>
+    <SID Name="AXIR1C" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM503 SM506 OTMAL AXIRI</Route>
+    </SID>
+    <SID Name="AXIR1D" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 MX753 SM506 OTMAL AXIRI</Route>
+    </SID>
+    <SID Name="IKLA1C" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM503 SM506 OTMAL IKLAN</Route>
+    </SID>
+    <SID Name="IKLA1D" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 MX753 SM506 OTMAL IKLAN</Route>
+    </SID>
+    <SID Name="ILET1E" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM509 SM510 SELOX ILETO</Route>
+    </SID>
+    <SID Name="ILET1F" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM504 SM510 SELOX ILETO</Route>
+    </SID>
+    <SID Name="KATM1A" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM505 SM520 SM530 SM532 SM534 SM536 KATMI</Route>
+    </SID>
+    <SID Name="KATM1B" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM502 SM520 SM530 SM532 SM534 SM536 KATMI</Route>
+    </SID>
+    <SID Name="LORS1A" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM509 SM510 SM512 LORSU</Route>
+    </SID>
+    <SID Name="LORS1B" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM504 SM510 SM512 LORSU</Route>
+    </SID>
+    <SID Name="NOXO1E" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM509 SM510 SELOX NOXOS</Route>
+    </SID>
+    <SID Name="NOXO1F" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM504 SM510 SELOX NOXOS</Route>
+    </SID>
+    <SID Name="OVAG1E" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM505 SM520 SM530 SM532 RAKEM ESVOR OVAGO</Route>
+    </SID>
+    <SID Name="OVAG1F" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM502 SM520 SM530 SM532 RAKEM ESVOR OVAGO</Route>
+    </SID>
+    <SID Name="SEBO1E" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM505 SM520 SM530 SM532 RAKEM MASAP SEBON</Route>
+    </SID>
+    <SID Name="SEBO1F" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM502 SM520 SM530 SM532 RAKEM MASAP SEBON</Route>
+    </SID>
+    <SID Name="TEVO1E" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM505 SM520 SM522 SM524 SM526 TEVOS</Route>
+    </SID>
+    <SID Name="TEVO1F" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM502 SM520 SM522 SM524 SM526 TEVOS</Route>
+    </SID>
+    <SID Name="UKUN1E" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM509 SM510 SELOX UKUNO</Route>
+    </SID>
+    <SID Name="UKUN1F" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM504 SM510 SELOX UKUNO</Route>
+    </SID>
+    <SID Name="ULEB1E" Airport="MMSM" Runways="04C">
+      <Route Runway="04C">SM501 SM505 SM520 SM530 SM532 RAKEM SERNU ULEBA</Route>
+    </SID>
+    <SID Name="ULEB1F" Airport="MMSM" Runways="04L">
+      <Route Runway="04L">SM500 SM502 SM520 SM530 SM532 RAKEM SERNU ULEBA</Route>
+    </SID>
     <!--MMSP-->
     <SID Name="SLP4A" Airport="MMSP" Runways="14">
       <Route Runway="14">SLP</Route>
@@ -9566,6 +9745,14 @@
     <Airport ICAO="MMSL" FullName="SAN LUCAS" Position="+225653.965-1095617.973" Elevation="692">
       <Runway Name="11" Position="+225710.810-1095650.230" />
       <Runway Name="29" Position="+225637.170-1095545.780" />
+    </Airport>
+    <Airport ICAO="MMSM" FullName="FELIPE ANGELES" Position="+194440.700-0990053.200" Elevation="7362">
+      <Runway Name="04L" Position="+194402.690-0990222.910" />
+      <Runway Name="22R" Position="+194538.340-0990026.010" />
+      <Runway Name="04C" Position="+194342.820-0990123.180" />
+      <Runway Name="22C" Position="+194518.460-0985926.270" />
+      <Runway Name="04R" Position="+194332.960-0990114.260" />
+      <Runway Name="22L" Position="+194447.400-0985943.260" />
     </Airport>
     <Airport ICAO="MMSP" FullName="SAN LUIS POTOSI" Position="+221515.342-1005550.737" Elevation="6035">
       <Runway Name="14" Position="+221624.813-1005635.068" />
