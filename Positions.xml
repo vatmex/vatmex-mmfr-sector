@@ -2082,6 +2082,14 @@
         <Map Name="TMA Queretaro/ASMGCS_MMQT_LABELS" />
       </Maps>
     </Position>
+    <Position Name="MMSM" Type="ASMGCS" ASMGCSAirport="MMSM" DefaultCenter="+194440.700-0990053.200" DefaultRange="4" MagneticVariation="-4" Rotation="45">
+      <Maps>
+        <Map Name="TMA Mexico/ASMGCS_MMSM_RWY" />
+        <Map Name="TMA Mexico/ASMGCS_MMSM_APR" />
+        <Map Name="TMA Mexico/ASMGCS_MMSM_TWY" />
+        <Map Name="TMA Mexico/ASMGCS_MMSM_BLD" />
+      </Maps>
+    </Position>
     <Position Name="MMSP" Type="ASMGCS" ASMGCSAirport="MMSP" DefaultCenter="+221540.500-1005604.000" DefaultRange="2" MagneticVariation="-5" Rotation="306">
       <Maps>
         <Map Name="TMA Potosi/ASMGCS_MMSP_RWY" />
