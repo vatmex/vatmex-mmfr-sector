@@ -51,17 +51,17 @@
     <!--Center Apron-->
     <Infill>
       <Point>
-+194416.164-0990131.323/
-+194407.341-0990123.880/
-+194407.348-0990122.287/
-+194406.929-0990121.903/
-+194417.949-0990108.334/
-+194420.696-0990110.834/
-+194421.389-0990110.779/
-+194424.795-0990113.910/
++194415.766-0990131.790/
++194406.771-0990123.331/
++194407.505-0990122.424/
++194406.915-0990121.875/
++194417.901-0990108.417/
++194420.380-0990110.724/
++194421.115-0990110.697/
++194424.665-0990114.020/
 +194425.331-0990113.168/
-+194428.208-0990115.750/
-+194416.164-0990131.323</Point>
++194428.565-0990116.245/
++194415.766-0990131.790</Point>
     </Infill>
     <!--General Aviation Ramp-->
     <Infill>
@@ -2257,12 +2257,95 @@
   </Map>
   <Map Type="Ground_TWY" Name="ASMGCS_MMSM_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+194440.700-0990053.200">
     <Label HasLeader="false">
-      <Point Name="04L">+194354.080-0990229.710</Point>
-      <Point Name="04C">+194332.130-0990131.230</Point>
-      <Point Name="04R">+194322.110-0990121.730</Point>
-      <Point Name="22L">+194447.740-0985938.280</Point>
-      <Point Name="22C">+194518.220-0985921.360</Point>
-      <Point Name="22R">+194537.650-0990021.790</Point>
+      <Point Name="04L">+194358.020-0990227.350</Point>
+      <Point Name="04C">+194337.080-0990128.100</Point>
+      <Point Name="04R">+194327.120-0990118.540</Point>
+      <Point Name="22L">+194448.910-0985939.340</Point>
+      <Point Name="22C">+194519.750-0985922.870</Point>
+      <Point Name="22R">+194540.880-0990021.360</Point>
+      <Point Name="A">+194405.120-0990211.850</Point>
+      <Point Name="A">+194446.070-0990121.760</Point>
+      <Point Name="A">+194520.840-0990038.900</Point>
+      <Point Name="A1">+194356.590-0990222.230</Point>      
+      <Point Name="A2">+194402.060-0990216.120</Point>      
+      <Point Name="A3">+194413.060-0990203.090</Point>      
+      <Point Name="A5">+194424.660-0990149.070</Point>
+      <Point Name="A6">+194439.660-0990129.910</Point>
+      <Point Name="A8">+194450.820-0990115.480</Point>
+      <Point Name="A9">+194458.500-0990106.960</Point>      
+      <Point Name="A10">+194503.820-0990100.990</Point>      
+      <Point Name="A11">+194512.660-0990049.870</Point>        
+      <Point Name="A14">+194529.680-0990028.550</Point>
+      <Point Name="A15">+194535.170-0990022.390</Point>
+      <Point Name="B">+194359.720-0990206.460</Point>
+      <Point Name="B">+194422.680-0990138.440</Point>      
+      <Point Name="B">+194447.240-0990108.240</Point>      
+      <Point Name="B">+194524.590-0990026.610</Point>        
+      <Point Name="B4">+194414.280-0990155.010</Point>
+      <Point Name="B6">+194432.900-0990131.950</Point>
+      <Point Name="B7">+194438.830-0990125.180</Point>
+      <Point Name="B8">+194452.540-0990107.880</Point>      
+      <Point Name="B12">+194517.150-0990038.310</Point>      
+      <Point Name="B13">+194522.410-0990032.010</Point>        
+      <Point Name="C">+194442.360-0990113.500</Point>
+      <Point Name="D">+194439.700-0990110.890</Point>
+      <Point Name="E">+194433.680-0990105.510</Point>
+      <Point Name="F">+194422.200-0990107.230</Point>      
+      <Point Name="FF">+194426.190-0990110.800</Point>      
+      <Point Name="G">+194422.920-0990055.560</Point>
+      <Point Name="H">+194420.360-0990052.860</Point>
+      <Point Name="H">+194350.670-0990129.800</Point>
+      <Point Name="J">+194418.630-0990051.230</Point>
+      <Point Name="J">+194343.570-0990131.650</Point>
+      <Point Name="J">+194400.440-0990112.380</Point>
+      <Point Name="J">+194437.910-0990029.380</Point>      
+      <Point Name="J">+194516.670-0985942.320</Point>
+      <Point Name="J1">+194340.800-0990137.210</Point>
+      <Point Name="J4">+194355.650-0990118.960</Point>      
+      <Point Name="J5">+194405.760-0990106.650</Point>
+      <Point Name="J8">+194423.730-0990042.490</Point>
+      <Point Name="J9">+194429.200-0990036.270</Point>
+      <Point Name="J10">+194431.230-0990033.670</Point>
+      <Point Name="J12">+194441.090-0990021.690</Point>
+      <Point Name="J13">+194449.180-0990011.670</Point>
+      <Point Name="J15">+194509.760-0985946.180</Point>
+      <Point Name="K">+194356.240-0990112.340</Point>
+      <Point Name="K">+194426.900-0990034.550</Point>
+      <Point Name="K">+194448.130-0990008.680</Point>      
+      <Point Name="K">+194509.610-0985942.510</Point>
+      <Point Name="K2">+194343.130-0990125.970</Point>
+      <Point Name="K3">+194346.830-0990121.240</Point>
+      <Point Name="K6">+194406.110-0990057.280</Point>      
+      <Point Name="K7">+194418.000-0990043.230</Point>
+      <Point Name="K11">+194432.600-0990025.550</Point>
+      <Point Name="K14">+194456.290-0985956.000</Point>
+      <Point Name="K16">+194515.930-0985931.790</Point>      
+      <Point Name="K17">+194519.960-0985927.450</Point>
+      <Point Name="L1">+194336.760-0990116.080</Point>      
+      <Point Name="L2">+194448.310-0985949.350</Point>
+      <Point Name="M">+194337.440-0990059.970</Point>      
+      <Point Name="M">+194431.660-0985953.990</Point>
+      <Point Name="M1">+194332.330-0990108.110</Point>      
+      <Point Name="M2">+194348.620-0990048.350</Point>
+      <Point Name="M3">+194420.040-0990009.130</Point>      
+      <Point Name="M4">+194441.520-0985942.780</Point>
+      <Point Name="N1">+194337.810-0990052.560</Point>      
+      <Point Name="N2">+194343.190-0990046.360</Point>
+      <Point Name="N3">+194401.990-0990024.450</Point>      
+      <Point Name="N4">+194408.390-0990016.420</Point>
+      <Point Name="N5">+194415.330-0990008.570</Point>      
+      <Point Name="N6">+194425.700-0985955.900</Point>
+      <Point Name="N7">+194433.930-0985946.040</Point>      
+      <Point Name="N8">+194441.130-0985937.050</Point>
+      <Point Name="P">+194434.270-0990110.660</Point>
+      <Point Name="P">+194422.170-0990059.250</Point>      
+      <Point Name="Q">+194438.350-0990105.780</Point>      
+      <Point Name="Q">+194427.230-0990055.300</Point>
+      <Point Name="Z">+194540.640-0990034.770</Point>
+      <Point Name="Terminal">+194359.420-0990128.780</Point>
+      <Point Name="Carga">+194513.950-0990024.390</Point>
+      <Point Name="Aviación General">+194450.960-0990058.460</Point>
+      <Point Name="Área Militar">+194409.880-0990004.080</Point>      
     </Label>
   </Map>
 </Maps>
