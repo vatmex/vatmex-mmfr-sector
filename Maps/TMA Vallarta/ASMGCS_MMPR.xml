@@ -193,7 +193,7 @@
 +204038.138-1051502.194</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMPR_APR" Priority="2" Center="+204048.261-1051515.123">
+  <Map Type="Ground_APR" Name="ASMGCS_MMPR_APR" Priority="3" Center="+204048.261-1051515.123">
     <Infill>
       <Point>
 +204053.997-1051458.661/
@@ -291,7 +291,7 @@
 +204053.997-1051458.661</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMPR_TWY" Priority="3" Center="+204048.261-1051515.123">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMPR_TWY" Priority="4" Center="+204048.261-1051515.123">
     <!--A-->
     <Infill>
       <Point>
@@ -897,13 +897,13 @@
 +204013.174-1051556.477</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMPR_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+204048.261-1051515.123">
+  <Map Type="Ground_RWY" Name="ASMGCS_MMPR_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+204048.261-1051515.123">
    <Label HasLeader="false">
       <Point Name="A">+204120.203-1051433.312</Point>
       <Point Name="A">+204013.062-1051550.281</Point>
       <Point Name="A">+204034.734-1051517.062</Point>
-      <Point Name="B">+204028.703-1051532.250</Point>
-      <Point Name="C">+204028.703-1051532.250</Point>
+      <Point Name="B">+204027.510-1051532.240</Point>
+      <Point Name="C">+204037.520-1051521.030</Point>
       <Point Name="D">+204048.445-1051509.312</Point>
       <Point Name="D">+204044.109-1051505.093</Point>
       <Point Name="E">+204054.711-1051502.594</Point>
@@ -911,8 +911,58 @@
       <Point Name="F">+204056.422-1051452.000</Point>
       <Point Name="G">+204105.789-1051450.219</Point>
       <Point Name="G">+204101.015-1051446.187</Point>
-      <Point Name="04">+204018.3929-1051554.8767</Point>
-      <Point Name="22">+204122.5462-1051441.0761</Point>
+      <Point Name="04">+204015.020-1051554.970</Point>
+      <Point Name="22">+204122.040-1051438.070</Point>
     </Label>
+  </Map>
+  <Map Type="Ground_TWY" Name="ASMGCS_MMPR_GATES" CustomColourName="GroundLabel" Priority="2" Center="+210229.00-0865224.000">
+    <Line Pattern="Solid">
+      +204045.295-1051454.946/
+      +204045.934-1051454.204
+    </Line>
+    <Line Pattern="Solid">
+      +204043.894-1051453.600/
+      +204044.540-1051452.886
+    </Line>
+    <Line Pattern="Solid">
+      +204042.741-1051452.446/
+      +204043.345-1051451.705
+    </Line>
+    <Line Pattern="Solid">
+      +204041.979-1051451.128/
+      +204042.782-1051450.661
+    </Line>
+    <Line Pattern="Solid">
+      +204045.467-1051447.750/
+      +204044.753-1051448.546
+    </Line>
+    <Line Pattern="Solid">
+      +204046.490-1051448.766/
+      +204045.817-1051449.562
+    </Line>
+    <Line Pattern="Solid">
+      +204047.513-1051450.002/
+      +204046.950-1051450.634
+    </Line>
+    <Line Pattern="Solid">
+      +204048.165-1051450.579/
+      +204048.268-1051451.787
+    </Line>
+    <Line Pattern="Solid">
+      +204050.672-1051448.821/
+      +204051.310-1051448.052
+    </Line>
+    <Line Pattern="Solid">
+      +204049.539-1051447.805/
+      +204050.253-1051446.953
+    </Line>
+    <Line Pattern="Solid">
+      +204048.392-1051446.596/
+      +204049.010-1051445.882
+    </Line>
+    <Line Pattern="Solid">
+      +204047.369-1051445.525/
+      +204048.049-1051444.756
+    </Line>
   </Map>
 </Maps>
