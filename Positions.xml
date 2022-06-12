@@ -125,6 +125,7 @@
         <Map Name="TMA Cabos/ASMGCS_MMSD_APR" />
         <Map Name="TMA Cabos/ASMGCS_MMSD_BLD" />
         <Map Name="TMA Cabos/ASMGCS_MMSD_LABELS" />
+        <Map Name="TMA Cabos/ASMGCS_MMSD_GATES" />
       </Maps>
     </Position>
     <Position Name="MMSL" Type="ASMGCS" ASMGCSAirport="MMSL" DefaultCenter="+225651.140-1095620.090" DefaultRange="2" MagneticVariation="-8" Rotation="338">
@@ -143,6 +144,7 @@
         <Map Name="TMA Tijuana/ASMGCS_MMTJ_APR" />
         <Map Name="TMA Tijuana/ASMGCS_MMTJ_BLD" />
         <Map Name="TMA Tijuana/ASMGCS_MMTJ_LABELS" />
+        <Map Name="TMA Tijuana/ASMGCS_MMTJ_GATES" />
       </Maps>
     </Position>
     <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-8">
@@ -1067,6 +1069,7 @@
         <Map Name="ATZ Ixtepec/ASMGCS_MMIT_TWY" />
         <Map Name="ATZ Ixtepec/ASMGCS_MMIT_BLD" />
         <Map Name="ATZ Ixtepec/ASMGCS_MMIT_LABELS" />
+        <Map Name="ATZ Ixtepec/ASMGCS_MMIT_GATES" />
       </Maps>
     </Position>
     <Position Name="MMMD" Type="ASMGCS" ASMGCSAirport="MMMD" DefaultCenter="+205546.230-0893851.052" DefaultRange="3" MagneticVariation="0" Rotation="269">
@@ -1076,6 +1079,7 @@
         <Map Name="TMA Merida/ASMGCS_MMMD_TWY" />
         <Map Name="TMA Merida/ASMGCS_MMMD_BLD" />
         <Map Name="TMA Merida/ASMGCS_MMMD_LABELS" />
+        <Map Name="TMA Merida/ASMGCS_MMMD_GATES" />
       </Maps>
     </Position>
     <Position Name="MMMT" Type="ASMGCS" ASMGCSAirport="MMMT" DefaultCenter="+180612.960-0943449.940" DefaultRange="2" MagneticVariation="-4" Rotation="76">
@@ -1085,6 +1089,7 @@
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_TWY" />
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_BLD" />
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_LABELS" />
+        <Map Name="ATZ Minatitlan/ASMGCS_MMMT_GATES" />
       </Maps>
     </Position>
     <Position Name="MMPQ" Type="ASMGCS" ASMGCSAirport="MMPQ" DefaultCenter="+173159.020-0920056.400" DefaultRange="2" MagneticVariation="-4" Rotation="169">
@@ -1936,6 +1941,7 @@
         <Map Name="TMA Leon/ASMGCS_MMAS_TWY" />
         <Map Name="TMA Leon/ASMGCS_MMAS_BLD" />
         <Map Name="TMA Leon/ASMGCS_MMAS_LABELS" />
+        <Map Name="TMA Leon/ASMGCS_MMAS_GATES" />
       </Maps>
     </Position>
     <Position Name="MMBT" Type="ASMGCS" ASMGCSAirport="MMBT" DefaultCenter="+154631.183-0961545.199" DefaultRange="2" MagneticVariation="-3" Rotation="14">
@@ -1945,6 +1951,7 @@
         <Map Name="ATZ Huatulco/ASMGCS_MMBT_TWY" />
         <Map Name="ATZ Huatulco/ASMGCS_MMBT_BLD" />
         <Map Name="ATZ Huatulco/ASMGCS_MMBT_LABELS" />
+        <Map Name="ATZ Huatulco/ASMGCS_MMBT_GATES" />
       </Maps>
     </Position>
     <Position Name="MMCB" Type="ASMGCS" ASMGCSAirport="MMCB" DefaultCenter="+185002.690-0991541.960" DefaultRange="2" MagneticVariation="-4" Rotation="62">
@@ -1975,6 +1982,7 @@
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_BLD" />
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_LINES" />
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_LABELS" />
+        <Map Name="TMA Guadalajara/ASMGCS_MMGL_GATES" />
       </Maps>
     </Position>
     <Position Name="MMIA" Type="ASMGCS" ASMGCSAirport="MMIA" DefaultCenter="+191637.240-1033439.370" DefaultRange="2" MagneticVariation="-8" Rotation="205">
@@ -1984,6 +1992,7 @@
         <Map Name="ATZ Colima/ASMGCS_MMIA_TWY" />
         <Map Name="ATZ Colima/ASMGCS_MMIA_BLD" />
         <Map Name="ATZ Colima/ASMGCS_MMIA_LABELS" />
+        <Map Name="ATZ Colima/ASMGCS_MMIA_GATES" />
       </Maps>
     </Position>
     <Position Name="MMLO" Type="ASMGCS" ASMGCSAirport="MMLO" DefaultCenter="+205936.300-1012853.000" DefaultRange="2" MagneticVariation="-6" Rotation="322">
@@ -1993,6 +2002,7 @@
         <Map Name="TMA Leon/ASMGCS_MMLO_TWY" />
         <Map Name="TMA Leon/ASMGCS_MMLO_BLD" />
         <Map Name="TMA Leon/ASMGCS_MMLO_LABELS" />
+        <Map Name="TMA Leon/ASMGCS_MMLO_GATES" />        
       </Maps>
     </Position>
     <Position Name="MMMM" Type="ASMGCS" ASMGCSAirport="MMMM" DefaultCenter="+195057.640-1010129.410" DefaultRange="2" MagneticVariation="-7" Rotation="43">
@@ -2012,6 +2022,8 @@
         <Map Name="TMA Mexico/ASMGCS_MMMX_TWY" />
         <Map Name="TMA Mexico/ASMGCS_MMMX_BLD" />
         <Map Name="TMA Mexico/ASMGCS_MMMX_LABELS" />
+        <Map Name="TMA Mexico/ASMGCS_MMMX_LINES" />
+        <Map Name="TMA Mexico/ASMGCS_MMMX_GATES" />
       </Maps>
     </Position>
     <Position Name="MMOX" Type="ASMGCS" ASMGCSAirport="MMOX" DefaultCenter="+165954.520-0964333.830" DefaultRange="2" MagneticVariation="-4" Rotation="78">
@@ -2061,6 +2073,7 @@
         <Map Name="TMA Vallarta/ASMGCS_MMPR_TWY" />
         <Map Name="TMA Vallarta/ASMGCS_MMPR_BLD" />
         <Map Name="TMA Vallarta/ASMGCS_MMPR_LABELS" />
+        <Map Name="TMA Vallarta/ASMGCS_MMPR_GATES" />
       </Maps>
     </Position>
     <Position Name="MMPS" Type="ASMGCS" ASMGCSAirport="MMPS" DefaultCenter="+155235.900-0970521.210" DefaultRange="2" MagneticVariation="-4">
@@ -2073,13 +2086,14 @@
         <Map Name="ATZ Puerto Escondido/ASMGCS_MMPS_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMQT" Type="ASMGCS" ASMGCSAirport="MMQT" DefaultCenter="+203722.522-1001102.888" DefaultRange="3" MagneticVariation="-7" Rotation="176">
+    <Position Name="MMQT" Type="ASMGCS" ASMGCSAirport="MMQT" DefaultCenter="+203722.522-1001102.888" DefaultRange="2" MagneticVariation="-7" Rotation="176">
       <Maps>
         <Map Name="TMA Queretaro/ASMGCS_MMQT_RWY" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_APR" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_TWY" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_BLD" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_LABELS" />
+        <Map Name="TMA Queretaro/ASMGCS_MMQT_GATES" />
       </Maps>
     </Position>
     <Position Name="MMSM" Type="ASMGCS" ASMGCSAirport="MMSM" DefaultCenter="+194440.700-0990053.200" DefaultRange="4" MagneticVariation="-4" Rotation="45">
@@ -2127,6 +2141,7 @@
         <Map Name="TMA Mexico/ASMGCS_MMTO_TWY" />
         <Map Name="TMA Mexico/ASMGCS_MMTO_BLD" />
         <Map Name="TMA Mexico/ASMGCS_MMTO_LABELS" />
+        <Map Name="TMA Mexico/ASMGCS_MMTO_GATES" />
       </Maps>
     </Position>
     <Position Name="MMVR" Type="ASMGCS" ASMGCSAirport="MMVR" DefaultCenter="+190818.680-0961119.870" DefaultRange="2" MagneticVariation="-4" Rotation="83">
@@ -4179,7 +4194,7 @@
         <Map Name="ATZ Monclova/ASMGCS_MMMV_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMMY" Type="ASMGCS" ASMGCSAirport="MMMY" DefaultCenter="+254631.935-1000621.281" DefaultRange="2" MagneticVariation="-5" Rotation="334">
+    <Position Name="MMMY" Type="ASMGCS" ASMGCSAirport="MMMY" DefaultCenter="+254635.370-1000626.510" DefaultRange="2" MagneticVariation="-5" Rotation="334">
       <Maps>
         <Map Name="TMA Monterrey/ASMGCS_MMMY_RWY" />
         <Map Name="TMA Monterrey/ASMGCS_MMMY_APR" />
