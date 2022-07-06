@@ -4623,16 +4623,15 @@
     <Point Name="SM416" Type="Fix">+201257.400-0991038.100</Point>
     <Point Name="SM418" Type="Fix">+201244.800-0991754.500</Point>
     <Point Name="SM420" Type="Fix">+201006.800-0992437.700</Point>
+    <Point Name="SM42N" Type="Fix">+195159.700-0985115.000</Point>
+    <Point Name="SM43N" Type="Fix">+194911.700-0985440.800</Point>
+    <Point Name="SM45N" Type="Fix">+194307.900-0990205.900</Point>
+    <Point Name="SM46N" Type="Fix">+194729.000-0985912.900</Point>
     <Point Name="SM440" Type="Fix">+201147.900-0992547.000</Point>
     <Point Name="SM442" Type="Fix">+201442.500-0991821.300</Point>
     <Point Name="SM444" Type="Fix">+201456.400-0991018.900</Point>
     <Point Name="SM446" Type="Fix">+201227.800-0990242.700</Point>
     <Point Name="SM448" Type="Fix">+200736.000-0985632.300</Point>
-    <Point Name="SM614" Type="Fix">+200600.400-0983202.700</Point>
-    <Point Name="SM42N" Type="Fix">+195159.700-0985115.000</Point>
-    <Point Name="SM43N" Type="Fix">+194911.700-0985440.800</Point>
-    <Point Name="SM45N" Type="Fix">+194307.900-0990205.900</Point>
-    <Point Name="SM46N" Type="Fix">+194729.000-0985912.900</Point>
     <Point Name="SM500" Type="Fix">+194701.000-0985844.900</Point>
     <Point Name="SM501" Type="Fix">+194621.400-0985809.200</Point>
     <Point Name="SM502" Type="Fix">+194800.100-0985732.700</Point>
@@ -4653,6 +4652,7 @@
     <Point Name="SM532" Type="Fix">+192856.400-0992022.600</Point>
     <Point Name="SM534" Type="Fix">+192853.500-0993038.600</Point>
     <Point Name="SM536" Type="Fix">+192846.400-0994949.000</Point>
+    <Point Name="SM614" Type="Fix">+200600.400-0983202.700</Point>
     <Point Name="SM701" Type="Fix">+194621.400-0985809.200</Point>
     <Point Name="SM702" Type="Fix">+194800.100-0985732.700</Point>
     <Point Name="SM706" Type="Fix">+195158.400-0985407.300</Point>
@@ -7462,24 +7462,24 @@
     </SID>
     <!--MMMX-->
     <SID Name="ATUR2A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL ATURO</Route>
-      <Route Runway="05R">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL ATURO</Route>
+      <Route Runway="05L">MX800 MX802 MX803 MX804 MX805 OTMAL ATURO</Route>
+      <Route Runway="05R">MX800 MX802 MX803 MX804 MX805 OTMAL ATURO</Route>
     </SID>
     <SID Name="ATUR2B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">MX503 MX520 TO601 MX526 MX527 ATURO</Route>
       <Route Runway="23R">MX503 MX520 TO601 MX526 MX527 ATURO</Route>
     </SID>
     <SID Name="AXIR2A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL AXIRI</Route>
-      <Route Runway="05R">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL AXIRI</Route>
+      <Route Runway="05L">MX800 MX802 MX803 MX804 MX805 OTMAL AXIRI</Route>
+      <Route Runway="05R">MX800 MX802 MX803 MX804 MX805 OTMAL AXIRI</Route>
     </SID>
     <SID Name="AXIR2B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">MX503 MX520 TO601 MX526 MX527 AXIRI</Route>
       <Route Runway="23R">MX503 MX520 TO601 MX526 MX527 AXIRI</Route>
     </SID>
     <SID Name="IKLA2A" Airport="MMMX" Runways="05L,05R">
-      <Route Runway="05L">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL IKLAN</Route>
-      <Route Runway="05R">MX800 MX801 MX802 MX803 MX804 MX805 OTMAL IKLAN</Route>
+      <Route Runway="05L">MX800 MX802 MX803 MX804 MX805 OTMAL IKLAN</Route>
+      <Route Runway="05R">MX800 MX802 MX803 MX804 MX805 OTMAL IKLAN</Route>
     </SID>
     <SID Name="IKLA2B" Airport="MMMX" Runways="23L,23R">
       <Route Runway="23L">MX503 MX520 TO601 MX526 MX527 IKLAN</Route>
@@ -9711,10 +9711,10 @@
     </Approach>
     <!--MMZO-->
     <SID Name="ZLO3A" Airport="MMZO" Runways="10">
-      <Route Runway="10">COL</Route>
+      <Route Runway="10">ZLO</Route>
     </SID>
     <SID Name="ZLO3B" Airport="MMZO" Runways="28">
-      <Route Runway="28">COL</Route>
+      <Route Runway="28">ZLO</Route>
     </SID>
     <SID Name="BEXIN1" Airport="MMZO" Runways="10">
       <Route Runway="10">BEXIN</Route>
@@ -9726,7 +9726,7 @@
       <Route Runway="28">NUDAS</Route>
     </SID>
     <SID Name="UDLOG1" Airport="MMZO" Runways="10">
-      <Route Runway="10">UDLOG1</Route>
+      <Route Runway="10">UDLOG</Route>
     </SID>
     <SID Name="USBAK1" Airport="MMZO" Runways="28">
       <Route Runway="28">USBAK</Route>
