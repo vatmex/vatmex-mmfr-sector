@@ -65,7 +65,7 @@
 +253341.113-1032358.549</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMTC_APR" Priority="2" Center="+253345.410-1032416.980">
+  <Map Type="Ground_APR" Name="ASMGCS_MMTC_APR" Priority="3" Center="+253345.410-1032416.980">
     <!--Ramp-->
     <Infill>
       <Point>
@@ -87,7 +87,7 @@
 +253402.186-1032353.221</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTC_TWY" Priority="3" Center="+253345.410-1032416.980">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMTC_TWY" Priority="4" Center="+253345.410-1032416.980">
     <!--A-->
     <Infill>
       <Point>
@@ -193,11 +193,15 @@
   </Map>
   <Map Type="Ground_TWY" Name="ASMGCS_MMTC_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+253345.410-1032416.980">
     <Label HasLeader="false">
-      <Point Name="A">+253358.040-1032359.260</Point>
-      <Point Name="A">+253341.620-1032405.890</Point>
+      <Point Name="A">+253341.260-1032402.390</Point>
+      <Point Name="A">+253401.900-1032354.430</Point>
+      <Point Name="13">+253416.430-1032451.740</Point>
+      <Point Name="31">+253314.520-1032345.300</Point>
+      <Point Name="08">+253404.870-1032443.490</Point>
+      <Point Name="26">+253405.100-1032345.860</Point>
     </Label>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTC_GATES" CustomColourName="GroundLabel" Priority="1" Center="+253345.410-1032416.980">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMTC_GATES" CustomColourName="GroundLabel" Priority="2" Center="+253345.410-1032416.980">
     <Line Name="Gate 1" Pattern="Solid">
       +253352.580-1032355.391/
       +253352.917-1032356.352
