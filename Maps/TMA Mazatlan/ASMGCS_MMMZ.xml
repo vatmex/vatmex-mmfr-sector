@@ -55,7 +55,7 @@
 +230959.942-1061601.358</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMMZ_APR" Priority="2" Center="+230944.950-1061554.130">
+  <Map Type="Ground_APR" Name="ASMGCS_MMMZ_APR" Priority="3" Center="+230944.950-1061554.130">
     <!--Ramp-->
     <Infill>
       <Point>
@@ -68,7 +68,7 @@
 +230958.013-1061604.874</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMZ_TWY" Priority="3" Center="+230944.950-1061554.130">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMMZ_TWY" Priority="4" Center="+230944.950-1061554.130">
     <!--A/B/C/D-->
     <Infill>
       <Point>
@@ -207,17 +207,17 @@
   </Map>
   <Map Type="Ground_TWY" Name="ASMGCS_MMMZ_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+230944.950-1061554.130">
     <Label HasLeader="false">
-      <Point Name="A">+230949.230-1061605.210</Point>
-      <Point Name="A">+230944.740-1061602.130</Point>
-      <Point Name="B">+230945.730-1061611.160</Point>
-      <Point Name="C">+230949.600-1061618.190</Point>
-      <Point Name="C">+230945.970-1061615.720</Point>
-      <Point Name="D">+230945.660-1061625.620</Point>
-      <Point Name="09">+230934.894-1061506.537</Point>
-      <Point Name="27">+230939.172-1061638.987</Point>
+      <Point Name="A">+230950.790-1061607.460</Point>
+      <Point Name="A">+230946.310-1061601.350</Point>
+      <Point Name="B">+230946.710-1061610.680</Point>
+      <Point Name="C">+230951.390-1061620.180</Point>
+      <Point Name="C">+230947.210-1061615.070</Point>
+      <Point Name="D">+230947.390-1061623.980</Point>
+      <Point Name="09">+230942.010-1061637.100</Point>
+      <Point Name="27">+230937.630-1061505.640</Point>
     </Label>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMZ_GATES" CustomColourName="GroundLabel" Priority="1" Center="+230944.950-1061554.130">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMMZ_GATES" CustomColourName="GroundLabel" Priority="2" Center="+230944.950-1061554.130">
     <Line Name="Gate 1" Pattern="Solid">
       +230958.109-1061617.618/
       +230958.150-1061619.293
