@@ -423,65 +423,55 @@
       </Runway>
     </Airport>
     <Airport Name="MMGL">
-      <Runway Name="10" DataRunway="10">
-        <SID Name="GDL4A" Default="True" />
+      <Runway Name="11" DataRunway="11">
+        <SID Name="GDL1A" Default="True" />
         <SID Name="EBDEG1" />
-        <SID Name="EMIG2A" />
+        <SID Name="EMIG1A" />
         <SID Name="EMIR1A" />
         <SID Name="FEIS1A" />
-        <SID Name="GOYA1C" />
-        <SID Name="GOYA3A" />
-        <SID Name="IRBEK1" />
+        <SID Name="GOYA1A" />
         <SID Name="KARUN1" />
-        <SID Name="KARU1B" />
         <SID Name="KELV1A" />
-        <SID Name="LEROK3" />
+        <SID Name="LEROK1" />
         <SID Name="LONK1D" />
-        <SID Name="NOTUP1" />
         <SID Name="NOTU1D" />
         <SID Name="OTOK1A" />
-        <SID Name="OVALI4" />
-        <SID Name="PIRAR3" />
+        <SID Name="OVALI1" />
+        <SID Name="PIRAR1" />
         <SID Name="SEDE1A" />
-        <SID Name="TABG3A" />
-        <SID Name="TEIL1B" />
-        <SID Name="VOLUX1" />
-        <SID Name="XORID2" />
-        <STAR Name="LIPE1F" ApproachName="ILS10Z.DATSO" />
-        <STAR Name="LIVR1C" ApproachName="ILS10Z.DULNO" />
-        <STAR Name="LONV1C" ApproachName="ILS10Z.DULNO" />
-        <STAR Name="MODE1A" ApproachName="ILS10Z.DULNO" />
-        <STAR Name="ULUV1A" ApproachName="ILS10Z.DATSO" />
-        <STAR Name="USBI1C" ApproachName="ILS10Z.DATSO" />
+        <SID Name="TABG1A" />
+        <SID Name="XORID1" />
+        <STAR Name="LIPE1F" ApproachName="ILS11Z.DATSO" />
+        <STAR Name="LIVR1C" ApproachName="ILS11Z.DULNO" />
+        <STAR Name="LONV1C" ApproachName="ILS11Z.DULNO" />
+        <STAR Name="MODE1A" ApproachName="ILS11Z.DULNO" />
+        <STAR Name="ULUV1A" ApproachName="ILS11Z.DATSO" />
+        <STAR Name="USBI1C" ApproachName="ILS11Z.DATSO" />
       </Runway>
-      <Runway Name="28" DataRunway="28">
-        <SID Name="GDL4B" Default="True" />
-        <SID Name="DUNSU2" />
-        <SID Name="EMIG1C" />
-        <SID Name="EMIG2B" />
+      <Runway Name="29" DataRunway="29">
+        <SID Name="GDL1B" Default="True" />
+        <SID Name="GDL1C" />
+        <SID Name="DEBRO1" />
+        <SID Name="DUNSU1" />
+        <SID Name="EMIG1B" />
         <SID Name="EMIR1B" />
         <SID Name="FEIS1B" />
-        <SID Name="GOYA1D" />
-        <SID Name="GOYA3B" />
-        <SID Name="KARU1C" />
+        <SID Name="GOYA1B" />
         <SID Name="KELV1B" />
         <SID Name="LONK1E" />
-        <SID Name="NOTU1C" />
-        <SID Name="NUBI1B" />
-        <SID Name="NUBIG2" />
+        <SID Name="NOTU1E" />
+        <SID Name="NUBIG1" />
         <SID Name="OTOK1B" />
         <SID Name="SEDE1B" />
-        <SID Name="TABG3B" />
-        <SID Name="TEIL1C" />
-        <SID Name="TEILA3" />
-        <SID Name="TIKI1B" />
-        <SID Name="TIKIT3" />
-        <STAR Name="LIPE1G" ApproachName="ILS28Z.PLADE" />
-        <STAR Name="LIVR1D" ApproachName="ILS28Z.PLADE" />
-        <STAR Name="LONV1D" ApproachName="ILS28Z.PLADE" />
-        <STAR Name="MODE1B" ApproachName="ILS28Z.PLADE" />
-        <STAR Name="ULUV1B" ApproachName="ILS28Z.PLADE" />
-        <STAR Name="USBI1D" ApproachName="ILS28Z.PLADE" />
+        <SID Name="TABG1B" />
+        <SID Name="TEILA1" />
+        <SID Name="TIKIT1" />
+        <STAR Name="LIPE1G" ApproachName="ILS29Z.PLADE" />
+        <STAR Name="LIVR1D" ApproachName="ILS29Z.PLADE" />
+        <STAR Name="LONV1D" ApproachName="ILS29Z.PLADE" />
+        <STAR Name="MODE1B" ApproachName="ILS29Z.PLADE" />
+        <STAR Name="ULUV1B" ApproachName="ILS29Z.PLADE" />
+        <STAR Name="USBI1D" ApproachName="ILS29Z.PLADE" />
       </Runway>
     </Airport>
     <Airport Name="MMGM">
@@ -6375,193 +6365,151 @@
       <Route Runway="29">ENS</Route>
     </SID>
     <!--MMGL-->
-    <SID Name="GDL4A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GDL</Route>
+    <SID Name="GDL1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">GDL</Route>
     </SID>
-    <SID Name="GDL4B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GDL</Route>
+    <SID Name="GDL1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">GDL</Route>
     </SID>
-    <SID Name="GDL2C" Airport="MMGL" Runways="28">
-      <Route Runway="28">GDL</Route>
+    <SID Name="GDL1C" Airport="MMGL" Runways="29">
+      <Route Runway="29">GDL</Route>
     </SID>
-    <SID Name="DEBRO2" Airport="MMGL" Runways="28">
-      <Route Runway="28">DEBRO2</Route>
+    <SID Name="DEBRO1" Airport="MMGL" Runways="29">
+      <Route Runway="29">DEBRO</Route>
     </SID>
-    <SID Name="DUNSU2" Airport="MMGL" Runways="28">
-      <Route Runway="28">DUNSU</Route>
+    <SID Name="DUNSU1" Airport="MMGL" Runways="29">
+      <Route Runway="29">DUNSU</Route>
     </SID>
-    <SID Name="EBDEG1" Airport="MMGL" Runways="10">
-      <Route Runway="10">EBDEG</Route>
+    <SID Name="EBDEG1" Airport="MMGL" Runways="11">
+      <Route Runway="11">EBDEG</Route>
     </SID>
-    <SID Name="EMIG2A" Airport="MMGL" Runways="10">
-      <Route Runway="10">EMIGU</Route>
+    <SID Name="EMIG1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">EMIGU</Route>
     </SID>
-    <SID Name="EMIG2B" Airport="MMGL" Runways="28">
-      <Route Runway="28">EMIGU</Route>
+    <SID Name="EMIG1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">EMIGU</Route>
     </SID>
-    <SID Name="EMIG1C" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL704 GL705 EMIGU</Route>
+    <SID Name="EMIR1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">GL406 GL405 GL430 ATOXO EMIRI</Route>
     </SID>
-    <SID Name="EMIR1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL405 GL430 ATOXO EMIRI</Route>
+    <SID Name="EMIR1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">GL710 GL730 GL731 ATOXO EMIRI</Route>
     </SID>
-    <SID Name="EMIR1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 GL730 GL731 ATOXO EMIRI</Route>
+    <SID Name="FEIS1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">GL406 GL405 GL410 FEISE</Route>
     </SID>
-    <SID Name="FEIS1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL405 GL410 FEISE</Route>
+    <SID Name="FEIS1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">GL710 GL720 GL721 FEISE</Route>
     </SID>
-    <SID Name="FEIS1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 GL720 GL721 FEISE</Route>
+    <SID Name="GOYA1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">GOYAS</Route>
     </SID>
-    <SID Name="GOYA3A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GOYAS</Route>
+    <SID Name="GOYA1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">GOYAS</Route>
     </SID>
-    <SID Name="GOYA3B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GOYAS</Route>
+    <SID Name="KARUN1" Airport="MMGL" Runways="11">
+      <Route Runway="11">KARUN</Route>
     </SID>
-    <SID Name="GOYA1C" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL405 GL404 GL403 GOYAS</Route>
+    <SID Name="KELV1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">GL406 GL405 KELVA</Route>
     </SID>
-    <SID Name="GOYA1D" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL704 GL701 GL700 GOYAS</Route>
+    <SID Name="KELV1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">GL710 GL720 GL725 KELVA</Route>
     </SID>
-    <SID Name="IRBEK1" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL407 GL409 IRBEK</Route>
+    <SID Name="LEROK1" Airport="MMGL" Runways="11">
+      <Route Runway="11">LEROK</Route>
     </SID>
-    <SID Name="KARUN1" Airport="MMGL" Runways="10">
-      <Route Runway="10">KARUN</Route>
+    <SID Name="LONK1D" Airport="MMGL" Runways="11">
+      <Route Runway="11">GL406 GL405 LONKU</Route>
     </SID>
-    <SID Name="KARU1B" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL405 KARUN</Route>
+    <SID Name="LONK1E" Airport="MMGL" Runways="29">
+      <Route Runway="29">GL710 GL720 GL726 LONKU</Route>
     </SID>
-    <SID Name="KARU1C" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL704 GL702 GL703</Route>
+    <SID Name="NOTU1D" Airport="MMGL" Runways="11">
+      <Route Runway="11">GL406 GL420 GL421 GL422 NOTUP</Route>
     </SID>
-    <SID Name="KELV1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL405 KELVA</Route>
+    <SID Name="NOTU1E" Airport="MMGL" Runways="29">
+      <Route Runway="29">GL710 NOTUP</Route>
     </SID>
-    <SID Name="KELV1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 GL720 GL725 KELVA</Route>
+    <SID Name="NUBIG1" Airport="MMGL" Runways="29">
+      <Route Runway="29">NUBIG</Route>
     </SID>
-    <SID Name="LEROK3" Airport="MMGL" Runways="10">
-      <Route Runway="10">LEROK</Route>
+    <SID Name="OVALI1" Airport="MMGL" Runways="11">
+      <Route Runway="11">OVALI</Route>
     </SID>
-    <SID Name="LONK1A" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL704 GL702 GL703 KARUN LONKU</Route>
+    <SID Name="OTOK1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">GL406 GL405 GL410 GL411 OTOKI</Route>
     </SID>
-    <SID Name="LONK1D" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL405 LONKU</Route>
+    <SID Name="OTOK1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">GL710 GL711 GL712 OTOKI</Route>
     </SID>
-    <SID Name="LONK1E" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 GL720 GL726 LONKU</Route>
+    <SID Name="PIRAR1" Airport="MMGL" Runways="11">
+      <Route Runway="11">PIRAR</Route>
     </SID>
-    <SID Name="NOTUP1" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL402 GL408 GL401 TEILA VOLUX NOTUP</Route>
+    <SID Name="SEDE1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">GL406 GL420 GL421 GL422 SEDEM</Route>
     </SID>
-    <SID Name="NOTU1C" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 NOTUP</Route>
+    <SID Name="SEDE1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">GL710 SEDEM</Route>
     </SID>
-    <SID Name="NOTU1D" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL420 GL421 GL422 NOTUP</Route>
+    <SID Name="TABG1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">TABGO</Route>
     </SID>
-    <SID Name="NUBIG2" Airport="MMGL" Runways="28">
-      <Route Runway="28">NUBIG</Route>
+    <SID Name="TABG1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">TABGO</Route>
     </SID>
-    <SID Name="NUBI1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">G704 NUBIG</Route>
+    <SID Name="TEILA1" Airport="MMGL" Runways="29">
+      <Route Runway="29">TEILA</Route>
     </SID>
-    <SID Name="OVALI4" Airport="MMGL" Runways="10">
-      <Route Runway="10">OVALI</Route>
+    <SID Name="TIKIT1" Airport="MMGL" Runways="29">
+      <Route Runway="29">TIKIT</Route>
     </SID>
-    <SID Name="OVAL1B" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL405 OVALI</Route>
+    <SID Name="XORID1" Airport="MMGL" Runways="11">
+      <Route Runway="11">XORID</Route>
     </SID>
-    <SID Name="OTOK1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL405 GL410 GL411 OTOKI</Route>
-    </SID>
-    <SID Name="OTOK1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 GL711 GL712 OTOKI</Route>
-    </SID>
-    <SID Name="PIRAR3" Airport="MMGL" Runways="10">
-      <Route Runway="10">PIRAR</Route>
-    </SID>
-    <SID Name="SEDE1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL420 GL421 GL422 SEDEM</Route>
-    </SID>
-    <SID Name="SEDE1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL710 SEDEM</Route>
-    </SID>
-    <SID Name="TABG3A" Airport="MMGL" Runways="10">
-      <Route Runway="10">TABGO</Route>
-    </SID>
-    <SID Name="TABG3B" Airport="MMGL" Runways="28">
-      <Route Runway="28">TABGO</Route>
-    </SID>
-    <SID Name="TEILA3" Airport="MMGL" Runways="28">
-      <Route Runway="28">TEILA</Route>
-    </SID>
-    <SID Name="TEIL1B" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL402 GL408 GL401 TEILA</Route>
-    </SID>
-    <SID Name="TEIL1C" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL704 TEILA</Route>
-    </SID>
-    <SID Name="TIKIT3" Airport="MMGL" Runways="28">
-      <Route Runway="28">TIKIT</Route>
-    </SID>
-    <SID Name="TIKI1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">GL704 TIKIT</Route>
-    </SID>
-    <SID Name="VOLUX1" Airport="MMGL" Runways="10">
-      <Route Runway="10">GL406 GL402 GL408 GL401 TEILA VOLUX</Route>
-    </SID>
-    <SID Name="XORID2" Airport="MMGL" Runways="10">
-      <Route Runway="10">XORD</Route>
-    </SID>
-    <STAR Name="LIPE1F" Airport="MMGL" Runways="10">
-      <Route Runway="10">LIPEP GL520 VISDA GL522 GL523 GL524 DATSO</Route>
+    <STAR Name="LIPE1F" Airport="MMGL" Runways="11">
+      <Route Runway="11">LIPEP GL520 VISDA GL522 GL523 GL524 DATSO</Route>
     </STAR>
-    <STAR Name="LIPE1G" Airport="MMGL" Runways="28">
-      <Route Runway="28">LIPEP OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
+    <STAR Name="LIPE1G" Airport="MMGL" Runways="29">
+      <Route Runway="29">LIPEP OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
     </STAR>
-    <STAR Name="LIVR1C" Airport="MMGL" Runways="10">
-      <Route Runway="10">LIVRI IKBAN ULOGA GL512 GL513 GL514 DULNO</Route>
+    <STAR Name="LIVR1C" Airport="MMGL" Runways="11">
+      <Route Runway="11">LIVRI IKBAN ULOGA GL512 GL513 GL514 DULNO</Route>
     </STAR>
-    <STAR Name="LIVR1D" Airport="MMGL" Runways="28">
-      <Route Runway="28">LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
+    <STAR Name="LIVR1D" Airport="MMGL" Runways="29">
+      <Route Runway="29">LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
     </STAR>
-    <STAR Name="LONV1C" Airport="MMGL" Runways="10">
-      <Route Runway="10">LONVA ERDAN GL501 GL502 DULNO</Route>
+    <STAR Name="LONV1C" Airport="MMGL" Runways="11">
+      <Route Runway="11">LONVA ERDAN GL501 GL502 DULNO</Route>
     </STAR>
-    <STAR Name="LONV1D" Airport="MMGL" Runways="28">
-      <Route Runway="28">LONVA GL820 GL821 GL822 VOLIN GL824 GL825 GL826 GL827 GL828 PLADE</Route>
+    <STAR Name="LONV1D" Airport="MMGL" Runways="29">
+      <Route Runway="29">LONVA GL820 GL821 GL822 VOLIN GL824 GL825 GL826 GL827 GL828 PLADE</Route>
     </STAR>
-    <STAR Name="MODE1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">MODEX GL540 ULOGA GL512 GL513 GL514 DULNO</Route>
+    <STAR Name="MODE1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">MODEX GL540 ULOGA GL512 GL513 GL514 DULNO</Route>
     </STAR>
-    <STAR Name="MODE1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">MODEX GL825 GL826 GL827 GL828 PLADE</Route>
+    <STAR Name="MODE1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">MODEX GL825 GL826 GL827 GL829 PLADE</Route>
     </STAR>
-    <STAR Name="USBI1C" Airport="MMGL" Runways="10">
-      <Route Runway="10">USBIM EMEXO GL522 GL523 GL824 DATSO</Route>
+    <STAR Name="USBI1C" Airport="MMGL" Runways="11">
+      <Route Runway="11">USBIM EMEXO GL522 GL523 GL824 DATSO</Route>
     </STAR>
-    <STAR Name="USBI1D" Airport="MMGL" Runways="28">
-      <Route Runway="28">USBIM OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
+    <STAR Name="USBI1D" Airport="MMGL" Runways="29">
+      <Route Runway="29">USBIM OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
     </STAR>
-    <STAR Name="ULUV1A" Airport="MMGL" Runways="10">
-      <Route Runway="10">ULUVO GL530 GL531 GL532 BRUJA GL534 GL535 DATSO</Route>
+    <STAR Name="ULUV1A" Airport="MMGL" Runways="11">
+      <Route Runway="11">ULUVO GL530 GL531 GL532 BRUJA GL534 GL535 DATSO</Route>
     </STAR>
-    <STAR Name="ULUV1B" Airport="MMGL" Runways="28">
-      <Route Runway="28">ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
+    <STAR Name="ULUV1B" Airport="MMGL" Runways="29">
+      <Route Runway="29">ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
     </STAR>
-    <Approach Name="ILS10Z.DULNO" Airport="MMGL" Runway="10">
+    <Approach Name="ILS11Z.DULNO" Airport="MMGL" Runway="11">
       <Route>DULNO GL620 GL621 GL622 GL623</Route>
     </Approach>
-    <Approach Name="ILS10Z.DATSO" Airport="MMGL" Runway="10">
+    <Approach Name="ILS11Z.DATSO" Airport="MMGL" Runway="11">
       <Route>DATSO GL620 GL621 GL622 GL623</Route>
     </Approach>
-    <Approach Name="ILS28Z.PLADE" Airport="MMGL" Runway="28">
+    <Approach Name="ILS29Z.PLADE" Airport="MMGL" Runway="29">
       <Route>PLADE GL980 GL981</Route>
     </Approach>
     <!--MMGM-->
@@ -9817,8 +9765,8 @@
       <Runway Name="29" Position="+314729.600-1163546.500" />
     </Airport>
     <Airport ICAO="MMGL" FullName="GUADALAJARA" Position="+203118.610-1031840.120" Elevation="5016">
-      <Runway Name="10" Position="+203143.650-1031939.740" />
-      <Runway Name="28" Position="+203050.610-1031733.470" />
+      <Runway Name="11" Position="+203143.630-1031939.710" />
+      <Runway Name="29" Position="+203050.660-1031733.600" />
       <Runway Name="02" Position="+203115.210-1031842.220" />
       <Runway Name="20" Position="+203205.770-1031810.920" />
     </Airport>
