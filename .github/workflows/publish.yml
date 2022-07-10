@@ -1,7 +1,7 @@
 on:
   release:
     types: [published]
-    
+
 # Zips the profile and uploads to the vatsys ftp server
 name: Publish Light Profile
 jobs:
@@ -15,8 +15,10 @@ jobs:
         filename: 'profile.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig *.md'
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        ftp-server: ftp://ftp.sawbe.com/mexico-light
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        server: ftp.sawbe.com
+        server-dir: mexico-light/
+        protocol: ftps
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
