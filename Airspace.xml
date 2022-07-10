@@ -1404,7 +1404,7 @@
     <Airport Name="MMTM">
       <Runway Name="13" DataRunway="13">
         <SID Name="TAM3A" Default="True" />
-        <SID Name="LETI2A" />
+        <SID Name="ANIL3A" />
         <SID Name="NOTO2A" />
         <SID Name="ONBU3A" />
       </Runway>
@@ -1412,7 +1412,6 @@
         <SID Name="TAM3B" Default="True" />
         <SID Name="ANIL3B" />
         <SID Name="IPTU2A" />
-        <SID Name="LETI2B" />
         <SID Name="NOTO2B" />
         <SID Name="ONBU3B" />
       </Runway>
@@ -8808,12 +8807,6 @@
     </SID>
     <SID Name="JERE2B" Airport="MMTM" Runways="36">
       <Route Runway="36">JEREZ</Route>
-    </SID>
-    <SID Name="LETI2A" Airport="MMTM" Runways="13">
-      <Route Runway="13">LETIL</Route>
-    </SID>
-    <SID Name="LETI2B" Airport="MMTM" Runways="18">
-      <Route Runway="18">LETIL</Route>
     </SID>
     <SID Name="MAPI2A" Airport="MMTM" Runways="31">
       <Route Runway="31">MAPIL</Route>
