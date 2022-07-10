@@ -78,7 +78,7 @@
 +244531.063-1072825.627</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMCL_APR" Priority="2" Center="+244554.220-1072830.320">
+  <Map Type="Ground_APR" Name="ASMGCS_MMCL_APR" Priority="3" Center="+244554.220-1072830.320">
     <!--Ramp-->
     <Infill>
       <Point>
@@ -157,7 +157,7 @@
 +244536.591-1072830.351</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCL_TWY" Priority="3" Center="+244554.220-1072830.320">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMCL_TWY" Priority="4" Center="+244554.220-1072830.320">
     <!--A-->
     <Infill>
       <Point>
@@ -335,17 +335,17 @@
   </Map>
   <Map Type="Ground_TWY" Name="ASMGCS_MMCL_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+244554.220-1072830.320">
     <Label HasLeader="false">
-      <Point Name="A">+244559.960-1072522.760</Point>
-      <Point Name="B">+244606.690-1072817.750</Point>
-      <Point Name="C">+244612.580-1072807.020</Point>
-      <Point Name="A1">+244535.790-1072837.120</Point>
-      <Point Name="A2">+244544.970-1072830.860</Point>
-      <Point Name="A3">+244551.550-1072827.620</Point>
-      <Point Name="02">+244526.711-1072855.373</Point>
-      <Point Name="22">+244625.336-1072812.883</Point>
+      <Point Name="A">+244556.780-1072822.200</Point>
+      <Point Name="B">+244605.200-1072816.250</Point>
+      <Point Name="C">+244616.250-1072807.850</Point>
+      <Point Name="A1">+244538.380-1072832.800</Point>
+      <Point Name="A2">+244546.620-1072826.680</Point>
+      <Point Name="A3">+244553.410-1072824.880</Point>
+      <Point Name="02">+244523.890-1072853.720</Point>
+      <Point Name="20">+244622.670-1072811.750</Point>
     </Label>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCL_GATES" CustomColourName="GroundLabel" Priority="1" Center="+244554.220-1072830.320">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMCL_GATES" CustomColourName="GroundLabel" Priority="2" Center="+244554.220-1072830.320">
     <Line Name="Gate 1" Pattern="Solid">
       +244607.318-1072809.505/
       +244607.861-1072810.411

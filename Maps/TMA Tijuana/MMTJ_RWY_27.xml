@@ -58,12 +58,12 @@
     </Symbol>
   </Map>
   <Map Type="System" Name="Pista 27 - Salidas RNAV" Priority="1" Center="+323227.810-1165811.890">
-    <Line Name="KOBA2B" Pattern="Dotted">+323235.230-1165907.980/TJ567/TJ561/OASIS/KOBAM</Line>
-    <Line Name="TEVI2B" Pattern="Dotted">OASIS/TEVIR</Line>
-    <Line Name="TUMA2B" Pattern="Dotted">OASIS/TUMAP</Line>
+    <Line Name="KOBA2B" Pattern="Dotted">+323235.230-1165907.980/TJ567/TJ561/UDMOV/SIDGA</Line>
+    <Line Name="TEVI2B" Pattern="Dotted">UDMOV/TEVIR</Line>
+    <Line Name="TUMA2B" Pattern="Dotted">UDMOV/TUMAP</Line>
     <Symbol Type="SolidTriangle">
-      <Point>KOBAM</Point>
-      <Point>OASIS</Point>
+      <Point>SIDGA</Point>
+      <Point>UDMOV</Point>
       <Point>TEVIR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
@@ -74,7 +74,7 @@
   </Map>
   <Map Type="System" Name="Pista 27 - Salidas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
     <Label HasLeader="false">
-      <Point>KOBAM</Point>
+      <Point>SIDGA</Point>
       <Point>TEVIR</Point>
       <Point>TUMAP</Point>
     </Label>

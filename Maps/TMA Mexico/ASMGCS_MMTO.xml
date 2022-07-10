@@ -405,7 +405,7 @@
 +192032.880-0993425.169</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMTO_APR" Priority="2" Center="+192013.510-0993357.730">
+  <Map Type="Ground_APR" Name="ASMGCS_MMTO_APR" Priority="3" Center="+192013.510-0993357.730">
     <!--Fedex-->
     <Infill>
       <Point>
@@ -733,7 +733,7 @@
 +192038.263-0993419.121</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTO_TWY" Priority="3" Center="+192013.510-0993357.730">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMTO_TWY" Priority="4" Center="+192013.510-0993357.730">
     <!--A-->
     <Infill>
       <Point>
@@ -1934,5 +1934,63 @@
       <Point Name="15">+192120.200-0993424.460</Point>
       <Point Name="33">+191905.680-0993322.920</Point>
     </Label>
+  </Map>
+  <Map Type="Ground_TWY" Name="ASMGCS_MMTO_GATES" CustomColourName="GroundLabel" Priority="2" Center="+192013.510-0993357.730">
+    <Line Name="Gate 1" Pattern="Solid">
+      +192016.509-0993410.543/
+      +192017.292-0993408.565
+    </Line>
+    <Line Name="Gate 2" Pattern="Solid">
+      +192017.800-0993411.092/
+      +192018.562-0993409.169
+    </Line>
+    <Line Name="Gate 3" Pattern="Solid">
+      +192019.029-0993411.614/
+      +192019.818-0993409.719
+    </Line>
+    <Line Name="Gate 4" Pattern="Solid">
+      +192020.258-0993412.246/
+      +192021.041-0993410.296
+    </Line>
+    <Line Name="Gate 5" Pattern="Solid">
+      +192021.501-0993412.767/
+      +192022.283-0993410.845
+    </Line>
+    <Line Name="Gate 6" Pattern="Solid">
+      +192022.764-0993413.344/
+      +192023.540-0993411.394
+    </Line>
+    <Line Name="Gate 7" Pattern="Solid">
+      +192024.227-0993413.317/
+      +192024.769-0993411.971
+    </Line>
+    <Line Name="Gate 7A" Pattern="Solid">
+      +192023.155-0993414.772/
+      +192024.433-0993414.635
+    </Line>
+    <Line Name="Gate 7B" Pattern="Solid">
+      +192022.689-0993416.256/
+      +192023.835-0993416.146
+    </Line>
+    <Line Name="Gate 8" Pattern="Solid">
+      +192021.707-0993418.728/
+      +192023.059-0993418.316
+    </Line>
+    <Line Name="Gate 9" Pattern="Solid">
+      +192020.890-0993420.678/
+      +192022.297-0993420.238
+    </Line>
+    <Line Name="Gate 10" Pattern="Solid">
+      +192027.214-0993414.745/
+      +192027.783-0993413.317
+    </Line>
+    <Line Name="Gate 11" Pattern="Solid">
+      +192028.450-0993415.349/
+      +192029.033-0993413.866
+    </Line>
+    <Line Name="Gate 12" Pattern="Solid">
+      +192029.651-0993415.981/
+      +192030.283-0993414.443
+    </Line>
   </Map>
 </Maps>
