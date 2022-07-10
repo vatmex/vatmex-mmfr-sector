@@ -65,11 +65,11 @@
         <SID Name="AGU1A" Default="True" />
         <SID Name="ALIPA1" />
         <SID Name="ANIL1A" />
-        <SID Name="MEZCA1" />
-        <SID Name="SETOS1" />
         <SID Name="HORT1A" />
-        <SID Name="LIVR1C" />
+        <SID Name="LIVR1E" />
+        <SID Name="MEZCA1" />
         <SID Name="MITI1A" />
+        <SID Name="SETOS1" />
         <SID Name="TEDZ1B" />
         <SID Name="TIDI1A" />
         <SID Name="UKIR1A" />
@@ -86,15 +86,15 @@
         <SID Name="AGU1B" Default="True" />
         <SID Name="ANIL1B" />
         <SID Name="DANGO1" />
-        <SID Name="RABIL1" />
-        <SID Name="TEDZI1" />
-        <SID Name="XOTOL1" />
         <SID Name="HORT1B" />
         <SID Name="LIVR1D" />
         <SID Name="MITI1B" />
+        <SID Name="RABIL1" />
         <SID Name="TEDZ1C" />
+        <SID Name="TEDZI1" />
         <SID Name="TIDI1B" />
         <SID Name="UKIR1B" />
+        <SID Name="XOTOL1" />
         <STAR Name="BJX1D" ApproachName="RNP36.MIDLA" />
         <STAR Name="BOPA1B" ApproachName="RNP36.ETBAM" />
         <STAR Name="OMIN1B" ApproachName="RNP36.MIDLA" />
@@ -5525,10 +5525,10 @@
     <SID Name="HORT1B" Airport="MMAS" Runways="36">
       <Route Runway="36">AS801 AS805 AS810 HORTA</Route>
     </SID>
-    <SID Name="LIVR1C" Airport="MMAS" Runways="18">
+    <SID Name="LIVR1E" Airport="MMAS" Runways="18">
       <Route Runway="18">AS801 LIVRI</Route>
     </SID>
-    <SID Name="LIVR1D" Airport="MMAS" Runways="36">
+    <SID Name="LIVR1F" Airport="MMAS" Runways="36">
       <Route Runway="36">AS801 LIVRI</Route>
     </SID>
     <SID Name="MITI1A" Airport="MMAS" Runways="18">
