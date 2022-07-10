@@ -16,9 +16,9 @@ jobs:
         exclusions: '*.git* /*node_modules/* .editorconfig *.md'
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
-    with:
-      server: ftp.sawbe.com
-      server-dir: mexico-medium/
-      protocol: ftps
-      username: ${{ secrets.FTP_USERNAME }}
-      password: ${{ secrets.FTP_PASSWORD }}
+      with:
+        server: ftp.sawbe.com
+        server-dir: mexico-medium/
+        protocol: ftps
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
