@@ -25,7 +25,7 @@
 +154619.426-0961534.400</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMBT_APR" Priority="2" Center="+164523.800-0994455.300">
+  <Map Type="Ground_APR" Name="ASMGCS_MMBT_APR" Priority="3" Center="+164523.800-0994455.300">
     <!--Principal-->
     <Infill>
       <Point>
@@ -43,7 +43,7 @@
 +154624.340-0961541.327</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMBT_TWY" Priority="3" Center="+164523.800-0994455.300">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMBT_TWY" Priority="4" Center="+164523.800-0994455.300">
     <!--A-->
     <Infill>
       <Point>
@@ -133,12 +133,42 @@
 +154623.647-0961630.009</Line>
     </Infill>
   </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMBT_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+164523.800-0994455.300">
+  <Map Type="Ground_RWY" Name="ASMGCS_MMBT_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+164523.800-0994455.300">
    <Label HasLeader="false">
-      <Point Name="A">+154626.4883-0961546.7188</Point>
-      <Point Name="B">+154629.9297-0961528.1875</Point>
+      <Point Name="A">+154622.080-0961549.090</Point>
+      <Point Name="B">+154627.810-0961525.580</Point>
       <Point Name="07">+154626.363-0961628.248</Point>
       <Point Name="25">+154643.199-0961457.281</Point>
     </Label>
   </Map>
+  <Map Type="Ground_TWY" Name="ASMGCS_MMBT_GATES" CustomColourName="GroundLabel" Priority="2" Center="+164523.800-0994455.300">
+    <Line Name="Gate 1" Pattern="Solid">
+      +154622.006-0961530.487/
+      +154623.763-0961530.816
+    </Line>
+    <Line Name="Gate 2" Pattern="Solid">
+      +154621.762-0961531.942/
+      +154623.478-0961532.272
+    </Line>
+    <Line Name="Gate 3" Pattern="Solid">
+      +154621.597-0961533.316/
+      +154623.190-0961533.645
+    </Line>
+    <Line Name="Gate 4" Pattern="Solid">
+      +154621.291-0961534.744/
+      +154622.902-0961535.046
+    </Line>
+    <Line Name="Gate 5" Pattern="Solid">
+      +154620.982-0961536.392/
+      +154622.644-0961536.694
+    </Line>
+    <Line Name="Gate 6" Pattern="Solid">
+      +154619.949-0961537.902/
+      +154621.817-0961538.259
+    </Line>
+    <Line Name="Gate 7" Pattern="Solid">
+      +154619.661-0961539.248/
+      +154621.535-0961539.605
+    </Line>
+    </Map>
 </Maps>

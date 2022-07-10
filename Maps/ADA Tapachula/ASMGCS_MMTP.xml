@@ -167,11 +167,13 @@
 +144721.806-0922240.134</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTP_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+144737.580-0922213.140">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMTP_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+144737.580-0922213.140">
     <Label HasLeader="false">
       <Point Name="A">+144726.640-0922222.180</Point>
       <Point Name="B">+144737.220-0922205.660</Point>
       <Point Name="C">+144729.620-0922211.870</Point>
+      <Point Name="05">+144722.390-0922239.970</Point>
+      <Point Name="23">+144757.700-0922146.820</Point>
     </Label>
   </Map>
   <Map Type="Ground_TWY" Name="ASMGCS_MMTP_GATES" CustomColourName="GroundLabel" Priority="1" Center="+144737.580-0922213.140">

@@ -125,6 +125,7 @@
         <Map Name="TMA Cabos/ASMGCS_MMSD_APR" />
         <Map Name="TMA Cabos/ASMGCS_MMSD_BLD" />
         <Map Name="TMA Cabos/ASMGCS_MMSD_LABELS" />
+        <Map Name="TMA Cabos/ASMGCS_MMSD_GATES" />
       </Maps>
     </Position>
     <Position Name="MMSL" Type="ASMGCS" ASMGCSAirport="MMSL" DefaultCenter="+225651.140-1095620.090" DefaultRange="2" MagneticVariation="-8" Rotation="338">
@@ -143,6 +144,7 @@
         <Map Name="TMA Tijuana/ASMGCS_MMTJ_APR" />
         <Map Name="TMA Tijuana/ASMGCS_MMTJ_BLD" />
         <Map Name="TMA Tijuana/ASMGCS_MMTJ_LABELS" />
+        <Map Name="TMA Tijuana/ASMGCS_MMTJ_GATES" />
       </Maps>
     </Position>
     <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-8">
@@ -1067,6 +1069,7 @@
         <Map Name="ATZ Ixtepec/ASMGCS_MMIT_TWY" />
         <Map Name="ATZ Ixtepec/ASMGCS_MMIT_BLD" />
         <Map Name="ATZ Ixtepec/ASMGCS_MMIT_LABELS" />
+        <Map Name="ATZ Ixtepec/ASMGCS_MMIT_GATES" />
       </Maps>
     </Position>
     <Position Name="MMMD" Type="ASMGCS" ASMGCSAirport="MMMD" DefaultCenter="+205546.230-0893851.052" DefaultRange="3" MagneticVariation="0" Rotation="269">
@@ -1076,6 +1079,7 @@
         <Map Name="TMA Merida/ASMGCS_MMMD_TWY" />
         <Map Name="TMA Merida/ASMGCS_MMMD_BLD" />
         <Map Name="TMA Merida/ASMGCS_MMMD_LABELS" />
+        <Map Name="TMA Merida/ASMGCS_MMMD_GATES" />
       </Maps>
     </Position>
     <Position Name="MMMT" Type="ASMGCS" ASMGCSAirport="MMMT" DefaultCenter="+180612.960-0943449.940" DefaultRange="2" MagneticVariation="-4" Rotation="76">
@@ -1085,6 +1089,7 @@
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_TWY" />
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_BLD" />
         <Map Name="ATZ Minatitlan/ASMGCS_MMMT_LABELS" />
+        <Map Name="ATZ Minatitlan/ASMGCS_MMMT_GATES" />
       </Maps>
     </Position>
     <Position Name="MMPQ" Type="ASMGCS" ASMGCSAirport="MMPQ" DefaultCenter="+173159.020-0920056.400" DefaultRange="2" MagneticVariation="-4" Rotation="169">
@@ -1096,7 +1101,7 @@
         <Map Name="ATZ Palenque/ASMGCS_MMPQ_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMTG" Type="ASMGCS" ASMGCSAirport="MMTG" DefaultCenter="+163342.390-0930133.990" DefaultRange="2" MagneticVariation="-4" Rotation="126">
+    <Position Name="MMTG" Type="ASMGCS" ASMGCSAirport="MMTG" DefaultCenter="+163342.390-0930133.990" DefaultRange="2" MagneticVariation="-2" Rotation="124">
       <Maps>
         <Map Name="TMA Tuxtla Gutierrez/ASMGCS_MMTG_RWY" />
         <Map Name="TMA Tuxtla Gutierrez/ASMGCS_MMTG_APR" />
@@ -1106,7 +1111,7 @@
         <Map Name="TMA Tuxtla Gutierrez/ASMGCS_MMTG_GATES" />
       </Maps>
     </Position>
-    <Position Name="MMTP" Type="ASMGCS" ASMGCSAirport="MMTP" DefaultCenter="+144737.580-0922213.140" DefaultRange="2" MagneticVariation="-4" Rotation="39">
+    <Position Name="MMTP" Type="ASMGCS" ASMGCSAirport="MMTP" DefaultCenter="+144737.580-0922213.140" DefaultRange="2" MagneticVariation="-2" Rotation="37">
       <Maps>
         <Map Name="ADA Tapachula/ASMGCS_MMTP_RWY" />
         <Map Name="ADA Tapachula/ASMGCS_MMTP_APR" />
@@ -1394,7 +1399,7 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Torre Tuxtla (Procedimientos) - TGTW1" Type="ASD" DefaultCenter="+162914.929-0930242.378" DefaultRange="210" MagneticVariation="-4" VisibilityRange="100">
+    <Position Name="Torre Tuxtla (Procedimientos) - TGTW1" Type="ASD" DefaultCenter="+162914.929-0930242.378" DefaultRange="210" MagneticVariation="-2" VisibilityRange="100">
       <Sectors>
         <Sector Name="TGTW1" />
       </Sectors>
@@ -1936,6 +1941,7 @@
         <Map Name="TMA Leon/ASMGCS_MMAS_TWY" />
         <Map Name="TMA Leon/ASMGCS_MMAS_BLD" />
         <Map Name="TMA Leon/ASMGCS_MMAS_LABELS" />
+        <Map Name="TMA Leon/ASMGCS_MMAS_GATES" />
       </Maps>
     </Position>
     <Position Name="MMBT" Type="ASMGCS" ASMGCSAirport="MMBT" DefaultCenter="+154631.183-0961545.199" DefaultRange="2" MagneticVariation="-3" Rotation="14">
@@ -1945,6 +1951,7 @@
         <Map Name="ATZ Huatulco/ASMGCS_MMBT_TWY" />
         <Map Name="ATZ Huatulco/ASMGCS_MMBT_BLD" />
         <Map Name="ATZ Huatulco/ASMGCS_MMBT_LABELS" />
+        <Map Name="ATZ Huatulco/ASMGCS_MMBT_GATES" />
       </Maps>
     </Position>
     <Position Name="MMCB" Type="ASMGCS" ASMGCSAirport="MMCB" DefaultCenter="+185002.690-0991541.960" DefaultRange="2" MagneticVariation="-4" Rotation="62">
@@ -1975,6 +1982,7 @@
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_BLD" />
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_LINES" />
         <Map Name="TMA Guadalajara/ASMGCS_MMGL_LABELS" />
+        <Map Name="TMA Guadalajara/ASMGCS_MMGL_GATES" />
       </Maps>
     </Position>
     <Position Name="MMIA" Type="ASMGCS" ASMGCSAirport="MMIA" DefaultCenter="+191637.240-1033439.370" DefaultRange="2" MagneticVariation="-8" Rotation="205">
@@ -1984,6 +1992,7 @@
         <Map Name="ATZ Colima/ASMGCS_MMIA_TWY" />
         <Map Name="ATZ Colima/ASMGCS_MMIA_BLD" />
         <Map Name="ATZ Colima/ASMGCS_MMIA_LABELS" />
+        <Map Name="ATZ Colima/ASMGCS_MMIA_GATES" />
       </Maps>
     </Position>
     <Position Name="MMLO" Type="ASMGCS" ASMGCSAirport="MMLO" DefaultCenter="+205936.300-1012853.000" DefaultRange="2" MagneticVariation="-6" Rotation="322">
@@ -1993,6 +2002,7 @@
         <Map Name="TMA Leon/ASMGCS_MMLO_TWY" />
         <Map Name="TMA Leon/ASMGCS_MMLO_BLD" />
         <Map Name="TMA Leon/ASMGCS_MMLO_LABELS" />
+        <Map Name="TMA Leon/ASMGCS_MMLO_GATES" />        
       </Maps>
     </Position>
     <Position Name="MMMM" Type="ASMGCS" ASMGCSAirport="MMMM" DefaultCenter="+195057.640-1010129.410" DefaultRange="2" MagneticVariation="-7" Rotation="43">
@@ -2012,6 +2022,8 @@
         <Map Name="TMA Mexico/ASMGCS_MMMX_TWY" />
         <Map Name="TMA Mexico/ASMGCS_MMMX_BLD" />
         <Map Name="TMA Mexico/ASMGCS_MMMX_LABELS" />
+        <Map Name="TMA Mexico/ASMGCS_MMMX_LINES" />
+        <Map Name="TMA Mexico/ASMGCS_MMMX_GATES" />
       </Maps>
     </Position>
     <Position Name="MMOX" Type="ASMGCS" ASMGCSAirport="MMOX" DefaultCenter="+165954.520-0964333.830" DefaultRange="2" MagneticVariation="-4" Rotation="78">
@@ -2061,6 +2073,7 @@
         <Map Name="TMA Vallarta/ASMGCS_MMPR_TWY" />
         <Map Name="TMA Vallarta/ASMGCS_MMPR_BLD" />
         <Map Name="TMA Vallarta/ASMGCS_MMPR_LABELS" />
+        <Map Name="TMA Vallarta/ASMGCS_MMPR_GATES" />
       </Maps>
     </Position>
     <Position Name="MMPS" Type="ASMGCS" ASMGCSAirport="MMPS" DefaultCenter="+155235.900-0970521.210" DefaultRange="2" MagneticVariation="-4">
@@ -2073,13 +2086,22 @@
         <Map Name="ATZ Puerto Escondido/ASMGCS_MMPS_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMQT" Type="ASMGCS" ASMGCSAirport="MMQT" DefaultCenter="+203722.522-1001102.888" DefaultRange="3" MagneticVariation="-7" Rotation="176">
+    <Position Name="MMQT" Type="ASMGCS" ASMGCSAirport="MMQT" DefaultCenter="+203722.522-1001102.888" DefaultRange="2" MagneticVariation="-7" Rotation="176">
       <Maps>
         <Map Name="TMA Queretaro/ASMGCS_MMQT_RWY" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_APR" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_TWY" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_BLD" />
         <Map Name="TMA Queretaro/ASMGCS_MMQT_LABELS" />
+        <Map Name="TMA Queretaro/ASMGCS_MMQT_GATES" />
+      </Maps>
+    </Position>
+    <Position Name="MMSM" Type="ASMGCS" ASMGCSAirport="MMSM" DefaultCenter="+194440.700-0990053.200" DefaultRange="4" MagneticVariation="-4" Rotation="45">
+      <Maps>
+        <Map Name="TMA Mexico/ASMGCS_MMSM_RWY" />
+        <Map Name="TMA Mexico/ASMGCS_MMSM_APR" />
+        <Map Name="TMA Mexico/ASMGCS_MMSM_TWY" />
+        <Map Name="TMA Mexico/ASMGCS_MMSM_BLD" />
       </Maps>
     </Position>
     <Position Name="MMSP" Type="ASMGCS" ASMGCSAirport="MMSP" DefaultCenter="+221540.500-1005604.000" DefaultRange="2" MagneticVariation="-5" Rotation="306">
@@ -2119,6 +2141,7 @@
         <Map Name="TMA Mexico/ASMGCS_MMTO_TWY" />
         <Map Name="TMA Mexico/ASMGCS_MMTO_BLD" />
         <Map Name="TMA Mexico/ASMGCS_MMTO_LABELS" />
+        <Map Name="TMA Mexico/ASMGCS_MMTO_GATES" />
       </Maps>
     </Position>
     <Position Name="MMVR" Type="ASMGCS" ASMGCSAirport="MMVR" DefaultCenter="+190818.680-0961119.870" DefaultRange="2" MagneticVariation="-4" Rotation="83">
@@ -2270,7 +2293,7 @@
         <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-        <Map Name="TMA Guadalajara/Pista 28 - ILS Z 28" />
+        <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2304,7 +2327,7 @@
         <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-        <Map Name="TMA Guadalajara/Pista 28 - ILS Z 28" />
+        <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2338,7 +2361,7 @@
         <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
         <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-        <Map Name="TMA Guadalajara/Pista 28 - ILS Z 28" />
+        <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2377,12 +2400,12 @@
         <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-        <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV" />
-        <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV (Vectores)" />
-        <Map Name="TMA Guadalajara/Pista 28 - ILS Z 28" />
-        <Map Name="TMA Guadalajara/Pista 28 - Salidas RNAV" />
-        <Map Name="TMA Guadalajara/Pista 28 - Salidas RNAV (Nombres)" />
+        <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV" />
+        <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV (Vectores)" />
+        <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
+        <Map Name="TMA Guadalajara/Pista 29 - Salidas RNAV" />
+        <Map Name="TMA Guadalajara/Pista 29 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2421,12 +2444,12 @@
         <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
         <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-        <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV" />
-        <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Guadalajara/Pista 28 - Llegadas RNAV (Vectores)" />
-        <Map Name="TMA Guadalajara/Pista 28 - ILS Z 28" />
-        <Map Name="TMA Guadalajara/Pista 28 - Salidas RNAV" />
-        <Map Name="TMA Guadalajara/Pista 28 - Salidas RNAV (Nombres)" />
+        <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV" />
+        <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV (Nombres)" />
+        <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV (Vectores)" />
+        <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
+        <Map Name="TMA Guadalajara/Pista 29 - Salidas RNAV" />
+        <Map Name="TMA Guadalajara/Pista 29 - Salidas RNAV (Nombres)" />
 
         <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2993,209 +3016,6 @@
         <Point>+184239.210-0981947.677</Point>
       </ManualVisibility>
     </Position>
-    <Position Name="Aproximación México (Llegadas) - MARR1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" VisibilityRange="100">
-      <Sectors>
-        <Sector Name="MARR1" />
-        <Sector Name="MXLN5" />
-        <Sector Name="MXLS5" />
-        <Sector Name="TOAPP" />
-        <Sector Name="PBAPP" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
-        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-        <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite" />
-        <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
-
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Llegadas" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Vectores)" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Sector - Radioayudas" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
-        <Window Airport="MMMX" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="18000">
-        <AdditionalLevels>8200,9200</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMMX" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Llegadas Mexico / Mexico Arrivals</Line>
-        <Line>Serving MMMX, MMTO, MMCB, and MMPB arrivals</Line>
-        <Line>ATIS available on 127.650</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-      <ManualVisibility>
-        <Point>+200937.407-0994825.774</Point>
-        <Point>+200705.803-0981718.702</Point>
-        <Point>+184503.035-0995049.146</Point>
-        <Point>+184239.210-0981947.677</Point>
-      </ManualVisibility>
-    </Position>
-    <Position Name="Aproximación México (Separado) - MAPP1" Type="ASD" DefaultCenter="+192156.773-0992016.469" DefaultRange="150" MagneticVariation="-4" VisibilityRange="100">
-      <Sectors>
-        <Sector Name="MAPP1" />
-        <Sector Name="MXA5" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
-        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Aproximación" />
-
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Vectores)" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="Universal/Sector - Radioayudas" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
-        <Window Airport="MMMX" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="12000">
-        <AdditionalLevels>8200,9200</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMMX" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Aproximacion Mexico / Mexico Approach</Line>
-        <Line>Serving MMMX arrivals and departures</Line>
-        <Line>ATIS available on 127.650</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-      <ManualVisibility>
-        <Point>+200937.407-0994825.774</Point>
-        <Point>+200705.803-0981718.702</Point>
-        <Point>+184503.035-0995049.146</Point>
-        <Point>+184239.210-0981947.677</Point>
-      </ManualVisibility>
-    </Position>
-    <Position Name="Aproximación México (Final 05) - FNL05" Type="ASD" DefaultCenter="+192418.890-0990748.500" DefaultRange="70" MagneticVariation="-4" VisibilityRange="100">
-      <Sectors>
-        <Sector Name="FNL05" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
-        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Final" />
-
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Vectores)" />
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="Universal/Sector - Radioayudas" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
-        <Window Airport="MMMX" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="7300">
-        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMMX" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Final Mexico / Mexico Final Approach</Line>
-        <Line>Serving MMMX arrivals</Line>
-        <Line>ATIS available on 127.650</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-      <ManualVisibility>
-        <Point>+200937.407-0994825.774</Point>
-        <Point>+200705.803-0981718.702</Point>
-        <Point>+184503.035-0995049.146</Point>
-        <Point>+184239.210-0981947.677</Point>
-      </ManualVisibility>
-    </Position>
-    <Position Name="Aproximación México (Final 23) - FNL23" Type="ASD" DefaultCenter="+193021.563-0985644.344" DefaultRange="70" MagneticVariation="-4" VisibilityRange="100">
-      <Sectors>
-        <Sector Name="FNL23" />
-      </Sectors>
-      <Maps>
-        <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-        <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
-        <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-        <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-
-        <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
-        <Map Name="TMA Mexico/MMMX - Pistas 23 - Sectores Final" />
-
-        <Map Name="TMA Mexico/MMMX - Pistas 23 - Llegadas RNAV" />
-        <Map Name="TMA Mexico/MMMX - Pistas 23 - Llegadas RNAV (Nombres)" />
-        <Map Name="TMA Mexico/MMMX - Pistas 23 - Llegadas RNAV (Vectores)" />
-        <Map Name="TMA Mexico/MMMX - Pistas 23 - ILS Z 23L" />
-
-        <Map Name="ACC Mexico/Limites - Sectores" />
-
-        <Map Name="Universal/Geografia - Linea de Costa" />
-        <Map Name="Universal/Sector - Radioayudas" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
-        <Window Airport="MMMX" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="MMMX" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="7300">
-        <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="MMMX" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Final Mexico / Mexico Final Approach</Line>
-        <Line>Serving MMMX arrivals</Line>
-        <Line>ATIS available on 127.650</Line>
-        <Line>ATC feedback - vatmex.com.mx</Line>
-      </ControllerInfo>
-      <ManualVisibility>
-        <Point>+200937.407-0994825.774</Point>
-        <Point>+200705.803-0981718.702</Point>
-        <Point>+184503.035-0995049.146</Point>
-        <Point>+184239.210-0981947.677</Point>
-      </ManualVisibility>
-    </Position>
     <Position Name="Salidas México - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100">
       <Sectors>
         <Sector Name="MXDEP" />
@@ -3211,7 +3031,6 @@
 
         <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Salidas" />
 
-        <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
         <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV" />
         <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV (Nombres)" />
 
@@ -4171,7 +3990,7 @@
         <Map Name="ATZ Monclova/ASMGCS_MMMV_LABELS" />
       </Maps>
     </Position>
-    <Position Name="MMMY" Type="ASMGCS" ASMGCSAirport="MMMY" DefaultCenter="+254631.935-1000621.281" DefaultRange="2" MagneticVariation="-5" Rotation="334">
+    <Position Name="MMMY" Type="ASMGCS" ASMGCSAirport="MMMY" DefaultCenter="+254635.370-1000626.510" DefaultRange="2" MagneticVariation="-5" Rotation="334">
       <Maps>
         <Map Name="TMA Monterrey/ASMGCS_MMMY_RWY" />
         <Map Name="TMA Monterrey/ASMGCS_MMMY_APR" />

@@ -1,6 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_APR" Name="ASMGCS_MMIA_APR" Priority="2" Center="+191637.240-1033439.370">
+  <Map Type="Ground_BLD" Name="ASMGCS_MMIA_BLD" Priority="1" Center="+191637.240-1033439.370">
+  <!--Terminal-->
+    <Infill>
+      <Point>
++191649.712-1033437.102/
++191650.810-1033437.432/
++191650.632-1033438.118/
++191650.364-1033438.036/
++191650.028-1033439.409/
++191649.142-1033439.135/
++191649.327-1033438.448/
++191648.847-1033438.311/
++191649.046-1033437.542/
++191649.540-1033437.706/
++191649.712-1033437.102</Point>
+    </Infill>
+  <!--CREI-->
+    <Infill>
+      <Point>
++191647.638-1033440.892/
++191648.462-1033441.140/
++191648.297-1033441.744/
++191647.473-1033441.469/
++191647.638-1033440.892</Point>
+    </Infill>  
+  <!--Bldg 1-->
+    <Infill>
+      <Point>
++191647.315-1033442.019/
++191647.659-1033442.128/
++191647.205-1033443.749/
++191646.876-1033443.639/
++191647.315-1033442.019</Point>
+    </Infill>    
+  <!--Bldg 2-->
+    <Infill>
+      <Point>
++191648.126-1033442.540/
++191648.503-1033442.650/
++191648.071-1033444.243/
++191647.707-1033444.106/
++191648.126-1033442.540</Point>
+    </Infill>  
+  <!--Hangares 1-->
+    <Infill>
+      <Point>
++191643.415-1033444.628/
++191645.139-1033445.150/
++191644.919-1033446.001/
++191644.102-1033445.726/
++191644.150-1033445.534/
++191643.759-1033445.424/
++191643.498-1033446.358/
++191642.893-1033446.193/
++191643.086-1033445.479/
++191643.175-1033445.507/
++191643.415-1033444.628</Point>
+    </Infill>  
+  <!--Hangares 2-->
+    <Infill>
+      <Point>
++191642.680-1033447.100/
++191643.182-1033447.237/
++191642.804-1033448.720/
++191642.303-1033448.555/
++191642.680-1033447.100</Point>
+    </Infill>
+  </Map>
+  <Map Type="Ground_APR" Name="ASMGCS_MMIA_APR" Priority="3" Center="+191637.240-1033439.370">
     <!--Principal-->
     <Infill>
       <Point>
@@ -11,7 +79,7 @@
 +191642.747-1033444.086</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMIA_TWY" Priority="3" Center="+191637.240-1033439.370">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMIA_TWY" Priority="4" Center="+191637.240-1033439.370">
     <!--A-->
     <Infill>
       <Point>
@@ -113,12 +181,26 @@
 +191627.218-1033519.504</Line>
     </Infill>
   </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMIA_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+191637.240-1033439.370">
+  <Map Type="Ground_RWY" Name="ASMGCS_MMIA_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+191637.240-1033439.370">
    <Label HasLeader="false">
-      <Point Name="A">+191644.6172-1033428.1563</Point>
-      <Point Name="B">+191640.5859-1033442.8125</Point>
-      <Point Name="07">+191623.4137-1033514.5111</Point>
-      <Point Name="25">+191643.8963-1033400.3259</Point>
+      <Point Name="A">+191644.500-1033430.380</Point>
+      <Point Name="B">+191640.920-1033446.300</Point>
+      <Point Name="07">+191626.610-1033513.600</Point>
+      <Point Name="25">+191646.590-1033401.560</Point>
     </Label>
+  </Map>
+  <Map Type="Ground_TWY" Name="ASMGCS_MMIA_GATES" CustomColourName="GroundLabel" Priority="2" Center="+191637.240-1033439.370">
+    <Line Name="Gate 1" Pattern="Solid">
+      +191647.102-1033439.766/
+      +191645.997-1033439.409
+    </Line>
+    <Line Name="Gate 2" Pattern="Solid">
+      +191647.720-1033437.597/
+      +191646.594-1033437.239
+    </Line>		
+    <Line Name="Gate 3" Pattern="Solid">
+      +191648.318-1033435.427/
+      +191647.205-1033435.070
+    </Line>			
   </Map>
 </Maps>

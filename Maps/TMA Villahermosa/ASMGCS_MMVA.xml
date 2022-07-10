@@ -223,10 +223,12 @@
 +175947.324-0924939.135</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMVA_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+175947.160-0924901.680">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMVA_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+175947.160-0924901.680">
     <Label HasLeader="false">
       <Point Name="A">+175941.730-0924919.420</Point>
       <Point Name="B">+175942.040-0924901.890</Point>
+      <Point Name="08">+175947.780-0924939.080</Point>
+      <Point Name="26">+175952.000-0924826.410</Point>
     </Label>
   </Map>
   <Map Type="Ground_TWY" Name="ASMGCS_MMVA_GATES" CustomColourName="GroundLabel" Priority="1" Center="+175947.160-0924901.680">
