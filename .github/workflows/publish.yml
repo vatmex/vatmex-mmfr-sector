@@ -17,7 +17,8 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.sawbe.com/mexico-dark
+        server: ftp.sawbe.com
+        server-dir: mexico-dark/
         protocol: ftps
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
