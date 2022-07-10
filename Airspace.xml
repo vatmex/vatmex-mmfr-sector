@@ -1376,13 +1376,14 @@
       <Runway Name="09" DataRunway="09">
         <SID Name="TIJ3B" Default="True" />
         <SID Name="AVEN4A" />
-        <SID Name="UDMO1A" />
+        <SID Name="KREP1A" />
         <SID Name="SEVRA4" />
-        <SID Name="TOPO5A" />
-        <SID Name="ULDU1A" />
         <SID Name="SIDG1A" />
         <SID Name="TEVI1A" />
+        <SID Name="TOPO5A" />
         <SID Name="TUMA1A" />
+        <SID Name="UDMO1A" />
+        <SID Name="ULDU1A" />
         <STAR Name="TANR1A" ApproachName="ILS093.TUBUS" />
         <STAR Name="TOVE1A" ApproachName="ILS093.TUBUS" />
       </Runway>
@@ -1390,12 +1391,12 @@
         <SID Name="TIJ4A" Default="True" />
         <SID Name="AVEN5B" />
         <SID Name="KREP1B" />
-        <SID Name="UDMO1B" />
-        <SID Name="TOPO5B" />
-        <SID Name="ULDU1B" />
         <SID Name="SIDG1B" />
         <SID Name="TEVI2B" />
+        <SID Name="TOPO5B" />
         <SID Name="TUMA2B" />
+        <SID Name="UDMO1B" />
+        <SID Name="ULDU1B" />
         <STAR Name="TANR1B" ApproachName="RNP27.ULDUD" />
         <STAR Name="TOVE2B" ApproachName="RNP27.KREPE" />
       </Runway>
@@ -1799,7 +1800,7 @@
         TAP/IMASO
     </Airway>
     <Airway Name="V1">
-        TIJ/KREPE/ENS/TOVES/SQN/GRN/LTO/TULES/LAP/AMARI/SJD/AVAVU/KINOL/ISLAS/MZT/XUBUD/OBRUG/OLUNO/KENDU/PVR/ALPAP/OBVIX/USBAK/ZLO/BEXIN/TADIR/TABRA/SEGIP/ZIH/AVURO/NICOS/ACA/KATRA/ANVAN/PXM/HUX/XOSLO/IZT/IMITO/VILGI/TAP/MARIX/CMT/PQE/EBLEV/TETUK/CME
+        TIJ/KREPE/ENS/TOVES/SQN/GRN/LTO/TULES/LAP/AMARI/SJD/AVAVU/KINOL/ISLAS/MZT/XUBUD/OBRUG/OLUNO/KENDU/PVR/ALPAP/OBVIX/USBAK/ZLO/BEXIN/TADIR/TABRA/SEGIP/ZIH/AVURO/NICOS/ACA/KATRA/ANVAN/PXM/HUX/XOSLO/IZT/IMITO/VILGI/TAP
     </Airway>
     <Airway Name="V1E">
         LTO/DASVU/PISET/LAP/DAPIS/XOPRU/SJD
@@ -1838,7 +1839,7 @@
         MAM/IRBID/REX/REALA/MTY/SLW/OMIXA/TETUN/TRC/XOTIN/VIKDO/DGO/LONRI/SAVOM/LIDIK/CUL/TOVER/ILAVI/ENEKO/MANUS/LAP
     </Airway>
     <Airway Name="V11">
-        TRC/AVUVA/PESPA/CDR/LOMSA/IMODA/XOSIM/TTM/TMN/ADRAX/SLM
+        TRC/AVUVA/PESPA/CDR/LOMSA/IMODA/XOSIM/TTM/TMN/ADRAX/AGLEN/SLM
     </Airway>
     <Airway Name="V12">
         CVM/TEPAS/ITMAT/CDR/XORVO/DURPA/TUGIR/DGO/LONRI/SAVOM/LIDIK/CUL/XOMGA/IKBOR/LEPOM/GOSIM/MENVI/SJD/CSL/LETAT/URLET/GODOY/LTO
@@ -1856,7 +1857,7 @@
         PVR/VOLAT/DEBRO/GDL
     </Airway>
     <Airway Name="V15">
-        PNG/ALUXO/USBAR/EMPIX/NOTAL/URTUS/MTY/CVM/TALPU/SILAC/TMN/PCA/SLM/MEX/DUXOP/TEQ/TEXCA/ACA
+        PNG/ALUXO/USBAR/EMPIX/NOTAL/URTUS/MTY/CVM/TALPU/SILAC/TMN/ADRAX/AGLEN/SLM/MEX/DUXOP/TEQ/TEXCA/ACA
     </Airway>
     <Airway Name="V15W">
         TEQ/KANOX/ALNUS/OMVIT/ACA
@@ -1877,19 +1878,19 @@
         NLD/NOTAK/USBAR/ITPUM/MOV/MURDU/IPSAG/TRC/RUBNA/ELOLU/SUSOV/MIVIS/DGO/UKIKI/UKODA/LESIT/MZT/DUPOP/OLESI/KIPUM/MARUX/ONGEX/LAP
     </Airway>
     <Airway Name="V21">
-        REX/AXANI/ELIXI/MALPA/CVM/TALPU/SILAC/TMN/PCA/APN/ALITA/PBC/TUMEN/CUA/AMEKU/VOKAM/ANALU/MUVAR/ACA
+        REX/AXANI/ELIXI/MALPA/CVM/TALPU/SILAC/TMN/ADRAX/AGLEN/SLM/NOSIT/APN/ALITA/PBC/TUMEN/CUA/AMEKU/VOKAM/ANALU/MUVAR/ACA
     </Airway>
     <Airway Name="V22">
-        AGU/SETOS/AMOVA/BJX/AVRIK/MEDAB/URNAT/QET/PITUS/SLM/NOSIT/APN/ALMET/TEVET/VER/IPTAK/DUPLO/MTT/URVOD/TGZ/LENOP/CMT
+        AGU/SETOS/AMOVA/BJX/AVRIK/MEDAB/URNAT/QET/PITUS/SLM/NOSIT/APN/ALMET/TEVET/VER/IPTAK/DUPLO/MTT/URVOD/TGZ
     </Airway>
     <Airway Name="V23">
-        MOV/OBSEV/MTY/RETOS/SESNO/ESVUR/CVM/CUEVA/ONGOB/XOXAD/XORMA/TAM/NOTOR/PAZ/VER/IMARA/ELOGO/ALUEN/YOLKO/VSA/SIKDI/CMT
+        MOV/OBSEV/MTY/RETOS/SESNO/ESVUR/CVM/CUEVA/ONGOB/XOXAD/XORMA/TAM/NOTOR/PAZ/VER/IMARA/ELOGO/ALUEN/YOLKO/VSA
     </Airway>
     <Airway Name="V24">
         CUA/TEQ/LENEG/NOTOL/ILENA/OLULA/ZIH
     </Airway>
     <Airway Name="V25">
-        MAM/AXIPU/NUGUS/DUSPI/MAPIL/TAM/LETIL/PIVOL/PCA
+        MAM/AXIPU/NUGUS/DUSPI/MAPIL/TAM
     </Airway>
     <Airway Name="V26">
         NLD/XOVES/RUDMA/MTY/URTOB/BEROS/CDR/EMUDA/ZCL/MITIN/RABIL/GOYAS/GDL/EMIGU/IRBEK/TIDEK/ZLO
@@ -1910,7 +1911,7 @@
         PAZ/LIDAR/VITUP/VER/LEXUR/OAX/MASAS/PXM
     </Airway>
     <Airway Name="V30">
-        CZM/OKUVA/AVSIM/CPE/CONTO/CME
+        CZM/OKUVA/AVSIM/CPE/CONTO/CME/TETUK/EBLEV/PQE
     </Airway>
     <Airway Name="V31">
         MTT/IZT
@@ -1922,7 +1923,7 @@
         VER/OTILO/MISAS/RETOM/OMATO/IZT
     </Airway>
     <Airway Name="V34">
-        PAZ/ALUNI/PCA/SLM/PTJ
+        PAZ/ALUNI/ERBAM/SLM/PTJ
     </Airway>
     <Airway Name="V35">
         MTY/EMAKI/DOTOR/REX
@@ -1974,9 +1975,6 @@
     </Airway>
     <Airway Name="V53">
         CEN/EMANI/KEBEX/KIPAX/LERIV/BOKTA/CUL/XORUB/UKSEL/UKRIG/MZT
-    </Airway>
-    <Airway Name="V54">
-        PCA/REXES/IKLES/ONBAD/VER
     </Airway>
     <Airway Name="V55">
         PNG/MOV/PIKBU/SLW/LIRGA/ELERA/ITBEN/ONGUB/CVM
@@ -2042,7 +2040,7 @@
         TCS/BECON/SETMA/CUU/LENEM/ETLEP/KITON/TRC/PODIR/PIXON/AXABA/ZCL/TEDZI/AGU/SETOS/AMOVA/BJX/NAGIV/FRESA/XOTKI/PTJ/TLC/BESAN/GADMU/TEQ/AMEKU/GARES/CONWA/TABMI/OAX/ISTMO/AVINA/IZT/IMITO/VILGI/TAP
     </Airway>
     <Airway Name="J21">
-        LRD/SUTOL/DOTOR/SESNO/ESVUR/CVM/TALPU/SILAC/TMN/PCA/MEX/DUXOP/TEQ/TEXCA/ACA
+        LRD/SUTOL/DOTOR/SESNO/ESVUR/CVM/TALPU/SILAC/TMN/ADRAX/AGLEN/SLM/MEX/DUXOP/TEQ/TEXCA/ACA
     </Airway>
     <Airway Name="J22">
         LRD/WEGUS/NLD
@@ -2183,7 +2181,7 @@
         URTOK/ANTEK/CUN/LOKMA/AVATA/EPNAS/TULUM/MID/XOLRO/ALPOM/DYSON/VODIV/KONLA/DUSOV/OMPAN/BOLTA/VER/TEVET/ALMET/APN/MEX/TLC/ZARCO/IKLOK/TUZAS/IGVES/UPN/TAKRO/COL/MEKLI/ZLO
     </Airway>
     <Airway Name="UJ19">
-        MAM/AXIPU/NUGUS/DUSPI/MAPIL/TAM/LETIL/PIVOL/PCA/NOSIT/OTMOS/CUA/OKUBI/PXM
+        MAM/AXIPU/NUGUS/DUSPI/MAPIL/TAM/LOSBA/XOSOK/ALUNI/VITOS/MUXEP/APN/OTMOS/CUA/OKUBI/PXM
     </Airway>
     <Airway Name="UJ20">
         TIJ/TOPOS/SIDGA/SQN/GRN/LTO/GODOY/ORCAS/LAP/ONGEX/MARUX/KIPUM/OLESI/DUPOP/MZT/LESIT/UKODA/UKIKI/DGO/MIVIS/SUSOV/ELOLU/RUBNA/TRC/IPSAG/MURDU/MOV/ITPUM/USBAR/NOTAK/NLD
@@ -2222,7 +2220,7 @@
         VER/OTILO/MISAS/RETOM/OMATO/IZT
     </Airway>
     <Airway Name="UJ35">
-        MAM/GAGPI/URVUT/ONGOB/XOMLU/TMN/ADRAX/SLM
+        MAM/GAGPI/URVUT/ONGOB/XOMLU/TMN/ADRAX/AGLEN/SLM
     </Airway>
     <Airway Name="UJ36">
         TTM/TMN
@@ -2240,7 +2238,7 @@
         NLD/ONKAL/SASES/NOTAL/GABLA/NOVUL/SLW/OMEVO/FLANE/CDR/ALOVO/DUPMI/SLP/MERGO/LIBOL/MANTA/BJX/URVEM/OMINA/ANIDA/MLM
     </Airway>
     <Airway Name="UJ41">
-        NLD/DUVKA/MATUR/TALBI/CVM/TALPU/SILAC/TMN/PCA/REXES/IKLES/ONBAD/VER
+        NLD/DUVKA/MATUR/TALBI/CVM/TALPU/SILAC/TMN
     </Airway>
     <Airway Name="UJ45">
         PNG/USBAR/EMPIX/NOTAL/URTUS/MTY/IMODA/IREKO/LIRNU/SLP/TAMSA/DUPUD/QET/DAVUL/XOSUD/PTJ/TLC/DERVI/LENEG/KANOX/ALNUS/OMVIT/ACA
@@ -2249,7 +2247,7 @@
         CJS/OMSEK/SIKMA/ONGIV/CUU/OKOMA/ANEGI/ELQ/VOKES/TRC/AVUVA/PESPA/CDR/LOMSA/IMODA/XOSIM/XOPMA/TTM/SILAC/XOMLU/TAKLA/TAM
     </Airway>
     <Airway Name="UJ47">
-        CJS/DUXAT/VOKOM/UMEDO/ULURO/CUU/TASTO/VOMAS/RUDLO/BISGA/TRC/URTIG/KATLA/EMIRA/IDEAL/KEPLU/SLP/AVPUS/ULUAS/TAKSO/AVSUB/BITRO/SLM/PBC/MEBAS/ALESA/KANAL/XOPVO/IZT/XOMSO/TGZ/ONVIP/IKDOL/TAP
+        CJS/DUXAT/VOKOM/UMEDO/ULURO/CUU/TASTO/VOMAS/RUDLO/BISGA/TRC/URTIG/KATLA/EMIRA/IDEAL/KEPLU/SLP/AVPUS/ULUAS/TAKSO/AVSUB/JUCRO/ALUSU/SLM/PBC/MEBAS/ALESA/KANAL/XOPVO/IZT/XOMSO/TGZ/ONVIP/IKDOL/TAP
     </Airway>
     <Airway Name="UJ48">
         CSL/OLUVU/DUVIT/ILIGA/LETAL/XOSPU/PVR
@@ -2294,7 +2292,7 @@
         TEQ/MEMDI/PXM
     </Airway>
     <Airway Name="UJ81">
-        MTY/URSUR/KERGA/ITBEN/ITMAT/AXESU/TTM/MORAS/AVSUB/BITRO/SLM
+        MTY/URSUR/KERGA/ITBEN/ITMAT/AXESU/TTM/MORAS/AVSUB/JUCRO/ALUSU/SLM
     </Airway>
     <Airway Name="UJ83">
         PNG/ITPUM/TAGIB/OBSEV/UKRAK/HERTY/IGVOR/SLW
@@ -2302,11 +2300,8 @@
     <Airway Name="UJ84">
         CUN/VOBED/UDGUV/IKLEK/CZA/CPE
     </Airway>
-    <Airway Name="UJ95">
-        PCA/APN
-    </Airway>
     <Airway Name="UJ102">
-        PAZ/ALUNI/PCA/
+        PAZ/ALUNI/ERBAM/SLM
     </Airway>
     <Airway Name="UR506">
         NUDAL/CONAR/IMOLO/DUGNI/CUN
@@ -2369,7 +2364,7 @@
         TAM/ANILO/VOKIR/AVALI/DURIB/AXORO/VER
     </Airway>
     <Airway Name="T70">
-        CALIZ/URMAS/ILONO/ATUKA/LOBRA/TAKAL/RIBIS
+        CALIZ/URMAS/ILONO/OTAGO/ATUKA/LOBRA/TAKAL/RIBIS
     </Airway>
     <Airway Name="T80">
         CALIZ/ULEGO/DASKA/OTIVO/OVISO/SIKMO/RIBIS
@@ -2429,7 +2424,7 @@
         VSA/TAKAN/EMADA
     </Airway>
     <Airway Name="UL423">
-        TEQ/XOSVO/UGERO/IZT/IMITO/VIGIL/TAP/PIXEN
+        TEQ/XOSVO/UGERO/IZT/IMITO/VILGI/TAP/PIXEN
     </Airway>
     <Airway Name="UL577">
         CZM/GOSUL/AVSEB/ILUBA
@@ -2870,6 +2865,7 @@
     <Point Name="ADRAX" Type="Fix">+204429.000-0985514.000</Point>
     <Point Name="ADSUN" Type="Fix">+213056.000-0872011.000</Point>
     <Point Name="AGAVE" Type="Fix">+181404.000-0922724.000</Point>
+    <Point Name="AGLEN" Type="Fix">+202609.000-0985648.000</Point>
     <Point Name="AGLON" Type="Fix">+172417.900-1001822.400</Point>
     <Point Name="AGMUM" Type="Fix">+255138.500-0993941.200</Point>
     <Point Name="AGNID" Type="Fix">+285510.000-1035837.000</Point>
@@ -2917,6 +2913,7 @@
     <Point Name="ALUNI" Type="Fix">+201731.000-0981605.000</Point>
     <Point Name="ALUNO" Type="Fix">+173121.500-1013845.400</Point>
     <Point Name="ALURU" Type="Fix">+222757.000-0860000.000</Point>
+    <Point Name="ALUSU" Type="Fix">+202636.000-0991029.000</Point>
     <Point Name="ALUXO" Type="Fix">+274822.200-1002438.000</Point>
     <Point Name="ALUXU" Type="Fix">+230759.000-0970852.000</Point>
     <Point Name="ALYRE" Type="Fix">+201307.500-0860446.900</Point>
@@ -3428,7 +3425,8 @@
     <Point Name="EPNAS" Type="Fix">+205815.000-0884600.000</Point>
     <Point Name="EPNEL" Type="Fix">+213833.500-0872738.600</Point>
     <Point Name="EPSEN" Type="Fix">+201110.000-1063030.000</Point>
-    <Point Name="ERBOS" Type="Fix">+203402.000-1020504.000</Point>
+    <Point Name="EPSEN" Type="Fix">+201110.000-1063030.000</Point>
+    <Point Name="ERBAM" Type="Fix">+200754.000-0984105.000</Point>
     <Point Name="ERDAM" Type="Fix">+211430.000-0870047.600</Point>
     <Point Name="ERDAN" Type="Fix">+210523.740-1033438.920</Point>
     <Point Name="ERDEL" Type="Fix">+183926.000-0975918.000</Point>
@@ -3674,7 +3672,7 @@
     <Point Name="IMOLO" Type="Fix">+211000.000-0860746.000</Point>
     <Point Name="IMOSO" Type="Fix">+220433.000-1025429.000</Point>
     <Point Name="IMUSU" Type="Fix">+271942.000-1121613.000</Point>
-    <Point Name="IMUTO" Type="Fix">+201438.900-0993009.600</Point>    
+    <Point Name="IMUTO" Type="Fix">+201438.900-0993009.600</Point>
     <Point Name="INDIO" Type="Fix">+252458.000-1083609.000</Point>
     <Point Name="IO401" Type="Fix">+254004.200-1010446.900</Point>
     <Point Name="IO405" Type="Fix">+253253.900-1010445.900</Point>
@@ -3728,7 +3726,7 @@
     <Point Name="JASTO" Type="Fix">+204453.100-1022720.700</Point>
     <Point Name="JAYES" Type="Fix">+203125.030-1030551.220</Point>
     <Point Name="JEREZ" Type="Fix">+223747.000-0980725.000</Point>
-    <Point Name="JERVI" Type="Fix">+224648.500-1094953.500</Point>
+    <Point Name="JUCRO" Type="Fix">+204311.000-0991429.000</Point>
     <Point Name="JUSCO" Type="Fix">+193643.000-0995333.000</Point>
     <Point Name="KANAL" Type="Fix">+171826.000-0960607.000</Point>
     <Point Name="KANNA" Type="Fix">+260001.000-0970001.000</Point>
@@ -3740,7 +3738,7 @@
     <Point Name="KATIS" Type="Fix">+115910.000-0982504.000</Point>
     <Point Name="KATLA" Type="Fix">+244850.000-1024957.000</Point>
     <Point Name="KATLI" Type="Fix">+252527.000-1062249.000</Point>
-    <Point Name="KATMI" Type="Fix">+191549.900-1000735.900</Point>    
+    <Point Name="KATMI" Type="Fix">+191549.900-1000735.900</Point>
     <Point Name="KATPO" Type="Fix">+254633.200-0994314.200</Point>
     <Point Name="KATRA" Type="Fix">+163906.000-0992527.000</Point>
     <Point Name="KAVOR" Type="Fix">+211545.000-1054816.000</Point>
@@ -4582,7 +4580,7 @@
     <Point Name="SM02E" Type="Fix">+194736.000-0990929.600</Point>
     <Point Name="SM03E" Type="Fix">+194421.200-0991237.600</Point>
     <Point Name="SM03N" Type="Fix">+194121.500-0991218.400</Point>
-    <Point Name="SM03S" Type="Fix">+193954.600-0991209.100</Point>    
+    <Point Name="SM03S" Type="Fix">+193954.600-0991209.100</Point>
     <Point Name="SM04N" Type="Fix">+193904.200-0991052.900</Point>
     <Point Name="SM04S" Type="Fix">+193853.800-0990902.800</Point>
     <Point Name="SM05N" Type="Fix">+193938.600-0990745.500</Point>
@@ -4594,7 +4592,7 @@
     <Point Name="SM11N" Type="Fix">+194635.400-0985916.200</Point>
     <Point Name="SM12N" Type="Fix">+195022.900-0985752.700</Point>
     <Point Name="SM12S" Type="Fix">+194109.200-0990014.400</Point>
-    <Point Name="SM21S" Type="Fix">+194513.400-0985932.500</Point> 
+    <Point Name="SM21S" Type="Fix">+194513.400-0985932.500</Point>
     <Point Name="SM23S" Type="Fix">+194621.600-0990330.800</Point>
     <Point Name="SM32N" Type="Fix">+195244.400-0985144.400</Point>
     <Point Name="SM33N" Type="Fix">+194955.200-0985511.900</Point>
@@ -4634,7 +4632,7 @@
     <Point Name="SM505" Type="Fix">+194720.500-0985657.000</Point>
     <Point Name="SM506" Type="Fix">+200927.700-0985342.700</Point>
     <Point Name="SM507" Type="Fix">+194230.000-0985312.000</Point>
-    <Point Name="SM508" Type="Fix">+194305.700-0985330.800</Point>     
+    <Point Name="SM508" Type="Fix">+194305.700-0985330.800</Point>
     <Point Name="SM509" Type="Fix">+194909.200-0985443.900</Point>
     <Point Name="SM510" Type="Fix">+194700.400-0983830.700</Point>
     <Point Name="SM512" Type="Fix">+194240.500-0982145.400</Point>
@@ -4657,10 +4655,10 @@
     <Point Name="SM722" Type="Fix">+194909.200-0985443.900</Point>
     <Point Name="SM724" Type="Fix">+194700.400-0983830.700</Point>
     <Point Name="SM726" Type="Fix">+194240.500-0982145.400</Point>
-    <Point Name="SM730" Type="Fix">+193625.200-0990335.100</Point>    
-    <Point Name="SM732" Type="Fix">+194621.400-0985809.200</Point>    
+    <Point Name="SM730" Type="Fix">+193625.200-0990335.100</Point>
+    <Point Name="SM732" Type="Fix">+194621.400-0985809.200</Point>
     <Point Name="SMA00" Type="Fix">+194254.300-0990714.100</Point>
-    <Point Name="SMA01" Type="Fix">+194336.600-0990835.100</Point>    
+    <Point Name="SMA01" Type="Fix">+194336.600-0990835.100</Point>
     <Point Name="SMA02" Type="Fix">+194247.500-0985719.400</Point>
     <Point Name="SMC01" Type="Fix">+194503.700-0985523.700</Point>
     <Point Name="SMC02" Type="Fix">+194538.800-0985523.700</Point>
@@ -5221,7 +5219,6 @@
     <Point Name="CUN" Type="Navaid" NavaidType="VOR" Frequency="113.600">+210130.390-0865131.380</Point>
     <Point Name="CME" Type="Navaid" NavaidType="VOR" Frequency="113.000">+183937.580-0914818.530</Point>
     <Point Name="COL" Type="Navaid" NavaidType="VOR" Frequency="117.700">+191630.460-1033444.420</Point>
-    <Point Name="CMT" Type="Navaid" NavaidType="VOR" Frequency="114.700">+161040.800-0920326.860</Point>
     <Point Name="CDR" Type="Navaid" NavaidType="VOR" Frequency="117.100">+240935.000-1012914.590</Point>
     <Point Name="CZM" Type="Navaid" NavaidType="VOR" Frequency="112.500">+203026.900-0865443.200</Point>
     <Point Name="CUA" Type="Navaid" NavaidType="VOR" Frequency="116.300">+184707.390-0985402.700</Point>
@@ -5261,7 +5258,6 @@
     <Point Name="TTM" Type="Navaid" NavaidType="VOR" Frequency="114.400">+225804.250-0994621.670</Point>
     <Point Name="OAX" Type="Navaid" NavaidType="VOR" Frequency="112.000">+165820.120-0964352.900</Point>
     <Point Name="CEN" Type="Navaid" NavaidType="VOR" Frequency="115.100">+272341.130-1095014.220</Point>
-    <Point Name="PCA" Type="Navaid" NavaidType="VOR" Frequency="112.700">+200754.630-0984103.820</Point>
     <Point Name="PQE" Type="Navaid" NavaidType="VOR" Frequency="115.500">+173213.690-0920153.620</Point>
     <Point Name="PTJ" Type="Navaid" NavaidType="VOR" Frequency="114.500">+193844.510-0994752.900</Point>
     <Point Name="PPE" Type="Navaid" NavaidType="VOR" Frequency="114.900">+312202.180-1131804.960</Point>
@@ -5274,7 +5270,6 @@
     <Point Name="REX" Type="Navaid" NavaidType="VOR" Frequency="112.400">+260038.270-0981354.730</Point>
     <Point Name="ADN" Type="Navaid" NavaidType="VOR" Frequency="115.400">+255155.590-1001419.660</Point>
     <Point Name="SLW" Type="Navaid" NavaidType="VOR" Frequency="116.100">+253246.010-1005547.320</Point>
-    <Point Name="SMO" Type="Navaid" NavaidType="VOR" Frequency="112.100">+193320.000-0991342.000</Point>
     <Point Name="TAM" Type="Navaid" NavaidType="VOR" Frequency="117.500">+221722.570-0975146.880</Point>
     <Point Name="TMN" Type="Navaid" NavaidType="VOR" Frequency="113.300">+220218.540-0984828.610</Point>
     <Point Name="TAP" Type="Navaid" NavaidType="VOR" Frequency="115.300">+144731.880-0922232.560</Point>
@@ -8370,7 +8365,7 @@
     </SID>
     <SID Name="KATM1C" Airport="MMSM" Runways="22C">
       <Route Runway="22C">SM721 SM722 SM724 SM726 RAKEM KATMI</Route>
-    </SID>    
+    </SID>
     <SID Name="KATM1D" Airport="MMSM" Runways="22R">
       <Route Runway="22R">SM720 SM722 SM724 SM726 RAKEM KATMI</Route>
     </SID>
@@ -8388,7 +8383,7 @@
     </SID>
     <SID Name="LORS1C" Airport="MMSM" Runways="22C">
       <Route Runway="22C">SM721 SM722 MUXAN MX501 LORSU</Route>
-    </SID>    
+    </SID>
     <SID Name="LORS1D" Airport="MMSM" Runways="22R">
       <Route Runway="22R">SM720 SM722 MUXAN MX501 LORSU</Route>
     </SID>
@@ -8430,7 +8425,7 @@
     </SID>
     <SID Name="SEBO1G" Airport="MMSM" Runways="22C">
       <Route Runway="22C">SM721 SM722 SM724 SM726 RAKEM MASAP SEBON</Route>
-    </SID>    
+    </SID>
     <SID Name="SEBO1H" Airport="MMSM" Runways="22R">
       <Route Runway="22R">SM720 SM722 SM724 SM726 RAKEM MASAP SEBON</Route>
     </SID>
@@ -8457,7 +8452,7 @@
     </SID>
     <SID Name="TEVO1J" Airport="MMSM" Runways="04L">
       <Route Runway="04L">SM500 SM502 SM508 SM520 SM522 SM524 SM526 TEVOS</Route>
-    </SID>    
+    </SID>
     <SID Name="UKUN1E" Airport="MMSM" Runways="04C">
       <Route Runway="04C">SM501 SM509 SM510 SELOX UKUNO</Route>
     </SID>
@@ -8466,7 +8461,7 @@
     </SID>
     <SID Name="UKUN1G" Airport="MMSM" Runways="22C">
       <Route Runway="22C">SM721 SM722 MUXAN MX501 MX505 OVATI UKUNO</Route>
-    </SID>    
+    </SID>
     <SID Name="UKUN1H" Airport="MMSM" Runways="22R">
       <Route Runway="22R">SM720 SM722 MUXAN MX501 MX505 OVATI UKUNO</Route>
     </SID>
@@ -8484,10 +8479,10 @@
     </SID>
     <SID Name="ULEB1J" Airport="MMSM" Runways="04C">
       <Route Runway="04C">SM501 SM505 SM507 SM520 SM530 SM532 RAKEM SERNU ULEBA</Route>
-    </SID>    
+    </SID>
     <SID Name="ULEB1J" Airport="MMSM" Runways="04L">
       <Route Runway="04L">SM500 SM502 SM508 SM520 SM530 SM532 RAKEM SERNU ULEBA</Route>
-    </SID>     
+    </SID>
     <STAR Name="KELB1A" Airport="MMSM" Runways="04C">
       <Route Runway="04C">KELBO SM382 SM384 SM386 SM388 TORON SM400 SM402 SM404 SM406 SM412 VINRI NADUN</Route>
     </STAR>
@@ -8502,7 +8497,7 @@
     </STAR>
     <STAR Name="VITO1A" Airport="MMSM" Runways="04C">
       <Route Runway="04C">VITOS DUSAM SM412 SM414 SM416 SM418 SM420 VINRI NADUN</Route>
-    </STAR>    
+    </STAR>
     <STAR Name="KELB1A" Airport="MMSM" Runways="04L">
       <Route Runway="04L">KELBO SM382 SM384 SM386 SM388 TORON SM400 SM402 SM404 SM406 SM412 VINRI NADUN</Route>
     </STAR>
@@ -8553,7 +8548,7 @@
     </STAR>
     <STAR Name="TORE1B" Airport="MMSM" Runways="22R">
       <Route Runway="22R">TOREO SM600 TADAS SM604 SM606 SM608 SM610 SM612 EMOXI</Route>
-    </STAR>    
+    </STAR>
     <Approach Name="ILS22C.EMOXI" Airport="MMSM" Runway="22C">
       <Route>EMOXI SM42N SM43N</Route>
     </Approach>
@@ -8705,29 +8700,14 @@
     <SID Name="AVEN5B" Airport="MMTJ" Runways="27">
       <Route Runway="27">AVENA</Route>
     </SID>
-    <SID Name="UDMO1A" Airport="MMTJ" Runways="09">
-      <Route Runway="09">UDMOV</Route>
+    <SID Name="KREP1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">KREPE</Route>
+    </SID>
+    <SID Name="KREP1B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">KREPE</Route>
     </SID>
     <SID Name="SEVRA4" Airport="MMTJ" Runways="09">
       <Route Runway="09">SEVRA</Route>
-    </SID>
-    <SID Name="KREP1B" Airport="MMTJ" Runways="27">F
-      <Route Runway="27">KREPE</Route>
-    </SID>
-    <SID Name="UDMO1B" Airport="MMTJ" Runways="27">
-      <Route Runway="27">UDMOV</Route>
-    </SID>
-    <SID Name="TOPO5A" Airport="MMTJ" Runways="09">
-      <Route Runway="09">TOPOS</Route>
-    </SID>
-    <SID Name="TOPO5B" Airport="MMTJ" Runways="27">
-      <Route Runway="27">TOPOS</Route>
-    </SID>
-    <SID Name="ULDU1A" Airport="MMTJ" Runways="09">
-      <Route Runway="09">ULDUD</Route>
-    </SID>
-    <SID Name="ULDU1B" Airport="MMTJ" Runways="27">
-      <Route Runway="27">ULDUD</Route>
     </SID>
     <SID Name="SIDG1A" Airport="MMTJ" Runways="09">
       <Route Runway="09">TJ500 TJ501 TJ502 TJ566 TJ565 UDMOV SIDGA</Route>
@@ -8741,11 +8721,29 @@
     <SID Name="TEVI2B" Airport="MMTJ" Runways="27">
       <Route Runway="27">TJ567 TJ561 UDMOV TEVIR</Route>
     </SID>
+    <SID Name="TOPO5A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">TOPOS</Route>
+    </SID>
+    <SID Name="TOPO5B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">TOPOS</Route>
+    </SID>
     <SID Name="TUMA1A" Airport="MMTJ" Runways="09">
       <Route Runway="09">TJ500 TJ501 TJ502 TJ566 TJ565 UDMOV TUMAP</Route>
     </SID>
     <SID Name="TUMA2B" Airport="MMTJ" Runways="27">
       <Route Runway="27">TJ567 TJ561 UDMOV TUMAP</Route>
+    </SID>
+    <SID Name="UDMO1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">UDMOV</Route>
+    </SID>
+    <SID Name="UDMO1B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">UDMOV</Route>
+    </SID>
+    <SID Name="ULDU1A" Airport="MMTJ" Runways="09">
+      <Route Runway="09">ULDUD</Route>
+    </SID>
+    <SID Name="ULDU1B" Airport="MMTJ" Runways="27">
+      <Route Runway="27">ULDUD</Route>
     </SID>
     <STAR Name="TANR1A" Airport="MMTJ" Runways="09">
       <Route Runway="09">TANRI ULDUD TJ564 TUBUS</Route>
@@ -9906,7 +9904,7 @@
     <Airport ICAO="MMSD" FullName="SAN JOSE" Position="+230907.46-1094314.69" Elevation="379">
       <Runway Name="16" Position="+230956.019-1094320.211" />
       <Runway Name="34" Position="+230818.898-1094307.170" />
-    </Airport>    
+    </Airport>
     <Airport ICAO="MMSF" FullName="SAN FELIPE" Position="+305553.000-1144832.000" Elevation="98" />
     <Airport ICAO="MMSL" FullName="SAN LUCAS" Position="+225653.965-1095617.973" Elevation="692">
       <Runway Name="11" Position="+225710.810-1095650.230" />

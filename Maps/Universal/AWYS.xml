@@ -17,7 +17,7 @@
     <Line Width="0.6" Name="G765">NUKAN.G765.CTM</Line>
     <Line Width="0.6" Name="R506">NUDAL.R506.CUN</Line>
     <Line Width="0.6" Name="R522">ALURU.R522.PAZ</Line>
-    <Line Width="0.6" Name="V1">TIJ.V1.CME</Line>
+    <Line Width="0.6" Name="V1">TIJ.V1.TAP</Line>
     <Line Width="0.6" Name="V1E">LTO.V1E.SJD</Line>
     <Line Width="0.6" Name="V1W">LTO.V1W.SJD</Line>
     <Line Width="0.6" Name="V2">CUU.V2.MAM</Line>
@@ -40,7 +40,8 @@
     <Line Width="0.6" Name="V14">PVR.V14.QET</Line>
     <Line Width="0.6" Name="V14N">PVR.V14N.NOTUP</Line>
     <Line Width="0.6" Name="V14S">PVR.V14S.GDL</Line>
-    <Line Width="0.6" Name="V15">PNG.V15.ACA</Line>
+    <Line Width="0.6" Name="V15">PNG.V15.TMN</Line>
+    <Line Width="0.6" Name="V15">SLM.V15.ACA</Line>
     <Line Width="0.6" Name="V15W">TEQ.V15W.ACA</Line>
     <Line Width="0.6" Name="V16">AGU.V16.VSA</Line>
     <Line Width="0.6" Name="V16">CPE.V16.MID</Line>
@@ -51,13 +52,12 @@
     <Line Width="0.6" Name="V20">NLD.V20.MOV</Line>
     <Line Width="0.6" Name="V20">TRC.V20.LAP</Line>
     <Line Width="0.6" Name="V21">REX.V21.CVM</Line>
-    <Line Width="0.6" Name="V21">PCA.V21.ACA</Line>
+    <Line Width="0.6" Name="V21">APN.V21.ACA</Line>
     <Line Width="0.6" Name="V22">AGU.V22.VER</Line>
-    <Line Width="0.6" Name="V22">TGZ.V22.CMT</Line>
     <Line Width="0.6" Name="V23">MOV.V23.TAM</Line>
-    <Line Width="0.6" Name="V23">VER.V23.CMT</Line>
+    <Line Width="0.6" Name="V23">VER.V23.VSA</Line>
     <Line Width="0.6" Name="V24">CUA.V24.ZIH</Line>
-    <Line Width="0.6" Name="V25">MAM.V25.PCA</Line>
+    <Line Width="0.6" Name="V25">MAM.V25.TAM</Line>
     <Line Width="0.6" Name="V26">NLD.V26.ZLO</Line>
     <Line Width="0.6" Name="V26W">GDL.V26W.ZLO</Line>
     <Line Width="0.6" Name="V27">LTO.V27.LMM</Line>
@@ -73,8 +73,7 @@
     <Line Width="0.6" Name="V32">GDL.V32.PTJ</Line>
     <Line Width="0.6" Name="V32">TLC.V32.TEQ</Line>
     <Line Width="0.6" Name="V33">VER.V33.IZT</Line>
-    <Line Width="0.6" Name="V34">PAZ.V34.PCA</Line>
-    <Line Width="0.6" Name="V34">SLM.V34.PTJ</Line>
+    <Line Width="0.6" Name="V34">PAZ.V34.PTJ</Line>
     <Line Width="0.6" Name="V35">MTY.V35.REX</Line>
     <Line Width="0.6" Name="V36">CPE.V36.CTM</Line>
     <Line Width="0.6" Name="V37">NLD.V37.PVR</Line>
@@ -96,7 +95,6 @@
     <Line Width="0.6" Name="V51">VSA.V51.TAP</Line>
     <Line Width="0.6" Name="V52">LMM.V52.SJD</Line>
     <Line Width="0.6" Name="V53">CEN.V53.MZT</Line>
-    <Line Width="0.6" Name="V54">PCA.V54.REXES</Line>
     <Line Width="0.6" Name="V55">PNG.V55.ITBEN</Line>
     <Line Width="0.6" Name="V56">CUN.V56.CPE</Line>
     <Line Width="0.6" Name="V57">SJD.V57.CUL</Line>
@@ -124,7 +122,6 @@
     <Line Width="0.6" Name="J1">HUX.J1.TAP</Line>
     <Line Width="0.6" Name="J13">BECON.J13.TRC</Line>
     <Line Width="0.6" Name="J21">LRD.J21.SESNO</Line>
-    <Line Width="0.6" Name="J21">PCA.J21.MEX</Line>
     <Line Width="0.6" Name="J22">LRD.J22.WEGUS</Line>
     <Line Width="0.6" Name="J25">SLP.J25.GDL</Line>
     <Line Width="0.6" Name="J26">CJS.J26.HMO</Line>
@@ -150,12 +147,12 @@
     <Line Width="0.6" Name="UJ12">TLC.UJ12.VER</Line>
     <Line Width="0.6" Name="UJ14">CEN.UJ14.ENEKO</Line>
     <Line Width="0.6" Name="UJ15">XOXIL.UJ15.MOV</Line>
-    <Line Width="0.6" Name="UJ15">XOXIL.UJ15.MOV</Line>
+    <Line Width="0.6" Name="UJ15">OTMOS.UJ15.CUA</Line>
     <Line Width="0.6" Name="UJ16">ILELA.UJ16.MTT</Line>
     <Line Width="0.6" Name="UJ17">CVM.UJ17.QET</Line>
     <Line Width="0.6" Name="UJ18">URTOK.UJ18.CUN</Line>
     <Line Width="0.6" Name="UJ18">MID.UJ18.VER</Line>
-    <Line Width="0.6" Name="UJ19">PCA.UJ19.PXM</Line>
+    <Line Width="0.6" Name="UJ19">CUA.UJ19.PXM</Line>
     <Line Width="0.6" Name="UJ24">CPE.UJ24.CUA</Line>
     <Line Width="0.6" Name="UJ24">MAXUL.UJ24.UPN</Line>
     <Line Width="0.6" Name="UJ25">EBLEV.UJ25.TGZ</Line>
