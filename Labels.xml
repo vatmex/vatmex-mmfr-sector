@@ -76,7 +76,7 @@
       <Item Type="LABEL_ITEM_DUPE" Colour="Warning" P1_BackgroundColour="Emergency" LeftClick="" MiddleClick="" RightClick=""/>
     </DataLine>
     <DataLine>
-      <Item Type="LABEL_ITEM_ACID" Colour="" P1_Colour="Warning" P1_BackgroundColour="Emergency" LeftClick="Label_ACID_Menu" MiddleClick="Label_Extend_Toggle" RightClick="Label_SAR_Popup"/>
+      <Item Type="LABEL_ITEM_ACID" Colour="" P1_Colour="Warning" P1_BackgroundColour="Emergency" LeftClick="Label_ACID_Menu" MiddleClick="Label_Extend_Toggle" RightClick="Label_SAR_Popup" LeaderLineAnchor="true"/>
       <Item Type="LABEL_ITEM_CPDLC" Colour="" BackgroundColour="CPDLCDownlink" LeftClick="Label_CPDLC_Menu" MiddleClick="Label_CPDLC_Message_Toggle" RightClick="Label_CPDLC_Editor"/>
       <Item Type="LABEL_ITEM_WAKETURBCAT" Colour="" LeftClick="" MiddleClick="" RightClick=""/>
       <Item Type="LABEL_ITEM_FIELD18RMK" Colour="" LeftClick="Label_Field18_Popup" MiddleClick="" RightClick=""/>

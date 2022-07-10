@@ -198,12 +198,14 @@
 +163308.305-0930111.081</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMTG_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+163342.390-0930133.990">
+  <Map Type="Ground_RWY" Name="ASMGCS_MMTG_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+163342.390-0930133.990">
     <Label HasLeader="false">
-      <Point Name="A">+163316.910-0930109.480</Point>
-      <Point Name="B">+163340.210-0930126.760</Point>
-      <Point Name="C">+163344.290-0930122.440</Point>
-      <Point Name="C">+163332.320-0930120.840</Point>
+      <Point Name="A">+163317.900-0930111.920</Point>
+      <Point Name="B">+163341.350-0930125.340</Point>
+      <Point Name="C">+163333.380-0930117.480</Point>
+      <Point Name="C">+163342.300-0930123.460</Point>
+      <Point Name="14">+163414.120-0930155.630</Point>
+      <Point Name="32">+163307.430-0930113.080</Point>
     </Label>
   </Map>
   <Map Type="Ground_TWY" Name="ASMGCS_MMTG_GATES" CustomColourName="GroundLabel" Priority="1" Center="+163342.390-0930133.990">

@@ -48,7 +48,7 @@
 +272321.477-1094931.609</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMCN_APR" Priority="2" Center="+272332.520-1094957.740">
+  <Map Type="Ground_APR" Name="ASMGCS_MMCN_APR" Priority="3" Center="+272332.520-1094957.740">
     <!--Ramp-->
     <Infill>
       <Point>
@@ -96,7 +96,7 @@
 +272314.597-1094931.279</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCN_TWY" Priority="3" Center="+272332.520-1094957.740">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMCN_TWY" Priority="4" Center="+272332.520-1094957.740">
     <!--A-->
     <Infill>
       <Point>
@@ -229,7 +229,7 @@
       <Point Name="31">+272304.209-1094933.148</Point>
     </Label>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCN_GATES" CustomColourName="GroundLabel" Priority="1" Center="+272332.520-1094957.740">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMCN_GATES" CustomColourName="GroundLabel" Priority="2" Center="+272332.520-1094957.740">
     <Line Name="Gate 1" Pattern="Solid">
       +272355.425-1095002.124/
       +272355.466-1095003.277
