@@ -67,7 +67,7 @@
 +205911.859-1012853.655</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMLO_APR" Priority="2" Center="+205936.300-1012853.000">
+  <Map Type="Ground_APR" Name="ASMGCS_MMLO_APR" Priority="3" Center="+205936.300-1012853.000">
     <!--Principal-->
     <Infill>
       <Point>
@@ -109,7 +109,7 @@
 +205904.068-1012835.648</Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMLO_TWY" Priority="3" Center="+205936.300-1012853.000">
+  <Map Type="Ground_TWY" Name="ASMGCS_MMLO_TWY" Priority="4" Center="+205936.300-1012853.000">
     <!--A-->
     <Infill>
       <Point>
@@ -306,12 +306,46 @@
   </Map>
   <Map Type="Ground_RWY" Name="ASMGCS_MMLO_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+205936.300-1012853.000">
    <Label HasLeader="false">
-      <Point Name="A">+205948.0391-1012910.3125</Point>
-      <Point Name="A">+205933.0781-1012858.125</Point>
-      <Point Name="B">+205923.9141-1012842.4375</Point>
-      <Point Name="C">+205914.125-1012834.8125</Point>
-      <Point Name="13">+210016.919-1012931.2708</Point>
-      <Point Name="31">+205901.6283-1012808.8458</Point>
+      <Point Name="A">+205946.350-1012910.360</Point>
+      <Point Name="A">+205933.130-1012857.250</Point>
+      <Point Name="B">+205920.070-1012840.930</Point>
+      <Point Name="C">+205912.800-1012835.060</Point>
+      <Point Name="13">+210016.100-1012933.680</Point>
+      <Point Name="31">+205859.080-1012809.270</Point>
     </Label>
+  </Map>
+  <Map Type="Ground_TWY" Name="ASMGCS_MMLO_GATES" CustomColourName="GroundLabel" Priority="2" Center="+205936.300-1012853.000">
+    <Line Pattern="Solid">
+      +205912.285-1012843.617/
+      +205912.868-1012843.013
+    </Line>		  
+    <Line Pattern="Solid">
+      +205911.364-1012842.518/
+      +205911.948-1012841.914
+    </Line>
+    <Line Pattern="Solid">
+      +205910.444-1012841.530/
+      +205911.035-1012840.925
+    </Line>
+    <Line Pattern="Solid">
+      +205909.497-1012840.541/
+      +205910.108-1012839.909
+    </Line>
+    <Line Pattern="Solid">
+      +205908.611-1012839.415/
+      +205909.201-1012838.783
+    </Line>
+    <Line Pattern="Solid">
+      +205907.636-1012838.344/
+      +205908.220-1012837.739
+    </Line>
+    <Line Pattern="Solid">
+      +205906.654-1012837.272/
+      +205907.286-1012836.613
+    </Line>
+    <Line Pattern="Solid">
+      +205905.542-1012836.064/
+      +205906.153-1012835.405
+    </Line>
   </Map>
 </Maps>

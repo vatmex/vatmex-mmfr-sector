@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Local_Private" Name="Wordflight Rutas" Priority="1" Center="+204657.054-0865400.018">
-    <Line Name="Llegadas">JETIN/EVANZ/CLAMP/REMIS/KEHLI/AXOMU/ANALU</Line>
-    <Line Name="Salidas">ACA/KATRA/ANVAN/PXM/HUX/IPSUM/PENVA/TAP/PIXEN/PINDO/NOROS/IMOLA/ISEBA/BDT</Line>
-  </Map>
   <Map Type="System" Name="Sector - Aerovias" Priority="1" Center="+204657.054-0865400.018">
     <Line Width="0.6" Name="A317">TAP.A317.TECUN</Line>
     <Line Width="0.6" Name="A552">TAM.A552.GABEN</Line>
@@ -21,7 +17,7 @@
     <Line Width="0.6" Name="G765">NUKAN.G765.CTM</Line>
     <Line Width="0.6" Name="R506">NUDAL.R506.CUN</Line>
     <Line Width="0.6" Name="R522">ALURU.R522.PAZ</Line>
-    <Line Width="0.6" Name="V1">TIJ.V1.CME</Line>
+    <Line Width="0.6" Name="V1">TIJ.V1.TAP</Line>
     <Line Width="0.6" Name="V1E">LTO.V1E.SJD</Line>
     <Line Width="0.6" Name="V1W">LTO.V1W.SJD</Line>
     <Line Width="0.6" Name="V2">CUU.V2.MAM</Line>
@@ -44,8 +40,8 @@
     <Line Width="0.6" Name="V14">PVR.V14.QET</Line>
     <Line Width="0.6" Name="V14N">PVR.V14N.NOTUP</Line>
     <Line Width="0.6" Name="V14S">PVR.V14S.GDL</Line>
-    <Line Width="0.6" Name="V15">PNG.V15.ACA</Line>
-    <Line Width="0.6" Name="V15E">TEQ.V15E.ACA</Line>
+    <Line Width="0.6" Name="V15">PNG.V15.TMN</Line>
+    <Line Width="0.6" Name="V15">SLM.V15.ACA</Line>
     <Line Width="0.6" Name="V15W">TEQ.V15W.ACA</Line>
     <Line Width="0.6" Name="V16">AGU.V16.VSA</Line>
     <Line Width="0.6" Name="V16">CPE.V16.MID</Line>
@@ -56,13 +52,12 @@
     <Line Width="0.6" Name="V20">NLD.V20.MOV</Line>
     <Line Width="0.6" Name="V20">TRC.V20.LAP</Line>
     <Line Width="0.6" Name="V21">REX.V21.CVM</Line>
-    <Line Width="0.6" Name="V21">PCA.V21.VOKAM</Line>
+    <Line Width="0.6" Name="V21">APN.V21.ACA</Line>
     <Line Width="0.6" Name="V22">AGU.V22.VER</Line>
-    <Line Width="0.6" Name="V22">TGZ.V22.CMT</Line>
     <Line Width="0.6" Name="V23">MOV.V23.TAM</Line>
-    <Line Width="0.6" Name="V23">VER.V23.CMT</Line>
+    <Line Width="0.6" Name="V23">VER.V23.VSA</Line>
     <Line Width="0.6" Name="V24">CUA.V24.ZIH</Line>
-    <Line Width="0.6" Name="V25">MAM.V25.PCA</Line>
+    <Line Width="0.6" Name="V25">MAM.V25.TAM</Line>
     <Line Width="0.6" Name="V26">NLD.V26.ZLO</Line>
     <Line Width="0.6" Name="V26W">GDL.V26W.ZLO</Line>
     <Line Width="0.6" Name="V27">LTO.V27.LMM</Line>
@@ -78,8 +73,7 @@
     <Line Width="0.6" Name="V32">GDL.V32.PTJ</Line>
     <Line Width="0.6" Name="V32">TLC.V32.TEQ</Line>
     <Line Width="0.6" Name="V33">VER.V33.IZT</Line>
-    <Line Width="0.6" Name="V34">PAZ.V34.PCA</Line>
-    <Line Width="0.6" Name="V34">SLM.V34.PTJ</Line>
+    <Line Width="0.6" Name="V34">PAZ.V34.PTJ</Line>
     <Line Width="0.6" Name="V35">MTY.V35.REX</Line>
     <Line Width="0.6" Name="V36">CPE.V36.CTM</Line>
     <Line Width="0.6" Name="V37">NLD.V37.PVR</Line>
@@ -96,22 +90,17 @@
     <Line Width="0.6" Name="V43">MAM.V43.PTJ</Line>
     <Line Width="0.6" Name="V44">MID.V44.CUN</Line>
     <Line Width="0.6" Name="V45">MID.V45.CZM</Line>
-    <Line Width="0.6" Name="V46">ANILA.V46.BJX</Line>
-    <Line Width="0.6" Name="V46">MLM.V46.ZIH</Line>
     <Line Width="0.6" Name="V47">TRC.V47.TMN</Line>
     <Line Width="0.6" Name="V49">NLD.V49.CVM</Line>
     <Line Width="0.6" Name="V51">VSA.V51.TAP</Line>
     <Line Width="0.6" Name="V52">LMM.V52.SJD</Line>
     <Line Width="0.6" Name="V53">CEN.V53.MZT</Line>
-    <Line Width="0.6" Name="V54">PCA.V54.REXES</Line>
     <Line Width="0.6" Name="V55">PNG.V55.ITBEN</Line>
     <Line Width="0.6" Name="V56">CUN.V56.CPE</Line>
     <Line Width="0.6" Name="V57">SJD.V57.CUL</Line>
     <Line Width="0.6" Name="V58">DAPAN.V58.ENS</Line>
-    <Line Width="0.6" Name="V59">CUA.V59.MAXUL</Line>
     <Line Width="0.6" Name="V61">SLP.V61.COL</Line>
     <Line Width="0.6" Name="V61W">AGU.V61W.GOYAS</Line>
-    <Line Width="0.6" Name="V63">TTM.V63.PTJ</Line>
     <Line Width="0.6" Name="V64">DOTOR.V64.MAM</Line>
     <Line Width="0.6" Name="V68">NLD.V68.SLW</Line>
     <Line Width="0.6" Name="V70">BRO.V70.MTY</Line>
@@ -133,7 +122,6 @@
     <Line Width="0.6" Name="J1">HUX.J1.TAP</Line>
     <Line Width="0.6" Name="J13">BECON.J13.TRC</Line>
     <Line Width="0.6" Name="J21">LRD.J21.SESNO</Line>
-    <Line Width="0.6" Name="J21">PCA.J21.MEX</Line>
     <Line Width="0.6" Name="J22">LRD.J22.WEGUS</Line>
     <Line Width="0.6" Name="J25">SLP.J25.GDL</Line>
     <Line Width="0.6" Name="J26">CJS.J26.HMO</Line>
@@ -159,11 +147,12 @@
     <Line Width="0.6" Name="UJ12">TLC.UJ12.VER</Line>
     <Line Width="0.6" Name="UJ14">CEN.UJ14.ENEKO</Line>
     <Line Width="0.6" Name="UJ15">XOXIL.UJ15.MOV</Line>
+    <Line Width="0.6" Name="UJ15">OTMOS.UJ15.CUA</Line>
     <Line Width="0.6" Name="UJ16">ILELA.UJ16.MTT</Line>
     <Line Width="0.6" Name="UJ17">CVM.UJ17.QET</Line>
     <Line Width="0.6" Name="UJ18">URTOK.UJ18.CUN</Line>
     <Line Width="0.6" Name="UJ18">MID.UJ18.VER</Line>
-    <Line Width="0.6" Name="UJ19">PCA.UJ19.PXM</Line>
+    <Line Width="0.6" Name="UJ19">CUA.UJ19.PXM</Line>
     <Line Width="0.6" Name="UJ24">CPE.UJ24.CUA</Line>
     <Line Width="0.6" Name="UJ24">MAXUL.UJ24.UPN</Line>
     <Line Width="0.6" Name="UJ25">EBLEV.UJ25.TGZ</Line>
@@ -184,7 +173,6 @@
     <Line Width="0.6" Name="UJ48">CSL.UJ48.PVR</Line>
     <Line Width="0.6" Name="UJ52">CUN.UJ52.ILUBA</Line>
     <Line Width="0.6" Name="UJ54">CJS.UJ54.CUL</Line>
-    <Line Width="0.6" Name="UJ55">PAZ.UJ55.SLM</Line>
     <Line Width="0.6" Name="UJ63">DGO.UJ63.AGU</Line>
     <Line Width="0.6" Name="UJ64">CUA.UJ64.MTT</Line>
     <Line Width="0.6" Name="UJ70">VER.UJ70.NUDOS</Line>
@@ -201,23 +189,23 @@
     <Line Width="0.6" Name="L577">CZM.L577.ILUBA</Line>
     <Line Width="0.6" Name="M215">PISAD.M215.MID</Line>
     <Line Width="0.6" Name="M219">MYDIA.M219.CUN</Line>
-    <Line Width="0.6" Name="M345">TBD.M345.PAZ</Line>
-    <Line Width="0.6" Name="M575">KENGS.M575.TAM</Line>
     <Line Width="0.6" Name="T12">NABAS.T12.CUL</Line>
     <Line Width="0.6" Name="T17">NOXOS.T17.KIROG</Line>
     <Line Width="0.6" Name="T18">HMO.T18.NABAS</Line>
     <Line Width="0.6" Name="T19">UKUNO.T19.IMIDA</Line>
     <Line Width="0.6" Name="T36">CUU.T36.LMM</Line>
-    <Line Width="0.6" Name="T46">CME.T46.TAM</Line>
     <Line Width="0.6" Name="T49">CEN.T49.NABAS</Line>
     <Line Width="0.6" Name="T61">TAM.T61.VER</Line>
-    <Line Width="0.6" Name="T70">UKRAN.T70.RIBIS</Line>
-    <Line Width="0.6" Name="T80">UKRAN.T80.RIBIS</Line>
+    <Line Width="0.6" Name="T70">CALIZ.T70.RIBIS</Line>
+    <Line Width="0.6" Name="T80">CALIZ.T80.RIBIS</Line>
     <Line Width="0.6" Name="T106">NOXOS.T106.ILOLU</Line>
     <Line Width="0.6" Name="T107">UKUNO.T107.OMOKU</Line>
     <Line Width="0.6" Name="T108">UKUNO.T108.TEVET</Line>
     <Line Width="0.6" Name="T109">ILETO.T109.TILOB</Line>
     <Line Width="0.6" Name="T112">MEBAS.T112.LARLO</Line>
+    <Line Width="0.6" Name="T162">QET.T162.TOREO</Line>
+    <Line Width="0.6" Name="T168">VILSI.T168.TOREO</Line>
+    <Line Width="0.6" Name="T169">UMAVO.T169.VITOS</Line>
     <!--GNSS Alta-->
     <Line Width="0.6" Name="UL207">CPE.UL207.MUVAP</Line>
     <Line Width="0.6" Name="UL308">HUX.UL308.ANREX</Line>
@@ -234,7 +222,9 @@
     <Line Width="0.6" Name="UM208">CPE.UM208.DASMO</Line>
     <Line Width="0.6" Name="UM209">DUTNA.UM209.ANIKO</Line>
     <Line Width="0.6" Name="UM210">VER.UM210.MIROX</Line>
+    <Line Width="0.6" Name="UM345">AXEXO.UM345.PAZ</Line>
     <Line Width="0.6" Name="UM346">AXOMU.UM346.ULARI</Line>
+    <Line Width="0.6" Name="UM575">CLONN.UM575.TAM</Line>
     <Line Width="0.6" Name="UM580">AVALI.UM580.IRDOV</Line>
     <Line Width="0.6" Name="UM782">ITLOM.UM782.TAKUX</Line>
     <Line Width="0.6" Name="UM787">KAVRU.UM787.PILKO</Line>
@@ -248,7 +238,7 @@
     <Line Width="0.6" Name="UT3">URKOM.UT3.MOV</Line>
     <Line Width="0.6" Name="UT4">TIJ.UT4.PVR</Line>
     <Line Width="0.6" Name="UT5">SLW.UT5.ZCL</Line>
-    <Line Width="0.6" Name="UT6">KOBAM.UT6.PVR</Line>
+    <Line Width="0.6" Name="UT6">SIDGA.UT6.PVR</Line>
     <Line Width="0.6" Name="UT7">UKIVI.UT7.LMM</Line>
     <Line Width="0.6" Name="UT8">PPE.UT8.LMM</Line>
     <Line Width="0.6" Name="UT9">KAVRA.UT9.BECON</Line>
@@ -258,7 +248,7 @@
     <Line Width="0.6" Name="UT14">SJD.UT14.TNY</Line>
     <Line Width="0.6" Name="UT15">LAP.UT15.TNY</Line>
     <Line Width="0.6" Name="UT16">BECON.UT16.MZT</Line>
-    <Line Width="0.6" Name="UT17">LAYKE.UT17.REXES</Line>
+    <Line Width="0.6" Name="UT17">LAYKE.UT17.ELURA</Line>
     <Line Width="0.6" Name="UT18">TIJ.UJT8.NABAS</Line>
     <Line Width="0.6" Name="UT19">APN.UT19.MID</Line>
     <Line Width="0.6" Name="UT19">TULUM.UT19.XUDUN</Line>
@@ -276,10 +266,11 @@
     <Line Width="0.6" Name="UT35">LEVAT.UT35.ALNUR</Line>
     <Line Width="0.6" Name="UT37">SESNO.UT37.PERGO</Line>
     <Line Width="0.6" Name="UT41">AXASA.UT41.CUU</Line>
-    <Line Width="0.6" Name="UT42">APN.UT42.DUSOV</Line>
+    <Line Width="0.6" Name="UT42">TADNA.UT42.DUSOV</Line>
     <Line Width="0.6" Name="UT43">NUDIS.UT43.VOMAR</Line>
     <Line Width="0.6" Name="UT44">AGU.UT44.AXEDO</Line>
     <Line Width="0.6" Name="UT45">IRDOV.UT45.OMVIP</Line>
+    <Line Width="0.6" Name="UT45">CME.UT46.TAM</Line>
     <Line Width="0.6" Name="UT48">MAM.UT48.AVALI</Line>
     <Line Width="0.6" Name="UT49">NABAS.UT49.DGO</Line>
     <Line Width="0.6" Name="UT50">TAGMO.UT50.ASUTA</Line>
@@ -301,7 +292,7 @@
     <Line Width="0.6" Name="UT114">TEVOS.UT114.HUX</Line>
     <Line Width="0.6" Name="UT115">TEVOS.UT115.MEMDI</Line>
     <Line Width="0.6" Name="UT116">TEVOS.UT116.VOKAM</Line>
-    <Line Width="0.6" Name="UT117">KANOX.UT117.ESPOS</Line>
+    <Line Width="0.6" Name="UT117">KANOX.UT117.KELBO</Line>
     <Line Width="0.6" Name="UT118">ILENA.UT118.ESPOS</Line>
     <Line Width="0.6" Name="UT119">VOLAT.UT119.ESPOS</Line>
     <Line Width="0.6" Name="UT120">ALNUS.UT120.ELILA</Line>
@@ -321,10 +312,9 @@
     <Line Width="0.6" Name="UT136">AXIRI.UT136.ALOVO</Line>
     <Line Width="0.6" Name="UT137">AXIRI.UT137.MTY</Line>
     <Line Width="0.6" Name="UT138">AXIRI.UT138.TALPU</Line>
-    <Line Width="0.6" Name="UT139">IKLAN.UT139.NADOR</Line>
+    <Line Width="0.6" Name="UT139">IKLAN.UT139.ONGOB</Line>
     <Line Width="0.6" Name="UT140">IKLAN.UT140.TAM</Line>
     <Line Width="0.6" Name="UT141">IKLAN.UT141.LOSBA</Line>
-    <Line Width="0.6" Name="UT142">NADOR.UT142.IRLAS</Line>
     <Line Width="0.6" Name="UT143">DURIB.UT143.NABES</Line>
     <Line Width="0.6" Name="UT144">SEBON.UT144.ANEVU</Line>
     <Line Width="0.6" Name="UT145">IGSON.UT145.UPN</Line>
@@ -336,9 +326,12 @@
     <Line Width="0.6" Name="UT151">ALUXU.UT151.VER</Line>
     <Line Width="0.6" Name="UT153">DEDKU.UT153.RADAP</Line>
     <Line Width="0.6" Name="UT154">PAZ.UT154.ENAGA</Line>
-    <Line Width="0.6" Name="UT155">KIROG.UT155.AVALI</Line>
+    <Line Width="0.6" Name="UT155">KIROG.UT155.ELURA</Line>
     <Line Width="0.6" Name="UT156">IMIDA.UT156.AVIVI</Line>
     <Line Width="0.6" Name="UT157">KODEK.UT157.VIMBO</Line>
     <Line Width="0.6" Name="UT158">KODEK.UT158.KAVRU</Line>
+    <Line Width="0.6" Name="UT159">GDL.UT159.USBIM</Line>    
+    <Line Width="0.6" Name="UT169">AVALI.UT169.VITOS</Line>
+    <Line Width="0.6" Name="UT170">RIBAX.UT170.BESAN</Line>
   </Map>
 </Maps>
