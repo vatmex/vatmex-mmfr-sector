@@ -878,8 +878,8 @@
         <SID Name="ULEB2B" />
         <STAR Name="DARA2B" ApproachName="ILS23LZ.ESTIN" />
         <STAR Name="ENAG2B" ApproachName="ILS23LZ.ESTIN" />
-        <STAR Name="ESPO2B" ApproachName="ILS23LZ.ESTIN" />
-        <STAR Name="LARL2B" ApproachName="ILS23LZ.ESTIN" />
+        <STAR Name="ESPO3B" ApproachName="ILS23LZ.ESTIN" />
+        <STAR Name="LARL3B" ApproachName="ILS23LZ.ESTIN" />
       </Runway>
       <Runway Name="23R" DataRunway="23R">
         <SID Name="ATUR2B" />
@@ -894,8 +894,8 @@
         <SID Name="ULEB2B" />
         <STAR Name="DARA2B" ApproachName="RNP23R.ESTIN" />
         <STAR Name="ENAG2B" ApproachName="RNP23R.ESTIN" />
-        <STAR Name="ESPO2B" ApproachName="RNP23R.ESTIN" />
-        <STAR Name="LARL2B" ApproachName="RNP23R.ESTIN" />
+        <STAR Name="ESPO3B" ApproachName="RNP23R.ESTIN" />
+        <STAR Name="LARL3B" ApproachName="RNP23R.ESTIN" />
       </Runway>
     </Airport>
     <Airport Name="MMMY">
@@ -1447,60 +1447,25 @@
     </Airport>
     <Airport Name="MMTO">
       <Runway Name="15" DataRunway="15">
-        <SID Name="TLC4D" Default="True" />
-        <SID Name="APN3C" />
-        <SID Name="APN1E" />
-        <SID Name="CUA2B" />
-        <SID Name="CUA1D" />
-        <SID Name="MAXU5A" />
-        <SID Name="OMPE1A" />
-        <SID Name="OVAG1C" />
-        <SID Name="PTJ2C" />
-        <SID Name="PURA1A" />
-        <SID Name="SEBO1C" />
-        <SID Name="TEQ2A" />
-        <SID Name="TEVO1C" />
-        <SID Name="ULEB1C" />
-        <SID Name="XOTK1A" />
-        <SID Name="ZARC1B" />
-        <STAR Name="ANEV1A" />
-        <STAR Name="DERVI4" />
-        <STAR Name="ELIL1A" ApproachName="ILS15Z.GAINY" />
-        <STAR Name="ITLA1A" ApproachName="ILS15Z.GAINY" />
-        <STAR Name="LENE1A" />
-        <STAR Name="LENU1A" ApproachName="ILS15Z.GAINY" />
-        <STAR Name="MEX2E" />
-        <STAR Name="MEX4C" />
-        <STAR Name="TEQ1A" />
-        <STAR Name="URTO4A" />
-        <STAR Name="XOSU1A" />
+        <SID Name="OMPE2A" />
+        <SID Name="OVAG2C" />
+        <SID Name="PURA2A" />
+        <SID Name="SEBO2C" />
+        <SID Name="TEVO2C" />
+        <SID Name="ULEB2C" />
+        <STAR Name="ELIL2A" ApproachName="ILS15Z.GAINY" />
+        <STAR Name="ITLA2A" ApproachName="ILS15Z.GAINY" />
+        <STAR Name="LENU2A" ApproachName="ILS15Z.GAINY" />
       </Runway>
       <Runway Name="33" DataRunway="33">
-        <SID Name="TLC6E" Default="True" />
-        <SID Name="APN3D" />
-        <SID Name="CUA2C" />
-        <SID Name="KEBS1A" />
-        <SID Name="MAXU5B" />
-        <SID Name="OVAG1D" />
-        <SID Name="PTJ2D" />
-        <SID Name="SEBO1D" />
-        <SID Name="TEQ2B" />
-        <SID Name="TEVO1D" />
-        <SID Name="ULEB1D" />
-        <SID Name="XOTK1B" />
-        <SID Name="ZARC1C" />
-        <SID Name="ZARC5A" />
-        <STAR Name="ANEV1B" />
-        <STAR Name="ELIL1B" ApproachName="RNP33.VERLU" />
-        <STAR Name="ILAX1A" ApproachName="RNP33.VERLU" />
-        <STAR Name="ITLA1B" ApproachName="RNP33.VERLU" />
-        <STAR Name="LENE1B" />
-        <STAR Name="MEX3D" />
-        <STAR Name="PTJ3" />
-        <STAR Name="TAKU1" />
-        <STAR Name="TEQ1B" />
-        <STAR Name="URTO3B" />
-        <STAR Name="XOSU1B" />
+        <SID Name="KEBS2A" />
+        <SID Name="OVAG2D" />
+        <SID Name="SEBO2D" />
+        <SID Name="TEVO2D" />
+        <SID Name="ULEB2D" />
+        <STAR Name="ELIL2B" ApproachName="RNP33.VERLU" />
+        <STAR Name="ITLA2B" ApproachName="RNP33.VERLU" />
+        <STAR Name="LENU1B" ApproachName="RNP33.VERLU" />        
       </Runway>
     </Airport>
     <Airport Name="MMTP">
@@ -4054,6 +4019,7 @@
     <Point Name="MX652" Type="Fix">+195800.700-0985850.900</Point>
     <Point Name="MX661" Type="Fix">+190519.400-0985805.200</Point>
     <Point Name="MX665" Type="Fix">+192519.100-0982442.400</Point>
+    <Point Name="MX666" Type="Fix">+193116.400-0982539.500</Point>
     <Point Name="MX667" Type="Fix">+193626.700-0982629.100</Point>
     <Point Name="MX669" Type="Fix">+194411.900-0982835.100</Point>
     <Point Name="MX671" Type="Fix">+195033.400-0983343.300</Point>
@@ -4763,70 +4729,87 @@
     <Point Name="TJ566" Type="Fix">+322359.301-1164229.401</Point>
     <Point Name="TJ567" Type="Fix">+323112.899-1170406.801</Point>
     <Point Name="TJ745" Type="Fix">+322111.401-1164037.300</Point>
-    <Point Name="TO401" Type="Fix">+191918.940-0994257.160</Point>
-    <Point Name="TO402" Type="Fix">+190721.370-0993920.490</Point>
-    <Point Name="TO403" Type="Fix">+190010.820-0993802.160</Point>
-    <Point Name="TO404" Type="Fix">+185447.410-0993257.140</Point>
-    <Point Name="TO405" Type="Fix">+185353.480-0992524.120</Point>
-    <Point Name="TO410" Type="Fix">+185710.590-0995310.230</Point>
-    <Point Name="TO411" Type="Fix">+185730.360-0994921.170</Point>
-    <Point Name="TO412" Type="Fix">+185805.750-0994228.800</Point>
-    <Point Name="TO413" Type="Fix">+185948.880-0993901.130</Point>
-    <Point Name="TO414" Type="Fix">+185354.050-0993326.500</Point>
-    <Point Name="TO415" Type="Fix">+185254.870-0992509.490</Point>
-    <Point Name="TO420" Type="Fix">+193526.980-0993648.910</Point>
-    <Point Name="TO421" Type="Fix">+194133.050-0994243.050</Point>
-    <Point Name="TO422" Type="Fix">+194122.320-0995127.180</Point>
-    <Point Name="TO430" Type="Fix">+194535.230-0995337.880</Point>
-    <Point Name="TO431" Type="Fix">+194216.640-0995154.640</Point>
-    <Point Name="TO432" Type="Fix">+194228.440-0994218.090</Point>
-    <Point Name="TO433" Type="Fix">+193545.780-0993548.530</Point>
+    <Point Name="TO401" Type="Fix">+191918.900-0994257.200</Point>
+    <Point Name="TO402" Type="Fix">+190721.400-0993920.500</Point>
+    <Point Name="TO403" Type="Fix">+190010.800-0993802.200</Point>
+    <Point Name="TO404" Type="Fix">+185447.400-0993257.100</Point>
+    <Point Name="TO405" Type="Fix">+185353.500-0992524.100</Point>
+    <Point Name="TO410" Type="Fix">+185710.600-0995310.200</Point>
+    <Point Name="TO411" Type="Fix">+185730.400-0994921.200</Point>
+    <Point Name="TO412" Type="Fix">+185805.700-0994228.800</Point>
+    <Point Name="TO413" Type="Fix">+185948.900-0993901.100</Point>
+    <Point Name="TO414" Type="Fix">+185354.100-0993326.500</Point>
+    <Point Name="TO415" Type="Fix">+185254.900-0992509.500</Point>
+    <Point Name="TO420" Type="Fix">+193527.000-0993648.900</Point>
+    <Point Name="TO421" Type="Fix">+194133.000-0994243.000</Point>
+    <Point Name="TO422" Type="Fix">+194122.300-0995127.200</Point>
+    <Point Name="TO430" Type="Fix">+194535.200-0995337.900</Point>
+    <Point Name="TO431" Type="Fix">+194216.600-0995154.600</Point>
+    <Point Name="TO432" Type="Fix">+194228.400-0994218.100</Point>
+    <Point Name="TO433" Type="Fix">+193545.800-0993548.500</Point>
     <Point Name="TO500" Type="Fix">+192402.310-0993541.250</Point>
-    <Point Name="TO501" Type="Fix">+192021.160-0994938.010</Point>
-    <Point Name="TO502" Type="Fix">+191215.660-0995734.780</Point>
-    <Point Name="TO503" Type="Fix">+190358.640-0994859.600</Point>
-    <Point Name="TO504" Type="Fix">+185818.680-0994308.070</Point>
-    <Point Name="TO601" Type="Fix">+193847.130-0991910.510</Point>
-    <Point Name="TO602" Type="Fix">+193657.840-0992853.930</Point>
-    <Point Name="TO603" Type="Fix">+193511.670-0993816.660</Point>
-    <Point Name="TO604" Type="Fix">+194404.550-0994348.530</Point>
-    <Point Name="TO605" Type="Fix">+194226.700-0994955.870</Point>
-    <Point Name="TO606" Type="Fix">+193810.930-0995445.300</Point>
-    <Point Name="TO607" Type="Fix">+193204.620-0995610.790</Point>
-    <Point Name="TO608" Type="Fix">+192616.970-0995342.470</Point>
-    <Point Name="TO613" Type="Fix">+194132.440-0994928.270</Point>
-    <Point Name="TO614" Type="Fix">+193741.010-0995350.130</Point>
-    <Point Name="TO615" Type="Fix">+193209.590-0995507.480</Point>
-    <Point Name="TO616" Type="Fix">+192655.090-0995253.320</Point>
-    <Point Name="TO621" Type="Fix">+185850.320-0995838.470</Point>
-    <Point Name="TO622" Type="Fix">+190157.070-0995909.340</Point>
-    <Point Name="TO623" Type="Fix">+191338.340-1000105.450</Point>
-    <Point Name="TO625" Type="Fix">+192538.840-0995431.620</Point>
-    <Point Name="TO626" Type="Fix">+193159.640-0995714.110</Point>
-    <Point Name="TO627" Type="Fix">+193840.840-0995540.470</Point>
-    <Point Name="TO628" Type="Fix">+194320.960-0995023.470</Point>
+    <Point Name="TO501" Type="Fix">+192021.200-0994938.000</Point>
+    <Point Name="TO502" Type="Fix">+191215.700-0995734.800</Point>
+    <Point Name="TO503" Type="Fix">+190358.600-0994859.600</Point>
+    <Point Name="TO504" Type="Fix">+185818.700-0994308.100</Point>
+    <Point Name="TO505" Type="Fix">+192855.600-0993754.500</Point>    
+    <Point Name="TO601" Type="Fix">+193847.100-0991910.500</Point>
+    <Point Name="TO602" Type="Fix">+193657.800-0992853.900</Point>
+    <Point Name="TO603" Type="Fix">+193511.700-0993816.700</Point>
+    <Point Name="TO604" Type="Fix">+194404.600-0994348.500</Point>
+    <Point Name="TO605" Type="Fix">+194226.700-0994955.900</Point>
+    <Point Name="TO606" Type="Fix">+193810.900-0995445.300</Point>
+    <Point Name="TO607" Type="Fix">+193204.600-0995610.800</Point>
+    <Point Name="TO608" Type="Fix">+192617.000-0995342.500</Point>
+    <Point Name="TO613" Type="Fix">+194132.400-0994928.300</Point>
+    <Point Name="TO614" Type="Fix">+193741.000-0995350.100</Point>
+    <Point Name="TO615" Type="Fix">+193209.600-0995507.500</Point>
+    <Point Name="TO616" Type="Fix">+192655.100-0995253.300</Point>
+    <Point Name="TO621" Type="Fix">+185850.300-0995838.500</Point>
+    <Point Name="TO622" Type="Fix">+190157.100-0995909.300</Point>
+    <Point Name="TO623" Type="Fix">+191338.300-1000105.400</Point>
+    <Point Name="TO625" Type="Fix">+192538.800-0995431.600</Point>
+    <Point Name="TO626" Type="Fix">+193159.600-0995714.100</Point>
+    <Point Name="TO627" Type="Fix">+193840.800-0995540.400</Point>
+    <Point Name="TO628" Type="Fix">+194321.000-0995023.400</Point>
+    <Point Name="TO630" Type="Fix">+192253.200-0995602.300</Point>
+    <Point Name="TO632" Type="Fix">+194034.600-0990728.400</Point>
+    <Point Name="TO634" Type="Fix">+194214.800-0985628.400</Point>
     <Point Name="TO641" Type="Fix">+194215.480-0985446.720</Point>
     <Point Name="TO641" Type="Fix">+194215.480-0985446.720</Point>
     <Point Name="TO700" Type="Fix">+191343.410-0993101.470</Point>
-    <Point Name="TO701" Type="Fix">+190715.930-0992806.600</Point>
-    <Point Name="TO702" Type="Fix">+190143.810-0992536.750</Point>
-    <Point Name="TO703" Type="Fix">+190814.920-0991224.870</Point>
+    <Point Name="TO701" Type="Fix">+190715.900-0992806.600</Point>
+    <Point Name="TO702" Type="Fix">+190143.800-0992536.700</Point>
+    <Point Name="TO703" Type="Fix">+190814.900-0991224.900</Point>
+    <Point Name="TO705" Type="Fix">+191218.300-0993022.600</Point>
     <Point Name="TO707" Type="Fix">+193401.700-0990140.080</Point>
     <Point Name="TO708" Type="Fix">+192237.400-0984652.240</Point>
     <Point Name="TO710" Type="Fix">+191033.180-0993847.460</Point>
+    <Point Name="TO712" Type="Fix">+191033.200-0993847.500</Point>
+    <Point Name="TO715" Type="Fix">+191250.300-0990304.800</Point>    
+    <Point Name="TO716" Type="Fix">+191539.200-0985509.700</Point>    
+    <Point Name="TO718" Type="Fix">+191745.700-0984913.200</Point>    
     <Point Name="TO720" Type="Fix">+191159.050-0994507.070</Point>
+    <Point Name="TO721" Type="Fix">+193558.900-0990426.500</Point>    
     <Point Name="TO722" Type="Fix">+191332.360-0995201.070</Point>
+    <Point Name="TO724" Type="Fix">+194755.000-0990508.700</Point>    
     <Point Name="TO725" Type="Fix">+191544.610-0995645.930</Point>
     <Point Name="TO726" Type="Fix">+191242.260-0995713.670</Point>
     <Point Name="TO727" Type="Fix">+191024.770-0995609.050</Point>
-    <Point Name="TO730" Type="Fix">+185216.720-0990249.590</Point>
-    <Point Name="TO740" Type="Fix">+190530.361-0991953.090</Point>
+    <Point Name="TO730" Type="Fix">+185216.700-0990249.600</Point>
+    <Point Name="TO740" Type="Fix">+190530.400-0991953.100</Point>
+    <Point Name="TO750" Type="Fix">+191435.200-0994811.200</Point>
+    <Point Name="TO752" Type="Fix">+191611.800-0995311.500</Point>
+    <Point Name="TO754" Type="Fix">+191327.400-0995424.900</Point>
+    <Point Name="TO756" Type="Fix">+191033.100-0995414.500</Point>    
     <Point Name="TO800" Type="Fix">+191500.510-0993135.960</Point>
     <Point Name="TO801" Type="Fix">+191023.830-0992930.780</Point>
     <Point Name="TO810" Type="Fix">+192542.770-0993626.980</Point>
-    <Point Name="TO902" Type="Fix">+193154.460-0993915.630</Point>
+    <Point Name="TO902" Type="Fix">+193154.500-0993915.600</Point>
     <Point Name="TO910" Type="Fix">+191611.960-0993208.320</Point>
     <Point Name="TO911" Type="Fix">+191808.150-0994645.260</Point>
+    <Point Name="TO930" Type="Fix">+191639.600-0993220.800</Point>    
+    <Point Name="TO932" Type="Fix">+191711.400-0994447.600</Point>    
     <Point Name="TOPOS" Type="Fix">+320907.000-1163449.000</Point>
     <Point Name="TOREO" Type="Fix">+201955.000-0993816.000</Point>
     <Point Name="TORON" Type="Fix">+200730.900-0992904.500</Point>
@@ -7514,17 +7497,17 @@
       <Route Runway="05L">ESPOS MX770 MX772 MX774 MX776 URNOK MX741 VOLUN</Route>
       <Route Runway="05R">ESPOS MX770 MX772 MX774 MX776 URNOK MX741 VOLUN</Route>
     </STAR>
-    <STAR Name="ESPO2B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">ESPOS MX770 MX661 OTMOS MX665 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
-      <Route Runway="23R">ESPOS MX770 MX661 OTMOS MX665 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
+    <STAR Name="ESPO3B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">ESPOS MX770 MX661 OTMOS MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
+      <Route Runway="23R">ESPOS MX770 MX661 OTMOS MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
     </STAR>
     <STAR Name="LARL2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">LARLO MX771 MX773 MX775 MX777 URNOK MX741 VOLUN</Route>
       <Route Runway="05R">LARLO MX771 MX773 MX775 MX777 URNOK MX741 VOLUN</Route>
     </STAR>
-    <STAR Name="LARL2B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">LARLO PBC MX665 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
-      <Route Runway="23R">LARLO PBC MX665 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
+    <STAR Name="LARL3B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">LARLO PBC MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
+      <Route Runway="23R">LARLO PBC MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
     </STAR>
     <Approach Name="RNP05L.SUTAS" Airport="MMMX" Runway="05L">
       <Route>SUTAS MX930 MX931</Route>
@@ -8855,161 +8838,56 @@
       <Route Runway="34">TMN</Route>
     </SID>
     <!--MMTO-->
-    <SID Name="TLC4D" Airport="MMTO" Runways="15">
-      <Route Runway="15">TLC</Route>
+    <SID Name="KEBS2A" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO505 TO501 TO502 TO503 TO504 TO740 KEBSO</Route>
     </SID>
-    <SID Name="TLC6E" Airport="MMTO" Runways="33">
-      <Route Runway="33">TLC</Route>
+    <SID Name="OMPE2A" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO705 TO701 TO702 TO703 TO715 TO721 TO724 OMPER</Route>
     </SID>
-    <SID Name="APN3C" Airport="MMTO" Runways="15">
-      <Route Runway="15">APN</Route>
+    <SID Name="OVAG2C" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO705 TO712 TO750 TO754 OVAGO</Route>
     </SID>
-    <SID Name="APN3D" Airport="MMTO" Runways="33">
-      <Route Runway="33">APN</Route>
+    <SID Name="OVAG2D" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO505 TO501 OVAGO</Route>
     </SID>
-    <SID Name="APN1E" Airport="MMTO" Runways="15">
-      <Route Runway="15">PIVAS OTOMI AVSEK OMVES APN</Route>
+    <SID Name="PURA2A" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO705 TO701 TO702 TO703 TO715 TO716 TO718 PURAL</Route>
     </SID>
-    <SID Name="CUA2B" Airport="MMTO" Runways="15">
-      <Route Runway="15">CUA</Route>
+    <SID Name="SEBO2C" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO705 TO712 TO750 TO752 SEBON</Route>
     </SID>
-    <SID Name="CUA2C" Airport="MMTO" Runways="33">
-      <Route Runway="33">CUA</Route>
+    <SID Name="SEBO2D" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO505 TO501 SEBON</Route>
     </SID>
-    <SID Name="CUA1D" Airport="MMTO" Runways="15">
-      <Route Runway="15">PIVAS OTOMI EBDIN CUA</Route>
+    <SID Name="TEVO2C" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO705 TO701 TO702 TO703 TO730 ULOTO TEVOS</Route>
     </SID>
-    <SID Name="KEBS1A" Airport="MMTO" Runways="33">
-      <Route Runway="33">TO500 TO501 TO502 TO503 TO504 TO740 KEBSO</Route>
+    <SID Name="TEVO2D" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO505 TO501 TO502 TO503 TO504 TO740 TO730 ULOTO TEVOS</Route>
     </SID>
-    <SID Name="MAXU5A" Airport="MMTO" Runways="15">
-      <Route Runway="15">MAXUL</Route>
+    <SID Name="ULEB2C" Airport="MMTO" Runways="15">
+      <Route Runway="15">TO705 TO712 TO750 TO756 ULEBA</Route>
     </SID>
-    <SID Name="MAXU5B" Airport="MMTO" Runways="33">
-      <Route Runway="33">MAXUL</Route>
+    <SID Name="ULEB2D" Airport="MMTO" Runways="33">
+      <Route Runway="33">TO505 TO501 TO502 ULEBA</Route>
     </SID>
-    <SID Name="OMPE1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">TO700 TO701 TO702 TO703 KEBSO TO707 OMPER</Route>
-    </SID>
-    <SID Name="OVAG1C" Airport="MMTO" Runways="15">
-      <Route Runway="15">TO700 TO710 TO720 TO722 TO726 OVAGO</Route>
-    </SID>
-    <SID Name="OVAG1D" Airport="MMTO" Runways="33">
-      <Route Runway="33">TO500 TO501 OVAGO</Route>
-    </SID>
-    <SID Name="PTJ2C" Airport="MMTO" Runways="15">
-      <Route Runway="15">PTJ</Route>
-    </SID>
-    <SID Name="PTJ2D" Airport="MMTO" Runways="33">
-      <Route Runway="33">PTJ</Route>
-    </SID>
-    <SID Name="PURA1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">TO700 TO701 TO702 TO703 KEBSO TO708 PURAL</Route>
-    </SID>
-    <SID Name="SEBO1C" Airport="MMTO" Runways="15">
-      <Route Runway="15">TO700 TO710 TO720 TO722 TO725 SEBON</Route>
-    </SID>
-    <SID Name="SEBO1D" Airport="MMTO" Runways="33">
-      <Route Runway="33">TO500 TO501 SEBON</Route>
-    </SID>
-    <SID Name="TEQ2A" Airport="MMTO" Runways="15">
-      <Route Runway="15">TEQ</Route>
-    </SID>
-    <SID Name="TEQ2B" Airport="MMTO" Runways="33">
-      <Route Runway="33">TEQ</Route>
-    </SID>
-    <SID Name="TEVO1C" Airport="MMTO" Runways="15">
-      <Route Runway="15">TO700 TO701 TO702 TO703 TO730 ULOTO TEVOS</Route>
-    </SID>
-    <SID Name="TEVO1D" Airport="MMTO" Runways="33">
-      <Route Runway="33">TO500 TO501 TO502 TO503 TO504 TO740 TO730 ULOTO TEVOS</Route>
-    </SID>
-    <SID Name="ULEB1C" Airport="MMTO" Runways="15">
-      <Route Runway="15">TO700 TO710 TO720 TO722 TO727 ULEBA</Route>
-    </SID>
-    <SID Name="ULEB1D" Airport="MMTO" Runways="33">
-      <Route Runway="33">TO500 TO501 TO502 ULEBA</Route>
-    </SID>
-    <SID Name="XOTK1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">PIVAS AMELA ONBET XOTKI</Route>
-    </SID>
-    <SID Name="XOTK1B" Airport="MMTO" Runways="33">
-      <Route Runway="33">AXAVU ONGEB XOTKI</Route>
-    </SID>
-    <SID Name="ZARC5A" Airport="MMTO" Runways="33">
-      <Route Runway="33">ZARCO</Route>
-    </SID>
-    <SID Name="ZARC1B" Airport="MMTO" Runways="15">
-      <Route Runway="15">PIVAS AMELA ONBET ZARCO</Route>
-    </SID>
-    <SID Name="ZARC1C" Airport="MMTO" Runways="33">
-      <Route Runway="33">AXAVU ONGED ZARCO</Route>
-    </SID>
-    <STAR Name="ANEV1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">ANEVU JUSCO DUMKO</Route>
+    <STAR Name="ELIL2A" Airport="MMTO" Runways="15">
+      <Route Runway="15">ELILA TO621 TO622 TO623 TO630 TO625 TO626 TO627 TO628 GAINY</Route>
     </STAR>
-    <STAR Name="ANEV1B" Airport="MMTO" Runways="33">
-      <Route Runway="33">ANEVU OTOBU ALPES IPSOP XOLVI</Route>
-    </STAR>
-    <STAR Name="DERVI4" Airport="MMTO" Runways="15">
-      <Route Runway="15">DERVI</Route>
-    </STAR>
-    <STAR Name="ELIL1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">ELILA TO621 TO622 TO623 PEPTO TO625 TO626 TO627 TO628 GAINY</Route>
-    </STAR>
-    <STAR Name="ELIL1B" Airport="MMTO" Runways="33">
+    <STAR Name="ELIL2B" Airport="MMTO" Runways="33">
       <Route Runway="33">ELILA TO410 TO411 TO412 TO413 TO414 TO415 VERLU</Route>
     </STAR>
-    <STAR Name="ILAX1A" Airport="MMTO" Runways="33">
-      <Route Runway="33">ILAXA TO601 TO602 TO420 TO421 TO422 SEDIM TO401 TO402 TO403 TO404 TO405 VERLU</Route>
-    </STAR>
-    <STAR Name="ITLA1A" Airport="MMTO" Runways="15">
+    <STAR Name="ITLA2A" Airport="MMTO" Runways="15">
       <Route Runway="15">ITLAS TO613 TO614 TO615 TO616 GAINY</Route>
     </STAR>
-    <STAR Name="ITLA1B" Airport="MMTO" Runways="33">
+    <STAR Name="ITLA2B" Airport="MMTO" Runways="33">
       <Route Runway="33">ITLAS TO430 TO431 TO432 TO433 SEDIM TO401 TO402 TO403 TO404 TO405 VERLU</Route>
     </STAR>
-    <STAR Name="LENE1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">LENEG IPSOP ALPES</Route>
-    </STAR>
-    <STAR Name="LENE1B" Airport="MMTO" Runways="33">
-      <Route Runway="33">LENEG TAGDA</Route>
-    </STAR>
-    <STAR Name="LENU1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">LENUL TO641 TO601 TO602 TO603 TO604 TO605 TO606 TO607 TO608 GAINY</Route>
-    </STAR>
-    <STAR Name="MEX4C" Airport="MMTO" Runways="15">
-      <Route Runway="15">MEX DERVI</Route>
-    </STAR>
-    <STAR Name="MEX3D" Airport="MMTO" Runways="33">
-      <Route Runway="33">MEX</Route>
-    </STAR>
-    <STAR Name="MEX2E" Airport="MMTO" Runways="15">
-      <Route Runway="15">MEX ZUAZO SERDA IPSOP ALPES</Route>
-    </STAR>
-    <STAR Name="PTJ3" Airport="MMTO" Runways="33">
-      <Route Runway="33">PTJ</Route>
-    </STAR>
-    <STAR Name="TAKU1" Airport="MMTO" Runways="33">
-      <Route Runway="33">TAKUG</Route>
-    </STAR>
-    <STAR Name="TEQ1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">TEQ SERDA IPSOP ALPES</Route>
-    </STAR>
-    <STAR Name="TEQ1B" Airport="MMTO" Runways="33">
-      <Route Runway="33">TEQ TAGDA</Route>
-    </STAR>
-    <STAR Name="URTO4A" Airport="MMTO" Runways="15">
-      <Route Runway="15">URTOV MEX DERVI</Route>
-    </STAR>
-    <STAR Name="URTO3B" Airport="MMTO" Runways="33">
-      <Route Runway="33">URTOV MEX</Route>
-    </STAR>
-    <STAR Name="XOSU1A" Airport="MMTO" Runways="15">
-      <Route Runway="15">XOSUD DANEX DUMKO</Route>
-    </STAR>
-    <STAR Name="XOSU1B" Airport="MMTO" Runways="33">
-      <Route Runway="33">XOSUD ALPES IPSOP XOLVI</Route>
+    <STAR Name="LENU1B" Airport="MMTO" Runways="33">
+      <Route Runway="33">LENUL TO634 TO632 TO601 TO602 TO420 TO421 TO422 SEDIM TO401 TO402 TO403 TO404 TO405 VERLU</Route>
+    </STAR>   
+    <STAR Name="LENU2A" Airport="MMTO" Runways="15">
+      <Route Runway="15">LENUL TO634 TO632 TO601 TO602 TO603 TO604 TO605 TO606 TO607 TO608 GAINY</Route>
     </STAR>
     <Approach Name="ILS15Z.GAINY" Airport="MMTO" Runway="15">
       <Route>GAINY TO902 ALOMI</Route>
