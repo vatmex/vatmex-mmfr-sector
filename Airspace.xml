@@ -31,10 +31,10 @@
         <STAR Name="AVUR1B" ApproachName="ILS283.ITRAM" />
       </Runway>
       <Runway Name="06" DataRunway="06">
-        <SID Name="ACA3C" />*
+        <SID Name="ACA3C" />
       </Runway>
       <Runway Name="24" DataRunway="24">
-        <SID Name="ACA5D" />*
+        <SID Name="ACA5D" />
       </Runway>
     </Airport>
     <Airport Name="MMAN">
@@ -74,10 +74,10 @@
         <SID Name="UKIR1A" />
         <STAR Name="BJX1C" ApproachName="RNP18.SESKO" />
         <STAR Name="BOPA1A" ApproachName="RNP18.SESKO" />
-        <STAR Name="OMIN1A" ApproachName="RNP18.SESKO" />
         <STAR Name="GRUS1A" ApproachName="RNP18.TETES" />
         <STAR Name="IGSA1A" ApproachName="RNP18.SUTOM" />
         <STAR Name="KEDR1A" ApproachName="RNP18.TETES" />
+        <STAR Name="OMIN1A" ApproachName="RNP18.SESKO" />
         <STAR Name="RAKA1A" ApproachName="RNP18.TETES" />
         <STAR Name="VOLE1A" ApproachName="RNP18.SUTOM" />
       </Runway>
@@ -96,22 +96,22 @@
         <SID Name="XOTOL1" />
         <STAR Name="BJX1D" ApproachName="RNP36.MIDLA" />
         <STAR Name="BOPA1B" ApproachName="RNP36.ETBAM" />
-        <STAR Name="OMIN1B" ApproachName="RNP36.MIDLA" />
         <STAR Name="GRUS1B" ApproachName="RNP36.PUSAN" />
         <STAR Name="IGSA1B" ApproachName="RNP36.ETBAM" />
         <STAR Name="KEDR1B" ApproachName="RNP36.PUSAN" />
+        <STAR Name="OMIN1B" ApproachName="RNP36.MIDLA" />
         <STAR Name="RAKA1B" ApproachName="RNP36.PUSAN" />
         <STAR Name="VOLE1B" ApproachName="RNP36.ETBAM" />
       </Runway>
     </Airport>
     <Airport Name="MMBT">
       <Runway Name="07" DataRunway="07">
-        <SID Name="HUX2A" Default="True" />
-        <SID Name="HUX2B" />
+        <SID Name="HUX3A" Default="True" />
+        <SID Name="HUX3B" />
       </Runway>
       <Runway Name="25" DataRunway="25">
-        <SID Name="HUX2C" Default="True" />
-        <SID Name="HUX2D" />
+        <SID Name="HUX3C" Default="True" />
+        <SID Name="HUX3D" />
       </Runway>
     </Airport>
     <Airport Name="MMCB">
@@ -5615,16 +5615,16 @@
       <Route>MIDLA AS501 AS500</Route>
     </Approach>
     <!--MMBT-->
-    <SID Name="HUX2A" Airport="MMBT" Runways="07">
+    <SID Name="HUX3A" Airport="MMBT" Runways="07">
       <Route Runway="07">HUX</Route>
     </SID>
-    <SID Name="HUX2B" Airport="MMBT" Runways="07">
+    <SID Name="HUX3B" Airport="MMBT" Runways="07">
       <Route Runway="07">HUX</Route>
     </SID>
-    <SID Name="HUX2C" Airport="MMBT" Runways="25">
+    <SID Name="HUX3C" Airport="MMBT" Runways="25">
       <Route Runway="25">HUX</Route>
     </SID>
-    <SID Name="HUX2D" Airport="MMBT" Runways="25">
+    <SID Name="HUX3D" Airport="MMBT" Runways="25">
       <Route Runway="25">HUX</Route>
     </SID>
     <!--MMCB-->
