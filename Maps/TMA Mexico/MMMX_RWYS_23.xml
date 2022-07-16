@@ -3,7 +3,7 @@
   <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="DARAN2B" Pattern="Dashed">DARAN/MX650/MX652/DUSGO/MX617/MX619/MX621/MX623/SESTA/ESTIN</Line>
     <Line Name="ENAGA2B" Pattern="Dashed">ENAGA/MX641/MX643/MX645/MX647/MX649/MX602</Line>
-    <Line Name="LARLO3B" Pattern="Dashed">LARLO/PBC/MX665/MX667/MX669/MX671/MX602/SESTA</Line>
+    <Line Name="LARLO3B" Pattern="Dashed">LARLO/PBC/MX665/MX666/MX667/MX669/MX671/MX602/SESTA</Line>
     <Line Name="ESPOS3B" Pattern="Dashed">ESPOS/MX770/MX661/OTMOS/MX665</Line>
     <Symbol Type="HollowStar">
       <Point>DARAN</Point>
@@ -26,6 +26,7 @@
       <Point>MX652</Point>
       <Point>MX661</Point>
       <Point>MX665</Point>
+      <Point>MX666</Point>
       <Point>MX667</Point>
       <Point>MX669</Point>
       <Point>MX671</Point>
@@ -306,16 +307,16 @@
     </Symbol>
   </Map>
   <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
-    <Line Name="ATURO1B" Pattern="Dotted">MEX/MX503/MX520/TO601/MX526/MX527/ATURO</Line>
-    <Line Name="AXIRI1B" Pattern="Dotted">MX527/AXIRI</Line>
-    <Line Name="IKLAN1B" Pattern="Dotted">MX527/IKLAN</Line>
-    <Line Name="ILETO1B" Pattern="Dotted">MEX/MX504/MX540/MX541/MUXAN/MX501/MX505/OVATI/ILETO</Line>
-    <Line Name="NOXOS1B" Pattern="Dotted">OVATI/NOXOS</Line>
-    <Line Name="UKUNO1B" Pattern="Dotted">OVATI/UKUNO</Line>
-    <Line Name="OVAGO1B" Pattern="Dotted">MX520/MX521/RAKEM/ESVOR/OVAGO</Line>
-    <Line Name="SEBON1B" Pattern="Dotted">RAKEM/MASAP/SEBON</Line>
-    <Line Name="ULEBA1B" Pattern="Dotted">RAKEM/SERNU/ULEBA</Line>
-    <Line Name="TEVOS1B" Pattern="Dotted">MX540/MX533/USBAN/PEMSA/ULOTO/TEVOS</Line>    
+    <Line Name="ATURO2B" Pattern="Dotted">MEX/MX503/MX520/TO601/MX526/MX527/ATURO</Line>
+    <Line Name="AXIRI2B" Pattern="Dotted">MX527/AXIRI</Line>
+    <Line Name="IKLAN2B" Pattern="Dotted">MX527/IKLAN</Line>
+    <Line Name="ILETO2B" Pattern="Dotted">MEX/MX504/MX540/MX541/MUXAN/MX501/MX505/OVATI/ILETO</Line>
+    <Line Name="NOXOS2B" Pattern="Dotted">OVATI/NOXOS</Line>
+    <Line Name="UKUNO2B" Pattern="Dotted">OVATI/UKUNO</Line>
+    <Line Name="OVAGO2B" Pattern="Dotted">MX520/MX521/RAKEM/ESVOR/OVAGO</Line>
+    <Line Name="SEBON2B" Pattern="Dotted">RAKEM/MASAP/SEBON</Line>
+    <Line Name="ULEBA2B" Pattern="Dotted">RAKEM/SERNU/ULEBA</Line>
+    <Line Name="TEVOS2B" Pattern="Dotted">MX540/MX533/USBAN/PEMSA/ULOTO/TEVOS</Line>    
     <Symbol Type="HollowStar">
       <Point>ATURO</Point>
       <Point>AXIRI</Point>
