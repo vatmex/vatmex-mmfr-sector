@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MMAN - Pista 02 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
+    <Line Name="DAJOR1C" Pattern="Dotted">+255217.180-1001359.300/OBNIN/AN910/DAJOR</Line>
+    <Line Name="DOTOR1C" Pattern="Dotted">AN910/AN911/DOTOR</Line>
+    <Line Name="GRALA1C" Pattern="Dotted">OBNIN/AN909/GRALA</Line>
+    <Line Name="KERGA1C" Pattern="Dotted">AN909/AN903/AN904/PILDA/HANAY/KERGA</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>DAJOR</Point>
+      <Point>DOTOR</Point>
+      <Point>GRALA</Point>
+      <Point>KERGA</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AN903</Point>
+      <Point>AN904</Point>
+      <Point>AN909</Point>
+      <Point>AN910</Point>
+      <Point>AN911</Point>
+      <Point>HANAY</Point>
+      <Point>OBNIN</Point>
+      <Point>PILDA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMAN - Pista 02 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>DAJOR</Point>
+      <Point>DOTOR</Point>
+      <Point>GRALA</Point>
+      <Point>KERGA</Point>
+    </Label>
+  </Map>
+</Maps>

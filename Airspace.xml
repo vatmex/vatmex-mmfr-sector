@@ -4,37 +4,37 @@
     <Airport Name="MMAA">
       <Runway Name="10" DataRunway="10">
         <SID Name="ACA3A" Default="True" />
-        <SID Name="KATRA3" />
-        <SID Name="SELIS3" />
-        <SID Name="TEXC3A" />
-        <SID Name="OMVI1A" />
         <SID Name="AGLO1A" />
         <SID Name="ALNU1A" />
         <SID Name="AMID1A" />
         <SID Name="AMUS1A" />
+        <SID Name="KATRA3" />
+        <SID Name="OMVI1A" />
+        <SID Name="SELIS3" />
+        <SID Name="TEXC3A" />
         <STAR Name="ANAL1A" ApproachName="ILS103.APREN" />
         <STAR Name="ANVA1A" ApproachName="ILS103.ATUMU" />
         <STAR Name="AVUR1A" ApproachName="ILS103.APLUR" />
       </Runway>
       <Runway Name="28" DataRunway="28">
         <SID Name="ACA3B" Default="True" />
-        <SID Name="VIDRU1" />
-        <SID Name="NICOS3" />
-        <SID Name="TEXC2B" />
-        <SID Name="OMVI1B" />
         <SID Name="AGLO1B" />
         <SID Name="ALNU1B" />
         <SID Name="AMID1B" />
         <SID Name="AMUS1B" />
+        <SID Name="NICOS3" />
+        <SID Name="OMVI1B" />
+        <SID Name="TEXC2B" />
+        <SID Name="VIDRU1" />
         <STAR Name="ANAL1B" ApproachName="ILS283.ITRAM" />
         <STAR Name="ANVA1B" ApproachName="ILS283.AVRIM" />
         <STAR Name="AVUR1B" ApproachName="ILS283.ITRAM" />
       </Runway>
       <Runway Name="06" DataRunway="06">
-        <SID Name="ACA3C" />
+        <SID Name="ACA3C" />*
       </Runway>
       <Runway Name="24" DataRunway="24">
-        <SID Name="ACA5D" />
+        <SID Name="ACA5D" />*
       </Runway>
     </Airport>
     <Airport Name="MMAN">
@@ -43,21 +43,20 @@
         <SID Name="MTY2D" />
         <SID Name="DAJO1C" />
         <SID Name="DOTO1C" />
+        <SID Name="EMAK2B" />
         <SID Name="GRAL1C" />
         <SID Name="KERG1C" />
-        <SID Name="EMAK2B" />
         <SID Name="URTU3B" />
       </Runway>
       <Runway Name="20" DataRunway="20">
         <SID Name="MTY2E" Default="True" />
         <SID Name="DAJO2D" />
-        <SID Name="DOTO2C" />
         <SID Name="GRAL2D" />
         <SID Name="KERG2D" />
         <STAR Name="ITPI1C" ApproachName="ILS283.DUXAM" />
         <STAR Name="NOTA1C" ApproachName="ILS283.OBNIN" />
         <STAR Name="RETO1C" ApproachName="ILS283.DUXAM" />
-        <STAR Name="SLW1D" />
+        <STAR Name="SLW1D" ApproachName="ILS283.DUXAM" />
       </Runway>
     </Airport>
     <Airport Name="MMAS">
@@ -5439,9 +5438,6 @@
     </SID>
     <SID Name="DOTO1C" Airport="MMAN" Runways="02">
       <Route Runway="02">OBNIN AN910 AN911 DOTOR</Route>
-    </SID>
-    <SID Name="DOTO2C" Airport="MMAN" Runways="20">
-      <Route Runway="20">ALSEX HANAY ANADO ELIKO DOTOR</Route>
     </SID>
     <SID Name="MTY2C" Airport="MMAN" Runways="02">
       <Route Runway="02">MTY</Route>
