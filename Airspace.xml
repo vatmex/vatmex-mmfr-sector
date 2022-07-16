@@ -878,8 +878,8 @@
         <SID Name="ULEB2B" />
         <STAR Name="DARA2B" ApproachName="ILS23LZ.ESTIN" />
         <STAR Name="ENAG2B" ApproachName="ILS23LZ.ESTIN" />
-        <STAR Name="ESPO2B" ApproachName="ILS23LZ.ESTIN" />
-        <STAR Name="LARL2B" ApproachName="ILS23LZ.ESTIN" />
+        <STAR Name="ESPO3B" ApproachName="ILS23LZ.ESTIN" />
+        <STAR Name="LARL3B" ApproachName="ILS23LZ.ESTIN" />
       </Runway>
       <Runway Name="23R" DataRunway="23R">
         <SID Name="ATUR2B" />
@@ -894,8 +894,8 @@
         <SID Name="ULEB2B" />
         <STAR Name="DARA2B" ApproachName="RNP23R.ESTIN" />
         <STAR Name="ENAG2B" ApproachName="RNP23R.ESTIN" />
-        <STAR Name="ESPO2B" ApproachName="RNP23R.ESTIN" />
-        <STAR Name="LARL2B" ApproachName="RNP23R.ESTIN" />
+        <STAR Name="ESPO3B" ApproachName="RNP23R.ESTIN" />
+        <STAR Name="LARL3B" ApproachName="RNP23R.ESTIN" />
       </Runway>
     </Airport>
     <Airport Name="MMMY">
@@ -4019,6 +4019,7 @@
     <Point Name="MX652" Type="Fix">+195800.700-0985850.900</Point>
     <Point Name="MX661" Type="Fix">+190519.400-0985805.200</Point>
     <Point Name="MX665" Type="Fix">+192519.100-0982442.400</Point>
+    <Point Name="MX666" Type="Fix">+193116.400-0982539.500</Point>
     <Point Name="MX667" Type="Fix">+193626.700-0982629.100</Point>
     <Point Name="MX669" Type="Fix">+194411.900-0982835.100</Point>
     <Point Name="MX671" Type="Fix">+195033.400-0983343.300</Point>
@@ -7496,17 +7497,17 @@
       <Route Runway="05L">ESPOS MX770 MX772 MX774 MX776 URNOK MX741 VOLUN</Route>
       <Route Runway="05R">ESPOS MX770 MX772 MX774 MX776 URNOK MX741 VOLUN</Route>
     </STAR>
-    <STAR Name="ESPO2B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">ESPOS MX770 MX661 OTMOS MX665 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
-      <Route Runway="23R">ESPOS MX770 MX661 OTMOS MX665 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
+    <STAR Name="ESPO3B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">ESPOS MX770 MX661 OTMOS MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
+      <Route Runway="23R">ESPOS MX770 MX661 OTMOS MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
     </STAR>
     <STAR Name="LARL2A" Airport="MMMX" Runways="05L,05R">
       <Route Runway="05L">LARLO MX771 MX773 MX775 MX777 URNOK MX741 VOLUN</Route>
       <Route Runway="05R">LARLO MX771 MX773 MX775 MX777 URNOK MX741 VOLUN</Route>
     </STAR>
-    <STAR Name="LARL2B" Airport="MMMX" Runways="23L,23R">
-      <Route Runway="23L">LARLO PBC MX665 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
-      <Route Runway="23R">LARLO PBC MX665 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
+    <STAR Name="LARL3B" Airport="MMMX" Runways="23L,23R">
+      <Route Runway="23L">LARLO PBC MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
+      <Route Runway="23R">LARLO PBC MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
     </STAR>
     <Approach Name="RNP05L.SUTAS" Airport="MMMX" Runway="05L">
       <Route>SUTAS MX930 MX931</Route>
