@@ -118,21 +118,21 @@
       <Runway Name="03" DataRunway="03">
         <SID Name="CVJ1A" Default="True" />
         <SID Name="CUA1E" />
-        <SID Name="TEQ1C" />
-        <SID Name="SIKM1C" />
         <SID Name="OTIV1C" />
-        <STAR Name="SIKM1A" ApproachName="RNP03.DUNPA" />
+        <SID Name="SIKM1C" />
+        <SID Name="TEQ1C" />
         <STAR Name="OTIV1A" ApproachName="RNP03.VODIS" />
+        <STAR Name="SIKM1A" ApproachName="RNP03.DUNPA" />
       </Runway>
       <Runway Name="21" DataRunway="21">
         <SID Name="CVJ1B" Default="True" />
         <SID Name="CUA1F" />
-        <SID Name="TEQ1D" />
         <SID Name="MAXU1C" />
-        <SID Name="SIKM1D" />
         <SID Name="OTIV1D" />
-        <STAR Name="SIKM1B" ApproachName="RNP21.UMADA" />
+        <SID Name="SIKM1D" />
+        <SID Name="TEQ1D" />
         <STAR Name="OTIV1B" ApproachName="RNP21.SEKOS" />
+        <STAR Name="SIKM1B" ApproachName="RNP21.UMADA" />
       </Runway>
     </Airport>
     <Airport Name="MMCE">
@@ -277,21 +277,21 @@
       </Runway>
       <Runway Name="36R" DataRunway="36R">
         <SID Name="CUU6B" Default="True" />
-        <SID Name="IMIN1B" />
-        <SID Name="ONGIV3" />
-        <SID Name="SETMA1" />
-        <SID Name="TAST1B" />
-        <SID Name="ULURO3" />
-        <SID Name="URPAV3" />
-        <SID Name="VIKMU3" />
         <SID Name="ANEG2B" />
         <SID Name="AXEP1B" />
         <SID Name="BOKM1B" />
+        <SID Name="IMIN1B" />
         <SID Name="KIPA1B" />
+        <SID Name="ONGIV3" />
         <SID Name="OTOS1B" />
         <SID Name="OXAL1B" />
+        <SID Name="SETMA1" />
         <SID Name="SUTA1B" />
+        <SID Name="TAST1B" />
         <SID Name="TATG1B" />
+        <SID Name="ULURO3" />
+        <SID Name="URPAV3" />
+        <SID Name="VIKMU3" />
         <STAR Name="BOKM1D" ApproachName="ILS36R4.BESUD" />
         <STAR Name="KIPA1D" ApproachName="ILS36R4.GADIK" />
         <STAR Name="LENE2B" ApproachName="ILS36R4.GADIK" />
@@ -327,17 +327,17 @@
         <SID Name="AVSE1B" />
         <SID Name="AVSI1A" />
         <SID Name="BOTO2F" />
-        <SID Name="DAXU2A" />
         <SID Name="DAXU1C" />
+        <SID Name="DAXU2A" />
         <SID Name="GOSUL2" />
         <SID Name="ITAKU2" />
-        <SID Name="ITPI2A" />
         <SID Name="ITPI1C" />
+        <SID Name="ITPI2A" />
         <SID Name="NOSU1C" />
         <SID Name="NUDA1C" />
         <SID Name="NUKA1C" />
-        <SID Name="OBTA2A" />
         <SID Name="OBTA1D" />
+        <SID Name="OBTA2A" />
         <SID Name="OTED2A" />
         <SID Name="PAUL1C" />
         <SID Name="ROTG1C" />
@@ -386,10 +386,10 @@
         <SID Name="AVOX3A" />
         <SID Name="BOPEM2" />
         <SID Name="ELOLU2" />
-        <SID Name="ULIKO1" />
         <SID Name="ODKOK2" />
         <SID Name="SEKU2A" />
         <SID Name="TUGIR2" />
+        <SID Name="ULIKO1" />
         <SID Name="VIKDO2" />
       </Runway>
       <Runway Name="21" DataRunway="21">
@@ -481,22 +481,22 @@
     <Airport Name="MMHO">
       <Runway Name="05" DataRunway="05">
         <SID Name="HMO5A" Default="True" />
+        <SID Name="BOPA1B" />
         <SID Name="DUVUV2" />
+        <SID Name="GYM2B" />
+        <SID Name="IGTA1B" />
+        <SID Name="KEKM1B" />
+        <SID Name="LIDU1A" />
         <SID Name="MIUR4A" />
         <SID Name="NOTO2A" />
         <SID Name="OMIKA2" />
         <SID Name="OMTI2A" />
         <SID Name="ONBIR3" />
         <SID Name="OTUB4A" />
-        <SID Name="SUVLI3" />
         <SID Name="RIDOL1" />
-        <SID Name="VIGL1A" />
-        <SID Name="BOPA1B" />
-        <SID Name="GYM2B" />
-        <SID Name="IGTA1B" />
-        <SID Name="KEKM1B" />
-        <SID Name="LIDU1A" />
         <SID Name="SEBE2A" />
+        <SID Name="SUVLI3" />
+        <SID Name="VIGL1A" />
         <STAR Name="AVTE1A" ApproachName="RNP05.ILUDA" />
         <STAR Name="BOPA1A" ApproachName="RNP05.ILUDA" />
         <STAR Name="IGTA1A" ApproachName="RNP05.OBRES" />
@@ -504,20 +504,20 @@
        </Runway>
       <Runway Name="23" DataRunway="23">
         <SID Name="HMO5B" Default="True" />
+        <SID Name="BOPA1D" />
+        <SID Name="GYM1C" />
+        <SID Name="IGTA1D" />
+        <SID Name="KEKM1D" />
+        <SID Name="LIDU1B" />
         <SID Name="MIUR4B" />
         <SID Name="NOTO2B" />
         <SID Name="OMTI3B" />
         <SID Name="ONBI4B" />
         <SID Name="OTNOG2" />
         <SID Name="OTUB4B" />
+        <SID Name="SEBE1B" />
         <SID Name="SUVL4B" />
         <SID Name="VIGL1B" />
-        <SID Name="BOPA1D" />
-        <SID Name="GYM1C" />
-        <SID Name="IGTA1D" />
-        <SID Name="KEKM1D" />
-        <SID Name="LIDU1B" />
-        <SID Name="SEBE1B" />
         <STAR Name="AVTE1B" ApproachName="RNP23.DUPUS" />
         <STAR Name="BOPA1C" ApproachName="RNP23.DUPUS" />
         <STAR Name="IGTA1C" ApproachName="RNP23.GORIG" />
@@ -575,9 +575,9 @@
         <SID Name="LMM4B" Default="True" />
         <SID Name="COPAS4" />
         <SID Name="MEDES2" />
-        <SID Name="NUDIL2" />
+        <SID Name="NUDIL3" />
         <SID Name="VESKI2" />
-        <SID Name="VIKVU2" />
+        <SID Name="VIKVU3" />
         <SID Name="XULMA3" />
       </Runway>
     </Airport>
