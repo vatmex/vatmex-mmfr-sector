@@ -665,28 +665,28 @@
     <Airport Name="MMMD">
       <Runway Name="10" DataRunway="10">
         <SID Name="MID4A" Default="True" />
+        <SID Name="BIBE1A" />
+        <SID Name="CAEA1A" />
         <SID Name="DAPI2A" />
         <SID Name="DURP2A" />
         <SID Name="DUSL2A" />
-        <SID Name="LIBA2A" />
-        <SID Name="PAGA2A" />
-        <SID Name="PERG2A" />
-        <SID Name="RENE2A" />
-        <SID Name="RUDM2A" />
-        <SID Name="SISA2A" />
-        <SID Name="TAXT2A" />
-        <SID Name="TULU3A" />
-        <SID Name="USBU1A" />
-        <SID Name="VOLE2A" />
-        <SID Name="BIBE1A" />
-        <SID Name="CAEA1A" />
         <SID Name="ELSI1A" />
         <SID Name="EPNA1A" />
         <SID Name="GREP1A" />
         <SID Name="ISAR1A" />
+        <SID Name="LIBA2A" />
         <SID Name="NAPL1A" />
+        <SID Name="PAGA2A" />
+        <SID Name="PERG2A" />
+        <SID Name="RENE2A" />
+        <SID Name="RUDM2A" />
         <SID Name="SIFT1A" />
+        <SID Name="SISA2A" />
+        <SID Name="TAXT2A" />
+        <SID Name="TULU3A" />
+        <SID Name="USBU1A" />
         <SID Name="VIVE1C" />
+        <SID Name="VOLE2A" />
         <STAR Name="AVOM1A" ApproachName="ILS103.TEXOB" />
         <STAR Name="CAEA1D" ApproachName="ILS103.TEXOB" />
         <STAR Name="CANO1A" ApproachName="ILS103.SEBEP" />
@@ -720,66 +720,66 @@
       </Runway>
       <Runway Name="28" DataRunway="28">
         <SID Name="MID4B" Default="True" />
-        <SID Name="DAPI2B" />
-        <SID Name="PAGA2C" />
-        <SID Name="PERG2B" />
-        <SID Name="RUDM2B" />
-        <SID Name="SISA2B" />
-        <SID Name="URPU2B" />
-        <SID Name="VIVE2A" />
-        <SID Name="VOLE2C" />
-        <SID Name="XOLR2B" />
         <SID Name="BIBE1B" />
         <SID Name="CAEA1B" />
+        <SID Name="DAPI2B" />
         <SID Name="ELSI1B" />
         <SID Name="EPNA1B" />
         <SID Name="GREP1B" />
         <SID Name="ISAR1B" />
         <SID Name="NAPL1B" />
+        <SID Name="PAGA2C" />
+        <SID Name="PERG2B" />
+        <SID Name="RUDM2B" />
         <SID Name="SIFT1B" />
+        <SID Name="SISA2B" />
+        <SID Name="URPU2B" />
         <SID Name="VIVE1D" />
+        <SID Name="VIVE2A" />
+        <SID Name="VOLE2C" />
+        <SID Name="XOLR2B" />
         <STAR Name="AVOM1B" />
         <STAR Name="CAEA1E" />
         <STAR Name="DYSO1B" />
+        <STAR Name="ELSI1E" />
         <STAR Name="GABO1B" />
         <STAR Name="ILEL1B" />
         <STAR Name="LIFT1C" />
-        <STAR Name="NAPR1C" />
-        <STAR Name="XUBS1C" />
-        <STAR Name="ELSI1E" />
         <STAR Name="LIFT1D" />
+        <STAR Name="NAPR1C" />
         <STAR Name="NAPR1D" />
+        <STAR Name="XUBS1C" />
       </Runway>
       <Runway Name="36" DataRunway="36">
         <SID Name="MID4D" Default="True" />
-        <SID Name="DAPI2C" />
-        <SID Name="LIBA2B" />
-        <SID Name="PERG2C" />
-        <SID Name="RUDM2C" />
-        <SID Name="SISA3C" />
-        <SID Name="TULU2C" />
-        <SID Name="USBU1B" />
-        <SID Name="VIVE2B" />
         <SID Name="BIBE1C" />
         <SID Name="CAEA1C" />
+        <SID Name="DAPI2C" />
         <SID Name="ELSI1C" />
         <SID Name="EPNA1C" />
         <SID Name="GREP1C" />
+        <SID Name="LIBA2B" />
         <SID Name="NAPL1C" />
+        <SID Name="PERG2C" />
+        <SID Name="RUDM2C" />
         <SID Name="SIFT1C" />
+        <SID Name="SISA3C" />
+        <SID Name="TULU2C" />
+        <SID Name="USBU1B" />
         <SID Name="VIVE1E" />
+        <SID Name="VIVE2B" />
         <STAR Name="AVOM1C" />
         <STAR Name="CAEA1F" />
         <STAR Name="CANO1B" />
         <STAR Name="DYSO1C" />
+        <STAR Name="ELSI1F" />
         <STAR Name="GABO1C" />
         <STAR Name="ILEL1C" />
         <STAR Name="LIFT1E" />
-        <STAR Name="NAPR1E" />
-        <STAR Name="XUBS1D" />
-        <STAR Name="ELSI1F" />
         <STAR Name="LIFT1F" />
+        <STAR Name="NAPR1E" />
         <STAR Name="NAPR1F" />
+        <STAR Name="XUBS1D" />
       </Runway>
     </Airport>
     <Airport Name="MMML">
@@ -6766,7 +6766,7 @@
     <SID Name="NOVOP2" Airport="MMLM" Runways="09">
       <Route Runway="09">NOVOP</Route>
     </SID>
-    <SID Name="NUDIL2" Airport="MMLM" Runways="27">
+    <SID Name="NUDIL3" Airport="MMLM" Runways="27">
       <Route Runway="27">NUDIL</Route>
     </SID>
     <SID Name="TEKAS3" Airport="MMLM" Runways="09">
@@ -6778,7 +6778,7 @@
     <SID Name="VESKI2" Airport="MMLM" Runways="27">
       <Route Runway="27">VESKI</Route>
     </SID>
-    <SID Name="VIKVU2" Airport="MMLM" Runways="27">
+    <SID Name="VIKVU3" Airport="MMLM" Runways="27">
       <Route Runway="27">VIKVU</Route>
     </SID>
     <SID Name="XULMA3" Airport="MMLM" Runways="27">
