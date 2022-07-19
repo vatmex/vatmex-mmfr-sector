@@ -1012,9 +1012,9 @@
     </Airport>
     <Airport Name="MMPB">
       <Runway Name="17" DataRunway="17">
-        <SID Name="PBC3A" Default="True" />
+        <SID Name="PBC4A" Default="True" />
         <SID Name="ILET1C" />
-        <SID Name="MAPEN2" />
+        <SID Name="MAPEN3" />
         <SID Name="NOXO1C" />
         <SID Name="OTAG1A" />
         <SID Name="TAKA1C" />
@@ -1024,9 +1024,9 @@
         <STAR Name="TAKA1A" ApproachName="RNP17.LERUS" />
       </Runway>
       <Runway Name="35" DataRunway="35">
-        <SID Name="PBC2B" Default="True" />
-        <SID Name="ALITA2" />
-        <SID Name="ALMET1" />
+        <SID Name="PBC3B" Default="True" />
+        <SID Name="ALITA3" />
+        <SID Name="ALMET2" />
         <SID Name="ILET1D" />
         <SID Name="NOXO1D" />
         <SID Name="OTAG1B" />
@@ -7832,16 +7832,16 @@
       <Route Runway="26">PAZ</Route>
     </SID>
     <!--MMPB-->
-    <SID Name="PBC3A" Airport="MMPB" Runways="17">
+    <SID Name="PBC4A" Airport="MMPB" Runways="17">
       <Route Runway="17">PBC</Route>
     </SID>
-    <SID Name="PBC2B" Airport="MMPB" Runways="35">
+    <SID Name="PBC3B" Airport="MMPB" Runways="35">
       <Route Runway="35">PBC</Route>
     </SID>
-    <SID Name="ALITA2" Airport="MMPB" Runways="35">
+    <SID Name="ALITA3" Airport="MMPB" Runways="35">
       <Route Runway="35">ALITA</Route>
     </SID>
-    <SID Name="ALMET1" Airport="MMPB" Runways="35">
+    <SID Name="ALMET2" Airport="MMPB" Runways="35">
       <Route Runway="35">ALMET</Route>
     </SID>
     <SID Name="ILET1C" Airport="MMPB" Runways="17">
@@ -7850,7 +7850,7 @@
     <SID Name="ILET1D" Airport="MMPB" Runways="35">
       <Route Runway="35">PB700 PB710 PB711 ILETO</Route>
     </SID>
-    <SID Name="MAPEN2" Airport="MMPB" Runways="17">
+    <SID Name="MAPEN3" Airport="MMPB" Runways="17">
       <Route Runway="17">MAPEN</Route>
     </SID>
     <SID Name="NOXO1C" Airport="MMPB" Runways="17">
