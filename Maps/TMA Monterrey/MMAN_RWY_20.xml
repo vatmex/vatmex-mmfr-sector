@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MMAN - Pista 20 - Llegadas RNAV" Priority="1" Center="+284208.380-1055746.670">
+    <Line Name="ITPIS1C" Pattern="Dashed">ITPIS/ULAVA/AGMUM/KATPO/MEGNA/CURTO/SIKRO/DUXAM</Line>
+    <Line Name="NOTAL1C" Pattern="Dashed">NOTAL/VETNU/NAPNO/AN800/OBNIN</Line>
+    <Line Name="RETOS1C" Pattern="Dashed">RETOS/KATPO</Line>
+    <Line Name="SLW1D" Pattern="Dashed">SLW/ESRAP/WICLO/MISUL/SUTNA/ENTRI/SIKRO</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>ITPIS</Point>
+      <Point>NOTAL</Point>
+      <Point>RETOS</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>SLW</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>SLW</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AGMUM</Point>
+      <Point>AN800</Point>
+      <Point>CURTO</Point>
+      <Point>DUXAM</Point>
+      <Point>ENTRI</Point>
+      <Point>ESRAP</Point>
+      <Point>KATPO</Point>
+      <Point>MEGNA</Point>
+      <Point>MISUL</Point>
+      <Point>NAPNO</Point>
+      <Point>OBNIN</Point>
+      <Point>SIKRO</Point>
+      <Point>SUTNA</Point>
+      <Point>ULAVA</Point>
+      <Point>VETNU</Point>
+      <Point>WICLO</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMAN - Pista 20 - Llegadas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>ITPIS</Point>
+      <Point>NOTAL</Point>
+      <Point>RETOS</Point>
+      <Point>SLW</Point>
+
+      <Point>OBNIN</Point>
+      <Point>DUXAM</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="MMAN - Pista 20 - ILS 3 20" Priority="1" Center="+284208.380-1055746.670">
+    <Line Pattern="Solid">OBNIN/+255217.180-1001359.300</Line>
+    <Line Pattern="Solid">DUXAM/AN900</Line>
+    <Symbol Type="HollowStar">
+      <Point>AN807</Point>
+      <Point>DUXAM</Point>
+      <Point>OBNIN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMAN - Pista 20 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
+    <Line Name="DAJOR2D" Pattern="Dotted">+255121.980-1001437.820/ALSEX/PILDA/GUELF/RALLO/AXILO/DAJOR</Line>
+    <Line Name="GRALA2D" Pattern="Dotted">PILDA/KIVES/GRALA</Line>
+    <Line Name="KERGA2D" Pattern="Dotted">ALSEX/HANAY/KERGA</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>DAJOR</Point>
+      <Point>GRALA</Point>
+      <Point>KERGA</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ALSEX</Point>
+      <Point>ANADO</Point>
+      <Point>AXILO</Point>
+      <Point>ELIKO</Point>
+      <Point>GUELF</Point>
+      <Point>HANAY</Point>
+      <Point>KIVES</Point>
+      <Point>PILDA</Point>
+      <Point>RALLO</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMAN - Pista 20 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>DAJOR</Point>
+      <Point>GRALA</Point>
+      <Point>KERGA</Point>
+    </Label>
+  </Map>
+</Maps>

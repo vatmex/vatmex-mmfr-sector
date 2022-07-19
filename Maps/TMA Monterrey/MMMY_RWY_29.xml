@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 29 - Llegadas RNAV" Priority="1" Center="+284208.380-1055746.670">
+  <Map Type="System" Name="MMMY - Pista 29 - Llegadas RNAV" Priority="1" Center="+284208.380-1055746.670">
     <Line Name="ITPIS1A" Pattern="Dashed">ITPIS/ULAVA/AGMUM/KATPO/MY401/CLOVR/OKOTO</Line>
     <Line Name="NOTAL1A" Pattern="Dashed">NOTAL/VETNU/NAPNO/MY498/AGMUM</Line>
     <Line Name="RETOS1A" Pattern="Dashed">RETOS/MIBTA/CLOVR</Line>
     <Line Name="SLW1B" Pattern="Dashed">SLW/ESRAP/WICLO/MISUL/MY410/CLOVR</Line>
     <Symbol Type="SolidTriangle">
-      <Point>NOTAL</Point>
       <Point>ITPIS</Point>
+      <Point>NOTAL</Point>
       <Point>RETOS</Point>
     </Symbol>
     <Symbol Type="Circle">
@@ -33,7 +33,7 @@
       <Point>WICLO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+  <Map Type="System" Name="MMMY - Pista 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
     <Label HasLeader="false">
       <Point>ITPIS</Point>
       <Point>NOTAL</Point>
@@ -43,7 +43,7 @@
       <Point>OKOTO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 29 - ILS 4 29" Priority="1" Center="+284208.380-1055746.670">
+  <Map Type="System" Name="MMMY - Pista 29 - ILS 4 29" Priority="1" Center="+284208.380-1055746.670">
     <Line Pattern="Solid">
 +255155.589-1001419.660/
 +254546.633-0995533.103/
@@ -120,7 +120,7 @@ MY408</Line>
       <Point>ADN</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="Pista 29 - ILS 5 29" Priority="1" Center="+284208.380-1055746.670">
+  <Map Type="System" Name="MMMY - Pista 29 - ILS 5 29" Priority="1" Center="+284208.380-1055746.670">
     <Line Pattern="Solid">OKOTO/+254612.450-1000529.930</Line>
     <Line Pattern="Solid">+254607.268-1000415.743/+254515.897-1000450.025</Line>
     <Line Pattern="Solid">+254536.401-1000318.699/+254445.030-1000352.988</Line>
@@ -138,7 +138,7 @@ MY408</Line>
       <Point>MY408</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 29 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
+  <Map Type="System" Name="MMMY - Pista 29 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
     <Line Name="DAJOR1B" Pattern="Dotted">+254703.060-1000701.990/MY604/MY605/GUELF/RALLO/AXILO/DAJOR</Line>
     <Line Name="DOTOR1B" Pattern="Dotted">MY605/ALSEX/MY606/HANAY/ANADO/ELIKO/DOTOR</Line>
     <Line Name="KERGA1B" Pattern="Dotted">HANAY/KERGA</Line>
@@ -163,7 +163,7 @@ MY408</Line>
       <Point>RALLO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="Pista 29 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+  <Map Type="System" Name="MMMY - Pista 29 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
     <Label HasLeader="false">
       <Point>DAJOR</Point>
       <Point>DOTOR</Point>
