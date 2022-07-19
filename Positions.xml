@@ -1129,6 +1129,7 @@
         <Map Name="TMA Cancun/ASMGCS_MMUN_BLD" />
         <Map Name="TMA Cancun/ASMGCS_MMUN_LABELS" />
         <Map Name="TMA Cancun/ASMGCS_MMUN_GATES" />
+        <Map Name="TMA Cancun/ASMGCS_MMUN_LINES" />
       </Maps>
     </Position>
     <Position Name="MMVA" Type="ASMGCS" ASMGCSAirport="MMVA" DefaultCenter="+175947.160-0924901.680" DefaultRange="2" MagneticVariation="-3" Rotation="6">
@@ -1585,6 +1586,10 @@
 
         <Map Name="Universal/Geografia - Linea de Costa" />
       </Maps>
+      <ATIS>
+        <Editor Airport="MMCZ" Frequency="127.8" Server="NA" />
+        <Window Airport="MMCZ" />
+      </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMCZ" Visible="true" />
       </Strips>
@@ -1597,6 +1602,7 @@
       <ControllerInfo>
         <Line>Torre Cozumel / Cozumel Tower</Line>
         <Line>Serving MMCZ arrivals and departures</Line>
+        <Line>ATIS available on 127.800</Line>
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
@@ -2102,6 +2108,7 @@
         <Map Name="TMA Mexico/ASMGCS_MMSM_APR" />
         <Map Name="TMA Mexico/ASMGCS_MMSM_TWY" />
         <Map Name="TMA Mexico/ASMGCS_MMSM_BLD" />
+        <Map Name="TMA Mexico/ASMGCS_MMSM_LABELS" />
       </Maps>
     </Position>
     <Position Name="MMSP" Type="ASMGCS" ASMGCSAirport="MMSP" DefaultCenter="+221540.500-1005604.000" DefaultRange="2" MagneticVariation="-5" Rotation="306">
