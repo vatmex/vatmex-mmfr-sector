@@ -1,30 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="MMAS - Pista 36 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="IGSAM1B" Pattern="Dashed">
-      IGSAM/AS517/AS515/ETBAM
-    </Line>
-    <Line Name="VOLER1B" Pattern="Dashed">
-      VOLER/AS517
-    </Line>
-    <Line Name="BOPAX1B" Pattern="Dashed">
-      BOPAX/AS516/AS515
-    </Line>
-    <Line Name="BJX1D" Pattern="Dashed">
-      BJX/LO403/AS513/MIDLA
-    </Line>
-    <Line Name="OMINA1B" Pattern="Dashed">
-      OMINA/ELSUL/AS519/AS513
-    </Line>
-    <Line Name="GRUSI1B" Pattern="Dashed">
-      GRUSI/AS510/PUSAN
-    </Line>
-    <Line Name="KEDRI1B" Pattern="Dashed">
-      KEDRI/DUVUB/AS510
-    </Line>
-    <Line Name="RAKAL1B" Pattern="Dashed">
-      RAKAL/AS518/DUVUB
-    </Line>
+    <Line Name="BJX1D" Pattern="Dashed">BJX/LO403/AS513/MIDLA</Line>
+    <Line Name="BOPAX1B" Pattern="Dashed">BOPAX/AS516/AS515</Line>
+    <Line Name="GRUSI1B" Pattern="Dashed">GRUSI/AS510/PUSAN</Line>
+    <Line Name="IGSAM1B" Pattern="Dashed">IGSAM/AS517/AS515/ETBAM</Line>
+    <Line Name="KEDRI1B" Pattern="Dashed">KEDRI/DUVUB/AS510</Line>
+    <Line Name="OMINA1B" Pattern="Dashed">OMINA/ELSUL/AS519/AS513</Line>
+    <Line Name="RAKAL1B" Pattern="Dashed">RAKAL/AS518/DUVUB</Line>
+    <Line Name="VOLER1B" Pattern="Dashed">VOLER/AS517</Line>
     <Symbol Type="HollowSquare">
       <Point>BJX</Point>
     </Symbol>
@@ -32,9 +16,6 @@
       <Point>BJX</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>PUSAN</Point>
-      <Point>MIDLA</Point>
-      <Point>ETBAM</Point>
       <Point>AS510</Point>
       <Point>AS512</Point>
       <Point>AS513</Point>
@@ -46,129 +27,59 @@
       <Point>BOPAX</Point>
       <Point>DUVUB</Point>
       <Point>ELSUL</Point>
+      <Point>ETBAM</Point>
       <Point>GRUSI</Point>
       <Point>IGSAM</Point>
       <Point>KEDRI</Point>
       <Point>LO403</Point>
+      <Point>MIDLA</Point>
       <Point>OMINA</Point>
+      <Point>PUSAN</Point>
       <Point>RAKAL</Point>
       <Point>VOLER</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="MMAS - Pista 36 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
-      <Point>RAKAL</Point>
-      <Point>IGSAM</Point>
-      <Point>VOLER</Point>
-      <Point>BOPAX</Point>
       <Point>BJX</Point>
-      <Point>OMINA</Point>
-      <Point>GRUSI</Point>
-      <Point>KEDRI</Point>
-      <Point>PUSAN</Point>
-      <Point>MIDLA</Point>
+      <Point>BOPAX</Point>
       <Point>ETBAM</Point>
+      <Point>GRUSI</Point>
+      <Point>IGSAM</Point>
+      <Point>KEDRI</Point>
+      <Point>MIDLA</Point>
+      <Point>OMINA</Point>
+      <Point>PUSAN</Point>
+      <Point>RAKAL</Point>
+      <Point>VOLER</Point>
     </Label>
   </Map>
   <Map Type="System" Name="MMAS - Pista 36 - RNP 36" Priority="1" Center="+203124.320-1031841.798">
-    <Line Pattern="Solid">
-      PUSAN/ETBAM
-    </Line>
-    <Line Pattern="Solid">
-      MIDLA/+214115.200-1021907.600
-    </Line>
-    <Line Pattern="Solid">
-      +214016.191-1021929.958/
-      +214014.498-1021851.315
-    </Line>
-    <Line Pattern="Solid">
-      +213916.337-1021932.995/
-      +213914.644-1021854.352
-    </Line>
-    <Line Pattern="Solid">
-      +213816.483-1021936.031/
-      +213814.790-1021857.388
-    </Line>
-    <Line Pattern="Solid">
-      +213716.629-1021939.067/
-      +213714.936-1021900.424
-    </Line>
-    <Line Pattern="Solid">
-      +213616.775-1021942.103/
-      +213615.082-1021903.460
-    </Line>
-    <Line Pattern="Solid">
-      +213516.921-1021945.138/
-      +213515.228-1021906.495
-    </Line>
-    <Line Pattern="Solid">
-      +213417.067-1021948.173/
-      +213415.374-1021909.530
-    </Line>
-    <Line Pattern="Solid">
-      +213317.213-1021951.208/
-      +213315.520-1021912.565
-    </Line>
-    <Line Pattern="Solid">
-      +213217.359-1021954.242/
-      +213215.666-1021915.599
-    </Line>
-    <Line Pattern="Solid">
-      +213017.653-1022000.310/
-      +213015.960-1021921.667
-    </Line>
-    <Line Pattern="Solid">
-      +212917.800-1022003.343/
-      +212916.107-1021924.700
-    </Line>
-    <Line Pattern="Solid">
-      +212817.947-1022006.376/
-      +212816.254-1021927.733
-    </Line>
-    <Line Pattern="Solid">
-      +212718.094-1022009.409/
-      +212716.401-1021930.766
-    </Line>
-    <Line Pattern="Solid">
-      +213151.031-1022448.545/
-      +213115.120-1022450.366
-    </Line>
-    <Line Pattern="Solid">
-      +213148.208-1022344.202/
-      +213112.297-1022346.027
-    </Line>
-    <Line Pattern="Solid">
-      +213145.385-1022239.859/
-      +213109.474-1022241.688
-    </Line>
-    <Line Pattern="Solid">
-      +213142.562-1022135.516/
-      +213106.651-1022137.350
-    </Line>
-    <Line Pattern="Solid">
-      +213139.739-1022031.174/
-      +213103.828-1022033.012
-    </Line>
-    <Line Pattern="Solid">
-      +213134.093-1021822.490/
-      +213058.182-1021824.337
-    </Line>
-    <Line Pattern="Solid">
-      +213131.270-1021718.149/
-      +213055.359-1021720.000
-    </Line>
-    <Line Pattern="Solid">
-      +213128.447-1021613.808/
-      +213052.536-1021615.663
-    </Line>
-    <Line Pattern="Solid">
-      +213125.624-1021509.467/
-      +213049.713-1021511.327
-    </Line>
-    <Line Pattern="Solid">
-      +213122.801-1021405.127/
-      +213046.890-1021406.991
-    </Line>
+    <Line Pattern="Solid">PUSAN/ETBAM</Line>
+    <Line Pattern="Solid">MIDLA/+214115.200-1021907.600</Line>
+    <Line Pattern="Solid">+214016.191-1021929.958/+214014.498-1021851.315</Line>
+    <Line Pattern="Solid">+213916.337-1021932.995/+213914.644-1021854.352</Line>
+    <Line Pattern="Solid">+213816.483-1021936.031/+213814.790-1021857.388</Line>
+    <Line Pattern="Solid">+213716.629-1021939.067/+213714.936-1021900.424</Line>
+    <Line Pattern="Solid">+213616.775-1021942.103/+213615.082-1021903.460</Line>
+    <Line Pattern="Solid">+213516.921-1021945.138/+213515.228-1021906.495</Line>
+    <Line Pattern="Solid">+213417.067-1021948.173/+213415.374-1021909.530</Line>
+    <Line Pattern="Solid">+213317.213-1021951.208/+213315.520-1021912.565</Line>
+    <Line Pattern="Solid">+213217.359-1021954.242/+213215.666-1021915.599</Line>
+    <Line Pattern="Solid">+213017.653-1022000.310/+213015.960-1021921.667</Line>
+    <Line Pattern="Solid">+212917.800-1022003.343/+212916.107-1021924.700</Line>
+    <Line Pattern="Solid">+212817.947-1022006.376/+212816.254-1021927.733</Line>
+    <Line Pattern="Solid">+212718.094-1022009.409/+212716.401-1021930.766</Line>
+    <Line Pattern="Solid">+213151.031-1022448.545/+213115.120-1022450.366</Line>
+    <Line Pattern="Solid">+213148.208-1022344.202/+213112.297-1022346.027</Line>
+    <Line Pattern="Solid">+213145.385-1022239.859/+213109.474-1022241.688</Line>
+    <Line Pattern="Solid">+213142.562-1022135.516/+213106.651-1022137.350</Line>
+    <Line Pattern="Solid">+213139.739-1022031.174/+213103.828-1022033.012</Line>
+    <Line Pattern="Solid">+213134.093-1021822.490/+213058.182-1021824.337</Line>
+    <Line Pattern="Solid">+213131.270-1021718.149/+213055.359-1021720.000</Line>
+    <Line Pattern="Solid">+213128.447-1021613.808/+213052.536-1021615.663</Line>
+    <Line Pattern="Solid">+213125.624-1021509.467/+213049.713-1021511.327</Line>
+    <Line Pattern="Solid">+213122.801-1021405.127/+213046.890-1021406.991</Line>
     <Symbol Type="HollowStar">
       <Point>PUSAN</Point>
       <Point>MIDLA</Point>
@@ -519,42 +430,30 @@ DANGO</Line>
       <Point>AGU</Point>
     </Symbol>
     <Symbol Type="SolidTriangle">
-      <Point>RABIL</Point>
+      <Point>ANILA</Point>
       <Point>DANGO</Point>
+      <Point>RABIL</Point>
       <Point>TEDZI</Point>
       <Point>XOTOL</Point>
-      <Point>ANILA</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="MMAS - Pista 36 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
       <Point>AGU</Point>
-      <Point>RABIL</Point>
+      <Point>ANILA</Point>
       <Point>DANGO</Point>
+      <Point>RABIL</Point>
       <Point>TEDZI</Point>
       <Point>XOTOL</Point>
-      <Point>ANILA</Point>
     </Label>
   </Map>
   <Map Type="System" Name="MMAS - Pista 36 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="TEDZI1C" Pattern="Dotted">
-      AGU/TEDZI
-    </Line>
-    <Line Name="MITIN1B" Pattern="Dotted">
-      TEDZI/MITIN
-    </Line>
-    <Line Name="HORTA1B" Pattern="Dotted">
-      AGU/AS613/AS614/HORTA
-    </Line>
-    <Line Name="UKIRO1B" Pattern="Dotted">
-      AS614/AS615/AS620/MANTA/UKIRO
-    </Line>
-    <Line Name="LIVRI1D" Pattern="Dotted">
-      AGU/AS610/AS611/LIVRI
-    </Line>
-    <Line Name="TIDIL1B" Pattern="Dotted">
-      AS611/AS618/TIDIL
-    </Line>
+    <Line Name="TEDZI1C" Pattern="Dotted">AGU/TEDZI</Line>
+    <Line Name="MITIN1B" Pattern="Dotted">TEDZI/MITIN</Line>
+    <Line Name="HORTA1B" Pattern="Dotted">AGU/AS613/AS614/HORTA</Line>
+    <Line Name="UKIRO1B" Pattern="Dotted">AS614/AS615/AS620/MANTA/UKIRO</Line>
+    <Line Name="LIVRI1D" Pattern="Dotted">AGU/AS610/AS611/LIVRI</Line>
+    <Line Name="TIDIL1B" Pattern="Dotted">AS611/AS618/TIDIL</Line>
     <Symbol Type="HollowStar">
       <Point>AS610</Point>
       <Point>AS611</Point>
@@ -563,27 +462,27 @@ DANGO</Line>
       <Point>AS615</Point>
       <Point>AS618</Point>
       <Point>AS620</Point>
-      <Point>UKIRO</Point>
       <Point>TIDIL</Point>
+      <Point>UKIRO</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>HORTA</Point>
     </Symbol>
     <Symbol Type="SolidTriangle">
-      <Point>MITIN</Point>
-      <Point>TEDZI</Point>
       <Point>LIVRI</Point>
       <Point>MANTA</Point>
+      <Point>MITIN</Point>
+      <Point>TEDZI</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="MMAS - Pista 36 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
+      <Point>HORTA</Point>
+      <Point>LIVRI</Point>
       <Point>MITIN</Point>
       <Point>TEDZI</Point>
-      <Point>LIVRI</Point>
       <Point>TIDIL</Point>
       <Point>UKIRO</Point>
-      <Point>HORTA</Point>
     </Label>
   </Map>
 </Maps>

@@ -1,30 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="MMAS - Pista 18 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="RAKAL1A" Pattern="Dashed">
-      RAKAL/AS907/AS906/AS900/TETES
-    </Line>
-    <Line Name="IGSAM1A" Pattern="Dashed">
-      IGSAM/SUTOM
-    </Line>
-    <Line Name="VOLER1A" Pattern="Dashed">
-      VOLER/SUTOM
-    </Line>
-    <Line Name="BOPAX1A" Pattern="Dashed">
-      BOPAX/AS905/AS904/SESKO
-    </Line>
-    <Line Name="BJX1C" Pattern="Dashed">
-      BJX/LO403/AS513/AS912/ETBAM/AS901/SESKO
-    </Line>
-    <Line Name="OMINA1A" Pattern="Dashed">
-      OMINA/ELSUL/AS519/AS513
-    </Line>
-    <Line Name="GRUSI1A" Pattern="Dashed">
-      GRUSI/AMAPU/AS900
-    </Line>
-    <Line Name="KEDRI1A" Pattern="Dashed">
-      KEDRI/AS909/AS908/AS900
-    </Line>
+    <Line Name="BJX1C" Pattern="Dashed">BJX/LO403/AS513/AS912/ETBAM/AS901/SESKO</Line>
+    <Line Name="BOPAX1A" Pattern="Dashed">BOPAX/AS905/AS904/SESKO</Line>
+    <Line Name="GRUSI1A" Pattern="Dashed">GRUSI/AMAPU/AS900</Line>
+    <Line Name="IGSAM1A" Pattern="Dashed">IGSAM/SUTOM</Line>
+    <Line Name="KEDRI1A" Pattern="Dashed">KEDRI/AS909/AS908/AS900</Line>
+    <Line Name="OMINA1A" Pattern="Dashed">OMINA/ELSUL/AS519/AS513</Line>
+    <Line Name="RAKAL1A" Pattern="Dashed">RAKAL/AS907/AS906/AS900/TETES</Line>
+    <Line Name="VOLER1A" Pattern="Dashed">VOLER/SUTOM</Line>
     <Symbol Type="HollowSquare">
       <Point>BJX</Point>
     </Symbol>
@@ -33,10 +17,6 @@
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>AMAPU</Point>
-      <Point>TETES</Point>
-      <Point>SUTOM</Point>
-      <Point>SESKO</Point>
-      <Point>ETBAM</Point>
       <Point>AS513</Point>
       <Point>AS519</Point>
       <Point>AS900</Point>
@@ -50,139 +30,66 @@
       <Point>AS912</Point>
       <Point>BOPAX</Point>
       <Point>ELSUL</Point>
+      <Point>ETBAM</Point>
       <Point>GRUSI</Point>
       <Point>IGSAM</Point>
       <Point>KEDRI</Point>
       <Point>LO403</Point>
       <Point>OMINA</Point>
       <Point>RAKAL</Point>
+      <Point>SESKO</Point>
+      <Point>SUTOM</Point>
+      <Point>TETES</Point>
       <Point>VOLER</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="MMAS - Pista 18 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
-      <Point>RAKAL</Point>
-      <Point>IGSAM</Point>
-      <Point>VOLER</Point>
-      <Point>BOPAX</Point>
       <Point>BJX</Point>
-      <Point>OMINA</Point>
+      <Point>BOPAX</Point>
       <Point>GRUSI</Point>
+      <Point>IGSAM</Point>
       <Point>KEDRI</Point>
-      <Point>TETES</Point>
-      <Point>SUTOM</Point>
+      <Point>OMINA</Point>
+      <Point>RAKAL</Point>
       <Point>SESKO</Point>
+      <Point>SUTOM</Point>
+      <Point>TETES</Point>
+      <Point>VOLER</Point>
     </Label>
   </Map>
   <Map Type="System" Name="MMAS - Pista 18 - RNP 18" Priority="1" Center="+203124.320-1031841.798">
-    <Line Pattern="Solid">
-      TETES/SESKO
-    </Line>
-    <Line Pattern="Solid">
-      SUTOM/+214251.600-1021902.800
-    </Line>
-    <Line Pattern="Solid">
-      +214351.204-1021840.117/
-      +214353.085-1021918.766
-    </Line>
-    <Line Pattern="Solid">
-      +214451.041-1021836.741/
-      +214452.922-1021915.390
-    </Line>
-    <Line Pattern="Solid">
-      +214550.878-1021833.364/
-      +214552.759-1021912.013
-    </Line>
-    <Line Pattern="Solid">
-      +214650.715-1021829.987/
-      +214652.596-1021908.636
-    </Line>
-    <Line Pattern="Solid">
-      +214750.552-1021826.609/
-      +214752.433-1021905.258
-    </Line>
-    <Line Pattern="Solid">
-      +214850.390-1021823.231/
-      +214852.271-1021901.880
-    </Line>
-    <Line Pattern="Solid">
-      +214950.228-1021819.853/
-      +214952.109-1021858.502
-    </Line>
-    <Line Pattern="Solid">
-      +215050.066-1021816.474/
-      +215051.947-1021855.123
-    </Line>
-    <Line Pattern="Solid">
-      +215149.904-1021813.095/
-      +215151.785-1021851.744
-    </Line>
-    <Line Pattern="Solid">
-      +215249.742-1021809.715/
-      +215251.623-1021848.364
-    </Line>
-    <Line Pattern="Solid">
-      +215349.580-1021806.335/
-      +215351.461-1021844.984
-    </Line>
-    <Line Pattern="Solid">
-      +215449.418-1021802.955/
-      +215451.299-1021841.604
-    </Line>
-    <Line Pattern="Solid">
-      +215549.256-1021759.574/
-      +215551.137-1021838.223
-    </Line>
-    <Line Pattern="Solid">
-      +215649.094-1021756.193/
-      +215650.975-1021834.842
-    </Line>
-    <Line Pattern="Solid">
-      +215314.878-1022250.310/
-      +215238.966-1022252.306
-    </Line>
-    <Line Pattern="Solid">
-      +215311.742-1022145.823/
-      +215235.831-1022147.825
-    </Line>
-    <Line Pattern="Solid">
-      +215308.606-1022041.336/
-      +215232.696-1022043.344
-    </Line>
-    <Line Pattern="Solid">
-      +215305.470-1021936.850/
-      +215229.561-1021938.863
-    </Line>
-    <Line Pattern="Solid">
-      +215302.334-1021832.364/
-      +215226.426-1021834.383
-    </Line>
-    <Line Pattern="Solid">
-      +215259.198-1021727.878/
-      +215223.291-1021729.903
-    </Line>
-    <Line Pattern="Solid">
-      +215256.062-1021623.393/
-      +215220.156-1021625.424
-    </Line>
-    <Line Pattern="Solid">
-      +215252.926-1021518.908/
-      +215217.021-1021520.945
-    </Line>
-    <Line Pattern="Solid">
-      +215249.790-1021414.424/
-      +215213.886-1021416.466
-    </Line>
-    <Line Pattern="Solid">
-      +215246.654-1021309.940/
-      +215210.751-1021311.988
-    </Line>
+    <Line Pattern="Solid">TETES/SESKO</Line>
+    <Line Pattern="Solid">SUTOM/+214251.600-1021902.800</Line>
+    <Line Pattern="Solid">+214351.204-1021840.117/+214353.085-1021918.766</Line>
+    <Line Pattern="Solid">+214451.041-1021836.741/+214452.922-1021915.390</Line>
+    <Line Pattern="Solid">+214550.878-1021833.364/+214552.759-1021912.013</Line>
+    <Line Pattern="Solid">+214650.715-1021829.987/+214652.596-1021908.636</Line>
+    <Line Pattern="Solid">+214750.552-1021826.609/+214752.433-1021905.258</Line>
+    <Line Pattern="Solid">+214850.390-1021823.231/+214852.271-1021901.880</Line>
+    <Line Pattern="Solid">+214950.228-1021819.853/+214952.109-1021858.502</Line>
+    <Line Pattern="Solid">+215050.066-1021816.474/+215051.947-1021855.123</Line>
+    <Line Pattern="Solid">+215149.904-1021813.095/+215151.785-1021851.744</Line>
+    <Line Pattern="Solid">+215249.742-1021809.715/+215251.623-1021848.364</Line>
+    <Line Pattern="Solid">+215349.580-1021806.335/+215351.461-1021844.984</Line>
+    <Line Pattern="Solid">+215449.418-1021802.955/+215451.299-1021841.604</Line>
+    <Line Pattern="Solid">+215549.256-1021759.574/+215551.137-1021838.223</Line>
+    <Line Pattern="Solid">+215649.094-1021756.193/+215650.975-1021834.842</Line>
+    <Line Pattern="Solid">+215314.878-1022250.310/+215238.966-1022252.306</Line>
+    <Line Pattern="Solid">+215311.742-1022145.823/+215235.831-1022147.825</Line>
+    <Line Pattern="Solid">+215308.606-1022041.336/+215232.696-1022043.344</Line>
+    <Line Pattern="Solid">+215305.470-1021936.850/+215229.561-1021938.863</Line>
+    <Line Pattern="Solid">+215302.334-1021832.364/+215226.426-1021834.383</Line>
+    <Line Pattern="Solid">+215259.198-1021727.878/+215223.291-1021729.903</Line>
+    <Line Pattern="Solid">+215256.062-1021623.393/+215220.156-1021625.424</Line>
+    <Line Pattern="Solid">+215252.926-1021518.908/+215217.021-1021520.945</Line>
+    <Line Pattern="Solid">+215249.790-1021414.424/+215213.886-1021416.466</Line>
+    <Line Pattern="Solid">+215246.654-1021309.940/+215210.751-1021311.988</Line>
     <Symbol Type="HollowStar">
-      <Point>APLUR</Point>
-      <Point>APREN</Point>
-      <Point>ATUMU</Point>
-      <Point>AA403</Point>
-      <Point>AA401</Point>
+      <Point>AS400</Point>
+      <Point>SESKO</Point>
+      <Point>SUTOM</Point>
+      <Point>TETES</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="MMAS - Pista 18 - Salidas" Priority="1" Center="+203124.320-1031841.798">
@@ -471,24 +378,12 @@ ALIPA</Line>
     </Label>
   </Map>
   <Map Type="System" Name="MMAS - Pista 18 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="TEDZI1B" Pattern="Dotted">
-      AGU/AS801/AS802/AS803/AS804/TEDZI
-    </Line>
-    <Line Name="MITIN1A" Pattern="Dotted">
-      TEDZI/MITIN
-    </Line>
-    <Line Name="LIVRI1C" Pattern="Dotted">
-      AS801/LIVRI
-    </Line>
-    <Line Name="TIDIL1A" Pattern="Dotted">
-      AS801/AS808/AS618/TIDIL
-    </Line>
-    <Line Name="UKIRO1A" Pattern="Dotted">
-      AS801/AS805/AS810/AS807/AS809/MANTA/UKIRO
-    </Line>
-    <Line Name="HORTA1A" Pattern="Dotted">
-      AS810/HORTA
-    </Line>
+    <Line Name="HORTA1A" Pattern="Dotted">AS810/HORTA</Line>
+    <Line Name="LIVRI1C" Pattern="Dotted">AS801/LIVRI</Line>
+    <Line Name="MITIN1A" Pattern="Dotted">TEDZI/MITIN</Line>
+    <Line Name="TEDZI1B" Pattern="Dotted">AGU/AS801/AS802/AS803/AS804/TEDZI</Line>
+    <Line Name="TIDIL1A" Pattern="Dotted">AS801/AS808/AS618/TIDIL</Line>
+    <Line Name="UKIRO1A" Pattern="Dotted">AS801/AS805/AS810/AS807/AS809/MANTA/UKIRO</Line>
     <Symbol Type="HollowStar">
       <Point>AS618</Point>
       <Point>AS801</Point>
@@ -500,27 +395,27 @@ ALIPA</Line>
       <Point>AS808</Point>
       <Point>AS809</Point>
       <Point>AS810</Point>
-      <Point>UKIRO</Point>
       <Point>TIDIL</Point>
+      <Point>UKIRO</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>HORTA</Point>
     </Symbol>
     <Symbol Type="SolidTriangle">
-      <Point>MITIN</Point>
-      <Point>TEDZI</Point>
       <Point>LIVRI</Point>
       <Point>MANTA</Point>
+      <Point>MITIN</Point>
+      <Point>TEDZI</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="MMAS - Pista 18 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
     <Label HasLeader="false">
+      <Point>HORTA</Point>
+      <Point>LIVRI</Point>
       <Point>MITIN</Point>
       <Point>TEDZI</Point>
-      <Point>LIVRI</Point>
       <Point>TIDIL</Point>
       <Point>UKIRO</Point>
-      <Point>HORTA</Point>
     </Label>
   </Map>
 </Maps>
