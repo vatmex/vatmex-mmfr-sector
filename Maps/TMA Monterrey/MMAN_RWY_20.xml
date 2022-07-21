@@ -41,12 +41,70 @@
       <Point>NOTAL</Point>
       <Point>RETOS</Point>
       <Point>SLW</Point>
-
       <Point>OBNIN</Point>
       <Point>DUXAM</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="MMAN - Pista 20 - ILS 3 20" Priority="1" Center="+284208.380-1055746.670">
+  <Map Type="System" Name="MMAN - Pista 20 - ILSDME 2" Priority="1" Center="+284208.380-1055746.670">
+    <Line Pattern="Solid">+260022.290-1000821.080/+255217.180-1001359.300</Line>
+    <Line Pattern="Dashed">NOTAL/URTUS/+260022.290-1000821.080</Line>
+    <Line Pattern="Dashed">+260709.565-1000336.375/+255840.850-1000931.893</Line>
+    <Line Pattern="Dashed">
+MTY/
++255423.811-1000340.166/
++255426.434-1000339.479/
++255429.153-1000338.930/
++255431.268-1000338.737/
++255433.026-1000338.710/
++255434.557-1000338.820/
++255435.800-1000339.039/
++255438.038-1000339.671/
++255442.282-1000341.072/
++255450.295-1000343.681/
++255509.535-1000349.916/
++255559.200-1000411.669/
++255647.739-1000438.613/
++255727.502-1000505.804/
++255812.910-1000542.608/
++255851.623-1000620.621/
++255906.812-1000638.419/
++255913.987-1000649.213/
++255921.190-1000702.616/
++255925.674-1000713.740/
++255929.135-1000725.907/
++255931.373-1000737.031/
++255932.218-1000750.983/
++255931.469-1000806.694/
++255929.313-1000819.548/
++255925.866-1000832.347/
++255920.909-1000844.597/
++255915.443-1000855.061/
++255909.696-1000903.988/
++255905.384-1000909.893/
++255859.073-1000916.814</Line>
+    <Symbol Type="SolidTriangle">
+      <Point>+255607.980-1001118.510</Point>
+      <Point>+260022.290-1000821.080</Point>
+      <Point>+260709.580-1000336.370</Point>
+      <Point>NOTAL</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>ADN</Point>
+      <Point>MTY</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>ADN</Point>
+      <Point>MTY</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMAN - Pista 20 - ILSDME 2 (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>NOTAL</Point>
+      <Point>ADN</Point>
+      <Point>MTY</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="MMAN - Pista 20 - ILS 3" Priority="1" Center="+284208.380-1055746.670">
     <Line Pattern="Solid">OBNIN/+255217.180-1001359.300</Line>
     <Line Pattern="Solid">DUXAM/AN900</Line>
     <Symbol Type="HollowStar">
@@ -55,6 +113,52 @@
       <Point>OBNIN</Point>
     </Symbol>
   </Map>
+  <Map Type="System" Name="MMAN - Pista 20 - Salidas" Priority="1" Center="+254642.810-1000625.150">
+    <Line Name="MTY2E" Pattern="Dotted">
++255217.180-1001359.300/
++254920.492-1001602.237/
++254911.051-1001608.801/
++254900.600-1001614.349/
++254848.213-1001619.321/
++254836.519-1001622.809/
++254824.503-1001625.226/
++254813.153-1001626.297/
++254759.331-1001626.325/
++254747.891-1001625.198/
++254735.236-1001622.699/
++254724.065-1001619.293/
++254714.101-1001615.283/
++254701.639-1001609.021/
++254651.607-1001602.512/
++254641.664-1001554.876/
++254631.722-1001545.703/
++254622.939-1001535.897/
++254615.606-1001526.147/
++254608.156-1001514.419/
++254602.436-1001503.350/
++254557.019-1001450.689/
++254552.919-1001438.164/
++254549.822-1001425.420/
++254547.673-1001412.017/
++254546.547-1001358.449/
++254546.513-1001344.880/
++254547.145-1001333.867/
+MTY</Line>
+    <Symbol Type="HollowSquare">
+      <Point>ADN</Point>
+      <Point>MTY</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>ADN</Point>
+      <Point>MTY</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMAN - Pista 20 - Salidas (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+    <Label HasLeader="false">
+      <Point>ADN</Point>
+      <Point>MTY</Point>
+    </Label>
+  </Map>  
   <Map Type="System" Name="MMAN - Pista 20 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
     <Line Name="DAJOR2D" Pattern="Dotted">+255121.980-1001437.820/ALSEX/PILDA/GUELF/RALLO/AXILO/DAJOR</Line>
     <Line Name="GRALA2D" Pattern="Dotted">PILDA/KIVES/GRALA</Line>
