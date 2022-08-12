@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
-    <Line Name="LENUL2A" Pattern="Dashed">LENUL/TO634/TO632/TO601/TO602/TO603/TO604/TO605/TO606/TO607/TO608/GAINY</Line>
     <Line Name="ELILA2A" Pattern="Dashed">ELILA/TO621/TO622/TO623/TO630/TO625/TO626/TO627/TO628/GAINY</Line>
     <Line Name="ITLAS2A" Pattern="Dashed">ITLAS/TO613/TO614/TO615/TO616/GAINY</Line>
+    <Line Name="LENUL2A" Pattern="Dashed">LENUL/TO634/TO632/TO601/TO602/TO603/TO604/TO605/TO606/TO607/TO608/GAINY</Line>
     <Symbol Type="HollowStar">
       <Point>ELILA</Point>
       <Point>GAINY</Point>
@@ -188,11 +188,11 @@
   </Map>
   <Map Type="System" Name="MMTO - Pista 15 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
     <Line Name="OMPER2A" Pattern="Dotted">+191916.200-0993331.800/TO705/TO701/TO702/TO703/TO715/TO721/TO724/OMPER</Line>
-    <Line Name="OVAGO2C" Pattern="Dotted">TO750/TO754/OVAGO</Line>
+    <Line Name="OVAGO2C" Pattern="Dotted">TO705/TO712/TO750/TO754/OVAGO</Line>
     <Line Name="PURAL2A" Pattern="Dotted">TO715/TO716/TO718/PURAL</Line>
     <Line Name="SEBON2C" Pattern="Dotted">TO750/TO752/SEBON</Line>
     <Line Name="TEVOS2C" Pattern="Dotted">TO703/TO730/ULOTO/TEVOS</Line>
-    <Line Name="ULEBA2C" Pattern="Dotted">TO705/TO712/TO750/TO756/ULEBA</Line>
+    <Line Name="ULEBA2C" Pattern="Dotted">TO750/TO756/ULEBA</Line>
     <Symbol Type="HollowStar">
       <Point>OMPER</Point>
       <Point>OVAGO</Point>
@@ -205,7 +205,7 @@
       <Point>TO705</Point>
       <Point>TO712</Point>
       <Point>TO715</Point>
-      <Point>TO716</Point>      
+      <Point>TO716</Point>
       <Point>TO718</Point>
       <Point>TO721</Point>
       <Point>TO724</Point>
