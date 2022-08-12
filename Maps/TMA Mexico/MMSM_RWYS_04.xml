@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MMSM - Pistas 04 - Llegadas RNAV" Priority="1" Center="+194440.700-0990053.200">
+    <Line Name="VITOS1A" Pattern="Dashed">VITOS/DUSAM/SM412/SM414/SM416/SM418/SM420/VINRI/NADUN</Line>
+    <Line Name="TOREO1A" Pattern="Dashed">TOREO/IMUTO/SM440/SM442/SM444/SM446/SM448/VINRI</Line>
+    <Line Name="KELBO1A" Pattern="Dashed">KELBO/SM382/SM384/SM386/SM388/TORON/SM400/SM402/SM404/SM406/SM408/VINRI</Line>
+    <Line Name="PBC1C" Pattern="Dashed">PBC/SM370/SM372/SM374/SM614/DUSAM</Line>
+    <Line Name="OTMOS1A" Pattern="Dashed">OTMOS/SM370</Line>    
+    <Symbol Type="HollowStar">
+      <Point>DUSAM</Point>
+      <Point>IMUTO</Point>
+      <Point>KELBO</Point>
+      <Point>NADUN</Point>
+      <Point>OTMOS</Point>
+      <Point>SM370</Point>
+      <Point>SM372</Point>
+      <Point>SM374</Point>
+      <Point>SM382</Point>
+      <Point>SM384</Point>
+      <Point>SM386</Point>
+      <Point>SM388</Point>
+      <Point>SM400</Point>
+      <Point>SM402</Point>
+      <Point>SM404</Point>
+      <Point>SM406</Point>
+      <Point>SM408</Point>
+      <Point>SM412</Point>
+      <Point>SM414</Point>
+      <Point>SM416</Point>
+      <Point>SM418</Point>
+      <Point>SM420</Point>
+      <Point>SM440</Point>
+      <Point>SM442</Point>
+      <Point>SM444</Point>
+      <Point>SM446</Point>
+      <Point>SM448</Point>
+      <Point>SM614</Point>
+      <Point>TOREO</Point>
+      <Point>TORON</Point>
+      <Point>VINRI</Point>
+      <Point>VITOS</Point>
+    </Symbol>
+    <Symbol Type="HollowSquare">
+      <Point>PBC</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMSM - Pistas 04 - Llegadas RNAV (Nombres)" Priority="1" Center="+194440.700-0990053.200">
+    <Label HasLeader="false">
+      <Point>KELBO</Point>
+      <Point>NADUN</Point>
+      <Point>OTMOS</Point>
+      <Point>PBC</Point>
+      <Point>TOREO</Point>
+      <Point>VINRI</Point>
+      <Point>VITOS</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="MMSM - Pistas 04 - Llegadas RNAV (Vectores)" Priority="1" Center="+194440.70-0990053.200">
+  	<Line Name="VINRIR317" Pattern="Solid">+195406.098-0991340.000/+201058.802-0993017.770</Line>
+  	<Line Name="VINRIR060" Pattern="Solid">+195406.098-0991340.000/+200544.1811-0985232.7741</Line>
+  	<Line Name="VINRID6" Pattern="Solid">
++195829.806-0991759.818/
++195833.254-0991755.826/
++195845.477-0991740.606/
++195856.935-0991724.726/
++195907.595-0991708.230/
++195917.429-0991651.163/
++195926.409-0991633.572/
++195934.512-0991615.506/
++195941.714-0991557.013/
++195947.997-0991538.145/
++195953.342-0991518.952/
++195957.736-0991459.489/
++200001.166-0991439.808/
++200003.622-0991419.963/
++200005.099-0991400.008/
++200005.592-0991339.999/
++200005.099-0991319.989/
++200003.622-0991300.034/
++200001.166-0991240.189/
++195957.736-0991220.508/
++195953.342-0991201.045/
++195947.997-0991141.852/
++195941.714-0991122.984/
++195934.512-0991104.491/
++195926.409-0991046.425/
++195917.429-0991028.834/
++195907.595-0991011.767/
++195856.935-0990955.271/
++195845.477-0990939.391/
++195833.254-0990924.171/
++195820.298-0990909.651/
++195806.646-0990855.873/
++195752.335-0990842.873/
++195737.403-0990830.688/
++195721.892-0990819.351/
++195707.775-0990810.201</Line>
+    <Line Name="VINRID12" Pattern="Solid">
++200253.345-0992219.471/
++200300.410-0992211.654/
++200324.857-0992141.213/
++200347.772-0992109.453/
++200409.092-0992036.461/
++200428.760-0992002.327/
++200446.721-0991927.146/
++200502.926-0991851.013/
++200517.331-0991814.027/
++200529.896-0991736.291/
++200540.587-0991657.906/
++200549.375-0991618.980/
++200556.234-0991539.617/
++200601.147-0991459.927/
++200604.101-0991420.018/
++200605.086-0991339.999/
++200604.101-0991259.979/
++200601.147-0991220.070/
++200556.234-0991140.380/
++200549.375-0991101.017/
++200540.587-0991022.091/
++200529.896-0990943.706/
++200517.331-0990905.970/
++200502.926-0990828.984/
++200446.721-0990752.851/
++200428.760-0990717.670/
++200409.092-0990643.536/
++200347.772-0990610.544/
++200324.857-0990538.784/
++200300.410-0990508.343/
++200234.499-0990439.304/
++200207.195-0990411.748/
++200138.572-0990345.748/
++200108.708-0990321.378/
++200037.687-0990258.703/
++200009.527-0990240.268</Line>
+     <Line Name="VINRID18" Pattern="Solid">
++200718.340-0992640.559/
++200804.236-0992541.820/
++200838.609-0992454.180/
++200910.589-0992404.692/
++200940.091-0992313.491/
++201007.033-0992220.719/
++201031.341-0992126.520/
++201052.948-0992031.041/
++201111.796-0991934.437/
++201127.832-0991836.860/
++201141.013-0991738.470/
++201151.303-0991639.427/
++201158.672-0991539.891/
++201203.102-0991440.027/
++201204.580-0991339.999/
++201203.102-0991239.970/
++201158.672-0991140.106/
++201151.303-0991040.570/
++201141.013-0990941.527/
++201127.832-0990843.137/
++201111.796-0990745.560/
++201052.948-0990648.956/
++201031.341-0990553.477/
++201007.033-0990459.278/
++200940.091-0990406.506/
++200910.589-0990315.305/
++200838.609-0990225.817/
++200804.236-0990138.177/
++200727.567-0990052.515/
++200648.700-0990008.957/
++200607.743-0985927.622/
++200524.809-0985848.623/
++200440.014-0985812.068/
++200353.481-0985738.055/
++200311.050-0985710.750</Line>
+     <Line Name="VINRID23" Pattern="Solid">
++201058.801-0993017.769/
++201157.052-0992902.326/
++201240.973-0992801.452/
++201321.837-0992658.218/
++201359.534-0992552.795/
++201433.959-0992445.364/
++201505.019-0992336.109/
++201532.629-0992225.220/
++201556.712-0992112.892/
++201617.203-0991959.322/
++201634.045-0991844.712/
++201647.193-0991729.268/
++201656.610-0991613.195/
++201702.270-0991456.702/
++201704.159-0991339.999/
++201702.270-0991223.295/
++201656.610-0991106.802/
++201647.193-0990950.729/
++201634.045-0990835.285/
++201617.203-0990720.675/
++201556.712-0990607.105/
++201532.629-0990454.777/
++201505.019-0990343.888/
++201433.959-0990234.633/
++201359.534-0990127.202/
++201321.837-0990021.779/
++201240.973-0985918.545/
++201157.052-0985817.671/
++201110.197-0985719.326/
++201020.534-0985623.668/
++200928.201-0985530.851/
++200833.340-0985441.019/
++200736.102-0985354.309/
++200636.644-0985310.849/
++200544.181-0985232.774</Line>              
+  </Map>
+  <Map Type="System" Name="MMSM - Pistas 04 - ILS 04C" Priority="1" Center="+194440.700-0990053.200">
+    <Line Pattern="Solid">NADUN/SM03S/SM04S/SM05S/SM07S/+194342.820-0990123.180</Line>
+    <Line Pattern="Solid">MIZEN/SM02E/SM03E</Line>
+    <Line Pattern="Solid">+194130.586-0990433.587/+194102.146-0990407.357</Line>
+    <Line Pattern="Solid">+194211.833-0990345.439/+194142.452-0990318.220</Line>
+    <Line Pattern="Solid">+194251.817-0990257.648/+194221.810-0990229.771</Line>
+    <Line Pattern="Solid">+194328.992-0990213.483/+194258.985-0990145.935</Line>
+    <Line Pattern="Solid">+194355.578-0990133.988/+194328.387-0990108.774</Line>
+     <Symbol Type="HollowStar">
+      <Point>NADUN</Point>
+      <Point>MIZEN</Point>
+      <Point>SM02E</Point>
+      <Point>SM03E</Point>
+      <Point>SM03S</Point>      
+      <Point>SM04S</Point>
+      <Point>SM05S</Point>
+      <Point>SM07S</Point>      
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMSM - Pistas 04 - ILS 04L" Priority="1" Center="+194440.700-0990053.200">
+    <Line Pattern="Solid">NADUN/SM03N/SM04N/SM05N/SM07N/+194402.690-0990222.910</Line>
+    <Line Pattern="Solid">BENAX/SM03E</Line>
+    <Symbol Type="HollowStar">
+      <Point>NADUN</Point>
+      <Point>BENAX</Point>
+      <Point>SM03E</Point>
+      <Point>SM03N</Point>
+      <Point>SM04N</Point>      
+      <Point>SM05N</Point>
+      <Point>SM07N</Point>   
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMSM - Pistas 04 - Salidas RNAV" Priority="1" Center="+194440.700-0990053.200">
+    <Line Name="ATURO1C" Pattern="Dotted">+194342.820-0990123.180/SM501/SM503/SM506/OTMAL/ATURO</Line>
+    <Line Name="ATURO1D" Pattern="Dotted">SM500/MX753</Line>
+    <Line Name="AXIRI1C" Pattern="Dotted">OTMAL/AXIRI</Line>
+    <Line Name="IKLAN1C" Pattern="Dotted">OTMAL/IKLAN</Line>
+    <Line Name="LORSU1A" Pattern="Dotted">SM501/SM509/SM510/SM512/LORSU</Line>
+    <Line Name="LORSU1B" Pattern="Dotted">+194402.690-0990222.910/SM500/SM504/SM509</Line>
+    <Line Name="NOXOS1E" Pattern="Dotted">SM510/SELOX/NOXOS</Line>
+    <Line Name="NOXOS1F" Pattern="Dotted">SM510/SELOX/NOXOS</Line>
+    <Line Name="UKUNO1E" Pattern="Dotted">SELOX/UKUNO</Line>
+    <Line Name="ILETO1E" Pattern="Dotted">SELOX/ILETO</Line>
+    <Line Name="ULEBA1E" Pattern="Dotted">SM520/SM530/SM532/RAKEM/SERNU/ULEBA</Line>
+    <Line Name="OVAGO1E" Pattern="Dotted">RAKEM/ESVOR/OVAGO</Line>
+    <Line Name="SEBON1E" Pattern="Dotted">RAKEM/MASAP/SEBON</Line>
+    <Line Name="KATMI1A" Pattern="Dotted">SM532/SM534/SM536/KATMI</Line>    
+    <Line Name="TEVOS1E" Pattern="Dotted">
++194518.460-0985926.270/SM501/SM505/+194732.998-0985637.000/
++194740.771-0985620.053/
++194745.426-0985600.635/
++194747.362-0985541.629/
++194745.797-0985523.419/
++194741.121-0985504.000/
++194735.284-0985449.141/
++194727.498-0985435.903/
++194717.768-0985422.692/
++194707.647-0985411.953/
++194655.198-0985402.449/
++194643.916-0985357.094/
++194630.300-0985352.946/
++194615.132-0985351.738/
++194559.964-0985350.914/
++194544.405-0985353.413/
++194528.049-0985356.599/
++194514.515-0985401.406/
++194500.981-0985409.206/
++194446.885-0985419.396/
++194429.966-0985433.788/SM520/SM522/SM524/SM526/TEVOS</Line>
+    <Line Name="TEVOS1F" Pattern="Dotted">SM500/SM502/
++194810.379-0985721.632/
++194821.242-0985703.861/
++194826.790-0985647.299/
++194829.426-0985629.309/
++194829.687-0985613.571/
++194828.891-0985558.959/
++194826.000-0985542.919/
++194821.441-0985530.340/
++194815.666-0985518.392/
++194808.374-0985507.598/
++194800.326-0985458.562/
++194752.121-0985450.322/
++194743.009-0985443.895/
++194733.575-0985438.457/
++194722.279-0985433.870/
++194711.135-0985430.877/
++194657.910-0985429.476/
++194646.169-0985429.311/
++194633.836-0985430.108/
++194619.444-0985432.882/
++194604.688-0985437.853/
++194549.445-0985445.433/
++194534.201-0985455.101/
+SM520</Line>    
+    <Symbol Type="HollowStar">
+      <Point>ATURO</Point>
+      <Point>AXIRI</Point>
+      <Point>ESVOR</Point>
+      <Point>IKLAN</Point>
+      <Point>ILETO</Point>
+      <Point>KATMI</Point>
+      <Point>LORSU</Point>
+      <Point>MASAP</Point>
+      <Point>MX753</Point>
+      <Point>NOXOS</Point>
+      <Point>OTMAL</Point>
+      <Point>OVAGO</Point>
+      <Point>RAKEM</Point>
+      <Point>SEBON</Point>
+      <Point>SELOX</Point>
+      <Point>SERNU</Point>
+      <Point>SM500</Point>
+      <Point>SM501</Point>
+      <Point>SM502</Point>
+      <Point>SM503</Point>
+      <Point>SM504</Point>
+      <Point>SM505</Point>
+      <Point>SM506</Point>
+      <Point>SM509</Point>
+      <Point>SM510</Point>
+      <Point>SM512</Point>
+      <Point>SM520</Point>
+      <Point>SM522</Point>
+      <Point>SM524</Point>
+      <Point>SM526</Point>
+      <Point>SM530</Point>
+      <Point>SM532</Point>
+      <Point>SM534</Point>
+      <Point>SM536</Point>
+      <Point>TEVOS</Point>
+      <Point>UKUNO</Point>
+      <Point>ULEBA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MMSM - Pistas 04 - Salidas RNAV (Nombres)" Priority="2" Center="+194440.700-0990053.200">
+    <Label HasLeader="false">
+      <Point>ATURO</Point>
+      <Point>AXIRI</Point>
+      <Point>IKLAN</Point>
+      <Point>ILETO</Point>
+      <Point>KATMI</Point>
+      <Point>LORSU</Point>
+      <Point>NOXOS</Point>
+      <Point>OVAGO</Point>
+      <Point>SEBON</Point>
+      <Point>TEVOS</Point>
+      <Point>UKUNO</Point>
+      <Point>ULEBA</Point>
+    </Label>
+  </Map>
+</Maps>
