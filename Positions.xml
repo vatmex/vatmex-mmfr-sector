@@ -1286,6 +1286,33 @@
         <Line>ATC feedback - vatmex.com.mx</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Autorización Mérida - MDCDL" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="80" MagneticVariation="0">
+      <Sectors>
+        <Sector Name="MDCDL" />
+      </Sectors>
+      <Maps>
+        <Map Name="TMA Merida/Aeropuerto - Pistas" />
+        <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
+
+        <Map Name="Universal/Geografia - Linea de Costa" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
+        <Window Airport="MMMD" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="MMMD" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="MMMD" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Autorizacion Merida / Merida Delivery</Line>
+        <Line>Serving MMMD departures</Line>
+        <Line>ATIS available on 127.900</Line>
+        <Line>ATC feedback - vatmex.com.mx</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Torre Mérida - MDTW1" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="80" MagneticVariation="0">
       <Sectors>
         <Sector Name="MDTW1" />
@@ -1305,7 +1332,6 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="MMMD" Visible="true" />
       </Strips>
-      <CFL QuickLevel="20000" />
       <ArrivalLists>
         <Airport Name="MMMD" />
       </ArrivalLists>
