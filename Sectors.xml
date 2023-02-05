@@ -120,10 +120,13 @@
   <Sector FullName="Torre Ixtepec" Frequency="118.450" Callsign="MMIT_TWR" Name="ITTW1" DisplayInHandoffWindow="False">
     <Volumes>MMIT_ATZ</Volumes>
   </Sector>
-  <Sector FullName="Torre Merida" Frequency="118.300" Callsign="MMMD_TWR" Name="MDTW1" DisplayInHandoffWindow="False">
+  <Sector FullName="Autorización Mérida" Frequency="121.900" Callsign="MMMD_DEL" Name="MDCDL" DisplayInHandoffWindow="False">
     <Volumes>MMMD_CTR</Volumes>
   </Sector>
-  <Sector FullName="Aproximación Merida" Frequency="121.200" Callsign="MMMD_APP" Name="MDAPP">
+  <Sector FullName="Torre Mérida" Frequency="118.300" Callsign="MMMD_TWR" Name="MDTW1" DisplayInHandoffWindow="False">
+    <Volumes>MMMD_CTR</Volumes>
+  </Sector>
+  <Sector FullName="Aproximación Mérida" Frequency="121.200" Callsign="MMMD_APP" Name="MDAPP">
     <Volumes>MMMD_TMA</Volumes>
   </Sector>
   <Sector FullName="Torre Minatitlan" Frequency="118.100" Callsign="MMMT_TWR" Name="MTTW1" DisplayInHandoffWindow="False">
