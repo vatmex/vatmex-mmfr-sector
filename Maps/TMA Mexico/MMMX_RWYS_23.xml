@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
-    <Line Name="DARAN2B" Pattern="Dashed">DARAN/MX650/MX652/DUSGO/MX617/MX619/MX621/MX623/SESTA/ESTIN</Line>
-    <Line Name="ENAGA2B" Pattern="Dashed">ENAGA/MX641/MX643/MX645/MX647/MX649/MX602</Line>
-    <Line Name="LARLO3B" Pattern="Dashed">LARLO/PBC/MX665/MX666/MX667/MX669/MX671/MX602/SESTA</Line>
-    <Line Name="ESPOS3B" Pattern="Dashed">ESPOS/MX770/MX661/OTMOS/MX665</Line>
-    <Symbol Type="HollowStar">
-      <Point>DARAN</Point>
-      <Point>DUSGO</Point>
-      <Point>ENAGA</Point>
-      <Point>ESPOS</Point>
-      <Point>ESTIN</Point>
-      <Point>LARLO</Point>
-      <Point>MX602</Point>
-      <Point>MX617</Point>
-      <Point>MX619</Point>
-      <Point>MX621</Point>
-      <Point>MX623</Point>
-      <Point>MX641</Point>
-      <Point>MX643</Point>
-      <Point>MX645</Point>
-      <Point>MX647</Point>
-      <Point>MX649</Point>
-      <Point>MX650</Point>
-      <Point>MX652</Point>
-      <Point>MX661</Point>
-      <Point>MX665</Point>
-      <Point>MX666</Point>
-      <Point>MX667</Point>
-      <Point>MX669</Point>
-      <Point>MX671</Point>
-      <Point>MX770</Point>
-      <Point>OTMOS</Point>
-      <Point>SESTA</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>PBC</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>PBC</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
-    <Label HasLeader="false">
-      <Point>DARAN</Point>
-      <Point>ENAGA</Point>
-      <Point>ESPOS</Point>
-      <Point>ESTIN</Point>
-      <Point>LARLO</Point>
-      <Point>SESTA</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
-    <Line Name="SESTAR278" Pattern="Solid">+193524.910-0984738.439/+193218.7367-0982224.177</Line>
-    <Line Name="SESTAR178" Pattern="Solid">+193524.910-0984738.439/+195909.456-0984414.159</Line>
-    <Line Name="SESTAD6" Pattern="Solid">
+    <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
+        <Line Name="DARAN2B" Pattern="Dashed">DARAN/MX650/MX652/DUSGO/MX617/MX619/MX621/MX623/SESTA/ESTIN</Line>
+        <Line Name="ENAGA2B" Pattern="Dashed">ENAGA/MX641/MX643/MX645/MX647/MX649/MX602</Line>
+        <Line Name="LARLO3B" Pattern="Dashed">LARLO/PBC/MX665/MX666/MX667/MX669/MX671/MX602/SESTA</Line>
+        <Line Name="ESPOS3B" Pattern="Dashed">ESPOS/MX770/MX661/OTMOS/MX665</Line>
+        <Symbol Type="HollowStar">
+            <Point>DARAN</Point>
+            <Point>DUSGO</Point>
+            <Point>ENAGA</Point>
+            <Point>ESPOS</Point>
+            <Point>ESTIN</Point>
+            <Point>LARLO</Point>
+            <Point>MX602</Point>
+            <Point>MX617</Point>
+            <Point>MX619</Point>
+            <Point>MX621</Point>
+            <Point>MX623</Point>
+            <Point>MX641</Point>
+            <Point>MX643</Point>
+            <Point>MX645</Point>
+            <Point>MX647</Point>
+            <Point>MX649</Point>
+            <Point>MX650</Point>
+            <Point>MX652</Point>
+            <Point>MX661</Point>
+            <Point>MX665</Point>
+            <Point>MX666</Point>
+            <Point>MX667</Point>
+            <Point>MX669</Point>
+            <Point>MX671</Point>
+            <Point>MX770</Point>
+            <Point>OTMOS</Point>
+            <Point>SESTA</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>PBC</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>PBC</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
+        <Label HasLeader="false">
+            <Point>DARAN</Point>
+            <Point>ENAGA</Point>
+            <Point>ESPOS</Point>
+            <Point>ESTIN</Point>
+            <Point>LARLO</Point>
+            <Point>SESTA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
+        <Line Name="SESTAR278" Pattern="Solid">+193524.910-0984738.439/+193218.7367-0982224.177</Line>
+        <Line Name="SESTAR178" Pattern="Solid">+193524.910-0984738.439/+195909.456-0984414.159</Line>
+        <Line Name="SESTAD6" Pattern="Solid">
 +194120.988-0984647.377/
 +194119.972-0984638.745/
 +194116.542-0984619.103/
@@ -87,7 +87,7 @@
 +193506.093-0984117.382/
 +193447.331-0984118.949/
 +193438.381-0984119.990</Line>
-    <Line Name="SESTAD12" Pattern="Solid">
+        <Line Name="SESTAD12" Pattern="Solid">
 +194717.182-0984556.299/
 +194715.036-0984539.053/
 +194708.176-0984459.768/
@@ -120,7 +120,7 @@
 +193447.279-0983456.326/
 +193409.754-0983459.460/
 +193351.776-0983500.929</Line>
-    <Line Name="SESTAD18" Pattern="Solid">
+        <Line Name="SESTAD18" Pattern="Solid">
 +195313.265-0984505.236/
 +195310.100-0984439.361/
 +195259.811-0984340.433/
@@ -153,7 +153,7 @@
 +193428.465-0982835.270/
 +193332.177-0982839.972/
 +193305.408-0982843.785</Line>
-    <Line Name="SESTAD24" Pattern="Solid">
+        <Line Name="SESTAD24" Pattern="Solid">
 +195909.455-0984414.158/
 +195905.164-0984339.669/
 +195851.445-0984221.099/
@@ -186,48 +186,48 @@
 +193409.650-0982214.214/
 +193254.600-0982220.483/
 +193218.736-0982224.177</Line>     
-  </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - ILS DME 23L" Priority="1" Center="+192617.57-0990407.679">
-    <Line Pattern="Solid">+192617.579-0990407.679/+193629.359-0984555.040/+194150.000-0984517.000</Line>
-    <Line Pattern="Solid">+192825.320-0985918.631/+192617.579-0990407.679</Line>
-    <Line Pattern="Solid">+192825.320-0985918.633/+192916.676-0985951.363</Line>
-    <Line Pattern="Solid">+192916.675-0985951.363/+193647.438-0984622.717</Line>
-    <Line Pattern="Solid">+192825.320-0985918.631/+193611.223-0984522.812</Line>
-    <Line Pattern="Solid">+194154.686-0984548.426/+193647.438-0984622.717</Line>
-    <Line Pattern="Solid">+194146.868-0984445.354/+193611.223-0984522.812</Line>
-    <Line Pattern="Solid">+192947.174-0985856.657/+192855.819-0985823.930</Line>
-    <Line Pattern="Solid">+193017.673-0985801.947/+192926.318-0985729.226</Line>
-    <Line Pattern="Solid">+193048.172-0985707.236/+192956.817-0985634.519</Line>
-    <Line Pattern="Solid">+193118.671-0985612.522/+193027.316-0985539.809</Line>
-    <Line Pattern="Solid">+193149.170-0985517.805/+193057.815-0985445.097</Line>
-    <Line Pattern="Solid">+193219.669-0985423.085/+193128.314-0985350.382</Line>
-    <Line Pattern="Solid">+193250.168-0985328.362/+193158.813-0985255.664</Line>
-    <Line Pattern="Solid">+193320.667-0985233.636/+193229.312-0985200.943</Line>
-    <Line Pattern="Solid">+193351.166-0985138.907/+193259.660-0985106.238</Line>
-    <Line Pattern="Solid">+193421.665-0985044.175/+193330.310-0985011.492</Line>
-    <Line Pattern="Solid">+193452.164-0984949.440/+193400.809-0984916.762</Line>
-    <Line Pattern="Solid">+193522.663-0984854.702/+193431.308-0984822.029</Line>
-    <Line Pattern="Solid">+193553.162-0984759.962/+193501.807-0984727.293</Line>
-    <Line Pattern="Solid">+193623.661-0984705.219/+193532.306-0984632.555</Line>
-    <Line Pattern="Solid">+193656.749-0984621.678/+193648.931-0984518.605</Line>
-    <Line Pattern="Solid">+193756.336-0984615.029/+193748.518-0984511.956</Line>
-    <Line Pattern="Solid">+193855.923-0984608.379/+193848.105-0984505.307</Line>
-    <Line Pattern="Solid">+193955.510-0984601.729/+193947.692-0984458.657</Line>
-    <Line Pattern="Solid">+194055.098-0984555.078/+194047.280-0984452.006</Line>
-    <Line Pattern="Solid">+194154.686-0984548.426/+194146.868-0984445.354</Line>
-    <Line Pattern="Solid">+194417.236-0990213.686/+194450.741-0990120.910</Line>
-    <Line Pattern="Solid">+194327.563-0990138.090/+194401.068-0990045.312</Line>
-    <Line Pattern="Solid">+194237.890-0990102.497/+194311.395-0990009.717</Line>
-    <Line Pattern="Solid">+194148.217-0990026.907/+194221.722-0985934.125</Line>
-    <Line Pattern="Solid">+194058.544-0985951.320/+194132.049-0985858.536</Line>
-    <Line Pattern="Solid">+194008.872-0985915.736/+194042.377-0985822.950</Line>
-    <Line Pattern="Solid">+193919.200-0985840.155/+193952.705-0985747.367</Line>
-    <Line Pattern="Solid">+193829.528-0985804.577/+193903.033-0985711.787</Line>
-    <Line Pattern="Solid">+193739.860-0985728.920/+193813.364-0985636.127</Line>
-    <Line Pattern="Solid">+193650.184-0985653.430/+193723.689-0985600.636</Line>
-    <Line Pattern="Solid">+193600.512-0985617.862/+193634.017-0985525.065</Line>
-    <Line Pattern="Solid">+193510.840-0985542.297/+193544.345-0985449.498</Line>
-    <Line>
+    </Map>
+    <Map Type="System" Name="MMMX - Pistas 23 - ILS DME 23L" Priority="1" Center="+192617.57-0990407.679">
+        <Line Pattern="Solid">+192617.579-0990407.679/+193629.359-0984555.040/+194150.000-0984517.000</Line>
+        <Line Pattern="Solid">+192825.320-0985918.631/+192617.579-0990407.679</Line>
+        <Line Pattern="Solid">+192825.320-0985918.633/+192916.676-0985951.363</Line>
+        <Line Pattern="Solid">+192916.675-0985951.363/+193647.438-0984622.717</Line>
+        <Line Pattern="Solid">+192825.320-0985918.631/+193611.223-0984522.812</Line>
+        <Line Pattern="Solid">+194154.686-0984548.426/+193647.438-0984622.717</Line>
+        <Line Pattern="Solid">+194146.868-0984445.354/+193611.223-0984522.812</Line>
+        <Line Pattern="Solid">+192947.174-0985856.657/+192855.819-0985823.930</Line>
+        <Line Pattern="Solid">+193017.673-0985801.947/+192926.318-0985729.226</Line>
+        <Line Pattern="Solid">+193048.172-0985707.236/+192956.817-0985634.519</Line>
+        <Line Pattern="Solid">+193118.671-0985612.522/+193027.316-0985539.809</Line>
+        <Line Pattern="Solid">+193149.170-0985517.805/+193057.815-0985445.097</Line>
+        <Line Pattern="Solid">+193219.669-0985423.085/+193128.314-0985350.382</Line>
+        <Line Pattern="Solid">+193250.168-0985328.362/+193158.813-0985255.664</Line>
+        <Line Pattern="Solid">+193320.667-0985233.636/+193229.312-0985200.943</Line>
+        <Line Pattern="Solid">+193351.166-0985138.907/+193259.660-0985106.238</Line>
+        <Line Pattern="Solid">+193421.665-0985044.175/+193330.310-0985011.492</Line>
+        <Line Pattern="Solid">+193452.164-0984949.440/+193400.809-0984916.762</Line>
+        <Line Pattern="Solid">+193522.663-0984854.702/+193431.308-0984822.029</Line>
+        <Line Pattern="Solid">+193553.162-0984759.962/+193501.807-0984727.293</Line>
+        <Line Pattern="Solid">+193623.661-0984705.219/+193532.306-0984632.555</Line>
+        <Line Pattern="Solid">+193656.749-0984621.678/+193648.931-0984518.605</Line>
+        <Line Pattern="Solid">+193756.336-0984615.029/+193748.518-0984511.956</Line>
+        <Line Pattern="Solid">+193855.923-0984608.379/+193848.105-0984505.307</Line>
+        <Line Pattern="Solid">+193955.510-0984601.729/+193947.692-0984458.657</Line>
+        <Line Pattern="Solid">+194055.098-0984555.078/+194047.280-0984452.006</Line>
+        <Line Pattern="Solid">+194154.686-0984548.426/+194146.868-0984445.354</Line>
+        <Line Pattern="Solid">+194417.236-0990213.686/+194450.741-0990120.910</Line>
+        <Line Pattern="Solid">+194327.563-0990138.090/+194401.068-0990045.312</Line>
+        <Line Pattern="Solid">+194237.890-0990102.497/+194311.395-0990009.717</Line>
+        <Line Pattern="Solid">+194148.217-0990026.907/+194221.722-0985934.125</Line>
+        <Line Pattern="Solid">+194058.544-0985951.320/+194132.049-0985858.536</Line>
+        <Line Pattern="Solid">+194008.872-0985915.736/+194042.377-0985822.950</Line>
+        <Line Pattern="Solid">+193919.200-0985840.155/+193952.705-0985747.367</Line>
+        <Line Pattern="Solid">+193829.528-0985804.577/+193903.033-0985711.787</Line>
+        <Line Pattern="Solid">+193739.860-0985728.920/+193813.364-0985636.127</Line>
+        <Line Pattern="Solid">+193650.184-0985653.430/+193723.689-0985600.636</Line>
+        <Line Pattern="Solid">+193600.512-0985617.862/+193634.017-0985525.065</Line>
+        <Line Pattern="Solid">+193510.840-0985542.297/+193544.345-0985449.498</Line>
+        <Line>
 +194433.990-0990147.299/
 +193756.613-0985702.525/
 +193437.924-0985440.235/
@@ -246,7 +246,7 @@
 +193130.112-0985457.691/
 +193119.420-0985509.859/
 +193110.324-0985524.836</Line>
-    <Line Pattern="Solid">
+        <Line Pattern="Solid">
 +194417.236-0990213.686/
 +193739.860-0985728.920/
 +193446.007-0985524.420/
@@ -264,7 +264,7 @@
 +193150.028-0985530.960/
 +193138.195-0985541.876/
 +193128.841-0985554.275</Line>
-    <Line Pattern="Solid">
+        <Line Pattern="Solid">
 +194450.741-0990120.910/
 +193813.364-0985636.127/
 +193429.840-0985356.048/
@@ -284,89 +284,89 @@
 +193111.336-0985425.672/
 +193101.900-0985438.959/
 +193057.815-0985445.097</Line>
-  </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - ILS Z 23L" Priority="1" Center="+192617.580-0990407.680">
-    <Line Pattern="Solid">ESTIN/+192641.40-0990314.600</Line>
-    <Line Pattern="Solid">VIKSA/MX403</Line>
-    <Line Pattern="Solid">+192631.968-0990303.123/+192703.100-0990322.184</Line>
-    <Line Pattern="Solid">+192701.925-0990208.095/+192733.057-0990227.157</Line>
-    <Line Pattern="Solid">+192731.883-0990113.065/+192803.015-0990132.128</Line>
-    <Line Pattern="Solid">+192801.838-0990018.030/+192832.970-0990037.094</Line>
-    <Line Pattern="Solid">+192831.796-0985922.995/+192902.928-0985942.060</Line>
-    <Line Pattern="Solid">+192901.754-0985827.954/+192932.886-0985847.020</Line>
-    <Line Pattern="Solid">+192931.711-0985732.913/+193002.843-0985751.980</Line>
-    <Line Pattern="Solid">+193001.667-0985637.867/+193032.799-0985656.935</Line>
-    <Line Pattern="Solid">+193031.625-0985542.819/+193102.757-0985601.888</Line>
-    <Line Pattern="Solid">+193101.582-0985447.770/+193132.714-0985506.840</Line>
-    <Line Pattern="Solid">+193131.538-0985352.717/+193202.670-0985411.788</Line>
-    <Symbol Type="HollowStar">
-      <Point>ESTIN</Point>
-      <Point>MX402</Point>
-      <Point>MX403</Point>
-      <Point>VIKSA</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
-    <Line Name="ATURO2B" Pattern="Dotted">MEX/MX503/MX520/TO601/MX526/MX527/ATURO</Line>
-    <Line Name="AXIRI2B" Pattern="Dotted">MX527/AXIRI</Line>
-    <Line Name="IKLAN2B" Pattern="Dotted">MX527/IKLAN</Line>
-    <Line Name="ILETO2B" Pattern="Dotted">MEX/MX504/MX540/MX541/MUXAN/MX501/MX505/OVATI/ILETO</Line>
-    <Line Name="NOXOS2B" Pattern="Dotted">OVATI/NOXOS</Line>
-    <Line Name="UKUNO2B" Pattern="Dotted">OVATI/UKUNO</Line>
-    <Line Name="OVAGO2B" Pattern="Dotted">MX520/MX521/RAKEM/ESVOR/OVAGO</Line>
-    <Line Name="SEBON2B" Pattern="Dotted">RAKEM/MASAP/SEBON</Line>
-    <Line Name="ULEBA2B" Pattern="Dotted">RAKEM/SERNU/ULEBA</Line>
-    <Line Name="TEVOS2B" Pattern="Dotted">MX540/MX533/USBAN/PEMSA/ULOTO/TEVOS</Line>    
-    <Symbol Type="HollowStar">
-      <Point>ATURO</Point>
-      <Point>AXIRI</Point>
-      <Point>ESVOR</Point>
-      <Point>IKLAN</Point>
-      <Point>ILETO</Point>
-      <Point>MASAP</Point>
-      <Point>MUXAN</Point>
-      <Point>MX501</Point>
-      <Point>MX503</Point>
-      <Point>MX504</Point>
-      <Point>MX505</Point>
-      <Point>MX520</Point>
-      <Point>MX521</Point>
-      <Point>MX526</Point>
-      <Point>MX527</Point>
-      <Point>MX533</Point>
-      <Point>MX540</Point>
-      <Point>MX541</Point>
-      <Point>NOXOS</Point>
-      <Point>OVAGO</Point>
-      <Point>OVATI</Point>
-      <Point>PEMSA</Point>
-      <Point>RAKEM</Point>
-      <Point>SEBON</Point>
-      <Point>SERNU</Point>
-      <Point>TEVOS</Point>
-      <Point>TO601</Point>
-      <Point>UKUNO</Point>
-      <Point>ULEBA</Point>
-      <Point>ULOTO</Point>
-      <Point>USBAN</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
-    <Label HasLeader="false">
-      <Point>ATURO</Point>
-      <Point>AXIRI</Point>
-      <Point>IKLAN</Point>
-      <Point>ILETO</Point>
-      <Point>NOXOS</Point>
-      <Point>OVAGO</Point>
-      <Point>SEBON</Point>
-      <Point>TEVOS</Point>
-      <Point>UKUNO</Point>
-      <Point>ULEBA</Point>
-    </Label>
-  </Map>
-  <Map Type="System2" Name="MMMX - Pistas 23 - Sectores Llegadas" Priority="1">
-    <Line Name="ARRS" Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="MMMX - Pistas 23 - ILS Z 23L" Priority="1" Center="+192617.580-0990407.680">
+        <Line Pattern="Solid">ESTIN/+192641.40-0990314.600</Line>
+        <Line Pattern="Solid">VIKSA/MX403</Line>
+        <Line Pattern="Solid">+192631.968-0990303.123/+192703.100-0990322.184</Line>
+        <Line Pattern="Solid">+192701.925-0990208.095/+192733.057-0990227.157</Line>
+        <Line Pattern="Solid">+192731.883-0990113.065/+192803.015-0990132.128</Line>
+        <Line Pattern="Solid">+192801.838-0990018.030/+192832.970-0990037.094</Line>
+        <Line Pattern="Solid">+192831.796-0985922.995/+192902.928-0985942.060</Line>
+        <Line Pattern="Solid">+192901.754-0985827.954/+192932.886-0985847.020</Line>
+        <Line Pattern="Solid">+192931.711-0985732.913/+193002.843-0985751.980</Line>
+        <Line Pattern="Solid">+193001.667-0985637.867/+193032.799-0985656.935</Line>
+        <Line Pattern="Solid">+193031.625-0985542.819/+193102.757-0985601.888</Line>
+        <Line Pattern="Solid">+193101.582-0985447.770/+193132.714-0985506.840</Line>
+        <Line Pattern="Solid">+193131.538-0985352.717/+193202.670-0985411.788</Line>
+        <Symbol Type="HollowStar">
+            <Point>ESTIN</Point>
+            <Point>MX402</Point>
+            <Point>MX403</Point>
+            <Point>VIKSA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
+        <Line Name="ATURO2B" Pattern="Dotted">MEX/MX503/MX520/TO601/MX526/MX527/ATURO</Line>
+        <Line Name="AXIRI2B" Pattern="Dotted">MX527/AXIRI</Line>
+        <Line Name="IKLAN2B" Pattern="Dotted">MX527/IKLAN</Line>
+        <Line Name="ILETO2B" Pattern="Dotted">MEX/MX504/MX540/MX541/MUXAN/MX501/MX505/OVATI/ILETO</Line>
+        <Line Name="NOXOS2B" Pattern="Dotted">OVATI/NOXOS</Line>
+        <Line Name="UKUNO2B" Pattern="Dotted">OVATI/UKUNO</Line>
+        <Line Name="OVAGO2B" Pattern="Dotted">MX520/MX521/RAKEM/ESVOR/OVAGO</Line>
+        <Line Name="SEBON2B" Pattern="Dotted">RAKEM/MASAP/SEBON</Line>
+        <Line Name="ULEBA2B" Pattern="Dotted">RAKEM/SERNU/ULEBA</Line>
+        <Line Name="TEVOS2B" Pattern="Dotted">MX540/MX533/USBAN/PEMSA/ULOTO/TEVOS</Line>    
+        <Symbol Type="HollowStar">
+            <Point>ATURO</Point>
+            <Point>AXIRI</Point>
+            <Point>ESVOR</Point>
+            <Point>IKLAN</Point>
+            <Point>ILETO</Point>
+            <Point>MASAP</Point>
+            <Point>MUXAN</Point>
+            <Point>MX501</Point>
+            <Point>MX503</Point>
+            <Point>MX504</Point>
+            <Point>MX505</Point>
+            <Point>MX520</Point>
+            <Point>MX521</Point>
+            <Point>MX526</Point>
+            <Point>MX527</Point>
+            <Point>MX533</Point>
+            <Point>MX540</Point>
+            <Point>MX541</Point>
+            <Point>NOXOS</Point>
+            <Point>OVAGO</Point>
+            <Point>OVATI</Point>
+            <Point>PEMSA</Point>
+            <Point>RAKEM</Point>
+            <Point>SEBON</Point>
+            <Point>SERNU</Point>
+            <Point>TEVOS</Point>
+            <Point>TO601</Point>
+            <Point>UKUNO</Point>
+            <Point>ULEBA</Point>
+            <Point>ULOTO</Point>
+            <Point>USBAN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
+        <Label HasLeader="false">
+            <Point>ATURO</Point>
+            <Point>AXIRI</Point>
+            <Point>IKLAN</Point>
+            <Point>ILETO</Point>
+            <Point>NOXOS</Point>
+            <Point>OVAGO</Point>
+            <Point>SEBON</Point>
+            <Point>TEVOS</Point>
+            <Point>UKUNO</Point>
+            <Point>ULEBA</Point>
+        </Label>
+    </Map>
+    <Map Type="System2" Name="MMMX - Pistas 23 - Sectores Llegadas" Priority="1">
+        <Line Name="ARRS" Pattern="Dashed">
 +190218.898-0991705.110/
 +191044.656-0990008.292/
 +192445.876-0983859.690/
@@ -375,7 +375,7 @@
 +191911.858-0982204.456/
 +191805.507-0982313.913/
 +190130.930-0980144.906</Line>
-    <Line Name="ARRN" Pattern="Dashed">
+        <Line Name="ARRN" Pattern="Dashed">
 +194100.217-0993427.463/
 +194454.335-0991540.862/
 +195604.020-0991047.680/
@@ -383,7 +383,7 @@
 +195909.835-0984249.295/
 +195059.517-0982930.194/
 +193728.439-0982208.129</Line>
-        <Line Name="DEPS" Pattern="Dashed">
+                <Line Name="DEPS" Pattern="Dashed">
 +182559.891-0990549.656/
 +184056.958-0990433.649/
 +185121.524-0990345.644/
@@ -397,14 +397,14 @@
 +185214.633-0983219.500/
 +184622.558-0983802.254/
 +183617.148-0982642.906</Line>
-    <Line Name="APP" Pattern="Dashed">
+        <Line Name="APP" Pattern="Dashed">
 +194629.018-0984713.581/
 +193854.313-0984949.195/
 +193240.333-0984552.931/
 +193340.780-0984108.348</Line>
-  </Map>
-  <Map Type="System2" Name="MMMX - Pistas 23 - Sectores Aproximación" Priority="1">
-    <Line Name="ARRS" Pattern="Dashed">
+    </Map>
+    <Map Type="System2" Name="MMMX - Pistas 23 - Sectores Aproximación" Priority="1">
+        <Line Name="ARRS" Pattern="Dashed">
 +190218.898-0991705.110/
 +191044.656-0990008.292/
 +192445.876-0983859.690/
@@ -413,7 +413,7 @@
 +191911.858-0982204.456/
 +191805.507-0982313.913/
 +190057.375-0980101.779</Line>
-    <Line Name="ARRN" Pattern="Dashed">
+        <Line Name="ARRN" Pattern="Dashed">
 +194100.217-0993427.463/
 +194454.335-0991540.862/
 +195604.020-0991047.680/
@@ -421,7 +421,7 @@
 +195909.835-0984249.295/
 +195059.517-0982930.194/
 +193728.439-0982208.129</Line>
-        <Line Name="DEPS" Pattern="Dashed">
+                <Line Name="DEPS" Pattern="Dashed">
 +182529.063-0990552.116/
 +184056.958-0990433.649/
 +185121.524-0990345.644/
@@ -435,25 +435,25 @@
 +185157.357-0983228.406/
 +184608.491-0983820.016/
 +183530.526-0982637.309</Line>
-    <Line Name="APP" Pattern="Dashed">
+        <Line Name="APP" Pattern="Dashed">
 +194629.018-0984713.581/
 +193854.313-0984949.195/
 +193240.333-0984552.931/
 +193340.780-0984108.348</Line>
-    <Line Name="APPF" Pattern="Dashed">
+        <Line Name="APPF" Pattern="Dashed">
 +193854.494-0984949.364/
 +193624.049-0990238.599/
 +193335.584-0990855.620/
 +192422.017-0990312.866/
 +193240.394-0984552.886</Line>
-  </Map>
-  <Map Type="System2" Name="MMMX - Pistas 23 - Sectores Final" Priority="1">
-    <Line Name="ARRS" Pattern="Dashed">
+    </Map>
+    <Map Type="System2" Name="MMMX - Pistas 23 - Sectores Final" Priority="1">
+        <Line Name="ARRS" Pattern="Dashed">
 +190218.898-0991705.110/
 +191044.656-0990008.292/
 +192445.876-0983859.690/
 +193341.037-0984107.873</Line>
-    <Line Name="ARRN" Pattern="Dashed">
+        <Line Name="ARRN" Pattern="Dashed">
 +194058.250-0993437.500/
 +194454.335-0991540.862/
 +195604.020-0991047.680/
@@ -462,20 +462,20 @@
 +195059.517-0982930.194/
 +193728.439-0982208.129/
 +193341.281-0984107.406</Line>
-    <Line Name="APP" Pattern="Dashed">
+        <Line Name="APP" Pattern="Dashed">
 +194629.018-0984713.581/
 +193854.313-0984949.195/
 +193240.333-0984552.931/
 +193340.780-0984108.348</Line>
-    <Line Name="APPF" Pattern="Dashed">
+        <Line Name="APPF" Pattern="Dashed">
 +193854.494-0984949.364/
 +193624.049-0990238.599/
 +193335.584-0990855.620/
 +192422.017-0990312.866/
 +193240.394-0984552.886</Line>
-  </Map>
-  <Map Type="System2" Name="MMMX - Pistas 23 - Sectores Salidas" Priority="1">
-    <Line Name="DEP1" Pattern="Dashed">
+    </Map>
+    <Map Type="System2" Name="MMMX - Pistas 23 - Sectores Salidas" Priority="1">
+        <Line Name="DEP1" Pattern="Dashed">
 +182559.844-0990548.969/
 +184059.342-0990435.025/
 +185150.575-0992146.478/
@@ -487,7 +487,7 @@
 +190217.272-0991711.794/
 +191044.982-0992108.464/
 +185704.586-1000426.813</Line>
-    <Line Name="DEP2" Pattern="Dashed">
+        <Line Name="DEP2" Pattern="Dashed">
 +202655.531-0992100.313/
 +201131.503-0991206.271/
 +200332.746-0990726.401/
@@ -499,7 +499,7 @@
 +193047.123-0993920.969/
 +192904.311-0994950.239/
 +192610.406-1000748.625</Line>
-    <Line Name="DEP3" Pattern="Dashed">
+        <Line Name="DEP3" Pattern="Dashed">
 +202551.133-0984802.750/
 +201045.939-0984902.858/
 +200241.119-0985045.897/
@@ -511,7 +511,7 @@
 +193729.137-0982136.591/
 +194218.292-0982129.209/
 +194121.727-0980017.469</Line>
-    <Line Name="ARRS" Pattern="Dashed">
+        <Line Name="ARRS" Pattern="Dashed">
 +190128.258-0980145.000/
 +192220.964-0982858.701/
 +190458.119-0985453.561/
@@ -519,12 +519,12 @@
 +185332.952-0984537.128/
 +184607.921-0983818.197/
 +183556.508-0982703.563</Line>
-    <Line Name="FINAL" Pattern="Dashed">
+        <Line Name="FINAL" Pattern="Dashed">
 +193854.494-0984949.364/
 +193624.049-0990238.599/
 +193335.584-0990855.620/
 +192422.017-0990312.866/
 +193240.394-0984552.886/
 +193854.494-0984949.364</Line>
-  </Map>
+    </Map>
 </Maps>

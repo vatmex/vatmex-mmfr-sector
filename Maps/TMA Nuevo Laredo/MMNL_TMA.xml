@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+272636.114-0993411.710">
-    <Runway Name="14/32">
-      <Threshold Name="14" Position="+272704.570-0993429.494" />
-      <Threshold Name="32" Position="+272607.629-0993353.928" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-    <Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+272636.114-0993411.710">
+        <Runway Name="14/32">
+            <Threshold Name="14" Position="+272704.570-0993429.494" />
+            <Threshold Name="32" Position="+272607.629-0993353.928" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +280739.000-1000553.000/
 +281018.265-1000237.625/
 +281000.000-1000159.999/
@@ -27,75 +27,75 @@
 +264925.000-1000853.000/
 +275625.000-1001900.000/
 +280739.000-1000553.000</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 14" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>EMPIX</Point>
-      <Point>GAGLO</Point>
-      <Point>NOTAK</Point>
-      <Point>ONKAL</Point>
-      <Point>USBAR</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>ILIGO</Point>
-      <Point>IRDAN</Point>
-      <Point>MATUR</Point>
-      <Point>RUDMA</Point>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 14" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>EMPIX</Point>
+            <Point>GAGLO</Point>
+            <Point>NOTAK</Point>
+            <Point>ONKAL</Point>
+            <Point>USBAR</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>ILIGO</Point>
+            <Point>IRDAN</Point>
+            <Point>MATUR</Point>
+            <Point>RUDMA</Point>
 
-      <Point>NL601</Point>
-      <Point>NL602</Point>
-      <Point>NL603</Point>
-      <Point>NL605</Point>
-    </Symbol>
-    <Line Name="USBAR1A" Pattern="Dashed">USBAR/NL605/IRDAN</Line>
-    <Line Name="EMPIX1A" Pattern="Dashed">EMPIX/NL605</Line>
-    <Line Name="RUDMA1C" Pattern="Dashed">RUDMA/NL603/NL602/NL602/NL601/NL600/IRDAN</Line>
-    <Line Name="ILIGO1A" Pattern="Dashed">ILIGO/NL603</Line>
-    <Line Name="MATUR1A" Pattern="Dashed">MATUR/NL603</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 14 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>EMPIX</Point>
-      <Point>GAGLO</Point>
-      <Point>ILIGO</Point>
-      <Point>IRDAN</Point>
-      <Point>MATUR</Point>
-      <Point>NOTAK</Point>
-      <Point>ONKAL</Point>
-      <Point>RUDMA</Point>
-      <Point>USBAR</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 32" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>USBAR</Point>
-      <Point>EMPIX</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>ILIGO</Point>
-      <Point>ITREB</Point>
-      <Point>MATUR</Point>
-      <Point>MEKSA</Point>
-      <Point>NL603</Point>
-      <Point>NL710</Point>
-      <Point>RUDMA</Point>
-      <Point>VINBO</Point>
-    </Symbol>
-    <Line Name="USBAR1B" Pattern="Dashed">USBAR/NL710/MEKSA/ITREB</Line>
-    <Line Name="EMPIX1B" Pattern="Dashed">EMPIX/MEKSA</Line>
-    <Line Name="RUDMA1D" Pattern="Dashed">RUDMA/NL603/VINBO</Line>
-    <Line Name="ILIGO1B" Pattern="Dashed">ILIGO/NL603</Line>
-    <Line Name="MATUR1B" Pattern="Dashed">MATUR/NL603</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 32 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>USBAR</Point>
-      <Point>EMPIX</Point>
-      <Point>ILIGO</Point>
-      <Point>ITREB</Point>
-      <Point>MATUR</Point>
-      <Point>RUDMA</Point>
-      <Point>VINBO</Point>
-    </Label>
-  </Map>
+            <Point>NL601</Point>
+            <Point>NL602</Point>
+            <Point>NL603</Point>
+            <Point>NL605</Point>
+        </Symbol>
+        <Line Name="USBAR1A" Pattern="Dashed">USBAR/NL605/IRDAN</Line>
+        <Line Name="EMPIX1A" Pattern="Dashed">EMPIX/NL605</Line>
+        <Line Name="RUDMA1C" Pattern="Dashed">RUDMA/NL603/NL602/NL602/NL601/NL600/IRDAN</Line>
+        <Line Name="ILIGO1A" Pattern="Dashed">ILIGO/NL603</Line>
+        <Line Name="MATUR1A" Pattern="Dashed">MATUR/NL603</Line>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 14 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>EMPIX</Point>
+            <Point>GAGLO</Point>
+            <Point>ILIGO</Point>
+            <Point>IRDAN</Point>
+            <Point>MATUR</Point>
+            <Point>NOTAK</Point>
+            <Point>ONKAL</Point>
+            <Point>RUDMA</Point>
+            <Point>USBAR</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 32" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>USBAR</Point>
+            <Point>EMPIX</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>ILIGO</Point>
+            <Point>ITREB</Point>
+            <Point>MATUR</Point>
+            <Point>MEKSA</Point>
+            <Point>NL603</Point>
+            <Point>NL710</Point>
+            <Point>RUDMA</Point>
+            <Point>VINBO</Point>
+        </Symbol>
+        <Line Name="USBAR1B" Pattern="Dashed">USBAR/NL710/MEKSA/ITREB</Line>
+        <Line Name="EMPIX1B" Pattern="Dashed">EMPIX/MEKSA</Line>
+        <Line Name="RUDMA1D" Pattern="Dashed">RUDMA/NL603/VINBO</Line>
+        <Line Name="ILIGO1B" Pattern="Dashed">ILIGO/NL603</Line>
+        <Line Name="MATUR1B" Pattern="Dashed">MATUR/NL603</Line>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 32 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>USBAR</Point>
+            <Point>EMPIX</Point>
+            <Point>ILIGO</Point>
+            <Point>ITREB</Point>
+            <Point>MATUR</Point>
+            <Point>RUDMA</Point>
+            <Point>VINBO</Point>
+        </Label>
+    </Map>
 </Maps>

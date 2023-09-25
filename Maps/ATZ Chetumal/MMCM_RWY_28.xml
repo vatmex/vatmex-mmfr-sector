@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-	<Map Type="System" Name="Pista 28 - Salidas" Priority="1" Center="+183016.692-0881936.469">
-		<Line Name="CTM3B" Pattern="Dotted">
+    <Map Type="System" Name="Pista 28 - Salidas" Priority="1" Center="+183016.692-0881936.469">
+        <Line Name="CTM3B" Pattern="Dotted">
 +183027.708-0882012.084/
 +183235.284-0882703.806/
 +183240.084-0882717.155/
@@ -46,16 +46,16 @@
 +183541.825-0882515.838/
 +183534.897-0882507.928/
 CTM</Line>
-		<Symbol Type="HollowSquare">
-			<Point>CTM</Point>
-		</Symbol>
-		<Symbol Type="Circle">
-			<Point>CTM</Point>
-		</Symbol>
-	</Map>
-	<Map Type="System" Name="Pista 28 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
-		<Label HasLeader="false">
-			<Point>CTM</Point>
-		</Label>
-	</Map>
+        <Symbol Type="HollowSquare">
+            <Point>CTM</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CTM</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 28 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+        <Label HasLeader="false">
+            <Point>CTM</Point>
+        </Label>
+    </Map>
 </Maps>

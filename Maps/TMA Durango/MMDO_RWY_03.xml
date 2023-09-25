@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 03 - Salidas" Priority="1" Center="+244554.215-1072830.547">
-    <Line Name="DGO4A" Pattern="Dotted">
+    <Map Type="System" Name="Pista 03 - Salidas" Priority="1" Center="+244554.215-1072830.547">
+        <Line Name="DGO4A" Pattern="Dotted">
 +240807.304-1043110.100/
 +241349.172-1042616.950/
 +241352.337-1042614.588/
@@ -48,7 +48,7 @@
 +241521.588-1043011.260/
 +241511.370-1043012.744/
 DGO</Line>
-    <Line Name="AVOXU3A" Pattern="Dotted">
+        <Line Name="AVOXU3A" Pattern="Dotted">
 +241430.748-1042541.271/
 +241439.695-1042535.037/
 +241448.766-1042529.873/
@@ -102,15 +102,15 @@ DGO</Line>
 +241528.227-1044112.692/
 +241534.476-1044122.113/
 AVOXU</Line>
-    <Line Name="BOPEM2" Pattern="Dotted">
+        <Line Name="BOPEM2" Pattern="Dotted">
 +241611.260-1042414.974/
 +241755.321-1041823.219/
 BOPEM</Line>
-    <Line Name="ELOLU2" Pattern="Dotted">
+        <Line Name="ELOLU2" Pattern="Dotted">
 +241611.260-1042414.974/
 +242034.966-1042132.431/
 ELOLU</Line>
-    <Line Name="ODKOK2" Pattern="Dotted">
+        <Line Name="ODKOK2" Pattern="Dotted">
 +241349.646-1042148.801/
 +241339.978-1042140.671/
 +241332.205-1042132.871/
@@ -129,7 +129,7 @@ ELOLU</Line>
 +241304.382-1041915.047/
 +241306.181-1041910.268/
 ODKOK</Line>
-    <Line Name="SEKUB2A" Pattern="Dotted">
+        <Line Name="SEKUB2A" Pattern="Dotted">
 +241430.748-1042541.271/
 +241438.432-1042533.306/
 +241444.488-1042526.083/
@@ -183,7 +183,7 @@ ODKOK</Line>
 +240125.061-1042046.783/
 +240118.408-1042038.818/
 SEKUB</Line>
-    <Line Name="TUGIR2A" Pattern="Dotted">
+        <Line Name="TUGIR2A" Pattern="Dotted">
 +241001.027-1042008.441/
 +240958.404-1042007.864/
 +240948.448-1042004.403/
@@ -202,7 +202,7 @@ SEKUB</Line>
 +240830.184-1041812.782/
 +240829.552-1041800.203/
 TUGIR</Line>
-    <Line Name="ULIKO1" Pattern="Dotted">
+        <Line Name="ULIKO1" Pattern="Dotted">
 +241814.773-1043217.741/
 +241814.320-1043229.002/
 +241814.787-1043240.537/
@@ -221,50 +221,50 @@ TUGIR</Line>
 +241933.161-1043432.543/
 +241941.517-1043435.454/
 ULIKO</Line>
-    <Line Name="VIKDO2" Pattern="Dotted">
+        <Line Name="VIKDO2" Pattern="Dotted">
 +241349.172-1042616.950/
 +241611.260-1042414.974/
 +242224.493-1042520.343/
 VIKDO</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>AVOXU</Point>
-      <Point>BOPEM</Point>
-      <Point>ELOLU</Point>
-      <Point>ODKOK</Point>
-      <Point>SEKUB</Point>
-      <Point>TUGIR</Point>
-      <Point>ULIKO</Point>
-      <Point>VIKDO</Point>
-      <Point>+241611.260-1042414.960</Point>
-      <Point>+242224.540-1042520.330</Point>
-      <Point>+242034.970-1042132.420</Point>
-      <Point>+241755.330-1041823.210</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>DGO</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>DGO</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 03 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
-    <Label HasLeader="false">
-      <Point>DGO</Point>
-      <Point>AVOXU</Point>
-      <Point>BOPEM</Point>
-      <Point>ELOLU</Point>
-      <Point>ODKOK</Point>
-      <Point>SEKUB</Point>
-      <Point>TUGIR</Point>
-      <Point>ULIKO</Point>
-      <Point>VIKDO</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 03 - VORDME 2" Priority="1" Center="+244554.215-1072830.547">
-    <Line Name="Final 03" Pattern="Solid">
+        <Symbol Type="SolidTriangle">
+            <Point>AVOXU</Point>
+            <Point>BOPEM</Point>
+            <Point>ELOLU</Point>
+            <Point>ODKOK</Point>
+            <Point>SEKUB</Point>
+            <Point>TUGIR</Point>
+            <Point>ULIKO</Point>
+            <Point>VIKDO</Point>
+            <Point>+241611.260-1042414.960</Point>
+            <Point>+242224.540-1042520.330</Point>
+            <Point>+242034.970-1042132.420</Point>
+            <Point>+241755.330-1041823.210</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>DGO</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>DGO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 03 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+        <Label HasLeader="false">
+            <Point>DGO</Point>
+            <Point>AVOXU</Point>
+            <Point>BOPEM</Point>
+            <Point>ELOLU</Point>
+            <Point>ODKOK</Point>
+            <Point>SEKUB</Point>
+            <Point>TUGIR</Point>
+            <Point>ULIKO</Point>
+            <Point>VIKDO</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 03 - VORDME 2" Priority="1" Center="+244554.215-1072830.547">
+        <Line Name="Final 03" Pattern="Solid">
 +240653.044-1043213.680/
 +240246.696-1043544.476</Line>
-    <Line Name="AVOXU" Pattern="Dashed">
+        <Line Name="AVOXU" Pattern="Dashed">
 +240211.822-1043614.276/
 +240207.111-1043618.479/
 +240159.462-1043626.141/
@@ -319,7 +319,7 @@ VIKDO</Line>
 +241527.747-1044113.077/
 +241534.476-1044122.113/
 AVOXU</Line>
-    <Line Name="LONRI" Pattern="Dashed">
+        <Line Name="LONRI" Pattern="Dashed">
 +240909.028-1044157.187/
 +240918.874-1044157.626/
 +240929.112-1044159.055/
@@ -338,7 +338,7 @@ AVOXU</Line>
 +241104.295-1044334.443/
 +241105.304-1044338.646/
 LONRI</Line>
-    <Line Name="MUTUB" Pattern="Dashed">
+        <Line Name="MUTUB" Pattern="Dashed">
 +235934.683-1042529.269/
 +235944.083-1042510.922/
 +235947.963-1042500.595/
@@ -357,7 +357,7 @@ LONRI</Line>
 +235920.202-1042242.854/
 +235912.497-1042234.833/
 MUTUB</Line>
-    <Line Name="SEKUB" Pattern="Dashed">
+        <Line Name="SEKUB" Pattern="Dashed">
 +240211.822-1043614.276/
 +240206.555-1043618.561/
 +240158.309-1043624.521/
@@ -410,7 +410,7 @@ MUTUB</Line>
 +240122.706-1042047.085/
 +240118.408-1042038.818/
 SEKUB</Line>
-    <Line Name="TAKNI" Pattern="Dashed">
+        <Line Name="TAKNI" Pattern="Dashed">
 +235835.082-1043351.674/
 +235830.557-1043339.644/
 +235825.627-1043329.289/
@@ -429,43 +429,43 @@ SEKUB</Line>
 +235631.403-1043224.415/
 +235626.466-1043224.717/
 TAKNI</Line>
-    <Line Name="UKIKI" Pattern="Dashed">
+        <Line Name="UKIKI" Pattern="Dashed">
 +240246.696-1043544.476/
 +240024.506-1043746.012/
 +235931.820-1044655.576/
 UKIKI</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>AVOXU</Point>
-      <Point>LONRI</Point>
-      <Point>MUTUB</Point>
-      <Point>SEKUB</Point>
-      <Point>TAKNI</Point>
-      <Point>UKIKI</Point>
-      <Point>+240421.230-1043423.620</Point>
-      <Point>+240024.510-1043746.000</Point>
-      <Point>+235931.820-1044655.580</Point>
-      <Point>+241535.960-1044124.240</Point>
-      <Point>+241106.530-1044344.180</Point>
-      <Point>+235618.750-1043225.660</Point>
-      <Point>+235906.230-1042229.030</Point>
-      <Point>+240109.180-1042025.150</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>DGO</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>DGO</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 03 - VORDME 2 (Nombres)" Priority="2" Center="+244554.215-1072830.547">
-    <Label HasLeader="false">
-      <Point>DGO</Point>
-      <Point>AVOXU</Point>
-      <Point>LONRI</Point>
-      <Point>MUTUB</Point>
-      <Point>SEKUB</Point>
-      <Point>TAKNI</Point>
-      <Point>UKIKI</Point>
-    </Label>
-  </Map>
+        <Symbol Type="SolidTriangle">
+            <Point>AVOXU</Point>
+            <Point>LONRI</Point>
+            <Point>MUTUB</Point>
+            <Point>SEKUB</Point>
+            <Point>TAKNI</Point>
+            <Point>UKIKI</Point>
+            <Point>+240421.230-1043423.620</Point>
+            <Point>+240024.510-1043746.000</Point>
+            <Point>+235931.820-1044655.580</Point>
+            <Point>+241535.960-1044124.240</Point>
+            <Point>+241106.530-1044344.180</Point>
+            <Point>+235618.750-1043225.660</Point>
+            <Point>+235906.230-1042229.030</Point>
+            <Point>+240109.180-1042025.150</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>DGO</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>DGO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 03 - VORDME 2 (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+        <Label HasLeader="false">
+            <Point>DGO</Point>
+            <Point>AVOXU</Point>
+            <Point>LONRI</Point>
+            <Point>MUTUB</Point>
+            <Point>SEKUB</Point>
+            <Point>TAKNI</Point>
+            <Point>UKIKI</Point>
+        </Label>
+    </Map>
 </Maps>

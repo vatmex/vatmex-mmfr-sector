@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMCM_BLD" Priority="1" Center="+183017.620-0881938.930">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMCM_BLD" Priority="1" Center="+183017.620-0881938.930">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +183022.473-0881928.258/
 +183022.020-0881926.802/
 +183023.483-0881926.336/
@@ -15,37 +15,37 @@
 +183023.194-0881930.318/
 +183022.542-0881928.258/
 +183022.473-0881928.258</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +183022.782-0881926.116/
 +183022.315-0881926.281/
 +183022.006-0881925.292/
 +183022.473-0881925.155/
 +183022.782-0881926.116</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +183022.473-0881924.852/
 +183022.247-0881924.907/
 +183022.075-0881924.331/
 +183022.295-0881924.276/
 +183022.473-0881924.852</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMCM_APR" Priority="3" Center="+183017.620-0881938.930">
-    <!--Commercial Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMCM_APR" Priority="3" Center="+183017.620-0881938.930">
+        <!--Commercial Ramp-->
+        <Infill>
+            <Point>
 +183020.448-0881931.307/
 +183018.608-0881925.567/
 +183020.990-0881924.797/
 +183022.741-0881930.510/
 +183020.448-0881931.307</Point>
-    </Infill>
-    <!--GA Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--GA Ramp-->
+        <Infill>
+            <Point>
 +183021.752-0881935.289/
 +183020.503-0881931.252/
 +183020.970-0881931.115/
@@ -53,12 +53,12 @@
 +183023.036-0881931.417/
 +183023.991-0881934.520/
 +183021.752-0881935.289</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCM_TWY" Priority="2" Center="+183017.620-0881938.930">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCM_TWY" Priority="2" Center="+183017.620-0881938.930">
+        <!--A-->
+        <Infill>
+            <Point>
 +183014.968-0881928.725/
 +183015.284-0881929.055/
 +183015.463-0881929.192/
@@ -81,12 +81,12 @@
 +183015.731-0881930.510/
 +183015.682-0881930.977/
 +183014.968-0881928.725</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMCM_RWY" Priority="1" Center="+183017.620-0881938.930">
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCM_RWY" Priority="1" Center="+183017.620-0881938.930">
 <!--10/28-->
 <Infill>
-  <Line>
+    <Line>
 +183032.196-0882028.546/
 +183004.991-0881901.122/
 +183006.385-0881900.682/
@@ -124,21 +124,21 @@
 +183032.196-0882028.546</Line>
 </Infill>
 </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMCM_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+183017.620-0881938.930">
-    <Label HasLeader="false">
-      <Point Name="A">+183018.970-0881929.610</Point>
-      <Point Name="10">+183031.350-0882026.770</Point>
-      <Point Name="28">+183004.840-0881901.630</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCM_GATES" CustomColourName="GroundLabel" Priority="1" Center="+183017.620-0881938.930">
-    <Line Name="Gate 1" Pattern="Solid">
-      +183021.780-0881928.890/
-      +183020.777-0881929.219
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +183021.066-0881926.555/
-      +183020.118-0881926.940
-    </Line>	
-  </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCM_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+183017.620-0881938.930">
+        <Label HasLeader="false">
+            <Point Name="A">+183018.970-0881929.610</Point>
+            <Point Name="10">+183031.350-0882026.770</Point>
+            <Point Name="28">+183004.840-0881901.630</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCM_GATES" CustomColourName="GroundLabel" Priority="1" Center="+183017.620-0881938.930">
+        <Line Name="Gate 1" Pattern="Solid">
+            +183021.780-0881928.890/
+            +183020.777-0881929.219
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +183021.066-0881926.555/
+            +183020.118-0881926.940
+        </Line> 
+    </Map>
 </Maps>

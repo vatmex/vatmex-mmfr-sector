@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMCN - Pista 31 - Salidas" Priority="1" Center="+272332.520-1094957.740">
-    <Line Name="CEN4B" Pattern="Dotted">
+    <Map Type="System" Name="MMCN - Pista 31 - Salidas" Priority="1" Center="+272332.520-1094957.740">
+        <Line Name="CEN4B" Pattern="Dotted">
 +272401.370-1095027.730/      
 +272852.358-1095531.823/
 +272854.727-1095534.350/
@@ -47,7 +47,7 @@
 +272559.385-1095752.393/
 +272555.657-1095742.423/
 CEN</Line>
-    <Line Name="OLULI2B" Pattern="Dotted">
+        <Line Name="OLULI2B" Pattern="Dotted">
 +272852.358-1095531.823/
 +272938.295-1095619.861/
 +272944.880-1095627.963/
@@ -103,52 +103,52 @@ CEN</Line>
 +271531.681-1095908.666/
 +271519.754-1095918.966/
 OLULI</Line>
-    <Line Name="SUTNU2" Pattern="Dotted">
+        <Line Name="SUTNU2" Pattern="Dotted">
 +272938.295-1095619.861/
 +273104.167-1095749.702/
 +273120.955-1100444.326/
 SUTNU</Line>
-    <Line Name="USBEN3" Pattern="Dotted">
+        <Line Name="USBEN3" Pattern="Dotted">
 +273104.167-1095749.702/
 +273625.668-1095911.083/
 USBEN</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>OLULI</Point>
-      <Point>SUTNU</Point>
-      <Point>USBEN</Point>
-      <Point>+273104.170-1095749.700</Point>
-      <Point>+273120.960-1100444.330</Point>
-      <Point>+273625.670-1095911.080</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>CEN</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CEN</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMCN - Pista 31 - Salidas (Nombres)" Priority="2" Center="+272332.520-1094957.740">
-    <Label HasLeader="false">
-      <Point>CEN</Point>
-      <Point>OLULI</Point>
-      <Point>SUTNU</Point>
-      <Point>USBEN</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMCN - Pista 31 - VORDME 2" Priority="1" Center="+272332.520-1094957.740">
-    <Line Name="Final 31" Pattern="Solid">
+        <Symbol Type="SolidTriangle">
+            <Point>OLULI</Point>
+            <Point>SUTNU</Point>
+            <Point>USBEN</Point>
+            <Point>+273104.170-1095749.700</Point>
+            <Point>+273120.960-1100444.330</Point>
+            <Point>+273625.670-1095911.080</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CEN</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CEN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMCN - Pista 31 - Salidas (Nombres)" Priority="2" Center="+272332.520-1094957.740">
+        <Label HasLeader="false">
+            <Point>CEN</Point>
+            <Point>OLULI</Point>
+            <Point>SUTNU</Point>
+            <Point>USBEN</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMCN - Pista 31 - VORDME 2" Priority="1" Center="+272332.520-1094957.740">
+        <Line Name="Final 31" Pattern="Solid">
 +272306.510-1094930.520/
 +271836.073-1094449.068/</Line>
-    <Line Name="BAMPO3" Pattern="Dashed">
+        <Line Name="BAMPO3" Pattern="Dashed">
 +271836.073-1094449.068/
 +271623.777-1094231.492/
 +270944.685-1094355.015/
 BAMPO</Line>
-    <Line Name="EMANI2" Pattern="Dashed">
+        <Line Name="EMANI2" Pattern="Dashed">
 +271623.777-1094231.492/
 +271204.864-1093931.398/
 EMANI</Line>
-    <Line Name="ENATA3" Pattern="Dashed">
+        <Line Name="ENATA3" Pattern="Dashed">
 +271749.573-1094400.701/
 +271741.347-1094353.505/
 +271733.698-1094348.094/
@@ -192,11 +192,11 @@ EMANI</Line>
 +271212.691-1095204.978/
 +271203.971-1095206.956/
 ENATA</Line>
-    <Line Name="TETIN1" Pattern="Dashed">
+        <Line Name="TETIN1" Pattern="Dashed">
 +271623.777-1094231.492/
 +271637.256-1093521.981/
 TETIN</Line>
-    <Line Name="OLULI2A" Pattern="Dashed">
+        <Line Name="OLULI2A" Pattern="Dashed">
 +271342.237-1095013.494/
 +271344.297-1095110.211/
 +271350.593-1095209.345/
@@ -222,35 +222,35 @@ TETIN</Line>
 +271526.236-1095910.781/
 +271519.809-1095918.911/
 OLULI</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>BAMPO</Point>
-      <Point>EMANI</Point>
-      <Point>ENATA</Point>
-      <Point>TETIN</Point>
-      <Point>OLULI</Point>
-      <Point>+271623.780-1094231.480</Point>
-      <Point>+271637.250-1093521.980</Point>
-      <Point>+271204.860-1093931.390</Point>
-      <Point>+271503.160-1095936.980</Point>
-      <Point>+271146.500-1095209.780</Point>
-      <Point>+271959.520-1094615.920</Point>
-      <Point>+270944.690-1094355.010</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>CEN</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CEN</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMCN - Pista 31 - VORDME 2 (Nombres)" Priority="2" Center="+272332.520-1094957.740">
-    <Label HasLeader="false">
-      <Point>CEN</Point>
-      <Point>BAMPO</Point>
-      <Point>EMANI</Point>
-      <Point>ENATA</Point>
-      <Point>TETIN</Point>
-      <Point>OLULI</Point>
-    </Label>
-  </Map>
+        <Symbol Type="SolidTriangle">
+            <Point>BAMPO</Point>
+            <Point>EMANI</Point>
+            <Point>ENATA</Point>
+            <Point>TETIN</Point>
+            <Point>OLULI</Point>
+            <Point>+271623.780-1094231.480</Point>
+            <Point>+271637.250-1093521.980</Point>
+            <Point>+271204.860-1093931.390</Point>
+            <Point>+271503.160-1095936.980</Point>
+            <Point>+271146.500-1095209.780</Point>
+            <Point>+271959.520-1094615.920</Point>
+            <Point>+270944.690-1094355.010</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CEN</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CEN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMCN - Pista 31 - VORDME 2 (Nombres)" Priority="2" Center="+272332.520-1094957.740">
+        <Label HasLeader="false">
+            <Point>CEN</Point>
+            <Point>BAMPO</Point>
+            <Point>EMANI</Point>
+            <Point>ENATA</Point>
+            <Point>TETIN</Point>
+            <Point>OLULI</Point>
+        </Label>
+    </Map>
 </Maps>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMTG_BLD" Priority="1" Center="+163342.390-0930133.990">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMTG_BLD" Priority="1" Center="+163342.390-0930133.990">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +163337.817-0930114.295/
 +163337.295-0930114.377/
 +163336.945-0930114.157/
@@ -17,10 +17,10 @@
 +163339.445-0930111.795/
 +163339.293-0930111.658/
 +163337.817-0930114.295</Point>
-    </Infill>
-    <!--GA Terminal-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--GA Terminal-->
+        <Infill>
+            <Point>
 +163355.574-0930123.139/
 +163354.661-0930122.534/
 +163357.064-0930118.332/
@@ -28,12 +28,12 @@
 +163357.593-0930119.293/
 +163357.805-0930119.431/
 +163355.574-0930123.139</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMTG_APR" Priority="2" Center="+163342.390-0930133.990">
-    <!--Commercial Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMTG_APR" Priority="2" Center="+163342.390-0930133.990">
+        <!--Commercial Ramp-->
+        <Infill>
+            <Point>
 +163332.001-0930114.569/
 +163332.606-0930113.580/
 +163330.594-0930112.344/
@@ -51,21 +51,21 @@
 +163341.923-0930113.553/
 +163338.675-0930118.991/
 +163332.001-0930114.569</Point>
-    </Infill>
-    <!--GA Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--GA Ramp-->
+        <Infill>
+            <Point>
 +163348.687-0930127.094/
 +163354.702-0930116.657/
 +163357.249-0930118.277/
 +163351.248-0930128.659/
 +163348.687-0930127.094</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTG_TWY" Priority="3" Center="+163342.390-0930133.990">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMTG_TWY" Priority="3" Center="+163342.390-0930133.990">
+        <!--A-->
+        <Infill>
+            <Point>
 +163331.843-0930116.629/
 +163331.754-0930116.684/
 +163331.582-0930116.876/
@@ -108,10 +108,10 @@
 +163330.601-0930116.684/
 +163331.054-0930116.135/
 +163331.843-0930116.629</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +163338.133-0930130.390/
 +163339.087-0930130.390/
 +163339.280-0930130.307/
@@ -150,10 +150,10 @@
 +163343.297-0930133.054/
 +163344.073-0930134.152/
 +163338.133-0930130.390</Point>
-    </Infill>
-    <!--C-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--C-->
+        <Infill>
+            <Point>
 +163348.742-0930127.094/
 +163333.203-0930117.014/
 +163332.619-0930116.657/
@@ -172,12 +172,12 @@
 +163349.078-0930126.187/
 +163349.332-0930126.077/
 +163348.742-0930127.094</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMTG_RWY" Priority="1" Center="+163342.390-0930133.990">
-    <!--14/32-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMTG_RWY" Priority="1" Center="+163342.390-0930133.990">
+        <!--14/32-->
+        <Infill>
+            <Point>
 +163308.305-0930111.081/
 +163414.148-0930153.433/
 +163414.525-0930153.488/
@@ -196,54 +196,54 @@
 +163416.558-0930156.784/
 +163307.502-0930112.454/
 +163308.305-0930111.081</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMTG_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+163342.390-0930133.990">
-    <Label HasLeader="false">
-      <Point Name="A">+163317.900-0930111.920</Point>
-      <Point Name="B">+163341.350-0930125.340</Point>
-      <Point Name="C">+163333.380-0930117.480</Point>
-      <Point Name="C">+163342.300-0930123.460</Point>
-      <Point Name="14">+163414.120-0930155.630</Point>
-      <Point Name="32">+163307.430-0930113.080</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTG_GATES" CustomColourName="GroundLabel" Priority="1" Center="+163342.390-0930133.990">
-    <Line Name="Gate 1" Pattern="Solid">
-      +163339.342-0930113.004/
-      +163340.262-0930113.635
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +163338.579-0930114.130/
-      +163339.582-0930114.816
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +163337.694-0930115.064/
-      +163338.470-0930116.025
-    </Line>	
-    <Line Name="Gate 4" Pattern="Solid">
-      +163336.794-0930115.311/
-      +163336.471-0930116.657
-    </Line>	
-    <Line Name="Gate 5" Pattern="Solid">
-      +163335.812-0930114.761/
-      +163334.803-0930115.585
-    </Line>	
-    <Line Name="Gate 6" Pattern="Solid">
-      +163335.544-0930113.635/
-      +163334.329-0930113.471
-    </Line>	
-    <Line Name="Gate 7" Pattern="Solid">
-      +163336.327-0930112.702/
-      +163335.215-0930111.987
-    </Line>	
-    <Line Name="Gate 8" Pattern="Solid">
-      +163337.089-0930111.411/
-      +163336.018-0930110.724
-    </Line>	
-    <Line Name="Gate 9" Pattern="Solid">
-      +163331.473-0930111.960/
-      +163332.530-0930112.619
-    </Line>	
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMTG_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+163342.390-0930133.990">
+        <Label HasLeader="false">
+            <Point Name="A">+163317.900-0930111.920</Point>
+            <Point Name="B">+163341.350-0930125.340</Point>
+            <Point Name="C">+163333.380-0930117.480</Point>
+            <Point Name="C">+163342.300-0930123.460</Point>
+            <Point Name="14">+163414.120-0930155.630</Point>
+            <Point Name="32">+163307.430-0930113.080</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMTG_GATES" CustomColourName="GroundLabel" Priority="1" Center="+163342.390-0930133.990">
+        <Line Name="Gate 1" Pattern="Solid">
+            +163339.342-0930113.004/
+            +163340.262-0930113.635
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +163338.579-0930114.130/
+            +163339.582-0930114.816
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +163337.694-0930115.064/
+            +163338.470-0930116.025
+        </Line> 
+        <Line Name="Gate 4" Pattern="Solid">
+            +163336.794-0930115.311/
+            +163336.471-0930116.657
+        </Line> 
+        <Line Name="Gate 5" Pattern="Solid">
+            +163335.812-0930114.761/
+            +163334.803-0930115.585
+        </Line> 
+        <Line Name="Gate 6" Pattern="Solid">
+            +163335.544-0930113.635/
+            +163334.329-0930113.471
+        </Line> 
+        <Line Name="Gate 7" Pattern="Solid">
+            +163336.327-0930112.702/
+            +163335.215-0930111.987
+        </Line> 
+        <Line Name="Gate 8" Pattern="Solid">
+            +163337.089-0930111.411/
+            +163336.018-0930110.724
+        </Line> 
+        <Line Name="Gate 9" Pattern="Solid">
+            +163331.473-0930111.960/
+            +163332.530-0930112.619
+        </Line> 
+    </Map>
 </Maps>

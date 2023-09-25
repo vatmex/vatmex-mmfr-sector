@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+193703.118-1010555.600">
-    <Runway Name="05/23">
-      <Threshold Name="05" Position="+195027.500-1010219.020" />
-      <Threshold Name="23" Position="+195131.640-1010043.530" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+193703.118-1010555.600">
+        <Runway Name="05/23">
+            <Threshold Name="05" Position="+195027.500-1010219.020" />
+            <Threshold Name="23" Position="+195131.640-1010043.530" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +203221.000-1005513.000/
 +194522.000-1000706.000/
 +190053.000-1000843.000/
@@ -48,43 +48,43 @@
 +201337.000-1020912.000/
 +200824.000-1020231.000/
 +203221.000-1005513.000</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 05" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>NAMTA</Point>
-      <Point>REMIL</Point>
-      <Point>SUVSU</Point>
-      <Point>TADKO</Point>
-      <Point>TUZAS</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 05 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>NAMTA</Point>
-      <Point>REMIL</Point>
-      <Point>SUVSU</Point>
-      <Point>TADKO</Point>
-      <Point>TUZAS</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 23" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>ANIDA</Point>
-      <Point>AXOBI</Point>
-      <Point>GADET</Point>
-      <Point>PAMAB</Point>
-      <Point>PIVAN</Point>
-      <Point>VERBA</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 23 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-    	<Point>ANIDA</Point>
-      <Point>AXOBI</Point>
-      <Point>GADET</Point>
-      <Point>PAMAB</Point>
-      <Point>PIVAN</Point>
-      <Point>VERBA</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 05" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>NAMTA</Point>
+            <Point>REMIL</Point>
+            <Point>SUVSU</Point>
+            <Point>TADKO</Point>
+            <Point>TUZAS</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 05 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>NAMTA</Point>
+            <Point>REMIL</Point>
+            <Point>SUVSU</Point>
+            <Point>TADKO</Point>
+            <Point>TUZAS</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 23" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>ANIDA</Point>
+            <Point>AXOBI</Point>
+            <Point>GADET</Point>
+            <Point>PAMAB</Point>
+            <Point>PIVAN</Point>
+            <Point>VERBA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 23 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>ANIDA</Point>
+            <Point>AXOBI</Point>
+            <Point>GADET</Point>
+            <Point>PAMAB</Point>
+            <Point>PIVAN</Point>
+            <Point>VERBA</Point>
+        </Label>
+    </Map>
 </Maps>

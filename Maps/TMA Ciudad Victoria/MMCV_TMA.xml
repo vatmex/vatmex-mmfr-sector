@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+240421.890-1102145.150">
-    <Runway Name="15/33">
-      <Threshold Name="15" Position="+234244.950-0985738.540" />
-      <Threshold Name="33" Position="+234139.670-0985707.850" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+240421.890-1102145.150">
+        <Runway Name="15/33">
+            <Threshold Name="15" Position="+234244.950-0985738.540" />
+            <Threshold Name="33" Position="+234139.670-0985707.850" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +240743.000-0991508.000/
 +240800.879-0991423.734/
 +240847.225-0991254.268/
@@ -115,9 +115,9 @@
 +241409.000-0994015.000/
 +242233.000-0993050.000/
 +240743.000-0991508.000</Line>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Zona de Transito de Aerodromo (ATZ)" Priority="1">
-    <Line Pattern="Dashed">
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Zona de Transito de Aerodromo (ATZ)" Priority="1">
+        <Line Pattern="Dashed">
 +234710.834-0985654.678/
 +234709.058-0985637.657/
 +234706.469-0985620.760/
@@ -239,5 +239,5 @@
 +234711.928-0985728.909/
 +234711.791-0985711.778/
 +234710.834-0985654.678</Line>
-  </Map>
+    </Map>
 </Maps>

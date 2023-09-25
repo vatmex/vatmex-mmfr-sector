@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMPQ_BLD" Priority="1" Center="+173159.020-0920056.400">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMPQ_BLD" Priority="1" Center="+173159.020-0920056.400">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +173215.035-0920058.145/
 +173213.380-0920058.612/
 +173212.714-0920056.030/
 +173214.369-0920055.563/
 +173215.035-0920058.145</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMPQ_APR" Priority="2" Center="+173159.020-0920056.400">
-    <!--Commercial Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMPQ_APR" Priority="2" Center="+173159.020-0920056.400">
+        <!--Commercial Ramp-->
+        <Infill>
+            <Point>
 +173211.526-0920100.452/
 +173208.327-0920101.386/
 +173206.809-0920055.426/
 +173209.988-0920054.492/
 +173211.526-0920100.452</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMPQ_TWY" Priority="3" Center="+173159.020-0920056.400">
-    <!--C-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMPQ_TWY" Priority="3" Center="+173159.020-0920056.400">
+        <!--C-->
+        <Infill>
+            <Point>
 +173159.778-0920057.101/
 +173200.650-0920059.436/
 +173200.842-0920059.765/
@@ -53,12 +53,12 @@
 +173201.378-0920102.237/
 +173201.762-0920104.791/
 +173159.778-0920057.101</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMPQ_RWY" Priority="1" Center="+173159.020-0920056.400">
-    <!--10/28-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMPQ_RWY" Priority="1" Center="+173159.020-0920056.400">
+        <!--10/28-->
+        <Infill>
+            <Point>
 +173210.071-0920136.817/
 +173208.663-0920137.229/
 +173147.659-0920015.847/
@@ -91,13 +91,13 @@
 +173210.593-0920136.652/
 +173210.359-0920136.762/
 +173210.071-0920136.817</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMPQ_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+173159.020-0920056.400">
-    <Label HasLeader="false">
-      <Point Name="C">+173202.460-0920057.780</Point>
-      <Point Name="10">+173207.680-0920135.200</Point>
-      <Point Name="28">+173147.410-0920016.310</Point>
-    </Label>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMPQ_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+173159.020-0920056.400">
+        <Label HasLeader="false">
+            <Point Name="C">+173202.460-0920057.780</Point>
+            <Point Name="10">+173207.680-0920135.200</Point>
+            <Point Name="28">+173147.410-0920016.310</Point>
+        </Label>
+    </Map>
 </Maps>

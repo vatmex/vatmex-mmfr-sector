@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMRX_BLD" Priority="1" Center="+260030.620-0981342.070">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMRX_BLD" Priority="1" Center="+260030.620-0981342.070">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +260043.746-0981338.481/
 +260043.217-0981339.223/
 +260042.496-0981338.563/
@@ -17,9 +17,9 @@
 +260043.732-0981338.179/
 +260043.601-0981338.344/
 +260043.746-0981338.481</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +260041.075-0981336.558/
 +260040.848-0981336.860/
 +260040.209-0981336.284/
@@ -28,9 +28,9 @@
 +260040.889-0981336.119/
 +260041.191-0981336.421/
 +260041.075-0981336.558</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +260038.960-0981335.295/
 +260039.317-0981334.828/
 +260039.234-0981334.773/
@@ -48,20 +48,20 @@
 +260038.809-0981334.389/
 +260038.479-0981334.855/
 +260038.960-0981335.295</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +260035.904-0981332.329/
 +260036.220-0981331.889/
 +260035.705-0981331.450/
 +260035.382-0981331.889/
 +260035.904-0981332.329</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMRX_APR" Priority="2" Center="+260030.620-0981342.070">
-    <!--Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMRX_APR" Priority="2" Center="+260030.620-0981342.070">
+        <!--Ramp-->
+        <Infill>
+            <Point>
 +260044.219-0981340.733/
 +260042.379-0981343.233/
 +260037.635-0981338.975/
@@ -74,12 +74,12 @@
 +260033.611-0981333.427/
 +260034.606-0981332.109/
 +260044.219-0981340.733</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMRX_TWY" Priority="3" Center="+260030.620-0981342.070">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMRX_TWY" Priority="3" Center="+260030.620-0981342.070">
+        <!--A-->
+        <Infill>
+            <Point>
 +260033.494-0981334.910/
 +260033.295-0981334.855/
 +260033.110-0981334.828/
@@ -106,10 +106,10 @@
 +260026.950-0981334.636/
 +260032.526-0981334.031/
 +260033.494-0981334.910</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +260037.847-0981346.940/
 +260037.538-0981346.583/
 +260037.415-0981346.419/
@@ -138,12 +138,12 @@
 +260035.966-0981345.155/
 +260035.616-0981344.963/
 +260037.847-0981346.940</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMRX_RWY" Priority="1" Center="+260030.620-0981342.070">
-    <!--13/31-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMRX_RWY" Priority="1" Center="+260030.620-0981342.070">
+        <!--13/31-->
+        <Infill>
+            <Point>
 +260054.272-0981403.859/
 +260055.220-0981402.623/
 +260055.412-0981402.294/
@@ -169,32 +169,32 @@
 +260008.754-0981323.237/
 +260009.201-0981323.182/
 +260054.272-0981403.859</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMRX_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+260030.620-0981342.070">
-    <Label HasLeader="false">
-      <Point Name="A">+260027.340-0981332.990</Point>
-      <Point Name="B">+260039.420-0981345.870</Point>
-      <Point Name="13">+260052.350-0981402.300</Point>
-      <Point Name="31">+260006.420-0981321.510</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMRX_GATES" CustomColourName="GroundLabel" Priority="1" Center="+260030.620-0981342.070">
-    <Line Name="Gate 1" Pattern="Solid">
-      +260043.162-0981340.816/
-      +260042.551-0981341.667
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +260042.132-0981339.882/
-      +260041.569-0981340.678
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +260041.088-0981338.975/
-      +260040.532-0981339.744
-    </Line>	
-    <Line Name="Gate 4" Pattern="Solid">
-      +260040.065-0981338.041/
-      +260039.482-0981338.838
-    </Line>	
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMRX_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+260030.620-0981342.070">
+        <Label HasLeader="false">
+            <Point Name="A">+260027.340-0981332.990</Point>
+            <Point Name="B">+260039.420-0981345.870</Point>
+            <Point Name="13">+260052.350-0981402.300</Point>
+            <Point Name="31">+260006.420-0981321.510</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMRX_GATES" CustomColourName="GroundLabel" Priority="1" Center="+260030.620-0981342.070">
+        <Line Name="Gate 1" Pattern="Solid">
+            +260043.162-0981340.816/
+            +260042.551-0981341.667
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +260042.132-0981339.882/
+            +260041.569-0981340.678
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +260041.088-0981338.975/
+            +260040.532-0981339.744
+        </Line> 
+        <Line Name="Gate 4" Pattern="Solid">
+            +260040.065-0981338.041/
+            +260039.482-0981338.838
+        </Line> 
+    </Map>
 </Maps>

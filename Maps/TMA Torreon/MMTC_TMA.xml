@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+253405.840-1032438.440">
-    <Runway Name="13/31">
-      <Threshold Name="13" Position="+253419.230-1032452.810" />
-      <Threshold Name="31" Position="+253315.100-1032343.960" />
-    </Runway>
-    <Runway Name="08/26">
-      <Threshold Name="08" Position="+253405.900-1032442.980" />
-      <Threshold Name="26" Position="+253405.240-1032350.360" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-    <Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+253405.840-1032438.440">
+        <Runway Name="13/31">
+            <Threshold Name="13" Position="+253419.230-1032452.810" />
+            <Threshold Name="31" Position="+253315.100-1032343.960" />
+        </Runway>
+        <Runway Name="08/26">
+            <Threshold Name="08" Position="+253405.900-1032442.980" />
+            <Threshold Name="26" Position="+253405.240-1032350.360" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +262335.359-1031940.764/
 +262317.600-1031647.979/
 +262251.708-1031356.461/
@@ -113,9 +113,9 @@
 +262346.305-1032528.239/
 +262344.936-1032234.342/
 +262335.359-1031940.764</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
-  	<Line Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
 +253904.349-1032409.488/
 +253902.573-1032352.209/
 +253859.983-1032335.057/
@@ -237,47 +237,47 @@
 +253905.443-1032444.237/
 +253905.306-1032426.847/
 +253904.349-1032409.488</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 13" Priority="1" Center="+253405.840-1032438.440">
-    <Symbol Type="SolidTriangle">
-      <Point>AMALU</Point>
-      <Point>BISGA</Point>
-      <Point>EMIMO</Point>
-      <Point>RUBNA</Point>
-      <Point>VOKES</Point>
-      <Point>XOTIN</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 13 (Nombres)" Priority="1" Center="+253405.840-1032438.440">
-    <Label HasLeader="false">
-      <Point>AMALU</Point>
-      <Point>BISGA</Point>
-      <Point>EMIMO</Point>
-      <Point>RUBNA</Point>
-      <Point>VOKES</Point>
-      <Point>XOTIN</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 31" Priority="1" Center="+253405.840-1032438.440">
-    <Symbol Type="SolidTriangle">
-      <Point>AVUVA</Point>
-      <Point>EMIMO</Point>
-      <Point>IPSAG</Point>
-      <Point>PODIR</Point>
-      <Point>RABAX</Point>
-      <Point>TETUN</Point>
-      <Point>URTIG</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 31 (Nombres)" Priority="1" Center="+253405.840-1032438.440">
-    <Label HasLeader="false">
-      <Point>AVUVA</Point>
-      <Point>EMIMO</Point>
-      <Point>IPSAG</Point>
-      <Point>PODIR</Point>
-      <Point>RABAX</Point>
-      <Point>TETUN</Point>
-      <Point>URTIG</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 13" Priority="1" Center="+253405.840-1032438.440">
+        <Symbol Type="SolidTriangle">
+            <Point>AMALU</Point>
+            <Point>BISGA</Point>
+            <Point>EMIMO</Point>
+            <Point>RUBNA</Point>
+            <Point>VOKES</Point>
+            <Point>XOTIN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 13 (Nombres)" Priority="1" Center="+253405.840-1032438.440">
+        <Label HasLeader="false">
+            <Point>AMALU</Point>
+            <Point>BISGA</Point>
+            <Point>EMIMO</Point>
+            <Point>RUBNA</Point>
+            <Point>VOKES</Point>
+            <Point>XOTIN</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 31" Priority="1" Center="+253405.840-1032438.440">
+        <Symbol Type="SolidTriangle">
+            <Point>AVUVA</Point>
+            <Point>EMIMO</Point>
+            <Point>IPSAG</Point>
+            <Point>PODIR</Point>
+            <Point>RABAX</Point>
+            <Point>TETUN</Point>
+            <Point>URTIG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 31 (Nombres)" Priority="1" Center="+253405.840-1032438.440">
+        <Label HasLeader="false">
+            <Point>AVUVA</Point>
+            <Point>EMIMO</Point>
+            <Point>IPSAG</Point>
+            <Point>PODIR</Point>
+            <Point>RABAX</Point>
+            <Point>TETUN</Point>
+            <Point>URTIG</Point>
+        </Label>
+    </Map>
 </Maps>

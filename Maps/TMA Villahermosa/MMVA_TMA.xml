@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+175949.261-0924853.333">
-    <!--MMTM-->
-    <Runway Name="08/26">
-      <Threshold Name="08" Position="+175946.610-0924939.160" />
-      <Threshold Name="26" Position="+175950.940-0924824.230" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+175949.261-0924853.333">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+175949.261-0924853.333">
+        <!--MMTM-->
+        <Runway Name="08/26">
+            <Threshold Name="08" Position="+175946.610-0924939.160" />
+            <Threshold Name="26" Position="+175950.940-0924824.230" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+175949.261-0924853.333">
+        <Line Pattern="Dashed">
 +182445.483-0924620.930/
 +182439.114-0924526.368/
 +182430.935-0924432.076/
@@ -140,9 +140,9 @@
 +182452.778-0924810.587/
 +182450.042-0924715.691/
 +182445.483-0924620.930</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1" Center="+175949.261-0924853.333">
-    <Line Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1" Center="+175949.261-0924853.333">
+        <Line Pattern="Dashed">
 +180447.678-0924825.881/
 +180445.902-0924809.497/
 +180443.314-0924753.234/
@@ -264,39 +264,39 @@
 +180448.772-0924858.829/
 +180448.635-0924842.340/
 +180447.678-0924825.881</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 08" Priority="1" Center="+175949.261-0924853.333">
-    <Symbol Type="SolidTriangle">
-      <Point>GRUTA</Point>
-      <Point>NUKAR</Point>
-      <Point>SIKDI</Point>
-      <Point>YOLKO</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 08 (Nombres)" Priority="1" Center="+175949.261-0924853.333">
-    <Label HasLeader="false">
-      <Point>GRUTA</Point>
-      <Point>NUKAR</Point>
-      <Point>SIKDI</Point>
-      <Point>YOLKO</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 26" Priority="1" Center="+175949.261-0924853.333">
-    <Symbol Type="SolidTriangle">
-      <Point>AGAVE</Point>
-      <Point>NOXEG</Point>
-      <Point>SIKDI</Point>
-      <Point>TAKAN</Point>
-      <Point>VIDBA</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 26 (Nombres)" Priority="1" Center="+175949.261-0924853.333">
-    <Label HasLeader="false">
-      <Point>AGAVE</Point>
-      <Point>NOXEG</Point>
-      <Point>SIKDI</Point>
-      <Point>TAKAN</Point>
-      <Point>VIDBA</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 08" Priority="1" Center="+175949.261-0924853.333">
+        <Symbol Type="SolidTriangle">
+            <Point>GRUTA</Point>
+            <Point>NUKAR</Point>
+            <Point>SIKDI</Point>
+            <Point>YOLKO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 08 (Nombres)" Priority="1" Center="+175949.261-0924853.333">
+        <Label HasLeader="false">
+            <Point>GRUTA</Point>
+            <Point>NUKAR</Point>
+            <Point>SIKDI</Point>
+            <Point>YOLKO</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 26" Priority="1" Center="+175949.261-0924853.333">
+        <Symbol Type="SolidTriangle">
+            <Point>AGAVE</Point>
+            <Point>NOXEG</Point>
+            <Point>SIKDI</Point>
+            <Point>TAKAN</Point>
+            <Point>VIDBA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 26 (Nombres)" Priority="1" Center="+175949.261-0924853.333">
+        <Label HasLeader="false">
+            <Point>AGAVE</Point>
+            <Point>NOXEG</Point>
+            <Point>SIKDI</Point>
+            <Point>TAKAN</Point>
+            <Point>VIDBA</Point>
+        </Label>
+    </Map>
 </Maps>

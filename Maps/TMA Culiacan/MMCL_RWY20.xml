@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 20 - VORDME 2" Priority="1" Center="+244554.215-1072830.547">
-    <Line Name="BOKTA" Pattern="Dashed">
+    <Map Type="System" Name="Pista 20 - VORDME 2" Priority="1" Center="+244554.215-1072830.547">
+        <Line Name="BOKTA" Pattern="Dashed">
 +245142.236-1072421.209/
 +245228.784-1072347.810/
 +245244.824-1072337.730/
@@ -47,7 +47,7 @@
 +245450.755-1073627.460/
 +245458.274-1073635.040/
 BOKTA</Line>
-    <Line Name="EVATE" Pattern="Dashed">
+        <Line Name="EVATE" Pattern="Dashed">
 +245429.675-1073411.119/
 +245413.374-1073438.887/
 +245400.094-1073501.574/
@@ -71,7 +71,7 @@ BOKTA</Line>
 +245207.841-1073920.879/
 +245209.496-1073924.065/
 EVATE</Line>
-    <Line Name="LIDIK" Pattern="Dashed">
+        <Line Name="LIDIK" Pattern="Dashed">
 +245228.784-1072347.810/
 +245243.423-1072335.808/
 +245251.320-1072326.607/
@@ -115,7 +115,7 @@ EVATE</Line>
 +244324.508-1071621.079/
 +244320.257-1071606.604/
 LIDIK</Line>
-    <Line Name="PELSA" Pattern="Dashed">
+        <Line Name="PELSA" Pattern="Dashed">
 +245541.258-1073039.523/
 +245540.770-1073051.937/
 +245541.196-1073101.578/
@@ -133,122 +133,122 @@ LIDIK</Line>
 +245642.699-1073239.851/
 +245654.358-1073245.481/
 PELSA</Line>
-    <Line Name="XUKMA" Pattern="Dashed">
+        <Line Name="XUKMA" Pattern="Dashed">
 +245228.791-1072347.810/
 +245412.989-1072233.048/
 +245910.197-1072341.575/
 XUKMA</Line>
-    <Line Name="Final 20" Pattern="Solid">
+        <Line Name="Final 20" Pattern="Solid">
 +245142.236-1072421.209/
 +244618.240-1072813.370</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>BOKTA</Point>
-      <Point>EVATE</Point>
-      <Point>LIDIK</Point>
-      <Point>PELSA</Point>
-      <Point>XUKMA</Point>
-      <Point>+245221.490-1073944.640</Point>
-      <Point>+245516.640-1073651.100</Point>
-      <Point>+245715.450-1073253.360</Point>
-      <Point>+245413.010-1072233.030</Point>
-      <Point>+245910.200-1072341.570</Point>
-      <Point>+244316.090-1071545.990</Point>
-      <Point>+245001.340-1072533.530</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>CUL</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CUL</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 20 - VORDME 2 (Nombres)" Priority="2" Center="+244554.215-1072830.547">
-    <Label HasLeader="false">
-      <Point>CUL</Point>
-      <Point>BOKTA</Point>
-      <Point>EVATE</Point>
-      <Point>LIDIK</Point>
-      <Point>PELSA</Point>
-      <Point>XUKMA</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 20 - Llegadas RNAV" Priority="1" Center="+244554.215-1072830.547">
-    <!--STARs-->
-    <Line Name="AVTAL1D" Pattern="Dashed">AVTAL/CL528/CL527/CL803/SAVIR</Line>
-    <Line Name="ELEGU1D" Pattern="Dashed">ELEGU/CL508/CL520/CL507/OTIMA</Line>
-    <Line Name="ILAVI1D" Pattern="Dashed">ILAVI/CL510/CL518/CL515/CL514/TALNU</Line>
-    <Line Name="MELBO1B" Pattern="Dashed">MELBO/CL804/CL524/CL803</Line>
-    <Line Name="NUBIK1B" Pattern="Dashed">NUBIK/CL530/CL519/CL514</Line>
-    <Line Name="OLAKA1B" Pattern="Dashed">OLAKA/CL526/CL510</Line>
-    <Line Name="SAVOM1B" Pattern="Dashed">SAVOM/CL521/CL803</Line>
-    <Symbol Type="HollowStar">
-      <Point>AVTAL</Point>
-      <Point>CL507</Point>
-      <Point>CL508</Point>
-      <Point>CL510</Point>
-      <Point>CL514</Point>
-      <Point>CL515</Point>
-      <Point>CL518</Point>
-      <Point>CL519</Point>
-      <Point>CL520</Point>
-      <Point>CL521</Point>
-      <Point>CL524</Point>
-      <Point>CL526</Point>
-      <Point>CL527</Point>
-      <Point>CL528</Point>
-      <Point>CL530</Point>
-      <Point>CL803</Point>
-      <Point>CL804</Point>
-      <Point>ELEGU</Point>
-      <Point>ILAVI</Point>
-      <Point>MELBO</Point>
-      <Point>NUBIK</Point>
-      <Point>OLAKA</Point>
-      <Point>OTIMA</Point>
-      <Point>SAVIR</Point>
-      <Point>SAVOM</Point>
-      <Point>TALNU</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 20 - Llegadas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
-    <Label HasLeader="false">
-      <Point>AVTAL</Point>
-      <Point>CUL</Point>
-      <Point>ELEGU</Point>
-      <Point>ILAVI</Point>
-      <Point>MELBO</Point>
-      <Point>NUBIK</Point>
-      <Point>OLAKA</Point>
-      <Point>OTIMA</Point>
-      <Point>SAVIR</Point>
-      <Point>SAVOM</Point>
-      <Point>TALNU</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 20 - RNP 20" Priority="1" Center="+244554.215-1072830.547">
-    <Line Name="OTIMA" Pattern="Solid">OTIMA/CL501</Line>
-    <Line Name="SAVIR" Pattern="Solid">SAVIR/CL501</Line>
-    <Line Name="TALNU" Pattern="Solid">TALNU/CL501</Line>
-    <Line Name="FINAL" Pattern="Solid">CL501/+244618.240-1072813.370</Line>
-    <Line Name="D1" Pattern="Solid">+244724.817-1072805.095/+244652.178-1072709.733</Line>
-    <Line Name="D2" Pattern="Solid">+244815.075-1072729.142/+244742.435-1072633.774</Line>
-    <Line Name="D3" Pattern="Solid">+244905.335-1072653.185/+244832.695-1072557.811</Line>
-    <Line Name="D4" Pattern="Solid">+244955.594-1072617.223/+244922.954-1072521.842</Line>
-    <Line Name="D5" Pattern="Solid">+245045.852-1072541.259/+245013.212-1072445.872</Line>
-    <Line Name="D6" Pattern="Solid">+245136.112-1072505.289/+245103.472-1072409.896</Line>
-    <Line Name="D7" Pattern="Solid">+245226.371-1072429.317/+245153.731-1072333.917</Line>
-    <Line Name="D8" Pattern="Solid">+245316.629-1072353.340/+245243.989-1072257.934</Line>
-    <Line Name="D9" Pattern="Solid">+245406.889-1072317.359/+245334.249-1072221.947</Line>
-    <Symbol Type="HollowStar">
-      <Point>CL500</Point>
-      <Point>CL501</Point>
-      <Point>OTIMA</Point>
-      <Point>SAVIR</Point>
-      <Point>TALNU</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 20 - Salidas" Priority="1" Center="+244554.215-1072830.547">
-    <Line Name="CUL3B" Pattern="Dotted">
+        <Symbol Type="SolidTriangle">
+            <Point>BOKTA</Point>
+            <Point>EVATE</Point>
+            <Point>LIDIK</Point>
+            <Point>PELSA</Point>
+            <Point>XUKMA</Point>
+            <Point>+245221.490-1073944.640</Point>
+            <Point>+245516.640-1073651.100</Point>
+            <Point>+245715.450-1073253.360</Point>
+            <Point>+245413.010-1072233.030</Point>
+            <Point>+245910.200-1072341.570</Point>
+            <Point>+244316.090-1071545.990</Point>
+            <Point>+245001.340-1072533.530</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CUL</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CUL</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 20 - VORDME 2 (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+        <Label HasLeader="false">
+            <Point>CUL</Point>
+            <Point>BOKTA</Point>
+            <Point>EVATE</Point>
+            <Point>LIDIK</Point>
+            <Point>PELSA</Point>
+            <Point>XUKMA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 20 - Llegadas RNAV" Priority="1" Center="+244554.215-1072830.547">
+        <!--STARs-->
+        <Line Name="AVTAL1D" Pattern="Dashed">AVTAL/CL528/CL527/CL803/SAVIR</Line>
+        <Line Name="ELEGU1D" Pattern="Dashed">ELEGU/CL508/CL520/CL507/OTIMA</Line>
+        <Line Name="ILAVI1D" Pattern="Dashed">ILAVI/CL510/CL518/CL515/CL514/TALNU</Line>
+        <Line Name="MELBO1B" Pattern="Dashed">MELBO/CL804/CL524/CL803</Line>
+        <Line Name="NUBIK1B" Pattern="Dashed">NUBIK/CL530/CL519/CL514</Line>
+        <Line Name="OLAKA1B" Pattern="Dashed">OLAKA/CL526/CL510</Line>
+        <Line Name="SAVOM1B" Pattern="Dashed">SAVOM/CL521/CL803</Line>
+        <Symbol Type="HollowStar">
+            <Point>AVTAL</Point>
+            <Point>CL507</Point>
+            <Point>CL508</Point>
+            <Point>CL510</Point>
+            <Point>CL514</Point>
+            <Point>CL515</Point>
+            <Point>CL518</Point>
+            <Point>CL519</Point>
+            <Point>CL520</Point>
+            <Point>CL521</Point>
+            <Point>CL524</Point>
+            <Point>CL526</Point>
+            <Point>CL527</Point>
+            <Point>CL528</Point>
+            <Point>CL530</Point>
+            <Point>CL803</Point>
+            <Point>CL804</Point>
+            <Point>ELEGU</Point>
+            <Point>ILAVI</Point>
+            <Point>MELBO</Point>
+            <Point>NUBIK</Point>
+            <Point>OLAKA</Point>
+            <Point>OTIMA</Point>
+            <Point>SAVIR</Point>
+            <Point>SAVOM</Point>
+            <Point>TALNU</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 20 - Llegadas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+        <Label HasLeader="false">
+            <Point>AVTAL</Point>
+            <Point>CUL</Point>
+            <Point>ELEGU</Point>
+            <Point>ILAVI</Point>
+            <Point>MELBO</Point>
+            <Point>NUBIK</Point>
+            <Point>OLAKA</Point>
+            <Point>OTIMA</Point>
+            <Point>SAVIR</Point>
+            <Point>SAVOM</Point>
+            <Point>TALNU</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 20 - RNP 20" Priority="1" Center="+244554.215-1072830.547">
+        <Line Name="OTIMA" Pattern="Solid">OTIMA/CL501</Line>
+        <Line Name="SAVIR" Pattern="Solid">SAVIR/CL501</Line>
+        <Line Name="TALNU" Pattern="Solid">TALNU/CL501</Line>
+        <Line Name="FINAL" Pattern="Solid">CL501/+244618.240-1072813.370</Line>
+        <Line Name="D1" Pattern="Solid">+244724.817-1072805.095/+244652.178-1072709.733</Line>
+        <Line Name="D2" Pattern="Solid">+244815.075-1072729.142/+244742.435-1072633.774</Line>
+        <Line Name="D3" Pattern="Solid">+244905.335-1072653.185/+244832.695-1072557.811</Line>
+        <Line Name="D4" Pattern="Solid">+244955.594-1072617.223/+244922.954-1072521.842</Line>
+        <Line Name="D5" Pattern="Solid">+245045.852-1072541.259/+245013.212-1072445.872</Line>
+        <Line Name="D6" Pattern="Solid">+245136.112-1072505.289/+245103.472-1072409.896</Line>
+        <Line Name="D7" Pattern="Solid">+245226.371-1072429.317/+245153.731-1072333.917</Line>
+        <Line Name="D8" Pattern="Solid">+245316.629-1072353.340/+245243.989-1072257.934</Line>
+        <Line Name="D9" Pattern="Solid">+245406.889-1072317.359/+245334.249-1072221.947</Line>
+        <Symbol Type="HollowStar">
+            <Point>CL500</Point>
+            <Point>CL501</Point>
+            <Point>OTIMA</Point>
+            <Point>SAVIR</Point>
+            <Point>TALNU</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 20 - Salidas" Priority="1" Center="+244554.215-1072830.547">
+        <Line Name="CUL3B" Pattern="Dotted">
 +244522.920-1072852.900/
 +243957.058-1073245.893/
 +243948.105-1073253.611/
@@ -290,7 +290,7 @@ XUKMA</Line>
 +244224.083-1073538.076/
 +244231.506-1073526.239/
 CUL</Line>
-    <Line Name="BOKTA2B" Pattern="Dotted">
+        <Line Name="BOKTA2B" Pattern="Dotted">
 +243904.056-1073323.741/
 +243854.388-1073332.200/
 +243847.000-1073340.083/
@@ -342,7 +342,7 @@ CUL</Line>
 +245452.197-1073630.509/
 +245502.105-1073638.391/
 BOKTA</Line>
-    <Line Name="DANOP3" Pattern="Dotted">
+        <Line Name="DANOP3" Pattern="Dotted">
 +243650.456-1072355.418/
 +243657.226-1072338.444/
 +243700.117-1072328.337/
@@ -361,7 +361,7 @@ BOKTA</Line>
 +243625.187-1072126.306/
 +243617.833-1072119.934/
 DANOP</Line>
-    <Line Name="EVATE3" Pattern="Dotted">
+        <Line Name="EVATE3" Pattern="Dotted">
 +245004.074-1073837.456/
 +245011.572-1073835.039/
 +245019.853-1073833.034/
@@ -379,7 +379,7 @@ DANOP</Line>
 +245202.341-1073913.710/
 +245207.608-1073920.824/
 EVATE</Line>
-    <Line Name="OLEXU3B" Pattern="Dotted">
+        <Line Name="OLEXU3B" Pattern="Dotted">
 +243904.056-1073323.741/
 +243853.036-1073329.811/
 +243842.626-1073334.041/
@@ -424,7 +424,7 @@ EVATE</Line>
 +243949.643-1071755.918/
 +243945.227-1071746.497/
 OLEXU</Line>
-    <Line Name="TOVER2" Pattern="Dotted">
+        <Line Name="TOVER2" Pattern="Dotted">
 +244204.053-1073847.810/
 +244212.348-1073852.727/
 +244220.272-1073858.247/
@@ -443,16 +443,16 @@ OLEXU</Line>
 +244304.931-1074056.323/
 +244302.961-1074106.925/
 TOVER</Line>
-    <Line Name="VIVUX2" Pattern="Dotted">
+        <Line Name="VIVUX2" Pattern="Dotted">
 +243957.058-1073245.893/
 +243725.461-1073434.136/
 +243159.551-1073727.802/
 VIVUX</Line>
-    <Line Name="XOMGA3" Pattern="Dotted">
+        <Line Name="XOMGA3" Pattern="Dotted">
 +243725.461-1073434.136/
 +243603.139-1074232.233/
 XOMGA</Line>
-    <Line Name="XORUB3" Pattern="Dotted">
+        <Line Name="XORUB3" Pattern="Dotted">
 +243602.487-1072638.538/
 +243604.787-1072620.850/
 +243605.178-1072610.523/
@@ -471,78 +471,78 @@ XOMGA</Line>
 +243503.030-1072422.747/
 +243453.369-1072418.187/
 XORUB</Line>            
-    <Symbol Type="SolidTriangle">
-      <Point>BOKTA</Point>
-      <Point>DANOP</Point>
-      <Point>EVATE</Point>
-      <Point>OLEXU</Point>
-      <Point>TOVER</Point>
-      <Point>VIVUX</Point>
-      <Point>XOMGA</Point>
-      <Point>XORUB</Point>
-      <Point>+243957.080-1073245.880</Point>
-      <Point>+243725.470-1073434.130</Point>
-      <Point>+243159.540-1073727.810</Point>
-      <Point>+243603.140-1074232.230</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>CUL</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CUL</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 20 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
-    <Label HasLeader="false">
-      <Point>BOKTA</Point>
-      <Point>CUL</Point>      
-      <Point>DANOP</Point>
-      <Point>EVATE</Point>
-      <Point>OLEXU</Point>
-      <Point>TOVER</Point>
-      <Point>VIVUX</Point>
-      <Point>XOMGA</Point>
-      <Point>XORUB</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 20 - Salidas RNAV" Priority="1" Center="+244554.215-1072830.547">
-    <Line Name="AVTAL1B" Pattern="Dotted">+244522.920-1072852.900/CL700/CL715/CL712/CL714/CL716/CL820/AVTAL</Line>
-    <Line Name="ELEGU1B" Pattern="Dotted">CL700/CL718/CL706/CL707/ELEGU</Line>
-    <Line Name="IKBOR1B" Pattern="Dotted">CL700/CL717/CL822/IKBOR</Line>
-    <Line Name="ILAVI1B" Pattern="Dotted">CL822/CL704/ILAVI</Line>
-    <Line Name="KIPAX1B" Pattern="Dotted">CL718/CL719/KIPAX</Line>
-    <Line Name="MUVEN1B" Pattern="Dotted">CL714/CL819/MUVEN</Line>
-    <Symbol Type="HollowStar">
-      <Point>AVTAL</Point>
-      <Point>CL700</Point>
-      <Point>CL704</Point>
-      <Point>CL706</Point>
-      <Point>CL707</Point>
-      <Point>CL712</Point>
-      <Point>CL714</Point>
-      <Point>CL715</Point>
-      <Point>CL716</Point>
-      <Point>CL717</Point>
-      <Point>CL718</Point>
-      <Point>CL719</Point>
-      <Point>CL819</Point>
-      <Point>CL820</Point>
-      <Point>CL822</Point>
-      <Point>ELEGU</Point>
-      <Point>IKBOR</Point>
-      <Point>ILAVI</Point>
-      <Point>KIPAX</Point>
-      <Point>MUVEN</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 20 - Salidas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
-    <Label HasLeader="false">
-      <Point>AVTAL</Point>
-      <Point>ELEGU</Point>
-      <Point>IKBOR</Point>
-      <Point>ILABI</Point>
-      <Point>KIPAX</Point>
-      <Point>MUVEN</Point>
-    </Label>
-  </Map>
+        <Symbol Type="SolidTriangle">
+            <Point>BOKTA</Point>
+            <Point>DANOP</Point>
+            <Point>EVATE</Point>
+            <Point>OLEXU</Point>
+            <Point>TOVER</Point>
+            <Point>VIVUX</Point>
+            <Point>XOMGA</Point>
+            <Point>XORUB</Point>
+            <Point>+243957.080-1073245.880</Point>
+            <Point>+243725.470-1073434.130</Point>
+            <Point>+243159.540-1073727.810</Point>
+            <Point>+243603.140-1074232.230</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CUL</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CUL</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 20 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+        <Label HasLeader="false">
+            <Point>BOKTA</Point>
+            <Point>CUL</Point>      
+            <Point>DANOP</Point>
+            <Point>EVATE</Point>
+            <Point>OLEXU</Point>
+            <Point>TOVER</Point>
+            <Point>VIVUX</Point>
+            <Point>XOMGA</Point>
+            <Point>XORUB</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 20 - Salidas RNAV" Priority="1" Center="+244554.215-1072830.547">
+        <Line Name="AVTAL1B" Pattern="Dotted">+244522.920-1072852.900/CL700/CL715/CL712/CL714/CL716/CL820/AVTAL</Line>
+        <Line Name="ELEGU1B" Pattern="Dotted">CL700/CL718/CL706/CL707/ELEGU</Line>
+        <Line Name="IKBOR1B" Pattern="Dotted">CL700/CL717/CL822/IKBOR</Line>
+        <Line Name="ILAVI1B" Pattern="Dotted">CL822/CL704/ILAVI</Line>
+        <Line Name="KIPAX1B" Pattern="Dotted">CL718/CL719/KIPAX</Line>
+        <Line Name="MUVEN1B" Pattern="Dotted">CL714/CL819/MUVEN</Line>
+        <Symbol Type="HollowStar">
+            <Point>AVTAL</Point>
+            <Point>CL700</Point>
+            <Point>CL704</Point>
+            <Point>CL706</Point>
+            <Point>CL707</Point>
+            <Point>CL712</Point>
+            <Point>CL714</Point>
+            <Point>CL715</Point>
+            <Point>CL716</Point>
+            <Point>CL717</Point>
+            <Point>CL718</Point>
+            <Point>CL719</Point>
+            <Point>CL819</Point>
+            <Point>CL820</Point>
+            <Point>CL822</Point>
+            <Point>ELEGU</Point>
+            <Point>IKBOR</Point>
+            <Point>ILAVI</Point>
+            <Point>KIPAX</Point>
+            <Point>MUVEN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 20 - Salidas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+        <Label HasLeader="false">
+            <Point>AVTAL</Point>
+            <Point>ELEGU</Point>
+            <Point>IKBOR</Point>
+            <Point>ILABI</Point>
+            <Point>KIPAX</Point>
+            <Point>MUVEN</Point>
+        </Label>
+    </Map>
 </Maps>

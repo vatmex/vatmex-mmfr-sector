@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RestrictedAreas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Areas>
-    <RestrictedArea Type="Restricted" Name="MMP-2 MILITAR" AltitudeFloor="0" AltitudeCeiling="9000" DAIWEnabled="false" LinePattern="None">
-      <Area>
+    <Areas>
+        <RestrictedArea Type="Restricted" Name="MMP-2 MILITAR" AltitudeFloor="0" AltitudeCeiling="9000" DAIWEnabled="false" LinePattern="None">
+            <Area>
 +192755.000-0991330.000/
 +192742.000-0991244.000/
 +192713.000-0991308.000/
@@ -15,34 +15,34 @@
 +192624.000-0991454.000/
 +192730.000-0991414.000/
 +192755.000-0991330.000</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="MMP-3 SANTA FE" AltitudeFloor="0" AltitudeCeiling="15000" DAIWEnabled="false" LinePattern="None">
-      <Area>
+            <Activations>
+                <Activation H24="true" Start="0000" End="0000" />
+            </Activations>
+        </RestrictedArea>
+        <RestrictedArea Type="Restricted" Name="MMP-3 SANTA FE" AltitudeFloor="0" AltitudeCeiling="15000" DAIWEnabled="false" LinePattern="None">
+            <Area>
 +192325.000-0991423.000/
 +192328.000-0991337.000/
 +192300.000-0991337.000/
 +192300.000-0991423.000/
 +192325.000-0991423.000</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="MMP-6 ZOCALO" AltitudeFloor="0" AltitudeCeiling="8400" DAIWEnabled="false" LinePattern="None">
-      <Area>
+            <Activations>
+                <Activation H24="true" Start="0000" End="0000" />
+            </Activations>
+        </RestrictedArea>
+        <RestrictedArea Type="Restricted" Name="MMP-6 ZOCALO" AltitudeFloor="0" AltitudeCeiling="8400" DAIWEnabled="false" LinePattern="None">
+            <Area>
 +192559.000-0990802.000/
 +192558.000-0990748.000/
 +192550.000-0990749.000/
 +192552.000-0990803.000/
 +192559.000-0990802.000</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="MMP-69 WISCORD" AltitudeFloor="0" AltitudeCeiling="8400" DAIWEnabled="false" LinePattern="None">
-      <Area>
+            <Activations>
+                <Activation H24="true" Start="0000" End="0000" />
+            </Activations>
+        </RestrictedArea>
+        <RestrictedArea Type="Restricted" Name="MMP-69 WISCORD" AltitudeFloor="0" AltitudeCeiling="8400" DAIWEnabled="false" LinePattern="None">
+            <Area>
 +220856.904-1010129.017/
 +220856.408-1010129.662/
 +220856.303-1010130.117/
@@ -223,12 +223,12 @@
 +220859.268-1010129.147/
 +220858.484-1010129.260/
 +220856.904-1010129.017</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="MMP-999 BAHIA DEL GANZO" AltitudeFloor="0" AltitudeCeiling="99999" DAIWEnabled="false" LinePattern="None">
-      <Area>
+            <Activations>
+                <Activation H24="true" Start="0000" End="0000" />
+            </Activations>
+        </RestrictedArea>
+        <RestrictedArea Type="Restricted" Name="MMP-999 BAHIA DEL GANZO" AltitudeFloor="0" AltitudeCeiling="99999" DAIWEnabled="false" LinePattern="None">
+            <Area>
 +192224.654-0990936.662/
 +192222.451-0990939.987/
 +192219.610-0990941.645/
@@ -365,9 +365,9 @@
 +192224.471-0990933.778/
 +192224.524-0990934.050/
 +192224.654-0990936.662</Area>
-      <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
-    </RestrictedArea>
-  </Areas>
+            <Activations>
+                <Activation H24="true" Start="0000" End="0000" />
+            </Activations>
+        </RestrictedArea>
+    </Areas>
 </RestrictedAreas>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-	<Map Type="System" Name="MMCB - Pista 21 - Salidas" Priority="1" Center="+185002.690-0991541.960">
-    	<Line Name="CUA1E" Pattern="Dotted">
+    <Map Type="System" Name="MMCB - Pista 21 - Salidas" Priority="1" Center="+185002.690-0991541.960">
+            <Line Name="CUA1E" Pattern="Dotted">
 +185028.621-0990901.433/
 +185019.104-0990906.597/
 +185011.235-0990910.360/
@@ -20,7 +20,7 @@
 +184832.441-0990816.389/
 +184830.292-0990805.430/
 CUA</Line>
-		<Line Name="CVJ1A" Pattern="Dotted">
+        <Line Name="CVJ1A" Pattern="Dotted">
 +185042.400-0991517.000/
 +185527.669-0991212.568/
 +185533.554-0991208.009/
@@ -59,7 +59,7 @@ CUA</Line>
 +185358.350-0991020.562/
 +185353.963-0991025.671/
 CVJ</Line>
-		<Line Name="TEQ1C" Pattern="Dotted">
+        <Line Name="TEQ1C" Pattern="Dotted">
 +185253.524-0991352.241/
 +185301.551-0991346.007/
 +185316.671-0991333.125/
@@ -89,22 +89,22 @@ CVJ</Line>
 +185039.408-0990856.984/
 +185028.621-0990901.433/
 TEQ</Line>
-		<Symbol Type="HollowSquare">
-			<Point>CUA</Point>
-			<Point>CVJ</Point>
-			<Point>TEQ</Point>
-    	</Symbol>
-    	<Symbol Type="Circle">
-			<Point>CUA</Point>
-			<Point>CVJ</Point>
-			<Point>TEQ</Point>
-    	</Symbol>
-	</Map>
-	<Map Type="System" Name="MMCB - Pista 21 - Salidas (Nombres)" Priority="1" Center="+185002.690-0991541.960">
-    	<Label HasLeader="false">
-			<Point>CUA</Point>
-			<Point>CVJ</Point>
-			<Point>TEQ</Point>
-    	</Label>
-  	</Map>
+        <Symbol Type="HollowSquare">
+            <Point>CUA</Point>
+            <Point>CVJ</Point>
+            <Point>TEQ</Point>
+            </Symbol>
+            <Symbol Type="Circle">
+            <Point>CUA</Point>
+            <Point>CVJ</Point>
+            <Point>TEQ</Point>
+            </Symbol>
+    </Map>
+    <Map Type="System" Name="MMCB - Pista 21 - Salidas (Nombres)" Priority="1" Center="+185002.690-0991541.960">
+            <Label HasLeader="false">
+            <Point>CUA</Point>
+            <Point>CVJ</Point>
+            <Point>TEQ</Point>
+            </Label>
+        </Map>
 </Maps>

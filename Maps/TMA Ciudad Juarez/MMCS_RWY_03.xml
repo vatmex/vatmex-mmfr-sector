@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 03 - Salidas" Priority="1" Center="+313810.896-1062543.544">
-    <Line Name="CJS3A" Pattern="Dotted">
+    <Map Type="System" Name="Pista 03 - Salidas" Priority="1" Center="+313810.896-1062543.544">
+        <Line Name="CJS3A" Pattern="Dotted">
 +313851.540-1062505.710/      
 +314342.463-1062035.055/
 +314350.532-1062027.420/
@@ -48,28 +48,28 @@
 +314044.746-1061739.439/
 +314040.708-1061750.919/
 CJS</Line>
-    <Symbol Type="HollowSquare">
-      <Point>CJS</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CJS</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 03 - Salidas (Nombres)" Priority="2" Center="+313810.896-1062543.544">
-    <Label HasLeader="false">
-      <Point>CJS</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 03 - VORDME 2" Priority="1" Center="+313810.896-1062543.544">
-    <Line Name="Final 03" Pattern="Solid">
+        <Symbol Type="HollowSquare">
+            <Point>CJS</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CJS</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 03 - Salidas (Nombres)" Priority="2" Center="+313810.896-1062543.544">
+        <Label HasLeader="false">
+            <Point>CJS</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 03 - VORDME 2" Priority="1" Center="+313810.896-1062543.544">
+        <Line Name="Final 03" Pattern="Solid">
 +313743.080-1062609.400/
 +313243.916-1063046.966</Line>
-    <Line Name="GADMI" Pattern="Dashed">
+        <Line Name="GADMI" Pattern="Dashed">
 +312949.363-1063328.630/
 +312801.285-1063508.605/
 +312849.165-1064337.218/
 GADMI</Line>
-    <Line Name="OMSEK" Pattern="Dashed">
+        <Line Name="OMSEK" Pattern="Dashed">
 +312534.172-1062920.668/
 +312532.118-1062913.390/
 +312528.260-1062902.514/
@@ -89,7 +89,7 @@ GADMI</Line>
 +312329.422-1062742.011/
 +312321.203-1062742.835/
 OMSEK</Line>
-    <Line Name="DUXAT" Pattern="Dashed">
+        <Line Name="DUXAT" Pattern="Dashed">
 +313243.916-1063046.966/
 +312949.363-1063328.630/
 +312946.129-1063331.404/
@@ -138,7 +138,7 @@ OMSEK</Line>
 +312331.956-1062311.830/
 +312322.548-1062310.182/
 DUXAT</Line>
-    <Line Name="ALPOK" Pattern="Dashed">
+        <Line Name="ALPOK" Pattern="Dashed">
 +312510.675-1062525.286/
 +312510.427-1062516.113/
 +312515.007-1062355.473/
@@ -162,33 +162,33 @@ DUXAT</Line>
 +312433.287-1061851.619/
 +312423.921-1061846.483/
 ALPOK</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>ALPOK</Point>
-      <Point>DUXAT</Point>
-      <Point>GADMI</Point>
-      <Point>OMSEK</Point>
-      <Point>+312420.300-1061844.690</Point>
-      <Point>+312317.200-1062309.290</Point>
-      <Point>+312315.020-1062743.710</Point>
-      <Point>+312849.160-1064337.230</Point>
-      <Point>+312801.280-1063508.600</Point>
-      <Point>+313022.610-1063257.850</Point>
-      <Point>+313418.150-1062919.610</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>CJS</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CJS</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 03 - VORDME 2 (Nombres)" Priority="2" Center="+313810.896-1062543.544">
-    <Label HasLeader="false">
-      <Point>CJS</Point>
-      <Point>ALPOK</Point>
-      <Point>DUXAT</Point>
-      <Point>GADMI</Point>
-      <Point>OMSEK</Point>
-    </Label>
-  </Map>
+        <Symbol Type="SolidTriangle">
+            <Point>ALPOK</Point>
+            <Point>DUXAT</Point>
+            <Point>GADMI</Point>
+            <Point>OMSEK</Point>
+            <Point>+312420.300-1061844.690</Point>
+            <Point>+312317.200-1062309.290</Point>
+            <Point>+312315.020-1062743.710</Point>
+            <Point>+312849.160-1064337.230</Point>
+            <Point>+312801.280-1063508.600</Point>
+            <Point>+313022.610-1063257.850</Point>
+            <Point>+313418.150-1062919.610</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CJS</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CJS</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 03 - VORDME 2 (Nombres)" Priority="2" Center="+313810.896-1062543.544">
+        <Label HasLeader="false">
+            <Point>CJS</Point>
+            <Point>ALPOK</Point>
+            <Point>DUXAT</Point>
+            <Point>GADMI</Point>
+            <Point>OMSEK</Point>
+        </Label>
+    </Map>
 </Maps>

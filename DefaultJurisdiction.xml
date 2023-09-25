@@ -1,229 +1,229 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
-  <RuleSets>
-    <!--MMZT ACC-->
-    <RuleSet Name="MMCL_DEPS">
-      <Rules>
-        <Departure Values="MMCL">
-          <Rules>
-            <Default>
-              <AssignSector Order="CUAPP,MZT4,MZTE,MZTC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMES_DEPS">
-      <Rules>
-        <Departure Values="MMES">
-          <Rules>
-            <Default>
-              <AssignSector Order="TJAPP,MZT1,MZTW,MZTC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMHO_DEPS">
-      <Rules>
-        <Departure Values="MMHO">
-          <Rules>
-            <Default>
-              <AssignSector Order="HOAPP,MZT2,MZTW,MZTC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMSD_DEPS">
-      <Rules>
-        <Departure Values="MMSD">
-          <Rules>
-            <Default>
-              <AssignSector Order="SDAPP,MZT3,MZTE,MZTC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMSL_DEPS">
-      <Rules>
-        <Departure Values="MMSL">
-          <Rules>
-            <Default>
-              <AssignSector Order="SDAPP,MZT3,MZTE,MZTC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMTJ_DEPS">
-      <Rules>
-        <Departure Values="MMTJ">
-          <Rules>
-            <Default>
-              <AssignSector Order="TJAPP,MZT1,MZTW,MZTC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <!--MMID ACC-->
-    <RuleSet Name="MMCZ_DEPS">
-      <Rules>
-        <Departure Values="MMCZ">
-          <Rules>
-            <Default>
-              <AssignSector Order="UNDEP,UNAPP,MID2,MIDE,MIDC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMID_DEPS">
-      <Rules>
-        <Departure Values="MMID">
-          <Rules>
-            <Default>
-              <AssignSector Order="MDAPP,MID2,MIDE,MIDC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMUN_DEPS">
-      <Rules>
-        <Departure Values="MMUN">
-          <Rules>
-            <Default>
-              <AssignSector Order="UNDEP,UNAPP,MID2,MIDE,MIDC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <!--MMEX ACC-->
-    <RuleSet Name="MMAA_DEPS">
-      <Rules>
-        <Departure Values="MMAA">
-          <Rules>
-            <Default>
-              <AssignSector Order="ACAPP,MEX4,MEXE,MEXC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMAS_DEPS">
-      <Rules>
-        <Departure Values="MMAS">
-          <Rules>
-            <Default>
-              <AssignSector Order="BXAPP,MEX8,MEXW,MEXC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMGL_DEPS">
-      <Rules>
-        <Departure Values="MMGL">
-          <Rules>
-            <Default>
-              <AssignSector Order="GLAPP,MEX6,MEXW,MEXC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMLO_DEPS">
-      <Rules>
-        <Departure Values="MMLO">
-          <Rules>
-            <Default>
-              <AssignSector Order="BXAPP,MEX10,MEXC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMMX_DEPS">
-      <Rules>
-        <Departure Values="MMMX">
-          <Rules>
-            <Default>
-              <AssignSector Order="MXDEP,MAPP1,MAPPC,MEX3,MEXC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMTO_DEPS">
-      <Rules>
-        <Departure Values="MMTO">
-          <Rules>
-            <Default>
-              <AssignSector Order="TOAPP,MXDEP,MAPP1,MAPPC,MEX5,MEXC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMPR_DEPS">
-      <Rules>
-        <Departure Values="MMPR">
-          <Rules>
-            <Default>
-              <AssignSector Order="PRAPP,MEX6,MEXW,MEXC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMVR_DEPS">
-      <Rules>
-        <Departure Values="MMVR">
-          <Rules>
-            <Default>
-              <AssignSector Order="VRAPP,MEX3,MEXE,MEXC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <!--MMTY ACC-->
-    <RuleSet Name="MMAN_DEPS">
-      <Rules>
-        <Departure Values="MMAN">
-          <Rules>
-            <Default>
-              <AssignSector Order="MYAPP,MTYE,MTYC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMCU_DEPS">
-      <Rules>
-        <Departure Values="MMCU">
-          <Rules>
-            <Default>
-              <AssignSector Order="CUAPP,MTYW,MTYC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="MMMY_DEPS">
-      <Rules>
-        <Departure Values="MMMY">
-          <Rules>
-            <Default>
-              <AssignSector Order="MYAPP,MTYE,MTYC"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-  </RuleSets>
+    <RuleSets>
+        <!--MMZT ACC-->
+        <RuleSet Name="MMCL_DEPS">
+            <Rules>
+                <Departure Values="MMCL">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="CUAPP,MZT4,MZTE,MZTC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMES_DEPS">
+            <Rules>
+                <Departure Values="MMES">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="TJAPP,MZT1,MZTW,MZTC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMHO_DEPS">
+            <Rules>
+                <Departure Values="MMHO">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="HOAPP,MZT2,MZTW,MZTC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMSD_DEPS">
+            <Rules>
+                <Departure Values="MMSD">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="SDAPP,MZT3,MZTE,MZTC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMSL_DEPS">
+            <Rules>
+                <Departure Values="MMSL">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="SDAPP,MZT3,MZTE,MZTC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMTJ_DEPS">
+            <Rules>
+                <Departure Values="MMTJ">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="TJAPP,MZT1,MZTW,MZTC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <!--MMID ACC-->
+        <RuleSet Name="MMCZ_DEPS">
+            <Rules>
+                <Departure Values="MMCZ">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="UNDEP,UNAPP,MID2,MIDE,MIDC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMID_DEPS">
+            <Rules>
+                <Departure Values="MMID">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="MDAPP,MID2,MIDE,MIDC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMUN_DEPS">
+            <Rules>
+                <Departure Values="MMUN">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="UNDEP,UNAPP,MID2,MIDE,MIDC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <!--MMEX ACC-->
+        <RuleSet Name="MMAA_DEPS">
+            <Rules>
+                <Departure Values="MMAA">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="ACAPP,MEX4,MEXE,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMAS_DEPS">
+            <Rules>
+                <Departure Values="MMAS">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="BXAPP,MEX8,MEXW,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMGL_DEPS">
+            <Rules>
+                <Departure Values="MMGL">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="GLAPP,MEX6,MEXW,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMLO_DEPS">
+            <Rules>
+                <Departure Values="MMLO">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="BXAPP,MEX10,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMMX_DEPS">
+            <Rules>
+                <Departure Values="MMMX">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="MXDEP,MAPP1,MAPPC,MEX3,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMTO_DEPS">
+            <Rules>
+                <Departure Values="MMTO">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="TOAPP,MXDEP,MAPP1,MAPPC,MEX5,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMPR_DEPS">
+            <Rules>
+                <Departure Values="MMPR">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="PRAPP,MEX6,MEXW,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMVR_DEPS">
+            <Rules>
+                <Departure Values="MMVR">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="VRAPP,MEX3,MEXE,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <!--MMTY ACC-->
+        <RuleSet Name="MMAN_DEPS">
+            <Rules>
+                <Departure Values="MMAN">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="MYAPP,MTYE,MTYC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMCU_DEPS">
+            <Rules>
+                <Departure Values="MMCU">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="CUAPP,MTYW,MTYC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMMY_DEPS">
+            <Rules>
+                <Departure Values="MMMY">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="MYAPP,MTYE,MTYC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+    </RuleSets>
 </DefaultJurisdiction>

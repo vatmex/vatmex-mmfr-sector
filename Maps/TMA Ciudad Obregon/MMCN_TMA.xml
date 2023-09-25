@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+240421.890-1102145.150">
-    <Runway Name="13/31">
-      <Threshold Name="13" Position="+272401.370-1095027.730" />
-      <Threshold Name="31" Position="+272306.510-1094930.520" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+240421.890-1102145.150">
+        <Runway Name="13/31">
+            <Threshold Name="13" Position="+272401.370-1095027.730" />
+            <Threshold Name="31" Position="+272306.510-1094930.520" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +281330.577-1094618.772/
 +281315.539-1094322.876/
 +281252.349-1094028.109/
@@ -135,5 +135,5 @@
 +281336.051-1095212.014/
 +281337.420-1094915.312/
 +281330.577-1094618.772</Line>
-  </Map>
+    </Map>
 </Maps>

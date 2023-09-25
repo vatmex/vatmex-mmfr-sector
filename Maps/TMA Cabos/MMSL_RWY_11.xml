@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMSL - Pista 11 - Salidas RNAV" Priority="1" Center="+225653.965-1095617.973">
-    <Line Name="ALRIN1C" Pattern="Dotted">+225637.170-1095545.780/SL502/SL504/AVAVU</Line>
-    <Line Name="ANEGO1A" Pattern="Dotted">+225637.170-1095545.780/SL600/LETAT/ANEGO</Line>
-    <Line Name="ILIGA1A" Pattern="Dotted">SL502/SL501/ILIGA</Line>
-    <Line Name="UKUXA1A" Pattern="Dotted">AVAVU/UKUXA</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>ALRIN</Point>
-      <Point>AVAVU</Point>
-      <Point>ILIGA</Point>
-      <Point>LETAT</Point>
-      <Point>UKUXA</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>ANEGO</Point>
-      <Point>SD403</Point>
-      <Point>SD507</Point>
-      <Point>SD508</Point>
-      <Point>SL501</Point>
-      <Point>SL502</Point>
-      <Point>SL504</Point>
-      <Point>SL600</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMSL - Pista 11 - Salidas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
-    <Label HasLeader="false">
-      <Point>ALRIN</Point>
-      <Point>ANEGO</Point>
-      <Point>ILIGA</Point>
-      <Point>UKUXA</Point>
-    </Label>
-  </Map>
+    <Map Type="System" Name="MMSL - Pista 11 - Salidas RNAV" Priority="1" Center="+225653.965-1095617.973">
+        <Line Name="ALRIN1C" Pattern="Dotted">+225637.170-1095545.780/SL502/SL504/AVAVU</Line>
+        <Line Name="ANEGO1A" Pattern="Dotted">+225637.170-1095545.780/SL600/LETAT/ANEGO</Line>
+        <Line Name="ILIGA1A" Pattern="Dotted">SL502/SL501/ILIGA</Line>
+        <Line Name="UKUXA1A" Pattern="Dotted">AVAVU/UKUXA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>ALRIN</Point>
+            <Point>AVAVU</Point>
+            <Point>ILIGA</Point>
+            <Point>LETAT</Point>
+            <Point>UKUXA</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>ANEGO</Point>
+            <Point>SD403</Point>
+            <Point>SD507</Point>
+            <Point>SD508</Point>
+            <Point>SL501</Point>
+            <Point>SL502</Point>
+            <Point>SL504</Point>
+            <Point>SL600</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMSL - Pista 11 - Salidas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
+        <Label HasLeader="false">
+            <Point>ALRIN</Point>
+            <Point>ANEGO</Point>
+            <Point>ILIGA</Point>
+            <Point>UKUXA</Point>
+        </Label>
+    </Map>
 </Maps>

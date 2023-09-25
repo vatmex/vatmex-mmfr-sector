@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+240421.890-1102145.150">
-    <Runway Name="18/36">
-      <Threshold Name="18" Position="+240502.151-1102139.312" />
-      <Threshold Name="36" Position="+240341.603-1102150.987" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+240421.890-1102145.150">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+240421.890-1102145.150">
+        <Runway Name="18/36">
+            <Threshold Name="18" Position="+240502.151-1102139.312" />
+            <Threshold Name="36" Position="+240341.603-1102150.987" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1" Center="+240421.890-1102145.150">
+        <Line Pattern="Dashed">
 +242337.847-1093109.955/
 +241718.963-1095736.903/
 +241453.541-1095620.606/
@@ -131,9 +131,9 @@
 +242438.914-1093110.035/
 +242413.169-1093057.404/
 +242337.847-1093109.955</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1" Center="+240421.890-1102145.150">
-  	<Line Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1" Center="+240421.890-1102145.150">
+        <Line Pattern="Dashed">
 +241505.968-1102045.389/
 +241502.961-1102011.181/
 +241458.323-1101937.193/
@@ -255,61 +255,61 @@
 +241507.062-1102154.086/
 +241507.336-1102119.722/
 +241505.968-1102045.389</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 18" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>+241602.440-1102003.182</Point>
-      <Point>+241105.044-1102043.180</Point>
-      <Point>+241504.938-1103038.965</Point>
-      <Point>+241654.215-1102731.812</Point>
-      <Point>+241958.309-1102348.209</Point>
-      <Point>+241958.309-1101914.146</Point>
-      <Point>+241538.422-1101309.601</Point>
-      <Point>+240829.798-1100746.921</Point>
-      <Point>+240212.923-1100739.715</Point>
-      <Point>+235926.661-1100844.207</Point>
-      <Point>DURTU</Point>
-      <Point>MANUS</Point>
-      <Point>MORSA</Point>
-      <Point>ONGEX</Point>
-      <Point>ORCAS</Point>
-      <Point>PISET</Point>
-      <Point>TULES</Point>
-      <Point>XOMSA</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 18 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>DURTU</Point>
-      <Point>MANUS</Point>
-      <Point>MORSA</Point>
-      <Point>ONGEX</Point>
-      <Point>ORCAS</Point>
-      <Point>PISET</Point>
-      <Point>TULES</Point>
-      <Point>XOMSA</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 36" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>+235914.074-1102239.607</Point>
-      <Point>+235617.029-1102313.763</Point>
-      <Point>+240212.923-1100739.715</Point>
-      <Point>+235926.661-1100844.207</Point>
-      <Point>+235407.508-1101358.980</Point>
-      <Point>+235243.172-1101721.687</Point>
-      <Point>AMARI</Point>
-      <Point>MORSA</Point>
-      <Point>ONGEX</Point>
-      <Point>TAMET</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 36 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>AMARI</Point>
-      <Point>MORSA</Point>
-      <Point>ONGEX</Point>
-      <Point>TAMET</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 18" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>+241602.440-1102003.182</Point>
+            <Point>+241105.044-1102043.180</Point>
+            <Point>+241504.938-1103038.965</Point>
+            <Point>+241654.215-1102731.812</Point>
+            <Point>+241958.309-1102348.209</Point>
+            <Point>+241958.309-1101914.146</Point>
+            <Point>+241538.422-1101309.601</Point>
+            <Point>+240829.798-1100746.921</Point>
+            <Point>+240212.923-1100739.715</Point>
+            <Point>+235926.661-1100844.207</Point>
+            <Point>DURTU</Point>
+            <Point>MANUS</Point>
+            <Point>MORSA</Point>
+            <Point>ONGEX</Point>
+            <Point>ORCAS</Point>
+            <Point>PISET</Point>
+            <Point>TULES</Point>
+            <Point>XOMSA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 18 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>DURTU</Point>
+            <Point>MANUS</Point>
+            <Point>MORSA</Point>
+            <Point>ONGEX</Point>
+            <Point>ORCAS</Point>
+            <Point>PISET</Point>
+            <Point>TULES</Point>
+            <Point>XOMSA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 36" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>+235914.074-1102239.607</Point>
+            <Point>+235617.029-1102313.763</Point>
+            <Point>+240212.923-1100739.715</Point>
+            <Point>+235926.661-1100844.207</Point>
+            <Point>+235407.508-1101358.980</Point>
+            <Point>+235243.172-1101721.687</Point>
+            <Point>AMARI</Point>
+            <Point>MORSA</Point>
+            <Point>ONGEX</Point>
+            <Point>TAMET</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 36 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>AMARI</Point>
+            <Point>MORSA</Point>
+            <Point>ONGEX</Point>
+            <Point>TAMET</Point>
+        </Label>
+    </Map>
 </Maps>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+230941.330-1061552.460">
-    <Runway Name="08/26">
-      <Threshold Name="08" Position="+230943.630-1061639.900" />
-      <Threshold Name="26" Position="+230938.990-1061504.980" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-    <Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+230941.330-1061552.460">
+        <Runway Name="08/26">
+            <Threshold Name="08" Position="+230943.630-1061639.900" />
+            <Threshold Name="26" Position="+230938.990-1061504.980" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +234521.120-1071147.700/
 +235227.027-1070040.402/
 +234647.520-1065253.040/
@@ -122,9 +122,9 @@
 +233521.024-1070248.826/
 +233721.720-1070133.000/
 +234521.120-1071147.700</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
-    <Line Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
 +231935.655-1061530.004/
 +231932.648-1061456.038/
 +231928.011-1061422.291/
@@ -246,50 +246,50 @@
 +231936.750-1061638.215/
 +231937.023-1061604.094/
 +231935.655-1061530.004</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 08" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>DUPOP</Point>
-      <Point>GAMOS</Point>
-      <Point>ILSAS</Point>
-      <Point>PALIA</Point>
-      <Point>POSTA</Point>
-      <Point>TAPRO</Point>
-      <Point>UKRIG</Point>
-      <Point>XOSGI</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 08 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>DUPOP</Point>
-      <Point>GAMOS</Point>
-      <Point>ILSAS</Point>
-      <Point>PALIA</Point>
-      <Point>POSTA</Point>
-      <Point>TAPRO</Point>
-      <Point>UKRIG</Point>
-      <Point>XOSGI</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 26" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>TAPRO</Point>
-      <Point>LESTI</Point>
-      <Point>SARIO</Point>
-      <Point>BRISA</Point>
-      <Point>ALILI</Point>
-      <Point>XUBUD</Point>
-      <Point>XUBUD</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 26 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>TAPRO</Point>
-      <Point>LESTI</Point>
-      <Point>SARIO</Point>
-      <Point>BRISA</Point>
-      <Point>ALILI</Point>
-      <Point>XUBUD</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 08" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>DUPOP</Point>
+            <Point>GAMOS</Point>
+            <Point>ILSAS</Point>
+            <Point>PALIA</Point>
+            <Point>POSTA</Point>
+            <Point>TAPRO</Point>
+            <Point>UKRIG</Point>
+            <Point>XOSGI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 08 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>DUPOP</Point>
+            <Point>GAMOS</Point>
+            <Point>ILSAS</Point>
+            <Point>PALIA</Point>
+            <Point>POSTA</Point>
+            <Point>TAPRO</Point>
+            <Point>UKRIG</Point>
+            <Point>XOSGI</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 26" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>TAPRO</Point>
+            <Point>LESTI</Point>
+            <Point>SARIO</Point>
+            <Point>BRISA</Point>
+            <Point>ALILI</Point>
+            <Point>XUBUD</Point>
+            <Point>XUBUD</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 26 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>TAPRO</Point>
+            <Point>LESTI</Point>
+            <Point>SARIO</Point>
+            <Point>BRISA</Point>
+            <Point>ALILI</Point>
+            <Point>XUBUD</Point>
+        </Label>
+    </Map>
 </Maps>

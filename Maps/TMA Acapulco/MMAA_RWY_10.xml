@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 10 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="ANALU1A" Pattern="Dashed">
-      ANALU/AA413/AA412/APREN
-    </Line>
-    <Line Name="ANVAN1A" Pattern="Dashed">
-      ANVAN/AA417/AA416/ATUMU
-    </Line>
-    <Line Name="AVURO1A" Pattern="Dashed">
-      AVURO/AA409/APLUR
-    </Line>
-    <Symbol Type="HollowStar">
-      <Point>AA409</Point>
-      <Point>AA412</Point>
-      <Point>AA413</Point>
-      <Point>AA416</Point>
-      <Point>AA417</Point>
-      <Point>ANALU</Point>
-      <Point>ANVAN</Point>
-      <Point>APLUR</Point>
-      <Point>APREN</Point>
-      <Point>ATUMU</Point>
-      <Point>AVURO</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-    <Label HasLeader="false">
-      <Point>ANALU</Point>
-      <Point>ANVAN</Point>
-      <Point>APLUR</Point>
-      <Point>APREN</Point>
-      <Point>ATUMU</Point>
-      <Point>AVURO</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 10 - ILSDME 2" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="Final 10" Pattern="Solid">
+    <Map Type="System" Name="Pista 10 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="ANALU1A" Pattern="Dashed">
+            ANALU/AA413/AA412/APREN
+        </Line>
+        <Line Name="ANVAN1A" Pattern="Dashed">
+            ANVAN/AA417/AA416/ATUMU
+        </Line>
+        <Line Name="AVURO1A" Pattern="Dashed">
+            AVURO/AA409/APLUR
+        </Line>
+        <Symbol Type="HollowStar">
+            <Point>AA409</Point>
+            <Point>AA412</Point>
+            <Point>AA413</Point>
+            <Point>AA416</Point>
+            <Point>AA417</Point>
+            <Point>ANALU</Point>
+            <Point>ANVAN</Point>
+            <Point>APLUR</Point>
+            <Point>APREN</Point>
+            <Point>ATUMU</Point>
+            <Point>AVURO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="false">
+            <Point>ANALU</Point>
+            <Point>ANVAN</Point>
+            <Point>APLUR</Point>
+            <Point>APREN</Point>
+            <Point>ATUMU</Point>
+            <Point>AVURO</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 10 - ILSDME 2" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="Final 10" Pattern="Solid">
 +164831.658-0995511.306/
 +164535.800-0994546.400</Line>
-    <Line Name="NICOS-D23-CI" Pattern="Dashed">
+        <Line Name="NICOS-D23-CI" Pattern="Dashed">
 NICOS/
 +165604.583-1000633.859/
 +165006.559-1000016.671/
 +164831.658-0995511.306</Line>
-    <Line Name="TEXCA-D15" Pattern="Dashed">
+        <Line Name="TEXCA-D15" Pattern="Dashed">
 TEXCA/
 +170204.612-0994058.135/
 +170146.903-0994105.112/
@@ -76,7 +76,7 @@ TEXCA/
 +165616.105-0995607.034/
 +165605.956-0995617.114/
 +165546.984-0995635.571</Line>
-    <Line Name="VIDRU-D15" Pattern="Dashed">
+        <Line Name="VIDRU-D15" Pattern="Dashed">
 VIDRU/
 +165842.347-0995628.705/
 +165827.694-0995619.037/
@@ -104,7 +104,7 @@ VIDRU/
 +164951.755-0995850.538/
 +164942.698-0995841.035/
 +164932.145-0995826.011</Line>
-    <Line Name="VOKAM-D15" Pattern="Dashed">
+        <Line Name="VOKAM-D15" Pattern="Dashed">
 MUVAR/      
 +170025.948-0993638.583/
 +170006.887-0993652.207/
@@ -123,148 +123,148 @@ MUVAR/
 +170012.297-0994215.507/
 +170018.354-0994256.925/
 +170024.018-0994337.382</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>MUVAR</Point>
-      <Point>NICOS</Point>
-      <Point>TEXCA</Point>
-      <Point>VIDRU</Point>
-      <Point>+165604.580-1000633.850</Point>
-      <Point>+165842.490-0995628.600</Point>
-      <Point>+170204.630-0994058.140</Point>
-      <Point>+170025.960-0993638.570</Point>
-      <Point>+165006.560-1000016.590</Point>
-      <Point>+164729.760-0995152.240</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 10 - ILSDME 2 (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-    <Label HasLeader="false">
-      <Point>MUVAR</Point>
-      <Point>NICOS</Point>
-      <Point>TEXCA</Point>
-      <Point>VIDRU</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 10 - ILS 3" Priority="1" Center="+203124.320-1031841.798">
-    <Line Pattern="Solid">
-      APLUR/+164535.800-0994546.400
-    </Line>
-    <Line Pattern="Solid">
-      APREN/ATUMU
-    </Line>
-    <Line Pattern="Solid">
-      +164537.217-0994651.704/
-      +164611.404-0994640.103
-    </Line>
-    <Line Pattern="Solid">
-      +164555.729-0994751.208/
-      +164629.916-0994739.610
-    </Line>
-    <Line Pattern="Solid">
-      +164614.241-0994850.714/
-      +164648.428-0994839.119
-    </Line>
-    <Line Pattern="Solid">
-      +164632.753-0994950.222/
-      +164706.940-0994938.630
-    </Line>
-    <Line Pattern="Solid">
-      +164651.265-0995049.731/
-      +164725.452-0995038.142
-    </Line>
-    <Line Pattern="Solid">
-      +164709.777-0995149.242/
-      +164743.964-0995137.656
-    </Line>
-    <Line Pattern="Solid">
-      +164728.289-0995248.754/
-      +164802.476-0995237.171
-    </Line>
-    <Line Pattern="Solid">
-      +164746.801-0995348.268/
-      +164820.988-0995336.688
-    </Line>
-    <Line Pattern="Solid">
-      +164805.313-0995447.784/
-      +164839.500-0995436.207
-    </Line>
-    <Line Pattern="Solid">
-      +164823.825-0995547.301/
-      +164858.012-0995535.727
-    </Line>
-    <Line Pattern="Solid">
-      +164842.337-0995646.820/
-      +164916.524-0995635.249
-    </Line>
-    <Line Pattern="Solid">
-      +164900.849-0995746.341/
-      +164935.036-0995734.773
-    </Line>
-    <Line Pattern="Solid">
-      +164919.361-0995845.863/
-      +164953.548-0995834.298
-    </Line>
-    <Line Pattern="Solid">
-      +164937.873-0995945.387/
-      +165012.060-0995933.825
-    </Line>
-    <Line Pattern="Solid">
-      +164956.385-1000044.912/
-      +165030.572-1000033.353
-    </Line>
-    <Line Pattern="Solid">
-      +165014.897-1000144.439/
-      +165049.084-1000132.883
-    </Line>
-    <Line Pattern="Solid">
-      +165033.409-1000243.968/
-      +165107.596-1000232.415
-    </Line>
-    <Line Pattern="Solid">
-      +165051.921-1000343.498/
-      +165126.109-1000331.948
-    </Line>
-    <Line Pattern="Solid">
-      +165336.274-0995752.709/
-      +165325.167-0995716.982
-    </Line>
-    <Line Pattern="Solid">
-      +165239.296-0995812.056/
-      +165228.189-0995736.329
-    </Line>
-    <Line Pattern="Solid">
-      +165142.318-0995831.402/
-      +165131.211-0995755.675
-    </Line>
-    <Line Pattern="Solid">
-      +165045.340-0995850.746/
-      +165034.233-0995815.019
-    </Line>
-    <Line Pattern="Solid">
-      +164851.384-0995929.430/
-      +164840.277-0995853.702
-    </Line>
-    <Line Pattern="Solid">
-      +164754.406-0995948.769/
-      +164743.299-0995913.041
-    </Line>
-    <Line Pattern="Solid">
-      +164657.428-1000008.107/
-      +164646.321-0995932.378
-    </Line>
-    <Line Pattern="Solid">
-      +164600.450-1000027.443/
-      +164549.343-0995951.714
-    </Line>
-    <Symbol Type="HollowStar">
-      <Point>APLUR</Point>
-      <Point>APREN</Point>
-      <Point>ATUMU</Point>
-      <Point>AA403</Point>
-      <Point>AA401</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 10 - Salidas" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="ACA3A" Pattern="Dotted">
+        <Symbol Type="SolidTriangle">
+            <Point>MUVAR</Point>
+            <Point>NICOS</Point>
+            <Point>TEXCA</Point>
+            <Point>VIDRU</Point>
+            <Point>+165604.580-1000633.850</Point>
+            <Point>+165842.490-0995628.600</Point>
+            <Point>+170204.630-0994058.140</Point>
+            <Point>+170025.960-0993638.570</Point>
+            <Point>+165006.560-1000016.590</Point>
+            <Point>+164729.760-0995152.240</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 10 - ILSDME 2 (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="false">
+            <Point>MUVAR</Point>
+            <Point>NICOS</Point>
+            <Point>TEXCA</Point>
+            <Point>VIDRU</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 10 - ILS 3" Priority="1" Center="+203124.320-1031841.798">
+        <Line Pattern="Solid">
+            APLUR/+164535.800-0994546.400
+        </Line>
+        <Line Pattern="Solid">
+            APREN/ATUMU
+        </Line>
+        <Line Pattern="Solid">
+            +164537.217-0994651.704/
+            +164611.404-0994640.103
+        </Line>
+        <Line Pattern="Solid">
+            +164555.729-0994751.208/
+            +164629.916-0994739.610
+        </Line>
+        <Line Pattern="Solid">
+            +164614.241-0994850.714/
+            +164648.428-0994839.119
+        </Line>
+        <Line Pattern="Solid">
+            +164632.753-0994950.222/
+            +164706.940-0994938.630
+        </Line>
+        <Line Pattern="Solid">
+            +164651.265-0995049.731/
+            +164725.452-0995038.142
+        </Line>
+        <Line Pattern="Solid">
+            +164709.777-0995149.242/
+            +164743.964-0995137.656
+        </Line>
+        <Line Pattern="Solid">
+            +164728.289-0995248.754/
+            +164802.476-0995237.171
+        </Line>
+        <Line Pattern="Solid">
+            +164746.801-0995348.268/
+            +164820.988-0995336.688
+        </Line>
+        <Line Pattern="Solid">
+            +164805.313-0995447.784/
+            +164839.500-0995436.207
+        </Line>
+        <Line Pattern="Solid">
+            +164823.825-0995547.301/
+            +164858.012-0995535.727
+        </Line>
+        <Line Pattern="Solid">
+            +164842.337-0995646.820/
+            +164916.524-0995635.249
+        </Line>
+        <Line Pattern="Solid">
+            +164900.849-0995746.341/
+            +164935.036-0995734.773
+        </Line>
+        <Line Pattern="Solid">
+            +164919.361-0995845.863/
+            +164953.548-0995834.298
+        </Line>
+        <Line Pattern="Solid">
+            +164937.873-0995945.387/
+            +165012.060-0995933.825
+        </Line>
+        <Line Pattern="Solid">
+            +164956.385-1000044.912/
+            +165030.572-1000033.353
+        </Line>
+        <Line Pattern="Solid">
+            +165014.897-1000144.439/
+            +165049.084-1000132.883
+        </Line>
+        <Line Pattern="Solid">
+            +165033.409-1000243.968/
+            +165107.596-1000232.415
+        </Line>
+        <Line Pattern="Solid">
+            +165051.921-1000343.498/
+            +165126.109-1000331.948
+        </Line>
+        <Line Pattern="Solid">
+            +165336.274-0995752.709/
+            +165325.167-0995716.982
+        </Line>
+        <Line Pattern="Solid">
+            +165239.296-0995812.056/
+            +165228.189-0995736.329
+        </Line>
+        <Line Pattern="Solid">
+            +165142.318-0995831.402/
+            +165131.211-0995755.675
+        </Line>
+        <Line Pattern="Solid">
+            +165045.340-0995850.746/
+            +165034.233-0995815.019
+        </Line>
+        <Line Pattern="Solid">
+            +164851.384-0995929.430/
+            +164840.277-0995853.702
+        </Line>
+        <Line Pattern="Solid">
+            +164754.406-0995948.769/
+            +164743.299-0995913.041
+        </Line>
+        <Line Pattern="Solid">
+            +164657.428-1000008.107/
+            +164646.321-0995932.378
+        </Line>
+        <Line Pattern="Solid">
+            +164600.450-1000027.443/
+            +164549.343-0995951.714
+        </Line>
+        <Symbol Type="HollowStar">
+            <Point>APLUR</Point>
+            <Point>APREN</Point>
+            <Point>ATUMU</Point>
+            <Point>AA403</Point>
+            <Point>AA401</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 10 - Salidas" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="ACA3A" Pattern="Dotted">
 +164530.499-0994514.189/
 +164320.907-0993817.658/
 +164316.413-0993805.440/
@@ -303,15 +303,15 @@ MUVAR/
 +163957.912-0994020.019/
 +164006.780-0994029.277/
 +164530.499-0994514.189</Line>
-  <Line Name="KATRA3" Pattern="Dotted">
+    <Line Name="KATRA3" Pattern="Dotted">
 +164320.907-0993817.658/
 +164225.368-0993519.179/
 KATRA</Line>
-  <Line Name="SELIS3" Pattern="Dotted">
+    <Line Name="SELIS3" Pattern="Dotted">
 +164225.368-0993519.179/
 +164653.373-0992824.331/
 SELIS</Line>
-  <Line Name="OMVI1A" Pattern="Dotted">
+    <Line Name="OMVI1A" Pattern="Dotted">
 +164318.234-0993808.249/
 +164316.037-0993758.693/
 +164314.322-0993749.031/
@@ -391,7 +391,7 @@ SELIS</Line>
 +165708.852-0994527.880/
 +165725.860-0994529.394/
 OMVIT</Line>
-  <Line Name="TEXCA3A" Pattern="Dotted">
+    <Line Name="TEXCA3A" Pattern="Dotted">
 +165439.683-0994106.048/
 +165441.880-0994112.190/
 +165444.381-0994118.204/
@@ -413,58 +413,58 @@ OMVIT</Line>
 +165604.155-0994227.794/
 +165613.426-0994228.394/
 TEXCA</Line>
-    <Symbol Type="HollowSquare">
-      <Point>ACA</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>ACA</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>KATRA</Point>
-      <Point>SELIS</Point>
-      <Point>OMVIT</Point>
-      <Point>TEXCA</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 10 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-    <Label HasLeader="false">
-      <Point>ACA</Point>
-      <Point>KATRA</Point>
-      <Point>SELIS</Point>
-      <Point>OMVIT</Point>
-      <Point>TEXCA</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 10 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="AMUSI1A" Pattern="Dotted">
-      ACA/AA422/AA423/AMUSI
-    </Line>
-    <Line Name="AMIDI1A" Pattern="Dotted">
-      AA422/AMIDI
-    </Line>
-    <Line Name="ALNUS1A" Pattern="Dotted">
-      AA422/AA426/AA427/ALNUS
-    </Line>
-    <Line Name="AGLON1A" Pattern="Dotted">
-      AA427/AGLON
-    </Line>
-    <Symbol Type="HollowStar">
-      <Point>AA422</Point>
-      <Point>AA423</Point>
-      <Point>AA426</Point>
-      <Point>AA427</Point>
-      <Point>AGLON</Point>
-      <Point>ALNUS</Point>
-      <Point>AMIDI</Point>
-      <Point>AMUSI</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 10 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-    <Label HasLeader="false">
-      <Point>AGLON</Point>
-      <Point>ALNUS</Point>
-      <Point>AMIDI</Point>
-      <Point>AMUSI</Point>
-    </Label>
-  </Map>
+        <Symbol Type="HollowSquare">
+            <Point>ACA</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>ACA</Point>
+        </Symbol>
+        <Symbol Type="SolidTriangle">
+            <Point>KATRA</Point>
+            <Point>SELIS</Point>
+            <Point>OMVIT</Point>
+            <Point>TEXCA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 10 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="false">
+            <Point>ACA</Point>
+            <Point>KATRA</Point>
+            <Point>SELIS</Point>
+            <Point>OMVIT</Point>
+            <Point>TEXCA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 10 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="AMUSI1A" Pattern="Dotted">
+            ACA/AA422/AA423/AMUSI
+        </Line>
+        <Line Name="AMIDI1A" Pattern="Dotted">
+            AA422/AMIDI
+        </Line>
+        <Line Name="ALNUS1A" Pattern="Dotted">
+            AA422/AA426/AA427/ALNUS
+        </Line>
+        <Line Name="AGLON1A" Pattern="Dotted">
+            AA427/AGLON
+        </Line>
+        <Symbol Type="HollowStar">
+            <Point>AA422</Point>
+            <Point>AA423</Point>
+            <Point>AA426</Point>
+            <Point>AA427</Point>
+            <Point>AGLON</Point>
+            <Point>ALNUS</Point>
+            <Point>AMIDI</Point>
+            <Point>AMUSI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 10 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="false">
+            <Point>AGLON</Point>
+            <Point>ALNUS</Point>
+            <Point>AMIDI</Point>
+            <Point>AMUSI</Point>
+        </Label>
+    </Map>
 </Maps>

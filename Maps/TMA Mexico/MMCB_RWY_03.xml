@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-	<Map Type="System" Name="MMCB - Pista 03 - Salidas" Priority="1" Center="+185002.690-0991541.960">
-    	<Line Name="CUA1F" Pattern="Dotted">
+    <Map Type="System" Name="MMCB - Pista 03 - Salidas" Priority="1" Center="+185002.690-0991541.960">
+            <Line Name="CUA1F" Pattern="Dotted">
 +184654.532-0991744.190/
 +184640.875-0991751.496/
 +184624.285-0991759.351/
@@ -24,7 +24,7 @@
 +184235.083-0991442.366/
 +184238.207-0991426.546/
 CUA</Line>
-		<Line Name="CVJ1B" Pattern="Dotted">
+        <Line Name="CVJ1B" Pattern="Dotted">
 +184937.100-0991559.300/
 +184329.300-0991956.603/
 +184323.189-0992000.119/
@@ -52,7 +52,7 @@ CUA</Line>
 +184225.278-0991747.239/
 +184234.190-0991743.888/
 CVJ</Line>
-		<Line Name="TEQ1C" Pattern="Dotted">
+        <Line Name="TEQ1C" Pattern="Dotted">
 +184329.300-0991956.603/
 +184324.837-0992000.448/
 +184319.001-0992005.364/
@@ -69,27 +69,27 @@ CVJ</Line>
 +184229.672-0992231.455/
 +184231.176-0992238.651/
 MAXUL</Line>
-		<Line Name="TEQ1D" Pattern="Dotted">+184341.488-0991735.044/TEQ</Line>
-		<Symbol Type="SolidTriangle">
-			<Point>MAXUL</Point>
-    	</Symbol>
-		<Symbol Type="HollowSquare">
-			<Point>CUA</Point>
-			<Point>CVJ</Point>
-			<Point>TEQ</Point>
-    	</Symbol>
-    	<Symbol Type="Circle">
-			<Point>CUA</Point>
-			<Point>CVJ</Point>
-			<Point>TEQ</Point>
-    	</Symbol>
-	</Map>
-	<Map Type="System" Name="MMCB - Pista 03 - Salidas (Nombres)" Priority="1" Center="+185002.690-0991541.960">
-    	<Label HasLeader="false">
-			<Point>CUA</Point>
-			<Point>CVJ</Point>
-			<Point>MAXUL</Point>
-			<Point>TEQ</Point>
-    	</Label>
-  	</Map>
+        <Line Name="TEQ1D" Pattern="Dotted">+184341.488-0991735.044/TEQ</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>MAXUL</Point>
+            </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CUA</Point>
+            <Point>CVJ</Point>
+            <Point>TEQ</Point>
+            </Symbol>
+            <Symbol Type="Circle">
+            <Point>CUA</Point>
+            <Point>CVJ</Point>
+            <Point>TEQ</Point>
+            </Symbol>
+    </Map>
+    <Map Type="System" Name="MMCB - Pista 03 - Salidas (Nombres)" Priority="1" Center="+185002.690-0991541.960">
+            <Label HasLeader="false">
+            <Point>CUA</Point>
+            <Point>CVJ</Point>
+            <Point>MAXUL</Point>
+            <Point>TEQ</Point>
+            </Label>
+        </Map>
 </Maps>

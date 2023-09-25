@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AlertParameters>
-  <ConflictAlerts>
-    <STCA Name="TMA" LateralNM="2.1" SecondsLookahead="60" AlertPriority="1">
-      <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
-      <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
-      <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>BXAPP,CLAPP,CUAPP,FNL05,FNL23,GLAPP,GLTMA,HOAPP,MAPPC,MXA23,MXA5,MXD23,MXD5,MXLN23,MXLN5,MXLS23,MXLS5,MYAPP,MYTMA,PRAPP,PRTMA,TJAPP,TOAPP,UNAPP,VRAPP</Volumes>
-	  <InhibitionAreas>
-		<InhibitionArea Name="MMMX" LowerLevel="0" UpperLevel="9000">
+    <ConflictAlerts>
+        <STCA Name="TMA" LateralNM="2.1" SecondsLookahead="60" AlertPriority="1">
+            <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
+            <Volumes>BXAPP,CLAPP,CUAPP,FNL05,FNL23,GLAPP,GLTMA,HOAPP,MAPPC,MXA23,MXA5,MXD23,MXD5,MXLN23,MXLN5,MXLS23,MXLS5,MYAPP,MYTMA,PRAPP,PRTMA,TJAPP,TOAPP,UNAPP,VRAPP</Volumes>
+        <InhibitionAreas>
+        <InhibitionArea Name="MMMX" LowerLevel="0" UpperLevel="9000">
 +192745.974-0985512.728/
 +191939.434-0990948.778/
 +192449.178-0991302.128/
 +193255.721-0985826.344/
 +192745.974-0985512.728</InhibitionArea>
-	  </InhibitionAreas>
-    </STCA>
-    <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
-      <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
-      <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
-      <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10,MEXC,MEXE,MEXW,MID1,MID2,MID3,MID4,MID5,MID6,MIDC,MIDE,MIDW,MTY1,MTY2,MTY3,MTY4,MTY5,MTYC,MTYW,MTYW,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZTC,MZTE,MZTW</Volumes>
-    </STCA>
-    <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
-      <Vertical LowerLevel="18000" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
-      <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
-      <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10,MEXC,MEXE,MEXW,MID1,MID2,MID3,MID4,MID5,MID6,MIDC,MIDE,MIDW,MTY1,MTY2,MTY3,MTY4,MTY5,MTYC,MTYW,MTYW,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZTC,MZTE,MZTW</Volumes>
-    </MTCA>
-  </ConflictAlerts>
-  <EMG SSRCode="7700" AlertPriority="2"/>
-  <RAD SSRCode="7600" AlertPriority="2"/>
-  <RAM WaypointNodeRadius="14" CorridorWidth="14" AirportRadius="20" AlertPriority="3"/>
-  <MPR SecondsAfterETO="180" AlertPriority="4"/>
-  <ETO SecondsDifferentFromSystem="180" AlertPriority="4"/>
-  <DAIW SecondsLookahead="60" AlertPriority="1" />
-  <CLAM AltitudeDeviation="200" MinutesMaintaining="15" AlertPriority="3"/>
-  <MSAW Height="600" SecondsLookahead="60" AlertPriority="1" />
+        </InhibitionAreas>
+        </STCA>
+        <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
+            <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
+            <Volumes>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10,MEXC,MEXE,MEXW,MID1,MID2,MID3,MID4,MID5,MID6,MIDC,MIDE,MIDW,MTY1,MTY2,MTY3,MTY4,MTY5,MTYC,MTYW,MTYW,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZTC,MZTE,MZTW</Volumes>
+        </STCA>
+        <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
+            <Vertical LowerLevel="18000" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
+            <Volumes>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10,MEXC,MEXE,MEXW,MID1,MID2,MID3,MID4,MID5,MID6,MIDC,MIDE,MIDW,MTY1,MTY2,MTY3,MTY4,MTY5,MTYC,MTYW,MTYW,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZTC,MZTE,MZTW</Volumes>
+        </MTCA>
+    </ConflictAlerts>
+    <EMG SSRCode="7700" AlertPriority="2"/>
+    <RAD SSRCode="7600" AlertPriority="2"/>
+    <RAM WaypointNodeRadius="14" CorridorWidth="14" AirportRadius="20" AlertPriority="3"/>
+    <MPR SecondsAfterETO="180" AlertPriority="4"/>
+    <ETO SecondsDifferentFromSystem="180" AlertPriority="4"/>
+    <DAIW SecondsLookahead="60" AlertPriority="1" />
+    <CLAM AltitudeDeviation="200" MinutesMaintaining="15" AlertPriority="3"/>
+    <MSAW Height="600" SecondsLookahead="60" AlertPriority="1" />
 </AlertParameters>

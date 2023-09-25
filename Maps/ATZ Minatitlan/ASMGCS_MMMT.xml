@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMMT_BLD" Priority="2" Center="+180612.960-0943449.940">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMMT_BLD" Priority="2" Center="+180612.960-0943449.940">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +180610.012-0943438.311/
 +180609.689-0943437.212/
 +180608.879-0943437.459/
@@ -13,10 +13,10 @@
 +180607.142-0943438.063/
 +180607.465-0943439.135/
 +180610.012-0943438.311</Point>
-    </Infill>
-    <!--Building 1-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--Building 1-->
+        <Infill>
+            <Point>
 +180606.167-0943438.805/
 +180604.855-0943439.244/
 +180605.013-0943439.739/
@@ -24,12 +24,12 @@
 +180604.210-0943439.025/
 +180606.043-0943438.393/
 +180606.167-0943438.805</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMMT_APR" Priority="4" Center="+180612.960-0943449.940">
-    <!--Commercial Apron-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMMT_APR" Priority="4" Center="+180612.960-0943449.940">
+        <!--Commercial Apron-->
+        <Infill>
+            <Point>
 +180612.752-0943441.607/
 +180600.942-0943445.617/
 +180600.049-0943442.705/
@@ -45,12 +45,12 @@
 +180606.098-0943440.645/
 +180611.887-0943438.750/
 +180612.752-0943441.607</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMT_TWY" Priority="3" Center="+180612.960-0943449.940">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMMT_TWY" Priority="3" Center="+180612.960-0943449.940">
+        <!--A-->
+        <Infill>
+            <Point>
 +180602.782-0943452.565/
 +180602.528-0943452.538/
 +180602.356-0943452.456/
@@ -88,10 +88,10 @@
 +180558.346-0943453.966/
 +180557.900-0943454.213/
 +180602.782-0943452.565</Point>
-    </Infill>
-    <!--C-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--C-->
+        <Infill>
+            <Point>
 +180621.204-0943446.358/
 +180621.410-0943446.221/
 +180621.534-0943446.056/
@@ -127,10 +127,10 @@
 +180625.201-0943444.765/
 +180626.196-0943444.710/
 +180621.204-0943446.358</Point>
-    </Infill>
-    <!--Gota 01-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--Gota 01-->
+        <Infill>
+            <Point>
 +180542.938-0943459.295/
 +180542.649-0943459.267/
 +180542.423-0943459.240/
@@ -154,10 +154,10 @@
 +180539.141-0943500.201/
 +180539.223-0943500.531/
 +180542.938-0943459.295</Point>
-    </Infill>
-    <!--Gota 19-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--Gota 19-->
+        <Infill>
+            <Point>
 +180644.283-0943438.503/
 +180644.214-0943438.283/
 +180644.138-0943438.091/
@@ -181,43 +181,43 @@
 +180640.897-0943439.519/
 +180640.588-0943439.766/
 +180644.283-0943438.503</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMMT_RWY" Priority="1" Center="+180612.960-0943449.940">
-    <!--01/19-->
-    <Infill>
-    <Line>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMMT_RWY" Priority="1" Center="+180612.960-0943449.940">
+        <!--01/19-->
+        <Infill>
+        <Line>
 +180539.676-0943501.959/
 +180539.209-0943500.476/
 +180644.283-0943438.475/
 +180644.743-0943439.986/
 +180539.676-0943501.959</Line>
-    </Infill>
+        </Infill>
+        </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMMT_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+180612.960-0943449.940">
+        <Label HasLeader="false">
+            <Point Name="A">+180619.400-0943442.400</Point>
+            <Point Name="C">+180559.430-0943450.530</Point>
+            <Point Name="01">+180540.050-0943502.170</Point>
+            <Point Name="19">+180642.870-0943441.050</Point>
+        </Label>
     </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMMT_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+180612.960-0943449.940">
-    <Label HasLeader="false">
-      <Point Name="A">+180619.400-0943442.400</Point>
-      <Point Name="C">+180559.430-0943450.530</Point>
-      <Point Name="01">+180540.050-0943502.170</Point>
-      <Point Name="19">+180642.870-0943441.050</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMT_GATES" CustomColourName="GroundLabel" Priority="3" Center="+180612.960-0943449.940">
-    <Line Name="Gate 1" Pattern="Solid">
-      +180611.303-0943439.299/
-      +180611.619-0943440.398
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +180609.717-0943439.849/
-      +180610.019-0943440.865
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +180608.357-0943440.316/
-      +180608.659-0943441.332
-    </Line>	
-    <Line Name="Gate 4" Pattern="Solid">
-      +180606.888-0943440.783/
-      +180607.204-0943441.799
-    </Line>	
-  </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMMT_GATES" CustomColourName="GroundLabel" Priority="3" Center="+180612.960-0943449.940">
+        <Line Name="Gate 1" Pattern="Solid">
+            +180611.303-0943439.299/
+            +180611.619-0943440.398
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +180609.717-0943439.849/
+            +180610.019-0943440.865
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +180608.357-0943440.316/
+            +180608.659-0943441.332
+        </Line> 
+        <Line Name="Gate 4" Pattern="Solid">
+            +180606.888-0943440.783/
+            +180607.204-0943441.799
+        </Line> 
+    </Map>
 </Maps>

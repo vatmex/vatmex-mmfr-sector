@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMPE_BLD" Priority="1" Center="+312105.850-1131814.120">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMPE_BLD" Priority="1" Center="+312105.850-1131814.120">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +312102.988-1131808.250/
 +312102.610-1131808.333/
 +312102.500-1131807.701/
@@ -12,9 +12,9 @@
 +312103.091-1131806.740/
 +312103.235-1131807.536/
 +312102.878-1131807.619</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +312101.560-1131808.827/
 +312100.447-1131809.102/
 +312100.365-1131808.717/
@@ -23,12 +23,12 @@
 +312101.058-1131808.772/
 +312101.010-1131808.552/
 +312101.491-1131808.442</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMPE_APR" Priority="3" Center="+312105.850-1131814.120">
-    <!--Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMPE_APR" Priority="3" Center="+312105.850-1131814.120">
+        <!--Ramp-->
+        <Infill>
+            <Point>
 +312106.751-1131811.711/
 +312106.105-1131808.333/
 +312054.199-1131811.464/
@@ -36,12 +36,12 @@
 +312100.983-1131813.002/
 +312101.127-1131813.057/
 +312101.244-1131813.139</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMPE_TWY" Priority="4" Center="+312105.850-1131814.120">
-    <!--A/B-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMPE_TWY" Priority="4" Center="+312105.850-1131814.120">
+        <!--A/B-->
+        <Infill>
+            <Point>
 +312118.224-1131815.776/
 +312117.517-1131815.693/
 +312117.201-1131815.666/
@@ -102,12 +102,12 @@
 +312115.217-1131816.270/
 +312115.093-1131816.408/
 +312114.812-1131816.627</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMPE_RWY" Priority="1" Center="+312105.850-1131814.120">
-    <!--18/36-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMPE_RWY" Priority="1" Center="+312105.850-1131814.120">
+        <!--18/36-->
+        <Infill>
+            <Point>
 +312027.378-1131830.827/
 +312027.056-1131829.097/
 +312026.973-1131828.630/
@@ -141,14 +141,14 @@
 +312146.164-1131807.783/
 +312146.260-1131808.168/
 +312146.590-1131809.898</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMPE_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+312105.850-1131814.120">
-    <Label HasLeader="false">
-      <Point Name="A">+312057.240-1131816.010</Point>
-      <Point Name="B">+312113.480-1131811.500</Point>
-      <Point Name="18">+312144.340-1131810.750</Point>
-      <Point Name="36">+312027.810-1131830.860</Point>
-    </Label>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMPE_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+312105.850-1131814.120">
+        <Label HasLeader="false">
+            <Point Name="A">+312057.240-1131816.010</Point>
+            <Point Name="B">+312113.480-1131811.500</Point>
+            <Point Name="18">+312144.340-1131810.750</Point>
+            <Point Name="36">+312027.810-1131830.860</Point>
+        </Label>
+    </Map>
 </Maps>
