@@ -612,13 +612,13 @@
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMSD" Visible="true" />
+                <Window Type="ADEP" Beacon="MMSL" Visible="true" />
             </Strips>
             <CFL QuickLevel="1200">
                 <AdditionalLevels>7400,3200,2400</AdditionalLevels>
             </CFL>
             <ArrivalLists>
-                <Airport Name="MMSD" />
+                <Airport Name="MMSL" />
             </ArrivalLists>
             <ControllerInfo>
                 <Line>>Torre San Lucas / San Lucas Tower</Line>
@@ -686,7 +686,7 @@
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Torre San Jose / San Jose Tower</Line>
-                <Line>Serving MMSD and MMSL arrivals and departures</Line>
+                <Line>Serving MMSD arrivals and departures</Line>
                 <Line>ATIS available on 127.600</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
