@@ -1372,7 +1372,7 @@
         </Airport>
         <Airport Name="MMTJ">
             <Runway Name="09" DataRunway="09">
-                <SID Name="TIJ3B" Default="True" />
+                <SID Name="TIJ3A" Default="True" />
                 <SID Name="AVEN4A" />
                 <SID Name="KREP1A" />
                 <SID Name="SEVRA4" />
@@ -1386,7 +1386,7 @@
                 <STAR Name="TOVE1A" ApproachName="ILS093.TUBUS" />
             </Runway>
             <Runway Name="27" DataRunway="27">
-                <SID Name="TIJ4A" Default="True" />
+                <SID Name="TIJ4B" Default="True" />
                 <SID Name="AVEN5B" />
                 <SID Name="KREP1B" />
                 <SID Name="SIDG1B" />
@@ -8688,10 +8688,10 @@
             <Route Runway="32">XOMSO</Route>
         </SID>
         <!--MMTJ-->
-        <SID Name="TIJ3B" Airport="MMTJ" Runways="09">
+        <SID Name="TIJ3A" Airport="MMTJ" Runways="09">
             <Route Runway="09">TIJ</Route>
         </SID>
-        <SID Name="TIJ4A" Airport="MMTJ" Runways="27">
+        <SID Name="TIJ4B" Airport="MMTJ" Runways="27">
             <Route Runway="27">TIJ</Route>
         </SID>
         <SID Name="AVEN4A" Airport="MMTJ" Runways="09">
