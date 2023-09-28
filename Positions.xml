@@ -2238,10 +2238,6 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
-            <ATIS>
-                <Editor Airport="MMAA" Frequency="115.9" Server="NA" />
-                <Window Airport="MMAA" />
-            </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMAA" Visible="true" />
             </Strips>
@@ -2252,7 +2248,6 @@
             <ControllerInfo>
                 <Line>Torre Acapulco / Acapulco Tower</Line>
                 <Line>Serving MMAA arrivals and departures</Line>
-                <Line>ATIS available on 127.000</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
@@ -2277,10 +2272,6 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
-            <ATIS>
-                <Editor Airport="MMAA" Frequency="115.9" Server="NA" />
-                <Window Airport="MMAA" />
-            </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMAA" Visible="true" />
             </Strips>
@@ -2293,7 +2284,6 @@
             <ControllerInfo>
                 <Line>Aproximacion Acapulco / Acapulco Approach</Line>
                 <Line>Serving MMAA arrivals and departures</Line>
-                <Line>ATIS available on 127.000</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>

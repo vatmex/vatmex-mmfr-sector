@@ -2,6 +2,9 @@
 <Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <SystemRunways>
         <Airport Name="MMAA">
+            <Runway Name="06" DataRunway="06">
+                <SID Name="ACA3C" />
+            </Runway>
             <Runway Name="10" DataRunway="10">
                 <SID Name="ACA3A" Default="True" />
                 <SID Name="AGLO1A" />
@@ -16,6 +19,9 @@
                 <STAR Name="ANVA1A" ApproachName="ILS103.ATUMU" />
                 <STAR Name="AVUR1A" ApproachName="ILS103.APLUR" />
             </Runway>
+            <Runway Name="24" DataRunway="24">
+                <SID Name="ACA5D" />
+            </Runway>
             <Runway Name="28" DataRunway="28">
                 <SID Name="ACA4B" Default="True" />
                 <SID Name="AGLO1B" />
@@ -29,12 +35,6 @@
                 <STAR Name="ANAL1B" ApproachName="ILS283.ITRAM" />
                 <STAR Name="ANVA1B" ApproachName="ILS283.AVRIM" />
                 <STAR Name="AVUR1B" ApproachName="ILS283.ITRAM" />
-            </Runway>
-            <Runway Name="06" DataRunway="06">
-                <SID Name="ACA3C" />
-            </Runway>
-            <Runway Name="24" DataRunway="24">
-                <SID Name="ACA5D" />
             </Runway>
         </Airport>
         <Airport Name="MMAN">
@@ -5351,13 +5351,13 @@
             <Route Runway="10">ANALU AA413 AA412 APREN</Route>
         </STAR>
         <STAR Name="ANAL1B" Airport="MMAA" Runways="28">
-            <Route Runway="10">ANALU AA507 AA506 ANALU</Route>
+            <Route Runway="10">ANALU AA507 AA506 ITRAM</Route>
         </STAR>
         <STAR Name="ANVA1A" Airport="MMAA" Runways="10">
             <Route Runway="10">ANVAN AA417 AA416 ATUMU</Route>
         </STAR>
         <STAR Name="ANVA1B" Airport="MMAA" Runways="28">
-            <Route Runway="28">ANVAN AA417 AA416 ATUMU</Route>
+            <Route Runway="28">ANVAN AA518 AVRIM</Route>
         </STAR>
         <STAR Name="AVUR1A" Airport="MMAA" Runways="10">
             <Route Runway="10">AVURO AA409 APLUR</Route>
