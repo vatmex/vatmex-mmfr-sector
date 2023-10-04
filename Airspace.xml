@@ -1217,7 +1217,7 @@
                 <SID Name="SJD2E" />
                 <SID Name="UKUX1D" />
                 <STAR Name="ALRI1G" ApproachName="RNP29.TESAC" />
-                <STAR Name="CSL3" ApproachName="RNP29.TESAC" />
+                <STAR Name="CSL3" />
                 <STAR Name="ENEK1C" ApproachName="RNP29.TESAC" />
                 <STAR Name="ILIG1E" ApproachName="RNP29.TESAC" />
                 <STAR Name="LEPO1C" ApproachName="RNP29.TESAC" />
@@ -4310,6 +4310,7 @@
         <Point Name="ITSAK" Type="Fix">+204620.398-0894459.301</Point>
         <Point Name="JAFEY" Type="Fix">+202756.199-0892829.301</Point>
         <Point Name="JAYES" Type="Fix">+203125.030-1030551.220</Point>
+        <Point Name="JERVI" Type="Fix">+224648.500-1094953.500</Point>
         <Point Name="KAROR" Type="Fix">+211304.400-0871451.000</Point>
         <Point Name="KATMI" Type="Fix">+193149.600-1000735.900</Point>
         <Point Name="KATPO" Type="Fix">+254633.200-0994314.200</Point>
@@ -4708,7 +4709,6 @@
         <Point Name="SD505" Type="Fix">+225938.698-1093304.899</Point>
         <Point Name="SD506" Type="Fix">+224141.701-1090653.398</Point>
         <Point Name="SD507" Type="Fix">+233230.699-1091236.201</Point>
-        <Point Name="SD507" Type="Fix">+233230.700-1091236.200</Point>
         <Point Name="SD508" Type="Fix">+234829.700-1091009.100</Point>
         <Point Name="SD601" Type="Fix">+225501.099-1090216.900</Point>
         <Point Name="SD602" Type="Fix">+231347.600-1093253.699</Point>
@@ -8246,7 +8246,7 @@
             <Route Runway="11">SL502 SL504 AVAVU UKUXA</Route>
         </SID>
         <SID Name="UKUX1D" Airport="MMSL" Runways="29">
-            <Route Runway="29">>SL500 SL503 SL502 SL504 AVAVU SL501 ILIGA</Route>
+            <Route Runway="29">>SL500 SL503 SL502 SL504 AVAVU UKUXA</Route>
         </SID>
         <STAR Name="ALRI1G" Airport="MMSL" Runways="29">
             <Route Runway="29">ALRIN SD403 DASON SL404 SL400 AVURU SL406 TESAC</Route>
@@ -8265,6 +8265,9 @@
         </STAR>
         <Approach Name="RNP29.TESAC" Airport="MMSL" Runway="29">
             <Route>TESAC SL702 SL701 SL700</Route>
+        </Approach>
+        <Approach Name="RNP29.JERVI" Airport="MMSL" Runway="29">
+            <Route>JERVI SL702 SL701 SL700</Route>
         </Approach>
         <!--MMSM-->
         <SID Name="ATUR1C" Airport="MMSM" Runways="04C">

@@ -611,12 +611,14 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <ATIS>
+                <Editor Airport="MMSL" Frequency="127.000" Server="NA" />
+                <Window Airport="MMSL" />
+            </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSL" Visible="true" />
             </Strips>
-            <CFL QuickLevel="1200">
-                <AdditionalLevels>7400,3200,2400</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMSL" />
             </ArrivalLists>
@@ -641,12 +643,14 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <ATIS>
+                <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
+                <Window Airport="MMSD" />
+            </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSD" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
-                <AdditionalLevels>7400,3200,2400</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMSD" />
             </ArrivalLists>
@@ -678,9 +682,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSD" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
-                <AdditionalLevels>7400,3200,2400</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMSD" />
             </ArrivalLists>
@@ -719,7 +721,7 @@
                 <Window Type="ADEP" Beacon="MMSD" Visible="true" />
             </Strips>
             <CFL QuickLevel="1200">
-                <AdditionalLevels>7400,3200,2400</AdditionalLevels>
+                <AdditionalLevels>2400,3200,7400</AdditionalLevels>
             </CFL>
             <ArrivalLists>
                 <Airport Name="MMSD" />
@@ -727,7 +729,7 @@
             <ControllerInfo>
                 <Line>Aproximacion San Jose / San Jose Approach</Line>
                 <Line>Serving MMSD and MMSL arrivals and departures</Line>
-                <Line>ATIS available on 127.600</Line>
+                <Line>ATIS available on 127.600 and 127.000</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>
