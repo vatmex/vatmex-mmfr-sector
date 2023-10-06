@@ -1479,31 +1479,6 @@
             </Runway>
         </Airport>
         <Airport Name="MMUN">
-            <Runway Name="12R" DataRunway="12R">
-                <SID Name="CUN3A" Default="True" />
-                <SID Name="ANTE2A" />
-                <SID Name="BOTO2A" />
-                <SID Name="CZM1A" />
-                <SID Name="DUGN2A" />
-                <SID Name="DUMB1A" />
-                <SID Name="ENEB2A" />
-                <SID Name="HECA1A" />
-                <SID Name="LIDE2A" />
-                <SID Name="NOSU1A" />
-                <SID Name="NUDA1A" />
-                <SID Name="NUKA1A" />
-                <SID Name="OMSU2A" />
-                <SID Name="ROTG1A" />
-                <SID Name="TAKU1A" />
-                <SID Name="UDGU1A" />
-                <SID Name="VOBE2A" />
-                <STAR Name="ILUB1E" ApproachName="ILS12R4.EBMIS" />
-                <STAR Name="NOSA1B" ApproachName="ILS12R4.RIDUG" />
-                <STAR Name="PAUL1G" ApproachName="ILS12R4.EBMIS" />
-                <STAR Name="SIGM1G" ApproachName="ILS12R4.EBMIS" />
-                <STAR Name="VOMA1A" ApproachName="ILS12R4.VIKSI" />
-                <STAR Name="XUDU1A" ApproachName="ILS12R4.KAROR" />
-            </Runway>
             <Runway Name="12L" DataRunway="12L">
                 <SID Name="CUN3B" Default="True" />
                 <SID Name="ANTE2B" />
@@ -1522,12 +1497,37 @@
                 <SID Name="TAKU1B" />
                 <SID Name="UDGU1B" />
                 <SID Name="VOBE2B" />
-                <STAR Name="ILUB1F" ApproachName="ILS12L4.EBMIS" />
-                <STAR Name="NOSA1B" ApproachName="ILS12L4.RIDUG" />
-                <STAR Name="PAUL1H" ApproachName="ILS12L4.EBMIS" />
-                <STAR Name="SIGM1H" ApproachName="ILS12L4.EBMIS" />
-                <STAR Name="VOMA1A" ApproachName="ILS12L4.VIKSI" />
-                <STAR Name="XUDU1A" ApproachName="ILS12L4.KAROR" />
+                <STAR Name="ILUB1F" ApproachName="ILS12L3.EBMIS" />
+                <STAR Name="NOSA1B" ApproachName="ILS12L3.RIDUG" />
+                <STAR Name="PAUL1H" ApproachName="ILS12L3.EBMIS" />
+                <STAR Name="SIGM1H" ApproachName="ILS12L3.EBMIS" />
+                <STAR Name="VOMA1A" ApproachName="ILS12L3.VIKSI" />
+                <STAR Name="XUDU1A" ApproachName="ILS12L3.KAROR" />
+            </Runway>
+            <Runway Name="12R" DataRunway="12R">
+                <SID Name="CUN3A" Default="True" />
+                <SID Name="ANTE2A" />
+                <SID Name="BOTO2A" />
+                <SID Name="CZM1A" />
+                <SID Name="DUGN2A" />
+                <SID Name="DUMB1A" />
+                <SID Name="ENEB2A" />
+                <SID Name="HECA1A" />
+                <SID Name="LIDE2A" />
+                <SID Name="NOSU1A" />
+                <SID Name="NUDA1A" />
+                <SID Name="NUKA1A" />
+                <SID Name="OMSU2A" />
+                <SID Name="ROTG1A" />
+                <SID Name="TAKU1A" />
+                <SID Name="UDGU1A" />
+                <SID Name="VOBE2A" />
+                <STAR Name="ILUB1E" ApproachName="ILS12R3.EBMIS" />
+                <STAR Name="NOSA1B" ApproachName="ILS12R3.RIDUG" />
+                <STAR Name="PAUL1G" ApproachName="ILS12R3.EBMIS" />
+                <STAR Name="SIGM1G" ApproachName="ILS12R3.EBMIS" />
+                <STAR Name="VOMA1A" ApproachName="ILS12R3.VIKSI" />
+                <STAR Name="XUDU1A" ApproachName="ILS12R3.KAROR" />
             </Runway>
             <Runway Name="30L" DataRunway="30L">
                 <SID Name="CUN3C" Default="True" />
@@ -1546,12 +1546,12 @@
                 <SID Name="ROTG1F" />
                 <SID Name="UDGU1F" />
                 <SID Name="VOBE2C" />
-                <STAR Name="ILUB1G" ApproachName="RNP30L2.SESLI" />
-                <STAR Name="NOSA1D" ApproachName="RNP30L2.OTSOL" />
-                <STAR Name="PAUL1K" ApproachName="RNP30L2.LOPKA" />
-                <STAR Name="SIGM1I" ApproachName="RNP30L2.SESLI" />
-                <STAR Name="VOMA1C" ApproachName="RNP30L2.OTSOL" />
-                <STAR Name="XUDU1D" ApproachName="RNP30L2.LOPKA" />
+                <STAR Name="ILUB1G" ApproachName="RNP30L.SESLI" />
+                <STAR Name="NOSA1D" ApproachName="RNP30L.OTSOL" />
+                <STAR Name="PAUL1K" ApproachName="RNP30L.LOPKA" />
+                <STAR Name="SIGM1I" ApproachName="RNP30L.SESLI" />
+                <STAR Name="VOMA1C" ApproachName="RNP30L.OTSOL" />
+                <STAR Name="XUDU1D" ApproachName="RNP30L.LOPKA" />
             </Runway>
             <Runway Name="30R" DataRunway="30R">
                 <SID Name="CUN3D" Default="True" />
@@ -1570,12 +1570,12 @@
                 <SID Name="ROTG1E" />
                 <SID Name="UDGU1E" />
                 <SID Name="VOBE2D" />
-                <STAR Name="ILUB1G" ApproachName="RNP30R2.SESLI" />
-                <STAR Name="NOSA1D" ApproachName="RNP30R2.OTSOL" />
-                <STAR Name="PAUL1L" ApproachName="RNP30R2.LOPKA" />
-                <STAR Name="SIGM1I" ApproachName="RNP30R2.SESLI" />
-                <STAR Name="VOMA1C" ApproachName="RNP30R2.OTSOL" />
-                <STAR Name="XUDU1E" ApproachName="RNP30R2.LOPKA" />
+                <STAR Name="ILUB1G" ApproachName="RNP30R.SESLI" />
+                <STAR Name="NOSA1D" ApproachName="RNP30R.OTSOL" />
+                <STAR Name="PAUL1L" ApproachName="RNP30R.LOPKA" />
+                <STAR Name="SIGM1I" ApproachName="RNP30R.SESLI" />
+                <STAR Name="VOMA1C" ApproachName="RNP30R.OTSOL" />
+                <STAR Name="XUDU1E" ApproachName="RNP30R.LOPKA" />
             </Runway>
         </Airport>
         <Airport Name="MMVA">
@@ -9093,7 +9093,7 @@
             <Route Runway="12R">ILUBA URVEN UN524 UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
         <STAR Name="ILUB1F" Airport="MMUN" Runways="12L">
-            <Route Runway="12R">ILUBA URVEN UN524 UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
+            <Route Runway="12L">ILUBA URVEN UN524 UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
         <STAR Name="ILUB1G" Airport="MMUN" Runways="30L,30R">
             <Route Runway="30L">ILUBA ALRIP QUADY SESLI</Route>
@@ -9111,13 +9111,13 @@
             <Route Runway="12R">PAULE CZM UN518 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
         <STAR Name="PAUL1H" Airport="MMUN" Runways="12L">
-            <Route Runway="12R">PAULE CZM UN518 UN511 UN519 UN514 ELINO EBMIS</Route>
+            <Route Runway="12L">PAULE CZM UN518 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
         <STAR Name="PAUL1K" Airport="MMUN" Runways="30L">
-            <Route Runway="30L">PAULE UN610 CZM UN612 LOPKA</Route>
+            <Route Runway="30L">PAULE UN610 CZM UN611 UN612 LOPKA</Route>
         </STAR>
         <STAR Name="PAUL1L" Airport="MMUN" Runways="30R">
-            <Route Runway="30R">PAULE UN610 CZM UN612 LOPKA</Route>
+            <Route Runway="30R">PAULE UN610 CZM UN611 UN612 LOPKA</Route>
         </STAR>
         <STAR Name="SIGM1G" Airport="MMUN" Runways="12R">
             <Route Runway="12R">SIGMA OVGED HURIN UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
@@ -9148,46 +9148,46 @@
         <STAR Name="XUDU1E" Airport="MMUN" Runways="30R">
             <Route Runway="30R">XUDUN BEPOR BUBUN SCAHA UN605 UN608 DEPVA LOPKA</Route>
         </STAR>
-        <Approach Name="ILS12L4.RIDUG" Airport="MMUN" Runway="12L">
+        <Approach Name="ILS12L3.RIDUG" Airport="MMUN" Runway="12L">
             <Route>RIDUG UN505 UN528 UN529 UN532</Route>
         </Approach>
-        <Approach Name="ILS12L4.VIKSI" Airport="MMUN" Runway="12L">
+        <Approach Name="ILS12L3.VIKSI" Airport="MMUN" Runway="12L">
             <Route>VIKSI UN505 UN528 UN529 UN532</Route>
         </Approach>
-        <Approach Name="ILS12L4.KAROR" Airport="MMUN" Runway="12L">
+        <Approach Name="ILS12L3.KAROR" Airport="MMUN" Runway="12L">
             <Route>KAROR UN505 UN528 UN529 UN532</Route>
         </Approach>
-        <Approach Name="ILS12L4.EBMIS" Airport="MMUN" Runway="12L">
+        <Approach Name="ILS12L3.EBMIS" Airport="MMUN" Runway="12L">
             <Route>EBMIS UN505 UN528 UN529 UN532</Route>
         </Approach>
-        <Approach Name="ILS12R4.RIDUG" Airport="MMUN" Runway="12R">
+        <Approach Name="ILS12R3.RIDUG" Airport="MMUN" Runway="12R">
             <Route>RIDUG UN506 UN540 UN545</Route>
         </Approach>
-        <Approach Name="ILS12R4.VIKSI" Airport="MMUN" Runway="12R">
+        <Approach Name="ILS12R3.VIKSI" Airport="MMUN" Runway="12R">
             <Route>VIKSI UN506 UN540 UN545</Route>
         </Approach>
-        <Approach Name="ILS12R4.KAROR" Airport="MMUN" Runway="12R">
+        <Approach Name="ILS12R3.KAROR" Airport="MMUN" Runway="12R">
             <Route>KAROR UN506 UN540 UN545</Route>
         </Approach>
-        <Approach Name="ILS12R4.EBMIS" Airport="MMUN" Runway="12R">
+        <Approach Name="ILS12R3.EBMIS" Airport="MMUN" Runway="12R">
             <Route>EBMIS UN506 UN540 UN545</Route>
         </Approach>
-        <Approach Name="RNP30L2.OTSOL" Airport="MMUN" Runway="30L">
+        <Approach Name="RNP30L.OTSOL" Airport="MMUN" Runway="30L">
             <Route>OTSOL UN604 UN630 UN631 UN632</Route>
         </Approach>
-        <Approach Name="RNP30L2.SESLI" Airport="MMUN" Runway="30L">
+        <Approach Name="RNP30L.SESLI" Airport="MMUN" Runway="30L">
             <Route>SESLI UN604 UN630 UN631 UN632</Route>
         </Approach>
-        <Approach Name="RNP30L2.LOPKA" Airport="MMUN" Runway="30L">
+        <Approach Name="RNP30L.LOPKA" Airport="MMUN" Runway="30L">
             <Route>LOPKA UN604 UN630 UN631 UN632</Route>
         </Approach>
-        <Approach Name="RNP30R2.OTSOL" Airport="MMUN" Runway="30R">
+        <Approach Name="RNP30R.OTSOL" Airport="MMUN" Runway="30R">
             <Route>OTSOL UN601 UN619 UN620 UN621 UN622</Route>
         </Approach>
-        <Approach Name="RNP30R2.SESLI" Airport="MMUN" Runway="30R">
+        <Approach Name="RNP30R.SESLI" Airport="MMUN" Runway="30R">
             <Route>SESLI UN601 UN619 UN620 UN621 UN622</Route>
         </Approach>
-        <Approach Name="RNP30R2.LOPKA" Airport="MMUN" Runway="30R">
+        <Approach Name="RNP30R.LOPKA" Airport="MMUN" Runway="30R">
             <Route>LOPKA UN601 UN619 UN620 UN621 UN622</Route>
         </Approach>
         <!--MMVA-->
