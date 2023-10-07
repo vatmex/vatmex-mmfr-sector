@@ -1018,7 +1018,7 @@
         </Position>
     </Group>
     <Group Name="ACC Mérida">
-        <Position Name="MMCE" Type="ASMGCS" ASMGCSAirport="MMCE" DefaultCenter="+183906.380-0914758.720" DefaultRange="2" MagneticVariation="-3" Rotation="313">
+        <Position Name="MMCE" Type="ASMGCS" ASMGCSAirport="MMCE" DefaultCenter="+183906.380-0914758.720" DefaultRange="2" MagneticVariation="-1" Rotation="313">
             <Maps>
             <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_RWY" />
             <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_APR" />
@@ -1147,16 +1147,20 @@
                 <Map Name="TMA Villahermosa/ASMGCS_MMVA_GATES" />
             </Maps>
         </Position>
-        <Position Name="Torre Carmen - CETW1" Type="ASD" DefaultCenter="+183907.072-0914758.356" DefaultRange="20" MagneticVariation="-1">
+        <Position Name="Torre Carmen - CETW1" Type="ASD" DefaultCenter="+183932.875-0914751.520" DefaultRange="40" MagneticVariation="-1">
             <Sectors>
                 <Sector Name="CETW1" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Pistas" />
-                <Map Name="TMA Ciudad del Carmen/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="TMA Ciudad del Carmen/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <ATIS>
+                <Editor Airport="MMCE" Frequency="127.800" Server="NA" />
+                <Window Airport="MMCE" />
+            </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCE" Visible="true" />
             </Strips>
@@ -1178,7 +1182,7 @@
             <Maps>
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Pistas" />
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Ciudad del Carmen/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="TMA Ciudad del Carmen/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Fijos 13" />
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Fijos 13 (Nombres)" />
@@ -1187,6 +1191,10 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <ATIS>
+                <Editor Airport="MMCE" Frequency="127.800" Server="NA" />
+                <Window Airport="MMCE" />
+            </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCE" Visible="true" />
             </Strips>
@@ -1624,8 +1632,8 @@
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
-            </ATIS>
-            <Strips Mode="Beacon" Sort="Alpha">
+            </ATIS
+>            <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
             <CFL QuickLevel="24000">
