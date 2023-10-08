@@ -228,6 +228,10 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <ATIS>
+                <Editor Airport="MMCN" Frequency="127.600" Server="NA" />
+                <Window Airport="MMCN" />
+            </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCN" Visible="true" />
             </Strips>
@@ -4234,6 +4238,34 @@
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Torre Victoria / Victoria Tower</Line>
+                <Line>Serving MMCV arrivals and departures</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
+        <Position Name="Aproximación Victoria - CVAPP" Type="ASD" DefaultCenter="+233552.902-0985822.387" DefaultRange="180" MagneticVariation="-6">
+            <Sectors>
+                <Sector Name="CVAPP" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Ciudad Victoria/Aeropuerto - Pistas" />
+                <Map Name="TMA Ciudad Victoria/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="TMA Ciudad Victoria/Aeropuerto - Area Terminal (TMA)" />
+
+                <Map Name="ACC Monterrey/Limites - Sectores" />
+
+                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMCV" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMCV" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Aproximacion Victoria / Victoria Approach</Line>
                 <Line>Serving MMCV arrivals and departures</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
