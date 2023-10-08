@@ -183,6 +183,7 @@ TOVER</Line>
     </Map>
     <Map Type="System" Name="Pista 02 - Llegadas RNAV" Priority="1" Center="+244554.215-1072830.547">
         <!--STARs-->
+        <Line Name="AMEDA1A" Pattern="Dashed">AMEDA/CL408</Line>
         <Line Name="AVTAL1C" Pattern="Dashed">AVTAL/CL820/CL801/CL409/VEVLO</Line>
         <Line Name="ELEGU1C" Pattern="Dashed">ELEGU/CL407/CL408/CL414/VODAS/CL405/USDAP</Line>
         <Line Name="ILAVI1C" Pattern="Dashed">ILAVI/CL411/BERUR</Line>
@@ -191,6 +192,7 @@ TOVER</Line>
         <Line Name="OLAKA1A" Pattern="Dashed">OLAKA/VIVUX/BERUR</Line>
         <Line Name="SAVOM1A" Pattern="Dashed">SAVOM/CL801</Line>
         <Symbol Type="HollowStar">
+            <Point>AMEDA</Point>
             <Point>AVTAL</Point>
             <Point>BERUR</Point>
             <Point>CL405</Point>
@@ -217,6 +219,7 @@ TOVER</Line>
     </Map>
     <Map Type="System" Name="Pista 02 - Llegadas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
+            <Point>AMEDA</Point>
             <Point>AVTAL</Point>
             <Point>BERUR</Point>
             <Point>CUL</Point>
@@ -442,9 +445,9 @@ XUKMA</Line>
     <Map Type="System" Name="Pista 02 - Salidas RNAV" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="AVTAL1A" Pattern="Dotted">CL620/CL803/AVTAL</Line>
         <Line Name="ELEGU1A" Pattern="Dotted">+244618.240-1072813.370/CL620/ELEGU</Line>
-        <Line Name="IKBOR1A" Pattern="Dotted">CL620/CL601/CL811/CL822/IKBOR</Line>
-        <Line Name="ILAVI1A" Pattern="Dotted">CL811/CL608/ILAVI</Line>
-        <Line Name="KIPAX1A" Pattern="Dotted">CL620/CL602/CL603/KIPAX</Line>
+        <Line Name="IKBOR1A" Pattern="Dotted">+244618.240-1072813.370/CL601/CL811/CL822/IKBOR</Line>
+        <Line Name="ILAVI1A" Pattern="Dotted">CL601/CL811/CL608/ILAVI</Line>
+        <Line Name="KIPAX1A" Pattern="Dotted">+244618.240-1072813.370/CL602/CL603/KIPAX</Line>
         <Line Name="MUVEN1A" Pattern="Dotted">CL620/CL604/CL605/OLEXU/CL819/MUVEN</Line>
         <Symbol Type="HollowStar">
             <Point>AVTAL</Point>

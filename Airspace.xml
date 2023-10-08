@@ -164,6 +164,7 @@
                 <SID Name="OLEX3A" />
                 <SID Name="PELSA1" />
                 <SID Name="XUKMA2" />
+                <STAR Name="AMED1A" ApproachName="RNP02.USDAP" />
                 <STAR Name="AVTA1C" ApproachName="RNP02.VEVLO" />
                 <STAR Name="ELEG1C" ApproachName="RNP02.USDAP" />
                 <STAR Name="ILAV1C" ApproachName="RNP02.BERUR" />
@@ -188,6 +189,7 @@
                 <SID Name="VIVUX2" />
                 <SID Name="XOMGA3" />
                 <SID Name="XORUB3" />
+                <STAR Name="AMED1B" ApproachName="RNP20.TALNU" />
                 <STAR Name="AVTA1D" ApproachName="RNP20.SAVIR" />
                 <STAR Name="ELEG1D" ApproachName="RNP20.OTIMA" />
                 <STAR Name="ILAV1D" ApproachName="RNP20.TALNU" />
@@ -2842,7 +2844,7 @@
         <Point Name="AMALU" Type="Fix">+252833.000-1035131.000</Point>
         <Point Name="AMARI" Type="Fix">+233658.000-1100220.000</Point>
         <Point Name="AMAVO" Type="Fix">+211315.000-1040441.000</Point>
-        <Point Name="AMEDA" Type="Fix">+255219.000-1075338.000</Point>
+        <Point Name="AMEDA" Type="Fix">+255218.600-1075337.800</Point>
         <Point Name="AMEKU" Type="Fix">+182952.000-0985911.000</Point>
         <Point Name="AMIDA" Type="Fix">+183441.000-0872059.000</Point>
         <Point Name="AMIDI" Type="Fix">+164927.600-0985316.900</Point>
@@ -5687,7 +5689,7 @@
             <Route Runway="02">CL620 CL803 AVTAL</Route>
         </SID>
         <SID Name="AVTA1B" Airport="MMCL" Runways="20">
-            <Route Runway="20">CL700 CL715 CL712 CL714 CL716 CL820 AVTAL</Route>
+            <Route Runway="20">CL715 CL712 CL714 CL716 CL820 AVTAL</Route>
         </SID>
         <SID Name="BOKT2A" Airport="MMCL" Runways="02">
             <Route Runway="02">BOKTA</Route>
@@ -5708,19 +5710,19 @@
             <Route Runway="20">EVATE</Route>
         </SID>
         <SID Name="IKBO1A" Airport="MMCL" Runways="02">
-            <Route Runway="02">CL620 CL601 CL811 CL822 IKBOR</Route>
+            <Route Runway="02">CL601 CL811 CL822 IKBOR</Route>
         </SID>
         <SID Name="IKBO1B" Airport="MMCL" Runways="20">
             <Route Runway="20">CL700 CL717 CL822 IKBOR</Route>
         </SID>
         <SID Name="ILAV1A" Airport="MMCL" Runways="02">
-            <Route Runway="02">SIKMO CB611 UMADA</Route>
+            <Route Runway="02">CL601 CL811 CL608 ILAVI</Route>
         </SID>
         <SID Name="ILAV1B" Airport="MMCL" Runways="20">
-            <Route Runway="20">CL620 CL601 CL811 CL608 ILAVI</Route>
+            <Route Runway="20">CL700 CL717 CL822 CL704 ILAVI</Route>
         </SID>
         <SID Name="KIPA1A" Airport="MMCL" Runways="02">
-            <Route Runway="02">CL620 CL602 CL603 KIPAX</Route>
+            <Route Runway="02">CL602 CL603 KIPAX</Route>
         </SID>
          <SID Name="KIPA1B" Airport="MMCL" Runways="20">
             <Route Runway="20">CL700 CL718 CL719 KIPAX</Route>
@@ -5732,7 +5734,7 @@
             <Route Runway="02">CL620 CL604 CL605 OLEXU CL819 MUVEN</Route>
         </SID>
          <SID Name="MUVE1B" Airport="MMCL" Runways="20">
-            <Route Runway="20">CL700 CL715 CL712 CL714 CL819 MUVEN</Route>
+            <Route Runway="20">CL715 CL712 CL714 CL819 MUVEN</Route>
         </SID>
          <SID Name="OLEX3A" Airport="MMCL" Runways="02">
             <Route Runway="02">OLEXU</Route>
@@ -5758,10 +5760,16 @@
         <SID Name="XUKMA2" Airport="MMCL" Runways="02">
             <Route Runway="02">XUKMA</Route>
         </SID>
+        <STAR Name="AMED1A" Airport="MMCL" Runways="02">
+            <Route Runway="02">AMEDA CL408 CL414 VODAS CL405 USDAP</Route>
+        </STAR>
+        <STAR Name="AMED1B" Airport="MMCL" Runways="20">
+            <Route Runway="20">AMEDA CL519 CL514 TALNU</Route>
+        </STAR>
         <STAR Name="AVTA1C" Airport="MMCL" Runways="02">
             <Route Runway="02">AVTAL CL820 CL801 CL409 VEVLO</Route>
         </STAR>
-            <STAR Name="AVTA1D" Airport="MMCL" Runways="20">
+        <STAR Name="AVTA1D" Airport="MMCL" Runways="20">
             <Route Runway="20">AVTAL CL528 CL527 CL803 SAVIR</Route>
         </STAR>
         <STAR Name="ELEG1C" Airport="MMCL" Runways="02">
