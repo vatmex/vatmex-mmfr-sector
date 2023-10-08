@@ -1477,6 +1477,7 @@
                 <Point>+163353.260-0930146.046</Point>
             </ManualVisibility>
         </Position>
+
         <!-- MMUN TMA -->
         <Position Name="Torre Cozumel - CZTW1" Type="ASD" DefaultCenter="+203123.258-0865535.437" DefaultRange="50" MagneticVariation="+2">
             <Sectors>
@@ -1636,8 +1637,8 @@
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
-            </ATIS
->            <Strips Mode="Beacon" Sort="Alpha">
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
             <CFL QuickLevel="24000">

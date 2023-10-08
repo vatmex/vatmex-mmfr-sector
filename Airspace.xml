@@ -6139,7 +6139,7 @@
             <Route Runway="30">ITPIG</Route>
         </SID>
         <SID Name="ITPI1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ATHLO FEDGE DAXUM ITPIG</Route>
+            <Route Runway="12">ATHLO FEDGE ITPIG</Route>
         </SID>
         <SID Name="ITPI1D" Airport="MMCZ" Runways="30">
             <Route Runway="30">CZ604 IRDUS ILEKO ITPIG</Route>
@@ -6211,7 +6211,7 @@
             <Route Runway="12">ATHLO CZ402 XOSIX</Route>
         </SID>
         <SID Name="XOSI1B" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ606 XOSIX</Route>
+            <Route Runway="30">CZ605 XOSIX</Route>
         </SID>
         <STAR Name="AVSI1C" Airport="MMCZ" Runways="12">
             <Route Runway="12">AVSIM CZ522 CZ501 ONGAV</Route>
@@ -6258,11 +6258,11 @@
         <Approach Name="RNP12.ONGAV" Airport="MMCZ" Runway="12">
             <Route>ONGAV CZ519 CALHO</Route>
         </Approach>
-        <Approach Name="RNP30.EMPAM" Airport="MMCZ" Runway="30">
-            <Route>EMPAM CZ705 CZ706</Route>
-        </Approach>
         <Approach Name="RNP30.BEREB" Airport="MMCZ" Runway="30">
             <Route>BEREB CZ705 CZ706</Route>
+        </Approach>
+        <Approach Name="RNP30.EMPAM" Airport="MMCZ" Runway="30">
+            <Route>EMPAM CZ705 CZ706</Route>
         </Approach>
         <!--MMDO-->
         <SID Name="DGO4A" Airport="MMDO" Runways="03">
@@ -9586,7 +9586,7 @@
             <Runway Name="05" Position="+284148.540-1055819.840" />
             <Runway Name="23" Position="+284208.490-1055746.400" />
         </Airport>
-        <Airport ICAO="MMCV" FullName="CIUDAD VICTORIA" Position="+234212.350-0985723.200" Elevation="761">
+        <Airport ICAO="MMCV" FullName="CIUDAD VICTORIA" Position="+234212.260-0985723.160" Elevation="761">
             <Runway Name="15" Position="+234244.950-0985738.540" />
             <Runway Name="33" Position="+234139.670-0985707.850" />
         </Airport>
