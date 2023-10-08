@@ -147,6 +147,8 @@
                 <Map Name="TMA Tijuana/ASMGCS_MMTJ_GATES" />
             </Maps>
         </Position>
+
+        <!-- TMA Culiacan -->
         <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="CLTW1" />
@@ -214,6 +216,8 @@
                 <Point>+244601.668-1072829.390</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Obregon -->
         <Position Name="Torre Obregon (Procedimientos) - CNTW1" Type="ASD" DefaultCenter="+271551.856-1095003.388" DefaultRange="225" MagneticVariation="-9">
             <Sectors>
                 <Sector Name="CNTW1" />
@@ -246,6 +250,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Durango -->
         <Position Name="Torre Durango (Procedimientos) - DOTW1" Type="ASD" DefaultCenter="+241008.814-1043117.976" DefaultRange="215" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="DOTW1" />
@@ -279,6 +285,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Hermosillo -->
         <Position Name="Torre Guaymas - GMTW1" Type="ASD" DefaultCenter="+275809.560-1105525.380" DefaultRange="20" MagneticVariation="-11">
             <Sectors>
                 <Sector Name="GMTW1" />
@@ -379,6 +387,8 @@
                 <Point>+271340.583-1093523.767</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Los Mochis -->
         <Position Name="Torre Los Mochis (Procedimientos) - LMTW1" Type="ASD" DefaultCenter="+253113.203-1090601.835" DefaultRange="240" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="LMTW1" />
@@ -407,6 +417,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA La Paz -->
         <Position Name="Torre La Paz - LPTW1" Type="ASD" DefaultCenter="+240421.890-1102145.150" DefaultRange="50" MagneticVariation="-10">
             <Sectors>
                 <Sector Name="LPTW1" />
@@ -461,6 +473,8 @@
                 <Point>+240439.904-1102148.252</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ATZ Loreto -->
         <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="20" MagneticVariation="-10">
             <Sectors>
                 <Sector Name="LTTW1" />
@@ -484,6 +498,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Mexicali -->
         <Position Name="Torre Mexicali (Procedimientos) - MLTW1" Type="ASD" DefaultCenter="+321658.378-1151644.096" DefaultRange="120" MagneticVariation="-10">
             <Sectors>
                 <Sector Name="MLTW1" />
@@ -512,6 +528,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Mazatlan -->
         <Position Name="Torre Mazatlan - MZTW1" Type="ASD" DefaultCenter="+230927.423-1061621.931" DefaultRange="50" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="MZTW1" />
@@ -579,6 +597,8 @@
                 <Point>+230950.865-1061611.768</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ATZ Peñasco -->
         <Position Name="Torre Peñasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="20" MagneticVariation="-12">
             <Sectors>
                 <Sector Name="PETW1" />
@@ -601,6 +621,8 @@
                 <Line>Serving MMPE arrivals and departures</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Cabos -->
         <Position Name="Torre San Lucas - SLTW1" Type="ASD" DefaultCenter="+225653.965-1095617.973" DefaultRange="40" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="SLTW1" />
@@ -740,6 +762,8 @@
                 <Point>+230849.836-1094325.930</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Tijuana -->
         <Position Name="Torre Ensenada - ESTW1" Type="ASD" DefaultCenter="+314742.900-1163613.350" DefaultRange="30" MagneticVariation="-12">
             <Sectors>
                 <Sector Name="ESTW1" />
@@ -883,6 +907,8 @@
                 <Point>+323235.360-1165813.350</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ACC Mazatlan -->
         <Position Name="Centro Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="400">
             <Sectors>
                 <Sector Name="MZTC" />
@@ -1021,6 +1047,7 @@
             </ManualVisibility>
         </Position>
     </Group>
+
     <Group Name="ACC Mérida">
         <Position Name="MMCE" Type="ASMGCS" ASMGCSAirport="MMCE" DefaultCenter="+183906.380-0914758.720" DefaultRange="2" MagneticVariation="-1" Rotation="313">
             <Maps>
@@ -1151,6 +1178,8 @@
                 <Map Name="TMA Villahermosa/ASMGCS_MMVA_GATES" />
             </Maps>
         </Position>
+
+        <!-- TMA Carmen -->
         <Position Name="Torre Carmen - CETW1" Type="ASD" DefaultCenter="+183932.875-0914751.520" DefaultRange="40" MagneticVariation="-1">
             <Sectors>
                 <Sector Name="CETW1" />
@@ -1213,6 +1242,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- ATZ Chetumal -->
         <Position Name="Torre Chetumal - CMTW1" Type="ASD" DefaultCenter="+183016.692-0881936.469" DefaultRange="20" MagneticVariation="+1">
             <Sectors>
                 <Sector Name="CMTW1" />
@@ -1236,6 +1267,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- ATZ Campeche -->
         <Position Name="Torre Campeche - CPTW1" Type="ASD" DefaultCenter="+194900.500-0903001.109" DefaultRange="20" MagneticVariation="-1">
             <Sectors>
                 <Sector Name="CPTW1" />
@@ -1282,6 +1315,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- ATZ Ixtepec -->
         <Position Name="Torre Ixtepec - ITTW1" Type="ASD" DefaultCenter="+162657.423-0950537.303" DefaultRange="40" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="ITTW1" />
@@ -1305,6 +1340,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Mérida -->
         <Position Name="Autorización Mérida - MDCDL" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="80" MagneticVariation="0">
             <Sectors>
                 <Sector Name="MDCDL" />
@@ -1400,6 +1437,8 @@
                 <Point>+205613.283-0893920.962</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- Torre Minatitlan -->
         <Position Name="Torre Minatitlan - MTTW1" Type="ASD" DefaultCenter="+180612.034-0943450.213" DefaultRange="20" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MTTW1" />
@@ -1423,6 +1462,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- ATZ Palenque -->
         <Position Name="Torre Palenque - PQTW1" Type="ASD" DefaultCenter="+173158.856-0920056.125" DefaultRange="20" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="PQTW1" />
@@ -1446,6 +1487,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Tuxla Gutierrez -->
         <Position Name="Torre Tuxtla (Procedimientos) - TGTW1" Type="ASD" DefaultCenter="+162914.929-0930242.378" DefaultRange="210" MagneticVariation="-2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="TGTW1" />
@@ -1478,7 +1521,7 @@
             </ManualVisibility>
         </Position>
 
-        <!-- MMUN TMA -->
+        <!-- TMA Cancún  -->
         <Position Name="Torre Cozumel - CZTW1" Type="ASD" DefaultCenter="+203123.258-0865535.437" DefaultRange="50" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="CZTW1" />
@@ -1501,9 +1544,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCZ" Visible="true" />
             </Strips>
-            <CFL QuickLevel="24000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMCZ" />
             </ArrivalLists>
@@ -1788,6 +1829,7 @@
             </ManualVisibility>
         </Position>
 
+        <!-- TMA Villahermosa -->
         <Position Name="Torre Villahermosa - VATW1" Type="ASD" DefaultCenter="+175949.261-0924853.333" DefaultRange="20" MagneticVariation="-2">
             <Sectors>
                 <Sector Name="VATW1" />
@@ -1843,6 +1885,8 @@
                 <Point>+175938.261-0924900.573</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ACC Mérida -->
         <Position Name="Centro Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDC" />
@@ -1978,6 +2022,7 @@
             </ManualVisibility>
         </Position>
     </Group>
+
     <Group Name="ACC México">
         <Position Name="MMAA" Type="ASMGCS" ASMGCSAirport="MMAA" DefaultCenter="+164523.800-0994455.300" DefaultRange="2" MagneticVariation="-5" Rotation="167">
             <Maps>
@@ -2240,6 +2285,8 @@
                 <Map Name="TMA Manzanillo/ASMGCS_MMZO_GATES" />
             </Maps>
         </Position>
+
+        <!-- TMA Acapulco -->
         <Position Name="Torre Acapulco - ACTW1" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="75" MagneticVariation="-5">
             <Sectors>
                 <Sector Name="ACTW1" />
@@ -2307,6 +2354,8 @@
                 <Point>+164515.456-0994448.684</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ATZ Huatulco -->
         <Position Name="Torre Huatulco - BTTW1" Type="ASD" DefaultCenter="+154631.183-0961545.199" DefaultRange="25" MagneticVariation="-3">
             <Sectors>
                 <Sector Name="BTTW1" />
@@ -2330,6 +2379,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Guadalajara -->
         <Position Name="Autorización Guadalajara - GLCDL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="GLCDL" />
@@ -2524,29 +2575,8 @@
                 <Point>+20.521804-103.311110</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Torre Colima - IATW1" Type="ASD" DefaultCenter="+191637.240-1033439.370" DefaultRange="45" MagneticVariation="-8">
-            <Sectors>
-                <Sector Name="IATW1" />
-            </Sectors>
-            <Maps>
-                <Map Name="ATZ Colima/Aeropuerto - Pistas" />
-                <Map Name="ATZ Colima/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
-            </Maps>
-            <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMIA" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000" />
-            <ArrivalLists>
-                <Airport Name="MMIA" />
-            </ArrivalLists>
-            <ControllerInfo>
-                <Line>Torre Colima / Colima Tower</Line>
-                <Line>Serving MMIA arrivals and departures</Line>
-                <Line>ATC feedback - vatmex.com.mx</Line>
-            </ControllerInfo>
-        </Position>
+        <!-- TMA León -->
         <Position Name="Torre Aguascalientes - ASTW1" Type="ASD" DefaultCenter="+214241.671-1021907.937" DefaultRange="45" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="ASTW1" />
@@ -2659,6 +2689,8 @@
                 <Point>+203242.275-1005506.281</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Morelia -->
         <Position Name="Torre Morelia (Procedimientos) - MMTW1" Type="ASD" DefaultCenter="+193747.029-1010428.121" DefaultRange="220" MagneticVariation="-7" VisibilityRange="100">
             <Sectors>
                 <Sector Name="MMTW1" />
@@ -2689,6 +2721,8 @@
                 <Point>+195028.512-1010222.932</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA México -->
         <Position Name="Torre Cuernavaca - CBTW1" Type="ASD" DefaultCenter="+185004.239-0991541.730" DefaultRange="65" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="CBTW1" />
@@ -3111,6 +3145,8 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Oaxaca -->
         <Position Name="Torre Oaxaca - OXTW1" Type="ASD" DefaultCenter="+165954.915-0964333.746" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="OXTW1" />
@@ -3169,6 +3205,8 @@
                 <Point>+165828.621-0964347.078</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ATZ Poza Rica -->
         <Position Name="Torre Poza Rica - PATW1" Type="ASD" DefaultCenter="+203607.540-0972738.140" DefaultRange="20" MagneticVariation="-5">
             <Sectors>
                 <Sector Name="PATW1" />
@@ -3192,7 +3230,9 @@
                 <Line>Serving MMPA arrivals and departures</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
-        </Position>    
+        </Position>
+
+        <!-- ATZ Uruapan -->
         <Position Name="Torre Uruapan - PNTW1" Type="ASD" DefaultCenter="+192347.230-1020219.990" DefaultRange="20" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="PNTW1" />
@@ -3217,6 +3257,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Vallarta -->
         <Position Name="Torre Tepic - EPTW1" Type="ASD" DefaultCenter="+212509.930-1045033.180" DefaultRange="50" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="EPTW1" />
@@ -3359,6 +3401,8 @@
                 <Point>+204038.560-1051430.447</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ATZ Escondido -->
         <Position Name="Torre Escondido - PSTW1" Type="ASD" DefaultCenter="+155236.901-0970520.700" DefaultRange="20" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="PSTW1" />
@@ -3383,6 +3427,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Querétaro -->
         <Position Name="Torre Querétaro - QTTW1" Type="ASD" DefaultCenter="+203704.000-1001112.000" DefaultRange="50" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="QTTW1" />
@@ -3443,6 +3489,8 @@
                 <Point>+203652.269-1001124.943</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Potosí -->
         <Position Name="Torre Potosí - SPTW1" Type="ASD" DefaultCenter="+221515.342-1005550.738" DefaultRange="60" MagneticVariation="-5">
             <Sectors>
                 <Sector Name="SPTW1" />
@@ -3511,30 +3559,8 @@
                 <Point>+221522.179-1005601.267</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Torre Tampico - TMTW1" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="60" MagneticVariation="-6">
-            <Sectors>
-                <Sector Name="TMTW1" />
-            </Sectors>
-            <Maps>
-                <Map Name="TMA Tampico/Aeropuerto - Pistas" />
-                <Map Name="TMA Tampico/MMTM - Zona de Control (CTR)" />
 
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
-            </Maps>
-            <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMTM" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000" />
-            <ArrivalLists>
-                <Airport Name="MMTM" />
-            </ArrivalLists>
-            <ControllerInfo>
-                <Line>Torre Tampico / Tampico Tower</Line>
-                <Line>Serving MMTM arrivals and departures</Line>
-                <Line>ATC feedback - vatmex.com.mx</Line>
-            </ControllerInfo>
-        </Position>
+        <!-- Torre Tampico -->
         <Position Name="Torre Tamuín - TNTW1" Type="ASD" DefaultCenter="+220218.100-0984823.600" DefaultRange="20" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="TNTW1" />
@@ -3556,6 +3582,30 @@
             <ControllerInfo>
                 <Line>Torre Tamuin / Tamuin Tower</Line>
                 <Line>Serving MMTN arrivals and departures</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
+        <Position Name="Torre Tampico - TMTW1" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="60" MagneticVariation="-6">
+            <Sectors>
+                <Sector Name="TMTW1" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Tampico/Aeropuerto - Pistas" />
+                <Map Name="TMA Tampico/MMTM - Zona de Control (CTR)" />
+
+                <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTM" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMTM" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Torre Tampico / Tampico Tower</Line>
+                <Line>Serving MMTM arrivals and departures</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
@@ -3592,6 +3642,8 @@
                 <Point>+221722.671-0975144.846</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Veracruz -->
         <Position Name="Torre Veracruz - VRTW1" Type="ASD" DefaultCenter="+190844.810-0961114.510" DefaultRange="50" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="VRTW1" />
@@ -3669,6 +3721,8 @@
                 <Point>+190819.899-0961126.096</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ATZ Zacatecas -->
         <Position Name="Torre Zacatecas - ZCTW1" Type="ASD" DefaultCenter="+225350.623-1024108.772" DefaultRange="20" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="ZCTW1" />
@@ -3694,6 +3748,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Zihuatanejo -->
         <Position Name="Torre Zihuatanejo - ZHTW1" Type="ASD" DefaultCenter="+173605.840-1012737.990" DefaultRange="50" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="ZHTW1" />
@@ -3749,6 +3805,31 @@
                 <Point>+173605.749-1012723.280</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Colima -->
+        <Position Name="Torre Colima - IATW1" Type="ASD" DefaultCenter="+191637.240-1033439.370" DefaultRange="45" MagneticVariation="-8">
+            <Sectors>
+                <Sector Name="IATW1" />
+            </Sectors>
+            <Maps>
+                <Map Name="ATZ Colima/Aeropuerto - Pistas" />
+                <Map Name="ATZ Colima/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMIA" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMIA" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Torre Colima / Colima Tower</Line>
+                <Line>Serving MMIA arrivals and departures</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
         <Position Name="Torre Manzanillo (Procedimientos) - ZOTW1" Type="ASD" DefaultCenter="+190841.140-1043330.530" DefaultRange="240" MagneticVariation="-8" VisibilityRange="100">
             <Sectors>
                 <Sector Name="ZOTW1" />
@@ -3780,6 +3861,8 @@
                 <Point>+190853.118-1043410.845</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ACC México -->
         <Position Name="Centro México (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXC" />
@@ -3969,6 +4052,7 @@
             </ManualVisibility>
         </Position>
     </Group>
+
     <Group Name="ACC Monterrey">
         <Position Name="MMAN" Type="ASMGCS" ASMGCSAirport="MMAN" DefaultCenter="+255156.808-1001432.507" DefaultRange="2" MagneticVariation="-5" Rotation="243">
             <Maps>
@@ -4088,6 +4172,8 @@
                 <Map Name="TMA Torreon/ASMGCS_MMTC_GATES" />
             </Maps>
         </Position>
+
+        <!-- TMA Juarez -->
         <Position Name="Torre Juarez - CSTW1" Type="ASD" DefaultCenter="+313810.896-1062543.544" DefaultRange="20" MagneticVariation="-10" VisibilityRange="100">
             <Sectors>
                 <Sector Name="CSTW1" />
@@ -4144,6 +4230,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Chihuahua -->
         <Position Name="Torre Chihuahua - CUTW1" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="40" MagneticVariation="-8" VisibilityRange="100">
             <Sectors>
                 <Sector Name="CUTW1" />
@@ -4219,6 +4307,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Victoria -->
         <Position Name="Torre Victoria - CVTW1" Type="ASD" DefaultCenter="+234212.350-0985723.200" DefaultRange="20" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="CVTW1" />
@@ -4271,6 +4361,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Saltillo -->
         <Position Name="Torre Saltillo - IOTW1" Type="ASD" DefaultCenter="+253259.233-1005542.075" DefaultRange="50" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="IOTW1" />
@@ -4295,6 +4387,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Matamoros -->
         <Position Name="Torre Matamoros - MATW1" Type="ASD" DefaultCenter="+254611.814-0973130.844" DefaultRange="40" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MATW1" />
@@ -4319,6 +4413,8 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
+
+        <!-- TMA Monterrey -->
         <Position Name="Terrestre Del Norte - ANSMC" Type="ASD" DefaultCenter="+255156.180-1001413.960" DefaultRange="50" MagneticVariation="-5" >
             <Sectors>
                 <Sector Name="ANSMC" />
@@ -4566,6 +4662,8 @@
                 <Point>+254653.997-1000622.132</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Newla -->
         <Position Name="Torre Nuevo Laredo (Procedimientos) - NLTW1" Type="ASD" DefaultCenter="+271946.331-0994545.566" DefaultRange="190" MagneticVariation="-5" VisibilityRange="100">
             <Sectors>
                 <Sector Name="NLTW1" />
@@ -4597,6 +4695,8 @@
                 <Point>+263407.419-0994244.017</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMX Reynosa -->
         <Position Name="Torre Reynosa - RXTW1" Type="ASD" DefaultCenter="+260030.910-0981341.697" DefaultRange="40" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="RXTW1" />
@@ -4656,6 +4756,8 @@
                 <Point>+251805.181-0980150.550</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- TMA Torreón -->
         <Position Name="Torre Torreón - TCTW1" Type="ASD" DefaultCenter="+253405.840-1032438.440" DefaultRange="20" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="TCTW1" />
@@ -4712,6 +4814,8 @@
                 <Point>+253349.086-1032425.851</Point>
             </ManualVisibility>
         </Position>
+
+        <!-- ACC Monterrey -->
         <Position Name="Centro Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MTYC" />
