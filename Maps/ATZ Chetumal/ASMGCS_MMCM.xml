@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="Ground_BLD" Name="ASMGCS_MMCM_BLD" Priority="1" Center="+183017.620-0881938.930">
+    <Map Type="Ground_BLD" Name="ASMGCS_MMCM_BLD" Priority="1" Center="+194900.471-0903001.105">
         <!--Terminal-->
         <Infill>
             <Point>
@@ -33,7 +33,7 @@
 +183022.473-0881924.852</Point>
         </Infill>
     </Map>
-    <Map Type="Ground_APR" Name="ASMGCS_MMCM_APR" Priority="3" Center="+183017.620-0881938.930">
+    <Map Type="Ground_APR" Name="ASMGCS_MMCM_APR" Priority="3" Center="+194900.471-0903001.105">
         <!--Commercial Ramp-->
         <Infill>
             <Point>
@@ -55,7 +55,7 @@
 +183021.752-0881935.289</Point>
         </Infill>
     </Map>
-    <Map Type="Ground_TWY" Name="ASMGCS_MMCM_TWY" Priority="2" Center="+183017.620-0881938.930">
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCM_TWY" Priority="2" Center="+194900.471-0903001.105">
         <!--A-->
         <Infill>
             <Point>
@@ -83,7 +83,7 @@
 +183014.968-0881928.725</Point>
         </Infill>
     </Map>
-    <Map Type="Ground_RWY" Name="ASMGCS_MMCM_RWY" Priority="1" Center="+183017.620-0881938.930">
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCM_RWY" Priority="1" Center="+194900.471-0903001.105">
 <!--10/28-->
 <Infill>
     <Line>
@@ -124,14 +124,14 @@
 +183032.196-0882028.546</Line>
 </Infill>
 </Map>
-    <Map Type="Ground_RWY" Name="ASMGCS_MMCM_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+183017.620-0881938.930">
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCM_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+194900.471-0903001.105">
         <Label HasLeader="false">
             <Point Name="A">+183018.970-0881929.610</Point>
             <Point Name="10">+183031.350-0882026.770</Point>
             <Point Name="28">+183004.840-0881901.630</Point>
         </Label>
     </Map>
-    <Map Type="Ground_TWY" Name="ASMGCS_MMCM_GATES" CustomColourName="GroundLabel" Priority="1" Center="+183017.620-0881938.930">
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCM_GATES" CustomColourName="GroundLabel" Priority="1" Center="+194900.471-0903001.105">
         <Line Name="Gate 1" Pattern="Solid">
             +183021.780-0881928.890/
             +183020.777-0881929.219
