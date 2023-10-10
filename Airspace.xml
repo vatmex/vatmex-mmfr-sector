@@ -5992,7 +5992,7 @@
             <Route Runway="18L">VILPO</Route>
         </SID>
         <STAR Name="BOKM1C" Airport="MMCU" Runways="18L">
-            <Route Runway="18L">BOKMO CU514 CU512 CU211 CU506 PELTA</Route>
+            <Route Runway="18L">BOKMO CU514 CU512 CU511 CU506 PELTA</Route>
         </STAR>
         <STAR Name="BOKM1D" Airport="MMCU" Runways="36R">
             <Route Runway="36R">BOKMO CU606 BESUD</Route>
@@ -6028,7 +6028,7 @@
             <Route Runway="18L">UMEDO CU508 EBLOR</Route>
         </STAR>
         <STAR Name="UMED1B" Airport="MMCU" Runways="36R">
-            <Route Runway="36R">UMEDO CU419 CU418 ELVAN</Route>
+            <Route Runway="36R">UMEDO CU419 CU418 ELVAN AMURU</Route>
         </STAR>
         <STAR Name="VIXE1A" Airport="MMCU" Runways="18L">
             <Route Runway="18L">VIXER CU507 CU506 PELTA</Route>
@@ -9586,13 +9586,13 @@
             <Runway Name="10" Position="+203836.939-0882733.972" />
             <Runway Name="28" Position="+203820.710-0882558.860" />
         </Airport>
-        <Airport ICAO="MMCU" FullName="CHIHUAHUA" Position="+284208.380-1055746.670" Elevation="4465">
-            <Runway Name="18L" Position="+284252.930-1055739.560" />
-            <Runway Name="36R" Position="+284129.800-1055757.670" />
-            <Runway Name="18R" Position="+284248.350-1055748.420" />
-            <Runway Name="36L" Position="+284131.150-1055805.250" />
-            <Runway Name="05" Position="+284148.540-1055819.840" />
-            <Runway Name="23" Position="+284208.490-1055746.400" />
+        <Airport ICAO="MMCU" FullName="CHIHUAHUA" Position="+284208.490-1055746.500" Elevation="4465">
+            <Runway Name="18L" Position="+284252.910-1055739.580" />
+            <Runway Name="36R" Position="+284129.910-1055757.650" />
+            <Runway Name="18R" Position="+284248.310-1055748.440" />
+            <Runway Name="36L" Position="+284132.700-1055804.890" />
+            <Runway Name="05" Position="+284149.320-1055818.550" />
+            <Runway Name="23" Position="+284208.490-1055746.500" />
         </Airport>
         <Airport ICAO="MMCV" FullName="CIUDAD VICTORIA" Position="+234212.260-0985723.160" Elevation="761">
             <Runway Name="15" Position="+234245.140-0985738.630" />
