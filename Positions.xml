@@ -2399,15 +2399,45 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
             </Strips>
-            <CFL QuickLevel="23000">
-                <AdditionalLevels>8200,9200,9400</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMGL" />
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Autorizacion Guadalajara / Guadalajara Delivery</Line>
                 <Line>Serving MMGL departures</Line>
+                <Line>ATIS available on 127.900</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+20.521804-103.311110</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="Rampa Guadalajara - GLCCO" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
+            <Sectors>
+                <Sector Name="GLCCO" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
+                <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+
+                <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
+
+                <Map Name="ACC Mexico/Limites - Sectores" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMGL" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Rampa Guadalajara / Guadalajara Ramp</Line>
+                <Line>Serving MMGL arrivals and departures</Line>
                 <Line>ATIS available on 127.900</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -2433,9 +2463,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
             </Strips>
-            <CFL QuickLevel="23000">
-                <AdditionalLevels>8200,9200,9400</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMGL" />
             </ArrivalLists>
@@ -2471,8 +2499,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
             </Strips>
-            <CFL QuickLevel="23000">
-                <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+            <CFL QuickLevel="20000" /><AdditionalLevels>8200,9200,9400</AdditionalLevels>
             </CFL>
             <ArrivalLists>
                 <Airport Name="MMGL" />
@@ -2531,9 +2558,9 @@
                 <Point>+20.521804-103.311110</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximación Guadalajara (Terminal) - GLTMA" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" VisibilityRange="150">
+        <Position Name="Aproximación Guadalajara (Terminal) - GLTML" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" VisibilityRange="150">
             <Sectors>
-                <Sector Name="GLTMA" />
+                <Sector Name="GLTML" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />

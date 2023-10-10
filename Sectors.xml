@@ -215,19 +215,22 @@
         <Volumes>MMBT_ATZ</Volumes>
     </Sector>
     <!--MMGL TMA-->
-    <Sector FullName="Autorización Guadalara" Frequency="132.800" Callsign="MMGL_DEL" Name="GLCDL" DisplayInHandoffWindow="False">
+    <Sector FullName="Autorización Guadalajara" Frequency="132.800" Callsign="MMGL_DEL" Name="GLCDL" DisplayInHandoffWindow="False">
         <Volumes>MMGL_CTR</Volumes>
     </Sector>
-    <Sector FullName="Terrestre Guadalara" Frequency="121.900" Callsign="MMGL_GND" Name="GLSMC" DisplayInHandoffWindow="False">
+    <Sector FullName="Rampa Guadalajara" Frequency="134.100" Callsign="MMGL_R_GND" Name="GLCCO" DisplayInHandoffWindow="False">
         <Volumes>MMGL_CTR</Volumes>
     </Sector>
-    <Sector FullName="Torre Guadalara" Frequency="118.100" Callsign="MMGL_TWR" Name="GLTW1" DisplayInHandoffWindow="False">
+    <Sector FullName="Terrestre Guadalajara" Frequency="121.900" Callsign="MMGL_GND" Name="GLSMC" DisplayInHandoffWindow="False">
         <Volumes>MMGL_CTR</Volumes>
     </Sector>
-    <Sector FullName="Aproximación Guadalara" Frequency="120.800" Callsign="MMGL_APP" Name="GLAPP">
+    <Sector FullName="Torre Guadalajara" Frequency="118.100" Callsign="MMGL_TWR" Name="GLTW1" DisplayInHandoffWindow="False">
+        <Volumes>MMGL_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Aproximación Guadalajara" Frequency="120.800" Callsign="MMGL_APP" Name="GLAPP">
         <Volumes>MMGL_TMA</Volumes>
     </Sector>
-    <Sector FullName="Terminal Guadalara" Frequency="119.300" Callsign="MMGL_T_APP" Name="GLTMA">
+    <Sector FullName="Terminal Guadalajara" Frequency="119.300" Callsign="MMGL_T_APP" Name="GLTML">
         <Volumes>MMGL_TMA</Volumes>
     </Sector>
     <!--MMIA ATZ-->

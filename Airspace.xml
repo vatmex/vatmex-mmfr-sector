@@ -6453,7 +6453,7 @@
             <Route Runway="11">MODEX GL540 ULOGA GL512 GL513 GL514 DULNO</Route>
         </STAR>
         <STAR Name="MODE1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">MODEX GL825 GL826 GL827 GL829 PLADE</Route>
+            <Route Runway="29">MODEX GL825 GL826 GL827 GL828 PLADE</Route>
         </STAR>
         <STAR Name="USBI1C" Airport="MMGL" Runways="11">
             <Route Runway="11">USBIM EMEXO GL522 GL523 GL824 DATSO</Route>
@@ -6467,11 +6467,17 @@
         <STAR Name="ULUV1B" Airport="MMGL" Runways="29">
             <Route Runway="29">ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
         </STAR>
+        <Approach Name="ILS11Z.DATSO" Airport="MMGL" Runway="11">
+            <Route>DATSO GL620 GL621 GL622 GL623</Route>
+        </Approach>
         <Approach Name="ILS11Z.DULNO" Airport="MMGL" Runway="11">
             <Route>DULNO GL620 GL621 GL622 GL623</Route>
         </Approach>
-        <Approach Name="ILS11Z.DATSO" Airport="MMGL" Runway="11">
-            <Route>DATSO GL620 GL621 GL622 GL623</Route>
+        <Approach Name="ILS29Z.APRIM" Airport="MMGL" Runway="29">
+            <Route>APRIM GL980 GL981</Route>
+        </Approach>
+        <Approach Name="ILS29Z.AXELO" Airport="MMGL" Runway="29">
+            <Route>AXELO GL980 GL981</Route>
         </Approach>
         <Approach Name="ILS29Z.PLADE" Airport="MMGL" Runway="29">
             <Route>PLADE GL980 GL981</Route>
