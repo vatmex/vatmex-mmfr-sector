@@ -4388,6 +4388,32 @@
             </ControllerInfo>
         </Position>
 
+        <!-- ATZ Barrancas del Cobre -->
+        <Position Name="Torre Creel - GATW1" Type="ASD" DefaultCenter="+274333.400-1073915.650" DefaultRange="30" MagneticVariation="-9">
+            <Sectors>
+                <Sector Name="GATW1" />
+            </Sectors>
+            <Maps>
+                <Map Name="ATZ Barrancas del Cobre/Aeropuerto - Pistas" />
+                <Map Name="ATZ Barrancas del Cobre/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+                <Map Name="ACC Monterrey/Limites - Sectores" />
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMGA" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMGA" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Torre Creel / Creel Tower</Line>
+                <Line>Serving MMGA arrivals and departures</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
+
         <!-- TMA Saltillo -->
         <Position Name="Torre Saltillo - IOTW1" Type="ASD" DefaultCenter="+253259.233-1005542.075" DefaultRange="50" MagneticVariation="-6">
             <Sectors>
