@@ -1680,7 +1680,7 @@
                 <SID Name="ZIH3B" Default="True" />
                 <SID Name="AVROX4" />
                 <SID Name="AVUR2D" />
-                <SID Name="EBDAG4" />
+                <SID Name="EBGAB4" />
                 <SID Name="GABNU4" />
                 <SID Name="IGSA2B" />
                 <SID Name="IKLU2B" />
@@ -9427,7 +9427,7 @@
         <SID Name="AVUR2D" Airport="MMZH" Runways="27">
             <Route Runway="27">ZH700 ZH703 ZH704 ZH200 AVURO</Route>
         </SID>
-        <SID Name="EBDAG4" Airport="MMZH" Runways="27">
+        <SID Name="EBGAB4" Airport="MMZH" Runways="27">
             <Route Runway="27">EBGAD</Route>
         </SID>
         <SID Name="GABNU4" Airport="MMZH" Runways="27">
@@ -9502,17 +9502,17 @@
         <STAR Name="VILT2D" Airport="MMZH" Runways="27">
             <Route Runway="27">VILTO ZH707 ZH709 ZH710 ZH711 SEGOB</Route>
         </STAR>
-        <Approach Name="RNP09.IMENU" Airport="MMZH" Runway="09">
-            <Route>IMENU ZH400 ZH408</Route>
-        </Approach>
         <Approach Name="RNP09.ALUNO" Airport="MMZH" Runway="09">
-            <Route>ALUNO ZH400 ZH408</Route>
+            <Route>ALUNO ZH400 ZH401</Route>
         </Approach>
-        <Approach Name="RNP27.SEGOB" Airport="MMZH" Runway="27">
-            <Route>SEGOB ZH500 ZH501</Route>
+        <Approach Name="RNP09.IMENU" Airport="MMZH" Runway="09">
+            <Route>IMENU ZH400 ZH401</Route>
         </Approach>
         <Approach Name="RNP27.IMIBA" Airport="MMZH" Runway="27">
             <Route>IMIBA ZH503 ZH500 ZH501</Route>
+        </Approach>
+        <Approach Name="RNP27.SEGOB" Airport="MMZH" Runway="27">
+            <Route>SEGOB ZH500 ZH501</Route>
         </Approach>
         <!--MMZO-->
         <SID Name="ZLO3A" Airport="MMZO" Runways="10">
