@@ -6817,7 +6817,7 @@
             <Route Runway="13">LO900 LO901 UKIRO</Route>
         </SID>
         <SID Name="UKIR1D" Airport="MMLO" Runways="31">
-            <Route Runway="31">LO701 LO702 UKIRO</Route>
+            <Route Runway="31">LO702 UKIRO</Route>
         </SID>
         <SID Name="URVEM3" Airport="MMLO" Runways="13">
             <Route Runway="13">URVEM</Route>
@@ -6867,11 +6867,11 @@
         <Approach Name="RNP31.ULUMU" Airport="MMLO" Runway="31">
             <Route>ULUMU LO501 LO500</Route>
         </Approach>
-        <Approach Name="RNP31.XESIN" Airport="MMLO" Runway="31">
-            <Route>XESIN LO501 LO500</Route>
-        </Approach>
         <Approach Name="RNP31.VIRVO" Airport="MMLO" Runway="31">
             <Route>VIRVO LO501 LO500</Route>
+        </Approach>
+        <Approach Name="RNP31.XESIN" Airport="MMLO" Runway="31">
+            <Route>XESIN LO501 LO500</Route>
         </Approach>
         <!--MMLP-->
         <SID Name="LAP4A" Airport="MMLP" Runways="18">
@@ -9663,8 +9663,8 @@
             <Runway Name="22" Position="+162735.207-0950537.342" />
         </Airport>
         <Airport ICAO="MMLO" FullName="LEON" Position="+205935.880-1012851.460" Elevation="5956">
-            <Runway Name="13" Position="+193415.300-0991737.140" />
-            <Runway Name="31" Position="+193444.340-0991704.140" />
+            <Runway Name="13" Position="+210015.510-1012934.930" />
+            <Runway Name="31" Position="+205856.240-1012808.000" />
         </Airport>
         <Airport ICAO="MMLC" FullName="LAZARO CARDENAS" Position="+180009.200-1021311.800" Elevation="39" />
         <Airport ICAO="MMLM" FullName="LOS MOCHIS" Position="+254107.880-1090452.190" Elevation="16">
