@@ -4441,15 +4441,19 @@
         </Position>
 
         <!-- TMA Matamoros -->
-        <Position Name="Torre Matamoros - MATW1" Type="ASD" DefaultCenter="+254611.814-0973130.844" DefaultRange="40" MagneticVariation="-4">
+        <Position Name="Torre Matamoros (Procedimientos) - MATW1" Type="ASD" DefaultCenter="+253343.867-0972937.643" DefaultRange="110" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MATW1" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Matamoros/Aeropuerto - Pistas" />
+                <Map Name="TMA Matamoros/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Matamoros/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
+
+                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">

@@ -657,6 +657,7 @@
                 <SID Name="DARVO2" />
                 <SID Name="GAGPI2" />
                 <SID Name="OVEGI2" />
+                <SID Name="RADAS2" />
             </Runway>
             <Runway Name="33" DataRunway="33">
                 <SID Name="MAM4B" Default="True" />
@@ -6936,20 +6937,23 @@
         <SID Name="DARVO2" Airport="MMMA" Runways="15">
             <Route Runway="15">DARVO</Route>
         </SID>
+        <SID Name="EBDAT2" Airport="MMMA" Runways="33">
+            <Route Runway="33">EBDAT</Route>
+        </SID>
         <SID Name="GAGPI2" Airport="MMMA" Runways="15">
             <Route Runway="15">GAGPI</Route>
         </SID>
-        <SID Name="OVEGI2" Airport="MMMA" Runways="15">
-            <Route Runway="15">OVEGI</Route>
+        <SID Name="IRBID2" Airport="MMMA" Runways="33">
+            <Route Runway="33">IRBID</Route>
         </SID>
         <SID Name="MAM4B" Airport="MMMA" Runways="33">
             <Route Runway="33">MAM</Route>
         </SID>
-        <SID Name="EBDAT2" Airport="MMMA" Runways="33">
-            <Route Runway="33">EBDAT</Route>
+        <SID Name="OVEGI2" Airport="MMMA" Runways="15">
+            <Route Runway="15">OVEGI</Route>
         </SID>
-        <SID Name="IRBID2" Airport="MMMA" Runways="33">
-            <Route Runway="33">IRBID</Route>
+        <SID Name="RADAS2" Airport="MMMA" Runways="15">
+            <Route Runway="15">RADAS</Route>
         </SID>
         <!--MMMD-->
         <SID Name="DAPI2A" Airport="MMMD" Runways="10">
@@ -9679,9 +9683,9 @@
             <Runway Name="16" Position="+255959.058-1112058.877" />
             <Runway Name="34" Position="+255848.032-1112049.251" />
         </Airport>
-        <Airport ICAO="MMMA" FullName="MATAMOROS" Position="+254611.813-0973130.843" Elevation="25">
-            <Runway Name="15" Position="+254645.820-0973147.427" />
-            <Runway Name="33" Position="+254537.779-0973114.261" />
+        <Airport ICAO="MMMA" FullName="MATAMOROS" Position="+254611.780-0973130.850" Elevation="25">
+            <Runway Name="15" Position="+254645.960-0973147.520" />
+            <Runway Name="33" Position="+254537.590-0973114.180" />
         </Airport>
         <Airport ICAO="MMMD" FullName="MERIDA" Position="+205613.280-0893927.700" Elevation="38">
             <Runway Name="10" Position="+205612.900-0893926.266" />
