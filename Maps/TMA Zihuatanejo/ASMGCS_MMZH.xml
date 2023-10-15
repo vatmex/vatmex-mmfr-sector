@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMZH_BLD" Priority="1" Center="+173610.590-1012737.700">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMZH_BLD" Priority="1" Center="+173610.590-1012737.700">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +173623.896-1012752.448/
 +173623.244-1012752.448/
 +173623.251-1012752.723/
@@ -23,12 +23,12 @@
 +173623.306-1012747.944/
 +173623.299-1012749.509/
 +173623.834-1012749.482</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMZH_APR" Priority="2" Center="+173610.590-1012737.700">
-    <!--Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMZH_APR" Priority="2" Center="+173610.590-1012737.700">
+        <!--Ramp-->
+        <Infill>
+            <Point>
 +173620.641-1012752.750/
 +173620.181-1012735.694/
 +173617.023-1012735.776/
@@ -38,12 +38,12 @@
 +173616.700-1012738.825/
 +173616.693-1012739.045/
 +173617.215-1012752.860</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMZH_TWY" Priority="3" Center="+173610.590-1012737.700">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMZH_TWY" Priority="3" Center="+173610.590-1012737.700">
+        <!--A-->
+        <Infill>
+            <Point>
 +173616.995-1012743.851/
 +173616.824-1012744.566/
 +173616.700-1012744.895/
@@ -88,10 +88,10 @@
 +173616.707-1012746.983/
 +173616.858-1012747.175/
 +173617.153-1012747.752</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +173617.346-1012752.860/
 +173617.037-1012752.860/
 +173614.475-1012752.915/
@@ -133,12 +133,12 @@
 +173616.920-1012751.322/
 +173616.982-1012751.075/
 +173617.208-1012749.729</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMZH_RWY" Priority="1" Center="+173610.590-1012737.700">
-    <!--08/26-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMZH_RWY" Priority="1" Center="+173610.590-1012737.700">
+        <!--08/26-->
+        <Infill>
+            <Point>
 +173605.892-1012820.408/
 +173603.661-1012655.402/
 +173605.597-1012655.347/
@@ -168,36 +168,36 @@
 +173608.412-1012820.216/
 +173608.131-1012820.326/
 +173607.884-1012820.354</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMZH_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+173610.590-1012737.700">
-    <Label HasLeader="false">
-      <Point Name="A">+173609.870-1012739.750</Point>
-      <Point Name="B">+173611.110-1012800.120</Point>
-      <Point Name="09">+173603.2561-1012813.515</Point>
-      <Point Name="27">+173600.9901-1012701.0876</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMZH_GATES" CustomColourName="GroundLabel" Priority="1" Center="+173610.590-1012737.700">
-    <Line Name="Gate 1" Pattern="Solid">
-      +173620.209-1012751.652/
-      +173618.966-1012751.679
-    </Line>
-    <Line Name="Gate 2" Pattern="Solid">
-      +173620.181-1012749.619/
-      +173618.890-1012749.647
-    </Line>
-    <Line Name="Gate 3" Pattern="Solid">
-      +173620.120-1012747.916/
-      +173618.939-1012747.944
-    </Line>
-    <Line Name="Gate 4" Pattern="Solid">
-      +173620.072-1012746.378/
-      +173618.897-1012746.406
-    </Line>
-    <Line Name="Gate 5" Pattern="Solid">
-      +173620.120-1012744.895/
-      +173618.877-1012744.923
-    </Line>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMZH_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+173610.590-1012737.700">
+        <Label HasLeader="false">
+            <Point Name="A">+173609.870-1012739.750</Point>
+            <Point Name="B">+173611.110-1012800.120</Point>
+            <Point Name="09">+173603.2561-1012813.515</Point>
+            <Point Name="27">+173600.9901-1012701.0876</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMZH_GATES" CustomColourName="GroundLabel" Priority="1" Center="+173610.590-1012737.700">
+        <Line Name="Gate 1" Pattern="Solid">
+            +173620.209-1012751.652/
+            +173618.966-1012751.679
+        </Line>
+        <Line Name="Gate 2" Pattern="Solid">
+            +173620.181-1012749.619/
+            +173618.890-1012749.647
+        </Line>
+        <Line Name="Gate 3" Pattern="Solid">
+            +173620.120-1012747.916/
+            +173618.939-1012747.944
+        </Line>
+        <Line Name="Gate 4" Pattern="Solid">
+            +173620.072-1012746.378/
+            +173618.897-1012746.406
+        </Line>
+        <Line Name="Gate 5" Pattern="Solid">
+            +173620.120-1012744.895/
+            +173618.877-1012744.923
+        </Line>
+    </Map>
 </Maps>

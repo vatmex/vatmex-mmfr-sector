@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="Pista 14 - Llegadas RNAV" Priority="1" Center="+272636.090-0993411.720">
+        <Line Name="USBAR1A" Pattern="Dashed">USBAR/NL605/IRDAN</Line>
+        <Line Name="EMPIX1A" Pattern="Dashed">EMPIX/NL605</Line>
+        <Line Name="RUDMA1C" Pattern="Dashed">RUDMA/NL603/NL602/NL601/NL600/IRDAN</Line>
+        <Line Name="ILIGO1A" Pattern="Dashed">ILIGO/NL603</Line>
+        <Line Name="MATUR1A" Pattern="Dashed">MATUR/NL603</Line>
+        <Symbol Type="HollowStar">
+            <Point>ILIGO</Point>
+            <Point>IRDAN</Point>
+            <Point>MATUR</Point>
+            <Point>NL600</Point>
+            <Point>NL601</Point>
+            <Point>NL602</Point>
+            <Point>NL603</Point>
+            <Point>NL605</Point>
+            <Point>RUDMA</Point>
+        </Symbol>
+        <Symbol Type="SolidTriangle">
+            <Point>USBAR</Point>
+            <Point>EMPIX</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 14 - Llegadas RNAV (Nombres)" Priority="1" Center="+272636.090-0993411.720">
+        <Label HasLeader="false">
+            <Point>USBAR</Point>
+            <Point>EMPIX</Point>
+            <Point>RUDMA</Point>
+            <Point>ILIGO</Point>
+            <Point>MATUR</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 14 - RNP 14" Priority="1" Center="+272636.090-0993411.720">
+        <Line Name="FINAL" Pattern="Solid">NL401/+272704.570-0993429.494</Line>
+        <Line Name="IRDAN" Pattern="Solid">IRDAN/NL401</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>IRDAN</Point>
+            <Point>NL401</Point>
+            <Point>NL400</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 14 - RNP 14 (Nombres)" Priority="1" Center="+272636.090-0993411.720">
+        <Label HasLeader="false">
+            <Point>IRDAN</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 14 - Salidas RNAV" Priority="1" Center="+272636.090-0993411.720">
+        <Line Name="ALUXO1A" Pattern="Dotted">+272607.629-0993353.928/NL800/NL801/NL807/GAGLO/ALUXO</Line>
+        <Line Name="SASES1A" Pattern="Dotted">NL801/NL910/SASES</Line>
+        <Line Name="RUDMA1A" Pattern="Dotted">NL910/NL911/RUDMA</Line>
+        <Symbol Type="HollowStar">
+            <Point>NL800</Point>
+            <Point>NL801</Point>
+            <Point>NL807</Point>
+            <Point>NL910</Point>
+            <Point>NL911</Point>
+            <Point>SASES</Point>
+            <Point>RUDMA</Point>
+        </Symbol>
+        <Symbol Type="SolidTriangle">
+            <Point>GAGLO</Point>
+            <Point>ALUXO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 14 - Salidas RNAV (Nombres)" Priority="1" Center="+272636.090-0993411.720">
+        <Label HasLeader="false">
+            <Point>ALUXO</Point>
+            <Point>SASES</Point>
+            <Point>RUDMA</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMPA_BLD" Priority="1" Center="+203602.500-0972738.780">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMPA_BLD" Priority="1" Center="+203602.500-0972738.780">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +203558.380-0972739.265/
 +203557.756-0972739.265/
 +203557.769-0972738.468/
@@ -16,9 +16,9 @@
 +203558.511-0972737.672/
 +203558.504-0972738.386/
 +203558.401-0972738.386</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +203558.099-0972745.994/
 +203556.904-0972745.994/
 +203556.890-0972744.813/
@@ -33,12 +33,12 @@
 +203557.453-0972744.016/
 +203557.453-0972744.813/
 +203558.106-0972744.813</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMPA_APR" Priority="2" Center="+203602.500-0972738.780">
-    <!--Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMPA_APR" Priority="2" Center="+203602.500-0972738.780">
+        <!--Ramp-->
+        <Infill>
+            <Point>
 +203559.184-0972735.062/
 +203601.106-0972735.062/
 +203601.381-0972735.035/
@@ -58,12 +58,12 @@
 +203601.251-0972741.215/
 +203600.983-0972741.132/
 +203559.081-0972741.105</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMPA_TWY" Priority="3" Center="+203602.500-0972738.780">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMPA_TWY" Priority="3" Center="+203602.500-0972738.780">
+        <!--A-->
+        <Infill>
+            <Point>
 +203606.957-0972749.949/
 +203606.723-0972748.521/
 +203606.600-0972747.971/
@@ -91,10 +91,10 @@
 +203606.668-0972745.280/
 +203606.799-0972745.197/
 +203607.128-0972744.813</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +203607.183-0972732.590/
 +203606.950-0972732.233/
 +203606.819-0972732.178/
@@ -114,12 +114,12 @@
 +203606.840-0972730.723/
 +203606.970-0972730.448/
 +203607.266-0972729.459</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMPA_RWY" Priority="1" Center="+203602.500-0972738.780">
-    <!--08/26-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMPA_RWY" Priority="1" Center="+203602.500-0972738.780">
+        <!--08/26-->
+        <Infill>
+            <Point>
 +203608.028-0972809.120/
 +203606.503-0972809.120/
 +203606.181-0972809.093/
@@ -150,28 +150,28 @@
 +203606.867-0972706.937/
 +203607.369-0972706.800/
 +203608.872-0972706.828</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMPA_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+203602.500-0972738.780">
-    <Label HasLeader="false">
-      <Point Name="A">+203603.110-0972746.540</Point>
-      <Point Name="B">+203603.110-0972732.210</Point>
-      <Point Name="08">+203609.3878-0972804.8907</Point>
-      <Point Name="26">+203610.047-0972713.6945</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMPA_GATES" CustomColourName="GroundLabel" Priority="1" Center="+203602.500-0972738.780">
-    <Line Name="Gate 1" Pattern="Solid">
-      +203559.383-0972735.612/
-      +203600.626-0972735.639
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +203559.383-0972737.727/
-      +203600.626-0972737.754
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +203559.362-0972739.841/
-      +203600.564-0972739.841
-    </Line>	
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMPA_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+203602.500-0972738.780">
+        <Label HasLeader="false">
+            <Point Name="A">+203603.110-0972746.540</Point>
+            <Point Name="B">+203603.110-0972732.210</Point>
+            <Point Name="08">+203609.3878-0972804.8907</Point>
+            <Point Name="26">+203610.047-0972713.6945</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMPA_GATES" CustomColourName="GroundLabel" Priority="1" Center="+203602.500-0972738.780">
+        <Line Name="Gate 1" Pattern="Solid">
+            +203559.383-0972735.612/
+            +203600.626-0972735.639
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +203559.383-0972737.727/
+            +203600.626-0972737.754
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +203559.362-0972739.841/
+            +203600.564-0972739.841
+        </Line> 
+    </Map>
 </Maps>

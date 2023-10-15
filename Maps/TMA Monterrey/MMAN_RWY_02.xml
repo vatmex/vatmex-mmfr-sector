@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMAN - Pista 02 - Salidas" Priority="1" Center="+254642.810-1000625.150">
-    <Line Name="EMAKI2B" Pattern="Dotted">
+    <Map Type="System" Name="MMAN - Pista 02 - Salidas" Priority="1" Center="+254642.810-1000625.150">
+        <Line Name="EMAKI2B" Pattern="Dotted">
 +255217.180-1001359.300/
 +255426.187-1001229.432/
 +255432.243-1001224.213/
@@ -50,8 +50,8 @@
 +255014.263-1000441.661/
 +255008.413-1000417.684/
 EMAKI</Line>
-    <Line Name="MTY2C" Pattern="Dotted">+255239.819-1000709.922/MTY</Line>
-    <Line Name="MTY2D" Pattern="Dotted">
+        <Line Name="MTY2C" Pattern="Dotted">+255239.819-1000709.922/MTY</Line>
+        <Line Name="MTY2D" Pattern="Dotted">
 +255749.729-1001007.461/
 +255759.370-1001001.968/
 +255809.621-1000957.134/
@@ -105,7 +105,7 @@ EMAKI</Line>
 +255141.515-1001359.135/
 +255126.986-1001337.987/
 MTY</Line>
-    <Line Name="URTUS3B" Pattern="Dotted">
+        <Line Name="URTUS3B" Pattern="Dotted">
 +255426.187-1001229.432/
 +255957.658-1000838.170/
 +260005.788-1000833.693/
@@ -118,55 +118,55 @@ MTY</Line>
 +260112.324-1000826.277/
 +260125.329-1000828.200/
 URTUS</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>EMAKI</Point>
-      <Point>URTUS</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>ADN</Point>
-      <Point>MTY</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>ADN</Point>
-      <Point>MTY</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMAN - Pista 02 - Salidas (Nombres)" Priority="1" Center="+284208.380-1055746.670">
-    <Label HasLeader="false">
-      <Point>ADN</Point>
-      <Point>EMAKI</Point>
-      <Point>MTY</Point>
-      <Point>URTUS</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMAN - Pista 02 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
-    <Line Name="DAJOR1C" Pattern="Dotted">+255217.180-1001359.300/OBNIN/AN910/DAJOR</Line>
-    <Line Name="DOTOR1C" Pattern="Dotted">AN910/AN911/DOTOR</Line>
-    <Line Name="GRALA1C" Pattern="Dotted">OBNIN/AN909/GRALA</Line>
-    <Line Name="KERGA1C" Pattern="Dotted">AN909/AN903/AN904/PILDA/HANAY/KERGA</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>DAJOR</Point>
-      <Point>DOTOR</Point>
-      <Point>GRALA</Point>
-      <Point>KERGA</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>AN903</Point>
-      <Point>AN904</Point>
-      <Point>AN909</Point>
-      <Point>AN910</Point>
-      <Point>AN911</Point>
-      <Point>HANAY</Point>
-      <Point>OBNIN</Point>
-      <Point>PILDA</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMAN - Pista 02 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
-    <Label HasLeader="false">
-      <Point>DAJOR</Point>
-      <Point>DOTOR</Point>
-      <Point>GRALA</Point>
-      <Point>KERGA</Point>
-    </Label>
-  </Map>
+        <Symbol Type="SolidTriangle">
+            <Point>EMAKI</Point>
+            <Point>URTUS</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>ADN</Point>
+            <Point>MTY</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>ADN</Point>
+            <Point>MTY</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMAN - Pista 02 - Salidas (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+        <Label HasLeader="false">
+            <Point>ADN</Point>
+            <Point>EMAKI</Point>
+            <Point>MTY</Point>
+            <Point>URTUS</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMAN - Pista 02 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
+        <Line Name="DAJOR1C" Pattern="Dotted">+255217.180-1001359.300/OBNIN/AN910/DAJOR</Line>
+        <Line Name="DOTOR1C" Pattern="Dotted">AN910/AN911/DOTOR</Line>
+        <Line Name="GRALA1C" Pattern="Dotted">OBNIN/AN909/GRALA</Line>
+        <Line Name="KERGA1C" Pattern="Dotted">AN909/AN903/AN904/PILDA/HANAY/KERGA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>DAJOR</Point>
+            <Point>DOTOR</Point>
+            <Point>GRALA</Point>
+            <Point>KERGA</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>AN903</Point>
+            <Point>AN904</Point>
+            <Point>AN909</Point>
+            <Point>AN910</Point>
+            <Point>AN911</Point>
+            <Point>HANAY</Point>
+            <Point>OBNIN</Point>
+            <Point>PILDA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMAN - Pista 02 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+        <Label HasLeader="false">
+            <Point>DAJOR</Point>
+            <Point>DOTOR</Point>
+            <Point>GRALA</Point>
+            <Point>KERGA</Point>
+        </Label>
+    </Map>
 </Maps>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMCV_BLD" Priority="1" Center="+234211.500-0985723.630">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMCV_BLD" Priority="1" Center="+234211.500-0985723.630">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +234240.762-0985720.396/
 +234240.528-0985719.819/
 +234241.613-0985719.352/
@@ -19,9 +19,9 @@
 +234241.174-0985720.560/
 +234241.077-0985720.258/
 +234240.762-0985720.396</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +234259.534-0985724.131/
 +234259.170-0985724.131/
 +234259.170-0985723.472/
@@ -31,29 +31,29 @@
 +234258.910-0985722.428/
 +234259.534-0985722.428/
 +234259.534-0985724.131</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +234257.159-0985719.599/
 +234255.483-0985719.599/
 +234255.490-0985718.610/
 +234257.152-0985718.583/
 +234257.159-0985719.599</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMCV_APR" Priority="2" Center="+234211.500-0985723.630">
-    <!--Commercial Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMCV_APR" Priority="2" Center="+234211.500-0985723.630">
+        <!--Commercial Ramp-->
+        <Infill>
+            <Point>
 +234236.923-0985724.296/
 +234238.166-0985721.082/
 +234243.570-0985723.692/
 +234242.300-0985726.878/
 +234236.923-0985724.296</Point>
-    </Infill>
-    <!--GA Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--GA Ramp-->
+        <Infill>
+            <Point>
 +234258.546-0985725.916/
 +234255.600-0985725.971/
 +234255.524-0985720.451/
@@ -61,12 +61,12 @@
 +234258.896-0985722.071/
 +234258.539-0985722.071/
 +234258.546-0985725.916</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCV_TWY" Priority="3" Center="+234211.500-0985723.630">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCV_TWY" Priority="3" Center="+234211.500-0985723.630">
+        <!--A-->
+        <Infill>
+            <Point>
 +234222.359-0985727.290/
 +234223.437-0985727.537/
 +234223.980-0985727.647/
@@ -100,10 +100,10 @@
 +234225.621-0985728.635/
 +234225.779-0985728.883/
 +234222.359-0985727.290</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +234245.369-0985738.029/
 +234247.978-0985731.464/
 +234247.930-0985731.217/
@@ -133,10 +133,10 @@
 +234244.284-0985737.369/
 +234243.934-0985737.397/
 +234245.369-0985738.029</Point>
-    </Infill>
-    <!--C-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--C-->
+        <Infill>
+            <Point>
 +234246.591-0985732.810/
 +234246.598-0985732.536/
 +234246.557-0985732.316/
@@ -169,10 +169,10 @@
 +234247.278-0985731.135/
 +234247.518-0985730.997/
 +234246.591-0985732.810</Point>
-    </Infill>
-    <!--D-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--D-->
+        <Infill>
+            <Point>
 +234258.209-0985725.751/
 +234258.333-0985731.245/
 +234258.257-0985731.354/
@@ -182,12 +182,12 @@
 +234257.859-0985731.162/
 +234257.763-0985725.779/
 +234258.209-0985725.751</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMCV_RWY" Priority="1" Center="+234211.500-0985723.630">
-    <!--15/33-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCV_RWY" Priority="1" Center="+234211.500-0985723.630">
+        <!--15/33-->
+        <Infill>
+            <Point>
 +234139.080-0985708.640/
 +234139.753-0985707.130/
 +234139.952-0985706.690/
@@ -205,30 +205,30 @@
 +234245.390-0985738.001/
 +234244.806-0985739.539/
 +234139.080-0985708.640</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCV_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+234211.500-0985723.630">
-    <Label HasLeader="false">
-      <Point Name="A">+234233.470-0985727.630</Point>
-      <Point Name="B">+234247.210-0985733.990</Point>
-      <Point Name="C">+234242.700-0985730.030</Point>
-      <Point Name="D">+234256.230-0985727.730</Point>
-      <Point Name="15">+234242.430-0985738.720</Point>
-      <Point Name="33">+234139.370-0985709.160</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCV_GATES" CustomColourName="GroundLabel" Priority="1" Center="+234211.500-0985723.630">
-    <Line Name="Gate 1" Pattern="Solid">
-      +234243.014-0985723.994/
-      +234242.622-0985724.982
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +234241.167-0985723.115/
-      +234240.796-0985724.104
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +234239.361-0985722.208/
-      +234238.949-0985723.225
-    </Line>	
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCV_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+234211.500-0985723.630">
+        <Label HasLeader="false">
+            <Point Name="A">+234233.470-0985727.630</Point>
+            <Point Name="B">+234247.210-0985733.990</Point>
+            <Point Name="C">+234242.700-0985730.030</Point>
+            <Point Name="D">+234256.230-0985727.730</Point>
+            <Point Name="15">+234242.430-0985738.720</Point>
+            <Point Name="33">+234139.370-0985709.160</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCV_GATES" CustomColourName="GroundLabel" Priority="1" Center="+234211.500-0985723.630">
+        <Line Name="Gate 1" Pattern="Solid">
+            +234243.014-0985723.994/
+            +234242.622-0985724.982
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +234241.167-0985723.115/
+            +234240.796-0985724.104
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +234239.361-0985722.208/
+            +234238.949-0985723.225
+        </Line> 
+    </Map>
 </Maps>

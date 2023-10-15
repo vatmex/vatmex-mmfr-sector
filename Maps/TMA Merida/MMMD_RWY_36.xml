@@ -1,160 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 36 - Llegadas RNAV" Priority="1" Center="+205511.377-0893928.899">
-    <Line Name="AVOM1C" Pattern="Dashed">AVOMA/ETGOT/MD805/TEXOB/MD911/ITSAK</Line>
-    <Line Name="CAEA1F" Pattern="Dashed">CAEAR ULISO MD908 MD915 ULILI</Line>
-    <Line Name="CANO1B" Pattern="Dashed">CANOZ/PAARS/AVRUB</Line>
-    <Line Name="DYSO1C" Pattern="Dashed">DYSON/CIMAT/MD912/ITSAK</Line>
-    <Line Name="ELSI1F" Pattern="Dashed">ELSIP/VERVA/AVRUB</Line>
-    <Line Name="GABO1C" Pattern="Dashed">GABOB/ULISO/MD908/MD915/ULILI</Line>
-    <Line Name="ILEL1C" Pattern="Dashed">ILELA/CIMAT/MD912/ITSAK</Line>
-    <Line Name="LIFT1E" Pattern="Dashed">LIFTS/BUYCK/MD914/ULILI</Line>
-    <Line Name="LIFT1F" Pattern="Dashed">LIFTS/JAFEY/AVRUB</Line>
-    <Line Name="NAPR1E" Pattern="Dashed">NAPRI/BUYCK/MD914/ULILI</Line>
-    <Line Name="NAPR1F" Pattern="Dashed">NAPRI/BUYCK/MD914/ULILI</Line>
-    <Line Name="XUBS1D" Pattern="Dashed">XUBSU/ETGOT/MD805/TEXOB/MD911/ITSAK</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>DYSON</Point>
-      <Point>ILELA</Point>
-      <Point>CANOZ</Point>
-      <Point>LIFTS</Point>
-      <Point>NAPRI</Point>
-      <Point>GABOB</Point>
-      <Point>CAEAR</Point>
-      <Point>ELSIP</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>CIMAT</Point>
-      <Point>VERVA</Point>
-      <Point>MD912</Point>
-      <Point>ITSAK</Point>
-      <Point>XUBSU</Point>
-      <Point>AVOMA</Point>
-      <Point>ETGOT</Point>
-      <Point>MD805</Point>
-      <Point>TEXOB</Point>
-      <Point>MD911</Point>
-      <Point>CAEAR</Point>
-      <Point>ULISO</Point>
-      <Point>MD908</Point>
-      <Point>MD915</Point>
-      <Point>ULILI</Point>
-      <Point>PAARS</Point>
-      <Point>AVRUB</Point>
-      <Point>BUYCK</Point>
-      <Point>MD914</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>MID</Point>
-      <Point>CPE</Point>
-      <Point>CZA</Point>
-    </Symbol>
-      <Symbol Type="Circle">
-      <Point>MID</Point>
-      <Point>CPE</Point>
-      <Point>CZA</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 36 - Llegadas RNAV (Nombres)" Priority="1" Center="+205511.377-0893928.899">
-	<Label HasLeader="false">
-      <Point>DYSON</Point>
-      <Point>ILELA</Point>
-      <Point>XUBSU</Point>
-      <Point>AVOMA</Point>
-      <Point>CAEAR</Point>
-      <Point>GABOB</Point>
-      <Point>NAPRI</Point>
-      <Point>LIFTS</Point>
-      <Point>CANOZ</Point>
-      <Point>ILELA</Point>
-      <Point>ITSAK</Point>
-      <Point>ULILI</Point>
-      <Point>AVRUB</Point>
-      <Point>MID</Point>
-      <Point>CPE</Point>
-      <Point>CZA</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 36 - RNP 36" Priority="1" Center="+205613.280-0893927.700">
-    <Line Pattern="Solid">ITSAK/MD900</Line>
-    <Line Pattern="Solid">AVRUB/MD900</Line>
-    <Line Pattern="Solid">ULILI/MD900</Line>
-    <Line Pattern="Solid">MD900/+205511.377-0893928.899</Line>
-    <Line Pattern="Solid">+205416.228-0893944.036/+205415.791-0893918.406</Line>
-    <Line Pattern="Solid">+205316.019-0893945.198/+205315.582-0893919.571</Line>
-    <Line Pattern="Solid">+205215.810-0893946.359/+205215.373-0893920.735</Line>
-    <Line Pattern="Solid">+205115.819-0894000.330/+205114.944-0893909.088</Line>
-    <Line Pattern="Solid">+205015.391-0893948.680/+205014.954-0893923.062</Line>
-    <Line Pattern="Solid">+204915.181-0893949.841/+204914.744-0893924.225</Line>
-    <Line Pattern="Solid">+204814.971-0893951.001/+204814.534-0893925.388</Line>
-    <Line Pattern="Solid">+204714.762-0893952.160/+204714.324-0893926.550</Line>
-    <Line Pattern="Solid">+204614.770-0894006.124/+204613.895-0893914.909</Line>
-	  <Symbol Type="HollowStar">
-      <Point>AVRUB</Point>
-      <Point>ISTAK</Point>
-      <Point>MD900</Point>
-      <Point>MD901</Point>
-      <Point>ULILI</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 36 - Salidas RNAV" Priority="1" Center="+205613.280-0893927.700">
-    <Line Name="BIBE1C" Pattern="Dotted">+205626.294-0893927.452/MD950/HADOW/MD803/BIBER</Line>
-    <Line Name="CAEA1C" Pattern="Dotted">+205626.294-0893927.452/MD950/MD601/CAEAR</Line>
-    <Line Name="ELSI1C" Pattern="Dotted">+205626.294-0893927.452/MD950/MD951/MD952/ELSIP</Line>
-    <Line Name="EPNA1C" Pattern="Dotted">+205626.294-0893927.452/MD950/HADOW/MD803/EPNAS</Line>
-    <Line Name="GREP1C" Pattern="Dotted">+205626.294-0893927.452/MD950/HADOW/MD954/MD953/GREPE</Line>
-    <Line Name="ISAR1C" Pattern="Dotted">+205626.294-0893927.452/MD950/MD951/ISARO</Line>
-    <Line Name="NAPL1C" Pattern="Dotted">+205626.294-0893927.452/MD950/MD701/NAPLA</Line>
-    <Line Name="SIFT1C" Pattern="Dotted">+205626.294-0893927.452/MD950/HADOW/MD954/MD953/MD955/SIFTO</Line>
-    <Line Name="VIVE1E" Pattern="Dotted">+205626.294-0893927.452/MD950/MD951/VIVEP</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>NAPLA</Point>
-      <Point>EPNAS</Point>
-      <Point>GREPE</Point>
-      <Point>SIFTO</Point>
-      <Point>ELSIP</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>ISARO</Point>
-      <Point>VIVEP</Point>
-      <Point>MD951</Point>
-      <Point>MD952</Point>
-      <Point>MD701</Point>
-      <Point>MD950</Point>
-      <Point>MD601</Point>
-      <Point>CAEAR</Point>
-      <Point>HADOW</Point>
-      <Point>MD803</Point>
-      <Point>BIBER</Point>
-      <Point>MD954</Point>
-      <Point>MD953</Point>
-      <Point>MD955</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>MID</Point>
-      <Point>CPE</Point>
-      <Point>CZA</Point>
-    </Symbol>
-      <Symbol Type="Circle">
-      <Point>MID</Point>
-      <Point>CPE</Point>
-      <Point>CZA</Point>
-    </Symbol>
-	</Map>
-	<Map Type="System" Name="Pista 36 - Salidas RNAV (Nombres)" Priority="1" Center="+205613.280-0893927.700">
+    <Map Type="System" Name="Pista 36 - Llegadas RNAV" Priority="1" Center="+205511.377-0893928.899">
+        <Line Name="AVOM1C" Pattern="Dashed">AVOMA/ETGOT/MD805/TEXOB/MD911/ITSAK</Line>
+        <Line Name="CAEA1F" Pattern="Dashed">CAEAR ULISO MD908 MD915 ULILI</Line>
+        <Line Name="CANO1B" Pattern="Dashed">CANOZ/PAARS/AVRUB</Line>
+        <Line Name="DYSO1C" Pattern="Dashed">DYSON/CIMAT/MD912/ITSAK</Line>
+        <Line Name="ELSI1F" Pattern="Dashed">ELSIP/VERVA/AVRUB</Line>
+        <Line Name="GABO1C" Pattern="Dashed">GABOB/ULISO/MD908/MD915/ULILI</Line>
+        <Line Name="ILEL1C" Pattern="Dashed">ILELA/CIMAT/MD912/ITSAK</Line>
+        <Line Name="LIFT1E" Pattern="Dashed">LIFTS/BUYCK/MD914/ULILI</Line>
+        <Line Name="LIFT1F" Pattern="Dashed">LIFTS/JAFEY/AVRUB</Line>
+        <Line Name="NAPR1E" Pattern="Dashed">NAPRI/BUYCK/MD914/ULILI</Line>
+        <Line Name="NAPR1F" Pattern="Dashed">NAPRI/BUYCK/MD914/ULILI</Line>
+        <Line Name="XUBS1D" Pattern="Dashed">XUBSU/ETGOT/MD805/TEXOB/MD911/ITSAK</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>DYSON</Point>
+            <Point>ILELA</Point>
+            <Point>CANOZ</Point>
+            <Point>LIFTS</Point>
+            <Point>NAPRI</Point>
+            <Point>GABOB</Point>
+            <Point>CAEAR</Point>
+            <Point>ELSIP</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>CIMAT</Point>
+            <Point>VERVA</Point>
+            <Point>MD912</Point>
+            <Point>ITSAK</Point>
+            <Point>XUBSU</Point>
+            <Point>AVOMA</Point>
+            <Point>ETGOT</Point>
+            <Point>MD805</Point>
+            <Point>TEXOB</Point>
+            <Point>MD911</Point>
+            <Point>CAEAR</Point>
+            <Point>ULISO</Point>
+            <Point>MD908</Point>
+            <Point>MD915</Point>
+            <Point>ULILI</Point>
+            <Point>PAARS</Point>
+            <Point>AVRUB</Point>
+            <Point>BUYCK</Point>
+            <Point>MD914</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>MID</Point>
+            <Point>CPE</Point>
+            <Point>CZA</Point>
+        </Symbol>
+            <Symbol Type="Circle">
+            <Point>MID</Point>
+            <Point>CPE</Point>
+            <Point>CZA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 36 - Llegadas RNAV (Nombres)" Priority="1" Center="+205511.377-0893928.899">
     <Label HasLeader="false">
-      <Point>ISARO</Point>
-      <Point>VIVEP</Point>
-      <Point>ELSIP</Point>
-      <Point>SIFTO</Point>
-      <Point>GREPE</Point>
-      <Point>EPNAS</Point>
-      <Point>BIBER</Point>
-      <Point>CAEAR</Point>
-      <Point>NAPLA</Point>
-      <Point>MID</Point>
-      <Point>CPE</Point>
-      <Point>CZA</Point>
-    </Label>
-  </Map>
+            <Point>DYSON</Point>
+            <Point>ILELA</Point>
+            <Point>XUBSU</Point>
+            <Point>AVOMA</Point>
+            <Point>CAEAR</Point>
+            <Point>GABOB</Point>
+            <Point>NAPRI</Point>
+            <Point>LIFTS</Point>
+            <Point>CANOZ</Point>
+            <Point>ILELA</Point>
+            <Point>ITSAK</Point>
+            <Point>ULILI</Point>
+            <Point>AVRUB</Point>
+            <Point>MID</Point>
+            <Point>CPE</Point>
+            <Point>CZA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 36 - RNP 36" Priority="1" Center="+205613.280-0893927.700">
+        <Line Pattern="Solid">ITSAK/MD900</Line>
+        <Line Pattern="Solid">AVRUB/MD900</Line>
+        <Line Pattern="Solid">ULILI/MD900</Line>
+        <Line Pattern="Solid">MD900/+205511.377-0893928.899</Line>
+        <Line Pattern="Solid">+205416.228-0893944.036/+205415.791-0893918.406</Line>
+        <Line Pattern="Solid">+205316.019-0893945.198/+205315.582-0893919.571</Line>
+        <Line Pattern="Solid">+205215.810-0893946.359/+205215.373-0893920.735</Line>
+        <Line Pattern="Solid">+205115.819-0894000.330/+205114.944-0893909.088</Line>
+        <Line Pattern="Solid">+205015.391-0893948.680/+205014.954-0893923.062</Line>
+        <Line Pattern="Solid">+204915.181-0893949.841/+204914.744-0893924.225</Line>
+        <Line Pattern="Solid">+204814.971-0893951.001/+204814.534-0893925.388</Line>
+        <Line Pattern="Solid">+204714.762-0893952.160/+204714.324-0893926.550</Line>
+        <Line Pattern="Solid">+204614.770-0894006.124/+204613.895-0893914.909</Line>
+        <Symbol Type="HollowStar">
+            <Point>AVRUB</Point>
+            <Point>ISTAK</Point>
+            <Point>MD900</Point>
+            <Point>MD901</Point>
+            <Point>ULILI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 36 - Salidas RNAV" Priority="1" Center="+205613.280-0893927.700">
+        <Line Name="BIBE1C" Pattern="Dotted">+205626.294-0893927.452/MD950/HADOW/MD803/BIBER</Line>
+        <Line Name="CAEA1C" Pattern="Dotted">+205626.294-0893927.452/MD950/MD601/CAEAR</Line>
+        <Line Name="ELSI1C" Pattern="Dotted">+205626.294-0893927.452/MD950/MD951/MD952/ELSIP</Line>
+        <Line Name="EPNA1C" Pattern="Dotted">+205626.294-0893927.452/MD950/HADOW/MD803/EPNAS</Line>
+        <Line Name="GREP1C" Pattern="Dotted">+205626.294-0893927.452/MD950/HADOW/MD954/MD953/GREPE</Line>
+        <Line Name="ISAR1C" Pattern="Dotted">+205626.294-0893927.452/MD950/MD951/ISARO</Line>
+        <Line Name="NAPL1C" Pattern="Dotted">+205626.294-0893927.452/MD950/MD701/NAPLA</Line>
+        <Line Name="SIFT1C" Pattern="Dotted">+205626.294-0893927.452/MD950/HADOW/MD954/MD953/MD955/SIFTO</Line>
+        <Line Name="VIVE1E" Pattern="Dotted">+205626.294-0893927.452/MD950/MD951/VIVEP</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>NAPLA</Point>
+            <Point>EPNAS</Point>
+            <Point>GREPE</Point>
+            <Point>SIFTO</Point>
+            <Point>ELSIP</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>ISARO</Point>
+            <Point>VIVEP</Point>
+            <Point>MD951</Point>
+            <Point>MD952</Point>
+            <Point>MD701</Point>
+            <Point>MD950</Point>
+            <Point>MD601</Point>
+            <Point>CAEAR</Point>
+            <Point>HADOW</Point>
+            <Point>MD803</Point>
+            <Point>BIBER</Point>
+            <Point>MD954</Point>
+            <Point>MD953</Point>
+            <Point>MD955</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>MID</Point>
+            <Point>CPE</Point>
+            <Point>CZA</Point>
+        </Symbol>
+            <Symbol Type="Circle">
+            <Point>MID</Point>
+            <Point>CPE</Point>
+            <Point>CZA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 36 - Salidas RNAV (Nombres)" Priority="1" Center="+205613.280-0893927.700">
+        <Label HasLeader="false">
+            <Point>ISARO</Point>
+            <Point>VIVEP</Point>
+            <Point>ELSIP</Point>
+            <Point>SIFTO</Point>
+            <Point>GREPE</Point>
+            <Point>EPNAS</Point>
+            <Point>BIBER</Point>
+            <Point>CAEAR</Point>
+            <Point>NAPLA</Point>
+            <Point>MID</Point>
+            <Point>CPE</Point>
+            <Point>CZA</Point>
+        </Label>
+    </Map>
 </Maps>
