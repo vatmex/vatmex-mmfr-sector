@@ -3050,6 +3050,7 @@
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
 
@@ -3074,7 +3075,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximación México (Combinado) - MAPPC" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" DynamicInfill="false" VisibilityRange="100">
+        <Position Name="Aproximación México (Combinado) - MAPPC" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MAPPC" />
                 <Sector Name="TOAPP" />
@@ -3089,6 +3090,12 @@
                 <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
                 <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
                 <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+
+                <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMCB - Zona de Control (CTR)" />
 
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Nombres)" />
