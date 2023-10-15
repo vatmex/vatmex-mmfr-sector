@@ -761,6 +761,7 @@
                 <SID Name="ELSI1C" />
                 <SID Name="EPNA1C" />
                 <SID Name="GREP1C" />
+                <SID Name="ISAR1C" />
                 <SID Name="LIBA2B" />
                 <SID Name="NAPL1C" />
                 <SID Name="PERG2C" />
@@ -7154,6 +7155,9 @@
         <SID Name="GREP1C" Airport="MMMD" Runways="36">
             <Route Runway="36">MD950 MD951 ISARO</Route>
         </SID>
+        <SID Name="ISAR1C" Airport="MMMD" Runways="36">
+            <Route Runway="36">MD950 MD951 ISARO</Route>
+        </SID>
         <SID Name="NAPL1C" Airport="MMMD" Runways="36">
             <Route Runway="36">MD950 MD701 NAPLA</Route>
         </SID>
@@ -7218,7 +7222,7 @@
             <Route Runway="28">CAEAR ULISO HADOW</Route>
         </STAR>
         <STAR Name="DYSO1B" Airport="MMMD" Runways="28">
-            <Route Runway="28">DYSON XUDER SEBEP</Route>
+            <Route Runway="28">DYSON XUDER SEBEP MD801 ALRUN</Route>
         </STAR>
         <STAR Name="GABO1B" Airport="MMMD" Runways="28">
             <Route Runway="28">GABOB ULISO HADOW</Route>
@@ -7280,14 +7284,17 @@
         <STAR Name="NAPR1F" Airport="MMMD" Runways="36">
             <Route Runway="36">NAPRI BUYCK MD914 ULILI</Route>
         </STAR>
-        <Approach Name="ILS103.TEXOB" Airport="MMMD" Runway="10">
-            <Route>TEXOB MD400 MD401</Route>
-        </Approach>
         <Approach Name="ILS103.OTMAM" Airport="MMMD" Runway="10">
             <Route>OTMAM MD400 MD401</Route>
         </Approach>
         <Approach Name="ILS103.SEBEP" Airport="MMMD" Runway="10">
             <Route>SEBEP MD400 MD401</Route>
+        </Approach>
+        <Approach Name="ILS103.TEXOB" Airport="MMMD" Runway="10">
+            <Route>TEXOB MD400 MD401</Route>
+        </Approach>
+        <Approach Name="RNP28.ALRUN" Airport="MMMD" Runway="28">
+            <Route>ALRUN MD500 MD501</Route>
         </Approach>
         <Approach Name="RNP28.HADOW" Airport="MMMD" Runway="28">
             <Route>HADOW MD500 MD501</Route>
@@ -7295,14 +7302,11 @@
         <Approach Name="RNP28.VOLOR" Airport="MMMD" Runway="28">
             <Route>VOLOR MD500 MD501</Route>
         </Approach>
-        <Approach Name="RNP28.ALRUN" Airport="MMMD" Runway="28">
-            <Route>ALRUN MD500 MD501</Route>
+        <Approach Name="RNP36.AVRUB" Airport="MMMD" Runway="36">
+            <Route>AVRUB MD900 MD901</Route>
         </Approach>
         <Approach Name="RNP36.ITSAK" Airport="MMMD" Runway="36">
             <Route>ITSAK MD900 MD901</Route>
-        </Approach>
-        <Approach Name="RNP36.AVRUB" Airport="MMMD" Runway="36">
-            <Route>AVRUB MD900 MD901</Route>
         </Approach>
         <Approach Name="RNP36.ULILI" Airport="MMMD" Runway="36">
             <Route>ULILI MD900 MD901</Route>
@@ -9687,7 +9691,7 @@
             <Runway Name="15" Position="+254645.960-0973147.520" />
             <Runway Name="33" Position="+254537.590-0973114.180" />
         </Airport>
-        <Airport ICAO="MMMD" FullName="MERIDA" Position="+205613.280-0893927.700" Elevation="38">
+        <Airport ICAO="MMMD" FullName="MERIDA" Position="+205613.280-0893927.700" Elevation="36">
             <Runway Name="10" Position="+205612.900-0893926.266" />
             <Runway Name="28" Position="+205548.151-0893749.929" />
             <Runway Name="18" Position="+205626.294-0893927.452" />
