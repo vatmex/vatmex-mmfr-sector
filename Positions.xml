@@ -515,6 +515,10 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <ATIS>
+                <Editor Airport="MMML" Frequency="127.600" Server="NA" />
+                <Window Airport="MMML" />
+            </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMML" Visible="true" />
             </Strips>
@@ -525,6 +529,7 @@
             <ControllerInfo>
                 <Line>Torre Mexicali / Mexicali Tower</Line>
                 <Line>Serving MMML arrivals and departures</Line>
+                <Line>ATIS available on 127.600</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
