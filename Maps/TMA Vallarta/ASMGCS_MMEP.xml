@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMEP_BLD" Priority="1" Center="+212510.040-1045031.170">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMEP_BLD" Priority="1" Center="+212510.040-1045031.170">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +212502.600-1045021.047/
 +212500.540-1045022.146/
 +212500.265-1045021.542/
 +212502.325-1045020.443</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +212503.774-1045020.416/
 +212502.970-1045020.855/
 +212502.771-1045020.443/
 +212503.362-1045020.114/
 +212503.279-1045019.949/
 +212503.506-1045019.812</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMEP_APR" Priority="2" Center="+212510.040-1045031.170">
-    <!--Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMEP_APR" Priority="2" Center="+212510.040-1045031.170">
+        <!--Ramp-->
+        <Infill>
+            <Point>
 +212505.751-1045024.398/
 +212504.460-1045021.569/
 +212459.201-1045024.398/
@@ -48,12 +48,12 @@
 +212453.831-1045030.770/
 +212459.771-1045027.584/
 +212501.947-1045026.403</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMEP_TWY" Priority="3" Center="+212510.040-1045031.170">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMEP_TWY" Priority="3" Center="+212510.040-1045031.170">
+        <!--A-->
+        <Infill>
+            <Point>
 +212452.698-1045041.729/
 +212453.859-1045040.768/
 +212454.236-1045040.438/
@@ -108,10 +108,10 @@
 +212458.308-1045038.269/
 +212458.459-1045038.296/
 +212459.111-1045038.269</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +212521.455-1045026.431/
 +212519.580-1045027.090/
 +212519.223-1045027.172/
@@ -159,12 +159,12 @@
 +212515.200-1045029.315/
 +212515.110-1045029.479/
 +212514.492-1045030.166</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMEP_RWY" Priority="1" Center="+212510.040-1045031.170">
-    <!--02/20-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMEP_RWY" Priority="1" Center="+212510.040-1045031.170">
+        <!--02/20-->
+        <Infill>
+            <Point>
 +212436.102-1045050.244/
 +212436.754-1045051.672/
 +212543.764-1045016.213/
@@ -199,28 +199,28 @@
 +212435.868-1045049.310/
 +212435.882-1045049.584/
 +212435.944-1045049.832</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMEP_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+212510.040-1045031.170">
-    <Label HasLeader="false">
-      <Point Name="A">+212456.370-1045033.530</Point>
-      <Point Name="B">+212511.200-1045025.620</Point>
-      <Point Name="02">+212439.652-1045053.183</Point>
-      <Point Name="20">+212542.851-1045019.675</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMEP_GATES" CustomColourName="GroundLabel" Priority="1" Center="+212510.040-1045031.170">
-    <Line Name="Gate 1" Pattern="Solid">
-      +212504.062-1045022.503/
-      +212504.570-1045023.574
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +212502.133-1045023.519/
-      +212502.648-1045024.591
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +212500.073-1045024.591/
-      +212500.581-1045025.689
-    </Line>	
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMEP_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+212510.040-1045031.170">
+        <Label HasLeader="false">
+            <Point Name="A">+212456.370-1045033.530</Point>
+            <Point Name="B">+212511.200-1045025.620</Point>
+            <Point Name="02">+212439.652-1045053.183</Point>
+            <Point Name="20">+212542.851-1045019.675</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMEP_GATES" CustomColourName="GroundLabel" Priority="1" Center="+212510.040-1045031.170">
+        <Line Name="Gate 1" Pattern="Solid">
+            +212504.062-1045022.503/
+            +212504.570-1045023.574
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +212502.133-1045023.519/
+            +212502.648-1045024.591
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +212500.073-1045024.591/
+            +212500.581-1045025.689
+        </Line> 
+    </Map>
 </Maps>

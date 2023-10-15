@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 21 - Salidas" Priority="1" Center="+313810.896-1062543.544">
-    <Line Name="CJS3B" Pattern="Dotted">
+    <Map Type="System" Name="Pista 21 - Salidas" Priority="1" Center="+313810.896-1062543.544">
+        <Line Name="CJS3B" Pattern="Dotted">
 +313743.080-1062609.400/
 +313243.916-1063046.966/
 +313238.601-1063051.608/
@@ -48,12 +48,12 @@
 +313109.309-1062638.648/
 +313119.541-1062637.055/
 CJS</Line>
-    <Line Name="GADMI3" Pattern="Dotted">
+        <Line Name="GADMI3" Pattern="Dotted">
 +312949.363-1063328.630/
 +312801.285-1063508.605/
 +312849.165-1064337.218/
 GADMI</Line>
-    <Line Name="OMSEK1" Pattern="Dotted">
+        <Line Name="OMSEK1" Pattern="Dotted">
 +312534.172-1062920.668/
 +312532.118-1062913.390/
 +312528.260-1062902.514/
@@ -73,7 +73,7 @@ GADMI</Line>
 +312329.422-1062742.011/
 +312321.203-1062742.835/
 OMSEK</Line>
-    <Line Name="DUXAT1" Pattern="Dotted">
+        <Line Name="DUXAT1" Pattern="Dotted">
 +313243.916-1063046.966/
 +312949.363-1063328.630/
 +312946.129-1063331.404/
@@ -122,26 +122,26 @@ OMSEK</Line>
 +312331.956-1062311.830/
 +312322.548-1062310.182/
 DUXAT</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>DUXAT</Point>
-      <Point>GADMI</Point>
-      <Point>OMSEK</Point>
-      <Point>+312849.160-1064337.230</Point>
-      <Point>+312801.280-1063508.600</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>CJS</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CJS</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 21 - Salidas (Nombres)" Priority="2" Center="+313810.896-1062543.544">
-    <Label HasLeader="false">
-      <Point>CJS</Point>
-      <Point>DUXAT</Point>
-      <Point>GADMI</Point>
-      <Point>OMSEK</Point>
-    </Label>
-  </Map>
+        <Symbol Type="SolidTriangle">
+            <Point>DUXAT</Point>
+            <Point>GADMI</Point>
+            <Point>OMSEK</Point>
+            <Point>+312849.160-1064337.230</Point>
+            <Point>+312801.280-1063508.600</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CJS</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CJS</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 21 - Salidas (Nombres)" Priority="2" Center="+313810.896-1062543.544">
+        <Label HasLeader="false">
+            <Point>CJS</Point>
+            <Point>DUXAT</Point>
+            <Point>GADMI</Point>
+            <Point>OMSEK</Point>
+        </Label>
+    </Map>
 </Maps>

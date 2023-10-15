@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 28 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="ANALU1B" Pattern="Dashed">
-      ANALU/AA507/AA506/ITRAM
-    </Line>
-    <Line Name="ANVAN1B" Pattern="Dashed">
-      ANVAN/AA518/AVRIM
-    </Line>
-    <Line Name="AVURO1B" Pattern="Dashed">
-      AVURO/AA409/AA505/ITRAM
-    </Line>
-    <Symbol Type="HollowStar">
-      <Point>AA409</Point>
-      <Point>AA505</Point>
-      <Point>AA506</Point>
-      <Point>AA507</Point>
-      <Point>AA518</Point>
-      <Point>ANALU</Point>
-      <Point>ANVAN</Point>
-      <Point>AVRIM</Point>
-      <Point>AVURO</Point>
-      <Point>ATRIM</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 28 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-    <Label HasLeader="false">
-      <Point>ANALU</Point>
-      <Point>ANVAN</Point>
-      <Point>AVRIM</Point>
-      <Point>AVURO</Point>
-      <Point>ATRIM</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 28 - ILSDME 2" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="Final 28" Pattern="Solid">
+    <Map Type="System" Name="Pista 28 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="ANALU1B" Pattern="Dashed">
+            ANALU/AA507/AA506/ITRAM
+        </Line>
+        <Line Name="ANVAN1B" Pattern="Dashed">
+            ANVAN/AA518/AVRIM
+        </Line>
+        <Line Name="AVURO1B" Pattern="Dashed">
+            AVURO/AA409/AA505/ITRAM
+        </Line>
+        <Symbol Type="HollowStar">
+            <Point>AA409</Point>
+            <Point>AA505</Point>
+            <Point>AA506</Point>
+            <Point>AA507</Point>
+            <Point>AA518</Point>
+            <Point>ANALU</Point>
+            <Point>ANVAN</Point>
+            <Point>AVRIM</Point>
+            <Point>AVURO</Point>
+            <Point>ATRIM</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 28 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="false">
+            <Point>ANALU</Point>
+            <Point>ANVAN</Point>
+            <Point>AVRIM</Point>
+            <Point>AVURO</Point>
+            <Point>ATRIM</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 28 - ILSDME 2" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="Final 28" Pattern="Solid">
 +164257.220-0993719.920/
 +164503.100-0994401.800</Line>
-    <Line Name="OAX-D16-D10" Pattern="Dashed">
+        <Line Name="OAX-D16-D10" Pattern="Dashed">
 SELIS/
 +164647.720-0992837.163/
 +164218.858-0993521.377/
 +164257.220-0993719.920</Line>
-    <Line Name="PXM-D15-D10" Pattern="Dashed">
+        <Line Name="PXM-D15-D10" Pattern="Dashed">
 KATRA/
 +164042.864-0993025.048/
 +164218.878-0993521.432</Line>
-    <Line Name="TEQ-D10-D8-FAF" Pattern="Dashed">
+        <Line Name="TEQ-D10-D8-FAF" Pattern="Dashed">
 TEXCA/
 +165712.073-0994213.612/
 +165647.794-0994217.182/
@@ -85,7 +85,7 @@ TEXCA/
 +164248.500-0993640.424/
 +164253.842-0993709.510/
 +164257.220-0993719.920</Line>
-    <Line Name="VOKAM-D10" Pattern="Dashed">
+        <Line Name="VOKAM-D10" Pattern="Dashed">
 MUVAR/      
 +165602.805-0993910.305/
 +165539.548-0993919.725/
@@ -99,7 +99,7 @@ MUVAR/
 +165349.204-0993912.117/
 +165338.266-0993903.136/
 +165320.646-0993845.695</Line>
-    <Line Name="YEDRA-D10" Pattern="Dashed">
+        <Line Name="YEDRA-D10" Pattern="Dashed">
 AMUSI/
 +163619.248-0993708.988/
 +163643.726-0993724.644/
@@ -122,132 +122,132 @@ AMUSI/
 +164226.740-0993627.707/
 +164238.805-0993640.094/
 +164253.842-0993709.510</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>AMUSI</Point>
-      <Point>KATRA</Point>
-      <Point>MUVAR</Point>
-      <Point>SELIS</Point>
-      <Point>TEXCA</Point>
-      <Point>+165712.080-0994213.600</Point>
-      <Point>+165602.810-0993910.290</Point>
-      <Point>+164647.710-0992837.170</Point>
-      <Point>+164218.870-0993521.370</Point>
-      <Point>+163619.310-0993708.790</Point>
-      <Point>+164042.860-0993025.050</Point>
-      <Point>+164353.040-0994018.170</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 28 - ILSDME 2 (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-    <Label HasLeader="false">
-      <Point>AMUSI</Point>
-      <Point>KATRA</Point>
-      <Point>MUVAR</Point>
-      <Point>SELIS</Point>
-      <Point>TEXCA</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 28 - ILS 3" Priority="1" Center="+203124.320-1031841.798">
-    <Line Pattern="Solid">
-      AVRIM/+164503.100-0994401.800
-    </Line>
-    <Line Pattern="Solid">
-      ITRAM/AVSIX
-    </Line>
-    <Line Pattern="Solid">
-      +164501.678-0994256.497/
-      +164427.491-0994308.096
-    </Line>
-    <Line Pattern="Solid">
-      +164443.165-0994156.995/
-      +164408.978-0994208.597
-    </Line>
-    <Line Pattern="Solid">
-      +164424.652-0994057.494/
-      +164350.465-0994109.099
-    </Line>
-    <Line Pattern="Solid">
-      +164406.139-0993957.995/
-      +164331.952-0994009.603
-    </Line>
-    <Line Pattern="Solid">
-      +164347.626-0993858.498/
-      +164313.439-0993910.109
-    </Line>
-    <Line Pattern="Solid">
-      +164329.113-0993759.002/
-      +164254.926-0993810.616
-    </Line>
-    <Line Pattern="Solid">
-      +164310.600-0993659.508/
-      +164236.413-0993711.125
-    </Line>
-    <Line Pattern="Solid">
-      +164252.087-0993600.015/
-      +164217.900-0993611.635
-    </Line>
-    <Line Pattern="Solid">
-      +164233.574-0993500.524/
-      +164159.387-0993512.147
-    </Line>
-    <Line Pattern="Solid">
-      +164215.061-0993401.035/
-      +164140.874-0993412.661
-    </Line>
-    <Line Pattern="Solid">
-      +164156.548-0993301.547/
-      +164122.361-0993313.176
-    </Line>
-    <Line Pattern="Solid">
-      +164138.035-0993202.061/
-      +164103.848-0993213.693
-    </Line>
-    <Line Pattern="Solid">
-      +164119.522-0993102.576/
-      +164045.335-0993114.211
-    </Line>
+        <Symbol Type="SolidTriangle">
+            <Point>AMUSI</Point>
+            <Point>KATRA</Point>
+            <Point>MUVAR</Point>
+            <Point>SELIS</Point>
+            <Point>TEXCA</Point>
+            <Point>+165712.080-0994213.600</Point>
+            <Point>+165602.810-0993910.290</Point>
+            <Point>+164647.710-0992837.170</Point>
+            <Point>+164218.870-0993521.370</Point>
+            <Point>+163619.310-0993708.790</Point>
+            <Point>+164042.860-0993025.050</Point>
+            <Point>+164353.040-0994018.170</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 28 - ILSDME 2 (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="false">
+            <Point>AMUSI</Point>
+            <Point>KATRA</Point>
+            <Point>MUVAR</Point>
+            <Point>SELIS</Point>
+            <Point>TEXCA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 28 - ILS 3" Priority="1" Center="+203124.320-1031841.798">
+        <Line Pattern="Solid">
+            AVRIM/+164503.100-0994401.800
+        </Line>
+        <Line Pattern="Solid">
+            ITRAM/AVSIX
+        </Line>
+        <Line Pattern="Solid">
+            +164501.678-0994256.497/
+            +164427.491-0994308.096
+        </Line>
+        <Line Pattern="Solid">
+            +164443.165-0994156.995/
+            +164408.978-0994208.597
+        </Line>
+        <Line Pattern="Solid">
+            +164424.652-0994057.494/
+            +164350.465-0994109.099
+        </Line>
+        <Line Pattern="Solid">
+            +164406.139-0993957.995/
+            +164331.952-0994009.603
+        </Line>
+        <Line Pattern="Solid">
+            +164347.626-0993858.498/
+            +164313.439-0993910.109
+        </Line>
+        <Line Pattern="Solid">
+            +164329.113-0993759.002/
+            +164254.926-0993810.616
+        </Line>
+        <Line Pattern="Solid">
+            +164310.600-0993659.508/
+            +164236.413-0993711.125
+        </Line>
+        <Line Pattern="Solid">
+            +164252.087-0993600.015/
+            +164217.900-0993611.635
+        </Line>
+        <Line Pattern="Solid">
+            +164233.574-0993500.524/
+            +164159.387-0993512.147
+        </Line>
+        <Line Pattern="Solid">
+            +164215.061-0993401.035/
+            +164140.874-0993412.661
+        </Line>
+        <Line Pattern="Solid">
+            +164156.548-0993301.547/
+            +164122.361-0993313.176
+        </Line>
+        <Line Pattern="Solid">
+            +164138.035-0993202.061/
+            +164103.848-0993213.693
+        </Line>
+        <Line Pattern="Solid">
+            +164119.522-0993102.576/
+            +164045.335-0993114.211
+        </Line>
 
-    <Line Pattern="Solid">
-      +163833.127-0993647.717/
-      +163822.020-0993612.036
-    </Line>
-    <Line Pattern="Solid">
-      +163930.103-0993628.394/
-      +163918.996-0993552.713
-    </Line>
-    <Line Pattern="Solid">
-      +164027.079-0993609.070/
-      +164015.972-0993533.389
-    </Line>
-    <Line Pattern="Solid">
-      +164124.055-0993549.744/
-      +164112.948-0993514.063
-    </Line>
-    <Line Pattern="Solid">
-      +164318.007-0993511.087/
-      +164306.900-0993435.407
-    </Line>
-    <Line Pattern="Solid">
-      +164414.983-0993451.756/
-      +164403.876-0993416.076
-    </Line>
-    <Line Pattern="Solid">
-      +164511.959-0993432.424/
-      +164500.852-0993356.744
-    </Line>
-    <Line Pattern="Solid">
-      +164608.935-0993413.090/
-      +164557.828-0993337.410
-    </Line>
-    <Symbol Type="HollowStar">
-      <Point>AVRIM</Point>
-      <Point>AVSIX</Point>
-      <Point>ITRAM</Point>
-      <Point>AA501</Point>
-      <Point>AA500</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 28 - Salidas" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="ACA3B" Pattern="Dotted">
+        <Line Pattern="Solid">
+            +163833.127-0993647.717/
+            +163822.020-0993612.036
+        </Line>
+        <Line Pattern="Solid">
+            +163930.103-0993628.394/
+            +163918.996-0993552.713
+        </Line>
+        <Line Pattern="Solid">
+            +164027.079-0993609.070/
+            +164015.972-0993533.389
+        </Line>
+        <Line Pattern="Solid">
+            +164124.055-0993549.744/
+            +164112.948-0993514.063
+        </Line>
+        <Line Pattern="Solid">
+            +164318.007-0993511.087/
+            +164306.900-0993435.407
+        </Line>
+        <Line Pattern="Solid">
+            +164414.983-0993451.756/
+            +164403.876-0993416.076
+        </Line>
+        <Line Pattern="Solid">
+            +164511.959-0993432.424/
+            +164500.852-0993356.744
+        </Line>
+        <Line Pattern="Solid">
+            +164608.935-0993413.090/
+            +164557.828-0993337.410
+        </Line>
+        <Symbol Type="HollowStar">
+            <Point>AVRIM</Point>
+            <Point>AVSIX</Point>
+            <Point>ITRAM</Point>
+            <Point>AA501</Point>
+            <Point>AA500</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 28 - Salidas" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="ACA3B" Pattern="Dotted">
 +164530.500-0994514.270/
 +164643.320-0995225.581/
 +164644.848-0995238.584/
@@ -286,11 +286,11 @@ AMUSI/
 +164249.063-0995217.043/
 +164252.728-0995204.516/
 +164530.500-0994514.270/</Line>
-  <Line Name="NICOS3" Pattern="Dotted">
+    <Line Name="NICOS3" Pattern="Dotted">
 +165044.987-0995952.405/
 +165318.859-1000144.946/
 NICOS</Line>
-  <Line Name="TEXCA2B" Pattern="Dotted">
+    <Line Name="TEXCA2B" Pattern="Dotted">
 +164643.320-0995225.581/
 +164735.336-0995733.694/
 +164737.085-0995742.691/
@@ -376,7 +376,7 @@ NICOS</Line>
 +170124.184-0994106.847/
 +170134.783-0994103.533/
 TEXCA</Line>
-  <Line Name="OMVI1B" Pattern="Dotted">
+    <Line Name="OMVI1B" Pattern="Dotted">
 +170018.344-0994734.527/
 +170018.945-0994727.997/
 +170018.945-0994727.997/
@@ -436,7 +436,7 @@ TEXCA</Line>
 +170222.031-0994537.203/
 +170315.725-0994534.464/
 OMVIT</Line>
-  <Line Name="VIDRU1" Pattern="Dotted">
+    <Line Name="VIDRU1" Pattern="Dotted">
 +165536.489-0995645.959/
 +165541.455-0995640.489/
 +165546.688-0995635.297/
@@ -468,36 +468,36 @@ OMVIT</Line>
 +165839.881-0995625.808/
 +165916.343-0995654.242/
 VIDRU</Line>
-    <Symbol Type="HollowSquare">
-      <Point>ACA</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>ACA</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>TEXCA</Point>
-      <Point>OMVIT</Point>
-      <Point>VIDRU</Point>
-      <Point>NICOS</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 28 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-    <Label HasLeader="false">
-      <Point>ACA</Point>
-      <Point>TEXCA</Point>
-      <Point>OMVIT</Point>
-      <Point>VIDRU</Point>
-      <Point>NICOS</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Pista 28 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
-    <Line Name="AGLON1B" Pattern="Dotted">
-      ACA/AA508/AA509/AA510/AGLON
-    </Line>
-    <Line Name="ALNUS1B" Pattern="Dotted">
-      AA509/AA427/ALNUS
-    </Line>
-    <Line Name="AMIDI1B" Pattern="Dotted">
+        <Symbol Type="HollowSquare">
+            <Point>ACA</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>ACA</Point>
+        </Symbol>
+        <Symbol Type="SolidTriangle">
+            <Point>TEXCA</Point>
+            <Point>OMVIT</Point>
+            <Point>VIDRU</Point>
+            <Point>NICOS</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 28 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="false">
+            <Point>ACA</Point>
+            <Point>TEXCA</Point>
+            <Point>OMVIT</Point>
+            <Point>VIDRU</Point>
+            <Point>NICOS</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 28 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="AGLON1B" Pattern="Dotted">
+            ACA/AA508/AA509/AA510/AGLON
+        </Line>
+        <Line Name="ALNUS1B" Pattern="Dotted">
+            AA509/AA427/ALNUS
+        </Line>
+        <Line Name="AMIDI1B" Pattern="Dotted">
 +164530.500-0994514.270/
 +164539.756-0994544.022/
 +164541.536-0994550.308/
@@ -555,30 +555,30 @@ VIDRU</Line>
 AA512/
 AA516/
 AMIDI</Line>
-    <Line Name="AMUSI1B" Pattern="Dotted">
-      AA516/AA513/AMUSI
-    </Line>
-    <Symbol Type="HollowStar">
-      <Point>AA427</Point>
-      <Point>AA508</Point>
-      <Point>AA509</Point>
-      <Point>AA510</Point>
-      <Point>AA512</Point>
-      <Point>AA513</Point>
-      <Point>AA516</Point>
-      <Point>AA517</Point>
-      <Point>AGLON</Point>
-      <Point>ALNUS</Point>
-      <Point>AMIDI</Point>
-      <Point>AMUSI</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 28 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-    <Label HasLeader="false">
-      <Point>AGLON</Point>
-      <Point>ALNUS</Point>
-      <Point>AMIDI</Point>
-      <Point>AMUSI</Point>
-    </Label>
-  </Map>
+        <Line Name="AMUSI1B" Pattern="Dotted">
+            AA516/AA513/AMUSI
+        </Line>
+        <Symbol Type="HollowStar">
+            <Point>AA427</Point>
+            <Point>AA508</Point>
+            <Point>AA509</Point>
+            <Point>AA510</Point>
+            <Point>AA512</Point>
+            <Point>AA513</Point>
+            <Point>AA516</Point>
+            <Point>AA517</Point>
+            <Point>AGLON</Point>
+            <Point>ALNUS</Point>
+            <Point>AMIDI</Point>
+            <Point>AMUSI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 28 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="false">
+            <Point>AGLON</Point>
+            <Point>ALNUS</Point>
+            <Point>AMIDI</Point>
+            <Point>AMUSI</Point>
+        </Label>
+    </Map>
 </Maps>

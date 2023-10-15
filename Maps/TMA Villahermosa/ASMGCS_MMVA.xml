@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMVA_BLD" Priority="1" Center="+175947.160-0924901.680">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMVA_BLD" Priority="1" Center="+175947.160-0924901.680">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +175933.687-0924912.355/
 +175933.804-0924909.005/
 +175933.447-0924908.977/
@@ -23,29 +23,29 @@
 +175934.786-0924909.554/
 +175934.642-0924912.438/
 +175933.687-0924912.355</Point>
-    </Infill>
-    <!--GA Hangar-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--GA Hangar-->
+        <Infill>
+            <Point>
 +175934.614-0924901.506/
 +175933.873-0924901.479/
 +175933.914-0924900.133/
 +175934.669-0924900.188/
 +175934.614-0924901.506</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +175935.823-0924903.566/
 +175935.019-0924903.511/
 +175935.088-0924902.056/
 +175935.864-0924902.111/
 +175935.823-0924903.566</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMVA_APR" Priority="2" Center="+175947.160-0924901.680">
-    <!--Commercial Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMVA_APR" Priority="2" Center="+175947.160-0924901.680">
+        <!--Commercial Ramp-->
+        <Infill>
+            <Point>
 +175935.610-0924916.942/
 +175936.221-0924905.764/
 +175939.524-0924905.956/
@@ -56,10 +56,10 @@
 +175939.613-0924913.564/
 +175939.441-0924917.162/
 +175935.610-0924916.942</Point>
-    </Infill>
-    <!--GA Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--GA Ramp-->
+        <Infill>
+            <Point>
 +175936.221-0924905.764/
 +175936.324-0924903.978/
 +175935.816-0924903.923/
@@ -76,12 +76,12 @@
 +175939.462-0924905.928/
 +175939.524-0924905.956/
 +175936.221-0924905.764</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMVA_TWY" Priority="3" Center="+175947.160-0924901.680">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMVA_TWY" Priority="3" Center="+175947.160-0924901.680">
+        <!--A-->
+        <Infill>
+            <Point>
 +175946.692-0924925.484/
 +175946.603-0924924.852/
 +175946.555-0924924.331/
@@ -126,10 +126,10 @@
 +175946.775-0924919.963/
 +175947.015-0924919.414/
 +175946.692-0924925.484</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +175939.469-0924905.928/
 +175939.613-0924905.983/
 +175939.702-0924906.011/
@@ -178,12 +178,12 @@
 +175939.489-0924907.384/
 +175939.359-0924907.741/
 +175939.469-0924905.928</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMVA_RWY" Priority="1" Center="+175947.160-0924901.680">
-    <!--08/26-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMVA_RWY" Priority="1" Center="+175947.160-0924901.680">
+        <!--08/26-->
+        <Infill>
+            <Point>
 +175947.324-0924939.135/
 +175945.875-0924939.052/
 +175945.580-0924938.997/
@@ -221,47 +221,47 @@
 +175950.139-0924824.290/
 +175951.629-0924824.345/
 +175947.324-0924939.135</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMVA_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+175947.160-0924901.680">
-    <Label HasLeader="false">
-      <Point Name="A">+175941.730-0924919.420</Point>
-      <Point Name="B">+175942.040-0924901.890</Point>
-      <Point Name="08">+175947.780-0924939.080</Point>
-      <Point Name="26">+175952.000-0924826.410</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMVA_GATES" CustomColourName="GroundLabel" Priority="1" Center="+175947.160-0924901.680">
-    <Line Name="Gate 1" Pattern="Solid">
-      +175936.784-0924905.214/
-      +175938.075-0924905.269
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +175936.674-0924906.615/
-      +175938.013-0924906.670
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +175936.599-0924908.071/
-      +175937.951-0924908.181
-    </Line>	
-    <Line Name="Gate 4" Pattern="Solid">
-      +175936.482-0924909.499/
-      +175937.828-0924909.581
-    </Line>	
-    <Line Name="Gate 5" Pattern="Solid">
-      +175936.420-0924910.982/
-      +175937.745-0924911.092
-    </Line>	
-    <Line Name="Gate 6" Pattern="Solid">
-      +175936.351-0924912.493/
-      +175937.656-0924912.575
-    </Line>	
-    <Line Name="Gate 7" Pattern="Solid">
-      +175936.296-0924914.498/
-      +175937.560-0924914.580
-    </Line>	
-    <Line Name="Gate 8" Pattern="Solid">
-      +175936.194-0924915.871/
-      +175937.478-0924915.953</Line>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMVA_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+175947.160-0924901.680">
+        <Label HasLeader="false">
+            <Point Name="A">+175941.730-0924919.420</Point>
+            <Point Name="B">+175942.040-0924901.890</Point>
+            <Point Name="08">+175947.780-0924939.080</Point>
+            <Point Name="26">+175952.000-0924826.410</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMVA_GATES" CustomColourName="GroundLabel" Priority="1" Center="+175947.160-0924901.680">
+        <Line Name="Gate 1" Pattern="Solid">
+            +175936.784-0924905.214/
+            +175938.075-0924905.269
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +175936.674-0924906.615/
+            +175938.013-0924906.670
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +175936.599-0924908.071/
+            +175937.951-0924908.181
+        </Line> 
+        <Line Name="Gate 4" Pattern="Solid">
+            +175936.482-0924909.499/
+            +175937.828-0924909.581
+        </Line> 
+        <Line Name="Gate 5" Pattern="Solid">
+            +175936.420-0924910.982/
+            +175937.745-0924911.092
+        </Line> 
+        <Line Name="Gate 6" Pattern="Solid">
+            +175936.351-0924912.493/
+            +175937.656-0924912.575
+        </Line> 
+        <Line Name="Gate 7" Pattern="Solid">
+            +175936.296-0924914.498/
+            +175937.560-0924914.580
+        </Line> 
+        <Line Name="Gate 8" Pattern="Solid">
+            +175936.194-0924915.871/
+            +175937.478-0924915.953</Line>
+    </Map>
 </Maps>

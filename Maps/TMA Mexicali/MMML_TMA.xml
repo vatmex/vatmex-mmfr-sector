@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+205613.280-0893927.700">
-    <Runway Name="10/28">
-      <Threshold Name="10" Position="+323810.030-1151513.860" />
-      <Threshold Name="28" Position="+323730.030-1151345.990" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+205613.280-0893927.700">
+        <Runway Name="10/28">
+            <Threshold Name="10" Position="+323810.030-1151513.860" />
+            <Threshold Name="28" Position="+323730.030-1151345.990" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +322936.898-1144630.688/
 +322830.348-1144645.234/
 +322718.389-1144722.387/
@@ -55,9 +55,9 @@
 +323019.000-1144847.001/
 +323014.000-1144834.998/
 +322936.898-1144630.688</Line>
-	</Map>
-  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
-  	<Line Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
 +324005.000-1152715.000/
 +324150.000-1150221.000/
 +324137.346-1150159.491/
@@ -132,33 +132,33 @@
 +323912.165-1152712.551/
 +323946.311-1152706.492/
 +324005.000-1152715.000</Line>
-	</Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 10" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>NORAR</Point>
-      <Point>ONDUM</Point>
-      <Point>URSIX</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 10 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>NORAR</Point>
-      <Point>ONDUM</Point>
-      <Point>URSIX</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 28" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>AMUDI</Point>
-      <Point>AXASA</Point>
-      <Point>ONDUM</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 28 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>AMUDI</Point>
-      <Point>AXASA</Point>
-      <Point>ONDUM</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 10" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>NORAR</Point>
+            <Point>ONDUM</Point>
+            <Point>URSIX</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 10 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>NORAR</Point>
+            <Point>ONDUM</Point>
+            <Point>URSIX</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 28" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>AMUDI</Point>
+            <Point>AXASA</Point>
+            <Point>ONDUM</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 28 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>AMUDI</Point>
+            <Point>AXASA</Point>
+            <Point>ONDUM</Point>
+        </Label>
+    </Map>
 </Maps>
