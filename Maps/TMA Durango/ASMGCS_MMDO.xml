@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMDO_BLD" Priority="1" Center="+240731.490-1043140.470">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMDO_BLD" Priority="1" Center="+240731.490-1043140.470">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +240734.854-1043200.547/
 +240733.151-1043201.975/
 +240732.897-1043201.618/
@@ -12,9 +12,9 @@
 +240733.975-1043202.937/
 +240733.900-1043202.827/
 +240735.513-1043201.481</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +240732.176-1043206.535/
 +240731.435-1043207.166/
 +240730.851-1043206.370/
@@ -25,12 +25,12 @@
 +240728.455-1043206.617/
 +240728.022-1043206.013/
 +240730.411-1043204.035</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMDO_APR" Priority="3" Center="+240731.490-1043140.470">
-    <!--Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMDO_APR" Priority="3" Center="+240731.490-1043140.470">
+        <!--Ramp-->
+        <Infill>
+            <Point>
 +240723.669-1043202.470/
 +240726.910-1043206.947/
 +240731.634-1043202.854/
@@ -47,12 +47,12 @@
 +240728.386-1043200.190/
 +240728.249-1043200.190/
 +240727.514-1043159.201</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMDO_TWY" Priority="4" Center="+240731.490-1043140.470">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMDO_TWY" Priority="4" Center="+240731.490-1043140.470">
+        <!--A-->
+        <Infill>
+            <Point>
 +240807.676-1043110.642/
 +240807.854-1043110.669/
 +240807.992-1043110.861/
@@ -115,10 +115,10 @@
 +240807.243-1043111.520/
 +240807.099-1043111.466/
 +240806.790-1043111.466</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +240758.859-1043125.281/
 +240758.495-1043125.391/
 +240758.330-1043125.391/
@@ -141,10 +141,10 @@
 +240757.452-1043126.187/
 +240757.404-1043126.325/
 +240757.232-1043126.791</Point>
-    </Infill>
-    <!--C-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--C-->
+        <Infill>
+            <Point>
 +240733.069-1043156.592/
 +240737.621-1043145.111/
 +240737.635-1043145.029/
@@ -190,10 +190,10 @@
 +240734.600-1043154.834/
 +240734.607-1043154.971/
 +240734.600-1043155.219</Point>
-    </Infill>
-    <!--D-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--D-->
+        <Infill>
+            <Point>
 +240731.078-1043158.405/
 +240730.803-1043158.487/
 +240730.604-1043158.515/
@@ -242,10 +242,10 @@
 +240729.519-1043159.311/
 +240729.485-1043159.476/
 +240729.265-1043200.135</Point>
-    </Infill>
-    <!--E-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--E-->
+        <Infill>
+            <Point>
 +240714.124-1043203.623/
 +240713.733-1043203.706/
 +240713.596-1043203.733/
@@ -268,47 +268,47 @@
 +240712.717-1043204.392/
 +240712.675-1043204.612/
 +240712.524-1043204.969</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMDO_RWY" Priority="1" Center="+240731.490-1043140.470">
-    <!--03/21-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMDO_RWY" Priority="1" Center="+240731.490-1043140.470">
+        <!--03/21-->
+        <Infill>
+            <Point>
 +240806.914-1043109.461/
 +240807.854-1043110.669/
 +240653.607-1043214.252/
 +240652.687-1043212.962</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMDO_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+240731.490-1043140.470">
-    <Label HasLeader="false">
-      <Point Name="A">+240704.730-1043215.430</Point>
-      <Point Name="A">+240748.970-1043137.830</Point>
-      <Point Name="A">+240807.530-1043121.960</Point>
-      <Point Name="B">+240757.490-1043123.240</Point>
-      <Point Name="C">+240738.230-1043148.440</Point>
-      <Point Name="D">+240725.620-1043157.650</Point>
-      <Point Name="E">+240709.160-1043203.920</Point>
-      <Point Name="03">+240650.820-1043210.627</Point>
-      <Point Name="21">+240804.998-1043108.115</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMDO_GATES" CustomColourName="GroundLabel" Priority="2" Center="+240731.490-1043140.470">
-    <Line Name="Gate 1" Pattern="Solid">
-      +240731.737-1043201.563/
-      +240730.954-1043200.465
-    </Line>
-    <Line Name="Gate 2" Pattern="Solid">
-      +240733.282-1043200.272/
-      +240731.799-1043159.750
-    </Line>
-    <Line Name="Gate 3" Pattern="Solid">
-      +240734.634-1043159.146/
-      +240733.131-1043158.597
-    </Line>
-    <Line Name="Gate 4" Pattern="Solid">
-      +240735.987-1043157.993/
-      +240734.332-1043157.471
-    </Line>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMDO_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+240731.490-1043140.470">
+        <Label HasLeader="false">
+            <Point Name="A">+240704.730-1043215.430</Point>
+            <Point Name="A">+240748.970-1043137.830</Point>
+            <Point Name="A">+240807.530-1043121.960</Point>
+            <Point Name="B">+240757.490-1043123.240</Point>
+            <Point Name="C">+240738.230-1043148.440</Point>
+            <Point Name="D">+240725.620-1043157.650</Point>
+            <Point Name="E">+240709.160-1043203.920</Point>
+            <Point Name="03">+240650.820-1043210.627</Point>
+            <Point Name="21">+240804.998-1043108.115</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMDO_GATES" CustomColourName="GroundLabel" Priority="2" Center="+240731.490-1043140.470">
+        <Line Name="Gate 1" Pattern="Solid">
+            +240731.737-1043201.563/
+            +240730.954-1043200.465
+        </Line>
+        <Line Name="Gate 2" Pattern="Solid">
+            +240733.282-1043200.272/
+            +240731.799-1043159.750
+        </Line>
+        <Line Name="Gate 3" Pattern="Solid">
+            +240734.634-1043159.146/
+            +240733.131-1043158.597
+        </Line>
+        <Line Name="Gate 4" Pattern="Solid">
+            +240735.987-1043157.993/
+            +240734.332-1043157.471
+        </Line>
+    </Map>
 </Maps>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+290544.93-1110252.29">
-    <!--MMHO-->
-    <Runway Name="05/23">
-      <Threshold Name="05" Position="+290516.66-1110345.41" />
-      <Threshold Name="23" Position="+290555.39-1110232.64" />
-    </Runway>
-    <!--MMGM-->
-    <Runway Name="02/20">
-      <Threshold Name="02" Position="+275736.640-1105546.630" />
-      <Threshold Name="20" Position="+275842.620-1105504.120" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+290544.93-1110252.29">
+        <!--MMHO-->
+        <Runway Name="05/23">
+            <Threshold Name="05" Position="+290516.66-1110345.41" />
+            <Threshold Name="23" Position="+290555.39-1110232.64" />
+        </Runway>
+        <!--MMGM-->
+        <Runway Name="02/20">
+            <Threshold Name="02" Position="+275736.640-1105546.630" />
+            <Threshold Name="20" Position="+275842.620-1105504.120" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +273727.141-1085609.697/
 +293019.286-1093649.967/
 +293547.139-1093908.451/
@@ -102,9 +102,9 @@
 +275302.571-1090443.565/
 +274534.813-1085940.542/
 +273727.141-1085609.697</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo" Priority="1">
-    <Line Name="Outter-Circle">
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo" Priority="1">
+        <Line Name="Outter-Circle">
 +284111.822-1112252.099/
 +283954.301-1112040.159/
 +283838.320-1111801.174/
@@ -178,7 +178,7 @@
 +284315.351-1112548.238/
 +284210.918-1112421.962/
 +284111.822-1112252.099</Line>
-    <Line Name="046">
+        <Line Name="046">
 +292537.136-1112850.050/
 +292218.402-1112432.860/
 +292320.076-1112328.819/
@@ -195,7 +195,7 @@
 +292925.629-1111229.567/
 +292930.821-1111211.359/
 +293413.539-1111401.628</Line>
-    <Line Name="041">
+        <Line Name="041">
 +290613.318-1112555.393/
 +290558.148-1111432.452/
 +290745.838-1111418.076/
@@ -216,7 +216,7 @@
 +291303.520-1105517.085/
 +291231.609-1105441.012/
 +291155.884-1105408.872</Line>
-    <Line Name="040-1">
+        <Line Name="040-1">
 +291513.054-1110643.282/
 +291224.068-1110539.597/
 +291240.784-1110431.143/
@@ -227,7 +227,7 @@
 +291141.761-1105851.506/
 +291123.621-1105820.232/
 +291347.474-1105619.264</Line>
-    <Line Name="041-2">
+        <Line Name="041-2">
 +291811.124-1104511.245/
 +291912.869-1104611.589/
 +292024.015-1104731.791/
@@ -241,7 +241,7 @@
 +292514.964-1105803.068/
 +292521.762-1105835.583/
 +293510.930-1105615.566</Line>
-    <Line Name="040">
+        <Line Name="040">
 +290627.026-1113722.613/
 +290613.183-1112555.371/
 +290432.330-1112555.426/
@@ -280,7 +280,7 @@
 +291125.724-1105342.923/
 +291155.954-1105409.011/
 +292425.935-1103614.760</Line>
-    <Line Name="033">
+        <Line Name="033">
 +291224.077-1110539.991/
 +290834.888-1110413.418/
 +290841.653-1110346.819/
@@ -292,7 +292,7 @@
 +290724.029-1110017.297/
 +290709.929-1110006.233/
 +291029.167-1105306.127</Line>
-    <Line Name="031">
+        <Line Name="031">
 +290710.103-1110006.157/
 +290634.433-1105951.616/
 +290600.177-1105943.725/
@@ -303,7 +303,7 @@
 +290257.502-1110147.415/
 +290253.054-1110203.008/
 +285614.311-1105928.739</Line>
-    <Line Name="027">
+        <Line Name="027">
 +290557.897-1111432.394/
 +290436.253-1111427.782/
 +290259.349-1111405.934/
@@ -323,23 +323,23 @@
 +285555.379-1110044.461/
 +285606.480-1105955.773/
 +285615.032-1105928.676</Line>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
-  	<Label HasLeader="false">
-      <Point Name="27">+290533.2969-1111040.0313</Point>
-      <Point Name="30">+285407.7109-1111314.4063</Point>
-      <Point Name="31">+290147.8203-1105741.4063</Point>
-      <Point Name="33">+291019.1563-1110118.2813</Point>
-      <Point Name="40">+284820.6172-1112436.2500</Point>
-      <Point Name="40">+285850.2891-1104232.3750</Point>
-      <Point Name="40">+291352.4375-1110205.2813</Point>
-      <Point Name="41">+291954.5156-1111218.5625</Point>
-      <Point Name="46">+292845.4297-1112129.5938</Point>
-      <Point Name="55">+292637.0859-1105111.1563</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMHO - Zona de Control (CTR)" Priority="1">
-  	<Line Pattern="Dashed">
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
+        <Label HasLeader="false">
+            <Point Name="27">+290533.2969-1111040.0313</Point>
+            <Point Name="30">+285407.7109-1111314.4063</Point>
+            <Point Name="31">+290147.8203-1105741.4063</Point>
+            <Point Name="33">+291019.1563-1110118.2813</Point>
+            <Point Name="40">+284820.6172-1112436.2500</Point>
+            <Point Name="40">+285850.2891-1104232.3750</Point>
+            <Point Name="40">+291352.4375-1110205.2813</Point>
+            <Point Name="41">+291954.5156-1111218.5625</Point>
+            <Point Name="46">+292845.4297-1112129.5938</Point>
+            <Point Name="55">+292637.0859-1105111.1563</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMHO - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
 +291746.755-1110252.290/
 +291746.176-1110219.344/
 +291744.440-1110146.451/
@@ -498,9 +498,9 @@
 +291744.440-1110358.129/
 +291746.176-1110325.236/
 +291746.755-1110252.290</Line>
-  </Map>
-  <Map Type="System" Name="MMGM - Zona de Transito de Aerodromo (ATZ)" Priority="1">
-    <Line Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="MMGM - Zona de Transito de Aerodromo (ATZ)" Priority="1">
+        <Line Pattern="Dashed">
 +280308.101-1105455.805/
 +280306.325-1105438.155/
 +280303.736-1105420.634/
@@ -622,5 +622,5 @@
 +280309.196-1105531.300/
 +280309.059-1105513.537/
 +280308.101-1105455.805</Line>
-  </Map>
+    </Map>
 </Maps>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMTP_BLD" Priority="1" Center="+144737.580-0922213.140">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMTP_BLD" Priority="1" Center="+144737.580-0922213.140">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +144726.574-0922208.906/
 +144724.631-0922209.290/
 +144724.449-0922208.192/
@@ -15,21 +15,21 @@
 +144726.640-0922207.615/
 +144726.372-0922207.670/
 +144726.574-0922208.906</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMTP_APR" Priority="2" Center="+144737.580-0922213.140">
-    <!--Commercial Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMTP_APR" Priority="2" Center="+144737.580-0922213.140">
+        <!--Commercial Ramp-->
+        <Infill>
+            <Point>
 +144728.435-0922206.516/
 +144731.168-0922208.302/
 +144727.745-0922213.383/
 +144725.091-0922211.488/
 +144728.435-0922206.516</Point>
-    </Infill>
-    <!--GA Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--GA Ramp-->
+        <Infill>
+            <Point>
 +144728.425-0922206.544/
 +144728.445-0922206.516/
 +144728.504-0922206.461/
@@ -52,12 +52,12 @@
 +144734.986-0922202.698/
 +144731.144-0922208.329/
 +144728.425-0922206.544</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTP_TWY" Priority="3" Center="+144737.580-0922213.140">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMTP_TWY" Priority="3" Center="+144737.580-0922213.140">
+        <!--A-->
+        <Infill>
+            <Point>
 +144727.711-0922228.654/
 +144728.112-0922227.692/
 +144728.305-0922227.116/
@@ -91,10 +91,10 @@
 +144730.577-0922224.094/
 +144730.914-0922223.847/
 +144727.711-0922228.654</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +144741.780-0922207.532/
 +144741.770-0922207.148/
 +144741.732-0922206.873/
@@ -129,12 +129,12 @@
 +144744.019-0922203.715/
 +144744.729-0922203.083/
 +144741.780-0922207.532</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMTP_RWY" Priority="1" Center="+144737.580-0922213.140">
-    <!--05/23-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMTP_RWY" Priority="1" Center="+144737.580-0922213.140">
+        <!--05/23-->
+        <Infill>
+            <Point>
 +144721.806-0922240.134/
 +144720.556-0922239.365/
 +144720.013-0922238.981/
@@ -165,33 +165,33 @@
 +144757.065-0922144.022/
 +144758.462-0922144.983/
 +144721.806-0922240.134</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTP_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+144737.580-0922213.140">
-    <Label HasLeader="false">
-      <Point Name="A">+144726.640-0922222.180</Point>
-      <Point Name="B">+144737.220-0922205.660</Point>
-      <Point Name="C">+144729.620-0922211.870</Point>
-      <Point Name="05">+144722.390-0922239.970</Point>
-      <Point Name="23">+144757.700-0922146.820</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMTP_GATES" CustomColourName="GroundLabel" Priority="1" Center="+144737.580-0922213.140">
-    <Line Name="Gate 1" Pattern="Solid">
-      +144728.596-0922207.450/
-      +144729.252-0922207.890
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +144727.711-0922208.604/
-      +144728.517-0922209.125
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +144726.894-0922209.867/
-      +144727.711-0922210.416
-    </Line>	
-    <Line Name="Gate 4" Pattern="Solid">
-      +144725.949-0922211.323/
-      +144726.767-0922211.900
-    </Line>	
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMTP_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+144737.580-0922213.140">
+        <Label HasLeader="false">
+            <Point Name="A">+144726.640-0922222.180</Point>
+            <Point Name="B">+144737.220-0922205.660</Point>
+            <Point Name="C">+144729.620-0922211.870</Point>
+            <Point Name="05">+144722.390-0922239.970</Point>
+            <Point Name="23">+144757.700-0922146.820</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMTP_GATES" CustomColourName="GroundLabel" Priority="1" Center="+144737.580-0922213.140">
+        <Line Name="Gate 1" Pattern="Solid">
+            +144728.596-0922207.450/
+            +144729.252-0922207.890
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +144727.711-0922208.604/
+            +144728.517-0922209.125
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +144726.894-0922209.867/
+            +144727.711-0922210.416
+        </Line> 
+        <Line Name="Gate 4" Pattern="Solid">
+            +144725.949-0922211.323/
+            +144726.767-0922211.900
+        </Line> 
+    </Map>
 </Maps>

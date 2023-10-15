@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMCE - Pista 13 - Salidas" Priority="1" Center="+183907.072-0914758.356">
-    <Line Name="CME4A" Pattern="Dotted">
+    <Map Type="System" Name="MMCE - Pista 13 - Salidas" Priority="1" Center="+183907.072-0914758.356">
+        <Line Name="CME4A" Pattern="Dotted">
 +183839.910-0914734.313/
 +183411.978-0914337.245/
 +183333.011-0914302.803/
@@ -27,7 +27,7 @@
 +183559.273-0914015.261/
 +183610.520-0914032.180/
 CME</Line>
-    <Line Name="CONT2A" Pattern="Dotted">
+        <Line Name="CONT2A" Pattern="Dotted">
 +183739.221-0913757.136/
 +183812.297-0913751.752/
 +183843.807-0913747.523/
@@ -51,7 +51,7 @@ CME</Line>
 +184739.006-0913924.862/
 +184749.038-0913915.194/
 CONTO</Line>
-    <Line Name="DUTK2" Pattern="Dotted">
+        <Line Name="DUTK2" Pattern="Dotted">
 +183326.934-0914001.693/
 +183345.240-0913945.571/
 +183418.748-0913921.813/
@@ -74,7 +74,7 @@ CONTO</Line>
 +183911.424-0913602.796/
 +183911.465-0913553.979/
 DUTKA</Line>
-    <Line Name="TETU2A" Pattern="Dotted">
+        <Line Name="TETU2A" Pattern="Dotted">
 +183333.018-0914302.775/
 +183317.898-0914251.542/
 +183304.989-0914243.989/
@@ -111,31 +111,31 @@ DUTKA</Line>
 +182935.363-0915414.974/
 +182926.436-0915421.071/
 TETUK</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>CONTO</Point>
-      <Point>DUTKA</Point>
-      <Point>TETUK</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>CME</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CME</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMCE - Pista 13 - Salidas (Nombres)" Priority="1" Center="+183907.072-0914758.356">
-    <Label HasLeader="false">
-      <Point>CME</Point>
-      <Point>CONTO</Point>
-      <Point>DUTKA</Point>
-      <Point>TETUK</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMCE - Pista 13 - VORDME 2" Priority="1" Center="+183907.072-0914758.356">
-    <Line Name="Final 13" Pattern="Solid">
+        <Symbol Type="SolidTriangle">
+            <Point>CONTO</Point>
+            <Point>DUTKA</Point>
+            <Point>TETUK</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CME</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CME</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMCE - Pista 13 - Salidas (Nombres)" Priority="1" Center="+183907.072-0914758.356">
+        <Label HasLeader="false">
+            <Point>CME</Point>
+            <Point>CONTO</Point>
+            <Point>DUTKA</Point>
+            <Point>TETUK</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMCE - Pista 13 - VORDME 2" Priority="1" Center="+183907.072-0914758.356">
+        <Line Name="Final 13" Pattern="Solid">
 +183934.224-0914822.440/
 +184542.482-0915348.854</Line>
-    <Line Name="CONTO" Pattern="Dashed">
+        <Line Name="CONTO" Pattern="Dashed">
 +184542.482-0915348.854/
 +184551.731-0915356.160/
 +184604.826-0915404.592/
@@ -176,7 +176,7 @@ TETUK</Line>
 +184734.213-0913932.415/
 +184742.371-0913922.362/
 CONTO</Line>
-    <Line Name="NOPON" Pattern="Dashed">
+        <Line Name="NOPON" Pattern="Dashed">
 +184225.971-0915827.138/
 +184147.299-0915837.135/
 +184111.951-0915843.837/
@@ -200,7 +200,7 @@ CONTO</Line>
 +183312.658-0915814.696/
 +183303.821-0915825.929/
 NOPON</Line>
-    <Line Name="PIGNO" Pattern="Dashed">
+        <Line Name="PIGNO" Pattern="Dashed">
 +184542.482-0915348.854/
 +184550.901-0915357.286/
 +184559.381-0915408.300/
@@ -234,7 +234,7 @@ NOPON</Line>
 +184106.046-0920017.385/
 +184106.808-0920030.624/
 PIGNO</Line>
-    <Line Name="TETUK" Pattern="Dashed">
+        <Line Name="TETUK" Pattern="Dashed">
 +183505.481-0915744.236/
 +183435.358-0915725.779/
 +183403.093-0915704.768/
@@ -252,32 +252,32 @@ PIGNO</Line>
 +182943.479-0915412.914/
 +182927.610-0915420.385/
 TETUK</Line>
-    <Symbol Type="SolidTriangle">
-      <Point>+184755.190-0913908.180</Point>
-      <Point>+183251.050-0915845.610</Point>
-      <Point>+184109.300-0920051.090</Point>
-      <Point>+182908.230-0915431.870</Point>
-      <Point>+184713.850-0915509.930</Point>
-      <Point>+184328.920-0915150.410</Point>      
-      <Point>CONTO</Point>
-      <Point>NOPON</Point>
-      <Point>PIGNO</Point>
-      <Point>TETUK</Point>
-    </Symbol>
-    <Symbol Type="HollowSquare">
-      <Point>CME</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CME</Point>
-    </Symbol>  
-  </Map>
-  <Map Type="System" Name="MMCE - Pista 13 - VORDME 2 (Nombres)" Priority="1" Center="+183907.072-0914758.356">
-    <Label HasLeader="false">
-      <Point>CME</Point>
-      <Point>CONTO</Point>
-      <Point>NOPON</Point>
-      <Point>PIGNO</Point>
-      <Point>TETUK</Point>
-    </Label>
-  </Map>
+        <Symbol Type="SolidTriangle">
+            <Point>+184755.190-0913908.180</Point>
+            <Point>+183251.050-0915845.610</Point>
+            <Point>+184109.300-0920051.090</Point>
+            <Point>+182908.230-0915431.870</Point>
+            <Point>+184713.850-0915509.930</Point>
+            <Point>+184328.920-0915150.410</Point>      
+            <Point>CONTO</Point>
+            <Point>NOPON</Point>
+            <Point>PIGNO</Point>
+            <Point>TETUK</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CME</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CME</Point>
+        </Symbol>  
+    </Map>
+    <Map Type="System" Name="MMCE - Pista 13 - VORDME 2 (Nombres)" Priority="1" Center="+183907.072-0914758.356">
+        <Label HasLeader="false">
+            <Point>CME</Point>
+            <Point>CONTO</Point>
+            <Point>NOPON</Point>
+            <Point>PIGNO</Point>
+            <Point>TETUK</Point>
+        </Label>
+    </Map>
 </Maps>

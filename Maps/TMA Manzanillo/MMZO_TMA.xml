@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+193703.118-1010555.600">
-    <Runway Name="10/28">
-      <Threshold Name="10" Position="+190851.080-1043406.830" />
-      <Threshold Name="28" Position="+190831.200-1043254.240" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+193703.118-1010555.600">
+        <Runway Name="10/28">
+            <Threshold Name="10" Position="+190851.080-1043406.830" />
+            <Threshold Name="28" Position="+190831.200-1043254.240" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +200849.000-1041926.000/
 +193314.000-1033534.000/
 +193009.275-1033418.434/
@@ -90,9 +90,9 @@
 +193838.420-1052826.493/
 +194134.000-1052642.000/
 +200849.000-1041926.000</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
-    <Line Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
 +192535.802-1043156.561/
 +192529.766-1043100.477/
 +192520.965-1043004.805/
@@ -214,31 +214,31 @@
 +192539.523-1043349.346/
 +192539.058-1043252.902/
 +192535.802-1043156.561</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 10" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>NUDAS</Point>
-      <Point>USBAK</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 10 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>NUDAS</Point>
-      <Point>USBAK</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 28" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>BEXIN</Point>
-      <Point>MEKLI</Point>
-      <Point>TIDEK</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 28 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-    	<Point>BEXIN</Point>
-      <Point>MEKLI</Point>
-      <Point>TIDEK</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 10" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>NUDAS</Point>
+            <Point>USBAK</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 10 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>NUDAS</Point>
+            <Point>USBAK</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 28" Priority="1" Center="+240421.890-1102145.150">
+        <Symbol Type="SolidTriangle">
+            <Point>BEXIN</Point>
+            <Point>MEKLI</Point>
+            <Point>TIDEK</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 28 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
+        <Label HasLeader="false">
+            <Point>BEXIN</Point>
+            <Point>MEKLI</Point>
+            <Point>TIDEK</Point>
+        </Label>
+    </Map>
 </Maps>

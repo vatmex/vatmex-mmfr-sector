@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="Pista 10 - Salidas" Priority="1" Center="+203828.823-0882646.381">
-    <Line Name="CZA4A" Pattern="Dotted">
+    <Map Type="System" Name="Pista 10 - Salidas" Priority="1" Center="+203828.823-0882646.381">
+        <Line Name="CZA4A" Pattern="Dotted">
 +203820.711-0882558.860/
 +203714.687-0881934.191/
 +203713.293-0881923.177/
@@ -48,16 +48,16 @@
 +204105.579-0881955.504/
 +204101.555-0882005.886/
 CZA</Line>
-    <Symbol Type="HollowSquare">
-      <Point>CZA</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>CZA</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Pista 10 - Salidas (Nombres)" Priority="2" Center="+203828.823-0882646.381">
-    <Label HasLeader="false">
-      <Point>CZA</Point>
-    </Label>
-  </Map>
+        <Symbol Type="HollowSquare">
+            <Point>CZA</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CZA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 10 - Salidas (Nombres)" Priority="2" Center="+203828.823-0882646.381">
+        <Label HasLeader="false">
+            <Point>CZA</Point>
+        </Label>
+    </Map>
 </Maps>

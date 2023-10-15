@@ -1,13 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+272636.114-0993411.710">
-    <Runway Name="14/32">
-      <Threshold Name="14" Position="+272704.570-0993429.494" />
-      <Threshold Name="32" Position="+272607.629-0993353.928" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-    <Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+272636.090-0993411.720">
+        <Runway Name="14/32">
+            <Threshold Name="14" Position="+272704.570-0993429.494" />
+            <Threshold Name="32" Position="+272607.629-0993353.928" />
+        </Runway>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
++273933.000-0993508.000/
++273600.000-0993000.000/
++273300.000-0992900.000/
++271959.999-0992700.000/
++271733.000-0992344.000/
++271648.052-0992435.726/
++271622.105-0992511.193/
++271557.841-0992548.142/
++271535.326-0992626.471/
++271514.623-0992706.076/
++271455.787-0992746.847/
++271438.871-0992828.673/
++271423.921-0992911.439/
++271410.978-0992955.028/
++271400.076-0993039.321/
++271351.247-0993124.196/
++271344.515-0993209.530/
++271339.897-0993255.199/
++271337.407-0993341.078/
++271337.051-0993427.041/
++271338.830-0993512.962/
++271342.740-0993558.715/
++271348.769-0993644.174/
++271356.902-0993729.216/
++271407.115-0993813.717/
++271419.382-0993857.554/
++271433.667-0993940.608/
++271449.933-0994022.760/
++271508.134-0994103.895/
++271528.221-0994143.901/
++271550.139-0994222.667/
++271613.827-0994300.087/
++271639.220-0994336.059/
++271706.250-0994410.485/
++271734.841-0994443.269/
++271804.916-0994514.322/
++271836.392-0994543.559/
++271909.183-0994610.900/
++271943.199-0994636.270/
++272018.346-0994659.598/
++272054.529-0994720.823/
++272131.648-0994739.884/
++272209.601-0994756.730/
++272248.285-0994811.315/
++272327.594-0994823.598/
++272407.418-0994833.547/
++272447.651-0994841.133/
++272528.181-0994846.336/
++272608.896-0994849.142/
++272649.687-0994849.543/
++272730.440-0994847.539/
++272811.044-0994843.133/
++272851.388-0994836.339/
++272931.361-0994827.175/
++273010.853-0994815.667/
++273049.757-0994801.845/
++273127.966-0994745.748/
++273205.374-0994727.419/
++273241.880-0994706.910/
++273317.384-0994644.276/
++273351.787-0994619.579/
++273424.996-0994552.888/
++273456.921-0994524.274/
++273527.472-0994453.817/
++273556.567-0994421.600/
++273624.125-0994347.711/
++273650.072-0994312.244/
++273714.336-0994235.295/
++273736.851-0994156.966/
++273757.554-0994117.361/
++273816.390-0994036.590/
++273833.306-0993954.764/
++273848.256-0993911.998/
++273901.199-0993828.409/
++273912.101-0993744.116/
++273920.930-0993659.241/
++273927.662-0993613.907/
++273933.000-0993508.000</Line>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +280739.000-1000553.000/
 +281018.265-1000237.625/
 +281000.000-1000159.999/
@@ -27,75 +108,37 @@
 +264925.000-1000853.000/
 +275625.000-1001900.000/
 +280739.000-1000553.000</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 14" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>EMPIX</Point>
-      <Point>GAGLO</Point>
-      <Point>NOTAK</Point>
-      <Point>ONKAL</Point>
-      <Point>USBAR</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>ILIGO</Point>
-      <Point>IRDAN</Point>
-      <Point>MATUR</Point>
-      <Point>RUDMA</Point>
-
-      <Point>NL601</Point>
-      <Point>NL602</Point>
-      <Point>NL603</Point>
-      <Point>NL605</Point>
-    </Symbol>
-    <Line Name="USBAR1A" Pattern="Dashed">USBAR/NL605/IRDAN</Line>
-    <Line Name="EMPIX1A" Pattern="Dashed">EMPIX/NL605</Line>
-    <Line Name="RUDMA1C" Pattern="Dashed">RUDMA/NL603/NL602/NL602/NL601/NL600/IRDAN</Line>
-    <Line Name="ILIGO1A" Pattern="Dashed">ILIGO/NL603</Line>
-    <Line Name="MATUR1A" Pattern="Dashed">MATUR/NL603</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 14 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>EMPIX</Point>
-      <Point>GAGLO</Point>
-      <Point>ILIGO</Point>
-      <Point>IRDAN</Point>
-      <Point>MATUR</Point>
-      <Point>NOTAK</Point>
-      <Point>ONKAL</Point>
-      <Point>RUDMA</Point>
-      <Point>USBAR</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 32" Priority="1" Center="+240421.890-1102145.150">
-    <Symbol Type="SolidTriangle">
-      <Point>USBAR</Point>
-      <Point>EMPIX</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>ILIGO</Point>
-      <Point>ITREB</Point>
-      <Point>MATUR</Point>
-      <Point>MEKSA</Point>
-      <Point>NL603</Point>
-      <Point>NL710</Point>
-      <Point>RUDMA</Point>
-      <Point>VINBO</Point>
-    </Symbol>
-    <Line Name="USBAR1B" Pattern="Dashed">USBAR/NL710/MEKSA/ITREB</Line>
-    <Line Name="EMPIX1B" Pattern="Dashed">EMPIX/MEKSA</Line>
-    <Line Name="RUDMA1D" Pattern="Dashed">RUDMA/NL603/VINBO</Line>
-    <Line Name="ILIGO1B" Pattern="Dashed">ILIGO/NL603</Line>
-    <Line Name="MATUR1B" Pattern="Dashed">MATUR/NL603</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 32 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
-    <Label HasLeader="false">
-      <Point>USBAR</Point>
-      <Point>EMPIX</Point>
-      <Point>ILIGO</Point>
-      <Point>ITREB</Point>
-      <Point>MATUR</Point>
-      <Point>RUDMA</Point>
-      <Point>VINBO</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 32" Priority="1" Center="+272636.090-0993411.720">
+        <Symbol Type="SolidTriangle">
+            <Point>USBAR</Point>
+            <Point>EMPIX</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>ILIGO</Point>
+            <Point>ITREB</Point>
+            <Point>MATUR</Point>
+            <Point>MEKSA</Point>
+            <Point>NL603</Point>
+            <Point>NL710</Point>
+            <Point>RUDMA</Point>
+            <Point>VINBO</Point>
+        </Symbol>
+        <Line Name="USBAR1B" Pattern="Dashed">USBAR/NL710/MEKSA/ITREB</Line>
+        <Line Name="EMPIX1B" Pattern="Dashed">EMPIX/MEKSA</Line>
+        <Line Name="RUDMA1D" Pattern="Dashed">RUDMA/NL603/VINBO</Line>
+        <Line Name="ILIGO1B" Pattern="Dashed">ILIGO/NL603</Line>
+        <Line Name="MATUR1B" Pattern="Dashed">MATUR/NL603</Line>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 32 (Nombres)" Priority="1" Center="+272636.090-0993411.720">
+        <Label HasLeader="false">
+            <Point>USBAR</Point>
+            <Point>EMPIX</Point>
+            <Point>ILIGO</Point>
+            <Point>ITREB</Point>
+            <Point>MATUR</Point>
+            <Point>RUDMA</Point>
+            <Point>VINBO</Point>
+        </Label>
+    </Map>
 </Maps>

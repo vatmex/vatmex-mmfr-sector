@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMCP_BLD" Priority="1" Center="+194901.050-0903001.770">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMCP_BLD" Priority="1" Center="+194901.050-0903001.770">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +194851.955-0903014.529/
 +194849.490-0903013.870/
 +194849.600-0903013.403/
@@ -17,32 +17,32 @@
 +194851.907-0903013.842/
 +194852.099-0903013.897/
 +194851.955-0903014.529</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMCP_APR" Priority="3" Center="+194901.050-0903001.770">
-    <!--Commercial Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMCP_APR" Priority="3" Center="+194901.050-0903001.770">
+        <!--Commercial Ramp-->
+        <Infill>
+            <Point>
 +194854.558-0903013.128/
 +194848.337-0903011.508/
 +194849.085-0903008.239/
 +194855.285-0903009.887/
 +194854.558-0903013.128</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCP_TWY" Priority="2" Center="+194901.050-0903001.770">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCP_TWY" Priority="2" Center="+194901.050-0903001.770">
+        <!--A-->
+        <Infill>
+            <Point>
 +194940.165-0903010.794/
 +195009.546-0903030.432/
 +195009.011-0903031.365/
 +194939.952-0903011.920/
 +194940.165-0903010.794</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +194908.613-0903003.982/
 +194907.659-0903004.010/
 +194907.343-0903004.010/
@@ -84,10 +84,10 @@
 +194903.910-0903002.966/
 +194903.477-0903002.636/
 +194908.613-0903003.982</Point>
-    </Infill>
-    <!--C-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--C-->
+        <Infill>
+            <Point>
 +194849.360-0903008.349/
 +194849.504-0903007.580/
 +194849.524-0903007.141/
@@ -131,12 +131,12 @@
 +194850.582-0903008.541/
 +194850.767-0903008.734/
 +194849.360-0903008.349</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMCP_RWY" Priority="1" Center="+194901.050-0903001.770">
-    <!--16/34-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCP_RWY" Priority="1" Center="+194901.050-0903001.770">
+        <!--16/34-->
+        <Infill>
+            <Point>
 +194821.125-0902950.112/
 +194940.281-0903010.656/
 +194939.986-0903012.167/
@@ -172,28 +172,28 @@
 +194820.720-0902952.117/
 +194820.836-0902951.622/
 +194821.125-0902950.112</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCP_GATES" CustomColourName="GroundLabel" Priority="1" Center="+194901.050-0903001.770">
-    <Line Name="Gate 1" Pattern="Solid">
-      +194849.257-0903011.123/
-      +194849.566-0903009.777
-    </Line>
-    <Line Name="Gate 2" Pattern="Solid">
-      +194851.152-0903011.535/
-      +194851.392-0903010.244
-    </Line>
-    <Line Name="Gate 3" Pattern="Solid">
-      +194852.992-0903012.112/
-      +194853.287-0903010.766</Line>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMCP_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+194901.050-0903001.770">
-    <Label HasLeader="false">
-      <Point Name="A">+194950.790-0903023.930</Point>
-      <Point Name="B">+194859.190-0903009.400</Point>
-      <Point Name="C">+194843.990-0903004.480</Point>
-      <Point Name="16">+194939.920-0903010.100</Point>
-      <Point Name="34">+194823.760-0902950.290</Point>
-    </Label>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCP_GATES" CustomColourName="GroundLabel" Priority="1" Center="+194901.050-0903001.770">
+        <Line Name="Gate 1" Pattern="Solid">
+            +194849.257-0903011.123/
+            +194849.566-0903009.777
+        </Line>
+        <Line Name="Gate 2" Pattern="Solid">
+            +194851.152-0903011.535/
+            +194851.392-0903010.244
+        </Line>
+        <Line Name="Gate 3" Pattern="Solid">
+            +194852.992-0903012.112/
+            +194853.287-0903010.766</Line>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCP_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+194901.050-0903001.770">
+        <Label HasLeader="false">
+            <Point Name="A">+194950.790-0903023.930</Point>
+            <Point Name="B">+194859.190-0903009.400</Point>
+            <Point Name="C">+194843.990-0903004.480</Point>
+            <Point Name="16">+194939.920-0903010.100</Point>
+            <Point Name="34">+194823.760-0902950.290</Point>
+        </Label>
+    </Map>
 </Maps>

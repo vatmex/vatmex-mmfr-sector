@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+183907.072-0914758.356">
-    <Runway Name="14/32 ">
-      <Threshold Name="14" Position="+163417.154-0930156.053" />
-      <Threshold Name="32" Position="+163307.961-0930111.748" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-    <Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+183907.072-0914758.356">
+        <Runway Name="14/32 ">
+            <Threshold Name="14" Position="+163417.154-0930156.053" />
+            <Threshold Name="32" Position="+163307.961-0930111.748" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +170417.699-0925130.360/
 +171231.380-0924641.219/
 +170708.460-0923618.180/
@@ -119,37 +119,35 @@
 +171950.757-0930107.211/
 +171745.658-0924848.660/
 +170417.699-0925130.360</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 14" Priority="1" Center="+183907.072-0914758.356">
-    <Symbol Type="SolidTriangle">
-      <Point>KIPAG</Point>
-      <Point>OMVAB</Point>
-      <Point>SAXAV</Point>
-      <Point>URVOD</Point>
-      <Point>XOMSO</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 14 (Nombres)" Priority="1" Center="+183907.072-0914758.356">
-    <Label HasLeader="false">
-      <Point>KIPAG</Point>
-      <Point>OMVAB</Point>
-      <Point>SAXAV</Point>
-      <Point>URVOD</Point>
-      <Point>XOMSO</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 32" Priority="1" Center="+183907.072-0914758.356">
-    <Symbol Type="SolidTriangle">
-      <Point>KESLI</Point>
-      <Point>LENOP</Point>
-      <Point>ONVIP</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Fijos 32 (Nombres)" Priority="1" Center="+183907.072-0914758.356">
-    <Label HasLeader="false">
-      <Point>KESLI</Point>
-      <Point>LENOP</Point>
-      <Point>ONVIP</Point>
-    </Label>
-  </Map>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 14" Priority="1" Center="+183907.072-0914758.356">
+        <Symbol Type="SolidTriangle">
+            <Point>KIPAG</Point>
+            <Point>OMVAB</Point>
+            <Point>SAXAV</Point>
+            <Point>URVOD</Point>
+            <Point>XOMSO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 14 (Nombres)" Priority="1" Center="+183907.072-0914758.356">
+        <Label HasLeader="false">
+            <Point>KIPAG</Point>
+            <Point>OMVAB</Point>
+            <Point>SAXAV</Point>
+            <Point>URVOD</Point>
+            <Point>XOMSO</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 32" Priority="1" Center="+183907.072-0914758.356">
+        <Symbol Type="SolidTriangle">
+            <Point>KESLI</Point>
+            <Point>ONVIP</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Fijos 32 (Nombres)" Priority="1" Center="+183907.072-0914758.356">
+        <Label HasLeader="false">
+            <Point>KESLI</Point>
+            <Point>ONVIP</Point>
+        </Label>
+    </Map>
 </Maps>

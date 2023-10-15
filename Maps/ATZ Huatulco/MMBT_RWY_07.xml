@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MMBT - Pista 07 - Salidas" Priority="1" Center="+154631.183-0961545.199">
-    <Line Name="HUX3A" Pattern="Dotted">
+    <Map Type="System" Name="MMBT - Pista 07 - Salidas" Priority="1" Center="+154631.183-0961545.199">
+        <Line Name="HUX3A" Pattern="Dotted">
 +154723.632-0960827.760/
 +154724.181-0960814.934/
 +154723.409-0960803.178/
@@ -38,7 +38,7 @@
 +154321.325-0960912.392/
 +154326.290-0960922.115/
 HUX</Line>
-    <Line Name="HUX3B" Pattern="Dotted">
+        <Line Name="HUX3B" Pattern="Dotted">
 +154644.782-0961452.529/
 +154814.670-0955959.395/
 +154815.378-0955938.741/
@@ -80,16 +80,16 @@ HUX</Line>
 +153715.807-0960311.491/
 +153808.908-0960422.271/
 HUX</Line>
-    <Symbol Type="HollowSquare">
-      <Point>HUX</Point>
-    </Symbol>
-    <Symbol Type="Circle">
-      <Point>HUX</Point>
-    </Symbol>
-  </Map>
-  <Map Type="System" Name="MMBT - Pista 07 - Salidas (Nombres)" Priority="1" Center="+154631.183-0961545.199">
-    <Label>
-      <Point>HUX</Point>
-    </Label>
-  </Map>
+        <Symbol Type="HollowSquare">
+            <Point>HUX</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>HUX</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMBT - Pista 07 - Salidas (Nombres)" Priority="1" Center="+154631.183-0961545.199">
+        <Label>
+            <Point>HUX</Point>
+        </Label>
+    </Map>
 </Maps>
