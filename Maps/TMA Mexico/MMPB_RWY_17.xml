@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="MMPB - Pista 17 - Llegadas RNAV" Priority="1" Center="+190929.299-0982217.408">
+        <Line Name="ATUKA1A" Pattern="Dashed">ATUKA/RETEX/VINGA</Line>
+        <Line Name="TAKAL1A" Pattern="Dashed">TAKAL/PB400/PB401/IMALO/PB403/PB404/LERUS</Line>
+        <Line Name="LARLO1C" Pattern="Dashed">LARLO/NAGOS/PB410/IMALO</Line>
+        <Symbol Type="HollowStar">
+            <Point>ATUKA</Point>
+            <Point>IMALO</Point>
+            <Point>LARLO</Point>
+            <Point>LERUS</Point>
+            <Point>NAGOS</Point>
+            <Point>PB400</Point>
+            <Point>PB401</Point>
+            <Point>PB403</Point>
+            <Point>PB404</Point>
+            <Point>PB410</Point>
+            <Point>RETEX</Point>
+            <Point>TAKAL</Point>
+            <Point>VINGA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMPB - Pista 17 - Llegadas RNAV (Nombres)" Priority="1" Center="+190929.299-0982217.408">
+        <Label HasLeader="false">
+            <Point>TAKAL</Point>
+            <Point>LARLO</Point>
+            <Point>LERUS</Point>
+            <Point>VINGA</Point>
+            <Point>ATUKA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMPB - Pista 17 - RNP 17" Priority="1" Center="+190929.299-0982217.408">
+        <Line Name="FINAL" Pattern="Solid">PB900/PB901/PBSD1/+191027.970-0982219.580</Line>
+        <Line Name="VINGA" Pattern="Solid">VINGA/PB900</Line>
+        <Line Name="LERUS" Pattern="Solid">LERUS/PB900</Line>
+        <Symbol Type="HollowStar">
+            <Point>VINGA</Point>
+            <Point>LERUS</Point>
+            <Point>PB900</Point>
+            <Point>PB901</Point>
+            <Point>PBSD1</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMPB - Pista 17 - RNP 17 (Nombres)" Priority="1" Center="+190929.299-0982217.408">
+        <Label HasLeader="false">
+            <Point>LERUS</Point>
+            <Point>VINGA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMPB - Pista 17 - Salidas RNAV" Priority="1" Center="+190929.299-0982217.408">
+        <Line Name="TAKAL1C" Pattern="Dotted">+190830.870-0982215.260/PB500/PB520/PB400/TAKAL</Line>
+        <Line Name="ILETO1C" Pattern="Dotted">PB500/PB501/PB502/PB503/PB504/ILETO</Line>
+        <Line Name="UKUNO1C" Pattern="Dotted">PB503/UKUNO</Line>
+        <Line Name="NOXOS1C" Pattern="Dotted">PB503/NOXOS</Line>
+        <Line Name="OTAGO1A" Pattern="Dotted">PB503/PB510/PB530/OTAGO</Line>
+        <Symbol Type="HollowStar">
+            <Point>ILETO</Point>
+            <Point>NOXOS</Point>
+            <Point>OTAGO</Point>
+            <Point>PB400</Point>
+            <Point>PB500</Point>
+            <Point>PB501</Point>
+            <Point>PB502</Point>
+            <Point>PB503</Point>
+            <Point>PB504</Point>
+            <Point>PB510</Point>
+            <Point>PB520</Point>
+            <Point>PB530</Point>
+            <Point>TAKAL</Point>
+            <Point>UKUNO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMPB - Pista 17 - Salidas RNAV (Nombres)" Priority="1" Center="+190929.299-0982217.408">
+        <Label HasLeader="false">
+            <Point>ILETO</Point>
+            <Point>NOXOS</Point>
+            <Point>OTAGO</Point>
+            <Point>TAKAL</Point>
+            <Point>UKUNO</Point>
+        </Label>
+    </Map>
+</Maps>

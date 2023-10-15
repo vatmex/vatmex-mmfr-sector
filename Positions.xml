@@ -2788,9 +2788,11 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
                 <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
 
+                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
+                <Map Name="TMA Mexico/MMPB - Pista 35 - RNP 35" />
+                <Map Name="TMA Mexico/MMPB - Pista 35 - RNP 35 (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Sector - Radioayudas" />
@@ -2819,7 +2821,13 @@
                 <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
                 <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite" />
                 <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
+
                 <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMPB - Pista 35 - Llegadas RNAV" />
+                <Map Name="TMA Mexico/MMPB - Pista 35 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Mexico/MMPB - Pista 35 - RNP 35" />
+                <Map Name="TMA Mexico/MMPB - Pista 35 - Salidas RNAV" />
+                <Map Name="TMA Mexico/MMPB - Pista 35 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Sector - Radioayudas" />
@@ -2958,15 +2966,15 @@
                 <Point>+183641.440-0992005.612</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Autorización México - MXCDL" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
+        <Position Name="Autorización México - MXCDL" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXCDL" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/Aeropuerto - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
 
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -2987,15 +2995,15 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Terrestre México - MXSMC" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
+        <Position Name="Terrestre México - MXSMC" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXSMC" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/Aeropuerto - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
 
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3016,15 +3024,15 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Terrestre México Sur - MXRMP" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
+        <Position Name="Terrestre México Sur - MXRMP" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXRMP" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/Aeropuerto - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
 
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3043,16 +3051,16 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre México - MXTWR" Type="ASD" DefaultCenter="+192615.507-0990418.812" DefaultRange="70" MagneticVariation="-4">
+        <Position Name="Torre México - MXTWR" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXTWR" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/Aeropuerto - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
 
+                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />

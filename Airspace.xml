@@ -3459,7 +3459,7 @@
         <Point Name="ONKAL" Type="Fix">+270523.000-0994915.000</Point>
         <Point Name="ONVIP" Type="Fix">+161041.000-0925304.000</Point>
         <Point Name="ORCAS" Type="Fix">+242414.000-1103913.000</Point>
-        <Point Name="OTAGO" Type="Fix">+195117.000-0981524.000</Point>
+        <Point Name="OTAGO" Type="Fix">+195116.900-0981524.400</Point>
         <Point Name="OTAKA" Type="Fix">+210217.000-0994715.000</Point>
         <Point Name="OTEDI" Type="Fix">+200942.000-0870940.000</Point>
         <Point Name="OTEKA" Type="Fix">+240235.000-1031757.000</Point>
@@ -4645,6 +4645,8 @@
         <Point Name="PB711" Type="Fix">+191752.660-0980333.340</Point>
         <Point Name="PB730" Type="Fix">+192814.630-0980654.750</Point>
         <Point Name="PB800" Type="Fix">+185828.840-0982153.080</Point>
+        <Point Name="PB801" Type="Fix">+190329.820-0982204.160</Point>
+        <Point Name="PB810" Type="Fix">+191943.040-0982240.060</Point>
         <Point Name="PB900" Type="Fix">+192029.940-0982241.780</Point>
         <Point Name="PB901" Type="Fix">+191528.980-0982230.670</Point>
         <Point Name="PBSD1" Type="Fix">+191322.570-0982226.010</Point>
@@ -5181,6 +5183,7 @@
         <Point Name="SEAGL" Type="Fix">+263248.000-0934618.000</Point>
         <Point Name="WAHOO" Type="Fix">+281500.000-0923206.000</Point>
 
+        <!--VFR FIXES-->
         <Point Name="ABASTOS" Type="Fix">+192040.000-0993602.000</Point>
         <Point Name="ACOCOTLA" Type="Fix">+185102.000-0982650.000</Point>
         <Point Name="AJUCHITAN" Type="Fix">+182750.000-0985821.000</Point>
@@ -5192,10 +5195,10 @@
         <Point Name="ATLIXCO" Type="Fix">+185422.000-0982654.000</Point>
         <Point Name="AUTODROMO" Type="Fix">+190135.000-0975920.000</Point>
         <Point Name="BOSQUE REAL" Type="Fix">+192518.000-0991728.000</Point>
+        <Point Name="BUENA VISTA" Type="Fix">+182754.000-0992441.000</Point>
         <Point Name="CACAHUAMILPA" Type="Fix">+184056.000-0993024.000</Point>
         <Point Name="CALIMAYA" Type="Fix">+190951.000-0993653.000</Point>
         <Point Name="CALPULALPAN" Type="Fix">+193518.000-0983415.000</Point>
-        <Point Name="LOBOS" Type="Fix">+185147.000-0990708.000</Point>
         <Point Name="CAPILLA" Type="Fix">+192314.000-0992131.000</Point>
         <Point Name="CARACOL" Type="Fix">+193414.000-0990008.000</Point>
         <Point Name="CERRO DE LAS ANTENAS" Type="Fix">+191941.000-0982632.000</Point>
@@ -5213,11 +5216,10 @@
         <Point Name="COYOTE NEZA" Type="Fix">+192400.000-0990144.000</Point>
         <Point Name="CUAUTLA" Type="Fix">+184846.000-0985718.000</Point>
         <Point Name="CUEMANCO" Type="Fix">+191656.000-0990615.000</Point>
-        <Point Name="BUENA VISTA" Type="Fix">+182754.000-0992441.000</Point>
         <Point Name="DURAZNOS" Type="Fix">+194035.000-0992317.000</Point>
         <Point Name="EDIFICIOS ALTITUDE" Type="Fix">+185613.000-0991359.000</Point>
-        <Point Name="ENTRONQUE" Type="Fix">+191946.000-0993221.000</Point>
         <Point Name="ENTRONQUE CARRETERA" Type="Fix">+194147.000-0985833.000</Point>
+        <Point Name="ENTRONQUE" Type="Fix">+191946.000-0993221.000</Point>
         <Point Name="ESTADIO PBC" Type="Fix">+190441.000-0980952.000</Point>
         <Point Name="ESTADIO TLC" Type="Fix">+191714.000-0994000.000</Point>
         <Point Name="ESTANQUES ACUICULTURA" Type="Fix">+185009.000-0991622.000</Point>
@@ -5225,6 +5227,7 @@
         <Point Name="HOTEL MILED" Type="Fix">+191504.000-0993645.000</Point>
         <Point Name="HUAQUECHULA" Type="Fix">+184604.000-0983230.000</Point>
         <Point Name="HUEJOTZINGO" Type="Fix">+190931.000-0982421.000</Point>
+        <Point Name="HUITZILTEPEC" Type="Fix">+184613.000-0975251.000</Point>
         <Point Name="IGLESIA" Type="Fix">+191937.000-0993615.000</Point>
         <Point Name="INVERNADERO SANTA MARIA" Type="Fix">+194324.000-0985049.000</Point>
         <Point Name="INVERNADEROS MIACATLAN" Type="Fix">+184626.000-0992245.000</Point>
@@ -5238,6 +5241,7 @@
         <Point Name="LAS ESTACAS" Type="Fix">+184351.000-0990647.000</Point>
         <Point Name="LIBRAMIENTO CVA" Type="Fix">+184923.000-0991501.000</Point>
         <Point Name="LIBRAMIENTO TLC" Type="Fix">+192100.000-0993232.000</Point>
+        <Point Name="LOBOS" Type="Fix">+185147.000-0990708.000</Point>
         <Point Name="MADIN" Type="Fix">+193150.000-0991603.000</Point>
         <Point Name="MALINALCO" Type="Fix">+185654.000-0992936.000</Point>
         <Point Name="MINA DE ECATEPEC" Type="Fix">+193746.000-0985913.000</Point>
@@ -5252,15 +5256,15 @@
         <Point Name="PASO MORELOS" Type="Fix">+181942.000-0991150.000</Point>
         <Point Name="PEGASO" Type="Fix">+192208.000-0993325.000</Point>
         <Point Name="PERISUR" Type="Fix">+191814.000-0991125.000</Point>
-        <Point Name="PIRAMIDES" Type="Fix">+194133.000-0985038.000</Point>
         <Point Name="PIRAMIDE DE CHOLULA" Type="Fix">+190329.000-0981806.000</Point>
-        <Point Name="PLAZA TOWN" Type="Fix">+194722.000-0990318.000</Point>
-        <Point Name="POWER CENTER" Type="Fix">+193743.000-0990727.000</Point>
+        <Point Name="PIRAMIDES" Type="Fix">+194133.000-0985038.000</Point>
         <Point Name="PLAZA TEHUACAN" Type="Fix">+182809.000-0972501.000</Point>
         <Point Name="PLAZA TLAXCALA" Type="Fix">+192022.000-0981203.000</Point>
+        <Point Name="PLAZA TOWN" Type="Fix">+194722.000-0990318.000</Point>
         <Point Name="POETAS" Type="Fix">+192059.000-0991535.000</Point>
-        <Point Name="PRESA" Type="Fix">+185445.000-0980630.000</Point>
+        <Point Name="POWER CENTER" Type="Fix">+193743.000-0990727.000</Point>
         <Point Name="PRESA TAXHIMAY" Type="Fix">+194945.000-0992346.000</Point>
+        <Point Name="PRESA" Type="Fix">+185445.000-0980630.000</Point>
         <Point Name="PUENTE SAN JUAN" Type="Fix">+192353.000-0990330.000</Point>
         <Point Name="RANCHO AZUL" Type="Fix">+194320.000-0985713.000</Point>
         <Point Name="ROJO GOMEZ" Type="Fix">+192419.000-0990415.000</Point>
@@ -5278,8 +5282,8 @@
         <Point Name="TECAMAC" Type="Fix">+194242.000-0985807.000</Point>
         <Point Name="TECNOLOGICO CVA" Type="Fix">+184821.000-0991318.000</Point>
         <Point Name="TECNOLOGICO TLC" Type="Fix">+192028.000-0992833.000</Point>
-        <Point Name="TENANCINGO" Type="Fix">+185741.000-0993537.000</Point>
         <Point Name="TECNOLOGICO TLC" Type="Fix">+192028.000-0992833.000</Point>
+        <Point Name="TENANCINGO" Type="Fix">+185741.000-0993537.000</Point>
         <Point Name="TENANCINGO" Type="Fix">+185741.000-0993537.000</Point>
         <Point Name="TENANGO" Type="Fix">+190635.000-0993519.000</Point>
         <Point Name="TEPEJI DEL RIO" Type="Fix">+195358.000-0992019.000</Point>
@@ -7974,10 +7978,10 @@
             <Route Runway="35">PB700 PB701 PB702 PB703 TAKAL</Route>
         </SID>
         <SID Name="UKUN1C" Airport="MMPB" Runways="17">
-            <Route Runway="17">PB501 PB502 PB503 UKUNO</Route>
+            <Route Runway="17">PB500 PB501 PB502 PB503 UKUNO</Route>
         </SID>
         <SID Name="UKUN1D" Airport="MMPB" Runways="35">
-            <Route Runway="35">PB700 PB710 UKUNO</Route>
+            <Route Runway="35">PB700 PB710 PB711 UKUNO</Route>
         </SID>
         <STAR Name="ATUK1A" Airport="MMPB" Runways="17">
             <Route Runway="17">ATUKA RETEX VINGA</Route>
@@ -7986,7 +7990,7 @@
             <Route Runway="35">ATUKA RETEX PB620 PB600 PB630 PB601 MASEL</Route>
         </STAR>
         <STAR Name="LARL1C" Airport="MMPB" Runways="17">
-            <Route Runway="17">LARLO PB410 IMALO PB403 PB404 LERUS</Route>
+            <Route Runway="17">LARLO NAGOS PB410 IMALO PB403 PB404 LERUS</Route>
         </STAR>
         <STAR Name="LARL1D" Airport="MMPB" Runways="35">
             <Route Runway="35">LARLO PESTA</Route>
@@ -7997,7 +8001,7 @@
         <STAR Name="TAKA1B" Airport="MMPB" Runways="35">
             <Route Runway="35">TAKAL PESTA</Route>
         </STAR>
-        <Approach Name="RNP17.ITREB" Airport="MMPB" Runway="17">
+        <Approach Name="RNP17.VINGA" Airport="MMPB" Runway="17">
             <Route>VINGA PB900 PB901 PBSD1</Route>
         </Approach>
         <Approach Name="RNP17.LERUS" Airport="MMPB" Runway="17">
@@ -9884,8 +9888,8 @@
             <Runway Name="26" Position="+203607.960-0972707.170" />
         </Airport>
         <Airport ICAO="MMPB" FullName="PUEBLA" Position="+190929.299-0982217.408" Elevation="7361">
-            <Runway Name="17" Position="+191028.009-0982219.569" />
-            <Runway Name="35" Position="+190830.789-0982215.249" />
+            <Runway Name="17" Position="+191027.970-0982219.580" />
+            <Runway Name="35" Position="+190830.870-0982215.260" />
         </Airport>
         <Airport ICAO="MMPC" FullName="PACHUCA" Position="+200425.000-0984700.000" Elevation="7598" />
         <Airport ICAO="MMPE" FullName="PEÑASCO" Position="+312103.240-1131800.900" Elevation="88">
