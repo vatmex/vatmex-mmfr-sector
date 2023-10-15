@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMMM_BLD" Priority="1" Center="+195057.640-1010129.410">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMMM_BLD" Priority="1" Center="+195057.640-1010129.410">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +195037.451-1010140.305/
 +195038.056-1010139.398/
 +195038.220-1010139.508/
@@ -22,9 +22,9 @@
 +195036.085-1010139.865/
 +195037.012-1010140.552/
 +195037.273-1010140.167</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +195043.274-1010132.422/
 +195042.869-1010132.120/
 +195042.649-1010132.422/
@@ -33,19 +33,19 @@
 +195041.633-1010131.186/
 +195041.098-1010131.955/
 +195042.752-1010133.218</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +195043.741-1010131.735/
 +195044.187-1010131.076/
 +195042.855-1010130.032/
 +195042.388-1010130.719</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMMM_APR" Priority="2" Center="+195057.640-1010129.410">
-    <!--Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMMM_APR" Priority="2" Center="+195057.640-1010129.410">
+        <!--Ramp-->
+        <Infill>
+            <Point>
 +195038.220-1010147.116/
 +195044.991-1010137.036/
 +195044.929-1010136.844/
@@ -55,12 +55,12 @@
 +195047.607-1010132.230/
 +195045.073-1010130.252/
 +195035.295-1010144.864</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMM_TWY" Priority="3" Center="+195057.640-1010129.410">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMMM_TWY" Priority="3" Center="+195057.640-1010129.410">
+        <!--A-->
+        <Infill>
+            <Point>
 +195049.502-1010145.221/
 +195048.994-1010145.606/
 +195048.767-1010145.715/
@@ -93,10 +93,10 @@
 +195047.895-1010147.034/
 +195047.854-1010147.336/
 +195047.676-1010147.913</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +195044.922-1010136.899/
 +195045.025-1010137.091/
 +195045.114-1010137.229/
@@ -148,12 +148,12 @@
 +195044.407-1010138.245/
 +195044.222-1010138.327/
 +195043.721-1010138.739</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMMM_RWY" Priority="1" Center="+195057.640-1010129.410">
-    <!--05/23-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMMM_RWY" Priority="1" Center="+195057.640-1010129.410">
+        <!--05/23-->
+        <Infill>
+            <Point>
 +195028.244-1010219.306/
 +195027.001-1010218.400/
 +195026.712-1010218.208/
@@ -183,48 +183,48 @@
 +195130.687-1010043.121/
 +195130.900-1010043.286/
 +195132.095-1010044.219</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMM_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+195057.640-1010129.410">
-    <Label HasLeader="false">
-      <Point Name="A">+195042.000-1010146.520</Point>
-      <Point Name="B">+195048.140-1010135.680</Point>
-      <Point Name="05">+195032.8033-1010216.9171</Point>
-      <Point Name="23">+195130.1657-1010052.0203</Point>
-    </Label>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMM_GATES" CustomColourName="GroundLabel" Priority="1" Center="+195057.640-1010129.410">
-    <Line Name="Gate 1" Pattern="Solid">
-      +195042.361-1010135.718/
-      +195042.924-1010136.157
-    </Line>	
-    <Line Name="Gate 2" Pattern="Solid">
-      +195041.619-1010136.789/
-      +195042.251-1010137.256
-    </Line>	
-    <Line Name="Gate 3" Pattern="Solid">
-      +195040.789-1010137.860/
-      +195041.475-1010138.382
-    </Line>	
-    <Line Name="Gate 4" Pattern="Solid">
-      +195040.081-1010139.041/
-      +195040.706-1010139.508
-    </Line>	
-    <Line Name="Gate 5" Pattern="Solid">
-      +195039.216-1010140.250/
-      +195039.910-1010140.772
-    </Line>	
-    <Line Name="Gate 6" Pattern="Solid">
-      +195038.337-1010141.541/
-      +195039.017-1010142.062
-    </Line>
-    <Line Name="Gate 7" Pattern="Solid">
-      +195037.486-1010142.777/
-      +195038.179-1010143.298
-    </Line>	
-    <Line Name="Gate 8" Pattern="Solid">
-      +195036.724-1010144.040/
-      +195037.431-1010144.589
-    </Line>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMMM_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+195057.640-1010129.410">
+        <Label HasLeader="false">
+            <Point Name="A">+195042.000-1010146.520</Point>
+            <Point Name="B">+195048.140-1010135.680</Point>
+            <Point Name="05">+195032.8033-1010216.9171</Point>
+            <Point Name="23">+195130.1657-1010052.0203</Point>
+        </Label>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMMM_GATES" CustomColourName="GroundLabel" Priority="1" Center="+195057.640-1010129.410">
+        <Line Name="Gate 1" Pattern="Solid">
+            +195042.361-1010135.718/
+            +195042.924-1010136.157
+        </Line> 
+        <Line Name="Gate 2" Pattern="Solid">
+            +195041.619-1010136.789/
+            +195042.251-1010137.256
+        </Line> 
+        <Line Name="Gate 3" Pattern="Solid">
+            +195040.789-1010137.860/
+            +195041.475-1010138.382
+        </Line> 
+        <Line Name="Gate 4" Pattern="Solid">
+            +195040.081-1010139.041/
+            +195040.706-1010139.508
+        </Line> 
+        <Line Name="Gate 5" Pattern="Solid">
+            +195039.216-1010140.250/
+            +195039.910-1010140.772
+        </Line> 
+        <Line Name="Gate 6" Pattern="Solid">
+            +195038.337-1010141.541/
+            +195039.017-1010142.062
+        </Line>
+        <Line Name="Gate 7" Pattern="Solid">
+            +195037.486-1010142.777/
+            +195038.179-1010143.298
+        </Line> 
+        <Line Name="Gate 8" Pattern="Solid">
+            +195036.724-1010144.040/
+            +195037.431-1010144.589
+        </Line>
+    </Map>
 </Maps>

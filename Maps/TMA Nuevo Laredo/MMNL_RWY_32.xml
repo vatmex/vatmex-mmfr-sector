@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="Pista 32 - Llegadas RNAV" Priority="1" Center="+272636.090-0993411.720">
+        <Line Name="USBAR1B" Pattern="Dashed">USBAR/NL710/MEKSA/ITREB</Line>
+        <Line Name="EMPIX1B" Pattern="Dashed">EMPIX/MEKSA</Line>
+        <Line Name="RUDMA1D" Pattern="Dashed">RUDMA/NL603/VINBO</Line>
+        <Line Name="ILIGO1B" Pattern="Dashed">ILIGO/NL603</Line>
+        <Line Name="MATUR1B" Pattern="Dashed">MATUR/NL603</Line>
+        <Symbol Type="HollowStar">
+            <Point>ILIGO</Point>
+            <Point>ITREB</Point>
+            <Point>MATUR</Point>
+            <Point>MEKSA</Point>
+            <Point>NL603</Point>
+            <Point>NL710</Point>
+            <Point>RUDMA</Point>
+            <Point>VINBO</Point>
+        </Symbol>
+        <Symbol Type="SolidTriangle">
+            <Point>USBAR</Point>
+            <Point>EMPIX</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 32 - Llegadas RNAV (Nombres)" Priority="1" Center="+272636.090-0993411.720">
+        <Label HasLeader="false">
+            <Point>USBAR</Point>
+            <Point>EMPIX</Point>
+            <Point>RUDMA</Point>
+            <Point>ILIGO</Point>
+            <Point>MATUR</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 32 - RNP 32" Priority="1" Center="+272636.090-0993411.720">
+        <Line Name="FINAL" Pattern="Solid">NL501/NL500/+272607.629-0993353.928</Line>
+        <Line Name="ITREB" Pattern="Solid">ITREB/NL501</Line>
+        <Line Name="VINBO" Pattern="Solid">VINBO/NL501</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>ITREB</Point>
+            <Point>VINBO</Point>
+            <Point>NL501</Point>
+            <Point>NL500</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 32 - RNP 32 (Nombres)" Priority="1" Center="+272636.090-0993411.720">
+        <Label HasLeader="false">
+            <Point>ITREB</Point>
+            <Point>VINBO</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 32 - Salidas RNAV" Priority="1" Center="+272636.090-0993411.720">
+        <Line Name="ALUXO1B" Pattern="Dotted">+272704.570-0993429.494/NL901/NL913/ALUXO</Line>
+        <Line Name="SASES1B" Pattern="Dotted">NL901/NL902/NL903/NL910/SASES</Line>
+        <Line Name="RUDMA1B" Pattern="Dotted">NL910/RUDMA</Line>
+        <Symbol Type="HollowStar">
+            <Point>NL901</Point>
+            <Point>NL913</Point>
+            <Point>NL902</Point>
+            <Point>NL903</Point>
+            <Point>NL910</Point>
+            <Point>SASES</Point>
+            <Point>RUDMA</Point>
+        </Symbol>
+        <Symbol Type="SolidTriangle">
+            <Point>ALUXO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 32 - Salidas RNAV (Nombres)" Priority="1" Center="+272636.090-0993411.720">
+        <Label HasLeader="false">
+            <Point>ALUXO</Point>
+            <Point>SASES</Point>
+            <Point>RUDMA</Point>
+        </Label>
+    </Map>
+</Maps>

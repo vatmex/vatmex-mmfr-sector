@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+191637.240-1033439.370">
-    <Runway Name="07/25 ">
-      <Threshold Name="07" Position="+191626.810-1033517.310" />
-      <Threshold Name="25" Position="+191647.670-1033401.440" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Zona de Transito de Aerodromo (ATZ)" Priority="1">
-    <Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+191637.240-1033439.370">
+        <Runway Name="07/25 ">
+            <Threshold Name="07" Position="+191626.810-1033517.310" />
+            <Threshold Name="25" Position="+191647.670-1033401.440" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Zona de Transito de Aerodromo (ATZ)" Priority="1">
+        <Line Pattern="Dashed">
 +192733.789-1033338.517/
 +192729.883-1033302.198/
 +192724.188-1033226.146/
@@ -129,5 +129,5 @@
 +192736.197-1033451.555/
 +192735.896-1033415.002/
 +192733.789-1033338.517</Line>
-  </Map>
+    </Map>
 </Maps>

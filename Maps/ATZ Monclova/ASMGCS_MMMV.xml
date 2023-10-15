@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMMV_BLD" Priority="1" Center="+265717.190-1012808.970">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMMV_BLD" Priority="1" Center="+265717.190-1012808.970">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +265714.676-1012738.743/
 +265713.852-1012738.496/
 +265714.168-1012737.260/
@@ -13,28 +13,28 @@
 +265715.074-1012738.358/
 +265714.806-1012738.276/
 +265714.676-1012738.743</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +265730.194-1012749.180/
 +265728.120-1012748.493/
 +265728.622-1012746.571/
 +265730.668-1012747.340/
 +265730.194-1012749.180</Point>
-    </Infill>
-    <Infill>
-      <Point>
+        </Infill>
+        <Infill>
+            <Point>
 +265729.418-1012744.071/
 +265730.338-1012743.082/
 +265729.439-1012742.176/
 +265728.587-1012743.165/
 +265729.418-1012744.071</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMMV_APR" Priority="2" Center="+265717.190-1012808.970">
-    <!--Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMMV_APR" Priority="2" Center="+265717.190-1012808.970">
+        <!--Ramp-->
+        <Infill>
+            <Point>
 +265717.814-1012743.055/
 +265718.851-1012738.908/
 +265717.498-1012738.523/
@@ -52,10 +52,10 @@
 +265715.974-1012742.066/
 +265715.877-1012742.368/
 +265717.814-1012743.055</Point>
-    </Infill>
-    <!--GA Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--GA Ramp-->
+        <Infill>
+            <Point>
 +265733.614-1012744.895/
 +265731.911-1012744.126/
 +265730.345-1012743.082/
@@ -74,12 +74,12 @@
 +265732.899-1012747.120/
 +265732.920-1012747.285/
 +265733.614-1012744.895</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMV_TWY" Priority="3" Center="+265717.190-1012808.970">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMMV_TWY" Priority="3" Center="+265717.190-1012808.970">
+        <!--A-->
+        <Infill>
+            <Point>
 +265717.704-1012743.000/
 +265721.254-1012744.208/
 +265721.481-1012744.401/
@@ -124,10 +124,10 @@
 +265718.116-1012742.094/
 +265718.040-1012741.709/
 +265717.704-1012743.000</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +265722.689-1012742.176/
 +265722.675-1012741.929/
 +265722.613-1012741.709/
@@ -144,12 +144,12 @@
 +265718.851-1012738.908/
 +265723.177-1012740.473/
 +265722.689-1012742.176</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMMV_RWY" Priority="1" Center="+265717.190-1012808.970">
-    <!--24L/06R-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMMV_RWY" Priority="1" Center="+265717.190-1012808.970">
+        <!--24L/06R-->
+        <Infill>
+            <Point>
 +265723.643-1012738.660/
 +265703.051-1012852.434/
 +265704.417-1012852.928/
@@ -169,10 +169,10 @@
 +265705.598-1012849.028/
 +265725.030-1012739.155/
 +265723.643-1012738.660</Point>
-    </Infill>
-    <!--24R/06L-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--24R/06L-->
+        <Infill>
+            <Point>
 +265720.959-1012836.064/
 +265719.427-1012835.487/
 +265733.531-1012744.868/
@@ -182,17 +182,17 @@
 +265720.787-1012833.674/
 +265721.357-1012834.553/
 +265720.959-1012836.064</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMMV_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+265717.190-1012808.970">
-    <Label HasLeader="false">
-      <Point Name="A">+265724.260-1012747.650</Point>
-      <Point Name="A">+265718.100-1012745.730</Point>
-      <Point Name="B">+265720.010-1012738.320</Point>
-      <Point Name="06L">+265717.856-1012831.533</Point>
-      <Point Name="06R">+265701.342-1012848.177</Point>
-      <Point Name="24L">+265725.086-1012735.914</Point>
-      <Point Name="24R">+265734.919-1012741.765</Point>
-    </Label>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMMV_LABELS" CustomColourName="GroundLabel" Priority="0" Center="+265717.190-1012808.970">
+        <Label HasLeader="false">
+            <Point Name="A">+265724.260-1012747.650</Point>
+            <Point Name="A">+265718.100-1012745.730</Point>
+            <Point Name="B">+265720.010-1012738.320</Point>
+            <Point Name="06L">+265717.856-1012831.533</Point>
+            <Point Name="06R">+265701.342-1012848.177</Point>
+            <Point Name="24L">+265725.086-1012735.914</Point>
+            <Point Name="24R">+265734.919-1012741.765</Point>
+        </Label>
+    </Map>
 </Maps>

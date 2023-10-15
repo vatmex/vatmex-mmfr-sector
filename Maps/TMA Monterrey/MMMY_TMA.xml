@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+284208.380-1055746.670">
-    <!--MMMY-->
-    <Runway Name="11/29">
-      <Threshold Name="11" Position="+254703.060-1000701.990" />
-      <Threshold Name="29" Position="+254612.450-1000529.930" />
-    </Runway>
-    <Runway Name="16/34">
-      <Threshold Name="16" Position="+254717.480-1000634.860" />
-      <Threshold Name="34" Position="+254620.770-1000618.970" />
-    </Runway>
-    <!--MMAN-->
-    <Runway Name="02/20">
-      <Threshold Name="02" Position="+255121.980-1001437.820" />
-      <Threshold Name="20" Position="+255217.180-1001359.300" />
-    </Runway>
-    <Runway Name="11/29">
-      <Threshold Name="11" Position="+255216.540-1001449.620" />
-      <Threshold Name="29" Position="+255153.160-1001408.680" />
-    </Runway>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-  	<Line Pattern="Dashed">
+    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+284208.380-1055746.670">
+        <!--MMMY-->
+        <Runway Name="11/29">
+            <Threshold Name="11" Position="+254703.060-1000701.990" />
+            <Threshold Name="29" Position="+254612.450-1000529.930" />
+        </Runway>
+        <Runway Name="16/34">
+            <Threshold Name="16" Position="+254717.480-1000634.860" />
+            <Threshold Name="34" Position="+254620.770-1000618.970" />
+        </Runway>
+        <!--MMAN-->
+        <Runway Name="02/20">
+            <Threshold Name="02" Position="+255121.980-1001437.820" />
+            <Threshold Name="20" Position="+255217.180-1001359.300" />
+        </Runway>
+        <Runway Name="11/29">
+            <Threshold Name="11" Position="+255216.540-1001449.620" />
+            <Threshold Name="29" Position="+255153.160-1001408.680" />
+        </Runway>
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Pattern="Dashed">
 +262902.000-0992236.000/
 +261826.000-0992331.000/
 +262501.000-0985632.000/
@@ -32,9 +32,9 @@
 +255320.000-1003958.000/
 +264046.000-1000548.000/
 +262902.000-0992236.000</Line>
-  </Map>
-  <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo" Priority="1">
-    <Line Name="MTYD8-1">
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo" Priority="1">
+        <Line Name="MTYD8-1">
 +255417.857-1000718.640/
 +255420.263-1000650.897/
 +255421.358-1000623.049/
@@ -53,7 +53,7 @@
 +255239.795-1000045.977/
 +255223.829-1000024.469/
 +255201.006-0995957.290</Line>
-	 <Line Name="MTYD8-2">
+     <Line Name="MTYD8-2">
 +253838.881-1000831.554/
 +253843.495-1000849.417/
 +253851.458-1000915.852/
@@ -68,7 +68,7 @@
 +254055.008-1001243.135/
 +254113.807-1001301.604/
 +254146.991-1001329.878</Line>
-	 <Line Name="MTYD10-1">
+     <Line Name="MTYD10-1">
 +255325.760-0995823.097/
 +255310.713-0995807.037/
 +255247.213-0995743.950/
@@ -120,7 +120,7 @@
 +253628.517-1000746.379/
 +253633.695-1000820.743/
 +253643.391-1000905.880</Line>
-	 <Line Name="MTYD10-2">
+     <Line Name="MTYD10-2">
 +254038.379-1001518.620/
 +254113.323-1001544.209/
 +254140.632-1001601.366/
@@ -161,7 +161,7 @@
 +255605.931-1000843.465/
 +255612.188-1000809.322/
 +255616.825-1000734.863</Line>
-	 <Line Name="MTYD13">
+     <Line Name="MTYD13">
 +253350.219-1000957.353/
 +253356.936-1001026.706/
 +253409.878-1001109.659/
@@ -177,7 +177,7 @@
 +253801.196-1001716.509/
 +253833.117-1001744.704/
 +253855.976-1001800.918</Line>
-	 <Line Name="MTYD14">
+     <Line Name="MTYD14">
 +260014.760-1000807.304/
 +260018.969-1000718.750/
 +260020.886-1000630.018/
@@ -203,7 +203,7 @@
 +255334.118-0995255.127/
 +255255.886-0995231.107/
 +255216.575-0995209.342</Line>
-    <Line Name="MTYD15">
+        <Line Name="MTYD15">
 +253745.977-1001951.859/
 +253838.992-1002029.435/
 +253919.954-1002055.170/
@@ -233,7 +233,7 @@
 +255646.456-1001811.847/
 +255719.443-1001734.571/
 +255740.439-1001708.677</Line>
-    <Line Name="MTYD20">
+        <Line Name="MTYD20">
 +252728.682-0995900.423/
 +252709.812-1000006.881/
 +252654.101-1000114.345/
@@ -299,7 +299,7 @@
 +260549.876-1001113.172/
 +260602.387-1001004.887/
 +260611.662-1000855.968</Line>
-    <Line Name="MTYD28">
+        <Line Name="MTYD28">
 +260728.724-1002637.464/
 +260842.140-1002455.193/
 +260933.156-1002335.770/
@@ -312,7 +312,7 @@
 +261337.032-1001312.937/
 +261354.547-1001137.338/
 +261407.532-1001000.852</Line>
-    <Line Name="MTYD30">
+        <Line Name="MTYD30">
 +251802.029-0995523.755/
 +251733.724-0995703.443/
 +251710.157-0995844.639/
@@ -367,7 +367,7 @@
 +260710.923-1003009.936/
 +260816.898-1002855.383/
 +260858.895-1002804.646</Line>
-    <Line Name="MTYD50">
+        <Line Name="MTYD50">
 +263607.105-1000123.745/
 +263549.347-0995830.654/
 +263523.455-0995538.834/
@@ -489,62 +489,62 @@
 +263618.051-1000711.830/
 +263616.683-1000417.629/
 +263607.105-1000123.745</Line>
-	 <Line Name="MTYR40">
+     <Line Name="MTYR40">
 +255201.006-0995957.290/
 +255325.760-0995823.097</Line>
-    <Line Name="MTYR60">
+        <Line Name="MTYR60">
 +255035.265-0995610.604/
 +260728.375-0991556.545</Line>
-    <Line Name="MTYR156">
+        <Line Name="MTYR156">
 +253655.335-1000237.090/
 +245908.737-0994811.570</Line>
-    <Line Name="MTYR190">
+        <Line Name="MTYR190">
 +253838.881-1000831.554/
 +251725.346-1001450.083</Line>
-    <Line Name="MTYR230">
+        <Line Name="MTYR230">
 +254146.991-1001329.878/
 +253454.495-1002423.639</Line>
-    <Line Name="MTYR241">
+        <Line Name="MTYR241">
 +253814.470-1002629.701/
 +253410.713-1003636.976</Line>
-    <Line Name="MTYR255">
+        <Line Name="MTYR255">
 +254109.784-1003859.948/
 +253741.646-1010049.779</Line>
-    <Line Name="MTYR276">
+        <Line Name="MTYR276">
 +254816.341-1001707.036/
 +254913.516-1002233.765</Line>
-    <Line Name="MTYR314">
+        <Line Name="MTYR314">
 +255740.439-1001708.677/
 +260858.895-1002804.646</Line>
-    <Line Name="MTYR327">
+        <Line Name="MTYR327">
 +261103.619-1002048.581/
 +263027.780-1003218.364</Line>
-    <Line Name="MTYR348">
+        <Line Name="MTYR348">
 +255417.857-1000718.640/
 +261407.539-1001001.033</Line>
-  </Map>
-  <Map Type="System2" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
-  	<Label HasLeader="false">
-      <Point Name="30">+254458.7656-1000649.6563</Point>
-      <Point Name="35">+255934.1719-1001301.6875</Point>
-      <Point Name="35">+260032.7109-1001501.7813</Point>
-      <Point Name="39">+255549.0625-1000057.3750</Point>
-      <Point Name="49">+254411.3438-1002108.0938</Point>
-      <Point Name="55">+260732.1953-1001849.5313</Point>
-      <Point Name="63">+253154.4688-1000638.0000</Point>
-      <Point Name="70">+261844.9453-0995448.6250</Point>
-      <Point Name="72">+253742.1172-1001441.6250</Point>
-      <Point Name="79">+254758.5313-1002608.2813</Point>
-      <Point Name="94">+253237.9609-1001604.8750</Point>
-      <Point Name="107">+252219.3594-1000724.7188</Point>
-      <Point Name="108">+254841.4531-1003410.2813</Point>
-      <Point Name="110">+260305.8984-1004754.3125</Point>
-      <Point Name="135">+252749.7422-1002405.1563</Point>
-      <Point Name="145">+251856.1953-1003542.2188</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="MMAN - Zona de Control (CTR)" Priority="1">
-    <Line Pattern="Dashed">
+    </Map>
+    <Map Type="System2" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
+        <Label HasLeader="false">
+            <Point Name="30">+254458.7656-1000649.6563</Point>
+            <Point Name="35">+255934.1719-1001301.6875</Point>
+            <Point Name="35">+260032.7109-1001501.7813</Point>
+            <Point Name="39">+255549.0625-1000057.3750</Point>
+            <Point Name="49">+254411.3438-1002108.0938</Point>
+            <Point Name="55">+260732.1953-1001849.5313</Point>
+            <Point Name="63">+253154.4688-1000638.0000</Point>
+            <Point Name="70">+261844.9453-0995448.6250</Point>
+            <Point Name="72">+253742.1172-1001441.6250</Point>
+            <Point Name="79">+254758.5313-1002608.2813</Point>
+            <Point Name="94">+253237.9609-1001604.8750</Point>
+            <Point Name="107">+252219.3594-1000724.7188</Point>
+            <Point Name="108">+254841.4531-1003410.2813</Point>
+            <Point Name="110">+260305.8984-1004754.3125</Point>
+            <Point Name="135">+252749.7422-1002405.1563</Point>
+            <Point Name="145">+251856.1953-1003542.2188</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMAN - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
 +255741.000-1000509.000/
 +254223.000-1001738.000/
 +254233.014-1001801.755/
@@ -620,9 +620,9 @@
 +255821.405-1000543.748/
 +255756.850-1000522.042/
 +255741.000-1000509.000</Line>
-  </Map>
-  <Map Type="System" Name="MMMY - Zona de Control (CTR)" Priority="1">
-    <Line Pattern="Dashed">
+    </Map>
+    <Map Type="System" Name="MMMY - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
 +255740.999-1000508.998/
 +255727.637-1000352.939/
 +255719.580-1000315.670/
@@ -705,5 +705,5 @@
 +254214.674-1001733.950/
 +254222.999-1001737.999/
 +255740.999-1000508.998</Line>
-  </Map>
+    </Map>
 </Maps>

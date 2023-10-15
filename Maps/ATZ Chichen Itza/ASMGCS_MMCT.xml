@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_MMCT_BLD" Priority="1" Center="+203828.510-0882654.000">
-    <!--Terminal-->
-    <Infill>
-      <Point>
+    <Map Type="Ground_BLD" Name="ASMGCS_MMCT_BLD" Priority="1" Center="+203828.510-0882654.000">
+        <!--Terminal-->
+        <Infill>
+            <Point>
 +203821.237-0882657.929/
 +203820.063-0882658.148/
 +203820.104-0882658.395/
@@ -13,23 +13,23 @@
 +203819.637-0882655.731/
 +203820.832-0882655.484/
 +203821.237-0882657.929</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_MMCT_APR" Priority="2" Center="+203828.510-0882654.000">
-    <!--Commercial Ramp-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_APR" Name="ASMGCS_MMCT_APR" Priority="2" Center="+203828.510-0882654.000">
+        <!--Commercial Ramp-->
+        <Infill>
+            <Point>
 +203821.704-0882700.455/
 +203820.420-0882652.930/
 +203824.801-0882652.106/
 +203826.119-0882659.549/
 +203821.704-0882700.455</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_MMCT_TWY" Priority="3" Center="+203828.510-0882654.000">
-    <!--A-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_TWY" Name="ASMGCS_MMCT_TWY" Priority="3" Center="+203828.510-0882654.000">
+        <!--A-->
+        <Infill>
+            <Point>
 +203825.446-0882656.061/
 +203825.673-0882656.445/
 +203825.824-0882656.583/
@@ -54,10 +54,10 @@
 +203825.995-0882658.423/
 +203825.920-0882658.807/
 +203825.446-0882656.061</Point>
-    </Infill>
-    <!--B-->
-    <Infill>
-      <Point>
+        </Infill>
+        <!--B-->
+        <Infill>
+            <Point>
 +203824.890-0882652.875/
 +203825.123-0882653.259/
 +203825.323-0882653.479/
@@ -81,12 +81,12 @@
 +203825.453-0882655.072/
 +203825.336-0882655.429/
 +203824.890-0882652.875</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMCT_RWY" Priority="1" Center="+203828.510-0882654.000">
-    <!--10/28-->
-    <Infill>
-      <Point>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCT_RWY" Priority="1" Center="+203828.510-0882654.000">
+        <!--10/28-->
+        <Infill>
+            <Point>
 +203837.634-0882733.854/
 +203836.144-0882734.129/
 +203835.801-0882734.183/
@@ -119,14 +119,14 @@
 +203819.939-0882559.069/
 +203821.388-0882558.795/
 +203837.634-0882733.854</Point>
-    </Infill>
-  </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_MMCT_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+203828.510-0882654.000">
-    <Label HasLeader="false">
-      <Point Name="A">+203826.600-0882659.960</Point>
-      <Point Name="B">+203825.470-0882652.450</Point>
-      <Point Name="10">+203837.910-0882733.260</Point>
-      <Point Name="28">+203822.170-0882601.090</Point>
-    </Label>
-  </Map>
+        </Infill>
+    </Map>
+    <Map Type="Ground_RWY" Name="ASMGCS_MMCT_LABELS" CustomColourName="GroundLabel" Priority="1" Center="+203828.510-0882654.000">
+        <Label HasLeader="false">
+            <Point Name="A">+203826.600-0882659.960</Point>
+            <Point Name="B">+203825.470-0882652.450</Point>
+            <Point Name="10">+203837.910-0882733.260</Point>
+            <Point Name="28">+203822.170-0882601.090</Point>
+        </Label>
+    </Map>
 </Maps>
