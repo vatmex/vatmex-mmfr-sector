@@ -1527,7 +1527,7 @@
         </Position>
 
         <!-- TMA Cancún  -->
-        <Position Name="Torre Cozumel - CZTW1" Type="ASD" DefaultCenter="+203123.258-0865535.437" DefaultRange="50" MagneticVariation="+2">
+        <Position Name="Torre Cozumel - CZTW1" Type="ASD" DefaultCenter="+203123.258-0865535.437" DefaultRange="50" MagneticVariation="+2" VisibilityRange="50">
             <Sectors>
                 <Sector Name="CZTW1" />
             </Sectors>
@@ -1559,8 +1559,11 @@
                 <Line>ATIS available on 127.800</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
+            <ManualVisibility>
+                <Point>+203114.9817-0865551.5442/</Point>
+            </ManualVisibility>
         </Position>
-        <Position Name="Autorización Cancún - UNCDL" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2">
+        <Position Name="Autorización Cancún - UNCDL" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
             <Sectors>
                 <Sector Name="UNCDL" />
             </Sectors>
@@ -1582,9 +1585,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
-            <CFL QuickLevel="24000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
@@ -1594,8 +1595,11 @@
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
+            <ManualVisibility>
+                <Point>+210236.205-0865233.131</Point>
+            </ManualVisibility>
         </Position>
-        <Position Name="Terrestre Cancún - UNSMC" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2">
+        <Position Name="Terrestre Cancún - UNSMC" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
             <Sectors>
                 <Sector Name="UNSMC" />
             </Sectors>
@@ -1617,9 +1621,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
-            <CFL QuickLevel="24000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
@@ -1629,8 +1631,11 @@
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
+            <ManualVisibility>
+                <Point>+210236.205-0865233.131</Point>
+            </ManualVisibility>
         </Position>
-        <Position Name="Terrestre Cancun Este - UNRMP" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2">
+        <Position Name="Terrestre Cancun Este - UNRMP" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
             <Sectors>
                 <Sector Name="UNRMP" />
             </Sectors>
@@ -1652,9 +1657,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
-            <CFL QuickLevel="24000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
@@ -1664,8 +1667,11 @@
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
+            <ManualVisibility>
+                <Point>+210236.205-0865233.131</Point>
+            </ManualVisibility>
         </Position>
-        <Position Name="Torre Cancún - UNTW1" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="95" MagneticVariation="+2">
+        <Position Name="Torre Cancún - UNTW1" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="95" MagneticVariation="+2" VisibilityRange="50">
             <Sectors>
                 <Sector Name="UNTW1" />
             </Sectors>
@@ -1687,9 +1693,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
-            <CFL QuickLevel="24000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
@@ -1699,6 +1703,9 @@
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
+            <ManualVisibility>
+                <Point>+210236.205-0865233.131</Point>
+            </ManualVisibility>
         </Position>
         <Position Name="Aproximación Cancún - UNAPP" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
@@ -1741,9 +1748,9 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>
-                <Point>+213915.943-0875358.220/</Point>
-                <Point>+210210.428-0865212.944/</Point>
-                <Point>+203028.963-0865441.589/</Point>
+                <Point>+213915.943-0875358.220</Point>
+                <Point>+210210.428-0865212.944</Point>
+                <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
         <Position Name="Aproximación Cancún (Llegadas) - UNARR" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
@@ -1785,9 +1792,9 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>
-                <Point>+213915.943-0875358.220/</Point>
-                <Point>+210210.428-0865212.944/</Point>
-                <Point>+203028.963-0865441.589/</Point>
+                <Point>+213915.943-0875358.220</Point>
+                <Point>+210210.428-0865212.944</Point>
+                <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
         <Position Name="Salidas Cancún - UNDEP" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
@@ -1828,9 +1835,9 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>
-                <Point>+213915.943-0875358.220/</Point>
-                <Point>+210210.428-0865212.944/</Point>
-                <Point>+203028.963-0865441.589/</Point>
+                <Point>+213915.943-0875358.220</Point>
+                <Point>+210210.428-0865212.944</Point>
+                <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
 
