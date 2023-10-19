@@ -5035,4 +5035,41 @@
             </ManualVisibility>
         </Position>
     </Group>
+
+    <Group Name="FIR México">
+        <Position Name="FIR México (Combinado) - MFRC" Type="ASD" DefaultCenter="+222100.420-1005449.608" DefaultRange="2500" MagneticVariation="-4">
+            <Sectors>
+                <Sector Name="MFRC" />
+            </Sectors>
+            <Maps>
+                <Map Name="FIR Mexico/Limites - Sectores" />
+
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
+                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="ACC Mexico/Limites - Terminales" />
+                <Map Name="ACC Monterrey/Limites - Terminales" />
+
+                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ControllerInfo>
+                <Line>FIR Mexico / Mexico FIR</Line>
+                <Line>Providing overlflight control for all flights in Mexico above FL200</Line>
+                <Line>MMMX ATIS available on 127.650</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+22.887442-102.693261</Point>
+                <Point>+22.289603-097.863022</Point>
+                <Point>+15.875106-097.081714</Point>
+                <Point>+19.149414-104.571297</Point>
+            </ManualVisibility>
+        </Position>
+    </Group>
 </Positions>
