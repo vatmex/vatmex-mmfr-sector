@@ -3483,6 +3483,33 @@
         </Position>
 
         <!-- TMA Querétaro -->
+        <Position Name="Terrestre Querétaro - QTSMC" Type="ASD" DefaultCenter="+203704.000-1001112.000" DefaultRange="50" MagneticVariation="-7">
+            <Sectors>
+                <Sector Name="QTSMC" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Queretaro/Aeropuerto - Pista" />
+                <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
+
+                <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMQT" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMQT" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Terrestre Queretaro / Queretaro Ground</Line>
+                <Line>Serving MMQT arrivals and departures</Line>
+                <Line>ATIS available on 128.700</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
         <Position Name="Torre Querétaro - QTTW1" Type="ASD" DefaultCenter="+203704.000-1001112.000" DefaultRange="50" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="QTTW1" />
