@@ -2973,6 +2973,100 @@
                 <Point>+183641.440-0992005.612</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Autorización Santa Lucía - SMCDL" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
+            <Sectors>
+                <Sector Name="SMCDL" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04L" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMSM" Frequency="127.700" Server="NA" />
+                <Window Airport="MMSM" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMSM" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="27000" />
+            <ControllerInfo>
+                <Line>Autorizacion Santa Lucía / Santa Lucía Delivery</Line>
+                <Line>Serving MMSM departures</Line>
+                <Line>ATIS available on 127.700</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
+        <Position Name="Terrestre Santa Lucía - SMSMC" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
+            <Sectors>
+                <Sector Name="SMSMC" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04L" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMSM" Frequency="127.700" Server="NA" />
+                <Window Airport="MMSM" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMSM" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="27000" />
+            <ControllerInfo>
+                <Line>Terrestre Santa Lucía / Santa Lucía Ground</Line>
+                <Line>Serving MMSM arrivals and departures</Line>
+                <Line>ATIS available on 127.700</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
+        <Position Name="Torre Santa Lucía - SMTW1" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
+            <Sectors>
+                <Sector Name="SMTW1" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04L" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="ACC Mexico/Cobertura Radar" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMSM" Frequency="127.700" Server="NA" />
+                <Window Airport="MMSM" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMSM" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="27000" />
+            <ArrivalLists>
+                <Airport Name="MMSM" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Torre Santa Lucía / Santa Lucía Tower</Line>
+                <Line>Serving MMMX arrivals and departures</Line>
+                <Line>ATIS available on 127.700</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
         <Position Name="Autorización México - MXCDL" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXCDL" />
@@ -3112,6 +3206,7 @@
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMCB - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
 
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Nombres)" />

@@ -261,6 +261,15 @@
     <Sector FullName="Aproximación Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP" DisplayInHandoffWindow="False">
         <Volumes>MMPB_APP</Volumes>
     </Sector>
+    <Sector FullName="Autorización Santa Lucía" Frequency="121.900" Callsign="MMSM_DEL" Name="SMCDL" DisplayInHandoffWindow="False">
+        <Volumes>MMSM_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Terrestre Santa Lucía" Frequency="121.800" Callsign="MMSM_GND" Name="SMSMC" DisplayInHandoffWindow="False">
+        <Volumes>MMSM_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Torre Santa Lucía" Frequency="118.300" Callsign="MMSM_TWR" Name="SMTW1" DisplayInHandoffWindow="False">
+        <Volumes>MMSM_CTR</Volumes>
+    </Sector>
     <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False"/>
     <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTO_CTR</Volumes>
