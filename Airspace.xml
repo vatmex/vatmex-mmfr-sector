@@ -3964,6 +3964,7 @@
         <Point Name="BRUJA" Type="Fix">+201018.580-1033353.790</Point>
         <Point Name="BUYCK" Type="Fix">+204503.801-0891252.300</Point>
         <Point Name="CALHO" Type="Fix">+203319.800-0870105.800</Point>
+        <Point Name="CASEM" Type="Fix">+233608.600-1094419.600</Point>
         <Point Name="CB400" Type="Fix">+184047.640-0992142.000</Point>
         <Point Name="CB401" Type="Fix">+184504.000-0991856.110</Point>
         <Point Name="CB410" Type="Fix">+185433.120-0991247.600</Point>
@@ -4700,6 +4701,7 @@
         <Point Name="PUREG" Type="Fix">+205832.900-0863518.400</Point>
         <Point Name="PUSAN" Type="Fix">+213135.900-1022553.800</Point>
         <Point Name="QUADY" Type="Fix">+202700.100-0862522.200</Point>
+        <Point Name="RABUS" Type="Fix">+231841.700-1092435.600</Point>
         <Point Name="RAKEM" Type="Fix">+192256.500-0993609.800</Point>
         <Point Name="RAKEP" Type="Fix">+204838.401-0890823.200</Point>
         <Point Name="RALLO" Type="Fix">+260744.700-1001628.400</Point>
@@ -8233,7 +8235,7 @@
             <Route Runway="34">SJD</Route>
         </SID>
         <SID Name="ALRI1A" Airport="MMSD" Runways="16">
-            <Route Runway="16">SD500 SD501 AVAVU SD507 SD508 SD403 ALRIN</Route>
+            <Route Runway="16">SD501 AVAVU SD507 SD508 SD403 ALRIN</Route>
         </SID>
         <SID Name="ALRI1B" Airport="MMSD" Runways="34">
             <Route Runway="34">SD700 SD702 USBOG SD507 SD508 SD403 ALRIN</Route>
@@ -8245,7 +8247,7 @@
             <Route Runway="16">SD500 SD504 TAMET ANEGO</Route>
         </SID>
         <SID Name="ANEG1B" Airport="MMSD" Runways="34">
-            <Route Runway="34">SD700 SD800 TAMET ANEGO </Route>
+            <Route Runway="34">SD800 TAMET ANEGO </Route>
         </SID>
         <SID Name="ATUM2A" Airport="MMSD" Runways="16">
             <Route Runway="16">ATUMI</Route>
@@ -8260,7 +8262,7 @@
             <Route Runway="34">AVAVU</Route>
         </SID>
         <SID Name="AVAV1C" Airport="MMSD" Runways="16">
-            <Route Runway="16">SD500 SD501 AVAVU</Route>
+            <Route Runway="16">SD501 AVAVU</Route>
         </SID>
         <SID Name="BALC3A" Airport="MMSD" Runways="16">
             <Route Runway="16">BALCE</Route>
@@ -8275,7 +8277,7 @@
             <Route Runway="34">DASON</Route>
         </SID>
         <SID Name="ILIG1A" Airport="MMSD" Runways="16">
-            <Route Runway="16">SD500 SD505 LETER SD506 ILIGA</Route>
+            <Route Runway="16">SD505 LETER SD506 ILIGA</Route>
         </SID>
         <SID Name="ILIG1B" Airport="MMSD" Runways="34">
             <Route Runway="34">SD700 SD702 USBOG SD703 SD704 ILIGA</Route>
@@ -8308,7 +8310,7 @@
             <Route Runway="34">TAMET</Route>
         </SID>
         <SID Name="UKUX1A" Airport="MMSD" Runways="16">
-            <Route Runway="16">SD500 SD501 AVAVU UKUXA</Route>
+            <Route Runway="16">SD501 AVAVU UKUXA</Route>
         </SID>
         <SID Name="UKUX1B" Airport="MMSD" Runways="34">
             <Route Runway="34">SD700 SD702 USBOG UKUXA</Route>
@@ -9924,7 +9926,7 @@
             <Runway Name="13" Position="+260054.944-0981403.226" />
             <Runway Name="31" Position="+260007.047-0981320.168" />
         </Airport>
-        <Airport ICAO="MMSD" FullName="SAN JOSE" Position="+230907.46-1094314.69" Elevation="379">
+        <Airport ICAO="MMSD" FullName="SAN JOSE" Position="+230907.460-1094314.690" Elevation="379">
             <Runway Name="16" Position="+230956.019-1094320.211" />
             <Runway Name="34" Position="+230818.898-1094307.170" />
         </Airport>
