@@ -559,7 +559,7 @@
                 <SID Name="VOLI1B" />
                 <STAR Name="BERO1B" ApproachName="RNP35.VOLIK" />
                 <STAR Name="FLAN1B" ApproachName="RNP35.VOLIK" />
-                <STAR Name="NOVU1C" ApproachName="RNP35.ALTUM" />
+                <STAR Name="NOVU2C" ApproachName="RNP35.ALTUM" />
                 <STAR Name="OMIX1B" ApproachName="RNP35.ALTUM" />
                 <STAR Name="RAIL1B" ApproachName="RNP35.VOLIK" />
             </Runway>
@@ -6782,10 +6782,10 @@
             <Route Runway="17">IO500 IO801 IO805 IO806 HERTY</Route>
         </SID>
         <SID Name="HERT1B" Airport="MMIO" Runways="35">
-            <Route Runway="35">IO700 IO701 HERTY</Route>
+            <Route Runway="35">IO701 HERTY</Route>
         </SID>
         <SID Name="LIRGA1" Airport="MMIO" Runways="35">
-            <Route Runway="35">IO700 IO701 LIRGA</Route>
+            <Route Runway="35">IO701 LIRGA</Route>
         </SID>
         <SID Name="NOVU2A" Airport="MMIO" Runways="35">
             <Route Runway="35">NOVUL</Route>
@@ -6821,12 +6821,12 @@
             <Route Runway="17">FLANE OMEVO VOLIK IO600 IO405 ILOKA</Route>
         </STAR>
         <STAR Name="FLAN1B" Airport="MMIO" Runways="35">
-            <Route Runway="35">FALNE OMEVO VOLIK</Route>
+            <Route Runway="35">FLANE OMEVO VOLIK</Route>
         </STAR>
         <STAR Name="NOVU1B" Airport="MMIO" Runways="17">
             <Route Runway="17">NOVUL KEMTA</Route>
         </STAR>
-        <STAR Name="NOVU1C" Airport="MMIO" Runways="35">
+        <STAR Name="NOVU2C" Airport="MMIO" Runways="35">
             <Route Runway="35">NOVUL IO407 IO401 IO405 ALTUM</Route>
         </STAR>
         <STAR Name="OMIX1A" Airport="MMIO" Runways="17">
