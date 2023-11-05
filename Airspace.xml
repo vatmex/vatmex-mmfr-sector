@@ -1376,7 +1376,7 @@
         </Airport>
         <Airport Name="MMTJ">
             <Runway Name="09" DataRunway="09">
-                <SID Name="TIJ3B" Default="True" />
+                <SID Name="TIJ3A" Default="True" />
                 <SID Name="AVEN4A" />
                 <SID Name="KREP1A" />
                 <SID Name="SEVRA4" />
@@ -1390,7 +1390,7 @@
                 <STAR Name="TOVE1A" ApproachName="ILS093.TUBUS" />
             </Runway>
             <Runway Name="27" DataRunway="27">
-                <SID Name="TIJ4A" Default="True" />
+                <SID Name="TIJ4B" Default="True" />
                 <SID Name="AVEN5B" />
                 <SID Name="KREP1B" />
                 <SID Name="SIDG1B" />
@@ -8792,10 +8792,10 @@
             <Route Runway="32">XOMSO</Route>
         </SID>
         <!--MMTJ-->
-        <SID Name="TIJ3B" Airport="MMTJ" Runways="09">
+        <SID Name="TIJ3A" Airport="MMTJ" Runways="09">
             <Route Runway="09">TIJ</Route>
         </SID>
-        <SID Name="TIJ4A" Airport="MMTJ" Runways="27">
+        <SID Name="TIJ4B" Airport="MMTJ" Runways="27">
             <Route Runway="27">TIJ</Route>
         </SID>
         <SID Name="AVEN4A" Airport="MMTJ" Runways="09">
@@ -9744,9 +9744,9 @@
             <Runway Name="03" Position="+240653.044-1043213.680" />
             <Runway Name="21" Position="+240807.303-1043110.100" />
         </Airport>
-        <Airport ICAO="MMEP" FullName="TEPIC" Position="+212509.942-1045033.231" Elevation="3020">
-            <Runway Name="02" Position="+212436.351-1045051.007" />
-            <Runway Name="20" Position="+212543.531-1045015.446" />
+        <Airport ICAO="MMEP" FullName="TEPIC" Position="+212509.930-1045033.180" Elevation="3020">
+            <Runway Name="02" Position="+212436.320-1045051.000" />
+            <Runway Name="20" Position="+212543.540-1045015.430" />
         </Airport>
         <Airport ICAO="MMES" FullName="ENSENADA" Position="+314742.900-1163613.350" Elevation="66">
             <Runway Name="11" Position="+314756.200-1163633.400" />

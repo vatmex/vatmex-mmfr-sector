@@ -801,7 +801,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Autorización Tijuana - TJCDL" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="10" MagneticVariation="-12">
+        <Position Name="Autorización Tijuana - TJCDL" Type="ASD" DefaultCenter="+322903.736-1165814.064" DefaultRange="30" MagneticVariation="-12">
             <Sectors>
                 <Sector Name="TJCDL" />
             </Sectors>
@@ -832,14 +832,14 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre Tijuana - TJTW1" Type="ASD" DefaultCenter="+323227.810-1165811.890" DefaultRange="50" MagneticVariation="-12">
+        <Position Name="Torre Tijuana - TJTW1" Type="ASD" DefaultCenter="+322903.736-1165814.064" DefaultRange="30" MagneticVariation="-12">
             <Sectors>
                 <Sector Name="TJTW1" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Tijuana/Aeropuerto - Pistas" />
                 <Map Name="TMA Tijuana/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Tijuana/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Tijuana/MMTJ - Zona de Control (CTR)" />
 
                 <Map Name="TMA Tijuana/Pista 27 - RNP 27" />
 
