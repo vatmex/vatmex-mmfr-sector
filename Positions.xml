@@ -1526,6 +1526,39 @@
             </ManualVisibility>
         </Position>
 
+        <!-- ADA Tapachula -->
+        <Position Name="Torre Tapachula (Asesoramiento) - TPTW1" Type="ASD" DefaultCenter="+150235.827-0924628.550" DefaultRange="160" MagneticVariation="-2" VisibilityRange="100">
+            <Sectors>
+                <Sector Name="TPTW1" />
+            </Sectors>
+            <Maps>
+                <Map Name="ADA Tapachula/Aeropuerto - Pistas" />
+                <Map Name="ADA Tapachula/Aeropuerto - Area de Asesoramiento (ADA)" />
+                <Map Name="ADA Tapachula/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+
+                <Map Name="ACC Merida/Limites - Sectores" />
+
+                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTP" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMTP" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Torre Tapachula / Tapachula Tower</Line>
+                <Line>Serving MMTP arrivals and departures</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+150235.827-0924628.550</Point>
+            </ManualVisibility>
+        </Position>
+
         <!-- TMA Cancún  -->
         <Position Name="Torre Cozumel - CZTW1" Type="ASD" DefaultCenter="+203123.258-0865535.437" DefaultRange="50" MagneticVariation="+2" VisibilityRange="50">
             <Sectors>
