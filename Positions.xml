@@ -2890,15 +2890,21 @@
                 <Point>+184940.584-0982345.504</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Terrestre Toluca - TOSMC" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4">
+        <Position Name="Terrestre Toluca - TOSMC" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="TOSMC" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
+                <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
+                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
 
@@ -2910,9 +2916,7 @@
                 <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
                 <Window Airport="MMTO" />
             </ATIS>
-            <CFL QuickLevel="13000">
-                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMTO" />
             </ArrivalLists>
@@ -2923,15 +2927,21 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre Toluca - TOTW1" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="70" MagneticVariation="-4">
+        <Position Name="Torre Toluca - TOTW1" Type="ASD" DefaultCenter="+192013.510-0993357.730" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="TOTW1" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
+                <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
+                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
 
@@ -2946,9 +2956,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTO" Visible="true" />
             </Strips>
-            <CFL QuickLevel="13000">
-                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-            </CFL>
+            <CFL QuickLevel="20000" />
             <ArrivalLists>
                 <Airport Name="MMTO" />
             </ArrivalLists>
@@ -2968,6 +2976,9 @@
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
+                <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
 
                 <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV (Nombres)" />
@@ -2994,7 +3005,7 @@
                 <Airport Name="MMTO" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Aproximacion Mexico / Mexico Approach</Line>
+                <Line>Aproximacion Toluca / Toluca Approach</Line>
                 <Line>Serving MMTO arrivals and departures</Line>
                 <Line>ATIS available on 127.800</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -3105,11 +3116,14 @@
                 <Sector Name="MXCDL" />
             </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-
-                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
@@ -3134,11 +3148,14 @@
                 <Sector Name="MXSMC" />
             </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-
-                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
@@ -3163,11 +3180,14 @@
                 <Sector Name="MXRMP" />
             </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-
-                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
+                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
@@ -3190,12 +3210,14 @@
                 <Sector Name="MXTWR" />
             </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
                 <Map Name="TMA Mexico/MMMX - Rutas VFR" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
+                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
+                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="ACC Mexico/Cobertura Radar" />

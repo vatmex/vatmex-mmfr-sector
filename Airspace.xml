@@ -8994,7 +8994,7 @@
             <Route Runway="15">ELILA TO621 TO622 TO623 TO630 TO625 TO626 TO627 TO628 GAINY</Route>
         </STAR>
         <STAR Name="ELIL2B" Airport="MMTO" Runways="33">
-            <Route Runway="33">ELILA TO410 TO411 TO412 TO413 TO414 TO415 VERLU</Route>
+            <Route Runway="33">ELILA TO410 TO411 TO412 TO413 TO414 TO415 VERLFU</Route>
         </STAR>
         <STAR Name="ITLA2A" Airport="MMTO" Runways="15">
             <Route Runway="15">ITLAS TO613 TO614 TO615 TO616 GAINY</Route>
@@ -9010,6 +9010,9 @@
         </STAR>
         <Approach Name="ILS15Z.GAINY" Airport="MMTO" Runway="15">
             <Route>GAINY TO902 ALOMI</Route>
+        </Approach>
+        <Approach Name="RNP33.MUSOS" Airport="MMTO" Runway="33">
+            <Route>MUSOS TO801 TO800</Route>
         </Approach>
         <Approach Name="RNP33.VERLU" Airport="MMTO" Runway="33">
             <Route>VERLU TO801 TO800</Route>
@@ -9951,9 +9954,9 @@
             <Runway Name="09" Position="+323235.230-1165907.980" />
             <Runway Name="27" Position="+323220.380-1165715.810" />
         </Airport>
-        <Airport ICAO="MMTO" FullName="TOLUCA" Position="+192013.520-0993357.710" Elevation="8466">
-            <Runway Name="15" Position="+192116.280-0993426.150" />
-            <Runway Name="33" Position="+191915.480-0993331.420" />
+        <Airport ICAO="MMTO" FullName="TOLUCA" Position="+192013.510-0993357.730" Elevation="8466">
+            <Runway Name="15" Position="+192116.240-0993426.160" />
+            <Runway Name="33" Position="+191915.770-0993331.140" />
         </Airport>
         <Airport ICAO="MMUN" FullName="CANCUN" Position="+210233.870-0865223.520" Elevation="22">
             <Runway Name="12R" Position="+210243.220-0865327.660" />
