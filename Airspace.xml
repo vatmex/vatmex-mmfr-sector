@@ -1360,18 +1360,18 @@
             </Runway>
         </Airport>
         <Airport Name="MMTG">
-            <Runway Name="14" DataRunway="14">
-                <SID Name="TGZ4A" Default="True" />
-                <SID Name="KESLI2" />
-                <SID Name="ONVIP3" />
+            <Runway Name="15" DataRunway="15">
+                <SID Name="TGZ1A" Default="True" />
+                <SID Name="KESLI1" />
+                <SID Name="ONVIP1" />
             </Runway>
-            <Runway Name="32" DataRunway="32">
-                <SID Name="TGZ3B" Default="True" />
-                <SID Name="KIPAG2" />
-                <SID Name="OMVAB3" />
-                <SID Name="SAXAV2" />
-                <SID Name="URVOD3" />
-                <SID Name="XOMSO3" />
+            <Runway Name="33" DataRunway="33">
+                <SID Name="TGZ1B" Default="True" />
+                <SID Name="KIPAG1" />
+                <SID Name="OMVAB1" />
+                <SID Name="SAXAV1" />
+                <SID Name="URVOD1" />
+                <SID Name="XOMSO1" />
             </Runway>
         </Airport>
         <Airport Name="MMTJ">
@@ -8764,32 +8764,32 @@
             <Route Runway="31">XOTIN</Route>
         </SID>
         <!--MMTC-->
-        <SID Name="TGZ4A" Airport="MMTG" Runways="14">
-            <Route Runway="14">TGZ</Route>
+        <SID Name="TGZ1A" Airport="MMTG" Runways="15">
+            <Route Runway="15">TGZ</Route>
         </SID>
-        <SID Name="TGZ3B" Airport="MMTG" Runways="32">
-            <Route Runway="32">TGZ</Route>
+        <SID Name="TGZ1B" Airport="MMTG" Runways="33">
+            <Route Runway="33">TGZ</Route>
         </SID>
-        <SID Name="KESLI2" Airport="MMTG" Runways="14">
-            <Route Runway="14">KESLI</Route>
+        <SID Name="KESLI1" Airport="MMTG" Runways="15">
+            <Route Runway="15">KESLI</Route>
         </SID>
-        <SID Name="KIPAG2" Airport="MMTG" Runways="32">
-            <Route Runway="32">KIPAG</Route>
+        <SID Name="KIPAG1" Airport="MMTG" Runways="33">
+            <Route Runway="33">KIPAG</Route>
         </SID>
-        <SID Name="OMVAB3" Airport="MMTG" Runways="32">
-            <Route Runway="32">OMVAB</Route>
+        <SID Name="OMVAB1" Airport="MMTG" Runways="33">
+            <Route Runway="33">OMVAB</Route>
         </SID>
-        <SID Name="ONVIP3" Airport="MMTG" Runways="14">
-            <Route Runway="14">ONVIP</Route>
+        <SID Name="ONVIP1" Airport="MMTG" Runways="15">
+            <Route Runway="15">ONVIP</Route>
         </SID>
-        <SID Name="SAXAV2" Airport="MMTG" Runways="32">
-            <Route Runway="32">SAXAV</Route>
+        <SID Name="SAXAV1" Airport="MMTG" Runways="33">
+            <Route Runway="33">SAXAV</Route>
         </SID>
-        <SID Name="URVOD3" Airport="MMTG" Runways="32">
-            <Route Runway="32">ORVOD</Route>
+        <SID Name="URVOD1" Airport="MMTG" Runways="33">
+            <Route Runway="33">ORVOD</Route>
         </SID>
-        <SID Name="XOMSO3" Airport="MMTG" Runways="32">
-            <Route Runway="32">XOMSO</Route>
+        <SID Name="XOMSO1" Airport="MMTG" Runways="33">
+            <Route Runway="33">XOMSO</Route>
         </SID>
         <!--MMTJ-->
         <SID Name="TIJ3A" Airport="MMTJ" Runways="09">
@@ -9947,8 +9947,8 @@
             <Runway Name="26" Position="+253405.240-1032350.360" />
         </Airport>
         <Airport ICAO="MMTG" FullName="TUXTLA" Position="+163342.558-0930133.893" Elevation="1506">
-            <Runway Name="14" Position="+163417.154-0930156.053" />
-            <Runway Name="32" Position="+163307.961-0930111.748" />
+            <Runway Name="14" Position="+163417.175-0930156.052" />
+            <Runway Name="32" Position="+163307.992-0930111.699" />
         </Airport>
         <Airport ICAO="MMTJ" FullName="TIJUANA" Position="+323227.810-1165811.890" Elevation="487">
             <Runway Name="09" Position="+323235.230-1165907.980" />
