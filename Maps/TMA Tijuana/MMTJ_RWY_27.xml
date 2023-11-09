@@ -12,10 +12,6 @@
         <Symbol Type="DotFillCircle">
             <Point>ENS</Point>
         </Symbol>
-        <Symbol Type="Circle">
-            <Point>KREPE</Point>
-            <Point>ULDUD</Point>
-        </Symbol>
     </Map>
     <Map Type="System" Name="Pista 27 - Llegadas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
         <Label HasLeader="false">
@@ -45,15 +41,19 @@
         <Line Pattern="Solid">+322607.622-1164047.819/+322629.592-1164036.284</Line>
         <Line Pattern="Solid">+322532.049-1163948.890/+322615.988-1163925.823</Line>
         <Symbol Type="HollowStar">
-            <Point>KREPE</Point>
+            <Point>TJ405</Point>
+            <Point>TJ406</Point>
+            <Point>TJ407</Point>
             <Point>TJ408</Point>
             <Point>TJ410</Point>
             <Point>TJ556</Point>
             <Point>TJ557</Point>
+            <Point>TJ560</Point>
             <Point>TJ563</Point>
             <Point>TJ745</Point>
         </Symbol>
         <Symbol Type="SolidTriangle">
+            <Point>KREPE</Point>
             <Point>ULDUD</Point>
         </Symbol>
     </Map>
