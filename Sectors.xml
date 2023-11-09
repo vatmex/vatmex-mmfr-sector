@@ -138,6 +138,9 @@
     <Sector FullName="Torre Tuxtla" Frequency="118.600" Callsign="MMTG_APP" Name="TGTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTG_TMA</Volumes>
     </Sector>
+    <Sector FullName="Torre Tapachula" Frequency="118.300" Callsign="MMTP_TWR" Name="TPTW1" DisplayInHandoffWindow="False">
+        <Volumes>MMTP_ADA</Volumes>
+    </Sector>
     <Sector FullName="Terrestre Cancún" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
@@ -261,6 +264,15 @@
     <Sector FullName="Aproximación Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP" DisplayInHandoffWindow="False">
         <Volumes>MMPB_APP</Volumes>
     </Sector>
+    <Sector FullName="Autorización Santa Lucía" Frequency="121.900" Callsign="MMSM_DEL" Name="SMCDL" DisplayInHandoffWindow="False">
+        <Volumes>MMSM_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Terrestre Santa Lucía" Frequency="121.800" Callsign="MMSM_GND" Name="SMSMC" DisplayInHandoffWindow="False">
+        <Volumes>MMSM_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Torre Santa Lucía" Frequency="118.300" Callsign="MMSM_TWR" Name="SMTW1" DisplayInHandoffWindow="False">
+        <Volumes>MMSM_CTR</Volumes>
+    </Sector>
     <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False"/>
     <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTO_CTR</Volumes>
@@ -372,6 +384,9 @@
         <Volumes>MMPS_ATZ</Volumes>
     </Sector>
     <!--MMQT TMA-->
+    <Sector FullName="Terrestre Querétaro" Frequency="121.750" Callsign="MMQT_GND" Name="QTSMC" DisplayInHandoffWindow="False">
+        <Volumes>MMQT_CTR</Volumes>
+    </Sector>
     <Sector FullName="Torre Querétaro" Frequency="118.950" Callsign="MMQT_TWR" Name="QTTW1" DisplayInHandoffWindow="False">
         <Volumes>MMQT_CTR</Volumes>
     </Sector>
@@ -534,5 +549,10 @@
     </Sector>
     <Sector FullName="ACC Monterrey Sector 5" Frequency="125.600" Callsign="MMTY_5_CTR" Name="MTY5">
         <Volumes>MMTY_SECTOR_5</Volumes>
+    </Sector>
+
+    <!--MEXICO FIR-->
+    <Sector FullName="FIR Mexico" Frequency="134.100" Callsign="MMFR_FSS" Name="MFRC">
+        <Volumes>MFRC</Volumes>
     </Sector>
 </Sectors>
