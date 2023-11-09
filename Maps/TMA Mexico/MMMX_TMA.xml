@@ -39,8 +39,8 @@
             <Threshold Name="22L" Position="+194447.400-0985943.260" />
         </Runway>
     </Map>
-    <Map Type="System" Name="MMCB - Rutas VFR" Priority="1">
-        <!--DEPARTURES CUERNAVACA-->
+    <Map Type="System" Name="Aeropuerto - Rutas VFR" Priority="1">
+        <!--DEPARTURES MMCB-->
         <Line Name="CUATLA" Pattern="Broken">TECNOLOGICO CVA/LAS ESTACAS/CUAUTLA</Line>
         <Line Name="MEXICO BAJA" Pattern="Broken">YAUTEPEC/OZUMBA</Line>
         <Line Name="MEXICO CHARLIE" Pattern="Broken">ESTANQUES ACUICULTURA/EDIFICIOS ALTITUDE/TRES MARIAS</Line>
@@ -48,64 +48,29 @@
         <Line Name="SUR CHARLIE" Pattern="Broken">TECNOLOGICO CVA/VIVEROS CVA/BUENA VISTA</Line>
         <Line Name="TAXCO" Pattern="Broken">XOCHICALCO/INVERNADEROS MIACATLAN/CACAHUAMILPA/TAXCO</Line>
         <Line Name="TOLUCA CHARLIE" Pattern="Broken">INVERNADEROS MIACATLAN/TENANCINGO</Line>
-
-        <!--ARRIVALS CUERNAVACA-->
+        <!--ARRIVALS MMCB-->
         <Line Name="IXTAPAN DE LA SAL" Pattern="Broken">IXTAPAN DE LA SAL/INVERNADEROS MIACATLAN/ESTANQUES ACUICULTURA</Line>
         <Line Name="PASO DE MORELOS" Pattern="Broken">PASO MORELOS/TLALTIZAPAN/TECNOLOGICO CVA/LIBRAMIENTO CVA</Line>
         <Line Name="TAXCO" Pattern="Broken">TAXCO/INVERNADEROS MIACATLAN</Line>
         <Line Name="TOLUCA CHARLIE" Pattern="Broken">TENANCINGO/MALINALCO/INVERNADEROS MIACATLAN</Line>
-
-        <!--CONECTORS CUERNAVACA-->
+        <!--CONECTORS MMCB-->
         <Line Name="CUAUTLA-TLACOTEPEC" Pattern="Broken">CUAUTLA/TLACOTEPEC</Line>
         <Line Name="OZUMBA-CHALCO" Pattern="Broken">OZUMBA/CHALCO</Line>
         <Line Name="TENANGO-TENANCINGO" Pattern="Broken">TENANGO/TENANCINGO</Line>
         <Line Name="TRES MARIAS-TOPILEJO" Pattern="Broken">TRES MARIAS/TOPILEJO</Line>
         <Line Name="XOCHICALCO-ESTANQUES" Pattern="Broken">XOCHICALCO/ESTANQUES ACUICULTURA</Line>
 
-        <Symbol Type="SolidTriangle">
-            <Point>BUENA VISTA</Point>
-            <Point>CUAUTLA</Point>
-            <Point>OZUMBA</Point>
-            <Point>TENANCINGO</Point>
-            <Point>TENANGO</Point>
-            <Point>TOPILEJO</Point>
-            <Point>TRES MARIAS</Point>
-            <Point>YAUTEPEC</Point>
-        </Symbol>
-        <Symbol Type="HollowTriangle">
-            <Point>CACAHUAMILPA</Point>
-            <Point>CHALCO</Point>
-            <Point>EDIFICIOS ALTITUDE</Point>
-            <Point>ESTANQUES ACUICULTURA</Point>
-            <Point>INVERNADEROS MIACATLAN</Point>
-            <Point>IXTAPAN DE LA SAL</Point>
-            <Point>LAS ESTACAS</Point>
-            <Point>LIBRAMIENTO CVA</Point>
-            <Point>LOBOS</Point>
-            <Point>MALINALCO</Point>
-            <Point>PASO MORELOS</Point>
-            <Point>TAXCO</Point>
-            <Point>TECNOLOGICO CVA</Point>
-            <Point>TLACOTEPEC</Point>
-            <Point>TLALTIZAPAN</Point>
-            <Point>VIVEROS CVA</Point>
-            <Point>XOCHICALCO</Point>
-        </Symbol>
-    </Map>
-    <Map Type="System" Name="MMMX - Rutas VFR" Priority="1">
-        <!--DEPARTURES AICM-->
+        <!--DEPARTURES MMMX-->
         <Line Name="ESTE" Pattern="Broken">ARENAL/CHIMALHUACAN</Line>
         <Line Name="VOLVO" Pattern="Broken">ARENAL/PUENTE SAN JUAN/VOLVO</Line>
         <Line Name="SUROESTE" Pattern="Broken">PUENTE SAN JUAN/SUR ABASTOS/CNA/VIVEROS</Line>
         <Line Name="PERISUR" Pattern="Broken">SUR ABASTOS/PERISUR</Line>
         <Line Name="CONDOR" Pattern="Broken">OLIMPICO/PUENTE SAN JUAN</Line>
-
-        <!--ARRIVALS AICM-->
+        <!--ARRIVALS MMMX-->
         <Line Name="VOLVO" Pattern="Broken">COYOTE NEZA/ARENAL</Line>
         <Line Name="SUR" Pattern="Broken">VIVEROS/NORTE ABASTOS/ROJO GOMEZ/ARENAL</Line>
         <Line Name="CONDOR" Pattern="Broken">NORTE ABASTOS/ZARAGOZA</Line>
-
-        <!--BIDRECTIONAL-->
+        <!--BIDRECTIONAL MMMX-->
         <Line Name="CUERNAVACA MIKE" Pattern="Broken">PERISUR/CUEMANCO/TOPILEJO/TRES MARIAS</Line>
         <Line Name="CUERNAVACA BAJA" Pattern="Broken">CUEMANCO/CHALCO/OZUMBA</Line>
         <Line Name="CUERNAVACA BAJA 2" Pattern="Broken">VOLVO/CHALCO</Line>
@@ -118,8 +83,7 @@
         <Line Name="TOLUCA AICM BI DIRECCIONAL" Pattern="Broken">PERISUR/POETAS/CAPILLA</Line>
         <Line Name="TOLUCA LLEGADA" Pattern="Broken">CAPILLA/CLUB GOLF BOSQUES/PANTEON</Line>
         <Line Name="TOLUCA CDMX BI DIRECCIONAL" Pattern="Broken">BOSQUE REAL/CAPILLA</Line>
-
-        <!--CONECTORS AICM-->
+        <!--CONECTORS MMMX-->
         <Line Name="DURAZNOS-MADIN" Pattern="Broken">DURAZNOS/AEROPUERTO MMJC/MADIN</Line>
         <Line Name="VILLA ALPINA-MADIN" Pattern="Broken">VILLA ALPINA/MADIN</Line>
         <Line Name="PANTEON-VIVEROS" Pattern="Broken">PANTEON/VIVEROS</Line>
@@ -129,56 +93,7 @@
         <Line Name="CARACOL-CHIMALHUACAN" Pattern="Broken">CARACOL/CHINCONCUAC/TEXCOCO/CHIMALHUACAN</Line>
         <Line Name="CARACOL-BOSQUE REAL" Pattern="Broken">CARACOL/BOSQUE REAL</Line>
 
-        <Symbol Type="SolidTriangle">
-            <Point>AEROPUERTO MMJC</Point>
-            <Point>BOSQUE REAL</Point>
-            <Point>CALPULALPAN</Point>
-            <Point>CARACOL</Point>
-            <Point>CLUB GOLF BOSQUES</Point>
-            <Point>CUEMANCO</Point>
-            <Point>DURAZNOS</Point>
-            <Point>MADIN</Point>
-            <Point>MINA DE ECATEPEC</Point>
-            <Point>OZUMBA</Point>
-            <Point>PASO DE RIO FRIO</Point>
-            <Point>RANCHO AZUL</Point>
-            <Point>SAN MARTIN</Point>
-            <Point>SATELITE</Point>
-            <Point>TOPILEJO</Point>
-            <Point>TRES MARIAS</Point>
-            <Point>VILLA ALPINA</Point>
-        </Symbol>
-        <Symbol Type="HollowTriangle">
-            <Point>ARENAL</Point>
-            <Point>CAPILLA</Point>
-            <Point>CERRO DE LAS ANTENAS</Point>
-            <Point>CHALCO</Point>
-            <Point>CHIMALHUACAN</Point>
-            <Point>CHINCONCUAC</Point>
-            <Point>CLUB DE GOLF CHAPULTEPEC</Point>
-            <Point>CNA</Point>
-            <Point>CONAGUA</Point>
-            <Point>COYOTE NEZA</Point>
-            <Point>ESTRELLA</Point>
-            <Point>LA VILLA</Point>
-            <Point>NORTE ABASTOS</Point>
-            <Point>OLIMPICO</Point>
-            <Point>PANTEON</Point>
-            <Point>PERISUR</Point>
-            <Point>POETAS</Point>
-            <Point>PUENTE SAN JUAN</Point>
-            <Point>ROJO GOMEZ</Point>
-            <Point>SUR ABASTOS</Point>
-            <Point>TEXCOCO</Point>
-            <Point>TOLMAN</Point>
-            <Point>VIVEROS</Point>
-            <Point>VOLVO</Point>
-            <Point>YAUTEPEC</Point>
-            <Point>ZARAGOZA</Point>
-        </Symbol>
-    </Map>
-    <Map Type="System" Name="MMPB - Rutas VFR" Priority="1">
-        <!--BIDRECTIONAL-->
+        <!--BIDRECTIONAL MMPB-->
         <Line Name="TLAXCALA" Pattern="Broken">ZONA INDUSTRIAL/APIZACO/PLAZA TLAXCALA/TLALTENANGO</Line>
         <Line Name="LA PAZ" Pattern="Broken">PRESA/CERRO LA PAZ/TLALTENANGO</Line>
         <Line Name="PIRAMIDE" Pattern="Broken">PRESA/VALSEQUILLO/PIRAMIDE DE CHOLULA/TLALTENANGO</Line>
@@ -190,86 +105,180 @@
         <Line Name="CUERNAVACA PAPA" Pattern="Broken">TLACOTEPEC/ATLIXCO/ACOCOTLA</Line>
         <Line Name="SOBRE VUELO" Pattern="Broken">HUEJOTZINGO/MMPB/TLALTENANGO</Line>
         <Line Name="AUTODROMO 2" Pattern="Broken">SAN MIGUEL CANOA/TLALTENANGO</Line>
-
         <!--CONECTORS MMPB-->
         <Line Name="AJUCHITAN-ATLIXCO" Pattern="Broken">AJUCHITAN/HUAQUECHULA/ATLIXCO</Line>
         <Line Name="ACOCOTLA-VALSEQUILLO" Pattern="Broken">ACOCOTLA/VALSEQUILLO</Line>
         <Line Name="PARQUE XONACATEPEC-AUTODROMO" Pattern="Broken">PARQUE XONACATEPEC/AUTODROMO</Line>
         <Line Name="SAN MIGUEL CANOA-AUTODROMO" Pattern="Broken">SAN MIGUEL CANOA/AUTODROMO</Line>
 
-        <Symbol Type="SolidTriangle">
-            <Point>ATLIXCO</Point>
-            <Point>AUTODROMO</Point>
-            <Point>HUAQUECHULA</Point>
-            <Point>PASO DE RIO FRIO</Point>
-            <Point>PRESA</Point>
-            <Point>ZONA INDUSTRIAL</Point>
-        </Symbol>
-        <Symbol Type="HollowTriangle">
-            <Point>ACOCOTLA</Point>
-            <Point>AJUCHITAN</Point>
-            <Point>APIZACO</Point>
-            <Point>CERRO DE LAS ANTENAS</Point>
-            <Point>CERRO LA PAZ</Point>
-            <Point>ESTADIO PBC</Point>
-            <Point>HUEJOTZINGO</Point>
-            <Point>HUITZILTEPEC</Point>
-            <Point>NEALTICAN</Point>
-            <Point>PARQUE XONACATEPEC</Point>
-            <Point>PIRAMIDE DE CHOLULA</Point>
-            <Point>PLAZA TEHUACAN</Point>
-            <Point>PLAZA TLAXCALA</Point>
-            <Point>SAN FRANCISCO TOTIMEHUACAN</Point>
-            <Point>SAN MIGUEL CANOA</Point>
-            <Point>SANTA CRUZ AJAJALPAN</Point>
-            <Point>TLACOTEPEC</Point>
-            <Point>TLALTENANGO</Point>
-            <Point>VALSEQUILLO</Point>
-        </Symbol>
-    </Map>
-    <Map Type="System" Name="MMTO - Rutas VFR" Priority="1">
-        <!--SALIDA Y LLEGADA (SENEAM) ALA FIJA-->
+        <!--BIDIRECTIONAL CIV FIXED WING MMSM-->
+        <Line Name="TOLUCA 04L-22R" Pattern="Broken">VILLA ALPINA/MADIN/CUAUTITLAN/LAGO ZUMPANGO/PLAZA TOWN</Line>
+        <Line Name="TOLUCA 04C-22C" Pattern="Broken">MADIN/POWER CENTER/MINA DE ECATEPEC/OJO DE AGUA</Line>
+        <Line Name="QUERETARO 04L-22R" Pattern="Broken">CHAPA DE MOTA/CUAUTITLAN</Line>
+        <Line Name="QUERETARO 04C-22C" Pattern="Broken">CHAPA DE MOTA/DURAZNOS/AEROPUERTO MMJC/MADIN</Line>
+        <Line Name="PACHUCA 04L-22R" Pattern="Broken">AEROPUERTO MMPC/LAGO ZUMPANGO</Line>
+        <Line Name="PACHUCA 04C-22C" Pattern="Broken">AEROPUERTO MMPC/TOLMAN/TECAMAC/MINA DE ECATEPEC</Line>
+        <Line Name="PUEBLA 04L-22R" Pattern="Broken">CALPULALPAN/TOLMAN/SANTO DOMINGO/ARCO NORTE/LAGO ZUMPANGO</Line>
+        <Line Name="NORTE PCA" Pattern="Broken">DURAZNOS/PRESA TAXHIMAY/TEPEJI DEL RIO/AEROPUERTO MMPC</Line>
+        <!--DEPARTURE CIV HELICOPTER MMSM-->
+        <Line Name="NORTE PCA" Pattern="Broken">TECAMAC/ENTRONQUE CARRETERA/TOLMAN</Line>
+        <Line Name="NORTE PCA" Pattern="Broken">ENTRONQUE CARRETERA/MINA DE ECATEPEC</Line>
+        <!--CONNECTORS MMSM-->
+        <Line Name="SAN JUAN DEL RIO-CHAPA DE MOTA" Pattern="Broken">SAN JUAN DEL RIO/CHAPA DE MOTA</Line>
+
+        <!--ARRIVAL & DEPARTURES (SENEAM) FIXED WING MMTO-->
         <Line Name="MILED" Pattern="Broken">HOTEL MILED/LAGUNA OJUELOS</Line>
         <Line Name="METEPEC" Pattern="Broken">CERRO METEPEC/CALIMAYA/TENANGO</Line>
         <Line Name="XONACATLAN" Pattern="Broken">XONACATLAN/VILLA DEL CARBON</Line>
         <Line Name="PERICOS" Pattern="Broken">CERRO PERICOS/ALMOLOYA/LAGO VILLA VICTORIA</Line>
-
-        <!--BIDIRECCIONALES ALA FIJA-->
+        <!--BIDIRECTIONALS FIXED WING MMTO-->
         <Line Name="QUERETARO" Pattern="Broken">CERRO PERICOS/IXTLAHUACA/SAN JUAN DEL RIO</Line>
         <Line Name="LUCIA" Pattern="Broken">LIBRAMIENTO TLC/XONACATLAN/VILLA ALPINA</Line>
         <Line Name="MEXICO DEL CARBON" Pattern="Broken">LIBRAMIENTO TLC/VERONICA/CAPILLA</Line>
-
-        <!--SALIDA ALA ROTATIVA-->
+        <!--DEPARTURE HELICOPTERS MMTO-->
         <Line Name="MEXICO" Pattern="Broken">TECNOLOGICO TLC/VERONICA</Line>
-
-        <!--LLEGADA ALA ROTATIVA-->
+        <!--ARRIVAL HELICOPTERS MMTO-->
         <Line Name="MEXICO" Pattern="Broken">VERONICA/SAN NICOLAS</Line>
-
-        <!--SOBREVUELO ALA ROTATIVA-->
+        <!--OVERFLIGHT HELICOPTERS MMTO-->
         <Line Name="TOLUCA" Pattern="Broken">LIBRAMIENTO TLC/IGLESIA</Line>
+        <!--CONECTORS MMTO-->
+        <Line Name="CERRO PERICOS-MMTO" Pattern="Broken">CERRO PERICOS/MMTO</Line>
+        <Line Name="XONACATLAN-VILLA ALPINA" Pattern="Broken">XONACATLAN/ZOLOTEPEC/VILLA ALPINA</Line>
+        <Line Name="PEGASO-ZOLOTEPEC" Pattern="Broken">PEGASO/ZOLOTEPEC</Line>
+        <Line Name="MMTO-SAN NICOLAS" Pattern="Broken">MMTO/SAN NICOLAS</Line>
+        <Line Name="MMTO-VERONICA" Pattern="Broken">MMTO/VERONICA</Line>
+        <Line Name="MMTO-TECNOLOGICO TLC" Pattern="Broken">MMTO/TECNOLOGICO TLC</Line>
 
         <Symbol Type="SolidTriangle">
-            <Point>HOTEL MILED</Point>
-            <Point>LAGUNA OJUELOS</Point>
-            <Point>CERRO METEPEC</Point>
-            <Point>CALIMAYA</Point>
-            <Point>TENANGO</Point>
-            <Point>XONACATLAN</Point>
-            <Point>VILLA DEL CARBON</Point>
-            <Point>CERRO PERICOS</Point>
-            <Point>ALMOLOYA</Point>
-            <Point>LAGO VILLA VICTORIA</Point>
+            <Point>AEROPUERTO MMJC</Point>
+            <Point>CHAPA DE MOTA</Point>
+            <Point>PLAZA TOWN</Point>
+            <Point>TECAMAC</Point>
+            <Point>AEROPUERTO MMPC</Point>
+            <Point>ATLIXCO</Point>
+            <Point>AUTODROMO</Point>
+            <Point>BOSQUE REAL</Point>
+            <Point>BUENA VISTA</Point>
+            <Point>CALPULALPAN</Point>
+            <Point>CARACOL</Point>
+            <Point>CLUB GOLF BOSQUES</Point>
+            <Point>CUAUTLA</Point>
+            <Point>CUEMANCO</Point>
+            <Point>DURAZNOS</Point>
+            <Point>HUAQUECHULA</Point>
             <Point>IXTLAHUACA</Point>
+            <Point>LAGO VILLA VICTORIA</Point>
+            <Point>LAGUNA OJUELOS</Point>
+            <Point>MADIN</Point>
+            <Point>MINA DE ECATEPEC</Point>
+            <Point>OZUMBA</Point>
+            <Point>PASO DE RIO FRIO</Point>
+            <Point>PEGASO</Point>
+            <Point>PRESA</Point>
+            <Point>RANCHO AZUL</Point>
             <Point>SAN JUAN DEL RIO</Point>
-            <Point>LIBRAMIENTO TLC</Point>
+            <Point>SAN MARTIN</Point>
+            <Point>SATELITE</Point>
+            <Point>TENANCINGO</Point>
+            <Point>TENANGO</Point>
+            <Point>TOPILEJO</Point>
+            <Point>TRES MARIAS</Point>
             <Point>VILLA ALPINA</Point>
-            <Point>VERONICA</Point>
-            <Point>CAPILLA</Point>
-            <Point>SAN NICOLAS</Point>
-            <Point>TECNOLOGICO TLC</Point>
+            <Point>YAUTEPEC</Point>
+            <Point>ZONA INDUSTRIAL</Point>
+        </Symbol>
+        <Symbol Type="HollowTriangle">
+            <Point>PRESA TAXHIMAY</Point>
+            <Point>TEPEJI DEL RIO</Point>
+            <Point>CUAUTITLAN</Point>
+            <Point>LAGO ZUMPANGO</Point>
+            <Point>ARCO NORTE</Point>
+            <Point>SANTO DOMINGO</Point>
+            <Point>TOLMAN</Point>
+            <Point>INVERNADERO SANTA MARIA</Point>
+            <Point>SAN LUIS</Point>
+            <Point>PIRAMIDES</Point>
+            <Point>ENTRONQUE CARRETERA</Point>
+            <Point>OJO DE AGUA</Point>
+            <Point>POWER CENTER</Point>
+            <Point>TLAXCO</Point>
+            <Point>JERONIMO</Point>
             <Point>ABASTOS</Point>
-            <Point>IGLESIA</Point>
+            <Point>ACOCOTLA</Point>
+            <Point>AJUCHITAN</Point>
+            <Point>ALMOLOYA</Point>
+            <Point>APIZACO</Point>
+            <Point>ARENAL</Point>
+            <Point>CACAHUAMILPA</Point>
+            <Point>CALIMAYA</Point>
+            <Point>CAPILLA</Point>
+            <Point>CERRO DE LAS ANTENAS</Point>
+            <Point>CERRO LA PAZ</Point>
+            <Point>CERRO METEPEC</Point>
+            <Point>CERRO PERICOS</Point>
+            <Point>CHALCO</Point>
+            <Point>CHIMALHUACAN</Point>
+            <Point>CHINCONCUAC</Point>
+            <Point>CLUB DE GOLF CHAPULTEPEC</Point>
+            <Point>CNA</Point>
             <Point>COCA COLA</Point>
+            <Point>CONAGUA</Point>
+            <Point>COYOTE NEZA</Point>
+            <Point>EDIFICIOS ALTITUDE</Point>
+            <Point>ENTRONQUE</Point>
+            <Point>ESTADIO PBC</Point>
+            <Point>ESTADIO TLC</Point>
+            <Point>ESTANQUES ACUICULTURA</Point>
+            <Point>ESTRELLA</Point>
+            <Point>HOTEL MILED</Point>
+            <Point>HUEJOTZINGO</Point>
+            <Point>HUITZILTEPEC</Point>
+            <Point>IGLESIA</Point>
+            <Point>INVERNADEROS MIACATLAN</Point>
+            <Point>IXTAPAN DE LA SAL</Point>
+            <Point>LA VILLA</Point>
+            <Point>LAS ESTACAS</Point>
+            <Point>LIBRAMIENTO CVA</Point>
+            <Point>LIBRAMIENTO TLC</Point>
+            <Point>LOBOS</Point>
+            <Point>MALINALCO</Point>
+            <Point>NEALTICAN</Point>
+            <Point>NORTE ABASTOS</Point>
+            <Point>OLIMPICO</Point>
+            <Point>PANTEON</Point>
+            <Point>PARQUE XONACATEPEC</Point>
+            <Point>PASO MORELOS</Point>
+            <Point>PERISUR</Point>
+            <Point>PIRAMIDE DE CHOLULA</Point>
+            <Point>PLAZA TEHUACAN</Point>
+            <Point>PLAZA TLAXCALA</Point>
+            <Point>POETAS</Point>
+            <Point>PUENTE SAN JUAN</Point>
+            <Point>ROJO GOMEZ</Point>
+            <Point>SAN FRANCISCO TOTIMEHUACAN</Point>
+            <Point>SAN MIGUEL CANOA</Point>
+            <Point>SAN NICOLAS</Point>
+            <Point>SANTA CRUZ AJAJALPAN</Point>
+            <Point>SUR ABASTOS</Point>
+            <Point>TAXCO</Point>
+            <Point>TECNOLOGICO CVA</Point>
+            <Point>TECNOLOGICO TLC</Point>
+            <Point>TEXCOCO</Point>
+            <Point>TLACOTEPEC</Point>
+            <Point>TLALTENANGO</Point>
+            <Point>TLALTIZAPAN</Point>
+            <Point>TOLMAN</Point>
+            <Point>VALSEQUILLO</Point>
+            <Point>VERONICA</Point>
+            <Point>VILLA DEL CARBON</Point>
+            <Point>VIVEROS CVA</Point>
+            <Point>VIVEROS</Point>
+            <Point>VOLVO</Point>
+            <Point>XOCHICALCO</Point>
+            <Point>XONACATLAN</Point>
+            <Point>YAUTEPEC</Point>
+            <Point>ZARAGOZA</Point>
+            <Point>ZOLOTEPEC</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="Aeropuerto - Volcanes" Priority="1">
