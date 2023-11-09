@@ -66,7 +66,7 @@
             <Point>VIMRA</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 19 - ILS DME 19" Priority="1" Center="+192617.580-0990407.680">
+    <Map Type="System" Name="Pista 19 - RNP 19" Priority="1" Center="+192617.580-0990407.680">
         <Line Pattern="Solid">
             OVUVA/+190858.910-0961111.580
         </Line>
@@ -74,13 +74,11 @@
             VIMRA/SUVUL
         </Line>
         <Symbol Type="HollowStar">
-            <Point>DANUN</Point>
-            <Point>DULNO</Point>
-            <Point>DATSO</Point>
-            <Point>GL812</Point>
-            <Point>GL813</Point>
-            <Point>GL814</Point>
-            <Point>GL815</Point>
+            <Point>VIMRA</Point>
+            <Point>OVUVA</Point>
+            <Point>SUVUL</Point>
+            <Point>VR800</Point>
+            <Point>VR602</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 19 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
@@ -112,20 +110,20 @@
             VR513/RERAS
         </Line>
         <Symbol Type="SolidTriangle">
+            <Point>AXELI</Point>
             <Point>DUPLO</Point>
             <Point>ELOGO</Point>
             <Point>GOTAS</Point>
+            <Point>IPTAK</Point>
             <Point>NOREL</Point>
             <Point>OMPAN</Point>
+            <Point>URSOT</Point>
         </Symbol>
         <Symbol Type="HollowStar">
-            <Point>AXELI</Point>
             <Point>DURIB</Point>
             <Point>ELIKU</Point>
             <Point>IKLES</Point>
-            <Point>IPTAK</Point>
             <Point>RERAS</Point>
-            <Point>URSOT</Point>
             <Point>VR501</Point>
             <Point>VR502</Point>
             <Point>VR503</Point>
