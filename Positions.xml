@@ -4326,6 +4326,15 @@
                 <Map Name="TMA Ciudad Victoria/ASMGCS_MMCV_GATES" />
             </Maps>
         </Position>
+        <Position Name="MMGA" Type="ASMGCS" ASMGCSAirport="MMGA" DefaultCenter="+274333.400-1073915.650" DefaultRange="2" MagneticVariation="-9" Rotation="167">
+            <Maps>
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_BLD" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_RWY" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_TWY" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_APR" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_LABELS" />
+            </Maps>
+        </Position>
         <Position Name="MMIO" Type="ASMGCS" ASMGCSAirport="MMIO" DefaultCenter="+253219.390-1005545.990" DefaultRange="2" MagneticVariation="-6" Rotation="276">
             <Maps>
                 <Map Name="TMA Saltillo/ASMGCS_MMIO_RWY" />
