@@ -1485,21 +1485,20 @@
         <Airport Name="MMUN">
             <Runway Name="12L" DataRunway="12L">
                 <SID Name="CUN3B" Default="True" />
+                <SID Name="ALSU1D" />
                 <SID Name="ANTE2B" />
                 <SID Name="BOTO2B" />
-                <SID Name="CZM1B" />
                 <SID Name="DUGN2B" />
                 <SID Name="DUMB1B" />
                 <SID Name="ENEB2B" />
-                <SID Name="HECA1B" />
+                <SID Name="HECA2B" />
                 <SID Name="LIDE2B" />
                 <SID Name="NOSU1B" />
                 <SID Name="NUDA1B" />
-                <SID Name="NUKA1B" />
                 <SID Name="OMSU2B" />
                 <SID Name="ROTG1B" />
-                <SID Name="TAKU1B" />
-                <SID Name="UDGU1B" />
+                <SID Name="TAKU2B" />
+                <SID Name="UDGU2B" />
                 <SID Name="VOBE2B" />
                 <STAR Name="ILUB1F" ApproachName="ILS12L3.EBMIS" />
                 <STAR Name="NOSA1B" ApproachName="ILS12L3.RIDUG" />
@@ -9152,6 +9151,9 @@
         <SID Name="ALSU1C" Airport="MMUN" Runways="12R">
             <Route Runway="12R">UN402 UN408 CZM UN431 ALSUP</Route>
         </SID>
+        <SID Name="ALSU1D" Airport="MMUN" Runways="12L">
+            <Route Runway="12L">UN402 UN408 CZM UN431 ALSUP</Route>
+        </SID>
         <SID Name="ANTE2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">ANTEK</Route>
         </SID>
@@ -9181,9 +9183,6 @@
         </SID>
         <SID Name="BOTO2D" Airport="MMUN" Runways="30R">
             <Route Runway="30R">BOTOP</Route>
-        </SID>
-        <SID Name="CZM1B" Airport="MMUN" Runways="12L">
-            <Route Runway="12L">UN402 UN408 CZM</Route>
         </SID>
         <SID Name="CZM1E" Airport="MMUN" Runways="30R">
             <Route Runway="30R">UN712 UN703 UN706 CZM</Route>
@@ -9230,8 +9229,8 @@
         <SID Name="HECA2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">UN415 UN440 UN400 HECAT</Route>
         </SID>
-        <SID Name="HECA1B" Airport="MMUN" Runways="12L">
-            <Route Runway="12L">UN402 UN410 UN416 UN400 HECAT</Route>
+        <SID Name="HECA2B" Airport="MMUN" Runways="12L">
+            <Route Runway="12L">UN415 UN440 UN400 HECAT</Route>
         </SID>
         <SID Name="LIDE2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">LIDEK</Route>
@@ -9269,9 +9268,6 @@
         <SID Name="NUDA1F" Airport="MMUN" Runways="30L">
             <Route Runway="30L">UN708 UN700 SEVKA NUDAL</Route>
         </SID>
-        <SID Name="NUKA1B" Airport="MMUN" Runways="12L">
-            <Route Runway="12L">UN415 UN413 ULBOX NUKAN</Route>
-        </SID>
         <SID Name="NUKA1E" Airport="MMUN" Runways="30R">
             <Route Runway="30R">UN708 UN700 ULBOX NUKAN</Route>
         </SID>
@@ -9305,14 +9301,14 @@
         <SID Name="TAKU2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">UN415 UN440 UN400 ALYRE TAKUX</Route>
         </SID>
-        <SID Name="TAKU1B" Airport="MMUN" Runways="12L">
-            <Route Runway="12L">UN402 UN410 UN416 UN400 ALYRE TAKUX</Route>
+        <SID Name="TAKU2B" Airport="MMUN" Runways="12L">
+            <Route Runway="12L">UN415 UN440 UN400 ALYRE TAKUX</Route>
         </SID>
         <SID Name="UDGU2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">UN418 UN409 UN419 UN432 UDGUV</Route>
         </SID>
-        <SID Name="UDGU1B" Airport="MMUN" Runways="12L">
-            <Route Runway="12L">UN418 UN409 UN419 UDGUV</Route>
+        <SID Name="UDGU2B" Airport="MMUN" Runways="12L">
+            <Route Runway="12L">UN418 UN409 UN419 UN432 UDGUV</Route>
         </SID>
         <SID Name="UDGU1E" Airport="MMUN" Runways="30R">
             <Route Runway="30R">UN710 UN704 UN711 UDGUV</Route>
