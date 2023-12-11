@@ -269,18 +269,17 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMUN - Pista 12L - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
-        <Line Name="CZM1B" Pattern="Dotted">+210226.480-0865132.494/UN402/UN408/CZM</Line>
-        <Line Name="HECAT1B" Pattern="Dotted">UN402/UN410/UN416/UN400/HECAT</Line>
-        <Line Name="NOSUG1B" Pattern="Dotted">+210226.480-0865132.494/UN417/UN406/NOSUG</Line>
-        <Line Name="NUDAL1B" Pattern="Dotted">+210226.480-0865132.494/UN415/UN413/SEVKA/NUDAL</Line>
-        <Line Name="NUKAN1B" Pattern="Dotted">UN413/ULBOX/NUKAN</Line>
-        <Line Name="ROTGI1B" Pattern="Dotted">+210226.480-0865132.494/UN412/UN414/UN407/ROTGI</Line>
-        <Line Name="TAKUX1B" Pattern="Dotted">UN400/ALYRE/TAKUX</Line>
-        <Line Name="UDGUV1B" Pattern="Dotted">+210226.480-0865132.494/UN418/UN409/UN419/UDGUV</Line>
+        <Line Name="ALSUP" Pattern="Dotted">+210226.480-0865132.494/UN402/UN408/CZM/UN431/ALSUP</Line>
+        <Line Name="HECAT" Pattern="Dotted">UN415/UN440/UN400/HECAT</Line>
+        <Line Name="NOSUG" Pattern="Dotted">+210226.480-0865132.494/UN417/UN406/NOSUG</Line>
+        <Line Name="NUDAL" Pattern="Dotted">+210226.480-0865132.494/UN415/UN413/SEVKA/NUDAL</Line>
+        <Line Name="ROTGI" Pattern="Dotted">+210226.480-0865132.494/UN412/UN414/UN407/ROTGI</Line>
+        <Line Name="TAKUX" Pattern="Dotted">UN400/ALYRE/TAKUX</Line>
+        <Line Name="UDGUV" Pattern="Dotted">+210226.480-0865132.494/UN418/UN409/UN419/UN432/UDGUV</Line>
         <Symbol Type="SolidTriangle">
             <Point>HECAT</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
+            <Point>ALSUP</Point>
             <Point>UDGUV</Point>
         </Symbol>
         <Symbol Type="HollowStar">
@@ -305,6 +304,9 @@
             <Point>UN417</Point>
             <Point>UN418</Point>
             <Point>UN419</Point>
+            <Point>UN431</Point>
+            <Point>UN432</Point>
+            <Point>UN440</Point>
         </Symbol>
         <Symbol Type="HollowSquare">
             <Point>CZM</Point>
@@ -319,25 +321,24 @@
             <Point>HECAT</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
+            <Point>ALSUP</Point>
             <Point>ROTGI</Point>
             <Point>TAKUX</Point>
             <Point>UDGUV</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMUN - Pista 12R - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
-        <Line Name="CZM1B" Pattern="Dotted">+210140.120-0865146.940/UN402/UN408/CZM</Line>
-        <Line Name="HECAT1B" Pattern="Dotted">UN402/UN410/UN416/UN400/HECAT</Line>
-        <Line Name="NOSUG1B" Pattern="Dotted">+210140.120-0865146.940/UN417/UN406/NOSUG</Line>
-        <Line Name="NUDAL1B" Pattern="Dotted">+210140.120-0865146.940/UN415/UN413/SEVKA/NUDAL</Line>
-        <Line Name="NUKAN1B" Pattern="Dotted">UN413/ULBOX/NUKAN</Line>
-        <Line Name="ROTGI1B" Pattern="Dotted">+210140.120-0865146.940/UN412/UN414/UN407/ROTGI</Line>
-        <Line Name="TAKUX1B" Pattern="Dotted">UN400/ALYRE/TAKUX</Line>
-        <Line Name="UDGUV1B" Pattern="Dotted">+210140.120-0865146.940/UN418/UN409/UN419/UDGUV</Line>
+        <Line Name="ALSUP" Pattern="Dotted">+210140.120-0865146.940/UN402/UN408/CZM/UN431/ALSUP</Line>
+        <Line Name="HECAT" Pattern="Dotted">UN415/UN440/UN400/HECAT</Line>
+        <Line Name="NOSUG" Pattern="Dotted">+210140.120-0865146.940/UN417/UN406/NOSUG</Line>
+        <Line Name="NUDAL" Pattern="Dotted">+210140.120-0865146.940/UN415/UN413/SEVKA/NUDAL</Line>
+        <Line Name="ROTGI" Pattern="Dotted">+210140.120-0865146.940/UN412/UN414/UN407/ROTGI</Line>
+        <Line Name="TAKUX" Pattern="Dotted">UN400/ALYRE/TAKUX</Line>
+        <Line Name="UDGUV" Pattern="Dotted">+210140.120-0865146.940/UN418/UN409/UN419/UN432/UDGUV</Line>
         <Symbol Type="SolidTriangle">
             <Point>HECAT</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
+            <Point>ALSUP</Point>
             <Point>UDGUV</Point>
         </Symbol>
         <Symbol Type="HollowStar">
@@ -362,6 +363,9 @@
             <Point>UN417</Point>
             <Point>UN418</Point>
             <Point>UN419</Point>
+            <Point>UN431</Point>
+            <Point>UN432</Point>
+            <Point>UN440</Point>
         </Symbol>
         <Symbol Type="HollowSquare">
             <Point>CZM</Point>
@@ -376,7 +380,7 @@
             <Point>HECAT</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
+            <Point>ALSUP</Point>
             <Point>ROTGI</Point>
             <Point>TAKUX</Point>
             <Point>UDGUV</Point>

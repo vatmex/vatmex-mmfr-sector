@@ -1510,21 +1510,20 @@
             </Runway>
             <Runway Name="12R" DataRunway="12R">
                 <SID Name="CUN3A" Default="True" />
+                <SID Name="ALSU1C" />
                 <SID Name="ANTE2A" />
                 <SID Name="BOTO2A" />
-                <SID Name="CZM1A" />
                 <SID Name="DUGN2A" />
                 <SID Name="DUMB1A" />
                 <SID Name="ENEB2A" />
-                <SID Name="HECA1A" />
+                <SID Name="HECA2A" />
                 <SID Name="LIDE2A" />
                 <SID Name="NOSU1A" />
                 <SID Name="NUDA1A" />
-                <SID Name="NUKA1A" />
                 <SID Name="OMSU2A" />
                 <SID Name="ROTG1A" />
-                <SID Name="TAKU1A" />
-                <SID Name="UDGU1A" />
+                <SID Name="TAKU2A" />
+                <SID Name="UDGU2A" />
                 <SID Name="VOBE2A" />
                 <STAR Name="ILUB1E" ApproachName="ILS12R3.EBMIS" />
                 <STAR Name="NOSA1B" ApproachName="ILS12R3.RIDUG" />
@@ -2896,7 +2895,7 @@
         <Point Name="ALSAL" Type="Fix">+141500.000-0924100.000</Point>
         <Point Name="ALSEB" Type="Fix">+193949.000-1024548.000</Point>
         <Point Name="ALSEG" Type="Fix">+215212.000-0874103.000</Point>
-        <Point Name="ALSUP" Type="Fix">+194016.000-0865432.000</Point>
+        <Point Name="ALSUP" Type="Fix">+194015.700-0865431.600</Point>
         <Point Name="ALUEN" Type="Fix">+182526.000-0940239.000</Point>
         <Point Name="ALUNI" Type="Fix">+201731.000-0981605.000</Point>
         <Point Name="ALURU" Type="Fix">+222757.000-0860000.000</Point>
@@ -5107,6 +5106,9 @@
         <Point Name="UN417" Type="Fix">+210544.700-0864646.600</Point>
         <Point Name="UN418" Type="Fix">+205613.900-0865311.900</Point>
         <Point Name="UN419" Type="Fix">+205208.500-0872123.700</Point>
+        <Point Name="UN431" Type="Fix">+200315.800-0865428.400</Point>
+        <Point Name="UN432" Type="Fix">+205025.900-0873259.900</Point>
+        <Point Name="UN440" Type="Fix">+204447.000-0862426.200</Point>
         <Point Name="UN500" Type="Fix">+210339.300-0864326.400</Point>
         <Point Name="UN505" Type="Fix">+211322.600-0870903.400</Point>
         <Point Name="UN506" Type="Fix">+211244.100-0870930.600</Point>
@@ -9147,6 +9149,9 @@
         <SID Name="CUN3D" Airport="MMUN" Runways="30R">
             <Route Runway="30R">CUN</Route>
         </SID>
+        <SID Name="ALSU1C" Airport="MMUN" Runways="12R">
+            <Route Runway="12R">UN402 UN408 CZM UN431 ALSUP</Route>
+        </SID>
         <SID Name="ANTE2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">ANTEK</Route>
         </SID>
@@ -9176,9 +9181,6 @@
         </SID>
         <SID Name="BOTO2D" Airport="MMUN" Runways="30R">
             <Route Runway="30R">BOTOP</Route>
-        </SID>
-        <SID Name="CZM1A" Airport="MMUN" Runways="12R">
-            <Route Runway="12R">UN402 UN408 CZM</Route>
         </SID>
         <SID Name="CZM1B" Airport="MMUN" Runways="12L">
             <Route Runway="12L">UN402 UN408 CZM</Route>
@@ -9225,8 +9227,8 @@
         <SID Name="ENEB2D" Airport="MMUN" Runways="30R">
             <Route Runway="30R">ENEBA</Route>
         </SID>
-        <SID Name="HECA1A" Airport="MMUN" Runways="12R">
-            <Route Runway="12R">UN402 UN410 UN416 UN400 HECAT</Route>
+        <SID Name="HECA2A" Airport="MMUN" Runways="12R">
+            <Route Runway="12R">UN415 UN440 UN400 HECAT</Route>
         </SID>
         <SID Name="HECA1B" Airport="MMUN" Runways="12L">
             <Route Runway="12L">UN402 UN410 UN416 UN400 HECAT</Route>
@@ -9267,9 +9269,6 @@
         <SID Name="NUDA1F" Airport="MMUN" Runways="30L">
             <Route Runway="30L">UN708 UN700 SEVKA NUDAL</Route>
         </SID>
-        <SID Name="NUKA1A" Airport="MMUN" Runways="12R">
-            <Route Runway="12R">UN415 UN413 ULBOX NUKAN</Route>
-        </SID>
         <SID Name="NUKA1B" Airport="MMUN" Runways="12L">
             <Route Runway="12L">UN415 UN413 ULBOX NUKAN</Route>
         </SID>
@@ -9303,14 +9302,14 @@
         <SID Name="ROTG1F" Airport="MMUN" Runways="30L">
             <Route Runway="30L">UN702 UN707 ROTGI</Route>
         </SID>
-        <SID Name="TAKU1A" Airport="MMUN" Runways="12R">
-            <Route Runway="12R">UN402 UN410 UN416 UN400 ALYRE TAKUX</Route>
+        <SID Name="TAKU2A" Airport="MMUN" Runways="12R">
+            <Route Runway="12R">UN415 UN440 UN400 ALYRE TAKUX</Route>
         </SID>
         <SID Name="TAKU1B" Airport="MMUN" Runways="12L">
             <Route Runway="12L">UN402 UN410 UN416 UN400 ALYRE TAKUX</Route>
         </SID>
-        <SID Name="UDGU1A" Airport="MMUN" Runways="12R">
-            <Route Runway="12R">UN418 UN409 UN419 UDGUV</Route>
+        <SID Name="UDGU2A" Airport="MMUN" Runways="12R">
+            <Route Runway="12R">UN418 UN409 UN419 UN432 UDGUV</Route>
         </SID>
         <SID Name="UDGU1B" Airport="MMUN" Runways="12L">
             <Route Runway="12L">UN418 UN409 UN419 UDGUV</Route>
