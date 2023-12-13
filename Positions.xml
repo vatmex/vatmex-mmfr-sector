@@ -1749,7 +1749,7 @@
                 <Point>+210236.205-0865233.131</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximación Cancún - UNAPP" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
+        <Position Name="Aproximación Cancún - UNAPP" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNAPP" />
             </Sectors>
@@ -1795,7 +1795,7 @@
                 <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximación Cancún (Llegadas) - UNARR" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
+        <Position Name="Aproximación Cancún (Llegadas) - UNARR" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNARR" />
             </Sectors>
@@ -1839,7 +1839,7 @@
                 <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Salidas Cancún - UNDEP" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
+        <Position Name="Salidas Cancún - UNDEP" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNDEP" />
             </Sectors>
@@ -4334,6 +4334,15 @@
                 <Map Name="TMA Ciudad Victoria/ASMGCS_MMCV_BLD" />
                 <Map Name="TMA Ciudad Victoria/ASMGCS_MMCV_LABELS" />
                 <Map Name="TMA Ciudad Victoria/ASMGCS_MMCV_GATES" />
+            </Maps>
+        </Position>
+        <Position Name="MMGA" Type="ASMGCS" ASMGCSAirport="MMGA" DefaultCenter="+274333.400-1073915.650" DefaultRange="2" MagneticVariation="-9" Rotation="167">
+            <Maps>
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_BLD" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_RWY" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_TWY" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_APR" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_LABELS" />
             </Maps>
         </Position>
         <Position Name="MMIO" Type="ASMGCS" ASMGCSAirport="MMIO" DefaultCenter="+253219.390-1005545.990" DefaultRange="2" MagneticVariation="-6" Rotation="276">
