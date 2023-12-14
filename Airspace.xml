@@ -1502,8 +1502,8 @@
                 <SID Name="VOBE2B" />
                 <STAR Name="ILUB1F" ApproachName="ILS12L3.EBMIS" />
                 <STAR Name="NOSA1B" ApproachName="ILS12L3.RIDUG" />
-                <STAR Name="PAUL1H" ApproachName="ILS12L3.EBMIS" />
-                <STAR Name="SIGM1H" ApproachName="ILS12L3.EBMIS" />
+                <STAR Name="PAUL2H" ApproachName="ILS12L3.EBMIS" />
+                <STAR Name="SIGM2H" ApproachName="ILS12L3.EBMIS" />
                 <STAR Name="VOMA1A" ApproachName="ILS12L3.VIKSI" />
                 <STAR Name="XUDU1A" ApproachName="ILS12L3.KAROR" />
             </Runway>
@@ -1526,56 +1526,54 @@
                 <SID Name="VOBE2A" />
                 <STAR Name="ILUB1E" ApproachName="ILS12R3.EBMIS" />
                 <STAR Name="NOSA1B" ApproachName="ILS12R3.RIDUG" />
-                <STAR Name="PAUL1G" ApproachName="ILS12R3.EBMIS" />
-                <STAR Name="SIGM1G" ApproachName="ILS12R3.EBMIS" />
+                <STAR Name="PAUL2G" ApproachName="ILS12R3.EBMIS" />
+                <STAR Name="SIGM2G" ApproachName="ILS12R3.EBMIS" />
                 <STAR Name="VOMA1A" ApproachName="ILS12R3.VIKSI" />
                 <STAR Name="XUDU1A" ApproachName="ILS12R3.KAROR" />
             </Runway>
             <Runway Name="30L" DataRunway="30L">
                 <SID Name="CUN3C" Default="True" />
+                <SID Name="ALSU1F" />
                 <SID Name="ANTE2C" />
                 <SID Name="AVSE1F" />
                 <SID Name="BOTO2C" />
-                <SID Name="CZM1F" />
                 <SID Name="DUGN2C" />
                 <SID Name="DUMB1C" />
                 <SID Name="ENEB2C" />
                 <SID Name="LIDE2C" />
                 <SID Name="NOSU1F" />
                 <SID Name="NUDA1F" />
-                <SID Name="NUKA1F" />
                 <SID Name="OMSU2C" />
                 <SID Name="ROTG1F" />
                 <SID Name="UDGU1F" />
                 <SID Name="VOBE2C" />
                 <STAR Name="ILUB1G" ApproachName="RNP30L.SESLI" />
                 <STAR Name="NOSA1D" ApproachName="RNP30L.OTSOL" />
-                <STAR Name="PAUL1K" ApproachName="RNP30L.LOPKA" />
-                <STAR Name="SIGM1I" ApproachName="RNP30L.SESLI" />
+                <STAR Name="PAUL2K" ApproachName="RNP30L.SESLI" />
+                <STAR Name="SIGM2J" ApproachName="RNP30L.SESLI" />
                 <STAR Name="VOMA1C" ApproachName="RNP30L.OTSOL" />
                 <STAR Name="XUDU1D" ApproachName="RNP30L.LOPKA" />
             </Runway>
             <Runway Name="30R" DataRunway="30R">
                 <SID Name="CUN3D" Default="True" />
+                <SID Name="ALSU1E" />
                 <SID Name="ANTE2D" />
                 <SID Name="AVSE1E" />
                 <SID Name="BOTO2D" />
-                <SID Name="CZM1E" />
                 <SID Name="DUGN2D" />
                 <SID Name="DUMB1D" />
                 <SID Name="ENEB2D" />
                 <SID Name="LIDE2D" />
                 <SID Name="NOSU1E" />
                 <SID Name="NUDA1E" />
-                <SID Name="NUKA1E" />
                 <SID Name="OMSU2D" />
                 <SID Name="ROTG1E" />
                 <SID Name="UDGU1E" />
                 <SID Name="VOBE2D" />
                 <STAR Name="ILUB1G" ApproachName="RNP30R.SESLI" />
                 <STAR Name="NOSA1D" ApproachName="RNP30R.OTSOL" />
-                <STAR Name="PAUL1L" ApproachName="RNP30R.LOPKA" />
-                <STAR Name="SIGM1I" ApproachName="RNP30R.SESLI" />
+                <STAR Name="PAUL2K" ApproachName="RNP30R.SESLI" />
+                <STAR Name="SIGM2J" ApproachName="RNP30R.SESLI" />
                 <STAR Name="VOMA1C" ApproachName="RNP30R.OTSOL" />
                 <STAR Name="XUDU1E" ApproachName="RNP30R.LOPKA" />
             </Runway>
@@ -3233,6 +3231,7 @@
         <Point Name="ILIGO" Type="Fix">+263605.900-0993506.500</Point>
         <Point Name="ILOLI" Type="Fix">+222603.000-0913703.000</Point>
         <Point Name="ILOLU" Type="Fix">+195032.000-0972054.000</Point>
+        <Point Name="ILONI" Type="Fix">+200553.200-0863008.900</Point>
         <Point Name="ILONO" Type="Fix">+195902.000-0981457.000</Point>
         <Point Name="ILUBA" Type="Fix">+201122.000-0852028.000</Point>
         <Point Name="ILURA" Type="Fix">+200221.000-1022248.000</Point>
@@ -3654,6 +3653,7 @@
         <Point Name="SEBAK" Type="Fix">+213702.000-0881335.000</Point>
         <Point Name="SEBEK" Type="Fix">+275801.000-1101427.000</Point>
         <Point Name="SEBON" Type="Fix">+192056.530-1000759.670</Point>
+        <Point Name="SEDAS" Type="Fix">+202934.100-0861517.200</Point>
         <Point Name="SEDEM" Type="Fix">+210619.510-1035701.710</Point>
         <Point Name="SEDIM" Type="Fix">+193219.130-0994652.610</Point>
         <Point Name="SEGIP" Type="Fix">+175021.000-1015621.000</Point>
@@ -4402,6 +4402,7 @@
         <Point Name="IO806" Type="Fix">+254103.300-1011119.300</Point>
         <Point Name="IRDAN" Type="Fix">+273230.100-0994419.600</Point>
         <Point Name="IRDUS" Type="Fix">+201847.300-0870019.900</Point>
+        <Point Name="ITLES" Type="Fix">+201616.500-0864209.400</Point>
         <Point Name="ITPEB" Type="Fix">+203410.898-0900116.298</Point>
         <Point Name="ITRAM" Type="Fix">+164703.500-0993335.800</Point>
         <Point Name="ITREB" Type="Fix">+271757.176-0993734.619</Point>
@@ -4748,6 +4749,7 @@
         <Point Name="PEMSA" Type="Fix">+184509.100-0985218.700</Point>
         <Point Name="PESTA" Type="Fix">+185151.550-0982138.470</Point>
         <Point Name="PILDA" Type="Fix">+254736.200-1002632.300</Point>
+        <Point Name="PLADE" Type="Fix">+200602.000-0862355.010</Point>
         <Point Name="PLADE" Type="Fix">+202353.280-1030101.560</Point>
         <Point Name="PR400" Type="Fix">+203649.200-1051949.100</Point>
         <Point Name="PR401" Type="Fix">+203324.500-1052343.600</Point>
@@ -5105,6 +5107,7 @@
         <Point Name="UN417" Type="Fix">+210544.700-0864646.600</Point>
         <Point Name="UN418" Type="Fix">+205613.900-0865311.900</Point>
         <Point Name="UN419" Type="Fix">+205208.500-0872123.700</Point>
+        <Point Name="UN430" Type="Fix">+201327.900-0865436.700</Point>
         <Point Name="UN431" Type="Fix">+200315.800-0865428.400</Point>
         <Point Name="UN432" Type="Fix">+205025.900-0873259.900</Point>
         <Point Name="UN440" Type="Fix">+204447.000-0862426.200</Point>
@@ -5121,11 +5124,14 @@
         <Point Name="UN524" Type="Fix">+202934.100-0861517.200</Point>
         <Point Name="UN528" Type="Fix">+211009.100-0870352.500</Point>
         <Point Name="UN529" Type="Fix">+210823.100-0870102.500</Point>
+        <Point Name="UN530" Type="Fix">+201306.300-0864926.400</Point>
         <Point Name="UN531" Type="Fix">+210328.900-0865311.900</Point>
         <Point Name="UN532" Type="Fix">+210535.400-0865634.100</Point>
         <Point Name="UN540" Type="Fix">+210931.900-0870421.800</Point>
         <Point Name="UN542" Type="Fix">+210451.900-0865653.400</Point>
         <Point Name="UN545" Type="Fix">+210451.900-0865653.400</Point>
+        <Point Name="UN580" Type="Fix">+210036.600-0865005.400</Point>
+        <Point Name="UN581" Type="Fix">+205423.300-0865124.000</Point>
         <Point Name="UN601" Type="Fix">+205124.800-0863357.700</Point>
         <Point Name="UN604" Type="Fix">+205046.200-0863425.200</Point>
         <Point Name="UN605" Type="Fix">+205844.500-0865712.500</Point>
@@ -5142,9 +5148,9 @@
         <Point Name="UN630" Type="Fix">+205333.900-0863851.200</Point>
         <Point Name="UN631" Type="Fix">+205817.400-0864623.100</Point>
         <Point Name="UN632" Type="Fix">+210123.700-0865120.700</Point>
-        <Point Name="UN633" Type="Fix">+210346.400-0865508.600</Point>
         <Point Name="UN634" Type="Fix">+204457.600-0864451.100</Point>
         <Point Name="UN635" Type="Fix">+203440.600-0865151.000</Point>
+        <Point Name="UN640" Type="Fix">+200519.600-0865902.700</Point>
         <Point Name="UN700" Type="Fix">+210904.900-0863516.200</Point>
         <Point Name="UN701" Type="Fix">+211942.100-0870054.900</Point>
         <Point Name="UN702" Type="Fix">+211134.500-0865606.000</Point>
@@ -9154,6 +9160,12 @@
         <SID Name="ALSU1D" Airport="MMUN" Runways="12L">
             <Route Runway="12L">UN402 UN408 CZM UN431 ALSUP</Route>
         </SID>
+        <SID Name="ALSU1E" Airport="MMUN" Runways="30R">
+            <Route Runway="30R">UN712 UN703 UN706 CZM UN430 ALSUP</Route>
+        </SID>
+        <SID Name="ALSU1F" Airport="MMUN" Runways="30L">
+            <Route Runway="30L">UN712 UN703 UN706 CZM UN713 AVSEB</Route>
+        </SID>
         <SID Name="ANTE2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">ANTEK</Route>
         </SID>
@@ -9183,12 +9195,6 @@
         </SID>
         <SID Name="BOTO2D" Airport="MMUN" Runways="30R">
             <Route Runway="30R">BOTOP</Route>
-        </SID>
-        <SID Name="CZM1E" Airport="MMUN" Runways="30R">
-            <Route Runway="30R">UN712 UN703 UN706 CZM</Route>
-        </SID>
-        <SID Name="CZM1F" Airport="MMUN" Runways="30L">
-            <Route Runway="30L">UN712 UN703 UN706 CZM</Route>
         </SID>
         <SID Name="DUGN2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">DUGNI</Route>
@@ -9268,12 +9274,6 @@
         <SID Name="NUDA1F" Airport="MMUN" Runways="30L">
             <Route Runway="30L">UN708 UN700 SEVKA NUDAL</Route>
         </SID>
-        <SID Name="NUKA1E" Airport="MMUN" Runways="30R">
-            <Route Runway="30R">UN708 UN700 ULBOX NUKAN</Route>
-        </SID>
-        <SID Name="NUKA1F" Airport="MMUN" Runways="30L">
-            <Route Runway="30L">UN708 UN700 ULBOX NUKAN</Route>
-        </SID>
         <SID Name="OMSU2A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">OMSUK</Route>
         </SID>
@@ -9329,10 +9329,10 @@
             <Route Runway="30L">VOBED</Route>
         </SID>
         <STAR Name="ILUB1E" Airport="MMUN" Runways="12R">
-            <Route Runway="12R">ILUBA URVEN UN524 UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
+            <Route Runway="12R">ILUBA URVEN SEDAS UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
         <STAR Name="ILUB1F" Airport="MMUN" Runways="12L">
-            <Route Runway="12L">ILUBA URVEN UN524 UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
+            <Route Runway="12L">ILUBA URVEN SEDAS UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
         <STAR Name="ILUB1G" Airport="MMUN" Runways="30L,30R">
             <Route Runway="30L">ILUBA ALRIP QUADY SESLI</Route>
@@ -9346,27 +9346,25 @@
             <Route Runway="30L">NOSAT HACHO LETIS UN500 PUREG OTSOL</Route>
             <Route Runway="30R">NOSAT HACHO LETIS UN500 PUREG OTSOL</Route>
         </STAR>
-        <STAR Name="PAUL1G" Airport="MMUN" Runways="12R">
-            <Route Runway="12R">PAULE CZM UN518 UN511 UN519 UN514 ELINO EBMIS</Route>
+        <STAR Name="PAUL2G" Airport="MMUN" Runways="12R">
+            <Route Runway="12R">PAULE UN530 HURIN UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
-        <STAR Name="PAUL1H" Airport="MMUN" Runways="12L">
-            <Route Runway="12L">PAULE CZM UN518 UN511 UN519 UN514 ELINO EBMIS</Route>
+        <STAR Name="PAUL2H" Airport="MMUN" Runways="12L">
+            <Route Runway="12L">PAULE UN530 HURIN UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
-        <STAR Name="PAUL1K" Airport="MMUN" Runways="30L">
-            <Route Runway="30L">PAULE UN610 CZM UN611 UN612 LOPKA</Route>
+        <STAR Name="PAUL2K" Airport="MMUN" Runways="30L,30R">
+            <Route Runway="30L">PAULE UN640 ITLES QUADY SESLI</Route>
+            <Route Runway="30R">PAULE UN640 ITLES QUADY SESLI</Route>
         </STAR>
-        <STAR Name="PAUL1L" Airport="MMUN" Runways="30R">
-            <Route Runway="30R">PAULE UN610 CZM UN611 UN612 LOPKA</Route>
+        <STAR Name="SIGM2G" Airport="MMUN" Runways="12R">
+            <Route Runway="12R">SIGMA OVGED ILONI HURIN UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
-        <STAR Name="SIGM1G" Airport="MMUN" Runways="12R">
-            <Route Runway="12R">SIGMA OVGED HURIN UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
+        <STAR Name="SIGM2H" Airport="MMUN" Runways="12L">
+            <Route Runway="12L">SIGMA OVGED ILONI HURIN UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
-        <STAR Name="SIGM1H" Airport="MMUN" Runways="12L">
-            <Route Runway="12L">SIGMA OVGED HURIN UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
-        </STAR>
-        <STAR Name="SIGM1I" Airport="MMUN" Runways="30L,30R">
-            <Route Runway="30L">SIGMA BALCH UN617 QUADY SESLI</Route>
-            <Route Runway="30R">SIGMA BALCH UN617 QUADY SESLI</Route>
+        <STAR Name="SIGM2J" Airport="MMUN" Runways="30L,30R">
+            <Route Runway="30L">SIGMA BALCH PLADE UN617 QUADY SESLI</Route>
+            <Route Runway="30R">SIGMA BALCH PLADE UN617 QUADY SESLI</Route>
         </STAR>
         <STAR Name="VOMA1A" Airport="MMUN" Runways="12L,12R">
             <Route Runway="12L">VOMAR AGNIX EPNEL ODLAR VIKSI</Route>

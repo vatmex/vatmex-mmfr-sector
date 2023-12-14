@@ -3,8 +3,8 @@
     <Map Type="System" Name="MMUN - Pista 30L-R - Llegadas RNAV" Priority="1" Center="+210235.014-0865232.438">
         <Line Name="NOSAT1D" Pattern="Dashed">NOSAT/HACHO/LETIS/UN500/PUREG/OTSOL</Line>
         <Line Name="ILUBA1G" Pattern="Dashed">ILUBA/ALRIP/QUADY/SESLI</Line>
-        <Line Name="SIGMA1I" Pattern="Dashed">SIGMA/BALCH/UN617/QUADY</Line>
-        <Line Name="PAULE1#" Pattern="Dashed">PAULE/UN610/CZM/UN611/UN612/LOPKA</Line>
+        <Line Name="SIGMA1I" Pattern="Dashed">SIGMA/BALCH/PLADE/UN617/QUADY</Line>
+        <Line Name="PAULE1#" Pattern="Dashed">PAULE/UN640/ITLES/QUADY</Line>
         <Line Name="XUDUN1#" Pattern="Dashed">XUDUN/BEPOR/BUBUN/SCAHA/UN605/UN608/DEPVA/LOPKA</Line>
         <Line Name="VOMAR1C" Pattern="Dashed">VOMAR/AGNIX/EPNEL/ODLAR/UN606/UN500</Line>
         <Symbol Type="SolidTriangle">
@@ -24,6 +24,7 @@
             <Point>DEVPA</Point>
             <Point>EPNEL</Point>
             <Point>HACHO</Point>
+            <Point>ITLES</Point>
             <Point>LOPKA</Point>
             <Point>ODLAR</Point>
             <Point>OTSOL</Point>
@@ -34,17 +35,9 @@
             <Point>UN500</Point>
             <Point>UN605</Point>
             <Point>UN606</Point>
-            <Point>UN610</Point>
-            <Point>UN611</Point>
-            <Point>UN612</Point>
             <Point>UN617</Point>
+            <Point>UN640</Point>
             <Point>VOMAR</Point>
-        </Symbol>
-        <Symbol Type="HollowSquare">
-            <Point>CZM</Point>
-        </Symbol>
-        <Symbol Type="Circle">
-            <Point>CZM</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMUN - Pista 30L-R - Llegadas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
@@ -140,29 +133,26 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMUN - Pista 30L - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
-        <Line Name="NUKAN1" Pattern="Dotted">+210243.080-0865327.611/UN708/UN700/ULBOX/NUKAN</Line>
-        <Line Name="NUDAL1" Pattern="Dotted">UN700/SEVKA/NUDAL</Line>
+        <Line Name="NUDAL1" Pattern="Dotted">+210243.080-0865327.611/UN708/UN700/SEVKA/NUDAL</Line>
         <Line Name="AVSEB1" Pattern="Dotted">CZM/UN713/AVSEB</Line>
-        <Line Name="CZM1" Pattern="Dotted">+210243.080-0865327.611/UN712/UN703/UN706/CZM/</Line>
+        <Line Name="ALSUP1" Pattern="Dotted">+210243.080-0865327.611/UN712/UN703/UN706/CZM/UN430/ALSUP</Line>
         <Line Name="UDGUV1" Pattern="Dotted">+210243.080-0865327.611/UN710/UN704/UN711/UDGUV</Line>
         <Line Name="NOSUG1" Pattern="Dotted">+210243.080-0865327.611/UN705/UN709/UN701/NOSUG</Line>
         <Line Name="ROTGI1" Pattern="Dotted">+210243.080-0865327.611/UN702/UN707/ROTGI</Line>
-        <Symbol Type="HollowTriangle">
+        <Symbol Type="SolidTriangle">
+            <Point>ALSUP</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
             <Point>UDGUV</Point>
         </Symbol>
-        <Symbol Type="SolidStar" />
-        <Symbol Type="Circle" />
         <Symbol Type="HollowStar">
             <Point>AVSEB</Point>
             <Point>NOSUG</Point>
             <Point>ROTGI</Point>
             <Point>SEVKA</Point>
-            <Point>ULBOX</Point>
             <Point>UN700</Point>
             <Point>UN701</Point>
             <Point>UN702</Point>
+            <Point>UN703</Point>
             <Point>UN704</Point>
             <Point>UN705</Point>
             <Point>UN706</Point>
@@ -183,39 +173,35 @@
     </Map>
     <Map Type="System" Name="MMUN - Pista 30L - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
         <Label HasLeader="false">
+            <Point>ALSUP</Point>
             <Point>AVSEB</Point>
-            <Point>CZM</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
             <Point>ROTGI</Point>
             <Point>UDGUV</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMUN - Pista 30R - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
-        <Line Name="NUKAN1" Pattern="Dotted">+210316.960-0865252.928/UN708/UN700/ULBOX/NUKAN</Line>
-        <Line Name="NUDAL1" Pattern="Dotted">UN700/SEVKA/NUDAL</Line>
+        <Line Name="NUDAL1" Pattern="Dotted">+210316.960-0865252.928/UN708/UN700/SEVKA/NUDAL</Line>
         <Line Name="AVSEB1" Pattern="Dotted">CZM/UN713/AVSEB</Line>
         <Line Name="CZM1" Pattern="Dotted">+210316.960-0865252.928/UN712/UN703/UN706/CZM/</Line>
         <Line Name="UDGUV1" Pattern="Dotted">+210316.960-0865252.928/UN710/UN704/UN711/UDGUV</Line>
         <Line Name="NOSUG1" Pattern="Dotted">+210316.960-0865252.928/UN705/UN709/UN701/NOSUG</Line>
         <Line Name="ROTGI1" Pattern="Dotted">+210316.960-0865252.928/UN702/UN707/ROTGI</Line>
-        <Symbol Type="HollowTriangle">
+        <Symbol Type="SolidTriangle">
+            <Point>ALSUP</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
             <Point>UDGUV</Point>
         </Symbol>
-        <Symbol Type="SolidStar" />
-        <Symbol Type="Circle" />
         <Symbol Type="HollowStar">
             <Point>AVSEB</Point>
             <Point>NOSUG</Point>
             <Point>ROTGI</Point>
             <Point>SEVKA</Point>
-            <Point>ULBOX</Point>
             <Point>UN700</Point>
             <Point>UN701</Point>
             <Point>UN702</Point>
+            <Point>UN703</Point>
             <Point>UN704</Point>
             <Point>UN705</Point>
             <Point>UN706</Point>
@@ -237,10 +223,9 @@
     <Map Type="System" Name="MMUN - Pista 30R - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
         <Label HasLeader="false">
             <Point>AVSEB</Point>
-            <Point>CZM</Point>
+            <Point>ALSUP</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
             <Point>ROTGI</Point>
             <Point>UDGUV</Point>
         </Label>

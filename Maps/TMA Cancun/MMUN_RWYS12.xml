@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas RNAV" Priority="1" Center="+210216.667-0865152.015">
-        <Line Name="ILUBA1E" Pattern="Dashed">ILUBA/URVEN/UN524/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
-        <Line Name="PUALE1G" Pattern="Dashed">PAULE/CZM/UN518/UN511</Line>
-        <Line Name="SIGMA1G" Pattern="Dashed">SIGMA/HURIN/UN523</Line>
+        <Line Name="ILUBA2E" Pattern="Dashed">ILUBA/URVEN/SEDAS/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
+        <Line Name="PUALE2G" Pattern="Dashed">PAULE/UN530/HURIN</Line>
+        <Line Name="SIGMA2G" Pattern="Dashed">SIGMA/OVGED/ILONI/HURIN/UN523</Line>
         <Line Name="NOSAT1B" Pattern="Dashed">NOSAT/HACHO/LETIS/APMUS/UN500/UN522/UN515/ERDAM/RIDUG</Line>
         <Line Name="VOMAR1A" Pattern="Dashed">VOMAR/AGNIX/EPNEL/ODLAR/VIKSI</Line>
         <Line Name="XUDUN1A" Pattern="Dashed">XUDUN/BEPOR/BUBUN/SCAHA/KAROR</Line>
@@ -23,31 +23,26 @@
             <Point>ERDAM</Point>
             <Point>HACHO</Point>
             <Point>HURIN</Point>
+            <Point>ILONI</Point>
             <Point>ILUBA</Point>
             <Point>KAROR</Point>
             <Point>ODLAR</Point>
+            <Point>OVGED</Point>
             <Point>PAULE</Point>
             <Point>RIDUG</Point>
             <Point>SCAHA</Point>
+            <Point>SEDAS</Point>
             <Point>SIGMA</Point>
             <Point>UN500</Point>
             <Point>UN511</Point>
             <Point>UN514</Point>
             <Point>UN515</Point>
-            <Point>UN518</Point>
             <Point>UN519</Point>
             <Point>UN522</Point>
             <Point>UN523</Point>
-            <Point>UN524</Point>
             <Point>URVEN</Point>
             <Point>VIKSI</Point>
             <Point>VOMAR</Point>
-        </Symbol>
-        <Symbol Type="HollowSquare">
-            <Point>CZM</Point>
-        </Symbol>
-        <Symbol Type="Circle">
-            <Point>CZM</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" Priority="2" Center="+210216.667-0865152.015">
@@ -199,7 +194,6 @@
         <Line Name="VIKSI" Pattern="Solid">VIKSI/UN506</Line>
         <Line Name="RIDUG" Pattern="Solid">RIDUG/UN506</Line>
         <Line Name="FINAL" Pattern="Solid">UN506/+210243.080-0865327.611</Line>
-
         <Line Name="D1" Pattern="Solid">
 +210217.953-0865345.093/
 +210308.205-0865310.127</Line>
@@ -295,12 +289,10 @@
             <Point>UN407</Point>
             <Point>UN408</Point>
             <Point>UN409</Point>
-            <Point>UN410</Point>
             <Point>UN412</Point>
             <Point>UN413</Point>
             <Point>UN414</Point>
             <Point>UN415</Point>
-            <Point>UN416</Point>
             <Point>UN417</Point>
             <Point>UN418</Point>
             <Point>UN419</Point>
@@ -354,12 +346,10 @@
             <Point>UN407</Point>
             <Point>UN408</Point>
             <Point>UN409</Point>
-            <Point>UN410</Point>
             <Point>UN412</Point>
             <Point>UN413</Point>
             <Point>UN414</Point>
             <Point>UN415</Point>
-            <Point>UN416</Point>
             <Point>UN417</Point>
             <Point>UN418</Point>
             <Point>UN419</Point>
