@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMCZ - Pista 30 - Llegadas RNAV" Priority="1" Center="+210235.014-0865232.438">
-        <Line Name="AVSIM1D" Pattern="Dashed">AVSIM/CZ501</Line>
-        <Line Name="EMOSA1B" Pattern="Dashed">EMOSA/UKVAS/CZ512/CUN/VIBLA/ONGAV/CZ702/BEREB</Line>
+        <Line Name="VIGTU2B" Pattern="Dashed">VIGTU/CZ518/CZ551/CZ505/CZ552/XUBLI/ONGAV/CZ702/BEREB</Line>
+        <Line Name="EMOSA1B" Pattern="Dashed">EMOSA/UKVAS/CZ512/CUN/VIBLA/ONGAV</Line>
         <Line Name="ILUBA1D" Pattern="Dashed">ILUBA/MARJE/CZ704/CZ701/EMPAM</Line>
-        <Line Name="PAULE1F" Pattern="Dashed">PAULE/CZ501/ONGAV</Line>
-        <Line Name="SIGMA1D" Pattern="Dashed">SIGMA/EBKUG/CZ517/BEREB</Line>
-        <Line Name="VIGTU1A" Pattern="Dashed">VIGTU/CZ518/CZ505/XUBLI/ONGAV</Line>
-        <Symbol Type="HollowTriangle">
-            <Point>AVSIM</Point>
+        <Line Name="SIGMA2D" Pattern="Dashed">SIGMA/EBKUG/CZ914/BEREB</Line>
+        <Line Name="PAULE2F" Pattern="Dashed">PAULE/CZ501/ONGAV</Line>
+        <Line Name="ULIPA1D" Pattern="Dashed">ULIPA/CZ920/CZ501</Line>
+        <Symbol Type="SolidTriangle">
             <Point>EMOSA</Point>
             <Point>ILUBA</Point>
             <Point>PAULE</Point>
@@ -20,16 +19,20 @@
             <Point>CZ501</Point>
             <Point>CZ505</Point>
             <Point>CZ512</Point>
-            <Point>CZ517</Point>
             <Point>CZ518</Point>
+            <Point>CZ551</Point>
+            <Point>CZ552</Point>
             <Point>CZ701</Point>
             <Point>CZ702</Point>
             <Point>CZ704</Point>
+            <Point>CZ914</Point>
+            <Point>CZ920</Point>
             <Point>EBKUG</Point>
             <Point>EMPAM</Point>
             <Point>MARJE</Point>
             <Point>ONGAV</Point>
             <Point>UKVAS</Point>
+            <Point>ULIPA</Point>
             <Point>VIBLA</Point>
             <Point>XUBLI</Point>
         </Symbol>
@@ -42,70 +45,20 @@
     </Map>
     <Map Type="System" Name="MMCZ - Pista 30 - Llegadas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
         <Label HasLeader="false">
-            <Point>EMOSA</Point>
-            <Point>ILUBA</Point>
-            <Point>SIGMA</Point>
-            <Point>PAULE</Point>
-            <Point>AVSIM</Point>
-            <Point>VIGTU</Point>
-
-            <Point>EMPAM</Point>
             <Point>BEREB</Point>
+            <Point>EMOSA</Point>
+            <Point>EMPAM</Point>
+            <Point>ILUBA</Point>
+            <Point>PAULE</Point>
+            <Point>SIGMA</Point>
+            <Point>ULIPA</Point>
+            <Point>VIGTU</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 30 - VORDME 2" Priority="1" Center="+210235.014-0865232.438">
         <Line Name="Final 30" Pattern="Solid">
 +203034.399-0865459.915/
 +202658.080-0864702.772</Line>
-        <Line Name="BOTOP" Pattern="Dashed">
-+202634.871-0864611.630/
-+202633.944-0864609.158/
-+202630.497-0864558.914/
-+202628.677-0864550.454/
-+202627.805-0864544.357/
-+202626.501-0864533.590/
-+202625.979-0864522.192/
-+202626.460-0864511.178/
-+202627.792-0864500.137/
-+202630.236-0864448.519/
-+202633.196-0864438.494/
-+202637.151-0864428.276/
-+202641.648-0864419.020/
-+202646.695-0864410.231/
-+202654.221-0864359.712/
-+202701.012-0864351.884/
-+202708.688-0864344.414/
-+202716.770-0864337.739/
-+202725.559-0864331.779/
-+202735.097-0864326.423/
-+202744.586-0864322.194/
-+202755.634-0864318.458/
-+202822.070-0864311.839/
-+202920.085-0864302.583/
-+203017.227-0864258.985/
-+203114.713-0864300.688/
-+203211.794-0864307.857/
-+203308.360-0864320.216/
-+203403.168-0864337.684/
-+203456.953-0864400.481/
-+203548.321-0864428.002/
-+203637.334-0864500.274/
-+203644.070-0864503.762/
-+203653.786-0864508.074/
-+203703.577-0864511.370/
-+203713.747-0864513.760/
-+203724.067-0864515.270/
-+203734.861-0864515.765/
-+203745.154-0864515.243/
-+203755.440-0864513.815/
-+203805.781-0864511.398/
-+203815.716-0864508.047/
-+203825.192-0864503.790/
-+203834.379-0864458.709/
-+203843.320-0864452.666/
-+203851.861-0864445.662/
-+203858.968-0864438.686/
-BOTOP</Line>
         <Line Name="DAXUM" Pattern="Dashed">
 +201952.167-0865754.838/
 +201953.849-0865802.446/
@@ -245,7 +198,6 @@ OBTAM</Line>
 +201949.338-0870223.096/
 OTEDI</Line>
         <Symbol Type="SolidTriangle">
-            <Point>BOTOP</Point>
             <Point>DAXUM</Point>
             <Point>GOSUL</Point>
             <Point>ITAKU</Point>
@@ -254,12 +206,6 @@ OTEDI</Line>
             <Point>OTEDI</Point>
             <Point>+202539.530-0864409.760</Point>
             <Point>+202655.960-0863700.310</Point>
-            <Point>+203910.420-0864425.140</Point>
-            <Point>+201939.500-0870230.180</Point>
-            <Point>+201834.100-0870026.190</Point>
-            <Point>+201738.180-0865719.760</Point>
-            <Point>+201724.190-0865435.290</Point>
-            <Point>+201910.710-0864745.160</Point>
             <Point>+202750.270-0864857.790</Point>      
         </Symbol>
         <Symbol Type="HollowSquare">
@@ -272,7 +218,6 @@ OTEDI</Line>
     <Map Type="System" Name="MMCZ - Pista 30 - VORDME 2 (Nombres)" Priority="2" Center="+210235.014-0865232.438">
         <Label HasLeader="false">
             <Point>CZM</Point>
-            <Point>BOTOP</Point>
             <Point>DAXUM</Point>
             <Point>GOSUL</Point>
             <Point>ITAKU</Point>
@@ -582,61 +527,52 @@ VOBED</Line>
         </Label>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 30 - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
+        <Line Name="NOSUG2D" Pattern="Dotted">+203109.529-0865617.574/+203132.415-0865705.344/CZ603/CZ431/XULDA/NOSUG</Line>
+        <Line Name="ROTGI2D" Pattern="Dotted">XULDA/ROTGI</Line>
+        <Line Name="NUDAL2D" Pattern="Dotted">XULDA/NOXEK/NUDAL</Line>
         <Line Name="AVSEB1C" Pattern="Dotted">CZ603/AVSEB</Line>
-        <Line Name="AVSIM1B" Pattern="Dotted">+203109.529-0865617.574/CZ605/CZ606/AVSIM</Line>
-        <Line Name="DAXUM1D" Pattern="Dotted">IRDUS/DAXUM</Line>
-        <Line Name="ITPIG1D" Pattern="Dotted">CZ604/IRDUS/ILEKO/ITPIG</Line>
-        <Line Name="NOSUG1D" Pattern="Dotted">CZ404/NOSUG</Line>
-        <Line Name="NUDAL1D" Pattern="Dotted">CZ404/NOXEK/NUDAL</Line>
-        <Line Name="NUKAN1D" Pattern="Dotted">+203109.529-0865617.574/CZ603/CZ404/OVDER/NUKAN</Line>
-        <Line Name="OBTAM1D" Pattern="Dotted">ILEKO/OBTAM</Line>
-        <Line Name="PAULE1D" Pattern="Dotted">+203109.529-0865617.574/CZ604/CZ607/PAULE</Line>
-        <Line Name="ROTGI1D" Pattern="Dotted">CZ404/ROTGI</Line>
-        <Line Name="SIGMA1C" Pattern="Dotted">OBTAM/CZ608/ALROM/SIGMA</Line>
-        <Line Name="XOSIX1C" Pattern="Dotted">CZ605/XOSIX</Line>
+        <Line Name="SIGMA2B" Pattern="Dotted">+203132.415-0865705.344/CZ604/IRDUS/ILEKO/OBTAM/CZ911/CZ912/ALROM/SIGMA</Line>
+        <Line Name="ALSUP1K" Pattern="Dotted">OBTAM/CZ901/ALSUP</Line>
+        <Line Name="ULIPA1B" Pattern="Dotted">+203132.415-0865705.344/CZ411/ULIPA</Line>
+        <Line Name="KASIV1B" Pattern="Dotted">CZ411/CZ910/CZ916/KASIV</Line>
         <Symbol Type="SolidTriangle">
-            <Point>AVSIM</Point>
-            <Point>DAXUM</Point>
-            <Point>ITPIG</Point>
+            <Point>ALSUP</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
             <Point>OBTAM</Point>
-            <Point>PAULE</Point>
             <Point>SIGMA</Point>
-            <Point>XOSIX</Point>
         </Symbol>
         <Symbol Type="HollowStar">
             <Point>ALROM</Point>
             <Point>AVSEB</Point>
-            <Point>CZ404</Point>
+            <Point>CZ411</Point>
+            <Point>CZ431</Point>
             <Point>CZ603</Point>
             <Point>CZ604</Point>
-            <Point>CZ605</Point>
-            <Point>CZ606</Point>
-            <Point>CZ607</Point>
-            <Point>CZ608</Point>
+            <Point>CZ901</Point>
+            <Point>CZ910</Point>
+            <Point>CZ911</Point>
+            <Point>CZ912</Point>
+            <Point>CZ916</Point>
             <Point>ILEKO</Point>
             <Point>IRDUS</Point>
+            <Point>KASIV</Point>
             <Point>NOSUG</Point>
             <Point>NOXEK</Point>
-            <Point>OVDER</Point>
             <Point>ROTGI</Point>
+            <Point>ULIPA</Point>
+            <Point>XULDA</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 30 - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
         <Label HasLeader="false">
+            <Point>ALSUP</Point>
             <Point>AVSEB</Point>
-            <Point>AVSIM</Point>
-            <Point>DAXUM</Point>
-            <Point>ITPIG</Point>
+            <Point>KASIV</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
-            <Point>OBTAM</Point>
-            <Point>PAULE</Point>
             <Point>ROTGI</Point>
             <Point>SIGMA</Point>
-            <Point>XOSIX</Point>
+            <Point>ULIPA</Point>
         </Label>
     </Map>
 </Maps>

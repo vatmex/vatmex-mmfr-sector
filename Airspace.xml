@@ -326,60 +326,51 @@
         <Airport Name="MMCZ">
             <Runway Name="12" DataRunway="12">
                 <SID Name="CZM7C" Default="True" />
-                <SID Name="AVSE1B" />
-                <SID Name="AVSI1A" />
+                <SID Name="ALSU1J" />
+                <SID Name="AVSE2B" />
                 <SID Name="BOTO2F" />
-                <SID Name="DAXU1C" />
                 <SID Name="DAXU2A" />
                 <SID Name="GOSUL2" />
                 <SID Name="ITAKU2" />
-                <SID Name="ITPI1C" />
                 <SID Name="ITPI2A" />
-                <SID Name="NOSU1C" />
-                <SID Name="NUDA1C" />
-                <SID Name="NUKA1C" />
-                <SID Name="OBTA1D" />
+                <SID Name="KASI1A" />
+                <SID Name="NOSU2C" />
+                <SID Name="NUDA2C" />
                 <SID Name="OBTA2A" />
                 <SID Name="OTED2A" />
-                <SID Name="PAUL1C" />
-                <SID Name="ROTG1C" />
-                <SID Name="SIGM1A" />
-                <SID Name="XOSI1A" />
-                <STAR Name="AVSI1C" ApproachName="RNP12.ONGAV" />
+                <SID Name="ROTG2C" />
+                <SID Name="SIGM2A" />
+                <SID Name="ULIP1A" />
                 <STAR Name="EMOS1A" ApproachName="RNP12.VIBLA" />
                 <STAR Name="ILUB1C" ApproachName="RNP12.ONGAV" />
-                <STAR Name="PAUL1E" ApproachName="RNP12.ONGAV" />
-                <STAR Name="SIGM1C" ApproachName="RNP12.ONGAV" />
+                <STAR Name="PAUL2E" ApproachName="RNP12.ONGAV" />
+                <STAR Name="SIGM2C" ApproachName="RNP12.ONGAV" />
+                <STAR Name="ULIP1C" ApproachName="RNP12.ONGAV" />
                 <STAR Name="VIGT1A" ApproachName="RNP12.XUBLI" />
             </Runway>
             <Runway Name="30" DataRunway="30">
                 <SID Name="CZM7D" Default="True" />
+                <SID Name="ALSU1K" />
                 <SID Name="AVSE1C" />
-                <SID Name="AVSI1B" />
                 <SID Name="DAXU2B" />
-                <SID Name="DAXU1D" />
                 <SID Name="DUPIX2" />
                 <SID Name="ITPI2B" />
-                <SID Name="ITPI1D" />
+                <SID Name="KASI1B" />
                 <SID Name="LIDE2E" />
-                <SID Name="NOSU1D" />
-                <SID Name="NUDA1D" />
-                <SID Name="NUKA1D" />
+                <SID Name="NOSU2D" />
+                <SID Name="NUDA2D" />
                 <SID Name="OBTA2B" />
-                <SID Name="OBTA1C" />
-                <SID Name="OKUVA2" />
                 <SID Name="OTED2B" />
-                <SID Name="PAUL1D" />
-                <SID Name="ROTG1D" />
-                <SID Name="SIGM1B" />
+                <SID Name="ROTG2D" />
+                <SID Name="SIGM2B" />
+                <SID Name="ULIP1B" />
                 <SID Name="VOBE2E" />
-                <SID Name="XOSI1B" />
-                <STAR Name="AVSI1D" ApproachName="RNP30.BEREB" />
                 <STAR Name="EMOS1B" ApproachName="RNP30.BEREB" />
                 <STAR Name="ILUB1D" ApproachName="RNP30.EMPAM" />
-                <STAR Name="PAUL1F" ApproachName="RNP30.BEREB" />
-                <STAR Name="SIGM1D" ApproachName="RNP30.BEREB" />
-                <STAR Name="VIGT1B" ApproachName="RNP30.BEREB" />
+                <STAR Name="PAUL2F" ApproachName="RNP30.BEREB" />
+                <STAR Name="SIGM2D" ApproachName="RNP30.BEREB" />
+                <STAR Name="ULIP1D" ApproachName="RNP30.BEREB" />
+                <STAR Name="VIGT2B" ApproachName="RNP30.BEREB" />
             </Runway>
         </Airport>
         <Airport Name="MMDO">
@@ -3284,7 +3275,7 @@
         <Point Name="KAPEL" Type="Fix">+213349.000-1014456.000</Point>
         <Point Name="KARIR" Type="Fix">+213328.700-1010138.700</Point>
         <Point Name="KARUN" Type="Fix">+203236.460-1024645.450</Point>
-        <Point Name="KASIV" Type="Fix">+203609.000-0875822.000</Point>
+        <Point Name="KASIV" Type="Fix">+203609.300-0875822.200</Point>
         <Point Name="KATIS" Type="Fix">+115910.000-0982504.000</Point>
         <Point Name="KATLA" Type="Fix">+244850.000-1024957.000</Point>
         <Point Name="KATLI" Type="Fix">+252527.000-1062249.000</Point>
@@ -3793,7 +3784,7 @@
         <Point Name="ULEGO" Type="Fix">+194846.000-1000109.000</Point>
         <Point Name="ULEVA" Type="Fix">+175717.999-0881853.999</Point>
         <Point Name="ULIKO" Type="Fix">+245627.000-1044617.000</Point>
-        <Point Name="ULIPA" Type="Fix">+201056.000-0874054.000</Point>
+        <Point Name="ULIPA" Type="Fix">+201055.600-0874053.900</Point>
         <Point Name="ULUAS" Type="Fix">+215002.000-1000920.000</Point>
         <Point Name="ULUMA" Type="Fix">+234001.000-0953711.000</Point>
         <Point Name="ULURO" Type="Fix">+290749.000-1060124.000</Point>
@@ -4196,6 +4187,9 @@
         <Point Name="CZ403" Type="Fix">+202850.100-0865109.500</Point>
         <Point Name="CZ404" Type="Fix">+205044.400-0862357.500</Point>
         <Point Name="CZ411" Type="Fix">+202428.700-0872804.400</Point>
+        <Point Name="CZ430" Type="Fix">+204502.500-0863024.100</Point>
+        <Point Name="CZ431" Type="Fix">+204450.900-0863006.600</Point>
+        <Point Name="CZ435" Type="Fix">+203223.700-0874834.700</Point>
         <Point Name="CZ501" Type="Fix">+202155.000-0871247.600</Point>
         <Point Name="CZ505" Type="Fix">+204945.400-0871646.900</Point>
         <Point Name="CZ506" Type="Fix">+202638.200-0865835.700</Point>
@@ -4206,6 +4200,8 @@
         <Point Name="CZ518" Type="Fix">+210820.700-0872609.200</Point>
         <Point Name="CZ519" Type="Fix">+203529.900-0870554.100</Point>
         <Point Name="CZ522" Type="Fix">+202125.500-0873229.300</Point>
+        <Point Name="CZ551" Type="Fix">+205330.000-0871840.000</Point>
+        <Point Name="CZ552" Type="Fix">+204544.000-0871445.600</Point>
         <Point Name="CZ600" Type="Fix">+203201.700-0865812.800</Point>
         <Point Name="CZ603" Type="Fix">+203140.200-0864349.600</Point>
         <Point Name="CZ604" Type="Fix">+202522.400-0870313.100</Point>
@@ -4218,6 +4214,16 @@
         <Point Name="CZ704" Type="Fix">+201753.200-0861514.800</Point>
         <Point Name="CZ705" Type="Fix">+202613.500-0864523.900</Point>
         <Point Name="CZ706" Type="Fix">+202824.000-0865011.900</Point>
+        <Point Name="CZ901" Type="Fix">+194917.700-0865430.200</Point>
+        <Point Name="CZ907" Type="Fix">+200823.800-0863954.500</Point>
+        <Point Name="CZ910" Type="Fix">+202650.800-0873411.700</Point>
+        <Point Name="CZ911" Type="Fix">+195712.000-0864505.000</Point>
+        <Point Name="CZ912" Type="Fix">+195023.900-0863716.900</Point>
+        <Point Name="CZ914" Type="Fix">+200155.400-0863611.000</Point>
+        <Point Name="CZ916" Type="Fix">+202953.400-0874204.700</Point>
+        <Point Name="CZ920" Type="Fix">+201503.900-0873021.100</Point>
+        <Point Name="CZ922" Type="Fix">+201913.100-0873303.500</Point>
+        <Point Name="CZ925" Type="Fix">+200710.500-0871803.700</Point>
         <Point Name="DATSO" Type="Fix">+203316.910-1033628.630</Point>
         <Point Name="DEPVA" Type="Fix">+204911.100-0864158.200</Point>
         <Point Name="DULNO" Type="Fix">+204226.910-1033208.090</Point>
@@ -5231,6 +5237,7 @@
         <Point Name="XESIN" Type="Fix">+204818.500-1011630.100</Point>
         <Point Name="XUBLI" Type="Fix">+203739.900-0871042.500</Point>
         <Point Name="XUDER" Type="Fix">+204851.901-0901031.598</Point>
+        <Point Name="XULDA" Type="Fix">+205044.400-0862357.500</Point>
         <Point Name="ZH200" Type="Fix">+172455.300-1005828.900</Point>
         <Point Name="ZH201" Type="Fix">+175212.400-1014428.800</Point>
         <Point Name="ZH202" Type="Fix">+180245.100-1011259.400</Point>
@@ -5529,9 +5536,6 @@
         <Point Name="THX" Type="Navaid" NavaidType="VOR" Frequency="111.400">+283030.000-0980903.000</Point>
         <Point Name="TUS" Type="Navaid" NavaidType="VOR" Frequency="116.000">+320543.000-1105454.000</Point>
         <Point Name="VUH" Type="Navaid" NavaidType="VOR" Frequency="113.000">+291616.000-0945206.000</Point>
-
-        <!-- VFR REPORT POINTS-->
-
     </Intersections>
     <SIDSTARs>
         <!--MMAA-->
@@ -6350,17 +6354,17 @@
         <SID Name="CZM7D" Airport="MMCZ" Runways="30">
             <Route Runway="30">CZM</Route>
         </SID>
-        <SID Name="AVSE1B" Airport="MMCZ" Runways="12">
+        <SID Name="ALSU1J" Airport="MMCZ" Runways="12">
+            <Route Runway="12">ATHLO OBTAM CZ901 ALSUP</Route>
+        </SID>
+        <SID Name="ALSU1K" Airport="MMCZ" Runways="30">
+            <Route Runway="30">CZ604 IRDUS ILEKO OBTAM CZ911 CZ912 ALROM SIGMA</Route>
+        </SID>
+        <SID Name="AVSE2B" Airport="MMCZ" Runways="12">
             <Route Runway="12">AVSEB</Route>
         </SID>
         <SID Name="AVSE1C" Airport="MMCZ" Runways="30">
             <Route Runway="30">CZ603 AVSEB</Route>
-        </SID>
-        <SID Name="AVSI1A" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ATHLO CZ402 CZ411 AVSIM</Route>
-        </SID>
-        <SID Name="AVSI1B" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ605 CZ606 AVSIM</Route>
         </SID>
         <SID Name="BOTO2F" Airport="MMCZ" Runways="12">
             <Route Runway="12">BOTOP</Route>
@@ -6370,12 +6374,6 @@
         </SID>
         <SID Name="DAXU2B" Airport="MMCZ" Runways="30">
             <Route Runway="30">DAXUM</Route>
-        </SID>
-        <SID Name="DAXU1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ATHLO FEDGE DAXUM</Route>
-        </SID>
-        <SID Name="DAXU1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ604 IRDUS DAXUM</Route>
         </SID>
         <SID Name="DUPIX2" Airport="MMCZ" Runways="30">
             <Route Runway="30">DUPIX</Route>
@@ -6392,32 +6390,26 @@
         <SID Name="ITPI2B" Airport="MMCZ" Runways="30">
             <Route Runway="30">ITPIG</Route>
         </SID>
-        <SID Name="ITPI1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ATHLO FEDGE ITPIG</Route>
+        <SID Name="KASI1A" Airport="MMCZ" Runways="12">
+            <Route Runway="12">ATHLO CZ402 CZ411 CZ435 KASIV</Route>
         </SID>
-        <SID Name="ITPI1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ604 IRDUS ILEKO ITPIG</Route>
+        <SID Name="KASI1B" Airport="MMCZ" Runways="30">
+            <Route Runway="30">CZ411 CZ910 CZ916 KASIV</Route>
         </SID>
         <SID Name="LIDE2E" Airport="MMCZ" Runways="30">
             <Route Runway="30">LIDEK</Route>
         </SID>
-        <SID Name="NOSU1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">CZ404 NOSUG</Route>
+        <SID Name="NOSU2C" Airport="MMCZ" Runways="12">
+            <Route Runway="12">CZ430 XULDA NOSUG</Route>
         </SID>
-        <SID Name="NOSU1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ603 CZ404 NOSUG</Route>
+        <SID Name="NOSU2D" Airport="MMCZ" Runways="30">
+            <Route Runway="30">CZ603 CZ431 XULDA NOSUG</Route>
         </SID>
-        <SID Name="NUDA1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">CZ404 NOXEK NUDAL</Route>
+        <SID Name="NUDA2C" Airport="MMCZ" Runways="12">
+            <Route Runway="12">CZ430 XULDA NOXEK NUDAL</Route>
         </SID>
-        <SID Name="NUDA1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ603 CZ404 NOXEK NUDAL</Route>
-        </SID>
-        <SID Name="NUKA1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">CZ404 OVDER NUKAN</Route>
-        </SID>
-        <SID Name="NUKA1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ603 CZ404 OVDER NUKAN</Route>
+        <SID Name="NUDA2D" Airport="MMCZ" Runways="30">
+            <Route Runway="30">CZ603 CZ431 XULDA NOXEK NUDAL</Route>
         </SID>
         <SID Name="OBTA2A" Airport="MMCZ" Runways="12">
             <Route Runway="12">OBTAM</Route>
@@ -6425,54 +6417,33 @@
         <SID Name="OBTA2B" Airport="MMCZ" Runways="30">
             <Route Runway="30">OBTAM</Route>
         </SID>
-        <SID Name="OBTA1C" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ604 IRDUS ILEKO OBTAM</Route>
-        </SID>
-        <SID Name="OBTA1D" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ATHLO OBTAM</Route>
-        </SID>
         <SID Name="OTED2A" Airport="MMCZ" Runways="12">
             <Route Runway="12">OTEDI</Route>
         </SID>
         <SID Name="OTED2B" Airport="MMCZ" Runways="30">
             <Route Runway="30">OTEDI</Route>
         </SID>
-        <SID Name="OKUVA2" Airport="MMCZ" Runways="30">
-            <Route Runway="30">OKUVA</Route>
+        <SID Name="ROTG2C" Airport="MMCZ" Runways="12">
+            <Route Runway="12">CZ430 XULDA ROTGI</Route>
         </SID>
-        <SID Name="PAUL1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ATHLO FEDGE DAXUM PAULE</Route>
-        </SID>
-        <SID Name="PAUL1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ604 CZ607 PAULE</Route>
-        </SID>
-        <SID Name="ROTG1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">CZ404 ROTGI</Route>
-        </SID>
-        <SID Name="ROTG1D" Airport="MMCZ" Runways="30">
+        <SID Name="ROTG2D" Airport="MMCZ" Runways="30">
             <Route Runway="30">CZ603 CZ404 ROTGI</Route>
         </SID>
-        <SID Name="SIGM1A" Airport="MMCZ" Runways="12">
+        <SID Name="SIGM2A" Airport="MMCZ" Runways="12">
             <Route Runway="12">ATHLO KINON SIGMA</Route>
         </SID>
-        <SID Name="SIGM1B" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ604 IRDUS ILEKO OBTAM CZ608 ALROM SIGMA</Route>
+        <SID Name="SIGM2B" Airport="MMCZ" Runways="30">
+            <Route Runway="30">CZ604 IRDUS ILEKO OBTAM CZ911 CZ912 ALROM SIGMA</Route>
+        </SID>
+        <SID Name="ULIP1A" Airport="MMCZ" Runways="12">
+            <Route Runway="12">ATHLO CZ402 CZ411 CZ922 ULIPA</Route>
+        </SID>
+        <SID Name="ULIP1B" Airport="MMCZ" Runways="30">
+            <Route Runway="30">CZ411 ULIPA</Route>
         </SID>
         <SID Name="VOBE2E" Airport="MMCZ" Runways="30">
             <Route Runway="30">VOBED</Route>
         </SID>
-        <SID Name="XOSI1A" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ATHLO CZ402 XOSIX</Route>
-        </SID>
-        <SID Name="XOSI1B" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ605 XOSIX</Route>
-        </SID>
-        <STAR Name="AVSI1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">AVSIM CZ522 CZ501 ONGAV</Route>
-        </STAR>
-        <STAR Name="AVSI1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">AVSIM CZ501 ONGAV CZ702 BEREB</Route>
-        </STAR>
         <STAR Name="EMOS1A" Airport="MMCZ" Runways="12">
             <Route Runway="12">EMOSA UKVAS CZ512 CUN VIBLA</Route>
         </STAR>
@@ -6485,23 +6456,29 @@
         <STAR Name="ILUB1D" Airport="MMCZ" Runways="30">
             <Route Runway="30">ILUBA MARJE CZ704 CZ701 EMPAM</Route>
         </STAR>
-        <STAR Name="PAUL1E" Airport="MMCZ" Runways="12">
-            <Route Runway="12">PAULE CZ501 ONGAV</Route>
+        <STAR Name="PAUL2E" Airport="MMCZ" Runways="12">
+            <Route Runway="12">PAULE CZ925 CZ501 ONGAV</Route>
         </STAR>
-        <STAR Name="PAUL1F" Airport="MMCZ" Runways="30">
+        <STAR Name="PAUL2F" Airport="MMCZ" Runways="30">
             <Route Runway="30">PAULE CZ501 ONGAV CZ702 BEREB</Route>
         </STAR>
-        <STAR Name="SIGM1C" Airport="MMCZ" Runways="12">
+        <STAR Name="SIGM2C" Airport="MMCZ" Runways="12">
             <Route Runway="12">SIGMA EBKUG CZ517 BEREB CZ506 ONGAV</Route>
         </STAR>
-        <STAR Name="SIGM1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">SIGMA EBKUG CZ517 BEREB</Route>
+        <STAR Name="SIGM2D" Airport="MMCZ" Runways="30">
+            <Route Runway="30">SIGMA EBKUG CZ914 BEREB</Route>
+        </STAR>
+        <STAR Name="ULIP1C" Airport="MMCZ" Runways="12">
+            <Route Runway="12">ULIPA CZ501 ONGAV</Route>
+        </STAR>
+        <STAR Name="ULIP1D" Airport="MMCZ" Runways="30">
+            <Route Runway="30">ULIPA CZ920 CZ501 ONGAV CZ702 BEREB</Route>
         </STAR>
         <STAR Name="VIGT1A" Airport="MMCZ" Runways="12">
             <Route Runway="12">VIGTU CZ518 CZ505 XUBLI</Route>
         </STAR>
-        <STAR Name="VIGT1B" Airport="MMCZ" Runways="30">
-            <Route Runway="30">VIGTU CZ518 CZ505 XUBLI ONGAV CZ702 BEREB</Route>
+        <STAR Name="VIGT2B" Airport="MMCZ" Runways="30">
+            <Route Runway="30">VIGTU CZ518 CZ551 CZ505 CZ552 XUBLI ONGAV CZ702 BEREB</Route>
         </STAR>
         <Approach Name="RNP12.VIBLA" Airport="MMCZ" Runway="12">
             <Route>VIBLA CZ519 CALHO</Route>
