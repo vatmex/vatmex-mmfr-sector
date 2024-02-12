@@ -141,6 +141,18 @@
     <Sector FullName="Torre Tapachula" Frequency="118.300" Callsign="MMTP_TWR" Name="TPTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTP_ADA</Volumes>
     </Sector>
+    <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZTW1" DisplayInHandoffWindow="False">
+        <Volumes>MMCZ_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Autorización Tulum" Frequency="121.600" Callsign="MMTL_DEL" Name="TLCDL" DisplayInHandoffWindow="False">
+        <Volumes>MMTL_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Terrestre Tulum" Frequency="121.850" Callsign="MMTL_GND" Name="TLSMC" DisplayInHandoffWindow="False">
+        <Volumes>MMTL_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Torre Tulum" Frequency="118.650" Callsign="MMTL_TWR" Name="TLTW1" DisplayInHandoffWindow="False">
+        <Volumes>MMTL_CTR</Volumes>
+    </Sector>
     <Sector FullName="Terrestre Cancún" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
@@ -149,9 +161,6 @@
     </Sector>
     <Sector FullName="Autorización Cancún" Frequency="122.100" Callsign="MMUN_DEL" Name="UNCDL" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
-    </Sector>
-    <Sector FullName="Torre Cozumel" Frequency="118.000" Callsign="MMCZ_TWR" Name="CZTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMCZ_CTR</Volumes>
     </Sector>
     <Sector FullName="Torre Cancún" Frequency="118.100" Callsign="MMUN_TWR" Name="UNTW1" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
