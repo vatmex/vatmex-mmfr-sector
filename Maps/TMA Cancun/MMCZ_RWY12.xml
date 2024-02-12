@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMCZ - Pista 12 - Llegadas RNAV" Priority="1" Center="+203119.430-0865545.400">
+        <Line Name="VIGTU1A" Pattern="Dashed">VIGTU/CZ518/CZ505/XUBLI</Line>
         <Line Name="EMOSA1A" Pattern="Dashed">EMOSA/UKVAS/CZ512/CUN/VIBLA</Line>
         <Line Name="ILUBA1C" Pattern="Dashed">ILUBA/MARJE/CZ514/BEREB/CZ506/ONGAV</Line>
-        <Line Name="SIGMA1C" Pattern="Dashed">SIGMA/EBKUG/CZ517/BEREB</Line>
-        <Line Name="PAULE1E" Pattern="Dashed">PAULE/CZ501/ONGAV</Line>
-        <Line Name="AVSIM1C" Pattern="Dashed">AVSIM/CZ522/CZ501</Line>
-        <Line Name="VIGTU1A" Pattern="Dashed">VIGTU/CZ518/CZ505/XUBLI</Line>
-        <Symbol Type="HollowTriangle">
-            <Point>AVSIM</Point>
+        <Line Name="SIGMA1C" Pattern="Dashed">SIGMA/EBKUG/CZ907/BEREB</Line>
+        <Line Name="PAULE2E" Pattern="Dashed">PAULE/CZ925/CZ501/ONGAV</Line>
+        <Line Name="ULIPA1C" Pattern="Dashed">ULIPA/CZ501</Line>
+        <Symbol Type="SolidTriangle">
             <Point>EMOSA</Point>
             <Point>ILUBA</Point>
             <Point>PAULE</Point>
@@ -22,14 +21,14 @@
             <Point>CZ506</Point>
             <Point>CZ512</Point>
             <Point>CZ514</Point>
-            <Point>CZ517</Point>
             <Point>CZ518</Point>
-            <Point>CZ522</Point>
+            <Point>CZ907</Point>
+            <Point>CZ925</Point>
             <Point>EBKUG</Point>
             <Point>MARJE</Point>
             <Point>ONGAV</Point>
             <Point>UKVAS</Point>
-            <Point>VIBLA</Point>
+            <Point>ULIPA</Point>
             <Point>XUBLI</Point>
         </Symbol>
         <Symbol Type="HollowSquare">
@@ -43,13 +42,12 @@
         <Label HasLeader="false">
             <Point>EMOSA</Point>
             <Point>ILUBA</Point>
-            <Point>SIGMA</Point>
-            <Point>PAULE</Point>
-            <Point>AVSIM</Point>
-            <Point>VIGTU</Point>
-
             <Point>ONGAV</Point>
+            <Point>PAULE</Point>
+            <Point>SIGMA</Point>
+            <Point>ULIPA</Point>
             <Point>VIBLA</Point>
+            <Point>VIGTU</Point>
             <Point>XUBLI</Point>
         </Label>
     </Map>
@@ -213,24 +211,6 @@ LIDEK</Line>
 +201746.580-0865436.013/
 +201733.533-0865435.381/
 OBTAM</Line>
-        <Line Name="OKUVA" Pattern="Dashed">
-+203001.908-0870626.306/
-+202950.050-0870626.883/
-+202939.785-0870628.339/
-+202929.794-0870630.728/
-+202919.824-0870634.052/
-+202910.314-0870638.254/
-+202900.859-0870643.472/
-+202851.768-0870649.625/
-+202843.569-0870656.354/
-+202835.803-0870703.962/
-+202828.737-0870712.202/
-+202822.400-0870720.991/
-+202816.886-0870730.247/
-+202811.915-0870740.491/
-+202807.939-0870750.709/
-+202804.300-0870803.068/
-OKUVA</Line>
         <Line Name="OTEDI" Pattern="Dashed">
 +202222.556-0870240.180/
 +202213.225-0870231.254/
@@ -275,19 +255,11 @@ VOBED</Line>
             <Point>ITPIG</Point>
             <Point>LIDEK</Point>
             <Point>OBTAM</Point>
-            <Point>OKUVA</Point>
             <Point>OTEDI</Point>
             <Point>VOBED</Point>
             <Point>+203513.490-0870517.540</Point>
             <Point>+203205.990-0871244.650</Point>
             <Point>+203303.210-0870029.010</Point>
-            <Point>+204325.880-0865322.830</Point>
-            <Point>+204117.360-0870226.170</Point>
-            <Point>+202801.300-0870819.800</Point>
-            <Point>+201939.500-0870230.180</Point>
-            <Point>+201834.100-0870026.190</Point>
-            <Point>+201738.180-0865719.760</Point>
-            <Point>+201724.190-0865435.290</Point>
         </Symbol>
         <Symbol Type="HollowSquare">
             <Point>CZM</Point>
@@ -304,12 +276,11 @@ VOBED</Line>
             <Point>ITPIG</Point>
             <Point>LIDEK</Point>
             <Point>OBTAM</Point>
-            <Point>OKUVA</Point>
             <Point>OTEDI</Point>
             <Point>VOBED</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMCZ - Pista 12 - RNP 12" Priority="1" Center="-34.945000+138.530556">
+    <Map Type="System" Name="MMCZ - Pista 12 - RNP 12" Priority="1" Center="+203119.430-0865545.400">
         <Line Name="LAT" Pattern="Solid">ONGAV/VIBLA</Line>
         <Line Name="FINAL" Pattern="Solid">XUBLI/+203109.529-0865617.574</Line>
         <Symbol Type="HollowStar">
@@ -367,7 +338,7 @@ VOBED</Line>
 +202353.345-0864935.949/
 +202401.529-0864942.705/
 CZM</Line>
-            <Line Name="BOTOP2F" Pattern="Dotted">
+        <Line Name="BOTOP2F" Pattern="Dotted">
 +202634.871-0864611.630/
 +202633.944-0864609.158/
 +202630.497-0864558.914/
@@ -416,7 +387,7 @@ CZM</Line>
 +203851.861-0864445.662/
 +203858.968-0864438.686/
 BOTOP</Line>
-            <Line Name="DAXUM2A" Pattern="Dotted">
+        <Line Name="DAXUM2A" Pattern="Dotted">
 +201952.167-0865754.838/
 +201953.849-0865802.446/
 +201955.243-0865813.652/
@@ -435,12 +406,12 @@ BOTOP</Line>
 +201855.897-0870015.051/
 +201846.977-0870019.995/
 DAXUM</Line>
-            <Line Name="GOSUL2" Pattern="Dotted">
+        <Line Name="GOSUL2" Pattern="Dotted">
 +202634.871-0864611.630/
 +202539.527-0864409.765/
 +202655.965-0863700.309/
 GOSUL</Line>
-            <Line Name="ITAKU2" Pattern="Dotted">
+        <Line Name="ITAKU2" Pattern="Dotted">
 +202152.639-0864723.041/
 +202145.381-0864731.419/
 +202137.732-0864738.917/
@@ -458,7 +429,7 @@ GOSUL</Line>
 +201939.656-0864801.219/
 +201929.364-0864756.687/
 ITAKU</Line>
-            <Line Name="ITPIG2A" Pattern="Dotted">
+        <Line Name="ITPIG2A" Pattern="Dotted">
 +201928.244-0865510.208/
 +201928.286-0865511.801/
 +201927.798-0865523.034/
@@ -478,7 +449,7 @@ ITAKU</Line>
 +201759.358-0865715.177/
 +201751.517-0865717.045/
 ITPIG</Line>
-            <Line Name="OBTAM2A" Pattern="Dotted">
+        <Line Name="OBTAM2A" Pattern="Dotted">
 +201935.701-0865250.846/
 +201933.229-0865301.585/
 +201930.332-0865311.363/
@@ -497,7 +468,7 @@ ITPIG</Line>
 +201748.262-0865434.914/
 +201737.667-0865435.436/
 OBTAM</Line>
-            <Line Name="OTEDI2A" Pattern="Dotted">
+        <Line Name="OTEDI2A" Pattern="Dotted">
 +202658.080-0864702.772/
 +202634.871-0864611.630/
 +202633.848-0864609.653/
@@ -585,57 +556,49 @@ OTEDI</Line>
         </Label>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 12 - Salidas RNAV" Priority="1" Center="+203119.430-0865545.400">
-        <Line Name="AVSEB1B" Pattern="Dotted">+203034.400-0865459.918/AVSEB</Line>
-        <Line Name="AVSIM1A" Pattern="Dotted">ATHLO/CZ402/CZ411/AVSIM</Line>
-        <Line Name="DAXUM1C" Pattern="Dotted">FEDGE/DAXUM</Line>
-        <Line Name="ITPIG1C" Pattern="Dotted">ATHLO/FEDGE/ITPIG</Line>
-        <Line Name="NOSUG1C" Pattern="Dotted">CZ404/NOSUG</Line>
-        <Line Name="NUDAL1C" Pattern="Dotted">CZ404/NOXEK/NUDAL</Line>
-        <Line Name="NUKAN1C" Pattern="Dotted">+203034.400-0865459.918/CZ404/OVDER/NUKAN</Line>
-        <Line Name="OBTAM1D" Pattern="Dotted">+203034.400-0865459.918/ATHLO/OBTAM</Line>
-        <Line Name="PAULE1C" Pattern="Dotted">DAXUM/PAULE</Line>
-        <Line Name="ROTGI1C" Pattern="Dotted">CZ404/ROTGI</Line>
-        <Line Name="SIGMA1A" Pattern="Dotted">ATHLO/KINON/SIGMA</Line>
-        <Line Name="XOSIX1A" Pattern="Dotted">CZ402/XOSIX</Line>
+        <Line Name="NOSUG2C" Pattern="Dotted">+203034.400-0865459.918/+203030.267-0865450.899/CZ430/XULDA/NOSUG</Line>
+        <Line Name="ROTGI2C" Pattern="Dotted">XULDA/ROTGI</Line>
+        <Line Name="NUDAL2C" Pattern="Dotted">XULDA/NOXEK/NUDAL</Line>
+        <Line Name="AVSEB2B" Pattern="Dotted">+203030.267-0865450.899/AVSEB</Line>
+        <Line Name="SIGMA2A" Pattern="Dotted">+203030.267-0865450.899/ATHLO/KINON/SIGMA</Line>
+        <Line Name="ALSUP1J" Pattern="Dotted">ATHLO/OBTAM/CZ901/ALSUP</Line>
+        <Line Name="ULIPA1A" Pattern="Dotted">ATHLO/CZ402/CZ411/CZ922/ULIPA</Line>
+        <Line Name="KASIV1A" Pattern="Dotted">CZ411/CZ435/KASIV</Line>
         <Symbol Type="SolidTriangle">
-            <Point>AVSIM</Point>
-            <Point>DAXUM</Point>
-            <Point>ITPIG</Point>
+            <Point>ALSUP</Point>
             <Point>NUDAL</Point>
             <Point>NUKAN</Point>
             <Point>OBTAM</Point>
-            <Point>PAULE</Point>
             <Point>SIGMA</Point>
-            <Point>XOSIX</Point>
         </Symbol>
         <Symbol Type="HollowStar">
             <Point>ATHLO</Point>
             <Point>AVSEB</Point>
             <Point>CZ402</Point>
-            <Point>CZ404</Point>
             <Point>CZ411</Point>
-            <Point>FEDGE</Point>
+            <Point>CZ430</Point>
+            <Point>CZ435</Point>
+            <Point>CZ901</Point>
+            <Point>CZ922</Point>
+            <Point>KASIV</Point>
             <Point>KINON</Point>
             <Point>NOSUG</Point>
             <Point>NOXEK</Point>
-            <Point>OVDER</Point>
             <Point>ROTGI</Point>
+            <Point>ULIPA</Point>
+            <Point>XULDA</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 12 - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
         <Label HasLeader="false">
+            <Point>ALSUP</Point>
             <Point>AVSEB</Point>
-            <Point>AVSIM</Point>
-            <Point>DAXUM</Point>
-            <Point>ITPIG</Point>
+            <Point>KASIV</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
-            <Point>OBTAM</Point>
-            <Point>PAULE</Point>
             <Point>ROTGI</Point>
             <Point>SIGMA</Point>
-            <Point>XOSIX</Point>
+            <Point>ULIPA</Point>
         </Label>
     </Map>
 </Maps>
