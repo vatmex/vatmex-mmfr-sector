@@ -1151,6 +1151,16 @@
                 <Map Name="TMA Tuxtla Gutierrez/ASMGCS_MMTG_GATES" />
             </Maps>
         </Position>
+        <Position Name="MMTL" Type="ASMGCS" ASMGCSAirport="MMTL" DefaultCenter="+201021.120-0873939.550" DefaultRange="3" MagneticVariation="-2" Rotation="332">
+            <Maps>
+                <Map Name="TMA Cancun/ASMGCS_MMTL_RWY" />
+                <Map Name="TMA Cancun/ASMGCS_MMTL_APR" />
+                <Map Name="TMA Cancun/ASMGCS_MMTL_TWY" />
+                <Map Name="TMA Cancun/ASMGCS_MMTL_BLD" />
+                <Map Name="TMA Cancun/ASMGCS_MMTL_LABELS" />
+                <Map Name="TMA Cancun/ASMGCS_MMTL_GATES" />
+            </Maps>
+        </Position>
         <Position Name="MMTP" Type="ASMGCS" ASMGCSAirport="MMTP" DefaultCenter="+144737.580-0922213.140" DefaultRange="2" MagneticVariation="-2" Rotation="37">
             <Maps>
                 <Map Name="ADA Tapachula/ASMGCS_MMTP_RWY" />
@@ -1595,6 +1605,114 @@
                 <Point>+203114.9817-0865551.5442/</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Autorización Tulum - TLCDL" Type="ASD" DefaultCenter="+201021.120-0873939.550" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
+            <Sectors>
+                <Sector Name="TLCDL" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Cancun/MMTL - Zona de Control (CTR)" />
+
+                <Map Name="TMA Cancun/MMTL - Pista 12 - RNP 12" />
+
+                <Map Name="ACC Merida/Limites - Sectores" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMTL" Frequency="127.6" Server="NA" />
+                <Window Airport="MMTL" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTL" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMTL" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Autorización Tulum / Tulum Delivery</Line>
+                <Line>Serving MMTL departures</Line>
+                <Line>ATIS available on 127.600</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+201021.120-0873939.550</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="Terrester Tulum - TLSMC" Type="ASD" DefaultCenter="+201021.120-0873939.550" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
+            <Sectors>
+                <Sector Name="TLSMC" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Cancun/MMTL - Zona de Control (CTR)" />
+
+                <Map Name="TMA Cancun/MMTL - Pista 12 - RNP 12" />
+
+                <Map Name="ACC Merida/Limites - Sectores" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMTL" Frequency="127.6" Server="NA" />
+                <Window Airport="MMTL" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTL" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMTL" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Terrestre Tulum / Tulum Ground</Line>
+                <Line>Serving MMTL arrivals and departures</Line>
+                <Line>ATIS available on 127.600</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+201021.120-0873939.550</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="Torre Tulum - TLTW1" Type="ASD" DefaultCenter="+201021.120-0873939.550" DefaultRange="50" MagneticVariation="+2" VisibilityRange="50">
+            <Sectors>
+                <Sector Name="TLTW1" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Cancun/MMTL - Zona de Control (CTR)" />
+
+                <Map Name="TMA Cancun/MMTL - Pista 12 - RNP 12" />
+
+                <Map Name="ACC Merida/Limites - Sectores" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMTL" Frequency="127.6" Server="NA" />
+                <Window Airport="MMTL" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTL" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMTL" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Torre Tulum / Tulum Tower</Line>
+                <Line>Serving MMTL arrivals and departures</Line>
+                <Line>ATIS available on 127.600</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+201021.120-0873939.550</Point>
+            </ManualVisibility>
+        </Position>
         <Position Name="Autorización Cancún - UNCDL" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
             <Sectors>
                 <Sector Name="UNCDL" />
@@ -1739,7 +1857,7 @@
                 <Point>+210236.205-0865233.131</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximación Cancún - UNAPP" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
+        <Position Name="Aproximación Cancún - UNAPP" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNAPP" />
             </Sectors>
@@ -1747,8 +1865,9 @@
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
                 <Map Name="TMA Cancun/MMCZ - Zona de Control (CTR)" />
+                <Map Name="TMA Cancun/MMTL - Zona de Control (CTR)" />
+                <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
 
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV" />
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" />
@@ -1785,7 +1904,7 @@
                 <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximación Cancún (Llegadas) - UNARR" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
+        <Position Name="Aproximación Cancún (Llegadas) - UNARR" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNARR" />
             </Sectors>
@@ -1829,7 +1948,7 @@
                 <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Salidas Cancún - UNDEP" Type="ASD" DefaultCenter="+205500.000-0865400.000" DefaultRange="300" MagneticVariation="+2" VisibilityRange="100">
+        <Position Name="Salidas Cancún - UNDEP" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNDEP" />
             </Sectors>
@@ -4324,6 +4443,15 @@
                 <Map Name="TMA Ciudad Victoria/ASMGCS_MMCV_BLD" />
                 <Map Name="TMA Ciudad Victoria/ASMGCS_MMCV_LABELS" />
                 <Map Name="TMA Ciudad Victoria/ASMGCS_MMCV_GATES" />
+            </Maps>
+        </Position>
+        <Position Name="MMGA" Type="ASMGCS" ASMGCSAirport="MMGA" DefaultCenter="+274333.400-1073915.650" DefaultRange="2" MagneticVariation="-9" Rotation="167">
+            <Maps>
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_BLD" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_RWY" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_TWY" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_APR" />
+                <Map Name="ATZ Barrancas del Cobre/ASMGCS_MMGA_LABELS" />
             </Maps>
         </Position>
         <Position Name="MMIO" Type="ASMGCS" ASMGCSAirport="MMIO" DefaultCenter="+253219.390-1005545.990" DefaultRange="2" MagneticVariation="-6" Rotation="276">
