@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="MMTL - Pista 30 - Llegadas RNAV" Priority="1" Center="+203119.430-0865545.400">
+        <Line Name="VIVUS1B" Pattern="Dashed">VIVUS/IRGIL/OTUSO/USBON/ESKIE</Line>
+        <Line Name="VIGTU1D" Pattern="Dashed">VIGTU/TL514/TL512/USBON</Line>
+        <Line Name="EMOSA1D" Pattern="Dashed">EMOSA/TL522/CUN/TL518/TL516/TL514/TL512/USBON</Line>
+        <Line Name="ILUBA1L" Pattern="Dashed">ILUBA/TL520/CUN</Line>
+        <Line Name="ANIKO1B" Pattern="Dashed">ANIKO/MURBU/AGLOM/TL532/OTREL</Line>
+        <Line Name="ANADI1B" Pattern="Dashed">ANADI/AGLOM/TL532</Line>
+        <Symbol Type="HollowStar">
+            <Point>AGLOM</Point>
+            <Point>ANADI</Point>
+            <Point>ANIKO</Point>
+            <Point>EMOSA</Point>
+            <Point>ESKIE</Point>
+            <Point>ILUBA</Point>
+            <Point>IRGIL</Point>
+            <Point>MURBU</Point>
+            <Point>OTREL</Point>
+            <Point>OTUSO</Point>
+            <Point>TL512</Point>
+            <Point>TL514</Point>
+            <Point>TL516</Point>
+            <Point>TL518</Point>
+            <Point>TL520</Point>
+            <Point>TL522</Point>
+            <Point>TL532</Point>
+            <Point>USBON</Point>
+            <Point>VIGTU</Point>
+            <Point>VIVUS</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CUN</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CUN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMTL - Pista 30 - Llegadas RNAV (Nombres)" Priority="2" Center="+203119.430-0865545.400">
+        <Label HasLeader="false">
+            <Point>ANADI</Point>
+            <Point>ANIKO</Point>
+            <Point>EMOSA</Point>
+            <Point>ESKIE</Point>
+            <Point>ILUBA</Point>
+            <Point>OTREL</Point>
+            <Point>VIGTU</Point>
+            <Point>VIVUS</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMTL - Pista 30 - RNP 30" Priority="1" Center="+203119.430-0865545.400">
+        <Line Name="OTREL/RWY" Pattern="Solid">OTREL/TL420/TL410/+200951.240-0873844.220</Line>
+        <Line Name="ESKIE/TL420" Pattern="Solid">ESKIE/TL430/TL420</Line>
+        <Symbol Type="HollowStar">
+            <Point>ESKIE</Point>
+            <Point>OTREL</Point>
+            <Point>TL410</Point>
+            <Point>TL420</Point>
+            <Point>TL430</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMTL - Pista 30 - Salidas RNAV" Priority="1" Center="+203119.430-0865545.400">
+        <Line Name="XOLPO1B" Pattern="Dotted">+201051.000-0874034.870/TL602/TL630/TL641/TL642/XOLPO</Line>
+        <Line Name="ALSUP1B" Pattern="Dotted">TL630/TL631/TL632/ALSUP</Line>
+        <Line Name="NOSUG1H" Pattern="Dotted">TL602/TL604/TL606/TL610/LIDEK/CUN/TL611/NOSUG</Line>
+        <Line Name="ROTGI1H" Pattern="Dotted">TL611/ROTGI</Line>
+        <Line Name="ILUBA1J" Pattern="Dotted">TL610/CZM/ILUBA</Line>
+        <Line Name="TAKUX1B" Pattern="Dotted">CZM/TAKUX</Line>
+        <Line Name="NUDAL1H" Pattern="Dotted">LIDEK/XULDA/NUDAL</Line>
+        <Symbol Type="HollowStar">
+            <Point>ALSUP</Point>
+            <Point>ILUBA</Point>
+            <Point>LIDEK</Point>
+            <Point>NOSUG</Point>
+            <Point>NUDAL</Point>
+            <Point>ROTGI</Point>
+            <Point>TAKUX</Point>
+            <Point>TL602</Point>
+            <Point>TL604</Point>
+            <Point>TL606</Point>
+            <Point>TL610</Point>
+            <Point>TL611</Point>
+            <Point>TL630</Point>
+            <Point>TL631</Point>
+            <Point>TL632</Point>
+            <Point>TL641</Point>
+            <Point>TL642</Point>
+            <Point>XOLPO</Point>
+            <Point>XULDA</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>CUN</Point>
+            <Point>CZM</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>CUN</Point>
+            <Point>CZM</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMTL - Pista 30 - Salidas RNAV (Nombres)" Priority="2" Center="+203119.430-0865545.400">
+        <Label HasLeader="false">
+            <Point>ALSUP</Point>
+            <Point>ILUBA</Point>
+            <Point>NOSUG</Point>
+            <Point>NUDAL</Point>
+            <Point>ROTGI</Point>
+            <Point>TAKUX</Point>
+            <Point>XOLPO</Point>
+        </Label>
+    </Map>
+</Maps>
