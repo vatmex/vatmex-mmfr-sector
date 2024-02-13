@@ -659,7 +659,6 @@
         <Airport Name="MMMD">
             <Runway Name="10" DataRunway="10">
                 <SID Name="MID4A" Default="True" />
-                <SID Name="BIBE1A" />
                 <SID Name="CAEA1A" />
                 <SID Name="DAPI2A" />
                 <SID Name="DURP2A" />
@@ -677,7 +676,6 @@
                 <SID Name="SIFT1A" />
                 <SID Name="SISA2A" />
                 <SID Name="TAXT2A" />
-                <SID Name="TULU3A" />
                 <SID Name="USBU1A" />
                 <SID Name="VIVE1C" />
                 <SID Name="VOLE2A" />
@@ -704,7 +702,6 @@
                 <SID Name="PAGA3B" />
                 <SID Name="RENE2B" />
                 <SID Name="TAXT4B" />
-                <SID Name="TULU2B" />
                 <SID Name="URPU2A" />
                 <SID Name="VOLE2B" />
                 <SID Name="XOLR2A" />
@@ -714,7 +711,6 @@
             </Runway>
             <Runway Name="28" DataRunway="28">
                 <SID Name="MID4B" Default="True" />
-                <SID Name="BIBE1B" />
                 <SID Name="CAEA1B" />
                 <SID Name="DAPI2B" />
                 <SID Name="ELSI1B" />
@@ -746,7 +742,6 @@
             </Runway>
             <Runway Name="36" DataRunway="36">
                 <SID Name="MID4D" Default="True" />
-                <SID Name="BIBE1C" />
                 <SID Name="CAEA1C" />
                 <SID Name="DAPI2C" />
                 <SID Name="ELSI1C" />
@@ -759,7 +754,6 @@
                 <SID Name="RUDM2C" />
                 <SID Name="SIFT1C" />
                 <SID Name="SISA3C" />
-                <SID Name="TULU2C" />
                 <SID Name="USBU1B" />
                 <SID Name="VIVE1E" />
                 <SID Name="VIVE2B" />
@@ -7297,17 +7291,11 @@
         <SID Name="TAXT2A" Airport="MMMD" Runways="10">
             <Route Runway="10">TAXTE</Route>
         </SID>
-        <SID Name="TULU3A" Airport="MMMD" Runways="10">
-            <Route Runway="10">TULUM</Route>
-        </SID>
         <SID Name="USBU1A" Airport="MMMD" Runways="10">
             <Route Runway="10">USBUS</Route>
         </SID>
         <SID Name="VOLE2A" Airport="MMMD" Runways="10">
             <Route Runway="10">VOLEB</Route>
-        </SID>
-        <SID Name="BIBE1A" Airport="MMMD" Runways="10">
-            <Route Runway="10">MD600 MD500 MD820 BIBER</Route>
         </SID>
         <SID Name="CAEA1A" Airport="MMMD" Runways="10">
             <Route Runway="10">MD600 MD601 CAEAR</Route>
@@ -7351,9 +7339,6 @@
         <SID Name="TAXT4B" Airport="MMMD" Runways="18">
             <Route Runway="18">TAXTE</Route>
         </SID>
-        <SID Name="TULU2B" Airport="MMMD" Runways="18">
-            <Route Runway="18">TULUM</Route>
-        </SID>
         <SID Name="URPU2A" Airport="MMMD" Runways="18">
             <Route Runway="18">URPUP</Route>
         </SID>
@@ -7392,9 +7377,6 @@
         </SID>
         <SID Name="XOLR2B" Airport="MMMD" Runways="28">
             <Route Runway="28">XOLRO</Route>
-        </SID>
-        <SID Name="BIBE1B" Airport="MMMD" Runways="28">
-            <Route Runway="28">MD700 MD701 MD702 MD803 BIBER</Route>
         </SID>
         <SID Name="CAEA1B" Airport="MMMD" Runways="28">
             <Route Runway="28">MD700 MD701 CAEAR</Route>
@@ -7438,17 +7420,11 @@
         <SID Name="SISA3C" Airport="MMMD" Runways="36">
             <Route Runway="36">SISAL</Route>
         </SID>
-        <SID Name="TULU2C" Airport="MMMD" Runways="36">
-            <Route Runway="36">TULUM</Route>
-        </SID>
         <SID Name="USBU1B" Airport="MMMD" Runways="36">
             <Route Runway="36">USBUS</Route>
         </SID>
         <SID Name="VIVE2B" Airport="MMMD" Runways="36">
             <Route Runway="36">VIVEP</Route>
-        </SID>
-        <SID Name="BIBE1C" Airport="MMMD" Runways="36">
-            <Route Runway="36">MD950 HADOW MD803 BIBER</Route>
         </SID>
         <SID Name="CAEA1C" Airport="MMMD" Runways="36">
             <Route Runway="36">MD950 MD601 CAEAR</Route>
@@ -10072,7 +10048,7 @@
             <Runway Name="15" Position="+254645.960-0973147.520" />
             <Runway Name="33" Position="+254537.590-0973114.180" />
         </Airport>
-        <Airport ICAO="MMMD" FullName="MERIDA" Position="+205613.280-0893927.700" Elevation="36">
+        <Airport ICAO="MMMD" FullName="MERIDA" Position="+205613.280-0893927.700" Elevation="37">
             <Runway Name="10" Position="+205612.900-0893926.266" />
             <Runway Name="28" Position="+205548.151-0893749.929" />
             <Runway Name="18" Position="+205626.294-0893927.452" />
