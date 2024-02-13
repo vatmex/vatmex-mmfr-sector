@@ -282,7 +282,9 @@
     <Sector FullName="Torre Santa Lucía" Frequency="118.300" Callsign="MMSM_TWR" Name="SMTW1" DisplayInHandoffWindow="False">
         <Volumes>MMSM_CTR</Volumes>
     </Sector>
-    <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False"/>
+    <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False">
+        <Volumes>MMTO_CTR</Volumes>
+    </Sector>
     <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTO_CTR</Volumes>
     </Sector>
