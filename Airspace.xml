@@ -403,10 +403,10 @@
         </Airport>
         <Airport Name="MMEP">
             <Runway Name="02" DataRunway="02">
-                <SID Name="TNY3A" Default="True" />
+                <SID Name="TNY4A" Default="True" />
             </Runway>
             <Runway Name="20" DataRunway="20">
-                <SID Name="TNY3B" Default="True" />
+                <SID Name="TNY4B" Default="True" />
             </Runway>
         </Airport>
         <Airport Name="MMES">
@@ -6627,6 +6627,15 @@
         <SID Name="UKIKI2" Airport="MMDO" Runways="21">
             <Route Runway="21">UKIKI</Route>
         </SID>
+        <!-- *********** MMEP *********** -->
+        <!-- MMTL-SID-1 -->
+        <SID Name="TNY4A" Airport="MMEP" Runways="02">
+            <Route Runway="02">TNY</Route>
+        </SID>
+        <!-- MMTL-SID-2 -->
+        <SID Name="TNY4B" Airport="MMEP" Runways="20">
+            <Route Runway="20">TNY</Route>
+        </SID>
         <!--MMES-->
         <SID Name="ENS3" Airport="MMES" Runways="29">
             <Route Runway="29">ENS</Route>
@@ -9980,8 +9989,8 @@
             <Runway Name="03" Position="+240653.044-1043213.680" />
             <Runway Name="21" Position="+240807.303-1043110.100" />
         </Airport>
-        <Airport ICAO="MMEP" FullName="TEPIC" Position="+212509.930-1045033.180" Elevation="3020">
-            <Runway Name="02" Position="+212436.320-1045051.000" />
+        <Airport ICAO="MMEP" FullName="TEPIC" Position="+212458.290-1045039.400" Elevation="3025">
+            <Runway Name="02" Position="+212413.030-1045103.350" />
             <Runway Name="20" Position="+212543.540-1045015.430" />
         </Airport>
         <Airport ICAO="MMES" FullName="ENSENADA" Position="+314742.900-1163613.350" Elevation="66">
