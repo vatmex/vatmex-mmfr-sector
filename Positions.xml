@@ -913,11 +913,9 @@
         </Position>
 
         <!-- ACC Mazatlan -->
-        <Position Name="Centro Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="400">
+        <Position Name="Centro Mazatlan (SE) - MZTE" Type="ASD" DefaultCenter="+233230.966-1083147.199" DefaultRange="1200" MagneticVariation="-8" VisibilityRange="300">
             <Sectors>
-                <Sector Name="MZTC" />
-                <Sector Name="MZT1" />
-                <Sector Name="MZT2" />
+                <Sector Name="MZTE" />
                 <Sector Name="MZT3" />
                 <Sector Name="MZT4" />
                 <Sector Name="MZT5" />
@@ -925,54 +923,8 @@
                 <Sector Name="MZT7" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mazatlan/Radar - Cobertura" />
-                <Map Name="ACC Mazatlan/Limites - Sectores Individuales" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
-
-                <Map Name="Universal/Geografia - Linea de Costa" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
-            </Maps>
-            <ATIS>
-                <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
-                <Window Airport="MMTJ" />
-            </ATIS>
-            <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000">
-                <AdditionalLevels>2400,3200,7400</AdditionalLevels>
-            </CFL>
-            <ArrivalLists>
-                <Airport Name="MMTJ" />
-            </ArrivalLists>
-            <ControllerInfo>
-                <Line>Centro Mazatlan / Mazatlan Center</Line>
-                <Line>MMTJ ATIS available on 127.900</Line>
-                <Line>ATC feedback - vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+293843.176-1180137.394</Point>
-                <Point>+280153.729-1082942.724</Point>
-                <Point>+200511.991-1133814.193</Point>
-                <Point>+213939.948-1025505.017</Point>
-            </ManualVisibility>
-        </Position>
-        <Position Name="Centro Mazatlan (SE) - MZTE" Type="ASD" DefaultCenter="+231401.508-1081845.656" DefaultRange="1150" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="300">
-            <Sectors>
-                <Sector Name="MZTE" />
-                <Sector Name="MZT3" />
-                <Sector Name="MZT4" />
-                <Sector Name="MZT5" />
-                <Sector Name="MZT6" />
-            </Sectors>
-            <Maps>
-                <Map Name="ACC Mazatlan/Radar - Cobertura" />
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Sectores (Referencia)" />
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
@@ -1006,17 +958,16 @@
                 <Point>+200841.775-1063051.306</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro Mazatlan (SW) - MZTW" Type="ASD" DefaultCenter="+282947.445-1142936.531" DefaultRange="1000" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="300">
+        <Position Name="Centro Mazatlan (SW) - MZTW" Type="ASD" DefaultCenter="+285551.008-1135106.586" DefaultRange="900" MagneticVariation="-12" VisibilityRange="300">
             <Sectors>
                 <Sector Name="MZTW" />
                 <Sector Name="MZT1" />
                 <Sector Name="MZT2" />
-                <Sector Name="MZT7" />
+                <Sector Name="MZT8" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mazatlan/Radar - Cobertura" />
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Sectores (Referencia)" />
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
@@ -1048,6 +999,55 @@
                 <Point>+312004.479-1105609.617</Point>
                 <Point>+274340.335-1092714.216</Point>
                 <Point>+254759.084-1121909.005</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="Centro Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="400">
+            <Sectors>
+                <Sector Name="MZTC" />
+                <Sector Name="MZT1" />
+                <Sector Name="MZT2" />
+                <Sector Name="MZT3" />
+                <Sector Name="MZT4" />
+                <Sector Name="MZT5" />
+                <Sector Name="MZT6" />
+                <Sector Name="MZT7" />
+                <Sector Name="MZT8" />
+            </Sectors>
+            <Maps>
+                <Map Name="ACC Mazatlan/Radar - Cobertura" />
+                <Map Name="ACC Mazatlan/Limites - Sectores" />
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Sector - Fijos Principales" />
+                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
+                <Window Airport="MMTJ" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000">
+                <AdditionalLevels>2400,3200,7400</AdditionalLevels>
+            </CFL>
+            <ArrivalLists>
+                <Airport Name="MMTJ" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Centro Mazatlan / Mazatlan Center</Line>
+                <Line>MMTJ ATIS available on 127.900</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+293843.176-1180137.394</Point>
+                <Point>+280153.729-1082942.724</Point>
+                <Point>+200511.991-1133814.193</Point>
+                <Point>+213939.948-1025505.017</Point>
             </ManualVisibility>
         </Position>
     </Group>
