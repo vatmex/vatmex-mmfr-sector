@@ -91,7 +91,7 @@
         <Line Name="CHALCO-SAN MARTIN" Pattern="Broken">CHALCO/SAN MARTIN</Line>
         <Line Name="COYOTE NEZA-VOLVO" Pattern="Broken">COYOTE NEZA/VOLVO</Line>
         <Line Name="CARACOL-CHIMALHUACAN" Pattern="Broken">CARACOL/CHINCONCUAC/TEXCOCO/CHIMALHUACAN</Line>
-        <Line Name="CARACOL-BOSQUE REAL" Pattern="Broken">CARACOL/BOSQUE REAL</Line>
+        <Line Name="CARACOL-BOSQUE REAL" Pattern="Broken">PABELLON/BOSQUE REAL</Line>
 
         <!--BIDRECTIONAL MMPB-->
         <Line Name="TLAXCALA" Pattern="Broken">ZONA INDUSTRIAL/APIZACO/PLAZA TLAXCALA/TLALTENANGO</Line>
@@ -113,11 +113,11 @@
 
         <!--BIDIRECTIONAL CIV FIXED WING MMSM-->
         <Line Name="TOLUCA 04L-22R" Pattern="Broken">VILLA ALPINA/MADIN/CUAUTITLAN/LAGO ZUMPANGO/PLAZA TOWN</Line>
-        <Line Name="TOLUCA 04C-22C" Pattern="Broken">MADIN/POWER CENTER/MINA DE ECATEPEC/OJO DE AGUA</Line>
+        <Line Name="TOLUCA 04C-22C" Pattern="Broken">MADIN/PABELLON/CARACOL/MINA DE ECATEPEC/OJO DE AGUA</Line>
         <Line Name="QUERETARO 04L-22R" Pattern="Broken">CHAPA DE MOTA/CUAUTITLAN</Line>
         <Line Name="QUERETARO 04C-22C" Pattern="Broken">CHAPA DE MOTA/DURAZNOS/AEROPUERTO MMJC/MADIN</Line>
         <Line Name="PACHUCA 04L-22R" Pattern="Broken">AEROPUERTO MMPC/LAGO ZUMPANGO</Line>
-        <Line Name="PACHUCA 04C-22C" Pattern="Broken">AEROPUERTO MMPC/TOLMAN/TECAMAC/MINA DE ECATEPEC</Line>
+        <Line Name="PACHUCA 04C-22C" Pattern="Broken">AEROPUERTO MMPC/TOLMAN/OXTOT/CARACOL</Line>
         <Line Name="PUEBLA 04L-22R" Pattern="Broken">CALPULALPAN/TOLMAN/SANTO DOMINGO/ARCO NORTE/LAGO ZUMPANGO</Line>
         <Line Name="NORTE PCA" Pattern="Broken">DURAZNOS/PRESA TAXHIMAY/TEPEJI DEL RIO/AEROPUERTO MMPC</Line>
         <!--DEPARTURE CIV HELICOPTER MMSM-->
@@ -151,16 +151,15 @@
 
         <Symbol Type="SolidTriangle">
             <Point>AEROPUERTO MMJC</Point>
-            <Point>CHAPA DE MOTA</Point>
-            <Point>PLAZA TOWN</Point>
-            <Point>TECAMAC</Point>
             <Point>AEROPUERTO MMPC</Point>
             <Point>ATLIXCO</Point>
+            <Point>OXTOT</Point>
             <Point>AUTODROMO</Point>
             <Point>BOSQUE REAL</Point>
             <Point>BUENA VISTA</Point>
             <Point>CALPULALPAN</Point>
             <Point>CARACOL</Point>
+            <Point>CHAPA DE MOTA</Point>
             <Point>CLUB GOLF BOSQUES</Point>
             <Point>CUAUTLA</Point>
             <Point>CUEMANCO</Point>
@@ -172,13 +171,16 @@
             <Point>MADIN</Point>
             <Point>MINA DE ECATEPEC</Point>
             <Point>OZUMBA</Point>
+            <Point>PABELLON</Point>
             <Point>PASO DE RIO FRIO</Point>
             <Point>PEGASO</Point>
+            <Point>PLAZA TOWN</Point>
             <Point>PRESA</Point>
             <Point>RANCHO AZUL</Point>
             <Point>SAN JUAN DEL RIO</Point>
             <Point>SAN MARTIN</Point>
             <Point>SATELITE</Point>
+            <Point>TECAMAC</Point>
             <Point>TENANCINGO</Point>
             <Point>TENANGO</Point>
             <Point>TOPILEJO</Point>
