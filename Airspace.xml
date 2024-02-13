@@ -403,10 +403,10 @@
         </Airport>
         <Airport Name="MMEP">
             <Runway Name="02" DataRunway="02">
-                <SID Name="TNY3A" Default="True" />
+                <SID Name="TNY4A" Default="True" />
             </Runway>
             <Runway Name="20" DataRunway="20">
-                <SID Name="TNY3B" Default="True" />
+                <SID Name="TNY4B" Default="True" />
             </Runway>
         </Airport>
         <Airport Name="MMES">
@@ -6630,6 +6630,15 @@
         </SID>
         <SID Name="UKIKI2" Airport="MMDO" Runways="21">
             <Route Runway="21">UKIKI</Route>
+        </SID>
+        <!-- *********** MMEP *********** -->
+        <!-- MMTL-SID-1 -->
+        <SID Name="TNY4A" Airport="MMEP" Runways="02">
+            <Route Runway="02">TNY</Route>
+        </SID>
+        <!-- MMTL-SID-2 -->
+        <SID Name="TNY4B" Airport="MMEP" Runways="20">
+            <Route Runway="20">TNY</Route>
         </SID>
         <!--MMES-->
         <SID Name="ENS3" Airport="MMES" Runways="29">
