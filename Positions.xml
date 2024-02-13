@@ -3584,13 +3584,14 @@
         </Position>
 
         <!-- TMA Vallarta -->
-        <Position Name="Torre Tepic - EPTW1" Type="ASD" DefaultCenter="+212509.930-1045033.180" DefaultRange="50" MagneticVariation="-7">
+        <Position Name="Torre Tepic - EPTW1" Type="ASD" DefaultCenter="+212509.930-1045033.180" DefaultRange="60" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="EPTW1" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
                 <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
+                <Map Name="TMA Vallarta/MMEP - Servicio de Información de Vuelo (AFIS)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3650,6 +3651,7 @@
                 <Map Name="TMA Vallarta/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
                 <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
+                <Map Name="TMA Vallarta/MMEP - Servicio de Información de Vuelo (AFIS)" />
 
                 <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
                 <Map Name="TMA Vallarta/Pista 04 - Llegadas RNAV (Nombres)" />
