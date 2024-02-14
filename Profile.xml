@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Profile Name="Mexico" FullName="TopSky México (MMFR)">
-    <Version AIRAC="2313" Revision="a" PublishDate="20240213" UpdateURL="https://vatsys.sawbe.com/downloads/data/Mexico" />
-    <Servers>
-        <VATSIMStatus url="http://status.vatsim.net/" />
-        <GRIB url="http://sawbe.com/GRIB/" />
-        <G2G url="antifaff.vatsys.sawbe.com" port="64738" />
-        <SweatBox2 url="sweatbox.vatmex.com.mx" />
-    </Servers>
+<Profile Name="Mexico (Medium)" FullName="TopSky México (MMFR)">
+	<Version AIRAC="2313" Revision="a" PublishDate="20240213" UpdateURL="https://vatsys.sawbe.com/downloads/data/Mexico/mexico-medium" />
+	<Servers>
+		<VATSIMStatus url="http://status.vatsim.net/" />
+		<GRIB url="http://sawbe.com/GRIB/" />
+		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
+    <SweatBox2 url="sweatbox02-training.vatpac.org" />
+	</Servers>
 </Profile>
 <!--
                                    ___
