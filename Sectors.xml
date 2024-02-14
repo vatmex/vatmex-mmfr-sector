@@ -71,13 +71,13 @@
         <Volumes>MMTJ_TMA</Volumes>
     </Sector>
     <Sector FullName="ACC Mazatlan Combinado" Frequency="128.000" Callsign="MMZT_CTR" Name="MZTC">
-        <ResponsibleSectors>MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7</ResponsibleSectors>
+        <ResponsibleSectors>MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZT8</ResponsibleSectors>
     </Sector>
     <Sector FullName="ACC Mazatlan SW" Frequency="128.300" Callsign="MMZT_W_CTR" Name="MZTW">
-        <ResponsibleSectors>MZT1,MZT2,MZT7</ResponsibleSectors>
+        <ResponsibleSectors>MZT1,MZT2,MZT8</ResponsibleSectors>
     </Sector>
     <Sector FullName="ACC Mazatlan SE" Frequency="126.500" Callsign="MMZT_E_CTR" Name="MZTE">
-        <ResponsibleSectors>MZT3,MZT4,MZT5,MZT6</ResponsibleSectors>
+        <ResponsibleSectors>MZT3,MZT4,MZT5,MZT6,MZT7</ResponsibleSectors>
     </Sector>
     <Sector FullName="ACC Mazatlan Sector 1" Frequency="128.300" Callsign="MMZT_1_CTR" Name="MZT1">
         <Volumes>MMZT_SECTOR_1</Volumes>
@@ -88,17 +88,20 @@
     <Sector FullName="ACC Mazatlan Sector 3" Frequency="128.000" Callsign="MMZT_3_CTR" Name="MZT3">
         <Volumes>MMZT_SECTOR_3</Volumes>
     </Sector>
-    <Sector FullName="ACC Mazatlan Sector 4" Frequency="124.400" Callsign="MMZT_4_CTR" Name="MZT4">
+    <Sector FullName="ACC Mazatlan Sector 4" Frequency="126.500" Callsign="MMZT_4_CTR" Name="MZT4">
         <Volumes>MMZT_SECTOR_4</Volumes>
     </Sector>
     <Sector FullName="ACC Mazatlan Sector 5" Frequency="124.200" Callsign="MMZT_5_CTR" Name="MZT5">
         <Volumes>MMZT_SECTOR_5</Volumes>
     </Sector>
-    <Sector FullName="ACC Mazatlan Sector 6" Frequency="126.500" Callsign="MMZT_6_CTR" Name="MZT6">
+    <Sector FullName="ACC Mazatlan Sector 6" Frequency="124.600" Callsign="MMZT_6_CTR" Name="MZT6">
         <Volumes>MMZT_SECTOR_6</Volumes>
     </Sector>
-    <Sector FullName="ACC Mazatlan Sector 7" Frequency="128.750" Callsign="MMZT_7_CTR" Name="MZT7">
+    <Sector FullName="ACC Mazatlan Sector 7" Frequency="124.400" Callsign="MMZT_7_CTR" Name="MZT7">
         <Volumes>MMZT_SECTOR_7</Volumes>
+    </Sector>
+    <Sector FullName="ACC Mazatlan Sector 8" Frequency="128.750" Callsign="MMZT_8_CTR" Name="MZT8">
+        <Volumes>MMZT_SECTOR_8</Volumes>
     </Sector>
 
     <!--Centro de Control Mérida-->
@@ -282,7 +285,9 @@
     <Sector FullName="Torre Santa Lucía" Frequency="118.300" Callsign="MMSM_TWR" Name="SMTW1" DisplayInHandoffWindow="False">
         <Volumes>MMSM_CTR</Volumes>
     </Sector>
-    <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False"/>
+    <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False">
+        <Volumes>MMTO_CTR</Volumes>
+    </Sector>
     <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTO_CTR</Volumes>
     </Sector>
@@ -377,7 +382,7 @@
     </Sector>
     <!--MMPR TMA-->
     <Sector FullName="Torre Tepic" Frequency="118.800" Callsign="MMEP_TWR" Name="EPTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMEP_CTR</Volumes>
+        <Volumes>MMEP_AFIS</Volumes>
     </Sector>
     <Sector FullName="Torre Vallarta" Frequency="118.500" Callsign="MMPR_TWR" Name="PRTW1" DisplayInHandoffWindow="False">
         <Volumes>MMPR_CTR</Volumes>
