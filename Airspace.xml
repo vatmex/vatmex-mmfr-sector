@@ -4789,7 +4789,6 @@
         <Point Name="PEMSA" Type="Fix">+184509.100-0985218.700</Point>
         <Point Name="PESTA" Type="Fix">+185151.550-0982138.470</Point>
         <Point Name="PILDA" Type="Fix">+254736.200-1002632.300</Point>
-        <Point Name="PLADE" Type="Fix">+200602.000-0862355.010</Point>
         <Point Name="PLADE" Type="Fix">+202353.280-1030101.560</Point>
         <Point Name="PR400" Type="Fix">+203649.200-1051949.100</Point>
         <Point Name="PR401" Type="Fix">+203324.500-1052343.600</Point>
@@ -5269,6 +5268,7 @@
         <Point Name="VIRKI" Type="Fix">+242655.700-1073806.200</Point>
         <Point Name="VIRVO" Type="Fix">+205524.500-1011636.400</Point>
         <Point Name="VISDA" Type="Fix">+202421.440-1040203.300</Point>
+        <Point Name="VITEL" Type="Fix">+200602.000-0862355.010</Point>
         <Point Name="VODAS" Type="Fix">+245120.400-1074901.300</Point>
         <Point Name="VODIS" Type="Fix">+183656.920-0992411.240</Point>
         <Point Name="VOLIK" Type="Fix">+251307.400-1010906.400</Point>
@@ -9514,8 +9514,8 @@
             <Route Runway="12L">SIGMA OVGED ILONI HURIN UN523 UN511 UN519 UN514 ELINO EBMIS</Route>
         </STAR>
         <STAR Name="SIGM2J" Airport="MMUN" Runways="30L,30R">
-            <Route Runway="30L">SIGMA BALCH PLADE UN617 QUADY SESLI</Route>
-            <Route Runway="30R">SIGMA BALCH PLADE UN617 QUADY SESLI</Route>
+            <Route Runway="30L">SIGMA BALCH VITEL UN617 QUADY SESLI</Route>
+            <Route Runway="30R">SIGMA BALCH VITEL UN617 QUADY SESLI</Route>
         </STAR>
         <STAR Name="VOMA1A" Airport="MMUN" Runways="12L,12R">
             <Route Runway="12L">VOMAR AGNIX EPNEL ODLAR VIKSI</Route>
