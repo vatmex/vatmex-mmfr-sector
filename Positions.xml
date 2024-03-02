@@ -3972,8 +3972,8 @@
                 <Map Name="TMA Tampico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Tampico/MMTM - Zona de Control (CTR)" />
                 <Map Name="TMA Tampico/MMTN - Zona de Tránsito de Aeródromo (ATZ)" />
-                <Map Name="TMA Tampico/Aeropuerto - Fijos 13" />
-                <Map Name="TMA Tampico/Aeropuerto - Fijos 13 (Nombres)" />
+                <Map Name="TMA Tampico/Aeropuerto - Fijos 14" />
+                <Map Name="TMA Tampico/Aeropuerto - Fijos 14 (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Sector - Aerovias" />
@@ -4880,7 +4880,7 @@
                 <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
                 <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - RNP 11" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -4913,7 +4913,7 @@
                 <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
                 <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - RNP 11" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -4946,7 +4946,7 @@
                 <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
                 <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - RNP 11" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -4980,11 +4980,11 @@
                 <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
                 <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - Llegadas RNAV" />
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - RNP 11" />
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - Salidas RNAV" />
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - Salidas RNAV" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -5023,11 +5023,11 @@
                 <Map Name="TMA Monterrey/MMMY - Zona de Control (CTR)" />
                 <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - Llegadas RNAV" />
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - RNP 11" />
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - Salidas RNAV" />
-                <Map Name="TMA Monterrey/MMMY - Pista 11 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - Salidas RNAV" />
+                <Map Name="TMA Monterrey/MMMY - Pista 12 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -5240,13 +5240,13 @@
                 <Window Airport="MMMY" />
             </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMTY" Visible="true" />
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
             <ArrivalLists>
-                <Airport Name="MMTY" />
+                <Airport Name="MMMY" />
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Centro Monterrey / Monterrey Center</Line>
@@ -5281,13 +5281,13 @@
                 <Window Airport="MMMY" />
             </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMTY" Visible="true" />
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
             <ArrivalLists>
-                <Airport Name="MMTY" />
+                <Airport Name="MMMY" />
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Centro Monterrey / Monterrey Center</Line>
@@ -5323,13 +5323,13 @@
                 <Window Airport="MMMY" />
             </ATIS>
             <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMTY" Visible="true" />
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
             <ArrivalLists>
-                <Airport Name="MMTY" />
+                <Airport Name="MMMY" />
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Centro Monterrey / Monterrey Center</Line>
