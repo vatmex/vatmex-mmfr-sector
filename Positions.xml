@@ -3336,7 +3336,7 @@
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Nombres)" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Vectores)" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV (Nombres)" />
 
@@ -3361,6 +3361,59 @@
                 <Line>Aproximacion Mexico / Mexico Approach</Line>
                 <Line>Serving MMMX, MMTO, MMCB, and MMPB and MMSM arrivals and departures</Line>
                 <Line>ATIS available on 127.650</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+200937.407-0994825.774</Point>
+                <Point>+200705.803-0981718.702</Point>
+                <Point>+184503.035-0995049.146</Point>
+                <Point>+184239.210-0981947.677</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="Aproximación Lucía - SMAPP" Type="ASD" DefaultCenter="+194426.930-0990021.360" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="false">
+            <Sectors>
+                <Sector Name="SMAPP" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
+                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
+
+                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - Sectores Final" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - Sectores Aproximación" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - Llegadas RNAV" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - Llegadas RNAV (Vectores)" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04C" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - Salidas RNAV" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - Salidas RNAV (Nombres)" />
+
+                <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="ACC Mexico/Radar - TMA México" />
+                <Map Name="Universal/Sector - Radioayudas" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMSM" Frequency="127.700" Server="NA" />
+                <Window Airport="MMSM" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMSM" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="13000">
+                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
+            </CFL>
+            <ArrivalLists>
+                <Airport Name="MMSM" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Aproximacion Lucia / Lucia Approach</Line>
+                <Line>Serving MMSM arrivals and departures</Line>
+                <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>
