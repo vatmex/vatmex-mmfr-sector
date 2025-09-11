@@ -92,4 +92,20 @@ MAXUL</Line>
             <Point>TEQ</Point>
             </Label>
         </Map>
+    <Map Type="System" Name="MMCB - Pista 03 - RNP 03" Priority="1" Center="+185002.690-0991541.960">
+        <Line Pattern="Solid">VODIS/CB400/CB401/+184925.970-0991606.490</Line>
+        <Line Pattern="Solid">DUNPA/CB400</Line>
+        <Symbol Type="HollowStar">
+            <Point>VODIS</Point>
+            <Point>DUNPA</Point>
+            <Point>CB400</Point>
+            <Point>CB401</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMCB - Pista 03 - RNP 03 (Nombres)" Priority="1" Center="+185002.690-0991541.960">
+            <Label HasLeader="false">
+            <Point>VODIS</Point>
+            <Point>DUNPA</Point>
+            </Label>
+        </Map>
 </Maps>
