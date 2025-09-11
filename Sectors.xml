@@ -294,6 +294,12 @@
     <Sector FullName="Torre Santa Lucía" Frequency="118.300" Callsign="MMSM_TWR" Name="SMTW1" DisplayInHandoffWindow="False">
         <Volumes>MMSM_CTR</Volumes>
     </Sector>
+    <Sector FullName="Aproximación Lucía" Frequency="119.000" Callsign="MMSM_APP" Name="SMAPP">
+        <Volumes>MLAC</Volumes>
+    </Sector>
+    <Sector FullName="Final Lucía 04" Frequency="128.850" Callsign="MMSM_F_APP" Name="FNL04">
+        <Volumes>MSF4</Volumes>
+    </Sector>
     <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False">
         <Volumes>MMTO_CTR</Volumes>
     </Sector>
