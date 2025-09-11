@@ -4769,16 +4769,17 @@
         <Point Name="MX900" Type="Fix">+192321.760-0990910.600</Point>
         <Point Name="MX901" Type="Fix">+192125.820-0991237.040</Point>
         <Point Name="MX930" Type="Fix">+192134.060-0991241.790</Point>
-        <Point Name="MX931" Type="Fix">+192330.020-0990915.760</Point>
+        <Point Name="MX931" Type="Fix">+192330.020-0990915.800</Point>
         <Point Name="MX940" Type="Fix">+192650.350-0990319.360</Point>
         <Point Name="MX941" Type="Fix">+193431.990-0990000.620</Point>
         <Point Name="MX942" Type="Fix">+192906.500-0985916.900</Point>
         <Point Name="MX949" Type="Fix">+192718.500-0990208.600</Point>
         <Point Name="MX950" Type="Fix">+192646.870-0985401.660</Point>
         <Point Name="MX951" Type="Fix">+191532.820-0985403.900</Point>
-        <Point Name="MX960" Type="Fix">+192431.700-0991359.600</Point>
+        <Point Name="MX960" Type="Fix">+192437.200-0991359.700</Point>
         <Point Name="MX962" Type="Fix">+192238.900-0991027.000</Point>
-        <Point Name="MX965" Type="Fix">+191857.400-0991040.500</Point>
+        <Point Name="MX965" Type="Fix">+191901.200-0991045.800</Point>
+        <Point Name="MX970" Type="Fix">+192247.100-0991032.100</Point>
         <Point Name="MY401" Type="Fix">+254138.200-0994632.400</Point>
         <Point Name="MY403" Type="Fix">+254219.400-0995826.300</Point>
         <Point Name="MY405" Type="Fix">+254749.900-1000827.200</Point>
@@ -8033,6 +8034,12 @@
         </Approach>
         <Approach Name="RNP23R.VIKSA" Airport="MMMX" Runway="23R">
             <Route>VIKSA MX453 MX452</Route>
+        <!--MMMX-IAC-12-->
+        <Approach Name="RNP05LY.UKTEN" Airport="MMMX" Runway="05L">
+            <Route>EPRIM MX960 MX970 MX931</Route>
+        </Approach>
+        <Approach Name="RNP05LY.EPRIM" Airport="MMMX" Runway="05L">
+            <Route>EPRIM MX965 MX970 MX931</Route>
         </Approach>
         <!-- *********** MMMY *********** -->
         <!-- MMMY-SID-1 -->
