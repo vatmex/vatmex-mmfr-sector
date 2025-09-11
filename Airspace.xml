@@ -5098,6 +5098,7 @@
         <Point Name="SMA02" Type="Fix">+194247.500-0985719.400</Point>
         <Point Name="SMC01" Type="Fix">+194503.700-0985523.700</Point>
         <Point Name="SMC02" Type="Fix">+194538.800-0985523.700</Point>
+        <Point Name="SUTAS" Type="Fix">+192543.400-0991521.600</Point>
         <Point Name="SUTNA" Type="Fix">+254334.600-1000702.300</Point>
         <Point Name="SUTOM" Type="Fix">+215747.500-1021818.800</Point>
         <Point Name="SUVUL" Type="Fix">+191751.400-0960357.700</Point>
@@ -8001,45 +8002,67 @@
         </STAR>
         <!-- MMMX-IAC-1 -->
         <Approach Name="ILS05RZ.UKTEN" Airport="MMMX" Runway="05R">
-            <Route>UKTEN MX960 MX962 MX900</Route>
+            <Route>UKTEN SUTAS MX901 MX900</Route>
         </Approach>
         <Approach Name="ILS05RZ.EPRIM" Airport="MMMX" Runway="05R">
-            <Route>EPRIM MX965 MX962 MX900</Route>
+            <Route>EPRIM VOLUN MX901 MX900</Route>
         </Approach>
         <!-- MMMX-IAC-2 -->
+        <Approach Name="ILS05RY.UKTEN" Airport="MMMX" Runway="05R">
+            <Route>UKTEN MX960 MX962 MX900</Route>
+        </Approach>
+        <Approach Name="ILS05RY.EPRIM" Airport="MMMX" Runway="05R">
+            <Route>EPRIM MX960 MX962 MX900</Route>
+        </Approach>
+        <!-- MMMX-IAC-4 -->
+        <Approach Name="RNP05RZ.UKTEN" Airport="MMMX" Runway="05R">
+            <Route>UKTEN SUTAS MX901 MX900</Route>
+        </Approach>
+        <Approach Name="RNP05RZ.EPRIM" Airport="MMMX" Runway="05R">
+            <Route>EPRIM VOLUN MX901 MX900</Route>
+        </Approach>
+        <!-- MMMX-IAC-5 -->
+        <Approach Name="RNP05RY.UKTEN" Airport="MMMX" Runway="05R">
+            <Route>EPRIM MX960 MX962 MX900</Route>
+        </Approach>
+        <Approach Name="RNP05RY.EPRIM" Airport="MMMX" Runway="05R">
+            <Route>EPRIM MX965 MX962 MX900</Route>
+        </Approach>
+        <!-- MMMX-IAC-6 -->
         <Approach Name="ILS23LZ.ESTIN" Airport="MMMX" Runway="23L">
             <Route>ESTIN MX403 MX402</Route>
         </Approach>
         <Approach Name="ILS23LZ.VIKSA" Airport="MMMX" Runway="23L">
             <Route>VIKSA MX403 MX402</Route>
         </Approach>
-        <!-- MMMX-IAC-3 -->
+        <!-- MMMX-IAC-9 -->
+        </Approach>
+        <Approach Name="RNP23L.ESTIN" Airport="MMMX" Runway="23L">
+            <Route>ESTIN MX403 MX402</Route>
+        </Approach>
+        <Approach Name="RNP23L.VIKSA" Airport="MMMX" Runway="23L">
+            <Route>VIKSA MX403 MX402</Route>
+        </Approach>
+        <!-- MMMX-IAC-11 -->
         <Approach Name="RNP05LZ.UKTEN" Airport="MMMX" Runway="05L">
             <Route>UKTEN SUTAS MX930 MX931</Route>
         </Approach>
-        <!-- MMMX-IAC-4 -->
-        <Approach Name="ILS05RZ.UKTEN" Airport="MMMX" Runway="05R">
-            <Route>UKTEN SUTAS MX901 MX900</Route>
-        </Approach>
-        <Approach Name="ILS05RZ.EPRIM" Airport="MMMX" Runway="05R">
-            <Route>EPRIM VOLUN MX901 MX900</Route>
-        </Approach>
-
         <Approach Name="RNP05LZ.EPRIM" Airport="MMMX" Runway="05L">
             <Route>EPRIM VOLUN MX930 MX931</Route>
         </Approach>
-        <!-- MMMX-IAC-6 -->
-        <Approach Name="RNP23R.ESTIN" Airport="MMMX" Runway="23R">
-            <Route>ESTIN MX453 MX452</Route>
-        </Approach>
-        <Approach Name="RNP23R.VIKSA" Airport="MMMX" Runway="23R">
-            <Route>VIKSA MX453 MX452</Route>
         <!--MMMX-IAC-12-->
         <Approach Name="RNP05LY.UKTEN" Airport="MMMX" Runway="05L">
             <Route>EPRIM MX960 MX970 MX931</Route>
         </Approach>
         <Approach Name="RNP05LY.EPRIM" Airport="MMMX" Runway="05L">
             <Route>EPRIM MX965 MX970 MX931</Route>
+        </Approach>
+        <!--MMMX-IAC-13-->
+        <Approach Name="RNP23R.ESTIN" Airport="MMMX" Runway="23R">
+            <Route>ESTIN MX453 MX452</Route>
+        </Approach>
+        <Approach Name="RNP23R.VIKSA" Airport="MMMX" Runway="23R">
+            <Route>VIKSA MX453 MX452</Route>
         </Approach>
         <!-- *********** MMMY *********** -->
         <!-- MMMY-SID-1 -->
