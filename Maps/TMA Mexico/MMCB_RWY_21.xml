@@ -107,4 +107,23 @@ TEQ</Line>
             <Point>TEQ</Point>
             </Label>
         </Map>
+<Map Type="System" Name="MMCB - Pista 21 - RNP 21" Priority="1" Center="+185002.690-0991541.960">
+        <Line Pattern="Solid">UMADA/CB900/CB901/CB902/CB903/CB904/+185043.030-0991516.610</Line>
+        <Line Pattern="Solid">SEKOS/CB900</Line>
+        <Symbol Type="HollowStar">
+            <Point>UMADA</Point>
+            <Point>SEKOS</Point>
+            <Point>CB900</Point>
+            <Point>CB901</Point>
+            <Point>CB902</Point>
+            <Point>CB903</Point>
+            <Point>CB904</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMCB - Pista 21 - RNP 21 (Nombres)" Priority="1" Center="+185002.690-0991541.960">
+            <Label HasLeader="false">
+            <Point>SEKOS</Point>
+            <Point>UMADA</Point>
+            </Label>
+        </Map>
 </Maps>
