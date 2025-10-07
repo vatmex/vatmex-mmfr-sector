@@ -158,6 +158,17 @@
                 </Departure>
             </Rules>
         </RuleSet>
+        <RuleSet Name="MMSM_DEPS">
+            <Rules>
+                <Departure Values="MMSM">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="SMAPP,MXDEP,MAPPC,MEX3,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
         <RuleSet Name="MMTO_DEPS">
             <Rules>
                 <Departure Values="MMTO">
