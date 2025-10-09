@@ -118,7 +118,7 @@
         <Volumes>MMCP_ATZ</Volumes>
     </Sector>
     <Sector FullName="Torre Chichen-Itza" Frequency="118.900" Callsign="MMCT_TWR" Name="CTTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMCT_ATZ</Volumes>
+        <Volumes>MMCT_CTR</Volumes>
     </Sector>
     <Sector FullName="Torre Ixtepec" Frequency="118.450" Callsign="MMIT_TWR" Name="ITTW1" DisplayInHandoffWindow="False">
         <Volumes>MMIT_ATZ</Volumes>
@@ -168,11 +168,23 @@
     <Sector FullName="Torre Cancún" Frequency="118.100" Callsign="MMUN_TWR" Name="UNTW1" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
+    <Sector FullName="Torre Sur Cancún" Frequency="118.600" Callsign="MMUN_S_TWR" Name="UNTW1" DisplayInHandoffWindow="False">
+        <Volumes>MMUN_CTR</Volumes>
+    </Sector> 
     <Sector FullName="Llegadas Cancún" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNARR" DisplayInHandoffWindow="False">
         <Volumes>MMUN_TMA</Volumes>
     </Sector>
+    <Sector FullName="Final Cancún" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNFNA">
+        <Volumes>UNFNA</Volumes>
+    </Sector>
     <Sector FullName="Salidas Cancún" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEP" DisplayInHandoffWindow="False">
         <Volumes>MMUN_TMA</Volumes>
+    </Sector>
+    <Sector FullName="Llegadas Sur Cancún" Frequency="123.500" Callsign="MMUN_TS_APP" Name="UNARS" DisplayInHandoffWindow="False">
+        <Volumes>MMUN_TMA_ARRS</Volumes>
+    </Sector>    
+    <Sector FullName="Salidas Oeste Cancún" Frequency="120.800" Callsign="MMUN_W_DEP" Name="UNDEW" DisplayInHandoffWindow="False">
+        <Volumes>MMUN_TMA</Volumes>    
     </Sector>
     <Sector FullName="Aproximación Cancún" Frequency="124.700" Callsign="MMUN_APP" Name="UNAPP">
         <Volumes>MMUN_TMA</Volumes>
