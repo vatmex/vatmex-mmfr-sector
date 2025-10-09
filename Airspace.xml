@@ -1247,25 +1247,29 @@
         <Airport Name="MMSL">
             <Runway Name="11" DataRunway="11">
                 <SID Name="CSL3A" Default="True" />
-                <SID Name="ALRI1C" />
-                <SID Name="ANEG1C" />
+                <SID Name="ALRI2C" />
                 <SID Name="AVAV1D" />
                 <SID Name="DUVIT2" />
-                <SID Name="ILIG1C" />
+                <SID Name="ILIG2C" />
                 <SID Name="SJD2D" />
                 <SID Name="SJD4C" />
-                <SID Name="UKUX1C" />
+                <SID Name="UKUX2C" />
+				<SID Name="URLE1A" />
+                <STAR Name="ALRI1H" ApproachName="RNP11.SL800" />
+                <STAR Name="ENEK1D" ApproachName="RNP11.SL800" />
+                <STAR Name="ILIG1F" ApproachName="RNP11.SL800" />
+                <STAR Name="LEPO1D" ApproachName="RNP11.SL800" />
             </Runway>
             <Runway Name="29" DataRunway="29">
                 <SID Name="CSL3B" Default="True" />
                 <SID Name="ALRI1D" />
-                <SID Name="ANEG1D" />
                 <SID Name="ATUMI2" />
                 <SID Name="AVAV1E" />
-                <SID Name="ILIG1D" />
+                <SID Name="ILIG2D" />
                 <SID Name="LETAT2" />
                 <SID Name="SJD2E" />
                 <SID Name="UKUX1D" />
+                <SID Name="URLE1B" />
                 <STAR Name="ALRI1G" ApproachName="RNP29.TESAC" />
                 <STAR Name="CSL3" />
                 <STAR Name="ENEK1C" ApproachName="RNP29.TESAC" />
@@ -1491,7 +1495,6 @@
                 <SID Name="NUDA1G" />
                 <SID Name="ILUB1H" />
                 <SID Name="TAKU1A" />
-                <SID Name="XOPG1A" />
                 <SID Name="XOLP1A" />
                 <SID Name="ROTG1G" />
                 <SID Name="ALSU1A" />
@@ -3916,7 +3919,7 @@
         <Point Name="UMETA" Type="Fix">+255412.000-1054011.000</Point>
         <Point Name="URKOM" Type="Fix">+301349.000-1054420.000</Point>
         <Point Name="URKOP" Type="Fix">+264249.000-1064432.000</Point>
-        <Point Name="URLET" Type="Fix">+234253.000-1105308.000</Point>
+        <Point Name="URLET" Type="Fix">+234252.900-1105307.700</Point>
         <Point Name="URLIX" Type="Fix">+205426.000-0952844.000</Point>
         <Point Name="URMAS" Type="Fix">+202034.000-0983831.000</Point>
         <Point Name="URNAD" Type="Fix">+262714.000-1065031.000</Point>
@@ -5012,15 +5015,30 @@
         <Point Name="SL404" Type="Fix">+231116.900-1093331.400</Point>
         <Point Name="SL405" Type="Fix">+233441.100-1091537.400</Point>
         <Point Name="SL406" Type="Fix">+225359.000-1094015.300</Point>
+        <Point Name="SL420" Type="Fix">+224507.500-1093401.600</Point>
         <Point Name="SL500" Type="Fix">+225802.200-1100322.900</Point>
         <Point Name="SL501" Type="Fix">+223704.600-1093024.700</Point>
         <Point Name="SL502" Type="Fix">+224300.900-1094653.400</Point>
         <Point Name="SL503" Type="Fix">+224623.900-1095334.300</Point>
         <Point Name="SL504" Type="Fix">+225412.900-1093002.400</Point>
-        <Point Name="SL600" Type="Fix">+225429.800-1100522.200</Point>
+        <Point Name="SL510" Type="Fix">+224343.900-1094917.800</Point>
+        <Point Name="SL512" Type="Fix">+223818.900-1094427.300</Point>
+        <Point Name="SL514" Type="Fix">+224357.600-1093920.700</Point>
+        <Point Name="SL520" Type="Fix">+221902.300-1085843.300</Point>
+        <Point Name="SL530" Type="Fix">+225237.100-1095842.800</Point>
+        <Point Name="SL531" Type="Fix">+225507.000-1100230.800</Point>
+        <Point Name="SL540" Type="Fix">+225007.200-1095455.000</Point>
+		<Point Name="SL600" Type="Fix">+225429.800-1100522.200</Point>
         <Point Name="SL700" Type="Fix">+225546.100-1095425.300</Point>
         <Point Name="SL701" Type="Fix">+225347.000-1095117.700</Point>
         <Point Name="SL702" Type="Fix">+225056.800-1094649.800</Point>
+        <Point Name="SL800" Type="Fix">+224449.400-1095350.600</Point>		
+        <Point Name="SL802" Type="Fix">+224926.100-1100246.000</Point>				
+        <Point Name="SL803" Type="Fix">+225406.900-1100619.400</Point>				
+        <Point Name="SL804" Type="Fix">+225826.300-1100217.700</Point>
+        <Point Name="SL805" Type="Fix">+225443.000-1095207.100</Point>
+        <Point Name="SL806" Type="Fix">+224349.100-1094824.100</Point>				
+        <Point Name="SL820" Type="Fix">+225729.600-1095802.500</Point>		
         <Point Name="SM02E" Type="Fix">+194736.000-0990929.600</Point>
         <Point Name="SM03E" Type="Fix">+194421.200-0991237.600</Point>
         <Point Name="SM03N" Type="Fix">+194121.500-0991218.400</Point>
@@ -8761,23 +8779,17 @@
         <SID Name="CSL3B" Airport="MMSL" Runways="29">
             <Route Runway="29">CSL</Route>
         </SID>
-        <SID Name="ALRI1C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL502 SL504 AVAVU SD507 SD508 SD403 ALRIN</Route>
+        <SID Name="ALRI2C" Airport="MMSL" Runways="11">
+            <Route Runway="11">SL805 SL510 SL512 SL514 SL504 AVAVU SD507 SD508 SD403 ALRIN</Route>
         </SID>
         <SID Name="ALRI1D" Airport="MMSL" Runways="29">
             <Route Runway="29">SL500 SL503 SL502 SL504 AVAVU SD507 SD508 SD403 ALRIN</Route>
-        </SID>
-        <SID Name="ANEG1C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL600 LETAT ANEGO</Route>
-        </SID>
-        <SID Name="ANEG1D" Airport="MMSL" Runways="29">
-            <Route Runway="29">SL500 LETAT ANEGO</Route>
         </SID>
         <SID Name="ATUMI2" Airport="MMSL" Runways="29">
             <Route Runway="29">ATUMI</Route>
         </SID>
         <SID Name="AVAV1D" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL502 SL504 AVAVU</Route>
+            <Route Runway="11">SL805 SL510 SL512 SL514 SL504 AVAVU</Route>
         </SID>
         <SID Name="AVAV1E" Airport="MMSL" Runways="29">
             <Route Runway="29">SL500 SL503 SL502 SL504 AVAVU</Route>
@@ -8785,11 +8797,11 @@
         <SID Name="DUVIT2" Airport="MMSL" Runways="11">
             <Route Runway="11">DUVIT</Route>
         </SID>
-        <SID Name="ILIG1C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL502 SL501 ILIGA</Route>
+        <SID Name="ILIG2C" Airport="MMSL" Runways="11">
+            <Route Runway="11">SL805 SL510 SL512 SL520 ILIGA</Route>
         </SID>
-        <SID Name="ILIG1D" Airport="MMSL" Runways="29">
-            <Route Runway="29">>SL500 SL503 SL502 SL501 ILIGA</Route>
+        <SID Name="ILIG2D" Airport="MMSL" Runways="29">
+            <Route Runway="29">SL500 SL503 SL502 SL512 SL520 ILIGA</Route>
         </SID>
         <SID Name="LETAT2" Airport="MMSL" Runways="29">
             <Route Runway="29">LETAT</Route>
@@ -8803,8 +8815,14 @@
         <SID Name="SJD2E" Airport="MMSL" Runways="29">
             <Route Runway="29">SJD</Route>
         </SID>
-        <SID Name="UKUX1C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL502 SL504 AVAVU UKUXA</Route>
+        <SID Name="UKUX2C" Airport="MMSL" Runways="11">
+            <Route Runway="11">SL805 SL510 SL512 SL514 SL504 AVAVU UKUXA</Route>
+        </SID>
+        <SID Name="URLE1A" Airport="MMSL" Runways="11">
+            <Route Runway="11">SL805 SL540 SL530 SL531 LETAT URLET</Route>
+        </SID>
+        <SID Name="URLE1B" Airport="MMSL" Runways="29">
+            <Route Runway="29">SL500 LETAT URLET</Route>
         </SID>
         <SID Name="UKUX1D" Airport="MMSL" Runways="29">
             <Route Runway="29">>SL500 SL503 SL502 SL504 AVAVU UKUXA</Route>
@@ -8812,18 +8830,33 @@
         <STAR Name="ALRI1G" Airport="MMSL" Runways="29">
             <Route Runway="29">ALRIN SD403 DASON SL404 SL400 AVURU SL406 TESAC</Route>
         </STAR>
+        <STAR Name="ALRI1H" Airport="MMSL" Runways="11">
+            <Route Runway="11">ALRIN SD403 DASON SL404 SL400 AVURU SL406 TESAC SL800</Route>
+        </STAR>
         <STAR Name="CSL3" Airport="MMSL" Runways="29">
             <Route Runway="29">SJD CSL</Route>
         </STAR>
         <STAR Name="ENEK1C" Airport="MMSL" Runways="29">
             <Route Runway="29">ENEKO MARUX DASON SL404 SL400 AVURU SL406 TESAC</Route>
         </STAR>
+        <STAR Name="ENEK1D" Airport="MMSL" Runways="11">
+            <Route Runway="11">ENEKO MARUX DASON SL404 SL400 AVURU SL406 TESAC SL800</Route>
+        </STAR>
         <STAR Name="ILIG1E" Airport="MMSL" Runways="29">
             <Route Runway="29">ILIGA SL402 TESAC</Route>
+        </STAR>
+        <STAR Name="ILIG1F" Airport="MMSL" Runways="11">
+            <Route Runway="11">ILIGA SL402 SL420 TESAC SL800</Route>
         </STAR>
         <STAR Name="LEPO1C" Airport="MMSL" Runways="29">
             <Route Runway="29">LEPOM GOSIM SL405 DASON SL404 SL400 AVURU SL406 TESAC</Route>
         </STAR>
+        <STAR Name="LEPO1D" Airport="MMSL" Runways="11">
+            <Route Runway="11">LEPOM GOSIM SL405 DASON SL404 SL400 AVURU SL406 TESAC SL800</Route>
+        </STAR>
+        <Approach Name="RNP11.SL800" Airport="MMSL" Runway="11">
+            <Route>SL800 SL802 SL803 SL804 SL820</Route>
+        </Approach>
         <Approach Name="RNP29.TESAC" Airport="MMSL" Runway="29">
             <Route>TESAC SL702 SL701 SL700</Route>
         </Approach>
@@ -9374,9 +9407,6 @@
         </SID>
         <SID Name="TAKU1A" Airport="MMTL" Runways="12">
             <Route Runway="12">TL620 TL621 TL622 TL623 TL624 TL625 TL626 TAKUX</Route>
-        </SID>
-        <SID Name="XOPG1A" Airport="MMTL" Runways="12">
-            <Route Runway="12">TL640 TL641 TL642 TL644 PIROK TL510 TL648 NOSUG XOPGI</Route>
         </SID>
         <SID Name="XOLP1A" Airport="MMTL" Runways="12">
             <Route Runway="12">TL640 TL641 TL642 XOLPO</Route>

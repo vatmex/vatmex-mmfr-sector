@@ -1,33 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="MMSL - Pista 11 - Salidas RNAV" Priority="1" Center="+225653.965-1095617.973">
-        <Line Name="ALRIN1C" Pattern="Dotted">+225637.170-1095545.780/SL502/SL504/AVAVU/SD507/SD508/SD403/ALRIN</Line>
-        <Line Name="ANEGO1A" Pattern="Dotted">+225637.170-1095545.780/SL600/LETAT/ANEGO</Line>
-        <Line Name="ILIGA1A" Pattern="Dotted">SL502/SL501/ILIGA</Line>
-        <Line Name="UKUXA1A" Pattern="Dotted">AVAVU/UKUXA</Line>
+    <Map Type="System" Name="MMSL - Pista 11 - Llegadas RNAV" Priority="1" Center="+225653.965-1095617.973">
+        <Line Name="ENEKO1D" Pattern="Dotted">ENEKO/MARUX/DASON/SL404/SL400/AVURU/SL406/TESAC/SL800</Line>
+        <Line Name="ALRIN1H" Pattern="Dotted">ALRIN/SD403/DASON</Line>
+        <Line Name="LEPOM1D" Pattern="Dotted">LEPOM/GOSIM/SL405/DASON</Line>
+        <Line Name="ILIGA1F" Pattern="Dotted">ILIGA/SL402/SL420/TESAC</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>ALRIN</Point>
+            <Point>DASON</Point>
+            <Point>ENEKO</Point>
+            <Point>ILIGA</Point>
+            <Point>LEPOM</Point>
+            <Point>MARUX</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>AVURU</Point>
+            <Point>GOSIM</Point>
+            <Point>SD403</Point>
+            <Point>SL400</Point>
+            <Point>SL404</Point>
+            <Point>SL405</Point>
+            <Point>SL406</Point>
+            <Point>SL800</Point>
+            <Point>SL420</Point>
+            <Point>TESAC</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMSL - Pista 11 - Llegadas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
+        <Label HasLeader="false">
+            <Point>ALRIN</Point>
+            <Point>ENEKO</Point>
+            <Point>ILIGA</Point>
+            <Point>LEPOM</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMSL - Pista 11 - RNP 11" Priority="1" Center="+225653.965-1095617.973">
+        <Line Pattern="Solid">SL800/SL802/SL803/SL804/SL820/+225710.810-1095650.230</Line>
+        <Symbol Type="HollowStar">
+            <Point>SL800</Point>
+            <Point>SL802</Point>
+            <Point>SL803</Point>
+            <Point>SL804</Point>
+            <Point>SL820</Point>
+        </Symbol>
+    </Map>    
+	<Map Type="System" Name="MMSL - Pista 11 - Salidas RNAV" Priority="1" Center="+225653.965-1095617.973">
+        <Line Name="ALRIN2C" Pattern="Dotted">+225637.170-1095545.780/SL805/SL510/SL512/SL514/SL504/AVAVU/SD507/SD508/SD403/ALRIN</Line>
+        <Line Name="URLET1A" Pattern="Dotted">SL805/SL540/SL530/SL531/LETAT/URLET</Line>
+        <Line Name="ILIGA2C" Pattern="Dotted">SL512/SL520/ILIGA</Line>
+        <Line Name="UKUXA2C" Pattern="Dotted">AVAVU/UKUXA</Line>
         <Symbol Type="SolidTriangle">
             <Point>ALRIN</Point>
             <Point>AVAVU</Point>
             <Point>ILIGA</Point>
             <Point>LETAT</Point>
+            <Point>URLET</Point>
             <Point>UKUXA</Point>
         </Symbol>
         <Symbol Type="HollowStar">
-            <Point>ANEGO</Point>
             <Point>SD403</Point>
             <Point>SD507</Point>
             <Point>SD508</Point>
-            <Point>SL501</Point>
-            <Point>SL502</Point>
             <Point>SL504</Point>
-            <Point>SL600</Point>
+            <Point>SL510</Point>
+            <Point>SL512</Point>
+            <Point>SL514</Point>
+            <Point>SL520</Point>
+            <Point>SL530</Point>
+			<Point>SL531</Point>
+            <Point>SL540</Point>
+            <Point>SL805</Point>			
         </Symbol>
     </Map>
     <Map Type="System" Name="MMSL - Pista 11 - Salidas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
         <Label HasLeader="false">
             <Point>ALRIN</Point>
-            <Point>ANEGO</Point>
+            <Point>AVAVU</Point>
             <Point>ILIGA</Point>
+            <Point>URLET</Point>
             <Point>UKUXA</Point>
         </Label>
     </Map>
