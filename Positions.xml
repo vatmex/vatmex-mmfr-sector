@@ -481,7 +481,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ATZ Loreto/Aeropuerto - Pistas" />
-                <Map Name="ATZ Loreto/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
@@ -1085,11 +1085,11 @@
         </Position>
         <Position Name="MMCT" Type="ASMGCS" ASMGCSAirport="MMCT" DefaultCenter="+203828.510-0882654.000" DefaultRange="2" MagneticVariation="+1" Rotation="349">
             <Maps>
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_RWY" />
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_APR" />
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_TWY" />
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_BLD" />
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_LABELS" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_RWY" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_APR" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_TWY" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_BLD" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_LABELS" />
             </Maps>
         </Position>
         <Position Name="MMCZ" Type="ASMGCS" ASMGCSAirport="MMCZ" DefaultCenter="+203132.271-0865526.386" DefaultRange="3" MagneticVariation="+2" Rotation="332">
@@ -1311,8 +1311,8 @@
                 <Sector Name="CTTW1" />
             </Sectors>
             <Maps>
-                <Map Name="ATZ Chichen Itza/Aeropuerto - Pistas" />
-                <Map Name="ATZ Chichen Itza/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="CTR Chichen Itza/Aeropuerto - Pistas" />
+                <Map Name="CTR Chichen Itza/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
@@ -1722,7 +1722,7 @@
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
 
-                <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS X" />
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
@@ -1758,7 +1758,7 @@
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
 
-                <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+                <Map Name="TMA Cancun/MMUN - Pista 12R - ILS X" />
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
@@ -1794,7 +1794,7 @@
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
 
-                <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+                <Map Name="TMA Cancun/MMUN - Pista 12R - ILS X" />
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
@@ -1830,7 +1830,7 @@
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
 
-                <Map Name="TMA Cancun/MMUN - Pistas 12 - ILS DME 4 12R" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS X" />
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
@@ -1871,7 +1871,7 @@
 
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV" />
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS DME 3" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS X" />
                 <Map Name="TMA Cancun/MMUN - Pista 12R - Salidas RNAV" />
                 <Map Name="TMA Cancun/MMUN - Pista 12R - Salidas RNAV (Nombres)" />
 
@@ -1904,6 +1904,48 @@
                 <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Aproximación Final Cancún - UNFNA" Type="ASD" DefaultCenter="+21.025000-086.858611" DefaultRange="90" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="false">
+            <Sectors>
+                <Sector Name="UNFNA" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA) Final 12" />                
+                <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+
+                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS X" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+                <Window Airport="MMUN" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="24000">
+                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+            </CFL>
+            <ArrivalLists>
+                <Airport Name="MMUN" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Aproximacion Final Cancun / Cancun Final Approach</Line>
+                <Line>Serving MMUN arrivals</Line>
+                <Line>ATIS available on 127.700</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+213915.943-0875358.220</Point>
+                <Point>+210210.428-0865212.944</Point>
+                <Point>+203028.963-0865441.589</Point>
+            </ManualVisibility>
+        </Position>
         <Position Name="Aproximación Cancún (Llegadas) - UNARR" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNARR" />
@@ -1917,7 +1959,7 @@
 
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV" />
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS DME 3" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS X" />
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
@@ -1991,6 +2033,51 @@
                 <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Aproximación Cancún (Llegadas Sur) - UNARS" Type="ASD" DefaultCenter="+20.507500-086.911945" DefaultRange="280" MagneticVariation="+2" VisibilityRange="100">
+            <Sectors>
+                <Sector Name="UNARS" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
+                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA) Llegadas S" />                
+                <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+                <Map Name="TMA Cancun/MMCZ - Zona de Control (CTR)" />
+                <Map Name="TMA Cancun/MMTL - Zona de Control (CTR)" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS X" />
+                <Map Name="TMA Cancun/MMUN - Pista 12R - Salidas RNAV" />
+                <Map Name="TMA Cancun/MMUN - Pista 12R - Salidas RNAV (Nombres)" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
+                <Window Airport="MMUN" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="24000">
+                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+            </CFL>
+            <ArrivalLists>
+                <Airport Name="MMUN" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Llegadas Sur Cancun / Cancun South Arrivals</Line>
+                <Line>Serving MMUN arrivals</Line>
+                <Line>ATIS available on 127.700</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+213915.943-0875358.220</Point>
+                <Point>+210210.428-0865212.944</Point>
+                <Point>+203028.963-0865441.589</Point>
+            </ManualVisibility>
+        </Position>        
 
         <!-- TMA Villahermosa -->
         <Position Name="Torre Villahermosa - VATW1" Type="ASD" DefaultCenter="+175949.261-0924853.333" DefaultRange="40" MagneticVariation="-2">
