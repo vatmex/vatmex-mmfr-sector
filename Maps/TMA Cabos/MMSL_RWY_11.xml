@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMSL - Pista 11 - Llegadas RNAV" Priority="1" Center="+225653.965-1095617.973">
-        <Line Name="ENEKO1D" Pattern="Dotted">ENEKO/MARUX/DASON/SL404/SL400/AVURU/SL406/TESAC/SL800</Line>
-        <Line Name="ALRIN1H" Pattern="Dotted">ALRIN/SD403/DASON</Line>
-        <Line Name="LEPOM1D" Pattern="Dotted">LEPOM/GOSIM/SL405/DASON</Line>
-        <Line Name="ILIGA1F" Pattern="Dotted">ILIGA/SL402/SL420/TESAC</Line>
+        <Line Name="ENEKO1D" Pattern="Dashed">ENEKO/MARUX/DASON/SL404/SL400/AVURU/SL406/TESAC/SL800</Line>
+        <Line Name="ALRIN1H" Pattern="Dashed">ALRIN/SD403/DASON</Line>
+        <Line Name="LEPOM1D" Pattern="Dashed">LEPOM/GOSIM/SL405/DASON</Line>
+        <Line Name="ILIGA1F" Pattern="Dashed">ILIGA/SL402/SL420/TESAC</Line>
         <Symbol Type="SolidTriangle">
             <Point>ALRIN</Point>
             <Point>DASON</Point>
