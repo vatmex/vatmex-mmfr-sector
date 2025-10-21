@@ -1247,25 +1247,29 @@
         <Airport Name="MMSL">
             <Runway Name="11" DataRunway="11">
                 <SID Name="CSL3A" Default="True" />
-                <SID Name="ALRI1C" />
-                <SID Name="ANEG1C" />
+                <SID Name="ALRI2C" />
                 <SID Name="AVAV1D" />
                 <SID Name="DUVIT2" />
-                <SID Name="ILIG1C" />
+                <SID Name="ILIG2C" />
                 <SID Name="SJD2D" />
                 <SID Name="SJD4C" />
-                <SID Name="UKUX1C" />
+                <SID Name="UKUX2C" />
+                <SID Name="URLE1A" />
+                <STAR Name="ALRI1H" ApproachName="RNP11.SL800" />
+                <STAR Name="ENEK1D" ApproachName="RNP11.SL800" />
+                <STAR Name="ILIG1F" ApproachName="RNP11.SL800" />
+                <STAR Name="LEPO1D" ApproachName="RNP11.SL800" />
             </Runway>
             <Runway Name="29" DataRunway="29">
                 <SID Name="CSL3B" Default="True" />
                 <SID Name="ALRI1D" />
-                <SID Name="ANEG1D" />
                 <SID Name="ATUMI2" />
                 <SID Name="AVAV1E" />
-                <SID Name="ILIG1D" />
+                <SID Name="ILIG2D" />
                 <SID Name="LETAT2" />
                 <SID Name="SJD2E" />
                 <SID Name="UKUX1D" />
+                <SID Name="URLE1B" />
                 <STAR Name="ALRI1G" ApproachName="RNP29.TESAC" />
                 <STAR Name="CSL3" />
                 <STAR Name="ENEK1C" ApproachName="RNP29.TESAC" />
@@ -8918,17 +8922,11 @@
         <SID Name="CSL3B" Airport="MMSL" Runways="29">
             <Route Runway="29">CSL</Route>
         </SID>
-        <SID Name="ALRI1C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL502 SL504 AVAVU SD507 SD508 SD403 ALRIN</Route>
+        <SID Name="ALRI2C" Airport="MMSL" Runways="11">
+            <Route Runway="11">SL805 SL510 SL512 SL514 SL504 AVAVU SD507 SD508 SD403 ALRIN</Route>
         </SID>
         <SID Name="ALRI1D" Airport="MMSL" Runways="29">
             <Route Runway="29">SL500 SL503 SL502 SL504 AVAVU SD507 SD508 SD403 ALRIN</Route>
-        </SID>
-        <SID Name="ANEG1C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL600 LETAT ANEGO</Route>
-        </SID>
-        <SID Name="ANEG1D" Airport="MMSL" Runways="29">
-            <Route Runway="29">SL500 LETAT ANEGO</Route>
         </SID>
         <SID Name="ATUMI2" Airport="MMSL" Runways="29">
             <Route Runway="29">ATUMI</Route>
@@ -8942,11 +8940,11 @@
         <SID Name="DUVIT2" Airport="MMSL" Runways="11">
             <Route Runway="11">DUVIT</Route>
         </SID>
-        <SID Name="ILIG1C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL502 SL501 ILIGA</Route>
+        <SID Name="ILIG2C" Airport="MMSL" Runways="11">
+            <Route Runway="11">SL805 SL510 SL512 SL520 ILIGA</Route>
         </SID>
-        <SID Name="ILIG1D" Airport="MMSL" Runways="29">
-            <Route Runway="29">>SL500 SL503 SL502 SL501 ILIGA</Route>
+        <SID Name="ILIG2D" Airport="MMSL" Runways="29">
+            <Route Runway="29">>SL500 SL503 SL502 SL512 SL520 ILIGA</Route>
         </SID>
         <SID Name="LETAT2" Airport="MMSL" Runways="29">
             <Route Runway="29">LETAT</Route>
@@ -8960,14 +8958,23 @@
         <SID Name="SJD2E" Airport="MMSL" Runways="29">
             <Route Runway="29">SJD</Route>
         </SID>
-        <SID Name="UKUX1C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL502 SL504 AVAVU UKUXA</Route>
+        <SID Name="UKUX2C" Airport="MMSL" Runways="11">
+            <Route Runway="11">SL805 SL510 SL512 SL514 SL504 AVAVU UKUXA</Route>
         </SID>
         <SID Name="UKUX1D" Airport="MMSL" Runways="29">
             <Route Runway="29">>SL500 SL503 SL502 SL504 AVAVU UKUXA</Route>
         </SID>
+        <SID Name="URLE1A" Airport="MMSL" Runways="11">
+            <Route Runway="11">SL805 SL540 SL530 SL531 LETAT URLET</Route>
+        </SID>
+        <SID Name="URLE1B" Airport="MMSL" Runways="29">
+            <Route Runway="29">SL500 LETAT URLET</Route>
+        </SID>
         <STAR Name="ALRI1G" Airport="MMSL" Runways="29">
             <Route Runway="29">ALRIN SD403 DASON SL404 SL400 AVURU SL406 TESAC</Route>
+        </STAR>
+        <STAR Name="ALRI1H" Airport="MMSL" Runways="11">
+            <Route Runway="11">ALRIN SD403 DASON SL404 SL400 AVURU SL406 TESAC SL800</Route>
         </STAR>
         <STAR Name="CSL3" Airport="MMSL" Runways="29">
             <Route Runway="29">SJD CSL</Route>
@@ -8975,12 +8982,24 @@
         <STAR Name="ENEK1C" Airport="MMSL" Runways="29">
             <Route Runway="29">ENEKO MARUX DASON SL404 SL400 AVURU SL406 TESAC</Route>
         </STAR>
+        <STAR Name="ENEK1D" Airport="MMSL" Runways="11">
+            <Route Runway="11">ENEKO MARUX DASON SL404 SL400 AVURU SL406 TESAC SL800</Route>
+        </STAR>
         <STAR Name="ILIG1E" Airport="MMSL" Runways="29">
             <Route Runway="29">ILIGA SL402 TESAC</Route>
+        </STAR>
+        <STAR Name="ILIG1F" Airport="MMSL" Runways="11">
+            <Route Runway="11">ILIGA SL402 SL420 TESAC SL800</Route>
         </STAR>
         <STAR Name="LEPO1C" Airport="MMSL" Runways="29">
             <Route Runway="29">LEPOM GOSIM SL405 DASON SL404 SL400 AVURU SL406 TESAC</Route>
         </STAR>
+        <STAR Name="LEPO1D" Airport="MMSL" Runways="11">
+            <Route Runway="11">LEPOM GOSIM SL405 DASON SL404 SL400 AVURU SL406 TESAC SL800</Route>
+        </STAR>
+        <Approach Name="RNP11.SL800" Airport="MMSL" Runway="11">
+            <Route>SL800 SL802 SL803 SL804 SL820</Route>
+        </Approach>
         <Approach Name="RNP29.TESAC" Airport="MMSL" Runway="29">
             <Route>TESAC SL702 SL701 SL700</Route>
         </Approach>
