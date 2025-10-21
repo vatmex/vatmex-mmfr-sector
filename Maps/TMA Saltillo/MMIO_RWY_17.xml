@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="Pista 17 - Llegadas RNAV" Priority="1" Center="+253259.232-1005542.074">
+        <Line Name="RAILY1A" Pattern="Dashed">
+            RAILY/VOLIK/IO600/IO405/ILOKA
+        </Line>
+        <Line Name="FLANE1A" Pattern="Dashed">
+            FLANE/OMEVO/VOLIK
+        </Line>
+        <Line Name="BEROS1A" Pattern="Dashed">
+            BEROS/OMEVO
+        </Line>
+        <Line Name="OMIXA1A" Pattern="Dashed">
+            OMIXA/IO405
+        </Line>
+        <Line Name="NOVUL1A" Pattern="Dashed">
+            NOVUL/KEMTA
+        </Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BEROS</Point>
+            <Point>FLANE</Point>
+            <Point>OMIXA</Point>
+            <Point>NOVUL</Point>
+            <Point>OMEVO</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>RAILY</Point>
+            <Point>VOLIK</Point>
+            <Point>IO600</Point>
+            <Point>IO405</Point>
+            <Point>ILOKA</Point>
+            <Point>KEMTA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 17 - Llegadas RNAV (Nombres)" Priority="1" Center="+253259.232-1005542.074">
+        <Label HasLeader="false">
+            <Point>NOVUL</Point>
+            <Point>OMIXA</Point>
+            <Point>BEROS</Point>
+            <Point>FLANE</Point>
+            <Point>RAILY</Point>
+            <Point>ILOKA</Point>
+            <Point>KEMTA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 17 - ILS W 17" Priority="1" Center="+253259.232-1005542.074">
+        <Line Pattern="Solid">
+            IO506/+253131.702-1005541.958
+        </Line>
+        <Line Pattern="Solid">
+            ILOKA/IO506
+        </Line>
+        <Line Pattern="Solid">
+            KEMTA/IO506
+        </Line>
+        <Symbol Type="HollowStar">
+            <Point>KEMTA</Point>
+            <Point>ILOKA</Point>
+            <Point>IO506</Point>
+            <Point>IO900</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 17 - Salidas RNAV" Priority="1" Center="+253259.232-1005542.074">
+        <Line Name="HERTY1A" Pattern="Dotted">
+            +253131.702-1005541.958/IO500/IO801/IO805/IO806/HERTY
+        </Line>
+        <Line Name="RABAX1A" Pattern="Dotted">
+            IO805/RABAX
+        </Line>
+        <Line Name="VOLIS1A" Pattern="Dotted">
+            IO801/VOLIS
+        </Line>
+        <Line Name="ELERA1" Pattern="Dotted">
+            IO500/IO802/IO803/ELERA
+        </Line>
+        <Symbol Type="SolidTriangle">
+            <Point>HERTY</Point>
+            <Point>RABAX</Point>
+            <Point>VOLIS</Point>
+            <Point>ELERA</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>IO500</Point>
+            <Point>IO801</Point>
+            <Point>IO802</Point>
+            <Point>IO803</Point>
+            <Point>IO805</Point>
+            <Point>IO806</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 17 - Salidas RNAV (Nombres)" Priority="1" Center="+253259.232-1005542.074">
+        <Label HasLeader="false">
+            <Point>ELERA</Point>
+            <Point>VOLIS</Point>
+            <Point>RABAX</Point>
+            <Point>HERTY</Point>
+        </Label>
+    </Map>
+</Maps>
