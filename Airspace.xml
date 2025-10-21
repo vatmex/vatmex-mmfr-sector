@@ -53,10 +53,10 @@
                 <SID Name="DAJO2D" />
                 <SID Name="GRAL2D" />
                 <SID Name="KERG2D" />
-                <STAR Name="ITPI1C" ApproachName="ILS283.DUXAM" />
-                <STAR Name="NOTA1C" ApproachName="ILS283.OBNIN" />
-                <STAR Name="RETO1C" ApproachName="ILS283.DUXAM" />
-                <STAR Name="SLW1D" ApproachName="ILS283.DUXAM" />
+                <STAR Name="ITPI1C" ApproachName="ILS20X.DUXAM" />
+                <STAR Name="NOTA1C" ApproachName="ILS20X.OBNIN" />
+                <STAR Name="RETO1C" ApproachName="ILS20X.DUXAM" />
+                <STAR Name="SLW1D" ApproachName="ILS20X.DUXAM" />
             </Runway>
         </Airport>
         <Airport Name="MMAS">
@@ -6052,10 +6052,10 @@
         <STAR Name="SLW1D" Airport="MMAN" Runways="20">
             <Route Runway="20">SLW ESRAP WICLO MISUL SUTNA ENTRI SIKRO DUXAM</Route>
         </STAR>
-        <Approach Name="ILS203.OBNIN" Airport="MMAA" Runway="20">
+        <Approach Name="ILS20X.OBNIN" Airport="MMAN" Runway="20">
             <Route>OBNIN AN900 AN807</Route>
         </Approach>
-        <Approach Name="ILS203.DUXAM" Airport="MMAA" Runway="20">
+        <Approach Name="ILS20X.DUXAM" Airport="MMAN" Runway="20">
             <Route>DUXAM AN900 AN807</Route>
         </Approach>
         <!--MMAS-->
