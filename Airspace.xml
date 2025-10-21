@@ -152,7 +152,7 @@
         </Airport>
         <Airport Name="MMCL">
             <Runway Name="03" DataRunway="03">
-                <SID Name="CUL3A" Default="True" />
+                <SID Name="CUL1A" Default="True" />
                 <SID Name="AVTA1A" />
                 <SID Name="BOKT1A" />
                 <SID Name="ELEG1A" />
@@ -161,7 +161,7 @@
                 <SID Name="KIPA1A" />
                 <SID Name="LIDIK1" />
                 <SID Name="MUVE1A" />
-                <SID Name="OLEX3A" />
+                <SID Name="OLEX1A" />
                 <SID Name="PELSA1" />
                 <SID Name="XUKMA1" />
                 <STAR Name="AMED1A" ApproachName="RNP03.USDAP" />
@@ -6303,10 +6303,10 @@
         <SID Name="LIDIK1" Airport="MMCL" Runways="03">
             <Route Runway="03">LIDIK</Route>
         </SID>
-        <SID Name="OLEX3A" Airport="MMCL" Runways="03">
+        <SID Name="OLEX1A" Airport="MMCL" Runways="03">
             <Route Runway="03">OLEXU</Route>
         </SID>
-        <SID Name="CUL3A" Airport="MMCL" Runways="03">
+        <SID Name="CUL1A" Airport="MMCL" Runways="03">
             <Route Runway="03">CUL</Route>
         </SID>
         <!-- MMCL-SID-2 -->
