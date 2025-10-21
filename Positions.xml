@@ -1073,12 +1073,12 @@
         </Position>
         <Position Name="MMCP" Type="ASMGCS" ASMGCSAirport="MMCP" DefaultCenter="+194901.050-0903001.770" DefaultRange="3" MagneticVariation="-1" Rotation="285">
             <Maps>
-                <Map Name="ATZ Campeche/ASMGCS_MMCP_RWY" />
-                <Map Name="ATZ Campeche/ASMGCS_MMCP_APR" />
-                <Map Name="ATZ Campeche/ASMGCS_MMCP_TWY" />
-                <Map Name="ATZ Campeche/ASMGCS_MMCP_BLD" />
-                <Map Name="ATZ Campeche/ASMGCS_MMCP_LABELS" />
-                <Map Name="ATZ Campeche/ASMGCS_MMCP_GATES" />
+                <Map Name="CTR Campeche/ASMGCS_MMCP_RWY" />
+                <Map Name="CTR Campeche/ASMGCS_MMCP_APR" />
+                <Map Name="CTR Campeche/ASMGCS_MMCP_TWY" />
+                <Map Name="CTR Campeche/ASMGCS_MMCP_BLD" />
+                <Map Name="CTR Campeche/ASMGCS_MMCP_LABELS" />
+                <Map Name="CTR Campeche/ASMGCS_MMCP_GATES" />
             </Maps>
         </Position>
         <Position Name="MMCT" Type="ASMGCS" ASMGCSAirport="MMCT" DefaultCenter="+203828.510-0882654.000" DefaultRange="2" MagneticVariation="+1" Rotation="349">
@@ -1280,14 +1280,14 @@
             </ControllerInfo>
         </Position>
 
-        <!-- ATZ Campeche -->
-        <Position Name="Torre Campeche - CPTW1" Type="ASD" DefaultCenter="+194900.500-0903001.109" DefaultRange="20" MagneticVariation="-1">
+        <!-- CTR Campeche -->
+        <Position Name="Torre Campeche - CPTW1" Type="ASD" DefaultCenter="+194900.500-0903001.109" DefaultRange="40" MagneticVariation="-1">
             <Sectors>
                 <Sector Name="CPTW1" />
             </Sectors>
             <Maps>
-                <Map Name="ATZ Campeche/Aeropuerto - Pistas" />
-                <Map Name="ATZ Campeche/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="CTR Campeche/Aeropuerto - Pistas" />
+                <Map Name="CTR Campeche/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
