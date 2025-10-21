@@ -82,11 +82,11 @@
         </Position>
         <Position Name="MMLT" Type="ASMGCS" ASMGCSAirport="MMLT" DefaultCenter="+255923.160-1112059.450" DefaultRange="2" MagneticVariation="-9" Rotation="287">
             <Maps>
-                <Map Name="ATZ Loreto/ASMGCS_MMLT_RWY" />
-                <Map Name="ATZ Loreto/ASMGCS_MMLT_APR" />
-                <Map Name="ATZ Loreto/ASMGCS_MMLT_TWY" />
-                <Map Name="ATZ Loreto/ASMGCS_MMLT_BLD" />
-                <Map Name="ATZ Loreto/ASMGCS_MMLT_LABELS" />
+                <Map Name="CTR Loreto/ASMGCS_MMLT_RWY" />
+                <Map Name="CTR Loreto/ASMGCS_MMLT_APR" />
+                <Map Name="CTR Loreto/ASMGCS_MMLT_TWY" />
+                <Map Name="CTR Loreto/ASMGCS_MMLT_BLD" />
+                <Map Name="CTR Loreto/ASMGCS_MMLT_LABELS" />
             </Maps>
         </Position>
         <Position Name="MMML" Type="ASMGCS" ASMGCSAirport="MMML" DefaultCenter="+323746.960-1151431.150" DefaultRange="2" MagneticVariation="-13" Rotation="345">
@@ -474,14 +474,14 @@
             </ManualVisibility>
         </Position>
 
-        <!-- ATZ Loreto -->
-        <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="40" MagneticVariation="-9">
+        <!-- CTR Loreto -->
+        <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="55" MagneticVariation="-9">
             <Sectors>
                 <Sector Name="LTTW1" />
             </Sectors>
             <Maps>
-                <Map Name="ATZ Loreto/Aeropuerto - Pistas" />
-                <Map Name="ATZ Loreto/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="CTR Loreto/Aeropuerto - Pistas" />
+                <Map Name="CTR Loreto/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
