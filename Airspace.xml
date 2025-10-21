@@ -1505,8 +1505,8 @@
                 <SID Name="TUMA2B" />
                 <SID Name="UDMO1B" />
                 <SID Name="ULDU1B" />
-                <STAR Name="TANR1B" ApproachName="RNP27.ULDUD" />
-                <STAR Name="TOVE2B" ApproachName="RNP27.KREPE" />
+                <STAR Name="TANR1B" ApproachName="RNP27Z.ULDUD" />
+                <STAR Name="TOVE2B" ApproachName="RNP27Z.KREPE" />
             </Runway>
         </Airport>
         <Airport Name="MMTM">
@@ -9604,10 +9604,10 @@
         <Approach Name="ILS09X.TUBUS" Airport="MMTJ" Runway="09">
             <Route>TUBUS TJ423 TJ402 TJ414 TJ415 TJ416</Route>
         </Approach>
-        <Approach Name="RNP27.KREPE" Airport="MMTJ" Runway="27">
+        <Approach Name="RNP27Z.KREPE" Airport="MMTJ" Runway="27">
             <Route>KREPE TJ556 TJ563 TJ745 TJ557 TL560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
         </Approach>
-        <Approach Name="RNP27.ULDUD" Airport="MMTJ" Runway="27">
+        <Approach Name="RNP27Z.ULDUD" Airport="MMTJ" Runway="27">
             <Route>ULDUD TJ557 TL560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
         </Approach>
         <!-- *********** MMEP *********** -->
