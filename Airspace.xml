@@ -294,15 +294,15 @@
                 <SID Name="ULURO3" />
                 <SID Name="URPAV3" />
                 <SID Name="VIKMU3" />
-                <STAR Name="BOKM1D" ApproachName="ILS36R4.BESUD" />
-                <STAR Name="KIPA1D" ApproachName="ILS36R4.GADIK" />
-                <STAR Name="LENE2B" ApproachName="ILS36R4.GADIK" />
-                <STAR Name="OTOS1D" ApproachName="ILS36R4.AMURU" />
-                <STAR Name="SINL2B" ApproachName="ILS36R4.GADIK" />
-                <STAR Name="TATG1C" ApproachName="ILS36R4.AMURU" />
-                <STAR Name="UMED1B" ApproachName="ILS36R4.AMURU" />
-                <STAR Name="VIXE1B" ApproachName="ILS36R4.AMURU" />
-                <STAR Name="VOMA2B" ApproachName="ILS36R4.GADIK" />
+                <STAR Name="BOKM1D" ApproachName="ILS36RW.BESUD" />
+                <STAR Name="KIPA1D" ApproachName="ILS36RW.GADIK" />
+                <STAR Name="LENE2B" ApproachName="ILS36RW.GADIK" />
+                <STAR Name="OTOS1D" ApproachName="ILS36RW.AMURU" />
+                <STAR Name="SINL2B" ApproachName="ILS36RW.GADIK" />
+                <STAR Name="TATG1C" ApproachName="ILS36RW.AMURU" />
+                <STAR Name="UMED1B" ApproachName="ILS36RW.AMURU" />
+                <STAR Name="VIXE1B" ApproachName="ILS36RW.AMURU" />
+                <STAR Name="VOMA2B" ApproachName="ILS36RW.GADIK" />
             </Runway>
         </Airport>
         <Airport Name="MMCV">
@@ -6670,13 +6670,13 @@
         <Approach Name="RNP18L.RIBAD" Airport="MMCU" Runway="18L">
             <Route>RIBAD CU501 CU500 CU550</Route>
         </Approach>
-        <Approach Name="ILS36R4.AMURU" Airport="MMCU" Runway="36R">
+        <Approach Name="ILS36RW.AMURU" Airport="MMCU" Runway="36R">
             <Route>AMURU CU403 CU401 CU400</Route>
         </Approach>
-        <Approach Name="ILS36R4.BESUD" Airport="MMCU" Runway="36R">
+        <Approach Name="ILS36RW.BESUD" Airport="MMCU" Runway="36R">
             <Route>BESUD CU405 CU401 CU400</Route>
         </Approach>
-        <Approach Name="ILS36R4.GADIK" Airport="MMCU" Runway="36R">
+        <Approach Name="ILS36RW.GADIK" Airport="MMCU" Runway="36R">
             <Route>GADIK CU401 CU400</Route>
         </Approach>
         <!--MMCV-->
