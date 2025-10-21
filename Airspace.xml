@@ -1015,11 +1015,11 @@
                 <SID Name="RUDM1A" />
                 <SID Name="SASE1A" />
                 <SID Name="XOVES3" />
-                <STAR Name="EMPI1A" ApproachName="ILS143.IRDAN" />
-                <STAR Name="ILIG1A" ApproachName="ILS143.IRDAN" />
-                <STAR Name="MATU1A" ApproachName="ILS143.IRDAN" />
-                <STAR Name="RUDM1C" ApproachName="ILS143.IRDAN" />
-                <STAR Name="USBA1A" ApproachName="ILS143.IRDAN" />
+                <STAR Name="EMPI1A" ApproachName="ILS14X.IRDAN" />
+                <STAR Name="ILIG1A" ApproachName="ILS14X.IRDAN" />
+                <STAR Name="MATU1A" ApproachName="ILS14X.IRDAN" />
+                <STAR Name="RUDM1C" ApproachName="ILS14X.IRDAN" />
+                <STAR Name="USBA1A" ApproachName="ILS14X.IRDAN" />
             </Runway>
             <Runway Name="32" DataRunway="32">
                 <SID Name="NLD2B" Default="True" />
@@ -8450,7 +8450,7 @@
         <STAR Name="USBA1B" Airport="MMNL" Runways="32">
             <Route Runway="32">USBAR NL710 MEKSA ITREB</Route>
         </STAR>
-        <Approach Name="ILS143.IRDAN" Airport="MMNL" Runway="14">
+        <Approach Name="ILS14X.IRDAN" Airport="MMNL" Runway="14">
             <Route>IRDAN NL401 NL400</Route>
         </Approach>
         <Approach Name="RNP32.VINBO" Airport="MMNL" Runway="32">
