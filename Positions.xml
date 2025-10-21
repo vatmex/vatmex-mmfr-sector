@@ -535,15 +535,13 @@
         </Position>
 
         <!-- TMA Mazatlan -->
-        <Position Name="Torre Mazatlan - MZTW1" Type="ASD" DefaultCenter="+230927.423-1061621.931" DefaultRange="50" MagneticVariation="-7">
+        <Position Name="Torre Mazatlan - MZTW1" Type="ASD" DefaultCenter="+230927.423-1061621.931" DefaultRange="60" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="MZTW1" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mazatlan/Aeropuerto - Pistas" />
                 <Map Name="TMA Mazatlan/Aeropuerto - Zona de Control (CTR)" />
-
-                <Map Name="TMA Mazatlan/Pista 05 - RNP 05" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
