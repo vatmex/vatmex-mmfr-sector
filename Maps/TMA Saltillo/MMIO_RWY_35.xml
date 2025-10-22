@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="Pista 35 - Llegadas RNAV" Priority="1" Center="+253259.232-1005542.074">
+        <Line Name="FLANE1B" Pattern="Dashed">
+            FLANE/OMEVO/VOLIK
+        </Line>
+        <Line Name="BEROS1B" Pattern="Dashed">
+            BEROS/OMEVO
+        </Line>
+        <Line Name="RAILY1B" Pattern="Dashed">
+            RAILY/VOLIK
+        </Line>
+        <Line Name="NOVUL2C" Pattern="Dashed">
+            NOVUL/IO407/IO401/IO405/ALTUM
+        </Line>
+        <Line Name="OMIXA1B" Pattern="Dashed">
+            OMIXA/IO406/IO405
+        </Line>
+        <Symbol Type="SolidTriangle">
+            <Point>NOVUL</Point>
+            <Point>OMIXA</Point>
+            <Point>FLANE</Point>
+            <Point>BEROS</Point>
+            <Point>OMEVO</Point>            
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>RAILY</Point>
+            <Point>VOLIK</Point>
+            <Point>IO407</Point>
+            <Point>IO401</Point>
+            <Point>IO405</Point>
+            <Point>IO406</Point>
+            <Point>ALTUM</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 35 - Llegadas RNAV (Nombres)" Priority="1" Center="+253259.232-1005542.074">
+        <Label HasLeader="false">
+            <Point>BEROS</Point>
+            <Point>FLANE</Point>
+            <Point>RAILY</Point>
+            <Point>OMIXA</Point>
+            <Point>NOVUL</Point>
+            <Point>ALTUM</Point>
+            <Point>VOLIK</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Pista 35 - RNP 35" Priority="1" Center="+253259.232-1005542.074">
+        <Line Pattern="Solid">VOLIK/IO600/IO504/IO502/IO501/IO500/+253131.702-1005541.958</Line>
+        <Line Pattern="Solid">ALTUM/IO503/IO501</Line>
+        <Symbol Type="HollowStar">
+            <Point>ALTUM</Point>
+            <Point>VOLIK</Point>
+            <Point>IO600</Point>
+            <Point>IO504</Point>
+            <Point>IO502</Point>
+            <Point>IO501</Point>
+            <Point>IO500</Point>
+            <Point>IO503</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 35 - Salidas RNAV" Priority="1" Center="+253259.232-1005542.074">
+        <Line Name="VOLIS1B" Pattern="Dotted">
+            +253305.364-1005542.079/IO700/IO703/IO704/IO705/VOLIS
+        </Line>
+        <Line Name="RABAX1B" Pattern="Dotted">
+            IO703/RABAX
+        </Line>
+        <Line Name="HERTY1B" Pattern="Dotted">
+            IO700/IO701/HERTY
+        </Line>
+        <Line Name="LIRGA1" Pattern="Dotted">
+            IO701/LIRGA
+        </Line>
+        <Symbol Type="SolidTriangle">
+            <Point>HERTY</Point>
+            <Point>LIRGA</Point>
+            <Point>VOLIS</Point>
+            <Point>RABAX</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>IO700</Point>
+            <Point>IO701</Point>
+            <Point>IO703</Point>
+            <Point>IO704</Point>
+            <Point>IO705</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="Pista 35 - Salidas RNAV (Nombres)" Priority="1" Center="+253259.232-1005542.074">
+        <Label HasLeader="false">
+            <Point>HERTY</Point>
+            <Point>RABAX</Point>
+            <Point>LIRGA</Point>
+            <Point>VOLIS</Point>
+        </Label>
+    </Map>
+</Maps>

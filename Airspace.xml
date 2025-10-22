@@ -595,11 +595,11 @@
                 <SID Name="RABA1A" />
                 <SID Name="SIGDO2" />
                 <SID Name="VOLI1A" />
-                <STAR Name="BERO1A" ApproachName="ILS174.ILOKA" />
-                <STAR Name="FLAN1A" ApproachName="ILS174.ILOKA" />
-                <STAR Name="NOVU1B" ApproachName="ILS174.KEMTA" />
-                <STAR Name="OMIX1A" ApproachName="ILS174.ILOKA" />
-                <STAR Name="RAIL1A" ApproachName="ILS174.ILOKA" />
+                <STAR Name="BERO1A" ApproachName="ILS17W.ILOKA" />
+                <STAR Name="FLAN1A" ApproachName="ILS17W.ILOKA" />
+                <STAR Name="NOVU1B" ApproachName="ILS17W.KEMTA" />
+                <STAR Name="OMIX1A" ApproachName="ILS17W.ILOKA" />
+                <STAR Name="RAIL1A" ApproachName="ILS17W.ILOKA" />
             </Runway>
             <Runway Name="35" DataRunway="35">
                 <SID Name="SLW1A" Default="True" />
@@ -7393,10 +7393,10 @@
         <STAR Name="RAIL1B" Airport="MMIO" Runways="35">
             <Route Runway="35">RAILY VOLIK</Route>
         </STAR>
-        <Approach Name="ILS174.ILOKA" Airport="MMIO" Runway="17">
+        <Approach Name="ILS17W.ILOKA" Airport="MMIO" Runway="17">
             <Route>ILOKA IO506 IO900</Route>
         </Approach>
-        <Approach Name="ILS174.KEMTA" Airport="MMIO" Runway="17">
+        <Approach Name="ILS17W.KEMTA" Airport="MMIO" Runway="17">
             <Route>KEMTA IO506 IO900</Route>
         </Approach>
         <Approach Name="RNP35.VOLIK" Airport="MMIO" Runway="35">
