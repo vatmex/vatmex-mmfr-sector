@@ -1083,11 +1083,11 @@
         </Position>
         <Position Name="MMCT" Type="ASMGCS" ASMGCSAirport="MMCT" DefaultCenter="+203828.510-0882654.000" DefaultRange="2" MagneticVariation="+1" Rotation="349">
             <Maps>
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_RWY" />
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_APR" />
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_TWY" />
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_BLD" />
-                <Map Name="ATZ Chichen Itza/ASMGCS_MMCT_LABELS" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_RWY" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_APR" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_TWY" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_BLD" />
+                <Map Name="CTR Chichen Itza/ASMGCS_MMCT_LABELS" />
             </Maps>
         </Position>
         <Position Name="MMCZ" Type="ASMGCS" ASMGCSAirport="MMCZ" DefaultCenter="+203132.271-0865526.386" DefaultRange="3" MagneticVariation="+2" Rotation="332">
@@ -1304,13 +1304,13 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre Chichen-Itza - CTTW1" Type="ASD" DefaultCenter="+203828.823-0882646.381" DefaultRange="20" MagneticVariation="+1">
+        <Position Name="Torre Chichen-Itza - CTTW1" Type="ASD" DefaultCenter="+203828.823-0882646.381" DefaultRange="22" MagneticVariation="+1">
             <Sectors>
                 <Sector Name="CTTW1" />
             </Sectors>
             <Maps>
-                <Map Name="ATZ Chichen Itza/Aeropuerto - Pistas" />
-                <Map Name="ATZ Chichen Itza/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="CTR Chichen Itza/Aeropuerto - Pistas" />
+                <Map Name="CTR Chichen Itza/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
