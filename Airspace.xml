@@ -15,9 +15,9 @@
                 <SID Name="OMVI1A" />
                 <SID Name="SELIS3" />
                 <SID Name="TEXC3A" />
-                <STAR Name="ANAL1A" ApproachName="ILS103.APREN" />
-                <STAR Name="ANVA1A" ApproachName="ILS103.ATUMU" />
-                <STAR Name="AVUR1A" ApproachName="ILS103.APLUR" />
+                <STAR Name="ANAL1A" ApproachName="ILS10X.APREN" />
+                <STAR Name="ANVA1A" ApproachName="ILS10X.ATUMU" />
+                <STAR Name="AVUR1A" ApproachName="ILS10X.APLUR" />
             </Runway>
             <Runway Name="24" DataRunway="24">
                 <SID Name="ACA5D" />
@@ -32,9 +32,9 @@
                 <SID Name="OMVI2B" />
                 <SID Name="TEXC3B" />
                 <SID Name="VIDRU2" />
-                <STAR Name="ANAL1B" ApproachName="ILS283.ITRAM" />
-                <STAR Name="ANVA1B" ApproachName="ILS283.AVRIM" />
-                <STAR Name="AVUR1B" ApproachName="ILS283.ITRAM" />
+                <STAR Name="ANAL1B" ApproachName="ILS28X.ITRAM" />
+                <STAR Name="ANVA1B" ApproachName="ILS28X.AVRIM" />
+                <STAR Name="AVUR1B" ApproachName="ILS28X.ITRAM" />
             </Runway>
         </Airport>
         <Airport Name="MMAN">
@@ -5982,22 +5982,22 @@
         <STAR Name="AVUR1B" Airport="MMAA" Runways="28">
             <Route Runway="28">AVURO AA409 AA505 ITRAM</Route>
         </STAR>
-        <Approach Name="ILS103.APREN" Airport="MMAA" Runway="10">
+        <Approach Name="ILS10X.APREN" Airport="MMAA" Runway="10">
             <Route>APREN AA403 AA401</Route>
         </Approach>
-        <Approach Name="ILS103.APLUR" Airport="MMAA" Runway="10">
+        <Approach Name="ILS10X.APLUR" Airport="MMAA" Runway="10">
             <Route>APLUR AA403 AA401</Route>
         </Approach>
-        <Approach Name="ILS103.ATUMU" Airport="MMAA" Runway="10">
+        <Approach Name="ILS10X.ATUMU" Airport="MMAA" Runway="10">
             <Route>ATUMU AA403 AA401</Route>
         </Approach>
-        <Approach Name="ILS283.ITRAM" Airport="MMAA" Runway="28">
+        <Approach Name="ILS28X.ITRAM" Airport="MMAA" Runway="28">
             <Route>ITRAM AA501 AA500</Route>
         </Approach>
-        <Approach Name="ILS283.AVRIM" Airport="MMAA" Runway="28">
+        <Approach Name="ILS28X.AVRIM" Airport="MMAA" Runway="28">
             <Route>AVRIM AA501 AA500</Route>
         </Approach>
-        <Approach Name="ILS283.AVSIX" Airport="MMAA" Runway="28">
+        <Approach Name="ILS28X.AVSIX" Airport="MMAA" Runway="28">
             <Route>AVSIX AA501 AA500</Route>
         </Approach>
         <!--MMAN-->
