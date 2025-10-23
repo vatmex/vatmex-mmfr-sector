@@ -1130,13 +1130,13 @@
                 <Map Name="CTR Minatitlan/ASMGCS_MMMT_GATES" />
             </Maps>
         </Position>
-        <Position Name="MMPQ" Type="ASMGCS" ASMGCSAirport="MMPQ" DefaultCenter="+173159.020-0920056.400" DefaultRange="2" MagneticVariation="-4" Rotation="169">
+        <Position Name="MMPQ" Type="ASMGCS" ASMGCSAirport="MMPQ" DefaultCenter="+173159.020-0920056.400" DefaultRange="2" MagneticVariation="-2" Rotation="169">
             <Maps>
-                <Map Name="ATZ Palenque/ASMGCS_MMPQ_RWY" />
-                <Map Name="ATZ Palenque/ASMGCS_MMPQ_APR" />
-                <Map Name="ATZ Palenque/ASMGCS_MMPQ_TWY" />
-                <Map Name="ATZ Palenque/ASMGCS_MMPQ_BLD" />
-                <Map Name="ATZ Palenque/ASMGCS_MMPQ_LABELS" />
+                <Map Name="CTR Palenque/ASMGCS_MMPQ_RWY" />
+                <Map Name="CTR Palenque/ASMGCS_MMPQ_APR" />
+                <Map Name="CTR Palenque/ASMGCS_MMPQ_TWY" />
+                <Map Name="CTR Palenque/ASMGCS_MMPQ_BLD" />
+                <Map Name="CTR Palenque/ASMGCS_MMPQ_LABELS" />
             </Maps>
         </Position>
         <Position Name="MMTG" Type="ASMGCS" ASMGCSAirport="MMTG" DefaultCenter="+163342.390-0930133.990" DefaultRange="2" MagneticVariation="-2" Rotation="124">
@@ -1475,14 +1475,14 @@
             </ControllerInfo>
         </Position>
 
-        <!-- ATZ Palenque -->
-        <Position Name="Torre Palenque - PQTW1" Type="ASD" DefaultCenter="+173158.856-0920056.125" DefaultRange="20" MagneticVariation="-4">
+        <!-- CTR Palenque -->
+        <Position Name="Torre Palenque - PQTW1" Type="ASD" DefaultCenter="+173158.856-0920056.125" DefaultRange="25" MagneticVariation="-2">
             <Sectors>
                 <Sector Name="PQTW1" />
             </Sectors>
             <Maps>
-                <Map Name="ATZ Palenque/Aeropuerto - Pistas" />
-                <Map Name="ATZ Palenque/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
+                <Map Name="CTR Palenque/Aeropuerto - Pistas" />
+                <Map Name="CTR Palenque/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
