@@ -428,6 +428,7 @@
             <Runway Name="11L" DataRunway="11L">
                 <SID Name="GDL1A" Default="True" />
                 <SID Name="EBDEG1" />
+                <SID Name="EMIG1A" />                
                 <SID Name="EMIR1A" />
                 <SID Name="FEIS1A" />
                 <SID Name="GOYA1A" />
@@ -487,7 +488,7 @@
                 <SID Name="KELV1B" />
                 <SID Name="LONK1E" />
                 <SID Name="NOTU1E" />
-                <SID Name="NUBIG1" />
+                <SID Name="NUBIG2" />
                 <SID Name="OTOK1B" />
                 <SID Name="SEDE1B" />
                 <SID Name="TABG1B" />
@@ -512,7 +513,7 @@
                 <SID Name="KELV1B" />
                 <SID Name="LONK1E" />
                 <SID Name="NOTU1E" />
-                <SID Name="NUBIG1" />
+                <SID Name="NUBIG2" />
                 <SID Name="OTOK1B" />
                 <SID Name="SEDE1B" />
                 <SID Name="TABG1B" />
@@ -7035,7 +7036,7 @@
             <Route Runway="29L">GL710 NOTUP</Route>
 			<Route Runway="29R">GL710 NOTUP</Route>
         </SID>
-        <SID Name="NUBIG1" Airport="MMGL" Runways="29L,29R">
+        <SID Name="NUBIG2" Airport="MMGL" Runways="29L,29R">
             <Route Runway="29L">NUBIG</Route>
 			<Route Runway="29R">NUBIG</Route>
         </SID>
