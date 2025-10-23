@@ -721,6 +721,7 @@
         <Airport Name="MMMD">
             <Runway Name="10" DataRunway="10">
                 <SID Name="MID4A" Default="True" />
+                <SID Name="BEMO1A" />
                 <SID Name="CAEA1A" />
                 <SID Name="DAPI2A" />
                 <SID Name="DURP2A" />
@@ -741,13 +742,13 @@
                 <SID Name="USBU1A" />
                 <SID Name="VIVE1C" />
                 <SID Name="VOLE2A" />
-                <STAR Name="AVOM1A" ApproachName="ILS103.TEXOB" />
-                <STAR Name="CAEA1D" ApproachName="ILS103.TEXOB" />
-                <STAR Name="CANO1A" ApproachName="ILS103.SEBEP" />
-                <STAR Name="DYSO1A" ApproachName="ILS103.OTMAM" />
-                <STAR Name="ELSI1D" ApproachName="ILS103.SEBEP" />
-                <STAR Name="GABO1A" ApproachName="ILS103.TEXOB" />
-                <STAR Name="ILEL1A" ApproachName="ILS103.SEBEP" />
+                <STAR Name="AVOM1A" ApproachName="ILS10X.TEXOB" />
+                <STAR Name="CAEA1D" ApproachName="ILS10X.TEXOB" />
+                <STAR Name="CANO1A" ApproachName="ILS10X.SEBEP" />
+                <STAR Name="DYSO1A" ApproachName="ILS10X.OTMAM" />
+                <STAR Name="ELSI1D" ApproachName="ILS10X.SEBEP" />
+                <STAR Name="GABO1A" ApproachName="ILS10X.TEXOB" />
+                <STAR Name="ILEL1A" ApproachName="ILS10X.SEBEP" />
                 <STAR Name="ISAR1D" />
                 <STAR Name="LIFT1A" ApproachName="ILS103.SEBEP" />
                 <STAR Name="LIFT1B" ApproachName="ILS103.SEBEP" />
@@ -759,6 +760,7 @@
             </Runway>
             <Runway Name="18" DataRunway="18">
                 <SID Name="MID4C" Default="True" />
+                <SID Name="BEMO1B" />
                 <SID Name="DURP2B" />
                 <SID Name="DUSL2B" />
                 <SID Name="PAGA3B" />
@@ -790,20 +792,21 @@
                 <SID Name="VIVE2A" />
                 <SID Name="VOLE2C" />
                 <SID Name="XOLR2B" />
-                <STAR Name="AVOM1B" />
-                <STAR Name="CAEA1E" />
-                <STAR Name="DYSO1B" />
-                <STAR Name="ELSI1E" />
-                <STAR Name="GABO1B" />
-                <STAR Name="ILEL1B" />
-                <STAR Name="LIFT1C" />
-                <STAR Name="LIFT1D" />
-                <STAR Name="NAPR1C" />
-                <STAR Name="NAPR1D" />
-                <STAR Name="XUBS1C" />
+                <STAR Name="AVOM1B" ApproachName="RNP28.HADOW"/>
+                <STAR Name="CAEA1E" ApproachName="RNP28.HADOW"/>
+                <STAR Name="DYSO1B" ApproachName="RNP28.ALRUN"/>
+                <STAR Name="ELSI1E" ApproachName="RNP28.ALRUN"/>
+                <STAR Name="GABO1B" ApproachName="RNP28.HADOW"/>
+                <STAR Name="ILEL1B" ApproachName="RNP28.ALRUN"/>
+                <STAR Name="LIFT1C" ApproachName="RNP28.ALRUN"/>
+                <STAR Name="LIFT1D" ApproachName="RNP28.ALRUN"/>
+                <STAR Name="NAPR1C" ApproachName="RNP28.VOLOR"/>
+                <STAR Name="NAPR1D" ApproachName="RNP28.VOLOR"/>
+                <STAR Name="XUBS1C" ApproachName="RNP28.HADOW"/>
             </Runway>
             <Runway Name="36" DataRunway="36">
                 <SID Name="MID4D" Default="True" />
+                <SID Name="BEMO1C" />
                 <SID Name="CAEA1C" />
                 <SID Name="DAPI2C" />
                 <SID Name="ELSI1C" />
@@ -819,18 +822,18 @@
                 <SID Name="USBU1B" />
                 <SID Name="VIVE1E" />
                 <SID Name="VIVE2B" />
-                <STAR Name="AVOM1C" />
-                <STAR Name="CAEA1F" />
-                <STAR Name="CANO1B" />
-                <STAR Name="DYSO1C" />
-                <STAR Name="ELSI1F" />
-                <STAR Name="GABO1C" />
-                <STAR Name="ILEL1C" />
-                <STAR Name="LIFT1E" />
-                <STAR Name="LIFT1F" />
-                <STAR Name="NAPR1E" />
-                <STAR Name="NAPR1F" />
-                <STAR Name="XUBS1D" />
+                <STAR Name="AVOM1C" ApproachName="RNP36.ITSAK"/>
+                <STAR Name="CAEA1F" ApproachName="RNP36.ULILI"/>
+                <STAR Name="CANO1B" ApproachName="RNP36.AVRUB"/>
+                <STAR Name="DYSO1C" ApproachName="RNP36.ITSAK"/>
+                <STAR Name="ELSI1F" ApproachName="RNP36.AVRUB"/>
+                <STAR Name="GABO1C" ApproachName="RNP36.ULILI"/>
+                <STAR Name="ILEL1C" ApproachName="RNP36.ITSAK"/>
+                <STAR Name="LIFT1E" ApproachName="RNP36.ULILI"/>
+                <STAR Name="LIFT1F" ApproachName="RNP36.AVRUB"/>
+                <STAR Name="NAPR1E" ApproachName="RNP36.ULILI"/>
+                <STAR Name="NAPR1F" ApproachName="RNP36.ULILI"/>
+                <STAR Name="XUBS1D" ApproachName="RNP36.ITSAK"/>
             </Runway>
         </Airport>
         <Airport Name="MMML">
@@ -7649,6 +7652,9 @@
             <Route Runway="15">RADAS</Route>
         </SID>
         <!--MMMD-->
+        <SID Name="BEMO1A" Airport="MMMD" Runways="10">
+            <Route Runway="10">BEMOX</Route>
+        </SID>
         <SID Name="DAPI2A" Airport="MMMD" Runways="10">
             <Route Runway="10">DAPIB</Route>
         </SID>
@@ -7711,6 +7717,9 @@
         </SID>
         <SID Name="VIVE1C" Airport="MMMD" Runways="10">
             <Route Runway="10">MD600 MD601 MD602 MD603 VIVEP</Route>
+        </SID>
+        <SID Name="BEMO1B" Airport="MMMD" Runways="18">
+            <Route Runway="18">BEMOX</Route>
         </SID>
         <SID Name="DURP2B" Airport="MMMD" Runways="18">
             <Route Runway="18">DURPI</Route>
@@ -7792,6 +7801,9 @@
         </SID>
         <SID Name="VIVE1D" Airport="MMMD" Runways="28">
             <Route Runway="28">MD700 OTMAM VIVEP</Route>
+        </SID>
+        <SID Name="BEMO1C" Airport="MMMD" Runways="36">
+            <Route Runway="36">BEMOX</Route>
         </SID>
         <SID Name="DAPI2C" Airport="MMMD" Runways="36">
             <Route Runway="36">DAPIB</Route>
@@ -7958,13 +7970,13 @@
         <STAR Name="NAPR1F" Airport="MMMD" Runways="36">
             <Route Runway="36">NAPRI BUYCK MD914 ULILI</Route>
         </STAR>
-        <Approach Name="ILS103.OTMAM" Airport="MMMD" Runway="10">
+        <Approach Name="ILS10X.OTMAM" Airport="MMMD" Runway="10">
             <Route>OTMAM MD400 MD401</Route>
         </Approach>
-        <Approach Name="ILS103.SEBEP" Airport="MMMD" Runway="10">
+        <Approach Name="ILS10X.SEBEP" Airport="MMMD" Runway="10">
             <Route>SEBEP MD400 MD401</Route>
         </Approach>
-        <Approach Name="ILS103.TEXOB" Airport="MMMD" Runway="10">
+        <Approach Name="ILS10X.TEXOB" Airport="MMMD" Runway="10">
             <Route>TEXOB MD400 MD401</Route>
         </Approach>
         <Approach Name="RNP28.ALRUN" Airport="MMMD" Runway="28">
