@@ -1551,28 +1551,29 @@
         </Airport>
         <Airport Name="MMTL">
             <Runway Name="12" DataRunway="12">
-                <SID Name="NOSU1G" />
+                <SID Name="TQO1E" Default="True" />
+                <SID Name="NOSU2G" />
                 <SID Name="NUDA1G" />
                 <SID Name="ILUB1H" />
                 <SID Name="TAKU1A" />
-                <SID Name="XOPG1A" />
                 <SID Name="XOLP1A" />
-                <SID Name="ROTG1G" />
+                <SID Name="ROTG2G" />
                 <SID Name="ALSU1A" />
                 <SID Name="PIRO1A" />
-                <STAR Name="ANAD1A" ApproachName="RNP12.AMAMO" />
-                <STAR Name="ANIK1A" ApproachName="RNP12.AMAMO" />
-                <STAR Name="EMOS1C" ApproachName="RNP12.OTUSO" />
-                <STAR Name="ILUB1K" ApproachName="RNP12.OTUSO" />
-                <STAR Name="VIGT1C" ApproachName="RNP12.OTUSO" />
-                <STAR Name="IMUB1A" ApproachName="RNP12.OTUSO" />
+                <STAR Name="ANAD1A" ApproachName="ILS12Y.AMAMO" />
+                <STAR Name="ANIK1A" ApproachName="ILS12Y.AMAMO" />
+                <STAR Name="EMOS1C" ApproachName="ILS12Y.OTUSO" />
+                <STAR Name="ILUB1K" ApproachName="ILS12Y.OTUSO" />
+                <STAR Name="VIGT1C" ApproachName="ILS12Y.OTUSO" />
+                <STAR Name="IMUB1A" ApproachName="ILS12Y.OTUSO" />
             </Runway>
             <Runway Name="30" DataRunway="30">
+                <SID Name="TQO1F" Default="True" />
                 <SID Name="ALSU1B" />
                 <SID Name="ILUB1J" />
-                <SID Name="NOSU1H" />
+                <SID Name="NOSU2H" />
                 <SID Name="NUDA1H" />
-                <SID Name="ROTG1H" />
+                <SID Name="ROTG2H" />
                 <SID Name="TAKU1B" />
                 <SID Name="XOLP1B" />
                 <STAR Name="ANAD1B" ApproachName="RNP30.OTREL" />
@@ -9710,7 +9711,7 @@
         </SID>
         <!-- *********** MMTL *********** -->
         <!-- MMTL-SID-1 -->
-        <SID Name="NOSU1G" Airport="MMTL" Runways="12">
+        <SID Name="NOSU2G" Airport="MMTL" Runways="12">
             <Route Runway="12">TL603 TL605 TL610 LIDEK CUN TL611 NOSUG</Route>
         </SID>
         <SID Name="ILUB1H" Airport="MMTL" Runways="12">
@@ -9719,13 +9720,10 @@
         <SID Name="TAKU1A" Airport="MMTL" Runways="12">
             <Route Runway="12">TL620 TL621 TL622 TL623 TL624 TL625 TL626 TAKUX</Route>
         </SID>
-        <SID Name="XOPG1A" Airport="MMTL" Runways="12">
-            <Route Runway="12">TL640 TL641 TL642 TL644 PIROK TL510 TL648 NOSUG XOPGI</Route>
-        </SID>
         <SID Name="XOLP1A" Airport="MMTL" Runways="12">
             <Route Runway="12">TL640 TL641 TL642 XOLPO</Route>
         </SID>
-        <SID Name="ROTG1G" Airport="MMTL" Runways="12">
+        <SID Name="ROTG2G" Airport="MMTL" Runways="12">
             <Route Runway="12">TL603 TL605 TL610 LIDEK CUN TL611 ROTGI</Route>
         </SID>
         <SID Name="ALSU1A" Airport="MMTL" Runways="12">
@@ -9737,6 +9735,9 @@
         <SID Name="PIRO1A" Airport="MMTL" Runways="12">
             <Route Runway="12">TL640 TL641 TL642 TL644 PIROK</Route>
         </SID>
+        <SID Name="TQO1E" Airport="MMTL" Runways="12">
+            <Route Runway="12">TQO</Route>
+        </SID>
         <!-- MMTL-SID-2 -->
         <SID Name="XOLP1B" Airport="MMTL" Runways="30">
             <Route Runway="30">TL602 TL630 TL641 TL642 XOLPO</Route>
@@ -9744,10 +9745,10 @@
         <SID Name="ALSU1B" Airport="MMTL" Runways="30">
             <Route Runway="30">TL602 TL630 TL631 TL632 ALSUP</Route>
         </SID>
-        <SID Name="NOSU1H" Airport="MMTL" Runways="30">
+        <SID Name="NOSU2H" Airport="MMTL" Runways="30">
             <Route Runway="30">TL602 TL604 TL606 TL610 LIDEK CUN TL611 NOSUG</Route>
         </SID>
-        <SID Name="ROTG1H" Airport="MMTL" Runways="30">
+        <SID Name="ROTG2H" Airport="MMTL" Runways="30">
             <Route Runway="30">TL602 TL604 TL606 TL610 LIDEK CUN TL611 ROTGI</Route>
         </SID>
         <SID Name="ILUB1J" Airport="MMTL" Runways="30">
@@ -9758,6 +9759,9 @@
         </SID>
         <SID Name="NUDA1H" Airport="MMTL" Runways="30">
             <Route Runway="30">TL602 TL604 TL606 TL610 LIDEK XULDA NUDAL</Route>
+        </SID>
+        <SID Name="TQO1F" Airport="MMTL" Runways="30">
+            <Route Runway="30">TQO</Route>
         </SID>
         <!-- MMTL-STAR-1 -->
         <STAR Name="IMUB1A" Airport="MMTL" Runways="12">
@@ -9802,6 +9806,12 @@
             <Route Runway="12">OTUSO TL402 TL401</Route>
         </Approach>
         <Approach Name="RNP12.AMAMO" Airport="MMTL" Runway="12">
+            <Route Runway="12">AMAMO TL402 TL401</Route>
+        </Approach>
+        <Approach Name="ILS12Y.OTUSO" Airport="MMTL" Runway="12">
+            <Route Runway="12">OTUSO TL402 TL401</Route>
+        </Approach>
+        <Approach Name="ILS12Y.AMAMO" Airport="MMTL" Runway="12">
             <Route Runway="12">AMAMO TL402 TL401</Route>
         </Approach>
         <!-- MMTL-IAC-2 -->
