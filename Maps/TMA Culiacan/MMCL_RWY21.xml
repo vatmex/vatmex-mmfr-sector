@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="Pista 20 - VORDME 2" Priority="1" Center="+244554.215-1072830.547">
+<!--
+    <Map Type="System" Name="Pista 21 - VORDME 2" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="BOKTA" Pattern="Dashed">
 +245142.236-1072421.209/
 +245228.784-1072347.810/
@@ -162,7 +163,7 @@ XUKMA</Line>
             <Point>CUL</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 20 - VORDME 2 (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 21 - VORDME 2 (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
             <Point>CUL</Point>
             <Point>BOKTA</Point>
@@ -172,7 +173,8 @@ XUKMA</Line>
             <Point>XUKMA</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 20 - Llegadas RNAV" Priority="1" Center="+244554.215-1072830.547">
+-->
+    <Map Type="System" Name="Pista 21 - Llegadas RNAV" Priority="1" Center="+244554.215-1072830.547">
         <!--STARs-->
         <Line Name="AMEDA1B" Pattern="Dashed">AMEDA/CL519</Line>
         <Line Name="AVTAL1D" Pattern="Dashed">AVTAL/CL528/CL527/CL803/SAVIR</Line>
@@ -212,7 +214,7 @@ XUKMA</Line>
             <Point>TALNU</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 20 - Llegadas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 21 - Llegadas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
             <Point>AMEDA</Point>
             <Point>AVTAL</Point>
@@ -228,7 +230,7 @@ XUKMA</Line>
             <Point>TALNU</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 20 - RNP 20" Priority="1" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 21 - RNP 21" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="OTIMA" Pattern="Solid">OTIMA/CL501</Line>
         <Line Name="SAVIR" Pattern="Solid">SAVIR/CL501</Line>
         <Line Name="TALNU" Pattern="Solid">TALNU/CL501</Line>
@@ -250,7 +252,8 @@ XUKMA</Line>
             <Point>TALNU</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 20 - Salidas" Priority="1" Center="+244554.215-1072830.547">
+<!-- 
+	<Map Type="System" Name="Pista 21 - Salidas" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="CUL3B" Pattern="Dotted">
 +244522.920-1072852.900/
 +243957.058-1073245.893/
@@ -495,7 +498,7 @@ XORUB</Line>
             <Point>CUL</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 20 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 21 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
             <Point>BOKTA</Point>
             <Point>CUL</Point>      
@@ -508,7 +511,8 @@ XORUB</Line>
             <Point>XORUB</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 20 - Salidas RNAV" Priority="1" Center="+244554.215-1072830.547">
+-->
+    <Map Type="System" Name="Pista 21 - Salidas RNAV" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="AVTAL1B" Pattern="Dotted">+244522.920-1072852.900/CL715/CL712/CL714/CL716/CL820/AVTAL</Line>
         <Line Name="ELEGU1B" Pattern="Dotted">+244522.920-1072852.900/CL700/CL718/CL706/CL707/ELEGU</Line>
         <Line Name="IKBOR1B" Pattern="Dotted">CL700/CL717/CL822/IKBOR</Line>
@@ -538,7 +542,7 @@ XORUB</Line>
             <Point>MUVEN</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 20 - Salidas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 21 - Salidas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
             <Point>AVTAL</Point>
             <Point>ELEGU</Point>
