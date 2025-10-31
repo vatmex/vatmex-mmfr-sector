@@ -2,7 +2,7 @@
 <Maps>
     <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas RNAV" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="ILUBA2E" Pattern="Dashed">ILUBA/URVEN/SEDAS/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
-        <Line Name="PUALE3G" Pattern="Dashed">PAULE/UN530/HURIN</Line>
+        <Line Name="PUALE2G" Pattern="Dashed">PAULE/UN530/HURIN</Line>
         <Line Name="SIGMA2G" Pattern="Dashed">SIGMA/OVGED/ILONI/HURIN/UN523</Line>
         <Line Name="NOSAT1B" Pattern="Dashed">NOSAT/HACHO/LETIS/APMUS/UN500/UN522/UN515/ERDAM/RIDUG</Line>
         <Line Name="VOMAR1A" Pattern="Dashed">VOMAR/AGNIX/EPNEL/ODLAR/VIKSI</Line>
@@ -61,7 +61,7 @@
             <Point>XUDUN</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12L - ILS X 12L" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name="MMUN - Pista 12L - ILS DME 3" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="EBMIS" Pattern="Solid">EBMIS/UN505</Line>
         <Line Name="KAROR" Pattern="Solid">KAROR/UN505</Line>
         <Line Name="VIKSI" Pattern="Solid">VIKSI/UN505</Line>
@@ -188,7 +188,7 @@
 +211540.262-0870713.447/
 +211610.854-0870642.882</Line>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12R - ILS X 12R" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name="MMUN - Pista 12R - ILS DME 3" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="EBMIS" Pattern="Solid">EBMIS/UN506</Line>
         <Line Name="KAROR" Pattern="Solid">KAROR/UN506</Line>
         <Line Name="VIKSI" Pattern="Solid">VIKSI/UN506</Line>
