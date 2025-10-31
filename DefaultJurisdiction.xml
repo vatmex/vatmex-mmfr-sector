@@ -74,7 +74,7 @@
                 <Departure Values="MMCZ">
                     <Rules>
                         <Default>
-                            <AssignSector Order="UNDEP,UNAPP,MID2,MIDE,MIDC"/>
+                            <AssignSector Order="UNDEW,UNDEP,UNAPP,MID2,MIDE,MIDC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -153,6 +153,17 @@
                     <Rules>
                         <Default>
                             <AssignSector Order="MXDEP,MAPP1,MAPPC,MEX3,MEXC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>
+        <RuleSet Name="MMSM_DEPS">
+            <Rules>
+                <Departure Values="MMSM">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="SMAPP,MXDEP,MAPPC,MEX3,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>

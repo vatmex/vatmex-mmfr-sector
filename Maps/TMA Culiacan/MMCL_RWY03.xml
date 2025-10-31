@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="Pista 02 - VORDME 2" Priority="1" Center="+244554.215-1072830.547">
+    <!--
+    <Map Type="System" Name="Pista 03 - VORDME 2" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="DANOP" Pattern="Dashed">
 +243904.056-1073323.741/
 +243853.036-1073329.811/
@@ -145,7 +146,7 @@ XOMGA</Line>
 +244304.931-1074056.323/
 +244302.961-1074106.925/
 TOVER</Line>
-        <Line Name="Final 02" Pattern="Solid">
+        <Line Name="Final 03" Pattern="Solid">
 +243957.058-1073245.893/
 +244522.920-1072852.900</Line>
         <Symbol Type="SolidTriangle">
@@ -170,7 +171,7 @@ TOVER</Line>
             <Point>CUL</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 02 - VORDME 2 (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 03 - VORDME 2 (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
             <Point>CUL</Point>
             <Point>DANOP</Point>
@@ -181,7 +182,9 @@ TOVER</Line>
             <Point>XORUB</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 02 - Llegadas RNAV" Priority="1" Center="+244554.215-1072830.547">
+-->
+
+    <Map Type="System" Name="Pista 03 - Llegadas RNAV" Priority="1" Center="+244554.215-1072830.547">
         <!--STARs-->
         <Line Name="AMEDA1A" Pattern="Dashed">AMEDA/CL408</Line>
         <Line Name="AVTAL1C" Pattern="Dashed">AVTAL/CL820/CL801/CL409/VEVLO</Line>
@@ -217,7 +220,7 @@ TOVER</Line>
             <Point>VODAS</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 02 - Llegadas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 03 - Llegadas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
             <Point>AMEDA</Point>
             <Point>AVTAL</Point>
@@ -233,7 +236,7 @@ TOVER</Line>
             <Point>VEVLO</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 02 - RNP 02" Priority="1" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 03 - RNP 03" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="BERUR" Pattern="Solid">BERUR/CL401</Line>
         <Line Name="USDAP" Pattern="Solid">USDAP/CL401</Line>
         <Line Name="VEVLO" Pattern="Solid">VEVLO/CL401</Line>
@@ -255,7 +258,8 @@ TOVER</Line>
             <Point>VEVLO</Point>
         </Symbol>
     </Map>
-        <Map Type="System" Name="Pista 02 - Salidas" Priority="1" Center="+244554.215-1072830.547">
+<!--
+        <Map Type="System" Name="Pista 03 - Salidas" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="CUL3A" Pattern="Dotted">
 +244618.240-1072813.370/
 +245142.236-1072421.209/
@@ -432,7 +436,7 @@ XUKMA</Line>
             <Point>CUL</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 02 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 03 - Salidas (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
             <Point>CUL</Point>
             <Point>BOKTA</Point>
@@ -442,7 +446,8 @@ XUKMA</Line>
             <Point>XUKMA</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 02 - Salidas RNAV" Priority="1" Center="+244554.215-1072830.547">
+-->
+    <Map Type="System" Name="Pista 03 - Salidas RNAV" Priority="1" Center="+244554.215-1072830.547">
         <Line Name="AVTAL1A" Pattern="Dotted">CL620/CL803/AVTAL</Line>
         <Line Name="ELEGU1A" Pattern="Dotted">+244618.240-1072813.370/CL620/ELEGU</Line>
         <Line Name="IKBOR1A" Pattern="Dotted">+244618.240-1072813.370/CL601/CL811/CL822/IKBOR</Line>
@@ -470,7 +475,7 @@ XUKMA</Line>
             <Point>OLEXU</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 02 - Salidas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
+    <Map Type="System" Name="Pista 03 - Salidas RNAV (Nombres)" Priority="2" Center="+244554.215-1072830.547">
         <Label HasLeader="false">
             <Point>AVTAL</Point>
             <Point>ELEGU</Point>

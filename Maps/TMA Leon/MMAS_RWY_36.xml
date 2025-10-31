@@ -88,7 +88,8 @@
             <Point>AS500</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMAS - Pista 36 - VORDME 2" Priority="1" Center="+203124.320-1031841.798">
+<!--
+	<Map Type="System" Name="MMAS - Pista 36 - VORDME 2" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="Final 36" Pattern="Solid">
 +213440.178-1021936.086/
 +214115.200-1021907.600</Line>
@@ -589,7 +590,8 @@ DANGO</Line>
             <Point>XOTOL</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMAS - Pista 36 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
+-->    
+	<Map Type="System" Name="MMAS - Pista 36 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="TEDZI1C" Pattern="Dotted">AGU/TEDZI</Line>
         <Line Name="MITIN1B" Pattern="Dotted">TEDZI/MITIN</Line>
         <Line Name="HORTA1B" Pattern="Dotted">AGU/AS613/AS614/HORTA</Line>

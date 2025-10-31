@@ -40,6 +40,53 @@
             <Point>VITOS</Point>
         </Symbol>
     </Map>
+    <Map Type="System" Name="MMSM - Pistas 22 - Llegadas 1S RNAV" Priority="1" Center="+194440.700-0990053.200">
+        <Line Name="VITOS1S" Pattern="Dashed">VITOS/DUSAM/SM412/SM414/SM416/SM418/SM420/VINRI</Line>
+        <Line Name="TOREO1S" Pattern="Dashed">TOREO/IMUTO/SM440/SM442/SM444/SM446/SM448/VINRI/SM450/SM452/SM30N/DUNIS</Line>
+        <Line Name="KELBO1S" Pattern="Dashed">KELBO/SM382/SM384/SM386/SM388/TORON/SM400/SM402/SM404/SM406/SM408</Line>
+        <Line Name="PBC1S" Pattern="Dashed">PBC/SM370/SM372/SM374/SM614/DUSAM</Line>
+        <Line Name="OTMOS1S" Pattern="Dashed">OTMOS/SM370</Line>    
+        <Symbol Type="HollowStar">
+            <Point>TOREO</Point>
+            <Point>VITOS</Point>
+            <Point>KELBO</Point>
+            <Point>OTMOS</Point>
+            <Point>SM382</Point>
+            <Point>SM384</Point>
+            <Point>SM386</Point>
+            <Point>SM388</Point>
+            <Point>TORON</Point>
+            <Point>IMUTO</Point>
+            <Point>SM400</Point>
+            <Point>SM402</Point>
+            <Point>SM404</Point>
+            <Point>SM406</Point>
+            <Point>SM408</Point>
+            <Point>VINRI</Point>
+            <Point>SM450</Point>
+            <Point>SM452</Point>
+            <Point>SM30N</Point>
+            <Point>DUNIS</Point>
+            <Point>SM440</Point>
+            <Point>SM442</Point>
+            <Point>SM444</Point>
+            <Point>SM446</Point>
+            <Point>SM448</Point>
+            <Point>DUSAM</Point>
+            <Point>SM370</Point>
+            <Point>SM372</Point>
+            <Point>SM374</Point>
+            <Point>SM614</Point>
+            <Point>SM412</Point>
+            <Point>SM414</Point>
+            <Point>SM416</Point>
+            <Point>SM418</Point>
+            <Point>SM420</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>PBC</Point>
+        </Symbol>
+    </Map>
     <Map Type="System" Name="MMSM - Pistas 22 - Llegadas RNAV (Nombres)" Priority="1" Center="+194440.700-0990053.200">
         <Label HasLeader="false">
             <Point>EMOXI</Point>
@@ -50,7 +97,17 @@
             <Point>VITOS</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMSM - Pistas 22 - Llegadas RNAV (Vectores)" Priority="1" Center="+194440.70-0990053.200">
+    <Map Type="System" Name="MMSM - Pistas 22 - Llegadas 1S RNAV (Nombres)" Priority="1" Center="+194440.700-0990053.200">
+        <Label HasLeader="false">
+            <Point>DUNIS</Point>
+            <Point>KELBO</Point>
+            <Point>PBC</Point>
+            <Point>OTMOS</Point>
+            <Point>TOREO</Point>
+            <Point>VITOS</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMSM - Pistas 22 - Llegadas RNAV (Vectores)" Priority="1" Center="+194440.700-0990053.200">
         <!--Pendiente-->
     </Map>
     <Map Type="System" Name="MMSM - Pistas 22 - ILS Z 22C" Priority="1" Center="+194440.700-0990053.200">
@@ -172,6 +229,107 @@ SM702/SM706/SM710/SM712/ATURO</Line>
             <Point>ULOTO</Point>
         </Symbol>
     </Map>
+    <Map Type="System" Name="MMSM - Pistas 22 - Salidas RNAV 1R-1S" Priority="1" Center="+194440.700-0990053.200">
+        <Line Name="ATURO1R" Pattern="Dotted">SLM/SM742/SM744/SM506/OTMAL/ATURO</Line>
+        <Line Name="ATURO1S" Pattern="Dotted">ATURO</Line>
+        <Line Name="AXIRI1R" Pattern="Dotted">OTMAL/AXIRI</Line>
+        <Line Name="IKLAN1R" Pattern="Dotted">OTMAL/IKLAN</Line>
+        <Line Name="LORSU1R" Pattern="Dotted">SM742/SM510/SM512/LORSU</Line>
+        <Line Name="NOXOS1R" Pattern="Dotted">SM510/SELOX/NOXOS</Line>
+        <Line Name="UKUNO1R" Pattern="Dotted">SELOX/UKUNO</Line>
+        <Line Name="ILETO1R" Pattern="Dotted">SELOX/ILETO</Line>
+        <Line Name="ULEBA1R" Pattern="Dotted">SM520/SM530/SM532/RAKEM/SERNU/ULEBA</Line>
+        <Line Name="OVAGO1R" Pattern="Dotted">RAKEM/ESVOR/OVAGO</Line>
+        <Line Name="SEBON1R" Pattern="Dotted">RAKEM/MASAP/SEBON</Line>
+        <Line Name="KATMI1R" Pattern="Dotted">SM532/SM534/SM536/KATMI</Line>    
+        <Line Name="TEVOS1R" Pattern="Dotted">SM520/SM522/SM524/SM526/TEVOS</Line>
+        <Line Name="ATURO1P_Part1" Pattern="Dotted">
++194342.820-0990123.180/
++194144.674-0990347.532</Line>
+        <Line Name="ATURO1P_Part2" Pattern="Dotted">
++194144.664-0990347.520/
++194117.436-0990437.047/
++194113.584-0990450.140/
++194112.428-0990501.084/
++194112.235-0990515.404/
++194113.391-0990530.132/
++194116.377-0990544.554/
++194120.807-0990558.055/
++194127.933-0990612.989/
++194137.829-0990624.142/
++194148.899-0990634.374/
++194201.809-0990643.070/
++194216.241-0990650.321/
++194231.905-0990655.934/
++194248.462-0990659.611/
++194305.537-0990701.063/
++194322.731-0990700.186/
++194339.157-0990656.861/
++194354.489-0990651.192/
++194408.465-0990643.562/
++194420.897-0990633.509/
++194431.581-0990621.317/
++194439.421-0990607.324/
++194444.401-0990551.108/
++194446.725-0990533.349/
++194446.955-0990515.039/
++194446.109-0990501.899/
++194425.728-0990021.348/
++194426.930-0990021.360/SLM</Line>
+        <Line Name="SLM_SM520" Pattern="Dotted">
++194426.930-0990021.360/
++194425.728-0990021.348/
++194404.883-0985942.268/
++194358.048-0985931.835/
++194348.998-0985921.198/
++194337.372-0985911.686/
++194322.352-0985901.048/
++194305.984-0985852.661/
++194248.460-0985847.956/
++194230.935-0985845.297/
++194209.750-0985845.910/
++194147.024-0985853.275/
++194123.334-0985903.708/
++194107.252-0985913.834/
++193625.200-0990335.100</Line>
+        <Symbol Type="HollowStar">
+            <Point>ATURO</Point>
+            <Point>AXIRI</Point>
+            <Point>IKLAN</Point>
+            <Point>KATMI</Point>
+            <Point>SEBON</Point>
+            <Point>OVAGO</Point>
+            <Point>ULEBA</Point>
+            <Point>TEVOS</Point>
+            <Point>LORSU</Point>
+            <Point>NOXOS</Point>
+            <Point>UKUNO</Point>
+            <Point>ILETO</Point>
+            <Point>SM741</Point>
+            <Point>SM742</Point>
+            <Point>SM744</Point>
+            <Point>SM506</Point>
+            <Point>OTMAL</Point>
+            <Point>SM510</Point>
+            <Point>SM512</Point>
+            <Point>SELOX</Point>
+            <Point>SM520</Point>
+            <Point>SM522</Point>
+            <Point>SM524</Point>
+            <Point>SM526</Point>
+            <Point>SM530</Point>
+            <Point>SM532</Point>
+            <Point>RAKEM</Point>
+            <Point>SERNU</Point>
+            <Point>ESVOR</Point>
+            <Point>MASAP</Point>
+            <Point>SM534</Point>
+            <Point>SM536</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>SLM</Point>
+        </Symbol>
+    </Map>
     <Map Type="System" Name="MMSM - Pistas 22 - Salidas RNAV (Nombres)" Priority="2" Center="+194440.700-0990053.200">
         <Label HasLeader="false">
             <Point>ATURO</Point>
@@ -186,6 +344,23 @@ SM702/SM706/SM710/SM712/ATURO</Line>
             <Point>TEVOS</Point>
             <Point>UKUNO</Point>
             <Point>ULEBA</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="MMSM - Pistas 22 - Salidas RNAV 1R-1S (Nombres)" Priority="2" Center="+194440.700-0990053.200">
+        <Label HasLeader="false">
+            <Point>ATURO</Point>
+            <Point>AXIRI</Point>
+            <Point>IKLAN</Point>
+            <Point>ILETO</Point>
+            <Point>KATMI</Point>
+            <Point>LORSU</Point>
+            <Point>NOXOS</Point>
+            <Point>OVAGO</Point>
+            <Point>SEBON</Point>
+            <Point>TEVOS</Point>
+            <Point>UKUNO</Point>
+            <Point>ULEBA</Point>
+            <Point>SLM</Point>
         </Label>
     </Map>
 </Maps>
