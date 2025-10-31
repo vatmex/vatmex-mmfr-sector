@@ -32,7 +32,7 @@
         <Volumes>MMLP_TMA</Volumes>
     </Sector>
     <Sector FullName="Torre Loreto" Frequency="118.400" Callsign="MMLT_TWR" Name="LTTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMLT_ATZ</Volumes>
+        <Volumes>MMLT_CTR</Volumes>
     </Sector>
     <Sector FullName="Torre Mexicali" Frequency="118.200" Callsign="MMML_TWR" Name="MLTW1" DisplayInHandoffWindow="False">
         <Volumes>MMML_TMA</Volumes>
@@ -115,10 +115,10 @@
         <Volumes>MMCM_ATZ</Volumes>
     </Sector>
     <Sector FullName="Torre Campeche" Frequency="118.500" Callsign="MMCP_TWR" Name="CPTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMCP_ATZ</Volumes>
+        <Volumes>MMCP_CTR</Volumes>
     </Sector>
     <Sector FullName="Torre Chichen-Itza" Frequency="118.900" Callsign="MMCT_TWR" Name="CTTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMCT_ATZ</Volumes>
+        <Volumes>MMCT_CTR</Volumes>
     </Sector>
     <Sector FullName="Torre Ixtepec" Frequency="118.450" Callsign="MMIT_TWR" Name="ITTW1" DisplayInHandoffWindow="False">
         <Volumes>MMIT_ATZ</Volumes>
@@ -136,7 +136,7 @@
         <Volumes>MMMT_CTR</Volumes>
     </Sector>
     <Sector FullName="Torre Palenque" Frequency="118.750" Callsign="MMPQ_TWR" Name="PQTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMPQ_ATZ</Volumes>
+        <Volumes>MMPQ_CTR</Volumes>
     </Sector>
     <Sector FullName="Torre Tuxtla" Frequency="118.600" Callsign="MMTG_APP" Name="TGTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTG_TMA</Volumes>
@@ -153,26 +153,38 @@
     <Sector FullName="Terrestre Tulum" Frequency="121.850" Callsign="MMTL_GND" Name="TLSMC" DisplayInHandoffWindow="False">
         <Volumes>MMTL_CTR</Volumes>
     </Sector>
-    <Sector FullName="Torre Tulum" Frequency="118.650" Callsign="MMTL_TWR" Name="TLTW1" DisplayInHandoffWindow="False">
+    <Sector FullName="Torre Tulum" Frequency="118.650" Callsign="MMTL_TWR" Name="TLTW1">
         <Volumes>MMTL_CTR</Volumes>
     </Sector>
-    <Sector FullName="Terrestre Cancún" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False">
+    <Sector FullName="Terrestre Cancún Norte" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
-    <Sector FullName="Terrestre Este Cancún" Frequency="121.700" Callsign="MMUN_E_GND" Name="UNRMP" DisplayInHandoffWindow="False">
+    <Sector FullName="Terrestre Cancún Sur" Frequency="121.700" Callsign="MMUN_S_GND" Name="UNRMP" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
     <Sector FullName="Autorización Cancún" Frequency="122.100" Callsign="MMUN_DEL" Name="UNCDL" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
-    <Sector FullName="Torre Cancún" Frequency="118.100" Callsign="MMUN_TWR" Name="UNTW1" DisplayInHandoffWindow="False">
+    <Sector FullName="Torre Cancún Norte" Frequency="118.100" Callsign="MMUN_TWR" Name="UNTW1">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
-    <Sector FullName="Llegadas Cancún" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNARR" DisplayInHandoffWindow="False">
+    <Sector FullName="Torre Cancún Sur" Frequency="118.600" Callsign="MMUN_S_TWR" Name="UNTW2">
+        <Volumes>MMUN_CTR</Volumes>
+    </Sector> 
+    <Sector FullName="Llegadas Cancún" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNARR">
         <Volumes>MMUN_TMA</Volumes>
     </Sector>
-    <Sector FullName="Salidas Cancún" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEP" DisplayInHandoffWindow="False">
+    <Sector FullName="Final Cancún" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNFNL">
         <Volumes>MMUN_TMA</Volumes>
+    </Sector>
+    <Sector FullName="Salidas Cancún Norte" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEP">
+        <Volumes>MMUN_TMA</Volumes>
+    </Sector>
+    <Sector FullName="Salidas Cancún Sur" Frequency="123.500" Callsign="MMUN_S_DEP" Name="UNDES">
+        <Volumes>MMUN_TMA</Volumes>
+    </Sector>
+    <Sector FullName="Salidas Cancún Oeste" Frequency="120.800" Callsign="MMUN_W_DEP" Name="UNDEW">
+        <Volumes>MMUN_TMA</Volumes>    
     </Sector>
     <Sector FullName="Aproximación Cancún" Frequency="124.700" Callsign="MMUN_APP" Name="UNAPP">
         <Volumes>MMUN_TMA</Volumes>
@@ -293,6 +305,12 @@
     </Sector>
     <Sector FullName="Torre Santa Lucía" Frequency="118.300" Callsign="MMSM_TWR" Name="SMTW1" DisplayInHandoffWindow="False">
         <Volumes>MMSM_CTR</Volumes>
+    </Sector>
+    <Sector FullName="Aproximación Lucía" Frequency="119.000" Callsign="MMSM_APP" Name="SMAPP">
+        <Volumes>MLAC</Volumes>
+    </Sector>
+    <Sector FullName="Final Lucía 04" Frequency="128.850" Callsign="MMSM_F_APP" Name="FNL04">
+        <Volumes>MSF4</Volumes>
     </Sector>
     <Sector FullName="Terrestre Toluca" Frequency="134.000" Callsign="MMTO_GND" Name="TOSMC" DisplayInHandoffWindow="False">
         <Volumes>MMTO_CTR</Volumes>

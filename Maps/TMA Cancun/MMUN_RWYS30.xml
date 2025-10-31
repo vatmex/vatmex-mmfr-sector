@@ -53,6 +53,37 @@
             <Point>XUDUN</Point>
         </Label>
     </Map>
+    <Map Type="System" Name="MMUN - Pista 30L-R - Llegadas Dep" Priority="1" Center="+210235.014-0865232.438">
+        <Line Name="ILUBA1G" Pattern="Dashed">ILUBA/ALRIP/QUADY/SESLI</Line>
+        <Line Name="SIGMA1I" Pattern="Dashed">SIGMA/BALCH/VITEL/UN617/QUADY</Line>
+        <Line Name="PAULE1#" Pattern="Dashed">PAULE/UN640/ITLES/QUADY</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>ILUBA</Point>
+            <Point>PAULE</Point>
+            <Point>SIGMA</Point>
+        </Symbol>
+        <Symbol Type="HollowStar">
+            <Point>ALRIP</Point>
+            <Point>BALCH</Point>
+            <Point>ITLES</Point>
+            <Point>LOPKA</Point>
+            <Point>OTSOL</Point>
+            <Point>QUADY</Point>
+            <Point>SESLI</Point>
+            <Point>UN617</Point>
+            <Point>UN640</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMUN - Pista 30L-R - Llegadas Dep (Nombres)" Priority="2" Center="-34.945000+138.530556">
+        <Label HasLeader="false">
+            <Point>ILUBA</Point>
+            <Point>LOPKA</Point>
+            <Point>OTSOL</Point>
+            <Point>PAULE</Point>
+            <Point>SESLI</Point>
+            <Point>SIGMA</Point>
+        </Label>
+    </Map>
     <Map Type="System" Name="MMUN - Pista 30L - RNP" Priority="1" Center="-34.945000+138.530556">
         <Line Name="LOPKA" Pattern="Solid">LOPKA/UN604</Line>
         <Line Name="SESLI" Pattern="Solid">SESLI/UN604</Line>
