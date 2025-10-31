@@ -153,37 +153,37 @@
     <Sector FullName="Terrestre Tulum" Frequency="121.850" Callsign="MMTL_GND" Name="TLSMC" DisplayInHandoffWindow="False">
         <Volumes>MMTL_CTR</Volumes>
     </Sector>
-    <Sector FullName="Torre Tulum" Frequency="118.650" Callsign="MMTL_TWR" Name="TLTW1" DisplayInHandoffWindow="False">
+    <Sector FullName="Torre Tulum" Frequency="118.650" Callsign="MMTL_TWR" Name="TLTW1">
         <Volumes>MMTL_CTR</Volumes>
     </Sector>
-    <Sector FullName="Terrestre Cancún" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False">
+    <Sector FullName="Terrestre Cancún Norte" Frequency="121.000" Callsign="MMUN_GND" Name="UNSMC" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
-    <Sector FullName="Terrestre Este Cancún" Frequency="121.700" Callsign="MMUN_E_GND" Name="UNRMP" DisplayInHandoffWindow="False">
+    <Sector FullName="Terrestre Cancún Sur" Frequency="121.700" Callsign="MMUN_S_GND" Name="UNRMP" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
     <Sector FullName="Autorización Cancún" Frequency="122.100" Callsign="MMUN_DEL" Name="UNCDL" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
-    <Sector FullName="Torre Cancún" Frequency="118.100" Callsign="MMUN_TWR" Name="UNTW1" DisplayInHandoffWindow="False">
+    <Sector FullName="Torre Cancún Norte" Frequency="118.100" Callsign="MMUN_TWR" Name="UNTW1">
         <Volumes>MMUN_CTR</Volumes>
     </Sector>
-    <Sector FullName="Torre Sur Cancún" Frequency="118.600" Callsign="MMUN_S_TWR" Name="UNTW2" DisplayInHandoffWindow="False">
+    <Sector FullName="Torre Cancún Sur" Frequency="118.600" Callsign="MMUN_S_TWR" Name="UNTW2">
         <Volumes>MMUN_CTR</Volumes>
     </Sector> 
-    <Sector FullName="Llegadas Cancún" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNARR" DisplayInHandoffWindow="False">
+    <Sector FullName="Llegadas Cancún" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNARR">
         <Volumes>MMUN_TMA</Volumes>
     </Sector>
-    <Sector FullName="Final Cancún" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNFNA">
-        <Volumes>UNFNA</Volumes>
-    </Sector>
-    <Sector FullName="Salidas Cancún" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEP" DisplayInHandoffWindow="False">
+    <Sector FullName="Final Cancún" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNFNL">
         <Volumes>MMUN_TMA</Volumes>
     </Sector>
-    <Sector FullName="Llegadas Sur Cancún" Frequency="123.500" Callsign="MMUN_TS_APP" Name="UNARS" DisplayInHandoffWindow="False">
-        <Volumes>MMUN_TMA_ARRS</Volumes>
-    </Sector>    
-    <Sector FullName="Salidas Oeste Cancún" Frequency="120.800" Callsign="MMUN_W_DEP" Name="UNDEW" DisplayInHandoffWindow="False">
+    <Sector FullName="Salidas Cancún Norte" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEP">
+        <Volumes>MMUN_TMA</Volumes>
+    </Sector>
+    <Sector FullName="Salidas Cancún Sur" Frequency="123.500" Callsign="MMUN_S_DEP" Name="UNDES">
+        <Volumes>MMUN_TMA</Volumes>
+    </Sector>
+    <Sector FullName="Salidas Cancún Oeste" Frequency="120.800" Callsign="MMUN_W_DEP" Name="UNDEW">
         <Volumes>MMUN_TMA</Volumes>    
     </Sector>
     <Sector FullName="Aproximación Cancún" Frequency="124.700" Callsign="MMUN_APP" Name="UNAPP">

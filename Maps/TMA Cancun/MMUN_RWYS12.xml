@@ -61,6 +61,43 @@
             <Point>XUDUN</Point>
         </Label>
     </Map>
+    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas Dep" Priority="1" Center="+210216.667-0865152.015">
+        <Line Name="ILUBA2E" Pattern="Dashed">ILUBA/URVEN/SEDAS/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
+        <Line Name="PUALE3G" Pattern="Dashed">PAULE/UN530/HURIN</Line>
+        <Line Name="SIGMA2G" Pattern="Dashed">SIGMA/OVGED/ILONI/HURIN/UN523</Line>        
+        <Symbol Type="HollowStar">
+            <Point>EBMIS</Point>
+            <Point>ELINO</Point>
+            <Point>HURIN</Point>
+            <Point>ILONI</Point>
+            <Point>ILUBA</Point>
+            <Point>KAROR</Point>
+            <Point>OVGED</Point>
+            <Point>PAULE</Point>
+            <Point>RIDUG</Point>
+            <Point>SEDAS</Point>
+            <Point>SIGMA</Point>
+            <Point>UN511</Point>
+            <Point>UN514</Point>
+            <Point>UN519</Point>
+            <Point>UN523</Point>
+            <Point>URVEN</Point>
+            <Point>VIKSI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas Dep (Nombres)" Priority="2" Center="+210216.667-0865152.015">
+        <Label HasLeader="false">
+            <Point>EBMIS</Point>
+            <Point>ILUBA</Point>
+            <Point>PAULE</Point>
+            <Point>SIGMA</Point>
+
+            <Point>ILUBA</Point>
+            <Point>KAROR</Point>
+            <Point>RIDUG</Point>
+            <Point>VIKSI</Point>
+        </Label>
+    </Map>
     <Map Type="System" Name="MMUN - Pista 12L - ILS X 12L" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="EBMIS" Pattern="Solid">EBMIS/UN505</Line>
         <Line Name="KAROR" Pattern="Solid">KAROR/UN505</Line>
