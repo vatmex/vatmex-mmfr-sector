@@ -58,6 +58,7 @@
             <Point>VOLER</Point>
         </Label>
     </Map>
+<!--
     <Map Type="System" Name="MMAS - Pista 18 - VORDME 2" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="Final 18" Pattern="Solid">
 +215042.306-1021841.786/
@@ -216,6 +217,7 @@ XOTOL/
             <Point>RABIL</Point>
         </Label>
     </Map>
+-->
     <Map Type="System" Name="MMAS - Pista 18 - RNP 18" Priority="1" Center="+203124.320-1031841.798">
         <Line Pattern="Solid">TETES/SESKO</Line>
         <Line Pattern="Solid">SUTOM/+214251.600-1021902.800</Line>
@@ -250,7 +252,8 @@ XOTOL/
             <Point>TETES</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMAS - Pista 18 - Salidas" Priority="1" Center="+203124.320-1031841.798">
+<!--    
+	<Map Type="System" Name="MMAS - Pista 18 - Salidas" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="AGU1A" Pattern="Dotted">
 +214241.040-1021908.570/
 +213542.174-1021932.198/
@@ -535,6 +538,7 @@ ALIPA</Line>
             <Point>ANILA</Point>
         </Label>
     </Map>
+-->
     <Map Type="System" Name="MMAS - Pista 18 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="HORTA1A" Pattern="Dotted">AS810/HORTA</Line>
         <Line Name="LIVRI1C" Pattern="Dotted">AS801/LIVRI</Line>
