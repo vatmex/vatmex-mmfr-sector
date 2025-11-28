@@ -1,9 +1,9 @@
 on:
   release:
     types: [published]
-    
+
 # Zips the profile and uploads to the vatsys ftp server
-name: Publish Dark Profile
+name: Publish Light Profile
 jobs:
   zip-deploy:
     runs-on: ubuntu-latest
@@ -18,7 +18,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.sawbe.com
-        server-dir: mexico-dark/
+        server-dir: mexico-light/
         protocol: ftps
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
