@@ -911,7 +911,7 @@
         </Position>
 
         <!-- ACC Mazatlan -->
-        <Position Name="Centro Mazatlan (SE) - MZTE" Type="ASD" DefaultCenter="+233230.966-1083147.199" DefaultRange="1200" MagneticVariation="-8" VisibilityRange="300">
+        <Position Name="Control Mazatlan (SE) - MZTE" Type="ASD" DefaultCenter="+233230.966-1083147.199" DefaultRange="1200" MagneticVariation="-8" VisibilityRange="300">
             <Sectors>
                 <Sector Name="MZTE" />
                 <Sector Name="MZT3" />
@@ -945,7 +945,7 @@
                 <Airport Name="MMTJ" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Mazatlan / Mazatlan Center</Line>
+                <Line>Control Mazatlan / Mazatlan Control</Line>
                 <Line>MMSD ATIS available on 127.600</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -956,7 +956,7 @@
                 <Point>+200841.775-1063051.306</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro Mazatlan (SW) - MZTW" Type="ASD" DefaultCenter="+285551.008-1135106.586" DefaultRange="900" MagneticVariation="-12" VisibilityRange="300">
+        <Position Name="Control Mazatlan (SW) - MZTW" Type="ASD" DefaultCenter="+285551.008-1135106.586" DefaultRange="900" MagneticVariation="-12" VisibilityRange="300">
             <Sectors>
                 <Sector Name="MZTW" />
                 <Sector Name="MZT1" />
@@ -988,7 +988,7 @@
                 <Airport Name="MMTJ" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Mazatlan / Mazatlan Center</Line>
+                <Line>Control Mazatlan / Mazatlan Control</Line>
                 <Line>MMTJ ATIS available on 127.900</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -999,7 +999,7 @@
                 <Point>+254759.084-1121909.005</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="400">
+        <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="400">
             <Sectors>
                 <Sector Name="MZTC" />
                 <Sector Name="MZT1" />
@@ -1037,7 +1037,7 @@
                 <Airport Name="MMTJ" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Mazatlan / Mazatlan Center</Line>
+                <Line>Control Mazatlan / Mazatlan Control</Line>
                 <Line>MMTJ ATIS available on 127.900</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -2004,7 +2004,7 @@
         </Position>
 
         <!-- ACC Mérida -->
-        <Position Name="Centro Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+182452.094-0914224.983" DefaultRange="1430" MagneticVariation="+2">
+        <Position Name="Control Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+182452.094-0914224.983" DefaultRange="1430" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDC" />
                 <Sector Name="MID1" />
@@ -2040,7 +2040,7 @@
                 <Airport Name="MMUN" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Merida / Merida Center</Line>
+                <Line>Control Merida / Merida Control</Line>
                 <Line>MMUN ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -2051,7 +2051,7 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro Mérida (SE) - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
+        <Position Name="Control Mérida (SE) - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDE" />
                 <Sector Name="MID2" />
@@ -2083,7 +2083,7 @@
                 <Airport Name="MMUN" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Merida / Merida Center</Line>
+                <Line>Control Merida / Merida Control</Line>
                 <Line>MMUN ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -2094,7 +2094,7 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro Mérida (SW) - MIDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
+        <Position Name="Control Mérida (SW) - MIDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDW" />
                 <Sector Name="MID1" />
@@ -2127,7 +2127,7 @@
                 <Airport Name="MMUN" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Merida / Merida Center</Line>
+                <Line>Control Merida / Merida Control</Line>
                 <Line>MMUN ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -2934,7 +2934,7 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/MMMX - Rutas VFR" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMPB - Rutas VFR" />
@@ -2954,6 +2954,7 @@
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Autorizacion Mexico / Mexico Delivery</Line>
+                <Line>PDC Logon [MMMX]</Line>     
                 <Line>Serving MMMX departures</Line>
                 <Line>ATIS available on 127.650</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -2966,7 +2967,7 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/MMMX - Rutas VFR" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMPB - Rutas VFR" />
@@ -2986,6 +2987,7 @@
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Terrestre Mexico / Mexico Ground</Line>
+                <Line>PDC Logon [MMMX]</Line>                
                 <Line>Serving MMMX arrivals and departures</Line>
                 <Line>ATIS available on 127.650</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -2998,7 +3000,7 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMMX - Rutas VFR" />
                 <Map Name="TMA Mexico/MMPB - Rutas VFR" />
@@ -3016,6 +3018,7 @@
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Terrestre Mexico Sur / Mexico Ground South</Line>
+                <Line>PDC Logon [MMMX]</Line>
                 <Line>Serving MMMX arrivals and departures</Line>
                 <Line>ATIS available on 127.650</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -3028,7 +3031,7 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMCB - Rutas VFR" />
                 <Map Name="TMA Mexico/MMMX - Rutas VFR" />
@@ -3052,6 +3055,7 @@
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Torre Mexico / Mexico Tower</Line>
+                <Line>PDC Logon [MMMX]</Line>
                 <Line>Serving MMMX arrivals and departures</Line>
                 <Line>ATIS available on 127.650</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -3313,6 +3317,7 @@
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Aproximacion Mexico / Mexico Approach</Line>
+                <Line>PDC Logon [MMMX]</Line>
                 <Line>Serving MMMX, MMTO, MMCB, and MMPB and MMSM arrivals and departures</Line>
                 <Line>ATIS available on 127.650</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -3823,6 +3828,7 @@
                 <Map Name="TMA Queretaro/Aeropuerto - Pista" />
                 <Map Name="TMA Queretaro/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Queretaro/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Queretaro/Aeropuerto - Fijos 09" />
                 <Map Name="TMA Queretaro/Aeropuerto - Fijos 09 (Nombres)" />
 
@@ -4141,8 +4147,9 @@
                 <Map Name="TMA Zihuatanejo/Aeropuerto - Pistas" />
                 <Map Name="TMA Zihuatanejo/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Zihuatanejo/Aeropuerto - Zona de Control (CTR)" />
-                <Map Name="TMA Zihuatanejo/Aeropuerto - Fijos 32" />
-                <Map Name="TMA Zihuatanejo/Aeropuerto - Fijos 32 (Nombres)" />
+                <Map Name="TMA Zihuatanejo/Aeropuerto - Pista 27 - Llegadas RNAV" />
+                <Map Name="TMA Zihuatanejo/Aeropuerto - Pista 27 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Zihuatanejo/MMZH - Pista 27 - RNP 27" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Sector - Radioayudas" />
@@ -4222,7 +4229,7 @@
         </Position>
 
         <!-- ACC México -->
-        <Position Name="Centro México (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control México (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXC" />
                 <Sector Name="MEX1" />
@@ -4264,6 +4271,7 @@
             </ArrivalLists>
             <ControllerInfo>
                 <Line>Centro Mexico / Mexico Center</Line>
+                <Line>PDC Logon [MMMX]</Line>
                 <Line>MMMX ATIS available on 127.650</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -4274,7 +4282,7 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro México (SS) - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control México (SS) - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXS" />
                 <Sector Name="MEX5" />
@@ -4308,7 +4316,7 @@
                 <Airport Name="MMMX" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Mexico / Mexico Center</Line>
+                <Line>Control Mexico / Mexico Control</Line>
                 <Line>MMMX ATIS available on 127.650</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -4319,7 +4327,7 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro México (SW) - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control México (SW) - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXW" />
                 <Sector Name="MEX6" />
@@ -4353,7 +4361,7 @@
                 <Airport Name="MMMX" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Mexico / Mexico Center</Line>
+                <Line>Control Mexico / Mexico Control</Line>
                 <Line>MMMX ATIS available on 126.750</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -4364,7 +4372,7 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro México (SE) - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="890" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control México (SE) - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="890" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXE" />
                 <Sector Name="MEX1" />
@@ -4399,7 +4407,7 @@
                 <Airport Name="MMMX" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Mexico / Mexico Center</Line>
+                <Line>Control Mexico / Mexico Control</Line>
                 <Line>MMMX ATIS available on 126.750</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -5221,7 +5229,7 @@
         </Position>
 
         <!-- ACC Monterrey -->
-        <Position Name="Centro Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
+        <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MTYC" />
                 <Sector Name="MTY1" />
@@ -5254,7 +5262,7 @@
                 <Airport Name="MMMY" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Monterrey / Monterrey Center</Line>
+                <Line>Control Monterrey / Monterrey Control</Line>
                 <Line>MMTY ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -5265,7 +5273,7 @@
                 <Point>+242209.9141-0950934.2813</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro Monterrey SE - MTYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="false">
+        <Position Name="Control Monterrey SE - MTYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MTYE" />
                 <Sector Name="MTY1" />
@@ -5295,7 +5303,7 @@
                 <Airport Name="MMMY" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Monterrey / Monterrey Center</Line>
+                <Line>Control Monterrey / Monterrey Control</Line>
                 <Line>MMTY ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -5306,7 +5314,7 @@
                 <Point>+242209.9141-0950934.2813</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Centro Monterrey SW - MTYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="false">
+        <Position Name="Control Monterrey SW - MTYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MTYW" />
                 <Sector Name="MTY3" />
@@ -5337,7 +5345,7 @@
                 <Airport Name="MMMY" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Centro Monterrey / Monterrey Center</Line>
+                <Line>Control Monterrey / Monterrey Control</Line>
                 <Line>MMTY ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
