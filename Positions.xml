@@ -625,6 +625,34 @@
         </Position>
 
         <!-- TMA Cabos -->
+        <Position Name="Autorización San Lucas - SLCDL" Type="ASD" DefaultCenter="+225746.763-1095645.569" DefaultRange="50" MagneticVariation="-8">
+            <Sectors>
+                <Sector Name="SLCDL" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Cabos/Aeropuerto - Pistas" />
+                <Map Name="TMA Cabos/MMSD - Zona de Control (CTR)" />
+                <Map Name="TMA Cabos/MMSL - Zona de Control (CTR)" />
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMSL" Frequency="127.000" Server="NA" />
+                <Window Airport="MMSL" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMSL" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMSL" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Autorización San Lucas / San Lucas Delivery</Line>
+                <Line>Serving MMSL departures</Line>
+                <Line>ATIS available on 127.000</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
         <Position Name="Torre San Lucas - SLTW1" Type="ASD" DefaultCenter="+225746.763-1095645.569" DefaultRange="50" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="SLTW1" />
@@ -654,6 +682,34 @@
                 <Line>>Torre San Lucas / San Lucas Tower</Line>
                 <Line>Serving MMSL arrivals and departures</Line>
                 <Line>ATIS available on 127.000</Line>
+                <Line>ATC feedback - vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
+        <Position Name="Autorización San Jose - SDCDL" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
+            <Sectors>
+                <Sector Name="SDCDL" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Cabos/Aeropuerto - Pistas" />
+                <Map Name="TMA Cabos/MMSD - Zona de Control (CTR)" />
+                <Map Name="TMA Cabos/MMSL - Zona de Control (CTR)" />
+                <Map Name="Universal/Geografia - Linea de Costa" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
+                <Window Airport="MMSD" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMSD" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMSD" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Autorización San Jose / San Jose Delivery</Line>
+                <Line>Serving MMSD departures</Line>
+                <Line>ATIS available on 127.600</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
