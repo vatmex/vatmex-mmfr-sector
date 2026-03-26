@@ -2,9 +2,15 @@
 <ATIS>
  <Frequencies>
         <Frequency Airport="MMUN" Frequency="127.7" />
+        <Frequency Airport="MMSD" Frequency="127.6" />
+        <Frequency Airport="MMSL" Frequency="127.0" />
+        <Frequency Airport="MMVA" Frequency="127.6" />
     </Frequencies>
     <Translations>
-        <Translation String="MMUN" Spoken="Cancun International" />	
+        <Translation String="MMUN" Spoken="Cancun International" />
+        <Translation String="MMSD" Spoken="San Jose del Cabo International" />
+        <Translation String="MMSL" Spoken="San Lucas" />
+        <Translation String="MMVA" Spoken="Villahermosa International" />	
 
         <Translation String="ATIS" Spoken="airport information" />
 

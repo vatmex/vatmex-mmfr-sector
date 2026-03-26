@@ -1209,17 +1209,14 @@
                 <SID Name="ATUM2A" />
                 <SID Name="AVAV1C" />
                 <SID Name="AVAV3A" />
-                <SID Name="BALC3A" />
                 <SID Name="DASO2A" />
                 <SID Name="ILIG1A" />
                 <SID Name="LETE3A" />
                 <SID Name="MENV3A" />
-                <SID Name="OLUVU3" />
                 <SID Name="SIBA3A" />
                 <SID Name="UKUX1A" />
                 <SID Name="USBO3A" />
                 <SID Name="XUGN2A" />
-                <STAR Name="ALRI1E" ApproachName="RNP16.AXEDA" />
                 <STAR Name="ENEK1A" ApproachName="RNP16.MARAK" />
                 <STAR Name="LEPO1A" ApproachName="RNP16.AXEDA" />
                 <STAR Name="TENA1A" ApproachName="RNP16.AXEDA" />
@@ -1231,7 +1228,6 @@
                 <SID Name="ANEG1B" />
                 <SID Name="ATUM2B" />
                 <SID Name="AVAV3B" />
-                <SID Name="BALC3B" />
                 <SID Name="DASO2B" />
                 <SID Name="ILIG1B" />
                 <SID Name="KINOL1" />
@@ -1242,7 +1238,6 @@
                 <SID Name="UKUX1B" />
                 <SID Name="USBO3B" />
                 <SID Name="XUGN2B" />
-                <STAR Name="ALRI1F" ApproachName="RNP34.AVURU" />
                 <STAR Name="ENEK1B" ApproachName="RNP34.AVURU" />
                 <STAR Name="LEPO1B" ApproachName="RNP34.AVURU" />
                 <STAR Name="TENA1B" ApproachName="RNP34.AVURU" />
@@ -1256,8 +1251,6 @@
                 <SID Name="DUVIT2" />
                 <SID Name="ILIG2C" />
                 <SID Name="SJD2D" />
-                <SID Name="SJD4C" />
-                <SID Name="UKUX2C" />
                 <SID Name="URLE1A" />
                 <STAR Name="ALRI1H" ApproachName="RNP11.SL800" />
                 <STAR Name="ENEK1D" ApproachName="RNP11.SL800" />
@@ -1271,8 +1264,6 @@
                 <SID Name="AVAV1E" />
                 <SID Name="ILIG2D" />
                 <SID Name="LETAT2" />
-                <SID Name="SJD2E" />
-                <SID Name="UKUX1D" />
                 <SID Name="URLE1B" />
                 <STAR Name="ALRI1G" ApproachName="RNP29.TESAC" />
                 <STAR Name="CSL3" />
@@ -8848,12 +8839,6 @@
         <SID Name="AVAV1C" Airport="MMSD" Runways="16">
             <Route Runway="16">SD501 AVAVU</Route>
         </SID>
-        <SID Name="BALC3A" Airport="MMSD" Runways="16">
-            <Route Runway="16">BALCE</Route>
-        </SID>
-        <SID Name="BALC3B" Airport="MMSD" Runways="34">
-            <Route Runway="34">BALCE</Route>
-        </SID>
         <SID Name="DASO2A" Airport="MMSD" Runways="16">
             <Route Runway="16">DASON</Route>
         </SID>
@@ -8880,9 +8865,6 @@
         </SID>
         <SID Name="MENV3B" Airport="MMSD" Runways="34">
             <Route Runway="34">MENVU</Route>
-        </SID>
-        <SID Name="OLUVU3" Airport="MMSD" Runways="16">
-            <Route Runway="16">OLUVU</Route>
         </SID>
         <SID Name="SIBA3A" Airport="MMSD" Runways="16">
             <Route Runway="16">SIBAU</Route>
@@ -8911,12 +8893,6 @@
         <SID Name="XUGN2B" Airport="MMSD" Runways="34">
             <Route Runway="34">XUGNU</Route>
         </SID>
-        <STAR Name="ALRI1E" Airport="MMSD" Runways="16">
-            <Route Runway="16">ALRIN SD403 DASON AXEDA</Route>
-        </STAR>
-        <STAR Name="ALRI1F" Airport="MMSD" Runways="34">
-            <Route Runway="34">ALRIN SD403 DASON SD602 AVURU</Route>
-        </STAR>
         <STAR Name="ENEK1A" Airport="MMSD" Runways="16">
             <Route Runway="16">ENEKO MARUX MARAK</Route>
         </STAR>
@@ -8978,20 +8954,8 @@
         <SID Name="LETAT2" Airport="MMSL" Runways="29">
             <Route Runway="29">LETAT</Route>
         </SID>
-        <SID Name="SJD4C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SJD</Route>
-        </SID>
         <SID Name="SJD2D" Airport="MMSL" Runways="11">
             <Route Runway="11">SJD</Route>
-        </SID>
-        <SID Name="SJD2E" Airport="MMSL" Runways="29">
-            <Route Runway="29">SJD</Route>
-        </SID>
-        <SID Name="UKUX2C" Airport="MMSL" Runways="11">
-            <Route Runway="11">SL805 SL510 SL512 SL514 SL504 AVAVU UKUXA</Route>
-        </SID>
-        <SID Name="UKUX1D" Airport="MMSL" Runways="29">
-            <Route Runway="29">>SL500 SL503 SL502 SL504 AVAVU UKUXA</Route>
         </SID>
         <SID Name="URLE1A" Airport="MMSL" Runways="11">
             <Route Runway="11">SL805 SL540 SL530 SL531 LETAT URLET</Route>
@@ -10750,7 +10714,7 @@
             <Runway Name="35" Position="+190830.870-0982215.260" />
         </Airport>
         <Airport ICAO="MMPC" FullName="PACHUCA" Position="+200425.000-0984700.000" Elevation="7598" />
-        <Airport ICAO="MMPE" FullName="PEÑASCO" Position="+312103.240-1131800.900" Elevation="88">
+        <Airport ICAO="MMPE" FullName="PENASCO" Position="+312103.240-1131800.900" Elevation="88">
             <Runway Name="18" Position="+312146.380-1131809.120" />
             <Runway Name="36" Position="+312027.240-1131829.940" />
         </Airport>
