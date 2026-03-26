@@ -657,34 +657,6 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Autorizacion San Jose - SDCDL" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
-            <Sectors>
-                <Sector Name="SDCDL" />
-            </Sectors>
-            <Maps>
-                <Map Name="TMA Cabos/Aeropuerto - Pistas" />
-                <Map Name="TMA Cabos/MMSD - Zona de Control (CTR)" />
-                <Map Name="TMA Cabos/MMSL - Zona de Control (CTR)" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
-            </Maps>
-            <ATIS>
-                <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
-                <Window Airport="MMSD" />
-            </ATIS>
-            <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMSD" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000" />
-            <ArrivalLists>
-                <Airport Name="MMSD" />
-            </ArrivalLists>
-            <ControllerInfo>
-                <Line>Autorizacion San Jose / San Jose Delivery</Line>
-                <Line>Serving MMSD departures</Line>
-                <Line>ATIS available on 127.600</Line>
-                <Line>ATC feedback - vatmex.com.mx</Line>
-            </ControllerInfo>
-        </Position>
         <Position Name="Terrestre San Jose - SDSMC" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="SDSMC" />
