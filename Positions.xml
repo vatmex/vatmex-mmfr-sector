@@ -2381,7 +2381,7 @@
                 <Map Name="ATZ Zacatecas/ASMGCS_MMZC_GATES" />
             </Maps>
         </Position>
-        <Position Name="MMZH" Type="ASMGCS" ASMGCSAirport="MMZH" DefaultCenter="+173610.590-1012737.700" DefaultRange="2" MagneticVariation="-6" Rotation="185">
+        <Position Name="MMZH" Type="ASMGCS" ASMGCSAirport="MMZH" DefaultCenter="+173610.590-1012737.700" DefaultRange="2" MagneticVariation="-5" Rotation="185">
             <Maps>
                 <Map Name="TMA Zihuatanejo/ASMGCS_MMZH_RWY" />
                 <Map Name="TMA Zihuatanejo/ASMGCS_MMZH_APR" />
@@ -4115,7 +4115,7 @@
         </Position>
 
         <!-- TMA Zihuatanejo -->
-        <Position Name="Torre Zihuatanejo - ZHTW1" Type="ASD" DefaultCenter="+173605.840-1012737.990" DefaultRange="50" MagneticVariation="-6">
+        <Position Name="Torre Zihuatanejo - ZHTW1" Type="ASD" DefaultCenter="+173605.840-1012737.990" DefaultRange="50" MagneticVariation="-5">
             <Sectors>
                 <Sector Name="ZHTW1" />
             </Sectors>
@@ -4139,7 +4139,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximación Zihuatanejo - ZHAPP" Type="ASD" DefaultCenter="+174139.629-1012701.469" DefaultRange="260" MagneticVariation="-6" VisibilityRange="100">
+        <Position Name="Aproximación Zihuatanejo - ZHAPP" Type="ASD" DefaultCenter="+174139.629-1012701.469" DefaultRange="260" MagneticVariation="-5" VisibilityRange="100">
             <Sectors>
                 <Sector Name="ZHAPP" />
             </Sectors>
@@ -4479,7 +4479,7 @@
                 <Map Name="TMA Saltillo/ASMGCS_MMIO_GATES" />
             </Maps>
         </Position>
-        <Position Name="MMMA" Type="ASMGCS" ASMGCSAirport="MMMA" DefaultCenter="+254609.830-0973131.900" DefaultRange="2" MagneticVariation="-4" Rotation="298">
+        <Position Name="MMMA" Type="ASMGCS" ASMGCSAirport="MMMA" DefaultCenter="+254609.830-0973131.900" DefaultRange="2" MagneticVariation="-3" Rotation="298">
             <Maps>
                 <Map Name="TMA Matamoros/ASMGCS_MMMA_RWY" />
                 <Map Name="TMA Matamoros/ASMGCS_MMMA_APR" />
