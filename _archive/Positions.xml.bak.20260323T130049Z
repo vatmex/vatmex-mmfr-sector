@@ -111,11 +111,11 @@
         </Position>
         <Position Name="MMPE" Type="ASMGCS" ASMGCSAirport="MMPE" DefaultCenter="+312105.850-1131814.120" DefaultRange="2" MagneticVariation="-12" Rotation="89">
             <Maps>
-                <Map Name="ATZ Puerto Penasco/ASMGCS_MMPE_RWY" />
-                <Map Name="ATZ Puerto Penasco/ASMGCS_MMPE_APR" />
-                <Map Name="ATZ Puerto Penasco/ASMGCS_MMPE_TWY" />
-                <Map Name="ATZ Puerto Penasco/ASMGCS_MMPE_BLD" />
-                <Map Name="ATZ Puerto Penasco/ASMGCS_MMPE_LABELS" />
+                <Map Name="ATZ Puerto Peñasco/ASMGCS_MMPE_RWY" />
+                <Map Name="ATZ Puerto Peñasco/ASMGCS_MMPE_APR" />
+                <Map Name="ATZ Puerto Peñasco/ASMGCS_MMPE_TWY" />
+                <Map Name="ATZ Puerto Peñasco/ASMGCS_MMPE_BLD" />
+                <Map Name="ATZ Puerto Peñasco/ASMGCS_MMPE_LABELS" />
             </Maps>
         </Position>
         <Position Name="MMSD" Type="ASMGCS" ASMGCSAirport="MMSD" DefaultCenter="+230915.8516-1094312.8125" DefaultRange="2" MagneticVariation="-8" Rotation="104">
@@ -149,7 +149,7 @@
         </Position>
 
         <!-- TMA Culiacan -->
-        <Position Name="Torre Culiacan - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-7">
+        <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="CLTW1" />
             </Sectors>
@@ -178,7 +178,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Culiacan - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-7" VisibilityRange="150">
+        <Position Name="Aproximación Culiacán - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-7" VisibilityRange="150">
             <Sectors>
                 <Sector Name="CLAPP" />
             </Sectors>
@@ -342,7 +342,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Hermosillo - HOAPP" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="550" MagneticVariation="-9" VisibilityRange="150">
+        <Position Name="Aproximación Hermosillo - HOAPP" Type="ASD" DefaultCenter="+290544.930-1110252.290" DefaultRange="550" MagneticVariation="-9" VisibilityRange="150">
             <Sectors>
                 <Sector Name="HOAPP" />
             </Sectors>
@@ -442,7 +442,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion La Paz - LPAPP" Type="ASD" DefaultCenter="+242709.307-1101812.233" DefaultRange="200" MagneticVariation="-10" VisibilityRange="150">
+        <Position Name="Aproximación La Paz - LPAPP" Type="ASD" DefaultCenter="+242709.307-1101812.233" DefaultRange="200" MagneticVariation="-10" VisibilityRange="150">
             <Sectors>
                 <Sector Name="LPAPP" />
             </Sectors>
@@ -563,7 +563,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Mazatlan - MZAPP" Type="ASD" DefaultCenter="+231854.352-1061500.742" DefaultRange="250" MagneticVariation="-7" VisibilityRange="150">
+        <Position Name="Aproximación Mazatlan - MZAPP" Type="ASD" DefaultCenter="+231854.352-1061500.742" DefaultRange="250" MagneticVariation="-7" VisibilityRange="150">
             <Sectors>
                 <Sector Name="MZAPP" />
             </Sectors>
@@ -600,14 +600,14 @@
             </ManualVisibility>
         </Position>
 
-        <!-- ATZ Penasco -->
-        <Position Name="Torre Penasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="40" MagneticVariation="-12">
+        <!-- ATZ Peñasco -->
+        <Position Name="Torre Peñasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="40" MagneticVariation="-12">
             <Sectors>
                 <Sector Name="PETW1" />
             </Sectors>
             <Maps>
-                <Map Name="ATZ Puerto Penasco/Aeropuerto - Pistas" />
-                <Map Name="ATZ Puerto Penasco/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="ATZ Puerto Peñasco/Aeropuerto - Pistas" />
+                <Map Name="ATZ Puerto Peñasco/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
@@ -619,7 +619,7 @@
                 <Airport Name="MMPE" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Torre Penasco / Penasco Tower</Line>
+                <Line>Torre Peñasco / Peñasco Tower</Line>
                 <Line>Serving MMPE arrivals and departures</Line>
             </ControllerInfo>
         </Position>
@@ -654,34 +654,6 @@
                 <Line>>Torre San Lucas / San Lucas Tower</Line>
                 <Line>Serving MMSL arrivals and departures</Line>
                 <Line>ATIS available on 127.000</Line>
-                <Line>ATC feedback - vatmex.com.mx</Line>
-            </ControllerInfo>
-        </Position>
-        <Position Name="Autorizacion San Jose - SDCDL" Type="ASD" DefaultCenter="+230907.460-1094314.690" DefaultRange="50" MagneticVariation="-8">
-            <Sectors>
-                <Sector Name="SDCDL" />
-            </Sectors>
-            <Maps>
-                <Map Name="TMA Cabos/Aeropuerto - Pistas" />
-                <Map Name="TMA Cabos/MMSD - Zona de Control (CTR)" />
-                <Map Name="TMA Cabos/MMSL - Zona de Control (CTR)" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
-            </Maps>
-            <ATIS>
-                <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
-                <Window Airport="MMSD" />
-            </ATIS>
-            <Strips Mode="Beacon" Sort="Alpha">
-                <Window Type="ADEP" Beacon="MMSD" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000" />
-            <ArrivalLists>
-                <Airport Name="MMSD" />
-            </ArrivalLists>
-            <ControllerInfo>
-                <Line>Autorizacion San Jose / San Jose Delivery</Line>
-                <Line>Serving MMSD departures</Line>
-                <Line>ATIS available on 127.600</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
@@ -749,7 +721,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion San Jose - SDAPP" Type="ASD" DefaultCenter="+232502.992-1093916.281" DefaultRange="280" MagneticVariation="-8" VisibilityRange="150">
+        <Position Name="Aproximación San Jose - SDAPP" Type="ASD" DefaultCenter="+232502.992-1093916.281" DefaultRange="280" MagneticVariation="-8" VisibilityRange="150">
             <Sectors>
                 <Sector Name="SDAPP" />
             </Sectors>
@@ -826,7 +798,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Autorizacion Tijuana - TJCDL" Type="ASD" DefaultCenter="+322903.736-1165814.064" DefaultRange="30" MagneticVariation="-12">
+        <Position Name="Autorización Tijuana - TJCDL" Type="ASD" DefaultCenter="+322903.736-1165814.064" DefaultRange="30" MagneticVariation="-12">
             <Sectors>
                 <Sector Name="TJCDL" />
             </Sectors>
@@ -892,7 +864,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Tijuana - TJAPP" Type="ASD" DefaultCenter="+320145.000-1164445.812" DefaultRange="170" MagneticVariation="-12" VisibilityRange="150">
+        <Position Name="Aproximación Tijuana - TJAPP" Type="ASD" DefaultCenter="+320145.000-1164445.812" DefaultRange="170" MagneticVariation="-12" VisibilityRange="150">
             <Sectors>
                 <Sector Name="TJAPP" />
             </Sectors>
@@ -1078,7 +1050,7 @@
         </Position>
     </Group>
 
-    <Group Name="ACC Merida">
+    <Group Name="ACC Mérida">
         <Position Name="MMCE" Type="ASMGCS" ASMGCSAirport="MMCE" DefaultCenter="+183906.380-0914758.720" DefaultRange="2" MagneticVariation="-1" Rotation="313">
             <Maps>
             <Map Name="TMA Ciudad del Carmen/ASMGCS_MMCE_RWY" />
@@ -1248,7 +1220,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Carmen - CEAPP" Type="ASD" DefaultCenter="+184620.228-0914750.371" DefaultRange="130" MagneticVariation="-1">
+        <Position Name="Aproximación Carmen - CEAPP" Type="ASD" DefaultCenter="+184620.228-0914750.371" DefaultRange="130" MagneticVariation="-1">
             <Sectors>
                 <Sector Name="CEAPP" />
             </Sectors>
@@ -1381,8 +1353,8 @@
             </ControllerInfo>
         </Position>
 
-        <!-- TMA Merida -->
-        <Position Name="Autorizacion Merida - MDCDL" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="80" MagneticVariation="0">
+        <!-- TMA Mérida -->
+        <Position Name="Autorización Mérida - MDCDL" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="80" MagneticVariation="0">
             <Sectors>
                 <Sector Name="MDCDL" />
             </Sectors>
@@ -1409,7 +1381,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre Merida - MDTW1" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="80" MagneticVariation="0">
+        <Position Name="Torre Mérida - MDTW1" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="80" MagneticVariation="0">
             <Sectors>
                 <Sector Name="MDTW1" />
             </Sectors>
@@ -1438,7 +1410,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Merida - MDAPP" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="230" MagneticVariation="0" VisibilityRange="100">
+        <Position Name="Aproximación Mérida - MDAPP" Type="ASD" DefaultCenter="+205613.280-0893927.700" DefaultRange="230" MagneticVariation="0" VisibilityRange="100">
             <Sectors>
                 <Sector Name="MDAPP" />
             </Sectors>
@@ -1594,7 +1566,7 @@
             </ManualVisibility>
         </Position>
 
-        <!-- TMA Cancun  -->
+        <!-- TMA Cancún  -->
         <Position Name="Torre Cozumel - CZTW1" Type="ASD" DefaultCenter="+203123.258-0865535.437" DefaultRange="50" MagneticVariation="+2" VisibilityRange="50">
             <Sectors>
                 <Sector Name="CZTW1" />
@@ -1631,7 +1603,7 @@
                 <Point>+203114.9817-0865551.5442</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Autorizacion Tulum - TLCDL" Type="ASD" DefaultCenter="+201021.120-0873939.550" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
+        <Position Name="Autorización Tulum - TLCDL" Type="ASD" DefaultCenter="+201021.120-0873939.550" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
             <Sectors>
                 <Sector Name="TLCDL" />
             </Sectors>
@@ -1658,7 +1630,7 @@
                 <Airport Name="MMTL" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Autorizacion Tulum / Tulum Delivery</Line>
+                <Line>Autorización Tulum / Tulum Delivery</Line>
                 <Line>Serving MMTL departures</Line>
                 <Line>ATIS available on 127.600</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -1739,7 +1711,7 @@
                 <Point>+201021.120-0873939.550</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Autorizacion Cancun - UNCDL" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
+        <Position Name="Autorización Cancún - UNCDL" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
             <Sectors>
                 <Sector Name="UNCDL" />
             </Sectors>
@@ -1775,7 +1747,7 @@
                 <Point>+210236.205-0865233.131</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Terrestre Cancun - UNSMC" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
+        <Position Name="Terrestre Cancún - UNSMC" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="50" MagneticVariation="+2" VisibilityRange="20">
             <Sectors>
                 <Sector Name="UNSMC" />
             </Sectors>
@@ -1847,7 +1819,7 @@
                 <Point>+210236.205-0865233.131</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Torre Cancun - UNTW1" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="95" MagneticVariation="+2" VisibilityRange="50">
+        <Position Name="Torre Cancún - UNTW1" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="95" MagneticVariation="+2" VisibilityRange="50">
             <Sectors>
                 <Sector Name="UNTW1" />
             </Sectors>
@@ -1883,7 +1855,7 @@
                 <Point>+210236.205-0865233.131</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Cancun - UNAPP" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
+        <Position Name="Aproximación Cancún - UNAPP" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNAPP" />
             </Sectors>
@@ -1930,7 +1902,7 @@
                 <Point>+203028.963-0865441.589</Point>
             </ManualVisibility>
         </Position>        
-        <Position Name="Salidas Cancun - UNDEP" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
+        <Position Name="Salidas Cancún - UNDEP" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="330" MagneticVariation="+2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="UNDEP" />
             </Sectors>
@@ -1998,7 +1970,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Villahermosa - VAAPP" Type="ASD" DefaultCenter="+175459.400-0924933.120" DefaultRange="155" MagneticVariation="-2" VisibilityRange="100">
+        <Position Name="Aproximación Villahermosa - VAAPP" Type="ASD" DefaultCenter="+175459.400-0924933.120" DefaultRange="155" MagneticVariation="-2" VisibilityRange="100">
             <Sectors>
                 <Sector Name="VAAPP" />
             </Sectors>
@@ -2031,8 +2003,8 @@
             </ManualVisibility>
         </Position>
 
-        <!-- ACC Merida -->
-        <Position Name="Control Merida (Combinado) - MIDC" Type="ASD" DefaultCenter="+182452.094-0914224.983" DefaultRange="1430" MagneticVariation="+2">
+        <!-- ACC Mérida -->
+        <Position Name="Control Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+182452.094-0914224.983" DefaultRange="1430" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDC" />
                 <Sector Name="MID1" />
@@ -2079,7 +2051,7 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Merida (SE) - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
+        <Position Name="Control Mérida (SE) - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDE" />
                 <Sector Name="MID2" />
@@ -2122,7 +2094,7 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Merida (SW) - MIDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
+        <Position Name="Control Mérida (SW) - MIDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDW" />
                 <Sector Name="MID1" />
@@ -2168,7 +2140,7 @@
         </Position>
     </Group>
 
-    <Group Name="ACC Mexico">
+    <Group Name="ACC México">
         <Position Name="MMAA" Type="ASMGCS" ASMGCSAirport="MMAA" DefaultCenter="+164523.800-0994455.300" DefaultRange="2" MagneticVariation="-5" Rotation="167">
             <Maps>
                 <Map Name="TMA Acapulco/ASMGCS_MMAA_RWY" />
@@ -2409,7 +2381,7 @@
                 <Map Name="ATZ Zacatecas/ASMGCS_MMZC_GATES" />
             </Maps>
         </Position>
-        <Position Name="MMZH" Type="ASMGCS" ASMGCSAirport="MMZH" DefaultCenter="+173610.590-1012737.700" DefaultRange="2" MagneticVariation="-5" Rotation="185">
+        <Position Name="MMZH" Type="ASMGCS" ASMGCSAirport="MMZH" DefaultCenter="+173610.590-1012737.700" DefaultRange="2" MagneticVariation="-6" Rotation="185">
             <Maps>
                 <Map Name="TMA Zihuatanejo/ASMGCS_MMZH_RWY" />
                 <Map Name="TMA Zihuatanejo/ASMGCS_MMZH_APR" />
@@ -2459,7 +2431,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Acapulco - ACAPP" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5" VisibilityRange="100">
+        <Position Name="Aproximación Acapulco - ACAPP" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="235" MagneticVariation="-5" VisibilityRange="100">
             <Sectors>
                 <Sector Name="ACAPP" />
             </Sectors>
@@ -2525,7 +2497,7 @@
         </Position>
 
         <!-- TMA Guadalajara -->
-        <Position Name="Autorizacion Guadalajara - GLCDL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
+        <Position Name="Autorización Guadalajara - GLCDL" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="GLCDL" />
             </Sectors>
@@ -2657,7 +2629,7 @@
                 <Point>+20.521804-103.311110</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Guadalajara - GLAPP" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" VisibilityRange="150">
+        <Position Name="Aproximación Guadalajara - GLAPP" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" VisibilityRange="150">
             <Sectors>
                 <Sector Name="GLAPP" />
             </Sectors>
@@ -2701,7 +2673,7 @@
                 <Point>+20.521804-103.311110</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Guadalajara (Terminal) - GLTML" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" VisibilityRange="150">
+        <Position Name="Aproximación Guadalajara (Terminal) - GLTML" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="235" MagneticVariation="-6" VisibilityRange="150">
             <Sectors>
                 <Sector Name="GLTML" />
             </Sectors>
@@ -2746,7 +2718,7 @@
             </ManualVisibility>
         </Position>
 
-        <!-- TMA Leon -->
+        <!-- TMA León -->
         <Position Name="Torre Aguascalientes - ASTW1" Type="ASD" DefaultCenter="+214241.671-1021907.937" DefaultRange="45" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="ASTW1" />
@@ -2773,7 +2745,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre Leon - LOTW1" Type="ASD" DefaultCenter="+205951.320-1012858.281" DefaultRange="75" MagneticVariation="-6">
+        <Position Name="Torre León - LOTW1" Type="ASD" DefaultCenter="+205951.320-1012858.281" DefaultRange="75" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="LOTW1" />
             </Sectors>
@@ -2804,7 +2776,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Leon - BXAPP" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6" VisibilityRange="100">
+        <Position Name="Aproximación León - BXAPP" Type="ASD" DefaultCenter="+212117.800-1015359.200" DefaultRange="300" MagneticVariation="-6" VisibilityRange="100">
             <Sectors>
                 <Sector Name="BXAPP" />
             </Sectors>
@@ -2893,7 +2865,7 @@
             </ManualVisibility>
         </Position>
 
-        <!-- TMA Mexico -->
+        <!-- TMA México -->
         <Position Name="Torre Cuernavaca - CBTW1" Type="ASD" DefaultCenter="+185004.239-0991541.730" DefaultRange="65" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="CBTW1" />
@@ -2901,8 +2873,8 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Puebla" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMCB - Zona de Control (CTR)" />
@@ -2930,8 +2902,8 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Puebla" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
@@ -2955,7 +2927,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Autorizacion Mexico - MXCDL" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
+        <Position Name="Autorización México - MXCDL" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXCDL" />
             </Sectors>
@@ -2988,7 +2960,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Terrestre Mexico - MXSMC" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
+        <Position Name="Terrestre México - MXSMC" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXSMC" />
             </Sectors>
@@ -3021,7 +2993,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Terrestre Mexico Sur - MXRMP" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
+        <Position Name="Terrestre México Sur - MXRMP" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXRMP" />
             </Sectors>
@@ -3052,7 +3024,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre Mexico - MXTWR" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
+        <Position Name="Torre México - MXTWR" Type="ASD" DefaultCenter="+192620.184-0990404.171" DefaultRange="60" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MXTWR" />
             </Sectors>
@@ -3089,7 +3061,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Autorizacion Santa Lucia - SMCDL" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
+        <Position Name="Autorización Santa Lucía - SMCDL" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="SMCDL" />
             </Sectors>
@@ -3113,13 +3085,13 @@
             </Strips>
             <CFL QuickLevel="27000" />
             <ControllerInfo>
-                <Line>Autorizacion Santa Lucia / Santa Lucia Delivery</Line>
+                <Line>Autorizacion Santa Lucía / Santa Lucía Delivery</Line>
                 <Line>Serving MMSM departures</Line>
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Terrestre Santa Lucia - SMSMC" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
+        <Position Name="Terrestre Santa Lucía - SMSMC" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="SMSMC" />
             </Sectors>
@@ -3143,13 +3115,13 @@
             </Strips>
             <CFL QuickLevel="27000" />
             <ControllerInfo>
-                <Line>Terrestre Santa Lucia / Santa Lucia Ground</Line>
+                <Line>Terrestre Santa Lucía / Santa Lucía Ground</Line>
                 <Line>Serving MMSM arrivals and departures</Line>
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre Santa Lucia - SMTW1" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
+        <Position Name="Torre Santa Lucía - SMTW1" Type="ASD" DefaultCenter="+194126.700-0990756.697" DefaultRange="80" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="SMTW1" />
             </Sectors>
@@ -3177,7 +3149,7 @@
                 <Airport Name="MMSM" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Torre Santa Lucia / Santa Lucia Tower</Line>
+                <Line>Torre Santa Lucía / Santa Lucía Tower</Line>
                 <Line>Serving MMMX arrivals and departures</Line>
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -3190,8 +3162,8 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Puebla" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
@@ -3225,8 +3197,8 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Puebla" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
@@ -3256,17 +3228,17 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Puebla - PBAPP" Type="ASD" DefaultCenter="+190917.820-0981448.438" DefaultRange="130" MagneticVariation="-4" VisibilityRange="150">
+        <Position Name="Aproximación Puebla - PBAPP" Type="ASD" DefaultCenter="+190917.820-0981448.438" DefaultRange="130" MagneticVariation="-4" VisibilityRange="150">
             <Sectors>
                 <Sector Name="PBAPP" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Puebla" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite (Nombres)" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
 
                 <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMPB - Pista 35 - Llegadas RNAV" />
@@ -3296,7 +3268,7 @@
                 <Point>+184940.584-0982345.504</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Mexico (Combinado) - MAPPC" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="false">
+        <Position Name="Aproximación México (Combinado) - MAPPC" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MAPPC" />
                 <Sector Name="TOAPP" />
@@ -3307,10 +3279,10 @@
                 <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite (Nombres)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Puebla" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Puebla" />
 
                 <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
@@ -3327,7 +3299,7 @@
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Mexico/Radar - TMA Mexico" />
+                <Map Name="ACC Mexico/Radar - TMA México" />
                 <Map Name="Universal/Sector - Radioayudas" />
             </Maps>
             <ATIS>
@@ -3357,7 +3329,7 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Lucia - SMAPP" Type="ASD" DefaultCenter="+194426.930-0990021.360" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="false">
+        <Position Name="Aproximación Lucía - SMAPP" Type="ASD" DefaultCenter="+194426.930-0990021.360" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="false">
             <Sectors>
                 <Sector Name="SMAPP" />
             </Sectors>
@@ -3366,9 +3338,9 @@
                 <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Lucia 04" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite (Nombres)" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Lucia 04" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
 
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
 
@@ -3380,7 +3352,7 @@
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Mexico/Radar - TMA Mexico" />
+                <Map Name="ACC Mexico/Radar - TMA México" />
                 <Map Name="Universal/Sector - Radioayudas" />
             </Maps>
             <ATIS>
@@ -3409,7 +3381,7 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Toluca - TOAPP" Type="ASD" DefaultCenter="+192448.188-0994940.063" DefaultRange="160" MagneticVariation="-4" VisibilityRange="100">
+        <Position Name="Aproximación Toluca - TOAPP" Type="ASD" DefaultCenter="+192448.188-0994940.063" DefaultRange="160" MagneticVariation="-4" VisibilityRange="100">
             <Sectors>
                 <Sector Name="TOAPP" />
             </Sectors>
@@ -3417,7 +3389,7 @@
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
+                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximación Toluca" />
 
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
@@ -3459,7 +3431,7 @@
                 <Point>+183641.440-0992005.612</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Salidas Mexico - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100">
+        <Position Name="Salidas México - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100">
             <Sectors>
                 <Sector Name="MXDEP" />
                 <Sector Name="MXD5" />
@@ -3469,8 +3441,8 @@
                 <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite (Nombres)" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredor Satélite (Nombres)" />
 
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Salidas" />
 
@@ -3536,7 +3508,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Oaxaca - OXAPP" Type="ASD" DefaultCenter="+170305.457-0964304.906" DefaultRange="255" MagneticVariation="-4" VisibilityRange="100">
+        <Position Name="Aproximación Oaxaca - OXAPP" Type="ASD" DefaultCenter="+170305.457-0964304.906" DefaultRange="255" MagneticVariation="-4" VisibilityRange="100">
             <Sectors>
                 <Sector Name="OXAPP" />
             </Sectors>
@@ -3602,7 +3574,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ATZ Uruapan/Aeropuerto - Pistas" />
-                <Map Name="ATZ Uruapan/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="ATZ Uruapan/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3629,7 +3601,7 @@
             <Maps>
                 <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
                 <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
-                <Map Name="TMA Vallarta/MMEP - Servicio de Informacion de Vuelo (AFIS)" />
+                <Map Name="TMA Vallarta/MMEP - Servicio de Información de Vuelo (AFIS)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3656,7 +3628,7 @@
                 <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
 
-                <Map Name="TMA Vallarta/Pista 22 - RNP 22" />
+                <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3679,7 +3651,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Vallarta - PRAPP" Type="ASD" DefaultCenter="+204450.797-1051443.281" DefaultRange="260" MagneticVariation="-7" VisibilityRange="100">
+        <Position Name="Aproximación Vallarta - PRAPP" Type="ASD" DefaultCenter="+204450.797-1051443.281" DefaultRange="260" MagneticVariation="-7" VisibilityRange="100">
             <Sectors>
                 <Sector Name="PRAPP" />
             </Sectors>
@@ -3689,13 +3661,13 @@
                 <Map Name="TMA Vallarta/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
                 <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
-                <Map Name="TMA Vallarta/MMEP - Servicio de Informacion de Vuelo (AFIS)" />
+                <Map Name="TMA Vallarta/MMEP - Servicio de Información de Vuelo (AFIS)" />
 
-                <Map Name="TMA Vallarta/Pista 22 - RNP 22" />
-                <Map Name="TMA Vallarta/Pista 22 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Vallarta/Pista 22 - Llegadas RNAV" />
-                <Map Name="TMA Vallarta/Pista 22 - Salidas RNAV" />
-                <Map Name="TMA Vallarta/Pista 22 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
+                <Map Name="TMA Vallarta/Pista 04 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Vallarta/Pista 04 - Llegadas RNAV" />
+                <Map Name="TMA Vallarta/Pista 04 - Salidas RNAV" />
+                <Map Name="TMA Vallarta/Pista 04 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3734,11 +3706,11 @@
                 <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
                 <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
 
-                <Map Name="TMA Vallarta/Pista 22 - RNP 22" />
-                <Map Name="TMA Vallarta/Pista 22 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Vallarta/Pista 22 - Llegadas RNAV" />
-                <Map Name="TMA Vallarta/Pista 22 - Salidas RNAV" />
-                <Map Name="TMA Vallarta/Pista 22 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Vallarta/Pista 04 - RNP 04" />
+                <Map Name="TMA Vallarta/Pista 04 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Vallarta/Pista 04 - Llegadas RNAV" />
+                <Map Name="TMA Vallarta/Pista 04 - Salidas RNAV" />
+                <Map Name="TMA Vallarta/Pista 04 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3774,7 +3746,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ATZ Puerto Escondido/Aeropuerto - Pistas" />
-                <Map Name="ATZ Puerto Escondido/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="ATZ Puerto Escondido/Aeropuerto - Zona de Tránsito de Aeródromo (ATZ)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3793,8 +3765,8 @@
             </ControllerInfo>
         </Position>
 
-        <!-- TMA Queretaro -->
-        <Position Name="Terrestre Queretaro - QTSMC" Type="ASD" DefaultCenter="+203704.000-1001112.000" DefaultRange="50" MagneticVariation="-7">
+        <!-- TMA Querétaro -->
+        <Position Name="Terrestre Querétaro - QTSMC" Type="ASD" DefaultCenter="+203704.000-1001112.000" DefaultRange="50" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="QTSMC" />
             </Sectors>
@@ -3821,7 +3793,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Torre Queretaro - QTTW1" Type="ASD" DefaultCenter="+203704.000-1001112.000" DefaultRange="50" MagneticVariation="-7">
+        <Position Name="Torre Querétaro - QTTW1" Type="ASD" DefaultCenter="+203704.000-1001112.000" DefaultRange="50" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="QTTW1" />
             </Sectors>
@@ -3848,7 +3820,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Queretaro - QTAPP" Type="ASD" DefaultCenter="+204132.000-0995817.000" DefaultRange="220" MagneticVariation="-7" VisibilityRange="100">
+        <Position Name="Aproximación Querétaro - QTAPP" Type="ASD" DefaultCenter="+204132.000-0995817.000" DefaultRange="220" MagneticVariation="-7" VisibilityRange="100">
             <Sectors>
                 <Sector Name="QTAPP" />
             </Sectors>
@@ -3883,8 +3855,8 @@
             </ManualVisibility>
         </Position>
 
-        <!-- TMA Potosi -->
-        <Position Name="Torre Potosi - SPTW1" Type="ASD" DefaultCenter="+221515.342-1005550.738" DefaultRange="60" MagneticVariation="-5">
+        <!-- TMA Potosí -->
+        <Position Name="Torre Potosí - SPTW1" Type="ASD" DefaultCenter="+221515.342-1005550.738" DefaultRange="60" MagneticVariation="-5">
             <Sectors>
                 <Sector Name="SPTW1" />
             </Sectors>
@@ -3915,7 +3887,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Potosi - SPAPP" Type="ASD" DefaultCenter="+221948.727-1005226.813" DefaultRange="220" MagneticVariation="-5" VisibilityRange="100">
+        <Position Name="Aproximación Potosí - SPAPP" Type="ASD" DefaultCenter="+221948.727-1005226.813" DefaultRange="220" MagneticVariation="-5" VisibilityRange="100">
             <Sectors>
                 <Sector Name="SPAPP" />
             </Sectors>
@@ -3954,13 +3926,13 @@
         </Position>
 
         <!-- Torre Tampico -->
-        <Position Name="Torre Tamuin - TNTW1" Type="ASD" DefaultCenter="+220218.100-0984823.600" DefaultRange="20" MagneticVariation="-6">
+        <Position Name="Torre Tamuín - TNTW1" Type="ASD" DefaultCenter="+220218.100-0984823.600" DefaultRange="20" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="TNTW1" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Tampico/Aeropuerto - Pistas" />
-                <Map Name="TMA Tampico/MMTN - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="TMA Tampico/MMTN - Zona de Tránsito de Aeródromo (ATZ)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -4002,7 +3974,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Tampico - TMAPP" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="240" MagneticVariation="-6" VisibilityRange="100">
+        <Position Name="Aproximación Tampico - TMAPP" Type="ASD" DefaultCenter="+221723.359-0975151.892" DefaultRange="240" MagneticVariation="-6" VisibilityRange="100">
             <Sectors>
                 <Sector Name="TMAPP" />
             </Sectors>
@@ -4010,7 +3982,7 @@
                 <Map Name="TMA Tampico/Aeropuerto - Pistas" />
                 <Map Name="TMA Tampico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Tampico/MMTM - Zona de Control (CTR)" />
-                <Map Name="TMA Tampico/MMTN - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="TMA Tampico/MMTN - Zona de Tránsito de Aeródromo (ATZ)" />
                 <Map Name="TMA Tampico/Aeropuerto - Fijos 14" />
                 <Map Name="TMA Tampico/Aeropuerto - Fijos 14 (Nombres)" />
 
@@ -4072,7 +4044,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Veracruz - VRAPP" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="270" MagneticVariation="-4" VisibilityRange="100">
+        <Position Name="Aproximación Veracruz - VRAPP" Type="ASD" DefaultCenter="+190400.000-0961114.000" DefaultRange="270" MagneticVariation="-4" VisibilityRange="100">
             <Sectors>
                 <Sector Name="VRAPP" />
             </Sectors>
@@ -4143,7 +4115,7 @@
         </Position>
 
         <!-- TMA Zihuatanejo -->
-        <Position Name="Torre Zihuatanejo - ZHTW1" Type="ASD" DefaultCenter="+173605.840-1012737.990" DefaultRange="50" MagneticVariation="-5">
+        <Position Name="Torre Zihuatanejo - ZHTW1" Type="ASD" DefaultCenter="+173605.840-1012737.990" DefaultRange="50" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="ZHTW1" />
             </Sectors>
@@ -4167,7 +4139,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Zihuatanejo - ZHAPP" Type="ASD" DefaultCenter="+174139.629-1012701.469" DefaultRange="260" MagneticVariation="-5" VisibilityRange="100">
+        <Position Name="Aproximación Zihuatanejo - ZHAPP" Type="ASD" DefaultCenter="+174139.629-1012701.469" DefaultRange="260" MagneticVariation="-6" VisibilityRange="100">
             <Sectors>
                 <Sector Name="ZHAPP" />
             </Sectors>
@@ -4256,8 +4228,8 @@
             </ManualVisibility>
         </Position>
 
-        <!-- ACC Mexico -->
-        <Position Name="Control Mexico (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
+        <!-- ACC México -->
+        <Position Name="Control México (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXC" />
                 <Sector Name="MEX1" />
@@ -4272,7 +4244,7 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
+                <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Sector - Aerodromos" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
@@ -4298,7 +4270,7 @@
                 <Airport Name="MMMX" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Mexico Control</Line>
+                <Line>Centro Mexico / Mexico Center</Line>
                 <Line>PDC Logon [MMMX]</Line>
                 <Line>MMMX ATIS available on 127.650</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -4310,7 +4282,7 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mexico (SS) - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control México (SS) - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXS" />
                 <Sector Name="MEX5" />
@@ -4318,7 +4290,7 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
+                <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Sector - Aerodromos" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
@@ -4355,7 +4327,7 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mexico (SW) - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control México (SW) - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXW" />
                 <Sector Name="MEX6" />
@@ -4363,7 +4335,7 @@
                 <Sector Name="MEX8" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
+                <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Sector - Aerodromos" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
@@ -4400,7 +4372,7 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mexico (SE) - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="890" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control México (SE) - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="890" MagneticVariation="-4" DynamicInfill="false">
             <Sectors>
                 <Sector Name="MEXE" />
                 <Sector Name="MEX1" />
@@ -4409,7 +4381,7 @@
                 <Sector Name="MEX4" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
+                <Map Name="ACC Mexico/Radar - Cobertura Aerovías" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Sector - Aerodromos" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
@@ -4507,7 +4479,7 @@
                 <Map Name="TMA Saltillo/ASMGCS_MMIO_GATES" />
             </Maps>
         </Position>
-        <Position Name="MMMA" Type="ASMGCS" ASMGCSAirport="MMMA" DefaultCenter="+254609.830-0973131.900" DefaultRange="2" MagneticVariation="-3" Rotation="298">
+        <Position Name="MMMA" Type="ASMGCS" ASMGCSAirport="MMMA" DefaultCenter="+254609.830-0973131.900" DefaultRange="2" MagneticVariation="-4" Rotation="298">
             <Maps>
                 <Map Name="TMA Matamoros/ASMGCS_MMMA_RWY" />
                 <Map Name="TMA Matamoros/ASMGCS_MMMA_APR" />
@@ -4605,7 +4577,7 @@
                 <Point>+313809.654-1062539.624</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Juarez - CSAPP" Type="ASD" DefaultCenter="+311823.872-1063307.399" DefaultRange="120" MagneticVariation="-10">
+        <Position Name="Aproximación Juarez - CSAPP" Type="ASD" DefaultCenter="+311823.872-1063307.399" DefaultRange="120" MagneticVariation="-10">
             <Sectors>
                 <Sector Name="CSAPP" />
             </Sectors>
@@ -4672,7 +4644,7 @@
                 <Point>+284152.148-1055740.446</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Chihuahua - CUAPP" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8">
+        <Position Name="Aproximación Chihuahua - CUAPP" Type="ASD" DefaultCenter="+284208.380-1055746.670" DefaultRange="280" MagneticVariation="-8">
             <Sectors>
                 <Sector Name="CUAPP" />
             </Sectors>
@@ -4719,7 +4691,7 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Ciudad Victoria/Aeropuerto - Pistas" />
-                <Map Name="TMA Ciudad Victoria/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Ciudad Victoria/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -4737,13 +4709,13 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Victoria - CVAPP" Type="ASD" DefaultCenter="+233552.902-0985822.387" DefaultRange="180" MagneticVariation="-6">
+        <Position Name="Aproximación Victoria - CVAPP" Type="ASD" DefaultCenter="+233552.902-0985822.387" DefaultRange="180" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="CVAPP" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Ciudad Victoria/Aeropuerto - Pistas" />
-                <Map Name="TMA Ciudad Victoria/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Ciudad Victoria/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
                 <Map Name="TMA Ciudad Victoria/Aeropuerto - Area Terminal (TMA)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
@@ -4911,7 +4883,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Autorizacion Monterrey - MYCDL" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5">
+        <Position Name="Autorización Monterrey - MYCDL" Type="ASD" DefaultCenter="+254642.810-1000625.150" DefaultRange="50" MagneticVariation="-5">
             <Sectors>
                 <Sector Name="MYCDL" />
             </Sectors>
@@ -5010,7 +4982,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Monterrey - MYAPP" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" VisibilityRange="150">
+        <Position Name="Aproximación Monterrey - MYAPP" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" VisibilityRange="150">
             <Sectors>
                 <Sector Name="MYAPP" />
             </Sectors>
@@ -5053,7 +5025,7 @@
                 <Point>+254653.997-1000622.132</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Monterrey (Terminal) - MYTMA" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" VisibilityRange="150">
+        <Position Name="Aproximación Monterrey (Terminal) - MYTMA" Type="ASD" DefaultCenter="+254300.000-0995200.000" DefaultRange="225" MagneticVariation="-5" VisibilityRange="150">
             <Sectors>
                 <Sector Name="MYTMA" />
             </Sectors>
@@ -5162,7 +5134,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Reynosa - RXAPP" Type="ASD" DefaultCenter="+255128.284-0982723.280" DefaultRange="120" MagneticVariation="-8" VisibilityRange="50">
+        <Position Name="Aproximación Reynosa - RXAPP" Type="ASD" DefaultCenter="+255128.284-0982723.280" DefaultRange="120" MagneticVariation="-8" VisibilityRange="50">
             <Sectors>
                 <Sector Name="RXAPP" />
             </Sectors>
@@ -5198,8 +5170,8 @@
             </ManualVisibility>
         </Position>
 
-        <!-- TMA Torreon -->
-        <Position Name="Torre Torreon - TCTW1" Type="ASD" DefaultCenter="+253405.840-1032438.440" DefaultRange="20" MagneticVariation="-6">
+        <!-- TMA Torreón -->
+        <Position Name="Torre Torreón - TCTW1" Type="ASD" DefaultCenter="+253405.840-1032438.440" DefaultRange="20" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="TCTW1" />
             </Sectors>
@@ -5223,7 +5195,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximacion Torreon - TCAPP" Type="ASD" DefaultCenter="+252943.240-1032452.740" DefaultRange="215" MagneticVariation="-6" VisibilityRange="100">
+        <Position Name="Aproximación Torreón - TCAPP" Type="ASD" DefaultCenter="+252943.240-1032452.740" DefaultRange="215" MagneticVariation="-6" VisibilityRange="100">
             <Sectors>
                 <Sector Name="TCAPP" />
             </Sectors>
@@ -5386,8 +5358,8 @@
         </Position>
     </Group>
 
-    <Group Name="FIR Mexico">
-        <Position Name="FIR Mexico (Combinado) - MFRC" Type="ASD" DefaultCenter="+222100.420-1005449.608" DefaultRange="2500" MagneticVariation="-4">
+    <Group Name="FIR México">
+        <Position Name="FIR México (Combinado) - MFRC" Type="ASD" DefaultCenter="+222100.420-1005449.608" DefaultRange="2500" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MFRC" />
             </Sectors>
