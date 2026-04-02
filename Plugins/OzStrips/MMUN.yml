@@ -1,0 +1,24 @@
+    - assign_dep_rwy: "true"
+    - CFL: "080"
+    - if:
+        VFR: "true"
+      CFL: "045"
+
+    - if:
+        runway: ["14R"]
+        waypoint: ["FLIKI"]
+      SID: "#FLIK\\dB"
+    - if:
+        runway: ["14R"]
+        waypoint: ["VIMAP"]
+      SID: "#VIMA\\dB"
+    - if:
+        runway: ["14R"]
+        waypoint: ["NUNPA"]
+      SID: "#NUNP\\dB"
+    - if:
+        runway: ["12R"]
+        waypoint: ["UT27"]
+      SID: "#NOSUG2A\\dB"
+
+    - departures: ["123.8", "122.6"]
