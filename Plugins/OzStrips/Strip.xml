@@ -36,7 +36,7 @@
   <StripElement>
     <X>60</X>
     <Y>20</Y>
-    <W>30</W>
+    <W>15</W>
     <H>20</H>
     <Value>FRUL</Value>
     <LeftClick>SHOW_ROUTE</LeftClick>
@@ -121,16 +121,6 @@
     <LeftClick>OPEN_HDG_ALT</LeftClick>
   </StripElement>
   <StripElement>
-    <X>250</X>
-    <Y>20</Y>
-    <W>60</W>
-    <H>20</H>
-    <Value>FIRST_WPT</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
-    <RightClick>OPEN_REROUTE</RightClick>
-    <Hover>ROUTE_WARNING</Hover>
-  </StripElement>
-  <StripElement>
     <X>265</X>
     <Y>40</Y>
     <W>150</W>
@@ -158,9 +148,9 @@
     <RightClick>OPEN_PM</RightClick>
   </StripElement>
   <StripElement>
-    <X>310</X>
+    <X>250</X>
     <Y>20</Y>
-    <W>105</W>
+    <W>165</W>
     <H>20</H>
     <Value>GLOP</Value>
     <LeftClick>MOD_GLOP</LeftClick>
