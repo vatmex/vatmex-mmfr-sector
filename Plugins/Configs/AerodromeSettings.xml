@@ -8,7 +8,6 @@
 		<Aerodrome>MMMY</Aerodrome>
 		<Aerodrome>MMSD</Aerodrome>
 	</DefaultAerodromes>
-  <InhibitVersionCheck>true</InhibitVersionCheck>
   <LayoutDefinitions>
     <LayoutDefinition Name="All">
       <Element Name="Preactive" Column="0"/>
@@ -78,8 +77,6 @@
       <Bay Name="Arrivals"><Type>BAY_ARRIVAL</Type></Bay>
     </BayType>
   </BayTypes>
-  <AerodromeLists>
-  </AerodromeLists>
   <PDCFormat>{ADEP} {CALLSIGN} CLD {ETD} {ADEP} PDC{CALLSIGN} CLRD TO {ADES} OFF {RWY} VIA {SID} {ROUTE} CLIMB VIA SID TO {CFL_FL} FLIGHT LEVEL {RFL} SQUAWK {SQUAWK} NEXT FREQ {FREQ}</PDCFormat>
   <AerodromeAutoFillLocation></AerodromeAutoFillLocation>
 </AerodromeSettings>
