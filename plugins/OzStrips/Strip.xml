@@ -3,26 +3,34 @@
   <StripElement>
     <X>10</X>
     <Y>0</Y>
-    <W>130</W>
+    <W>80</W>
     <H>20</H>
     <Value>ACID</Value>
     <LeftClick>PICK</LeftClick>
   </StripElement>
   <StripElement>
-    <X>140</X>
+    <X>90</X>
     <Y>0</Y>
-    <W>60</W>
+    <W>50</W>
     <H>20</H>
     <Value>RFL</Value>
     <LeftClick>OPEN_FDR</LeftClick>
   </StripElement>
   <StripElement>
-    <X>200</X>
+    <X>140</X>
     <Y>0</Y>
-    <W>160</W>
+    <W>50</W>
     <H>20</H>
-    <Value>CLX</Value>
-    <LeftClick>MOD_CLX</LeftClick>
+    <Value>STAND</Value>
+    <LeftClick>MOD_STD</LeftClick>
+  </StripElement>
+  <StripElement>
+    <X>190</X>
+    <Y>0</Y>
+    <W>170</W>
+    <H>20</H>
+    <Value>GLOP</Value>
+    <LeftClick>MOD_GLOP</LeftClick>
   </StripElement>
   <StripElement>
     <X>360</X>
@@ -73,16 +81,16 @@
     <Y>20</Y>
     <W>50</W>
     <H>20</H>
-    <Value>STAND</Value>
-    <LeftClick>MOD_STD</LeftClick>
+    <Value>CLX</Value>
+    <LeftClick>MOD_CLX</LeftClick>
   </StripElement>
   <StripElement>
     <X>190</X>
     <Y>20</Y>
     <W>135</W>
     <H>20</H>
-    <Value>GLOP</Value>
-    <LeftClick>MOD_GLOP</LeftClick>
+    <Value>REMARK</Value>
+    <LeftClick>MOD_REMARK</LeftClick>
   </StripElement>
   <StripElement>
     <X>325</X>
@@ -134,14 +142,6 @@
     <LeftClick>SID_TRIGGER</LeftClick>
     <RightClick>MOD_SID</RightClick>
     <Hover>SID_TRIGGER</Hover>
-  </StripElement>
-  <StripElement>
-    <X>160</X>
-    <Y>40</Y>
-    <W>105</W>
-    <H>20</H>
-    <Value>REMARK</Value>
-    <LeftClick>MOD_REMARK</LeftClick>
   </StripElement>
   <StripElement>
     <X>265</X>
