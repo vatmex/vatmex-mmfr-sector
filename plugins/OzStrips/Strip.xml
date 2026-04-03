@@ -1,5 +1,5 @@
 <StripElementList>
-  <!-- COL 1 -->
+  <!-- ROW 0 -->
   <StripElement>
     <X>10</X>
     <Y>0</Y>
@@ -9,6 +9,65 @@
     <LeftClick>PICK</LeftClick>
   </StripElement>
   <StripElement>
+    <X>90</X>
+    <Y>0</Y>
+    <W>50</W>
+    <H>20</H>
+    <Value>RFL</Value>
+    <LeftClick>OPEN_FDR</LeftClick>
+  </StripElement>
+  <StripElement>
+    <X>140</X>
+    <Y>0</Y>
+    <W>50</W>
+    <H>20</H>
+    <Value>STAND</Value>
+    <LeftClick>MOD_STD</LeftClick>
+  </StripElement>
+  <StripElement>
+    <X>190</X>
+    <Y>0</Y>
+    <W>30</W>
+    <H>20</H>
+    <Value>RWY</Value>
+    <LeftClick>MOD_RWY</LeftClick>
+  </StripElement>
+  <StripElement>
+    <X>220</X>
+    <Y>0</Y>
+    <W>60</W>
+    <H>20</H>
+    <Value>DEPFREQ</Value>
+    <LeftClick>OPEN_HDG_ALT</LeftClick>
+  </StripElement>
+  <StripElement>
+    <X>280</X>
+    <Y>0</Y>
+    <W>30</W>
+    <H>20</H>
+    <Value>READY</Value>
+    <LeftClick>SET_READY</LeftClick>
+  </StripElement>
+  <StripElement>
+    <X>310</X>
+    <Y>0</Y>
+    <W>50</W>
+    <H>20</H>
+    <Value>PDC_INDICATOR</Value>
+    <LeftClick>OPEN_PDC</LeftClick>
+    <RightClick>OPEN_PM</RightClick>
+  </StripElement>
+  <StripElement>
+    <X>360</X>
+    <Y>0</Y>
+    <W>55</W>
+    <H>20</H>
+    <Value>TOT</Value>
+    <LeftClick>SET_TOT</LeftClick>
+    <FontSize>10</FontSize>
+  </StripElement>
+  <!-- ROW 1 -->
+  <StripElement>
     <X>10</X>
     <Y>20</Y>
     <W>50</W>
@@ -16,22 +75,6 @@
     <Value>SSR</Value>
     <LeftClick>ASSIGN_SSR</LeftClick>
     <Hover>SSR_WARNING</Hover>
-  </StripElement>
-  <StripElement>
-    <X>10</X>
-    <Y>40</Y>
-    <W>40</W>
-    <H>20</H>
-    <Value>TYPE</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
-  </StripElement>
-  <!-- COL 2 -->
-  <StripElement>
-    <X>50</X>
-    <Y>40</Y>
-    <W>25</W>
-    <H>20</H>
-    <Value>WTC</Value>
   </StripElement>
   <StripElement>
     <X>60</X>
@@ -43,21 +86,11 @@
   </StripElement>
   <StripElement>
     <X>75</X>
-    <Y>40</Y>
-    <W>40</W>
+    <Y>20</Y>
+    <W>15</W>
     <H>20</H>
-    <Value>EOBT</Value>
-    <LeftClick>COCK</LeftClick>
-    <RightClick>OPEN_CDM</RightClick>
-  </StripElement>
-  <!-- COL 3 -->
-  <StripElement>
-    <X>90</X>
-    <Y>0</Y>
-    <W>50</W>
-    <H>20</H>
-    <Value>RFL</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
+    <Value>ROUTE</Value>
+    <LeftClick>SHOW_ROUTE</LeftClick>
   </StripElement>
   <StripElement>
     <X>90</X>
@@ -69,32 +102,23 @@
     <Hover>RFL_WARNING</Hover>
   </StripElement>
   <StripElement>
-    <X>115</X>
-    <Y>40</Y>
-    <W>100</W>
-    <H>20</H>
-    <Value>ROUTE</Value>
-    <LeftClick>SHOW_ROUTE</LeftClick>
-  </StripElement>
-  <StripElement>
     <X>140</X>
-    <Y>0</Y>
+    <Y>20</Y>
     <W>50</W>
     <H>20</H>
     <Value>STAND</Value>
     <LeftClick>MOD_STD</LeftClick>
   </StripElement>
-  <!-- COL 4 -->
   <StripElement>
     <X>190</X>
-    <Y>0</Y>
-    <W>30</W>
+    <Y>20</Y>
+    <W>165</W>
     <H>20</H>
-    <Value>RWY</Value>
-    <LeftClick>MOD_RWY</LeftClick>
+    <Value>GLOP</Value>
+    <LeftClick>MOD_GLOP</LeftClick>
   </StripElement>
   <StripElement>
-    <X>190</X>
+    <X>355</X>
     <Y>20</Y>
     <W>60</W>
     <H>20</H>
@@ -103,66 +127,45 @@
     <RightClick>MOD_SID</RightClick>
     <Hover>SID_TRIGGER</Hover>
   </StripElement>
+  <!-- ROW 2 -->
   <StripElement>
-    <X>215</X>
+    <X>10</X>
+    <Y>40</Y>
+    <W>40</W>
+    <H>20</H>
+    <Value>TYPE</Value>
+    <LeftClick>OPEN_FDR</LeftClick>
+  </StripElement>
+  <StripElement>
+    <X>50</X>
+    <Y>40</Y>
+    <W>25</W>
+    <H>20</H>
+    <Value>WTC</Value>
+  </StripElement>
+  <StripElement>
+    <X>75</X>
+    <Y>40</Y>
+    <W>250</W>
+    <H>20</H>
+    <Value>REMARK</Value>
+    <LeftClick>MOD_REMARK</LeftClick>
+  </StripElement>
+  <StripElement>
+    <X>325</X>
     <Y>40</Y>
     <W>50</W>
     <H>20</H>
     <Value>ADES</Value>
     <LeftClick>OPEN_FDR</LeftClick>
   </StripElement>
-  <!-- COL 5 -->
   <StripElement>
-    <X>220</X>
-    <Y>0</Y>
-    <W>60</W>
-    <H>20</H>
-    <Value>DEPFREQ</Value>
-    <LeftClick>OPEN_HDG_ALT</LeftClick>
-  </StripElement>
-  <StripElement>
-    <X>265</X>
+    <X>375</X>
     <Y>40</Y>
-    <W>150</W>
+    <W>40</W>
     <H>20</H>
-    <Value>REMARK</Value>
-    <LeftClick>MOD_REMARK</LeftClick>
-  </StripElement>
-  <!-- COL 6 -->
-  <StripElement>
-    <X>280</X>
-    <Y>0</Y>
-    <W>30</W>
-    <H>20</H>
-    <Value>READY</Value>
-    <LeftClick>SET_READY</LeftClick>
-  </StripElement>
-  <!-- COL 7 -->
-  <StripElement>
-    <X>310</X>
-    <Y>0</Y>
-    <W>50</W>
-    <H>20</H>
-    <Value>PDC_INDICATOR</Value>
-    <LeftClick>OPEN_PDC</LeftClick>
-    <RightClick>OPEN_PM</RightClick>
-  </StripElement>
-  <StripElement>
-    <X>250</X>
-    <Y>20</Y>
-    <W>165</W>
-    <H>20</H>
-    <Value>GLOP</Value>
-    <LeftClick>MOD_GLOP</LeftClick>
-  </StripElement>
-  <!-- COL 8 -->
-  <StripElement>
-    <X>360</X>
-    <Y>0</Y>
-    <W>55</W>
-    <H>20</H>
-    <Value>TOT</Value>
-    <LeftClick>SET_TOT</LeftClick>
-    <FontSize>10</FontSize>
+    <Value>EOBT</Value>
+    <LeftClick>COCK</LeftClick>
+    <RightClick>OPEN_CDM</RightClick>
   </StripElement>
 </StripElementList>
