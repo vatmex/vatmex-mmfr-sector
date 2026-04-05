@@ -1,0 +1,43 @@
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "160"
+- if:
+    jet: "true"
+  CFL: "290"
+
+
+# SIDs - MMMX (por waypoint, todas las pistas)
+- if:
+    waypoint: ["SEBON"]
+  SID: "SEBO3A"
+- if:
+    waypoint: ["OVAGO"]
+  SID: "OVAG3A"
+- if:
+    waypoint: ["ULEBA"]
+  SID: "ULEB3A"
+- if:
+    waypoint: ["ATURO"]
+  SID: "ATUR2A"
+- if:
+    waypoint: ["AXIRI"]
+  SID: "AXIR2A"
+- if:
+    waypoint: ["IKLAN"]
+  SID: "IKLA2A"
+- if:
+    waypoint: ["NOXOS"]
+  SID: "NOXO3A"
+- if:
+    waypoint: ["UKUNO"]
+  SID: "UKUN3A"
+- if:
+    waypoint: ["ILETO"]
+  SID: "ILET3A"
+- if:
+    waypoint: ["TEVOS"]
+  SID: "TEVO2A"
+
+# Departure Frequencies - MMMX
+- departures: ["121.85", "121.0", "118.55", "121.2", "126.6"]
