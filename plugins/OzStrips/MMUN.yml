@@ -12,31 +12,31 @@
 # SALIDAS CONVENCIONALES - RWY 12R/12L
 # =========================================
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UT27"]
   SID: "ENEB2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UM219"]
   SID: "OMSU2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UJ18", "UB764"]
   SID: "ANTE2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UG765"]
   SID: "DUMB1A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UB881"]
   SID: "LIDE2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     waypoint: ["CZM"]
   SID: "LIDE2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UJ84", "V56", "UA766"]
   SID: "VOBE2A"
 
@@ -44,31 +44,31 @@
 # SALIDAS CONVENCIONALES - RWY 30L/30R
 # =========================================
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UT27"]
   SID: "ENEB2C"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UM219"]
   SID: "OMSU2C"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UJ18", "UB764"]
   SID: "ANTE2C"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UG765"]
   SID: "DUMB1C"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UB881"]
   SID: "LIDE2C"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     waypoint: ["CZM"]
   SID: "LIDE2C"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UJ84", "V56", "UA766"]
   SID: "VOBE2C"
 
@@ -76,35 +76,35 @@
 # SALIDAS RNAV - RWY 12R/12L (override conv)
 # =========================================
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UR506", "UV106"]
   SID: "NUDA1A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UJ52"]
   SID: "HECA2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UM782"]
   SID: "TAKU2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UB881", "UT51", "UT32", "UT57"]
   SID: "ALSU1C"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     waypoint: ["CZM"]
   SID: "ALSU1C"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UJ84", "UT78"]
   SID: "UDGU2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UT27"]
   SID: "NOSU2A"
 - if:
-    runway: ["12R", "12L"]
+    runway: ["12R", "12L", "12"]
     airway: ["UM219"]
   SID: "ROTG2A"
 
@@ -112,31 +112,31 @@
 # SALIDAS RNAV - RWY 30L/30R (override conv)
 # =========================================
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UR506", "UV106"]
   SID: "NUDA1F"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UB881", "UT51", "UT32", "UT57"]
   SID: "ALSU1F"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     waypoint: ["CZM"]
   SID: "ALSU1F"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UJ84", "UT78"]
   SID: "UDGU1F"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UT27"]
   SID: "NOSU2F"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UM219"]
   SID: "ROTG2F"
 - if:
-    runway: ["30L", "30R"]
+    runway: ["30L", "30R", "30"]
     airway: ["UL577"]
   SID: "AVSE1F"
 

@@ -1,193 +1,194 @@
 <StripElementList>
-  <!-- COL1 -->
+  <!-- ROW 0 -->
   <StripElement>
     <X>0</X>
     <Y>0</Y>
-    <W>50</W>
+    <W>110</W>
     <H>20</H>
+    <Value>ACID</Value>
+    <FontSize>20</FontSize>
+    <LeftClick>PICK</LeftClick>
+    <BorderColour>#00000000</BorderColour>
+  </StripElement>
+  <StripElement>
+    <X>110</X>
+    <Y>0</Y>
+    <W>0</W>
+    <H>40</H>
+    <Value>CLX</Value>
+  </StripElement>
+  <StripElement>
+    <X>115</X>
+    <Y>2</Y>
+    <W>40</W>
+    <H>20</H>
+    <Value>RFL</Value>
+    <LeftClick>OPEN_FDR</LeftClick>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>14</FontSize>
+  </StripElement>
+  <StripElement>
+    <X>160</X>
+    <Y>0</Y>
+    <W>40</W>
+    <H>40</H>
     <Value>STAND</Value>
     <LeftClick>MOD_STD</LeftClick>
   </StripElement>
   <StripElement>
-    <X>0</X>
-    <Y>20</Y>
-    <W>50</W>
-    <H>20</H>
-    <Value>ADES</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
-  </StripElement>
-  <!-- COL2 -->
-  <StripElement>
-    <X>50</X>
+    <X>208</X>
     <Y>0</Y>
-    <W>50</W>
-    <H>20</H>
-    <Value>EOBT</Value>
-    <LeftClick>COCK</LeftClick>
-    <RightClick>OPEN_CDM</RightClick>
-  </StripElement>
-  <StripElement>
-    <X>50</X>
-    <Y>20</Y>
-    <W>25</W>
-    <H>20</H>
-    <Value>ROUTE</Value>
-    <LeftClick>SHOW_ROUTE</LeftClick>
-  </StripElement>
-  <StripElement>
-    <X>75</X>
-    <Y>20</Y>
-    <W>25</W>
+    <W>7</W>
     <H>20</H>
     <Value>FRUL</Value>
     <LeftClick>SHOW_ROUTE</LeftClick>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>14</FontSize>
   </StripElement>
-  <!-- COL 3/4 -->
+  <StripElement>
+    <X>223</X>
+    <Y>0</Y>
+    <W>117</W>
+    <H>40</H>
+    <Value>GLOP</Value>
+    <LeftClick>MOD_GLOP</LeftClick>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>12</FontSize>
+  </StripElement>
+  <StripElement>
+    <X>337</X>
+    <Y>0</Y>
+    <W>43</W>
+    <H>20</H>
+    <Value>DEPFREQ</Value>
+    <LeftClick>OPEN_HDG_ALT</LeftClick>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>11</FontSize>
+  </StripElement>
+  <StripElement>
+    <X>380</X>
+    <Y>0</Y>
+    <W>40</W>
+    <H>20</H>
+    <Value>TOT</Value>
+    <LeftClick>SET_TOT</LeftClick>
+    <FontSize>12</FontSize>
+  </StripElement>
+  <!-- ROW 1 -->
+  <StripElement>
+    <X>0</X>
+    <Y>19</Y>
+    <W>110</W>
+    <H>19</H>
+    <Value>SSR</Value>
+    <LeftClick>ASSIGN_SSR</LeftClick>
+    <Hover>SSR_WARNING</Hover>
+    <BorderColour>#00000000</BorderColour>
+  </StripElement>
   <StripElement>
     <X>100</X>
-    <Y>0</Y>
-    <W>50</W>
-    <H>20</H>
-    <Value>TYPE</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
+    <Y>19</Y>
+    <W>5</W>
+    <H>19</H>
+    <Value>ROUTE</Value>
+    <LeftClick>SHOW_ROUTE</LeftClick>
+    <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
-    <X>150</X>
-    <Y>0</Y>
-    <W>25</W>
+    <X>115</X>
+    <Y>18</Y>
+    <W>40</W>
     <H>20</H>
-    <Value>WTC</Value>
+    <Value>CFL</Value>
+    <LeftClick>MOD_CFL</LeftClick>
+    <Hover>RFL_WARNING</Hover>
+    <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
-    <X>100</X>
+    <X>110</X>
+    <Y>40</Y>
+    <W>310</W>
+    <H>0</H>
+    <Value>CLX</Value>
+  </StripElement>
+  <StripElement>
+    <X>208</X>
     <Y>20</Y>
-    <W>25</W>
+    <W>7</W>
     <H>20</H>
     <Value>PDC_INDICATOR</Value>
     <LeftClick>OPEN_PDC</LeftClick>
     <RightClick>OPEN_PM</RightClick>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>14</FontSize>
   </StripElement>
   <StripElement>
-    <X>125</X>
+    <X>340</X>
     <Y>20</Y>
-    <W>50</W>
+    <W>40</W>
     <H>20</H>
-    <Value>SSR</Value>
-    <LeftClick>ASSIGN_SSR</LeftClick>
-    <Hover>SSR_WARNING</Hover>
-	<MiddleClick>INHIBIT_SSR</MiddleClick>
+    <Value>READY</Value>
+    <LeftClick>SET_READY</LeftClick>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>11</FontSize>
+    <BorderColour>#00000000</BorderColour>
   </StripElement>
-  <!-- COL 5 -->
   <StripElement>
-    <X>175</X>
-    <Y>0</Y>
-    <W>75</W>
-    <H>40</H>
-    <Value>ACID</Value>
-    <LeftClick>PICK</LeftClick>
-  </StripElement>
-  <!-- COL 6-->
-  <StripElement>
-    <X>250</X>
-    <Y>0</Y>
-    <W>30</W>
+    <X>380</X>
+    <Y>20</Y>
+    <W>40</W>
     <H>20</H>
     <Value>RWY</Value>
     <LeftClick>MOD_RWY</LeftClick>
   </StripElement>
+  <!-- ROW 2 -->
   <StripElement>
-    <X>250</X>
-    <Y>20</Y>
-    <W>30</W>
+    <X>20</X>
+    <Y>36</Y>
+    <W>45</W>
     <H>20</H>
-    <Value>READY</Value>
-    <LeftClick>SET_READY</LeftClick>
-	<MiddleClick>INHIBIT_READY</MiddleClick>
+    <Value>TYPE</Value>
+    <LeftClick>OPEN_FDR</LeftClick>
+    <BorderColour>#00000000</BorderColour>
   </StripElement>
-  <!-- COL 7 -->
   <StripElement>
-    <X>280</X>
-    <Y>0</Y>
-    <W>50</W>
-    <H>40</H>
-    <Value>CLX</Value>
-    <LeftClick>MOD_CLX</LeftClick>
-  </StripElement>
-  <!-- COL 8 -->
-  <StripElement>
-    <X>330</X>
-    <Y>0</Y>
-    <W>60</W>
+    <X>65</X>
+    <Y>36</Y>
+    <W>5</W>
     <H>20</H>
+    <Value>WTC</Value>
+    <BorderColour>#00000000</BorderColour>
+  </StripElement>
+  <StripElement>
+    <X>111</X>
+    <Y>41</Y>
+    <W>90</W>
+    <H>19</H>
     <Value>SID</Value>
     <LeftClick>SID_TRIGGER</LeftClick>
     <RightClick>MOD_SID</RightClick>
     <Hover>SID_TRIGGER</Hover>
-    <MiddleClick>INHIBIT_SID</MiddleClick>
+    <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
-    <X>330</X>
-    <Y>20</Y>
-    <W>60</W>
-    <H>20</H>
-    <Value>FIRST_WPT</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
-    <RightClick>OPEN_REROUTE</RightClick>
-	<MiddleClick>INHIBIT_ROUTE</MiddleClick>
-    <Hover>ROUTE_WARNING</Hover>
-  </StripElement>
-  <!-- COL 9 -->
-  <StripElement>
-    <X>390</X>
-    <Y>0</Y>
-    <W>30</W>
-    <H>20</H>
-    <Value>RFL</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
-    <Hover>RFL_WARNING</Hover>
-    <MiddleClick>INHIBIT_RFL</MiddleClick>
-  </StripElement>
-  <StripElement>
-    <X>390</X>
-    <Y>20</Y>
-    <W>30</W>
-    <H>20</H>
-    <Value>CFL</Value>
-    <LeftClick>MOD_CFL</LeftClick>
-  </StripElement>
-  <!-- Base -->
-  <StripElement>
-    <X>0</X>
-    <Y>40</Y>
-    <W>165</W>
-    <H>20</H>
-    <Value>GLOP</Value>
-    <LeftClick>MOD_GLOP</LeftClick>
-    <MiddleClick>INHIBIT_HDG</MiddleClick>
-  </StripElement>
-  <StripElement>
-    <X>165</X>
-    <Y>40</Y>
-    <W>165</W>
-    <H>20</H>
-    <Value>REMARK</Value>
-    <LeftClick>MOD_REMARK</LeftClick>
-  </StripElement>
-  <StripElement>
-    <X>330</X>
+    <X>315</X>
     <Y>40</Y>
     <W>60</W>
     <H>20</H>
-    <Value>DEPFREQ</Value>
-    <LeftClick>OPEN_HDG_ALT</LeftClick>
+    <Value>ADES</Value>
+    <LeftClick>OPEN_FDR</LeftClick>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>12</FontSize>
   </StripElement>
   <StripElement>
-    <X>390</X>
+    <X>375</X>
     <Y>40</Y>
-    <W>30</W>
+    <W>45</W>
     <H>20</H>
-    <Value>TOT</Value>
-    <LeftClick>SET_TOT</LeftClick>
+    <Value>EOBT</Value>
+    <LeftClick>COCK</LeftClick>
+    <RightClick>OPEN_CDM</RightClick>
+    <BorderColour>#00000000</BorderColour>
     <FontSize>10</FontSize>
   </StripElement>
 </StripElementList>
