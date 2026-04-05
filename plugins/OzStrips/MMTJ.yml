@@ -1,0 +1,80 @@
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "200"
+- if:
+    VFR: "true"
+  CFL: "050"
+
+# =========================================
+# CONVENTIONAL (no RNAV conversion)
+# =========================================
+- if:
+    airway: ["UJ7", "V35"]
+  SID: "SEVRA4"
+
+- if:
+    airway: ["UJ3", "V3", "V41"]
+  SID: "ULDU1B"
+
+- if:
+    airway: ["T64", "UT64"]
+  SID: "KREP1B"
+
+# =========================================
+# CONVENTIONAL -> RNAV CONVERSIONS
+# (RNAV SID replaces conventional)
+# =========================================
+- if:
+    airway: ["UT18"]
+  SID: "TEVI2B"
+
+- if:
+    airway: ["UT4"]
+  SID: "TUMA2B"
+
+- if:
+    airway: ["UT6", "UJ20", "J1", "V42"]
+  SID: "SIDG1B"
+
+# =========================================
+# RNAV waypoint fallback
+# =========================================
+- if:
+    waypoint: ["TEVIR"]
+  SID: "TEVI2B"
+
+- if:
+    waypoint: ["TUMAP"]
+  SID: "TUMA2B"
+
+- if:
+    waypoint: ["SIDGA"]
+  SID: "SIDG1B"
+
+- if:
+    waypoint: ["SEVRA"]
+  SID: "SEVRA4"
+
+- if:
+    waypoint: ["ULDUD"]
+  SID: "ULDU1B"
+
+- if:
+    waypoint: ["AVENA"]
+  SID: "TEVI2B"
+
+- if:
+    waypoint: ["UDMOV"]
+  SID: "TUMA2B"
+
+- if:
+    waypoint: ["TOPOS"]
+  SID: "SIDG1B"
+
+- if:
+    waypoint: ["KREPE"]
+  SID: "KREP1B"
+
+# Departure Frequencies
+- departures: ["118.1", "120.3", "128.3", "128.0"]

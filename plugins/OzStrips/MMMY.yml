@@ -1,0 +1,53 @@
+- assign_dep_rwy: "true"
+
+# CFL (solo jets)
+- if:
+    jet: "true"
+  CFL: "200"
+
+# RWY fija
+- runway: "12"
+
+# SIDs por aerovia (RWY 12)
+- if:
+    runway: ["12"]
+    airway: ["UJ4", "V35", "V64"]
+  SID: "DOTO1A"
+- if:
+    runway: ["12"]
+    airway: ["UJ11E", "V37"]
+  SID: "DAJO1A"
+- if:
+    runway: ["12"]
+    airway: ["UJ81", "V19"]
+  SID: "KERG1A"
+
+# UT11 - PRIORIDAD POR MTY
+- if:
+    runway: ["12"]
+    airway: ["UT11"]
+    waypoint: ["MTY"]
+  SID: "GRAL1A"
+
+# UT11 - fallback por radiales
+- if:
+    runway: ["12"]
+    airway: ["UT11"]
+    radials: ["000-180"]
+  SID: "XOTAT1"
+- if:
+    runway: ["12"]
+    airway: ["UT11"]
+    radials: ["180-359"]
+  SID: "GRAL1A"
+- if:
+    runway: ["12"]
+    airway: ["J29"]
+  SID: "OVEM1A"
+- if:
+    runway: ["12"]
+    airway: ["UJ11", "V26"]
+  SID: "URTO1A"
+
+# Departure Frequencies
+- departures: ["121.9", "118.1", "119.75", "124.5"]
