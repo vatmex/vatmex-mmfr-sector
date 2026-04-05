@@ -1,0 +1,164 @@
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "230"
+- if:
+    VFR: "true"
+  CFL: "065"
+
+# =========================================
+# CONVENTIONAL (no RNAV conversion)
+# =========================================
+- if:
+    airway: ["UT150", "V32"]
+  SID: "XORID1"
+
+- if:
+    airway: ["UJ11", "V26"]
+  SID: "EMIG1A"
+
+- if:
+    airway: ["V61"]
+  SID: "TABG1A"
+
+# =========================================
+# CONVENTIONAL -> RNAV CONVERSIONS
+# (last match wins, RNAV overrides conv)
+# =========================================
+- if:
+    airway: ["J42", "V61W"]
+  SID: "OTOK1A"
+
+- if:
+    airway: ["J25"]
+  SID: "FEIS1A"
+
+- if:
+    airway: ["UJ14", "V14", "UT126"]
+  SID: "KELV1A"
+
+- if:
+    airway: ["UJ12", "V5", "UT146"]
+  SID: "LONK1D"
+
+- if:
+    airway: ["UT145", "UJ3", "UJ7", "V3"]
+  SID: "EMIR1A"
+
+- if:
+    airway: ["UJ27"]
+  SID: "EMIR1A"
+
+- if:
+    airway: ["UT153"]
+  SID: "SEDE1A"
+
+- if:
+    airway: ["UT147", "UJ14N", "UJ12S", "V14N", "V3S"]
+  SID: "NOTU1D"
+
+- if:
+    waypoint: ["TNY"]
+  SID: "NOTU1D"
+
+- if:
+    airway: ["UJ14S", "V14S"]
+  SID: "DEBRO1"
+
+- if:
+    waypoint: ["LIPEP"]
+  SID: "DUNSU1"
+
+- if:
+    waypoint: ["VOLAT"]
+  SID: "DEBRO1"
+
+# =========================================
+# RNAV waypoint fallback
+# =========================================
+- if:
+    waypoint: ["OTOKI"]
+  SID: "OTOK1A"
+
+- if:
+    waypoint: ["FEISE"]
+  SID: "FEIS1A"
+
+- if:
+    waypoint: ["KELVA"]
+  SID: "KELV1A"
+
+- if:
+    waypoint: ["LONKU"]
+  SID: "LONK1D"
+
+- if:
+    waypoint: ["EMIRI"]
+  SID: "EMIR1A"
+
+- if:
+    waypoint: ["NOTUP"]
+  SID: "NOTU1D"
+
+- if:
+    waypoint: ["SEDEM"]
+  SID: "SEDE1A"
+
+- if:
+    waypoint: ["GOYAS"]
+  SID: "OTOK1A"
+
+- if:
+    waypoint: ["PIRAR"]
+  SID: "FEIS1A"
+
+- if:
+    waypoint: ["KARUN"]
+  SID: "KELV1A"
+
+- if:
+    waypoint: ["OVALI"]
+  SID: "LONK1D"
+
+- if:
+    waypoint: ["EBDEG"]
+  SID: "EMIR1A"
+
+- if:
+    waypoint: ["LEROK"]
+  SID: "EMIR1A"
+
+- if:
+    waypoint: ["XORID"]
+  SID: "XORID1"
+
+- if:
+    waypoint: ["EMIGU"]
+  SID: "EMIG1A"
+
+- if:
+    waypoint: ["TABGO"]
+  SID: "TABG1A"
+
+- if:
+    waypoint: ["NUBIG"]
+  SID: "NOTU1D"
+
+- if:
+    waypoint: ["TEILA"]
+  SID: "SEDE1A"
+
+- if:
+    waypoint: ["TIKIT"]
+  SID: "TIKIT1"
+
+- if:
+    waypoint: ["DUNSU"]
+  SID: "DUNSU1"
+
+- if:
+    waypoint: ["DEBRO"]
+  SID: "DEBRO1"
+
+# Departure Frequencies
+- departures: ["121.9", "118.1", "120.8", "126.15", "126.6"]
