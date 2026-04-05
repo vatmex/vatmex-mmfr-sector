@@ -1,24 +1,190 @@
-    - assign_dep_rwy: "true"
-    - CFL: "080"
-    - if:
-        VFR: "true"
-      CFL: "045"
+- assign_dep_rwy: "true"
 
-    - if:
-        runway: ["14R"]
-        waypoint: ["FLIKI"]
-      SID: "#FLIK\\dB"
-    - if:
-        runway: ["14R"]
-        waypoint: ["VIMAP"]
-      SID: "#VIMA\\dB"
-    - if:
-        runway: ["14R"]
-        waypoint: ["NUNPA"]
-      SID: "#NUNP\\dB"
-    - if:
-        runway: ["12R"]
-        waypoint: ["UT27"]
-      SID: "#NOSUG2A\\dB"
+# CFL
+- CFL: "200"
+- if:
+    VFR: "true"
+  CFL: "009"
 
-    - departures: ["123.8", "122.6"]
+# =========================================
+# SALIDAS CONVENCIONALES - RWY 12R
+# =========================================
+- if:
+    runway: ["12R"]
+    airway: ["UT27"]
+  SID: "ENEB2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UM219"]
+  SID: "OMSU2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UJ18", "UB764"]
+  SID: "ANTE2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UR506", "UB764"]
+  SID: "DUGN2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UJ52", "UG765"]
+  SID: "DUMB1A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UM782", "UG765"]
+  SID: "BOTO2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UB881"]
+  SID: "LIDE2A"
+
+- if:
+    runway: ["12R"]
+    waypoint: ["CZM"]
+  SID: "LIDE2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UJ84", "V56", "UA766"]
+  SID: "VOBE2A"
+
+# =========================================
+# SALIDAS CONVENCIONALES - RWY 30L
+# =========================================
+- if:
+    runway: ["30L"]
+    airway: ["UT27"]
+  SID: "ENEB2C"
+
+- if:
+    runway: ["30L"]
+    airway: ["UM219"]
+  SID: "OMSU2C"
+
+- if:
+    runway: ["30L"]
+    airway: ["UJ18", "UB764"]
+  SID: "ANTE2C"
+
+- if:
+    runway: ["30L"]
+    airway: ["UR506", "UB764"]
+  SID: "DUGN2C"
+
+- if:
+    runway: ["30L"]
+    airway: ["UJ52", "UG765"]
+  SID: "DUMB1C"
+
+- if:
+    runway: ["30L"]
+    airway: ["UM782", "UG765"]
+  SID: "BOTO2C"
+
+- if:
+    runway: ["30L"]
+    airway: ["UB881"]
+  SID: "LIDE2C"
+
+- if:
+    runway: ["30L"]
+    waypoint: ["CZM"]
+  SID: "LIDE2C"
+
+- if:
+    runway: ["30L"]
+    airway: ["UJ84", "V56", "UA766"]
+  SID: "VOBE2C"
+
+# =========================================
+# SALIDAS RNAV - RWY 12R
+# (after conventional so RNAV takes priority)
+# =========================================
+- if:
+    runway: ["12R"]
+    airway: ["UR506", "UV106"]
+  SID: "NUDA1A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UJ52"]
+  SID: "HECA2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UM782"]
+  SID: "TAKU2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UB881", "UT51", "UT32", "UT57"]
+  SID: "ALSU1C"
+
+- if:
+    runway: ["12R"]
+    waypoint: ["CZM"]
+  SID: "ALSU1C"
+
+- if:
+    runway: ["12R"]
+    airway: ["UJ84", "UT78"]
+  SID: "UDGU2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UT27"]
+  SID: "NOSU2A"
+
+- if:
+    runway: ["12R"]
+    airway: ["UM219"]
+  SID: "ROTG2A"
+
+# =========================================
+# SALIDAS RNAV - RWY 30L
+# =========================================
+- if:
+    runway: ["30L"]
+    airway: ["UR506", "UV106"]
+  SID: "NUDA1F"
+
+- if:
+    runway: ["30L"]
+    airway: ["UB881", "UT51", "UT32", "UT57"]
+  SID: "ALSU1F"
+
+- if:
+    runway: ["30L"]
+    waypoint: ["CZM"]
+  SID: "ALSU1F"
+
+- if:
+    runway: ["30L"]
+    airway: ["UJ84", "UT78"]
+  SID: "UDGU1F"
+
+- if:
+    runway: ["30L"]
+    airway: ["UT27"]
+  SID: "NOSU2F"
+
+- if:
+    runway: ["30L"]
+    airway: ["UM219"]
+  SID: "ROTG2F"
+
+- if:
+    runway: ["30L"]
+    airway: ["UL577", "UM782"]
+  SID: "AVSE1F"
+
+# =========================================
+# Departure Frequencies
+# =========================================
+- departures: ["121.0", "118.6", "118.1", "123.5", "124.7", "128.3"]
