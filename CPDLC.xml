@@ -47,13 +47,14 @@
     </Category>
 
     <Category name="PDC" AutoloadElements="true" SendViaTM="true">
-        <Message Response="NE">MMMX [CALLSIGN]</Message>
-        <Message Response="NE">CLD [TIMESTAMP] MMMX PDC</Message>
-        <Message Response="NE">[CALLSIGN] CLRD TO [ADES] OFF [RWY] VIA [SID]</Message>
+        <Message Response="NE">ACARS BEGIN ACCEPTED [TIMESTAMP]</Message>
+        <Message Response="NE">MMMX PDC 483 [CALLSIGN]</Message>
+        <Message Response="NE">CLRD TO [ADES] OFF [RWY] VIA [SID]</Message>
         <Message Response="NE">[ROUTE]</Message>
         <Message Response="NE">CLIMB VIA SID TO [LEVEL]</Message>
-        <Message Response="NE">FLIGHT LEVEL [LEVEL]</Message>
+        <Message Response="NE">FLIGHT LEVEL F[LEVEL]</Message>
         <Message Response="NE">SQUAWK [SSR] NEXT FREQ [FREQUENCY]</Message>
+        <Message Response="NE">ACARS END</Message>
     </Category>
 
 </Messages>
