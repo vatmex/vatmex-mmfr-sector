@@ -1,45 +1,51 @@
 <StripElementList>
   <!-- ROW 0 -->
   <StripElement>
-    <X>0</X>
+    <X>1</X>
     <Y>0</Y>
-    <W>110</W>
+    <W>109</W>
     <H>20</H>
     <Value>ACID</Value>
     <FontSize>20</FontSize>
     <LeftClick>PICK</LeftClick>
     <BorderColour>#00000000</BorderColour>
   </StripElement>
-  <StripElement>
+  <StripElement>   <!-- bordes -->
     <X>110</X>
+    <Y>0</Y>
+    <W>0</W>
+    <H>60</H>
+    <Value>CLX</Value>
+  </StripElement>
+  <StripElement>
+    <X>111</X>
+    <Y>1</Y>
+    <W>50</W>
+    <H>22</H>
+    <Value>RFL</Value>
+    <LeftClick>OPEN_FDR</LeftClick>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>14</FontSize>
+  </StripElement>
+  <StripElement>   <!-- bordes -->
+    <X>160</X>
+    <Y>0</Y>
+    <W>0</W>
+    <H>40</H>
+    <Value>CLX</Value>
+  </StripElement>
+  <StripElement>   <!-- bordes -->
+    <X>200</X>
     <Y>0</Y>
     <W>0</W>
     <H>40</H>
     <Value>CLX</Value>
   </StripElement>
   <StripElement>
-    <X>115</X>
-    <Y>2</Y>
-    <W>40</W>
-    <H>20</H>
-    <Value>RFL</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
-    <BorderColour>#00000000</BorderColour>
-    <FontSize>14</FontSize>
-  </StripElement>
-  <StripElement>
-    <X>160</X>
-    <Y>0</Y>
-    <W>40</W>
-    <H>40</H>
-    <Value>STAND</Value>
-    <LeftClick>MOD_STD</LeftClick>
-  </StripElement>
-  <StripElement>
     <X>208</X>
     <Y>0</Y>
     <W>7</W>
-    <H>20</H>
+    <H>17</H>
     <Value>FRUL</Value>
     <LeftClick>SHOW_ROUTE</LeftClick>
     <BorderColour>#00000000</BorderColour>
@@ -47,9 +53,9 @@
   </StripElement>
   <StripElement>
     <X>223</X>
-    <Y>0</Y>
+    <Y>13</Y>
     <W>117</W>
-    <H>40</H>
+    <H>20</H>
     <Value>GLOP</Value>
     <LeftClick>MOD_GLOP</LeftClick>
     <BorderColour>#00000000</BorderColour>
@@ -65,6 +71,13 @@
     <BorderColour>#00000000</BorderColour>
     <FontSize>11</FontSize>
   </StripElement>
+  <StripElement>   <!-- bordes -->
+    <X>379</X>
+    <Y>0</Y>
+    <W>0</W>
+    <H>40</H>
+    <Value>CLX</Value>
+  </StripElement>
   <StripElement>
     <X>380</X>
     <Y>0</Y>
@@ -72,14 +85,15 @@
     <H>20</H>
     <Value>TOT</Value>
     <LeftClick>SET_TOT</LeftClick>
+    <BorderColour>#00000000</BorderColour>
     <FontSize>12</FontSize>
   </StripElement>
   <!-- ROW 1 -->
   <StripElement>
-    <X>0</X>
-    <Y>19</Y>
-    <W>110</W>
-    <H>19</H>
+    <X>1</X>
+    <Y>20</Y>
+    <W>109</W>
+    <H>20</H>
     <Value>SSR</Value>
     <LeftClick>ASSIGN_SSR</LeftClick>
     <Hover>SSR_WARNING</Hover>
@@ -95,9 +109,9 @@
     <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
-    <X>115</X>
+    <X>111</X>
     <Y>18</Y>
-    <W>40</W>
+    <W>50</W>
     <H>20</H>
     <Value>CFL</Value>
     <LeftClick>MOD_CFL</LeftClick>
@@ -105,15 +119,24 @@
     <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
+    <X>160</X>
+    <Y>13</Y>
+    <W>40</W>
+    <H>20</H>
+    <Value>STAND</Value>
+    <BorderColour>#00000000</BorderColour>
+    <LeftClick>MOD_STD</LeftClick>
+  </StripElement>
+  <StripElement>  <!-- bordes -->
     <X>110</X>
     <Y>40</Y>
-    <W>310</W>
+    <W>269</W>
     <H>0</H>
     <Value>CLX</Value>
   </StripElement>
   <StripElement>
     <X>208</X>
-    <Y>20</Y>
+    <Y>15</Y>
     <W>7</W>
     <H>20</H>
     <Value>PDC_INDICATOR</Value>
@@ -124,9 +147,9 @@
   </StripElement>
   <StripElement>
     <X>340</X>
-    <Y>20</Y>
-    <W>40</W>
-    <H>20</H>
+    <Y>17</Y>
+    <W>39</W>
+    <H>23</H>
     <Value>READY</Value>
     <LeftClick>SET_READY</LeftClick>
     <BorderColour>#00000000</BorderColour>
@@ -140,10 +163,11 @@
     <H>20</H>
     <Value>RWY</Value>
     <LeftClick>MOD_RWY</LeftClick>
+    <BorderColour>#00000000</BorderColour>
   </StripElement>
   <!-- ROW 2 -->
   <StripElement>
-    <X>20</X>
+    <X>25</X>
     <Y>36</Y>
     <W>45</W>
     <H>20</H>
@@ -152,26 +176,34 @@
     <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
-    <X>65</X>
+    <X>70</X>
     <Y>36</Y>
-    <W>5</W>
+    <W>7</W>
     <H>20</H>
     <Value>WTC</Value>
     <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
-    <X>111</X>
+    <X>105</X>
+    <Y>40</Y>
+    <W>60</W>
+    <H>20</H>
+    <Value>ADES</Value>
+    <BorderColour>#00000000</BorderColour>
+    <FontSize>12</FontSize>
+  </StripElement>
+  <StripElement>
+    <X>161</X>
     <Y>41</Y>
-    <W>90</W>
+    <W>62</W>
     <H>19</H>
     <Value>SID</Value>
-    <LeftClick>SID_TRIGGER</LeftClick>
     <RightClick>MOD_SID</RightClick>
     <Hover>SID_TRIGGER</Hover>
     <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
-    <X>315</X>
+    <X>310</X>
     <Y>40</Y>
     <W>60</W>
     <H>20</H>
