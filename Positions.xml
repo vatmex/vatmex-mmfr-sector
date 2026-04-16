@@ -683,7 +683,7 @@
                 <Airport Name="MMSD" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Plataforma San Jose / San Jose Ramp</Line>
+                <Line>Plataforma San Jose / San Jose Apron</Line>
                 <Line>Serving MMSD arrivals and departures</Line>
                 <Line>ATIS available on 127.600</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -824,8 +824,8 @@
                 <Airport Name="MMTJ" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Autorizacion Tijuana / Tijuana Clearance</Line>
-                <Line>Serving MMTJ arrivals and departures</Line>
+                <Line>Entrega Tijuana / Tijuana Clearance</Line>
+                <Line>Serving MMTJ departures</Line>
                 <Line>ATIS available on 127.900</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1376,7 +1376,7 @@
                 <Airport Name="MMMD" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Autorizacion Merida / Merida Delivery</Line>
+                <Line>Entrega Merida / Merida Delivery</Line>
                 <Line>Serving MMMD departures</Line>
                 <Line>ATIS available on 127.900</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -1631,7 +1631,7 @@
                 <Airport Name="MMTL" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Autorizacion Tulum / Tulum Delivery</Line>
+                <Line>Entrega Tulum / Tulum Delivery</Line>
                 <Line>Serving MMTL departures</Line>
                 <Line>ATIS available on 127.600</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -1739,7 +1739,7 @@
                 <Airport Name="MMUN" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Autorizacion Cancun / Cancun Delivery</Line>
+                <Line>Entrega Cancun / Cancun Delivery</Line>
                 <Line>Serving MMUN departures</Line>
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -2521,7 +2521,7 @@
                 <Airport Name="MMGL" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Autorizacion Guadalajara / Guadalajara Delivery</Line>
+                <Line>Entrega Guadalajara / Guadalajara Delivery</Line>
                 <Line>Serving MMGL departures</Line>
                 <Line>ATIS available on 127.900</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -2530,7 +2530,7 @@
                 <Point>+20.521804-103.311110</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Rampa Guadalajara - GLCCO" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
+        <Position Name="Plataforma Guadalajara - GLCCO" Type="ASD" DefaultCenter="+203124.320-1031841.800" DefaultRange="70" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="GLCCO" />
             </Sectors>
@@ -2553,7 +2553,7 @@
                 <Airport Name="MMGL" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Rampa Guadalajara / Guadalajara Ramp</Line>
+                <Line>Plataforma Guadalajara / Guadalajara Apron</Line>
                 <Line>Serving MMGL arrivals and departures</Line>
                 <Line>ATIS available on 127.900</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -2954,7 +2954,7 @@
                 <Airport Name="MMMX" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Autorizacion Mexico / Mexico Delivery</Line>
+                <Line>Entrega Mexico / Mexico Delivery</Line>
                 <Line>PDC Logon [MMMX]</Line>     
                 <Line>Serving MMMX departures</Line>
                 <Line>ATIS available on 127.650</Line>
@@ -3086,7 +3086,7 @@
             </Strips>
             <CFL QuickLevel="27000" />
             <ControllerInfo>
-                <Line>Autorizacion Santa Lucia / Santa Lucia Delivery</Line>
+                <Line>Entrega Santa Lucia / Santa Lucia Delivery</Line>
                 <Line>Serving MMSM departures</Line>
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
@@ -4247,7 +4247,6 @@
             <Maps>
                 <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Sector - Aerodromos" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
                 <Map Name="Universal/Sector - Aerovias" />
@@ -4293,7 +4292,6 @@
             <Maps>
                 <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Sector - Aerodromos" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
                 <Map Name="Universal/Sector - Aerovias" />
@@ -4339,7 +4337,6 @@
             <Maps>
                 <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Sector - Aerodromos" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
                 <Map Name="Universal/Sector - Aerovias" />
@@ -4386,7 +4383,6 @@
             <Maps>
                 <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Sector - Aerodromos" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
                 <Map Name="Universal/Sector - Aerovias" />
@@ -4914,8 +4910,8 @@
                 <Airport Name="MMMY" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Autorizacion Monterrey / Monterrey Delivery</Line>
-                <Line>Serving MMMY arrivals and departures</Line>
+                <Line>Entrega Monterrey / Monterrey Delivery</Line>
+                <Line>Serving MMMY departures</Line>
                 <Line>ATIS available on 127.700</Line>
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
