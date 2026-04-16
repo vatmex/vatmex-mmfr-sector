@@ -1,0 +1,11 @@
+- runway: "16"
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "200"
+- if:
+    VFR: "true"
+  CFL: "030"
+
+# Departure Frequencies
+- departures: ["118.9", "120.9", "128.0"]
