@@ -1,12 +1,11 @@
+- runway: "12"
 - assign_dep_rwy: "true"
 
-# CFL (solo jets)
+# CFL
+- CFL: "200"
 - if:
-    jet: "true"
-  CFL: "200"
-
-# RWY fija
-- runway: "12"
+    VFR: "true"
+  CFL: "025"
 
 # SIDs por aerovia (RWY 12)
 - if:
@@ -50,4 +49,4 @@
   SID: "URTO1A"
 
 # Departure Frequencies
-- departures: ["121.9", "118.1", "119.75", "124.5"]
+- departures: ["118.1", "119.75", "124.5"]
