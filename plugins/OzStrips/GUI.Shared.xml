@@ -514,6 +514,21 @@
             Gets or sets the last modified time of this PDC request.
             </summary>
         </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.RequestMetadata">
+            <summary>
+            Metadata included with every request.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RequestMetadata.AerodromeICAO">
+            <summary>
+            Gets or sets the aerodrome icao code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RequestMetadata.ServerCode">
+            <summary>
+            Gets or sets the server code.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.RouteDTO">
             <summary>
             Represents the route returned from ERSA FPR for a specific city pair.
