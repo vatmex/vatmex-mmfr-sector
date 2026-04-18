@@ -1348,6 +1348,26 @@
             Gets or sets the font size in pixels.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.Cockable">
+            <summary>
+            Gets or sets a value indicating whether or not the element should be given the cocking highlight.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.CockableSpecified">
+            <summary>
+            Gets or sets a value indicating whether or not the element should be cocking highlight.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.Crossable">
+            <summary>
+            Gets or sets a value indicating whether or not the element should be given the crossing highlight.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.CrossableSpecified">
+            <summary>
+            Gets or sets a value indicating whether or not the element should be crossing highlight.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElementList">
             <summary>
             Represents a list of strip elements.
@@ -2072,7 +2092,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.8.7.
+              Looks up a localized string similar to 0.9.0.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher">
