@@ -1631,7 +1631,6 @@ Airports:
   LostFlightTimeoutMinutes: 10
   AverageLandingSpeed: 155
   UpperWindAltitude: 6000
-  LowerWindAltitude: 5000
   RunwayModes:
   - Identifier: 11R
     Runways:
@@ -1645,18 +1644,16 @@ Airports:
     Runways:
     - Identifier: 11L
       LandingRateSeconds: 180
-      DependencyRateSeconds: 26
     - Identifier: 11R
       LandingRateSeconds: 180
-      DependencyRateSeconds: 26
+    DependencyRateSeconds: 26
   - Identifier: 29L/29R
     Runways:
     - Identifier: 29L
       LandingRateSeconds: 180
-      DependencyRateSeconds: 26
     - Identifier: 29R
       LandingRateSeconds: 180
-      DependencyRateSeconds: 26
+    DependencyRateSeconds: 26
   Trajectories:
   - FeederFix: AMULA
     RunwayIdentifier: 11L
