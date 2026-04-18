@@ -197,11 +197,11 @@ Airports:
   - Identifier: 05R
     Runways:
     - Identifier: 05R
-      LandingRateSeconds: 120
+      LandingRateSeconds: 180
   - Identifier: 23L
     Runways:
     - Identifier: 23L
-      LandingRateSeconds: 120
+      LandingRateSeconds: 180
   Trajectories:
   - FeederFix: DARAN
     RunwayIdentifier: 05L
@@ -772,25 +772,25 @@ Airports:
   - Identifier: 12L
     Runways:
     - Identifier: 12L
-      LandingRateSeconds: 120
+      LandingRateSeconds: 180
   - Identifier: 30R
     Runways:
     - Identifier: 30R
-      LandingRateSeconds: 120
+      LandingRateSeconds: 180
   - Identifier: 12L/12R
     DependencyRateSeconds: 26
     Runways:
     - Identifier: 12L
-      LandingRateSeconds: 120
+      LandingRateSeconds: 180
     - Identifier: 12R
-      LandingRateSeconds: 120
+      LandingRateSeconds: 180
   - Identifier: 30L/30R
     DependencyRateSeconds: 26
     Runways:
     - Identifier: 30L
-      LandingRateSeconds: 120
+      LandingRateSeconds: 180
     - Identifier: 30R
-      LandingRateSeconds: 120
+      LandingRateSeconds: 180
   Trajectories:
   - FeederFix: ILUBA
     RunwayIdentifier: 12R
@@ -1613,6 +1613,987 @@ Airports:
   - '{Callsign} MEDEVAC'
   - '{Callsign} diverting'
   - '{Callsign} request high speed descent'
+- Identifier: MMGL
+  FeederFixes:
+  - AMULA
+  - IGSON
+  - KASUP
+  - MEZCA
+  - MUTEM
+  - USBIM
+  - VOLAT
+  FlightCreationThresholdMinutes: 120
+  MinimumUnstableMinutes: 5
+  StabilityThresholdMinutes: 25
+  FrozenThresholdMinutes: 12
+  MaxLandedFlights: 5
+  LandedFlightTimeoutMinutes: 5
+  LostFlightTimeoutMinutes: 10
+  AverageLandingSpeed: 155
+  UpperWindAltitude: 6000
+  LowerWindAltitude: 5000
+  RunwayModes:
+  - Identifier: 11R
+    Runways:
+    - Identifier: 11R
+      LandingRateSeconds: 180
+  - Identifier: 29L
+    Runways:
+    - Identifier: 29L
+      LandingRateSeconds: 180
+  - Identifier: 11L/11R
+    Runways:
+    - Identifier: 11L
+      LandingRateSeconds: 180
+      DependencyRateSeconds: 26
+    - Identifier: 11R
+      LandingRateSeconds: 180
+      DependencyRateSeconds: 26
+  - Identifier: 29L/29R
+    Runways:
+    - Identifier: 29L
+      LandingRateSeconds: 180
+      DependencyRateSeconds: 26
+    - Identifier: 29R
+      LandingRateSeconds: 180
+      DependencyRateSeconds: 26
+  Trajectories:
+  - FeederFix: AMULA
+    RunwayIdentifier: 11L
+    ApproachType: A
+    Segments:
+    - Identifier: LONVA
+      Track: 163
+      DistanceNM: 19.9
+    - Identifier: GL573
+      Track: 180.3
+      DistanceNM: 10.8
+    - Identifier: GL550
+      Track: 180.3
+      DistanceNM: 5
+    - Identifier: GL551
+      Track: 265.6
+      DistanceNM: 12.4
+    - Identifier: GL552
+      Track: 235.4
+      DistanceNM: 12.4
+    - Identifier: GL553
+      Track: 205.3
+      DistanceNM: 12.5
+    - Identifier: GL554
+      Track: 175.5
+      DistanceNM: 12.5
+    - Identifier: GL555
+      Track: 145.6
+      DistanceNM: 12.5
+    - Identifier: OLAVA
+      Track: 40.3
+      DistanceNM: 24
+    - Identifier: 11L
+      Track: 113.7
+      DistanceNM: 20
+  - FeederFix: AMULA
+    RunwayIdentifier: 11R
+    ApproachType: A
+    Segments:
+    - Identifier: LONVA
+      Track: 163
+      DistanceNM: 19.9
+    - Identifier: GL573
+      Track: 180.3
+      DistanceNM: 10.8
+    - Identifier: GL550
+      Track: 180.3
+      DistanceNM: 5
+    - Identifier: GL551
+      Track: 265.6
+      DistanceNM: 12.4
+    - Identifier: GL552
+      Track: 235.4
+      DistanceNM: 12.4
+    - Identifier: GL553
+      Track: 205.3
+      DistanceNM: 12.5
+    - Identifier: GL554
+      Track: 175.5
+      DistanceNM: 12.5
+    - Identifier: GL555
+      Track: 145.6
+      DistanceNM: 12.5
+    - Identifier: OLAVA
+      Track: 40.3
+      DistanceNM: 24
+    - Identifier: 11R
+      Track: 114.1
+      DistanceNM: 20
+  - FeederFix: AMULA
+    RunwayIdentifier: 29L
+    ApproachType: B
+    Segments:
+    - Identifier: LONVA
+      Track: 163
+      DistanceNM: 19.9
+    - Identifier: GL820
+      Track: 119.8
+      DistanceNM: 21.5
+    - Identifier: GL821
+      Track: 119.7
+      DistanceNM: 5
+    - Identifier: GL822
+      Track: 135.6
+      DistanceNM: 18.5
+    - Identifier: VOLIN
+      Track: 135.7
+      DistanceNM: 4.6
+    - Identifier: GL824
+      Track: 135.7
+      DistanceNM: 9.6
+    - Identifier: GL825
+      Track: 143.3
+      DistanceNM: 12.4
+    - Identifier: GL826
+      Track: 173.2
+      DistanceNM: 12.5
+    - Identifier: GL827
+      Track: 203
+      DistanceNM: 12.5
+    - Identifier: GL828
+      Track: 233
+      DistanceNM: 12.4
+    - Identifier: PLADE
+      Track: 338.2
+      DistanceNM: 24.1
+    - Identifier: 29L
+      Track: 294.2
+      DistanceNM: 17
+  - FeederFix: AMULA
+    RunwayIdentifier: 29R
+    ApproachType: B
+    Segments:
+    - Identifier: LONVA
+      Track: 163
+      DistanceNM: 19.9
+    - Identifier: GL820
+      Track: 119.8
+      DistanceNM: 21.5
+    - Identifier: GL821
+      Track: 119.7
+      DistanceNM: 5
+    - Identifier: GL822
+      Track: 135.6
+      DistanceNM: 18.5
+    - Identifier: VOLIN
+      Track: 135.7
+      DistanceNM: 4.6
+    - Identifier: GL824
+      Track: 135.7
+      DistanceNM: 9.6
+    - Identifier: GL825
+      Track: 143.3
+      DistanceNM: 12.4
+    - Identifier: GL826
+      Track: 173.2
+      DistanceNM: 12.5
+    - Identifier: GL827
+      Track: 203
+      DistanceNM: 12.5
+    - Identifier: GL828
+      Track: 233
+      DistanceNM: 12.4
+    - Identifier: PLADE
+      Track: 338.2
+      DistanceNM: 24.1
+    - Identifier: 29R
+      Track: 294.7
+      DistanceNM: 17.2
+  - FeederFix: IGSON
+    RunwayIdentifier: 11L
+    ApproachType: A
+    Segments:
+    - Identifier: ULUVO
+      Track: 289.6
+      DistanceNM: 8.7
+    - Identifier: GL530
+      Track: 289.5
+      DistanceNM: 10.5
+    - Identifier: GL531
+      Track: 290.5
+      DistanceNM: 29.5
+    - Identifier: BRUJA
+      Track: 269.3
+      DistanceNM: 26
+    - Identifier: GL560
+      Track: 301.3
+      DistanceNM: 23.3
+    - Identifier: GL561
+      Track: 325.7
+      DistanceNM: 12
+    - Identifier: GL562
+      Track: 355.5
+      DistanceNM: 12
+    - Identifier: GL563
+      Track: 25.3
+      DistanceNM: 11.9
+    - Identifier: GL564
+      Track: 55.3
+      DistanceNM: 11.9
+    - Identifier: GL565
+      Track: 85.6
+      DistanceNM: 11.9
+    - Identifier: OLAVA
+      Track: 190.6
+      DistanceNM: 23.1
+    - Identifier: 11L
+      Track: 113.7
+      DistanceNM: 20
+  - FeederFix: IGSON
+    RunwayIdentifier: 11R
+    ApproachType: A
+    Segments:
+    - Identifier: ULUVO
+      Track: 289.6
+      DistanceNM: 8.7
+    - Identifier: GL530
+      Track: 289.5
+      DistanceNM: 10.5
+    - Identifier: GL531
+      Track: 290.5
+      DistanceNM: 29.5
+    - Identifier: BRUJA
+      Track: 269.3
+      DistanceNM: 26
+    - Identifier: GL560
+      Track: 301.3
+      DistanceNM: 23.3
+    - Identifier: GL561
+      Track: 325.7
+      DistanceNM: 12
+    - Identifier: GL562
+      Track: 355.5
+      DistanceNM: 12
+    - Identifier: GL563
+      Track: 25.3
+      DistanceNM: 11.9
+    - Identifier: GL564
+      Track: 55.3
+      DistanceNM: 11.9
+    - Identifier: GL565
+      Track: 85.6
+      DistanceNM: 11.9
+    - Identifier: OLAVA
+      Track: 190.6
+      DistanceNM: 23.1
+    - Identifier: 11R
+      Track: 114.1
+      DistanceNM: 20
+  - FeederFix: IGSON
+    RunwayIdentifier: 29L
+    ApproachType: B
+    Segments:
+    - Identifier: ULUVO
+      Track: 289.6
+      DistanceNM: 8.7
+    - Identifier: GL530
+      Track: 289.5
+      DistanceNM: 10.5
+    - Identifier: GL802
+      Track: 333.1
+      DistanceNM: 10.4
+    - Identifier: GL803
+      Track: 23
+      DistanceNM: 11.9
+    - Identifier: GL804
+      Track: 353.2
+      DistanceNM: 12
+    - Identifier: GL805
+      Track: 323.3
+      DistanceNM: 11.9
+    - Identifier: PLADE
+      Track: 218
+      DistanceNM: 23
+    - Identifier: 29L
+      Track: 294.2
+      DistanceNM: 17
+  - FeederFix: IGSON
+    RunwayIdentifier: 29R
+    ApproachType: B
+    Segments:
+    - Identifier: ULUVO
+      Track: 289.6
+      DistanceNM: 8.7
+    - Identifier: GL530
+      Track: 289.5
+      DistanceNM: 10.5
+    - Identifier: GL802
+      Track: 333.1
+      DistanceNM: 10.4
+    - Identifier: GL803
+      Track: 23
+      DistanceNM: 11.9
+    - Identifier: GL804
+      Track: 353.2
+      DistanceNM: 12
+    - Identifier: GL805
+      Track: 323.3
+      DistanceNM: 11.9
+    - Identifier: PLADE
+      Track: 218
+      DistanceNM: 23
+    - Identifier: 29R
+      Track: 294.7
+      DistanceNM: 17.2
+  - FeederFix: KASUP
+    RunwayIdentifier: 11L
+    ApproachType: A
+    Segments:
+    - Identifier: LIPEP
+      Track: 95.3
+      DistanceNM: 10
+    - Identifier: GL572
+      Track: 95.3
+      DistanceNM: 5.5
+    - Identifier: GL575
+      Track: 40.5
+      DistanceNM: 5.3
+    - Identifier: GL562
+      Track: 40.5
+      DistanceNM: 5.3
+    - Identifier: GL563
+      Track: 25.3
+      DistanceNM: 11.9
+    - Identifier: GL564
+      Track: 55.3
+      DistanceNM: 11.9
+    - Identifier: GL565
+      Track: 85.6
+      DistanceNM: 11.9
+    - Identifier: OLAVA
+      Track: 190.6
+      DistanceNM: 23.1
+    - Identifier: 11L
+      Track: 113.7
+      DistanceNM: 20
+  - FeederFix: KASUP
+    RunwayIdentifier: 11R
+    ApproachType: A
+    Segments:
+    - Identifier: LIPEP
+      Track: 95.3
+      DistanceNM: 10
+    - Identifier: GL572
+      Track: 95.3
+      DistanceNM: 5.5
+    - Identifier: GL575
+      Track: 40.5
+      DistanceNM: 5.3
+    - Identifier: GL562
+      Track: 40.5
+      DistanceNM: 5.3
+    - Identifier: GL563
+      Track: 25.3
+      DistanceNM: 11.9
+    - Identifier: GL564
+      Track: 55.3
+      DistanceNM: 11.9
+    - Identifier: GL565
+      Track: 85.6
+      DistanceNM: 11.9
+    - Identifier: OLAVA
+      Track: 190.6
+      DistanceNM: 23.1
+    - Identifier: 11R
+      Track: 114.1
+      DistanceNM: 20
+  - FeederFix: KASUP
+    RunwayIdentifier: 29L
+    ApproachType: B
+    Segments:
+    - Identifier: LIPEP
+      Track: 95.3
+      DistanceNM: 10
+    - Identifier: OTETA
+      Track: 117.2
+      DistanceNM: 75.2
+    - Identifier: GL801
+      Track: 87.7
+      DistanceNM: 12.7
+    - Identifier: GL802
+      Track: 52.9
+      DistanceNM: 11.9
+    - Identifier: GL803
+      Track: 23
+      DistanceNM: 11.9
+    - Identifier: GL804
+      Track: 353.2
+      DistanceNM: 12
+    - Identifier: GL805
+      Track: 323.3
+      DistanceNM: 11.9
+    - Identifier: PLADE
+      Track: 218
+      DistanceNM: 23
+    - Identifier: 29L
+      Track: 294.2
+      DistanceNM: 17
+  - FeederFix: KASUP
+    RunwayIdentifier: 29R
+    ApproachType: B
+    Segments:
+    - Identifier: LIPEP
+      Track: 95.3
+      DistanceNM: 10
+    - Identifier: OTETA
+      Track: 117.2
+      DistanceNM: 75.2
+    - Identifier: GL801
+      Track: 87.7
+      DistanceNM: 12.7
+    - Identifier: GL802
+      Track: 52.9
+      DistanceNM: 11.9
+    - Identifier: GL803
+      Track: 23
+      DistanceNM: 11.9
+    - Identifier: GL804
+      Track: 353.2
+      DistanceNM: 12
+    - Identifier: GL805
+      Track: 323.3
+      DistanceNM: 11.9
+    - Identifier: PLADE
+      Track: 218
+      DistanceNM: 23
+    - Identifier: 29R
+      Track: 294.7
+      DistanceNM: 17.2
+  - FeederFix: MEZCA
+    RunwayIdentifier: 11L
+    ApproachType: A
+    Segments:
+    - Identifier: LIVRI
+      Track: 218
+      DistanceNM: 10.3
+    - Identifier: IKBAN
+      Track: 218
+      DistanceNM: 4.9
+    - Identifier: ULOGA
+      Track: 243.1
+      DistanceNM: 12
+    - Identifier: GL513
+      Track: 278
+      DistanceNM: 20
+    - Identifier: GL550
+      Track: 266
+      DistanceNM: 12
+    - Identifier: GL551
+      Track: 265.6
+      DistanceNM: 12.4
+    - Identifier: GL552
+      Track: 235.4
+      DistanceNM: 12.4
+    - Identifier: GL553
+      Track: 205.3
+      DistanceNM: 12.5
+    - Identifier: GL554
+      Track: 175.5
+      DistanceNM: 12.5
+    - Identifier: GL555
+      Track: 145.6
+      DistanceNM: 12.5
+    - Identifier: OLAVA
+      Track: 40.3
+      DistanceNM: 24
+    - Identifier: 11L
+      Track: 113.7
+      DistanceNM: 20
+  - FeederFix: MEZCA
+    RunwayIdentifier: 11R
+    ApproachType: A
+    Segments:
+    - Identifier: LIVRI
+      Track: 218
+      DistanceNM: 10.3
+    - Identifier: IKBAN
+      Track: 218
+      DistanceNM: 4.9
+    - Identifier: ULOGA
+      Track: 243.1
+      DistanceNM: 12
+    - Identifier: GL513
+      Track: 278
+      DistanceNM: 20
+    - Identifier: GL550
+      Track: 266
+      DistanceNM: 12
+    - Identifier: GL551
+      Track: 265.6
+      DistanceNM: 12.4
+    - Identifier: GL552
+      Track: 235.4
+      DistanceNM: 12.4
+    - Identifier: GL553
+      Track: 205.3
+      DistanceNM: 12.5
+    - Identifier: GL554
+      Track: 175.5
+      DistanceNM: 12.5
+    - Identifier: GL555
+      Track: 145.6
+      DistanceNM: 12.5
+    - Identifier: OLAVA
+      Track: 40.3
+      DistanceNM: 24
+    - Identifier: 11R
+      Track: 114.1
+      DistanceNM: 20
+  - FeederFix: MEZCA
+    RunwayIdentifier: 29L
+    ApproachType: B
+    Segments:
+    - Identifier: LIVRI
+      Track: 218
+      DistanceNM: 10.3
+    - Identifier: IKBAN
+      Track: 218
+      DistanceNM: 4.9
+    - Identifier: GL840
+      Track: 172.2
+      DistanceNM: 8.6
+    - Identifier: UKOSI
+      Track: 171.5
+      DistanceNM: 7.6
+    - Identifier: GL824
+      Track: 171.5
+      DistanceNM: 8.3
+    - Identifier: GL825
+      Track: 143.3
+      DistanceNM: 12.4
+    - Identifier: GL826
+      Track: 173.2
+      DistanceNM: 12.5
+    - Identifier: GL827
+      Track: 203
+      DistanceNM: 12.5
+    - Identifier: GL828
+      Track: 233
+      DistanceNM: 12.4
+    - Identifier: PLADE
+      Track: 338.2
+      DistanceNM: 24.1
+    - Identifier: 29L
+      Track: 294.2
+      DistanceNM: 17
+  - FeederFix: MEZCA
+    RunwayIdentifier: 29R
+    ApproachType: B
+    Segments:
+    - Identifier: LIVRI
+      Track: 218
+      DistanceNM: 10.3
+    - Identifier: IKBAN
+      Track: 218
+      DistanceNM: 4.9
+    - Identifier: GL840
+      Track: 172.2
+      DistanceNM: 8.6
+    - Identifier: UKOSI
+      Track: 171.5
+      DistanceNM: 7.6
+    - Identifier: GL824
+      Track: 171.5
+      DistanceNM: 8.3
+    - Identifier: GL825
+      Track: 143.3
+      DistanceNM: 12.4
+    - Identifier: GL826
+      Track: 173.2
+      DistanceNM: 12.5
+    - Identifier: GL827
+      Track: 203
+      DistanceNM: 12.5
+    - Identifier: GL828
+      Track: 233
+      DistanceNM: 12.4
+    - Identifier: PLADE
+      Track: 338.2
+      DistanceNM: 24.1
+    - Identifier: 29R
+      Track: 294.7
+      DistanceNM: 17.2
+  - FeederFix: MUTEM
+    RunwayIdentifier: 11L
+    ApproachType: A
+    Segments:
+    - Identifier: GL540
+      Track: 283.8
+      DistanceNM: 22.4
+    - Identifier: ULOGA
+      Track: 295.2
+      DistanceNM: 20.8
+    - Identifier: GL513
+      Track: 278
+      DistanceNM: 20
+    - Identifier: GL550
+      Track: 266
+      DistanceNM: 12
+    - Identifier: GL551
+      Track: 265.6
+      DistanceNM: 12.4
+    - Identifier: GL552
+      Track: 235.4
+      DistanceNM: 12.4
+    - Identifier: GL553
+      Track: 205.3
+      DistanceNM: 12.5
+    - Identifier: GL554
+      Track: 175.5
+      DistanceNM: 12.5
+    - Identifier: GL555
+      Track: 145.6
+      DistanceNM: 12.5
+    - Identifier: OLAVA
+      Track: 40.3
+      DistanceNM: 24
+    - Identifier: 11L
+      Track: 113.7
+      DistanceNM: 20
+  - FeederFix: MUTEM
+    RunwayIdentifier: 11R
+    ApproachType: A
+    Segments:
+    - Identifier: GL540
+      Track: 283.8
+      DistanceNM: 22.4
+    - Identifier: ULOGA
+      Track: 295.2
+      DistanceNM: 20.8
+    - Identifier: GL513
+      Track: 278
+      DistanceNM: 20
+    - Identifier: GL550
+      Track: 266
+      DistanceNM: 12
+    - Identifier: GL551
+      Track: 265.6
+      DistanceNM: 12.4
+    - Identifier: GL552
+      Track: 235.4
+      DistanceNM: 12.4
+    - Identifier: GL553
+      Track: 205.3
+      DistanceNM: 12.5
+    - Identifier: GL554
+      Track: 175.5
+      DistanceNM: 12.5
+    - Identifier: GL555
+      Track: 145.6
+      DistanceNM: 12.5
+    - Identifier: OLAVA
+      Track: 40.3
+      DistanceNM: 24
+    - Identifier: 11R
+      Track: 114.1
+      DistanceNM: 20
+  - FeederFix: MUTEM
+    RunwayIdentifier: 29L
+    ApproachType: B
+    Segments:
+    - Identifier: GL825
+      Track: 232.3
+      DistanceNM: 24
+    - Identifier: GL826
+      Track: 173.2
+      DistanceNM: 12.5
+    - Identifier: GL827
+      Track: 203
+      DistanceNM: 12.5
+    - Identifier: GL828
+      Track: 233
+      DistanceNM: 12.4
+    - Identifier: PLADE
+      Track: 338.2
+      DistanceNM: 24.1
+    - Identifier: 29L
+      Track: 294.2
+      DistanceNM: 17
+  - FeederFix: MUTEM
+    RunwayIdentifier: 29R
+    ApproachType: B
+    Segments:
+    - Identifier: GL825
+      Track: 232.3
+      DistanceNM: 24
+    - Identifier: GL826
+      Track: 173.2
+      DistanceNM: 12.5
+    - Identifier: GL827
+      Track: 203
+      DistanceNM: 12.5
+    - Identifier: GL828
+      Track: 233
+      DistanceNM: 12.4
+    - Identifier: PLADE
+      Track: 338.2
+      DistanceNM: 24.1
+    - Identifier: 29R
+      Track: 294.7
+      DistanceNM: 17.2
+  - FeederFix: USBIM
+    RunwayIdentifier: 11L
+    ApproachType: C
+    Segments:
+    - Identifier: GL571
+      Track: 28.9
+      DistanceNM: 19.7
+    - Identifier: GL560
+      Track: 28.9
+      DistanceNM: 6
+    - Identifier: GL561
+      Track: 325.7
+      DistanceNM: 12
+    - Identifier: GL562
+      Track: 355.5
+      DistanceNM: 12
+    - Identifier: GL563
+      Track: 25.3
+      DistanceNM: 11.9
+    - Identifier: GL564
+      Track: 55.3
+      DistanceNM: 11.9
+    - Identifier: GL565
+      Track: 85.6
+      DistanceNM: 11.9
+    - Identifier: OLAVA
+      Track: 190.6
+      DistanceNM: 23.1
+    - Identifier: 11L
+      Track: 113.7
+      DistanceNM: 20
+  - FeederFix: USBIM
+    RunwayIdentifier: 11R
+    ApproachType: C
+    Segments:
+    - Identifier: GL571
+      Track: 28.9
+      DistanceNM: 19.7
+    - Identifier: GL560
+      Track: 28.9
+      DistanceNM: 6
+    - Identifier: GL561
+      Track: 325.7
+      DistanceNM: 12
+    - Identifier: GL562
+      Track: 355.5
+      DistanceNM: 12
+    - Identifier: GL563
+      Track: 25.3
+      DistanceNM: 11.9
+    - Identifier: GL564
+      Track: 55.3
+      DistanceNM: 11.9
+    - Identifier: GL565
+      Track: 85.6
+      DistanceNM: 11.9
+    - Identifier: OLAVA
+      Track: 190.6
+      DistanceNM: 23.1
+    - Identifier: 11R
+      Track: 114.1
+      DistanceNM: 20
+  - FeederFix: USBIM
+    RunwayIdentifier: 29L
+    ApproachType: D
+    Segments:
+    - Identifier: OTETA
+      Track: 87.7
+      DistanceNM: 59.2
+    - Identifier: GL801
+      Track: 87.7
+      DistanceNM: 12.7
+    - Identifier: GL802
+      Track: 52.9
+      DistanceNM: 11.9
+    - Identifier: GL803
+      Track: 23
+      DistanceNM: 11.9
+    - Identifier: GL804
+      Track: 353.2
+      DistanceNM: 12
+    - Identifier: GL805
+      Track: 323.3
+      DistanceNM: 11.9
+    - Identifier: PLADE
+      Track: 218
+      DistanceNM: 23
+    - Identifier: 29L
+      Track: 294.2
+      DistanceNM: 17
+  - FeederFix: USBIM
+    RunwayIdentifier: 29R
+    ApproachType: D
+    Segments:
+    - Identifier: OTETA
+      Track: 87.7
+      DistanceNM: 59.2
+    - Identifier: GL801
+      Track: 87.7
+      DistanceNM: 12.7
+    - Identifier: GL802
+      Track: 52.9
+      DistanceNM: 11.9
+    - Identifier: GL803
+      Track: 23
+      DistanceNM: 11.9
+    - Identifier: GL804
+      Track: 353.2
+      DistanceNM: 12
+    - Identifier: GL805
+      Track: 323.3
+      DistanceNM: 11.9
+    - Identifier: PLADE
+      Track: 218
+      DistanceNM: 23
+    - Identifier: 29R
+      Track: 294.7
+      DistanceNM: 17.2
+  - FeederFix: VOLAT
+    RunwayIdentifier: 11L
+    ApproachType: A
+    Segments:
+    - Identifier: GL572
+      Track: 25.9
+      DistanceNM: 15.7
+    - Identifier: GL575
+      Track: 40.5
+      DistanceNM: 5.3
+    - Identifier: GL562
+      Track: 40.5
+      DistanceNM: 5.3
+    - Identifier: GL563
+      Track: 25.3
+      DistanceNM: 11.9
+    - Identifier: GL564
+      Track: 55.3
+      DistanceNM: 11.9
+    - Identifier: GL565
+      Track: 85.6
+      DistanceNM: 11.9
+    - Identifier: OLAVA
+      Track: 190.6
+      DistanceNM: 23.1
+    - Identifier: 11L
+      Track: 113.7
+      DistanceNM: 20
+  - FeederFix: VOLAT
+    RunwayIdentifier: 11R
+    ApproachType: A
+    Segments:
+    - Identifier: GL572
+      Track: 25.9
+      DistanceNM: 15.7
+    - Identifier: GL575
+      Track: 40.5
+      DistanceNM: 5.3
+    - Identifier: GL562
+      Track: 40.5
+      DistanceNM: 5.3
+    - Identifier: GL563
+      Track: 25.3
+      DistanceNM: 11.9
+    - Identifier: GL564
+      Track: 55.3
+      DistanceNM: 11.9
+    - Identifier: GL565
+      Track: 85.6
+      DistanceNM: 11.9
+    - Identifier: OLAVA
+      Track: 190.6
+      DistanceNM: 23.1
+    - Identifier: 11R
+      Track: 114.1
+      DistanceNM: 20
+  - FeederFix: VOLAT
+    RunwayIdentifier: 29L
+    ApproachType: B
+    Segments:
+    - Identifier: OTETA
+      Track: 106.2
+      DistanceNM: 71
+    - Identifier: GL801
+      Track: 87.7
+      DistanceNM: 12.7
+    - Identifier: GL802
+      Track: 52.9
+      DistanceNM: 11.9
+    - Identifier: GL803
+      Track: 23
+      DistanceNM: 11.9
+    - Identifier: GL804
+      Track: 353.2
+      DistanceNM: 12
+    - Identifier: GL805
+      Track: 323.3
+      DistanceNM: 11.9
+    - Identifier: PLADE
+      Track: 218
+      DistanceNM: 23
+    - Identifier: 29L
+      Track: 294.2
+      DistanceNM: 17
+  - FeederFix: VOLAT
+    RunwayIdentifier: 29R
+    ApproachType: B
+    Segments:
+    - Identifier: OTETA
+      Track: 106.2
+      DistanceNM: 71
+    - Identifier: GL801
+      Track: 87.7
+      DistanceNM: 12.7
+    - Identifier: GL802
+      Track: 52.9
+      DistanceNM: 11.9
+    - Identifier: GL803
+      Track: 23
+      DistanceNM: 11.9
+    - Identifier: GL804
+      Track: 353.2
+      DistanceNM: 12
+    - Identifier: GL805
+      Track: 323.3
+      DistanceNM: 11.9
+    - Identifier: PLADE
+      Track: 218
+      DistanceNM: 23
+    - Identifier: 29R
+      Track: 294.7
+      DistanceNM: 17.2
+  DepartureAirports: []
+  Views:
+  - Identifier: ALL
+    LabelLayout: Enroute
+    TimeWindowMinutes: 30
+    Reference: FeederFixTime
+    Ladders:
+    - FeederFixes:
+      - ILUBA
+      - PAULE
+      - SIGMA
+    - FeederFixes:
+      - NOSAT
+      - VOMAR
+      - XUDUN
+  - Identifier: RWY
+    LabelLayout: TMA
+    TimeWindowMinutes: 45
+    Reference: LandingTime
+    Ladders:
+    - Runways:
+      - 12L
+      - 30R
+    - Runways:
+      - 12R
+      - 30L
 AircraftPerformance:
 - TypeCode: CONC
   DescentSpeedKnots: 261
