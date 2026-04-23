@@ -204,31 +204,6 @@ Airports:
       LandingRateSeconds: 180
   Trajectories:
   - FeederFix: DARAN
-    RunwayIdentifier: 05L
-    ApproachType: A
-    Segments:
-    - Identifier: MX750
-      Track: 169.4
-      DistanceNM: 22.7
-    - Identifier: MX752
-      Track: 124.9
-      DistanceNM: 6.5
-    - Identifier: MX754
-      Track: 46.2
-      DistanceNM: 10
-    - Identifier: MX756
-      Track: 75.4
-      DistanceNM: 10
-    - Identifier: ALMIS
-      Track: 180
-      DistanceNM: 20.1
-    - Identifier: UKTEN
-      Track: 143.7
-      DistanceNM: 5.3
-    - Identifier: 05L
-      Track: 124.8
-      DistanceNM: 10.2
-  - FeederFix: DARAN
     RunwayIdentifier: 05R
     ApproachType: A
     Segments:
@@ -253,31 +228,6 @@ Airports:
     - Identifier: 05R
       Track: 124.2
       DistanceNM: 10.5
-  - FeederFix: ESPOS
-    RunwayIdentifier: 05L
-    ApproachType: A
-    Segments:
-    - Identifier: MX770
-      Track: 65.8
-      DistanceNM: 28
-    - Identifier: MX772
-      Track: 65.9
-      DistanceNM: 7
-    - Identifier: MX774
-      Track: 126.2
-      DistanceNM: 8.5
-    - Identifier: MX776
-      Track: 100.4
-      DistanceNM: 8.4
-    - Identifier: URNOK
-      Track: 357.6
-      DistanceNM: 19.1
-    - Identifier: EPRIM
-      Track: 316.8
-      DistanceNM: 5.3
-    - Identifier: 05L
-      Track: 356.9
-      DistanceNM: 11.3
   - FeederFix: ESPOS
     RunwayIdentifier: 05R
     ApproachType: A
@@ -304,34 +254,6 @@ Airports:
       Track: 358.2
       DistanceNM: 11.2
   - FeederFix: ENAGA
-    RunwayIdentifier: 05L
-    ApproachType: A
-    Segments:
-    - Identifier: MX751
-      Track: 257.9
-      DistanceNM: 32
-    - Identifier: MX753
-      Track: 263.3
-      DistanceNM: 9.2
-    - Identifier: MX755
-      Track: 274.1
-      DistanceNM: 22
-    - Identifier: MX757
-      Track: 255.4
-      DistanceNM: 9.5
-    - Identifier: MX759
-      Track: 226.3
-      DistanceNM: 9.5
-    - Identifier: ALMIS
-      Track: 122.1
-      DistanceNM: 19
-    - Identifier: UKTEN
-      Track: 143.7
-      DistanceNM: 5.3
-    - Identifier: 05L
-      Track: 124.8
-      DistanceNM: 10.2
-  - FeederFix: ENAGA
     RunwayIdentifier: 05R
     ApproachType: A
     Segments:
@@ -359,31 +281,6 @@ Airports:
     - Identifier: 05R
       Track: 124.2
       DistanceNM: 10.5
-  - FeederFix: LARLO
-    RunwayIdentifier: 05L
-    ApproachType: A
-    Segments:
-    - Identifier: MX771
-      Track: 281
-      DistanceNM: 27.9
-    - Identifier: MX773
-      Track: 282.6
-      DistanceNM: 10.7
-    - Identifier: MX775
-      Track: 280.5
-      DistanceNM: 8.9
-    - Identifier: MX777
-      Track: 306.3
-      DistanceNM: 8.9
-    - Identifier: URNOK
-      Track: 48.7
-      DistanceNM: 20
-    - Identifier: EPRIM
-      Track: 316.8
-      DistanceNM: 5.3
-    - Identifier: 05L
-      Track: 356.9
-      DistanceNM: 11.3
   - FeederFix: LARLO
     RunwayIdentifier: 05R
     ApproachType: A
@@ -443,40 +340,6 @@ Airports:
     - Identifier: 23L
       Track: 239.3
       DistanceNM: 13.1
-  - FeederFix: DARAN
-    RunwayIdentifier: 23R
-    ApproachType: B
-    Segments:
-    - Identifier: MX651
-      Track: 108.3
-      DistanceNM: 39
-    - Identifier: MX652
-      Track: 108.5
-      DistanceNM: 7.3
-    - Identifier: DUSGO
-      Track: 98.8
-      DistanceNM: 8.1
-    - Identifier: MX617
-      Track: 110.9
-      DistanceNM: 9
-    - Identifier: MX619
-      Track: 119.7
-      DistanceNM: 7.6
-    - Identifier: MX621
-      Track: 142.7
-      DistanceNM: 7.6
-    - Identifier: MX623
-      Track: 165.7
-      DistanceNM: 7.6
-    - Identifier: SESTA
-      Track: 267.1
-      DistanceNM: 19
-    - Identifier: ESTIN
-      Track: 239.4
-      DistanceNM: 4
-    - Identifier: 23R
-      Track: 240
-      DistanceNM: 13.6
   - FeederFix: ESPOS
     RunwayIdentifier: 23L
     ApproachType: B
@@ -517,46 +380,6 @@ Airports:
     - Identifier: 23L
       Track: 239.3
       DistanceNM: 13.1
-  - FeederFix: ESPOS
-    RunwayIdentifier: 23R
-    ApproachType: B
-    Segments:
-    - Identifier: MX770
-      Track: 65.8
-      DistanceNM: 28
-    - Identifier: MX661
-      Track: 66.5
-      DistanceNM: 25.3
-    - Identifier: OTMOS
-      Track: 66.7
-      DistanceNM: 7.7
-    - Identifier: MX665
-      Track: 55.2
-      DistanceNM: 29.8
-    - Identifier: MX666
-      Track: 351.4
-      DistanceNM: 6
-    - Identifier: MX667
-      Track: 351.4
-      DistanceNM: 5.2
-    - Identifier: MX669
-      Track: 345.7
-      DistanceNM: 8
-    - Identifier: MX671
-      Track: 322.8
-      DistanceNM: 8
-    - Identifier: MX602
-      Track: 299.7
-      DistanceNM: 8
-    - Identifier: SESTA
-      Track: 197.9
-      DistanceNM: 20.1
-    - Identifier: ESTIN
-      Track: 239.4
-      DistanceNM: 4
-    - Identifier: 23R
-      Track: 240
-      DistanceNM: 13.6
   - FeederFix: ENAGA
     RunwayIdentifier: 23L
     ApproachType: B
@@ -585,34 +408,6 @@ Airports:
     - Identifier: 23L
       Track: 239.3
       DistanceNM: 13.1
-  - FeederFix: ENAGA
-    RunwayIdentifier: 23R
-    ApproachType: B
-    Segments:
-    - Identifier: MX641
-      Track: 198.7
-      DistanceNM: 21.8
-    - Identifier: MX643
-      Track: 259.4
-      DistanceNM: 7
-    - Identifier: MX645
-      Track: 341.9
-      DistanceNM: 5.6
-    - Identifier: MX647
-      Track: 322.8
-      DistanceNM: 8.4
-    - Identifier: MX649
-      Track: 299.7
-      DistanceNM: 8.4
-    - Identifier: SESTA
-      Track: 197.9
-      DistanceNM: 21.1
-    - Identifier: ESTIN
-      Track: 239.4
-      DistanceNM: 4
-    - Identifier: 23R
-      Track: 240
-      DistanceNM: 13.6
   - FeederFix: LARLO
     RunwayIdentifier: 23L
     ApproachType: B
@@ -647,40 +442,6 @@ Airports:
     - Identifier: 23L
       Track: 239.3
       DistanceNM: 13.1
-  - FeederFix: LARLO
-    RunwayIdentifier: 23R
-    ApproachType: B
-    Segments:
-    - Identifier: PBC
-      Track: 355.4
-      DistanceNM: 26.7
-    - Identifier: MX665
-      Track: 351.5
-      DistanceNM: 15.9
-    - Identifier: MX666
-      Track: 351.4
-      DistanceNM: 6
-    - Identifier: MX667
-      Track: 351.4
-      DistanceNM: 5.2
-    - Identifier: MX669
-      Track: 345.7
-      DistanceNM: 8
-    - Identifier: MX671
-      Track: 322.8
-      DistanceNM: 8
-    - Identifier: MX602
-      Track: 299.7
-      DistanceNM: 8
-    - Identifier: SESTA
-      Track: 197.9
-      DistanceNM: 20.1
-    - Identifier: ESTIN
-      Track: 239.4
-      DistanceNM: 4
-    - Identifier: 23R
-      Track: 240
-      DistanceNM: 13.6
   DepartureAirports: []
   Views:
   - Identifier: ALL
@@ -714,7 +475,7 @@ Airports:
       - ESPOS
   - Identifier: RWY
     LabelLayout: TMA
-    TimeWindowMinutes: 45
+    TimeWindowMinutes: 30
     Reference: LandingTime
     Ladders:
     - Runways:
@@ -729,7 +490,7 @@ Airports:
   - Maestro delay times accurate.
   - General Holding.
   FlightCoordinationMessages:
-  - '{Callsign} MEDEVAC'
+  - '{Callsign} out of fuel'
   - '{Callsign} diverting'
   - '{Callsign} request high speed descent'
 - Identifier: MMUN
@@ -1586,16 +1347,38 @@ Airports:
     Reference: FeederFixTime
     Ladders:
     - FeederFixes:
-      - ILUBA
-      - PAULE
-      - SIGMA
-    - FeederFixes:
       - NOSAT
       - VOMAR
       - XUDUN
+    - FeederFixes:
+      - ILUBA
+      - PAULE
+      - SIGMA
+  - Identifier: NORTH
+    LabelLayout: Enroute
+    TimeWindowMinutes: 30
+    Reference: FeederFixTime
+    Ladders:
+    - FeederFixes:
+      - NOSAT
+    - FeederFixes:
+      - VOMAR
+    - FeederFixes:
+      - XUDUN
+  - Identifier: SOUTH
+    LabelLayout: Enroute
+    TimeWindowMinutes: 30
+    Reference: FeederFixTime
+    Ladders:
+    - FeederFixes:
+      - ILUBA
+    - FeederFixes:
+      - PAULE
+    - FeederFixes:
+      - SIGMA
   - Identifier: RWY
     LabelLayout: TMA
-    TimeWindowMinutes: 45
+    TimeWindowMinutes: 30
     Reference: LandingTime
     Ladders:
     - Runways:
@@ -1610,7 +1393,7 @@ Airports:
   - Maestro delay times accurate.
   - General Holding.
   FlightCoordinationMessages:
-  - '{Callsign} MEDEVAC'
+  - '{Callsign} out of fuel'
   - '{Callsign} diverting'
   - '{Callsign} request high speed descent'
 - Identifier: MMGL
@@ -1622,6 +1405,16 @@ Airports:
   - MUTEM
   - USBIM
   - VOLAT
+  Runways:
+  - 29L
+  - 29R
+  - 11L
+  - 11R
+  DefaultAircraftType: B738
+  DefaultPendingFlightState: Stable
+  DefaultDepartureFlightState: Unstable
+  DefaultDummyFlightState: Frozen
+  ManualInteractionState: Stable
   FlightCreationThresholdMinutes: 120
   MinimumUnstableMinutes: 5
   StabilityThresholdMinutes: 25
@@ -1630,7 +1423,17 @@ Airports:
   LandedFlightTimeoutMinutes: 5
   LostFlightTimeoutMinutes: 10
   AverageLandingSpeed: 155
-  UpperWindAltitude: 6000
+  UpperWindAltitude: 13000
+  DefaultTTGMinutes: 20
+  Colours:
+    FeederFixes:
+      AMULA: 96, 0, 0
+      IGSON: 0, 235, 235
+      KASUP: 0, 105, 0
+      MEZCA: 255, 255, 255
+      MUTEM: 235, 235, 0
+      USBIM: 255, 105, 180
+      VOLAT: 255, 255, 255
   RunwayModes:
   - Identifier: 11R
     Runways:
@@ -1640,56 +1443,8 @@ Airports:
     Runways:
     - Identifier: 29L
       LandingRateSeconds: 180
-  - Identifier: 11L/11R
-    Runways:
-    - Identifier: 11L
-      LandingRateSeconds: 180
-    - Identifier: 11R
-      LandingRateSeconds: 180
-    DependencyRateSeconds: 26
-  - Identifier: 29L/29R
-    Runways:
-    - Identifier: 29L
-      LandingRateSeconds: 180
-    - Identifier: 29R
-      LandingRateSeconds: 180
-    DependencyRateSeconds: 26
   Trajectories:
   - FeederFix: AMULA
-    RunwayIdentifier: 11L
-    ApproachType: A
-    Segments:
-    - Identifier: LONVA
-      Track: 163
-      DistanceNM: 19.9
-    - Identifier: GL573
-      Track: 180.3
-      DistanceNM: 10.8
-    - Identifier: GL550
-      Track: 180.3
-      DistanceNM: 5
-    - Identifier: GL551
-      Track: 265.6
-      DistanceNM: 12.4
-    - Identifier: GL552
-      Track: 235.4
-      DistanceNM: 12.4
-    - Identifier: GL553
-      Track: 205.3
-      DistanceNM: 12.5
-    - Identifier: GL554
-      Track: 175.5
-      DistanceNM: 12.5
-    - Identifier: GL555
-      Track: 145.6
-      DistanceNM: 12.5
-    - Identifier: OLAVA
-      Track: 40.3
-      DistanceNM: 24
-    - Identifier: 11L
-      Track: 113.7
-      DistanceNM: 20
-  - FeederFix: AMULA
     RunwayIdentifier: 11R
     ApproachType: A
     Segments:
@@ -1763,86 +1518,6 @@ Airports:
     - Identifier: 29L
       Track: 294.2
       DistanceNM: 17
-  - FeederFix: AMULA
-    RunwayIdentifier: 29R
-    ApproachType: B
-    Segments:
-    - Identifier: LONVA
-      Track: 163
-      DistanceNM: 19.9
-    - Identifier: GL820
-      Track: 119.8
-      DistanceNM: 21.5
-    - Identifier: GL821
-      Track: 119.7
-      DistanceNM: 5
-    - Identifier: GL822
-      Track: 135.6
-      DistanceNM: 18.5
-    - Identifier: VOLIN
-      Track: 135.7
-      DistanceNM: 4.6
-    - Identifier: GL824
-      Track: 135.7
-      DistanceNM: 9.6
-    - Identifier: GL825
-      Track: 143.3
-      DistanceNM: 12.4
-    - Identifier: GL826
-      Track: 173.2
-      DistanceNM: 12.5
-    - Identifier: GL827
-      Track: 203
-      DistanceNM: 12.5
-    - Identifier: GL828
-      Track: 233
-      DistanceNM: 12.4
-    - Identifier: PLADE
-      Track: 338.2
-      DistanceNM: 24.1
-    - Identifier: 29R
-      Track: 294.7
-      DistanceNM: 17.2
-  - FeederFix: IGSON
-    RunwayIdentifier: 11L
-    ApproachType: A
-    Segments:
-    - Identifier: ULUVO
-      Track: 289.6
-      DistanceNM: 8.7
-    - Identifier: GL530
-      Track: 289.5
-      DistanceNM: 10.5
-    - Identifier: GL531
-      Track: 290.5
-      DistanceNM: 29.5
-    - Identifier: BRUJA
-      Track: 269.3
-      DistanceNM: 26
-    - Identifier: GL560
-      Track: 301.3
-      DistanceNM: 23.3
-    - Identifier: GL561
-      Track: 325.7
-      DistanceNM: 12
-    - Identifier: GL562
-      Track: 355.5
-      DistanceNM: 12
-    - Identifier: GL563
-      Track: 25.3
-      DistanceNM: 11.9
-    - Identifier: GL564
-      Track: 55.3
-      DistanceNM: 11.9
-    - Identifier: GL565
-      Track: 85.6
-      DistanceNM: 11.9
-    - Identifier: OLAVA
-      Track: 190.6
-      DistanceNM: 23.1
-    - Identifier: 11L
-      Track: 113.7
-      DistanceNM: 20
   - FeederFix: IGSON
     RunwayIdentifier: 11R
     ApproachType: A
@@ -1911,65 +1586,6 @@ Airports:
     - Identifier: 29L
       Track: 294.2
       DistanceNM: 17
-  - FeederFix: IGSON
-    RunwayIdentifier: 29R
-    ApproachType: B
-    Segments:
-    - Identifier: ULUVO
-      Track: 289.6
-      DistanceNM: 8.7
-    - Identifier: GL530
-      Track: 289.5
-      DistanceNM: 10.5
-    - Identifier: GL802
-      Track: 333.1
-      DistanceNM: 10.4
-    - Identifier: GL803
-      Track: 23
-      DistanceNM: 11.9
-    - Identifier: GL804
-      Track: 353.2
-      DistanceNM: 12
-    - Identifier: GL805
-      Track: 323.3
-      DistanceNM: 11.9
-    - Identifier: PLADE
-      Track: 218
-      DistanceNM: 23
-    - Identifier: 29R
-      Track: 294.7
-      DistanceNM: 17.2
-  - FeederFix: KASUP
-    RunwayIdentifier: 11L
-    ApproachType: A
-    Segments:
-    - Identifier: LIPEP
-      Track: 95.3
-      DistanceNM: 10
-    - Identifier: GL572
-      Track: 95.3
-      DistanceNM: 5.5
-    - Identifier: GL575
-      Track: 40.5
-      DistanceNM: 5.3
-    - Identifier: GL562
-      Track: 40.5
-      DistanceNM: 5.3
-    - Identifier: GL563
-      Track: 25.3
-      DistanceNM: 11.9
-    - Identifier: GL564
-      Track: 55.3
-      DistanceNM: 11.9
-    - Identifier: GL565
-      Track: 85.6
-      DistanceNM: 11.9
-    - Identifier: OLAVA
-      Track: 190.6
-      DistanceNM: 23.1
-    - Identifier: 11L
-      Track: 113.7
-      DistanceNM: 20
   - FeederFix: KASUP
     RunwayIdentifier: 11R
     ApproachType: A
@@ -2032,77 +1648,6 @@ Airports:
     - Identifier: 29L
       Track: 294.2
       DistanceNM: 17
-  - FeederFix: KASUP
-    RunwayIdentifier: 29R
-    ApproachType: B
-    Segments:
-    - Identifier: LIPEP
-      Track: 95.3
-      DistanceNM: 10
-    - Identifier: OTETA
-      Track: 117.2
-      DistanceNM: 75.2
-    - Identifier: GL801
-      Track: 87.7
-      DistanceNM: 12.7
-    - Identifier: GL802
-      Track: 52.9
-      DistanceNM: 11.9
-    - Identifier: GL803
-      Track: 23
-      DistanceNM: 11.9
-    - Identifier: GL804
-      Track: 353.2
-      DistanceNM: 12
-    - Identifier: GL805
-      Track: 323.3
-      DistanceNM: 11.9
-    - Identifier: PLADE
-      Track: 218
-      DistanceNM: 23
-    - Identifier: 29R
-      Track: 294.7
-      DistanceNM: 17.2
-  - FeederFix: MEZCA
-    RunwayIdentifier: 11L
-    ApproachType: A
-    Segments:
-    - Identifier: LIVRI
-      Track: 218
-      DistanceNM: 10.3
-    - Identifier: IKBAN
-      Track: 218
-      DistanceNM: 4.9
-    - Identifier: ULOGA
-      Track: 243.1
-      DistanceNM: 12
-    - Identifier: GL513
-      Track: 278
-      DistanceNM: 20
-    - Identifier: GL550
-      Track: 266
-      DistanceNM: 12
-    - Identifier: GL551
-      Track: 265.6
-      DistanceNM: 12.4
-    - Identifier: GL552
-      Track: 235.4
-      DistanceNM: 12.4
-    - Identifier: GL553
-      Track: 205.3
-      DistanceNM: 12.5
-    - Identifier: GL554
-      Track: 175.5
-      DistanceNM: 12.5
-    - Identifier: GL555
-      Track: 145.6
-      DistanceNM: 12.5
-    - Identifier: OLAVA
-      Track: 40.3
-      DistanceNM: 24
-    - Identifier: 11L
-      Track: 113.7
-      DistanceNM: 20
   - FeederFix: MEZCA
     RunwayIdentifier: 11R
     ApproachType: A
@@ -2180,80 +1725,6 @@ Airports:
     - Identifier: 29L
       Track: 294.2
       DistanceNM: 17
-  - FeederFix: MEZCA
-    RunwayIdentifier: 29R
-    ApproachType: B
-    Segments:
-    - Identifier: LIVRI
-      Track: 218
-      DistanceNM: 10.3
-    - Identifier: IKBAN
-      Track: 218
-      DistanceNM: 4.9
-    - Identifier: GL840
-      Track: 172.2
-      DistanceNM: 8.6
-    - Identifier: UKOSI
-      Track: 171.5
-      DistanceNM: 7.6
-    - Identifier: GL824
-      Track: 171.5
-      DistanceNM: 8.3
-    - Identifier: GL825
-      Track: 143.3
-      DistanceNM: 12.4
-    - Identifier: GL826
-      Track: 173.2
-      DistanceNM: 12.5
-    - Identifier: GL827
-      Track: 203
-      DistanceNM: 12.5
-    - Identifier: GL828
-      Track: 233
-      DistanceNM: 12.4
-    - Identifier: PLADE
-      Track: 338.2
-      DistanceNM: 24.1
-    - Identifier: 29R
-      Track: 294.7
-      DistanceNM: 17.2
-  - FeederFix: MUTEM
-    RunwayIdentifier: 11L
-    ApproachType: A
-    Segments:
-    - Identifier: GL540
-      Track: 283.8
-      DistanceNM: 22.4
-    - Identifier: ULOGA
-      Track: 295.2
-      DistanceNM: 20.8
-    - Identifier: GL513
-      Track: 278
-      DistanceNM: 20
-    - Identifier: GL550
-      Track: 266
-      DistanceNM: 12
-    - Identifier: GL551
-      Track: 265.6
-      DistanceNM: 12.4
-    - Identifier: GL552
-      Track: 235.4
-      DistanceNM: 12.4
-    - Identifier: GL553
-      Track: 205.3
-      DistanceNM: 12.5
-    - Identifier: GL554
-      Track: 175.5
-      DistanceNM: 12.5
-    - Identifier: GL555
-      Track: 145.6
-      DistanceNM: 12.5
-    - Identifier: OLAVA
-      Track: 40.3
-      DistanceNM: 24
-    - Identifier: 11L
-      Track: 113.7
-      DistanceNM: 20
   - FeederFix: MUTEM
     RunwayIdentifier: 11R
     ApproachType: A
@@ -2313,59 +1784,6 @@ Airports:
     - Identifier: 29L
       Track: 294.2
       DistanceNM: 17
-  - FeederFix: MUTEM
-    RunwayIdentifier: 29R
-    ApproachType: B
-    Segments:
-    - Identifier: GL825
-      Track: 232.3
-      DistanceNM: 24
-    - Identifier: GL826
-      Track: 173.2
-      DistanceNM: 12.5
-    - Identifier: GL827
-      Track: 203
-      DistanceNM: 12.5
-    - Identifier: GL828
-      Track: 233
-      DistanceNM: 12.4
-    - Identifier: PLADE
-      Track: 338.2
-      DistanceNM: 24.1
-    - Identifier: 29R
-      Track: 294.7
-      DistanceNM: 17.2
-  - FeederFix: USBIM
-    RunwayIdentifier: 11L
-    ApproachType: C
-    Segments:
-    - Identifier: GL571
-      Track: 28.9
-      DistanceNM: 19.7
-    - Identifier: GL560
-      Track: 28.9
-      DistanceNM: 6
-    - Identifier: GL561
-      Track: 325.7
-      DistanceNM: 12
-    - Identifier: GL562
-      Track: 355.5
-      DistanceNM: 12
-    - Identifier: GL563
-      Track: 25.3
-      DistanceNM: 11.9
-    - Identifier: GL564
-      Track: 55.3
-      DistanceNM: 11.9
-    - Identifier: GL565
-      Track: 85.6
-      DistanceNM: 11.9
-    - Identifier: OLAVA
-      Track: 190.6
-      DistanceNM: 23.1
-    - Identifier: 11L
-      Track: 113.7
-      DistanceNM: 20
   - FeederFix: USBIM
     RunwayIdentifier: 11R
     ApproachType: C
@@ -2425,62 +1843,6 @@ Airports:
     - Identifier: 29L
       Track: 294.2
       DistanceNM: 17
-  - FeederFix: USBIM
-    RunwayIdentifier: 29R
-    ApproachType: D
-    Segments:
-    - Identifier: OTETA
-      Track: 87.7
-      DistanceNM: 59.2
-    - Identifier: GL801
-      Track: 87.7
-      DistanceNM: 12.7
-    - Identifier: GL802
-      Track: 52.9
-      DistanceNM: 11.9
-    - Identifier: GL803
-      Track: 23
-      DistanceNM: 11.9
-    - Identifier: GL804
-      Track: 353.2
-      DistanceNM: 12
-    - Identifier: GL805
-      Track: 323.3
-      DistanceNM: 11.9
-    - Identifier: PLADE
-      Track: 218
-      DistanceNM: 23
-    - Identifier: 29R
-      Track: 294.7
-      DistanceNM: 17.2
-  - FeederFix: VOLAT
-    RunwayIdentifier: 11L
-    ApproachType: A
-    Segments:
-    - Identifier: GL572
-      Track: 25.9
-      DistanceNM: 15.7
-    - Identifier: GL575
-      Track: 40.5
-      DistanceNM: 5.3
-    - Identifier: GL562
-      Track: 40.5
-      DistanceNM: 5.3
-    - Identifier: GL563
-      Track: 25.3
-      DistanceNM: 11.9
-    - Identifier: GL564
-      Track: 55.3
-      DistanceNM: 11.9
-    - Identifier: GL565
-      Track: 85.6
-      DistanceNM: 11.9
-    - Identifier: OLAVA
-      Track: 190.6
-      DistanceNM: 23.1
-    - Identifier: 11L
-      Track: 113.7
-      DistanceNM: 20
   - FeederFix: VOLAT
     RunwayIdentifier: 11R
     ApproachType: A
@@ -2537,34 +1899,6 @@ Airports:
     - Identifier: 29L
       Track: 294.2
       DistanceNM: 17
-  - FeederFix: VOLAT
-    RunwayIdentifier: 29R
-    ApproachType: B
-    Segments:
-    - Identifier: OTETA
-      Track: 106.2
-      DistanceNM: 71
-    - Identifier: GL801
-      Track: 87.7
-      DistanceNM: 12.7
-    - Identifier: GL802
-      Track: 52.9
-      DistanceNM: 11.9
-    - Identifier: GL803
-      Track: 23
-      DistanceNM: 11.9
-    - Identifier: GL804
-      Track: 353.2
-      DistanceNM: 12
-    - Identifier: GL805
-      Track: 323.3
-      DistanceNM: 11.9
-    - Identifier: PLADE
-      Track: 218
-      DistanceNM: 23
-    - Identifier: 29R
-      Track: 294.7
-      DistanceNM: 17.2
   DepartureAirports: []
   Views:
   - Identifier: ALL
@@ -2573,24 +1907,49 @@ Airports:
     Reference: FeederFixTime
     Ladders:
     - FeederFixes:
-      - ILUBA
-      - PAULE
-      - SIGMA
+      - AMULA
+      - MEZCA
+      - MUTEM
     - FeederFixes:
-      - NOSAT
-      - VOMAR
-      - XUDUN
+      - KASUP
+      - VOLAT
+      - USBIM
+      - IGSON
+  - Identifier: NORTH
+    LabelLayout: Enroute
+    TimeWindowMinutes: 30
+    Reference: FeederFixTime
+    Ladders:
+    - FeederFixes:
+      - AMULA
+    - FeederFixes:
+      - MEZCA    
+    - FeederFixes:
+      - MUTEM
+  - Identifier: SOUTH
+    LabelLayout: Enroute
+    TimeWindowMinutes: 30
+    Reference: FeederFixTime
+    Ladders:
+    - FeederFixes:
+      - KASUP
+    - FeederFixes:
+      - VOLAT
+    -FeederFixes:
+      -USBIM
+    -FeederFixes:
+      -IGSON
   - Identifier: RWY
     LabelLayout: TMA
-    TimeWindowMinutes: 45
+    TimeWindowMinutes: 30
     Reference: LandingTime
     Ladders:
     - Runways:
-      - 12L
-      - 30R
+      - 29L
+      - 11R
     - Runways:
-      - 12R
-      - 30L
+      - 29R
+      - 11L
 AircraftPerformance:
 - TypeCode: CONC
   DescentSpeedKnots: 261
