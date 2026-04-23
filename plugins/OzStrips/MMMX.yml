@@ -1,10 +1,11 @@
+- runway: "05L"
 - assign_dep_rwy: "true"
 
 # CFL
-- CFL: "160"
+- CFL: "290"
 - if:
-    jet: "true"
-  CFL: "290"
+    VFR: "true"
+  CFL: "095"
 
 
 # SIDs - MMMX (por waypoint, todas las pistas)
@@ -40,4 +41,4 @@
   SID: "TEVO2A"
 
 # Departure Frequencies - MMMX
-- departures: ["121.85", "121.0", "118.55", "121.2", "126.6"]
+- departures: ["121.85", "121.0", "118.7", "121.2", "126.6"]
