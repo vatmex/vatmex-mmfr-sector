@@ -39,11 +39,10 @@
     <LayoutDefinition Name="ACD+SMC">
       <Element Name="Preactive" Column="0"/>
       <Element Name="Cleared" Column="0"/>
-	    <Element Name="Monitor SMC" Column="0"/>
-	    <Element Name="Pushback" Column="1"/>
+	    <Element Name="Pushback" Column="0"/>
       <Element Name="Taxi" Column="1"/>
-      <Element Name="Holding Point" Column="2"/>
-      <Element Name="Runway" Column="2"/>
+      <Element Name="Holding Point" Column="1"/>
+      <Element Name="Runway" Column="1"/>
     </LayoutDefinition>
     <LayoutDefinition Name="SMC">
       <Element Name="Cleared" Column="0"/>
@@ -196,30 +195,17 @@
   </BayTypes>
   <AerodromeLists>
     <AerodromeList Type="D">
-      <Aerodrome>YBAF</Aerodrome>
-      <Aerodrome>YMAV</Aerodrome>
-      <Aerodrome>YSBK</Aerodrome>
-      <Aerodrome>YSCN</Aerodrome>
-      <Aerodrome>YMHB</Aerodrome>
-      <Aerodrome>YPJT</Aerodrome>
-      <Aerodrome>YMLT</Aerodrome>
-      <Aerodrome>YBMK</Aerodrome>
-      <Aerodrome>YPPF</Aerodrome>
-      <Aerodrome>YBRK</Aerodrome>
-      <Aerodrome>YMMB</Aerodrome>
+		  <Aerodrome>MMMX</Aerodrome>
+		  <Aerodrome>MMUN</Aerodrome>
+		  <Aerodrome>MMMY</Aerodrome>
+		  <Aerodrome>MMSD</Aerodrome>
+		  <Aerodrome>MMGL</Aerodrome>
+		  <Aerodrome>MMTJ</Aerodrome>
     </AerodromeList>
     <AerodromeList Type="Proc">
-      <Aerodrome>YMAY</Aerodrome>
-      <Aerodrome>YBAS</Aerodrome>
-      <Aerodrome>YBRM</Aerodrome>
-      <Aerodrome>YCFS</Aerodrome>
-      <Aerodrome>YBHM</Aerodrome>
-      <Aerodrome>YPKA</Aerodrome>
-      <Aerodrome>YBSU</Aerodrome>
-      <Aerodrome>YSTW</Aerodrome>
-      <Aerodrome>YPWR</Aerodrome>
+      <Aerodrome>MMDO</Aerodrome>
     </AerodromeList>
   </AerodromeLists>
-  <PDCFormat>ACARS BEGIN ACCEPTED {ETD} {ADEP} PDC 483 {CALLSIGN} CLRD TO {ADES} OFF {RWY} VIA {SID} {ROUTE} CLIMB VIA SID TO {CFL_FL} FLIGHT LEVEL F{RFL_FL} SQUAWK {SQUAWK} NEXT FREQ {FREQ} ACARS END</PDCFormat>
+  <PDCFormat>ACARS BEGIN ACCEPTED {ETD} {ADEP} PDC 483 {CALLSIGN} CLRD TO {ADES} OFF {RWY} VIA {SID} {ROUTE} CLIMB VIA SID TO {CFL_FL} FLIGHT LEVEL F{RFL_FL} SQUAWK {SQUAWK} DEP FREQ {FREQ} ACARS END</PDCFormat>
   <AerodromeAutoFillLocation></AerodromeAutoFillLocation>
 </AerodromeSettings>

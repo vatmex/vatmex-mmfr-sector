@@ -1,6 +1,6 @@
 <StripElementList>
   <!-- ROW 0 -->
-  <StripElement>
+  <StripElement cockable="true" crossable="true">
     <X>1</X>
     <Y>0</Y>
     <W>109</W>
@@ -23,7 +23,6 @@
     <W>50</W>
     <H>22</H>
     <Value>RFL</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
     <BorderColour>#00000000</BorderColour>
     <FontSize>14</FontSize>
   </StripElement>
@@ -51,7 +50,7 @@
     <BorderColour>#00000000</BorderColour>
     <FontSize>14</FontSize>
   </StripElement>
-  <StripElement cockable="true" crossable="true">
+  <StripElement cockable="true">
     <X>223</X>
     <Y>13</Y>
     <W>117</W>
@@ -172,7 +171,6 @@
     <W>45</W>
     <H>20</H>
     <Value>TYPE</Value>
-    <LeftClick>OPEN_FDR</LeftClick>
     <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
@@ -184,13 +182,24 @@
     <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
-    <X>105</X>
-    <Y>40</Y>
-    <W>60</W>
-    <H>20</H>
-    <Value>ADES</Value>
+    <X>106</X>
+    <Y>39</Y>
+    <W>59</W>
+    <H>21</H>
+    <Value>ADEP</Value>
     <BorderColour>#00000000</BorderColour>
+    <LeftClick>OPEN_FDR</LeftClick>
     <FontSize>12</FontSize>
+  </StripElement>
+  <StripElement>
+    <X>222</X>
+    <Y>41</Y>
+    <W>15</W>
+    <H>19</H>
+    <Value>DEP_CHANGED</Value>
+    <LeftClick>INHIBIT_DEPCHANGED</LeftClick>
+    <RightClick>OPEN_CDM</RightClick>
+    <BorderColour>#00000000</BorderColour>
   </StripElement>
   <StripElement>
     <X>161</X>
