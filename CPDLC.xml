@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Messages>
     <Category name="QUICK_OPTIONS">
-        <Message Response="WU">CONTACT [UNIT] [FREQUENCY] GOOD FLIGHT</Message>
-        <Message Response="WU">RADAR CONTACT DESCEND VIA [STAR] TO [LEVEL] QNH [QNH] EXPECT [TEXT]</Message>
+        <Message Response="WU">HELLO SQUAWK [SSR] IDENT</Message>
+        <Message Response="WU">RADAR CONTACT</Message>
+        <Message Response="WU">CLEARED DIRECT TO [POSITION]</Message>
+        <Message Response="WU">DESCEND VIA [STAR] TO [LEVEL] QNH [QNH] EXPECT [TEXT]</Message>
+        <Message Response="WU">RADAR SERVICES TERMINATED CONTACT [UNIT] [FREQUENCY]</Message>
+        <Message Response="WU">CONTACT [UNIT] [FREQUENCY] GOOD DAY</Message>
         <Message Response="WU">CLEARED [TEXT] APPROACH</Message>
-        <Message Response="WU">[TEXT] RADAR SERVICES TERMINATED CONTACT [UNIT] [FREQUENCY]</Message>
         <Message Response="WU">RADAR CONTACT CLIMB VIA [SID] TO [LEVEL]</Message>
-        <Message Response="WU">CLIMB TO AND MAINTAIN [LEVEL]</Message>
-        <Message Response="WU">DESCEND TO AND MAINTAIN [LEVEL]</Message>
+        <Message Response="WU">CLIMB TO [LEVEL]</Message>
+        <Message Response="WU">DESCEND TO [LEVEL] QNH [QNH]</Message>
         <Message Response="WU">TURN [DIRECTION] HEADING [DEGREES]</Message>
         <Message Response="WU">MAINTAIN [SPEED] OR GREATER</Message>
         <Message Response="WU">MAINTAIN [SPEED] OR LESS</Message>
-        <Message Response="WU">CLEARED DIRECT TO [POSITION]</Message>
-        <Message Response="WU">MAINTAIN OWN SEPARATION AND VMC</Message>
-        <Message Response="WU">SQUAWK [SSR] IDENT</Message>
         <Message Response="WU">RESUME NORMAL SPEED</Message>
+        <Message Response="WU">MAINTAIN OWN SEPARATION AND VMC</Message>
         <Message Response="NE">UNABLE</Message>
         <Message Response="NE">ROGER</Message>
         <Message Response="NE">AFFIRM</Message>
@@ -33,15 +34,15 @@
         
     <Category name="TWR">
         <Message Response="WU">REDUCE MINIMUM APPROACH SPEED</Message>
-        <Message Response="WU">RUNWAY [RWY] CONTINUE APPROACH</Message>
+        <Message Response="WU">RUNWAY [RWY] QNH [QNH] CONTINUE APPROACH</Message>
         <Message Response="WU">RUNWAY [RWY] WINDS [TEXT] QNH [QNH]</Message>
         <Message Response="WU">CLEARED TO LAND</Message>
         <Message Response="WU">GO AROUND TURN [DIRECTION] [DEGREES] DEGREES</Message>
         <Message Response="WU">READY FOR IMMEDIATE DEPARTURE?</Message>
         <Message Response="WU">RUNWAY [RWY] LINE UP AND WAIT</Message>
-        <Message Response="WU">CLEARED FOR TAKEOFF</Message>
-        <Message Response="WU">CONTACT [UNIT] [FREQUENCY] WHEN AIRBORNE</Message>
-        <Message Response="WU">EXIT VIA [DIRECTION] ON [TEXT] HOLD SHORT [TEXT]</Message>
+        <Message Response="WU">CLEARED TO TAKEOFF</Message>
+        <Message Response="WU">WHEN AIRBORNE CONTACT [UNIT] [FREQUENCY]</Message>
+        <Message Response="WU">TURN [DIRECTION] ON [TEXT] HOLD SHORT [TEXT]</Message>
         <Message Response="WU">CONTACT [UNIT] [FREQUENCY] GOOD DAY</Message>
         <Message Response="WU">HOLD POSITION</Message>
     </Category>

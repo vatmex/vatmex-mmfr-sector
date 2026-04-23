@@ -1,10 +1,11 @@
+- runway: "27"
 - assign_dep_rwy: "true"
 
 # CFL
 - CFL: "200"
 - if:
     VFR: "true"
-  CFL: "050"
+  CFL: "020"
 
 # =========================================
 # CONVENTIONAL (no RNAV conversion)
@@ -77,4 +78,4 @@
   SID: "KREP1B"
 
 # Departure Frequencies
-- departures: ["118.1", "120.3", "128.3", "128.0"]
+- departures: ["118.1", "120.3", "128.0"]
