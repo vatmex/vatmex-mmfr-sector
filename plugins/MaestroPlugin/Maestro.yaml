@@ -115,12 +115,12 @@ Labels:
       Width: 3
       Padding: 1
       ColourSources:
-      - ControlAction
+      - RequiredControlAction
     - Type: RemainingDelay
       Width: 3
       Padding: 0
       ColourSources:
-      - ControlAction
+      - RemainingControlAction
   - Identifier: TMA
     Items:
     - Type: FeederFixTime
@@ -159,7 +159,7 @@ Labels:
       Width: 3
       Padding: 0
       ColourSources:
-      - ControlAction
+      - RemainingControlAction
 Airports:
 - Identifier: MMMX
   FeederFixes:
@@ -186,7 +186,7 @@ Airports:
   LostFlightTimeoutMinutes: 10
   AverageLandingSpeed: 160
   UpperWindAltitude: 15000
-  DefaultTTGMinutes: 20
+  DefaultTimeToGoMinutes: 20
   Colours:
     FeederFixes:
       DARAN: 96, 0, 0
@@ -202,7 +202,7 @@ Airports:
     Runways:
     - Identifier: 23L
       LandingRateSeconds: 180
-  Trajectories:
+  TerminalTrajectories:
   - FeederFix: DARAN
     RunwayIdentifier: 05R
     ApproachType: A
@@ -520,7 +520,7 @@ Airports:
   LostFlightTimeoutMinutes: 10
   AverageLandingSpeed: 150
   UpperWindAltitude: 6000
-  DefaultTTGMinutes: 20
+  DefaultTimeToGoMinutes: 20
   Colours:
     FeederFixes:
       ILUBA: 96, 0, 0
@@ -552,7 +552,7 @@ Airports:
       LandingRateSeconds: 180
     - Identifier: 30R
       LandingRateSeconds: 180
-  Trajectories:
+  TerminalTrajectories:
   - FeederFix: ILUBA
     RunwayIdentifier: 12R
     ApproachType: E
@@ -1424,7 +1424,7 @@ Airports:
   LostFlightTimeoutMinutes: 10
   AverageLandingSpeed: 155
   UpperWindAltitude: 13000
-  DefaultTTGMinutes: 20
+  DefaultTimeToGoMinutes: 20
   Colours:
     FeederFixes:
       AMULA: 96, 0, 0
@@ -1443,7 +1443,7 @@ Airports:
     Runways:
     - Identifier: 29L
       LandingRateSeconds: 180
-  Trajectories:
+  TerminalTrajectories:
   - FeederFix: AMULA
     RunwayIdentifier: 11R
     ApproachType: A
