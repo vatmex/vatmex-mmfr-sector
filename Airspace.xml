@@ -673,6 +673,7 @@
                 <SID Name="ANIL1D" />
                 <SID Name="JAST1C" />
                 <SID Name="KARIR1" />
+                <SID Name="NAGIV1" />
                 <SID Name="TIDI1C" />
                 <SID Name="UKIR1C" />
                 <SID Name="URVEM3" />
@@ -7504,6 +7505,9 @@
         </SID>
         <SID Name="KARIR1" Airport="MMLO" Runways="13">
             <Route Runway="13">LO900 LO901 LO903 LO904 KARIR</Route>
+        </SID>
+        <SID Name="NAGIV1" Airport="MMLO" Runways="13">
+            <Route Runway="13">BJX NAGIV</Route>
         </SID>
         <SID Name="MANTA3" Airport="MMLO" Runways="31">
             <Route Runway="31">MANTA</Route>
