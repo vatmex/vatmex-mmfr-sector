@@ -4723,7 +4723,6 @@
         <Point Name="LO425" Type="Fix">+205242.600-1013202.500</Point>
         <Point Name="LO500" Type="Fix">+205518.400-1012409.300</Point>
         <Point Name="LO501" Type="Fix">+205148.500-1012019.600</Point>
-        <Point Name="LO502" Type="Fix">+204646.000-1012531.900</Point>
         <Point Name="LO505" Type="Fix">+210119.000-1013044.600</Point>
         <Point Name="LO701" Type="Fix">+210303.300-1013239.000</Point>
         <Point Name="LO702" Type="Fix">+210548.100-1011820.200</Point>
@@ -7549,19 +7548,19 @@
             <Route Runway="31">LIBOL LO810 LO802 LO801 VIRVO</Route>
         </STAR>
         <STAR Name="MEDA1A" Airport="MMLO" Runways="13">
-            <Route Runway="13">MEDAB LO502 LO425 RIGEP</Route>
+            <Route Runway="13">MEDAB ULUMU LO425 RIGEP</Route>
         </STAR>
         <STAR Name="MEDA1B" Airport="MMLO" Runways="31">
             <Route Runway="31">MEDAB XESIN</Route>
         </STAR>
         <STAR Name="NAGI1A" Airport="MMLO" Runways="13">
-            <Route Runway="13">NAGIV TOXOS LO502 LO425 RIGEP</Route>
+            <Route Runway="13">NAGIV TOXOS ULUMU LO425 RIGEP</Route>
         </STAR>
         <STAR Name="NAGI1B" Airport="MMLO" Runways="31">
             <Route Runway="31">NAGIV XESIN</Route>
         </STAR>
         <STAR Name="OMIN1C" Airport="MMLO" Runways="13">
-            <Route Runway="13">OMINA LO502 LO425 RIGEP</Route>
+            <Route Runway="13">OMINA ULUMU LO425 RIGEP</Route>
         </STAR>
         <STAR Name="OMIN1D" Airport="MMLO" Runways="31">
             <Route Runway="31">OMINA AVREN XESIN</Route>
