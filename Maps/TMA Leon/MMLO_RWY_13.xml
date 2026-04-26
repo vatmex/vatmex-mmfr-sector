@@ -5,13 +5,13 @@
             LIBOL/LO422/LO421/ODGAR
         </Line>
         <Line Name="MEDAB1A" Pattern="Dashed">
-            MEDAB/LO502/LO425/RIGEP
+            MEDAB/ULUMU/LO425/RIGEP
         </Line>
         <Line Name="NAGIV1A" Pattern="Dashed">
-            NAGIV/TOXOS/LO502
+            NAGIV/TOXOS/ULUMU
         </Line>
         <Line Name="OMINA1C" Pattern="Dashed">
-            OMINA/LO502
+            OMINA/ULUMU
         </Line>
         <Line Name="JASTO1E" Pattern="Dashed">
             JASTO/LO424/LO423/RIGEP
@@ -35,12 +35,13 @@
             <Point>LO423</Point>
             <Point>LO424</Point>
             <Point>LO425</Point>
-            <Point>LO502</Point>
+            <Point>ULUMU</Point>
             <Point>MEDAB</Point>
             <Point>NAGIV</Point>
             <Point>ODGAR</Point>
             <Point>OMINA</Point>
             <Point>RIGEP</Point>
+            <Point>ULUMU</Point>
             <Point>SETOS</Point>
             <Point>TOXOS</Point>
         </Symbol>
@@ -55,6 +56,7 @@
             <Point>JASTO</Point>
             <Point>ODGAR</Point>
             <Point>RIGEP</Point>
+            <Point>ULUMU</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMLO - Pista 13 - RNP 13" Priority="1" Center="+203124.320-1031841.798">
@@ -154,6 +156,7 @@
         </Line>
         <Symbol Type="HollowStar">
             <Point>RIGEP</Point>
+            <Point>ULUMU</Point>
             <Point>ODGAR</Point>
             <Point>LO401</Point>
             <Point>LO400</Point>
@@ -208,6 +211,9 @@ AVRIK</Line>
 +205056.873-1012022.074/
 +204300.140-1012229.265/
 URVEM</Line>
+    <Line Name="NAGIV1" Pattern="Dotted">
++205056.873-1012022.074/
+NAGIV</Line>
         <Symbol Type="HollowSquare">
             <Point>BJX</Point>
         </Symbol>
