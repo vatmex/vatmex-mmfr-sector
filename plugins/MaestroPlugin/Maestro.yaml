@@ -2374,6 +2374,91 @@ Airports:
     - Runways:
       - 29R
       - 11L
+- Identifier: MMAA
+  FeederFixes:
+  - ANVAN
+  - AVURO
+  - ANALU
+  Runways:
+  - '28'
+  Colours:
+    FeederFixes:
+      ANVAN: 0, 200, 255
+      AVURO: 255, 200, 0
+      ANALU: 0, 255, 100
+  FlightCreationThresholdMinutes: 120
+  MinimumUnstableMinutes: 5
+  StabilityThresholdMinutes: 25
+  FrozenThresholdMinutes: 12
+  MaxLandedFlights: 5
+  LandedFlightTimeoutMinutes: 5
+  LostFlightTimeoutMinutes: 10
+  AverageLandingSpeed: 150
+  UpperWindAltitude: 6000
+  DefaultTimeToGoMinutes: 20
+  RunwayModes:
+  - Identifier: '28'
+    Runways:
+    - Identifier: '28'
+      LandingRateSeconds: 180
+  TerminalTrajectories:
+  - FeederFix: ANALU
+    RunwayIdentifier: '28'
+    ApproachType: B
+    Segments:
+    - Identifier: AA507
+      Track: 197.2
+      DistanceNM: 20.8
+    - Identifier: AA506
+      Track: 197.2
+      DistanceNM: 12.5
+    - Identifier: ITRAM
+      Track: 197.2
+      DistanceNM: 11
+    - Identifier: '28'
+      Track: 258.6
+      DistanceNM: 10.2
+  - FeederFix: ANVAN
+    RunwayIdentifier: '28'
+    ApproachType: B
+    Segments:
+    - Identifier: AA518
+      Track: 289
+      DistanceNM: 21.4
+    - Identifier: AVRIM
+      Track: 288.9
+      DistanceNM: 13.5
+    - Identifier: '28'
+      Track: 288.2
+      DistanceNM: 13.9
+  - FeederFix: AVURO
+    RunwayIdentifier: '28'
+    ApproachType: B
+    Segments:
+    - Identifier: AA409
+      Track: 117.1
+      DistanceNM: 30.5
+    - Identifier: AA505
+      Track: 108
+      DistanceNM: 25.3
+    - Identifier: ITRAM
+      Track: 108.1
+      DistanceNM: 15
+    - Identifier: '28'
+      Track: 258.6
+      DistanceNM: 10.2
+  DepartureAirports: []
+  Views:
+  - Identifier: ALL
+    LabelLayout: Enroute
+    TimeWindowMinutes: 30
+    FeederFixes: []
+    Runways: []
+  - Identifier: RWY
+    LabelLayout: TMA
+    TimeWindowMinutes: 20
+    FeederFixes: []
+    Runways: []
 AircraftPerformance:
 - TypeCode: CONC
   DescentSpeedKnots: 261
