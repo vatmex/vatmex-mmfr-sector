@@ -2452,13 +2452,15 @@ Airports:
   - Identifier: ALL
     LabelLayout: Enroute
     TimeWindowMinutes: 30
-    FeederFixes: []
-    Runways: []
+    Reference: FeederFixTime
+    Ladders:
+    - {}
   - Identifier: RWY
     LabelLayout: TMA
     TimeWindowMinutes: 20
-    FeederFixes: []
-    Runways: []
+    Reference: LandingTime
+    Ladders:
+    - {}
 AircraftPerformance:
 - TypeCode: CONC
   DescentSpeedKnots: 261
