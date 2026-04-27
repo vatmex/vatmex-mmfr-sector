@@ -228,6 +228,9 @@
 
     <!--Centro de Control Mexico-->
     <!--MMAA TMA-->
+    <Sector FullName="Plataforma Acapulco" Frequency="122.300" Callsign="MMAA_RMP" Name="ACCCO" DisplayInHandoffWindow="False">
+        <Volumes>MMAA_CTR</Volumes>
+    </Sector>
     <Sector FullName="Autorizacion Acapulco" Frequency="123.900" Callsign="MMAA_DEL" Name="ACCDL" DisplayInHandoffWindow="False">
         <Volumes>MMAA_CTR</Volumes>
     </Sector>
