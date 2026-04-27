@@ -660,6 +660,13 @@
                 <Map Name="TMA Cabos/MMSD - Pista 34 - RNP 34" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
+
+                <Map Name="TMA Cabos/ASMGCS_MMSD_RWY" />
+                <Map Name="TMA Cabos/ASMGCS_MMSD_TWY" />
+                <Map Name="TMA Cabos/ASMGCS_MMSD_APR" />
+                <Map Name="TMA Cabos/ASMGCS_MMSD_BLD" />
+                <Map Name="TMA Cabos/ASMGCS_MMSD_LABELS" />
+                <Map Name="TMA Cabos/ASMGCS_MMSD_GATES" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
@@ -2368,6 +2375,44 @@
         </Position>
 
         <!-- TMA Acapulco -->
+        <Position Name="Plataforma Acapulco - ACCCO" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="50" MagneticVariation="-5">
+            <Sectors>
+                <Sector Name="ACCCO" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Acapulco/Aeropuerto - Pistas" />
+                <Map Name="TMA Acapulco/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Acapulco/Aeropuerto - Zona de Control (CTR)" />
+
+                <Map Name="TMA Acapulco/Pista 28 - ILS X" />
+
+                <Map Name="ACC Mexico/Limites - Sectores" />
+
+                <Map Name="Universal/Geografia - Linea de Costa" />
+
+                <Map Name="TMA Acapulco/ASMGCS_MMAA_RWY" />
+                <Map Name="TMA Acapulco/ASMGCS_MMAA_APR" />
+                <Map Name="TMA Acapulco/ASMGCS_MMAA_TWY" />
+                <Map Name="TMA Acapulco/ASMGCS_MMAA_BLD" />
+                <Map Name="TMA Acapulco/ASMGCS_MMAA_LABELS" />
+                <Map Name="TMA Acapulco/ASMGCS_MMAA_GATES" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMAA" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <ArrivalLists>
+                <Airport Name="MMAA" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Plataforma Acapulco / Acapulco Apron</Line>
+                <Line>Serving MMAA arrivals and departures</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+164530.500-0994514.270</Point>
+            </ManualVisibility>
+        </Position>
         <Position Name="Torre Acapulco - ACTW1" Type="ASD" DefaultCenter="+164530.500-0994514.270" DefaultRange="75" MagneticVariation="-5">
             <Sectors>
                 <Sector Name="ACTW1" />
@@ -2507,6 +2552,13 @@
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
+
+                <Map Name="TMA Guadalajara/ASMGCS_MMGL_RWY" />
+                <Map Name="TMA Guadalajara/ASMGCS_MMGL_APR" />
+                <Map Name="TMA Guadalajara/ASMGCS_MMGL_TWY" />
+                <Map Name="TMA Guadalajara/ASMGCS_MMGL_BLD" />
+                <Map Name="TMA Guadalajara/ASMGCS_MMGL_LABELS" />
+                <Map Name="TMA Guadalajara/ASMGCS_MMGL_GATES" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
