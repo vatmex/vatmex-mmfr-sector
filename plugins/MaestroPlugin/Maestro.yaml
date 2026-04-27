@@ -186,7 +186,7 @@ Airports:
   LostFlightTimeoutMinutes: 10
   AverageLandingSpeed: 160
   UpperWindAltitude: 15000
-  DefaultTTGMinutes: 20
+  DefaultTimeToGoMinutes: 20
   Colours:
     FeederFixes:
       DARAN: 96, 0, 0
@@ -202,7 +202,7 @@ Airports:
     Runways:
     - Identifier: 23L
       LandingRateSeconds: 180
-  Trajectories:
+  TerminalTrajectories:
   - FeederFix: DARAN
     RunwayIdentifier: 05R
     ApproachType: A
@@ -520,7 +520,7 @@ Airports:
   LostFlightTimeoutMinutes: 10
   AverageLandingSpeed: 150
   UpperWindAltitude: 6000
-  DefaultTTGMinutes: 20
+  DefaultTimeToGoMinutes: 20
   Colours:
     FeederFixes:
       ILUBA: 96, 0, 0
@@ -552,10 +552,9 @@ Airports:
       LandingRateSeconds: 180
     - Identifier: 30R
       LandingRateSeconds: 180
-  Trajectories:
+  TerminalTrajectories:
   - FeederFix: ILUBA
     RunwayIdentifier: 12R
-    ApproachType: E
     Segments:
     - Identifier: URVEN
       Track: 289.7
@@ -586,7 +585,6 @@ Airports:
       DistanceNM: 18.7
   - FeederFix: ILUBA
     RunwayIdentifier: 12L
-    ApproachType: F
     Segments:
     - Identifier: URVEN
       Track: 289.7
@@ -617,7 +615,6 @@ Airports:
       DistanceNM: 19.1
   - FeederFix: ILUBA
     RunwayIdentifier: 30L
-    ApproachType: G
     Segments:
     - Identifier: ALRIP
       Track: 284.6
@@ -633,7 +630,6 @@ Airports:
       DistanceNM: 32.9
   - FeederFix: ILUBA
     RunwayIdentifier: 30R
-    ApproachType: G
     Segments:
     - Identifier: ALRIP
       Track: 284.6
@@ -649,7 +645,6 @@ Airports:
       DistanceNM: 33.3
   - FeederFix: NOSAT
     RunwayIdentifier: 12L
-    ApproachType: B
     Segments:
     - Identifier: HACHO
       Track: 221.2
@@ -677,7 +672,6 @@ Airports:
       DistanceNM: 18.9
   - FeederFix: NOSAT
     RunwayIdentifier: 12R
-    ApproachType: B
     Segments:
     - Identifier: HACHO
       Track: 221.2
@@ -705,7 +699,6 @@ Airports:
       DistanceNM: 19
   - FeederFix: NOSAT
     RunwayIdentifier: 30L
-    ApproachType: D
     Segments:
     - Identifier: HACHO
       Track: 221.2
@@ -727,7 +720,6 @@ Airports:
       DistanceNM: 20.4
   - FeederFix: NOSAT
     RunwayIdentifier: 30R
-    ApproachType: D
     Segments:
     - Identifier: HACHO
       Track: 221.2
@@ -749,7 +741,6 @@ Airports:
       DistanceNM: 20.4
   - FeederFix: PAULE
     RunwayIdentifier: 12R
-    ApproachType: G
     Segments:
     - Identifier: UN530
       Track: 53.7
@@ -780,7 +771,6 @@ Airports:
       DistanceNM: 18.7
   - FeederFix: PAULE
     RunwayIdentifier: 12L
-    ApproachType: H
     Segments:
     - Identifier: UN530
       Track: 53.7
@@ -811,7 +801,6 @@ Airports:
       DistanceNM: 19.1
   - FeederFix: PAULE
     RunwayIdentifier: 30L
-    ApproachType: K
     Segments:
     - Identifier: UN640
       Track: 55.6
@@ -830,7 +819,6 @@ Airports:
       DistanceNM: 32.9
   - FeederFix: PAULE
     RunwayIdentifier: 30R
-    ApproachType: K
     Segments:
     - Identifier: UN640
       Track: 55.6
@@ -849,7 +837,6 @@ Airports:
       DistanceNM: 33.3
   - FeederFix: SIGMA
     RunwayIdentifier: 12R
-    ApproachType: G
     Segments:
     - Identifier: OVGED
       Track: 345.5
@@ -883,7 +870,6 @@ Airports:
       DistanceNM: 18.7
   - FeederFix: SIGMA
     RunwayIdentifier: 12L
-    ApproachType: H
     Segments:
     - Identifier: OVGED
       Track: 345.5
@@ -917,7 +903,6 @@ Airports:
       DistanceNM: 19.1
   - FeederFix: SIGMA
     RunwayIdentifier: 30L
-    ApproachType: J
     Segments:
     - Identifier: BALCH
       Track: 356.6
@@ -939,7 +924,6 @@ Airports:
       DistanceNM: 32.9
   - FeederFix: SIGMA
     RunwayIdentifier: 30R
-    ApproachType: J
     Segments:
     - Identifier: BALCH
       Track: 356.6
@@ -961,7 +945,6 @@ Airports:
       DistanceNM: 33.3
   - FeederFix: VOMAR
     RunwayIdentifier: 12L
-    ApproachType: A
     Segments:
     - Identifier: AGNIX
       Track: 137.5
@@ -980,7 +963,6 @@ Airports:
       DistanceNM: 22.7
   - FeederFix: VOMAR
     RunwayIdentifier: 12R
-    ApproachType: A
     Segments:
     - Identifier: AGNIX
       Track: 137.5
@@ -999,7 +981,6 @@ Airports:
       DistanceNM: 22.6
   - FeederFix: VOMAR
     RunwayIdentifier: 30L
-    ApproachType: C
     Segments:
     - Identifier: AGNIX
       Track: 137.5
@@ -1027,7 +1008,6 @@ Airports:
       DistanceNM: 20.4
   - FeederFix: VOMAR
     RunwayIdentifier: 30R
-    ApproachType: C
     Segments:
     - Identifier: AGNIX
       Track: 137.5
@@ -1055,7 +1035,6 @@ Airports:
       DistanceNM: 20.4
   - FeederFix: XUDUN
     RunwayIdentifier: 12L
-    ApproachType: A
     Segments:
     - Identifier: BEPOR
       Track: 102.7
@@ -1074,7 +1053,6 @@ Airports:
       DistanceNM: 22.7
   - FeederFix: XUDUN
     RunwayIdentifier: 12R
-    ApproachType: A
     Segments:
     - Identifier: BEPOR
       Track: 102.7
@@ -1093,7 +1071,6 @@ Airports:
       DistanceNM: 22.5
   - FeederFix: XUDUN
     RunwayIdentifier: 30L
-    ApproachType: D
     Segments:
     - Identifier: BEPOR
       Track: 102.7
@@ -1121,7 +1098,6 @@ Airports:
       DistanceNM: 20.3
   - FeederFix: XUDUN
     RunwayIdentifier: 30R
-    ApproachType: E
     Segments:
     - Identifier: BEPOR
       Track: 102.7
@@ -1147,198 +1123,6 @@ Airports:
     - Identifier: 30R
       Track: 320.9
       DistanceNM: 20.7
-  - FeederFix: ILUBA
-    RunwayIdentifier: 12L
-    ApproachType: E
-    Segments:
-    - Identifier: URVEN
-      Track: 289.7
-      DistanceNM: 41.1
-    - Identifier: SEDAS
-      Track: 289.4
-      DistanceNM: 13.4
-    - Identifier: UN523
-      Track: 289.3
-      DistanceNM: 23.7
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.7
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.8
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.4
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.8
-    - Identifier: 12L
-      Track: 105.3
-      DistanceNM: 19.1
-  - FeederFix: ILUBA
-    RunwayIdentifier: 12R
-    ApproachType: F
-    Segments:
-    - Identifier: URVEN
-      Track: 289.7
-      DistanceNM: 41.1
-    - Identifier: SEDAS
-      Track: 289.4
-      DistanceNM: 13.4
-    - Identifier: UN523
-      Track: 289.3
-      DistanceNM: 23.7
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.7
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.8
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.4
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.8
-    - Identifier: 12R
-      Track: 107.4
-      DistanceNM: 18.7
-  - FeederFix: PAULE
-    RunwayIdentifier: 12L
-    ApproachType: G
-    Segments:
-    - Identifier: UN530
-      Track: 53.7
-      DistanceNM: 40.9
-    - Identifier: HURIN
-      Track: 53.6
-      DistanceNM: 16.8
-    - Identifier: UN523
-      Track: 345
-      DistanceNM: 14.8
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.7
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.8
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.4
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.8
-    - Identifier: 12L
-      Track: 105.3
-      DistanceNM: 19.1
-  - FeederFix: PAULE
-    RunwayIdentifier: 12R
-    ApproachType: H
-    Segments:
-    - Identifier: UN530
-      Track: 53.7
-      DistanceNM: 40.9
-    - Identifier: HURIN
-      Track: 53.6
-      DistanceNM: 16.8
-    - Identifier: UN523
-      Track: 345
-      DistanceNM: 14.8
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.7
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.8
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.4
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.8
-    - Identifier: 12R
-      Track: 107.4
-      DistanceNM: 18.7
-  - FeederFix: SIGMA
-    RunwayIdentifier: 12L
-    ApproachType: G
-    Segments:
-    - Identifier: OVGED
-      Track: 345.5
-      DistanceNM: 12.1
-    - Identifier: ILONI
-      Track: 344.9
-      DistanceNM: 17.8
-    - Identifier: HURIN
-      Track: 345.1
-      DistanceNM: 17.8
-    - Identifier: UN523
-      Track: 345
-      DistanceNM: 14.8
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.7
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.8
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.4
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.8
-    - Identifier: 12L
-      Track: 105.3
-      DistanceNM: 19.1
-  - FeederFix: SIGMA
-    RunwayIdentifier: 12R
-    ApproachType: H
-    Segments:
-    - Identifier: OVGED
-      Track: 345.5
-      DistanceNM: 12.1
-    - Identifier: ILONI
-      Track: 344.9
-      DistanceNM: 17.8
-    - Identifier: HURIN
-      Track: 345.1
-      DistanceNM: 17.8
-    - Identifier: UN523
-      Track: 345
-      DistanceNM: 14.8
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.7
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.8
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.4
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.8
-    - Identifier: 12R
-      Track: 107.4
-      DistanceNM: 18.7
   DepartureAirports: []
   Views:
   - Identifier: ALL
@@ -1424,7 +1208,7 @@ Airports:
   LostFlightTimeoutMinutes: 10
   AverageLandingSpeed: 155
   UpperWindAltitude: 13000
-  DefaultTTGMinutes: 20
+  DefaultTimeToGoMinutes: 20
   Colours:
     FeederFixes:
       AMULA: 96, 0, 0
@@ -1443,7 +1227,7 @@ Airports:
     Runways:
     - Identifier: 29L
       LandingRateSeconds: 180
-  Trajectories:
+  TerminalTrajectories:
   - FeederFix: AMULA
     RunwayIdentifier: 11R
     ApproachType: A
@@ -1923,7 +1707,7 @@ Airports:
     - FeederFixes:
       - AMULA
     - FeederFixes:
-      - MEZCA    
+      - MEZCA
     - FeederFixes:
       - MUTEM
   - Identifier: SOUTH
