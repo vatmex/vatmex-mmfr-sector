@@ -908,15 +908,14 @@
                 <Sector Name="MZT7" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mazatlan/Limites - Sectores" />
+
+                <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="ACC Monterrey/Limites - Sectores" />
+                <Map Name="ACC Merida/Limites - Sectores" />
                 <Map Name="ACC Mazatlan/Limites - Terminales" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
-                <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
@@ -961,6 +960,7 @@
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Principales" />
                 <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
+
             </Maps>
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
@@ -1001,16 +1001,18 @@
                 <Sector Name="MZT8" />
             </Sectors>
             <Maps>
+                <Map Name="FIR Mexico/Limites - Sectores" />
+
+                <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="ACC Monterrey/Limites - Sectores" />
+
                 <Map Name="ACC Mazatlan/Radar - Cobertura" />
-                <Map Name="ACC Mazatlan/Limites - Sectores" />
                 <Map Name="ACC Mazatlan/Limites - Terminales" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
-                <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
@@ -1982,15 +1984,14 @@
                 <Sector Name="MID7" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Merida/Limites - Terminales" />
-                <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="FIR Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
-                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="ACC Monterrey/Limites - Sectores" />
+                <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="ACC Merida/Limites - Terminales" />
+
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
@@ -2615,9 +2616,6 @@
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV (Nombres)" />
 
-                <Map Name="ACC Mexico/Limites - Sectores" />
-
-                <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
@@ -4177,16 +4175,18 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
+                <Map Name="FIR Mexico/Limites - Sectores" />
+
                 <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="ACC Mazatlan/Limites - Sectores" />
+                <Map Name="ACC Monterrey/Limites - Sectores" />
+                <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="ACC Mexico/Limites - Terminales" />
+
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
@@ -5151,14 +5151,18 @@
                 <Sector Name="MTY5" />
             </Sectors>
             <Maps>
+
+                <Map Name="FIR Mexico/Limites - Sectores" />
+
                 <Map Name="ACC Monterrey/Radar - Cobertura" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="ACC Monterrey/Limites - Sectores" />
+                <Map Name="ACC Mazatlan/Limites - Sectores" />
+                <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+
             </Maps>
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
