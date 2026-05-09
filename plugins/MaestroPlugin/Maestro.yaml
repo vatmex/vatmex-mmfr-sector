@@ -168,10 +168,8 @@ Airports:
   - LARLO
   - ESPOS
   Runways:
-  - 05L
   - 05R
   - 23L
-  - 23R
   DefaultAircraftType: B738
   DefaultPendingFlightState: Stable
   DefaultDepartureFlightState: Unstable
@@ -650,9 +648,6 @@ Airports:
     - Runways:
       - 05R
       - 23L
-    - Runways:
-      - 05L
-      - 23R
   GlobalCoordinationMessages:
   - Standby for configuration change.
   - Flow Planning in progress - do not use delay times until advised.
@@ -1274,8 +1269,6 @@ Airports:
   - VOLAT
   Runways:
   - 29L
-  - 29R
-  - 11L
   - 11R
   DefaultAircraftType: B738
   DefaultPendingFlightState: Stable
@@ -1976,9 +1969,6 @@ Airports:
     - Runways:
       - 29L
       - 11R
-    - Runways:
-      - 29R
-      - 11L
 - Identifier: MMAA
   FeederFixes:
   - ANVAN
