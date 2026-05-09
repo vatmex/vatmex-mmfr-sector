@@ -206,201 +206,261 @@ Airports:
   - FeederFix: DARAN
     RunwayIdentifier: 05R
     Segments:
-    - {Identifier: MX750, Track: 169.4, DistanceNM: 22.7}
-    - {Identifier: MX752, Track: 124.9, DistanceNM: 6.5}
+    - {Identifier: MX750, Track: 169.4, DistanceNM: 22.75}
+    - {Identifier: MX752, Track: 124.9, DistanceNM: 6.51}
     - {Identifier: ALMIS, Track: 122.1, DistanceNM: 20.0}
-    - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
-    - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
+    - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.31}
+    - {Identifier: SUTAS, Track: 191.2, DistanceNM: 6.03}
+    - {Identifier: MX901, Track: 148.9, DistanceNM: 5.01}
+    - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+    - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
     Pressure:
       After: MX752
       Segments:
-      - {Identifier: MX754, Track: 46.2, DistanceNM: 10}
-      - {Identifier: ALMIS, Track: 151.1, DistanceNM: 20.1}
-      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
-      - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
+      - {Identifier: MX754, Track: 46.2, DistanceNM: 10.02}
+      - {Identifier: ALMIS, Track: 151.1, DistanceNM: 20.06}
+      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.31}
+      - {Identifier: SUTAS, Track: 191.2, DistanceNM: 6.03}
+      - {Identifier: MX901, Track: 148.9, DistanceNM: 5.01}
+      - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+      - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
     MaxPressure:
       After: MX752
       Segments:
-      - {Identifier: MX754, Track: 46.2, DistanceNM: 10}
-      - {Identifier: MX756, Track: 75.4, DistanceNM: 10}
-      - {Identifier: ALMIS, Track: 180, DistanceNM: 20.1}
-      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
-      - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
+      - {Identifier: MX754, Track: 46.2, DistanceNM: 10.02}
+      - {Identifier: MX756, Track: 75.4, DistanceNM: 10.0}
+      - {Identifier: ALMIS, Track: 180.0, DistanceNM: 20.09}
+      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.31}
+      - {Identifier: SUTAS, Track: 191.2, DistanceNM: 6.03}
+      - {Identifier: MX901, Track: 148.9, DistanceNM: 5.01}
+      - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+      - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
   - FeederFix: ESPOS
     RunwayIdentifier: 05R
     Segments:
-    - {Identifier: MX770, Track: 65.8, DistanceNM: 28}
-    - {Identifier: MX772, Track: 65.9, DistanceNM: 7}
-    - {Identifier: URNOK, Track: 48.7, DistanceNM: 19.0}
-    - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
-    - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
+    - {Identifier: MX770, Track: 65.8, DistanceNM: 28.03}
+    - {Identifier: MX772, Track: 65.9, DistanceNM: 7.0}
+    - {Identifier: URNOK, Track: 48.7, DistanceNM: 19.02}
+    - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.31}
+    - {Identifier: VOLUN, Track: 292.9, DistanceNM: 6.0}
+    - {Identifier: MX901, Track: 335.4, DistanceNM: 5.02}
+    - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+    - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
     Pressure:
       After: MX772
       Segments:
-      - {Identifier: MX774, Track: 126.2, DistanceNM: 8.5}
-      - {Identifier: URNOK, Track: 23.1, DistanceNM: 19.1}
-      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
-      - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
+      - {Identifier: MX774, Track: 126.2, DistanceNM: 8.46}
+      - {Identifier: URNOK, Track: 23.1, DistanceNM: 19.07}
+      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.31}
+      - {Identifier: VOLUN, Track: 292.9, DistanceNM: 6.0}
+      - {Identifier: MX901, Track: 335.4, DistanceNM: 5.02}
+      - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+      - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
     MaxPressure:
       After: MX772
       Segments:
-      - {Identifier: MX774, Track: 126.2, DistanceNM: 8.5}
-      - {Identifier: MX776, Track: 100.4, DistanceNM: 8.4}
-      - {Identifier: URNOK, Track: 357.6, DistanceNM: 19.1}
-      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
-      - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
+      - {Identifier: MX774, Track: 126.2, DistanceNM: 8.46}
+      - {Identifier: MX776, Track: 100.4, DistanceNM: 8.44}
+      - {Identifier: URNOK, Track: 357.6, DistanceNM: 19.09}
+      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.31}
+      - {Identifier: VOLUN, Track: 292.9, DistanceNM: 6.0}
+      - {Identifier: MX901, Track: 335.4, DistanceNM: 5.02}
+      - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+      - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
   - FeederFix: ENAGA
     RunwayIdentifier: 05R
     Segments:
-    - {Identifier: MX751, Track: 257.9, DistanceNM: 32}
-    - {Identifier: MX753, Track: 263.3, DistanceNM: 9.2}
-    - {Identifier: MX755, Track: 274.1, DistanceNM: 22}
-    - {Identifier: ALMIS, Track: 180.0, DistanceNM: 19.1}
-    - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
-    - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
+    - {Identifier: MX751, Track: 257.9, DistanceNM: 32.04}
+    - {Identifier: MX753, Track: 263.3, DistanceNM: 9.24}
+    - {Identifier: MX755, Track: 274.1, DistanceNM: 22.05}
+    - {Identifier: ALMIS, Track: 180.0, DistanceNM: 19.08}
+    - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.31}
+    - {Identifier: SUTAS, Track: 191.2, DistanceNM: 6.03}
+    - {Identifier: MX901, Track: 148.9, DistanceNM: 5.01}
+    - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+    - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
     Pressure:
       After: MX755
       Segments:
       - {Identifier: MX757, Track: 255.4, DistanceNM: 9.5}
-      - {Identifier: ALMIS, Track: 151.1, DistanceNM: 19.1}
-      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
-      - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
+      - {Identifier: ALMIS, Track: 151.1, DistanceNM: 19.06}
+      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.31}
+      - {Identifier: SUTAS, Track: 191.2, DistanceNM: 6.03}
+      - {Identifier: MX901, Track: 148.9, DistanceNM: 5.01}
+      - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+      - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
     MaxPressure:
       After: MX755
       Segments:
       - {Identifier: MX757, Track: 255.4, DistanceNM: 9.5}
-      - {Identifier: MX759, Track: 226.3, DistanceNM: 9.5}
-      - {Identifier: ALMIS, Track: 122.1, DistanceNM: 19}
-      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
-      - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
+      - {Identifier: MX759, Track: 226.3, DistanceNM: 9.52}
+      - {Identifier: ALMIS, Track: 122.1, DistanceNM: 19.0}
+      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.31}
+      - {Identifier: SUTAS, Track: 191.2, DistanceNM: 6.03}
+      - {Identifier: MX901, Track: 148.9, DistanceNM: 5.01}
+      - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+      - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
   - FeederFix: LARLO
     RunwayIdentifier: 05R
     Segments:
-    - {Identifier: MX771, Track: 281, DistanceNM: 27.9}
-    - {Identifier: MX773, Track: 282.6, DistanceNM: 10.7}
-    - {Identifier: URNOK, Track: 357.6, DistanceNM: 20.1}
-    - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
-    - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
+    - {Identifier: MX771, Track: 281.0, DistanceNM: 27.87}
+    - {Identifier: MX773, Track: 282.6, DistanceNM: 10.69}
+    - {Identifier: URNOK, Track: 357.6, DistanceNM: 20.09}
+    - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.31}
+    - {Identifier: VOLUN, Track: 292.9, DistanceNM: 6.0}
+    - {Identifier: MX901, Track: 335.4, DistanceNM: 5.02}
+    - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+    - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
     Pressure:
       After: MX773
       Segments:
-      - {Identifier: MX775, Track: 280.5, DistanceNM: 8.9}
-      - {Identifier: URNOK, Track: 23.1, DistanceNM: 20.1}
-      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
-      - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
+      - {Identifier: MX775, Track: 280.5, DistanceNM: 8.89}
+      - {Identifier: URNOK, Track: 23.1, DistanceNM: 20.07}
+      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.31}
+      - {Identifier: VOLUN, Track: 292.9, DistanceNM: 6.0}
+      - {Identifier: MX901, Track: 335.4, DistanceNM: 5.02}
+      - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+      - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
     MaxPressure:
       After: MX773
       Segments:
-      - {Identifier: MX775, Track: 280.5, DistanceNM: 8.9}
-      - {Identifier: MX777, Track: 306.3, DistanceNM: 8.9}
-      - {Identifier: URNOK, Track: 48.7, DistanceNM: 20}
-      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
-      - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
+      - {Identifier: MX775, Track: 280.5, DistanceNM: 8.89}
+      - {Identifier: MX777, Track: 306.3, DistanceNM: 8.91}
+      - {Identifier: URNOK, Track: 48.7, DistanceNM: 20.02}
+      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.31}
+      - {Identifier: VOLUN, Track: 292.9, DistanceNM: 6.0}
+      - {Identifier: MX901, Track: 335.4, DistanceNM: 5.02}
+      - {Identifier: MX900, Track: 59.2, DistanceNM: 3.78}
+      - {Identifier: 05R, Track: 59.2, DistanceNM: 4.67}
   - FeederFix: DARAN
     RunwayIdentifier: 23L
     Segments:
-    - {Identifier: MX651, Track: 108.3, DistanceNM: 39}
-    - {Identifier: MX652, Track: 108.5, DistanceNM: 7.3}
-    - {Identifier: DUSGO, Track: 98.8, DistanceNM: 8.1}
-    - {Identifier: MX617, Track: 110.9, DistanceNM: 9}
-    - {Identifier: SESTA, Track: 197.9, DistanceNM: 19.1}
-    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-    - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+    - {Identifier: MX651, Track: 108.3, DistanceNM: 38.96}
+    - {Identifier: MX652, Track: 108.5, DistanceNM: 7.29}
+    - {Identifier: DUSGO, Track: 98.8, DistanceNM: 8.11}
+    - {Identifier: MX617, Track: 110.9, DistanceNM: 8.99}
+    - {Identifier: SESTA, Track: 197.9, DistanceNM: 19.07}
+    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+    - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+    - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+    - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
     Pressure:
       After: MX617
       Segments:
-      - {Identifier: MX619, Track: 119.7, DistanceNM: 7.6}
-      - {Identifier: SESTA, Track: 220.9, DistanceNM: 19.0}
-      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+      - {Identifier: MX619, Track: 119.7, DistanceNM: 7.58}
+      - {Identifier: SESTA, Track: 220.9, DistanceNM: 19.04}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+      - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+      - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
     MaxPressure:
       After: MX617
       Segments:
-      - {Identifier: MX619, Track: 119.7, DistanceNM: 7.6}
-      - {Identifier: MX621, Track: 142.7, DistanceNM: 7.6}
-      - {Identifier: MX623, Track: 165.7, DistanceNM: 7.6}
-      - {Identifier: SESTA, Track: 267.1, DistanceNM: 19}
-      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+      - {Identifier: MX619, Track: 119.7, DistanceNM: 7.58}
+      - {Identifier: MX621, Track: 142.7, DistanceNM: 7.59}
+      - {Identifier: MX623, Track: 165.7, DistanceNM: 7.61}
+      - {Identifier: SESTA, Track: 267.1, DistanceNM: 18.97}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+      - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+      - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
   - FeederFix: ESPOS
     RunwayIdentifier: 23L
     Segments:
-    - {Identifier: MX770, Track: 65.8, DistanceNM: 28}
-    - {Identifier: MX661, Track: 66.5, DistanceNM: 25.3}
-    - {Identifier: OTMOS, Track: 66.7, DistanceNM: 7.7}
-    - {Identifier: MX665, Track: 55.2, DistanceNM: 29.8}
-    - {Identifier: MX666, Track: 351.4, DistanceNM: 6}
-    - {Identifier: MX667, Track: 351.4, DistanceNM: 5.2}
-    - {Identifier: SESTA, Track: 267.1, DistanceNM: 20.0}
-    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-    - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+    - {Identifier: MX770, Track: 65.8, DistanceNM: 28.03}
+    - {Identifier: MX661, Track: 66.5, DistanceNM: 25.26}
+    - {Identifier: OTMOS, Track: 66.7, DistanceNM: 7.66}
+    - {Identifier: MX665, Track: 55.2, DistanceNM: 29.81}
+    - {Identifier: MX666, Track: 351.4, DistanceNM: 6.03}
+    - {Identifier: MX667, Track: 351.4, DistanceNM: 5.23}
+    - {Identifier: SESTA, Track: 267.1, DistanceNM: 19.97}
+    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+    - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+    - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+    - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
     Pressure:
       After: MX667
       Segments:
-      - {Identifier: MX669, Track: 345.7, DistanceNM: 8}
-      - {Identifier: SESTA, Track: 244.0, DistanceNM: 20.0}
-      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+      - {Identifier: MX669, Track: 345.7, DistanceNM: 8.01}
+      - {Identifier: SESTA, Track: 244.0, DistanceNM: 19.99}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+      - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+      - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
     MaxPressure:
       After: MX667
       Segments:
-      - {Identifier: MX669, Track: 345.7, DistanceNM: 8}
-      - {Identifier: MX671, Track: 322.8, DistanceNM: 8}
-      - {Identifier: MX602, Track: 299.7, DistanceNM: 8}
-      - {Identifier: SESTA, Track: 197.9, DistanceNM: 20.1}
-      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+      - {Identifier: MX669, Track: 345.7, DistanceNM: 8.01}
+      - {Identifier: MX671, Track: 322.8, DistanceNM: 7.99}
+      - {Identifier: MX602, Track: 299.7, DistanceNM: 7.98}
+      - {Identifier: SESTA, Track: 197.9, DistanceNM: 20.08}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+      - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+      - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
   - FeederFix: ENAGA
     RunwayIdentifier: 23L
     Segments:
-    - {Identifier: MX641, Track: 198.7, DistanceNM: 21.8}
-    - {Identifier: SESTA, Track: 259.4, DistanceNM: 28.0}
-    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-    - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+    - {Identifier: MX641, Track: 198.7, DistanceNM: 21.83}
+    - {Identifier: SESTA, Track: 259.4, DistanceNM: 27.96}
+    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+    - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+    - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+    - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
     Pressure:
       After: MX641
       Segments:
-      - {Identifier: MX643, Track: 259.4, DistanceNM: 7}
-      - {Identifier: MX645, Track: 341.9, DistanceNM: 5.6}
-      - {Identifier: SESTA, Track: 244.0, DistanceNM: 21.0}
-      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+      - {Identifier: MX643, Track: 259.4, DistanceNM: 6.99}
+      - {Identifier: MX645, Track: 341.9, DistanceNM: 5.62}
+      - {Identifier: SESTA, Track: 244.0, DistanceNM: 20.99}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+      - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+      - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
     MaxPressure:
       After: MX641
       Segments:
-      - {Identifier: MX643, Track: 259.4, DistanceNM: 7}
-      - {Identifier: MX645, Track: 341.9, DistanceNM: 5.6}
-      - {Identifier: MX647, Track: 322.8, DistanceNM: 8.4}
-      - {Identifier: MX649, Track: 299.7, DistanceNM: 8.4}
-      - {Identifier: SESTA, Track: 197.9, DistanceNM: 21.1}
-      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+      - {Identifier: MX643, Track: 259.4, DistanceNM: 6.99}
+      - {Identifier: MX645, Track: 341.9, DistanceNM: 5.62}
+      - {Identifier: MX647, Track: 322.8, DistanceNM: 8.39}
+      - {Identifier: MX649, Track: 299.7, DistanceNM: 8.38}
+      - {Identifier: SESTA, Track: 197.9, DistanceNM: 21.08}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+      - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+      - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
   - FeederFix: LARLO
     RunwayIdentifier: 23L
     Segments:
-    - {Identifier: PBC, Track: 355.4, DistanceNM: 26.7}
-    - {Identifier: MX665, Track: 351.5, DistanceNM: 15.9}
-    - {Identifier: MX666, Track: 351.4, DistanceNM: 6}
-    - {Identifier: MX667, Track: 351.4, DistanceNM: 5.2}
-    - {Identifier: SESTA, Track: 267.1, DistanceNM: 20.0}
-    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-    - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+    - {Identifier: PBC, Track: 355.4, DistanceNM: 26.74}
+    - {Identifier: MX665, Track: 351.5, DistanceNM: 15.85}
+    - {Identifier: MX666, Track: 351.4, DistanceNM: 6.03}
+    - {Identifier: MX667, Track: 351.4, DistanceNM: 5.23}
+    - {Identifier: SESTA, Track: 267.1, DistanceNM: 19.97}
+    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+    - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+    - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+    - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
     Pressure:
       After: MX667
       Segments:
-      - {Identifier: MX669, Track: 345.7, DistanceNM: 8}
-      - {Identifier: SESTA, Track: 244.0, DistanceNM: 20.0}
-      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+      - {Identifier: MX669, Track: 345.7, DistanceNM: 8.01}
+      - {Identifier: SESTA, Track: 244.0, DistanceNM: 19.99}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+      - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+      - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
     MaxPressure:
       After: MX667
       Segments:
-      - {Identifier: MX669, Track: 345.7, DistanceNM: 8}
-      - {Identifier: MX671, Track: 322.8, DistanceNM: 8}
-      - {Identifier: MX602, Track: 299.7, DistanceNM: 8}
-      - {Identifier: SESTA, Track: 197.9, DistanceNM: 20.1}
-      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
-      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
+      - {Identifier: MX669, Track: 345.7, DistanceNM: 8.01}
+      - {Identifier: MX671, Track: 322.8, DistanceNM: 7.99}
+      - {Identifier: MX602, Track: 299.7, DistanceNM: 7.98}
+      - {Identifier: SESTA, Track: 197.9, DistanceNM: 20.08}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4.0}
+      - {Identifier: MX403, Track: 239.3, DistanceNM: 5.0}
+      - {Identifier: MX402, Track: 239.3, DistanceNM: 2.93}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 5.17}
   DepartureAirports:
   - {Identifier: MMAA, Aircraft: [JET], Distance: 165, EstimatedFlightTimeMinutes: 37}
   - {Identifier: MMAA, Aircraft: [NONJET], Distance: 165, EstimatedFlightTimeMinutes: 55}
@@ -676,9 +736,6 @@ Airports:
     - {Identifier: UN506, Track: 33.4, DistanceNM: 5.25}
     - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
     - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
-    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
-    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
-    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
     - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: ILUBA
     RunwayIdentifier: 12L
@@ -695,10 +752,6 @@ Airports:
     - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
     - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
     - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
-    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
-    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
-    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
-    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
     - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: ILUBA
     RunwayIdentifier: 30L
@@ -706,11 +759,11 @@ Airports:
     - {Identifier: ALRIP, Track: 284.6, DistanceNM: 40.59}
     - {Identifier: QUADY, Track: 284.3, DistanceNM: 22.29}
     - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
-    - {Identifier: UN630, Track: 320.9, DistanceNM: 18.76}
+    - {Identifier: UN604, Track: 326.8, DistanceNM: 14.05}
+    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
-    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: ILUBA
     RunwayIdentifier: 30R
     Segments:
@@ -721,11 +774,8 @@ Airports:
     - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
-    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
-    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+    - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   - FeederFix: NOSAT
     RunwayIdentifier: 12L
     Segments:
@@ -737,10 +787,6 @@ Airports:
     - {Identifier: ERDAM, Track: 303.8, DistanceNM: 13.35}
     - {Identifier: RIDUG, Track: 303.8, DistanceNM: 5.81}
     - {Identifier: UN505, Track: 213.5, DistanceNM: 5.22}
-    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
-    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
-    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
-    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
     - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
     - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
     - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
@@ -758,9 +804,6 @@ Airports:
     - {Identifier: UN506, Track: 213.5, DistanceNM: 5.99}
     - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
     - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
-    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
-    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
-    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
     - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: NOSAT
     RunwayIdentifier: 30L
@@ -770,11 +813,11 @@ Airports:
     - {Identifier: UN500, Track: 213.7, DistanceNM: 33.73}
     - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
     - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN630, Track: 253.7, DistanceNM: 7.78}
+    - {Identifier: UN604, Track: 213.7, DistanceNM: 5.99}
+    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
-    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: NOSAT
     RunwayIdentifier: 30R
     Segments:
@@ -787,11 +830,8 @@ Airports:
     - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
-    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
-    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+    - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   - FeederFix: PAULE
     RunwayIdentifier: 12R
     Segments:
@@ -804,9 +844,6 @@ Airports:
     - {Identifier: ELINO, Track: 303.8, DistanceNM: 8.38}
     - {Identifier: EBMIS, Track: 303.7, DistanceNM: 5.78}
     - {Identifier: UN506, Track: 33.4, DistanceNM: 5.25}
-    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
-    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
-    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
     - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
     - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
     - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
@@ -825,10 +862,6 @@ Airports:
     - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
     - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
     - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
-    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
-    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
-    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
-    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
     - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: PAULE
     RunwayIdentifier: 30L
@@ -837,11 +870,11 @@ Airports:
     - {Identifier: ITLES, Track: 55.3, DistanceNM: 19.28}
     - {Identifier: QUADY, Track: 55.7, DistanceNM: 19.06}
     - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
-    - {Identifier: UN630, Track: 320.9, DistanceNM: 18.76}
+    - {Identifier: UN604, Track: 326.8, DistanceNM: 14.05}
+    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
-    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: PAULE
     RunwayIdentifier: 30R
     Segments:
@@ -853,11 +886,8 @@ Airports:
     - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
-    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
-    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+    - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   - FeederFix: SIGMA
     RunwayIdentifier: 12R
     Segments:
@@ -871,9 +901,6 @@ Airports:
     - {Identifier: ELINO, Track: 303.8, DistanceNM: 8.38}
     - {Identifier: EBMIS, Track: 303.7, DistanceNM: 5.78}
     - {Identifier: UN506, Track: 33.4, DistanceNM: 5.25}
-    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
-    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
-    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
     - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
     - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
     - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
@@ -893,10 +920,6 @@ Airports:
     - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
     - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
     - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
-    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
-    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
-    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
-    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
     - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: SIGMA
     RunwayIdentifier: 30L
@@ -906,11 +929,11 @@ Airports:
     - {Identifier: UN617, Track: 356.3, DistanceNM: 15.57}
     - {Identifier: QUADY, Track: 356.3, DistanceNM: 5.46}
     - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
-    - {Identifier: UN630, Track: 320.9, DistanceNM: 18.76}
+    - {Identifier: UN604, Track: 326.8, DistanceNM: 14.05}
+    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
-    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: SIGMA
     RunwayIdentifier: 30R
     Segments:
@@ -923,11 +946,8 @@ Airports:
     - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
-    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
-    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+    - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   - FeederFix: VOMAR
     RunwayIdentifier: 12L
     Segments:
@@ -936,10 +956,6 @@ Airports:
     - {Identifier: ODLAR, Track: 141.4, DistanceNM: 20.11}
     - {Identifier: VIKSI, Track: 153.2, DistanceNM: 5.59}
     - {Identifier: UN505, Track: 153.2, DistanceNM: 5.02}
-    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
-    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
-    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
-    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
     - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
     - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
     - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
@@ -954,9 +970,6 @@ Airports:
     - {Identifier: UN506, Track: 160.2, DistanceNM: 5.44}
     - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
     - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
-    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
-    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
-    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
     - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: VOMAR
     RunwayIdentifier: 30L
@@ -968,11 +981,11 @@ Airports:
     - {Identifier: UN500, Track: 123.8, DistanceNM: 8.0}
     - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
     - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN630, Track: 253.7, DistanceNM: 7.78}
+    - {Identifier: UN604, Track: 213.7, DistanceNM: 5.99}
+    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
-    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: VOMAR
     RunwayIdentifier: 30R
     Segments:
@@ -987,11 +1000,8 @@ Airports:
     - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
-    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
-    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+    - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   - FeederFix: XUDUN
     RunwayIdentifier: 12L
     Segments:
@@ -1000,10 +1010,6 @@ Airports:
     - {Identifier: SCAHA, Track: 89.2, DistanceNM: 21.22}
     - {Identifier: KAROR, Track: 93.8, DistanceNM: 5.56}
     - {Identifier: UN505, Track: 86.8, DistanceNM: 5.41}
-    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
-    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
-    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
-    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
     - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
     - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
     - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
@@ -1018,9 +1024,6 @@ Airports:
     - {Identifier: UN506, Track: 93.9, DistanceNM: 4.99}
     - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
     - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
-    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
-    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
-    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
     - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: XUDUN
     RunwayIdentifier: 30L
@@ -1032,11 +1035,11 @@ Airports:
     - {Identifier: UN608, Track: 123.8, DistanceNM: 8.0}
     - {Identifier: DEPVA, Track: 123.9, DistanceNM: 9.16}
     - {Identifier: LOPKA, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN630, Track: 350.3, DistanceNM: 7.28}
+    - {Identifier: UN604, Track: 33.6, DistanceNM: 5.26}
+    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
-    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
-    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: XUDUN
     RunwayIdentifier: 30R
     Segments:
@@ -1051,11 +1054,8 @@ Airports:
     - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
-    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
-    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
-    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
+    - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+    - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   DepartureAirports: []
   Views:
   - Identifier: ALL
@@ -1164,344 +1164,470 @@ Airports:
   - FeederFix: AMULA
     RunwayIdentifier: 11R
     Segments:
-    - {Identifier: LONVA, Track: 163, DistanceNM: 19.9}
-    - {Identifier: GL573, Track: 180.3, DistanceNM: 10.8}
-    - {Identifier: OLAVA, Track: 188.8, DistanceNM: 29.1}
-    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+    - {Identifier: LONVA, Track: 163.0, DistanceNM: 19.85}
+    - {Identifier: GL573, Track: 180.3, DistanceNM: 10.78}
+    - {Identifier: OLAVA, Track: 188.8, DistanceNM: 29.07}
+    - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+    - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+    - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     Pressure:
       After: GL573
       Segments:
-      - {Identifier: GL550, Track: 180.3, DistanceNM: 5}
-      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
-      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
-      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.0}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL550, Track: 180.3, DistanceNM: 5.02}
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.42}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.44}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.03}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     MaxPressure:
       After: GL573
       Segments:
-      - {Identifier: GL550, Track: 180.3, DistanceNM: 5}
-      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
-      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
-      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.5}
-      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.5}
-      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.5}
-      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL550, Track: 180.3, DistanceNM: 5.02}
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.42}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.44}
+      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.47}
+      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.48}
+      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.47}
+      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24.04}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
   - FeederFix: AMULA
     RunwayIdentifier: 29L
     Segments:
-    - {Identifier: LONVA, Track: 163, DistanceNM: 19.9}
-    - {Identifier: GL820, Track: 119.8, DistanceNM: 21.5}
-    - {Identifier: GL821, Track: 119.7, DistanceNM: 5}
-    - {Identifier: GL822, Track: 135.6, DistanceNM: 18.5}
-    - {Identifier: VOLIN, Track: 135.7, DistanceNM: 4.6}
-    - {Identifier: GL824, Track: 135.7, DistanceNM: 9.6}
-    - {Identifier: PLADE, Track: 218.0, DistanceNM: 24.1}
-    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+    - {Identifier: LONVA, Track: 163.0, DistanceNM: 19.85}
+    - {Identifier: GL820, Track: 119.8, DistanceNM: 21.47}
+    - {Identifier: GL821, Track: 119.7, DistanceNM: 5.01}
+    - {Identifier: GL822, Track: 135.6, DistanceNM: 18.55}
+    - {Identifier: VOLIN, Track: 135.7, DistanceNM: 4.61}
+    - {Identifier: GL824, Track: 135.7, DistanceNM: 9.56}
+    - {Identifier: PLADE, Track: 218.0, DistanceNM: 24.05}
+    - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+    - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     Pressure:
       After: GL824
       Segments:
-      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.4}
-      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
-      - {Identifier: PLADE, Track: 278.2, DistanceNM: 24.0}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.45}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.48}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.97}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     MaxPressure:
       After: GL824
       Segments:
-      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.4}
-      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
-      - {Identifier: GL827, Track: 203, DistanceNM: 12.5}
-      - {Identifier: GL828, Track: 233, DistanceNM: 12.4}
-      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.1}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.45}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.48}
+      - {Identifier: GL827, Track: 203.0, DistanceNM: 12.47}
+      - {Identifier: GL828, Track: 233.0, DistanceNM: 12.43}
+      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.09}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
   - FeederFix: IGSON
     RunwayIdentifier: 11R
     Segments:
-    - {Identifier: ULUVO, Track: 289.6, DistanceNM: 8.7}
-    - {Identifier: GL530, Track: 289.5, DistanceNM: 10.5}
-    - {Identifier: GL531, Track: 290.5, DistanceNM: 29.5}
-    - {Identifier: BRUJA, Track: 269.3, DistanceNM: 26}
-    - {Identifier: GL560, Track: 301.3, DistanceNM: 23.3}
-    - {Identifier: OLAVA, Track: 40.3, DistanceNM: 23.0}
-    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+    - {Identifier: ULUVO, Track: 289.6, DistanceNM: 8.72}
+    - {Identifier: GL530, Track: 289.5, DistanceNM: 10.45}
+    - {Identifier: GL531, Track: 290.5, DistanceNM: 29.51}
+    - {Identifier: BRUJA, Track: 269.3, DistanceNM: 26.01}
+    - {Identifier: GL560, Track: 301.3, DistanceNM: 23.25}
+    - {Identifier: OLAVA, Track: 40.3, DistanceNM: 23.05}
+    - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+    - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+    - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     Pressure:
       After: GL560
       Segments:
-      - {Identifier: GL561, Track: 325.7, DistanceNM: 12}
-      - {Identifier: GL562, Track: 355.5, DistanceNM: 12}
-      - {Identifier: OLAVA, Track: 100.5, DistanceNM: 23.0}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL561, Track: 325.7, DistanceNM: 11.98}
+      - {Identifier: GL562, Track: 355.5, DistanceNM: 11.96}
+      - {Identifier: OLAVA, Track: 100.5, DistanceNM: 22.97}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     MaxPressure:
       After: GL560
       Segments:
-      - {Identifier: GL561, Track: 325.7, DistanceNM: 12}
-      - {Identifier: GL562, Track: 355.5, DistanceNM: 12}
-      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
-      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.9}
+      - {Identifier: GL561, Track: 325.7, DistanceNM: 11.98}
+      - {Identifier: GL562, Track: 355.5, DistanceNM: 11.96}
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.95}
+      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.92}
       - {Identifier: GL565, Track: 85.6, DistanceNM: 11.9}
-      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.1}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.11}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
   - FeederFix: IGSON
     RunwayIdentifier: 29L
     Segments:
-    - {Identifier: ULUVO, Track: 289.6, DistanceNM: 8.7}
-    - {Identifier: GL530, Track: 289.5, DistanceNM: 10.5}
-    - {Identifier: GL802, Track: 333.1, DistanceNM: 10.4}
-    - {Identifier: PLADE, Track: 308.3, DistanceNM: 23.0}
-    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+    - {Identifier: ULUVO, Track: 289.6, DistanceNM: 8.72}
+    - {Identifier: GL530, Track: 289.5, DistanceNM: 10.45}
+    - {Identifier: GL802, Track: 333.1, DistanceNM: 10.38}
+    - {Identifier: PLADE, Track: 308.3, DistanceNM: 23.02}
+    - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+    - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     Pressure:
       After: GL802
       Segments:
-      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
-      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.0}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL803, Track: 23.0, DistanceNM: 11.95}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 22.97}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     MaxPressure:
       After: GL802
       Segments:
-      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
-      - {Identifier: GL804, Track: 353.2, DistanceNM: 12}
-      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.9}
-      - {Identifier: PLADE, Track: 218, DistanceNM: 23}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL803, Track: 23.0, DistanceNM: 11.95}
+      - {Identifier: GL804, Track: 353.2, DistanceNM: 11.96}
+      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.93}
+      - {Identifier: PLADE, Track: 218.0, DistanceNM: 23.05}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
   - FeederFix: KASUP
     RunwayIdentifier: 11R
     Segments:
-    - {Identifier: LIPEP, Track: 95.3, DistanceNM: 10}
-    - {Identifier: GL572, Track: 95.3, DistanceNM: 5.5}
-    - {Identifier: GL575, Track: 40.5, DistanceNM: 5.3}
-    - {Identifier: GL562, Track: 40.5, DistanceNM: 5.3}
-    - {Identifier: OLAVA, Track: 100.5, DistanceNM: 23.0}
-    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+    - {Identifier: LIPEP, Track: 95.3, DistanceNM: 9.98}
+    - {Identifier: GL572, Track: 95.3, DistanceNM: 5.51}
+    - {Identifier: GL575, Track: 40.5, DistanceNM: 5.29}
+    - {Identifier: GL562, Track: 40.5, DistanceNM: 5.28}
+    - {Identifier: OLAVA, Track: 100.5, DistanceNM: 22.97}
+    - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+    - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+    - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     Pressure:
       After: GL562
       Segments:
-      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
-      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 23.0}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.95}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 23.03}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     MaxPressure:
       After: GL562
       Segments:
-      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
-      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.9}
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.95}
+      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.92}
       - {Identifier: GL565, Track: 85.6, DistanceNM: 11.9}
-      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.1}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.11}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
   - FeederFix: KASUP
     RunwayIdentifier: 29L
     Segments:
-    - {Identifier: LIPEP, Track: 95.3, DistanceNM: 10}
-    - {Identifier: OTETA, Track: 117.2, DistanceNM: 75.2}
-    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.7}
-    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.1}
-    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+    - {Identifier: LIPEP, Track: 95.3, DistanceNM: 9.98}
+    - {Identifier: OTETA, Track: 117.2, DistanceNM: 75.17}
+    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.72}
+    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.08}
+    - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+    - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     Pressure:
       After: GL801
       Segments:
-      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
-      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
-      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.0}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.91}
+      - {Identifier: GL803, Track: 23.0, DistanceNM: 11.95}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 22.97}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     MaxPressure:
       After: GL801
       Segments:
-      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
-      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
-      - {Identifier: GL804, Track: 353.2, DistanceNM: 12}
-      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.9}
-      - {Identifier: PLADE, Track: 218, DistanceNM: 23}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.91}
+      - {Identifier: GL803, Track: 23.0, DistanceNM: 11.95}
+      - {Identifier: GL804, Track: 353.2, DistanceNM: 11.96}
+      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.93}
+      - {Identifier: PLADE, Track: 218.0, DistanceNM: 23.05}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
   - FeederFix: MEZCA
     RunwayIdentifier: 11R
     Segments:
-    - {Identifier: LIVRI, Track: 218, DistanceNM: 10.3}
-    - {Identifier: IKBAN, Track: 218, DistanceNM: 4.9}
-    - {Identifier: ULOGA, Track: 243.1, DistanceNM: 12}
-    - {Identifier: GL513, Track: 278, DistanceNM: 20}
-    - {Identifier: GL550, Track: 266, DistanceNM: 12}
-    - {Identifier: OLAVA, Track: 190.6, DistanceNM: 24.1}
-    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+    - {Identifier: LIVRI, Track: 218.0, DistanceNM: 10.31}
+    - {Identifier: IKBAN, Track: 218.0, DistanceNM: 4.89}
+    - {Identifier: ULOGA, Track: 243.1, DistanceNM: 11.95}
+    - {Identifier: GL513, Track: 278.0, DistanceNM: 19.98}
+    - {Identifier: GL550, Track: 266.0, DistanceNM: 11.98}
+    - {Identifier: OLAVA, Track: 190.6, DistanceNM: 24.11}
+    - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+    - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+    - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     Pressure:
       After: GL550
       Segments:
-      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
-      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
-      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.0}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.42}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.44}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.03}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     MaxPressure:
       After: GL550
       Segments:
-      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
-      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
-      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.5}
-      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.5}
-      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.5}
-      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.42}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.44}
+      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.47}
+      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.48}
+      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.47}
+      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24.04}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
   - FeederFix: MEZCA
     RunwayIdentifier: 29L
     Segments:
-    - {Identifier: LIVRI, Track: 218, DistanceNM: 10.3}
-    - {Identifier: IKBAN, Track: 218, DistanceNM: 4.9}
-    - {Identifier: GL840, Track: 172.2, DistanceNM: 8.6}
-    - {Identifier: UKOSI, Track: 171.5, DistanceNM: 7.6}
-    - {Identifier: GL824, Track: 171.5, DistanceNM: 8.3}
-    - {Identifier: PLADE, Track: 218.0, DistanceNM: 24.1}
-    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+    - {Identifier: LIVRI, Track: 218.0, DistanceNM: 10.31}
+    - {Identifier: IKBAN, Track: 218.0, DistanceNM: 4.89}
+    - {Identifier: GL840, Track: 172.2, DistanceNM: 8.65}
+    - {Identifier: UKOSI, Track: 171.5, DistanceNM: 7.56}
+    - {Identifier: GL824, Track: 171.5, DistanceNM: 8.31}
+    - {Identifier: PLADE, Track: 218.0, DistanceNM: 24.05}
+    - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+    - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     Pressure:
       After: GL824
       Segments:
-      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.4}
-      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
-      - {Identifier: PLADE, Track: 278.2, DistanceNM: 24.0}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.45}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.48}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.97}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     MaxPressure:
       After: GL824
       Segments:
-      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.4}
-      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
-      - {Identifier: GL827, Track: 203, DistanceNM: 12.5}
-      - {Identifier: GL828, Track: 233, DistanceNM: 12.4}
-      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.1}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.45}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.48}
+      - {Identifier: GL827, Track: 203.0, DistanceNM: 12.47}
+      - {Identifier: GL828, Track: 233.0, DistanceNM: 12.43}
+      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.09}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
   - FeederFix: MUTEM
     RunwayIdentifier: 11R
     Segments:
-    - {Identifier: GL540, Track: 283.8, DistanceNM: 22.4}
-    - {Identifier: ULOGA, Track: 295.2, DistanceNM: 20.8}
-    - {Identifier: GL513, Track: 278, DistanceNM: 20}
-    - {Identifier: GL550, Track: 266, DistanceNM: 12}
-    - {Identifier: OLAVA, Track: 190.6, DistanceNM: 24.1}
-    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+    - {Identifier: GL540, Track: 283.8, DistanceNM: 22.38}
+    - {Identifier: ULOGA, Track: 295.2, DistanceNM: 20.81}
+    - {Identifier: GL513, Track: 278.0, DistanceNM: 19.98}
+    - {Identifier: GL550, Track: 266.0, DistanceNM: 11.98}
+    - {Identifier: OLAVA, Track: 190.6, DistanceNM: 24.11}
+    - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+    - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+    - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     Pressure:
       After: GL550
       Segments:
-      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
-      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
-      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.0}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.42}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.44}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.03}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     MaxPressure:
       After: GL550
       Segments:
-      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
-      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
-      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.5}
-      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.5}
-      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.5}
-      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.42}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.44}
+      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.47}
+      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.48}
+      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.47}
+      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24.04}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
   - FeederFix: MUTEM
     RunwayIdentifier: 29L
     Segments:
-    - {Identifier: GL825, Track: 232.3, DistanceNM: 24}
-    - {Identifier: PLADE, Track: 248.0, DistanceNM: 24.0}
-    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+    - {Identifier: GL825, Track: 232.3, DistanceNM: 23.99}
+    - {Identifier: PLADE, Track: 248.0, DistanceNM: 23.98}
+    - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+    - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     Pressure:
       After: GL825
       Segments:
-      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
-      - {Identifier: PLADE, Track: 278.2, DistanceNM: 24.0}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.48}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.97}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     MaxPressure:
       After: GL825
       Segments:
-      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
-      - {Identifier: GL827, Track: 203, DistanceNM: 12.5}
-      - {Identifier: GL828, Track: 233, DistanceNM: 12.4}
-      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.1}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.48}
+      - {Identifier: GL827, Track: 203.0, DistanceNM: 12.47}
+      - {Identifier: GL828, Track: 233.0, DistanceNM: 12.43}
+      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.09}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
   - FeederFix: USBIM
     RunwayIdentifier: 11R
     Segments:
-    - {Identifier: GL571, Track: 28.9, DistanceNM: 19.7}
-    - {Identifier: OLAVA, Track: 37.9, DistanceNM: 29.0}
-    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+    - {Identifier: GL571, Track: 28.9, DistanceNM: 19.72}
+    - {Identifier: OLAVA, Track: 37.9, DistanceNM: 28.97}
+    - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+    - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+    - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     Pressure:
       After: GL571
       Segments:
-      - {Identifier: GL560, Track: 28.9, DistanceNM: 6}
-      - {Identifier: GL561, Track: 325.7, DistanceNM: 12}
-      - {Identifier: GL562, Track: 355.5, DistanceNM: 12}
-      - {Identifier: OLAVA, Track: 100.5, DistanceNM: 23.0}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL560, Track: 28.9, DistanceNM: 6.02}
+      - {Identifier: GL561, Track: 325.7, DistanceNM: 11.98}
+      - {Identifier: GL562, Track: 355.5, DistanceNM: 11.96}
+      - {Identifier: OLAVA, Track: 100.5, DistanceNM: 22.97}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     MaxPressure:
       After: GL571
       Segments:
-      - {Identifier: GL560, Track: 28.9, DistanceNM: 6}
-      - {Identifier: GL561, Track: 325.7, DistanceNM: 12}
-      - {Identifier: GL562, Track: 355.5, DistanceNM: 12}
-      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
-      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.9}
+      - {Identifier: GL560, Track: 28.9, DistanceNM: 6.02}
+      - {Identifier: GL561, Track: 325.7, DistanceNM: 11.98}
+      - {Identifier: GL562, Track: 355.5, DistanceNM: 11.96}
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.95}
+      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.92}
       - {Identifier: GL565, Track: 85.6, DistanceNM: 11.9}
-      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.1}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.11}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
   - FeederFix: USBIM
     RunwayIdentifier: 29L
     Segments:
     - {Identifier: OTETA, Track: 87.7, DistanceNM: 59.2}
-    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.7}
-    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.1}
-    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.72}
+    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.08}
+    - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+    - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     Pressure:
       After: GL801
       Segments:
-      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
-      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
-      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.0}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.91}
+      - {Identifier: GL803, Track: 23.0, DistanceNM: 11.95}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 22.97}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     MaxPressure:
       After: GL801
       Segments:
-      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
-      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
-      - {Identifier: GL804, Track: 353.2, DistanceNM: 12}
-      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.9}
-      - {Identifier: PLADE, Track: 218, DistanceNM: 23}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.91}
+      - {Identifier: GL803, Track: 23.0, DistanceNM: 11.95}
+      - {Identifier: GL804, Track: 353.2, DistanceNM: 11.96}
+      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.93}
+      - {Identifier: PLADE, Track: 218.0, DistanceNM: 23.05}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
   - FeederFix: VOLAT
     RunwayIdentifier: 11R
     Segments:
-    - {Identifier: GL572, Track: 25.9, DistanceNM: 15.7}
-    - {Identifier: GL575, Track: 40.5, DistanceNM: 5.3}
-    - {Identifier: GL562, Track: 40.5, DistanceNM: 5.3}
-    - {Identifier: OLAVA, Track: 100.5, DistanceNM: 23.0}
-    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+    - {Identifier: GL572, Track: 25.9, DistanceNM: 15.66}
+    - {Identifier: GL575, Track: 40.5, DistanceNM: 5.29}
+    - {Identifier: GL562, Track: 40.5, DistanceNM: 5.28}
+    - {Identifier: OLAVA, Track: 100.5, DistanceNM: 22.97}
+    - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+    - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+    - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     Pressure:
       After: GL562
       Segments:
-      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
-      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 23.0}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.95}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 23.03}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
     MaxPressure:
       After: GL562
       Segments:
-      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
-      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.9}
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.95}
+      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.92}
       - {Identifier: GL565, Track: 85.6, DistanceNM: 11.9}
-      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.1}
-      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
+      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.11}
+      - {Identifier: GL620, Track: 114.1, DistanceNM: 5.0}
+      - {Identifier: GL621, Track: 114.1, DistanceNM: 4.85}
+      - {Identifier: GL622, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: GL623, Track: 114.1, DistanceNM: 3.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 4.18}
   - FeederFix: VOLAT
     RunwayIdentifier: 29L
     Segments:
-    - {Identifier: OTETA, Track: 106.2, DistanceNM: 71}
-    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.7}
-    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.1}
-    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+    - {Identifier: OTETA, Track: 106.2, DistanceNM: 71.0}
+    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.72}
+    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.08}
+    - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+    - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     Pressure:
       After: GL801
       Segments:
-      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
-      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
-      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.0}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.91}
+      - {Identifier: GL803, Track: 23.0, DistanceNM: 11.95}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 22.97}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
     MaxPressure:
       After: GL801
       Segments:
-      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
-      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
-      - {Identifier: GL804, Track: 353.2, DistanceNM: 12}
-      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.9}
-      - {Identifier: PLADE, Track: 218, DistanceNM: 23}
-      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.91}
+      - {Identifier: GL803, Track: 23.0, DistanceNM: 11.95}
+      - {Identifier: GL804, Track: 353.2, DistanceNM: 11.96}
+      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.93}
+      - {Identifier: PLADE, Track: 218.0, DistanceNM: 23.05}
+      - {Identifier: GL980, Track: 294.2, DistanceNM: 3.19}
+      - {Identifier: GL981, Track: 294.2, DistanceNM: 5.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 8.81}
   DepartureAirports:
   - {Identifier: MMAA, Aircraft: [JET], Distance: 303, EstimatedFlightTimeMinutes: 55}
   - {Identifier: MMAA, Aircraft: [NONJET], Distance: 303, EstimatedFlightTimeMinutes: 88}
@@ -1734,23 +1860,29 @@ Airports:
   - FeederFix: ANALU
     RunwayIdentifier: '28'
     Segments:
-    - {Identifier: AA507, Track: 197.2, DistanceNM: 20.8}
-    - {Identifier: AA506, Track: 197.2, DistanceNM: 12.5}
-    - {Identifier: ITRAM, Track: 197.2, DistanceNM: 11}
-    - {Identifier: '28', Track: 258.6, DistanceNM: 10.2}
+    - {Identifier: AA507, Track: 197.2, DistanceNM: 20.82}
+    - {Identifier: AA506, Track: 197.2, DistanceNM: 12.48}
+    - {Identifier: ITRAM, Track: 197.2, DistanceNM: 11.05}
+    - {Identifier: AA501, Track: 197.9, DistanceNM: 5.02}
+    - {Identifier: AA500, Track: 288.1, DistanceNM: 5.0}
+    - {Identifier: '28', Track: 288.1, DistanceNM: 3.89}
   - FeederFix: ANVAN
     RunwayIdentifier: '28'
     Segments:
-    - {Identifier: AA518, Track: 289, DistanceNM: 21.4}
-    - {Identifier: AVRIM, Track: 288.9, DistanceNM: 13.5}
-    - {Identifier: '28', Track: 288.2, DistanceNM: 13.9}
+    - {Identifier: AA518, Track: 289.0, DistanceNM: 21.36}
+    - {Identifier: AVRIM, Track: 288.9, DistanceNM: 13.47}
+    - {Identifier: AA501, Track: 288.2, DistanceNM: 5.0}
+    - {Identifier: AA500, Track: 288.1, DistanceNM: 5.0}
+    - {Identifier: '28', Track: 288.1, DistanceNM: 3.89}
   - FeederFix: AVURO
     RunwayIdentifier: '28'
     Segments:
-    - {Identifier: AA409, Track: 117.1, DistanceNM: 30.5}
-    - {Identifier: AA505, Track: 108, DistanceNM: 25.3}
-    - {Identifier: ITRAM, Track: 108.1, DistanceNM: 15}
-    - {Identifier: '28', Track: 258.6, DistanceNM: 10.2}
+    - {Identifier: AA409, Track: 117.1, DistanceNM: 30.54}
+    - {Identifier: AA505, Track: 108.0, DistanceNM: 25.26}
+    - {Identifier: ITRAM, Track: 108.1, DistanceNM: 14.99}
+    - {Identifier: AA501, Track: 197.9, DistanceNM: 5.02}
+    - {Identifier: AA500, Track: 288.1, DistanceNM: 5.0}
+    - {Identifier: '28', Track: 288.1, DistanceNM: 3.89}
   DepartureAirports: []
   Views:
   - Identifier: ALL
