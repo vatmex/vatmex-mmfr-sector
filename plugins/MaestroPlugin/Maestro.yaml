@@ -2182,23 +2182,25 @@ Airports:
     - {Identifier: MY408, Track: 301.4, DistanceNM: 2.1}
     - {Identifier: '30', Track: 301.4, DistanceNM: 5.36}
   Views:
-  - Identifier: '12'
-    LeftLadder:
-      FeederFixes:
+  - Identifier: ALL
+    LabelLayout: Enroute
+    TimeWindowMinutes: 30
+    Reference: FeederFixTime
+    Ladders:
+    - FeederFixes:
       - ITPIS
       - NOTAL
+    - FeederFixes:
       - RETOS
       - SLW
-      Runways:
+  - Identifier: RWY
+    LabelLayout: TMA
+    TimeWindowMinutes: 30
+    Reference: LandingTime
+    Ladders:
+    - Runways:
       - '12'
-  - Identifier: '30'
-    LeftLadder:
-      FeederFixes:
-      - ITPIS
-      - NOTAL
-      - RETOS
-      - SLW
-      Runways:
+    - Runways:
       - '30'
   DepartureAirports:
   - {Identifier: MMAA, Aircraft: [JET], Distance: 542, EstimatedFlightTimeMinutes: 87}
