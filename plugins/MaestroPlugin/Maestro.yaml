@@ -206,1204 +206,352 @@ Airports:
   - FeederFix: DARAN
     RunwayIdentifier: 05R
     Segments:
-    - Identifier: MX750
-      Track: 169.4
-      DistanceNM: 22.7
-    - Identifier: MX752
-      Track: 124.9
-      DistanceNM: 6.5
-    - Identifier: ALMIS
-      Track: 122.1
-      DistanceNM: 20.0
-    - Identifier: UKTEN
-      Track: 143.7
-      DistanceNM: 5.3
-    - Identifier: 05R
-      Track: 124.2
-      DistanceNM: 10.5
+    - {Identifier: MX750, Track: 169.4, DistanceNM: 22.7}
+    - {Identifier: MX752, Track: 124.9, DistanceNM: 6.5}
+    - {Identifier: ALMIS, Track: 122.1, DistanceNM: 20.0}
+    - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
+    - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
     Pressure:
       After: MX752
       Segments:
-      - Identifier: MX754
-        Track: 46.2
-        DistanceNM: 10
-      - Identifier: ALMIS
-        Track: 151.1
-        DistanceNM: 20.1
-      - Identifier: UKTEN
-        Track: 143.7
-        DistanceNM: 5.3
-      - Identifier: 05R
-        Track: 124.2
-        DistanceNM: 10.5
+      - {Identifier: MX754, Track: 46.2, DistanceNM: 10}
+      - {Identifier: ALMIS, Track: 151.1, DistanceNM: 20.1}
+      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
+      - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
     MaxPressure:
       After: MX752
       Segments:
-      - Identifier: MX754
-        Track: 46.2
-        DistanceNM: 10
-      - Identifier: MX756
-        Track: 75.4
-        DistanceNM: 10
-      - Identifier: ALMIS
-        Track: 180
-        DistanceNM: 20.1
-      - Identifier: UKTEN
-        Track: 143.7
-        DistanceNM: 5.3
-      - Identifier: 05R
-        Track: 124.2
-        DistanceNM: 10.5
+      - {Identifier: MX754, Track: 46.2, DistanceNM: 10}
+      - {Identifier: MX756, Track: 75.4, DistanceNM: 10}
+      - {Identifier: ALMIS, Track: 180, DistanceNM: 20.1}
+      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
+      - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
   - FeederFix: ESPOS
     RunwayIdentifier: 05R
     Segments:
-    - Identifier: MX770
-      Track: 65.8
-      DistanceNM: 28
-    - Identifier: MX772
-      Track: 65.9
-      DistanceNM: 7
-    - Identifier: URNOK
-      Track: 48.7
-      DistanceNM: 19.0
-    - Identifier: EPRIM
-      Track: 316.8
-      DistanceNM: 5.3
-    - Identifier: 05R
-      Track: 358.2
-      DistanceNM: 11.2
+    - {Identifier: MX770, Track: 65.8, DistanceNM: 28}
+    - {Identifier: MX772, Track: 65.9, DistanceNM: 7}
+    - {Identifier: URNOK, Track: 48.7, DistanceNM: 19.0}
+    - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
+    - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
     Pressure:
       After: MX772
       Segments:
-      - Identifier: MX774
-        Track: 126.2
-        DistanceNM: 8.5
-      - Identifier: URNOK
-        Track: 23.1
-        DistanceNM: 19.1
-      - Identifier: EPRIM
-        Track: 316.8
-        DistanceNM: 5.3
-      - Identifier: 05R
-        Track: 358.2
-        DistanceNM: 11.2
+      - {Identifier: MX774, Track: 126.2, DistanceNM: 8.5}
+      - {Identifier: URNOK, Track: 23.1, DistanceNM: 19.1}
+      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
+      - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
     MaxPressure:
       After: MX772
       Segments:
-      - Identifier: MX774
-        Track: 126.2
-        DistanceNM: 8.5
-      - Identifier: MX776
-        Track: 100.4
-        DistanceNM: 8.4
-      - Identifier: URNOK
-        Track: 357.6
-        DistanceNM: 19.1
-      - Identifier: EPRIM
-        Track: 316.8
-        DistanceNM: 5.3
-      - Identifier: 05R
-        Track: 358.2
-        DistanceNM: 11.2
+      - {Identifier: MX774, Track: 126.2, DistanceNM: 8.5}
+      - {Identifier: MX776, Track: 100.4, DistanceNM: 8.4}
+      - {Identifier: URNOK, Track: 357.6, DistanceNM: 19.1}
+      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
+      - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
   - FeederFix: ENAGA
     RunwayIdentifier: 05R
     Segments:
-    - Identifier: MX751
-      Track: 257.9
-      DistanceNM: 32
-    - Identifier: MX753
-      Track: 263.3
-      DistanceNM: 9.2
-    - Identifier: MX755
-      Track: 274.1
-      DistanceNM: 22
-    - Identifier: ALMIS
-      Track: 180.0
-      DistanceNM: 19.1
-    - Identifier: UKTEN
-      Track: 143.7
-      DistanceNM: 5.3
-    - Identifier: 05R
-      Track: 124.2
-      DistanceNM: 10.5
+    - {Identifier: MX751, Track: 257.9, DistanceNM: 32}
+    - {Identifier: MX753, Track: 263.3, DistanceNM: 9.2}
+    - {Identifier: MX755, Track: 274.1, DistanceNM: 22}
+    - {Identifier: ALMIS, Track: 180.0, DistanceNM: 19.1}
+    - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
+    - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
     Pressure:
       After: MX755
       Segments:
-      - Identifier: MX757
-        Track: 255.4
-        DistanceNM: 9.5
-      - Identifier: ALMIS
-        Track: 151.1
-        DistanceNM: 19.1
-      - Identifier: UKTEN
-        Track: 143.7
-        DistanceNM: 5.3
-      - Identifier: 05R
-        Track: 124.2
-        DistanceNM: 10.5
+      - {Identifier: MX757, Track: 255.4, DistanceNM: 9.5}
+      - {Identifier: ALMIS, Track: 151.1, DistanceNM: 19.1}
+      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
+      - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
     MaxPressure:
       After: MX755
       Segments:
-      - Identifier: MX757
-        Track: 255.4
-        DistanceNM: 9.5
-      - Identifier: MX759
-        Track: 226.3
-        DistanceNM: 9.5
-      - Identifier: ALMIS
-        Track: 122.1
-        DistanceNM: 19
-      - Identifier: UKTEN
-        Track: 143.7
-        DistanceNM: 5.3
-      - Identifier: 05R
-        Track: 124.2
-        DistanceNM: 10.5
+      - {Identifier: MX757, Track: 255.4, DistanceNM: 9.5}
+      - {Identifier: MX759, Track: 226.3, DistanceNM: 9.5}
+      - {Identifier: ALMIS, Track: 122.1, DistanceNM: 19}
+      - {Identifier: UKTEN, Track: 143.7, DistanceNM: 5.3}
+      - {Identifier: 05R, Track: 124.2, DistanceNM: 10.5}
   - FeederFix: LARLO
     RunwayIdentifier: 05R
     Segments:
-    - Identifier: MX771
-      Track: 281
-      DistanceNM: 27.9
-    - Identifier: MX773
-      Track: 282.6
-      DistanceNM: 10.7
-    - Identifier: URNOK
-      Track: 357.6
-      DistanceNM: 20.1
-    - Identifier: EPRIM
-      Track: 316.8
-      DistanceNM: 5.3
-    - Identifier: 05R
-      Track: 358.2
-      DistanceNM: 11.2
+    - {Identifier: MX771, Track: 281, DistanceNM: 27.9}
+    - {Identifier: MX773, Track: 282.6, DistanceNM: 10.7}
+    - {Identifier: URNOK, Track: 357.6, DistanceNM: 20.1}
+    - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
+    - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
     Pressure:
       After: MX773
       Segments:
-      - Identifier: MX775
-        Track: 280.5
-        DistanceNM: 8.9
-      - Identifier: URNOK
-        Track: 23.1
-        DistanceNM: 20.1
-      - Identifier: EPRIM
-        Track: 316.8
-        DistanceNM: 5.3
-      - Identifier: 05R
-        Track: 358.2
-        DistanceNM: 11.2
+      - {Identifier: MX775, Track: 280.5, DistanceNM: 8.9}
+      - {Identifier: URNOK, Track: 23.1, DistanceNM: 20.1}
+      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
+      - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
     MaxPressure:
       After: MX773
       Segments:
-      - Identifier: MX775
-        Track: 280.5
-        DistanceNM: 8.9
-      - Identifier: MX777
-        Track: 306.3
-        DistanceNM: 8.9
-      - Identifier: URNOK
-        Track: 48.7
-        DistanceNM: 20
-      - Identifier: EPRIM
-        Track: 316.8
-        DistanceNM: 5.3
-      - Identifier: 05R
-        Track: 358.2
-        DistanceNM: 11.2
+      - {Identifier: MX775, Track: 280.5, DistanceNM: 8.9}
+      - {Identifier: MX777, Track: 306.3, DistanceNM: 8.9}
+      - {Identifier: URNOK, Track: 48.7, DistanceNM: 20}
+      - {Identifier: EPRIM, Track: 316.8, DistanceNM: 5.3}
+      - {Identifier: 05R, Track: 358.2, DistanceNM: 11.2}
   - FeederFix: DARAN
     RunwayIdentifier: 23L
     Segments:
-    - Identifier: MX651
-      Track: 108.3
-      DistanceNM: 39
-    - Identifier: MX652
-      Track: 108.5
-      DistanceNM: 7.3
-    - Identifier: DUSGO
-      Track: 98.8
-      DistanceNM: 8.1
-    - Identifier: MX617
-      Track: 110.9
-      DistanceNM: 9
-    - Identifier: SESTA
-      Track: 197.9
-      DistanceNM: 19.1
-    - Identifier: ESTIN
-      Track: 239.4
-      DistanceNM: 4
-    - Identifier: 23L
-      Track: 239.3
-      DistanceNM: 13.1
+    - {Identifier: MX651, Track: 108.3, DistanceNM: 39}
+    - {Identifier: MX652, Track: 108.5, DistanceNM: 7.3}
+    - {Identifier: DUSGO, Track: 98.8, DistanceNM: 8.1}
+    - {Identifier: MX617, Track: 110.9, DistanceNM: 9}
+    - {Identifier: SESTA, Track: 197.9, DistanceNM: 19.1}
+    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+    - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
     Pressure:
       After: MX617
       Segments:
-      - Identifier: MX619
-        Track: 119.7
-        DistanceNM: 7.6
-      - Identifier: SESTA
-        Track: 220.9
-        DistanceNM: 19.0
-      - Identifier: ESTIN
-        Track: 239.4
-        DistanceNM: 4
-      - Identifier: 23L
-        Track: 239.3
-        DistanceNM: 13.1
+      - {Identifier: MX619, Track: 119.7, DistanceNM: 7.6}
+      - {Identifier: SESTA, Track: 220.9, DistanceNM: 19.0}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
     MaxPressure:
       After: MX617
       Segments:
-      - Identifier: MX619
-        Track: 119.7
-        DistanceNM: 7.6
-      - Identifier: MX621
-        Track: 142.7
-        DistanceNM: 7.6
-      - Identifier: MX623
-        Track: 165.7
-        DistanceNM: 7.6
-      - Identifier: SESTA
-        Track: 267.1
-        DistanceNM: 19
-      - Identifier: ESTIN
-        Track: 239.4
-        DistanceNM: 4
-      - Identifier: 23L
-        Track: 239.3
-        DistanceNM: 13.1
+      - {Identifier: MX619, Track: 119.7, DistanceNM: 7.6}
+      - {Identifier: MX621, Track: 142.7, DistanceNM: 7.6}
+      - {Identifier: MX623, Track: 165.7, DistanceNM: 7.6}
+      - {Identifier: SESTA, Track: 267.1, DistanceNM: 19}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
   - FeederFix: ESPOS
     RunwayIdentifier: 23L
     Segments:
-    - Identifier: MX770
-      Track: 65.8
-      DistanceNM: 28
-    - Identifier: MX661
-      Track: 66.5
-      DistanceNM: 25.3
-    - Identifier: OTMOS
-      Track: 66.7
-      DistanceNM: 7.7
-    - Identifier: MX665
-      Track: 55.2
-      DistanceNM: 29.8
-    - Identifier: MX666
-      Track: 351.4
-      DistanceNM: 6
-    - Identifier: MX667
-      Track: 351.4
-      DistanceNM: 5.2
-    - Identifier: SESTA
-      Track: 267.1
-      DistanceNM: 20.0
-    - Identifier: ESTIN
-      Track: 239.4
-      DistanceNM: 4
-    - Identifier: 23L
-      Track: 239.3
-      DistanceNM: 13.1
+    - {Identifier: MX770, Track: 65.8, DistanceNM: 28}
+    - {Identifier: MX661, Track: 66.5, DistanceNM: 25.3}
+    - {Identifier: OTMOS, Track: 66.7, DistanceNM: 7.7}
+    - {Identifier: MX665, Track: 55.2, DistanceNM: 29.8}
+    - {Identifier: MX666, Track: 351.4, DistanceNM: 6}
+    - {Identifier: MX667, Track: 351.4, DistanceNM: 5.2}
+    - {Identifier: SESTA, Track: 267.1, DistanceNM: 20.0}
+    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+    - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
     Pressure:
       After: MX667
       Segments:
-      - Identifier: MX669
-        Track: 345.7
-        DistanceNM: 8
-      - Identifier: SESTA
-        Track: 244.0
-        DistanceNM: 20.0
-      - Identifier: ESTIN
-        Track: 239.4
-        DistanceNM: 4
-      - Identifier: 23L
-        Track: 239.3
-        DistanceNM: 13.1
+      - {Identifier: MX669, Track: 345.7, DistanceNM: 8}
+      - {Identifier: SESTA, Track: 244.0, DistanceNM: 20.0}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
     MaxPressure:
       After: MX667
       Segments:
-      - Identifier: MX669
-        Track: 345.7
-        DistanceNM: 8
-      - Identifier: MX671
-        Track: 322.8
-        DistanceNM: 8
-      - Identifier: MX602
-        Track: 299.7
-        DistanceNM: 8
-      - Identifier: SESTA
-        Track: 197.9
-        DistanceNM: 20.1
-      - Identifier: ESTIN
-        Track: 239.4
-        DistanceNM: 4
-      - Identifier: 23L
-        Track: 239.3
-        DistanceNM: 13.1
+      - {Identifier: MX669, Track: 345.7, DistanceNM: 8}
+      - {Identifier: MX671, Track: 322.8, DistanceNM: 8}
+      - {Identifier: MX602, Track: 299.7, DistanceNM: 8}
+      - {Identifier: SESTA, Track: 197.9, DistanceNM: 20.1}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
   - FeederFix: ENAGA
     RunwayIdentifier: 23L
     Segments:
-    - Identifier: MX641
-      Track: 198.7
-      DistanceNM: 21.8
-    - Identifier: SESTA
-      Track: 259.4
-      DistanceNM: 28.0
-    - Identifier: ESTIN
-      Track: 239.4
-      DistanceNM: 4
-    - Identifier: 23L
-      Track: 239.3
-      DistanceNM: 13.1
+    - {Identifier: MX641, Track: 198.7, DistanceNM: 21.8}
+    - {Identifier: SESTA, Track: 259.4, DistanceNM: 28.0}
+    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+    - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
     Pressure:
       After: MX641
       Segments:
-      - Identifier: MX643
-        Track: 259.4
-        DistanceNM: 7
-      - Identifier: MX645
-        Track: 341.9
-        DistanceNM: 5.6
-      - Identifier: SESTA
-        Track: 244.0
-        DistanceNM: 21.0
-      - Identifier: ESTIN
-        Track: 239.4
-        DistanceNM: 4
-      - Identifier: 23L
-        Track: 239.3
-        DistanceNM: 13.1
+      - {Identifier: MX643, Track: 259.4, DistanceNM: 7}
+      - {Identifier: MX645, Track: 341.9, DistanceNM: 5.6}
+      - {Identifier: SESTA, Track: 244.0, DistanceNM: 21.0}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
     MaxPressure:
       After: MX641
       Segments:
-      - Identifier: MX643
-        Track: 259.4
-        DistanceNM: 7
-      - Identifier: MX645
-        Track: 341.9
-        DistanceNM: 5.6
-      - Identifier: MX647
-        Track: 322.8
-        DistanceNM: 8.4
-      - Identifier: MX649
-        Track: 299.7
-        DistanceNM: 8.4
-      - Identifier: SESTA
-        Track: 197.9
-        DistanceNM: 21.1
-      - Identifier: ESTIN
-        Track: 239.4
-        DistanceNM: 4
-      - Identifier: 23L
-        Track: 239.3
-        DistanceNM: 13.1
+      - {Identifier: MX643, Track: 259.4, DistanceNM: 7}
+      - {Identifier: MX645, Track: 341.9, DistanceNM: 5.6}
+      - {Identifier: MX647, Track: 322.8, DistanceNM: 8.4}
+      - {Identifier: MX649, Track: 299.7, DistanceNM: 8.4}
+      - {Identifier: SESTA, Track: 197.9, DistanceNM: 21.1}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
   - FeederFix: LARLO
     RunwayIdentifier: 23L
     Segments:
-    - Identifier: PBC
-      Track: 355.4
-      DistanceNM: 26.7
-    - Identifier: MX665
-      Track: 351.5
-      DistanceNM: 15.9
-    - Identifier: MX666
-      Track: 351.4
-      DistanceNM: 6
-    - Identifier: MX667
-      Track: 351.4
-      DistanceNM: 5.2
-    - Identifier: SESTA
-      Track: 267.1
-      DistanceNM: 20.0
-    - Identifier: ESTIN
-      Track: 239.4
-      DistanceNM: 4
-    - Identifier: 23L
-      Track: 239.3
-      DistanceNM: 13.1
+    - {Identifier: PBC, Track: 355.4, DistanceNM: 26.7}
+    - {Identifier: MX665, Track: 351.5, DistanceNM: 15.9}
+    - {Identifier: MX666, Track: 351.4, DistanceNM: 6}
+    - {Identifier: MX667, Track: 351.4, DistanceNM: 5.2}
+    - {Identifier: SESTA, Track: 267.1, DistanceNM: 20.0}
+    - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+    - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
     Pressure:
       After: MX667
       Segments:
-      - Identifier: MX669
-        Track: 345.7
-        DistanceNM: 8
-      - Identifier: SESTA
-        Track: 244.0
-        DistanceNM: 20.0
-      - Identifier: ESTIN
-        Track: 239.4
-        DistanceNM: 4
-      - Identifier: 23L
-        Track: 239.3
-        DistanceNM: 13.1
+      - {Identifier: MX669, Track: 345.7, DistanceNM: 8}
+      - {Identifier: SESTA, Track: 244.0, DistanceNM: 20.0}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
     MaxPressure:
       After: MX667
       Segments:
-      - Identifier: MX669
-        Track: 345.7
-        DistanceNM: 8
-      - Identifier: MX671
-        Track: 322.8
-        DistanceNM: 8
-      - Identifier: MX602
-        Track: 299.7
-        DistanceNM: 8
-      - Identifier: SESTA
-        Track: 197.9
-        DistanceNM: 20.1
-      - Identifier: ESTIN
-        Track: 239.4
-        DistanceNM: 4
-      - Identifier: 23L
-        Track: 239.3
-        DistanceNM: 13.1
+      - {Identifier: MX669, Track: 345.7, DistanceNM: 8}
+      - {Identifier: MX671, Track: 322.8, DistanceNM: 8}
+      - {Identifier: MX602, Track: 299.7, DistanceNM: 8}
+      - {Identifier: SESTA, Track: 197.9, DistanceNM: 20.1}
+      - {Identifier: ESTIN, Track: 239.4, DistanceNM: 4}
+      - {Identifier: 23L, Track: 239.3, DistanceNM: 13.1}
   DepartureAirports:
-  - Identifier: MMAA
-    Aircraft:
-    - JET
-    Distance: 165
-    EstimatedFlightTimeMinutes: 27
-  - Identifier: MMAA
-    Aircraft:
-    - NONJET
-    Distance: 165
-    EstimatedFlightTimeMinutes: 45
-  - Identifier: MMAN
-    Aircraft:
-    - JET
-    Distance: 391
-    EstimatedFlightTimeMinutes: 57
-  - Identifier: MMAN
-    Aircraft:
-    - NONJET
-    Distance: 391
-    EstimatedFlightTimeMinutes: 99
-  - Identifier: MMAS
-    Aircraft:
-    - JET
-    Distance: 228
-    EstimatedFlightTimeMinutes: 35
-  - Identifier: MMAS
-    Aircraft:
-    - NONJET
-    Distance: 228
-    EstimatedFlightTimeMinutes: 60
-  - Identifier: MMBT
-    Aircraft:
-    - JET
-    Distance: 272
-    EstimatedFlightTimeMinutes: 41
-  - Identifier: MMBT
-    Aircraft:
-    - NONJET
-    Distance: 272
-    EstimatedFlightTimeMinutes: 70
-  - Identifier: MMCB
-    Aircraft:
-    - JET
-    Distance: 38
-    EstimatedFlightTimeMinutes: 10
-  - Identifier: MMCB
-    Aircraft:
-    - NONJET
-    Distance: 38
-    EstimatedFlightTimeMinutes: 14
-  - Identifier: MMCE
-    Aircraft:
-    - JET
-    Distance: 415
-    EstimatedFlightTimeMinutes: 60
-  - Identifier: MMCE
-    Aircraft:
-    - NONJET
-    Distance: 415
-    EstimatedFlightTimeMinutes: 105
-  - Identifier: MMCL
-    Aircraft:
-    - JET
-    Distance: 566
-    EstimatedFlightTimeMinutes: 80
-  - Identifier: MMCL
-    Aircraft:
-    - NONJET
-    Distance: 566
-    EstimatedFlightTimeMinutes: 141
-  - Identifier: MMCM
-    Aircraft:
-    - JET
-    Distance: 613
-    EstimatedFlightTimeMinutes: 87
-  - Identifier: MMCM
-    Aircraft:
-    - NONJET
-    Distance: 613
-    EstimatedFlightTimeMinutes: 152
-  - Identifier: MMCN
-    Aircraft:
-    - JET
-    Distance: 761
-    EstimatedFlightTimeMinutes: 106
-  - Identifier: MMCN
-    Aircraft:
-    - NONJET
-    Distance: 761
-    EstimatedFlightTimeMinutes: 188
-  - Identifier: MMCP
-    Aircraft:
-    - JET
-    Distance: 485
-    EstimatedFlightTimeMinutes: 70
-  - Identifier: MMCP
-    Aircraft:
-    - NONJET
-    Distance: 485
-    EstimatedFlightTimeMinutes: 121
-  - Identifier: MMCS
-    Aircraft:
-    - JET
-    Distance: 833
-    EstimatedFlightTimeMinutes: 116
-  - Identifier: MMCS
-    Aircraft:
-    - NONJET
-    Distance: 833
-    EstimatedFlightTimeMinutes: 205
-  - Identifier: MMCT
-    Aircraft:
-    - JET
-    Distance: 604
-    EstimatedFlightTimeMinutes: 86
-  - Identifier: MMCT
-    Aircraft:
-    - NONJET
-    Distance: 604
-    EstimatedFlightTimeMinutes: 150
-  - Identifier: MMCU
-    Aircraft:
-    - JET
-    Distance: 672
-    EstimatedFlightTimeMinutes: 95
-  - Identifier: MMCU
-    Aircraft:
-    - NONJET
-    Distance: 672
-    EstimatedFlightTimeMinutes: 166
-  - Identifier: MMCV
-    Aircraft:
-    - JET
-    Distance: 256
-    EstimatedFlightTimeMinutes: 39
-  - Identifier: MMCV
-    Aircraft:
-    - NONJET
-    Distance: 256
-    EstimatedFlightTimeMinutes: 66
-  - Identifier: MMCY
-    Aircraft:
-    - JET
-    Distance: 123
-    EstimatedFlightTimeMinutes: 21
-  - Identifier: MMCY
-    Aircraft:
-    - NONJET
-    Distance: 123
-    EstimatedFlightTimeMinutes: 35
-  - Identifier: MMCZ
-    Aircraft:
-    - JET
-    Distance: 688
-    EstimatedFlightTimeMinutes: 97
-  - Identifier: MMCZ
-    Aircraft:
-    - NONJET
-    Distance: 688
-    EstimatedFlightTimeMinutes: 170
-  - Identifier: MMDO
-    Aircraft:
-    - JET
-    Distance: 414
-    EstimatedFlightTimeMinutes: 60
-  - Identifier: MMDO
-    Aircraft:
-    - NONJET
-    Distance: 414
-    EstimatedFlightTimeMinutes: 104
-  - Identifier: MMEP
-    Aircraft:
-    - JET
-    Distance: 346
-    EstimatedFlightTimeMinutes: 51
-  - Identifier: MMEP
-    Aircraft:
-    - NONJET
-    Distance: 346
-    EstimatedFlightTimeMinutes: 88
-  - Identifier: MMES
-    Aircraft:
-    - JET
-    Distance: 1202
-    EstimatedFlightTimeMinutes: 165
-  - Identifier: MMES
-    Aircraft:
-    - NONJET
-    Distance: 1202
-    EstimatedFlightTimeMinutes: 293
-  - Identifier: MMGA
-    Aircraft:
-    - JET
-    Distance: 686
-    EstimatedFlightTimeMinutes: 96
-  - Identifier: MMGA
-    Aircraft:
-    - NONJET
-    Distance: 686
-    EstimatedFlightTimeMinutes: 170
-  - Identifier: MMGL
-    Aircraft:
-    - JET
-    Distance: 248
-    EstimatedFlightTimeMinutes: 38
-  - Identifier: MMGL
-    Aircraft:
-    - NONJET
-    Distance: 248
-    EstimatedFlightTimeMinutes: 65
-  - Identifier: MMGM
-    Aircraft:
-    - JET
-    Distance: 828
-    EstimatedFlightTimeMinutes: 115
-  - Identifier: MMGM
-    Aircraft:
-    - NONJET
-    Distance: 828
-    EstimatedFlightTimeMinutes: 204
-  - Identifier: MMHC
-    Aircraft:
-    - JET
-    Distance: 110
-    EstimatedFlightTimeMinutes: 20
-  - Identifier: MMHC
-    Aircraft:
-    - NONJET
-    Distance: 110
-    EstimatedFlightTimeMinutes: 31
-  - Identifier: MMHO
-    Aircraft:
-    - JET
-    Distance: 874
-    EstimatedFlightTimeMinutes: 122
-  - Identifier: MMHO
-    Aircraft:
-    - NONJET
-    Distance: 874
-    EstimatedFlightTimeMinutes: 215
-  - Identifier: MMIA
-    Aircraft:
-    - JET
-    Distance: 255
-    EstimatedFlightTimeMinutes: 39
-  - Identifier: MMIA
-    Aircraft:
-    - NONJET
-    Distance: 255
-    EstimatedFlightTimeMinutes: 66
-  - Identifier: MMIO
-    Aircraft:
-    - JET
-    Distance: 381
-    EstimatedFlightTimeMinutes: 56
-  - Identifier: MMIO
-    Aircraft:
-    - NONJET
-    Distance: 381
-    EstimatedFlightTimeMinutes: 96
-  - Identifier: MMIT
-    Aircraft:
-    - JET
-    Distance: 290
-    EstimatedFlightTimeMinutes: 44
-  - Identifier: MMIT
-    Aircraft:
-    - NONJET
-    Distance: 290
-    EstimatedFlightTimeMinutes: 75
-  - Identifier: MMJA
-    Aircraft:
-    - JET
-    Distance: 129
-    EstimatedFlightTimeMinutes: 22
-  - Identifier: MMJA
-    Aircraft:
-    - NONJET
-    Distance: 129
-    EstimatedFlightTimeMinutes: 36
-  - Identifier: MMJC
-    Aircraft:
-    - JET
-    Distance: 15
-    EstimatedFlightTimeMinutes: 7
-  - Identifier: MMJC
-    Aircraft:
-    - NONJET
-    Distance: 15
-    EstimatedFlightTimeMinutes: 9
-  - Identifier: MMLC
-    Aircraft:
-    - JET
-    Distance: 199
-    EstimatedFlightTimeMinutes: 32
-  - Identifier: MMLC
-    Aircraft:
-    - NONJET
-    Distance: 199
-    EstimatedFlightTimeMinutes: 53
-  - Identifier: MMLM
-    Aircraft:
-    - JET
-    Distance: 669
-    EstimatedFlightTimeMinutes: 94
-  - Identifier: MMLM
-    Aircraft:
-    - NONJET
-    Distance: 669
-    EstimatedFlightTimeMinutes: 166
-  - Identifier: MMLO
-    Aircraft:
-    - JET
-    Distance: 165
-    EstimatedFlightTimeMinutes: 27
-  - Identifier: MMLO
-    Aircraft:
-    - NONJET
-    Distance: 165
-    EstimatedFlightTimeMinutes: 45
-  - Identifier: MMLP
-    Aircraft:
-    - JET
-    Distance: 688
-    EstimatedFlightTimeMinutes: 97
-  - Identifier: MMLP
-    Aircraft:
-    - NONJET
-    Distance: 688
-    EstimatedFlightTimeMinutes: 170
-  - Identifier: MMLT
-    Aircraft:
-    - JET
-    Distance: 785
-    EstimatedFlightTimeMinutes: 110
-  - Identifier: MMLT
-    Aircraft:
-    - NONJET
-    Distance: 785
-    EstimatedFlightTimeMinutes: 193
-  - Identifier: MMMA
-    Aircraft:
-    - JET
-    Distance: 390
-    EstimatedFlightTimeMinutes: 57
-  - Identifier: MMMA
-    Aircraft:
-    - NONJET
-    Distance: 390
-    EstimatedFlightTimeMinutes: 99
-  - Identifier: MMMD
-    Aircraft:
-    - JET
-    Distance: 538
-    EstimatedFlightTimeMinutes: 77
-  - Identifier: MMMD
-    Aircraft:
-    - NONJET
-    Distance: 538
-    EstimatedFlightTimeMinutes: 134
-  - Identifier: MMML
-    Aircraft:
-    - JET
-    Distance: 1175
-    EstimatedFlightTimeMinutes: 162
-  - Identifier: MMML
-    Aircraft:
-    - NONJET
-    Distance: 1175
-    EstimatedFlightTimeMinutes: 287
-  - Identifier: MMMM
-    Aircraft:
-    - JET
-    Distance: 113
-    EstimatedFlightTimeMinutes: 20
-  - Identifier: MMMM
-    Aircraft:
-    - NONJET
-    Distance: 113
-    EstimatedFlightTimeMinutes: 32
-  - Identifier: MMMT
-    Aircraft:
-    - JET
-    Distance: 268
-    EstimatedFlightTimeMinutes: 41
-  - Identifier: MMMT
-    Aircraft:
-    - NONJET
-    Distance: 268
-    EstimatedFlightTimeMinutes: 69
-  - Identifier: MMMV
-    Aircraft:
-    - JET
-    Distance: 470
-    EstimatedFlightTimeMinutes: 68
-  - Identifier: MMMV
-    Aircraft:
-    - NONJET
-    Distance: 470
-    EstimatedFlightTimeMinutes: 118
-  - Identifier: MMMY
-    Aircraft:
-    - JET
-    Distance: 385
-    EstimatedFlightTimeMinutes: 56
-  - Identifier: MMMY
-    Aircraft:
-    - NONJET
-    Distance: 385
-    EstimatedFlightTimeMinutes: 97
-  - Identifier: MMMZ
-    Aircraft:
-    - JET
-    Distance: 460
-    EstimatedFlightTimeMinutes: 66
-  - Identifier: MMMZ
-    Aircraft:
-    - NONJET
-    Distance: 460
-    EstimatedFlightTimeMinutes: 115
-  - Identifier: MMNG
-    Aircraft:
-    - JET
-    Distance: 957
-    EstimatedFlightTimeMinutes: 133
-  - Identifier: MMNG
-    Aircraft:
-    - NONJET
-    Distance: 957
-    EstimatedFlightTimeMinutes: 235
-  - Identifier: MMNL
-    Aircraft:
-    - JET
-    Distance: 482
-    EstimatedFlightTimeMinutes: 69
-  - Identifier: MMNL
-    Aircraft:
-    - NONJET
-    Distance: 482
-    EstimatedFlightTimeMinutes: 121
-  - Identifier: MMOX
-    Aircraft:
-    - JET
-    Distance: 198
-    EstimatedFlightTimeMinutes: 31
-  - Identifier: MMOX
-    Aircraft:
-    - NONJET
-    Distance: 198
-    EstimatedFlightTimeMinutes: 53
-  - Identifier: MMPA
-    Aircraft:
-    - JET
-    Distance: 115
-    EstimatedFlightTimeMinutes: 20
-  - Identifier: MMPA
-    Aircraft:
-    - NONJET
-    Distance: 115
-    EstimatedFlightTimeMinutes: 33
-  - Identifier: MMPB
-    Aircraft:
-    - JET
-    Distance: 43
-    EstimatedFlightTimeMinutes: 11
-  - Identifier: MMPB
-    Aircraft:
-    - NONJET
-    Distance: 43
-    EstimatedFlightTimeMinutes: 15
-  - Identifier: MMPC
-    Aircraft:
-    - JET
-    Distance: 42
-    EstimatedFlightTimeMinutes: 11
-  - Identifier: MMPC
-    Aircraft:
-    - NONJET
-    Distance: 42
-    EstimatedFlightTimeMinutes: 15
-  - Identifier: MMPE
-    Aircraft:
-    - JET
-    Distance: 1050
-    EstimatedFlightTimeMinutes: 145
-  - Identifier: MMPE
-    Aircraft:
-    - NONJET
-    Distance: 1050
-    EstimatedFlightTimeMinutes: 257
-  - Identifier: MMPG
-    Aircraft:
-    - JET
-    Distance: 558
-    EstimatedFlightTimeMinutes: 79
-  - Identifier: MMPG
-    Aircraft:
-    - NONJET
-    Distance: 558
-    EstimatedFlightTimeMinutes: 139
-  - Identifier: MMPN
-    Aircraft:
-    - JET
-    Distance: 168
-    EstimatedFlightTimeMinutes: 27
-  - Identifier: MMPN
-    Aircraft:
-    - NONJET
-    Distance: 168
-    EstimatedFlightTimeMinutes: 45
-  - Identifier: MMPQ
-    Aircraft:
-    - JET
-    Distance: 418
-    EstimatedFlightTimeMinutes: 61
-  - Identifier: MMPQ
-    Aircraft:
-    - NONJET
-    Distance: 418
-    EstimatedFlightTimeMinutes: 105
-  - Identifier: MMPR
-    Aircraft:
-    - JET
-    Distance: 356
-    EstimatedFlightTimeMinutes: 52
-  - Identifier: MMPR
-    Aircraft:
-    - NONJET
-    Distance: 356
-    EstimatedFlightTimeMinutes: 90
-  - Identifier: MMPS
-    Aircraft:
-    - JET
-    Distance: 242
-    EstimatedFlightTimeMinutes: 37
-  - Identifier: MMPS
-    Aircraft:
-    - NONJET
-    Distance: 242
-    EstimatedFlightTimeMinutes: 63
-  - Identifier: MMQT
-    Aircraft:
-    - JET
-    Distance: 95
-    EstimatedFlightTimeMinutes: 18
-  - Identifier: MMQT
-    Aircraft:
-    - NONJET
-    Distance: 95
-    EstimatedFlightTimeMinutes: 28
-  - Identifier: MMRX
-    Aircraft:
-    - JET
-    Distance: 397
-    EstimatedFlightTimeMinutes: 58
-  - Identifier: MMRX
-    Aircraft:
-    - NONJET
-    Distance: 397
-    EstimatedFlightTimeMinutes: 100
-  - Identifier: MMSD
-    Aircraft:
-    - JET
-    Distance: 636
-    EstimatedFlightTimeMinutes: 90
-  - Identifier: MMSD
-    Aircraft:
-    - NONJET
-    Distance: 636
-    EstimatedFlightTimeMinutes: 158
-  - Identifier: MMSF
-    Aircraft:
-    - JET
-    Distance: 1097
-    EstimatedFlightTimeMinutes: 151
-  - Identifier: MMSF
-    Aircraft:
-    - NONJET
-    Distance: 1097
-    EstimatedFlightTimeMinutes: 268
-  - Identifier: MMSL
-    Aircraft:
-    - JET
-    Distance: 643
-    EstimatedFlightTimeMinutes: 91
-  - Identifier: MMSL
-    Aircraft:
-    - NONJET
-    Distance: 643
-    EstimatedFlightTimeMinutes: 159
-  - Identifier: MMSM
-    Aircraft:
-    - JET
-    Distance: 19
-    EstimatedFlightTimeMinutes: 8
-  - Identifier: MMSM
-    Aircraft:
-    - NONJET
-    Distance: 19
-    EstimatedFlightTimeMinutes: 10
-  - Identifier: MMSP
-    Aircraft:
-    - JET
-    Distance: 199
-    EstimatedFlightTimeMinutes: 32
-  - Identifier: MMSP
-    Aircraft:
-    - NONJET
-    Distance: 199
-    EstimatedFlightTimeMinutes: 53
-  - Identifier: MMTC
-    Aircraft:
-    - JET
-    Distance: 440
-    EstimatedFlightTimeMinutes: 64
-  - Identifier: MMTC
-    Aircraft:
-    - NONJET
-    Distance: 440
-    EstimatedFlightTimeMinutes: 111
-  - Identifier: MMTG
-    Aircraft:
-    - JET
-    Distance: 386
-    EstimatedFlightTimeMinutes: 56
-  - Identifier: MMTG
-    Aircraft:
-    - NONJET
-    Distance: 386
-    EstimatedFlightTimeMinutes: 98
-  - Identifier: MMTJ
-    Aircraft:
-    - JET
-    Distance: 1242
-    EstimatedFlightTimeMinutes: 171
-  - Identifier: MMTJ
-    Aircraft:
-    - NONJET
-    Distance: 1242
-    EstimatedFlightTimeMinutes: 303
-  - Identifier: MMTL
-    Aircraft:
-    - JET
-    Distance: 646
-    EstimatedFlightTimeMinutes: 91
-  - Identifier: MMTL
-    Aircraft:
-    - NONJET
-    Distance: 646
-    EstimatedFlightTimeMinutes: 160
-  - Identifier: MMTM
-    Aircraft:
-    - JET
-    Distance: 184
-    EstimatedFlightTimeMinutes: 30
-  - Identifier: MMTM
-    Aircraft:
-    - NONJET
-    Distance: 184
-    EstimatedFlightTimeMinutes: 49
-  - Identifier: MMTO
-    Aircraft:
-    - JET
-    Distance: 29
-    EstimatedFlightTimeMinutes: 9
-  - Identifier: MMTO
-    Aircraft:
-    - NONJET
-    Distance: 29
-    EstimatedFlightTimeMinutes: 12
-  - Identifier: MMTP
-    Aircraft:
-    - JET
-    Distance: 475
-    EstimatedFlightTimeMinutes: 68
-  - Identifier: MMTP
-    Aircraft:
-    - NONJET
-    Distance: 475
-    EstimatedFlightTimeMinutes: 119
-  - Identifier: MMUN
-    Aircraft:
-    - JET
-    Distance: 694
-    EstimatedFlightTimeMinutes: 98
-  - Identifier: MMUN
-    Aircraft:
-    - NONJET
-    Distance: 694
-    EstimatedFlightTimeMinutes: 172
-  - Identifier: MMVA
-    Aircraft:
-    - JET
-    Distance: 366
-    EstimatedFlightTimeMinutes: 54
-  - Identifier: MMVA
-    Aircraft:
-    - NONJET
-    Distance: 366
-    EstimatedFlightTimeMinutes: 93
-  - Identifier: MMVR
-    Aircraft:
-    - JET
-    Distance: 164
-    EstimatedFlightTimeMinutes: 27
-  - Identifier: MMVR
-    Aircraft:
-    - NONJET
-    Distance: 164
-    EstimatedFlightTimeMinutes: 44
-  - Identifier: MMZC
-    Aircraft:
-    - JET
-    Distance: 290
-    EstimatedFlightTimeMinutes: 44
-  - Identifier: MMZC
-    Aircraft:
-    - NONJET
-    Distance: 290
-    EstimatedFlightTimeMinutes: 75
-  - Identifier: MMZH
-    Aircraft:
-    - JET
-    Distance: 175
-    EstimatedFlightTimeMinutes: 28
-  - Identifier: MMZH
-    Aircraft:
-    - NONJET
-    Distance: 175
-    EstimatedFlightTimeMinutes: 47
-  - Identifier: MMZM
-    Aircraft:
-    - JET
-    Distance: 185
-    EstimatedFlightTimeMinutes: 30
-  - Identifier: MMZM
-    Aircraft:
-    - NONJET
-    Distance: 185
-    EstimatedFlightTimeMinutes: 49
-  - Identifier: MMZO
-    Aircraft:
-    - JET
-    Distance: 311
-    EstimatedFlightTimeMinutes: 46
-  - Identifier: MMZO
-    Aircraft:
-    - NONJET
-    Distance: 311
-    EstimatedFlightTimeMinutes: 80
+  - {Identifier: MMAA, Aircraft: [JET], Distance: 165, EstimatedFlightTimeMinutes: 37}
+  - {Identifier: MMAA, Aircraft: [NONJET], Distance: 165, EstimatedFlightTimeMinutes: 55}
+  - {Identifier: MMAN, Aircraft: [JET], Distance: 391, EstimatedFlightTimeMinutes: 67}
+  - {Identifier: MMAN, Aircraft: [NONJET], Distance: 391, EstimatedFlightTimeMinutes: 109}
+  - {Identifier: MMAS, Aircraft: [JET], Distance: 228, EstimatedFlightTimeMinutes: 45}
+  - {Identifier: MMAS, Aircraft: [NONJET], Distance: 228, EstimatedFlightTimeMinutes: 70}
+  - {Identifier: MMBT, Aircraft: [JET], Distance: 272, EstimatedFlightTimeMinutes: 51}
+  - {Identifier: MMBT, Aircraft: [NONJET], Distance: 272, EstimatedFlightTimeMinutes: 80}
+  - {Identifier: MMCB, Aircraft: [JET], Distance: 38, EstimatedFlightTimeMinutes: 20}
+  - {Identifier: MMCB, Aircraft: [NONJET], Distance: 38, EstimatedFlightTimeMinutes: 24}
+  - {Identifier: MMCE, Aircraft: [JET], Distance: 415, EstimatedFlightTimeMinutes: 70}
+  - {Identifier: MMCE, Aircraft: [NONJET], Distance: 415, EstimatedFlightTimeMinutes: 115}
+  - {Identifier: MMCL, Aircraft: [JET], Distance: 566, EstimatedFlightTimeMinutes: 90}
+  - {Identifier: MMCL, Aircraft: [NONJET], Distance: 566, EstimatedFlightTimeMinutes: 151}
+  - {Identifier: MMCM, Aircraft: [JET], Distance: 613, EstimatedFlightTimeMinutes: 97}
+  - {Identifier: MMCM, Aircraft: [NONJET], Distance: 613, EstimatedFlightTimeMinutes: 162}
+  - {Identifier: MMCN, Aircraft: [JET], Distance: 761, EstimatedFlightTimeMinutes: 116}
+  - {Identifier: MMCN, Aircraft: [NONJET], Distance: 761, EstimatedFlightTimeMinutes: 198}
+  - {Identifier: MMCP, Aircraft: [JET], Distance: 485, EstimatedFlightTimeMinutes: 80}
+  - {Identifier: MMCP, Aircraft: [NONJET], Distance: 485, EstimatedFlightTimeMinutes: 131}
+  - {Identifier: MMCS, Aircraft: [JET], Distance: 833, EstimatedFlightTimeMinutes: 126}
+  - {Identifier: MMCS, Aircraft: [NONJET], Distance: 833, EstimatedFlightTimeMinutes: 215}
+  - {Identifier: MMCT, Aircraft: [JET], Distance: 604, EstimatedFlightTimeMinutes: 96}
+  - {Identifier: MMCT, Aircraft: [NONJET], Distance: 604, EstimatedFlightTimeMinutes: 160}
+  - {Identifier: MMCU, Aircraft: [JET], Distance: 672, EstimatedFlightTimeMinutes: 105}
+  - {Identifier: MMCU, Aircraft: [NONJET], Distance: 672, EstimatedFlightTimeMinutes: 176}
+  - {Identifier: MMCV, Aircraft: [JET], Distance: 256, EstimatedFlightTimeMinutes: 49}
+  - {Identifier: MMCV, Aircraft: [NONJET], Distance: 256, EstimatedFlightTimeMinutes: 76}
+  - {Identifier: MMCY, Aircraft: [JET], Distance: 123, EstimatedFlightTimeMinutes: 31}
+  - {Identifier: MMCY, Aircraft: [NONJET], Distance: 123, EstimatedFlightTimeMinutes: 45}
+  - {Identifier: MMCZ, Aircraft: [JET], Distance: 688, EstimatedFlightTimeMinutes: 107}
+  - {Identifier: MMCZ, Aircraft: [NONJET], Distance: 688, EstimatedFlightTimeMinutes: 180}
+  - {Identifier: MMDO, Aircraft: [JET], Distance: 414, EstimatedFlightTimeMinutes: 70}
+  - {Identifier: MMDO, Aircraft: [NONJET], Distance: 414, EstimatedFlightTimeMinutes: 114}
+  - {Identifier: MMEP, Aircraft: [JET], Distance: 346, EstimatedFlightTimeMinutes: 61}
+  - {Identifier: MMEP, Aircraft: [NONJET], Distance: 346, EstimatedFlightTimeMinutes: 98}
+  - {Identifier: MMES, Aircraft: [JET], Distance: 1202, EstimatedFlightTimeMinutes: 175}
+  - {Identifier: MMES, Aircraft: [NONJET], Distance: 1202, EstimatedFlightTimeMinutes: 303}
+  - {Identifier: MMGA, Aircraft: [JET], Distance: 686, EstimatedFlightTimeMinutes: 106}
+  - {Identifier: MMGA, Aircraft: [NONJET], Distance: 686, EstimatedFlightTimeMinutes: 180}
+  - {Identifier: MMGL, Aircraft: [JET], Distance: 248, EstimatedFlightTimeMinutes: 48}
+  - {Identifier: MMGL, Aircraft: [NONJET], Distance: 248, EstimatedFlightTimeMinutes: 75}
+  - {Identifier: MMGM, Aircraft: [JET], Distance: 828, EstimatedFlightTimeMinutes: 125}
+  - {Identifier: MMGM, Aircraft: [NONJET], Distance: 828, EstimatedFlightTimeMinutes: 214}
+  - {Identifier: MMHC, Aircraft: [JET], Distance: 110, EstimatedFlightTimeMinutes: 30}
+  - {Identifier: MMHC, Aircraft: [NONJET], Distance: 110, EstimatedFlightTimeMinutes: 41}
+  - {Identifier: MMHO, Aircraft: [JET], Distance: 874, EstimatedFlightTimeMinutes: 132}
+  - {Identifier: MMHO, Aircraft: [NONJET], Distance: 874, EstimatedFlightTimeMinutes: 225}
+  - {Identifier: MMIA, Aircraft: [JET], Distance: 255, EstimatedFlightTimeMinutes: 49}
+  - {Identifier: MMIA, Aircraft: [NONJET], Distance: 255, EstimatedFlightTimeMinutes: 76}
+  - {Identifier: MMIO, Aircraft: [JET], Distance: 381, EstimatedFlightTimeMinutes: 66}
+  - {Identifier: MMIO, Aircraft: [NONJET], Distance: 381, EstimatedFlightTimeMinutes: 106}
+  - {Identifier: MMIT, Aircraft: [JET], Distance: 290, EstimatedFlightTimeMinutes: 54}
+  - {Identifier: MMIT, Aircraft: [NONJET], Distance: 290, EstimatedFlightTimeMinutes: 85}
+  - {Identifier: MMJA, Aircraft: [JET], Distance: 129, EstimatedFlightTimeMinutes: 32}
+  - {Identifier: MMJA, Aircraft: [NONJET], Distance: 129, EstimatedFlightTimeMinutes: 46}
+  - {Identifier: MMJC, Aircraft: [JET], Distance: 15, EstimatedFlightTimeMinutes: 17}
+  - {Identifier: MMJC, Aircraft: [NONJET], Distance: 15, EstimatedFlightTimeMinutes: 19}
+  - {Identifier: MMLC, Aircraft: [JET], Distance: 199, EstimatedFlightTimeMinutes: 42}
+  - {Identifier: MMLC, Aircraft: [NONJET], Distance: 199, EstimatedFlightTimeMinutes: 63}
+  - {Identifier: MMLM, Aircraft: [JET], Distance: 669, EstimatedFlightTimeMinutes: 104}
+  - {Identifier: MMLM, Aircraft: [NONJET], Distance: 669, EstimatedFlightTimeMinutes: 176}
+  - {Identifier: MMLO, Aircraft: [JET], Distance: 165, EstimatedFlightTimeMinutes: 37}
+  - {Identifier: MMLO, Aircraft: [NONJET], Distance: 165, EstimatedFlightTimeMinutes: 55}
+  - {Identifier: MMLP, Aircraft: [JET], Distance: 688, EstimatedFlightTimeMinutes: 107}
+  - {Identifier: MMLP, Aircraft: [NONJET], Distance: 688, EstimatedFlightTimeMinutes: 180}
+  - {Identifier: MMLT, Aircraft: [JET], Distance: 785, EstimatedFlightTimeMinutes: 120}
+  - {Identifier: MMLT, Aircraft: [NONJET], Distance: 785, EstimatedFlightTimeMinutes: 203}
+  - {Identifier: MMMA, Aircraft: [JET], Distance: 390, EstimatedFlightTimeMinutes: 67}
+  - {Identifier: MMMA, Aircraft: [NONJET], Distance: 390, EstimatedFlightTimeMinutes: 109}
+  - {Identifier: MMMD, Aircraft: [JET], Distance: 538, EstimatedFlightTimeMinutes: 87}
+  - {Identifier: MMMD, Aircraft: [NONJET], Distance: 538, EstimatedFlightTimeMinutes: 144}
+  - {Identifier: MMML, Aircraft: [JET], Distance: 1175, EstimatedFlightTimeMinutes: 172}
+  - {Identifier: MMML, Aircraft: [NONJET], Distance: 1175, EstimatedFlightTimeMinutes: 297}
+  - {Identifier: MMMM, Aircraft: [JET], Distance: 113, EstimatedFlightTimeMinutes: 30}
+  - {Identifier: MMMM, Aircraft: [NONJET], Distance: 113, EstimatedFlightTimeMinutes: 42}
+  - {Identifier: MMMT, Aircraft: [JET], Distance: 268, EstimatedFlightTimeMinutes: 51}
+  - {Identifier: MMMT, Aircraft: [NONJET], Distance: 268, EstimatedFlightTimeMinutes: 79}
+  - {Identifier: MMMV, Aircraft: [JET], Distance: 470, EstimatedFlightTimeMinutes: 78}
+  - {Identifier: MMMV, Aircraft: [NONJET], Distance: 470, EstimatedFlightTimeMinutes: 128}
+  - {Identifier: MMMY, Aircraft: [JET], Distance: 385, EstimatedFlightTimeMinutes: 66}
+  - {Identifier: MMMY, Aircraft: [NONJET], Distance: 385, EstimatedFlightTimeMinutes: 107}
+  - {Identifier: MMMZ, Aircraft: [JET], Distance: 460, EstimatedFlightTimeMinutes: 76}
+  - {Identifier: MMMZ, Aircraft: [NONJET], Distance: 460, EstimatedFlightTimeMinutes: 125}
+  - {Identifier: MMNG, Aircraft: [JET], Distance: 957, EstimatedFlightTimeMinutes: 143}
+  - {Identifier: MMNG, Aircraft: [NONJET], Distance: 957, EstimatedFlightTimeMinutes: 245}
+  - {Identifier: MMNL, Aircraft: [JET], Distance: 482, EstimatedFlightTimeMinutes: 79}
+  - {Identifier: MMNL, Aircraft: [NONJET], Distance: 482, EstimatedFlightTimeMinutes: 131}
+  - {Identifier: MMOX, Aircraft: [JET], Distance: 198, EstimatedFlightTimeMinutes: 41}
+  - {Identifier: MMOX, Aircraft: [NONJET], Distance: 198, EstimatedFlightTimeMinutes: 63}
+  - {Identifier: MMPA, Aircraft: [JET], Distance: 115, EstimatedFlightTimeMinutes: 30}
+  - {Identifier: MMPA, Aircraft: [NONJET], Distance: 115, EstimatedFlightTimeMinutes: 43}
+  - {Identifier: MMPB, Aircraft: [JET], Distance: 43, EstimatedFlightTimeMinutes: 21}
+  - {Identifier: MMPB, Aircraft: [NONJET], Distance: 43, EstimatedFlightTimeMinutes: 25}
+  - {Identifier: MMPC, Aircraft: [JET], Distance: 42, EstimatedFlightTimeMinutes: 21}
+  - {Identifier: MMPC, Aircraft: [NONJET], Distance: 42, EstimatedFlightTimeMinutes: 25}
+  - {Identifier: MMPE, Aircraft: [JET], Distance: 1050, EstimatedFlightTimeMinutes: 155}
+  - {Identifier: MMPE, Aircraft: [NONJET], Distance: 1050, EstimatedFlightTimeMinutes: 267}
+  - {Identifier: MMPG, Aircraft: [JET], Distance: 558, EstimatedFlightTimeMinutes: 89}
+  - {Identifier: MMPG, Aircraft: [NONJET], Distance: 558, EstimatedFlightTimeMinutes: 149}
+  - {Identifier: MMPN, Aircraft: [JET], Distance: 168, EstimatedFlightTimeMinutes: 37}
+  - {Identifier: MMPN, Aircraft: [NONJET], Distance: 168, EstimatedFlightTimeMinutes: 55}
+  - {Identifier: MMPQ, Aircraft: [JET], Distance: 418, EstimatedFlightTimeMinutes: 71}
+  - {Identifier: MMPQ, Aircraft: [NONJET], Distance: 418, EstimatedFlightTimeMinutes: 115}
+  - {Identifier: MMPR, Aircraft: [JET], Distance: 356, EstimatedFlightTimeMinutes: 62}
+  - {Identifier: MMPR, Aircraft: [NONJET], Distance: 356, EstimatedFlightTimeMinutes: 100}
+  - {Identifier: MMPS, Aircraft: [JET], Distance: 242, EstimatedFlightTimeMinutes: 47}
+  - {Identifier: MMPS, Aircraft: [NONJET], Distance: 242, EstimatedFlightTimeMinutes: 73}
+  - {Identifier: MMQT, Aircraft: [JET], Distance: 95, EstimatedFlightTimeMinutes: 28}
+  - {Identifier: MMQT, Aircraft: [NONJET], Distance: 95, EstimatedFlightTimeMinutes: 38}
+  - {Identifier: MMRX, Aircraft: [JET], Distance: 397, EstimatedFlightTimeMinutes: 68}
+  - {Identifier: MMRX, Aircraft: [NONJET], Distance: 397, EstimatedFlightTimeMinutes: 110}
+  - {Identifier: MMSD, Aircraft: [JET], Distance: 636, EstimatedFlightTimeMinutes: 100}
+  - {Identifier: MMSD, Aircraft: [NONJET], Distance: 636, EstimatedFlightTimeMinutes: 168}
+  - {Identifier: MMSF, Aircraft: [JET], Distance: 1097, EstimatedFlightTimeMinutes: 161}
+  - {Identifier: MMSF, Aircraft: [NONJET], Distance: 1097, EstimatedFlightTimeMinutes: 278}
+  - {Identifier: MMSL, Aircraft: [JET], Distance: 643, EstimatedFlightTimeMinutes: 101}
+  - {Identifier: MMSL, Aircraft: [NONJET], Distance: 643, EstimatedFlightTimeMinutes: 169}
+  - {Identifier: MMSM, Aircraft: [JET], Distance: 19, EstimatedFlightTimeMinutes: 18}
+  - {Identifier: MMSM, Aircraft: [NONJET], Distance: 19, EstimatedFlightTimeMinutes: 20}
+  - {Identifier: MMSP, Aircraft: [JET], Distance: 199, EstimatedFlightTimeMinutes: 42}
+  - {Identifier: MMSP, Aircraft: [NONJET], Distance: 199, EstimatedFlightTimeMinutes: 63}
+  - {Identifier: MMTC, Aircraft: [JET], Distance: 440, EstimatedFlightTimeMinutes: 74}
+  - {Identifier: MMTC, Aircraft: [NONJET], Distance: 440, EstimatedFlightTimeMinutes: 121}
+  - {Identifier: MMTG, Aircraft: [JET], Distance: 386, EstimatedFlightTimeMinutes: 66}
+  - {Identifier: MMTG, Aircraft: [NONJET], Distance: 386, EstimatedFlightTimeMinutes: 108}
+  - {Identifier: MMTJ, Aircraft: [JET], Distance: 1242, EstimatedFlightTimeMinutes: 181}
+  - {Identifier: MMTJ, Aircraft: [NONJET], Distance: 1242, EstimatedFlightTimeMinutes: 313}
+  - {Identifier: MMTL, Aircraft: [JET], Distance: 646, EstimatedFlightTimeMinutes: 101}
+  - {Identifier: MMTL, Aircraft: [NONJET], Distance: 646, EstimatedFlightTimeMinutes: 170}
+  - {Identifier: MMTM, Aircraft: [JET], Distance: 184, EstimatedFlightTimeMinutes: 40}
+  - {Identifier: MMTM, Aircraft: [NONJET], Distance: 184, EstimatedFlightTimeMinutes: 59}
+  - {Identifier: MMTO, Aircraft: [JET], Distance: 29, EstimatedFlightTimeMinutes: 19}
+  - {Identifier: MMTO, Aircraft: [NONJET], Distance: 29, EstimatedFlightTimeMinutes: 22}
+  - {Identifier: MMTP, Aircraft: [JET], Distance: 475, EstimatedFlightTimeMinutes: 78}
+  - {Identifier: MMTP, Aircraft: [NONJET], Distance: 475, EstimatedFlightTimeMinutes: 129}
+  - {Identifier: MMUN, Aircraft: [JET], Distance: 694, EstimatedFlightTimeMinutes: 108}
+  - {Identifier: MMUN, Aircraft: [NONJET], Distance: 694, EstimatedFlightTimeMinutes: 182}
+  - {Identifier: MMVA, Aircraft: [JET], Distance: 366, EstimatedFlightTimeMinutes: 64}
+  - {Identifier: MMVA, Aircraft: [NONJET], Distance: 366, EstimatedFlightTimeMinutes: 103}
+  - {Identifier: MMVR, Aircraft: [JET], Distance: 164, EstimatedFlightTimeMinutes: 37}
+  - {Identifier: MMVR, Aircraft: [NONJET], Distance: 164, EstimatedFlightTimeMinutes: 54}
+  - {Identifier: MMZC, Aircraft: [JET], Distance: 290, EstimatedFlightTimeMinutes: 54}
+  - {Identifier: MMZC, Aircraft: [NONJET], Distance: 290, EstimatedFlightTimeMinutes: 85}
+  - {Identifier: MMZH, Aircraft: [JET], Distance: 175, EstimatedFlightTimeMinutes: 38}
+  - {Identifier: MMZH, Aircraft: [NONJET], Distance: 175, EstimatedFlightTimeMinutes: 57}
+  - {Identifier: MMZM, Aircraft: [JET], Distance: 185, EstimatedFlightTimeMinutes: 40}
+  - {Identifier: MMZM, Aircraft: [NONJET], Distance: 185, EstimatedFlightTimeMinutes: 59}
+  - {Identifier: MMZO, Aircraft: [JET], Distance: 311, EstimatedFlightTimeMinutes: 56}
+  - {Identifier: MMZO, Aircraft: [NONJET], Distance: 311, EstimatedFlightTimeMinutes: 90}
   Views:
   - Identifier: ALL
     LabelLayout: Enroute
@@ -1517,807 +665,397 @@ Airports:
   - FeederFix: ILUBA
     RunwayIdentifier: 12R
     Segments:
-    - Identifier: URVEN
-      Track: 289.7
-      DistanceNM: 41.13
-    - Identifier: SEDAS
-      Track: 289.4
-      DistanceNM: 13.43
-    - Identifier: UN523
-      Track: 289.3
-      DistanceNM: 23.66
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.71
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.82
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.38
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.78
-    - Identifier: UN506
-      Track: 33.4
-      DistanceNM: 5.25
-    - Identifier: UN540
-      Track: 123.7
-      DistanceNM: 5.77
-    - Identifier: UN545
-      Track: 123.8
-      DistanceNM: 8.39
-    - Identifier: 12R
-      Track: 123.8
-      DistanceNM: 3.85
+    - {Identifier: URVEN, Track: 289.7, DistanceNM: 41.13}
+    - {Identifier: SEDAS, Track: 289.4, DistanceNM: 13.43}
+    - {Identifier: UN523, Track: 289.3, DistanceNM: 23.66}
+    - {Identifier: UN511, Track: 344.9, DistanceNM: 12.71}
+    - {Identifier: UN519, Track: 303.9, DistanceNM: 11.7}
+    - {Identifier: UN514, Track: 303.9, DistanceNM: 7.82}
+    - {Identifier: ELINO, Track: 303.8, DistanceNM: 8.38}
+    - {Identifier: EBMIS, Track: 303.7, DistanceNM: 5.78}
+    - {Identifier: UN506, Track: 33.4, DistanceNM: 5.25}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: ILUBA
     RunwayIdentifier: 12L
     Segments:
-    - Identifier: URVEN
-      Track: 289.7
-      DistanceNM: 41.13
-    - Identifier: SEDAS
-      Track: 289.4
-      DistanceNM: 13.43
-    - Identifier: UN523
-      Track: 289.3
-      DistanceNM: 23.66
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.71
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.82
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.38
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.78
-    - Identifier: UN505
-      Track: 33.4
-      DistanceNM: 6.02
-    - Identifier: UN528
-      Track: 123.7
-      DistanceNM: 5.81
-    - Identifier: UN529
-      Track: 123.8
-      DistanceNM: 3.18
-    - Identifier: UN532
-      Track: 123.8
-      DistanceNM: 5.03
-    - Identifier: 12L
-      Track: 123.8
-      DistanceNM: 4.14
+    - {Identifier: URVEN, Track: 289.7, DistanceNM: 41.13}
+    - {Identifier: SEDAS, Track: 289.4, DistanceNM: 13.43}
+    - {Identifier: UN523, Track: 289.3, DistanceNM: 23.66}
+    - {Identifier: UN511, Track: 344.9, DistanceNM: 12.71}
+    - {Identifier: UN519, Track: 303.9, DistanceNM: 11.7}
+    - {Identifier: UN514, Track: 303.9, DistanceNM: 7.82}
+    - {Identifier: ELINO, Track: 303.8, DistanceNM: 8.38}
+    - {Identifier: EBMIS, Track: 303.7, DistanceNM: 5.78}
+    - {Identifier: UN505, Track: 33.4, DistanceNM: 6.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: ILUBA
     RunwayIdentifier: 30L
     Segments:
-    - Identifier: ALRIP
-      Track: 284.6
-      DistanceNM: 40.59
-    - Identifier: QUADY
-      Track: 284.3
-      DistanceNM: 22.29
-    - Identifier: SESLI
-      Track: 356.3
-      DistanceNM: 12.05
-    - Identifier: UN630
-      Track: 320.9
-      DistanceNM: 18.76
-    - Identifier: UN631
-      Track: 303.9
-      DistanceNM: 8.48
-    - Identifier: 30L
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: ALRIP, Track: 284.6, DistanceNM: 40.59}
+    - {Identifier: QUADY, Track: 284.3, DistanceNM: 22.29}
+    - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
+    - {Identifier: UN630, Track: 320.9, DistanceNM: 18.76}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: ILUBA
     RunwayIdentifier: 30R
     Segments:
-    - Identifier: ALRIP
-      Track: 284.6
-      DistanceNM: 40.59
-    - Identifier: QUADY
-      Track: 284.3
-      DistanceNM: 22.29
-    - Identifier: SESLI
-      Track: 356.3
-      DistanceNM: 12.05
-    - Identifier: UN601
-      Track: 329.7
-      DistanceNM: 14.37
-    - Identifier: UN619
-      Track: 304.0
-      DistanceNM: 5.0
-    - Identifier: UN620
-      Track: 303.9
-      DistanceNM: 5.58
-    - Identifier: UN621
-      Track: 303.9
-      DistanceNM: 3.14
-    - Identifier: 30R
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: ALRIP, Track: 284.6, DistanceNM: 40.59}
+    - {Identifier: QUADY, Track: 284.3, DistanceNM: 22.29}
+    - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
+    - {Identifier: UN601, Track: 329.7, DistanceNM: 14.37}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: NOSAT
     RunwayIdentifier: 12L
     Segments:
-    - Identifier: HACHO
-      Track: 221.2
-      DistanceNM: 24.6
-    - Identifier: LETIS
-      Track: 221.1
-      DistanceNM: 10.06
-    - Identifier: APMUS
-      Track: 213.7
-      DistanceNM: 12.25
-    - Identifier: UN500
-      Track: 213.7
-      DistanceNM: 21.49
-    - Identifier: UN522
-      Track: 303.9
-      DistanceNM: 6.14
-    - Identifier: ERDAM
-      Track: 303.8
-      DistanceNM: 13.35
-    - Identifier: RIDUG
-      Track: 303.8
-      DistanceNM: 5.81
-    - Identifier: UN505
-      Track: 213.5
-      DistanceNM: 5.22
-    - Identifier: UN528
-      Track: 123.7
-      DistanceNM: 5.81
-    - Identifier: UN529
-      Track: 123.8
-      DistanceNM: 3.18
-    - Identifier: UN532
-      Track: 123.8
-      DistanceNM: 5.03
-    - Identifier: 12L
-      Track: 123.8
-      DistanceNM: 4.14
+    - {Identifier: HACHO, Track: 221.2, DistanceNM: 24.6}
+    - {Identifier: LETIS, Track: 221.1, DistanceNM: 10.06}
+    - {Identifier: APMUS, Track: 213.7, DistanceNM: 12.25}
+    - {Identifier: UN500, Track: 213.7, DistanceNM: 21.49}
+    - {Identifier: UN522, Track: 303.9, DistanceNM: 6.14}
+    - {Identifier: ERDAM, Track: 303.8, DistanceNM: 13.35}
+    - {Identifier: RIDUG, Track: 303.8, DistanceNM: 5.81}
+    - {Identifier: UN505, Track: 213.5, DistanceNM: 5.22}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: NOSAT
     RunwayIdentifier: 12R
     Segments:
-    - Identifier: HACHO
-      Track: 221.2
-      DistanceNM: 24.6
-    - Identifier: LETIS
-      Track: 221.1
-      DistanceNM: 10.06
-    - Identifier: APMUS
-      Track: 213.7
-      DistanceNM: 12.25
-    - Identifier: UN500
-      Track: 213.7
-      DistanceNM: 21.49
-    - Identifier: UN522
-      Track: 303.9
-      DistanceNM: 6.14
-    - Identifier: ERDAM
-      Track: 303.8
-      DistanceNM: 13.35
-    - Identifier: RIDUG
-      Track: 303.8
-      DistanceNM: 5.81
-    - Identifier: UN506
-      Track: 213.5
-      DistanceNM: 5.99
-    - Identifier: UN540
-      Track: 123.7
-      DistanceNM: 5.77
-    - Identifier: UN545
-      Track: 123.8
-      DistanceNM: 8.39
-    - Identifier: 12R
-      Track: 123.8
-      DistanceNM: 3.85
+    - {Identifier: HACHO, Track: 221.2, DistanceNM: 24.6}
+    - {Identifier: LETIS, Track: 221.1, DistanceNM: 10.06}
+    - {Identifier: APMUS, Track: 213.7, DistanceNM: 12.25}
+    - {Identifier: UN500, Track: 213.7, DistanceNM: 21.49}
+    - {Identifier: UN522, Track: 303.9, DistanceNM: 6.14}
+    - {Identifier: ERDAM, Track: 303.8, DistanceNM: 13.35}
+    - {Identifier: RIDUG, Track: 303.8, DistanceNM: 5.81}
+    - {Identifier: UN506, Track: 213.5, DistanceNM: 5.99}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: NOSAT
     RunwayIdentifier: 30L
     Segments:
-    - Identifier: HACHO
-      Track: 221.2
-      DistanceNM: 24.6
-    - Identifier: LETIS
-      Track: 221.1
-      DistanceNM: 10.06
-    - Identifier: UN500
-      Track: 213.7
-      DistanceNM: 33.73
-    - Identifier: PUREG
-      Track: 123.9
-      DistanceNM: 9.16
-    - Identifier: OTSOL
-      Track: 123.9
-      DistanceNM: 5.0
-    - Identifier: UN630
-      Track: 253.7
-      DistanceNM: 7.78
-    - Identifier: UN631
-      Track: 303.9
-      DistanceNM: 8.48
-    - Identifier: 30L
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: HACHO, Track: 221.2, DistanceNM: 24.6}
+    - {Identifier: LETIS, Track: 221.1, DistanceNM: 10.06}
+    - {Identifier: UN500, Track: 213.7, DistanceNM: 33.73}
+    - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
+    - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
+    - {Identifier: UN630, Track: 253.7, DistanceNM: 7.78}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: NOSAT
     RunwayIdentifier: 30R
     Segments:
-    - Identifier: HACHO
-      Track: 221.2
-      DistanceNM: 24.6
-    - Identifier: LETIS
-      Track: 221.1
-      DistanceNM: 10.06
-    - Identifier: UN500
-      Track: 213.7
-      DistanceNM: 33.73
-    - Identifier: PUREG
-      Track: 123.9
-      DistanceNM: 9.16
-    - Identifier: OTSOL
-      Track: 123.9
-      DistanceNM: 5.0
-    - Identifier: UN601
-      Track: 213.7
-      DistanceNM: 5.22
-    - Identifier: UN619
-      Track: 304.0
-      DistanceNM: 5.0
-    - Identifier: UN620
-      Track: 303.9
-      DistanceNM: 5.58
-    - Identifier: UN621
-      Track: 303.9
-      DistanceNM: 3.14
-    - Identifier: 30R
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: HACHO, Track: 221.2, DistanceNM: 24.6}
+    - {Identifier: LETIS, Track: 221.1, DistanceNM: 10.06}
+    - {Identifier: UN500, Track: 213.7, DistanceNM: 33.73}
+    - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
+    - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
+    - {Identifier: UN601, Track: 213.7, DistanceNM: 5.22}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: PAULE
     RunwayIdentifier: 12R
     Segments:
-    - Identifier: UN530
-      Track: 53.7
-      DistanceNM: 40.94
-    - Identifier: HURIN
-      Track: 53.6
-      DistanceNM: 16.81
-    - Identifier: UN523
-      Track: 345.0
-      DistanceNM: 14.81
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.71
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.82
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.38
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.78
-    - Identifier: UN506
-      Track: 33.4
-      DistanceNM: 5.25
-    - Identifier: UN540
-      Track: 123.7
-      DistanceNM: 5.77
-    - Identifier: UN545
-      Track: 123.8
-      DistanceNM: 8.39
-    - Identifier: 12R
-      Track: 123.8
-      DistanceNM: 3.85
+    - {Identifier: UN530, Track: 53.7, DistanceNM: 40.94}
+    - {Identifier: HURIN, Track: 53.6, DistanceNM: 16.81}
+    - {Identifier: UN523, Track: 345.0, DistanceNM: 14.81}
+    - {Identifier: UN511, Track: 344.9, DistanceNM: 12.71}
+    - {Identifier: UN519, Track: 303.9, DistanceNM: 11.7}
+    - {Identifier: UN514, Track: 303.9, DistanceNM: 7.82}
+    - {Identifier: ELINO, Track: 303.8, DistanceNM: 8.38}
+    - {Identifier: EBMIS, Track: 303.7, DistanceNM: 5.78}
+    - {Identifier: UN506, Track: 33.4, DistanceNM: 5.25}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: PAULE
     RunwayIdentifier: 12L
     Segments:
-    - Identifier: UN530
-      Track: 53.7
-      DistanceNM: 40.94
-    - Identifier: HURIN
-      Track: 53.6
-      DistanceNM: 16.81
-    - Identifier: UN523
-      Track: 345.0
-      DistanceNM: 14.81
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.71
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.82
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.38
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.78
-    - Identifier: UN505
-      Track: 33.4
-      DistanceNM: 6.02
-    - Identifier: UN528
-      Track: 123.7
-      DistanceNM: 5.81
-    - Identifier: UN529
-      Track: 123.8
-      DistanceNM: 3.18
-    - Identifier: UN532
-      Track: 123.8
-      DistanceNM: 5.03
-    - Identifier: 12L
-      Track: 123.8
-      DistanceNM: 4.14
+    - {Identifier: UN530, Track: 53.7, DistanceNM: 40.94}
+    - {Identifier: HURIN, Track: 53.6, DistanceNM: 16.81}
+    - {Identifier: UN523, Track: 345.0, DistanceNM: 14.81}
+    - {Identifier: UN511, Track: 344.9, DistanceNM: 12.71}
+    - {Identifier: UN519, Track: 303.9, DistanceNM: 11.7}
+    - {Identifier: UN514, Track: 303.9, DistanceNM: 7.82}
+    - {Identifier: ELINO, Track: 303.8, DistanceNM: 8.38}
+    - {Identifier: EBMIS, Track: 303.7, DistanceNM: 5.78}
+    - {Identifier: UN505, Track: 33.4, DistanceNM: 6.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: PAULE
     RunwayIdentifier: 30L
     Segments:
-    - Identifier: UN640
-      Track: 55.6
-      DistanceNM: 29.08
-    - Identifier: ITLES
-      Track: 55.3
-      DistanceNM: 19.28
-    - Identifier: QUADY
-      Track: 55.7
-      DistanceNM: 19.06
-    - Identifier: SESLI
-      Track: 356.3
-      DistanceNM: 12.05
-    - Identifier: UN630
-      Track: 320.9
-      DistanceNM: 18.76
-    - Identifier: UN631
-      Track: 303.9
-      DistanceNM: 8.48
-    - Identifier: 30L
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: UN640, Track: 55.6, DistanceNM: 29.08}
+    - {Identifier: ITLES, Track: 55.3, DistanceNM: 19.28}
+    - {Identifier: QUADY, Track: 55.7, DistanceNM: 19.06}
+    - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
+    - {Identifier: UN630, Track: 320.9, DistanceNM: 18.76}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: PAULE
     RunwayIdentifier: 30R
     Segments:
-    - Identifier: UN640
-      Track: 55.6
-      DistanceNM: 29.08
-    - Identifier: ITLES
-      Track: 55.3
-      DistanceNM: 19.28
-    - Identifier: QUADY
-      Track: 55.7
-      DistanceNM: 19.06
-    - Identifier: SESLI
-      Track: 356.3
-      DistanceNM: 12.05
-    - Identifier: UN601
-      Track: 329.7
-      DistanceNM: 14.37
-    - Identifier: UN619
-      Track: 304.0
-      DistanceNM: 5.0
-    - Identifier: UN620
-      Track: 303.9
-      DistanceNM: 5.58
-    - Identifier: UN621
-      Track: 303.9
-      DistanceNM: 3.14
-    - Identifier: 30R
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: UN640, Track: 55.6, DistanceNM: 29.08}
+    - {Identifier: ITLES, Track: 55.3, DistanceNM: 19.28}
+    - {Identifier: QUADY, Track: 55.7, DistanceNM: 19.06}
+    - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
+    - {Identifier: UN601, Track: 329.7, DistanceNM: 14.37}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: SIGMA
     RunwayIdentifier: 12R
     Segments:
-    - Identifier: OVGED
-      Track: 345.5
-      DistanceNM: 12.08
-    - Identifier: ILONI
-      Track: 344.9
-      DistanceNM: 17.79
-    - Identifier: HURIN
-      Track: 345.1
-      DistanceNM: 17.79
-    - Identifier: UN523
-      Track: 345.0
-      DistanceNM: 14.81
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.71
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.82
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.38
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.78
-    - Identifier: UN506
-      Track: 33.4
-      DistanceNM: 5.25
-    - Identifier: UN540
-      Track: 123.7
-      DistanceNM: 5.77
-    - Identifier: UN545
-      Track: 123.8
-      DistanceNM: 8.39
-    - Identifier: 12R
-      Track: 123.8
-      DistanceNM: 3.85
+    - {Identifier: OVGED, Track: 345.5, DistanceNM: 12.08}
+    - {Identifier: ILONI, Track: 344.9, DistanceNM: 17.79}
+    - {Identifier: HURIN, Track: 345.1, DistanceNM: 17.79}
+    - {Identifier: UN523, Track: 345.0, DistanceNM: 14.81}
+    - {Identifier: UN511, Track: 344.9, DistanceNM: 12.71}
+    - {Identifier: UN519, Track: 303.9, DistanceNM: 11.7}
+    - {Identifier: UN514, Track: 303.9, DistanceNM: 7.82}
+    - {Identifier: ELINO, Track: 303.8, DistanceNM: 8.38}
+    - {Identifier: EBMIS, Track: 303.7, DistanceNM: 5.78}
+    - {Identifier: UN506, Track: 33.4, DistanceNM: 5.25}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: SIGMA
     RunwayIdentifier: 12L
     Segments:
-    - Identifier: OVGED
-      Track: 345.5
-      DistanceNM: 12.08
-    - Identifier: ILONI
-      Track: 344.9
-      DistanceNM: 17.79
-    - Identifier: HURIN
-      Track: 345.1
-      DistanceNM: 17.79
-    - Identifier: UN523
-      Track: 345.0
-      DistanceNM: 14.81
-    - Identifier: UN511
-      Track: 344.9
-      DistanceNM: 12.71
-    - Identifier: UN519
-      Track: 303.9
-      DistanceNM: 11.7
-    - Identifier: UN514
-      Track: 303.9
-      DistanceNM: 7.82
-    - Identifier: ELINO
-      Track: 303.8
-      DistanceNM: 8.38
-    - Identifier: EBMIS
-      Track: 303.7
-      DistanceNM: 5.78
-    - Identifier: UN505
-      Track: 33.4
-      DistanceNM: 6.02
-    - Identifier: UN528
-      Track: 123.7
-      DistanceNM: 5.81
-    - Identifier: UN529
-      Track: 123.8
-      DistanceNM: 3.18
-    - Identifier: UN532
-      Track: 123.8
-      DistanceNM: 5.03
-    - Identifier: 12L
-      Track: 123.8
-      DistanceNM: 4.14
+    - {Identifier: OVGED, Track: 345.5, DistanceNM: 12.08}
+    - {Identifier: ILONI, Track: 344.9, DistanceNM: 17.79}
+    - {Identifier: HURIN, Track: 345.1, DistanceNM: 17.79}
+    - {Identifier: UN523, Track: 345.0, DistanceNM: 14.81}
+    - {Identifier: UN511, Track: 344.9, DistanceNM: 12.71}
+    - {Identifier: UN519, Track: 303.9, DistanceNM: 11.7}
+    - {Identifier: UN514, Track: 303.9, DistanceNM: 7.82}
+    - {Identifier: ELINO, Track: 303.8, DistanceNM: 8.38}
+    - {Identifier: EBMIS, Track: 303.7, DistanceNM: 5.78}
+    - {Identifier: UN505, Track: 33.4, DistanceNM: 6.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: SIGMA
     RunwayIdentifier: 30L
     Segments:
-    - Identifier: BALCH
-      Track: 356.6
-      DistanceNM: 13.32
-    - Identifier: VITEL
-      Track: 356.3
-      DistanceNM: 15.76
-    - Identifier: UN617
-      Track: 356.3
-      DistanceNM: 15.57
-    - Identifier: QUADY
-      Track: 356.3
-      DistanceNM: 5.46
-    - Identifier: SESLI
-      Track: 356.3
-      DistanceNM: 12.05
-    - Identifier: UN630
-      Track: 320.9
-      DistanceNM: 18.76
-    - Identifier: UN631
-      Track: 303.9
-      DistanceNM: 8.48
-    - Identifier: 30L
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: BALCH, Track: 356.6, DistanceNM: 13.32}
+    - {Identifier: VITEL, Track: 356.3, DistanceNM: 15.76}
+    - {Identifier: UN617, Track: 356.3, DistanceNM: 15.57}
+    - {Identifier: QUADY, Track: 356.3, DistanceNM: 5.46}
+    - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
+    - {Identifier: UN630, Track: 320.9, DistanceNM: 18.76}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: SIGMA
     RunwayIdentifier: 30R
     Segments:
-    - Identifier: BALCH
-      Track: 356.6
-      DistanceNM: 13.32
-    - Identifier: VITEL
-      Track: 356.3
-      DistanceNM: 15.76
-    - Identifier: UN617
-      Track: 356.3
-      DistanceNM: 15.57
-    - Identifier: QUADY
-      Track: 356.3
-      DistanceNM: 5.46
-    - Identifier: SESLI
-      Track: 356.3
-      DistanceNM: 12.05
-    - Identifier: UN601
-      Track: 329.7
-      DistanceNM: 14.37
-    - Identifier: UN619
-      Track: 304.0
-      DistanceNM: 5.0
-    - Identifier: UN620
-      Track: 303.9
-      DistanceNM: 5.58
-    - Identifier: UN621
-      Track: 303.9
-      DistanceNM: 3.14
-    - Identifier: 30R
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: BALCH, Track: 356.6, DistanceNM: 13.32}
+    - {Identifier: VITEL, Track: 356.3, DistanceNM: 15.76}
+    - {Identifier: UN617, Track: 356.3, DistanceNM: 15.57}
+    - {Identifier: QUADY, Track: 356.3, DistanceNM: 5.46}
+    - {Identifier: SESLI, Track: 356.3, DistanceNM: 12.05}
+    - {Identifier: UN601, Track: 329.7, DistanceNM: 14.37}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: VOMAR
     RunwayIdentifier: 12L
     Segments:
-    - Identifier: AGNIX
-      Track: 137.5
-      DistanceNM: 19.96
-    - Identifier: EPNEL
-      Track: 137.6
-      DistanceNM: 20.11
-    - Identifier: ODLAR
-      Track: 141.4
-      DistanceNM: 20.11
-    - Identifier: VIKSI
-      Track: 153.2
-      DistanceNM: 5.59
-    - Identifier: UN505
-      Track: 153.2
-      DistanceNM: 5.02
-    - Identifier: UN528
-      Track: 123.7
-      DistanceNM: 5.81
-    - Identifier: UN529
-      Track: 123.8
-      DistanceNM: 3.18
-    - Identifier: UN532
-      Track: 123.8
-      DistanceNM: 5.03
-    - Identifier: 12L
-      Track: 123.8
-      DistanceNM: 4.14
+    - {Identifier: AGNIX, Track: 137.5, DistanceNM: 19.96}
+    - {Identifier: EPNEL, Track: 137.6, DistanceNM: 20.11}
+    - {Identifier: ODLAR, Track: 141.4, DistanceNM: 20.11}
+    - {Identifier: VIKSI, Track: 153.2, DistanceNM: 5.59}
+    - {Identifier: UN505, Track: 153.2, DistanceNM: 5.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: VOMAR
     RunwayIdentifier: 12R
     Segments:
-    - Identifier: AGNIX
-      Track: 137.5
-      DistanceNM: 19.96
-    - Identifier: EPNEL
-      Track: 137.6
-      DistanceNM: 20.11
-    - Identifier: ODLAR
-      Track: 141.4
-      DistanceNM: 20.11
-    - Identifier: VIKSI
-      Track: 153.2
-      DistanceNM: 5.59
-    - Identifier: UN506
-      Track: 160.2
-      DistanceNM: 5.44
-    - Identifier: UN540
-      Track: 123.7
-      DistanceNM: 5.77
-    - Identifier: UN545
-      Track: 123.8
-      DistanceNM: 8.39
-    - Identifier: 12R
-      Track: 123.8
-      DistanceNM: 3.85
+    - {Identifier: AGNIX, Track: 137.5, DistanceNM: 19.96}
+    - {Identifier: EPNEL, Track: 137.6, DistanceNM: 20.11}
+    - {Identifier: ODLAR, Track: 141.4, DistanceNM: 20.11}
+    - {Identifier: VIKSI, Track: 153.2, DistanceNM: 5.59}
+    - {Identifier: UN506, Track: 160.2, DistanceNM: 5.44}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: VOMAR
     RunwayIdentifier: 30L
     Segments:
-    - Identifier: AGNIX
-      Track: 137.5
-      DistanceNM: 19.96
-    - Identifier: EPNEL
-      Track: 137.6
-      DistanceNM: 20.11
-    - Identifier: ODLAR
-      Track: 141.4
-      DistanceNM: 20.11
-    - Identifier: UN606
-      Track: 123.7
-      DistanceNM: 26.51
-    - Identifier: UN500
-      Track: 123.8
-      DistanceNM: 8.0
-    - Identifier: PUREG
-      Track: 123.9
-      DistanceNM: 9.16
-    - Identifier: OTSOL
-      Track: 123.9
-      DistanceNM: 5.0
-    - Identifier: UN630
-      Track: 253.7
-      DistanceNM: 7.78
-    - Identifier: UN631
-      Track: 303.9
-      DistanceNM: 8.48
-    - Identifier: 30L
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: AGNIX, Track: 137.5, DistanceNM: 19.96}
+    - {Identifier: EPNEL, Track: 137.6, DistanceNM: 20.11}
+    - {Identifier: ODLAR, Track: 141.4, DistanceNM: 20.11}
+    - {Identifier: UN606, Track: 123.7, DistanceNM: 26.51}
+    - {Identifier: UN500, Track: 123.8, DistanceNM: 8.0}
+    - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
+    - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
+    - {Identifier: UN630, Track: 253.7, DistanceNM: 7.78}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: VOMAR
     RunwayIdentifier: 30R
     Segments:
-    - Identifier: AGNIX
-      Track: 137.5
-      DistanceNM: 19.96
-    - Identifier: EPNEL
-      Track: 137.6
-      DistanceNM: 20.11
-    - Identifier: ODLAR
-      Track: 141.4
-      DistanceNM: 20.11
-    - Identifier: UN606
-      Track: 123.7
-      DistanceNM: 26.51
-    - Identifier: UN500
-      Track: 123.8
-      DistanceNM: 8.0
-    - Identifier: PUREG
-      Track: 123.9
-      DistanceNM: 9.16
-    - Identifier: OTSOL
-      Track: 123.9
-      DistanceNM: 5.0
-    - Identifier: UN601
-      Track: 213.7
-      DistanceNM: 5.22
-    - Identifier: UN619
-      Track: 304.0
-      DistanceNM: 5.0
-    - Identifier: UN620
-      Track: 303.9
-      DistanceNM: 5.58
-    - Identifier: UN621
-      Track: 303.9
-      DistanceNM: 3.14
-    - Identifier: 30R
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: AGNIX, Track: 137.5, DistanceNM: 19.96}
+    - {Identifier: EPNEL, Track: 137.6, DistanceNM: 20.11}
+    - {Identifier: ODLAR, Track: 141.4, DistanceNM: 20.11}
+    - {Identifier: UN606, Track: 123.7, DistanceNM: 26.51}
+    - {Identifier: UN500, Track: 123.8, DistanceNM: 8.0}
+    - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
+    - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
+    - {Identifier: UN601, Track: 213.7, DistanceNM: 5.22}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: XUDUN
     RunwayIdentifier: 12L
     Segments:
-    - Identifier: BEPOR
-      Track: 102.7
-      DistanceNM: 19.9
-    - Identifier: BUBUN
-      Track: 103.2
-      DistanceNM: 20.05
-    - Identifier: SCAHA
-      Track: 89.2
-      DistanceNM: 21.22
-    - Identifier: KAROR
-      Track: 93.8
-      DistanceNM: 5.56
-    - Identifier: UN505
-      Track: 86.8
-      DistanceNM: 5.41
-    - Identifier: UN528
-      Track: 123.7
-      DistanceNM: 5.81
-    - Identifier: UN529
-      Track: 123.8
-      DistanceNM: 3.18
-    - Identifier: UN532
-      Track: 123.8
-      DistanceNM: 5.03
-    - Identifier: 12L
-      Track: 123.8
-      DistanceNM: 4.14
+    - {Identifier: BEPOR, Track: 102.7, DistanceNM: 19.9}
+    - {Identifier: BUBUN, Track: 103.2, DistanceNM: 20.05}
+    - {Identifier: SCAHA, Track: 89.2, DistanceNM: 21.22}
+    - {Identifier: KAROR, Track: 93.8, DistanceNM: 5.56}
+    - {Identifier: UN505, Track: 86.8, DistanceNM: 5.41}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: UN505, Track: 303.8, DistanceNM: 14.02}
+    - {Identifier: UN528, Track: 123.7, DistanceNM: 5.81}
+    - {Identifier: UN529, Track: 123.8, DistanceNM: 3.18}
+    - {Identifier: UN532, Track: 123.8, DistanceNM: 5.03}
+    - {Identifier: 12L, Track: 123.8, DistanceNM: 4.14}
   - FeederFix: XUDUN
     RunwayIdentifier: 12R
     Segments:
-    - Identifier: BEPOR
-      Track: 102.7
-      DistanceNM: 19.9
-    - Identifier: BUBUN
-      Track: 103.2
-      DistanceNM: 20.05
-    - Identifier: SCAHA
-      Track: 89.2
-      DistanceNM: 21.22
-    - Identifier: KAROR
-      Track: 93.8
-      DistanceNM: 5.56
-    - Identifier: UN506
-      Track: 93.9
-      DistanceNM: 4.99
-    - Identifier: UN540
-      Track: 123.7
-      DistanceNM: 5.77
-    - Identifier: UN545
-      Track: 123.8
-      DistanceNM: 8.39
-    - Identifier: 12R
-      Track: 123.8
-      DistanceNM: 3.85
+    - {Identifier: BEPOR, Track: 102.7, DistanceNM: 19.9}
+    - {Identifier: BUBUN, Track: 103.2, DistanceNM: 20.05}
+    - {Identifier: SCAHA, Track: 89.2, DistanceNM: 21.22}
+    - {Identifier: KAROR, Track: 93.8, DistanceNM: 5.56}
+    - {Identifier: UN506, Track: 93.9, DistanceNM: 4.99}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: UN506, Track: 303.8, DistanceNM: 14.17}
+    - {Identifier: UN540, Track: 123.7, DistanceNM: 5.77}
+    - {Identifier: UN545, Track: 123.8, DistanceNM: 8.39}
+    - {Identifier: 12R, Track: 123.8, DistanceNM: 3.85}
   - FeederFix: XUDUN
     RunwayIdentifier: 30L
     Segments:
-    - Identifier: BEPOR
-      Track: 102.7
-      DistanceNM: 19.9
-    - Identifier: BUBUN
-      Track: 103.2
-      DistanceNM: 20.05
-    - Identifier: SCAHA
-      Track: 89.2
-      DistanceNM: 21.22
-    - Identifier: UN605
-      Track: 123.7
-      DistanceNM: 26.48
-    - Identifier: UN608
-      Track: 123.8
-      DistanceNM: 8.0
-    - Identifier: DEPVA
-      Track: 123.9
-      DistanceNM: 9.16
-    - Identifier: LOPKA
-      Track: 123.9
-      DistanceNM: 5.0
-    - Identifier: UN630
-      Track: 350.3
-      DistanceNM: 7.28
-    - Identifier: UN631
-      Track: 303.9
-      DistanceNM: 8.48
-    - Identifier: 30L
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: BEPOR, Track: 102.7, DistanceNM: 19.9}
+    - {Identifier: BUBUN, Track: 103.2, DistanceNM: 20.05}
+    - {Identifier: SCAHA, Track: 89.2, DistanceNM: 21.22}
+    - {Identifier: UN605, Track: 123.7, DistanceNM: 26.48}
+    - {Identifier: UN608, Track: 123.8, DistanceNM: 8.0}
+    - {Identifier: DEPVA, Track: 123.9, DistanceNM: 9.16}
+    - {Identifier: LOPKA, Track: 123.9, DistanceNM: 5.0}
+    - {Identifier: UN630, Track: 350.3, DistanceNM: 7.28}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: UN630, Track: 123.9, DistanceNM: 8.48}
+    - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+    - {Identifier: 30L, Track: 303.9, DistanceNM: 6.07}
   - FeederFix: XUDUN
     RunwayIdentifier: 30R
     Segments:
-    - Identifier: BEPOR
-      Track: 102.7
-      DistanceNM: 19.9
-    - Identifier: BUBUN
-      Track: 103.2
-      DistanceNM: 20.05
-    - Identifier: SCAHA
-      Track: 89.2
-      DistanceNM: 21.22
-    - Identifier: UN605
-      Track: 123.7
-      DistanceNM: 26.48
-    - Identifier: UN608
-      Track: 123.8
-      DistanceNM: 8.0
-    - Identifier: DEPVA
-      Track: 123.9
-      DistanceNM: 9.16
-    - Identifier: LOPKA
-      Track: 123.9
-      DistanceNM: 5.0
-    - Identifier: UN601
-      Track: 33.6
-      DistanceNM: 6.03
-    - Identifier: UN619
-      Track: 304.0
-      DistanceNM: 5.0
-    - Identifier: UN620
-      Track: 303.9
-      DistanceNM: 5.58
-    - Identifier: UN621
-      Track: 303.9
-      DistanceNM: 3.14
-    - Identifier: 30R
-      Track: 303.9
-      DistanceNM: 6.07
+    - {Identifier: BEPOR, Track: 102.7, DistanceNM: 19.9}
+    - {Identifier: BUBUN, Track: 103.2, DistanceNM: 20.05}
+    - {Identifier: SCAHA, Track: 89.2, DistanceNM: 21.22}
+    - {Identifier: UN605, Track: 123.7, DistanceNM: 26.48}
+    - {Identifier: UN608, Track: 123.8, DistanceNM: 8.0}
+    - {Identifier: DEPVA, Track: 123.9, DistanceNM: 9.16}
+    - {Identifier: LOPKA, Track: 123.9, DistanceNM: 5.0}
+    - {Identifier: UN601, Track: 33.6, DistanceNM: 6.03}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: UN601, Track: 123.9, DistanceNM: 13.72}
+    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+    - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+    - {Identifier: 30R, Track: 303.9, DistanceNM: 6.07}
   DepartureAirports: []
   Views:
   - Identifier: ALL
@@ -2426,1525 +1164,495 @@ Airports:
   - FeederFix: AMULA
     RunwayIdentifier: 11R
     Segments:
-    - Identifier: LONVA
-      Track: 163
-      DistanceNM: 19.9
-    - Identifier: GL573
-      Track: 180.3
-      DistanceNM: 10.8
-    - Identifier: OLAVA
-      Track: 188.8
-      DistanceNM: 29.1
-    - Identifier: 11R
-      Track: 114.1
-      DistanceNM: 20
+    - {Identifier: LONVA, Track: 163, DistanceNM: 19.9}
+    - {Identifier: GL573, Track: 180.3, DistanceNM: 10.8}
+    - {Identifier: OLAVA, Track: 188.8, DistanceNM: 29.1}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     Pressure:
       After: GL573
       Segments:
-      - Identifier: GL550
-        Track: 180.3
-        DistanceNM: 5
-      - Identifier: GL551
-        Track: 265.6
-        DistanceNM: 12.4
-      - Identifier: GL552
-        Track: 235.4
-        DistanceNM: 12.4
-      - Identifier: OLAVA
-        Track: 130.7
-        DistanceNM: 24.0
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL550, Track: 180.3, DistanceNM: 5}
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     MaxPressure:
       After: GL573
       Segments:
-      - Identifier: GL550
-        Track: 180.3
-        DistanceNM: 5
-      - Identifier: GL551
-        Track: 265.6
-        DistanceNM: 12.4
-      - Identifier: GL552
-        Track: 235.4
-        DistanceNM: 12.4
-      - Identifier: GL553
-        Track: 205.3
-        DistanceNM: 12.5
-      - Identifier: GL554
-        Track: 175.5
-        DistanceNM: 12.5
-      - Identifier: GL555
-        Track: 145.6
-        DistanceNM: 12.5
-      - Identifier: OLAVA
-        Track: 40.3
-        DistanceNM: 24
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL550, Track: 180.3, DistanceNM: 5}
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
+      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.5}
+      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.5}
+      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.5}
+      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
   - FeederFix: AMULA
     RunwayIdentifier: 29L
     Segments:
-    - Identifier: LONVA
-      Track: 163
-      DistanceNM: 19.9
-    - Identifier: GL820
-      Track: 119.8
-      DistanceNM: 21.5
-    - Identifier: GL821
-      Track: 119.7
-      DistanceNM: 5
-    - Identifier: GL822
-      Track: 135.6
-      DistanceNM: 18.5
-    - Identifier: VOLIN
-      Track: 135.7
-      DistanceNM: 4.6
-    - Identifier: GL824
-      Track: 135.7
-      DistanceNM: 9.6
-    - Identifier: PLADE
-      Track: 218.0
-      DistanceNM: 24.1
-    - Identifier: 29L
-      Track: 294.2
-      DistanceNM: 17
+    - {Identifier: LONVA, Track: 163, DistanceNM: 19.9}
+    - {Identifier: GL820, Track: 119.8, DistanceNM: 21.5}
+    - {Identifier: GL821, Track: 119.7, DistanceNM: 5}
+    - {Identifier: GL822, Track: 135.6, DistanceNM: 18.5}
+    - {Identifier: VOLIN, Track: 135.7, DistanceNM: 4.6}
+    - {Identifier: GL824, Track: 135.7, DistanceNM: 9.6}
+    - {Identifier: PLADE, Track: 218.0, DistanceNM: 24.1}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     Pressure:
       After: GL824
       Segments:
-      - Identifier: GL825
-        Track: 143.3
-        DistanceNM: 12.4
-      - Identifier: GL826
-        Track: 173.2
-        DistanceNM: 12.5
-      - Identifier: PLADE
-        Track: 278.2
-        DistanceNM: 24.0
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.4}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 24.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     MaxPressure:
       After: GL824
       Segments:
-      - Identifier: GL825
-        Track: 143.3
-        DistanceNM: 12.4
-      - Identifier: GL826
-        Track: 173.2
-        DistanceNM: 12.5
-      - Identifier: GL827
-        Track: 203
-        DistanceNM: 12.5
-      - Identifier: GL828
-        Track: 233
-        DistanceNM: 12.4
-      - Identifier: PLADE
-        Track: 338.2
-        DistanceNM: 24.1
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.4}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
+      - {Identifier: GL827, Track: 203, DistanceNM: 12.5}
+      - {Identifier: GL828, Track: 233, DistanceNM: 12.4}
+      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.1}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
   - FeederFix: IGSON
     RunwayIdentifier: 11R
     Segments:
-    - Identifier: ULUVO
-      Track: 289.6
-      DistanceNM: 8.7
-    - Identifier: GL530
-      Track: 289.5
-      DistanceNM: 10.5
-    - Identifier: GL531
-      Track: 290.5
-      DistanceNM: 29.5
-    - Identifier: BRUJA
-      Track: 269.3
-      DistanceNM: 26
-    - Identifier: GL560
-      Track: 301.3
-      DistanceNM: 23.3
-    - Identifier: OLAVA
-      Track: 40.3
-      DistanceNM: 23.0
-    - Identifier: 11R
-      Track: 114.1
-      DistanceNM: 20
+    - {Identifier: ULUVO, Track: 289.6, DistanceNM: 8.7}
+    - {Identifier: GL530, Track: 289.5, DistanceNM: 10.5}
+    - {Identifier: GL531, Track: 290.5, DistanceNM: 29.5}
+    - {Identifier: BRUJA, Track: 269.3, DistanceNM: 26}
+    - {Identifier: GL560, Track: 301.3, DistanceNM: 23.3}
+    - {Identifier: OLAVA, Track: 40.3, DistanceNM: 23.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     Pressure:
       After: GL560
       Segments:
-      - Identifier: GL561
-        Track: 325.7
-        DistanceNM: 12
-      - Identifier: GL562
-        Track: 355.5
-        DistanceNM: 12
-      - Identifier: OLAVA
-        Track: 100.5
-        DistanceNM: 23.0
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL561, Track: 325.7, DistanceNM: 12}
+      - {Identifier: GL562, Track: 355.5, DistanceNM: 12}
+      - {Identifier: OLAVA, Track: 100.5, DistanceNM: 23.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     MaxPressure:
       After: GL560
       Segments:
-      - Identifier: GL561
-        Track: 325.7
-        DistanceNM: 12
-      - Identifier: GL562
-        Track: 355.5
-        DistanceNM: 12
-      - Identifier: GL563
-        Track: 25.3
-        DistanceNM: 11.9
-      - Identifier: GL564
-        Track: 55.3
-        DistanceNM: 11.9
-      - Identifier: GL565
-        Track: 85.6
-        DistanceNM: 11.9
-      - Identifier: OLAVA
-        Track: 190.6
-        DistanceNM: 23.1
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL561, Track: 325.7, DistanceNM: 12}
+      - {Identifier: GL562, Track: 355.5, DistanceNM: 12}
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
+      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.9}
+      - {Identifier: GL565, Track: 85.6, DistanceNM: 11.9}
+      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.1}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
   - FeederFix: IGSON
     RunwayIdentifier: 29L
     Segments:
-    - Identifier: ULUVO
-      Track: 289.6
-      DistanceNM: 8.7
-    - Identifier: GL530
-      Track: 289.5
-      DistanceNM: 10.5
-    - Identifier: GL802
-      Track: 333.1
-      DistanceNM: 10.4
-    - Identifier: PLADE
-      Track: 308.3
-      DistanceNM: 23.0
-    - Identifier: 29L
-      Track: 294.2
-      DistanceNM: 17
+    - {Identifier: ULUVO, Track: 289.6, DistanceNM: 8.7}
+    - {Identifier: GL530, Track: 289.5, DistanceNM: 10.5}
+    - {Identifier: GL802, Track: 333.1, DistanceNM: 10.4}
+    - {Identifier: PLADE, Track: 308.3, DistanceNM: 23.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     Pressure:
       After: GL802
       Segments:
-      - Identifier: GL803
-        Track: 23
-        DistanceNM: 11.9
-      - Identifier: PLADE
-        Track: 278.2
-        DistanceNM: 23.0
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     MaxPressure:
       After: GL802
       Segments:
-      - Identifier: GL803
-        Track: 23
-        DistanceNM: 11.9
-      - Identifier: GL804
-        Track: 353.2
-        DistanceNM: 12
-      - Identifier: GL805
-        Track: 323.3
-        DistanceNM: 11.9
-      - Identifier: PLADE
-        Track: 218
-        DistanceNM: 23
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
+      - {Identifier: GL804, Track: 353.2, DistanceNM: 12}
+      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.9}
+      - {Identifier: PLADE, Track: 218, DistanceNM: 23}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
   - FeederFix: KASUP
     RunwayIdentifier: 11R
     Segments:
-    - Identifier: LIPEP
-      Track: 95.3
-      DistanceNM: 10
-    - Identifier: GL572
-      Track: 95.3
-      DistanceNM: 5.5
-    - Identifier: GL575
-      Track: 40.5
-      DistanceNM: 5.3
-    - Identifier: GL562
-      Track: 40.5
-      DistanceNM: 5.3
-    - Identifier: OLAVA
-      Track: 100.5
-      DistanceNM: 23.0
-    - Identifier: 11R
-      Track: 114.1
-      DistanceNM: 20
+    - {Identifier: LIPEP, Track: 95.3, DistanceNM: 10}
+    - {Identifier: GL572, Track: 95.3, DistanceNM: 5.5}
+    - {Identifier: GL575, Track: 40.5, DistanceNM: 5.3}
+    - {Identifier: GL562, Track: 40.5, DistanceNM: 5.3}
+    - {Identifier: OLAVA, Track: 100.5, DistanceNM: 23.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     Pressure:
       After: GL562
       Segments:
-      - Identifier: GL563
-        Track: 25.3
-        DistanceNM: 11.9
-      - Identifier: OLAVA
-        Track: 130.7
-        DistanceNM: 23.0
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 23.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     MaxPressure:
       After: GL562
       Segments:
-      - Identifier: GL563
-        Track: 25.3
-        DistanceNM: 11.9
-      - Identifier: GL564
-        Track: 55.3
-        DistanceNM: 11.9
-      - Identifier: GL565
-        Track: 85.6
-        DistanceNM: 11.9
-      - Identifier: OLAVA
-        Track: 190.6
-        DistanceNM: 23.1
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
+      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.9}
+      - {Identifier: GL565, Track: 85.6, DistanceNM: 11.9}
+      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.1}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
   - FeederFix: KASUP
     RunwayIdentifier: 29L
     Segments:
-    - Identifier: LIPEP
-      Track: 95.3
-      DistanceNM: 10
-    - Identifier: OTETA
-      Track: 117.2
-      DistanceNM: 75.2
-    - Identifier: GL801
-      Track: 87.7
-      DistanceNM: 12.7
-    - Identifier: PLADE
-      Track: 338.2
-      DistanceNM: 23.1
-    - Identifier: 29L
-      Track: 294.2
-      DistanceNM: 17
+    - {Identifier: LIPEP, Track: 95.3, DistanceNM: 10}
+    - {Identifier: OTETA, Track: 117.2, DistanceNM: 75.2}
+    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.7}
+    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.1}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     Pressure:
       After: GL801
       Segments:
-      - Identifier: GL802
-        Track: 52.9
-        DistanceNM: 11.9
-      - Identifier: GL803
-        Track: 23
-        DistanceNM: 11.9
-      - Identifier: PLADE
-        Track: 278.2
-        DistanceNM: 23.0
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
+      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     MaxPressure:
       After: GL801
       Segments:
-      - Identifier: GL802
-        Track: 52.9
-        DistanceNM: 11.9
-      - Identifier: GL803
-        Track: 23
-        DistanceNM: 11.9
-      - Identifier: GL804
-        Track: 353.2
-        DistanceNM: 12
-      - Identifier: GL805
-        Track: 323.3
-        DistanceNM: 11.9
-      - Identifier: PLADE
-        Track: 218
-        DistanceNM: 23
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
+      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
+      - {Identifier: GL804, Track: 353.2, DistanceNM: 12}
+      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.9}
+      - {Identifier: PLADE, Track: 218, DistanceNM: 23}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
   - FeederFix: MEZCA
     RunwayIdentifier: 11R
     Segments:
-    - Identifier: LIVRI
-      Track: 218
-      DistanceNM: 10.3
-    - Identifier: IKBAN
-      Track: 218
-      DistanceNM: 4.9
-    - Identifier: ULOGA
-      Track: 243.1
-      DistanceNM: 12
-    - Identifier: GL513
-      Track: 278
-      DistanceNM: 20
-    - Identifier: GL550
-      Track: 266
-      DistanceNM: 12
-    - Identifier: OLAVA
-      Track: 190.6
-      DistanceNM: 24.1
-    - Identifier: 11R
-      Track: 114.1
-      DistanceNM: 20
+    - {Identifier: LIVRI, Track: 218, DistanceNM: 10.3}
+    - {Identifier: IKBAN, Track: 218, DistanceNM: 4.9}
+    - {Identifier: ULOGA, Track: 243.1, DistanceNM: 12}
+    - {Identifier: GL513, Track: 278, DistanceNM: 20}
+    - {Identifier: GL550, Track: 266, DistanceNM: 12}
+    - {Identifier: OLAVA, Track: 190.6, DistanceNM: 24.1}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     Pressure:
       After: GL550
       Segments:
-      - Identifier: GL551
-        Track: 265.6
-        DistanceNM: 12.4
-      - Identifier: GL552
-        Track: 235.4
-        DistanceNM: 12.4
-      - Identifier: OLAVA
-        Track: 130.7
-        DistanceNM: 24.0
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     MaxPressure:
       After: GL550
       Segments:
-      - Identifier: GL551
-        Track: 265.6
-        DistanceNM: 12.4
-      - Identifier: GL552
-        Track: 235.4
-        DistanceNM: 12.4
-      - Identifier: GL553
-        Track: 205.3
-        DistanceNM: 12.5
-      - Identifier: GL554
-        Track: 175.5
-        DistanceNM: 12.5
-      - Identifier: GL555
-        Track: 145.6
-        DistanceNM: 12.5
-      - Identifier: OLAVA
-        Track: 40.3
-        DistanceNM: 24
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
+      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.5}
+      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.5}
+      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.5}
+      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
   - FeederFix: MEZCA
     RunwayIdentifier: 29L
     Segments:
-    - Identifier: LIVRI
-      Track: 218
-      DistanceNM: 10.3
-    - Identifier: IKBAN
-      Track: 218
-      DistanceNM: 4.9
-    - Identifier: GL840
-      Track: 172.2
-      DistanceNM: 8.6
-    - Identifier: UKOSI
-      Track: 171.5
-      DistanceNM: 7.6
-    - Identifier: GL824
-      Track: 171.5
-      DistanceNM: 8.3
-    - Identifier: PLADE
-      Track: 218.0
-      DistanceNM: 24.1
-    - Identifier: 29L
-      Track: 294.2
-      DistanceNM: 17
+    - {Identifier: LIVRI, Track: 218, DistanceNM: 10.3}
+    - {Identifier: IKBAN, Track: 218, DistanceNM: 4.9}
+    - {Identifier: GL840, Track: 172.2, DistanceNM: 8.6}
+    - {Identifier: UKOSI, Track: 171.5, DistanceNM: 7.6}
+    - {Identifier: GL824, Track: 171.5, DistanceNM: 8.3}
+    - {Identifier: PLADE, Track: 218.0, DistanceNM: 24.1}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     Pressure:
       After: GL824
       Segments:
-      - Identifier: GL825
-        Track: 143.3
-        DistanceNM: 12.4
-      - Identifier: GL826
-        Track: 173.2
-        DistanceNM: 12.5
-      - Identifier: PLADE
-        Track: 278.2
-        DistanceNM: 24.0
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.4}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 24.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     MaxPressure:
       After: GL824
       Segments:
-      - Identifier: GL825
-        Track: 143.3
-        DistanceNM: 12.4
-      - Identifier: GL826
-        Track: 173.2
-        DistanceNM: 12.5
-      - Identifier: GL827
-        Track: 203
-        DistanceNM: 12.5
-      - Identifier: GL828
-        Track: 233
-        DistanceNM: 12.4
-      - Identifier: PLADE
-        Track: 338.2
-        DistanceNM: 24.1
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL825, Track: 143.3, DistanceNM: 12.4}
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
+      - {Identifier: GL827, Track: 203, DistanceNM: 12.5}
+      - {Identifier: GL828, Track: 233, DistanceNM: 12.4}
+      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.1}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
   - FeederFix: MUTEM
     RunwayIdentifier: 11R
     Segments:
-    - Identifier: GL540
-      Track: 283.8
-      DistanceNM: 22.4
-    - Identifier: ULOGA
-      Track: 295.2
-      DistanceNM: 20.8
-    - Identifier: GL513
-      Track: 278
-      DistanceNM: 20
-    - Identifier: GL550
-      Track: 266
-      DistanceNM: 12
-    - Identifier: OLAVA
-      Track: 190.6
-      DistanceNM: 24.1
-    - Identifier: 11R
-      Track: 114.1
-      DistanceNM: 20
+    - {Identifier: GL540, Track: 283.8, DistanceNM: 22.4}
+    - {Identifier: ULOGA, Track: 295.2, DistanceNM: 20.8}
+    - {Identifier: GL513, Track: 278, DistanceNM: 20}
+    - {Identifier: GL550, Track: 266, DistanceNM: 12}
+    - {Identifier: OLAVA, Track: 190.6, DistanceNM: 24.1}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     Pressure:
       After: GL550
       Segments:
-      - Identifier: GL551
-        Track: 265.6
-        DistanceNM: 12.4
-      - Identifier: GL552
-        Track: 235.4
-        DistanceNM: 12.4
-      - Identifier: OLAVA
-        Track: 130.7
-        DistanceNM: 24.0
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 24.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     MaxPressure:
       After: GL550
       Segments:
-      - Identifier: GL551
-        Track: 265.6
-        DistanceNM: 12.4
-      - Identifier: GL552
-        Track: 235.4
-        DistanceNM: 12.4
-      - Identifier: GL553
-        Track: 205.3
-        DistanceNM: 12.5
-      - Identifier: GL554
-        Track: 175.5
-        DistanceNM: 12.5
-      - Identifier: GL555
-        Track: 145.6
-        DistanceNM: 12.5
-      - Identifier: OLAVA
-        Track: 40.3
-        DistanceNM: 24
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL551, Track: 265.6, DistanceNM: 12.4}
+      - {Identifier: GL552, Track: 235.4, DistanceNM: 12.4}
+      - {Identifier: GL553, Track: 205.3, DistanceNM: 12.5}
+      - {Identifier: GL554, Track: 175.5, DistanceNM: 12.5}
+      - {Identifier: GL555, Track: 145.6, DistanceNM: 12.5}
+      - {Identifier: OLAVA, Track: 40.3, DistanceNM: 24}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
   - FeederFix: MUTEM
     RunwayIdentifier: 29L
     Segments:
-    - Identifier: GL825
-      Track: 232.3
-      DistanceNM: 24
-    - Identifier: PLADE
-      Track: 248.0
-      DistanceNM: 24.0
-    - Identifier: 29L
-      Track: 294.2
-      DistanceNM: 17
+    - {Identifier: GL825, Track: 232.3, DistanceNM: 24}
+    - {Identifier: PLADE, Track: 248.0, DistanceNM: 24.0}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     Pressure:
       After: GL825
       Segments:
-      - Identifier: GL826
-        Track: 173.2
-        DistanceNM: 12.5
-      - Identifier: PLADE
-        Track: 278.2
-        DistanceNM: 24.0
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 24.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     MaxPressure:
       After: GL825
       Segments:
-      - Identifier: GL826
-        Track: 173.2
-        DistanceNM: 12.5
-      - Identifier: GL827
-        Track: 203
-        DistanceNM: 12.5
-      - Identifier: GL828
-        Track: 233
-        DistanceNM: 12.4
-      - Identifier: PLADE
-        Track: 338.2
-        DistanceNM: 24.1
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL826, Track: 173.2, DistanceNM: 12.5}
+      - {Identifier: GL827, Track: 203, DistanceNM: 12.5}
+      - {Identifier: GL828, Track: 233, DistanceNM: 12.4}
+      - {Identifier: PLADE, Track: 338.2, DistanceNM: 24.1}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
   - FeederFix: USBIM
     RunwayIdentifier: 11R
     Segments:
-    - Identifier: GL571
-      Track: 28.9
-      DistanceNM: 19.7
-    - Identifier: OLAVA
-      Track: 37.9
-      DistanceNM: 29.0
-    - Identifier: 11R
-      Track: 114.1
-      DistanceNM: 20
+    - {Identifier: GL571, Track: 28.9, DistanceNM: 19.7}
+    - {Identifier: OLAVA, Track: 37.9, DistanceNM: 29.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     Pressure:
       After: GL571
       Segments:
-      - Identifier: GL560
-        Track: 28.9
-        DistanceNM: 6
-      - Identifier: GL561
-        Track: 325.7
-        DistanceNM: 12
-      - Identifier: GL562
-        Track: 355.5
-        DistanceNM: 12
-      - Identifier: OLAVA
-        Track: 100.5
-        DistanceNM: 23.0
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL560, Track: 28.9, DistanceNM: 6}
+      - {Identifier: GL561, Track: 325.7, DistanceNM: 12}
+      - {Identifier: GL562, Track: 355.5, DistanceNM: 12}
+      - {Identifier: OLAVA, Track: 100.5, DistanceNM: 23.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     MaxPressure:
       After: GL571
       Segments:
-      - Identifier: GL560
-        Track: 28.9
-        DistanceNM: 6
-      - Identifier: GL561
-        Track: 325.7
-        DistanceNM: 12
-      - Identifier: GL562
-        Track: 355.5
-        DistanceNM: 12
-      - Identifier: GL563
-        Track: 25.3
-        DistanceNM: 11.9
-      - Identifier: GL564
-        Track: 55.3
-        DistanceNM: 11.9
-      - Identifier: GL565
-        Track: 85.6
-        DistanceNM: 11.9
-      - Identifier: OLAVA
-        Track: 190.6
-        DistanceNM: 23.1
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL560, Track: 28.9, DistanceNM: 6}
+      - {Identifier: GL561, Track: 325.7, DistanceNM: 12}
+      - {Identifier: GL562, Track: 355.5, DistanceNM: 12}
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
+      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.9}
+      - {Identifier: GL565, Track: 85.6, DistanceNM: 11.9}
+      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.1}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
   - FeederFix: USBIM
     RunwayIdentifier: 29L
     Segments:
-    - Identifier: OTETA
-      Track: 87.7
-      DistanceNM: 59.2
-    - Identifier: GL801
-      Track: 87.7
-      DistanceNM: 12.7
-    - Identifier: PLADE
-      Track: 338.2
-      DistanceNM: 23.1
-    - Identifier: 29L
-      Track: 294.2
-      DistanceNM: 17
+    - {Identifier: OTETA, Track: 87.7, DistanceNM: 59.2}
+    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.7}
+    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.1}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     Pressure:
       After: GL801
       Segments:
-      - Identifier: GL802
-        Track: 52.9
-        DistanceNM: 11.9
-      - Identifier: GL803
-        Track: 23
-        DistanceNM: 11.9
-      - Identifier: PLADE
-        Track: 278.2
-        DistanceNM: 23.0
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
+      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     MaxPressure:
       After: GL801
       Segments:
-      - Identifier: GL802
-        Track: 52.9
-        DistanceNM: 11.9
-      - Identifier: GL803
-        Track: 23
-        DistanceNM: 11.9
-      - Identifier: GL804
-        Track: 353.2
-        DistanceNM: 12
-      - Identifier: GL805
-        Track: 323.3
-        DistanceNM: 11.9
-      - Identifier: PLADE
-        Track: 218
-        DistanceNM: 23
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
+      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
+      - {Identifier: GL804, Track: 353.2, DistanceNM: 12}
+      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.9}
+      - {Identifier: PLADE, Track: 218, DistanceNM: 23}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
   - FeederFix: VOLAT
     RunwayIdentifier: 11R
     Segments:
-    - Identifier: GL572
-      Track: 25.9
-      DistanceNM: 15.7
-    - Identifier: GL575
-      Track: 40.5
-      DistanceNM: 5.3
-    - Identifier: GL562
-      Track: 40.5
-      DistanceNM: 5.3
-    - Identifier: OLAVA
-      Track: 100.5
-      DistanceNM: 23.0
-    - Identifier: 11R
-      Track: 114.1
-      DistanceNM: 20
+    - {Identifier: GL572, Track: 25.9, DistanceNM: 15.7}
+    - {Identifier: GL575, Track: 40.5, DistanceNM: 5.3}
+    - {Identifier: GL562, Track: 40.5, DistanceNM: 5.3}
+    - {Identifier: OLAVA, Track: 100.5, DistanceNM: 23.0}
+    - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     Pressure:
       After: GL562
       Segments:
-      - Identifier: GL563
-        Track: 25.3
-        DistanceNM: 11.9
-      - Identifier: OLAVA
-        Track: 130.7
-        DistanceNM: 23.0
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
+      - {Identifier: OLAVA, Track: 130.7, DistanceNM: 23.0}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
     MaxPressure:
       After: GL562
       Segments:
-      - Identifier: GL563
-        Track: 25.3
-        DistanceNM: 11.9
-      - Identifier: GL564
-        Track: 55.3
-        DistanceNM: 11.9
-      - Identifier: GL565
-        Track: 85.6
-        DistanceNM: 11.9
-      - Identifier: OLAVA
-        Track: 190.6
-        DistanceNM: 23.1
-      - Identifier: 11R
-        Track: 114.1
-        DistanceNM: 20
+      - {Identifier: GL563, Track: 25.3, DistanceNM: 11.9}
+      - {Identifier: GL564, Track: 55.3, DistanceNM: 11.9}
+      - {Identifier: GL565, Track: 85.6, DistanceNM: 11.9}
+      - {Identifier: OLAVA, Track: 190.6, DistanceNM: 23.1}
+      - {Identifier: 11R, Track: 114.1, DistanceNM: 20}
   - FeederFix: VOLAT
     RunwayIdentifier: 29L
     Segments:
-    - Identifier: OTETA
-      Track: 106.2
-      DistanceNM: 71
-    - Identifier: GL801
-      Track: 87.7
-      DistanceNM: 12.7
-    - Identifier: PLADE
-      Track: 338.2
-      DistanceNM: 23.1
-    - Identifier: 29L
-      Track: 294.2
-      DistanceNM: 17
+    - {Identifier: OTETA, Track: 106.2, DistanceNM: 71}
+    - {Identifier: GL801, Track: 87.7, DistanceNM: 12.7}
+    - {Identifier: PLADE, Track: 338.2, DistanceNM: 23.1}
+    - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     Pressure:
       After: GL801
       Segments:
-      - Identifier: GL802
-        Track: 52.9
-        DistanceNM: 11.9
-      - Identifier: GL803
-        Track: 23
-        DistanceNM: 11.9
-      - Identifier: PLADE
-        Track: 278.2
-        DistanceNM: 23.0
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
+      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
+      - {Identifier: PLADE, Track: 278.2, DistanceNM: 23.0}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
     MaxPressure:
       After: GL801
       Segments:
-      - Identifier: GL802
-        Track: 52.9
-        DistanceNM: 11.9
-      - Identifier: GL803
-        Track: 23
-        DistanceNM: 11.9
-      - Identifier: GL804
-        Track: 353.2
-        DistanceNM: 12
-      - Identifier: GL805
-        Track: 323.3
-        DistanceNM: 11.9
-      - Identifier: PLADE
-        Track: 218
-        DistanceNM: 23
-      - Identifier: 29L
-        Track: 294.2
-        DistanceNM: 17
+      - {Identifier: GL802, Track: 52.9, DistanceNM: 11.9}
+      - {Identifier: GL803, Track: 23, DistanceNM: 11.9}
+      - {Identifier: GL804, Track: 353.2, DistanceNM: 12}
+      - {Identifier: GL805, Track: 323.3, DistanceNM: 11.9}
+      - {Identifier: PLADE, Track: 218, DistanceNM: 23}
+      - {Identifier: 29L, Track: 294.2, DistanceNM: 17}
   DepartureAirports:
-  - Identifier: MMAA
-    Aircraft:
-    - JET
-    Distance: 303
-    EstimatedFlightTimeMinutes: 45
-  - Identifier: MMAA
-    Aircraft:
-    - NONJET
-    Distance: 303
-    EstimatedFlightTimeMinutes: 78
-  - Identifier: MMAN
-    Aircraft:
-    - JET
-    Distance: 363
-    EstimatedFlightTimeMinutes: 53
-  - Identifier: MMAN
-    Aircraft:
-    - NONJET
-    Distance: 363
-    EstimatedFlightTimeMinutes: 92
-  - Identifier: MMAS
-    Aircraft:
-    - JET
-    Distance: 90
-    EstimatedFlightTimeMinutes: 17
-  - Identifier: MMAS
-    Aircraft:
-    - NONJET
-    Distance: 90
-    EstimatedFlightTimeMinutes: 27
-  - Identifier: MMBT
-    Aircraft:
-    - JET
-    Distance: 493
-    EstimatedFlightTimeMinutes: 71
-  - Identifier: MMBT
-    Aircraft:
-    - NONJET
-    Distance: 493
-    EstimatedFlightTimeMinutes: 123
-  - Identifier: MMCB
-    Aircraft:
-    - JET
-    Distance: 250
-    EstimatedFlightTimeMinutes: 38
-  - Identifier: MMCB
-    Aircraft:
-    - NONJET
-    Distance: 250
-    EstimatedFlightTimeMinutes: 65
-  - Identifier: MMCE
-    Aircraft:
-    - JET
-    Distance: 661
-    EstimatedFlightTimeMinutes: 93
-  - Identifier: MMCE
-    Aircraft:
-    - NONJET
-    Distance: 661
-    EstimatedFlightTimeMinutes: 164
-  - Identifier: MMCL
-    Aircraft:
-    - JET
-    Distance: 344
-    EstimatedFlightTimeMinutes: 51
-  - Identifier: MMCL
-    Aircraft:
-    - NONJET
-    Distance: 344
-    EstimatedFlightTimeMinutes: 88
-  - Identifier: MMCM
-    Aircraft:
-    - JET
-    Distance: 856
-    EstimatedFlightTimeMinutes: 119
-  - Identifier: MMCM
-    Aircraft:
-    - NONJET
-    Distance: 856
-    EstimatedFlightTimeMinutes: 210
-  - Identifier: MMCN
-    Aircraft:
-    - JET
-    Distance: 546
-    EstimatedFlightTimeMinutes: 78
-  - Identifier: MMCN
-    Aircraft:
-    - NONJET
-    Distance: 546
-    EstimatedFlightTimeMinutes: 136
-  - Identifier: MMCP
-    Aircraft:
-    - JET
-    Distance: 723
-    EstimatedFlightTimeMinutes: 101
-  - Identifier: MMCP
-    Aircraft:
-    - NONJET
-    Distance: 723
-    EstimatedFlightTimeMinutes: 179
-  - Identifier: MMCS
-    Aircraft:
-    - JET
-    Distance: 688
-    EstimatedFlightTimeMinutes: 97
-  - Identifier: MMCS
-    Aircraft:
-    - NONJET
-    Distance: 688
-    EstimatedFlightTimeMinutes: 170
-  - Identifier: MMCT
-    Aircraft:
-    - JET
-    Distance: 835
-    EstimatedFlightTimeMinutes: 116
-  - Identifier: MMCT
-    Aircraft:
-    - NONJET
-    Distance: 835
-    EstimatedFlightTimeMinutes: 205
-  - Identifier: MMCU
-    Aircraft:
-    - JET
-    Distance: 512
-    EstimatedFlightTimeMinutes: 73
-  - Identifier: MMCU
-    Aircraft:
-    - NONJET
-    Distance: 512
-    EstimatedFlightTimeMinutes: 128
-  - Identifier: MMCV
-    Aircraft:
-    - JET
-    Distance: 308
-    EstimatedFlightTimeMinutes: 46
-  - Identifier: MMCV
-    Aircraft:
-    - NONJET
-    Distance: 308
-    EstimatedFlightTimeMinutes: 79
-  - Identifier: MMCY
-    Aircraft:
-    - JET
-    Distance: 136
-    EstimatedFlightTimeMinutes: 23
-  - Identifier: MMCY
-    Aircraft:
-    - NONJET
-    Distance: 136
-    EstimatedFlightTimeMinutes: 38
-  - Identifier: MMCZ
-    Aircraft:
-    - JET
-    Distance: 921
-    EstimatedFlightTimeMinutes: 128
-  - Identifier: MMCZ
-    Aircraft:
-    - NONJET
-    Distance: 921
-    EstimatedFlightTimeMinutes: 226
-  - Identifier: MMDO
-    Aircraft:
-    - JET
-    Distance: 227
-    EstimatedFlightTimeMinutes: 35
-  - Identifier: MMDO
-    Aircraft:
-    - NONJET
-    Distance: 227
-    EstimatedFlightTimeMinutes: 59
-  - Identifier: MMEP
-    Aircraft:
-    - JET
-    Distance: 101
-    EstimatedFlightTimeMinutes: 18
-  - Identifier: MMEP
-    Aircraft:
-    - NONJET
-    Distance: 101
-    EstimatedFlightTimeMinutes: 29
-  - Identifier: MMES
-    Aircraft:
-    - JET
-    Distance: 984
-    EstimatedFlightTimeMinutes: 136
-  - Identifier: MMES
-    Aircraft:
-    - NONJET
-    Distance: 984
-    EstimatedFlightTimeMinutes: 241
-  - Identifier: MMGA
-    Aircraft:
-    - JET
-    Distance: 494
-    EstimatedFlightTimeMinutes: 71
-  - Identifier: MMGA
-    Aircraft:
-    - NONJET
-    Distance: 494
-    EstimatedFlightTimeMinutes: 124
-  - Identifier: MMGM
-    Aircraft:
-    - JET
-    Distance: 611
-    EstimatedFlightTimeMinutes: 86
-  - Identifier: MMGM
-    Aircraft:
-    - NONJET
-    Distance: 611
-    EstimatedFlightTimeMinutes: 152
-  - Identifier: MMHC
-    Aircraft:
-    - JET
-    Distance: 355
-    EstimatedFlightTimeMinutes: 52
-  - Identifier: MMHC
-    Aircraft:
-    - NONJET
-    Distance: 355
-    EstimatedFlightTimeMinutes: 90
-  - Identifier: MMHO
-    Aircraft:
-    - JET
-    Distance: 665
-    EstimatedFlightTimeMinutes: 94
-  - Identifier: MMHO
-    Aircraft:
-    - NONJET
-    Distance: 665
-    EstimatedFlightTimeMinutes: 165
-  - Identifier: MMIA
-    Aircraft:
-    - JET
-    Distance: 76
-    EstimatedFlightTimeMinutes: 15
-  - Identifier: MMIA
-    Aircraft:
-    - NONJET
-    Distance: 76
-    EstimatedFlightTimeMinutes: 23
-  - Identifier: MMIO
-    Aircraft:
-    - JET
-    Distance: 329
-    EstimatedFlightTimeMinutes: 49
-  - Identifier: MMIO
-    Aircraft:
-    - NONJET
-    Distance: 329
-    EstimatedFlightTimeMinutes: 84
-  - Identifier: MMIT
-    Aircraft:
-    - JET
-    Distance: 528
-    EstimatedFlightTimeMinutes: 75
-  - Identifier: MMIT
-    Aircraft:
-    - NONJET
-    Distance: 528
-    EstimatedFlightTimeMinutes: 132
-  - Identifier: MMJA
-    Aircraft:
-    - JET
-    Distance: 373
-    EstimatedFlightTimeMinutes: 55
-  - Identifier: MMJA
-    Aircraft:
-    - NONJET
-    Distance: 373
-    EstimatedFlightTimeMinutes: 95
-  - Identifier: MMJC
-    Aircraft:
-    - JET
-    Distance: 234
-    EstimatedFlightTimeMinutes: 36
-  - Identifier: MMJC
-    Aircraft:
-    - NONJET
-    Distance: 234
-    EstimatedFlightTimeMinutes: 61
-  - Identifier: MMLC
-    Aircraft:
-    - JET
-    Distance: 163
-    EstimatedFlightTimeMinutes: 27
-  - Identifier: MMLC
-    Aircraft:
-    - NONJET
-    Distance: 163
-    EstimatedFlightTimeMinutes: 44
-  - Identifier: MMLM
-    Aircraft:
-    - JET
-    Distance: 444
-    EstimatedFlightTimeMinutes: 64
-  - Identifier: MMLM
-    Aircraft:
-    - NONJET
-    Distance: 444
-    EstimatedFlightTimeMinutes: 112
-  - Identifier: MMLO
-    Aircraft:
-    - JET
-    Distance: 107
-    EstimatedFlightTimeMinutes: 19
-  - Identifier: MMLO
-    Aircraft:
-    - NONJET
-    Distance: 107
-    EstimatedFlightTimeMinutes: 31
-  - Identifier: MMLP
-    Aircraft:
-    - JET
-    Distance: 446
-    EstimatedFlightTimeMinutes: 64
-  - Identifier: MMLP
-    Aircraft:
-    - NONJET
-    Distance: 446
-    EstimatedFlightTimeMinutes: 112
-  - Identifier: MMLT
-    Aircraft:
-    - JET
-    Distance: 551
-    EstimatedFlightTimeMinutes: 78
-  - Identifier: MMLT
-    Aircraft:
-    - NONJET
-    Distance: 551
-    EstimatedFlightTimeMinutes: 137
-  - Identifier: MMMA
-    Aircraft:
-    - JET
-    Distance: 449
-    EstimatedFlightTimeMinutes: 65
-  - Identifier: MMMA
-    Aircraft:
-    - NONJET
-    Distance: 449
-    EstimatedFlightTimeMinutes: 113
-  - Identifier: MMMD
-    Aircraft:
-    - JET
-    Distance: 767
-    EstimatedFlightTimeMinutes: 107
-  - Identifier: MMMD
-    Aircraft:
-    - NONJET
-    Distance: 767
-    EstimatedFlightTimeMinutes: 189
-  - Identifier: MMML
-    Aircraft:
-    - JET
-    Distance: 967
-    EstimatedFlightTimeMinutes: 134
-  - Identifier: MMML
-    Aircraft:
-    - NONJET
-    Distance: 967
-    EstimatedFlightTimeMinutes: 237
-  - Identifier: MMMM
-    Aircraft:
-    - JET
-    Distance: 135
-    EstimatedFlightTimeMinutes: 23
-  - Identifier: MMMM
-    Aircraft:
-    - NONJET
-    Distance: 135
-    EstimatedFlightTimeMinutes: 37
-  - Identifier: MMMT
-    Aircraft:
-    - JET
-    Distance: 515
-    EstimatedFlightTimeMinutes: 74
-  - Identifier: MMMT
-    Aircraft:
-    - NONJET
-    Distance: 515
-    EstimatedFlightTimeMinutes: 129
-  - Identifier: MMMV
-    Aircraft:
-    - JET
-    Distance: 399
-    EstimatedFlightTimeMinutes: 58
-  - Identifier: MMMV
-    Aircraft:
-    - NONJET
-    Distance: 399
-    EstimatedFlightTimeMinutes: 101
-  - Identifier: MMMX
-    Aircraft:
-    - JET
-    Distance: 248
-    EstimatedFlightTimeMinutes: 38
-  - Identifier: MMMX
-    Aircraft:
-    - NONJET
-    Distance: 248
-    EstimatedFlightTimeMinutes: 65
-  - Identifier: MMMY
-    Aircraft:
-    - JET
-    Distance: 362
-    EstimatedFlightTimeMinutes: 53
-  - Identifier: MMMY
-    Aircraft:
-    - NONJET
-    Distance: 362
-    EstimatedFlightTimeMinutes: 92
-  - Identifier: MMMZ
-    Aircraft:
-    - JET
-    Distance: 228
-    EstimatedFlightTimeMinutes: 35
-  - Identifier: MMMZ
-    Aircraft:
-    - NONJET
-    Distance: 228
-    EstimatedFlightTimeMinutes: 60
-  - Identifier: MMNG
-    Aircraft:
-    - JET
-    Distance: 764
-    EstimatedFlightTimeMinutes: 107
-  - Identifier: MMNG
-    Aircraft:
-    - NONJET
-    Distance: 764
-    EstimatedFlightTimeMinutes: 188
-  - Identifier: MMNL
-    Aircraft:
-    - JET
-    Distance: 463
-    EstimatedFlightTimeMinutes: 67
-  - Identifier: MMNL
-    Aircraft:
-    - NONJET
-    Distance: 463
-    EstimatedFlightTimeMinutes: 116
-  - Identifier: MMOX
-    Aircraft:
-    - JET
-    Distance: 430
-    EstimatedFlightTimeMinutes: 62
-  - Identifier: MMOX
-    Aircraft:
-    - NONJET
-    Distance: 430
-    EstimatedFlightTimeMinutes: 108
-  - Identifier: MMPA
-    Aircraft:
-    - JET
-    Distance: 329
-    EstimatedFlightTimeMinutes: 49
-  - Identifier: MMPA
-    Aircraft:
-    - NONJET
-    Distance: 329
-    EstimatedFlightTimeMinutes: 84
-  - Identifier: MMPB
-    Aircraft:
-    - JET
-    Distance: 291
-    EstimatedFlightTimeMinutes: 44
-  - Identifier: MMPB
-    Aircraft:
-    - NONJET
-    Distance: 291
-    EstimatedFlightTimeMinutes: 75
-  - Identifier: MMPC
-    Aircraft:
-    - JET
-    Distance: 256
-    EstimatedFlightTimeMinutes: 39
-  - Identifier: MMPC
-    Aircraft:
-    - NONJET
-    Distance: 256
-    EstimatedFlightTimeMinutes: 66
-  - Identifier: MMPE
-    Aircraft:
-    - JET
-    Distance: 844
-    EstimatedFlightTimeMinutes: 118
-  - Identifier: MMPE
-    Aircraft:
-    - NONJET
-    Distance: 844
-    EstimatedFlightTimeMinutes: 208
-  - Identifier: MMPG
-    Aircraft:
-    - JET
-    Distance: 510
-    EstimatedFlightTimeMinutes: 73
-  - Identifier: MMPG
-    Aircraft:
-    - NONJET
-    Distance: 510
-    EstimatedFlightTimeMinutes: 127
-  - Identifier: MMPN
-    Aircraft:
-    - JET
-    Distance: 99
-    EstimatedFlightTimeMinutes: 18
-  - Identifier: MMPN
-    Aircraft:
-    - NONJET
-    Distance: 99
-    EstimatedFlightTimeMinutes: 29
-  - Identifier: MMPQ
-    Aircraft:
-    - JET
-    Distance: 666
-    EstimatedFlightTimeMinutes: 94
-  - Identifier: MMPQ
-    Aircraft:
-    - NONJET
-    Distance: 666
-    EstimatedFlightTimeMinutes: 165
-  - Identifier: MMPR
-    Aircraft:
-    - JET
-    Distance: 110
-    EstimatedFlightTimeMinutes: 20
-  - Identifier: MMPR
-    Aircraft:
-    - NONJET
-    Distance: 110
-    EstimatedFlightTimeMinutes: 31
-  - Identifier: MMPS
-    Aircraft:
-    - JET
-    Distance: 451
-    EstimatedFlightTimeMinutes: 65
-  - Identifier: MMPS
-    Aircraft:
-    - NONJET
-    Distance: 451
-    EstimatedFlightTimeMinutes: 113
-  - Identifier: MMQT
-    Aircraft:
-    - JET
-    Distance: 176
-    EstimatedFlightTimeMinutes: 28
-  - Identifier: MMQT
-    Aircraft:
-    - NONJET
-    Distance: 176
-    EstimatedFlightTimeMinutes: 47
-  - Identifier: MMRX
-    Aircraft:
-    - JET
-    Distance: 432
-    EstimatedFlightTimeMinutes: 63
-  - Identifier: MMRX
-    Aircraft:
-    - NONJET
-    Distance: 432
-    EstimatedFlightTimeMinutes: 109
-  - Identifier: MMSD
-    Aircraft:
-    - JET
-    Distance: 391
-    EstimatedFlightTimeMinutes: 57
-  - Identifier: MMSD
-    Aircraft:
-    - NONJET
-    Distance: 391
-    EstimatedFlightTimeMinutes: 99
-  - Identifier: MMSF
-    Aircraft:
-    - JET
-    Distance: 881
-    EstimatedFlightTimeMinutes: 122
-  - Identifier: MMSF
-    Aircraft:
-    - NONJET
-    Distance: 881
-    EstimatedFlightTimeMinutes: 216
-  - Identifier: MMSL
-    Aircraft:
-    - JET
-    Distance: 397
-    EstimatedFlightTimeMinutes: 58
-  - Identifier: MMSL
-    Aircraft:
-    - NONJET
-    Distance: 397
-    EstimatedFlightTimeMinutes: 100
-  - Identifier: MMSM
-    Aircraft:
-    - JET
-    Distance: 247
-    EstimatedFlightTimeMinutes: 38
-  - Identifier: MMSM
-    Aircraft:
-    - NONJET
-    Distance: 247
-    EstimatedFlightTimeMinutes: 64
-  - Identifier: MMSP
-    Aircraft:
-    - JET
-    Distance: 169
-    EstimatedFlightTimeMinutes: 28
-  - Identifier: MMSP
-    Aircraft:
-    - NONJET
-    Distance: 169
-    EstimatedFlightTimeMinutes: 46
-  - Identifier: MMTC
-    Aircraft:
-    - JET
-    Distance: 303
-    EstimatedFlightTimeMinutes: 45
-  - Identifier: MMTC
-    Aircraft:
-    - NONJET
-    Distance: 303
-    EstimatedFlightTimeMinutes: 78
-  - Identifier: MMTG
-    Aircraft:
-    - JET
-    Distance: 632
-    EstimatedFlightTimeMinutes: 89
-  - Identifier: MMTG
-    Aircraft:
-    - NONJET
-    Distance: 632
-    EstimatedFlightTimeMinutes: 157
-  - Identifier: MMTJ
-    Aircraft:
-    - JET
-    Distance: 1027
-    EstimatedFlightTimeMinutes: 142
-  - Identifier: MMTJ
-    Aircraft:
-    - NONJET
-    Distance: 1027
-    EstimatedFlightTimeMinutes: 251
-  - Identifier: MMTL
-    Aircraft:
-    - JET
-    Distance: 881
-    EstimatedFlightTimeMinutes: 122
-  - Identifier: MMTL
-    Aircraft:
-    - NONJET
-    Distance: 881
-    EstimatedFlightTimeMinutes: 216
-  - Identifier: MMTM
-    Aircraft:
-    - JET
-    Distance: 322
-    EstimatedFlightTimeMinutes: 48
-  - Identifier: MMTM
-    Aircraft:
-    - NONJET
-    Distance: 322
-    EstimatedFlightTimeMinutes: 82
-  - Identifier: MMTO
-    Aircraft:
-    - JET
-    Distance: 223
-    EstimatedFlightTimeMinutes: 35
-  - Identifier: MMTO
-    Aircraft:
-    - NONJET
-    Distance: 223
-    EstimatedFlightTimeMinutes: 59
-  - Identifier: MMTP
-    Aircraft:
-    - JET
-    Distance: 714
-    EstimatedFlightTimeMinutes: 100
-  - Identifier: MMTP
-    Aircraft:
-    - NONJET
-    Distance: 714
-    EstimatedFlightTimeMinutes: 176
-  - Identifier: MMUN
-    Aircraft:
-    - JET
-    Distance: 923
-    EstimatedFlightTimeMinutes: 128
-  - Identifier: MMUN
-    Aircraft:
-    - NONJET
-    Distance: 923
-    EstimatedFlightTimeMinutes: 227
-  - Identifier: MMVA
-    Aircraft:
-    - JET
-    Distance: 614
-    EstimatedFlightTimeMinutes: 87
-  - Identifier: MMVA
-    Aircraft:
-    - NONJET
-    Distance: 614
-    EstimatedFlightTimeMinutes: 152
-  - Identifier: MMVR
-    Aircraft:
-    - JET
-    Distance: 411
-    EstimatedFlightTimeMinutes: 60
-  - Identifier: MMVR
-    Aircraft:
-    - NONJET
-    Distance: 411
-    EstimatedFlightTimeMinutes: 104
-  - Identifier: MMZC
-    Aircraft:
-    - JET
-    Distance: 147
-    EstimatedFlightTimeMinutes: 25
-  - Identifier: MMZC
-    Aircraft:
-    - NONJET
-    Distance: 147
-    EstimatedFlightTimeMinutes: 40
-  - Identifier: MMZH
-    Aircraft:
-    - JET
-    Distance: 204
-    EstimatedFlightTimeMinutes: 32
-  - Identifier: MMZH
-    Aircraft:
-    - NONJET
-    Distance: 204
-    EstimatedFlightTimeMinutes: 54
-  - Identifier: MMZM
-    Aircraft:
-    - JET
-    Distance: 65
-    EstimatedFlightTimeMinutes: 14
-  - Identifier: MMZM
-    Aircraft:
-    - NONJET
-    Distance: 65
-    EstimatedFlightTimeMinutes: 21
-  - Identifier: MMZO
-    Aircraft:
-    - JET
-    Distance: 109
-    EstimatedFlightTimeMinutes: 20
-  - Identifier: MMZO
-    Aircraft:
-    - NONJET
-    Distance: 109
-    EstimatedFlightTimeMinutes: 31
+  - {Identifier: MMAA, Aircraft: [JET], Distance: 303, EstimatedFlightTimeMinutes: 55}
+  - {Identifier: MMAA, Aircraft: [NONJET], Distance: 303, EstimatedFlightTimeMinutes: 88}
+  - {Identifier: MMAN, Aircraft: [JET], Distance: 363, EstimatedFlightTimeMinutes: 63}
+  - {Identifier: MMAN, Aircraft: [NONJET], Distance: 363, EstimatedFlightTimeMinutes: 102}
+  - {Identifier: MMAS, Aircraft: [JET], Distance: 90, EstimatedFlightTimeMinutes: 27}
+  - {Identifier: MMAS, Aircraft: [NONJET], Distance: 90, EstimatedFlightTimeMinutes: 37}
+  - {Identifier: MMBT, Aircraft: [JET], Distance: 493, EstimatedFlightTimeMinutes: 81}
+  - {Identifier: MMBT, Aircraft: [NONJET], Distance: 493, EstimatedFlightTimeMinutes: 133}
+  - {Identifier: MMCB, Aircraft: [JET], Distance: 250, EstimatedFlightTimeMinutes: 48}
+  - {Identifier: MMCB, Aircraft: [NONJET], Distance: 250, EstimatedFlightTimeMinutes: 75}
+  - {Identifier: MMCE, Aircraft: [JET], Distance: 661, EstimatedFlightTimeMinutes: 103}
+  - {Identifier: MMCE, Aircraft: [NONJET], Distance: 661, EstimatedFlightTimeMinutes: 174}
+  - {Identifier: MMCL, Aircraft: [JET], Distance: 344, EstimatedFlightTimeMinutes: 61}
+  - {Identifier: MMCL, Aircraft: [NONJET], Distance: 344, EstimatedFlightTimeMinutes: 98}
+  - {Identifier: MMCM, Aircraft: [JET], Distance: 856, EstimatedFlightTimeMinutes: 129}
+  - {Identifier: MMCM, Aircraft: [NONJET], Distance: 856, EstimatedFlightTimeMinutes: 220}
+  - {Identifier: MMCN, Aircraft: [JET], Distance: 546, EstimatedFlightTimeMinutes: 88}
+  - {Identifier: MMCN, Aircraft: [NONJET], Distance: 546, EstimatedFlightTimeMinutes: 146}
+  - {Identifier: MMCP, Aircraft: [JET], Distance: 723, EstimatedFlightTimeMinutes: 111}
+  - {Identifier: MMCP, Aircraft: [NONJET], Distance: 723, EstimatedFlightTimeMinutes: 189}
+  - {Identifier: MMCS, Aircraft: [JET], Distance: 688, EstimatedFlightTimeMinutes: 107}
+  - {Identifier: MMCS, Aircraft: [NONJET], Distance: 688, EstimatedFlightTimeMinutes: 180}
+  - {Identifier: MMCT, Aircraft: [JET], Distance: 835, EstimatedFlightTimeMinutes: 126}
+  - {Identifier: MMCT, Aircraft: [NONJET], Distance: 835, EstimatedFlightTimeMinutes: 215}
+  - {Identifier: MMCU, Aircraft: [JET], Distance: 512, EstimatedFlightTimeMinutes: 83}
+  - {Identifier: MMCU, Aircraft: [NONJET], Distance: 512, EstimatedFlightTimeMinutes: 138}
+  - {Identifier: MMCV, Aircraft: [JET], Distance: 308, EstimatedFlightTimeMinutes: 56}
+  - {Identifier: MMCV, Aircraft: [NONJET], Distance: 308, EstimatedFlightTimeMinutes: 89}
+  - {Identifier: MMCY, Aircraft: [JET], Distance: 136, EstimatedFlightTimeMinutes: 33}
+  - {Identifier: MMCY, Aircraft: [NONJET], Distance: 136, EstimatedFlightTimeMinutes: 48}
+  - {Identifier: MMCZ, Aircraft: [JET], Distance: 921, EstimatedFlightTimeMinutes: 138}
+  - {Identifier: MMCZ, Aircraft: [NONJET], Distance: 921, EstimatedFlightTimeMinutes: 236}
+  - {Identifier: MMDO, Aircraft: [JET], Distance: 227, EstimatedFlightTimeMinutes: 45}
+  - {Identifier: MMDO, Aircraft: [NONJET], Distance: 227, EstimatedFlightTimeMinutes: 69}
+  - {Identifier: MMEP, Aircraft: [JET], Distance: 101, EstimatedFlightTimeMinutes: 28}
+  - {Identifier: MMEP, Aircraft: [NONJET], Distance: 101, EstimatedFlightTimeMinutes: 39}
+  - {Identifier: MMES, Aircraft: [JET], Distance: 984, EstimatedFlightTimeMinutes: 146}
+  - {Identifier: MMES, Aircraft: [NONJET], Distance: 984, EstimatedFlightTimeMinutes: 251}
+  - {Identifier: MMGA, Aircraft: [JET], Distance: 494, EstimatedFlightTimeMinutes: 81}
+  - {Identifier: MMGA, Aircraft: [NONJET], Distance: 494, EstimatedFlightTimeMinutes: 134}
+  - {Identifier: MMGM, Aircraft: [JET], Distance: 611, EstimatedFlightTimeMinutes: 96}
+  - {Identifier: MMGM, Aircraft: [NONJET], Distance: 611, EstimatedFlightTimeMinutes: 162}
+  - {Identifier: MMHC, Aircraft: [JET], Distance: 355, EstimatedFlightTimeMinutes: 62}
+  - {Identifier: MMHC, Aircraft: [NONJET], Distance: 355, EstimatedFlightTimeMinutes: 100}
+  - {Identifier: MMHO, Aircraft: [JET], Distance: 665, EstimatedFlightTimeMinutes: 104}
+  - {Identifier: MMHO, Aircraft: [NONJET], Distance: 665, EstimatedFlightTimeMinutes: 175}
+  - {Identifier: MMIA, Aircraft: [JET], Distance: 76, EstimatedFlightTimeMinutes: 25}
+  - {Identifier: MMIA, Aircraft: [NONJET], Distance: 76, EstimatedFlightTimeMinutes: 33}
+  - {Identifier: MMIO, Aircraft: [JET], Distance: 329, EstimatedFlightTimeMinutes: 59}
+  - {Identifier: MMIO, Aircraft: [NONJET], Distance: 329, EstimatedFlightTimeMinutes: 94}
+  - {Identifier: MMIT, Aircraft: [JET], Distance: 528, EstimatedFlightTimeMinutes: 85}
+  - {Identifier: MMIT, Aircraft: [NONJET], Distance: 528, EstimatedFlightTimeMinutes: 142}
+  - {Identifier: MMJA, Aircraft: [JET], Distance: 373, EstimatedFlightTimeMinutes: 65}
+  - {Identifier: MMJA, Aircraft: [NONJET], Distance: 373, EstimatedFlightTimeMinutes: 105}
+  - {Identifier: MMJC, Aircraft: [JET], Distance: 234, EstimatedFlightTimeMinutes: 46}
+  - {Identifier: MMJC, Aircraft: [NONJET], Distance: 234, EstimatedFlightTimeMinutes: 71}
+  - {Identifier: MMLC, Aircraft: [JET], Distance: 163, EstimatedFlightTimeMinutes: 37}
+  - {Identifier: MMLC, Aircraft: [NONJET], Distance: 163, EstimatedFlightTimeMinutes: 54}
+  - {Identifier: MMLM, Aircraft: [JET], Distance: 444, EstimatedFlightTimeMinutes: 74}
+  - {Identifier: MMLM, Aircraft: [NONJET], Distance: 444, EstimatedFlightTimeMinutes: 122}
+  - {Identifier: MMLO, Aircraft: [JET], Distance: 107, EstimatedFlightTimeMinutes: 29}
+  - {Identifier: MMLO, Aircraft: [NONJET], Distance: 107, EstimatedFlightTimeMinutes: 41}
+  - {Identifier: MMLP, Aircraft: [JET], Distance: 446, EstimatedFlightTimeMinutes: 74}
+  - {Identifier: MMLP, Aircraft: [NONJET], Distance: 446, EstimatedFlightTimeMinutes: 122}
+  - {Identifier: MMLT, Aircraft: [JET], Distance: 551, EstimatedFlightTimeMinutes: 88}
+  - {Identifier: MMLT, Aircraft: [NONJET], Distance: 551, EstimatedFlightTimeMinutes: 147}
+  - {Identifier: MMMA, Aircraft: [JET], Distance: 449, EstimatedFlightTimeMinutes: 75}
+  - {Identifier: MMMA, Aircraft: [NONJET], Distance: 449, EstimatedFlightTimeMinutes: 123}
+  - {Identifier: MMMD, Aircraft: [JET], Distance: 767, EstimatedFlightTimeMinutes: 117}
+  - {Identifier: MMMD, Aircraft: [NONJET], Distance: 767, EstimatedFlightTimeMinutes: 199}
+  - {Identifier: MMML, Aircraft: [JET], Distance: 967, EstimatedFlightTimeMinutes: 144}
+  - {Identifier: MMML, Aircraft: [NONJET], Distance: 967, EstimatedFlightTimeMinutes: 247}
+  - {Identifier: MMMM, Aircraft: [JET], Distance: 135, EstimatedFlightTimeMinutes: 33}
+  - {Identifier: MMMM, Aircraft: [NONJET], Distance: 135, EstimatedFlightTimeMinutes: 47}
+  - {Identifier: MMMT, Aircraft: [JET], Distance: 515, EstimatedFlightTimeMinutes: 84}
+  - {Identifier: MMMT, Aircraft: [NONJET], Distance: 515, EstimatedFlightTimeMinutes: 139}
+  - {Identifier: MMMV, Aircraft: [JET], Distance: 399, EstimatedFlightTimeMinutes: 68}
+  - {Identifier: MMMV, Aircraft: [NONJET], Distance: 399, EstimatedFlightTimeMinutes: 111}
+  - {Identifier: MMMX, Aircraft: [JET], Distance: 248, EstimatedFlightTimeMinutes: 48}
+  - {Identifier: MMMX, Aircraft: [NONJET], Distance: 248, EstimatedFlightTimeMinutes: 75}
+  - {Identifier: MMMY, Aircraft: [JET], Distance: 362, EstimatedFlightTimeMinutes: 63}
+  - {Identifier: MMMY, Aircraft: [NONJET], Distance: 362, EstimatedFlightTimeMinutes: 102}
+  - {Identifier: MMMZ, Aircraft: [JET], Distance: 228, EstimatedFlightTimeMinutes: 45}
+  - {Identifier: MMMZ, Aircraft: [NONJET], Distance: 228, EstimatedFlightTimeMinutes: 70}
+  - {Identifier: MMNG, Aircraft: [JET], Distance: 764, EstimatedFlightTimeMinutes: 117}
+  - {Identifier: MMNG, Aircraft: [NONJET], Distance: 764, EstimatedFlightTimeMinutes: 198}
+  - {Identifier: MMNL, Aircraft: [JET], Distance: 463, EstimatedFlightTimeMinutes: 77}
+  - {Identifier: MMNL, Aircraft: [NONJET], Distance: 463, EstimatedFlightTimeMinutes: 126}
+  - {Identifier: MMOX, Aircraft: [JET], Distance: 430, EstimatedFlightTimeMinutes: 72}
+  - {Identifier: MMOX, Aircraft: [NONJET], Distance: 430, EstimatedFlightTimeMinutes: 118}
+  - {Identifier: MMPA, Aircraft: [JET], Distance: 329, EstimatedFlightTimeMinutes: 59}
+  - {Identifier: MMPA, Aircraft: [NONJET], Distance: 329, EstimatedFlightTimeMinutes: 94}
+  - {Identifier: MMPB, Aircraft: [JET], Distance: 291, EstimatedFlightTimeMinutes: 54}
+  - {Identifier: MMPB, Aircraft: [NONJET], Distance: 291, EstimatedFlightTimeMinutes: 85}
+  - {Identifier: MMPC, Aircraft: [JET], Distance: 256, EstimatedFlightTimeMinutes: 49}
+  - {Identifier: MMPC, Aircraft: [NONJET], Distance: 256, EstimatedFlightTimeMinutes: 76}
+  - {Identifier: MMPE, Aircraft: [JET], Distance: 844, EstimatedFlightTimeMinutes: 128}
+  - {Identifier: MMPE, Aircraft: [NONJET], Distance: 844, EstimatedFlightTimeMinutes: 218}
+  - {Identifier: MMPG, Aircraft: [JET], Distance: 510, EstimatedFlightTimeMinutes: 83}
+  - {Identifier: MMPG, Aircraft: [NONJET], Distance: 510, EstimatedFlightTimeMinutes: 137}
+  - {Identifier: MMPN, Aircraft: [JET], Distance: 99, EstimatedFlightTimeMinutes: 28}
+  - {Identifier: MMPN, Aircraft: [NONJET], Distance: 99, EstimatedFlightTimeMinutes: 39}
+  - {Identifier: MMPQ, Aircraft: [JET], Distance: 666, EstimatedFlightTimeMinutes: 104}
+  - {Identifier: MMPQ, Aircraft: [NONJET], Distance: 666, EstimatedFlightTimeMinutes: 175}
+  - {Identifier: MMPR, Aircraft: [JET], Distance: 110, EstimatedFlightTimeMinutes: 30}
+  - {Identifier: MMPR, Aircraft: [NONJET], Distance: 110, EstimatedFlightTimeMinutes: 41}
+  - {Identifier: MMPS, Aircraft: [JET], Distance: 451, EstimatedFlightTimeMinutes: 75}
+  - {Identifier: MMPS, Aircraft: [NONJET], Distance: 451, EstimatedFlightTimeMinutes: 123}
+  - {Identifier: MMQT, Aircraft: [JET], Distance: 176, EstimatedFlightTimeMinutes: 38}
+  - {Identifier: MMQT, Aircraft: [NONJET], Distance: 176, EstimatedFlightTimeMinutes: 57}
+  - {Identifier: MMRX, Aircraft: [JET], Distance: 432, EstimatedFlightTimeMinutes: 73}
+  - {Identifier: MMRX, Aircraft: [NONJET], Distance: 432, EstimatedFlightTimeMinutes: 119}
+  - {Identifier: MMSD, Aircraft: [JET], Distance: 391, EstimatedFlightTimeMinutes: 67}
+  - {Identifier: MMSD, Aircraft: [NONJET], Distance: 391, EstimatedFlightTimeMinutes: 109}
+  - {Identifier: MMSF, Aircraft: [JET], Distance: 881, EstimatedFlightTimeMinutes: 132}
+  - {Identifier: MMSF, Aircraft: [NONJET], Distance: 881, EstimatedFlightTimeMinutes: 226}
+  - {Identifier: MMSL, Aircraft: [JET], Distance: 397, EstimatedFlightTimeMinutes: 68}
+  - {Identifier: MMSL, Aircraft: [NONJET], Distance: 397, EstimatedFlightTimeMinutes: 110}
+  - {Identifier: MMSM, Aircraft: [JET], Distance: 247, EstimatedFlightTimeMinutes: 48}
+  - {Identifier: MMSM, Aircraft: [NONJET], Distance: 247, EstimatedFlightTimeMinutes: 74}
+  - {Identifier: MMSP, Aircraft: [JET], Distance: 169, EstimatedFlightTimeMinutes: 38}
+  - {Identifier: MMSP, Aircraft: [NONJET], Distance: 169, EstimatedFlightTimeMinutes: 56}
+  - {Identifier: MMTC, Aircraft: [JET], Distance: 303, EstimatedFlightTimeMinutes: 55}
+  - {Identifier: MMTC, Aircraft: [NONJET], Distance: 303, EstimatedFlightTimeMinutes: 88}
+  - {Identifier: MMTG, Aircraft: [JET], Distance: 632, EstimatedFlightTimeMinutes: 99}
+  - {Identifier: MMTG, Aircraft: [NONJET], Distance: 632, EstimatedFlightTimeMinutes: 167}
+  - {Identifier: MMTJ, Aircraft: [JET], Distance: 1027, EstimatedFlightTimeMinutes: 152}
+  - {Identifier: MMTJ, Aircraft: [NONJET], Distance: 1027, EstimatedFlightTimeMinutes: 261}
+  - {Identifier: MMTL, Aircraft: [JET], Distance: 881, EstimatedFlightTimeMinutes: 132}
+  - {Identifier: MMTL, Aircraft: [NONJET], Distance: 881, EstimatedFlightTimeMinutes: 226}
+  - {Identifier: MMTM, Aircraft: [JET], Distance: 322, EstimatedFlightTimeMinutes: 58}
+  - {Identifier: MMTM, Aircraft: [NONJET], Distance: 322, EstimatedFlightTimeMinutes: 92}
+  - {Identifier: MMTO, Aircraft: [JET], Distance: 223, EstimatedFlightTimeMinutes: 45}
+  - {Identifier: MMTO, Aircraft: [NONJET], Distance: 223, EstimatedFlightTimeMinutes: 69}
+  - {Identifier: MMTP, Aircraft: [JET], Distance: 714, EstimatedFlightTimeMinutes: 110}
+  - {Identifier: MMTP, Aircraft: [NONJET], Distance: 714, EstimatedFlightTimeMinutes: 186}
+  - {Identifier: MMUN, Aircraft: [JET], Distance: 923, EstimatedFlightTimeMinutes: 138}
+  - {Identifier: MMUN, Aircraft: [NONJET], Distance: 923, EstimatedFlightTimeMinutes: 237}
+  - {Identifier: MMVA, Aircraft: [JET], Distance: 614, EstimatedFlightTimeMinutes: 97}
+  - {Identifier: MMVA, Aircraft: [NONJET], Distance: 614, EstimatedFlightTimeMinutes: 162}
+  - {Identifier: MMVR, Aircraft: [JET], Distance: 411, EstimatedFlightTimeMinutes: 70}
+  - {Identifier: MMVR, Aircraft: [NONJET], Distance: 411, EstimatedFlightTimeMinutes: 114}
+  - {Identifier: MMZC, Aircraft: [JET], Distance: 147, EstimatedFlightTimeMinutes: 35}
+  - {Identifier: MMZC, Aircraft: [NONJET], Distance: 147, EstimatedFlightTimeMinutes: 50}
+  - {Identifier: MMZH, Aircraft: [JET], Distance: 204, EstimatedFlightTimeMinutes: 42}
+  - {Identifier: MMZH, Aircraft: [NONJET], Distance: 204, EstimatedFlightTimeMinutes: 64}
+  - {Identifier: MMZM, Aircraft: [JET], Distance: 65, EstimatedFlightTimeMinutes: 24}
+  - {Identifier: MMZM, Aircraft: [NONJET], Distance: 65, EstimatedFlightTimeMinutes: 31}
+  - {Identifier: MMZO, Aircraft: [JET], Distance: 109, EstimatedFlightTimeMinutes: 30}
+  - {Identifier: MMZO, Aircraft: [NONJET], Distance: 109, EstimatedFlightTimeMinutes: 41}
   Views:
   - Identifier: ALL
     LabelLayout: Enroute
@@ -4026,45 +1734,23 @@ Airports:
   - FeederFix: ANALU
     RunwayIdentifier: '28'
     Segments:
-    - Identifier: AA507
-      Track: 197.2
-      DistanceNM: 20.8
-    - Identifier: AA506
-      Track: 197.2
-      DistanceNM: 12.5
-    - Identifier: ITRAM
-      Track: 197.2
-      DistanceNM: 11
-    - Identifier: '28'
-      Track: 258.6
-      DistanceNM: 10.2
+    - {Identifier: AA507, Track: 197.2, DistanceNM: 20.8}
+    - {Identifier: AA506, Track: 197.2, DistanceNM: 12.5}
+    - {Identifier: ITRAM, Track: 197.2, DistanceNM: 11}
+    - {Identifier: '28', Track: 258.6, DistanceNM: 10.2}
   - FeederFix: ANVAN
     RunwayIdentifier: '28'
     Segments:
-    - Identifier: AA518
-      Track: 289
-      DistanceNM: 21.4
-    - Identifier: AVRIM
-      Track: 288.9
-      DistanceNM: 13.5
-    - Identifier: '28'
-      Track: 288.2
-      DistanceNM: 13.9
+    - {Identifier: AA518, Track: 289, DistanceNM: 21.4}
+    - {Identifier: AVRIM, Track: 288.9, DistanceNM: 13.5}
+    - {Identifier: '28', Track: 288.2, DistanceNM: 13.9}
   - FeederFix: AVURO
     RunwayIdentifier: '28'
     Segments:
-    - Identifier: AA409
-      Track: 117.1
-      DistanceNM: 30.5
-    - Identifier: AA505
-      Track: 108
-      DistanceNM: 25.3
-    - Identifier: ITRAM
-      Track: 108.1
-      DistanceNM: 15
-    - Identifier: '28'
-      Track: 258.6
-      DistanceNM: 10.2
+    - {Identifier: AA409, Track: 117.1, DistanceNM: 30.5}
+    - {Identifier: AA505, Track: 108, DistanceNM: 25.3}
+    - {Identifier: ITRAM, Track: 108.1, DistanceNM: 15}
+    - {Identifier: '28', Track: 258.6, DistanceNM: 10.2}
   DepartureAirports: []
   Views:
   - Identifier: ALL
@@ -4079,6 +1765,160 @@ Airports:
     Reference: LandingTime
     Ladders:
     - {}
+- Identifier: MMMY
+  AverageLandingSpeed: 155
+  Elevation: 1276
+  FrozenThresholdMinutes: 12
+  LandedFlightTimeoutMinutes: 5
+  DefaultTimeToGoMinutes: 20
+  FeederFixes:
+  - ITPIS
+  - NOTAL
+  - RETOS
+  - SLW
+  Runways:
+  - '12'
+  - '30'
+  RunwayModes:
+  - Identifier: '12'
+    Runways:
+    - Identifier: '12'
+      LandingRateSeconds: 180
+  - Identifier: '30'
+    Runways:
+    - Identifier: '30'
+      LandingRateSeconds: 180
+  TerminalTrajectories:
+  - FeederFix: ITPIS
+    RunwayIdentifier: '12'
+    Segments:
+    - {Identifier: ULAVA, Track: 251.2, DistanceNM: 8.49}
+    - {Identifier: AGMUM, Track: 251.2, DistanceNM: 17.03}
+    - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
+    - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
+    - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
+    - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
+    - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
+    - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+    - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+    - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+    - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+    - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+    - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+  - FeederFix: NOTAL
+    RunwayIdentifier: '12'
+    Segments:
+    - {Identifier: VETNU, Track: 143.6, DistanceNM: 15.67}
+    - {Identifier: NAPNO, Track: 143.7, DistanceNM: 6.62}
+    - {Identifier: AGMUM, Track: 143.7, DistanceNM: 28.45}
+    - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
+    - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
+    - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
+    - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
+    - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
+    - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+    - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+    - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+    - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+    - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+    - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+  - FeederFix: RETOS
+    RunwayIdentifier: '12'
+    Segments:
+    - {Identifier: MIBTA, Track: 334.9, DistanceNM: 18.08}
+    - {Identifier: KATPO, Track: 334.9, DistanceNM: 19.6}
+    - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
+    - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
+    - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
+    - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
+    - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+    - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+    - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+    - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+    - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+    - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+  - FeederFix: SLW
+    RunwayIdentifier: '12'
+    Segments:
+    - {Identifier: ESRAP, Track: 89.5, DistanceNM: 23.96}
+    - {Identifier: WICLO, Track: 89.7, DistanceNM: 8.42}
+    - {Identifier: MISUL, Track: 89.7, DistanceNM: 4.99}
+    - {Identifier: SUTNA, Track: 32.1, DistanceNM: 12.48}
+    - {Identifier: ENTRI, Track: 32.2, DistanceNM: 9.02}
+    - {Identifier: SIKRO, Track: 32.2, DistanceNM: 5.01}
+    - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
+    - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+    - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+    - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+    - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+    - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+    - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+  - FeederFix: ITPIS
+    RunwayIdentifier: '30'
+    Segments:
+    - {Identifier: ULAVA, Track: 251.2, DistanceNM: 8.49}
+    - {Identifier: AGMUM, Track: 251.2, DistanceNM: 17.03}
+    - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
+    - {Identifier: MY401, Track: 211.2, DistanceNM: 5.75}
+    - {Identifier: CLOVR, Track: 211.2, DistanceNM: 5.01}
+    - {Identifier: OKOTO, Track: 301.5, DistanceNM: 5.0}
+    - {Identifier: MY403, Track: 301.4, DistanceNM: 4.54}
+    - {Identifier: MY408, Track: 301.4, DistanceNM: 2.1}
+    - {Identifier: '30', Track: 301.4, DistanceNM: 5.36}
+  - FeederFix: NOTAL
+    RunwayIdentifier: '30'
+    Segments:
+    - {Identifier: VETNU, Track: 143.6, DistanceNM: 15.67}
+    - {Identifier: NAPNO, Track: 143.7, DistanceNM: 6.62}
+    - {Identifier: MY498, Track: 143.7, DistanceNM: 13.02}
+    - {Identifier: AGMUM, Track: 143.8, DistanceNM: 15.42}
+    - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
+    - {Identifier: MY401, Track: 211.2, DistanceNM: 5.75}
+    - {Identifier: CLOVR, Track: 211.2, DistanceNM: 5.01}
+    - {Identifier: OKOTO, Track: 301.5, DistanceNM: 5.0}
+    - {Identifier: MY403, Track: 301.4, DistanceNM: 4.54}
+    - {Identifier: MY408, Track: 301.4, DistanceNM: 2.1}
+    - {Identifier: '30', Track: 301.4, DistanceNM: 5.36}
+  - FeederFix: RETOS
+    RunwayIdentifier: '30'
+    Segments:
+    - {Identifier: MIBTA, Track: 334.9, DistanceNM: 18.08}
+    - {Identifier: CLOVR, Track: 301.6, DistanceNM: 16.32}
+    - {Identifier: OKOTO, Track: 301.5, DistanceNM: 5.0}
+    - {Identifier: MY403, Track: 301.4, DistanceNM: 4.54}
+    - {Identifier: MY408, Track: 301.4, DistanceNM: 2.1}
+    - {Identifier: '30', Track: 301.4, DistanceNM: 5.36}
+  - FeederFix: SLW
+    RunwayIdentifier: '30'
+    Segments:
+    - {Identifier: ESRAP, Track: 89.5, DistanceNM: 23.96}
+    - {Identifier: WICLO, Track: 89.7, DistanceNM: 8.42}
+    - {Identifier: MISUL, Track: 89.7, DistanceNM: 4.99}
+    - {Identifier: MY410, Track: 89.8, DistanceNM: 19.97}
+    - {Identifier: CLOVR, Track: 31.1, DistanceNM: 5.01}
+    - {Identifier: OKOTO, Track: 301.5, DistanceNM: 5.0}
+    - {Identifier: MY403, Track: 301.4, DistanceNM: 4.54}
+    - {Identifier: MY408, Track: 301.4, DistanceNM: 2.1}
+    - {Identifier: '30', Track: 301.4, DistanceNM: 5.36}
+  Views:
+  - Identifier: '12'
+    LeftLadder:
+      FeederFixes:
+      - ITPIS
+      - NOTAL
+      - RETOS
+      - SLW
+      Runways:
+      - '12'
+  - Identifier: '30'
+    LeftLadder:
+      FeederFixes:
+      - ITPIS
+      - NOTAL
+      - RETOS
+      - SLW
+      Runways:
+      - '30'
 AircraftPerformance:
 - TypeCode: CONC
   DescentSpeedKnots: 261
