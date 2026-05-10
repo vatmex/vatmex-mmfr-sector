@@ -2,10 +2,9 @@
 <Maps>
     <Map Type="System" Name="MMSD - Pista 16 - Llegadas RNAV" Priority="1" Center="+230846.179-1094317.540">
         <Line Name="ENEKO1A" Pattern="Dashed">ENEKO/MARUX/MARAK</Line>
-        <Line Name="LEPOM1A" Pattern="Dashed">LEPOM/GOSIM/DASON</Line>
+        <Line Name="LEPOM1A" Pattern="Dashed">LEPOM/GOSIM/DASON/AXEDA</Line>
         <Line Name="TENAY1A" Pattern="Dashed">TENAY/SHAWA/BALCE/SD407/AXEDA</Line>
         <Symbol Type="SolidTriangle">
-            <Point>ALRIN</Point>
             <Point>BALCE</Point>
             <Point>DASON</Point>
             <Point>ENEKO</Point>
@@ -32,14 +31,17 @@
     </Map>
     <Map Type="System" Name="MMSD - Pista 16 - Llegadas RNAV (Nombres)" Priority="1" Center="+230846.179-1094317.540">
         <Label HasLeader="false">
-            <Point>ALRIN</Point>
             <Point>AXEDA</Point>
-            <Point>CSL</Point>
             <Point>ENEKO</Point>
             <Point>LEPOM</Point>
             <Point>MARAK</Point>
-            <Point>SJD</Point>
+            <Point>SD800</Point>
             <Point>TENAY</Point>
+            <Point>MARUX</Point>
+            <Point>GOSIM</Point>
+            <Point>DASON</Point>
+            <Point>SHAWA</Point>
+            <Point>BALCE</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMSD - Pista 16 - RNP 16" Priority="1" Center="+230956.019-1094320.211">

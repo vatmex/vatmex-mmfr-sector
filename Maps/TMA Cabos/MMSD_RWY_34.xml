@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMSD - Pista 34 - Llegadas RNAV" Priority="1" Center="+230818.898-1094307.170">
-        <Line Name="ENEKO1B" Pattern="Dashed">ENEKO/MARUX/DASON</Line>
-        <Line Name="LEPOM1B" Pattern="Dashed">LEPOM/GOSIM/DASON</Line>
+        <Line Name="ENEKO1B" Pattern="Dashed">ENEKO/MARUX/DASON/SD602/AVURU</Line>
+        <Line Name="LEPOM1B" Pattern="Dashed">LEPOM/GOSIM/DASON/SD602/AVURU</Line>
         <Line Name="TENAY1B" Pattern="Dashed">TENAY/SHAWA/SD601/BALCE/AVURU</Line>
         <Symbol Type="SolidTriangle">
-            <Point>ALRIN</Point>
             <Point>BALCE</Point>
             <Point>DASON</Point>
             <Point>ENEKO</Point>
@@ -15,29 +14,30 @@
         <Symbol Type="HollowStar">
             <Point>AVURU</Point>
             <Point>GOSIM</Point>
-            <Point>SD403</Point>
             <Point>SD601</Point>
             <Point>SHAWA</Point>
             <Point>TENAY</Point>
         </Symbol>
         <Symbol Type="HollowSquare">
             <Point>SJD</Point>
-            <Point>CSL</Point>
         </Symbol>
             <Symbol Type="Circle">
             <Point>SJD</Point>
-            <Point>CSL</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMSD - Pista 34 - Llegadas RNAV (Nombres)" Priority="1" Center="+230818.898-1094307.170">
         <Label HasLeader="false">
-            <Point>ALRIN</Point>
             <Point>AVURU</Point>
-            <Point>CSL</Point>
             <Point>ENEKO</Point>
             <Point>LEPOM</Point>
             <Point>SJD</Point>
             <Point>TENAY</Point>
+            <Point>GOSIM</Point>
+            <Point>MARUX</Point>
+            <Point>DASON</Point>
+            <Point>BALCE</Point>
+            <Point>SHAWA</Point>
+            <Point>SD901</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMSD - Pista 34 - RNP 34" Priority="1" Center="+230818.898-1094307.170">
@@ -93,6 +93,7 @@
             <Point>KINOL</Point>
             <Point>SJD</Point>
             <Point>UKUXA</Point>
+            <Point>SD901</Point>
         </Label>
     </Map>
 </Maps>
