@@ -718,19 +718,16 @@
             <Maps>
                 <Map Name="TMA Cabos/Aeropuerto - Pistas" />
                 <Map Name="TMA Cabos/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Cabos/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Cabos/MMSD - Zona de Control (CTR)" />
-                <Map Name="TMA Cabos/MMSL - Zona de Control (CTR)" />
+                <Map Name="TMA Cabos/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />                
 
-                <Map Name="TMA Cabos/MMSD - Pista 34 - Llegadas RNAV" />
-                <Map Name="TMA Cabos/MMSD - Pista 34 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Cabos/MMSD - Pista 34 - RNP 34" />
+                <Map Name="TMA Cabos/MMSD - Pista 16 - Llegadas RNAV" />
+                <Map Name="TMA Cabos/MMSD - Pista 16 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Cabos/MMSD - Pista 16 - RNP 16" />
 
-                <Map Name="TMA Cabos/MMSD - Pista 34 - Salidas RNAV" />
-                <Map Name="TMA Cabos/MMSD - Pista 34 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Cabos/MMSD - Pista 16 - Salidas RNAV" />
+                <Map Name="TMA Cabos/MMSD - Pista 16 - Salidas RNAV (Nombres)" />
                 <Map Name="TMA Cabos/MMSL - Pista 29 - RNP 29" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
@@ -858,10 +855,8 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Tijuana/Aeropuerto - Pistas" />
-                <Map Name="TMA Tijuana/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Tijuana/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Tijuana/MMES - Zona de Transito de Aerodromo (ATZ)" />
-                <Map Name="TMA Tijuana/MMTJ - Zona de Control (CTR)" />
+                <Map Name="TMA Tijuana/Aeropuerto - Minimas de Vectoreo (Etiquetas)"/>
 
                 <Map Name="TMA Tijuana/Pista 27 - Llegadas RNAV" />
                 <Map Name="TMA Tijuana/Pista 27 - Llegadas RNAV (Nombres)" />
@@ -869,10 +864,8 @@
 
                 <Map Name="TMA Tijuana/Pista 27 - Salidas RNAV" />
                 <Map Name="TMA Tijuana/Pista 27 - Salidas RNAV (Nombres)" />
-
-                <Map Name="ACC Mazatlan/Limites - Sectores" />
-
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
@@ -908,14 +901,14 @@
                 <Sector Name="MZT7" />
             </Sectors>
             <Maps>
+                <Map Name="ACC Mazatlan/Limites - Sectores" />
 
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
-
+                <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Sector - Fijos Principales" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
@@ -952,15 +945,13 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
-
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
@@ -1843,13 +1834,13 @@
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
+                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
 
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV" />
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" />
                 <Map Name="TMA Cancun/MMUN - Pista 12L - ILS X 12L" />
-                <Map Name="TMA Cancun/MMUN - Pista 12R - Salidas RNAV" />
-                <Map Name="TMA Cancun/MMUN - Pista 12R - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Salidas RNAV" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Salidas RNAV (Nombres)" />
 
             </Maps>
             <ATIS>
@@ -1992,6 +1983,8 @@
 
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
@@ -2022,20 +2015,17 @@
         <Position Name="Control Merida (SE) - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDE" />
-                <Sector Name="MID2" />
                 <Sector Name="MID3" />
-                <Sector Name="MID4" />
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Terminales" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
@@ -2067,20 +2057,21 @@
             <Sectors>
                 <Sector Name="MIDW" />
                 <Sector Name="MID1" />
+                <Sector Name="MID2" />
+                <Sector Name="MID4" />
                 <Sector Name="MID5" />
                 <Sector Name="MID6" />
                 <Sector Name="MID7" />
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Terminales" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
@@ -2413,8 +2404,7 @@
             <Maps>
                 <Map Name="TMA Acapulco/Aeropuerto - Pistas" />
                 <Map Name="TMA Acapulco/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Acapulco/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Acapulco/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Acapulco/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
 
                 <Map Name="TMA Acapulco/Pista 28 - Llegadas RNAV" />
                 <Map Name="TMA Acapulco/Pista 28 - Llegadas RNAV (Nombres)" />
@@ -2422,10 +2412,6 @@
 
                 <Map Name="TMA Acapulco/Pista 28 - Salidas RNAV" />
                 <Map Name="TMA Acapulco/Pista 28 - Salidas RNAV (Nombres)" />
-
-                <Map Name="ACC Mexico/Limites - Sectores" />
-
-                <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMAA" Visible="true" />
@@ -2608,7 +2594,6 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
-                <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
 
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Nombres)" />
@@ -3234,18 +3219,14 @@
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
 
-                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
-
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Vectores)" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Radar - TMA Mexico" />
-                <Map Name="Universal/Sector - Radioayudas" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
@@ -3381,19 +3362,15 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
-                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite (Nombres)" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
 
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Salidas" />
 
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV (Nombres)" />
 
-                <Map Name="ACC Mexico/Limites - Sectores" />
-
-                <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Radioayudas" />
             </Maps>
             <ATIS>
@@ -3598,10 +3575,7 @@
             <Maps>
                 <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
                 <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Vallarta/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Vallarta/MMPR - Zona de Control (CTR)" />
-                <Map Name="TMA Vallarta/MMEP - Zona de Control (CTR)" />
-                <Map Name="TMA Vallarta/MMEP - Servicio de Informacion de Vuelo (AFIS)" />
+                <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
 
                 <Map Name="TMA Vallarta/Pista 22 - RNP 22" />
                 <Map Name="TMA Vallarta/Pista 22 - Llegadas RNAV (Nombres)" />
@@ -3609,8 +3583,6 @@
                 <Map Name="TMA Vallarta/Pista 22 - Salidas RNAV" />
                 <Map Name="TMA Vallarta/Pista 22 - Salidas RNAV (Nombres)" />
 
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMPR" Frequency="127.5" Server="NA" />
@@ -4160,7 +4132,7 @@
         </Position>
 
         <!-- ACC Mexico -->
-        <Position Name="Control Mexico (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control Mexico (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXC" />
                 <Sector Name="MEX1" />
@@ -4187,6 +4159,8 @@
 
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
@@ -4214,7 +4188,7 @@
                 <Point>+190857.890-1043416.669</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mexico (SS) - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control Mexico (SS) - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXS" />
                 <Sector Name="MEX5" />
@@ -4222,7 +4196,6 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -4230,8 +4203,8 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
@@ -4258,7 +4231,7 @@
                 <Point>+190857.890-1043416.669</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mexico (SW) - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control Mexico (SW) - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-4" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXW" />
                 <Sector Name="MEX6" />
@@ -4266,7 +4239,6 @@
                 <Sector Name="MEX8" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -4274,8 +4246,8 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
@@ -4302,7 +4274,7 @@
                 <Point>+190857.890-1043416.669</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mexico (SE) - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="890" MagneticVariation="-4" DynamicInfill="false">
+        <Position Name="Control Mexico (SE) - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="890" MagneticVariation="-4" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXE" />
                 <Sector Name="MEX1" />
@@ -4311,7 +4283,6 @@
                 <Sector Name="MEX4" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -4319,8 +4290,8 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Principales (Nombres)" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
@@ -4919,7 +4890,6 @@
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV (Nombres)" />
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
@@ -5162,6 +5132,8 @@
 
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
 
             </Maps>
             <ATIS>
@@ -5190,21 +5162,22 @@
                 <Point>+242209.9141-0950934.2813</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Monterrey SE - MTYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="false">
+        <Position Name="Control Monterrey SE - MTYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MTYE" />
                 <Sector Name="MTY1" />
                 <Sector Name="MTY2" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Monterrey/Radar - Cobertura" />
+                <Map Name="ACC Monterrey/Sector - Flows" />
                 <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
 
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
@@ -5232,7 +5205,7 @@
                 <Point>+242209.9141-0950934.2813</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Monterrey SW - MTYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="false">
+        <Position Name="Control Monterrey SW - MTYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MTYW" />
                 <Sector Name="MTY3" />
@@ -5240,15 +5213,17 @@
                 <Sector Name="MTY5" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Monterrey/Radar - Cobertura" />
+                <Map Name="ACC Monterrey/Sector - Flows" />
                 <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
 
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
