@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas RNAV" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name="[MMUN - Pista 12L-R - Llegadas RNAV]" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="ILUBA2E" Pattern="Dashed">ILUBA/URVEN/SEDAS/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
         <Line Name="PUALE3G" Pattern="Dashed">PAULE/UN530/HURIN</Line>
         <Line Name="SIGMA2G" Pattern="Dashed">SIGMA/OVGED/ILONI/HURIN/UN523</Line>
@@ -45,7 +45,7 @@
             <Point>VOMAR</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" Priority="2" Center="+210216.667-0865152.015">
+    <Map Type="System" Name="[MMUN - Pista 12L-R - Llegadas RNAV (Nombres)]" Priority="2" Center="+210216.667-0865152.015">
         <Label>
             <Point>EBMIS</Point>
             <Point>ILUBA</Point>
@@ -116,7 +116,7 @@
             <Point>URVEN</Point>            
         </Label>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12L - ILS X 12L" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name="[MMUN - Pista 12L - ILS X 12L]" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="EBMIS" Pattern="Solid">EBMIS/UN505</Line>
         <Line Name="KAROR" Pattern="Solid">KAROR/UN505</Line>
         <Line Name="VIKSI" Pattern="Solid">VIKSI/UN505</Line>
@@ -317,7 +317,7 @@
             <Point>UN545</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
+    <Map Type="System" Name="[MMUN - Pista 12L-R - Salidas RNAV]" Priority="1" Center="+210235.014-0865232.438">
         <Line Name="ALSUP" Pattern="Dotted">+210226.480-0865132.494/UN402/UN408/CZM/UN431/ALSUP</Line>
         <Line Name="HECAT" Pattern="Dotted">UN415/UN440/UN400/HECAT</Line>
         <Line Name="NOSUG" Pattern="Dotted">+210226.480-0865132.494/UN417/UN406/NOSUG</Line>
@@ -361,7 +361,7 @@
             <Point>CZM</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Salidas RNAV (Nombres)" Priority="2" Center="+210216.667-0865152.015">
+    <Map Type="System" Name="[MMUN - Pista 12L-R - Salidas RNAV (Nombres)]" Priority="2" Center="+210216.667-0865152.015">
         <Label>
             <Point>HECAT</Point>
             <Point>NOSUG</Point>

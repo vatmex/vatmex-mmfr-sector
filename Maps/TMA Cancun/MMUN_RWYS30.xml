@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="MMUN - Pista 30L-R - Llegadas RNAV" Priority="1" Center="+210235.014-0865232.438">
+    <Map Type="System" Name="[MMUN - Pista 30L-R - Llegadas RNAV]" Priority="1" Center="+210235.014-0865232.438">
         <Line Name="NOSAT1D" Pattern="Dashed">NOSAT/HACHO/LETIS/UN500/PUREG/OTSOL</Line>
         <Line Name="ILUBA1G" Pattern="Dashed">ILUBA/ALRIP/QUADY/SESLI</Line>
         <Line Name="SIGMA1I" Pattern="Dashed">SIGMA/BALCH/VITEL/UN617/QUADY</Line>
@@ -43,7 +43,7 @@
             <Point>UN608</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 30L-R - Llegadas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
+    <Map Type="System" Name="[MMUN - Pista 30L-R - Llegadas RNAV (Nombres)]" Priority="2" Center="-34.945000+138.530556">
         <Label>
             <Point>ILUBA</Point>
             <Point>LOPKA</Point>
@@ -181,7 +181,7 @@
             <Point>UN631</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 30R - RNP" Priority="1" Center="-34.945000+138.530556">
+    <Map Type="System" Name="[MMUN - Pista 30R - RNP]" Priority="1" Center="-34.945000+138.530556">
         <Line Name="LOPKA" Pattern="Solid">LOPKA/UN601</Line>
         <Line Name="SESLI" Pattern="Solid">SESLI/UN601</Line>
         <Line Name="OTSOL" Pattern="Solid">OTSOL/UN601</Line>
@@ -249,7 +249,7 @@
             <Point>UN620</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 30L-R - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
+    <Map Type="System" Name="[MMUN - Pista 30L-R - Salidas RNAV]" Priority="1" Center="+210235.014-0865232.438">
         <Line Name="NUDAL1" Pattern="Dotted">+210243.080-0865327.611/UN708/UN700/SEVKA/NUDAL</Line>
         <Line Name="AVSEB1" Pattern="Dotted">CZM/UN713/AVSEB</Line>
         <Line Name="ALSUP1" Pattern="Dotted">+210243.080-0865327.611/UN712/UN703/UN706/CZM/UN430/ALSUP</Line>
@@ -289,7 +289,7 @@
             <Point>CZM</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 30L-R - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
+    <Map Type="System" Name="[MMUN - Pista 30L-R - Salidas RNAV (Nombres)]" Priority="2" Center="-34.945000+138.530556">
         <Label>
             <Point>ALSUP</Point>
             <Point>AVSEB</Point>

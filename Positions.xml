@@ -1888,11 +1888,11 @@
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
                 <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
 
-                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L - ILS X 12L" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Salidas RNAV" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Cancun/[MMUN - Pista 12L-R - Llegadas RNAV]" />
+                <Map Name="TMA Cancun/[MMUN - Pista 12L-R - Llegadas RNAV (Nombres)]" />
+                <Map Name="TMA Cancun/[MMUN - Pista 12L - ILS X 12L]" />
+                <Map Name="TMA Cancun/[MMUN - Pista 12L-R - Salidas RNAV]" />
+                <Map Name="TMA Cancun/[MMUN - Pista 12L-R - Salidas RNAV (Nombres)]" />
 
             </Maps>
             <ATIS>
@@ -3318,12 +3318,12 @@
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Y 05R" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - ILS Z 05R" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - Llegadas RNAV]" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - Llegadas RNAV (Nombres)]" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Y 05R]" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Z 05R]" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - Salidas RNAV]" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - Salidas RNAV (Nombres)]" />
 
                 <Map Name="ACC Mexico/Radar - TMA Mexico" />
             </Maps>
@@ -3457,6 +3457,7 @@
             <Sectors>
                 <Sector Name="MXDEP" />
                 <Sector Name="MXD5" />
+                <Sector Name="MXD23" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
