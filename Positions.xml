@@ -2693,13 +2693,12 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />            
-
+                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Vectores)" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Nombres)" />
                 <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV (Nombres)" />
-
             </Maps>
             <ATIS>
                 <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
@@ -2731,18 +2730,13 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
-                <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
-
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Vectores)" />
                 <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV (Nombres)" />
-
                 <Map Name="ACC Mexico/Limites - Sectores" />
-
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />            
             </Maps>
             <ATIS>
                 <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
@@ -2751,7 +2745,7 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
             </Strips>
-            <CFL QuickLevel="7600">
+            <CFL QuickLevel="14000">
                 <AdditionalLevels>8200,9200,9400</AdditionalLevels>
             </CFL>
             <ArrivalLists>
@@ -3343,7 +3337,7 @@
             <ControllerInfo>
                 <Line>Aproximacion Mexico / Mexico Approach</Line>
                 <Line>DCL/PDC [MMMX]</Line>
-                <Line>Serving MMMX, MMTO, MMCB, and MMPB and MMSM</Line>
+                <Line>Serving MMMX, MMTO, MMCB, MMPB and MMSM</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>
@@ -4375,7 +4369,7 @@
             <ControllerInfo>
                 <Line>Mexico Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering ACA, BJX, MLM, QET and ZIH.</Line>
+                <Line>Covering ACA, BJX, MEX, MLM, QET and ZIH.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+22.887442-102.693261</Point>
@@ -5485,4 +5479,128 @@
             </ManualVisibility>
         </Position>
     </Group>
+
+    <Group Name="FNO [MEX APP]">
+        <Position Name="Llegadas Mexico - MARR1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
+            <Sectors>
+                <Sector Name="MARR1" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Y 05R]" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Z 05R]" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Llegadas" />
+                <Map Name="ACC Mexico/Radar - TMA Mexico" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
+                <Window Airport="MMMX" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="18000">
+                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
+            </CFL>
+            <ArrivalLists>
+                <Airport Name="MMMX" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Llegadas Mexico / Mexico Arrivals</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+200937.407-0994825.774</Point>
+                <Point>+200705.803-0981718.702</Point>
+                <Point>+184503.035-0995049.146</Point>
+                <Point>+184239.210-0981947.677</Point>
+            </ManualVisibility>
+        </Position>        
+        <Position Name="Aproximacion Mexico - MAPP1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
+            <Sectors>
+                <Sector Name="MAPP1" />
+                <Sector Name="SMAPP" />
+                <Sector Name="TOAPP" />
+                <Sector Name="PBAPP" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Y 05R]" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Z 05R]" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Aproximacion" />
+                <Map Name="ACC Mexico/Radar - TMA Mexico" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
+                <Window Airport="MMMX" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="12500">
+                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
+            </CFL>
+            <ArrivalLists>
+                <Airport Name="MMMX" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Aproximacion Mexico / Mexico Approach</Line>
+                <Line>Serving MMMX, MMTO, MMCB, MMPB and MMSM</Line>            
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+200937.407-0994825.774</Point>
+                <Point>+200705.803-0981718.702</Point>
+                <Point>+184503.035-0995049.146</Point>
+                <Point>+184239.210-0981947.677</Point>
+            </ManualVisibility>
+        </Position>        
+        <Position Name="Final Mexico - MAFN1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
+            <Sectors>
+                <Sector Name="MAFN1" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Y 05R]" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Z 05R]" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Final" />
+                <Map Name="ACC Mexico/Radar - TMA Mexico" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
+                <Window Airport="MMMX" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="12500">
+                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
+            </CFL>
+            <ArrivalLists>
+                <Airport Name="MMMX" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Final Mexico / Mexico Final</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+200937.407-0994825.774</Point>
+                <Point>+200705.803-0981718.702</Point>
+                <Point>+184503.035-0995049.146</Point>
+                <Point>+184239.210-0981947.677</Point>
+            </ManualVisibility>
+        </Position>        
+    </Group>
+
+
+
 </Positions>
