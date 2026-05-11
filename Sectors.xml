@@ -363,12 +363,15 @@
     <Sector FullName="Aproximacion Mexico 23" Frequency="121.200" Callsign="MMMX_3_APP" Name="MXA23" DisplayInHandoffWindow="False">
         <Volumes>MXA23</Volumes>
     </Sector>
-    <Sector FullName="Final Mexico 05" Frequency="119.750" Callsign="MMMX_F_APP" Name="FNL05">
-        <Volumes>MXF5,MXF23</Volumes>
+    <Sector FullName="Final Mexico" Frequency="119.750" Callsign="MMMX_F_APP" Name="MAFN1">
+        <ResponsibleSectors>MXF5,MXF23</ResponsibleSectors>
     </Sector>
-    <Sector FullName="Final Mexico 23" Frequency="119.750" Callsign="MMMX_F2_APP" Name="FNL23" DisplayInHandoffWindow="False">
+    <Sector FullName="Final Mexico 05" Frequency="119.750" Callsign="MMMX_F5_APP" Name="MXF5" DisplayInHandoffWindow="False">
+        <Volumes>MXF5</Volumes>
+    </Sector>
+    <Sector FullName="Final Mexico 23" Frequency="119.750" Callsign="MMMX_F3_APP" Name="MXF23" DisplayInHandoffWindow="False">
         <Volumes>MXF23</Volumes>
-    </Sector>
+    </Sector>        
     <Sector FullName="Salidas Mexico" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP">
         <ResponsibleSectors>MXD5,MXD23</ResponsibleSectors>
     </Sector>
