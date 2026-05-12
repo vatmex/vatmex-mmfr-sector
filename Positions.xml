@@ -1034,7 +1034,7 @@
             </ManualVisibility>
         </Position>
 
-       <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="false" VisibilityRange="400">
+       <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12"  DynamicInfill="true" VisibilityRange="400">
             <Sectors>
                 <Sector Name="MZTC" />
                 <Sector Name="MZT1" />
@@ -3298,7 +3298,7 @@
                 <Point>+184940.584-0982345.504</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Mexico (Combinado) - MAPPC" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="false">
+        <Position Name="Aproximacion Mexico (Combinado) - MAPPC" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MAPPC" />
                 <Sector Name="TOAPP" />
@@ -3316,7 +3316,6 @@
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Z 05R]" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Salidas RNAV]" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Salidas RNAV (Nombres)]" />
-                <Map Name="ACC Mexico/Radar - TMA Mexico" />
             </Maps>
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
@@ -3344,7 +3343,7 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Aproximacion Lucia - SMAPP" Type="ASD" DefaultCenter="+194426.930-0990021.360" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="false">
+        <Position Name="Aproximacion Lucia - SMAPP" Type="ASD" DefaultCenter="+194426.930-0990021.360" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="SMAPP" />
             </Sectors>
@@ -3367,7 +3366,6 @@
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Mexico/Radar - TMA Mexico" />
                 <Map Name="Universal/Sector - Radioayudas" />
             </Maps>
             <ATIS>
@@ -4220,7 +4218,7 @@
         </Position>
 
         <!-- ACC Mexico -->
-       <Position Name="Control Mexico (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="false">
+       <Position Name="Control Mexico (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXC" />
                 <Sector Name="MEX1" />
@@ -5255,7 +5253,7 @@
         </Position>
 
         <!-- ACC Monterrey -->
-       <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="false">
+       <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5"  DynamicInfill="true">
             <Sectors>
                 <Sector Name="MTYC" />
                 <Sector Name="MTY1" />
@@ -5491,7 +5489,6 @@
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Llegadas" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Llegadas RNAV]" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Llegadas RNAV (Nombres)]" />                
-                <Map Name="ACC Mexico/Radar - TMA Mexico" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Salidas RNAV]" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Salidas RNAV (Nombres)]" />                
             </Maps>
@@ -5536,7 +5533,6 @@
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Y 05R]" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Z 05R]" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Aproximacion" />
-                <Map Name="ACC Mexico/Radar - TMA Mexico" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Llegadas RNAV]" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Llegadas RNAV (Nombres)]" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Llegadas RNAV (Vectores)" />
@@ -5580,7 +5576,6 @@
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Y 05R]" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - ILS Z 05R]" />
                 <Map Name="TMA Mexico/MMMX - Pistas 05 - Sectores Final" />
-                <Map Name="ACC Mexico/Radar - TMA Mexico" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Llegadas RNAV]" />
                 <Map Name="TMA Mexico/[MMMX - Pistas 05 - Llegadas RNAV (Nombres)]" />
             </Maps>
