@@ -397,10 +397,16 @@
         <Volumes>MXF23</Volumes>
     </Sector>        
     <Sector FullName="Salidas Mexico" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP">
-        <ResponsibleSectors>MXD5,MXD23</ResponsibleSectors>
+        <ResponsibleSectors>MXDN5,MXDE5,MXDS5,MXD23</ResponsibleSectors>
     </Sector>
-    <Sector FullName="Salidas Mexico 05" Frequency="120.500" Callsign="MMMX_5_DEP" Name="MXD5" DisplayInHandoffWindow="False">
-        <Volumes>MXD5</Volumes>
+    <Sector FullName="Salidas Norte Mexico 05" Frequency="120.500" Callsign="MMMX_5N_DEP" Name="MXDN5" DisplayInHandoffWindow="False">
+        <Volumes>MXDN5</Volumes>
+    </Sector>
+    <Sector FullName="Salidas Este Mexico 05" Frequency="120.500" Callsign="MMMX_5E_DEP" Name="MXDE5" DisplayInHandoffWindow="False">
+        <Volumes>MXDE5</Volumes>
+    </Sector>
+    <Sector FullName="Salidas Sur Mexico 05" Frequency="120.500" Callsign="MMMX_5S_DEP" Name="MXDS5" DisplayInHandoffWindow="False">
+        <Volumes>MXDS5</Volumes>
     </Sector>
     <Sector FullName="Salidas Mexico 23" Frequency="120.500" Callsign="MMMX_3_DEP" Name="MXD23" DisplayInHandoffWindow="False">
         <Volumes>MXD23</Volumes>
