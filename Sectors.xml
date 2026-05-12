@@ -171,15 +171,39 @@
     <Sector FullName="Torre Cancun Sur" Frequency="118.600" Callsign="MMUN_S_TWR" Name="UNTW2" DisplayInHandoffWindow="False">
         <Volumes>MMUN_CTR</Volumes>
     </Sector> 
-    <Sector FullName="Llegadas Cancun" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNARR">
+    <Sector FullName="Llegadas Cancun" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNAR1">
+        <ResponsibleSectors>UNR12,UNR30</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Llegadas Cancun 12" Frequency="123.200" Callsign="MMUN_T12_APP" Name="UNR12" DisplayInHandoffWindow="False">
+        <Volumes>UNR12</Volumes>
+    </Sector>
+    <Sector FullName="Llegadas Cancun 30" Frequency="123.200" Callsign="MMUN_T30_APP" Name="UNR30" DisplayInHandoffWindow="False">
+        <Volumes>UNR30</Volumes>
+    </Sector>
+    <Sector FullName="Final Cancun" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNAF1">
+        <ResponsibleSectors>UNF12,UNF30</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Final Cancun 12" Frequency="122.700" Callsign="MMUN_F12_APP" Name="UNF12" DisplayInHandoffWindow="False">
+        <Volumes>UNF12</Volumes>
+    </Sector>
+    <Sector FullName="Final Cancun 30" Frequency="122.700" Callsign="MMUN_F30_APP" Name="UNF30" DisplayInHandoffWindow="False">
+        <Volumes>UNF30</Volumes>
+    </Sector>    
+   <Sector FullName="Aproximacion Cancun" Frequency="124.700" Callsign="MMUN_1_APP" Name="UNAP1">
+        <ResponsibleSectors>UNA12,UNA30</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Aproximacion Cancun 12" Frequency="124.700" Callsign="MMUN_12_APP" Name="UNA12" DisplayInHandoffWindow="False">
+        <Volumes>UNA12</Volumes>
+    </Sector>
+    <Sector FullName="Aproximacion Cancun 30" Frequency="124.700" Callsign="MMUN_30_APP" Name="UNA30" DisplayInHandoffWindow="False">
+        <Volumes>UNA30</Volumes>
+    </Sector>    
+    <Sector FullName="Salidas Cancun" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEP">
         <Volumes>MMUN_TMA</Volumes>
     </Sector>
-    <Sector FullName="Final Cancun" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNFNL">
+    <Sector FullName="Salidas Cancun Norte" Frequency="124.200" Callsign="MMUN_N_DEP" Name="UNDEN">
         <Volumes>MMUN_TMA</Volumes>
-    </Sector>
-    <Sector FullName="Salidas Cancun Norte" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEP">
-        <Volumes>MMUN_TMA</Volumes>
-    </Sector>
+    </Sector>    
     <Sector FullName="Salidas Cancun Sur" Frequency="123.500" Callsign="MMUN_S_DEP" Name="UNDES" DisplayInHandoffWindow="False">
         <Volumes>MMUN_TMA</Volumes>
     </Sector>
@@ -363,7 +387,7 @@
     <Sector FullName="Aproximacion Mexico 23" Frequency="121.200" Callsign="MMMX_3_APP" Name="MXA23" DisplayInHandoffWindow="False">
         <Volumes>MXA23</Volumes>
     </Sector>
-    <Sector FullName="Final Mexico" Frequency="119.750" Callsign="MMMX_F_APP" Name="MAFN1">
+    <Sector FullName="Final Mexico" Frequency="119.750" Callsign="MMMX_F_APP" Name="MXFN1">
         <ResponsibleSectors>MXF5,MXF23</ResponsibleSectors>
     </Sector>
     <Sector FullName="Final Mexico 05" Frequency="119.750" Callsign="MMMX_F5_APP" Name="MXF5" DisplayInHandoffWindow="False">
