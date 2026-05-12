@@ -5478,6 +5478,10 @@
         <Position Name="Llegadas Mexico - MARR1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MARR1" />
+                <Sector Name="MXLN5" />
+                <Sector Name="MXLS5" />
+                <Sector Name="MXLN23" />
+                <Sector Name="MXLS23" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
@@ -5518,6 +5522,8 @@
         <Position Name="Aproximacion Mexico - MAPP1" Type="ASD" DefaultCenter="+192152.968-0991228.781" DefaultRange="150" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MAPP1" />
+                <Sector Name="MXA5" />
+                <Sector Name="MXA23" />
                 <Sector Name="SMAPP" />
                 <Sector Name="TOAPP" />
                 <Sector Name="PBAPP" />
@@ -5563,6 +5569,8 @@
         <Position Name="Final Mexico - MXFN1" Type="ASD" DefaultCenter="+192900.968-0990722.781" DefaultRange="110" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MXFN1" />
+                <Sector Name="MXF5" />
+                <Sector Name="MXF23" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
@@ -5604,6 +5612,8 @@
         <Position Name="Llegadas Cancun - UNAR1" Type="ASD" DefaultCenter="+205115.581-0865238.706" DefaultRange="360" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="UNAR1" />
+                <Sector Name="UNR12" />
+                <Sector Name="UNR30" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
@@ -5645,6 +5655,8 @@
         <Position Name="Final Cancun - UNAF1" Type="ASD" DefaultCenter="+211722.581-0870835.706" DefaultRange="120" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="UNAF1" />
+                <Sector Name="UNF12" />
+                <Sector Name="UNF30" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
@@ -5684,6 +5696,8 @@
         <Position Name="Aproximacion Cancun - UNAP1" Type="ASD" DefaultCenter="+212007.581-0865350.706" DefaultRange="180" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="UNAP1" />
+                <Sector Name="UNA12" />
+                <Sector Name="UNA30" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
