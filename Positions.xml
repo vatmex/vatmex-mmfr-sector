@@ -3442,13 +3442,12 @@
                 <Point>+183641.440-0992005.612</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Salidas Mexico - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100">
+        <Position Name="Salidas Mexico (Combinado) - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100">
             <Sectors>
                 <Sector Name="MXDEP" />
                 <Sector Name="MXDN5" />
                 <Sector Name="MXDE5" />
                 <Sector Name="MXDS5" />
-                <Sector Name="MXD23" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
@@ -5480,8 +5479,6 @@
                 <Sector Name="MARR1" />
                 <Sector Name="MXLN5" />
                 <Sector Name="MXLS5" />
-                <Sector Name="MXLN23" />
-                <Sector Name="MXLS23" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
@@ -5518,14 +5515,10 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>        
-        <Position Name="Aproximacion Mexico - MAPP1" Type="ASD" DefaultCenter="+192152.968-0991228.781" DefaultRange="150" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
+        <Position Name="Aproximacion Mexico - MAPP1" Type="ASD" DefaultCenter="+192152.968-0991228.781" DefaultRange="170" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MAPP1" />
                 <Sector Name="MXA5" />
-                <Sector Name="MXA23" />
-                <Sector Name="SMAPP" />
-                <Sector Name="TOAPP" />
-                <Sector Name="PBAPP" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
@@ -5564,11 +5557,10 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>        
-        <Position Name="Final Mexico - MXFN1" Type="ASD" DefaultCenter="+192900.968-0990722.781" DefaultRange="110" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
+        <Position Name="Final Mexico - MXFN1" Type="ASD" DefaultCenter="+192322.968-0990906.781" DefaultRange="80" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MXFN1" />
                 <Sector Name="MXF5" />
-                <Sector Name="MXF23" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
