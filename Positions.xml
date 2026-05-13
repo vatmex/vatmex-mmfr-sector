@@ -931,8 +931,7 @@
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CEN, CUL, DGO, HMO, LAP, LMM, MXL,</Line>
-                <Line>MZT, SJD, TIJ and all airports within MMZT ACC.</Line>
+                <Line>Covering CEN, CUL, DGO, LAP, LMM, MZT and SJD.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+274123.933-1093434.548</Point>
@@ -975,8 +974,7 @@
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CEN, CUL, DGO, HMO, LAP, LMM, MXL,</Line>
-                <Line>MZT, SJD, TIJ and all airports within MMZT ACC.</Line>
+                <Line>Covering HMO, MXL and TIJ.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+320131.681-1181616.190</Point>
@@ -2109,7 +2107,7 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Merida SE - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
+        <Position Name="Control Merida Este - MIDE" Type="ASD" DefaultCenter="+211008.430-0880546.280" DefaultRange="800" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDE" />
                 <Sector Name="MID3" />
@@ -2137,10 +2135,9 @@
                 <Airport Name="MMUN" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Merida Control</Line>
+                <Line>Merida Control Este</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CME, CUN, MID, TGZ, VSA and</Line>
-                <Line>all airports within MMID ACC.</Line>
+                <Line>Covering CUN, CZM and TQO</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+210249.9531-0865231.1875</Point>
@@ -2149,7 +2146,7 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Merida SW - MIDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
+        <Position Name="Control Merida Oeste - MIDW" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDW" />
                 <Sector Name="MID1" />
@@ -2181,10 +2178,9 @@
                 <Airport Name="MMUN" />
             </ArrivalLists>
             <ControllerInfo>
-                <Line>Merida Control</Line>
+                <Line>Merida Control Oeste</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CME, CUN, MID, TGZ, VSA and</Line>
-                <Line>all airports within MMID ACC.</Line>
+                <Line>Covering CME, CUN, MID, TGZ, VSA, CZM and TQO</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+210249.9531-0865231.1875</Point>
@@ -2193,6 +2189,45 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Control Merida Sur - MIDS" Type="ASD" DefaultCenter="+191259.460-0924135.375" DefaultRange="1250" MagneticVariation="+2">
+            <Sectors>
+                <Sector Name="MIDS" />
+                <Sector Name="MID2" />
+                <Sector Name="MID6" />
+            </Sectors>
+            <Maps>
+                <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
+            </Maps>
+            <ATIS>
+                <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
+                <Window Airport="MMMD" />
+            </ATIS>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMD" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000">
+                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+            </CFL>
+            <ArrivalLists>
+                <Airport Name="MMMD" />
+            </ArrivalLists>
+            <ControllerInfo>
+                <Line>Merida Control Sur</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+                <Line>Covering MID</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+210249.9531-0865231.1875</Point>
+                <Point>+194642.2891-0902841.3750</Point>
+                <Point>+163526.8633-0930236.1563</Point>
+                <Point>+123404.2930-0985708.3125</Point>
+            </ManualVisibility>
+        </Position>        
     </Group>
 
     <Group Name="ACC Mexico">
@@ -5645,7 +5680,6 @@
             <Sectors>
                 <Sector Name="UNAF1" />
                 <Sector Name="UNF12" />
-                <Sector Name="UNF30" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
@@ -5686,7 +5720,6 @@
             <Sectors>
                 <Sector Name="UNAP1" />
                 <Sector Name="UNA12" />
-                <Sector Name="UNA30" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />

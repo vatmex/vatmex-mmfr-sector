@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <!--Prioritarios MEX TMA-->
+    <Sector FullName="Llegadas Mexico 05 (C)" Frequency="129.650" Callsign="MMMX_T_APP" Name="MARR1">
+        <ResponsibleSectors>MXLN5,MXLS5,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Llegadas Mexico 23 (C)" Frequency="129.650" Callsign="MMMX_T23_APP" Name="MARR23">
+        <ResponsibleSectors>MXLN23,MXLS23,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
+    </Sector>     
+    <Sector FullName="Salidas Mexico 05 (C)" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP">
+        <ResponsibleSectors>MXDN5,MXDE5,MXDS5</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Salidas Mexico 23 (C)" Frequency="120.500" Callsign="MMMX_23_DEP" Name="MXDEP23">
+        <ResponsibleSectors>MXDS23,MXDW23,MXDN23</ResponsibleSectors>
+    </Sector>    
+    <Sector FullName="Aproximacion Mexico 05" Frequency="121.200" Callsign="MMMX_1_APP" Name="MAPP1">
+        <ResponsibleSectors>MXA5,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Aproximacion Mexico 23" Frequency="121.200" Callsign="MMMX_3_APP" Name="MXA23" DisplayInHandoffWindow="False">
+        <Volumes>MXA23,TOAPP,PBAPP,SMAPP</Volumes>
+    </Sector>
+    <Sector FullName="Final Mexico 05" Frequency="119.750" Callsign="MMMX_F_APP" Name="MXFN1">
+        <ResponsibleSectors>MXF5</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Final Mexico 23" Frequency="119.750" Callsign="MMMX_F3_APP" Name="MXF23" DisplayInHandoffWindow="False">
+        <Volumes>MXF23</Volumes>
+    </Sector>
+
+    <!--Prioritarios CUN TMA-->
+   <Sector FullName="Aproximacion Cancun 12" Frequency="124.700" Callsign="MMUN_1_APP" Name="UNAP1">
+        <ResponsibleSectors>UNA12</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Aproximacion Cancun 30" Frequency="124.700" Callsign="MMUN_30_APP" Name="UNA30" DisplayInHandoffWindow="False">
+        <Volumes>UNA30</Volumes>
+    </Sector>    
+    <Sector FullName="Final Cancun 12" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNAF1">
+        <ResponsibleSectors>UNF12</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Final Cancun 30" Frequency="122.700" Callsign="MMUN_F30_APP" Name="UNF30" DisplayInHandoffWindow="False">
+        <Volumes>UNF30</Volumes>
+    </Sector>
+    
     <!--Centro de Control Mazatlan-->
     <Sector FullName="Torre Culiacan" Frequency="118.500" Callsign="MMCL_TWR" Name="CLTW1" DisplayInHandoffWindow="False">
         <Volumes>MMCL_CTR</Volumes>
@@ -180,24 +221,12 @@
     <Sector FullName="Llegadas Cancun 30" Frequency="123.200" Callsign="MMUN_T30_APP" Name="UNR30" DisplayInHandoffWindow="False">
         <Volumes>UNR30</Volumes>
     </Sector>
-    <Sector FullName="Final Cancun" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNAF1">
-        <ResponsibleSectors>UNF12,UNF30</ResponsibleSectors>
-    </Sector>
     <Sector FullName="Final Cancun 12" Frequency="122.700" Callsign="MMUN_F12_APP" Name="UNF12" DisplayInHandoffWindow="False">
         <Volumes>UNF12</Volumes>
     </Sector>
-    <Sector FullName="Final Cancun 30" Frequency="122.700" Callsign="MMUN_F30_APP" Name="UNF30" DisplayInHandoffWindow="False">
-        <Volumes>UNF30</Volumes>
-    </Sector>    
-   <Sector FullName="Aproximacion Cancun" Frequency="124.700" Callsign="MMUN_1_APP" Name="UNAP1">
-        <ResponsibleSectors>UNA12,UNA30</ResponsibleSectors>
-    </Sector>
     <Sector FullName="Aproximacion Cancun 12" Frequency="124.700" Callsign="MMUN_12_APP" Name="UNA12" DisplayInHandoffWindow="False">
         <Volumes>UNA12</Volumes>
-    </Sector>
-    <Sector FullName="Aproximacion Cancun 30" Frequency="124.700" Callsign="MMUN_30_APP" Name="UNA30" DisplayInHandoffWindow="False">
-        <Volumes>UNA30</Volumes>
-    </Sector>    
+    </Sector>  
     <Sector FullName="Salidas Cancun" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEP">
         <Volumes>MMUN_TMA</Volumes>
     </Sector>
@@ -222,12 +251,15 @@
     <Sector FullName="ACC Merida Combinado" Frequency="128.300" Callsign="MMID_CTR" Name="MIDC">
         <ResponsibleSectors>MID1,MID2,MID3,MID4,MID5,MID6,MID7</ResponsibleSectors>
     </Sector>
-    <Sector FullName="ACC Merida Sector SE" Frequency="125.800" Callsign="MMID_E_CTR" Name="MIDE">
+    <Sector FullName="ACC Merida Sector NE" Frequency="128.200" Callsign="MMID_E_CTR" Name="MIDE">
         <ResponsibleSectors>MID3</ResponsibleSectors>
     </Sector>
-    <Sector FullName="ACC Merida Sector SW" Frequency="126.700" Callsign="MMID_W_CTR" Name="MIDW">
+    <Sector FullName="ACC Merida Sector W" Frequency="125.200" Callsign="MMID_W_CTR" Name="MIDW">
         <ResponsibleSectors>MID1,MID2,MID4,MID5,MID6,MID7</ResponsibleSectors>
     </Sector>
+    <Sector FullName="ACC Merida Sector SS" Frequency="125.800" Callsign="MMID_SS_CTR" Name="MIDS">
+        <ResponsibleSectors>MID2,MID6</ResponsibleSectors>
+    </Sector>    
     <Sector FullName="ACC Merida Sector 1" Frequency="128.300" Callsign="MMID_1_CTR" Name="MID1" DisplayInHandoffWindow="False">
         <Volumes>MMID_SECTOR_1</Volumes>
     </Sector>
@@ -360,15 +392,12 @@
     <Sector FullName="Torre Mexico" Frequency="118.700" Callsign="MMMX_TWR" Name="MXTWR">
         <Volumes>MMMX_CTR</Volumes>
     </Sector>
-    <Sector FullName="Llegadas Mexico" Frequency="129.650" Callsign="MMMX_T_APP" Name="MARR1">
-        <ResponsibleSectors>MXLN5,MXLS5</ResponsibleSectors>
-    </Sector>
     <Sector FullName="Llegadas Norte Mexico 05" Frequency="129.650" Callsign="MMMX_TN5_APP" Name="MXLN5" DisplayInHandoffWindow="False">
         <Volumes>MXLN5</Volumes>
     </Sector>
     <Sector FullName="Llegadas Sur Mexico 05" Frequency="129.650" Callsign="MMMX_TS5_APP" Name="MXLS5" DisplayInHandoffWindow="False">
         <Volumes>MXLS5</Volumes>
-    </Sector>
+    </Sector>   
     <Sector FullName="Llegadas Norte Mexico 23" Frequency="129.650" Callsign="MMMX_TN3_APP" Name="MXLN23" DisplayInHandoffWindow="False">
         <Volumes>MXLN23</Volumes>
     </Sector>
@@ -378,27 +407,12 @@
     <Sector FullName="Aproximacion Mexico Combinado" Frequency="121.200" Callsign="MMMX_APP" Name="MAPPC">
         <Volumes>MXAC</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Mexico" Frequency="121.200" Callsign="MMMX_1_APP" Name="MAPP1">
-        <ResponsibleSectors>MXA5</ResponsibleSectors>
-    </Sector>
     <Sector FullName="Aproximacion Mexico 05" Frequency="121.200" Callsign="MMMX_5_APP" Name="MXA5" DisplayInHandoffWindow="False">
         <Volumes>MXA5</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Mexico 23" Frequency="121.200" Callsign="MMMX_3_APP" Name="MXA23" DisplayInHandoffWindow="False">
-        <Volumes>MXA23</Volumes>
-    </Sector>
-    <Sector FullName="Final Mexico" Frequency="119.750" Callsign="MMMX_F_APP" Name="MXFN1">
-        <ResponsibleSectors>MXF5</ResponsibleSectors>
-    </Sector>
     <Sector FullName="Final Mexico 05" Frequency="119.750" Callsign="MMMX_F5_APP" Name="MXF5" DisplayInHandoffWindow="False">
         <Volumes>MXF5</Volumes>
-    </Sector>
-    <Sector FullName="Final Mexico 23" Frequency="119.750" Callsign="MMMX_F3_APP" Name="MXF23" DisplayInHandoffWindow="False">
-        <Volumes>MXF23</Volumes>
-    </Sector>        
-    <Sector FullName="Salidas Mexico (Combinado)" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP">
-        <ResponsibleSectors>MXDN5,MXDE5,MXDS5</ResponsibleSectors>
-    </Sector>
+    </Sector>     
     <Sector FullName="Salidas Norte Mexico 05" Frequency="120.500" Callsign="MMMX_5N_DEP" Name="MXDN5" DisplayInHandoffWindow="False">
         <Volumes>MXDN5</Volumes>
     </Sector>
@@ -408,8 +422,14 @@
     <Sector FullName="Salidas Sur Mexico 05" Frequency="120.500" Callsign="MMMX_5S_DEP" Name="MXDS5" DisplayInHandoffWindow="False">
         <Volumes>MXDS5</Volumes>
     </Sector>
-    <Sector FullName="Salidas Mexico 23" Frequency="120.500" Callsign="MMMX_3_DEP" Name="MXD23" DisplayInHandoffWindow="False">
-        <Volumes>MXD23</Volumes>
+    <Sector FullName="Salidas Sur Mexico 23" Frequency="120.500" Callsign="MMMX_3_DEP" Name="MXDS23" DisplayInHandoffWindow="False">
+        <Volumes>MXDS23</Volumes>
+    </Sector>    
+    <Sector FullName="Salidas Oeste Mexico 23" Frequency="120.500" Callsign="MMMX_4_DEP" Name="MXDW23" DisplayInHandoffWindow="False">
+        <Volumes>MXDW23</Volumes>
+    </Sector>    
+    <Sector FullName="Salidas Norte Mexico 23" Frequency="120.500" Callsign="MMMX_5_DEP" Name="MXDN23" DisplayInHandoffWindow="False">
+        <Volumes>MXDN23</Volumes>                
     </Sector>
     <!--MMOX TMA-->
     <Sector FullName="Torre Oaxaca" Frequency="118.300" Callsign="MMOX_TWR" Name="OXTW1" DisplayInHandoffWindow="False">
@@ -499,13 +519,13 @@
     <Sector FullName="ACC Mexico Sector NS" Frequency="128.500" Callsign="MMEX_NS_CTR" Name="MEXN" DisplayInHandoffWindow="False">
         <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>
     </Sector>
-    <Sector FullName="ACC Mexico Sector SS" Frequency="125.100" Callsign="MMEX_SS_CTR" Name="MEXS">
+    <Sector FullName="ACC Mexico Sector SS" Frequency="133.100" Callsign="MMEX_SS_CTR" Name="MEXS">
         <ResponsibleSectors>MEX5,MEX9,MEX10</ResponsibleSectors>
     </Sector>
-    <Sector FullName="ACC Mexico Sector WS" Frequency="126.150" Callsign="MMEX_WS_CTR" Name="MEXW">
+    <Sector FullName="ACC Mexico Sector WS" Frequency="123.900" Callsign="MMEX_WS_CTR" Name="MEXW">
         <ResponsibleSectors>MEX6,MEX7,MEX8</ResponsibleSectors>
     </Sector>
-    <Sector FullName="ACC Mexico Sector ES" Frequency="124.000" Callsign="MMEX_ES_CTR" Name="MEXE">
+    <Sector FullName="ACC Mexico Sector ES" Frequency="126.600" Callsign="MMEX_ES_CTR" Name="MEXE">
         <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4</ResponsibleSectors>    
     </Sector>
     <Sector FullName="ACC Mexico Sector 1" Frequency="126.600" Callsign="MMEX_1_CTR" Name="MEX1" DisplayInHandoffWindow="False">
