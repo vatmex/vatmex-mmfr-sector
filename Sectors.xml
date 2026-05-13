@@ -18,13 +18,13 @@
         <ResponsibleSectors>MXA5,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
     </Sector>
     <Sector FullName="Aproximacion Mexico 23" Frequency="121.200" Callsign="MMMX_3_APP" Name="MXA23" DisplayInHandoffWindow="False">
-        <Volumes>MXA23,TOAPP,PBAPP,SMAPP</Volumes>
+        <ResponsibleSectors>MXA23,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
     </Sector>
     <Sector FullName="Final Mexico 05" Frequency="119.750" Callsign="MMMX_F_APP" Name="MXFN1">
         <ResponsibleSectors>MXF5</ResponsibleSectors>
     </Sector>
     <Sector FullName="Final Mexico 23" Frequency="119.750" Callsign="MMMX_F3_APP" Name="MXF23" DisplayInHandoffWindow="False">
-        <Volumes>MXF23</Volumes>
+        <ResponsibleSectors>MXF23</ResponsibleSectors>
     </Sector>
 
     <!--Prioritarios CUN TMA-->
@@ -422,13 +422,13 @@
     <Sector FullName="Salidas Sur Mexico 05" Frequency="120.500" Callsign="MMMX_5S_DEP" Name="MXDS5" DisplayInHandoffWindow="False">
         <Volumes>MXDS5</Volumes>
     </Sector>
-    <Sector FullName="Salidas Sur Mexico 23" Frequency="120.500" Callsign="MMMX_3_DEP" Name="MXDS23" DisplayInHandoffWindow="False">
+    <Sector FullName="Salidas Sur Mexico 23" Frequency="120.500" Callsign="MMMX_3S_DEP" Name="MXDS23" DisplayInHandoffWindow="False">
         <Volumes>MXDS23</Volumes>
     </Sector>    
-    <Sector FullName="Salidas Oeste Mexico 23" Frequency="120.500" Callsign="MMMX_4_DEP" Name="MXDW23" DisplayInHandoffWindow="False">
+    <Sector FullName="Salidas Oeste Mexico 23" Frequency="120.500" Callsign="MMMX_3W_DEP" Name="MXDW23" DisplayInHandoffWindow="False">
         <Volumes>MXDW23</Volumes>
     </Sector>    
-    <Sector FullName="Salidas Norte Mexico 23" Frequency="120.500" Callsign="MMMX_5_DEP" Name="MXDN23" DisplayInHandoffWindow="False">
+    <Sector FullName="Salidas Norte Mexico 23" Frequency="120.500" Callsign="MMMX_3N_DEP" Name="MXDN23" DisplayInHandoffWindow="False">
         <Volumes>MXDN23</Volumes>                
     </Sector>
     <!--MMOX TMA-->
