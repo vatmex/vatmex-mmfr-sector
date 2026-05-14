@@ -3180,8 +3180,8 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Puebla" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
+                <Map Name="TMA Mexico/z MMPB - Sectores Aproximacion [Contorno]" />
+                <Map Name="TMA Mexico/z MMTO - Sector Aproximacion [Contorno]" />
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
@@ -3214,8 +3214,8 @@
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Puebla" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
+                <Map Name="TMA Mexico/z MMPB - Sectores Aproximacion [Contorno]" />
+                <Map Name="TMA Mexico/z MMTO - Sector Aproximacion [Contorno]" />
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
@@ -3252,7 +3252,7 @@
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/z MMPB - Sectores Aproximacion [Contorno]" />
-                <Map Name="TMA Mexico/Aeropuerto - Sector Aproximacion Toluca" />
+                <Map Name="TMA Mexico/z MMTO - Sector Aproximacion [Contorno]" />
                 <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite" />
                 <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite (Nombres)" />
 
@@ -5570,7 +5570,7 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Salidas Mexico - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="250" MagneticVariation="-4" VisibilityRange="100">
+        <Position Name="Salidas Mexico - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="250" MagneticVariation="-4" VisibilityRange="100"  DynamicInfill="true">
             <Sectors>
             <Sector Name="MXDEP5" />
             <Sector Name="TOAPP" />
