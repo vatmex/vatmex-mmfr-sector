@@ -3296,10 +3296,8 @@
         </Position>
         <Position Name="Aproximacion Mexico (Combinado) - MAPPC" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
-                <Sector Name="MAPPC" />
-                <Sector Name="TOAPP" />
-                <Sector Name="PBAPP" />
-            </Sectors>
+            <Sector Name="MAPPC" />
+        </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
@@ -3440,11 +3438,8 @@
         </Position>
         <Position Name="Salidas Mexico (Combinado) - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100">
             <Sectors>
-                <Sector Name="MXDEP" />
-                <Sector Name="MXDN5" />
-                <Sector Name="MXDE5" />
-                <Sector Name="MXDS5" />
-            </Sectors>
+            <Sector Name="MXDEP" />
+        </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Volcanes" />
@@ -5472,10 +5467,8 @@
    <Group Name="FNO 2026">
         <Position Name="Llegadas Mexico - MARR1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
-                <Sector Name="MARR1" />
-                <Sector Name="MXLN5" />
-                <Sector Name="MXLS5" />
-            </Sectors>
+            <Sector Name="MARR1" />
+        </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
@@ -5513,9 +5506,8 @@
         </Position>        
         <Position Name="Aproximacion Mexico - MAPP1" Type="ASD" DefaultCenter="+192152.968-0991228.781" DefaultRange="170" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
-                <Sector Name="MAPP1" />
-                <Sector Name="MXA5" />
-            </Sectors>
+            <Sector Name="MAPP1" />
+        </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
@@ -5555,9 +5547,8 @@
         </Position>        
         <Position Name="Final Mexico - MXFN1" Type="ASD" DefaultCenter="+192322.968-0990906.781" DefaultRange="80" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
-                <Sector Name="MXFN1" />
-                <Sector Name="MXF5" />
-            </Sectors>
+            <Sector Name="MXFN1" />
+        </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />

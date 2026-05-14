@@ -2,29 +2,115 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     
     <!--Prioritarios MEX TMA-->
-    <Sector FullName="Llegadas Mexico 05 (C)" Frequency="129.650" Callsign="MMMX_T_APP" Name="MARR1">
-        <ResponsibleSectors>MXLN5,MXLS5,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
+    <Sector FullName="Llegadas Mexico 05" Frequency="129.650" Callsign="MMMX_T_APP" Name="MARR1">
+        <Volumes>
+            ARRN5_155_295_2,
+            ARRN5_175_295_4,
+            ARRN5_185_295_5,
+            ARRN5_195_295_3,
+            ARRN5_205_295_1,
+            ARRN5_265_295_6,
+            ARRS5_155_195_3,
+            ARRS5_155_295_4,
+            ARRS5_165_295_2,
+            ARRS5_175_235_5,
+            ARRS5_175_295_1,
+            ARRS5_185_295_6
+        </Volumes>
+        <ResponsibleSectors>SMAPP</ResponsibleSectors>
     </Sector>
-    <Sector FullName="Llegadas Mexico 23 (C)" Frequency="129.650" Callsign="MMMX_T23_APP" Name="MARR23">
-        <ResponsibleSectors>MXLN23,MXLS23,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
+    <Sector FullName="Llegadas Mexico 23" Frequency="129.650" Callsign="MMMX_T23_APP" Name="MARR23" DisplayInHandoffWindow="False">
+        <Volumes>
+            ARRN23_115_295_6,
+            ARRN23_135_175_4,
+            ARRN23_135_215_2,
+            ARRN23_135_225_7,
+            ARRN23_165_295_1,
+            ARRN23_185_205_3,
+            ARRN23_225_295_5,
+            ARRS23_115_185_2,
+            ARRS23_115_265_5,
+            ARRS23_115_295_8,
+            ARRS23_145_185_3,
+            ARRS23_145_295_7,
+            ARRS23_175_225_1,
+            ARRS23_175_225_4,
+            ARRS23_175_295_6,
+            ARRS23_245_295_10,
+            ARRS23_255_295_9
+        </Volumes>
     </Sector>     
-    <Sector FullName="Salidas Mexico 05 (C)" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP">
-        <ResponsibleSectors>MXDN5,MXDE5,MXDS5</ResponsibleSectors>
+    <Sector FullName="Salidas Mexico 05" Frequency="120.500" Callsign="MMMX_DEP" Name="MXDEP">
+        <Volumes>
+            DEPE5_085_295_1,
+            DEPE5_115_295_3,
+            DEPE5_145_295_4,
+            DEPE5_175_295_2,
+            DEPN5_085_175_2,
+            DEPN5_085_265_3,
+            DEPN5_115_265_4,
+            DEPN5_155_295_6,
+            DEPN5_215_295_1,
+            DEPN5_245_295_5,
+            DEPS5_085_175_1,
+            DEPS5_085_295_6,
+            DEPS5_085_295_9,
+            DEPS5_115_295_5,
+            DEPS5_135_295_2,
+            DEPS5_135_295_7,
+            DEPS5_145_295_13,
+            DEPS5_145_295_8,
+            DEPS5_165_295_10,
+            DEPS5_175_295_12,
+            DEPS5_195_295_4,
+            DEPS5_205_295_11,
+            DEPS5_235_295_3
+        </Volumes>
+        <ResponsibleSectors>TOAPP,PBAPP</ResponsibleSectors>
     </Sector>
-    <Sector FullName="Salidas Mexico 23 (C)" Frequency="120.500" Callsign="MMMX_23_DEP" Name="MXDEP23">
-        <ResponsibleSectors>MXDS23,MXDW23,MXDN23</ResponsibleSectors>
+    <Sector FullName="Salidas Mexico 23" Frequency="120.500" Callsign="MMMX_23_DEP" Name="MXDEP23" DisplayInHandoffWindow="False">
+        <Volumes>
+            DEPN23_085_195_5,
+            DEPN23_115_185_8,
+            DEPN23_115_295_6,
+            DEPN23_135_295_1,
+            DEPN23_175_295_2,
+            DEPN23_205_295_7,
+            DEPN23_215_295_3,
+            DEPS23_085_195_8,
+            DEPS23_085_295_7,
+            DEPS23_115_295_10,
+            DEPS23_115_295_3,
+            DEPS23_125_295_9,
+            DEPS23_135_245_2,
+            DEPS23_135_255_6,
+            DEPS23_155_295_5,
+            DEPS23_165_245_1,
+            DEPS23_185_295_11,
+            DEPS23_185_295_4,
+            DEPS23_225_295_13,
+            DEPS23_265_295_12,
+            DEPW23_115_295_4,
+            DEPW23_115_295_5,
+            DEPW23_145_295_7,
+            DEPW23_175_295_2,
+            DEPW23_175_295_8,
+            DEPW23_195_295_1,
+            DEPW23_195_295_3,
+            DEPW23_205_295_6
+        </Volumes>
     </Sector>    
     <Sector FullName="Aproximacion Mexico 05" Frequency="121.200" Callsign="MMMX_1_APP" Name="MAPP1">
-        <ResponsibleSectors>MXA5,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
+        <Volumes>APPMX5_135_195_1,APPMX5_135_195_2</Volumes>
     </Sector>
     <Sector FullName="Aproximacion Mexico 23" Frequency="121.200" Callsign="MMMX_3_APP" Name="MXA23" DisplayInHandoffWindow="False">
-        <ResponsibleSectors>MXA23,TOAPP,PBAPP,SMAPP</ResponsibleSectors>
+        <Volumes>APPMX23_115_175_2,APPMX23_125_195_1</Volumes>
     </Sector>
     <Sector FullName="Final Mexico 05" Frequency="119.750" Callsign="MMMX_F_APP" Name="MXFN1">
-        <ResponsibleSectors>MXF5</ResponsibleSectors>
+        <Volumes>APPFMX5_085_125_1,APPFMX5_085_145_2</Volumes>
     </Sector>
     <Sector FullName="Final Mexico 23" Frequency="119.750" Callsign="MMMX_F3_APP" Name="MXF23" DisplayInHandoffWindow="False">
-        <ResponsibleSectors>MXF23</ResponsibleSectors>
+        <Volumes>APPFMX23_085_125_1</Volumes>
     </Sector>
 
     <!--Prioritarios CUN TMA-->
@@ -347,8 +433,8 @@
     <Sector FullName="Torre Puebla" Frequency="118.200" Callsign="MMPB_TWR" Name="PBTW1" DisplayInHandoffWindow="False">
         <Volumes>MMPB_CTR</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP" DisplayInHandoffWindow="False">
-        <Volumes>MMPB_APP</Volumes>
+    <Sector FullName="Aproximacion Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP">
+        <Volumes>APPPB_085_145_1,APPPB_085_175_2</Volumes>
     </Sector>
     <Sector FullName="Torre Pachuca" Frequency="122.900" Callsign="MMPC_TWR" Name="PCTW1" DisplayInHandoffWindow="False">
         <Volumes>MMPC_ATZ</Volumes>
@@ -362,8 +448,20 @@
     <Sector FullName="Torre Santa Lucia" Frequency="118.300" Callsign="MMSM_TWR" Name="SMTW1" DisplayInHandoffWindow="False">
         <Volumes>MMSM_CTR</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Lucia" Frequency="119.000" Callsign="MMSM_APP" Name="SMAPP" DisplayInHandoffWindow="False">
-        <Volumes>MLAC</Volumes>
+    <Sector FullName="Aproximacion Lucia" Frequency="119.000" Callsign="MMSM_APP" Name="SMAPP">
+        <Volumes>
+            APPFSM23_085_125_2,
+            APPFSM23_115_165_1,
+            APPFSM5_085_175_1,
+            APPSM23_115_225_1,
+            APPSM23_135_225_3,
+            APPSM23_165_225_2,
+            APPSM5_135_185_5,
+            APPSM5_135_195_4,
+            APPSM5_155_245_3,
+            APPSM5_175_215_2,
+            APPSM5_185_265_1
+        </Volumes>
     </Sector>
     <Sector FullName="Final Lucia 04" Frequency="128.850" Callsign="MMSM_F_APP" Name="FNL04" DisplayInHandoffWindow="False">
         <Volumes>MSF4</Volumes>
@@ -374,8 +472,8 @@
     <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTO_CTR</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOAPP" DisplayInHandoffWindow="False">
-        <Volumes>MMTO_APP</Volumes>
+    <Sector FullName="Aproximacion Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOAPP">
+        <Volumes>APPTO_085_205_4,APPTO_095_145_3,APPTO_095_175_5,APPTO_115_165_1,APPTO_115_205_2</Volumes>
     </Sector>
     <Sector FullName="Autorizacion Mexico" Frequency="122.100" Callsign="MMMX_DEL" Name="MXCDL" DisplayInHandoffWindow="False">
         <Volumes>MMMX_CTR</Volumes>
@@ -389,48 +487,9 @@
     <Sector FullName="Torre Mexico" Frequency="118.700" Callsign="MMMX_TWR" Name="MXTWR">
         <Volumes>MMMX_CTR</Volumes>
     </Sector>
-    <Sector FullName="Llegadas Norte Mexico 05" Frequency="129.650" Callsign="MMMX_TN5_APP" Name="MXLN5" DisplayInHandoffWindow="False">
-        <Volumes>MXLN5</Volumes>
-    </Sector>
-    <Sector FullName="Llegadas Sur Mexico 05" Frequency="129.650" Callsign="MMMX_TS5_APP" Name="MXLS5" DisplayInHandoffWindow="False">
-        <Volumes>MXLS5</Volumes>
-    </Sector>   
-    <Sector FullName="Llegadas Norte Mexico 23" Frequency="129.650" Callsign="MMMX_TN3_APP" Name="MXLN23" DisplayInHandoffWindow="False">
-        <Volumes>MXLN23</Volumes>
-    </Sector>
-    <Sector FullName="Llegadas Sur Mexico 23" Frequency="129.650" Callsign="MMMX_TS3_APP" Name="MXLS23" DisplayInHandoffWindow="False">
-        <Volumes>MXLS23</Volumes>
-    </Sector>
-    <Sector FullName="Aproximacion Mexico Combinado" Frequency="121.200" Callsign="MMMX_APP" Name="MAPPC">
+    <Sector FullName="Aproximacion Mexico (Combinado)" Frequency="121.200" Callsign="MMMX_APP" Name="MAPPC">
         <Volumes>MXAC</Volumes>
-    </Sector>
-    <Sector FullName="Aproximacion Mexico 05" Frequency="121.200" Callsign="MMMX_5_APP" Name="MXA5" DisplayInHandoffWindow="False">
-        <Volumes>MXA5</Volumes>
-    </Sector>
-    <Sector FullName="Final Mexico 05" Frequency="119.750" Callsign="MMMX_F5_APP" Name="MXF5" DisplayInHandoffWindow="False">
-        <Volumes>MXF5</Volumes>
-    </Sector>     
-    <Sector FullName="Salidas Norte Mexico 05" Frequency="120.500" Callsign="MMMX_5N_DEP" Name="MXDN5" DisplayInHandoffWindow="False">
-        <Volumes>MXDN5</Volumes>
-    </Sector>
-    <Sector FullName="Salidas Este Mexico 05" Frequency="120.500" Callsign="MMMX_5E_DEP" Name="MXDE5" DisplayInHandoffWindow="False">
-        <Volumes>MXDE5</Volumes>
-    </Sector>
-    <Sector FullName="Salidas Sur Mexico 05" Frequency="120.500" Callsign="MMMX_5S_DEP" Name="MXDS5" DisplayInHandoffWindow="False">
-        <Volumes>MXDS5</Volumes>
-    </Sector>
-    <Sector FullName="Salidas Sur Mexico 23" Frequency="120.500" Callsign="MMMX_3S_DEP" Name="MXDS23" DisplayInHandoffWindow="False">
-        <Volumes>MXDS23</Volumes>
-    </Sector>    
-    <Sector FullName="Salidas Oeste Mexico 23" Frequency="120.500" Callsign="MMMX_3W_DEP" Name="MXDW23" DisplayInHandoffWindow="False">
-        <Volumes>MXDW23</Volumes>
-    </Sector>    
-    <Sector FullName="Salidas Norte Mexico 23" Frequency="120.500" Callsign="MMMX_3N_DEP" Name="MXDN23" DisplayInHandoffWindow="False">
-        <Volumes>MXDN23</Volumes>                
-    </Sector>
-    <!--MMOX TMA-->
-    <Sector FullName="Torre Oaxaca" Frequency="118.300" Callsign="MMOX_TWR" Name="OXTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMOX_CTR</Volumes>
+        <ResponsibleSectors>MARR1,MAPP1,MXFN1,MXDEP,SMAPP,TOAPP,PBAPP</ResponsibleSectors>
     </Sector>
     <Sector FullName="Aproximacion Oaxaca" Frequency="121.100" Callsign="MMOX_APP" Name="OXAPP" DisplayInHandoffWindow="False">
         <Volumes>MMOX_TMA</Volumes>
