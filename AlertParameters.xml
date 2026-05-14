@@ -3,9 +3,9 @@
     <ConflictAlerts>
         <STCA Name="TMA" LateralNM="2.1" SecondsLookahead="60" AlertPriority="1">
             <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
-            <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="29001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
             <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-            <Volumes>BXAPP,CLAPP,CUAPP,MXF23,UNAF1,GLAPP,HOAPP,MAPPC,MAPP1,MARR1,MXA23,MYAPP,MYTMA,PRAPP,PRTMA,TJAPP,TOAPP,UNAPP,VRAPP,MARR23,MXFN1,MXDEP,MXDEP23,UNAR1,UNAP1</Volumes>
+            <Volumes>BXAPP,CLAPP,CUAPP,GLAPP,GLTML,HOAPP,MAPPC,MAPP5,MARR5,MAPP23,MYAPP,MYTMA,PRAPP,PRTMA,TJAPP,TOAPP,UNAPP,VRAPP,MARR23,MXFN5,MXF23,MXDEP5,MXDEP23,SMAPP4,SMAPP22,UNAR1,UNAP12,UNAP30,UNAF12,UNAF30</Volumes>
         <InhibitionAreas>
         <InhibitionArea Name="MMMX" LowerLevel="0" UpperLevel="9000">
 +192745.974-0985512.728/
@@ -13,17 +13,52 @@
 +192449.178-0991302.128/
 +193255.721-0985826.344/
 +192745.974-0985512.728</InhibitionArea>
+        <InhibitionArea Name="MMMX_PMS1_05" LowerLevel="17000" UpperLevel="18000">
++194713.994-0993908.670/
++195302.017-0993335.294/
++195634.308-0992605.054/
++195731.512-0991738.329/
++195310.073-0991500.174/
++193643.959-0991433.256/
++193400.540-0992305.437/
++194713.994-0993908.670</InhibitionArea>
+        <InhibitionArea Name="MMMX_PMS2_05" LowerLevel="17000" UpperLevel="18000">
++191148.565-0990252.939/
++190918.054-0990618.958/
++190203.197-0991614.189/
++190011.629-0992041.713/
++185621.258-0992058.562/
++185127.449-0991505.459/
++184825.303-0990736.449/
++184808.325-0990209.215/
++184810.134-0985859.349/
++185750.785-0985836.659/
++191108.349-0985918.139/
++191148.565-0990252.939</InhibitionArea>
+        <InhibitionArea Name="MMMX_PMS_23" LowerLevel="14000" UpperLevel="16000">
++191148.565-0990252.939/
++190918.054-0990618.958/
++190203.197-0991614.189/
++190011.629-0992041.713/
++185621.258-0992058.562/
++185127.449-0991505.459/
++184825.303-0990736.449/
++184808.325-0990209.215/
++184810.134-0985859.349/
++185750.785-0985836.659/
++191108.349-0985918.139/
++191148.565-0990252.939</InhibitionArea>
         </InhibitionAreas>
         </STCA>
         <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
-            <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
-            <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="0" UpperLevel="29000" Height="600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="29001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
             <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
             <Volumes>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10,MEXC,MEXE,MEXW,MEXN,MEXS,MID1,MID2,MID3,MID4,MID5,MID6,MIDC,MIDE,MIDW,MTY1,MTY2,MTY3,MTY4,MTY5,MTYC,MTYW,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZTC,MZTE,MZTW</Volumes>
         </STCA>
         <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
             <Vertical LowerLevel="18000" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
-            <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+            <Vertical LowerLevel="29001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
             <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
             <Volumes>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10,MEXC,MEXE,MEXW,MEXN,MEXS,MID1,MID2,MID3,MID4,MID5,MID6,MIDC,MIDE,MIDW,MTY1,MTY2,MTY3,MTY4,MTY5,MTYC,MTYW,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZTC,MZTE,MZTW</Volumes>
         </MTCA>
