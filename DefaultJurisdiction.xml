@@ -141,7 +141,7 @@
                 <Departure Values="MMGL">
                     <Rules>
                         <Default>
-                            <AssignSector Order="GLAPP,MEX6,MEXW,MEXC"/>
+                            <AssignSector Order="GLAPP,GLTML,MEX6,MEXW,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -163,7 +163,7 @@
                 <Departure Values="MMMX">
                     <Rules>
                         <Default>
-                            <AssignSector Order="MXDEP,MAPP1,MAPPC,MEX3,MEXS,MEXE,MEXC"/>
+                            <AssignSector Order="MXDEP5,MXDEP23,MAPPC,MEX3,MEXS,MEXE,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -174,7 +174,7 @@
                 <Departure Values="MMSM">
                     <Rules>
                         <Default>
-                            <AssignSector Order="SMAPP,MXDEP,MAPP1,MAPPC,MEX3,MEXC"/>
+                            <AssignSector Order="SMAPP4,SMAPP22,MXDEP5,MXDEP23,MAPPC,MEX3,MEXS,MEXE,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -185,7 +185,7 @@
                 <Departure Values="MMTO">
                     <Rules>
                         <Default>
-                            <AssignSector Order="TOAPP,MXDEP,MAPP1,MAPPC,MEX5,MEXC"/>
+                            <AssignSector Order="TOAPP,MXDEP5,MXDEP23,MAPPC,MEX3,MEXS,MEXE,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
