@@ -16,15 +16,13 @@
             <Point>RETEX</Point>
             <Point>TAKAL</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMPB - Pista 35 - Llegadas RNAV (Nombres)" Priority="1" Center="+190929.299-0982217.408">
-        <Label HasLeader="false">
+        <Label>
             <Point>ATUKA</Point>
             <Point>LARLO</Point>
             <Point>MASEL</Point>
             <Point>PESTA</Point>
             <Point>TAKAL</Point>
-        </Label>
+        </Label>        
     </Map>
     <Map Type="System" Name="MMPB - Pista 35 - RNP 35" Priority="1" Center="+190929.299-0982217.408">
         <Line Name="FINAL" Pattern="Solid">PB800/PB801/+190830.870-0982215.260</Line>
@@ -36,12 +34,10 @@
             <Point>PB800</Point>
             <Point>PB801</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMPB - Pista 35 - RNP 35 (Nombres)" Priority="1" Center="+190929.299-0982217.408">
-        <Label HasLeader="false">
+        <Label>
             <Point>MASEL</Point>
             <Point>PESTA</Point>
-        </Label>
+        </Label>        
     </Map>
     <Map Type="System" Name="MMPB - Pista 35 - Salidas RNAV" Priority="1" Center="+190929.299-0982217.408">
         <Line Name="TAKAL1D" Pattern="Dotted">+191027.970-0982219.580/PB700/PB701/PB702/PB703/TAKAL</Line>
@@ -64,14 +60,12 @@
             <Point>TAKAL</Point>
             <Point>UKUNO</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMPB - Pista 35 - Salidas RNAV (Nombres)" Priority="1" Center="+190929.299-0982217.408">
-        <Label HasLeader="false">
+        <Label>
             <Point>ILETO</Point>
             <Point>NOXOS</Point>
             <Point>OTAGO</Point>
             <Point>TAKAL</Point>
             <Point>UKUNO</Point>
-        </Label>
+        </Label>        
     </Map>
 </Maps>

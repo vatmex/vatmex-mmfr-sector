@@ -32,16 +32,14 @@
             <Point>TO632</Point>
             <Point>TO634</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
-        <Label HasLeader="false">
+        <Label>
             <Point>ELILA</Point>
             <Point>GAINY</Point>
             <Point>ITLAS</Point>
             <Point>LENUL</Point>
-        </Label>
+        </Label>        
     </Map>
-    <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
+<!--    <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="GAINYR340" Pattern="Solid">
 +193257.049-0994506.020/
 +194720.957-0994928.896</Line>
@@ -177,7 +175,7 @@
 +194656.080-0995047.796/
 +194711.786-0995000.730/
 +194720.957-0994928.896</Line>
-    </Map>
+    </Map>-->
     <Map Type="System" Name="MMTO - Pista 15 - ILS X 15" Priority="1" Center="+192617.580-0990407.680">
         <Line Pattern="Solid">GAINY/TO902/ALOMI/+192115.700-0993425.900</Line>
         <Symbol Type="HollowStar">
@@ -217,15 +215,53 @@
             <Point>ULEBA</Point>
             <Point>ULOTO</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMTO - Pista 15 - Salidas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
-        <Label HasLeader="false">
+        <Label>
             <Point>OMPER</Point>
             <Point>OVAGO</Point>
             <Point>PURAL</Point>
             <Point>SEBON</Point>
             <Point>TEVOS</Point>
             <Point>ULEBA</Point>
-        </Label>
+        </Label>        
     </Map>
+<!--    <Map Type="Filled" Name="MMTO - Sector Aproximacion [Fondo]">
+        <Infill CustomColourName="RadarAirway" Priority="1">
+            <Point>
++190203.190-0991614.169/
++190011.627-0992041.696/
++185621.270-0992058.544/
++185153.705-0992133.944/
++184918.655-0992336.271/
++185029.777-0993343.169/
++185332.466-0993708.554/
++184703.438-0995314.912/
++190053.000-1000843.000/
++195102.000-1000654.000/
++200154.424-0995606.682/
++193508.272-0993156.146/
++193204.629-0993023.250/
++192149.910-0992533.519/
++191117.090-0992035.255/
++190203.190-0991614.169</Point>    
+        </Infill>
+    </Map>-->
+<Map Type="System2" CustomColourName="White" Name="z MMTO - Sector Aproximacion [Contorno]">
+        <Line Pattern="Solid" Priority="1" Width="1">  
++190203.190-0991614.169/
++190011.627-0992041.696/
++185621.270-0992058.544/
++185153.705-0992133.944/
++184918.655-0992336.271/
++185029.777-0993343.169/
++185332.466-0993708.554/
++184703.438-0995314.912/
++190053.000-1000843.000/
++195102.000-1000654.000/
++200154.424-0995606.682/
++193508.272-0993156.146/
++193204.629-0993023.250/
++192149.910-0992533.519/
++191117.090-0992035.255/
++190203.190-0991614.169</Line>
+    </Map>     
 </Maps>
