@@ -31,6 +31,7 @@
             <Point>ULAVA</Point>
             <Point>VETNU</Point>
             <Point>WICLO</Point>
+            <Point>MY403</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMMY - Pista 30 - Llegadas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
@@ -53,9 +54,10 @@
             <Point>ULAVA</Point>
             <Point>VETNU</Point>
             <Point>WICLO</Point>
+            <Point>MY403</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMMY - Pista 30 - ILS W 30" Priority="1" Center="+284208.380-1055746.670">
+ <!-- Disabled   <Map Type="System" Name="MMMY - Pista 30 - ILS W 30" Priority="1" Center="+284208.380-1055746.670">
         <Line Pattern="Solid">
 +255155.589-1001419.660/
 +254546.633-0995533.103/
@@ -131,7 +133,8 @@ MY408</Line>
         <Label HasLeader="false">
             <Point>ADN</Point>
         </Label>
-    </Map>
+    </Map> -->
+    
     <Map Type="System" Name="MMMY - Pista 30 - ILS V 30" Priority="1" Center="+284208.380-1055746.670">
         <Line Pattern="Solid">OKOTO/+254612.450-1000529.930</Line>
         <Line Pattern="Solid">+254607.268-1000415.743/+254515.897-1000450.025</Line>

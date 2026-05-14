@@ -26,7 +26,7 @@
         </Runway>
     </Map>
     <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-        <Line Name="TMA MMUN" Pattern="Dashed">
+        <Line Name="TMA MMUN" Pattern="Solid">
 +205632.000-0855821.000/
 +204021.000-0860007.000/
 +203126.000-0854400.000/
@@ -306,7 +306,7 @@
 +211144.622-0880536.182</Line>
     </Map>
     <Map Type="System2" Name="Aeropuerto - Sector Aproximacion 12" Priority="1">
-        <Line Name="TMA MMUN Dividida APP" Pattern="Dashed">
+        <Line Name="TMA MMUN Dividida APP" Pattern="Dotted">
 +21.663676-087.096993/
 +21.517484-087.354235/
 +21.219937-087.598855/
@@ -319,14 +319,14 @@
 +21.663676-087.096993</Line>
     </Map>
     <Map Type="System2" Name="Aeropuerto - Sector Aproximacion 30" Priority="1">
-        <Line Name="TMA MMUN Dividida APP" Pattern="Dashed">
+        <Line Name="TMA MMUN Dividida APP" Pattern="Dotted">
 +20.817206-086.786059/
 +20.613051-086.463579/
 +20.844233-086.299306/
 +21.062060-086.651828</Line>
     </Map>    
     <Map Type="System2" Name="Aeropuerto - Sector Final 12" Priority="1">
-        <Line Name="TMA MMUN Final" Pattern="Dashed">
+        <Line Name="TMA MMUN Final" Pattern="Dotted">
 +21.351534-087.164235/
 +21.169783-087.289928/
 +21.010354-087.031258/
@@ -338,7 +338,7 @@
 +21.351534-087.164235</Line>
     </Map>
     <Map Type="System2" Name="Aeropuerto - Sector Final 30" Priority="1">
-        <Line Name="TMA MMUN Final 30" Pattern="Dashed">
+        <Line Name="TMA MMUN Final 30" Pattern="Dotted">
 +21.054923-086.699089/
 +20.886979-086.426641/
 +20.714712-086.550059/

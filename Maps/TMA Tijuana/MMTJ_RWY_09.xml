@@ -4,24 +4,25 @@
         <Line Name="TANR1A" Pattern="Dashed">TANRI/ULDUD/TJ564/TUBUS</Line>
         <Line Name="TOVE1A" Pattern="Dashed">TOVES/ENS/KREPE/TUBUS</Line>
         <Symbol Type="SolidTriangle">
-            <Point>KREPE</Point>
             <Point>TANRI</Point>
-            <Point>TOVES</Point>
             <Point>ULDUD</Point>
-        </Symbol>
-        <Symbol Type="DotFillCircle">
-            <Point>ENS</Point>
         </Symbol>
         <Symbol Type="HollowStar">
             <Point>TJ564</Point>
             <Point>TUBUS</Point>
+            <Point>TOVES</Point>
+            <Point>ELUBA</Point>
+            <Point>KREPE</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 09 - Llegadas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
-        <Label HasLeader="false">
+        <Label>
             <Point>TANRI</Point>
             <Point>TOVES</Point>
             <Point>TUBUS</Point>
+            <Point>ELUBA</Point>
+            <Point>KREPE</Point>
+            <Point>ULDUD</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 09 - ILS X 09" Priority="1" Center="+323227.810-1165811.890">
@@ -43,6 +44,9 @@
             <Point>TJ416</Point>
             <Point>TJ423</Point>
         </Symbol>
+        <Label>
+            <Point>TJ414</Point>
+        </Label>        
     </Map>
     <Map Type="System" Name="Pista 09 - Salidas RNAV" Priority="1" Center="+323227.810-1165811.890">
         <Line Name="KOBA1A" Pattern="Dotted">+323220.380-1165715.810/TJ500/TJ501/TJ502/TJ566/TJ565/UDMOV/SIDGA</Line>
@@ -50,7 +54,6 @@
         <Line Name="TUMA1A" Pattern="Dotted">UDMOV/TUMAP</Line>
         <Symbol Type="SolidTriangle">
             <Point>SIDGA</Point>
-            <Point>TEVIR</Point>
             <Point>UDMOV</Point>
         </Symbol>
         <Symbol Type="HollowStar">
@@ -60,6 +63,7 @@
             <Point>TJ565</Point>
             <Point>TJ566</Point>
             <Point>TUMAP</Point>
+            <Point>TEVIR</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 09 - Salidas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
