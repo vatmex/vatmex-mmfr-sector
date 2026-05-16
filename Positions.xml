@@ -170,9 +170,11 @@
             <CFL QuickLevel="4000">
                 <AdditionalLevels>1800,2800,5100,9700,10600,11200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Culiacan / Culiacan Tower</Line>
                 <Line>Serving MMCL arrivals and departures</Line>
@@ -206,9 +208,11 @@
             <CFL QuickLevel="4000">
                 <AdditionalLevels>1800,2800,5100,9700,10600,11200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Culiacan / Culiacan Approach</Line>
                 <Line>Serving MMCL arrivals and departures</Line>
@@ -234,20 +238,28 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMCN" Frequency="127.600" Server="NA" />
                 <Window Airport="MMCN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMCN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Obregon / Obregon Tower</Line>
                 <Line>Serving MMCN arrivals and departures</Line>
@@ -271,20 +283,28 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMDO" Frequency="132.100" Server="NA" />
                 <Window Airport="MMDO" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMDO" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMDO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Durango / Durango Torre</Line>
                 <Line>Serving MMDO arrivals and departures</Line>
@@ -308,9 +328,11 @@
                 <Window Type="ADEP" Beacon="MMGM" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMGM" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Guaymas / Guaymas Tower</Line>
                 <Line>Serving MMGM arrivals and departures</Line>
@@ -330,17 +352,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMHO" Frequency="127.700" Server="NA" />
                 <Window Airport="MMHO" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMHO" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMHO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Hermosillo / Hermosillo Tower</Line>
                 <Line>Serving MMHO arrivals and departures</Line>
@@ -367,22 +393,30 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMHO" Frequency="127.700" Server="NA" />
                 <Window Airport="MMHO" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMHO" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="1200">
                 <AdditionalLevels>4600,3300,3100,2700</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMHO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Hermosillo / Hermosillo Approach</Line>
                 <Line>Serving MMHO arrivals and departures</Line>
@@ -417,9 +451,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMLM" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Los Mochis / Los Mochis Tower</Line>
                 <Line>Serving MMLM arrivals and departures</Line>
@@ -442,9 +478,11 @@
                 <Window Type="ADEP" Beacon="MMLP" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMLP" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre La Paz / La Paz Tower</Line>
                 <Line>Serving MMLP arrivals and departures</Line>
@@ -472,9 +510,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMLP" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion La Paz / La Paz Approach</Line>
                 <Line>Serving MMLP arrivals and departures</Line>
@@ -500,9 +540,11 @@
                 <Window Type="ADEP" Beacon="MMLT" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMLT" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Loreto / Loreto Tower</Line>
                 <Line>Serving MMLT arrivals and departures</Line>
@@ -526,20 +568,28 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMML" Frequency="127.600" Server="NA" />
                 <Window Airport="MMML" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMML" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMML" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Mexicali / Mexicali Tower</Line>
                 <Line>Serving MMML arrivals and departures</Line>
@@ -558,17 +608,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMZ" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMZ" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMZ" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMZ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Mazatlan / Mazatlan Tower</Line>
                 <Line>Serving MMMZ arrivals and departures</Line>
@@ -590,20 +644,28 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMZ" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMZ" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMZ" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMZ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Mazatlan / Mazatlan Approach</Line>
                 <Line>Serving MMMZ arrivals and departures</Line>
@@ -629,9 +691,11 @@
                 <Window Type="ADEP" Beacon="MMPE" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPE" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Penasco / Penasco Tower</Line>
                 <Line>Serving MMPE arrivals and departures</Line>
@@ -653,17 +717,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSL" Frequency="127.000" Server="NA" />
                 <Window Airport="MMSL" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSL" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMSL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre San Lucas / San Lucas Tower</Line>
                 <Line>Serving MMSL arrivals and departures</Line>
@@ -684,17 +752,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
                 <Window Airport="MMSD" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSD" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMSD" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Plataforma San Jose / San Jose Apron</Line>
                 <Line>Serving MMSD arrivals and departures</Line>
@@ -715,17 +787,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
                 <Window Airport="MMSD" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSD" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMSD" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre San Jose / San Jose Tower</Line>
                 <Line>Serving MMSD arrivals and departures</Line>
@@ -750,22 +826,30 @@
                 <Map Name="TMA Cabos/MMSL - Pista 29 - RNP 29" />
 
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
                 <Window Airport="MMSD" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMSD" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="4000">
                 <AdditionalLevels>2400,3200,7400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMSD" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion San Jose / San Jose Approach</Line>
                 <Line>Serving MMSD and MMSL arrivals and departures</Line>
@@ -790,19 +874,23 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
                 <Window Airport="MMTJ" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
             </Strips>
             <CFL QuickLevel="8000">
                 <AdditionalLevels>2600,3300,4100</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTJ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Ensenada / Tijuana Ensenada</Line>
                 <Line>Serving MMES arrivals and departures</Line>
@@ -830,9 +918,11 @@
             <CFL QuickLevel="23000">
                 <AdditionalLevels>2600,3300,4100</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTJ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Entrega Tijuana / Tijuana Clearance</Line>
                 <Line>Serving MMTJ departures</Line>
@@ -854,19 +944,23 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
                 <Window Airport="MMTJ" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
             </Strips>
             <CFL QuickLevel="8000">
                 <AdditionalLevels>2600,3300,4100</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTJ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Tijuana / Tijuana Tower</Line>
                 <Line>Serving MMTJ arrivals and departures</Line>
@@ -891,22 +985,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
                 <Window Airport="MMTJ" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="8000">
                 <AdditionalLevels>2600,3300,4100</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTJ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Tijuana / Tijuana Approach</Line>
                 <Line>Serving MMTJ and MMES arrivals and departures</Line>
@@ -937,22 +1039,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSD" Frequency="127.600" Server="NA" />
                 <Window Airport="MMSD" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>2400,3200,7400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTJ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -982,22 +1092,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
                 <Window Airport="MMTJ" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>2400,3200,7400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTJ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -1033,22 +1151,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
                 <Window Airport="MMTJ" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>2400,3200,7400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTJ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -1086,22 +1212,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
                 <Window Airport="MMTJ" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>2400,3200,7400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTJ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -1271,17 +1405,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMCE" Frequency="127.800" Server="NA" />
                 <Window Airport="MMCE" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCE" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCE" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Carmen / Carmen Tower</Line>
                 <Line>Serving MMCE arrivals and departures</Line>
@@ -1304,20 +1442,28 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMCE" Frequency="127.800" Server="NA" />
                 <Window Airport="MMCE" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMCE" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCE" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Carmen / Carmen Approach</Line>
                 <Line>Serving MMCE arrivals and departures</Line>
@@ -1340,9 +1486,11 @@
                 <Window Type="ADEP" Beacon="MMCM" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCM" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Chetumal / Chetumal Tower</Line>
                 <Line>Serving MMCM arrivals and departures</Line>
@@ -1365,9 +1513,11 @@
                 <Window Type="ADEP" Beacon="MMCP" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCP" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Campeche / Campeche Tower</Line>
                 <Line>Serving MMCP arrivals and departures</Line>
@@ -1388,9 +1538,11 @@
                 <Window Type="ADEP" Beacon="MMCT" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCT" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Chichen-Itza / Chichen-Itza Tower</Line>
                 <Line>Serving MMCT arrivals and departures</Line>
@@ -1413,9 +1565,11 @@
                 <Window Type="ADEP" Beacon="MMIT" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMIT" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Ixtepec / Ixtepec Tower</Line>
                 <Line>Serving MMIT arrivals and departures</Line>
@@ -1434,16 +1588,20 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
                 <Window Airport="MMMD" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMD" Visible="true" />
             </Strips>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMD" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Entrega Merida / Merida Delivery</Line>
                 <Line>Serving MMMD departures</Line>
@@ -1462,16 +1620,20 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
                 <Window Airport="MMMD" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMD" Visible="true" />
             </Strips>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMD" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Merida / Merida Tower</Line>
                 <Line>Serving MMMD arrivals and departures</Line>
@@ -1495,21 +1657,29 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMD" Frequency="127.900" Server="NA" />
                 <Window Airport="MMMD" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMD" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMD" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Merida / Merida Approach</Line>
                 <Line>Serving MMMD arrivals and departures</Line>
@@ -1535,9 +1705,11 @@
                 <Window Type="ADEP" Beacon="MMMT" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMT" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Minatitlan / Minatitlan Tower</Line>
                 <Line>Serving MMMT arrivals and departures</Line>
@@ -1560,9 +1732,11 @@
                 <Window Type="ADEP" Beacon="MMPQ" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPQ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Palenque / Palenque Tower</Line>
                 <Line>Serving MMPQ arrivals and departures</Line>
@@ -1592,9 +1766,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTG" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Tuxtla / Tuxtla Tower</Line>
                 <Line>Serving MMTG arrivals and departures</Line>
@@ -1625,9 +1801,11 @@
                 <Window Type="ADEP" Beacon="MMTP" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTP" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Tapachula / Tapachula Tower</Line>
                 <Line>Serving MMTP arrivals and departures</Line>
@@ -1654,17 +1832,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMCZ" Frequency="127.8" Server="NA" />
                 <Window Airport="MMCZ" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCZ" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCZ" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Cozumel / Cozumel Tower</Line>
                 <Line>Serving MMCZ arrivals and departures</Line>
@@ -1689,17 +1871,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTL" Frequency="127.6" Server="NA" />
                 <Window Airport="MMTL" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTL" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Entrega Tulum / Tulum Delivery</Line>
                 <Line>Serving MMTL departures</Line>
@@ -1724,17 +1910,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTL" Frequency="127.6" Server="NA" />
                 <Window Airport="MMTL" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTL" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Tulum / Tulum Ground</Line>
                 <Line>Serving MMTL arrivals and departures</Line>
@@ -1759,17 +1949,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTL" Frequency="127.6" Server="NA" />
                 <Window Airport="MMTL" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTL" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Tulum / Tulum Tower</Line>
                 <Line>Serving MMTL arrivals and departures</Line>
@@ -1794,17 +1988,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Entrega Cancun / Cancun Delivery</Line>
                 <Line>Serving MMUN departures</Line>
@@ -1830,17 +2028,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Cancun / Cancun Ground</Line>
                 <Line>Serving MMUN arrivals and departures</Line>
@@ -1866,17 +2068,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Cancun Este / Cancun Ground East</Line>
                 <Line>Serving MMUN arrivals and departures</Line>
@@ -1902,17 +2108,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMUN" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Cancun / Cancun Tower</Line>
                 <Line>Serving MMUN arrivals and departures</Line>
@@ -1934,22 +2144,30 @@
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Salidas RNAV" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="3000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Cancun / Cancun Approach</Line>
                 <Line>Serving MMUN, MMCZ and MMTL arrivals and departures</Line>
@@ -1971,22 +2189,30 @@
                 <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Salidas RNAV" />
                 <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Salidas RNAV (Nombres)" />  
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="3000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Salidas Cancun / Cancun Departures</Line>
                 <Line>Serving MMUN arrivals and departures</Line>
@@ -2014,9 +2240,11 @@
                 <Window Type="ADEP" Beacon="MMVA" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMVA" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Villahermosa / Villahermosa Tower</Line>
                 <Line>Serving MMVA arrivals and departures</Line>
@@ -2045,9 +2273,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMVA" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Villahermosa / Villahermosa Approach</Line>
                 <Line>Serving MMVA arrivals and departures</Line>
@@ -2080,22 +2310,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Merida Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -2132,22 +2370,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Merida Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -2175,22 +2421,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Merida Control Este</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -2221,22 +2475,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Merida Control Oeste</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -2538,9 +2800,11 @@
                 <Window Type="ADEP" Beacon="MMAA" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMAA" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Acapulco / Acapulco Tower</Line>
                 <Line>Serving MMAA arrivals and departures</Line>
@@ -2571,9 +2835,11 @@
             <CFL QuickLevel="4000">
                 <AdditionalLevels>2200,3100,5200,5700,7200,9400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMAA" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Acapulco / Acapulco Approach</Line>
                 <Line>Serving MMAA arrivals and departures</Line>
@@ -2599,9 +2865,11 @@
                 <Window Type="ADEP" Beacon="MMBT" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMBT" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Huatulco / Huatulco Tower</Line>
                 <Line>Serving MMBT arrivals and departures</Line>
@@ -2629,9 +2897,11 @@
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMGL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Entrega Guadalajara / Guadalajara Delivery</Line>
                 <Line>Serving MMGL departures</Line>
@@ -2660,9 +2930,11 @@
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMGL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Plataforma Guadalajara / Guadalajara Apron</Line>
                 <Line>Serving MMGL arrivals and departures</Line>
@@ -2691,9 +2963,11 @@
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMGL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Guadalajara / Guadalajara Ground</Line>
                 <Line>Serving MMGL arrivals and departures</Line>
@@ -2718,17 +2992,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
                 <Window Airport="MMGL" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMGL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Guadalajara / Guadalajara Tower</Line>
                 <Line>Serving MMGL arrivals and departures</Line>
@@ -2752,22 +3030,30 @@
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV (Nombres)" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
                 <Window Airport="MMGL" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="9000">
                 <AdditionalLevels>8200,9200,9400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMGL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Guadalajara / Guadalajara Approach</Line>
                 <Line>Serving MMGL arrivals and departures</Line>
@@ -2793,22 +3079,30 @@
                 <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV (Nombres)" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
                 <Window Airport="MMGL" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMGL" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="14000">
                 <AdditionalLevels>8200,9200,9400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMGL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Guadalajara / Guadalajara Approach</Line>
                 <Line>Serving MMGL arrivals and departures</Line>
@@ -2837,9 +3131,11 @@
                 <Window Type="ADEP" Beacon="MMAS" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMAS" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Aguascalientes / Aguascalientes Tower</Line>
                 <Line>Serving MMAS arrivals and departures</Line>
@@ -2859,17 +3155,21 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMAA" Frequency="128.400" Server="NA" />
                 <Window Airport="MMAA" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMLO" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMLO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Leon / Leon Tower</Line>
                 <Line>Serving MMLO arrivals and departures</Line>
@@ -2903,23 +3203,32 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMLO" Frequency="128.400" Server="NA" />
                 <Window Airport="MMLO" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMAS" Visible="true" />
+                <Window Type="ADEP" Beacon="MMLO" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="11000">
                 <AdditionalLevels>9100,10200,10800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMAS" />
                 <Airport Name="MMLO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Leon / Leon Approach</Line>
                 <Line>Serving MMAS and MMLO arrivals and departures</Line>
@@ -2955,9 +3264,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMM" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Morelia / Morelia Tower</Line>
                 <Line>Serving MMMM arrivals and departures</Line>
@@ -2984,9 +3295,11 @@
                 <Window Type="ADEP" Beacon="MMCB" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCB" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Cuernavaca / Cuernavaca Tower</Line>
                 <Line>Serving MMCB arrivals and departures</Line>
@@ -3011,9 +3324,11 @@
                 <Window Type="ADEP" Beacon="MMPB" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPB" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Puebla / Puebla Tower</Line>
                 <Line>Serving MMPB arrivals and departures</Line>
@@ -3042,9 +3357,11 @@
             <CFL QuickLevel="27000">
                 <AdditionalLevels>0</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Entrega Mexico / Mexico Delivery</Line>
                 <Line>DCL/PDC [MMMX]</Line>
@@ -3074,9 +3391,11 @@
             <CFL QuickLevel="27000">
                 <AdditionalLevels>0</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Mexico / Mexico Ground</Line>
                 <Line>DCL/PDC [MMMX]</Line>
@@ -3104,9 +3423,11 @@
                 <Window Type="ADEP" Beacon="MMMX" Visible="true" />
             </Strips>
             <CFL QuickLevel="27000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Mexico Sur / Mexico Ground South</Line>
                 <Line>DCL/PDC [MMMX]</Line>
@@ -3132,17 +3453,21 @@
                 <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="ACC Mexico/Cobertura Radar" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.65" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMX" Visible="true" />
             </Strips>
             <CFL QuickLevel="27000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Mexico / Mexico Tower</Line>
                 <Line>DCL/PDC [MMMX]</Line>
@@ -3165,10 +3490,12 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSM" Frequency="127.700" Server="NA" />
                 <Window Airport="MMSM" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSM" Visible="true" />
             </Strips>
@@ -3194,10 +3521,12 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSM" Frequency="127.700" Server="NA" />
                 <Window Airport="MMSM" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSM" Visible="true" />
             </Strips>
@@ -3224,17 +3553,21 @@
                 <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="ACC Mexico/Cobertura Radar" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSM" Frequency="127.700" Server="NA" />
                 <Window Airport="MMSM" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSM" Visible="true" />
             </Strips>
             <CFL QuickLevel="27000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMSM" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Santa Lucia / Santa Lucia Tower</Line>
                 <Line>Serving MMMX arrivals and departures</Line>
@@ -3261,14 +3594,18 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
                 <Window Airport="MMTO" />
             </ATIS>
+            -->
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Toluca / Toluca Terrestre</Line>
                 <Line>Serving MMTO Departures</Line>
@@ -3295,17 +3632,21 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
                 <Window Airport="MMTO" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTO" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Toluca / Toluca Tower</Line>
                 <Line>Serving MMTO arrivals and departures</Line>
@@ -3341,9 +3682,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPB" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Puebla / Puebla Approach</Line>
                 <Line>Serving MMPB arrivals and departures</Line>
@@ -3380,22 +3723,30 @@
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Z 05R" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="12500">
                 <AdditionalLevels>7300,8200,9200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Mexico / Mexico Approach</Line>
                 <Line>DCL/PDC [MMMX]</Line>
@@ -3428,22 +3779,30 @@
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - Salidas RNAV" />
                 <Map Name="Universal/Sector - Radioayudas" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMSM" Frequency="127.700" Server="NA" />
                 <Window Airport="MMSM" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMSM" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="13000">
                 <AdditionalLevels>7300,8200,9200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMSM" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Lucia / Lucia Approach</Line>
                 <Line>Serving MMSM arrivals and departures</Line>
@@ -3474,22 +3833,30 @@
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMTO" Frequency="127.800" Server="NA" />
                 <Window Airport="MMTO" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMTO" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="13000">
                 <AdditionalLevels>7300,8200,9200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Toluca / Toluca Approach</Line>
                 <Line>Serving MMTO arrivals and departures</Line>
@@ -3517,22 +3884,30 @@
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
                 <Map Name="Universal/Sector - Radioayudas" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="29000">
                 <AdditionalLevels>8200,9200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Salidas Mexico / Mexico Departures</Line>
                 <Line>Serving MEX departures,</Line>
@@ -3565,9 +3940,11 @@
                 <Window Type="ADEP" Beacon="MMOX" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMOX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Oaxaca / Oaxaca Tower</Line>
                 <Line>Serving MMOX arrivals and departures</Line>
@@ -3596,9 +3973,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMOX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Oaxaca / Oaxaca Approach</Line>
                 <Line>Serving MMOX arrivals and departures</Line>
@@ -3625,9 +4004,11 @@
                 <Window Type="ADEP" Beacon="MMPA" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPA" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Poza Rica / Poza Rica Tower</Line>
                 <Line>Serving MMPA arrivals and departures</Line>
@@ -3651,9 +4032,11 @@
                 <Window Type="ADEP" Beacon="MMPN" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Uruapan / Uruapan Tower</Line>
                 <Line>Serving MMPN arrivals and departures</Line>
@@ -3678,9 +4061,11 @@
                 <Window Type="ADEP" Beacon="MMEP" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000"/>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMEP" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Tepic / Tepic Tower</Line>
                 <Line>Serving MMEP arrivals and departures</Line>
@@ -3701,17 +4086,21 @@
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMPR" Frequency="127.5" Server="NA" />
                 <Window Airport="MMPR" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMPR" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPR" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Vallarta / Vallarta Tower</Line>
                 <Line>Serving MMPR arrivals and departures</Line>
@@ -3734,22 +4123,30 @@
                 <Map Name="TMA Vallarta/Pista 22 - Salidas RNAV (Nombres)" />
 
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMPR" Frequency="127.5" Server="NA" />
                 <Window Airport="MMPR" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMPR" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="5000">
                 <AdditionalLevels>1800,5200,9700,8300,8900,5800,5200,3600,3200,4900,5300,4400,3400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPR" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Vallarta / Vallarta Approach</Line>
                 <Line>Serving MMPR arrivals and departures</Line>
@@ -3779,22 +4176,30 @@
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMPR" Frequency="127.5" Server="NA" />
                 <Window Airport="MMPR" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMPR" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="5500">
                 <AdditionalLevels>1800,5200,9700,8300,8900,5800,5200,3600,3200,4900,5300,4400,3400</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPR" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Vallarta / Vallarta Approach</Line>
                 <Line>Serving MMPR arrivals and departures</Line>
@@ -3821,9 +4226,11 @@
                 <Window Type="ADEP" Beacon="MMPS" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMPS" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Escondido / Escondido Tower</Line>
                 <Line>Serving MMPS arrivals and departures</Line>
@@ -3849,9 +4256,11 @@
                 <Window Type="ADEP" Beacon="MMQT" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMQT" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Queretaro / Queretaro Ground</Line>
                 <Line>Serving MMQT arrivals and departures</Line>
@@ -3875,9 +4284,11 @@
                 <Window Type="ADEP" Beacon="MMQT" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMQT" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Queretaro / Queretaro Tower</Line>
                 <Line>Serving MMQT arrivals and departures</Line>
@@ -3907,9 +4318,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMQT" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Queretaro / Queretaro Approach</Line>
                 <Line>Serving MMQT arrivals and departures</Line>
@@ -3937,14 +4350,18 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSP" Visible="true" />
             </Strips>
+            <!--
             <ATIS>
                 <Editor Airport="MMSP" Frequency="127.150" Server="NA" />
                 <Window Airport="MMSP" />
             </ATIS>
+            -->
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMSP" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Potosi / Potosi Tower</Line>
                 <Line>Serving MMSP arrivals and departures</Line>
@@ -3972,14 +4389,18 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
+            <!--
             <ATIS>
                 <Editor Airport="MMSP" Frequency="127.150" Server="NA" />
                 <Window Airport="MMSP" />
             </ATIS>
+            -->
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMSP" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Potosi / Potosi Approach</Line>
                 <Line>Serving MMSP arrivals and departures</Line>
@@ -4006,9 +4427,11 @@
                 <Window Type="ADEP" Beacon="MMTN" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Tamuin / Tamuin Tower</Line>
                 <Line>Serving MMTN arrivals and departures</Line>
@@ -4030,9 +4453,11 @@
                 <Window Type="ADEP" Beacon="MMTM" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTM" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Tampico / Tampico Tower</Line>
                 <Line>Serving MMTM arrivals and departures</Line>
@@ -4062,9 +4487,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTM" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Tampico / Tampico Approach</Line>
                 <Line>Serving MMTM and MMTN arrivals and departures</Line>
@@ -4091,19 +4518,23 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMVR" Frequency="127.8" Server="NA" />
                 <Window Airport="MMVR" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMVR" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>1800,2200,3900,6800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMVR" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Veracruz / Veracruz Tower</Line>
                 <Line>Serving MMVR arrivals and departures</Line>
@@ -4129,22 +4560,30 @@
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMVR" Frequency="127.8" Server="NA" />
                 <Window Airport="MMVR" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMVR" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="4000">
                 <AdditionalLevels>1800,2200,3900,6800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMVR" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Veracruz / Veracruz Approach</Line>
                 <Line>Serving MMVR arrivals and departures</Line>
@@ -4172,9 +4611,11 @@
             </Strips>
             <CFL QuickLevel="20000">
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMZC" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Zacatecas / Zacatecas Tower</Line>
                 <Line>Serving MMZC arrivals and departures</Line>
@@ -4198,9 +4639,11 @@
                 <Window Type="ADEP" Beacon="MMZH" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMZH" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Zihuatanejo / Zihuatanejo Tower</Line>
                 <Line>Serving MMZH arrivals and departures</Line>
@@ -4229,9 +4672,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMZH" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Zihuatanejo / Zihuatanejo Approach</Line>
                 <Line>Serving MMZH arrivals and departures</Line>
@@ -4257,9 +4702,11 @@
                 <Window Type="ADEP" Beacon="MMIA" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMIA" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Colima / Colima Tower</Line>
                 <Line>Serving MMIA arrivals and departures</Line>
@@ -4287,9 +4734,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMZO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Manzanillo / Manzanillo Tower</Line>
                 <Line>Serving MMZO arrivals and departures</Line>
@@ -4327,22 +4776,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                   
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>2200,3100,5200,5700,7200,7300,8200,9100,9200,9400,10200,10800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mexico Control | DCL/PDC [MMMX]</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -4385,22 +4842,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>2200,3100,5200,5700,7200,7300,8200,9100,9200,9400,10200,10800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mexico Control | DCL/PDC [MMMX]</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -4433,22 +4898,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="26000">
                 <AdditionalLevels>2200,3100,5200,5700,7200,7300,8200,9100,9200,9400,10200,10800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mexico Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -4480,22 +4953,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="24000">
                 <AdditionalLevels>2200,3100,5200,5700,7200,7300,8200,9100,9200,9400,10200,10800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mexico Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -4528,22 +5009,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="26000">
                 <AdditionalLevels>8800,9300,12000,13000</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Mexico Control</Line>
                 <Line>DCL/PDC [MMMX]</Line>
@@ -4705,9 +5194,11 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCS" Visible="true" />
             </Strips>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCS" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Juarez / Juarez Tower</Line>
                 <Line>Serving MMCS arrivals and departures</Line>
@@ -4739,9 +5230,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCS" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Juarez / Juarez Approach</Line>
                 <Line>Serving MMCS arrivals and departures</Line>
@@ -4766,16 +5259,20 @@
                 <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="ACC Mexico/Cobertura Radar" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMCU" Frequency="127.900" Server="NA" />
                 <Window Airport="MMCU" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCU" Visible="true" />
             </Strips>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCU" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Chihuahua / Chihuahua Tower</Line>
                 <Line>Serving MMCU arrivals and departures</Line>
@@ -4804,22 +5301,30 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMCU" Frequency="127.900" Server="NA" />
                 <Window Airport="MMCU" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMCU" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="9000">
                 <AdditionalLevels>10700,10400,8300,7800,7300</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCU" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Chihuahua / Chihuahua Approach</Line>
                 <Line>Serving MMCU arrivals and departures</Line>
@@ -4843,9 +5348,11 @@
                 <Window Type="ADEP" Beacon="MMCV" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCV" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Victoria / Victoria Tower</Line>
                 <Line>Serving MMCV arrivals and departures</Line>
@@ -4873,9 +5380,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMCV" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Victoria / Victoria Approach</Line>
                 <Line>Serving MMCV arrivals and departures</Line>
@@ -4899,9 +5408,11 @@
                 <Window Type="ADEP" Beacon="MMGA" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMGA" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Creel / Creel Tower</Line>
                 <Line>Serving MMGA arrivals and departures</Line>
@@ -4925,9 +5436,11 @@
                 <Window Type="ADEP" Beacon="MMIO" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMIO" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Saltillo / Saltillo Tower</Line>
                 <Line>Serving MMIO arrivals and departures</Line>
@@ -4957,9 +5470,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMA" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Matamoros / Matamoros Tower</Line>
                 <Line>Serving MMMA arrivals and departures</Line>
@@ -4981,17 +5496,21 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMAN" Frequency="127.550" Server="NA" />
                 <Window Airport="MMAN" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMAN" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMAN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Del Norte / Del Norte Ground</Line>
                 <Line>Serving MMAN arrivals and departures</Line>
@@ -5011,17 +5530,21 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMAN" Frequency="127.550" Server="NA" />
                 <Window Airport="MMAN" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMAN" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMAN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Del Norte / Del Norte Tower</Line>
                 <Line>Serving MMAN arrivals and departures</Line>
@@ -5043,17 +5566,21 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMY" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Entrega Monterrey / Monterrey Delivery</Line>
                 <Line>Serving MMMY departures</Line>
@@ -5075,17 +5602,21 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMY" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Terrestre Monterrey / Monterrey Ground</Line>
                 <Line>Serving MMMY arrivals and departures</Line>
@@ -5107,17 +5638,21 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
+            -->
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMY" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Monterrey / Monterrey Tower</Line>
                 <Line>Serving MMMY arrivals and departures</Line>
@@ -5137,22 +5672,30 @@
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV (Nombres)" />
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="4800">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Monterrey / Monterrey Approach</Line>
                 <Line>Serving MMMY and MMAN arrivals and departures</Line>
@@ -5177,22 +5720,30 @@
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="9000">
                 <AdditionalLevels>10700,10400,8300,7800,7300</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Monterrey / Monterrey Approach</Line>
                 <Line>Serving MMMY and MMAN arrivals and departures</Line>
@@ -5231,9 +5782,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMNL" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Nuevo Laredo / Nuevo Laredo Tower</Line>
                 <Line>Serving MMNL arrivals and departures</Line>
@@ -5261,9 +5814,11 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMRX" Visible="true" />
             </Strips>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMRX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Reynosa / Reynosa Tower</Line>
                 <Line>Serving MMRX arrivals and departures</Line>
@@ -5292,9 +5847,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMRX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Reynosa / Reynosa Approach</Line>
                 <Line>Serving MMRX arrivals and departures</Line>
@@ -5324,9 +5881,11 @@
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTC" Visible="true" />
             </Strips>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTC" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Torre Torreon / Torreon Tower</Line>
                 <Line>Serving MMRX arrivals and departures</Line>
@@ -5355,9 +5914,11 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000" />
+            <!--
             <ArrivalLists>
                 <Airport Name="MMTC" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Torreon / Torreon Approach</Line>
                 <Line>Serving MMTC arrivals and departures</Line>
@@ -5389,22 +5950,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />                
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -5441,22 +6010,30 @@
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
                 <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -5485,22 +6062,30 @@
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -5530,23 +6115,38 @@
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
             </Maps>
+<<<<<<< HEAD
             <!--
+=======
+
+            <!--
+
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             <ATIS>
                 <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
                 <Window Airport="MMMY" />
             </ATIS>
+<<<<<<< HEAD
             -->
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+
+            -->
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMY" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="20000">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMY" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -5613,22 +6213,30 @@
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Llegadas [Fondo]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="18000">
                 <AdditionalLevels>7300,8200,9200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Llegadas Mexico / Mexico Arrivals</Line>
                 <Line>Serving MEX and NLU arrivals</Line>            
@@ -5654,22 +6262,30 @@
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Aproximacion [Contorno]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="12500">
                 <AdditionalLevels>7300,8200,9200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Mexico / Mexico Approach</Line>
                 <Line>Serving MEX arrivals</Line>            
@@ -5696,22 +6312,30 @@
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Final [Fondo]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="12500">
                 <AdditionalLevels>7300,8200,9200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Mexico / Mexico Approach</Line>
                 <Line>Serving MEX final approach</Line>            
@@ -5740,22 +6364,30 @@
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
                 <Map Name="Universal/Sector - Radioayudas" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
                 <Window Airport="MMMX" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMMX" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="29000">
                 <AdditionalLevels>8200,9200</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMMX" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Salidas Mexico / Mexico Departures</Line>
                 <Line>Serving MEX departures,</Line>
@@ -5784,22 +6416,30 @@
                 <Map Name="TMA Cancun/MMUN - Pista 12L - Final Extendido" />
                 <Map Name="TMA Cancun/Aeropuerto - Sector Aproximacion 12" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="5000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Llegadas Cancun / Cancun Arrivals</Line>
                 <Line>Serving CUN arrivals</Line>
@@ -5825,22 +6465,30 @@
                 <Map Name="TMA Cancun/MMUN - Pista 12L - Final Extendido" />
                 <Map Name="TMA Cancun/Aeropuerto - Sector Final 12" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="3000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Cancun / Cancun Approach</Line>
                 <Line>Serving CUN final approach</Line>
@@ -5868,22 +6516,30 @@
                 <Map Name="TMA Cancun/Aeropuerto - Sector Final 12" />
                 <Map Name="TMA Cancun/Aeropuerto - Sector Aproximacion 12" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="3000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Aproximacion Cancun / Cancun Approach</Line>
                 <Line>Serving CUN arrivals</Line>
@@ -5906,22 +6562,30 @@
                 <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas Sur" />
                 <Map Name="TMA Cancun/Aeropuerto - Sector Aproximacion 12" />
             </Maps>
+            <!--
             <ATIS>
                 <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
                 <Window Airport="MMUN" />
             </ATIS>
             -->
+<<<<<<< HEAD
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
+=======
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMUN" Visible="true" />
+>>>>>>> 2bb1c2c (Comment ATIS and arrival list blocks)
             </Strips>
             <CFL QuickLevel="3000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
+            <!--
             <ArrivalLists>
                 <Airport Name="MMUN" />
             </ArrivalLists>
+            -->
             <ControllerInfo>
                 <Line>Salidas Cancun / Cancun Departures</Line>
                 <Line>Serving CUN departures and south arrivals,</Line>
