@@ -15,7 +15,7 @@
         </Symbol>
         <Symbol Type="HollowStar">
             <Point>KEDIX</Point>
-            <Point>MAYTE</Point>
+            <Point>OBRUG</Point>
             <Point>PR660</Point>
             <Point>PR668</Point>
             <Point>PR669</Point>
@@ -48,7 +48,6 @@
             <Point>ESVEL</Point>
             <Point>NOTUP</Point>
             <Point>LIPEP</Point>
-
             <Point>MUVBA</Point>
             <Point>VETKA</Point>
         </Label>
@@ -97,6 +96,11 @@
         <Line Name="D13" Pattern="Solid">
 +204950.124-1050406.223/
 +205033.945-1050449.944</Line>
+        <Symbol Type="HollowStar">
+            <Point>PR407</Point>
+            <Point>PR405</Point>
+            <Point>PR404</Point>
+        </Symbol>
     </Map>
 
     <Map Type="System" Name="Pista 22 - Salidas RNAV" Priority="1" Center="+204048.261-1051515.123">
@@ -125,6 +129,7 @@
             <Point>BOBDI</Point>
             <Point>XUDED</Point>
             <Point>VOLAT</Point>
+            <Point>LIPEP</Point>
         </Label>
     </Map>
 </Maps>

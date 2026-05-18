@@ -36,19 +36,14 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 04 - Llegadas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
-        <Label>
+        <Label HasLeader="true">
             <Point>MAYTE</Point>
             <Point>RORPO</Point>
             <Point>TNY</Point>
-            <Point>PR606</Point>
-            <Point>PR606</Point>
-            <Point>PR605</Point>
             <Point>NOTUP</Point>
             <Point>KEDMA</Point>
             <Point>OBRUG</Point>
             <Point>KEDIX</Point>
-            <Point>SETLU</Point>
-            <Point>PR401</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 04 - RNP 04" Priority="1" Center="+204048.261-1051515.123">
@@ -83,6 +78,10 @@
         <Line Name="D9" Pattern="Solid">
 +203829.490-1051707.285/
 +203913.310-1051750.951</Line>
+        <Symbol Type="HollowSquare">
+            <Point>PR401</Point>
+            <Point>PR400</Point>
+        </Symbol>
     </Map>
 
     <Map Type="System" Name="Pista 04 - Salidas RNAV" Priority="1" Center="+204048.261-1051515.123">
