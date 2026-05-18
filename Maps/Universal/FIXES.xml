@@ -508,9 +508,8 @@
             <Point>SALUD</Point>
             <Point>ASUTA</Point>
             <Point>AXASA</Point>
-            <Point>ZONKY</Point>
             <Point>TCATE</Point>
-            <Point>EIREE</Point>
+            <Point>MZB</Point>
             <Point>CLONN</Point>
             <Point>AXEXO</Point>
             <Point>IPSEV</Point>
@@ -564,6 +563,78 @@
             <Point>BOPAP</Point>
             <Point>DUTNA</Point>
         </Symbol>
+        <Label HasLeader="true">
+            <Point>AMIGO</Point>
+            <Point>SALUD</Point>
+            <Point>ASUTA</Point>
+            <Point>AXASA</Point>
+            <Point>TCATE</Point>
+            <Point>CLONN</Point>
+            <Point>AXEXO</Point>
+            <Point>IPSEV</Point>
+            <Point>PISAD</Point>
+            <Point>KEHLI</Point>
+            <Point>IRDOV</Point>
+            <Point>MYDIA</Point>
+            <Point>KANNA</Point>
+            <Point>UKIVI</Point>
+            <Point>BECON</Point>
+            <Point>WIPPO</Point>
+            <Point>AMUKI</Point>
+            <Point>RETOS</Point>
+            <Point>ITPIS</Point>
+            <Point>NOTAL</Point>
+            <Point>AMULA</Point>
+            <Point>MEZCA</Point>
+            <Point>MUTEM</Point>
+            <Point>IGSON</Point>
+            <Point>VOLAT</Point>
+            <Point>KASUP</Point>
+            <Point>ANALU</Point>
+            <Point>AVURO</Point>
+            <Point>ANVAN</Point>
+            <Point>KEDIX</Point>
+            <Point>OBRUG</Point>
+            <Point>KEDMA</Point>
+            <Point>NOTUP</Point>
+            <Point>XUDUN</Point>
+            <Point>NAPRI</Point>
+            <Point>DYSON</Point>
+            <Point>ENEKO</Point>
+            <Point>LEPOM</Point>
+            <Point>TENAY</Point>
+            <Point>DURIB</Point>
+            <Point>LIBOL</Point>
+            <Point>VYLLA</Point>
+            <Point>NABLA</Point>
+            <Point>BOPAP</Point>
+            <Point>DUTNA</Point>
+            <Point>MZB</Point>
+        </Label>
+        <Label LabelOrientation="SW" HasLeader="true">
+        </Label>
+        <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+        </Label>
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
+        </Label>                 
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Right">
+        </Label>        
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>HACHO</Point>
+            <Point>NOSAT</Point>
+            <Point>VOMAR</Point>
+            <Point>SIGMA</Point>
+            <Point>PAULE</Point>
+            <Point>ILUBA</Point>
+            <Point>TANRI</Point>
+            <Point>TOVES</Point>      
+            <Point>LARLO</Point>
+            <Point>ESPOS</Point>
+            <Point>DARAN</Point>
+            <Point>ENAGA</Point>                  
+        </Label>
     </Map>
     <Map Type="System" Name="Sector - Fijos Principales (Nombres)" Priority="1" Center="+204657.054-0865400.018">
         <Label HasLeader="false">
@@ -1071,69 +1142,6 @@
             <Point>OLUNO</Point>
             <Point>TUGIR</Point>
             <Point>LIDED</Point>
-        </Label>
-    </Map>
-    <Map Type="System" Name="Sector - Fijos Coordinacion (Nombres)" Priority="1" Center="+204657.054-0865400.018">
-        <Label>
-            <Point>AMIGO</Point>
-            <Point>SALUD</Point>
-            <Point>ASUTA</Point>
-            <Point>AXASA</Point>
-            <Point>ZONKY</Point>
-            <Point>TCATE</Point>
-            <Point>EIREE</Point>
-            <Point>CLONN</Point>
-            <Point>AXEXO</Point>
-            <Point>IPSEV</Point>
-            <Point>PISAD</Point>
-            <Point>KEHLI</Point>
-            <Point>IRDOV</Point>
-            <Point>MYDIA</Point>
-            <Point>KANNA</Point>
-            <Point>UKIVI</Point>
-            <Point>BECON</Point>
-            <Point>WIPPO</Point>
-            <Point>AMUKI</Point>
-            <Point>RETOS</Point>
-            <Point>ITPIS</Point>
-            <Point>NOTAL</Point>
-            <Point>LARLO</Point>
-            <Point>ESPOS</Point>
-            <Point>DARAN</Point>
-            <Point>ENAGA</Point>
-            <Point>AMULA</Point>
-            <Point>MEZCA</Point>
-            <Point>MUTEM</Point>
-            <Point>IGSON</Point>
-            <Point>VOLAT</Point>
-            <Point>KASUP</Point>
-            <Point>ANALU</Point>
-            <Point>AVURO</Point>
-            <Point>ANVAN</Point>
-            <Point>KEDIX</Point>
-            <Point>OBRUG</Point>
-            <Point>KEDMA</Point>
-            <Point>NOTUP</Point>
-            <Point>XUDUN</Point>
-            <Point>VOMAR</Point>
-            <Point>NOSAT</Point>
-            <Point>ILUBA</Point>
-            <Point>SIGMA</Point>
-            <Point>PAULE</Point>
-            <Point>NAPRI</Point>
-            <Point>DYSON</Point>
-            <Point>TANRI</Point>
-            <Point>TOVES</Point>
-            <Point>ENEKO</Point>
-            <Point>LEPOM</Point>
-            <Point>TENAY</Point>
-            <Point>HACHO</Point>
-            <Point>DURIB</Point>
-            <Point>LIBOL</Point>
-            <Point>VYLLA</Point>
-            <Point>NABLA</Point>
-            <Point>BOPAP</Point>
-            <Point>DUTNA</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Sector - Radioayudas" Priority="1" Center="+204657.054-0865400.018">
