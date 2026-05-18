@@ -44,7 +44,7 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="Pistas 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-        <Label>
+        <Label HasLeader="True">
             <Point>IGSON</Point>
             <Point>VOLAT</Point>
             <Point>KASUP</Point>
@@ -52,14 +52,15 @@
             <Point>MEZCA</Point>
             <Point>MUTEM</Point>
             <Point>USBIM</Point>
-            <Point>PLADE</Point>
             <Point>OTETA</Point>
             <Point>LIPEP</Point>
             <Point>LONVA</Point>
             <Point>IKBAN</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>APRIM</Point>
             <Point>SEKIS</Point>
-            <Point>GL980</Point>
+            <Point>PLADE</Point>
         </Label>
     </Map>
 
