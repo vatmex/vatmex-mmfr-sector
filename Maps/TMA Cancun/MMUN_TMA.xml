@@ -304,6 +304,14 @@
 +210634.340-0874442.312/
 +210708.782-0874436.956/
 +211144.622-0880536.182</Line>
+        <Label HasLeader="false">
+            <Point Name="14">+205941.526-0864216.895</Point>
+            <Point Name="20">+204122.485-0871051.998</Point>
+            <Point Name="30">+202900.498-0874325.268</Point>
+            <Point Name="40">+200326.343-0882058.099</Point>
+            <Point Name="60">+213052.205-0874947.320</Point>
+            <Point Name="70">+210039.592-0875656.555</Point>
+        </Label>
     </Map>
     <Map Type="System2" Name="Aeropuerto - Sector Aproximacion 12" Priority="1">
         <Line Name="TMA MMUN Dividida APP" Pattern="Dotted">
@@ -349,7 +357,7 @@
 +21.036919-086.736335/
 +21.054923-086.699089</Line>
     </Map>
-    <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
+<!--    <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
         <Label HasLeader="false">
             <Point Name="14">+210919.526-0865744.895</Point>
             <Point Name="20">+212254.485-0864721.998</Point>
@@ -362,7 +370,7 @@
             <Point Name="60">+213052.205-0874947.320</Point>
             <Point Name="70">+210039.592-0875656.555</Point>
         </Label>
-    </Map>
+    </Map>-->
     <!-- Zonas de Control (CTR) -->
     <Map Type="System" Name="MMCZ - Zona de Control (CTR)" Priority="1">
         <Line Pattern="Dashed">
