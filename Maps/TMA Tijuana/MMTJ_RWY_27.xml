@@ -15,11 +15,17 @@
     </Map>
     <Map Type="System" Name="Pista 27 - Llegadas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
         <Label>
-            <Point>KREPE</Point>
-            <Point>TANRI</Point>
-            <Point>TOVES</Point>
             <Point>ULDUD</Point>
+        </Label>
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Right">
             <Point>ELUBA</Point>
+        </Label>
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Right">
+            <Point>KREPE</Point>
+        </Label>        
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>TOVES</Point>
+            <Point>TANRI</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 27 - RNP Z 27" Priority="1" Center="+323227.810-1165811.890">
@@ -59,6 +65,8 @@
         </Symbol>
         <Label>
             <Point>TJ557</Point>
+        </Label>
+        <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
             <Point>TJ563</Point>
         </Label>
     </Map>
@@ -160,11 +168,10 @@
             <Point>TJ567</Point>
             <Point>TUMAP</Point>
             <Point>TEVIR</Point>
-
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 27 - Salidas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
-        <Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>SIDGA</Point>
             <Point>TEVIR</Point>
             <Point>TUMAP</Point>
