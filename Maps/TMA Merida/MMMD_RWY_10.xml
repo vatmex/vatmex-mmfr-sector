@@ -57,11 +57,9 @@
     </Map>
     <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Center="+205613.280-0893927.700">
     <Label HasLeader="false">
-            <Point>DYSON</Point>
             <Point>ILELA</Point>
             <Point>CANOZ</Point>
             <Point>LIFTS</Point>
-            <Point>NAPRI</Point>
             <Point>GABOB</Point>
             <Point>CAEAR</Point>
             <Point>AVOMA</Point>
@@ -74,6 +72,10 @@
             <Point>CPE</Point>
             <Point>CZA</Point>
         </Label>
+    <Label HasLeader="true">
+            <Point>DYSON</Point>
+            <Point>NAPRI</Point>
+    </Label>        
     </Map>
     <Map Type="System" Name="Pista 10 - ILS DME 3 10" Priority="1" Center="+205613.280-0893927.700">
         <Line Pattern="Solid">TEXOB/MD400</Line>
