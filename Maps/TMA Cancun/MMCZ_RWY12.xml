@@ -44,17 +44,19 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 12 - Llegadas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>EMOSA</Point>
-            <Point>ILUBA</Point>
             <Point>ONGAV</Point>
-            <Point>PAULE</Point>
-            <Point>SIGMA</Point>
             <Point>TQO</Point>
             <Point>VIBLA</Point>
             <Point>VIGTU</Point>
             <Point>XUBLI</Point>
         </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>PAULE</Point>
+            <Point>SIGMA</Point>
+            <Point>ILUBA</Point>
+        </Label>        
     </Map>
 <!--
     <Map Type="System" Name="MMCZ - Pista 12 - VORDME 2" Priority="1" Center="+203119.430-0865545.400">
@@ -602,15 +604,17 @@ OTEDI</Line>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 12 - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
-        <Label HasLeader="false">
+        <Label HasLeader="True">
             <Point>ALSUP</Point>
             <Point>AVSEB</Point>
             <Point>KASIV</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
             <Point>ROTGI</Point>
-            <Point>SIGMA</Point>
             <Point>TQO</Point>
         </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>SIGMA</Point>
+        </Label>        
     </Map>
 </Maps>
