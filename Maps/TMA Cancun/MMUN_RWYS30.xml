@@ -42,38 +42,38 @@
             <Point>DEPVA</Point>
             <Point>UN608</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="[MMUN - Pista 30L-R - Llegadas RNAV (Nombres)]" Priority="2" Center="-34.945000+138.530556">
         <Label>
-            <Point>ILUBA</Point>
-            <Point>LOPKA</Point>
-            <Point>NOSAT</Point>
-            <Point>OTSOL</Point>
-            <Point>PAULE</Point>
-            <Point>SESLI</Point>
-            <Point>SIGMA</Point>
-            <Point>VOMAR</Point>
             <Point>XUDUN</Point>
-            <Point>HACHO</Point>
-            <Point>LETIS</Point>
-            <Point>PUREG</Point>
-            <Point>ALRIP</Point>
-            <Point>QUADY</Point>
-            <Point>ITLES</Point>
-            <Point>VITEL</Point>
-            <Point>BALCH</Point>
-            <Point>AGNIX</Point>
             <Point>BEPOR</Point>
             <Point>BUBUN</Point>
-            <Point>EPNEL</Point>
-            <Point>UN500</Point>
-            <Point>DEPVA</Point>
-            <Point>ODLAR</Point>
-            <Point>SCAHA</Point>
-            <Point>UN601</Point>
-            <Point>UN619</Point>
-            <Point>UN608</Point>
         </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>HACHO</Point>
+            <Point>NOSAT</Point>
+            <Point>LETIS</Point>
+            <Point>AGNIX</Point>
+            <Point>EPNEL</Point>
+            <Point>VOMAR</Point>
+            <Point>SIGMA</Point>
+            <Point>PAULE</Point>
+            <Point>ILUBA</Point>
+            <Point>ODLAR</Point>
+            <Point>UN500</Point>
+            <Point>OTSOL</Point>
+            <Point>ITLES</Point>
+            <Point>BALCH</Point>
+            <Point>QUADY</Point>
+            <Point>SESLI</Point>
+            <Point>VITEL</Point>
+            <Point>SCAHA</Point>
+            <Point>PUREG</Point>
+        </Label>
+        <Label LabelOrientation="SW" HasLeader="true">
+            <Point>LOPKA</Point>
+            <Point>DEPVA</Point>
+            <Point>UN608</Point>
+            <Point>ALRIP</Point>
+        </Label>        
     </Map>
     <Map Type="System" Name="MMUN - Pista 30L-R - Llegadas Sur" Priority="1" Center="+210235.014-0865232.438">
         <Line Name="ILUBA1G" Pattern="Dashed">ILUBA/ALRIP/QUADY/SESLI</Line>
@@ -95,17 +95,16 @@
             <Point>LOPKA</Point>
             <Point>OTSOL</Point>            
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMUN - Pista 30L-R - Llegadas Sur (Nombres)" Priority="2" Center="-34.945000+138.530556">
-        <Label>
-            <Point>ILUBA</Point>
+        <Label LabelOrientation="SW" HasLeader="true">
+            <Point>ALRIP</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>PAULE</Point>
             <Point>SIGMA</Point>
-
-            <Point>ALRIP</Point>
+            <Point>ILUBA</Point>
+            <Point>SESLI</Point>
             <Point>BALCH</Point>
             <Point>QUADY</Point>
-            <Point>SESLI</Point>
             <Point>UN617</Point>
             <Point>UN640</Point>
             <Point>VITEL</Point>
@@ -288,8 +287,6 @@
         <Symbol Type="Circle">
             <Point>CZM</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="[MMUN - Pista 30L-R - Salidas RNAV (Nombres)]" Priority="2" Center="-34.945000+138.530556">
         <Label>
             <Point>ALSUP</Point>
             <Point>AVSEB</Point>
@@ -297,6 +294,8 @@
             <Point>NUDAL</Point>
             <Point>ROTGI</Point>
             <Point>UDGUV</Point>
-        </Label>
+            <Point>CZM</Point>
+        </Label>        
+        
     </Map>
 </Maps>

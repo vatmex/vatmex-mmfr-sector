@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="[MMUN - Pista 12L-R - Llegadas RNAV]" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name=" MMUN - Pista 12L-R - Llegadas RNAV" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="ILUBA2E" Pattern="Dashed">ILUBA/URVEN/SEDAS/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
         <Line Name="PUALE3G" Pattern="Dashed">PAULE/UN530/HURIN</Line>
         <Line Name="SIGMA2G" Pattern="Dashed">SIGMA/OVGED/ILONI/HURIN/UN523</Line>
@@ -44,36 +44,43 @@
             <Point>VIKSI</Point>
             <Point>VOMAR</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="[MMUN - Pista 12L-R - Llegadas RNAV (Nombres)]" Priority="2" Center="+210216.667-0865152.015">
-        <Label>
-            <Point>EBMIS</Point>
-            <Point>ILUBA</Point>
-            <Point>PAULE</Point>
-            <Point>SIGMA</Point>
-
-            <Point>ILUBA</Point>
-            <Point>KAROR</Point>
-            <Point>NOSAT</Point>
-            <Point>RIDUG</Point>
-            <Point>VIKSI</Point>
-            <Point>VOMAR</Point>
+        <Label HasLeader="true">
             <Point>XUDUN</Point>
-            <Point>HACHO</Point>
-            <Point>LETIS</Point>
-            <Point>APMUS</Point>
             <Point>ERDAM</Point>
-            <Point>AGNIX</Point>
-            <Point>EPNEL</Point>
             <Point>BEPOR</Point>
             <Point>BUBUN</Point>
+            <Point>URVEN</Point>
+        </Label>
+        <Label LabelOrientation="SW" HasLeader="true">
+            <Point>EBMIS</Point>
+            <Point>KAROR</Point>
+        </Label>
+        <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>RIDUG</Point>
+        </Label>
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
+            <Point>VIKSI</Point>
+        </Label>                 
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Right">
             <Point>ELINO</Point>
+        </Label>        
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>HACHO</Point>
+            <Point>NOSAT</Point>
+            <Point>LETIS</Point>
+            <Point>APMUS</Point> 
+            <Point>AGNIX</Point>
+            <Point>EPNEL</Point>
+            <Point>VOMAR</Point>
             <Point>UN511</Point>
             <Point>UN523</Point>
-            <Point>HURIN</Point>
-            <Point>UN528</Point>
+            <Point>HURIN</Point>        
             <Point>OVGED</Point>
-            <Point>URVEN</Point>
+            <Point>SIGMA</Point>
+            <Point>PAULE</Point>
+            <Point>ILUBA</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas Sur" Priority="1" Center="+210216.667-0865152.015">
@@ -86,10 +93,8 @@
             <Point>HURIN</Point>
             <Point>ILONI</Point>
             <Point>ILUBA</Point>
-            <Point>KAROR</Point>
             <Point>OVGED</Point>
             <Point>PAULE</Point>
-            <Point>RIDUG</Point>
             <Point>SEDAS</Point>
             <Point>SIGMA</Point>
             <Point>UN511</Point>
@@ -97,26 +102,27 @@
             <Point>UN519</Point>
             <Point>UN523</Point>
             <Point>URVEN</Point>
-            <Point>VIKSI</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas Sur (Nombres)" Priority="2" Center="+210216.667-0865152.015">
         <Label>
-            <Point>EBMIS</Point>
-            <Point>ILUBA</Point>
-            <Point>PAULE</Point>
-            <Point>SIGMA</Point>
-
-            <Point>ILUBA</Point>
-            <Point>ELINO</Point>
-            <Point>UN511</Point>
-            <Point>UN523</Point>
-            <Point>HURIN</Point>
-            <Point>OVGED</Point>
             <Point>URVEN</Point>            
         </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>UN511</Point>
+            <Point>UN523</Point>
+            <Point>HURIN</Point>        
+            <Point>OVGED</Point>
+            <Point>SIGMA</Point>
+            <Point>PAULE</Point>
+            <Point>ILUBA</Point>
+        </Label>
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Right">
+            <Point>ELINO</Point>
+        </Label>
+        <Label LabelOrientation="SW" HasLeader="true">
+            <Point>EBMIS</Point>
+        </Label>
     </Map>
-    <Map Type="System" Name="[MMUN - Pista 12L - ILS X 12L]" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name=" MMUN - Pista 12L - ILS X 12L" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="EBMIS" Pattern="Solid">EBMIS/UN505</Line>
         <Line Name="KAROR" Pattern="Solid">KAROR/UN505</Line>
         <Line Name="VIKSI" Pattern="Solid">VIKSI/UN505</Line>
@@ -184,7 +190,11 @@
             <Point>UN528</Point>
             <Point>UN529</Point>
             <Point>UN532</Point>
-        </Symbol>
+        </Symbol>             
+<!--        <Label HasLeader="false" LabelOrientation="E" VerticalAlignment="Middle" Alignment="Center">
+            <Point>505</Point>
+            <Point>528</Point>
+        </Label>-->
     </Map>
     <Map Type="System2" Name="MMUN - Pista 12L - Final Extendido" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="12L_APPROACH_LINE" Pattern="Broken">
@@ -316,8 +326,12 @@
             <Point>UN540</Point>
             <Point>UN545</Point>
         </Symbol>
+        <Label HasLeader="false" LabelOrientation="S" VerticalAlignment="Top" Alignment="Center">
+            <Point>UN506</Point>
+            <Point>UN540</Point>
+        </Label>        
     </Map>
-    <Map Type="System" Name="[MMUN - Pista 12L-R - Salidas RNAV]" Priority="1" Center="+210235.014-0865232.438">
+    <Map Type="System" Name=" MMUN - Pista 12L-R - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
         <Line Name="ALSUP" Pattern="Dotted">+210226.480-0865132.494/UN402/UN408/CZM/UN431/ALSUP</Line>
         <Line Name="HECAT" Pattern="Dotted">UN415/UN440/UN400/HECAT</Line>
         <Line Name="NOSUG" Pattern="Dotted">+210226.480-0865132.494/UN417/UN406/NOSUG</Line>
@@ -360,16 +374,17 @@
         <Symbol Type="Circle">
             <Point>CZM</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="[MMUN - Pista 12L-R - Salidas RNAV (Nombres)]" Priority="2" Center="+210216.667-0865152.015">
-        <Label>
-            <Point>HECAT</Point>
+        <Label HasLeader="True">
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
             <Point>ALSUP</Point>
             <Point>ROTGI</Point>
             <Point>TAKUX</Point>
             <Point>UDGUV</Point>
+            <Point>CZM</Point>        
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>HECAT</Point>
         </Label>
     </Map>
 </Maps>
