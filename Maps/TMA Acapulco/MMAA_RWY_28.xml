@@ -25,13 +25,17 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 28 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-        <Label>
+        <Label HasLeader="true">
             <Point>ANALU</Point>
             <Point>ANVAN</Point>
             <Point>AVRIM</Point>
             <Point>AVURO</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>ITRAM</Point>
             <Point>AVSIX</Point>
+        </Label>
+        <Label LabelOrientation="NE" HasLeader="true" VerticalAlignment="Middle">
             <Point>AA501</Point>
         </Label>
     </Map>
@@ -577,7 +581,7 @@ AMIDI</Line>
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 28 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-        <Label>
+        <Label HasLeader="false">
             <Point>AGLON</Point>
             <Point>ALNUS</Point>
             <Point>AMIDI</Point>
