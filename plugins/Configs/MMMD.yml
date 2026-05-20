@@ -1,0 +1,143 @@
+- runway: "10"
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "200"
+- if:
+    VFR: "true"
+  CFL: "015"
+
+# =========================================
+# RWY 10 -> RNAV
+# =========================================
+# CAEA1A
+- if:
+    runway: ["10"]
+    waypoint: ["USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
+  SID: "CAEA1A"
+# EPNA1A
+- if:
+    runway: ["10"]
+    waypoint: ["DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN"]
+  SID: "EPNA1A"
+# GREP1A
+- if:
+    runway: ["10"]
+    waypoint: ["RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO"]
+  SID: "GREP1A"
+# SIFT1A
+- if:
+    runway: ["10"]
+    waypoint: ["TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
+  SID: "SIFT1A"
+# ELSI1A
+- if:
+    runway: ["10"]
+    waypoint: ["XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
+  SID: "ELSI1A"
+# VIVE1C
+- if:
+    runway: ["10"]
+    waypoint: ["ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
+  SID: "VIVE1C"
+# ISAR1A
+- if:
+    runway: ["10"]
+    waypoint: ["RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM"]
+  SID: "ISAR1A"
+# NAPL1A
+- if:
+    runway: ["10"]
+    waypoint: ["SISAL", "NAPLA", "MESNA", "KEHLI"]
+  SID: "NAPL1A"
+
+# =========================================
+# RWY 28 -> RNAV
+# =========================================
+# CAEA1B
+- if:
+    runway: ["28"]
+    waypoint: ["USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
+  SID: "CAEA1B"
+# EPNA1B
+- if:
+    runway: ["28"]
+    waypoint: ["DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN"]
+  SID: "EPNA1B"
+# GREP1B
+- if:
+    runway: ["28"]
+    waypoint: ["RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO"]
+  SID: "GREP1B"
+# SIFT1A
+- if:
+    runway: ["28"]
+    waypoint: ["TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
+  SID: "SIFT1A"
+# ELSI1B
+- if:
+    runway: ["28"]
+    waypoint: ["XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
+  SID: "ELSI1B"
+# VIVE1D
+- if:
+    runway: ["28"]
+    waypoint: ["ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
+  SID: "VIVE1D"
+# ISAR1B
+- if:
+    runway: ["28"]
+    waypoint: ["RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM"]
+  SID: "ISAR1B"
+# NAPL1B
+- if:
+    runway: ["28"]
+    waypoint: ["SISAL", "NAPLA", "MESNA", "KEHLI"]
+  SID: "NAPL1B"
+
+# =========================================
+# RWY 36 -> RNAV
+# =========================================
+# CAEA1C
+- if:
+    runway: ["36"]
+    waypoint: ["USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
+  SID: "CAEA1C"
+# EPNA1C
+- if:
+    runway: ["36"]
+    waypoint: ["DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN"]
+  SID: "EPNA1C"
+# GREP1C
+- if:
+    runway: ["36"]
+    waypoint: ["RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO"]
+  SID: "GREP1C"
+# SIFT1C
+- if:
+    runway: ["36"]
+    waypoint: ["TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
+  SID: "SIFT1C"
+# ELSI1C
+- if:
+    runway: ["36"]
+    waypoint: ["XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
+  SID: "ELSI1C"
+# VIVE1E
+- if:
+    runway: ["36"]
+    waypoint: ["ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
+  SID: "VIVE1E"
+# ISAR1C
+- if:
+    runway: ["36"]
+    waypoint: ["RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM"]
+  SID: "ISAR1C"
+# NAPL1C
+- if:
+    runway: ["36"]
+    waypoint: ["SISAL", "NAPLA", "MESNA", "KEHLI"]
+  SID: "NAPL1C"
+
+# Departure Frequencies
+- departures: ["118.3", "121.2", "126.7", "128.75", "128.3"]
