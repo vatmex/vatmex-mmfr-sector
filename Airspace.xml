@@ -2999,6 +2999,9 @@
         <Airway Name="UT178">
             MEX/VOLOM/REXES/IKLES/ONBAD/VER
         </Airway>
+            <Airway Name="T68">
+            PPE/OVIPO/NUKAL/ELTEX/VYLLA
+        </Airway>
     </Airways>
     <Intersections>
         <!--FIXES-->
@@ -3265,6 +3268,7 @@
         <Point Name="ELSIP" Type="Fix">+201537.000-0901037.000</Point>
         <Point Name="ELSOM" Type="Fix">+320737.000-1142711.000</Point>
         <Point Name="ELSON" Type="Fix">+190821.000-0873355.000</Point>
+        <Point Name="ELTEX" Type="Fix">+310255.000-1111818.000</Point>
         <Point Name="ELUNI" Type="Fix">+214200.000-0924442.000</Point>
         <Point Name="ELURA" Type="Fix">+202918.000-0950000.000</Point>
         <Point Name="ELURO" Type="Fix">+304830.000-1105826.000</Point>
@@ -3636,6 +3640,7 @@
         <Point Name="NUGAD" Type="Fix">+191301.000-0924140.000</Point>
         <Point Name="NUGIN" Type="Fix">+202614.000-0932350.000</Point>
         <Point Name="NUGUS" Type="Fix">+250412.000-0973600.000</Point>
+        <Point Name="NUKAL" Type="Fix">+310538.000-1113435.000</Point>
         <Point Name="NUKAN" Type="Fix">+212934.000-0854417.000</Point>
         <Point Name="NUKAR" Type="Fix">+180134.000-0931519.000</Point>
         <Point Name="NUXCO" Type="Fix">+174639.000-1003737.000</Point>
@@ -3729,6 +3734,7 @@
         <Point Name="OVEKO" Type="Fix">+282103.000-1062049.000</Point>
         <Point Name="OVEMA" Type="Fix">+255952.000-0994950.000</Point>
         <Point Name="OVERI" Type="Fix">+263143.000-1120208.000</Point>
+        <Point Name="OVIPO" Type="Fix">+311306.000-1122031.000</Point>
         <Point Name="OVISO" Type="Fix">+183655.000-0993324.000</Point>
         <Point Name="OVOGI" Type="Fix">+284535.000-1062549.000</Point>
         <Point Name="OXALA" Type="Fix">+285945.500-1071455.900</Point>
