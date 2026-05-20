@@ -4895,7 +4895,7 @@
     <Volume Name="MMGL_TMA" LowerLimit="7500" UpperLimit="23500">
         <Boundaries>MMGL_TMA</Boundaries>
     </Volume>
-    <Boundary Name="MMIA_ATZ">
+    <Boundary Name="MMIA_CTR">
 +192733.789-1033338.517/
 +192729.883-1033302.198/
 +192724.188-1033226.146/
@@ -5017,8 +5017,8 @@
 +192736.197-1033451.555/
 +192735.896-1033415.002/
 +192733.789-1033338.517</Boundary>
-    <Volume Name="MMIA_ATZ" LowerLimit="0" UpperLimit="9500">
-        <Boundaries>MMIA_ATZ</Boundaries>
+    <Volume Name="MMIA_CTR" LowerLimit="0" UpperLimit="5500">
+        <Boundaries>MMIA_CTR</Boundaries>
     </Volume>
     <Boundary Name="MMAS_CTR">
 +215336.548-1021754.412/
