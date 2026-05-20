@@ -1,0 +1,115 @@
+- runway: "12"
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "200"
+- if:
+    VFR: "true"
+  CFL: "010"
+
+# =========================================
+# RWY 12 -> RNAV
+# =========================================
+
+# NOSU3C
+- if:
+    runway: ["12"]
+    waypoint: ["CUN", "ENEBA", "NOSUG", "OMVIP"]
+  SID: "NOSU3C"
+
+# ROTG3C
+- if:
+    runway: ["12"]
+    waypoint: ["CUN", "OMSUK", "ROTGI", "XOPGI"]
+  SID: "ROTG3C"
+
+# NUDA2C
+- if:
+    runway: ["12"]
+    waypoint: ["BOTOP", "NUKAN", "NUDAL"]
+  SID: "NUDA2C"
+
+# AVSE2B
+- if:
+    runway: ["12"]
+    waypoint: ["GOSUL", "AVSEB", "ILUBA", "TAKUX"]
+  SID: "AVSE2B"
+
+# SIGM2A
+- if:
+    runway: ["12"]
+    waypoint: ["ITAKU", "SIGMA"]
+  SID: "SIGM2A"
+
+# ALSU1J
+- if:
+    runway: ["12"]
+    waypoint: ["ITPIG", "DAXUM", "OTEDI", "ANADI", "CTM", "ANEPU", "AMIDA", "OBTAM", "ALSUP", "ANIKO"]
+  SID: "ALSU1J"
+
+# KASI1A
+- if:
+    runway: ["12"]
+    waypoint: ["DUPIX", "XOSIX", "KASIV", "CZA"]
+  SID: "KASI1A"
+
+# TQO1A
+- if:
+    runway: ["12"]
+    waypoint: ["SUVES", "TQO", "IMUBI"]
+  SID: "TQO1A"
+
+# =========================================
+# RWY 30 -> RNAV
+# =========================================
+
+# NOSU3D
+- if:
+    runway: ["30"]
+    waypoint: ["VOBED", "CUN", "ENEBA", "NOSUG", "OMVIP"]
+  SID: "NOSU3D"
+
+# ROTG3D
+- if:
+    runway: ["30"]
+    waypoint: ["LIDEK", "CUN", "OMSUK", "ROTGI", "XOPGI"]
+  SID: "ROTG3D"
+
+# NUDA2D
+- if:
+    runway: ["30"]
+    waypoint: ["BOTOP", "NUKAN", "NUDAL"]
+  SID: "NUDA2D"
+
+# AVSE2C
+- if:
+    runway: ["30"]
+    waypoint: ["GOSUL", "AVSEB", "ILUBA", "TAKUX"]
+  SID: "AVSE2C"
+
+# SIGM2B
+- if:
+    runway: ["30"]
+    waypoint: ["ITAKU", "SIGMA"]
+  SID: "SIGM2B"
+
+# ALSU1K
+- if:
+    runway: ["30"]
+    waypoint: ["ITPIG", "DAXUM", "OTEDI", "ANADI", "CTM", "ANEPU", "AMIDA", "OBTAM", "ALSUP", "ANIKO"]
+  SID: "ALSU1K"
+
+# KASI1B
+- if:
+    runway: ["30"]
+    waypoint: ["DUPIX", "XOSIX", "KASIV", "CZA"]
+  SID: "KASI1B"
+
+# TQO1B
+- if:
+    runway: ["30"]
+    waypoint: ["SUVES", "TQO", "IMUBI"]
+  SID: "TQO1B"
+
+# Departure Frequencies
+- departures: ["118.0", "124.2", "124.7", "125.8", "128.3"]
