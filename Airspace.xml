@@ -821,14 +821,11 @@
                 <STAR Name="CAEA1F" ApproachName="RNP36.ULILI"/>
                 <STAR Name="CANO1B" ApproachName="RNP36.AVRUB"/>
                 <STAR Name="DYSO1C" ApproachName="RNP36.ITSAK"/>
-                <STAR Name="ELSI1F" ApproachName="RNP36.AVRUB"/>
-                <STAR Name="GABO1C" ApproachName="RNP36.ULILI"/>
+<STAR Name="GABO1C" ApproachName="RNP36.ULILI"/>
                 <STAR Name="ILEL1C" ApproachName="RNP36.ITSAK"/>
                 <STAR Name="LIFT1E" ApproachName="RNP36.ULILI"/>
-                <STAR Name="LIFT1F" ApproachName="RNP36.AVRUB"/>
-                <STAR Name="NAPR1E" ApproachName="RNP36.ULILI"/>
-                <STAR Name="NAPR1F" ApproachName="RNP36.ULILI"/>
-                <STAR Name="XUBS1D" ApproachName="RNP36.ITSAK"/>
+<STAR Name="NAPR1E" ApproachName="RNP36.ULILI"/>
+<STAR Name="XUBS1D" ApproachName="RNP36.ITSAK"/>
             </Runway>
         </Airport>
         <Airport Name="MMML">
@@ -7888,15 +7885,6 @@
         </STAR>
         <STAR Name="XUBS1D" Airport="MMMD" Runways="36">
             <Route Runway="36">XUBSU ETGOT MD805 TEXOB MD911 ITSAK</Route>
-        </STAR>
-        <STAR Name="ELSI1F" Airport="MMMD" Runways="36">
-            <Route Runway="36">ELSIP VERVA AVRUB</Route>
-        </STAR>
-        <STAR Name="LIFT1F" Airport="MMMD" Runways="36">
-            <Route Runway="36">LIFTS JAFEY AVRUB</Route>
-        </STAR>
-        <STAR Name="NAPR1F" Airport="MMMD" Runways="36">
-            <Route Runway="36">NAPRI BUYCK MD914 ULILI</Route>
         </STAR>
         <Approach Name="ILS10X.OTMAM" Airport="MMMD" Runway="10">
             <Route>OTMAM MD400 MD401</Route>
