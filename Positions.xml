@@ -1139,7 +1139,7 @@
             </ManualVisibility>
         </Position>
 
-       <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12"  DynamicInfill="true" VisibilityRange="400">
+        <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12"  DynamicInfill="true" VisibilityRange="400">
             <Sectors>
                 <Sector Name="MZTC" />
                 <Sector Name="MZT1" />
@@ -2554,7 +2554,7 @@
                 <Map Name="ATZ Uruapan/ASMGCS_MMPN_LABELS" />
             </Maps>
         </Position>
-         <Position Name="MMPR" Type="ASMGCS" ASMGCSAirport="MMPR" DefaultCenter="+204048.261-1051515.123" DefaultRange="2" MagneticVariation="-7" Rotation="50">
+        <Position Name="MMPR" Type="ASMGCS" ASMGCSAirport="MMPR" DefaultCenter="+204048.261-1051515.123" DefaultRange="2" MagneticVariation="-7" Rotation="50">
             <Maps>
                 <Map Name="TMA Vallarta/ASMGCS_MMPR_RWY" />
                 <Map Name="TMA Vallarta/ASMGCS_MMPR_APR" />
@@ -4592,7 +4592,7 @@
         </Position>
 
         <!-- ACC Mexico -->
-       <Position Name="Control Mexico (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="true">
+        <Position Name="Control Mexico (Combinado) - MEXC" Type="ASD" DefaultCenter="+200109.930-1001519.875" DefaultRange="950" MagneticVariation="-4" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXC" />
                 <Sector Name="MEX1" />
@@ -4711,7 +4711,7 @@
                 <Point>+190857.890-1043416.669</Point>
             </ManualVisibility>
         </Position>
-       <Position Name="Control Mexico SS - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="true">
+        <Position Name="Control Mexico SS - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXS" />
                 <Sector Name="MEX5" />
@@ -5729,7 +5729,7 @@
         </Position>
 
         <!-- ACC Monterrey -->
-       <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5"  DynamicInfill="true">
+        <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5"  DynamicInfill="true">
             <Sectors>
                 <Sector Name="MTYC" />
                 <Sector Name="MTY1" />
@@ -5970,7 +5970,7 @@
         </Position>
     </Group>
 
-   <Group Name="FNO MEX TMA">
+    <Group Name="FNO MEX TMA">
         <Position Name="Llegadas Mexico - MARR1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
             <Sector Name="MARR5" />
@@ -6154,7 +6154,7 @@
         </Position>
     </Group>
 
-   <Group Name="FNO CUN TMA">
+    <Group Name="FNO CUN TMA">
         <Position Name="Llegadas Cancun - UNAR1" Type="ASD" DefaultCenter="+212236.581-0865955.706" DefaultRange="230" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
                 <Sector Name="UNAR1" />
