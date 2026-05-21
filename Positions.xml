@@ -1555,10 +1555,7 @@
             <Maps>
                 <Map Name="TMA Merida/Aeropuerto - Pistas" />
                 <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
-
-                <Map Name="TMA Merida/Pista 10 - ILS DME 3 10" />
-
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="TMA Merida/Pista 10 - ILS X 10" />
             </Maps>
             <!--
             <ATIS>
@@ -1586,16 +1583,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Merida/Aeropuerto - Pistas" />
-                <Map Name="TMA Merida/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
-
                 <Map Name="TMA Merida/Pista 10 - Llegadas RNAV" />
-                <Map Name="TMA Merida/Pista 10 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Merida/Pista 10 - ILS DME 3 10" />
+                <Map Name="TMA Merida/Pista 10 - ILS X 10" />
                 <Map Name="TMA Merida/Pista 10 - Salidas RNAV" />
-                <Map Name="TMA Merida/Pista 10 - Salidas RNAV (Nombres)" />
-
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="TMA Merida/Aeropuerto - Minimas de Vectoreo" />
             </Maps>
             <!--
             <ATIS>
@@ -1608,7 +1599,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
+            <CFL QuickLevel="4000">
             </CFL>
             <!--
             <ArrivalLists>
@@ -2928,12 +2919,9 @@
             <Maps>
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
-                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV" />
-                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
-                <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV" />
-                <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Guadalajara/ Pistas 29 - Llegadas RNAV" />
+                <Map Name="TMA Guadalajara/ Pistas 29 - ILS X 29L" />
+                <Map Name="TMA Guadalajara/ Pistas 29 - Salidas RNAV" />
             </Maps>
             <!--
             <ATIS>
@@ -5491,11 +5479,8 @@
             <Maps>
                 <Map Name="TMA Monterrey/Aeropuerto - Pistas" />
                 <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
-
-                <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV" />
-                <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
+                <Map Name="TMA Monterrey/ MMMY - Pista 12 - Llegadas RNAV" />
+                <Map Name="TMA Monterrey/ MMMY - Pista 12 - RNP 12" />
             </Maps>
             <!--
             <ATIS>
