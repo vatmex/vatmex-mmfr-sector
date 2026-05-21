@@ -2,7 +2,7 @@
 <Maps>
     <Map Type="System" Name="Pista 36 - Llegadas RNAV" Priority="1" Center="+205511.377-0893928.899">
         <Line Name="AVOM1C" Pattern="Dashed">AVOMA/ETGOT/MD805/TEXOB/MD911/ITSAK</Line>
-        <Line Name="CAEA1F" Pattern="Dashed">CAEAR ULISO MD908 MD915 ULILI</Line>
+        <Line Name="CAEA1F" Pattern="Dashed">CAEAR/ULISO/MD908/MD915/ULILI</Line>
         <Line Name="CANO1B" Pattern="Dashed">CANOZ/PAARS/AVRUB</Line>
         <Line Name="DYSO1C" Pattern="Dashed">DYSON/CIMAT/MD912/ITSAK</Line>
         <Line Name="GABO1C" Pattern="Dashed">GABOB/ULISO/MD908/MD915/ULILI</Line>
@@ -17,12 +17,9 @@
             <Point>LIFTS</Point>
             <Point>NAPRI</Point>
             <Point>GABOB</Point>
-            <Point>CAEAR</Point>
-            <Point>ELSIP</Point>
         </Symbol>
         <Symbol Type="HollowStar">
             <Point>CIMAT</Point>
-            <Point>VERVA</Point>
             <Point>MD912</Point>
             <Point>ITSAK</Point>
             <Point>XUBSU</Point>
@@ -41,38 +38,32 @@
             <Point>BUYCK</Point>
             <Point>MD914</Point>
         </Symbol>
-        <Symbol Type="HollowSquare">
-            <Point>MID</Point>
-            <Point>CPE</Point>
-            <Point>CZA</Point>
-        </Symbol>
-            <Symbol Type="Circle">
-            <Point>MID</Point>
-            <Point>CPE</Point>
-            <Point>CZA</Point>
-        </Symbol>
-    </Map>
-    <Map Type="System" Name="Pista 36 - Llegadas RNAV (Nombres)" Priority="1" Center="+205511.377-0893928.899">
-    <Label HasLeader="false">
-            <Point>ILELA</Point>
-            <Point>XUBSU</Point>
-            <Point>AVOMA</Point>
+    <Label HasLeader="true">
             <Point>CAEAR</Point>
             <Point>GABOB</Point>
-            <Point>LIFTS</Point>
             <Point>CANOZ</Point>
-            <Point>ILELA</Point>
-            <Point>ITSAK</Point>
-            <Point>ULILI</Point>
-            <Point>AVRUB</Point>
-            <Point>MID</Point>
-            <Point>CPE</Point>
-            <Point>CZA</Point>
-        </Label>
-    <Label HasLeader="true">
-            <Point>DYSON</Point>
             <Point>NAPRI</Point>
+            <Point>CIMAT</Point>
+            <Point>ETGOT</Point>
+            <Point>BUYCK</Point>
     </Label>
+        <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
+            <Point>XUBSU</Point>
+            <Point>AVOMA</Point>        
+            <Point>DYSON</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>ULISO</Point>
+            <Point>LIFTS</Point>
+            <Point>ILELA</Point>
+        </Label>
+        <Label LabelOrientation="SW" HasLeader="true">
+            <Point>ITSAK</Point>
+            <Point>AVRUB</Point>
+        </Label>
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Left">
+            <Point>ULILI</Point>
+        </Label>                  
     </Map>
     <Map Type="System" Name="Pista 36 - RNP 36" Priority="1" Center="+205613.280-0893927.700">
         <Line Pattern="Solid">ITSAK/MD900</Line>
@@ -127,30 +118,17 @@
             <Point>MD953</Point>
             <Point>MD955</Point>
         </Symbol>
-        <Symbol Type="HollowSquare">
-            <Point>MID</Point>
-            <Point>CPE</Point>
-            <Point>CZA</Point>
-        </Symbol>
-            <Symbol Type="Circle">
-            <Point>MID</Point>
-            <Point>CPE</Point>
-            <Point>CZA</Point>
-        </Symbol>
-    </Map>
-    <Map Type="System" Name="Pista 36 - Salidas RNAV (Nombres)" Priority="1" Center="+205613.280-0893927.700">
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>ISARO</Point>
             <Point>VIVEP</Point>
             <Point>ELSIP</Point>
             <Point>SIFTO</Point>
-            <Point>GREPE</Point>
             <Point>EPNAS</Point>
             <Point>CAEAR</Point>
             <Point>NAPLA</Point>
-            <Point>MID</Point>
-            <Point>CPE</Point>
-            <Point>CZA</Point>
-        </Label>
+        </Label>   
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>GREPE</Point>
+        </Label>             
     </Map>
 </Maps>
