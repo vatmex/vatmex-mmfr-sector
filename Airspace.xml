@@ -428,7 +428,7 @@
             <Runway Name="11L" DataRunway="11L">
                 <SID Name="GDL1A" Default="True" />
                 <SID Name="EBDEG1" />
-                <SID Name="EMIG1A" />                
+                <SID Name="EMIG1A" />
                 <SID Name="EMIR1A" />
                 <SID Name="FEIS1A" />
                 <SID Name="GOYA1A" />
@@ -1959,7 +1959,7 @@
             PAZ/ALUNI/ERBAM/SLM/PTJ/GADET/MLM
         </Airway>
         <Airway Name="V35">
-            MTY/EMAKI/DOTOR/REX 
+            MTY/EMAKI/DOTOR/REX
         </Airway>
         <Airway Name="V36">
             CPE/AXIMA/DANIS/CTM
@@ -4484,10 +4484,10 @@
         <Point Name="GL535" Type="Fix">+201941.680-1035614.720</Point>
         <Point Name="GL540" Type="Fix">+205251.390-1024017.540</Point>
         <Point Name="GL550" Type="Fix">+210335.600-1033426.200</Point>
-        <Point Name="GL551" Type="Fix">+210238.400-1034741.600</Point>		
-        <Point Name="GL552" Type="Fix">+205534.600-1035838.700</Point>			
-        <Point Name="GL553" Type="Fix">+204419.000-1040420.900</Point>			
-        <Point Name="GL554" Type="Fix">+203153.300-1040318.000</Point>			
+        <Point Name="GL551" Type="Fix">+210238.400-1034741.600</Point>
+        <Point Name="GL552" Type="Fix">+205534.600-1035838.700</Point>
+        <Point Name="GL553" Type="Fix">+204419.000-1040420.900</Point>
+        <Point Name="GL554" Type="Fix">+203153.300-1040318.000</Point>
         <Point Name="GL555" Type="Fix">+202136.100-1035547.500</Point>
         <Point Name="GL560" Type="Fix">+202220.700-1035505.200</Point>
         <Point Name="GL561" Type="Fix">+203213.500-1040217.800</Point>
@@ -5269,7 +5269,7 @@
         <Point Name="TJ725" Type="Fix">+322325.800-1162743.800</Point>
         <Point Name="TJ750" Type="Fix">+321638.400-1164305.500</Point>
         <Point Name="TJ754" Type="Fix">+321204.400-1164533.900</Point>
-        <Point Name="TJ758" Type="Fix">+320749.600-1164542.200</Point>        
+        <Point Name="TJ758" Type="Fix">+320749.600-1164542.200</Point>
         <Point Name="TL401" Type="Fix">+201312.700-0874457.500</Point>
         <Point Name="TL402" Type="Fix">+201542.000-0874934.500</Point>
         <Point Name="TL410" Type="Fix">+200805.300-0873528.200</Point>
@@ -5913,10 +5913,10 @@
         </SID>
         <SID Name="TEXC3B" Airport="MMAA" Runways="28">
             <Route Runway="28">TEXCA</Route>
-        </SID>        
+        </SID>
         <SID Name="VIDRU2" Airport="MMAA" Runways="28">
             <Route Runway="28">VIDRU</Route>
-        </SID>    
+        </SID>
         <STAR Name="ANAL1A" Airport="MMAA" Runways="10">
             <Route Runway="10">ANALU AA413 AA412 APREN</Route>
         </STAR>
@@ -7049,7 +7049,7 @@
         <STAR Name="IGSO1B" Airport="MMGL" Runways="29L,29R">
             <Route Runway="29L">IGSON ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
             <Route Runway="29R">IGSON ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
-        </STAR>		
+        </STAR>
 		<STAR Name="KASU1A" Airport="MMGL" Runways="11L,11R">
             <Route Runway="11L">KASUP LIPEP GL572 GL575 GL562 GL563 GL564 GL565 OLAVA</Route>
 			<Route Runway="11R">KASUP LIPEP GL572 GL575 GL562 GL563 GL564 GL565 OLAVA</Route>
@@ -7065,7 +7065,7 @@
         <STAR Name="MEZC1B" Airport="MMGL" Runways="29L,29R">
             <Route Runway="29L">MEZCA LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
             <Route Runway="29R">MEZCA LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
-        </STAR>		
+        </STAR>
         <STAR Name="MUTE1A" Airport="MMGL" Runways="11L,11R">
             <Route Runway="11L">MUTEM GL540 ULOGA GL513 GL550 GL551 GL552 GL553 GL554 GL555 OLAVA</Route>
 			<Route Runway="11R">MUTEM GL540 ULOGA GL513 GL550 GL551 GL552 GL553 GL554 GL555 OLAVA</Route>
@@ -7122,10 +7122,10 @@
         </Approach>
         <Approach Name="RNP29R.SEKIS" Airport="MMGL" Runway="29R">
             <Route>SEKIS GL990 GL991 GL992</Route>
-        </Approach>		
+        </Approach>
         <Approach Name="RNP29R.PLADE" Airport="MMGL" Runway="29R">
             <Route>PLADE GL990 GL991 GL992</Route>
-        </Approach>		
+        </Approach>
         <!--MMGM-->
         <SID Name="GYM1" Airport="MMGM" Runways="02">
             <Route Runway="02">GYM</Route>
