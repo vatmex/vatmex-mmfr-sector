@@ -996,13 +996,11 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Principales" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -1044,13 +1042,11 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Principales" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -1083,7 +1079,7 @@
                 <Point>+254759.084-1121909.005</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mazatlan (Vanilla) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12" DynamicInfill="true" VisibilityRange="400">
+        <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12"  DynamicInfill="true" VisibilityRange="400">
             <Sectors>
                 <Sector Name="MZTC" />
                 <Sector Name="MZT1" />
@@ -1099,68 +1095,10 @@
                 <Map Name="FIR Mexico/Limites - Sectores" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
-
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMTJ" Frequency="127.900" Server="NA" />
-                <Window Airport="MMTJ" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000">
-                <AdditionalLevels>2400,3200,7400</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMTJ" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Mazatlan Control</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CEN, CUL, DGO, HMO, LAP, LMM, MXL,</Line>
-                <Line>MZT, SJD, TIJ and all airports within MMZT ACC.</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+293843.176-1180137.394</Point>
-                <Point>+280153.729-1082942.724</Point>
-                <Point>+200511.991-1133814.193</Point>
-                <Point>+213939.948-1025505.017</Point>
-            </ManualVisibility>
-        </Position>
-
-        <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+254700.570-1112702.625" DefaultRange="1550" MagneticVariation="-12"  DynamicInfill="true" VisibilityRange="400">
-            <Sectors>
-                <Sector Name="MZTC" />
-                <Sector Name="MZT1" />
-                <Sector Name="MZT2" />
-                <Sector Name="MZT3" />
-                <Sector Name="MZT4" />
-                <Sector Name="MZT5" />
-                <Sector Name="MZT6" />
-                <Sector Name="MZT7" />
-                <Sector Name="MZT8" />
-            </Sectors>
-            <Maps>
-                <Map Name="ACC Mazatlan/Radar - Cobertura" />
-                <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -2205,61 +2143,7 @@
         </Position>
 
         <!-- ACC Merida -->
-        <Position Name="Control Merida (Combinado) - MIDC" Type="ASD" DefaultCenter="+182452.094-0914224.983" DefaultRange="1430" MagneticVariation="+2">
-            <Sectors>
-                <Sector Name="MIDC" />
-                <Sector Name="MID1" />
-                <Sector Name="MID2" />
-                <Sector Name="MID3" />
-                <Sector Name="MID4" />
-                <Sector Name="MID5" />
-                <Sector Name="MID6" />
-                <Sector Name="MID7" />
-            </Sectors>
-            <Maps>
-                <Map Name="ACC Merida/Limites - Terminales" />
-                <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
-                <Window Airport="MMUN" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMUN" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Merida Control</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CME, CUN, MID, TGZ, VSA and</Line>
-                <Line>all airports within MMID ACC.</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+210249.9531-0865231.1875</Point>
-                <Point>+194642.2891-0902841.3750</Point>
-                <Point>+163526.8633-0930236.1563</Point>
-                <Point>+123404.2930-0985708.3125</Point>
-            </ManualVisibility>
-        </Position>
-
-        <Position Name="Control Merida (Vanilla) - MIDC" Type="ASD" DefaultCenter="+182452.094-0914224.983" DefaultRange="1430" MagneticVariation="+2">
+        <Position Name="Control Merida (Combinado) - MIDC" Type="ASD" DefaultCenter="+193856.094-0902032.983" DefaultRange="1200" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDC" />
                 <Sector Name="MID1" />
@@ -2274,12 +2158,10 @@
                 <Map Name="FIR Mexico/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Terminales" />
-
+                <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -2320,12 +2202,11 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Terminales" />
-
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
+                <Map Name="Universal/Sector - Fijos Coordinacion" />           
             </Maps>
             <!--
             <ATIS>
@@ -2372,9 +2253,9 @@
                 <Map Name="ACC Merida/Limites - Sectores" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -4608,16 +4489,15 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
+                <Map Name="FIR Mexico/Limites - Sectores" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
                 <Map Name="Universal/Sector - Aerovias" />
+                <Map Name="ACC Mazatlan/Limites - Sectores" />
+                <Map Name="ACC Monterrey/Limites - Sectores" />
+                <Map Name="ACC Merida/Limites - Sectores" />
                 <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -4651,67 +4531,6 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-
-        <Position Name="Control Mexico (Vanilla) - MEXC" Type="ASD" DefaultCenter="+194234.930-1000650.875" DefaultRange="980" MagneticVariation="-4" DynamicInfill="true">
-            <Sectors>
-                <Sector Name="MEXC" />
-                <Sector Name="MEX1" />
-                <Sector Name="MEX2" />
-                <Sector Name="MEX3" />
-                <Sector Name="MEX4" />
-                <Sector Name="MEX5" />
-                <Sector Name="MEX6" />
-                <Sector Name="MEX7" />
-                <Sector Name="MEX8" />
-                <Sector Name="MEX9" />
-                <Sector Name="MEX10" />
-            </Sectors>
-            <Maps>
-                <Map Name="FIR Mexico/Limites - Sectores" />
-
-                <Map Name="ACC Mexico/Sector - Volcanes" />
-
-                <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMMX" Frequency="126.750" Server="NA" />
-                <Window Airport="MMMX" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000">
-                <AdditionalLevels>2200,3100,5200,5700,7200,7300,8200,9100,9200,9400,10200,10800</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMMX" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Mexico Control | DCL/PDC [MMMX]</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering ACA, BJX, GDL, MEX, MLM, OAX, PVR, QET, SLP,</Line>
-                <Line>TAM, VER, ZIH, ZLO and all airports within MMEX ACC.</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+225314.791-1024135.740</Point>
-                <Point>+221722.571-0975146.879</Point>
-                <Point>+155230.382-0970454.170</Point>
-                <Point>+190857.890-1043416.669</Point>
-            </ManualVisibility>
-        </Position>
         <Position Name="Control Mexico SS - MEXS" Type="ASD" DefaultCenter="+193531.870-1001649.561" DefaultRange="715" MagneticVariation="-4" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXS" />
@@ -4720,16 +4539,13 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -4770,16 +4586,13 @@
                 <Sector Name="MEX8" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -4821,16 +4634,13 @@
                 <Sector Name="MEX4" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Radar - Cobertura Aerovias" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
                 <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -5740,70 +5550,14 @@
                 <Sector Name="MTY5" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Monterrey/Radar - Cobertura" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Fijos Principales" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMMY" Frequency="127.700" Server="NA" />
-                <Window Airport="MMMY" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="20000">
-                <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMMY" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Monterrey Control</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CJS, CUU, CVM, MAM, MTY, NLD, REX,</Line>
-                <Line>SLW, TRC and all airports within MMTY ACC.</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+284326.9063-1055601.5313</Point>
-                <Point>+261311.2344-1015737.9063</Point>
-                <Point>+234442.7969-0985719.0000</Point>
-                <Point>+242209.9141-0950934.2813</Point>
-            </ManualVisibility>
-        </Position>
-
-        <Position Name="Control Monterrey (Vanilla) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5" DynamicInfill="true">
-            <Sectors>
-                <Sector Name="MTYC" />
-                <Sector Name="MTY1" />
-                <Sector Name="MTY2" />
-                <Sector Name="MTY3" />
-                <Sector Name="MTY4" />
-                <Sector Name="MTY5" />
-            </Sectors>
-            <Maps>
                 <Map Name="FIR Mexico/Limites - Sectores" />
-
+                <Map Name="Universal/Sector - Aerovias" />
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
                 <Map Name="ACC Merida/Limites - Sectores" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />
-
                 <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -5846,11 +5600,11 @@
             <Maps>
                 <Map Name="ACC Monterrey/Sector - Flows" />
                 <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
                 <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -5894,11 +5648,11 @@
             <Maps>
                 <Map Name="ACC Monterrey/Sector - Flows" />
                 <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
+                <Map Name="Universal/Fijos de Enrutamiento Directo" />
                 <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
                 <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />
             </Maps>
             <!--
             <ATIS>
