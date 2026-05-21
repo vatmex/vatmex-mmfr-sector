@@ -747,15 +747,12 @@
                 <STAR Name="CAEA1D" ApproachName="ILS10X.TEXOB" />
                 <STAR Name="CANO1A" ApproachName="ILS10X.SEBEP" />
                 <STAR Name="DYSO1A" ApproachName="ILS10X.OTMAM" />
-                <STAR Name="ELSI1D" ApproachName="ILS10X.SEBEP" />
-                <STAR Name="GABO1A" ApproachName="ILS10X.TEXOB" />
+<STAR Name="GABO1A" ApproachName="ILS10X.TEXOB" />
                 <STAR Name="ILEL1A" ApproachName="ILS10X.SEBEP" />
                 <STAR Name="ISAR1D" />
                 <STAR Name="LIFT1A" ApproachName="ILS103.SEBEP" />
-                <STAR Name="LIFT1B" ApproachName="ILS103.SEBEP" />
-                <STAR Name="NAPR1A" ApproachName="ILS103.SEBEP" />
-                <STAR Name="NAPR1B" ApproachName="ILS103.SEBEP" />
-                <STAR Name="VIVE1F" />
+<STAR Name="NAPR1A" ApproachName="ILS103.SEBEP" />
+<STAR Name="VIVE1F" />
                 <STAR Name="XUBS1A" />
                 <STAR Name="XUBS1B" ApproachName="ILS103.TEXOB" />
             </Runway>
@@ -796,14 +793,11 @@
                 <STAR Name="AVOM1B" ApproachName="RNP28.HADOW"/>
                 <STAR Name="CAEA1E" ApproachName="RNP28.HADOW"/>
                 <STAR Name="DYSO1B" ApproachName="RNP28.ALRUN"/>
-                <STAR Name="ELSI1E" ApproachName="RNP28.ALRUN"/>
-                <STAR Name="GABO1B" ApproachName="RNP28.HADOW"/>
+<STAR Name="GABO1B" ApproachName="RNP28.HADOW"/>
                 <STAR Name="ILEL1B" ApproachName="RNP28.ALRUN"/>
                 <STAR Name="LIFT1C" ApproachName="RNP28.ALRUN"/>
-                <STAR Name="LIFT1D" ApproachName="RNP28.ALRUN"/>
-                <STAR Name="NAPR1C" ApproachName="RNP28.VOLOR"/>
-                <STAR Name="NAPR1D" ApproachName="RNP28.VOLOR"/>
-                <STAR Name="XUBS1C" ApproachName="RNP28.HADOW"/>
+<STAR Name="NAPR1C" ApproachName="RNP28.VOLOR"/>
+<STAR Name="XUBS1C" ApproachName="RNP28.HADOW"/>
             </Runway>
             <Runway Name="36" DataRunway="36">
                 <SID Name="MID4D" Default="True" />
@@ -7839,15 +7833,6 @@
         <STAR Name="XUBS1B" Airport="MMMD" Runways="10">
             <Route Runway="10">XUBSU ETGOT MD805 TEXOB</Route>
         </STAR>
-        <STAR Name="ELSI1D" Airport="MMMD" Runways="10">
-            <Route Runway="10">ELSIP ITPEB SEBEP</Route>
-        </STAR>
-        <STAR Name="LIFT1B" Airport="MMMD" Runways="10">
-            <Route Runway="10">LIFTS KETNI MD604 SEBEP</Route>
-        </STAR>
-        <STAR Name="NAPR1B" Airport="MMMD" Runways="10">
-            <Route Runway="10">NAPRI KETNI MD604 SEBEP</Route>
-        </STAR>
         <STAR Name="ISAR1D" Airport="MMMD" Runways="10,18">
             <Route Runway="10">ISARO MID</Route>
             <Route Runway="18">ISARO MID</Route>
@@ -7883,15 +7868,6 @@
         </STAR>
         <STAR Name="XUBS1C" Airport="MMMD" Runways="28">
             <Route Runway="28">XUBSU ETGOT MD805 TEXOB MD802 HADOW</Route>
-        </STAR>
-        <STAR Name="ELSI1E" Airport="MMMD" Runways="28">
-            <Route Runway="28">ELSIP VERVA ALRUN</Route>
-        </STAR>
-        <STAR Name="LIFT1D" Airport="MMMD" Runways="28">
-            <Route Runway="28">LIFTS KETNI ALRUN</Route>
-        </STAR>
-        <STAR Name="NAPR1D" Airport="MMMD" Runways="28">
-            <Route Runway="28">NAPRI RAKEP VOLOR</Route>
         </STAR>
         <STAR Name="AVOM1C" Airport="MMMD" Runways="36">
             <Route Runway="36">AVOMA ETGOT MD805 TEXOB MD911 ITSAK</Route>
