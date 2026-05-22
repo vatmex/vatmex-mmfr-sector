@@ -1,0 +1,283 @@
+- runway: "12R"
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "200"
+- if:
+    VFR: "true"
+  CFL: "009"
+
+# =========================================
+# RWY 12R -> RNAV
+# =========================================
+# NUDAL1A group
+- if:
+    runway: ["12R", "12"]
+    airway: ["UJ18", "UR506", "UV106", "UG765", "G765", "R506", "V106"]
+  SID: "NUDA1A"
+- if:
+    runway: ["12R", "12"]
+    waypoint: ["URTOK", "NUKAN", "DUGNI"]
+  SID: "NUDA1A"
+
+# HECAT2A group
+- if:
+    runway: ["12R", "12"]
+    airway: ["UJ52"]
+  SID: "HECA2A"
+- if:
+    runway: ["12R", "12"]
+    waypoint: ["DUMBU", "HECAT", "ILUBA"]
+  SID: "HECA2A"
+
+# TAKUX2A group
+- if:
+    runway: ["12R", "12"]
+    airway: ["UM782"]
+  SID: "TAKU2A"
+- if:
+    runway: ["12R", "12"]
+    waypoint: ["AVSEB", "BOTOP", "TAKUX"]
+  SID: "TAKU2A"
+
+# ALSUP1C group
+- if:
+    runway: ["12R", "12"]
+    airway: ["UB881", "UT51", "UT32", "UT57", "B881"]
+  SID: "ALSU1C"
+- if:
+    runway: ["12R", "12"]
+    waypoint: ["OBTAM", "CZM", "ALSUP"]
+  SID: "ALSU1C"
+
+# UDGUV2A group
+- if:
+    runway: ["12R", "12"]
+    airway: ["UJ84", "UT78", "V56", "UJ9", "V45"]
+  SID: "UDGU2A"
+- if:
+    runway: ["12R", "12"]
+    waypoint: ["VOBED", "CZA", "UDGUV"]
+  SID: "UDGU2A"
+
+# NOSUG2A group
+- if:
+    runway: ["12R", "12"]
+    airway: ["UT27"]
+  SID: "NOSU2A"
+- if:
+    runway: ["12R", "12"]
+    waypoint: ["ENEBA", "OMVIP", "NOSUG"]
+  SID: "NOSU2A"
+
+# ROTGI2A group
+- if:
+    runway: ["12R", "12"]
+    airway: ["UM219", "M219"]
+  SID: "ROTG2A"
+- if:
+    runway: ["12R", "12"]
+    waypoint: ["OMSUK", "ROTGI", "XOPGI"]
+  SID: "ROTG2A"
+
+# =========================================
+# RWY 12L -> RNAV
+# =========================================
+# NUDAL1B group
+- if:
+    runway: ["12L"]
+    airway: ["UJ18", "UR506", "UV106", "UG765", "G765", "R506", "V106"]
+  SID: "NUDA1B"
+- if:
+    runway: ["12L"]
+    waypoint: ["URTOK", "NUKAN", "DUGNI"]
+  SID: "NUDA1B"
+
+# HECAT2B group
+- if:
+    runway: ["12L"]
+    airway: ["UJ52"]
+  SID: "HECA2B"
+- if:
+    runway: ["12L"]
+    waypoint: ["DUMBU", "HECAT", "ILUBA"]
+  SID: "HECA2B"
+
+# TAKUX2B group
+- if:
+    runway: ["12L"]
+    airway: ["UM782"]
+  SID: "TAKU2B"
+- if:
+    runway: ["12L"]
+    waypoint: ["AVSEB", "BOTOP", "TAKUX"]
+  SID: "TAKU2B"
+
+# ALSUP1D group
+- if:
+    runway: ["12L"]
+    airway: ["UB881", "UT51", "UT32", "UT57", "B881"]
+  SID: "ALSU1D"
+- if:
+    runway: ["12L"]
+    waypoint: ["OBTAM", "CZM", "ALSUP"]
+  SID: "ALSU1D"
+
+# UDGUV2B group
+- if:
+    runway: ["12L"]
+    airway: ["UJ84", "UT78", "V56", "UJ9", "V45"]
+  SID: "UDGU2B"
+- if:
+    runway: ["12L"]
+    waypoint: ["VOBED", "CZA", "UDGUV"]
+  SID: "UDGU2B"
+
+# NOSUG2B group
+- if:
+    runway: ["12L"]
+    airway: ["UT27"]
+  SID: "NOSU2B"
+- if:
+    runway: ["12L"]
+    waypoint: ["ENEBA", "OMVIP", "NOSUG"]
+  SID: "NOSU2B"
+
+# ROTGI2B group
+- if:
+    runway: ["12L"]
+    airway: ["UM219", "M219"]
+  SID: "ROTG2B"
+- if:
+    runway: ["12L"]
+    waypoint: ["OMSUK", "ROTGI", "XOPGI"]
+  SID: "ROTG2B"
+
+# =========================================
+# RWY 30L -> RNAV (DUMBU+BOTOP merge to AVSEB)
+# =========================================
+# NUDAL1F group
+- if:
+    runway: ["30L", "30"]
+    airway: ["UJ18", "UR506", "UV106", "UG765", "G765", "R506", "V106"]
+  SID: "NUDA1F"
+- if:
+    runway: ["30L", "30"]
+    waypoint: ["URTOK", "NUKAN", "DUGNI"]
+  SID: "NUDA1F"
+
+# AVSEB1F group (merged DUMBU+BOTOP)
+- if:
+    runway: ["30L", "30"]
+    airway: ["UJ52", "UM782", "UL577", "L577"]
+  SID: "AVSE1F"
+- if:
+    runway: ["30L", "30"]
+    waypoint: ["DUMBU", "HECAT", "ILUBA", "AVSEB", "BOTOP", "TAKUX"]
+  SID: "AVSE1F"
+
+# ALSUP1F group
+- if:
+    runway: ["30L", "30"]
+    airway: ["UB881", "UT51", "UT32", "UT57", "B881"]
+  SID: "ALSU1F"
+- if:
+    runway: ["30L", "30"]
+    waypoint: ["OBTAM", "ALSUP"]
+  SID: "ALSU1F"
+
+# UDGUV1F group
+- if:
+    runway: ["30L", "30"]
+    airway: ["UJ84", "UT78", "V56", "UJ9", "V45"]
+  SID: "UDGU1F"
+- if:
+    runway: ["30L", "30"]
+    waypoint: ["CZA", "UDGUV"]
+  SID: "UDGU1F"
+
+# NOSUG2F group
+- if:
+    runway: ["30L", "30"]
+    airway: ["UT27"]
+  SID: "NOSU2F"
+- if:
+    runway: ["30L", "30"]
+    waypoint: ["OMVIP", "NOSUG"]
+  SID: "NOSU2F"
+
+# ROTGI2F group
+- if:
+    runway: ["30L", "30"]
+    airway: ["UM219", "M219"]
+  SID: "ROTG2F"
+- if:
+    runway: ["30L", "30"]
+    waypoint: ["OMSUK", "ROTGI", "XOPGI"]
+  SID: "ROTG2F"
+
+# =========================================
+# RWY 30R -> RNAV (DUMBU+BOTOP merge to AVSEB)
+# =========================================
+# NUDAL1E group
+- if:
+    runway: ["30R"]
+    airway: ["UJ18", "UR506", "UV106", "UG765", "G765", "R506", "V106"]
+  SID: "NUDA1E"
+- if:
+    runway: ["30R"]
+    waypoint: ["URTOK", "NUKAN", "DUGNI"]
+  SID: "NUDA1E"
+
+# AVSEB1E group (merged DUMBU+BOTOP)
+- if:
+    runway: ["30R"]
+    airway: ["UJ52", "UM782", "UL577", "L577"]
+  SID: "AVSE1E"
+- if:
+    runway: ["30R"]
+    waypoint: ["DUMBU", "HECAT", "ILUBA", "AVSEB", "BOTOP", "TAKUX"]
+  SID: "AVSE1E"
+
+# ALSUP1E group
+- if:
+    runway: ["30R"]
+    airway: ["UB881", "UT51", "UT32", "UT57", "B881"]
+  SID: "ALSU1E"
+- if:
+    runway: ["30R"]
+    waypoint: ["OBTAM", "ALSUP"]
+  SID: "ALSU1E"
+
+# UDGUV1E group
+- if:
+    runway: ["30R"]
+    airway: ["UJ84", "UT78", "V56", "UJ9", "V45"]
+  SID: "UDGU1E"
+- if:
+    runway: ["30R"]
+    waypoint: ["CZA", "UDGUV"]
+  SID: "UDGU1E"
+
+# NOSUG2E group
+- if:
+    runway: ["30R"]
+    airway: ["UT27"]
+  SID: "NOSU2E"
+- if:
+    runway: ["30R"]
+    waypoint: ["OMVIP", "NOSUG"]
+  SID: "NOSU2E"
+
+# ROTGI2E group
+- if:
+    runway: ["30R"]
+    airway: ["UM219", "M219"]
+  SID: "ROTG2E"
+- if:
+    runway: ["30R"]
+    waypoint: ["OMSUK", "ROTGI", "XOPGI"]
+  SID: "ROTG2E"
+
+# Departure Frequencies
+- departures: ["121.0", "118.1", "124.2", "124.7", "125.8", "128.3"]
