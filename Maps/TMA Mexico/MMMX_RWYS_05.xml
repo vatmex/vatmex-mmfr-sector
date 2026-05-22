@@ -5,7 +5,7 @@
         <Line Name="ENAGA3A" Pattern="Dashed">ENAGA/MX751/MX753/MX755/MX757/MX759/ALMIS</Line>
         <Line Name="LARLO4A" Pattern="Dashed">LARLO/MX771/MX773/MX775/MX777/URNOK/EPRIM</Line>
         <Line Name="ESPOS3A" Pattern="Dashed">ESPOS/MX770/MX772/MX774/MX776/URNOK</Line>
-        <Symbol Type="HollowStar">      
+        <Symbol Type="HollowStar">
             <Point>ALMIS</Point>
             <Point>DARAN</Point>
             <Point>ENAGA</Point>
@@ -43,7 +43,7 @@
             <Point>ENAGA</Point>
             <Point>DARAN</Point>
             <Point>LARLO</Point>
-            <Point>ESPOS</Point>        
+            <Point>ESPOS</Point>
         </Label>
     </Map>
 <!--    <Map Type="System" Name="[MMMX - Pistas 05 - Llegadas RNAV (Nombres)]" Priority="1" Center="+192617.580-0990407.680">
@@ -599,7 +599,7 @@ SEBON</Line>
         </Label>
         <Label LabelOrientation="N" HasLeader="true" VerticalAlignment="Middle">
             <Point>RAKEM</Point>
-        </Label>        
+        </Label>
     </Map>
 <!--    <Map Type="System" Name="[MMMX - Pistas 05 - Salidas RNAV (Nombres)]" Priority="2" Center="+192617.580-0990407.680">
         <Label>
@@ -618,7 +618,7 @@ SEBON</Line>
     </Map>-->
     <Map Type="Filled" Name="z MMMX - Pistas 05 - Sectores Llegadas [Fondo]">
         <Infill CustomColourName="RadarAirway" Priority="2">
-        <Point>  
+        <Point>
 +194510.343-0980009.002/
 +194525.915-0982239.743/
 +194831.234-0982330.881/
@@ -686,7 +686,7 @@ SEBON</Line>
         </Infill>
     </Map>
 <Map Type="System2" Pattern="Solid" Priority="1" Width="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Llegadas [Contorno]">
-        <Line>  
+        <Line>
 +194510.343-0980009.002/
 +194525.915-0982239.743/
 +194831.234-0982330.881/
@@ -751,7 +751,7 @@ SEBON</Line>
 +185202.300-0981045.913</Line>
     </Map>
 <Map Type="System2" Pattern="Solid" Priority="1" Width="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Aproximacion [Contorno]">
-        <Line>  
+        <Line>
 +194713.994-0993908.670/
 +195302.017-0993335.294/
 +195634.308-0992605.054/
@@ -792,7 +792,7 @@ SEBON</Line>
         </Infill>
     </Map>
 <Map Type="System2" Pattern="Solid" Priority="1" Width="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Final [Contorno]">
-        <Line>  
+        <Line>
 +191108.358-0985918.113/
 +191148.548-0990252.965/
 +190918.052-0990618.946/
@@ -866,7 +866,7 @@ SEBON</Line>
         </Infill>
     </Map>
 <Map Type="System2" Pattern="Solid" Priority="1" Width="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Salidas [Contorno]">
-        <Line>  
+        <Line>
 +190057.000-0980146.000/
 +185202.300-0981045.913/
 +185822.658-0982710.932/
