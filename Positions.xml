@@ -5738,6 +5738,8 @@
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
             <CFL QuickLevel="20000">
+                <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
+            </CFL>            
             <ControllerInfo>
                 <Line>FIR Mexico</Line>
                 <Line>Providing en route control in Mexico FIR above FL200</Line>
