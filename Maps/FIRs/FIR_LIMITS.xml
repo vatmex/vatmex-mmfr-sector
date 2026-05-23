@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="Local_Private" Name="Limites - Sectores" Priority="2">
+    <Map Type="Local_Private" Name="Limites MMFR" Priority="2">
         <Line Name="MMZT" Pattern="Broken">
 +304500.000-1205000.000/
 +323204.000-1170726.000/
@@ -188,5 +188,18 @@
 +275516.000-1172949.000/
 +300000.000-1200000.000/
 +304500.000-1205000.000</Line>
+    </Map>
+    <Map Type="Local_Private" Name="Limites MMFO" Priority="2">
+        <Line Name="MMFO" Pattern="Broken"> 
++300000.000-1200000.000/
++275516.000-1172949.000/
++241758.000-1132607.000/
++212045.000-1103420.000/
++161100.000-1060000.000/
++150000.000-1050000.000/
++113000.000-1000000.000/
++100000.000-1043000.000/
++050000.000-1200000.000/
++300000.000-1200000.000</Line>
     </Map>
 </Maps>
