@@ -162,7 +162,7 @@
 
                 <Map Name="TMA Culiacan/Pista 21 - RNP 21" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCL" Visible="true" />
@@ -198,7 +198,7 @@
                 <Map Name="TMA Culiacan/Pista 21 - Salidas RNAV" />
                 <Map Name="TMA Culiacan/Pista 21 - Salidas RNAV (Nombres)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -234,9 +234,9 @@
                 <Map Name="TMA Ciudad Obregon/Aeropuerto - Fijos 13 (Nombres)" />
                 <Map Name="TMA Ciudad Obregon/Aeropuerto - Area Terminal (TMA)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -274,9 +274,9 @@
                 <Map Name="TMA Durango/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Durango/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -312,7 +312,7 @@
                 <Map Name="TMA Hermosillo/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Hermosillo/MMGM - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGM" Visible="true" />
@@ -340,7 +340,7 @@
 
                 <Map Name="TMA Hermosillo/Pista 05 - RNP 05" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -381,7 +381,7 @@
                 <Map Name="TMA Hermosillo/Pista 05 - Salidas RNAV" />
                 <Map Name="TMA Hermosillo/Pista 05 - Salidas RNAV (Nombres)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -426,9 +426,9 @@
                 <Map Name="TMA Los Mochis/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Los Mochis/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -457,7 +457,7 @@
                 <Map Name="TMA La Paz/Aeropuerto - Pistas" />
                 <Map Name="TMA La Paz/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMLP" Visible="true" />
@@ -485,9 +485,9 @@
                 <Map Name="TMA La Paz/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA La Paz/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -519,7 +519,7 @@
                 <Map Name="CTR Loreto/Aeropuerto - Pistas" />
                 <Map Name="CTR Loreto/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMLT" Visible="true" />
@@ -549,9 +549,9 @@
                 <Map Name="TMA Mexicali/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexicali/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -586,7 +586,7 @@
                 <Map Name="TMA Mazatlan/Aeropuerto - Pistas" />
                 <Map Name="TMA Mazatlan/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -620,9 +620,9 @@
                 <Map Name="TMA Mazatlan/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mazatlan/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -660,7 +660,7 @@
                 <Map Name="ATZ Puerto Penasco/Aeropuerto - Pistas" />
                 <Map Name="ATZ Puerto Penasco/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMPE" Visible="true" />
@@ -690,7 +690,7 @@
 
                 <Map Name="TMA Cabos/MMSL - Pista 29 - RNP 29" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -725,7 +725,7 @@
 
                 <Map Name="TMA Cabos/MMSD - Pista 34 - RNP 34" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -760,7 +760,7 @@
 
                 <Map Name="TMA Cabos/MMSD - Pista 34 - RNP 34" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -842,7 +842,7 @@
 
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -880,7 +880,7 @@
 
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTJ" Visible="true" />
@@ -912,7 +912,7 @@
 
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -952,8 +952,8 @@
 
                 <Map Name="TMA Tijuana/Pista 27 - Salidas RNAV" />
                 <Map Name="TMA Tijuana/Pista 27 - Salidas RNAV (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -996,14 +996,13 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="FIRs/Limites - MMFR" />
-                <Map Name="FIRs/Limites - MMFO" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -1045,14 +1044,13 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="FIRs/Limites - MMFR" />
-                <Map Name="FIRs/Limites - MMFO" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+
             </Maps>
             <!--
             <ATIS>
@@ -1098,15 +1096,11 @@
                 <Sector Name="MZT8" />
             </Sectors>
             <Maps>
-                <Map Name="FIR Mexico/Limites - Sectores" />
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="FIRs/Limites - MMFR" />
-                <Map Name="FIRs/Limites - MMFO" />
-                <Map Name="ACC Mazatlan/Limites - Terminales" />                
+                <Map Name="[FIR]/Limites - CTA Mazatlan" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -1294,7 +1288,7 @@
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Pistas" />
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1329,9 +1323,9 @@
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Fijos 13" />
                 <Map Name="TMA Ciudad del Carmen/Aeropuerto - Fijos 13 (Nombres)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1366,7 +1360,7 @@
                 <Map Name="ATZ Chetumal/Aeropuerto - Pistas" />
                 <Map Name="ATZ Chetumal/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCM" Visible="true" />
@@ -1393,7 +1387,7 @@
                 <Map Name="CTR Campeche/Aeropuerto - Pistas" />
                 <Map Name="CTR Campeche/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCP" Visible="true" />
@@ -1418,7 +1412,7 @@
                 <Map Name="CTR Chichen Itza/Aeropuerto - Pistas" />
                 <Map Name="CTR Chichen Itza/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCT" Visible="true" />
@@ -1445,7 +1439,7 @@
                 <Map Name="ATZ Ixtepec/Aeropuerto - Pistas" />
                 <Map Name="ATZ Ixtepec/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMIT" Visible="true" />
@@ -1472,7 +1466,7 @@
                 <Map Name="TMA Merida/Aeropuerto - Pistas" />
                 <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1571,7 +1565,7 @@
                 <Map Name="CTR Minatitlan/Aeropuerto - Pistas" />
                 <Map Name="CTR Minatitlan/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMT" Visible="true" />
@@ -1598,7 +1592,7 @@
                 <Map Name="CTR Palenque/Aeropuerto - Pistas" />
                 <Map Name="CTR Palenque/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMPQ" Visible="true" />
@@ -1628,9 +1622,9 @@
                 <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Fijos 32" />
                 <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Fijos 32 (Nombres)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -1665,9 +1659,9 @@
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTP" Visible="true" />
@@ -1702,7 +1696,7 @@
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1741,7 +1735,7 @@
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1780,7 +1774,7 @@
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1819,7 +1813,7 @@
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1858,7 +1852,7 @@
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1898,7 +1892,7 @@
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1938,7 +1932,7 @@
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -1978,7 +1972,7 @@
 
                 <Map Name="ACC Merida/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -2096,7 +2090,7 @@
                 <Map Name="TMA Villahermosa/Aeropuerto - Pistas" />
                 <Map Name="TMA Villahermosa/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMVA" Visible="true" />
@@ -2125,9 +2119,9 @@
                 <Map Name="TMA Villahermosa/Aeropuerto - Fijos 08" />
                 <Map Name="TMA Villahermosa/Aeropuerto - Fijos 08 (Nombres)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -2163,13 +2157,11 @@
                 <Sector Name="MID7" />
             </Sectors>
             <Maps>
-                <Map Name="FIRs/Limites - MMFR" />
-                <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
                 
             </Maps>
             <!--
@@ -2211,13 +2203,12 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="ACC Merida/Limites - Terminales" />
-                <Map Name="FIRs/Limites - MMFR" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -2262,13 +2253,12 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="ACC Merida/Limites - Terminales" />
-                <Map Name="FIRs/Limites - MMFR" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -2584,7 +2574,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMAA" Visible="true" />
@@ -2649,7 +2639,7 @@
                 <Map Name="ATZ Huatulco/Aeropuerto - Pistas" />
                 <Map Name="ATZ Huatulco/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMBT" Visible="true" />
@@ -2681,7 +2671,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
@@ -2714,7 +2704,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
@@ -2747,7 +2737,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGL" Visible="true" />
@@ -2780,7 +2770,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -2902,7 +2892,7 @@
 
                 <Map Name="TMA Leon/MMAS - Pista 18 - RNP 18" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMAS" Visible="true" />
@@ -2930,7 +2920,7 @@
 
                 <Map Name="TMA Leon/MMLO - Pista 13 - RNP 13" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -2978,7 +2968,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3025,9 +3015,9 @@
                 <Map Name="TMA Morelia/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Morelia/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -3060,7 +3050,7 @@
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
                 <Map Name="TMA Mexico/MMCB - Zona de Control (CTR)" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCB" Visible="true" />
@@ -3088,8 +3078,8 @@
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
                 <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMPB - Pista 35 - RNP 35" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMPB" Visible="true" />
@@ -3120,7 +3110,7 @@
                 <Map Name="TMA Mexico/MMSM - Rutas VFR" />
                 <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMX" Visible="true" />
@@ -3154,7 +3144,7 @@
                 <Map Name="TMA Mexico/MMSM - Rutas VFR" />
                 <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMX" Visible="true" />
@@ -3188,7 +3178,7 @@
                 <Map Name="TMA Mexico/MMSM - Rutas VFR" />
                 <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMX" Visible="true" />
@@ -3221,7 +3211,7 @@
                 <Map Name="TMA Mexico/MMSM - Rutas VFR" />
                 <Map Name="TMA Mexico/MMTO - Rutas VFR" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
                 <Map Name="ACC Mexico/Cobertura Radar" />
             </Maps>
             <!--
@@ -3259,7 +3249,7 @@
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3290,7 +3280,7 @@
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3321,7 +3311,7 @@
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
                 <Map Name="ACC Mexico/Cobertura Radar" />
             </Maps>
             <!--
@@ -3362,8 +3352,8 @@
                 <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3400,8 +3390,8 @@
                 <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3444,8 +3434,8 @@
                 <Map Name="TMA Mexico/MMPB - Pista 35 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -3543,7 +3533,7 @@
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04C" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - Salidas RNAV" />
-                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
             </Maps>
             <!--
             <ATIS>
@@ -3591,8 +3581,8 @@
                 <Map Name="TMA Mexico/MMTO - Pista 15 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
                 <Map Name="TMA Mexico/MMTO - Pista 15 - Salidas RNAV" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3638,7 +3628,7 @@
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas [Contorno]" />
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas [Fondo]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
-                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
             </Maps>
             <!--
             <ATIS>
@@ -3683,9 +3673,9 @@
                 <Map Name="TMA Oaxaca/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMOX" Visible="true" />
@@ -3714,9 +3704,9 @@
                 <Map Name="TMA Oaxaca/Aeropuerto - Fijos 01 (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -3749,7 +3739,7 @@
                 <Map Name="ATZ Poza Rica/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMPA" Visible="true" />
@@ -3777,7 +3767,7 @@
                 <Map Name="ATZ Uruapan/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMPN" Visible="true" />
@@ -3806,7 +3796,7 @@
                 <Map Name="TMA Vallarta/MMEP - Servicio de Informacion de Vuelo (AFIS)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMEP" Visible="true" />
@@ -3835,7 +3825,7 @@
                 <Map Name="TMA Vallarta/Pista 22 - RNP 22" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3920,7 +3910,7 @@
                 <Map Name="TMA Vallarta/Pista 22 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3961,7 +3951,7 @@
                 <Map Name="ATZ Puerto Escondido/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMPS" Visible="true" />
@@ -3989,9 +3979,9 @@
                 <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMQT" Visible="true" />
@@ -4017,9 +4007,9 @@
                 <Map Name="TMA Queretaro/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMQT" Visible="true" />
@@ -4049,9 +4039,9 @@
                 <Map Name="TMA Queretaro/Aeropuerto - Fijos 09 (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -4084,9 +4074,9 @@
                 <Map Name="TMA Potosi/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMSP" Visible="true" />
@@ -4121,9 +4111,9 @@
                 <Map Name="TMA Potosi/Aeropuerto - Fijos 14 (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -4162,7 +4152,7 @@
                 <Map Name="TMA Tampico/MMTN - Zona de Transito de Aerodromo (ATZ)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTN" Visible="true" />
@@ -4188,7 +4178,7 @@
                 <Map Name="TMA Tampico/MMTM - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTM" Visible="true" />
@@ -4218,9 +4208,9 @@
                 <Map Name="TMA Tampico/Aeropuerto - Fijos 14 (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -4257,7 +4247,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -4299,7 +4289,7 @@
                 <Map Name="TMA Veracruz/Pista 01 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -4340,7 +4330,7 @@
                 <Map Name="CTR Zacatecas/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMZC" Visible="true" />
@@ -4369,7 +4359,7 @@
                 <Map Name="TMA Zihuatanejo/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMZH" Visible="true" />
@@ -4399,8 +4389,8 @@
                 <Map Name="TMA Zihuatanejo/MMZH - Pista 27 - RNP 27" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -4432,7 +4422,7 @@
                 <Map Name="ATZ Colima/Aeropuerto - Pistas" />
                 <Map Name="ATZ Colima/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMIA" Visible="true" />
@@ -4460,9 +4450,9 @@
                 <Map Name="TMA Manzanillo/Aeropuerto - Fijos 10" />
                 <Map Name="TMA Manzanillo/Aeropuerto - Fijos 10 (Nombres)" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -4501,15 +4491,12 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Limites - Terminales" />
-                <Map Name="FIRs/Limites - MMFR" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
             </Maps>
             <!--
             <ATIS>
@@ -4553,13 +4540,13 @@
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
-                <Map Name="FIRs/Limites - MMFR" />                
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />
             </Maps>
             <!--
             <ATIS>
@@ -4602,13 +4589,13 @@
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
-                <Map Name="FIRs/Limites - MMFR" />                
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />                
             </Maps>
             <!--
             <ATIS>
@@ -4652,13 +4639,13 @@
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
-                <Map Name="FIRs/Limites - MMFR" />                
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />                
             </Maps>
             <!--
             <ATIS>
@@ -4834,8 +4821,8 @@
                 <Map Name="TMA Ciudad Juarez/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCS" Visible="true" />
@@ -4866,9 +4853,9 @@
                 <Map Name="TMA Ciudad Juarez/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -4902,7 +4889,7 @@
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
                 <Map Name="ACC Mexico/Cobertura Radar" />
             </Maps>
             <!--
@@ -4945,7 +4932,7 @@
                 <Map Name="TMA Chihuahua/Pistas 36 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -4983,7 +4970,7 @@
                 <Map Name="TMA Ciudad Victoria/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMCV" Visible="true" />
@@ -5011,9 +4998,9 @@
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -5043,7 +5030,7 @@
                 <Map Name="ATZ Barrancas del Cobre/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMGA" Visible="true" />
@@ -5071,7 +5058,7 @@
                 <Map Name="TMA Saltillo/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMIO" Visible="true" />
@@ -5101,9 +5088,9 @@
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
 
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -5135,7 +5122,7 @@
                 <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -5169,7 +5156,7 @@
                 <Map Name="TMA Monterrey/Aeropuerto - Minimas de Vectoreo" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -5205,7 +5192,7 @@
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -5241,7 +5228,7 @@
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -5277,7 +5264,7 @@
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -5351,7 +5338,7 @@
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - Llegadas RNAV (Nombres)" />
                 <Map Name="TMA Monterrey/MMMY - Pista 12 - RNP 12" />
 
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -5401,8 +5388,8 @@
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
 
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -5436,8 +5423,8 @@
                 <Map Name="TMA Reynosa/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMRX" Visible="true" />
@@ -5465,9 +5452,9 @@
                 <Map Name="TMA Reynosa/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -5503,8 +5490,8 @@
                 <Map Name="TMA Torreon/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMTC" Visible="true" />
@@ -5532,9 +5519,9 @@
                 <Map Name="TMA Torreon/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -5568,15 +5555,11 @@
                 <Sector Name="MTY5" />
             </Sectors>
             <Maps>
-                <Map Name="FIR Mexico/Limites - Sectores" />
-                <Map Name="ACC Mazatlan/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="FIRs/Limites - MMFR" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />                  
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[FIR]/Limites - CTA Monterrey" />
+                <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -5618,14 +5601,13 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Sector - Flows" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="FIRs/Limites - MMFR" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />                   
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -5668,14 +5650,13 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Sector - Flows" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
-                <Map Name="Universal/Fijos de Enrutamiento Directo" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Aerovias" />
-                <Map Name="FIRs/Limites - MMFR" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />   
+                <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -5717,20 +5698,13 @@
                 <Sector Name="MFRC" />
             </Sectors>
             <Maps>
-                <Map Name="FIR Mexico/Limites - Sectores" />
-
-                <Map Name="ACC Mazatlan/Limites - Terminales" />
-                <Map Name="ACC Merida/Limites - Terminales" />
-                <Map Name="ACC Mexico/Limites - Terminales" />
-                <Map Name="ACC Monterrey/Limites - Terminales" />
-                <Map Name="Universal/Sector - Fijos Coordinacion" />
-                <Map Name="Universal/Sector - Fijos Coordinacion (Nombres)" />
-                <Map Name="Universal/Sector - Radioayudas" />
-                <Map Name="Universal/Sector - Radioayudas (Nombres)" />
-                <Map Name="Universal/Geografia - Linea de Costa" />
-                <Map Name="FIRs/Limites - MMFR" />
-                <Map Name="FIRs/Limites - MMFO" />
-
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion (Nombres)" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="[FIR]/Limites - MMFR" />
+                <Map Name="[FIR]/Limites - MMFO" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -5902,7 +5876,7 @@
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas [Contorno]" />
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas [Fondo]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
-                <Map Name="Universal/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
             </Maps>
             <!--
             <ATIS>
