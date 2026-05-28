@@ -507,6 +507,23 @@
             <Point>EPRIM</Point>
         </Symbol>
     </Map>
+    <Map Type="System" Name=" MMMX - Pistas 05 - Aproximacion Frustrada 05R" Priority="1" Center="+192617.580-0990407.680">
+        <Line Name="MAP 05R" Pattern="Dashed">MX949/MX950/MX740/MX951/EPRIM</Line>
+        <Symbol Type="HollowStar">
+            <Point>MX949</Point>
+            <Point>MX950</Point>
+            <Point>MX740</Point>
+            <Point>MX951</Point>
+            <Point>EPRIM</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>MX949</Point>
+            <Point>MX950</Point>
+            <Point>MX740</Point>
+            <Point>MX951</Point>
+            <Point>EPRIM</Point>
+        </Label>
+    </Map>
     <Map Type="System" Name=" MMMX - Pistas 05 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="ATURO2A" Pattern="Dotted">MEX/MX800/MX802/MX803/MX804/MX805/OTMAL/ATURO</Line>
         <Line Name="AXIRI2A" Pattern="Dotted">OTMAL/AXIRI</Line>
