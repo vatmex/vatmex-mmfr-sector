@@ -42,7 +42,6 @@
             <Point>DUXAM</Point>
             <Point>ENTRI</Point>
             <Point>ESRAP</Point>
-            <Point>ITPIS</Point>
             <Point>KATPO</Point>
             <Point>MEGNA</Point>
             <Point>MIBTA</Point>
@@ -50,8 +49,6 @@
             <Point>MY600</Point>
             <Point>MY601</Point>
             <Point>NAPNO</Point>
-            <Point>NOTAL</Point>
-            <Point>RETOS</Point>
             <Point>SIKRO</Point>
             <Point>SLW</Point>
             <Point>SUTNA</Point>
@@ -60,7 +57,12 @@
             <Point>VETNU</Point>
             <Point>WICLO</Point>
             <Point>MY603</Point>
-        </Label>        
+        </Label>
+        <Label HasLeader="true">
+            <Point>NOTAL</Point>
+            <Point>ITPIS</Point>
+            <Point>RETOS</Point>
+        </Label>
     </Map>
 
     <Map Type="System" Name=" MMMY - Pista 12 - RNP 12" Priority="1" Center="+284208.380-1055746.670">

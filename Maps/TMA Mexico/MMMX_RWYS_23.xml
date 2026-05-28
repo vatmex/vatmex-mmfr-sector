@@ -71,7 +71,7 @@
             <Point>PBC</Point>
         </Label>
     </Map>-->
-    <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
+    <Map Type="System" Name="[MMMX - Pistas 23 - Llegadas RNAV (Vectores)]" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="SESTAR278" Pattern="Solid">+193524.910-0984738.439/+193218.7367-0982224.177</Line>
         <Line Name="SESTAR178" Pattern="Solid">+193524.910-0984738.439/+195909.456-0984414.159</Line>
         <Line Name="SESTAD6" Pattern="Solid">
@@ -450,7 +450,7 @@
 +190057.000-0980146.000</Point>
         </Infill>
     </Map>
-<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Llegadas [Contorno]">
+<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Llegadas [Limites]">
         <Line Pattern="Solid" Priority="1" Width="1">  
 +190057.000-0980146.000/
 +183605.657-0982651.882/
@@ -519,7 +519,7 @@
 +193754.531-0982145.605</Point>
         </Infill>
     </Map>
-<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Aproximacion [Contorno]">
+<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Aproximacion [Limites]">
         <Line Pattern="Solid" Priority="1" Width="1">  
 +193754.531-0982145.605/
 +193144.099-0982154.599/
@@ -538,7 +538,7 @@
 +193842.988-0981623.019/
 +193754.531-0982145.605</Line>
     </Map>
-    <Map Type="System2" Name="z MMMX - Pistas 23 - Sectores Final [Contorno]" Priority="1">
+    <Map Type="System2" Name="z MMMX - Pistas 23 - Sectores Final [Limites]" Priority="1">
         <Line Name="FINL23" Pattern="Solid" Width="1">
 +192754.080-0990511.913/
 +192704.620-0990450.151/
@@ -600,7 +600,7 @@
 +191738.443-0985002.007</Point>
         </Infill>
     </Map>
-<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Salidas [Contorno]">
+<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Salidas [Limites]">
         <Line Pattern="Solid" Priority="1" Width="1">
 +191738.443-0985002.007/
 +191211.147-0985839.233/
