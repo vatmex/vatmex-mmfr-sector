@@ -996,11 +996,11 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
@@ -1044,13 +1044,13 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mazatlan/Limites - Sectores" />
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
-
             </Maps>
             <!--
             <ATIS>
@@ -1101,6 +1101,8 @@
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Aerovias" />                
             </Maps>
             <!--
             <ATIS>
@@ -2162,7 +2164,9 @@
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
-                
+                <Map Name="[Universal]/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Aerovias - Clase E" />
             </Maps>
             <!--
             <ATIS>
@@ -2203,12 +2207,14 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Aerovias - Clase E" />
             </Maps>
             <!--
             <ATIS>
@@ -2253,12 +2259,14 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Aerovias - Clase E" />
             </Maps>
             <!--
             <ATIS>
@@ -4492,11 +4500,13 @@
             </Sectors>
             <Maps>
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Limites - Terminales" />
                 <Map Name="[FIR]/Limites - CTA Mexico" />
-                <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Aerovias - Clase E" />
+                <Map Name="[Universal]/Sector - Aerovias" />
             </Maps>
             <!--
             <ATIS>
@@ -4538,15 +4548,14 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="ACC Mexico/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
-                <Map Name="[FIR]/Limites - CTA Mexico" />
             </Maps>
             <!--
             <ATIS>
@@ -4587,15 +4596,14 @@
                 <Sector Name="MEX8" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="ACC Mexico/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
-                <Map Name="[FIR]/Limites - CTA Mexico" />                
             </Maps>
             <!--
             <ATIS>
@@ -4637,15 +4645,14 @@
                 <Sector Name="MEX4" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
+                <Map Name="ACC Mexico/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Fondos - Terminales" />
-                <Map Name="[FIR]/Limites - CTA Mexico" />                
             </Maps>
             <!--
             <ATIS>
@@ -5560,6 +5567,8 @@
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[FIR]/Limites - CTA Monterrey" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Aerovias" />
             </Maps>
             <!--
             <ATIS>
@@ -5608,6 +5617,8 @@
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Aerovias - Clase E" />
+                <Map Name="ACC Monterrey/Limites - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -5657,6 +5668,7 @@
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="ACC Monterrey/Limites - Terminales" />
             </Maps>
             <!--
             <ATIS>
