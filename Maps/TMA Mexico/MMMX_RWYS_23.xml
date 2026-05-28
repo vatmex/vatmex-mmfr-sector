@@ -326,6 +326,19 @@
             <Point>VIKSA</Point>
         </Symbol>
     </Map>
+    <Map Type="System" Name="[MMMX - Pistas 23 - Aproximacion Frustrada 23L]" Priority="1" Center="+192617.580-0990407.680">
+        <Line Name="MAP 23L" Pattern="Dashed">MX415/MX416/VIKSA</Line>
+        <Symbol Type="HollowStar">
+            <Point>MX415</Point>
+            <Point>MX416</Point>
+            <Point>VIKSA</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>MX415</Point>
+            <Point>MX416</Point>
+            <Point>VIKSA</Point>
+        </Label>
+    </Map>
     <Map Type="System" Name="[MMMX - Pistas 23 - Salidas RNAV]" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="ATURO3B" Pattern="Dotted">MEX/MX503/MX520/SEGUM/MX550/MX527/ATURO</Line>
         <Line Name="AXIRI2B" Pattern="Dotted">MX527/AXIRI</Line>
