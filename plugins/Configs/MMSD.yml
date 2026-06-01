@@ -8,192 +8,72 @@
   CFL: "030"
 
 # =========================================
-# RWY 16
+# RWY 16 -> RNAV
 # =========================================
 
-# DASON -> ALRIN (RNAV)
+# AVAVU1C group
 - if:
     runway: ["16"]
-    airway: ["UJ23", "V52"]
-  SID: "ALRI1A"
-- if:
-    runway: ["16"]
-    waypoint: ["DASON", "ALRIN"]
-  SID: "ALRI1A"
-
-# MENVI (no RNAV equivalent)
-- if:
-    runway: ["16"]
-    airway: ["UJ32", "V12"]
-  SID: "MENV3A"
-- if:
-    runway: ["16"]
-    waypoint: ["MENVI"]
-  SID: "MENV3A"
-
-# USBOG -> UKUXA (RNAV)
-- if:
-    runway: ["16"]
-    airway: ["UT88", "UJ54", "V57"]
-  SID: "UKUX1A"
-- if:
-    runway: ["16"]
-    waypoint: ["USBOG", "UKUXA"]
-  SID: "UKUX1A"
-
-# AVAVU -> AVAVU (RNAV variant 1C)
-- if:
-    runway: ["16"]
-    airway: ["J29", "V1"]
-  SID: "AVAV1C"
-- if:
-    runway: ["16"]
-    waypoint: ["AVAVU"]
+    waypoint: ["AVAV1C", "AVAV3A", "AVAVU", "KINOL", "VIBSA", "MZT"]
   SID: "AVAV1C"
 
-# XUGNU (no RNAV equivalent)
+# ALRIN1A group
 - if:
     runway: ["16"]
-    airway: ["UJ9", "UJ14"]
-  SID: "XUGN2A"
-- if:
-    runway: ["16"]
-    waypoint: ["XUGNU"]
-  SID: "XUGN2A"
+    waypoint: ["ALRI1A", "DASO2A", "DASON", "KIPUM", "ALRIN", "KAVRA", "BECON", "KAVRA", "LMM", "CEN"]
+  SID: "ALRI1A"
 
-# LETER -> ILIGA (RNAV)
+# UKUXA1A group
 - if:
     runway: ["16"]
-    airway: ["J1"]
-  SID: "ILIG1A"
+    waypoint: ["UKUX1A", "USBO3A", "MENV3A", "MENVI", "USBOG", "UKUXA", "OLESI", "OLAKA", "DUPOP", "DEDKU", "CUL", "TRC"]
+  SID: "UKUX1A"
+
+# ILIGA1A group
 - if:
     runway: ["16"]
-    waypoint: ["LETER", "ILIGA"]
+    waypoint: ["ILIG1A", "LETE3A", "XUGN2A", "SIBA3A", "SIBAU", "KATIS", "XUGNU", "LETER", "ILIGA", "KEDIX", "LETAL", "AXOCA", "PVR", "ZLO"]
   SID: "ILIG1A"
 
-# SIBAU -> ANEGO (RNAV)
+# ANEGO1A group
 - if:
     runway: ["16"]
-    airway: ["UL312", "UT67"]
-  SID: "ANEG1A"
-- if:
-    runway: ["16"]
-    waypoint: ["SIBAU", "ANEGO"]
+    waypoint: ["ANEG1A", "ATUM2A", "SJD3A", "ATUMI", "TAMET", "ANEGO", "AMARI", "XORPU", "TAGMO", "URLET", "LAP", "GRN", "LTO", "TIJ", "SJD", "CSL"]
   SID: "ANEG1A"
 
-# ATUMI (no RNAV equivalent)
-- if:
-    runway: ["16"]
-    airway: ["V393"]
-  SID: "ATUM2A"
-- if:
-    runway: ["16"]
-    waypoint: ["ATUMI"]
-  SID: "ATUM2A"
-
 # =========================================
-# RWY 34
+# RWY 34 -> RNAV
 # =========================================
 
-# DASON -> ALRIN (RNAV)
+# ALRIN1B group
 - if:
     runway: ["34"]
-    airway: ["UJ23", "V52"]
-  SID: "ALRI1B"
-- if:
-    runway: ["34"]
-    waypoint: ["DASON", "ALRIN"]
+    waypoint: ["ALRI1B", "DASO2B", "DASON", "KIPUM", "ALRIN", "KAVRA", "BECON", "KAVRA", "LMM", "CEN"]
   SID: "ALRI1B"
 
-# MENVI (no RNAV equivalent)
+# UKUXA1B group
 - if:
     runway: ["34"]
-    airway: ["UJ32", "V12"]
-  SID: "MENV3B"
-- if:
-    runway: ["34"]
-    waypoint: ["MENVI"]
-  SID: "MENV3B"
-
-# USBOG -> UKUXA (RNAV)
-- if:
-    runway: ["34"]
-    airway: ["UT88", "UJ54", "V57"]
-  SID: "UKUX1B"
-- if:
-    runway: ["34"]
-    waypoint: ["USBOG", "UKUXA"]
+    waypoint: ["UKUX1B", "USBO3B", "MENV3B", "MENVI", "USBOG", "UKUXA", "OLESI", "OLAKA", "DUPOP", "DEDKU", "CUL", "TRC"]
   SID: "UKUX1B"
 
-# AVAVU -> KINOL (RNAV)
+# ILIGA1B group
 - if:
     runway: ["34"]
-    airway: ["J29", "V1"]
-  SID: "KINOL1"
-- if:
-    runway: ["34"]
-    waypoint: ["AVAVU", "KINOL"]
-  SID: "KINOL1"
-
-# XUGNU (no RNAV equivalent)
-- if:
-    runway: ["34"]
-    airway: ["UJ9", "UJ14"]
-  SID: "XUGN2B"
-- if:
-    runway: ["34"]
-    waypoint: ["XUGNU"]
-  SID: "XUGN2B"
-
-# LETER -> ILIGA (RNAV)
-- if:
-    runway: ["34"]
-    airway: ["J1"]
-  SID: "ILIG1B"
-- if:
-    runway: ["34"]
-    waypoint: ["LETER", "ILIGA"]
+    waypoint: ["ILIG1B", "LETE3B", "XUGN2B", "SIBA3B", "SIBAU", "KATIS", "XUGNU", "LETER", "ILIGA", "KEDIX", "LETAL", "AXOCA", "PVR", "ZLO"]
   SID: "ILIG1B"
 
-# SIBAU (no RNAV equivalent on 34)
+# ANEGO1B group
 - if:
     runway: ["34"]
-    airway: ["UL312"]
-  SID: "SIBA3B"
-- if:
-    runway: ["34"]
-    waypoint: ["SIBAU"]
-  SID: "SIBA3B"
-
-# ATUMI (no RNAV equivalent)
-- if:
-    runway: ["34"]
-    airway: ["V393"]
-  SID: "ATUM2B"
-- if:
-    runway: ["34"]
-    waypoint: ["ATUMI"]
-  SID: "ATUM2B"
-
-# TAMET -> ANEGO (RNAV)
-- if:
-    runway: ["34"]
-    airway: ["UL312", "UT67", "V1W"]
-  SID: "ANEG1B"
-- if:
-    runway: ["34"]
-    waypoint: ["TAMET", "ANEGO"]
+    waypoint: ["ANEG1B", "ATUM2B", "TAME2A", "AMAR3A", "SJD3B", "ATUMI", "TAMET", "ANEGO", "AMARI", "XORPU", "TAGMO", "URLET", "LAP", "GRN", "LTO", "TIJ", "SJD", "CSL"]
   SID: "ANEG1B"
 
-# AMARI (no RNAV equivalent)
+# KINOL1 group
 - if:
     runway: ["34"]
-    airway: ["UJ9", "J1", "V1"]
-  SID: "AMAR3A"
-- if:
-    runway: ["34"]
-    waypoint: ["AMARI"]
-  SID: "AMAR3A"
+    waypoint: ["KINOL1", "AVAV3B", "AVAVU", "KINOL", "VIBSA", "MZT"]
+  SID: "KINOL1"
 
 # Departure Frequencies
 - departures: ["118.9", "120.9", "128.0"]

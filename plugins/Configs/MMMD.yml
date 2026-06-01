@@ -13,42 +13,42 @@
 # CAEA1A
 - if:
     runway: ["10"]
-    waypoint: ["USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
+    waypoint: ["CAEA1A", "DAPI2A", "LIBA2A", "USBU1A", "USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
   SID: "CAEA1A"
 # EPNA1A
 - if:
     runway: ["10"]
-    waypoint: ["DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN"]
+    waypoint: ["EPNA1A", "BEMO1A", "BEMO1B", "DURP2B", "DURP2A", "DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN"]
   SID: "EPNA1A"
 # GREP1A
 - if:
     runway: ["10"]
-    waypoint: ["RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO"]
+    waypoint: ["GREP1A", "RENE2A", "RENE2B", "DUSL2B", "DUSL2A", "RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO"]
   SID: "GREP1A"
 # SIFT1A
 - if:
     runway: ["10"]
-    waypoint: ["TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
+    waypoint: ["SIFT1A", "TAXT2A", "TAXT4B", "PAGA3B", "PAGA2A", "TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
   SID: "SIFT1A"
 # ELSI1A
 - if:
     runway: ["10"]
-    waypoint: ["XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
+    waypoint: ["ELSI1A", "VOLE2A", "VOLE2B", "URPU2A", "XOLR2A", "XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
   SID: "ELSI1A"
 # VIVE1C
 - if:
     runway: ["10"]
-    waypoint: ["ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
+    waypoint: ["VIVE1C", "ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
   SID: "VIVE1C"
 # ISAR1A
 - if:
     runway: ["10"]
-    waypoint: ["RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM"]
+    waypoint: ["ISAR1A", "RUDM2A", "PERG2A", "MID4A", "RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM", "MID"]
   SID: "ISAR1A"
 # NAPL1A
 - if:
     runway: ["10"]
-    waypoint: ["SISAL", "NAPLA", "MESNA", "KEHLI"]
+    waypoint: ["NAPL1A", "MID4C", "SISA2A","SISAL", "NAPLA", "MESNA", "KEHLI"]
   SID: "NAPL1A"
 
 # =========================================
@@ -57,42 +57,42 @@
 # CAEA1B
 - if:
     runway: ["28"]
-    waypoint: ["USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
+    waypoint: ["CAEA1B", "DAPI2B", "USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
   SID: "CAEA1B"
 # EPNA1B
 - if:
     runway: ["28"]
-    waypoint: ["DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN"]
+    waypoint: ["EPNA1B", "MID4B", "DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN", "MID"]
   SID: "EPNA1B"
 # GREP1B
 - if:
     runway: ["28"]
-    waypoint: ["RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO"]
+    waypoint: ["GREP1B", "RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO"]
   SID: "GREP1B"
 # SIFT1A
 - if:
     runway: ["28"]
-    waypoint: ["TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
+    waypoint: ["SIFT1A", "PAGA2C", "TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
   SID: "SIFT1A"
 # ELSI1B
 - if:
     runway: ["28"]
-    waypoint: ["XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
+    waypoint: ["ELSI1B", "VOLE2C", "URPU2B", "XOLR2B", "XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
   SID: "ELSI1B"
 # VIVE1D
 - if:
     runway: ["28"]
-    waypoint: ["ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
+    waypoint: ["VIVE1D", "VIVE2A", "ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
   SID: "VIVE1D"
 # ISAR1B
 - if:
     runway: ["28"]
-    waypoint: ["RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM"]
+    waypoint: ["ISAR1B", "RUDM2B", "PERG2B", "RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM"]
   SID: "ISAR1B"
 # NAPL1B
 - if:
     runway: ["28"]
-    waypoint: ["SISAL", "NAPLA", "MESNA", "KEHLI"]
+    waypoint: ["NAPL1B", "SISA2B", "SISAL", "NAPLA", "MESNA", "KEHLI"]
   SID: "NAPL1B"
 
 # =========================================
@@ -101,42 +101,42 @@
 # CAEA1C
 - if:
     runway: ["36"]
-    waypoint: ["USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
+    waypoint: ["CAEA1C", "DAPI2C", "LIBA2B", "USBU1B", "USBUS", "LIBAB", "DAPIB", "VETRI", "CAEAR", "XUDUN", "PISAD"]
   SID: "CAEA1C"
 # EPNA1C
 - if:
     runway: ["36"]
-    waypoint: ["DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN"]
+    waypoint: ["EPNA1C", "BEMO1C", "DURPI", "BEMOX", "EPNAS", "AVATA", "LOKMA", "CUN"]
   SID: "EPNA1C"
 # GREP1C
 - if:
     runway: ["36"]
-    waypoint: ["RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO"]
+    waypoint: ["GREP1C", "MID4D", "RENES", "DUSLO", "PENGA", "GREPE", "TILOS", "PIKRO", "MID"]
   SID: "GREP1C"
 # SIFT1C
 - if:
     runway: ["36"]
-    waypoint: ["TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
+    waypoint: ["SIFT1C", "TAXTE", "PAGAY", "CANOZ", "GOSAT", "SIFTO", "VIDNO"]
   SID: "SIFT1C"
 # ELSI1C
 - if:
     runway: ["36"]
-    waypoint: ["XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
+    waypoint: ["ELSI1C", "XOLRO", "URPUP", "ALPOM", "DYSON", "DUSOV", "VOLEB", "TAJIO", "ELSIP", "CPE", "ILELA", "LERMA", "DELKU", "MTT"]
   SID: "ELSI1C"
 # VIVE1E
 - if:
     runway: ["36"]
-    waypoint: ["ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
+    waypoint: ["VIVE1E", "VIVE2B", "ESTUP", "VIVEP", "MEDOS", "UBVOV", "ELURA"]
   SID: "VIVE1E"
 # ISAR1C
 - if:
     runway: ["36"]
-    waypoint: ["RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM"]
+    waypoint: ["ISAR1C", "RUDM2C", "PERG2C", "RUDMI", "AVOMA", "DUTNA", "PERGO", "XUBSU", "HALOT", "MARUS", "GABAT", "ISARO", "COFRE", "LIDAM", "TAM", "SESNO", "MAM"]
   SID: "ISAR1C"
 # NAPL1C
 - if:
     runway: ["36"]
-    waypoint: ["SISAL", "NAPLA", "MESNA", "KEHLI"]
+    waypoint: ["NAPL1C", "SISA3C", "SISAL", "NAPLA", "MESNA", "KEHLI"]
   SID: "NAPL1C"
 
 # Departure Frequencies
