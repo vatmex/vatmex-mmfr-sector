@@ -86,6 +86,13 @@
             <param name="aerodrome">ICAO code.</param>
             <returns>Aerodrome type.</returns>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.CircuitBayEnabled(System.String)">
+            <summary>
+            Determines if this aerodrome list should have the circuit bay enabled.
+            </summary>
+            <param name="aerodrome">ICAO Code.</param>
+            <returns>Activity status.</returns>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager"/> class.
@@ -1402,6 +1409,11 @@
             Gets or sets type of aerodrome.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList.EnableCircuit">
+            <summary>
+            Gets or sets whether the circuit should be enabled.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList.Aerodromes">
             <summary>
             Gets or sets aerodrome ICAO codes.
@@ -2691,9 +2703,6 @@
             Marks the server as desynchronised when effecting an aerodrome change.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Dispose">
-            <inheritdoc/>
-        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.CreateCacheDTO">
             <summary>
             Creates the cache data transfer object.
@@ -2719,6 +2728,9 @@
             <summary>
             Client is reconnecting.
             </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.DisposeAsync">
+            <inheritdoc/>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Strip">
             <summary>
