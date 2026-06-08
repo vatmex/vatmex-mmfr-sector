@@ -38,17 +38,20 @@
     </Map>
     <Map Type="System" Name="MMTL - Pista 30 - Llegadas RNAV (Nombres)" Priority="2" Center="+203119.430-0865545.400">
         <Label HasLeader="true">
-            <Point>ANADI</Point>
-            <Point>ANIKO</Point>
-            <Point>EMOSA</Point>
             <Point>ESKIE</Point>
-            <Point>IMUBI</Point>
             <Point>OTREL</Point>
-            <Point>VIGTU</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>ILUBA</Point>
         </Label>        
+
+        <Label HasLeader="false">
+            <Point>ANADI</Point>
+            <Point>ANIKO</Point>
+            <Point>EMOSA</Point>
+            <Point>IMUBI</Point>
+            <Point>VIGTU</Point>
+        </Label>
     </Map>
     <Map Type="System" Name="MMTL - Pista 30 - RNP 30" Priority="1" Center="+203119.430-0865545.400">
         <Line Name="OTREL/RWY" Pattern="Solid">OTREL/TL420/TL410/+200951.240-0873844.220</Line>
@@ -100,7 +103,12 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMTL - Pista 30 - Salidas RNAV (Nombres)" Priority="2" Center="+203119.430-0865545.400">
-        <Label HasLeader="true">
+
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>ILUBA</Point>
+        </Label>        
+
+        <Label HasLeader="false">
             <Point>ALSUP</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
@@ -108,8 +116,5 @@
             <Point>TAKUX</Point>
             <Point>XOLPO</Point>
         </Label>
-        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
-            <Point>ILUBA</Point>
-        </Label>        
     </Map>
 </Maps>

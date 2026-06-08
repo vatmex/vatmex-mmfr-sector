@@ -33,11 +33,14 @@
             <Point>TO634</Point>
         </Symbol>
         <Label>
-            <Point>ELILA</Point>
             <Point>GAINY</Point>
+        </Label>        
+
+        <Label HasLeader="false">
+            <Point>ELILA</Point>
             <Point>ITLAS</Point>
             <Point>LENUL</Point>
-        </Label>        
+        </Label>
     </Map>
 <!--    <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="GAINYR340" Pattern="Solid">
@@ -217,12 +220,15 @@
         </Symbol>
         <Label>
             <Point>OMPER</Point>
-            <Point>OVAGO</Point>
             <Point>PURAL</Point>
+        </Label>        
+
+        <Label HasLeader="false">
+            <Point>OVAGO</Point>
             <Point>SEBON</Point>
             <Point>TEVOS</Point>
             <Point>ULEBA</Point>
-        </Label>        
+        </Label>
     </Map>
 <!--    <Map Type="Filled" Name="MMTO - Sector Aproximacion [Fondo]">
         <Infill CustomColourName="RadarAirway" Priority="1">

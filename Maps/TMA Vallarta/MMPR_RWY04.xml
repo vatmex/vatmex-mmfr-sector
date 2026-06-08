@@ -39,9 +39,14 @@
         <Label HasLeader="true">
             <Point>MAYTE</Point>
             <Point>RORPO</Point>
-            <Point>TNY</Point>
             <Point>NOTUP</Point>
             <Point>KEDMA</Point>
+        </Label>
+
+        <Label HasLeader="false">
+            <Point>TNY</Point>
+        </Label>
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
             <Point>OBRUG</Point>
             <Point>KEDIX</Point>
         </Label>
@@ -105,8 +110,11 @@
     </Map>
     <Map Type="System" Name="Pista 04 - Salidas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
         <Label HasLeader="false">
-            <Point>BOBDI</Point>
             <Point>XUDED</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>BOBDI</Point>
             <Point>LIPEP</Point>
             <Point>VOLAT</Point>
         </Label>

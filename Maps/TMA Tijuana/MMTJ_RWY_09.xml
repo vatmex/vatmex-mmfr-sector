@@ -17,9 +17,14 @@
     </Map>
     <Map Type="System" Name="Pista 09 - Llegadas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
         <Label>
+            <Point>TUBUS</Point>
+        </Label>
+
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>TANRI</Point>
             <Point>TOVES</Point>
-            <Point>TUBUS</Point>
+        </Label>
+        <Label HasLeader="false">
             <Point>ELUBA</Point>
             <Point>KREPE</Point>
             <Point>ULDUD</Point>

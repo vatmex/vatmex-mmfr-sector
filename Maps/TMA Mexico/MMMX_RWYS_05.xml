@@ -35,14 +35,17 @@
         <Label HasLeader="false">
             <Point>ALMIS</Point>
             <Point>EPRIM</Point>
-	        <Point>UKTEN</Point>
+            <Point>UKTEN</Point>
             <Point>URNOK</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>ENAGA</Point>
             <Point>DARAN</Point>
+            <Point>ESPOS</Point>
+        </Label>
+
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Left">
             <Point>LARLO</Point>
-            <Point>ESPOS</Point>        
         </Label>
     </Map>
 <!--    <Map Type="System" Name="[MMMX - Pistas 05 - Llegadas RNAV (Nombres)]" Priority="1" Center="+192617.580-0990407.680">

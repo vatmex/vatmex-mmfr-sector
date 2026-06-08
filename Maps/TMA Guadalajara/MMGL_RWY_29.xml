@@ -43,22 +43,29 @@
             <Point>GL980</Point>
         </Symbol>
         <Label HasLeader="True">
-            <Point>IGSON</Point>
-            <Point>VOLAT</Point>
-            <Point>KASUP</Point>
-            <Point>AMULA</Point>
-            <Point>MEZCA</Point>
-            <Point>MUTEM</Point>
-            <Point>USBIM</Point>
             <Point>OTETA</Point>
-            <Point>LONVA</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>APRIM</Point>
             <Point>SEKIS</Point>
             <Point>PLADE</Point>
-            <Point>IKBAN</Point>
         </Label>        
+
+        <Label HasLeader="true">
+            <Point>IGSON</Point>
+            <Point>VOLAT</Point>
+            <Point>MEZCA</Point>
+            <Point>MUTEM</Point>
+        </Label>
+        <Label HasLeader="false">
+            <Point>KASUP</Point>
+            <Point>USBIM</Point>
+            <Point>LONVA</Point>
+            <Point>IKBAN</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>AMULA</Point>
+        </Label>
     </Map>
     <Map Type="System" Name="Pistas 29 - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="PLADER022">+202353.280-1030101.559/+204555.865-1024831.278</Line>
@@ -263,15 +270,17 @@
             <Point>SEDEM</Point>
         </Symbol>
         <Label HasLeader="true">
+            <Point>NOTUP</Point>
+        </Label>
+
+        <Label HasLeader="false">
             <Point>EMIRI</Point>
             <Point>KELVA</Point>
             <Point>LONKU</Point>
-            <Point>NOTUP</Point>
             <Point>OTOKI</Point>
-        </Label>
-        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>FEISE</Point>
             <Point>SEDEM</Point>
-        </Label>            
+        </Label>
+            
     </Map>
 </Maps>

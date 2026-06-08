@@ -148,8 +148,11 @@
     <Map Type="System" Name="Aeropuerto - Fijos 28 (Nombres)" Priority="1" Center="+240421.890-1102145.150">
         <Label HasLeader="false">
             <Point>AMUDI</Point>
-            <Point>AXASA</Point>
             <Point>ONDUM</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>AXASA</Point>
         </Label>
     </Map>
 </Maps>

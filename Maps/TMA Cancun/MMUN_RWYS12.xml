@@ -45,10 +45,7 @@
             <Point>VOMAR</Point>
         </Symbol>
         <Label HasLeader="true">
-            <Point>XUDUN</Point>
             <Point>ERDAM</Point>
-            <Point>BEPOR</Point>
-            <Point>BUBUN</Point>
             <Point>URVEN</Point>
         </Label>
         <Label LabelOrientation="SW" HasLeader="true">
@@ -69,18 +66,24 @@
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>HACHO</Point>
             <Point>NOSAT</Point>
-            <Point>LETIS</Point>
-            <Point>APMUS</Point> 
-            <Point>AGNIX</Point>
-            <Point>EPNEL</Point>
+            <Point>APMUS</Point>
             <Point>VOMAR</Point>
             <Point>UN511</Point>
             <Point>UN523</Point>
-            <Point>HURIN</Point>        
+            <Point>HURIN</Point>
             <Point>OVGED</Point>
             <Point>SIGMA</Point>
             <Point>PAULE</Point>
             <Point>ILUBA</Point>
+            <Point>XUDUN</Point>
+        </Label>
+
+        <Label HasLeader="false">
+            <Point>BEPOR</Point>
+            <Point>BUBUN</Point>
+            <Point>LETIS</Point>
+            <Point>AGNIX</Point>
+            <Point>EPNEL</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas Sur" Priority="1" Center="+210216.667-0865152.015">
@@ -374,17 +377,17 @@
         <Symbol Type="Circle">
             <Point>CZM</Point>
         </Symbol>
-        <Label HasLeader="True">
+
+        <Label HasLeader="false">
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
             <Point>ALSUP</Point>
             <Point>ROTGI</Point>
             <Point>TAKUX</Point>
             <Point>UDGUV</Point>
-            <Point>CZM</Point>        
-        </Label>
-        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>CZM</Point>
             <Point>HECAT</Point>
         </Label>
+
     </Map>
 </Maps>

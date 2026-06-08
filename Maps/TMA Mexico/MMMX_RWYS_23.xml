@@ -46,18 +46,21 @@
             <Point>DUSGO</Point>
             <Point>VIKSA</Point>
             <Point>MX403</Point>
-            <Point>PBC</Point>
         </Label>
         <Label HasLeader="false">
             <Point>ESTIN</Point>
             <Point>VIKSA</Point>
             <Point>MX403</Point>
             <Point>PBC</Point>
+            <Point>PBC</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>DARAN</Point>
             <Point>ENAGA</Point>
             <Point>ESPOS</Point>
+        </Label>
+
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Left">
             <Point>LARLO</Point>
         </Label>
     </Map>
@@ -390,6 +393,10 @@
             <Point>USBAN</Point>
         </Symbol>
         <Label>
+            <Point>RAKEM</Point>
+        </Label>        
+
+        <Label HasLeader="false">
             <Point>ATURO</Point>
             <Point>AXIRI</Point>
             <Point>IKLAN</Point>
@@ -400,8 +407,7 @@
             <Point>TEVOS</Point>
             <Point>UKUNO</Point>
             <Point>ULEBA</Point>
-            <Point>RAKEM</Point>
-        </Label>        
+        </Label>
     </Map>
 <!--    <Map Type="System" Name="[MMMX - Pistas 23 - Salidas RNAV (Nombres)]" Priority="2" Center="+192617.580-0990407.680">
         <Label>

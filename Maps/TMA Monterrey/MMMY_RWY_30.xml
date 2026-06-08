@@ -51,11 +51,15 @@
             <Point>WICLO</Point>
             <Point>MY403</Point>
         </Label>
-        <Label HasLeader="true">
+
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
             <Point>NOTAL</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
             <Point>ITPIS</Point>
             <Point>RETOS</Point>
-        </Label>             
+        </Label>
+             
     </Map>
 
  <!-- Disabled   <Map Type="System" Name="MMMY - Pista 30 - ILS W 30" Priority="1" Center="+284208.380-1055746.670">
@@ -178,11 +182,13 @@ MY408</Line>
             <Point>MY606</Point>
             <Point>RALLO</Point>
         </Symbol>
-        <Label HasLeader="true">
+
+        <Label HasLeader="false">
             <Point>DAJOR</Point>
             <Point>DOTOR</Point>
             <Point>GRALA</Point>
             <Point>KERGA</Point>
-        </Label>        
+        </Label>
+        
     </Map>
 </Maps>

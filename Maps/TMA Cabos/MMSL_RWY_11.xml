@@ -29,8 +29,11 @@
     <Map Type="System" Name="MMSL - Pista 11 - Llegadas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
         <Label HasLeader="false">
             <Point>ALRIN</Point>
-            <Point>ENEKO</Point>
             <Point>ILIGA</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>ENEKO</Point>
             <Point>LEPOM</Point>
         </Label>
     </Map>
