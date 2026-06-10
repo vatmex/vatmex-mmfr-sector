@@ -5774,13 +5774,22 @@
                 <Sector Name="MFRC" />
             </Sectors>
             <Maps>
+                <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion (Nombres)" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Volcanes" />
+                <Map Name="[Universal]/Fondos - Terminales" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
                 <Map Name="[FIR]/Limites - MMFR" />
                 <Map Name="[FIR]/Limites - MMFO" />
+                <Map Name="[FIR]/Limites - CTA Mazatlan" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />
+                <Map Name="[FIR]/Limites - CTA Monterrey" />
+
             </Maps>
             <Strips Mode="State" Sort="Alpha">
                 <Window Type="State" State="Jurisdiction" Visible="true" />
