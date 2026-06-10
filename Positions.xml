@@ -4568,11 +4568,10 @@
                 <Map Name="[FIR]/Limites - CTA Mexico" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Fondos - Terminales" />
                 <Map Name="[Universal]/Limites - Terminales" />
-                <Map Name="[Universal]/Sector - Aerovias" />   
-
+                <Map Name="[Universal]/Sector - Aerovias" />
             </Maps>
             <!--
             <ATIS>
@@ -4620,7 +4619,7 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Fondos - Terminales" />
             </Maps>
             <!--
@@ -4668,7 +4667,7 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Fondos - Terminales" />           
             </Maps>
             <!--
@@ -4717,7 +4716,7 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Fondos - Terminales" />             
             </Maps>
             <!--
@@ -5620,7 +5619,7 @@
         </Position>
 
         <!-- ACC Monterrey -->
-        <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5"  DynamicInfill="true">
+        <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5"  DynamicInfill="false">
             <Sectors>
                 <Sector Name="MTYC" />
                 <Sector Name="MTY1" />
@@ -5632,9 +5631,11 @@
             <Maps>
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[FIR]/Limites - CTA Monterrey" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[FIR]/Limites - CTA Monterrey" />
             </Maps>
             <!--
             <ATIS>
@@ -5647,7 +5648,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
+            <CFL QuickLevel="4800">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
             <!--
@@ -5676,13 +5677,13 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Sector - Flows" />
-                <Map Name="[Universal]/Sector - Radioayudas" />
-                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
             </Maps>
             <!--
             <ATIS>
@@ -5695,7 +5696,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
+            <CFL QuickLevel="4800">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
             <!--
@@ -5725,13 +5726,13 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Sector - Flows" />
-                <Map Name="[Universal]/Sector - Radioayudas" />
-                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
             </Maps>
             <!--
             <ATIS>
@@ -5744,7 +5745,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
+            <CFL QuickLevel="4800">
                 <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
             </CFL>
             <!--
