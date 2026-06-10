@@ -117,7 +117,7 @@
     <Sector FullName="Aproximacion Mexico Combinado" Frequency="121.200" Callsign="MMMX_APP" Name="MAPPC">
 <!--        <Volumes>MXAC</Volumes> -->
 <!--        <Volumes>MMMX_TMA</Volumes> -->
-        <ResponsibleSectors>MXARR5,MXARR23,MAPP5,MAPP23,MXFNA5,MXFNA23,MXDEP5,MXDEP23,SMAPP4,SMAPP22,TOAPP,PBAPP</ResponsibleSectors>
+        <ResponsibleSectors>MXARR5,MAPP5,MXFNA5,MXDEP5,SMAPP4,TOAPP,PBAPP</ResponsibleSectors>
     </Sector>
 
     <!--Prioritarios CUN TMA-->
@@ -145,6 +145,9 @@
     <Sector FullName="Salidas Cancun 30" Frequency="124.200" Callsign="MMUN_30_DEP" Name="UNDEC30" DisplayInHandoffWindow="False">
         <ResponsibleSectors>UNDEN30,UNDES30,UNDEW30</ResponsibleSectors>
     </Sector>
+    <Sector FullName="Aproximacion Cancun Combinado" Frequency="124.700" Callsign="MMUN_APP" Name="UNAPP">
+        <ResponsibleSectors>UNAPP12,UNARR12,UNFNA12,UNDEC12</ResponsibleSectors>
+    </Sector>    
 
 
     <!--Centro de Control Mazatlan-->
@@ -338,10 +341,10 @@
     </Sector>
     <Sector FullName="Salidas Cancun Oeste 30" Frequency="120.800" Callsign="MMUN_W30_DEP" Name="UNDEW30" DisplayInHandoffWindow="False">
         <Volumes>UNDEPW30</Volumes>
-    </Sector>    
-    <Sector FullName="Aproximacion Cancun Combinado" Frequency="124.700" Callsign="MMUN_APP" Name="UNAPP">
-        <ResponsibleSectors>UNAPP12,UNARR12,UNAPP30,UNARR30,UNFNA12,UNFNA30,UNDEC12,UNDEC30</ResponsibleSectors>
     </Sector>
+    <Sector FullName="Aproximacion Cancun Combinado" Frequency="124.700" Callsign="MMUN_30_APP" Name="UNAP2" DisplayInHandoffWindow="False">
+        <ResponsibleSectors>UNAPP30,UNARR30,UNFNA30,UNDEC30</ResponsibleSectors>
+    </Sector>    
     <Sector FullName="Torre Villahermosa" Frequency="118.700" Callsign="MMVA_TWR" Name="VATW1" DisplayInHandoffWindow="False">
         <Volumes>MMVA_CTR</Volumes>
     </Sector>
