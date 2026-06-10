@@ -74,7 +74,7 @@
                 <Departure Values="MMCZ">
                     <Rules>
                         <Default>
-                            <AssignSector Order="UNDEW,UNDEP,UNAPP,MID2,MIDW,MIDC"/>
+                            <AssignSector Order="UNDEW30,UNDEW12,UNDEC30,UNDEC12,UNAPP"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -85,7 +85,7 @@
                 <Departure Values="MMTL">
                     <Rules>
                         <Default>
-                            <AssignSector Order="UNDEW,UNDEP,UNAPP,MID2,MIDW,MIDC"/>
+                            <AssignSector Order="UNDEW30,UNDEW12,UNDEC30,UNDEC12,UNAPP"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -107,7 +107,7 @@
                 <Departure Values="MMUN">
                     <Rules>
                         <Default>
-                            <AssignSector Order="UNDEP,UNAP1,UNAPP,MID3,MIDE,MIDW,MIDC"/>
+                            <AssignSector Order="UNDEC30,UNDEC12,UNAPP"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -141,7 +141,7 @@
                 <Departure Values="MMGL">
                     <Rules>
                         <Default>
-                            <AssignSector Order="GLAPP,GLTML,MEX6,MEXW,MEXC"/>
+                            <AssignSector Order="GLDEP,GLTML,GLAPP"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -163,7 +163,7 @@
                 <Departure Values="MMMX">
                     <Rules>
                         <Default>
-                            <AssignSector Order="MXDEP5,MXDEP23,MARR5,MARR23,MAPPC"/>
+                            <AssignSector Order="MXDEP5,MXDEP23,MXARR5,MXARR23,MAPPC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -174,7 +174,7 @@
                 <Departure Values="MMSM">
                     <Rules>
                         <Default>
-                            <AssignSector Order="SMAPP4,SMAPP22,MXDEP5,MXDEP23,MARR5,MARR23,MAPPC"/>
+                            <AssignSector Order="SMAPP4,SMAPP22,MXDEP5,MXDEP23,MXARR5,MXARR23,MAPPC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -185,7 +185,7 @@
                 <Departure Values="MMTO">
                     <Rules>
                         <Default>
-                            <AssignSector Order="TOAPP,MXDEP5,MXDEP23,MARR5,MARR23,MAPPC"/>
+                            <AssignSector Order="TOAPP,MXDEP5,MXDEP23,MXARR5,MXARR23,MAPPC"/>
                         </Default>
                     </Rules>
                 </Departure>
