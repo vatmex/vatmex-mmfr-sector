@@ -19,7 +19,7 @@
         </Volumes>
     <ResponsibleSectors>SMAPP4</ResponsibleSectors>
     </Sector>
-    <Sector FullName="Llegadas Mexico 23" Frequency="129.650" Callsign="MMMX_T23_APP" Name="MXARR23" DIsplayInHandoffWindow="False">
+    <Sector FullName="Llegadas Mexico 23" Frequency="129.650" Callsign="MMMX_T23_APP" Name="MXARR23" DisplayInHandoffWindow="False">
         <Volumes>
             ARRN23_115_295_6,
             ARRN23_135_175_4,
@@ -450,7 +450,7 @@
     <Sector FullName="Torre Puebla" Frequency="118.200" Callsign="MMPB_TWR" Name="PBTW1" DisplayInHandoffWindow="False">
         <Volumes>MMPB_CTR</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP">
+    <Sector FullName="Aproximacion Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP" DisplayInHandoffWindow="False">
         <Volumes>APPPB_085_145_1,APPPB_085_175_2</Volumes>
     </Sector>
     <Sector FullName="Torre Pachuca" Frequency="122.900" Callsign="MMPC_TWR" Name="PCTW1" DisplayInHandoffWindow="False">
@@ -465,7 +465,7 @@
     <Sector FullName="Torre Santa Lucia" Frequency="118.300" Callsign="MMSM_TWR" Name="SMTW1" DisplayInHandoffWindow="False">
         <Volumes>MMSM_CTR</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Lucia 04" Frequency="119.000" Callsign="MMSM_APP" Name="SMAPP4">
+    <Sector FullName="Aproximacion Lucia 04" Frequency="119.000" Callsign="MMSM_APP" Name="SMAPP4" DisplayInHandoffWindow="False">
         <Volumes>
             APPFSM5_085_175_1,
             APPSM5_135_185_5,
@@ -494,7 +494,7 @@
     <Sector FullName="Torre Toluca" Frequency="118.000" Callsign="MMTO_TWR" Name="TOTW1" DisplayInHandoffWindow="False">
         <Volumes>MMTO_CTR</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOAPP">
+    <Sector FullName="Aproximacion Toluca" Frequency="119.350" Callsign="MMTO_APP" Name="TOAPP" DisplayInHandoffWindow="False">
         <Volumes>APPTO_085_205_4,APPTO_095_145_3,APPTO_095_175_5,APPTO_115_165_1,APPTO_115_205_2</Volumes>
     </Sector>
     <Sector FullName="Autorizacion Mexico" Frequency="122.100" Callsign="MMMX_DEL" Name="MXCDL" DisplayInHandoffWindow="False">
@@ -547,7 +547,7 @@
     <Sector FullName="Aproximacion Vallarta" Frequency="119.000" Callsign="MMPR_APP" Name="PRAPP">
         <Volumes>MMPR_TMA</Volumes>
     </Sector>
-    <Sector FullName="Terminal Vallarta" Frequency="121.300" Callsign="MMPR_T_APP" Name="PRTMA">
+    <Sector FullName="Terminal Vallarta" Frequency="121.300" Callsign="MMPR_T_APP" Name="PRTMA" DisplayInHandoffWindow="False">
         <Volumes>MMPR_TMA</Volumes>
     </Sector>
     <!--MMPR TMA-->
