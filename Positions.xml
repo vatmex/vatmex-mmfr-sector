@@ -5814,17 +5814,17 @@
         </Position>
     </Group>
 
-    <Group Name="FNO MEX TMA">
+    <Group Name="FNO MEX APP">
         <Position Name="Llegadas Mexico - MARR1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
             <Sector Name="MXARR5" />
             <Sector Name="SMAPP4" />
         </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Llegadas [Contorno]" />
+                <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Llegadas" />
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Llegadas [Fondo]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
             </Maps>
@@ -5864,12 +5864,13 @@
             <Sector Name="MAPP5" />
         </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Z 05R" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Aproximacion [Contorno]" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
+                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Aproximacion" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
             </Maps>
             <!--
@@ -5905,17 +5906,18 @@
         </Position>
         <Position Name="Final Mexico - MXFN1" Type="ASD" DefaultCenter="+192322.968-0990906.781" DefaultRange="80" MagneticVariation="-4" VisibilityRange="100">
             <Sectors>
-            <Sector Name="MXFN5" />
+            <Sector Name="MXFNA5" />
         </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Z 05R" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Final [Contorno]" />
+                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Final" />
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Final [Fondo]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
             </Maps>
             <!--
             <ATIS>
@@ -5948,12 +5950,98 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Salidas Mexico - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="250" MagneticVariation="-4" VisibilityRange="100"  DynamicInfill="true">
+            <Sectors>
+            <Sector Name="MXDEP5" />
+            <Sector Name="TOAPP" />
+            <Sector Name="PBAPP" />
+        </Sectors>
+            <Maps>
+                <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
+                <Map Name="TMA Mexico/ Aeropuerto - Volcanes" />
+                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas" />
+                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas [Fondo]" />
+                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="TMA Mexico/MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
+            </Maps>
+            <!--
+            <ATIS>
+                <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
+                <Window Airport="MMMX" />
+            </ATIS>
+            -->
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="29000">
+                <AdditionalLevels>8200,9200</AdditionalLevels>
+            </CFL>
+            <!--
+            <ArrivalLists>
+                <Airport Name="MMMX" />
+            </ArrivalLists>
+            -->
+            <ControllerInfo>
+                <Line>Salidas Mexico / Mexico Departures</Line>
+                <Line>Serving MEX departures,</Line>
+                <Line>and TLC and PBC arrivals and departures</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+200937.407-0994825.774</Point>
+                <Point>+200705.803-0981718.702</Point>
+                <Point>+184503.035-0995049.146</Point>
+                <Point>+184239.210-0981947.677</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="Salidas Guadalajara - GLDEP" Type="ASD" DefaultCenter="+203649.320-1031746.800" DefaultRange="250" MagneticVariation="-6" VisibilityRange="150">
+            <Sectors>
+                <Sector Name="GLDEP" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
+                <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Guadalajara/ Pistas 29 - Salidas RNAV" />
+            </Maps>
+            <!--
+            <ATIS>
+                <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
+                <Window Airport="MMGL" />
+            </ATIS>
+            -->
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="23000">
+                <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+            </CFL>
+            <!--
+            <ArrivalLists>
+                <Airport Name="MMGL" />
+            </ArrivalLists>
+            -->
+            <ControllerInfo>
+                <Line>Salidas Guadalajara / Guadalajara Departures</Line>
+                <Line>Serving MMGL departures</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+203118.494-1031839.996</Point>
+            </ManualVisibility>
+        </Position>        
     </Group>
 
-    <Group Name="FNO CUN TMA">
+    <Group Name="FNO CUN APP">
         <Position Name="Llegadas Cancun - UNAR1" Type="ASD" DefaultCenter="+212236.581-0865955.706" DefaultRange="230" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
-                <Sector Name="UNAR1" />
+                <Sector Name="UNARR12" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
@@ -5995,7 +6083,7 @@
         </Position>
         <Position Name="Final Cancun - UNAF1" Type="ASD" DefaultCenter="+211722.581-0870835.706" DefaultRange="120" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
-                <Sector Name="UNAF12" />
+                <Sector Name="UNFNA12" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
@@ -6039,7 +6127,7 @@
         </Position>
         <Position Name="Aproximacion Cancun - UNAP1" Type="ASD" DefaultCenter="+212007.581-0865350.706" DefaultRange="180" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
-                <Sector Name="UNAP12" />
+                <Sector Name="UNAPP12" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
@@ -6085,7 +6173,10 @@
         </Position>
         <Position Name="Salidas Cancun - UNDEP" Type="ASD" DefaultCenter="+204508.581-0864526.706" DefaultRange="290" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
             <Sectors>
-                <Sector Name="UNDEP" />
+                <Sector Name="UNDEC12" />
+                <Sector Name="UNDEN12" />
+                <Sector Name="UNDES12" />
+                <Sector Name="UNDEW12" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
