@@ -9144,7 +9144,7 @@
             <Route Runway="22C">SM721 SM722 SM730 SM732 MX513 ULOTO TEVOS</Route>
         </SID>
         <SID Name="ULEB2G" Airport="MMSM" Runways="22C">
-            <Route Runway="22C">SM721 SM722 SM724 SM726 SM865 ULEBA</Route>
+            <Route Runway="22C">SM721 SM722 SM724 SM726 MX865 ULEBA</Route>
         </SID>
         <SID Name="OVAG2G" Airport="MMSM" Runways="22C">
             <Route Runway="22C">SM721 SM722 SM724 SM726 MX865 OVAGO</Route>
@@ -9218,7 +9218,7 @@
             <Route Runway="22R">SM720 SM722 SM730 SM732 MX513 ULOTO TEVOS</Route>
         </SID>
         <SID Name="ULEB2H" Airport="MMSM" Runways="22R">
-            <Route Runway="22R">SM720 SM722 SM724 SM726 SM865 ULEBA</Route>
+            <Route Runway="22R">SM720 SM722 SM724 SM726 MX865 ULEBA</Route>
         </SID>
         <SID Name="OVAG2H" Airport="MMSM" Runways="22R">
             <Route Runway="22R">SM720 SM722 SM724 SM726 MX865 OVAGO</Route>
@@ -9230,25 +9230,41 @@
             <Route Runway="22R">SM720 SM722 SM724 SM726 RAKEM KATMI</Route>
         </SID>
         <!-- MMSM-SID-8 -->
-        <SID Name="TEVO1J" Airport="MMSM" Runways="04C,04L">
-            <Route Runway="04C">SM501 SM505 SM507 SM520 SM522 SM524 SM526 TEVOS</Route>
-            <Route Runway="04L">SM500 SM502 SM508 SM520 SM522 SM524 SM526 TEVOS</Route>
+        <SID Name="ATUR1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM742 SM744 SM506 OTMAL ATURO</Route>
         </SID>
-        <SID Name="KATM1E" Airport="MMSM" Runways="04C,04L">
-            <Route Runway="04C">SM501 SM505 SM507 SM520 SM530 SM532 SM534 SM536 KATMI</Route>
-            <Route Runway="04L">SM500 SM502 SM508 SM520 SM530 SM532 SM534 SM536 KATMI</Route>
+        <SID Name="AXIR1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM742 SM744 SM506 OTMAL AXIRI</Route>
         </SID>
-        <SID Name="SEBO1J" Airport="MMSM" Runways="04C,04L">
-            <Route Runway="04C">SM501 SM505 SM507 SM520 SM530 SM532 RAKEM MASAP SEBON</Route>
-            <Route Runway="04L">SM500 SM502 SM508 SM520 SM530 SM532 RAKEM MASAP SEBON</Route>
+        <SID Name="IKLA1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM742 SM744 SM506 OTMAL IKLAN</Route>
         </SID>
-        <SID Name="OVAG1J" Airport="MMSM" Runways="04C,04L">
-            <Route Runway="04C">SM501 SM505 SM507 SM520 SM530 SM532 RAKEM ESVOR OVAGO</Route>
-            <Route Runway="04L">SM500 SM502 SM508 SM520 SM530 SM532 RAKEM ESVOR OVAGO</Route>
+        <SID Name="LORS1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM742 SM510 SM512 LORSU</Route>
         </SID>
-        <SID Name="ULEB1J" Airport="MMSM" Runways="04C,04L">
-            <Route Runway="04C">SM501 SM505 SM507 SM520 SM530 SM532 RAKEM SERNU ULEBA</Route>
-            <Route Runway="04L">SM500 SM502 SM508 SM520 SM530 SM532 RAKEM SERNU ULEBA</Route>
+        <SID Name="NOXO1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM742 SM510 SELOX NOXOS</Route>
+        </SID>
+        <SID Name="UKUN1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM742 SM510 SELOX UKUNO</Route>
+        </SID>
+        <SID Name="ILET1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM742 SM510 SELOX ILETO</Route>
+        </SID>
+        <SID Name="TEVO1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM520 SM522 SM524 SM526 TEVOS</Route>
+        </SID>
+        <SID Name="ULEB1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM520 SM530 SM532 RAKEM SERNU ULEBA</Route>
+        </SID>
+        <SID Name="OVAG1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM520 SM530 SM532 RAKEM ESVOR OVAGO</Route>
+        </SID>
+        <SID Name="SEBO1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM520 SM530 SM532 RAKEM MASAP SEBON</Route>
+        </SID>
+        <SID Name="KATM1S" Airport="MMSM" Runways="22R">
+            <Route Runway="22R">SM740 SLM SM520 SM530 SM532 SM534 SM536 KATMI</Route>
         </SID>
         <!-- MMSM-STAR-1 -->
         <STAR Name="VITO2A" Airport="MMSM" Runways="04C,04L">
@@ -9342,9 +9358,6 @@
             <Route>NADUN SM03E SM03S SM04S SM05S SM07S</Route>
         </Approach>
         <!-- MMSM-IAC-2 -->
-        <Approach Name="ILS04LZ.BENAX" Airport="MMSM" Runway="04L">
-            <Route>NADUN SM03E SM03N SM04N SM05N SM07N</Route>
-        </Approach>
         <Approach Name="ILS04LZ.NADUN" Airport="MMSM" Runway="04L">
             <Route>NADUN SM03E SM03N SM04N SM05N SM07N</Route>
         </Approach>
