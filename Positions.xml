@@ -1007,7 +1007,9 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -1052,9 +1054,10 @@
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
-                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
             </Maps>
             <!--
             <ATIS>
@@ -1103,10 +1106,10 @@
                 <Map Name="[FIR]/Limites - CTA Mazatlan" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
-                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[Universal]/Fondos - Terminales" />
-                <Map Name="[Universal]/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="ACC Mazatlan/Fondos - Terminales" />
+                <Map Name="ACC Mazatlan/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
             </Maps>
             <!--
@@ -2085,14 +2088,14 @@
                 <Sector Name="UNDEN12" />
                 <Sector Name="UNDES12" />
                 <Sector Name="UNDEW12" />
-
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Salidas RNAV" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas Sur" />
+                <Map Name="TMA Cancun/z MMUN - Pistas 12 - Sectores Salidas" />                
             </Maps>
             <!--
             <ATIS>
@@ -2115,7 +2118,8 @@
             -->
             <ControllerInfo>
                 <Line>Salidas Cancun / Cancun Departures</Line>
-                <Line>Serving MMUN arrivals and departures</Line>
+                <Line>Serving CUN departures and south arrivals,</Line>
+                <Line>and CZM and TQO arrivals and departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>
@@ -2208,9 +2212,10 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[Universal]/Fondos - Terminales" />
-                <Map Name="[Universal]/Limites - Terminales" />
-                <Map Name="[Universal]/Sector - Aerovias" />                
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="ACC Merida/Fondos - Terminales" />
+                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Aerovias" />  
             </Maps>
             <!--
             <ATIS>
@@ -2255,8 +2260,10 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="ACC Merida/Fondos - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />                
             </Maps>
             <!--
             <ATIS>
@@ -2305,8 +2312,10 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="ACC Merida/Fondos - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />  
             </Maps>
             <!--
             <ATIS>
@@ -3526,12 +3535,10 @@
             <Maps>
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ Aeropuerto - Volcanes" />
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Radar - TMA Mexico" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Z 05R" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
             </Maps>
             <!--
@@ -4565,13 +4572,13 @@
                 <Sector Name="MEX10" />
             </Sectors>
             <Maps>
-                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="ACC Mexico/Fondos - Terminales" />
                 <Map Name="[FIR]/Limites - CTA Mexico" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
-                <Map Name="[Universal]/Fondos - Terminales" />
-                <Map Name="[Universal]/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="ACC Mexico/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
             </Maps>
             <!--
@@ -4616,12 +4623,14 @@
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Split FNO" />
+                <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
-                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="ACC Mexico/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
             </Maps>
             <!--
             <ATIS>
@@ -4664,12 +4673,14 @@
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Split FNO" />
+                <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
-                <Map Name="[Universal]/Fondos - Terminales" />           
+                <Map Name="ACC Mexico/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
             </Maps>
             <!--
             <ATIS>
@@ -4713,12 +4724,14 @@
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
                 <Map Name="ACC Mexico/Split FNO" />
+                <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
-                <Map Name="[Universal]/Fondos - Terminales" />             
+                <Map Name="ACC Mexico/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
             </Maps>
             <!--
             <ATIS>
@@ -5633,10 +5646,11 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
-                <Map Name="[Universal]/Fondos - Terminales" />
-                <Map Name="[Universal]/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[FIR]/Limites - CTA Monterrey" />
+                <Map Name="ACC Monterrey/Fondos - Terminales" />
+                <Map Name="ACC Monterrey/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />                  
             </Maps>
             <!--
             <ATIS>
@@ -5681,10 +5695,12 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Aerovias" />
-                <Map Name="[Universal]/Fondos - Terminales" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="ACC Monterrey/Fondos - Terminales" />
+                <Map Name="ACC Monterrey/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />  
             </Maps>
             <!--
             <ATIS>
@@ -5730,10 +5746,12 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="[Universal]/Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Aerovias" />
-                <Map Name="[Universal]/Fondos - Terminales" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="ACC Monterrey/Fondos - Terminales" />
+                <Map Name="ACC Monterrey/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" /> 
             </Maps>
             <!--
             <ATIS>
@@ -5869,7 +5887,7 @@
                 <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Z 05R" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
+                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Aproximacion" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
             </Maps>
@@ -5917,7 +5935,7 @@
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Final" />
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Final [Fondo]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
+                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
             </Maps>
             <!--
             <ATIS>
@@ -5965,7 +5983,7 @@
                 <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas [Fondo]" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
-                <Map Name="TMA Mexico/MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
+                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
             </Maps>
             <!--
             <ATIS>
@@ -6006,6 +6024,8 @@
             <Maps>
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Guadalajara/ Pistas 29 - ILS X 29L" />
                 <Map Name="TMA Guadalajara/ Pistas 29 - Salidas RNAV" />
             </Maps>
             <!--
@@ -6049,7 +6069,8 @@
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Pista 12L - Final Extendido" />
-                <Map Name="TMA Cancun/Aeropuerto - Sector Aproximacion 12" />
+                <Map Name="TMA Cancun/z MMUN - Pistas 12 - Sectores Llegadas" />
+                <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
             </Maps>
             <!--
             <ATIS>
@@ -6062,7 +6083,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="5000">
+            <CFL QuickLevel="3000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
             <!--
@@ -6091,9 +6112,8 @@
                 <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Llegadas RNAV" />
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
+                <Map Name="TMA Cancun/z MMUN - Pistas 12 - Sectores Final" />
                 <Map Name="TMA Cancun/MMUN - Pista 12L - Final Extendido" />
-                <Map Name="TMA Cancun/Aeropuerto - Sector Final 12" />
             </Maps>
             <!--
             <ATIS>
@@ -6133,13 +6153,10 @@
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
                 <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Llegadas RNAV" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" />
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
                 <Map Name="TMA Cancun/MMUN - Pista 12L - Final Extendido" />
-                <Map Name="TMA Cancun/Aeropuerto - Sector Final 12" />
-                <Map Name="TMA Cancun/Aeropuerto - Sector Aproximacion 12" />
+                <Map Name="TMA Cancun/z MMUN - Pistas 12 - Sectores Aproximacion" />
             </Maps>
             <!--
             <ATIS>
@@ -6163,51 +6180,6 @@
             <ControllerInfo>
                 <Line>Aproximacion Cancun / Cancun Approach</Line>
                 <Line>Serving CUN arrivals</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+213915.943-0875358.220</Point>
-                <Point>+210210.428-0865212.944</Point>
-                <Point>+203028.963-0865441.589</Point>
-            </ManualVisibility>
-        </Position>
-        <Position Name="Salidas Cancun - UNDEP" Type="ASD" DefaultCenter="+204508.581-0864526.706" DefaultRange="290" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
-            <Sectors>
-                <Sector Name="UNDEC12" />
-                <Sector Name="UNDEN12" />
-                <Sector Name="UNDES12" />
-                <Sector Name="UNDEW12" />
-            </Sectors>
-            <Maps>
-                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Salidas RNAV" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L-R - Llegadas Sur" />
-                <Map Name="TMA Cancun/Aeropuerto - Sector Aproximacion 12" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-                <Window Airport="MMUN" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="3000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMUN" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Salidas Cancun / Cancun Departures</Line>
-                <Line>Serving CUN departures and south arrivals,</Line>
-                <Line>and CZM and TQO arrivals and departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
             <ManualVisibility>
