@@ -532,10 +532,13 @@ ALIPA</Line>
     <Map Type="System" Name="MMAS - Pista 18 - Salidas (Nombres)" Priority="1" Center="+203124.320-1031841.798">
         <Label HasLeader="false">
             <Point>AGU</Point>
-            <Point>MEZCA</Point>
             <Point>ALIPA</Point>
             <Point>SETOS</Point>
             <Point>ANILA</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>MEZCA</Point>
         </Label>
     </Map>
 -->

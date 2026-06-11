@@ -36,13 +36,17 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 04 - Llegadas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>MAYTE</Point>
             <Point>RORPO</Point>
-            <Point>PVR</Point>
-
             <Point>NOTUP</Point>
             <Point>KEDMA</Point>
+        </Label>
+
+        <Label HasLeader="false">
+            <Point>TNY</Point>
+        </Label>
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
             <Point>OBRUG</Point>
             <Point>KEDIX</Point>
         </Label>
@@ -79,6 +83,10 @@
         <Line Name="D9" Pattern="Solid">
 +203829.490-1051707.285/
 +203913.310-1051750.951</Line>
+        <Symbol Type="HollowSquare">
+            <Point>PR401</Point>
+            <Point>PR400</Point>
+        </Symbol>
     </Map>
 
     <Map Type="System" Name="Pista 04 - Salidas RNAV" Priority="1" Center="+204048.261-1051515.123">
@@ -98,14 +106,15 @@
             <Point>BOBDI</Point>
             <Point>XUDED</Point>
             <Point>PR506</Point>
-            <Point>LIPEP</Point>
-            <Point>VOLAT</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 04 - Salidas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
         <Label HasLeader="false">
-            <Point>BOBDI</Point>
             <Point>XUDED</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>BOBDI</Point>
             <Point>LIPEP</Point>
             <Point>VOLAT</Point>
         </Label>

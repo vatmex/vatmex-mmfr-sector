@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="MMMY - Pista 12 - Llegadas RNAV" Priority="1" Center="+284208.380-1055746.670">
+    <Map Type="System" Name=" MMMY - Pista 12 - Llegadas RNAV" Priority="1" Center="+284208.380-1055746.670">
         <Line Name="ITPIS1A" Pattern="Dashed">ITPIS/ULAVA/AGMUM</Line>
         <Line Name="NOTAL1A" Pattern="Dashed">NOTAL/VETNU/NAPNO/AGMUM/KATPO/MEGNA/CURTO/SIKRO/DUXAM/MY600/MY601/TASNA</Line>
         <Line Name="RETOS1A" Pattern="Dashed">RETOS/MIBTA/KATPO</Line>
@@ -36,15 +36,12 @@
             <Point>VETNU</Point>
             <Point>WICLO</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMMY - Pista 12 - Llegadas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
         <Label HasLeader="false">
             <Point>AGMUM</Point>
             <Point>CURTO</Point>
             <Point>DUXAM</Point>
             <Point>ENTRI</Point>
             <Point>ESRAP</Point>
-            <Point>ITPIS</Point>
             <Point>KATPO</Point>
             <Point>MEGNA</Point>
             <Point>MIBTA</Point>
@@ -52,8 +49,6 @@
             <Point>MY600</Point>
             <Point>MY601</Point>
             <Point>NAPNO</Point>
-            <Point>NOTAL</Point>
-            <Point>RETOS</Point>
             <Point>SIKRO</Point>
             <Point>SLW</Point>
             <Point>SUTNA</Point>
@@ -61,9 +56,20 @@
             <Point>ULAVA</Point>
             <Point>VETNU</Point>
             <Point>WICLO</Point>
+            <Point>MY603</Point>
         </Label>
+
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
+            <Point>NOTAL</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>ITPIS</Point>
+            <Point>RETOS</Point>
+        </Label>
+
     </Map>
-    <Map Type="System" Name="MMMY - Pista 12 - RNP 12" Priority="1" Center="+284208.380-1055746.670">
+
+    <Map Type="System" Name=" MMMY - Pista 12 - RNP 12" Priority="1" Center="+284208.380-1055746.670">
         <Line Pattern="Solid">TASNA/+254703.060-1000701.990</Line>
 
         <Line Pattern="Solid">+254708.280-1000816.190/+254759.651-1000741.909</Line>
@@ -83,8 +89,8 @@
             <Point>MY604</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMMY - Pista 12 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
-        <Line Name="DAJOR1A" Pattern="Dotted">+254612.450-1000529.930/MY702/HERSS/ALSEX/PILDA/GUELF/RALLO/AXILO/DAJOR</Line>
+    <Map Type="System" Name=" MMMY - Pista 12 - Salidas RNAV" Priority="1" Center="+254642.810-1000625.150">
+        <Line Name="DAJOR1A" Pattern="Dotted">+254612.450-1000529.930/MY702/+253938.000-1000128.000/HERSS/ALSEX/PILDA/GUELF/RALLO/AXILO/DAJOR</Line>
         <Line Name="DOTOR1A" Pattern="Dotted">MY702/MY700/MY703/DOTOR</Line>
         <Line Name="KERGA1A" Pattern="Dotted">MY702/MY721/KERGA</Line>
         <Line Name="GRALA1A" Pattern="Dotted">PILDA/KIVES/GRALA</Line>
@@ -107,13 +113,13 @@
             <Point>PILDA</Point>
             <Point>RALLO</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMMY - Pista 12 - Salidas RNAV (Nombres)" Priority="1" Center="+284208.380-1055746.670">
+
         <Label HasLeader="false">
             <Point>DAJOR</Point>
             <Point>DOTOR</Point>
             <Point>GRALA</Point>
             <Point>KERGA</Point>
         </Label>
+        
     </Map>
 </Maps>

@@ -26,11 +26,16 @@
     </Map>
     <Map Type="System" Name="Pista 10 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
         <Label HasLeader="false">
-            <Point>ANALU</Point>
-            <Point>ANVAN</Point>
             <Point>APLUR</Point>
             <Point>APREN</Point>
             <Point>ATUMU</Point>
+        </Label>
+
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Left">
+            <Point>ANALU</Point>
+        </Label>
+        <Label HasLeader="true">
+            <Point>ANVAN</Point>
             <Point>AVURO</Point>
         </Label>
     </Map>

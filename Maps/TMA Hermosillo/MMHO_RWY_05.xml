@@ -31,13 +31,16 @@
     <Map Type="System" Name="Pista 05 - Llegadas RNAV (Nombres)" Priority="1" Center="+230846.179-1094317.540">
         <Label HasLeader="false">
             <Point>AVTEN</Point>
-            <Point>BOPAP</Point>
             <Point>HMO</Point>
             <Point>IGTAN</Point>
             <Point>ILUDA</Point>
             <Point>KEKMA</Point>
             <Point>MEBSO</Point>
             <Point>OBRES</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>BOPAP</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 05 - RNP 05" Priority="1" Center="+230846.179-1094317.540">
@@ -102,13 +105,16 @@
     </Map>
     <Map Type="System" Name="Pista 05 - Salidas RNAV (Nombres)" Priority="1" Center="+230956.019-1094320.211">
         <Label HasLeader="false">
-            <Point>BOPAP</Point>
             <Point>GYM</Point>
             <Point>HMO</Point>
             <Point>IGTAN</Point>
             <Point>KEKMA</Point>
             <Point>LIDUK</Point>
             <Point>SEBEK</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>BOPAP</Point>
         </Label>
     </Map>
 </Maps>

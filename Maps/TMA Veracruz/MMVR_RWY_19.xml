@@ -53,17 +53,20 @@
     </Map>
     <Map Type="System" Name="Pista 19 - Llegadas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
         <Label HasLeader="false">
-            <Point>DUPLO</Point>
-            <Point>DURIB</Point>
             <Point>ELIKU</Point>
             <Point>ELOGO</Point>
-            <Point>GOTAS</Point>
             <Point>IKLES</Point>
             <Point>OMPAN</Point>
             <Point>OVUVA</Point>
             <Point>SUVUL</Point>
             <Point>TEVET</Point>
             <Point>VIMRA</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>DUPLO</Point>
+            <Point>DURIB</Point>
+            <Point>GOTAS</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 19 - RNP 19" Priority="1" Center="+192617.580-0990407.680">
@@ -138,15 +141,18 @@
     </Map>
     <Map Type="System" Name="Pista 19 - Salidas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
         <Label HasLeader="false">
-            <Point>DUPLO</Point>
-            <Point>DURIB</Point>
             <Point>ELIKU</Point>
             <Point>ELOGO</Point>
-            <Point>GOTAS</Point>
             <Point>IKLES</Point>
             <Point>NOREL</Point>
             <Point>OMPAN</Point>
             <Point>RERAS</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>DUPLO</Point>
+            <Point>DURIB</Point>
+            <Point>GOTAS</Point>
         </Label>
     </Map>
 </Maps>

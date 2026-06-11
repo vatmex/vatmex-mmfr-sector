@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas RNAV" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name=" MMUN - Pista 12L-R - Llegadas RNAV" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="ILUBA2E" Pattern="Dashed">ILUBA/URVEN/SEDAS/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
         <Line Name="PUALE3G" Pattern="Dashed">PAULE/UN530/HURIN</Line>
         <Line Name="SIGMA2G" Pattern="Dashed">SIGMA/OVGED/ILONI/HURIN/UN523</Line>
@@ -44,24 +44,49 @@
             <Point>VIKSI</Point>
             <Point>VOMAR</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas RNAV (Nombres)" Priority="2" Center="+210216.667-0865152.015">
-        <Label HasLeader="false">
+        <Label HasLeader="true">
+            <Point>ERDAM</Point>
+            <Point>URVEN</Point>
+        </Label>
+        <Label LabelOrientation="SW" HasLeader="true">
             <Point>EBMIS</Point>
-            <Point>ILUBA</Point>
-            <Point>PAULE</Point>
-            <Point>SIGMA</Point>
-
-            <Point>ILUBA</Point>
             <Point>KAROR</Point>
-            <Point>NOSAT</Point>
+        </Label>
+        <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
             <Point>RIDUG</Point>
+        </Label>
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
             <Point>VIKSI</Point>
+        </Label>                 
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Right">
+            <Point>ELINO</Point>
+        </Label>        
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>HACHO</Point>
+            <Point>NOSAT</Point>
+            <Point>APMUS</Point>
             <Point>VOMAR</Point>
+            <Point>UN511</Point>
+            <Point>UN523</Point>
+            <Point>HURIN</Point>
+            <Point>OVGED</Point>
+            <Point>SIGMA</Point>
+            <Point>PAULE</Point>
+            <Point>ILUBA</Point>
             <Point>XUDUN</Point>
         </Label>
+
+        <Label HasLeader="false">
+            <Point>BEPOR</Point>
+            <Point>BUBUN</Point>
+            <Point>LETIS</Point>
+            <Point>AGNIX</Point>
+            <Point>EPNEL</Point>
+        </Label>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas Dep" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas Sur" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="ILUBA2E" Pattern="Dashed">ILUBA/URVEN/SEDAS/UN523/UN511/UN519/UN514/ELINO/EBMIS</Line>
         <Line Name="PUALE3G" Pattern="Dashed">PAULE/UN530/HURIN</Line>
         <Line Name="SIGMA2G" Pattern="Dashed">SIGMA/OVGED/ILONI/HURIN/UN523</Line>        
@@ -71,10 +96,8 @@
             <Point>HURIN</Point>
             <Point>ILONI</Point>
             <Point>ILUBA</Point>
-            <Point>KAROR</Point>
             <Point>OVGED</Point>
             <Point>PAULE</Point>
-            <Point>RIDUG</Point>
             <Point>SEDAS</Point>
             <Point>SIGMA</Point>
             <Point>UN511</Point>
@@ -82,23 +105,27 @@
             <Point>UN519</Point>
             <Point>UN523</Point>
             <Point>URVEN</Point>
-            <Point>VIKSI</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMUN - Pista 12L-R - Llegadas Dep (Nombres)" Priority="2" Center="+210216.667-0865152.015">
-        <Label HasLeader="false">
-            <Point>EBMIS</Point>
-            <Point>ILUBA</Point>
-            <Point>PAULE</Point>
+        <Label>
+            <Point>URVEN</Point>            
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>UN511</Point>
+            <Point>UN523</Point>
+            <Point>HURIN</Point>        
+            <Point>OVGED</Point>
             <Point>SIGMA</Point>
-
+            <Point>PAULE</Point>
             <Point>ILUBA</Point>
-            <Point>KAROR</Point>
-            <Point>RIDUG</Point>
-            <Point>VIKSI</Point>
+        </Label>
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Right">
+            <Point>ELINO</Point>
+        </Label>
+        <Label LabelOrientation="SW" HasLeader="true">
+            <Point>EBMIS</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12L - ILS X 12L" Priority="1" Center="+210216.667-0865152.015">
+    <Map Type="System" Name=" MMUN - Pista 12L - ILS X 12L" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="EBMIS" Pattern="Solid">EBMIS/UN505</Line>
         <Line Name="KAROR" Pattern="Solid">KAROR/UN505</Line>
         <Line Name="VIKSI" Pattern="Solid">VIKSI/UN505</Line>
@@ -166,7 +193,11 @@
             <Point>UN528</Point>
             <Point>UN529</Point>
             <Point>UN532</Point>
-        </Symbol>
+        </Symbol>             
+<!--        <Label HasLeader="false" LabelOrientation="E" VerticalAlignment="Middle" Alignment="Center">
+            <Point>505</Point>
+            <Point>528</Point>
+        </Label>-->
     </Map>
     <Map Type="System2" Name="MMUN - Pista 12L - Final Extendido" Priority="1" Center="+210216.667-0865152.015">
         <Line Name="12L_APPROACH_LINE" Pattern="Broken">
@@ -298,8 +329,12 @@
             <Point>UN540</Point>
             <Point>UN545</Point>
         </Symbol>
+        <Label HasLeader="false" LabelOrientation="S" VerticalAlignment="Top" Alignment="Center">
+            <Point>UN506</Point>
+            <Point>UN540</Point>
+        </Label>        
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12L - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
+    <Map Type="System" Name=" MMUN - Pista 12L-R - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
         <Line Name="ALSUP" Pattern="Dotted">+210226.480-0865132.494/UN402/UN408/CZM/UN431/ALSUP</Line>
         <Line Name="HECAT" Pattern="Dotted">UN415/UN440/UN400/HECAT</Line>
         <Line Name="NOSUG" Pattern="Dotted">+210226.480-0865132.494/UN417/UN406/NOSUG</Line>
@@ -319,7 +354,6 @@
             <Point>ROTGI</Point>
             <Point>SEVKA</Point>
             <Point>TAKUX</Point>
-            <Point>ULBOX</Point>
             <Point>UN400</Point>
             <Point>UN402</Point>
             <Point>UN406</Point>
@@ -343,74 +377,186 @@
         <Symbol Type="Circle">
             <Point>CZM</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMUN - Pista 12L - Salidas RNAV (Nombres)" Priority="2" Center="+210216.667-0865152.015">
+
         <Label HasLeader="false">
-            <Point>CZM</Point>
-            <Point>HECAT</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
             <Point>ALSUP</Point>
             <Point>ROTGI</Point>
             <Point>TAKUX</Point>
             <Point>UDGUV</Point>
+            <Point>CZM</Point>
+            <Point>HECAT</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12R - Salidas RNAV" Priority="1" Center="+210235.014-0865232.438">
-        <Line Name="ALSUP" Pattern="Dotted">+210140.120-0865146.940/UN402/UN408/CZM/UN431/ALSUP</Line>
-        <Line Name="HECAT" Pattern="Dotted">UN415/UN440/UN400/HECAT</Line>
-        <Line Name="NOSUG" Pattern="Dotted">+210140.120-0865146.940/UN417/UN406/NOSUG</Line>
-        <Line Name="NUDAL" Pattern="Dotted">+210140.120-0865146.940/UN415/UN413/SEVKA/NUDAL</Line>
-        <Line Name="ROTGI" Pattern="Dotted">+210140.120-0865146.940/UN412/UN414/UN407/ROTGI</Line>
-        <Line Name="TAKUX" Pattern="Dotted">UN400/ALYRE/TAKUX</Line>
-        <Line Name="UDGUV" Pattern="Dotted">+210140.120-0865146.940/UN418/UN409/UN419/UN432/UDGUV</Line>
-        <Symbol Type="SolidTriangle">
-            <Point>HECAT</Point>
-            <Point>NUDAL</Point>
-            <Point>ALSUP</Point>
-            <Point>UDGUV</Point>
-        </Symbol>
-        <Symbol Type="HollowStar">
-            <Point>ALYRE</Point>
-            <Point>NOSUG</Point>
-            <Point>ROTGI</Point>
-            <Point>SEVKA</Point>
-            <Point>TAKUX</Point>
-            <Point>ULBOX</Point>
-            <Point>UN400</Point>
-            <Point>UN402</Point>
-            <Point>UN406</Point>
-            <Point>UN407</Point>
-            <Point>UN408</Point>
-            <Point>UN409</Point>
-            <Point>UN412</Point>
-            <Point>UN413</Point>
-            <Point>UN414</Point>
-            <Point>UN415</Point>
-            <Point>UN417</Point>
-            <Point>UN418</Point>
-            <Point>UN419</Point>
-            <Point>UN431</Point>
-            <Point>UN432</Point>
-            <Point>UN440</Point>
-        </Symbol>
-        <Symbol Type="HollowSquare">
-            <Point>CZM</Point>
-        </Symbol>
-        <Symbol Type="Circle">
-            <Point>CZM</Point>
-        </Symbol>
+
+<Map Type="System2" Pattern="Solid" Priority="1" Width="0.7" CustomColourName="White" Name="z MMUN - Pistas 12 - Sectores Salidas">
+        <Line Width="0.7">  
++205453.166-0865521.268/
++204942.278-0864650.931/
++203256.650-0864411.315/
++202606.588-0862304.458/
++203659.897-0862840.477/
++203935.048-0863627.075/
++205404.801-0863857.692/
++210339.184-0864037.408/
++210625.953-0863641.623/
++212757.591-0860609.100/
++212542.447-0860443.816/
++212323.321-0860326.225/
++212100.596-0860216.542/
++211834.662-0860114.957/
++211605.919-0860021.639/
++211334.776-0855936.733/
++211101.646-0855900.364/
++210826.949-0855832.630/
++210551.110-0855813.608/
++210314.554-0855803.349/
++210037.713-0855801.883/
++205801.014-0855809.213/
++205632.000-0855821.000/
++204021.000-0860007.000/
++203126.000-0854400.000/
++202103.000-0855029.000/
++202711.000-0860135.000/
++202421.897-0860131.074/
++202146.775-0860155.826/
++201954.000-0860240.000/
++201345.000-0855647.000/
++200540.000-0860614.000/
++200707.000-0860737.000/
++200444.020-0860844.092/
++200231.739-0861014.067/
++200024.049-0861151.310/
++195821.301-0861335.555/
++195623.831-0861526.516/
++195431.962-0861723.888/
++195245.999-0861927.351/
++195106.234-0862136.565/
++194932.939-0862351.177/
++194806.371-0862610.817/
++194646.766-0862835.103/
++194534.343-0863103.640/
++194429.301-0863336.020/
++194331.817-0863611.825/
++194242.049-0863850.629/
++194145.000-0864152.000/
++193055.000-0872725.000/
++194928.000-0875614.000/
++194044.000-0883028.000/
++201328.000-0884251.000/
++202501.000-0881609.000/
++202521.000-0881522.000/
++203739.000-0880530.000/
++204955.000-0880557.000/
++205920.000-0880618.000/
++210243.199-0880623.762/
++210622.577-0880613.501/
++211001.153-0880550.953/
++211145.000-0880536.000/
++210706.270-0874437.832/
++210445.984-0873240.709/
++205835.048-0870126.321/
++205453.166-0865521.268</Line>
+        <Line Width="0.7">
++211318.081-0863937.031/
++210723.867-0864623.636/
++211304.499-0865548.584/
++213924.019-0870553.917/
++214846.000-0870933.000/
++214915.006-0870709.397/
++214956.922-0870427.473/
++215030.870-0870143.421/
++215056.757-0865857.690/
++215114.513-0865610.735/
++215124.088-0865323.013/
++215125.457-0865034.984/
++215118.615-0864747.109/
++215103.582-0864459.847/
++215040.399-0864213.657/
++215009.128-0863928.995/
++214929.857-0863646.312/
++214842.692-0863406.054/
++214747.762-0863128.660/
++214645.219-0862854.562/
++214535.234-0862624.181/
++214417.999-0862357.931/
++211318.081-0863937.031</Line>
     </Map>
-    <Map Type="System" Name="MMUN - Pista 12R - Salidas RNAV (Nombres)" Priority="2" Center="+210216.667-0865152.015">
-        <Label HasLeader="false">
-            <Point>CZM</Point>
-            <Point>HECAT</Point>
-            <Point>NOSUG</Point>
-            <Point>NUDAL</Point>
-            <Point>ALSUP</Point>
-            <Point>ROTGI</Point>
-            <Point>TAKUX</Point>
-            <Point>UDGUV</Point>
-        </Label>
+<Map Type="System2" Pattern="Solid" Priority="1" Width="0.7" CustomColourName="White" Name="z MMUN - Pistas 12 - Sectores Llegadas">
+        <Line Width="0.7">  
++203659.897-0862840.477/
++202606.588-0862304.458/
++203256.650-0864411.315/
++204942.278-0864650.931/
++205835.048-0870126.321/
++210706.270-0874437.832/
++211145.000-0880536.000/
++211338.328-0880516.181/
++211713.506-0880429.280/
++212046.099-0880330.378/
++212415.523-0880219.637/
++212741.204-0880057.251/
++213102.578-0875923.446/
++213419.094-0875738.478/
++213730.213-0875542.636/
++214035.411-0875336.236/
++214334.180-0875119.626/
++214626.030-0874853.180/
++214910.491-0874617.299/
++215147.112-0874332.410/
++215415.462-0874038.966/
++215635.137-0873737.442/
++215845.752-0873428.335/
++220046.950-0873112.164/
++220238.399-0872749.466/
++220419.793-0872420.797/
++220550.854-0872046.729/
++220739.000-0871649.000/
++214846.000-0870933.000/
++211304.499-0865548.584/
++210723.867-0864623.636/
++211318.081-0863937.031/
++214417.999-0862357.931/
++214253.724-0862136.211/
++214122.642-0861919.411/
++213945.002-0861707.905/
++213801.072-0861502.054/
++213611.136-0861302.203/
++213415.495-0861108.680/
++213214.468-0860921.796/
++213008.385-0860741.845/
++212757.591-0860609.100/
++210339.184-0864037.408/
++205404.801-0863857.692/
++203935.048-0863627.075/
++203659.897-0862840.477</Line>
     </Map>
+<Map Type="System2" Pattern="Solid" Priority="1" Width="0.7" CustomColourName="White" Name="z MMUN - Pistas 12 - Sectores Aproximacion">
+        <Line Width="0.7">  
++213924.019-0870553.917/
++213014.613-0872029.058/
++211310.541-0873219.487/
++210445.984-0873240.709/
++205835.048-0870126.321/
++205016.348-0864746.801/
++210052.330-0864008.421/
++210339.184-0864037.408/
++210723.867-0864623.636/
++211104.994-0865230.204/
++211304.499-0865548.584/
++213924.019-0870553.917</Line>
+    </Map>    
+<Map Type="System2" Pattern="Solid" Priority="1" Width="0.7" CustomColourName="White" Name="z MMUN - Pistas 12 - Sectores Final">
+        <Line Width="0.7">  
++210522.835-0864902.068/
++205757.831-0865420.767/
++210136.967-0870008.072/
++210041.855-0870252.622/
++210938.511-0871706.726/
++212047.367-0870919.438/
++211145.717-0865457.484/
++210902.148-0865449.728/
++210522.835-0864902.068</Line>
+    </Map>    
 </Maps>

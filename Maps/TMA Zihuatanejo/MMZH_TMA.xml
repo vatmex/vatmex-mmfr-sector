@@ -7,7 +7,7 @@
         </Runway>
     </Map>
     <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-        <Line Pattern="Dashed">
+        <Line Pattern="Solid">
 +183954.000-1005357.000/
 +182818.000-1005613.000/
 +182620.724-1005324.047/
@@ -217,13 +217,16 @@
     <Map Type="System" Name="Aeropuerto - Pista 09 - Llegadas RNAV (Nombres)" Priority="1" Center="+174139.629-1012701.469">
         <Label HasLeader="false">
             <Point>ALUNO</Point>
-            <Point>AVURO</Point>
             <Point>IGSAT</Point>
             <Point>IKLEM</Point>
             <Point>IKLUB</Point>
             <Point>IMENU</Point>
             <Point>TABRA</Point>
             <Point>VILTO</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>AVURO</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Aeropuerto - Pista 27 - Llegadas RNAV" Priority="1" Center="+174139.629-1012701.469">
@@ -267,7 +270,6 @@
     </Map>    
     <Map Type="System" Name="Aeropuerto - Pista 27 - Llegadas RNAV (Nombres)" Priority="1" Center="+174139.629-1012701.469">
         <Label HasLeader="false">
-            <Point>AVURO</Point>
             <Point>IGSAT</Point>
             <Point>IKLEM</Point>
             <Point>IKLUB</Point>
@@ -276,6 +278,10 @@
             <Point>TABRA</Point>
             <Point>TILAN</Point>
             <Point>VILTO</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>AVURO</Point>
         </Label>
     </Map>
 </Maps>

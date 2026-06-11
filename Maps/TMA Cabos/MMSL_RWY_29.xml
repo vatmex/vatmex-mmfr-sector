@@ -11,26 +11,30 @@
             <Point>ENEKO</Point>
             <Point>ILIGA</Point>
             <Point>LEPOM</Point>
-            <Point>MARUK</Point>
+            <Point>MARUX</Point>
         </Symbol>
         <Symbol Type="HollowStar">
-            <Point>AVURO</Point>
+            <Point>AVURU</Point>
             <Point>GOSIM</Point>
             <Point>SD403</Point>
             <Point>SL400</Point>
             <Point>SL404</Point>
+            <Point>SL402</Point>
             <Point>SL405</Point>
-            <Point>SL405</Point>
+            <Point>SL406</Point>
             <Point>TESAC</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMSL - Pista 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
         <Label HasLeader="false">
             <Point>ALRIN</Point>
-            <Point>ENEKO</Point>
             <Point>ILIGA</Point>
+            <Point>TESAC</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>ENEKO</Point>
             <Point>LEPOM</Point>
-            <Point>TESAV</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMSL - Pista 29 - RNP 29" Priority="1" Center="+225653.965-1095617.973">
@@ -43,6 +47,9 @@
             <Point>SL702</Point>
             <Point>TESAC</Point>
         </Symbol>
+        <Label HasLeader="false">
+            <Point>TESAC</Point>
+        </Label>
     </Map>
     <Map Type="System" Name="MMSL - Pista 29 - Salidas RNAV" Priority="1" Center="+225653.965-1095617.973">
         <Line Name="ALRIN1D" Pattern="Dotted">+225710.810-1095650.230/SL500/SL503/SL502/SL504/AVAVU/SD507/SD508/SD403/ALRIN</Line>

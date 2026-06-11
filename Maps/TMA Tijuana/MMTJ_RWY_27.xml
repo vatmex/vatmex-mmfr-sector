@@ -4,21 +4,27 @@
         <Line Name="TANR1B" Pattern="Dashed">TANRI/ULDUD</Line>
         <Line Name="TOVE2B" Pattern="Dashed">TOVES/ENS/KREPE</Line>
         <Symbol Type="SolidTriangle">
-            <Point>KREPE</Point>
             <Point>TANRI</Point>
-            <Point>TOVES</Point>
             <Point>ULDUD</Point>
         </Symbol>
-        <Symbol Type="DotFillCircle">
-            <Point>ENS</Point>
+        <Symbol Type="HollowStar">
+            <Point>KREPE</Point>
+            <Point>TOVES</Point>
+            <Point>ELUBA</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 27 - Llegadas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
-        <Label HasLeader="false">
-            <Point>KREPE</Point>
-            <Point>TANRI</Point>
+
+        
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>TOVES</Point>
+            <Point>TANRI</Point>
+        </Label>
+
+        <Label HasLeader="false">
             <Point>ULDUD</Point>
+            <Point>ELUBA</Point>
+            <Point>KREPE</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 27 - RNP Z 27" Priority="1" Center="+323227.810-1165811.890">
@@ -56,6 +62,12 @@
             <Point>KREPE</Point>
             <Point>ULDUD</Point>
         </Symbol>
+        <Label>
+            <Point>TJ557</Point>
+        </Label>
+        <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
+            <Point>TJ563</Point>
+        </Label>
     </Map>
     <Map Type="System" Name="Pista 27 - RNP Y 27" Priority="1" Center="+323227.810-1165811.890">
         <Line Pattern="Solid">KREPE/TJ758</Line>
@@ -149,19 +161,21 @@
         <Symbol Type="SolidTriangle">
             <Point>SIDGA</Point>
             <Point>UDMOV</Point>
-            <Point>TEVIR</Point>
         </Symbol>
         <Symbol Type="HollowStar">
             <Point>TJ561</Point>
             <Point>TJ567</Point>
             <Point>TUMAP</Point>
+            <Point>TEVIR</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 27 - Salidas RNAV (Nombres)" Priority="1" Center="+323227.810-1165811.890">
+
         <Label HasLeader="false">
             <Point>SIDGA</Point>
             <Point>TEVIR</Point>
             <Point>TUMAP</Point>
         </Label>
+
     </Map>
 </Maps>

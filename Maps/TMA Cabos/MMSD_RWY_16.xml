@@ -2,10 +2,9 @@
 <Maps>
     <Map Type="System" Name="MMSD - Pista 16 - Llegadas RNAV" Priority="1" Center="+230846.179-1094317.540">
         <Line Name="ENEKO1A" Pattern="Dashed">ENEKO/MARUX/MARAK</Line>
-        <Line Name="LEPOM1A" Pattern="Dashed">LEPOM/GOSIM/DASON</Line>
+        <Line Name="LEPOM1A" Pattern="Dashed">LEPOM/GOSIM/DASON/AXEDA</Line>
         <Line Name="TENAY1A" Pattern="Dashed">TENAY/SHAWA/BALCE/SD407/AXEDA</Line>
         <Symbol Type="SolidTriangle">
-            <Point>ALRIN</Point>
             <Point>BALCE</Point>
             <Point>DASON</Point>
             <Point>ENEKO</Point>
@@ -31,16 +30,27 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMSD - Pista 16 - Llegadas RNAV (Nombres)" Priority="1" Center="+230846.179-1094317.540">
-        <Label HasLeader="false">
-            <Point>ALRIN</Point>
-            <Point>AXEDA</Point>
-            <Point>CSL</Point>
+        <Label HasLeader="true">
             <Point>ENEKO</Point>
             <Point>LEPOM</Point>
-            <Point>MARAK</Point>
-            <Point>SJD</Point>
             <Point>TENAY</Point>
         </Label>
+        <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
+            <Point>MARAK</Point>
+            <Point>SD800</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>AXEDA</Point>
+        </Label>
+
+        <Label HasLeader="false">
+            <Point>MARUX</Point>
+            <Point>GOSIM</Point>
+            <Point>DASON</Point>
+            <Point>BALCE</Point>
+            <Point>SHAWA</Point>
+        </Label>
+
     </Map>
     <Map Type="System" Name="MMSD - Pista 16 - RNP 16" Priority="1" Center="+230956.019-1094320.211">
         <Line Pattern="Solid">AXEDA/SD800</Line>
@@ -88,11 +98,13 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMSD - Pista 16 - Salidas RNAV (Nombres)" Priority="1" Center="+230956.019-1094320.211">
+
         <Label HasLeader="false">
             <Point>ALRIN</Point>
             <Point>ANEGO</Point>
             <Point>ILIGA</Point>
             <Point>UKUXA</Point>
         </Label>
+
     </Map>
 </Maps>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System2" Name="Aeropuerto - Pistas" Priority="1" Center="+192617.580-0990407.680">
+    <Map Type="System2" Name=" Aeropuerto - Pistas" Priority="1" Center="+192617.580-0990407.680">
         <!--MMMX-->
         <Runway Name="05L/23R">
             <Threshold Name="05L" Position="+192547.50-0990511.500" />
@@ -283,7 +283,7 @@
             <Point>ZOLOTEPEC</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Aeropuerto - Volcanes" Priority="1">
+    <Map Type="System" Name=" Aeropuerto - Volcanes" Priority="1">
         <Line Name="Popocatepetl" Pattern="Solid">
 +191117.854-0983612.753/
 +191108.044-0983507.234/
@@ -443,8 +443,8 @@
             <Point>+190626.409-0994453.133</Point>
         </Symbol>
     </Map>
-    <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-        <Line Name="TMA MMMX" Pattern="Dashed">
+    <Map Type="System2" Name=" Aeropuerto - Area Terminal (TMA)" Priority="1">
+        <Line Name="TMA MMMX" Pattern="Solid">
 +195106.000-0975956.000/
 +202530.000-0983746.000/
 +202714.000-0993059.000/
@@ -455,7 +455,7 @@
 +190057.000-0980146.000/
 +195106.000-0975956.000</Line>
     </Map>
-    <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo" Priority="1">
+    <Map Type="System" Name=" Aeropuerto - Minimas de Vectoreo" Priority="3">
         <Line Pattern="Solid" Name="9-1">
 +194009.194-0991152.780/
 +193858.728-0991316.794/
@@ -1054,8 +1054,44 @@
 +191621.610-0983724.491/
 +191630.440-0983824.499/
 +191628.523-0983920.481</Line>
+        <Label HasLeader="false">
+            <Point Name="90">+192327.3673-0990550.2578</Point>
+            <Point Name="090">+194305.0288-0990728.6073</Point>
+            <Point Name="100">+194636.5470-0985730.1205</Point>
+            <Point Name="100">+192226.7095-0985919.1942</Point>
+            <Point Name="100">+192627.7095-0991235.1942</Point>
+            <Point Name="115">+194529.5110-0985031.5540</Point>
+            <Point Name="110">+195555.3018-0984632.9639</Point>
+            <Point Name="110">+194449.9027-0991427.4511</Point>
+            <Point Name="110">+193757.8548-0985506.5822</Point>
+            <Point Name="110">+192519.9065-0994609.8623</Point>
+            <Point Name="110">+191517.5302-0985746.4370</Point>
+            <Point Name="11">+192257.5302-0991659.4370</Point>            
+            <Point Name="112">+191753.3893-0994206.2994</Point>
+            <Point Name="113">+193343.5100-0990800.3000</Point>
+            <Point Name="120">+200723.7055-0990344.7705</Point>
+            <Point Name="120">+191730.0608-0982122.9854</Point>
+            <Point Name="120">+183942.6910-0991616.1362</Point>
+            <Point Name="120">+191245.9653-0985259.1946</Point>
+            <Point Name="120">+192900.7837-1000030.1849</Point>
+            <Point Name="130">+190747.8975-0985548.7493</Point>
+            <Point Name="13">+193015.4556-0992053.2418</Point>
+            <Point Name="130">+190420.3416-0993513.3575</Point>
+            <Point Name="135">+193945.6331-0980711.7627</Point>
+            <Point Name="140">+192624.3833-0983448.0284</Point>
+            <Point Name="140">+192542.9268-0992630.5182</Point>
+            <Point Name="140">+190456.9953-0985914.6349</Point>
+            <Point Name="145">+193214.5328-0993141.3660</Point>
+            <Point Name="150">+194432.9668-0994519.9402</Point>
+            <Point Name="150">+191136.8079-0992031.7871</Point>
+            <Point Name="150">+191412.1957-0995428.5700</Point>
+            <Point Name="160">+192257.1500-0984233.6346</Point>
+            <Point Name="170">+191327.9552-0980518.3289</Point>
+            <Point Name="173">+190735.5246-0994421.3772</Point>
+            <Point Name="200">+190252.6144-0983807.1339</Point>
+        </Label>
     </Map>
-    <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="0">
+<!--    <Map Type="System" Name="Aeropuerto - Minimas de Vectoreo (Etiquetas)" Priority="3">
         <Label HasLeader="false">
             <Point Name="090">+192850.3673-0985809.2578</Point>
             <Point Name="090">+194330.0288-0990525.6073</Point>
@@ -1093,7 +1129,7 @@
             <Point Name="173">+190628.5246-0994530.3772</Point>
             <Point Name="200">+190026.6144-0983829.1339</Point>
         </Label>
-    </Map>
+    </Map>-->
     <Map Type="System" Name="Aeropuerto - Corredor Satelite" Priority="1">
         <Line Name="T70">CALIZ.T70.RIBIS</Line>
         <Line Name="T80">CALIZ.T80.RIBIS</Line>
@@ -1111,8 +1147,22 @@
             <Point>ULEGO</Point>
             <Point>URMAS</Point>
         </Symbol>
+        <Label HasLeader="false">
+            <Point>ATUKA</Point>
+            <Point>CALIZ</Point>
+            <Point>DASKA</Point>
+            <Point>ILONO</Point>
+            <Point>LOBRA</Point>
+            <Point>OTIVO</Point>
+            <Point>OVISO</Point>
+            <Point>RIBIS</Point>
+            <Point>SIKMO</Point>
+            <Point>TAKAL</Point>
+            <Point>ULEGO</Point>
+            <Point>URMAS</Point>
+        </Label>        
     </Map>
-    <Map Type="System" Name="Aeropuerto - Corredor Satelite (Nombres)" Priority="1">
+<!--    <Map Type="System" Name="Aeropuerto - Corredor Satelite (Nombres)" Priority="1">
         <Label HasLeader="false">
             <Point>ATUKA</Point>
             <Point>CALIZ</Point>
@@ -1127,7 +1177,7 @@
             <Point>ULEGO</Point>
             <Point>URMAS</Point>
         </Label>
-    </Map>
+    </Map>-->
     <Map Type="System" Name="MMCB - Zona de Control (CTR)" Priority="1">
         <Line Pattern="Dashed">
 +190500.749-0991435.491/
@@ -1688,32 +1738,7 @@
 +193335.000-0992716.000/
 +192426.000-0992240.000</Line>
     </Map>
-    <Map Type="System2" Name="Aeropuerto - Sector Aproximacion Puebla" Priority="1">
-        <Line Pattern="Dashed">
-+194148.336-0980016.875/
-+194231.895-0982131.272/
-+193151.871-0982143.916/
-+192235.390-0982850.251/
-+190937.844-0982913.156/
-+190919.825-0982825.583/
-+190129.244-0982504.032/
-+185334.588-0982849.516/
-+185214.633-0983219.500/
-+184622.558-0983802.254/
-+183617.148-0982642.906</Line>
-    </Map>
-    <Map Type="System2" Name="Aeropuerto - Sector Aproximacion Toluca" Priority="1">
-        <Line Pattern="Dashed">
-+200501.859-0995303.875/
-+194930.056-0994422.019/
-+194704.890-0993929.897/
-+194254.196-0993527.196/
-+193202.238-0993043.083/
-+190218.898-0991705.110/
-+185905.241-0992314.165/
-+184703.305-0995310.906</Line>
-    </Map>
-    <Map Type="System2" Name="Aeropuerto - Sector Aproximacion Lucia 04" Priority="1">
+<!--    <Map Type="System2" Name="Aeropuerto - Sector Aproximacion Lucia 04" Priority="1">
         <Line Name="MMSM_APP_05S_01" Pattern="Dashed">
 +200928.853-0985657.910/
 +201349.917-0990124.022/
@@ -1848,4 +1873,19 @@
 +194246.181-0985816.325/
 +193924.172-0985109.024</Line>    
     </Map>    
+-->
+    <Map CustomColourName="RadarAirway" Type="Filled" Name="Radar - TMA Mexico" Priority="5">
+        <Infill Name="TMA_MEXICO">
+            <Point>
++195106.000-0975956.000/
++202530.000-0983746.000/
++202714.000-0993059.000/
++195102.000-1000654.000/
++190053.000-1000843.000/
++182647.000-0993034.000/
++182503.000-0983801.000/
++190057.000-0980146.000/
++195106.000-0975956.000</Point>
+        </Infill>
+    </Map>
 </Maps>

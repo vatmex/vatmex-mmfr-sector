@@ -1,0 +1,79 @@
+- runway: "16"
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "200"
+- if:
+    VFR: "true"
+  CFL: "030"
+
+# =========================================
+# RWY 16 -> RNAV
+# =========================================
+
+# AVAVU1C group
+- if:
+    runway: ["16"]
+    waypoint: ["AVAV1C", "AVAV3A", "AVAVU", "KINOL", "VIBSA", "MZT"]
+  SID: "AVAV1C"
+
+# ALRIN1A group
+- if:
+    runway: ["16"]
+    waypoint: ["ALRI1A", "DASO2A", "DASON", "KIPUM", "ALRIN", "KAVRA", "BECON", "KAVRA", "LMM", "CEN"]
+  SID: "ALRI1A"
+
+# UKUXA1A group
+- if:
+    runway: ["16"]
+    waypoint: ["UKUX1A", "USBO3A", "MENV3A", "MENVI", "USBOG", "UKUXA", "OLESI", "OLAKA", "DUPOP", "DEDKU", "CUL", "TRC"]
+  SID: "UKUX1A"
+
+# ILIGA1A group
+- if:
+    runway: ["16"]
+    waypoint: ["ILIG1A", "LETE3A", "XUGN2A", "SIBA3A", "SIBAU", "KATIS", "XUGNU", "LETER", "ILIGA", "KEDIX", "LETAL", "AXOCA", "PVR", "ZLO"]
+  SID: "ILIG1A"
+
+# ANEGO1A group
+- if:
+    runway: ["16"]
+    waypoint: ["ANEG1A", "ATUM2A", "SJD3A", "ATUMI", "TAMET", "ANEGO", "AMARI", "XORPU", "TAGMO", "URLET", "LAP", "GRN", "LTO", "TIJ", "SJD", "CSL"]
+  SID: "ANEG1A"
+
+# =========================================
+# RWY 34 -> RNAV
+# =========================================
+
+# ALRIN1B group
+- if:
+    runway: ["34"]
+    waypoint: ["ALRI1B", "DASO2B", "DASON", "KIPUM", "ALRIN", "KAVRA", "BECON", "KAVRA", "LMM", "CEN"]
+  SID: "ALRI1B"
+
+# UKUXA1B group
+- if:
+    runway: ["34"]
+    waypoint: ["UKUX1B", "USBO3B", "MENV3B", "MENVI", "USBOG", "UKUXA", "OLESI", "OLAKA", "DUPOP", "DEDKU", "CUL", "TRC"]
+  SID: "UKUX1B"
+
+# ILIGA1B group
+- if:
+    runway: ["34"]
+    waypoint: ["ILIG1B", "LETE3B", "XUGN2B", "SIBA3B", "SIBAU", "KATIS", "XUGNU", "LETER", "ILIGA", "KEDIX", "LETAL", "AXOCA", "PVR", "ZLO"]
+  SID: "ILIG1B"
+
+# ANEGO1B group
+- if:
+    runway: ["34"]
+    waypoint: ["ANEG1B", "ATUM2B", "TAME2A", "AMAR3A", "SJD3B", "ATUMI", "TAMET", "ANEGO", "AMARI", "XORPU", "TAGMO", "URLET", "LAP", "GRN", "LTO", "TIJ", "SJD", "CSL"]
+  SID: "ANEG1B"
+
+# KINOL1 group
+- if:
+    runway: ["34"]
+    waypoint: ["KINOL1", "AVAV3B", "AVAVU", "KINOL", "VIBSA", "MZT"]
+  SID: "KINOL1"
+
+# Departure Frequencies
+- departures: ["118.9", "120.9", "128.0"]

@@ -20,16 +20,26 @@
             <Point>ANVAN</Point>
             <Point>AVRIM</Point>
             <Point>AVURO</Point>
-            <Point>ATRIM</Point>
+            <Point>ITRAM</Point>
+            <Point>AVSIX</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 28 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-        <Label HasLeader="false">
-            <Point>ANALU</Point>
+        <Label HasLeader="true">
             <Point>ANVAN</Point>
             <Point>AVRIM</Point>
             <Point>AVURO</Point>
-            <Point>ATRIM</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>ITRAM</Point>
+            <Point>AVSIX</Point>
+        </Label>
+        <Label LabelOrientation="NE" HasLeader="true" VerticalAlignment="Middle">
+            <Point>AA501</Point>
+        </Label>
+
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Left">
+            <Point>ANALU</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 28 - ILS Y" Priority="1" Center="+203124.320-1031841.798">

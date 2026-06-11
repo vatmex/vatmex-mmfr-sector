@@ -37,14 +37,19 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMTL - Pista 30 - Llegadas RNAV (Nombres)" Priority="2" Center="+203119.430-0865545.400">
+        <Label HasLeader="true">
+            <Point>ESKIE</Point>
+            <Point>OTREL</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>ILUBA</Point>
+        </Label>        
+
         <Label HasLeader="false">
             <Point>ANADI</Point>
             <Point>ANIKO</Point>
             <Point>EMOSA</Point>
-            <Point>ESKIE</Point>
-            <Point>ILUBA</Point>
             <Point>IMUBI</Point>
-            <Point>OTREL</Point>
             <Point>VIGTU</Point>
         </Label>
     </Map>
@@ -98,9 +103,13 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMTL - Pista 30 - Salidas RNAV (Nombres)" Priority="2" Center="+203119.430-0865545.400">
+
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>ILUBA</Point>
+        </Label>        
+
         <Label HasLeader="false">
             <Point>ALSUP</Point>
-            <Point>ILUBA</Point>
             <Point>NOSUG</Point>
             <Point>NUDAL</Point>
             <Point>ROTGI</Point>

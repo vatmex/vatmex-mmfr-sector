@@ -74,18 +74,29 @@
                 <Departure Values="MMCZ">
                     <Rules>
                         <Default>
-                            <AssignSector Order="UNDEW,UNDEP,UNAPP,MID2,MIDE,MIDC"/>
+                            <AssignSector Order="UNDEW30,UNDEW12,UNDEC30,UNDEC12,UNAPP,MIDE,MIDW,MIDC"/>
                         </Default>
                     </Rules>
                 </Departure>
             </Rules>
         </RuleSet>
-        <RuleSet Name="MMID_DEPS">
+        <RuleSet Name="MMTL_DEPS">
             <Rules>
-                <Departure Values="MMID">
+                <Departure Values="MMTL">
                     <Rules>
                         <Default>
-                            <AssignSector Order="MDAPP,MID2,MIDE,MIDC"/>
+                            <AssignSector Order="UNDEW30,UNDEW12,UNDEC30,UNDEC12,UNAPP,MIDE,MIDW,MIDC"/>
+                        </Default>
+                    </Rules>
+                </Departure>
+            </Rules>
+        </RuleSet>        
+        <RuleSet Name="MMMD_DEPS">
+            <Rules>
+                <Departure Values="MMMD">
+                    <Rules>
+                        <Default>
+                            <AssignSector Order="MDAPP,MID2,MIDS,MIDW,MIDC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -96,7 +107,7 @@
                 <Departure Values="MMUN">
                     <Rules>
                         <Default>
-                            <AssignSector Order="UNDEP,UNAPP,MID2,MIDE,MIDC"/>
+                            <AssignSector Order="UNDEC30,UNDEC12,UNAPP,MIDE,MIDW,MIDC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -108,7 +119,7 @@
                 <Departure Values="MMAA">
                     <Rules>
                         <Default>
-                            <AssignSector Order="ACAPP,MEX4,MEXE,MEXC"/>
+                            <AssignSector Order="ACAPP,MEX4,MEXS,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -130,7 +141,7 @@
                 <Departure Values="MMGL">
                     <Rules>
                         <Default>
-                            <AssignSector Order="GLAPP,MEX6,MEXW,MEXC"/>
+                            <AssignSector Order="GLDEP,GLTML,GLAPP,MEXW,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -141,7 +152,7 @@
                 <Departure Values="MMLO">
                     <Rules>
                         <Default>
-                            <AssignSector Order="BXAPP,MEX10,MEXC"/>
+                            <AssignSector Order="BXAPP,MEX10,MEXS,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -152,7 +163,7 @@
                 <Departure Values="MMMX">
                     <Rules>
                         <Default>
-                            <AssignSector Order="MXDEP,MAPP1,MAPPC,MEX3,MEXC"/>
+                            <AssignSector Order="MXDEP23,MXDEP5,MAPPC,MEXE,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -163,7 +174,7 @@
                 <Departure Values="MMSM">
                     <Rules>
                         <Default>
-                            <AssignSector Order="SMAPP,MXDEP,MAPPC,MEX3,MEXC"/>
+                            <AssignSector Order="SMAPP4,SMAPP22,MXDEP23,MXDE5,MXARR23,MXARR5,MAPPC,MEXE,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -174,7 +185,7 @@
                 <Departure Values="MMTO">
                     <Rules>
                         <Default>
-                            <AssignSector Order="TOAPP,MXDEP,MAPP1,MAPPC,MEX5,MEXC"/>
+                            <AssignSector Order="TOAPP,MXDEP23,MXDEP5,MAPPC,MEXE,MEXC"/>
                         </Default>
                     </Rules>
                 </Departure>
@@ -230,7 +241,7 @@
                 <Departure Values="MMMY">
                     <Rules>
                         <Default>
-                            <AssignSector Order="MYAPP,MTYE,MTYC"/>
+                            <AssignSector Order="MYAPP,MTYE,MTYW,MTYC"/>
                         </Default>
                     </Rules>
                 </Departure>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="Pistas 29 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
+    <Map Type="System" Name=" Pistas 29 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="AMULA1B" Pattern="Dashed">AMULA/LONVA/GL820/GL821/GL822/VOLIN/GL824/GL825/GL826/GL827/GL828/PLADE</Line>
         <Line Name="MEZCA1B" Pattern="Dashed">MEZCA/LIVRI/IKBAN/GL840/UKOSI/GL824</Line>
         <Line Name="MUTEM1B" Pattern="Dashed">MUTEM/GL825</Line>
@@ -40,22 +40,34 @@
             <Point>USBIM</Point>
             <Point>VOLAT</Point>
             <Point>VOLIN</Point>
+            <Point>GL980</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="Pistas 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
-        <Label HasLeader="false">
+        <Label HasLeader="True">
+            <Point>OTETA</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>APRIM</Point>
+            <Point>SEKIS</Point>
+            <Point>PLADE</Point>
+        </Label>        
+
+        <Label HasLeader="true">
             <Point>IGSON</Point>
             <Point>VOLAT</Point>
-            <Point>KASUP</Point>
-            <Point>AMULA</Point>
             <Point>MEZCA</Point>
             <Point>MUTEM</Point>
+        </Label>
+        <Label HasLeader="false">
+            <Point>KASUP</Point>
             <Point>USBIM</Point>
+            <Point>LONVA</Point>
+            <Point>IKBAN</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>AMULA</Point>
         </Label>
     </Map>
-
-<!--En revision
-    <Map Type="System" Name="Pista 29L/R - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
+    <Map Type="System" Name="Pistas 29 - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="PLADER022">+202353.280-1030101.559/+204555.865-1024831.278</Line>
         <Line Name="PLADER162">+202353.280-1030101.559/+195928.092-1025529.287</Line>
         <Line Name="PLADED25">
@@ -189,8 +201,8 @@
 +201908.358-1025922.788/
 +201900.242-1025955.104</Line>
     </Map>
--->
-    <Map Type="System" Name="Pistas 29 - ILS X 29L" Priority="1" Center="+203124.320-1031841.798">
+
+    <Map Type="System" Name=" Pistas 29 - ILS X 29L" Priority="1" Center="+203124.320-1031841.798">
         <Line Pattern="Solid">PLADE/+203050.700-1031733.600</Line>
         <Line Pattern="Solid">APRIM/SEKIS</Line>
         <Line Name="D1" Pattern="Solid">+203043.113-1031751.539/+203115.826-1031735.621</Line>
@@ -229,7 +241,7 @@
             <Point>PLADE</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pistas 29 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
+    <Map Type="System" Name=" Pistas 29 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="OTOKI1B" Pattern="Dotted">GDL/GL710/GL711/GL712/OTOKI</Line>
         <Line Name="FEISE1B" Pattern="Dotted">GL710/GL720/GL721/GL750/FEISE</Line>
         <Line Name="KELVA1B" Pattern="Dotted">GL720/GL725/KELVA</Line>
@@ -257,16 +269,18 @@
             <Point>OTOKI</Point>
             <Point>SEDEM</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="Pistas 29 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+        <Label HasLeader="true">
+            <Point>NOTUP</Point>
+        </Label>
+
         <Label HasLeader="false">
             <Point>EMIRI</Point>
-            <Point>FEISE</Point>
             <Point>KELVA</Point>
             <Point>LONKU</Point>
-            <Point>NOTUP</Point>
             <Point>OTOKI</Point>
+            <Point>FEISE</Point>
             <Point>SEDEM</Point>
         </Label>
+            
     </Map>
 </Maps>

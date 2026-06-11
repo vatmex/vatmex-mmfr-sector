@@ -34,12 +34,15 @@
         <Label HasLeader="false">
             <Point>AVTEN</Point>
             <Point>KEKMA</Point>
-            <Point>BOPAP</Point>
             <Point>IGTAN</Point>
-            <Point>NABLA</Point>
             <Point>DUPUS</Point>
             <Point>GORIG</Point>
             <Point>HMO</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>BOPAP</Point>
+            <Point>NABLA</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 23 - RNP 23" Priority="1" Center="+290555.39-1110232.64">
@@ -102,12 +105,15 @@
     <Map Type="System" Name="Pista 23 - Salidas RNAV (Nombres)" Priority="1" Center="+290555.39-1110232.64">
         <Label HasLeader="false">
             <Point>AMEVI</Point>
-            <Point>BOPAP</Point>
             <Point>GYM</Point>
             <Point>IGTAN</Point>
             <Point>KEKMA</Point>
             <Point>LIDUK</Point>
             <Point>SEBEK</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>BOPAP</Point>
         </Label>
     </Map>
 </Maps>

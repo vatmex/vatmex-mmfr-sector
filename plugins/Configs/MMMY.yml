@@ -1,0 +1,67 @@
+- runway: "12"
+- assign_dep_rwy: "true"
+
+# CFL
+- CFL: "200"
+- if:
+    VFR: "true"
+  CFL: "025"
+
+# =========================================
+# RWY 12 -> RNAV
+# =========================================
+
+# DAJOR1A group
+- if:
+    runway: ["12"]
+    waypoint: ["DAJO1A", "URTA1A", "OVEM1A", "URTAN", "OVEMA", "DAJOR", "NLD", "PNG", "LRD", "TALBI", "SUTOL", "DEVOE", "RIKAN", "ILIGO", "RUDMA", "XOVES", "URTUS", "NOTAL"]
+  SID: "DAJO1A"
+
+# DOTOR1A group
+- if:
+    runway: ["12"]
+    waypoint: ["DOTO1A", "EMAK1A", "XOTAT1", "EMAKI", "XOTAT", "DOTOR", "REX", "BRO", "MAM", "CUN", "REALA", "ITPIS", "CAMUI", "EBDAT", "ELIXI"]
+  SID: "DOTO1A"
+
+# KERGA1A group
+- if:
+    runway: ["12"]
+    waypoint: ["KERG1A", "URSU1A", "URTO1A", "URSUR", "URTOB", "KERGA", "CVM", "QET", "AGU", "SLP", "UMELO", "CDR", "ZCL", "TTM", "RETOS", "PERGO", "EBDUB", "NABDA", "SESNO", "AVURI"]
+  SID: "KERG1A"
+
+# GRALA1A group
+- if:
+    runway: ["12"]
+    waypoint: ["GRAL1A", "MTY1A", "GRALA", "GABLA", "OBSEV", "UBVIV", "OMSI", "RABAX", "SLW", "MOV", "ELQ", "TRC", "CUU", "DGO", "MTY", "ADN", "ETLEP"]
+  SID: "GRAL1A"
+
+# =========================================
+# RWY 30 -> RNAV
+# =========================================
+
+# DAJOR1B group
+- if:
+    runway: ["30"]
+    waypoint: ["DAJO1B", "OVEM1B", "URTA1B", "URTU1A", "URTAN", "OVEMA", "DAJOR", "NLD", "PNG", "LRD", "TALBI", "SUTOL", "DEVOE", "RIKAN", "ILIGO", "RUDMA", "XOVES", "URTUS", "NOTAL"]
+  SID: "DAJO1B"
+
+# DOTOR1B group
+- if:
+    runway: ["30"]
+    waypoint: ["DOTO1B", "EMAKI", "XOTAT", "DOTOR", "REX", "BRO", "MAM", "CUN", "REALA", "ITPIS", "CAMUI", "EBDAT", "ELIXI"]
+  SID: "DOTO1B"
+
+# KERGA1B group
+- if:
+    runway: ["30"]
+    waypoint: ["KERG1B", "URTO1B", "MTY1B", "URSUR", "URTOB", "KERGA", "CVM", "QET", "AGU", "SLP", "UMELO", "CDR", "ZCL", "TTM", "RETOS", "PERGO", "EBDUB", "NABDA", "SESNO", "AVURI", "MTY", "ADN"]
+  SID: "KERG1B"
+
+# GRALA1B group
+- if:
+    runway: ["30"]
+    waypoint: ["GRAL1B", "GABLA1", "UBVIV1","GRALA", "GABLA", "OBSEV", "UBVIV", "OMSI", "RABAX", "SLW", "MOV", "ELQ", "TRC", "CUU", "DGO", "ETLEP"]
+  SID: "GRAL1B"
+
+# Departure Frequencies
+- departures: ["121.9", "118.1", "119.75", "124.5"]

@@ -1,6 +1,3 @@
-<!-- Be very careful editing the OzStrips configuration.
-     Do not make changes to this file, place an overwrite file in (PROFILE)/Plugins/AerodromeSettings.xml
-     Changes between the two files are not additive. Changes in the Profile directory will overwrite this one.-->
 <AerodromeSettings>
     <DefaultAerodromes>
 		<Aerodrome>MMMX</Aerodrome>
@@ -10,100 +7,469 @@
 		<Aerodrome>MMGL</Aerodrome>
 		<Aerodrome>MMTJ</Aerodrome>
 	</DefaultAerodromes>
-<StripColour Type="ARRIVAL">#ffffa0</StripColour>
-<StripColour Type="DEPARTURE">#ffffff</StripColour>
-<StripColour Type="LOCAL">#e6aedd</StripColour>
-<StripColour Type="UNKNOWN">#404040</StripColour>
-<DefaultLayout>ACD+SMC</DefaultLayout>
-  <InhibitVersionCheck>true</InhibitVersionCheck>
-  <LayoutDefinitions>
+
+    <!-- MARK: Auto Open -->
+    <!-- Open OzStrips plugin when opening any of the positions below (where <Position> matches the
+    name in the Positions List) and connect to the coupled <Aerodrome> -->
+    <AutoOpens>
+        <AutoOpen>
+            <Aerodrome>MMCL</Aerodrome>
+            <Position>Torre Culiacan - CLTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCN</Aerodrome>
+            <Position>Torre Obregon (Procedimientos) - CNTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMDO</Aerodrome>
+            <Position>Torre Durango (Procedimientos) - DOTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMGM</Aerodrome>
+            <Position>Torre Guaymas - GMTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMHO</Aerodrome>
+            <Position>Torre Hermosillo - HOTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMLM</Aerodrome>
+            <Position>Torre Los Mochis (Procedimientos) - LMTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMLP</Aerodrome>
+            <Position>Torre La Paz - LPTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMLT</Aerodrome>
+            <Position>Torre Loreto - LTTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMML</Aerodrome>
+            <Position>Torre Mexicali (Procedimientos) - MLTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMZ</Aerodrome>
+            <Position>Torre Mazatlan - MZTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMPE</Aerodrome>
+            <Position>Torre Penasco - PETW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMSL</Aerodrome>
+            <Position>Torre San Lucas - SLTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMSD</Aerodrome>
+            <Position>Plataforma San Jose - SDSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMSD</Aerodrome>
+            <Position>Torre San Jose - SDTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMES</Aerodrome>
+            <Position>Torre Ensenada - ESTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTJ</Aerodrome>
+            <Position>Autorizacion Tijuana - TJCDL</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTJ</Aerodrome>
+            <Position>Torre Tijuana - TJTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCE</Aerodrome>
+            <Position>Torre Carmen - CETW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCM</Aerodrome>
+            <Position>Torre Chetumal - CMTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCP</Aerodrome>
+            <Position>Torre Campeche - CPTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCT</Aerodrome>
+            <Position>Torre Chichen-Itza - CTTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMIT</Aerodrome>
+            <Position>Torre Ixtepec - ITTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMD</Aerodrome>
+            <Position>Autorizacion Merida - MDCDL</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMD</Aerodrome>
+            <Position>Torre Merida - MDTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMT</Aerodrome>
+            <Position>Torre Minatitlan - MTTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMPQ</Aerodrome>
+            <Position>Torre Palenque - PQTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTG</Aerodrome>
+            <Position>Torre Tuxtla (Procedimientos) - TGTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTP</Aerodrome>
+            <Position>Torre Tapachula (Asesoramiento) - TPTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCZ</Aerodrome>
+            <Position>Torre Cozumel - CZTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTL</Aerodrome>
+            <Position>Autorizacion Tulum - TLCDL</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTL</Aerodrome>
+            <Position>Terrestre Tulum - TLSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTL</Aerodrome>
+            <Position>Torre Tulum - TLTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMUN</Aerodrome>
+            <Position>Autorizacion Cancun - UNCDL</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMUN</Aerodrome>
+            <Position>Terrestre Cancun - UNSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMUN</Aerodrome>
+            <Position>Terrestre Cancun Este - UNRMP</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMUN</Aerodrome>
+            <Position>Torre Cancun - UNTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMVA</Aerodrome>
+            <Position>Torre Villahermosa - VATW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMAA</Aerodrome>
+            <Position>Torre Acapulco - ACTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMBT</Aerodrome>
+            <Position>Torre Huatulco - BTTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMGL</Aerodrome>
+            <Position>Autorizacion Guadalajara - GLCDL</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMGL</Aerodrome>
+            <Position>Plataforma Guadalajara - GLCCO</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMGL</Aerodrome>
+            <Position>Terrestre Guadalajara - GLSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMGL</Aerodrome>
+            <Position>Torre Guadalajara - GLTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMAS</Aerodrome>
+            <Position>Torre Aguascalientes - ASTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMLO</Aerodrome>
+            <Position>Torre Leon - LOTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMM</Aerodrome>
+            <Position>Torre Morelia (Procedimientos) - MMTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCB</Aerodrome>
+            <Position>Torre Cuernavaca - CBTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMPB</Aerodrome>
+            <Position>Torre Puebla - PBTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMX</Aerodrome>
+            <Position>Autorizacion Mexico - MXCDL</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMX</Aerodrome>
+            <Position>Terrestre Mexico - MXSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMX</Aerodrome>
+            <Position>Terrestre Mexico Sur - MXRMP</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMX</Aerodrome>
+            <Position>Torre Mexico - MXTWR</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMSM</Aerodrome>
+            <Position>Autorizacion Santa Lucia - SMCDL</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMSM</Aerodrome>
+            <Position>Terrestre Santa Lucia - SMSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMSM</Aerodrome>
+            <Position>Torre Santa Lucia - SMTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTO</Aerodrome>
+            <Position>Terrestre Toluca - TOSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTO</Aerodrome>
+            <Position>Torre Toluca - TOTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMOX</Aerodrome>
+            <Position>Torre Oaxaca - OXTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMPA</Aerodrome>
+            <Position>Torre Poza Rica - PATW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMPN</Aerodrome>
+            <Position>Torre Uruapan - PNTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMEP</Aerodrome>
+            <Position>Torre Tepic - EPTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMPR</Aerodrome>
+            <Position>Torre Vallarta - PRTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMPS</Aerodrome>
+            <Position>Torre Escondido - PSTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMQT</Aerodrome>
+            <Position>Terrestre Queretaro - QTSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMQT</Aerodrome>
+            <Position>Torre Queretaro - QTTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMSP</Aerodrome>
+            <Position>Torre Potosi - SPTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTN</Aerodrome>
+            <Position>Torre Tamuin - TNTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTM</Aerodrome>
+            <Position>Torre Tampico - TMTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMVR</Aerodrome>
+            <Position>Torre Veracruz - VRTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMZC</Aerodrome>
+            <Position>Torre Zacatecas - ZCTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMZH</Aerodrome>
+            <Position>Torre Zihuatanejo - ZHTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMIA</Aerodrome>
+            <Position>Torre Colima - IATW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMZO</Aerodrome>
+            <Position>Torre Manzanillo (Procedimientos) - ZOTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCS</Aerodrome>
+            <Position>Torre Juarez - CSTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCU</Aerodrome>
+            <Position>Torre Chihuahua - CUTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMCV</Aerodrome>
+            <Position>Torre Victoria - CVTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMGA</Aerodrome>
+            <Position>Torre Creel - GATW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMIO</Aerodrome>
+            <Position>Torre Saltillo - IOTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMA</Aerodrome>
+            <Position>Torre Matamoros (Procedimientos) - MATW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMAN</Aerodrome>
+            <Position>Terrestre Del Norte - ANSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMAN</Aerodrome>
+            <Position>Torre Del Norte - ANTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMY</Aerodrome>
+            <Position>Autorizacion Monterrey - MYCDL</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMY</Aerodrome>
+            <Position>Terrestre Monterrey - MYSMC</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMMY</Aerodrome>
+            <Position>Torre Monterrey - MYTWR</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMNL</Aerodrome>
+            <Position>Torre Nuevo Laredo (Procedimientos) - NLTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMRX</Aerodrome>
+            <Position>Torre Reynosa - RXTW1</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>MMTC</Aerodrome>
+            <Position>Torre Torreon - TCTW1</Position>
+        </AutoOpen>
+    </AutoOpens>
+
+
+    <!-- MARK: Layout Definitions -->
+    <!-- Select which bays should appear in which layouts, and which columns they should display in
+    (requires that the bays are defined in BayTypes below -->
+    <LayoutDefinitions>
     <!-- DEFAULT / RADAR TOWERS -->
-    <LayoutDefinition Name="All">
-      <Element Name="Preactive" Column="0"/>
-      <Element Name="Cleared" Column="0"/>
-	    <Element Name="Monitor SMC" Column="0"/>
-	    <Element Name="Pushback" Column="0"/>
-      <Element Name="Taxi" Column="1"/>
-      <Element Name="Holding Point" Column="1"/>
-      <Element Name="Runway" Column="1"/>
-      <Element Name="Circuit" Column="2"/>
-      <Element Name="Departed" Column="2"/>
-      <Element Name="Arrivals" Column="2"/>
-    </LayoutDefinition>
-    <LayoutDefinition Name="ACD">
-      <Element Name="Preactive" Column="0"/>
-      <Element Name="Cleared" Column="1"/>
-	    <Element Name="Monitor SMC" Column="2"/>
-	    <Element Name="Pushback" Column="2"/>
-    </LayoutDefinition>
-    <LayoutDefinition Name="ACD+SMC">
-      <Element Name="Preactive" Column="0"/>
-      <Element Name="Cleared" Column="0"/>
-	    <Element Name="Pushback" Column="0"/>
-      <Element Name="Taxi" Column="1"/>
-      <Element Name="Holding Point" Column="1"/>
-      <Element Name="Runway" Column="1"/>
-    </LayoutDefinition>
-    <LayoutDefinition Name="SMC">
-      <Element Name="Cleared" Column="0"/>
-	    <Element Name="Monitor SMC" Column="0"/>
-	    <Element Name="Pushback" Column="1"/>
-      <Element Name="Taxi" Column="1"/>
-      <Element Name="Holding Point" Column="2"/>
-      <Element Name="Runway" Column="2"/>
-    </LayoutDefinition>
-    <LayoutDefinition Name="SMC+ADC">
-      <Element Name="Cleared" Column="0"/>
-	    <Element Name="Monitor SMC" Column="0"/>
-	    <Element Name="Pushback" Column="0"/>
-      <Element Name="Taxi" Column="1"/>
-      <Element Name="Holding Point" Column="1"/>
-      <Element Name="Runway" Column="1"/>
-      <Element Name="Circuit" Column="2"/>
-      <Element Name="Departed" Column="2"/>
-      <Element Name="Arrivals" Column="2"/>
-    </LayoutDefinition>
-    <LayoutDefinition Name="ADC">
-      <Element Name="Holding Point" Column="0"/>
-      <Element Name="Runway" Column="1"/>
-      <Element Name="Circuit" Column="1"/>
-      <Element Name="Departed" Column="2"/>
-      <Element Name="Arrivals" Column="2"/>
-    </LayoutDefinition>
-    <!-- METRO D -->
-    <LayoutDefinition Name="All" Type="D">
-      <Element Name="Preactive" Column="0"/>
-      <Element Name="Taxi" Column="0"/>
-      <Element Name="Holding Point" Column="1"/>
-      <Element Name="Runway" Column="1"/>
-      <Element Name="Circuit" Column="2"/>
-      <Element Name="Arrivals" Column="2"/>
-    </LayoutDefinition>
-    <!-- PROC -->
-    <LayoutDefinition Name="All" Type="Proc">
-      <Element Name="Preactive" Column="0"/>
-      <Element Name="Cleared" Column="0"/>
-      <Element Name="Taxi" Column="1"/>
-      <Element Name="Holding Point" Column="1"/>
-      <Element Name="Runway" Column="1"/>
-      <Element Name="Active" Column="2"/>
-      <Element Name="Pending Arrivals" Column="2"/>
-    </LayoutDefinition>
-    <LayoutDefinition Name="SMC" Type="Proc">
-      <Element Name="Preactive" Column="0"/>
-      <Element Name="Cleared" Column="0"/>
-      <Element Name="Taxi" Column="1"/>
-      <Element Name="Holding Point" Column="2"/>
-      <Element Name="Runway" Column="2"/>
-    </LayoutDefinition>
-    <LayoutDefinition Name="ADC" Type="Proc">
-      <Element Name="Taxi" Column="0"/>
-      <Element Name="Holding Point" Column="0"/>
-      <Element Name="Runway" Column="1"/>
-      <Element Name="Active" Column="2"/>
-      <Element Name="Pending Arrivals" Column="2"/>
-    </LayoutDefinition>
-  </LayoutDefinitions>
+        <LayoutDefinition Name="All">
+            <Element Name="Preactive" Column="0"/>
+            <Element Name="Cleared" Column="0"/>
+    	    <Element Name="Monitor SMC" Column="0"/>
+
+            <Element Name="Pushback" Column="1"/>
+            <Element Name="Taxi" Column="1"/>
+            <Element Name="Holding Point" Column="1"/>
+            <Element Name="Runway" Column="2"/>
+            <Element Name="Departed" Column="2"/>
+            <Element Name="Arrivals" Column="2"/>
+        </LayoutDefinition>
+        <LayoutDefinition Name="TWR">
+            <Element Name="Holding Point" Column="0"/>
+            <Element Name="Runway" Column="0"/>
+            <Element Name="Departed" Column="0"/>
+            <Element Name="Arrivals" Column="0"/>
+        </LayoutDefinition>
+        <LayoutDefinition Name="GND">
+            <Element Name="Preactive" Column="0"/>
+            <Element Name="Cleared" Column="0"/>
+	        <Element Name="Monitor SMC" Column="0"/>
+            <Element Name="Pushback" Column="1"/>
+            <Element Name="Taxi" Column="1"/>
+            <Element Name="Holding Point" Column="1"/>
+        </LayoutDefinition>
+        <LayoutDefinition Name="DEL">
+            <Element Name="Preactive" Column="0"/>
+            <Element Name="Cleared" Column="0"/>
+        </LayoutDefinition>
+        <!-- METRO D -->
+        <LayoutDefinition Name="All" Type="D">
+            <Element Name="Preactive" Column="0"/>
+            <Element Name="Cleared" Column="0"/>
+    	    <Element Name="Monitor SMC" Column="0"/>
+
+            <Element Name="Pushback" Column="1"/>
+            <Element Name="Taxi" Column="1"/>
+            <Element Name="Holding Point" Column="1"/>
+            <Element Name="Runway" Column="2"/>
+            <Element Name="Departed" Column="2"/>
+            <Element Name="Arrivals" Column="2"/>
+        </LayoutDefinition>
+        <LayoutDefinition Name="TWR" Type="D">
+            <Element Name="Holding Point" Column="0"/>
+            <Element Name="Runway" Column="0"/>
+            <Element Name="Departed" Column="0"/>
+            <Element Name="Arrivals" Column="0"/>
+        </LayoutDefinition>
+        <LayoutDefinition Name="GND" Type="D">
+            <Element Name="Preactive" Column="0"/>
+            <Element Name="Cleared" Column="0"/>
+	        <Element Name="Monitor SMC" Column="0"/>
+            <Element Name="Pushback" Column="1"/>
+            <Element Name="Taxi" Column="1"/>
+            <Element Name="Holding Point" Column="1"/>
+        </LayoutDefinition>
+        <LayoutDefinition Name="DEL" Type="D">
+            <Element Name="Preactive" Column="0"/>
+            <Element Name="Cleared" Column="0"/>
+        </LayoutDefinition>
+        <!-- PROC -->
+        <LayoutDefinition Name="All" Type="Proc">
+            <Element Name="Preactive" Column="0" />
+            <Element Name="Cleared" Column="0" />
+    	    <Element Name="Monitor SMC" Column="0"/>
+            <Element Name="Taxi" Column="1" />
+            <Element Name="Holding Point" Column="1" />
+            <Element Name="Runway" Column="2" />
+            <Element Name="Active" Column="2" />
+            <Element Name="Pending Arrivals" Column="2" />
+        </LayoutDefinition>
+        <!-- Proc Push -->
+    <!--<LayoutDefinition Name="All" Type="ProcPush">
+            <Element Name="Preactive" Column="0" />
+            <Element Name="Cleared" Column="0" />
+            <Element Name="Pushback" Column="0" />
+            <Element Name="Taxi" Column="1" />
+            <Element Name="Holding Point" Column="1" />
+            <Element Name="Runway" Column="1" />
+            <Element Name="Active" Column="2" />
+            <Element Name="Pending Arrivals" Column="2" />
+        </LayoutDefinition>
+        <LayoutDefinition Name="SMC" Type="ProcPush">
+            <Element Name="Preactive" Column="0" />
+            <Element Name="Cleared" Column="0" />
+            <Element Name="Pushback" Column="1" />
+            <Element Name="Taxi" Column="1" />
+            <Element Name="Holding Point" Column="2" />
+            <Element Name="Runway" Column="2" />
+        </LayoutDefinition>
+        <LayoutDefinition Name="ADC" Type="ProcPush">
+            <Element Name="Holding Point" Column="0" />
+            <Element Name="Runway" Column="0" />
+            <Element Name="Active" Column="1" />
+            <Element Name="Pending Arrivals" Column="2" />
+        </LayoutDefinition> -->
+    </LayoutDefinitions>
+
+
+    <!-- MARK: Bay Types -->
+    <!-- Creates bays of various types for use in LayoutDefinitions above -->
   <BayTypes>
     <!-- RADAR TOWER / DEFAULT -->
     <BayType>
@@ -145,21 +511,31 @@
       <Bay Name="Preactive">
         <Type>BAY_PREA</Type>
       </Bay>
-      <Bay Name="Taxi">
+      <Bay Name="Cleared">
         <Type>BAY_CLEARED</Type>
+		<Type>BAY_COORDINATOR</Type>
+      </Bay>
+	  <Bay Name="Monitor SMC" Coordinator="true">
+		  <Type>BAY_COORDINATOR</Type>
+	  </Bay>
+      <Bay Name="Pushback">
         <Type>BAY_PUSHED</Type>
-        <Type>BAY_COORDINATOR</Type>
+      </Bay>
+      <Bay Name="Taxi">
         <Type>BAY_TAXI</Type>
       </Bay>
       <Bay Name="Holding Point">
         <Type>BAY_HOLDSHORT</Type>
       </Bay>
-      <Bay Name="Runway">
+      <Bay Name="Runway" CDMDisplay="true">
         <Type>BAY_RUNWAY</Type>
       </Bay>
-      <Bay Name="Circuit">
-        <Type>BAY_CIRCUIT</Type>
+      <Bay Name="Departed">
         <Type>BAY_OUT</Type>
+        <Type>BAY_CIRCUIT</Type>
+      </Bay>
+      <Bay Name="Circuit" Circuit="true">
+        <Type>BAY_CIRCUIT</Type>
       </Bay>
       <Bay Name="Arrivals">
         <Type>BAY_ARRIVAL</Type>
@@ -193,19 +569,100 @@
       </Bay>
     </BayType>
   </BayTypes>
-  <AerodromeLists>
-    <AerodromeList Type="D">
-		  <Aerodrome>MMMX</Aerodrome>
-		  <Aerodrome>MMUN</Aerodrome>
-		  <Aerodrome>MMMY</Aerodrome>
-		  <Aerodrome>MMSD</Aerodrome>
-		  <Aerodrome>MMGL</Aerodrome>
-		  <Aerodrome>MMTJ</Aerodrome>
-    </AerodromeList>
-    <AerodromeList Type="Proc">
-      <Aerodrome>MMDO</Aerodrome>
-    </AerodromeList>
-  </AerodromeLists>
-  <PDCFormat>ACARS BEGIN ACCEPTED {ETD} {ADEP} PDC 483 {CALLSIGN} CLRD TO {ADES} OFF {RWY} VIA {SID} {ROUTE} CLIMB VIA SID TO {CFL_FL} FLIGHT LEVEL F{RFL_FL} SQUAWK {SQUAWK} DEP FREQ {FREQ} ACARS END</PDCFormat>
-  <AerodromeAutoFillLocation></AerodromeAutoFillLocation>
+
+
+    <!-- MARK: Aerodrome Lists -->
+    <!-- Assigns each aerodrome with a layout, defined above -->
+    <AerodromeLists>
+        <AerodromeList Type="D">
+            <Aerodrome>MMCL</Aerodrome>
+            <Aerodrome>MMHO</Aerodrome>
+            <Aerodrome>MMSL</Aerodrome>
+            <Aerodrome>MMSD</Aerodrome>
+            <Aerodrome>MMTJ</Aerodrome>
+            <Aerodrome>MMMD</Aerodrome>
+            <Aerodrome>MMCZ</Aerodrome>
+            <Aerodrome>MMTL</Aerodrome>
+            <Aerodrome>MMUN</Aerodrome>
+            <Aerodrome>MMAA</Aerodrome>
+            <Aerodrome>MMGL</Aerodrome>
+            <Aerodrome>MMLO</Aerodrome>
+            <Aerodrome>MMMX</Aerodrome>
+            <Aerodrome>MMSM</Aerodrome>
+            <Aerodrome>MMTO</Aerodrome>
+            <Aerodrome>MMPR</Aerodrome>
+            <Aerodrome>MMQT</Aerodrome>
+            <Aerodrome>MMVR</Aerodrome>
+            <Aerodrome>MMCU</Aerodrome>
+            <Aerodrome>MMAN</Aerodrome>
+            <Aerodrome>MMMY</Aerodrome>
+        </AerodromeList>
+        <AerodromeList Type="Proc">
+            <Aerodrome>MMCN</Aerodrome>
+            <Aerodrome>MMDO</Aerodrome>
+            <Aerodrome>MMLM</Aerodrome>
+            <Aerodrome>MMML</Aerodrome>
+            <Aerodrome>MMTG</Aerodrome>
+            <Aerodrome>MMMM</Aerodrome>
+            <Aerodrome>MMZO</Aerodrome>
+            <Aerodrome>MMMA</Aerodrome>
+            <Aerodrome>MMNL</Aerodrome>
+            <Aerodrome>MMRX</Aerodrome>
+            <Aerodrome>MMTC</Aerodrome>    
+            <Aerodrome>MMCV</Aerodrome>
+            <Aerodrome>MMGA</Aerodrome>
+            <Aerodrome>MMIO</Aerodrome>
+            <Aerodrome>MMZC</Aerodrome>
+            <Aerodrome>MMZH</Aerodrome>
+            <Aerodrome>MMIA</Aerodrome>
+            <Aerodrome>MMCS</Aerodrome>   
+            <Aerodrome>MMSP</Aerodrome>
+            <Aerodrome>MMTN</Aerodrome>
+            <Aerodrome>MMTM</Aerodrome>
+            <Aerodrome>MMPS</Aerodrome>
+            <Aerodrome>MMOX</Aerodrome>
+            <Aerodrome>MMPA</Aerodrome>
+            <Aerodrome>MMPN</Aerodrome>
+            <Aerodrome>MMEP</Aerodrome>
+            <Aerodrome>MMCB</Aerodrome>
+            <Aerodrome>MMPB</Aerodrome>   
+            <Aerodrome>MMAS</Aerodrome>    
+            <Aerodrome>MMBT</Aerodrome>    
+            <Aerodrome>MMVA</Aerodrome>
+            <Aerodrome>MMMT</Aerodrome>
+            <Aerodrome>MMPQ</Aerodrome>
+            <Aerodrome>MMTP</Aerodrome>
+            <Aerodrome>MMCE</Aerodrome>
+            <Aerodrome>MMCM</Aerodrome>
+            <Aerodrome>MMCP</Aerodrome>
+            <Aerodrome>MMCT</Aerodrome>
+            <Aerodrome>MMIT</Aerodrome>      
+            <Aerodrome>MMES</Aerodrome>                  
+            <Aerodrome>MMLP</Aerodrome>
+            <Aerodrome>MMLT</Aerodrome>
+            <Aerodrome>MMMZ</Aerodrome>
+            <Aerodrome>MMPE</Aerodrome>    
+            <Aerodrome>MMGM</Aerodrome>                    
+        </AerodromeList>
+        <!--<AerodromeList Type="ProcPush">
+        </AerodromeList> -->
+    </AerodromeLists>
+
+
+    <!-- MARK: Runway Maps -->
+    <!-- Tells the plugin to look for runway crossing and release maps for the nominated aerodromes (naming convention matters, see examples below). FullName = folder name for the map -->
+    <AutoMapAerodromes>
+        <AutoMapAerodrome FullName="TMA Mexico" ICAO="MMMX">05/23</AutoMapAerodrome>
+    </AutoMapAerodromes>
+
+
+    <!-- MARK: Config Files -->
+    <AerodromeAutoFillLocation>../Configs/</AerodromeAutoFillLocation>
+    <InhibitVersionCheck>true</InhibitVersionCheck>
+    <StripColour Type="ARRIVAL">#ffffa0</StripColour>
+    <StripColour Type="DEPARTURE">#ffffff</StripColour>
+    <StripColour Type="LOCAL">#e6aedd</StripColour>
+    <StripColour Type="UNKNOWN">#404040</StripColour>
+    <PDCFormat>ACARS BEGIN ACCEPTED {ETD} {ADEP} PDC 483 {CALLSIGN} CLRD TO {ADES} OFF {RWY} VIA {SID} {ROUTE} CLIMB VIA SID TO {CFL_FL} FLIGHT LEVEL F{RFL_FL} SQUAWK {SQUAWK} DEP FREQ {FREQ} ACARS END</PDCFormat>
+
 </AerodromeSettings>

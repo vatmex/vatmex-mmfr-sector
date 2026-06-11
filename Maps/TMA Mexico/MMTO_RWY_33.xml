@@ -33,17 +33,18 @@
             <Point>TO634</Point>
             <Point>VERLU</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMTO - Pista 33 - Llegadas RNAV (Nombres)" Priority="1" Center="+192617.580-0990407.680">
+        <Label>
+            <Point>SEDIM</Point>
+            <Point>VERLU</Point>
+        </Label>        
+
         <Label HasLeader="false">
             <Point>ELILA</Point>
             <Point>ITLAS</Point>
             <Point>LENUL</Point>
-            <Point>SEDIM</Point>
-            <Point>VERLU</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMTO - Pista 33 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
+<!--    <Map Type="System" Name="MMTO - Pista 33 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="SEDIMR078" Pattern="Solid">
 +193219.130-0994652.609/
 +193359.192-0993417.121</Line>
@@ -364,7 +365,7 @@
 +190026.884-0994002.218/
 +190103.156-0994012.861/
 +190139.904-0994021.480</Line>
-    </Map>
+    </Map>-->
     <Map Type="System" Name="MMTO - Pista 33 - RNP 33" Priority="1" Center="+192617.580-0990407.680">
         <Line Pattern="Solid">VERLU/TO801/TO800/+191916.200-0993331.800</Line>
         <Line Pattern="Solid">MUSOS/TO801</Line>
@@ -396,14 +397,15 @@
             <Point>ULEBA</Point>
             <Point>ULOTO</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMTO - Pista 33 - Salidas RNAV (Nombres)" Priority="2" Center="+192617.580-0990407.680">
-        <Label HasLeader="false">
+        <Label>
             <Point>KEBSO</Point>
+        </Label>        
+
+        <Label HasLeader="false">
             <Point>OVAGO</Point>
             <Point>SEBON</Point>
             <Point>TEVOS</Point>
             <Point>ULEBA</Point>
         </Label>
-    </Map>
+    </Map>  
 </Maps>

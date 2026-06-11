@@ -19,14 +19,15 @@
             <Point>TAKAL</Point>
             <Point>VINGA</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMPB - Pista 17 - Llegadas RNAV (Nombres)" Priority="1" Center="+190929.299-0982217.408">
-        <Label HasLeader="false">
+        <Label>
             <Point>TAKAL</Point>
-            <Point>LARLO</Point>
             <Point>LERUS</Point>
             <Point>VINGA</Point>
             <Point>ATUKA</Point>
+        </Label>        
+
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Left">
+            <Point>LARLO</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMPB - Pista 17 - RNP 17" Priority="1" Center="+190929.299-0982217.408">
@@ -40,12 +41,10 @@
             <Point>PB901</Point>
             <Point>PBSD1</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMPB - Pista 17 - RNP 17 (Nombres)" Priority="1" Center="+190929.299-0982217.408">
-        <Label HasLeader="false">
+        <Label>
             <Point>LERUS</Point>
             <Point>VINGA</Point>
-        </Label>
+        </Label>        
     </Map>
     <Map Type="System" Name="MMPB - Pista 17 - Salidas RNAV" Priority="1" Center="+190929.299-0982217.408">
         <Line Name="TAKAL1C" Pattern="Dotted">+190830.870-0982215.260/PB500/PB520/PB400/TAKAL</Line>
@@ -69,14 +68,57 @@
             <Point>TAKAL</Point>
             <Point>UKUNO</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMPB - Pista 17 - Salidas RNAV (Nombres)" Priority="1" Center="+190929.299-0982217.408">
+        <Label>
+            <Point>OTAGO</Point>
+            <Point>TAKAL</Point>
+        </Label>        
+
         <Label HasLeader="false">
             <Point>ILETO</Point>
             <Point>NOXOS</Point>
-            <Point>OTAGO</Point>
-            <Point>TAKAL</Point>
             <Point>UKUNO</Point>
         </Label>
     </Map>
+<!--    <Map Type="Filled" Name="MMPB - Sectores Aproximacion [Fondo]">
+        <Infill CustomColourName="RadarAirway" Priority="1">
+            <Point>
++190057.000-0980146.000/
++185202.300-0981045.913/
++183603.259-0982654.304/
++184631.949-0983838.787/
++185224.061-0983255.306/
++185349.683-0982930.187/
++185822.658-0982710.932/
++190133.159-0982538.387/
++190857.856-0982847.835/
++190925.272-0982950.104/
++192107.657-0982925.074/
++192516.012-0982426.336/
++192846.042-0982432.538/
++193136.557-0982201.781/
++193808.760-0982151.852/
++194128.617-0980017.107/
++190057.000-0980146.000</Point>
+        </Infill>
+    </Map>-->
+<Map Type="System2" CustomColourName="White" Name="z MMPB - Sectores Aproximacion">
+        <Line Pattern="Solid" Priority="1" Width="1">  
++190057.000-0980146.000/
++185202.300-0981045.913/
++183603.259-0982654.304/
++184631.949-0983838.787/
++185224.061-0983255.306/
++185349.683-0982930.187/
++185822.658-0982710.932/
++190133.159-0982538.387/
++190857.856-0982847.835/
++190925.272-0982950.104/
++192107.657-0982925.074/
++192516.012-0982426.336/
++192846.042-0982432.538/
++193136.557-0982201.781/
++193808.760-0982151.852/
++194128.617-0980017.107/
++190057.000-0980146.000</Line>
+    </Map>  
 </Maps>

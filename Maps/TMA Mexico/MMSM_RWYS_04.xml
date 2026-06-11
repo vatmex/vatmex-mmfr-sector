@@ -43,8 +43,21 @@
         <Symbol Type="HollowSquare">
             <Point>PBC</Point>
         </Symbol>
+        <Label>
+            <Point>NADUN</Point>
+            <Point>VINRI</Point>
+        </Label>        
+
+        <Label HasLeader="false">
+            <Point>KELBO</Point>
+            <Point>OTMOS</Point>
+            <Point>PBC</Point>
+            <Point>TOREO</Point>
+            <Point>VITOS</Point>
+            <Point>OTIGA</Point>
+        </Label>
     </Map>
-<Map Type="System" Name="MMSM - Pistas 04 - Llegadas 1R RNAV" Priority="1" Center="+194440.700-0990053.200">
+<Map Type="System" Name="MMSM - Pistas 04 - Llegadas PQRS RNAV" Priority="1" Center="+194440.700-0990053.200">
         <Line Name="VITOS1R" Pattern="Dashed">VITOS/SM642/SM644/SM646/SM648/SM650/SM652/EMOXI/SM30N/SM624/BENAX/NADUN</Line>
         <Line Name="TOREO1R" Pattern="Dashed">TOREO/SM600/TADAS/SM604/SM606/SM608/SM610/SM612/EMOXI/SM30N/SM624/BENAX/NADUN</Line>
         <Line Name="KELBO1R" Pattern="Dashed">KELBO/SM382/SM590/SM592/SM600</Line>
@@ -87,30 +100,19 @@
             <Point>OTIGA</Point>
             <Point>VITOS</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMSM - Pistas 04 - Llegadas RNAV (Nombres)" Priority="1" Center="+194440.700-0990053.200">
+        <Label>
+            <Point>NADUN</Point>
+        </Label>        
+
         <Label HasLeader="false">
             <Point>KELBO</Point>
-            <Point>NADUN</Point>
-            <Point>OTMOS</Point>
-            <Point>PBC</Point>
-            <Point>TOREO</Point>
-            <Point>VINRI</Point>
-            <Point>VITOS</Point>
-            <Point>OTIGA</Point>
-        </Label>
-    </Map>
-    <Map Type="System" Name="MMSM - Pistas 04 - Llegadas 1R RNAV (Nombres)" Priority="1" Center="+194440.700-0990053.200">
-        <Label HasLeader="false">
-            <Point>KELBO</Point>
-            <Point>NADUN</Point>
             <Point>OTMOS</Point>
             <Point>TOREO</Point>
             <Point>VITOS</Point>
             <Point>OTIGA</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="MMSM - Pistas 04 - Llegadas RNAV (Vectores)" Priority="1" Center="+194440.70-0990053.200">
+<!--    <Map Type="System" Name="MMSM - Pistas 04 - Llegadas RNAV (Vectores)" Priority="1" Center="+194440.70-0990053.200">
         <Line Name="VINRIR317" Pattern="Solid">+195406.098-0991340.000/+201058.802-0993017.770</Line>
         <Line Name="VINRIR060" Pattern="Solid">+195406.098-0991340.000/+200544.1811-0985232.7741</Line>
         <Line Name="VINRID6" Pattern="Solid">
@@ -259,7 +261,7 @@
 +200736.102-0985354.309/
 +200636.644-0985310.849/
 +200544.181-0985232.774</Line>              
-    </Map>
+    </Map>-->
     <Map Type="System" Name="MMSM - Pistas 04 - ILS Z 04C" Priority="1" Center="+194440.700-0990053.200">
         <Line Pattern="Solid">NADUN/SM03E/SM03S/SM04S/SM05S/SM07S/+194342.820-0990123.180</Line>
         <Line Pattern="Solid">MIZEN/SM02E/SM03E</Line>
@@ -393,8 +395,25 @@ SM520</Line>
             <Point>UKUNO</Point>
             <Point>ULEBA</Point>
         </Symbol>
+        <Label>
+            <Point>KATMI</Point>
+            <Point>LORSU</Point>
+        </Label>        
+
+        <Label HasLeader="false">
+            <Point>ATURO</Point>
+            <Point>AXIRI</Point>
+            <Point>IKLAN</Point>
+            <Point>ILETO</Point>
+            <Point>NOXOS</Point>
+            <Point>OVAGO</Point>
+            <Point>SEBON</Point>
+            <Point>TEVOS</Point>
+            <Point>UKUNO</Point>
+            <Point>ULEBA</Point>
+        </Label>
     </Map>
-    <Map Type="System" Name="MMSM - Pistas 04 - Salidas RNAV 1P-1Q" Priority="1" Center="+194440.700-0990053.200">
+    <Map Type="System" Name="MMSM - Pistas 04 - Salidas PQRS RNAV" Priority="1" Center="+194440.700-0990053.200">
         <Line Name="ATURO1P" Pattern="Dotted">SM704/SM706/SM710/SM712/ATURO</Line>
         <Line Name="ATURO1Q" Pattern="Dotted">SM704</Line>
         <Line Name="AXIRI1P" Pattern="Dotted">SM712/AXIRI</Line>
@@ -519,15 +538,16 @@ SM520</Line>
             <Point>UKUNO</Point>
             <Point>ULEBA</Point>
         </Symbol>
-    </Map>
-    <Map Type="System" Name="MMSM - Pistas 04 - Salidas RNAV (Nombres)" Priority="2" Center="+194440.700-0990053.200">
+        <Label>
+            <Point>KATMI</Point>
+            <Point>LORSU</Point>
+        </Label>        
+
         <Label HasLeader="false">
             <Point>ATURO</Point>
             <Point>AXIRI</Point>
             <Point>IKLAN</Point>
             <Point>ILETO</Point>
-            <Point>KATMI</Point>
-            <Point>LORSU</Point>
             <Point>NOXOS</Point>
             <Point>OVAGO</Point>
             <Point>SEBON</Point>
@@ -536,4 +556,64 @@ SM520</Line>
             <Point>ULEBA</Point>
         </Label>
     </Map>
+<!--<Map Type="Filled" Name="MMSM - Pistas 05 - Sectores Aproximacion [Fondo]">
+        <Infill CustomColourName="RadarAirway" Priority="1">
+            <Point>
++200351.759-0982611.738/
++194831.234-0982330.881/
++194957.430-0983803.450/
++195912.697-0983741.952/
++200822.677-0984609.073/
++200615.594-0985106.767/
++200417.818-0985542.813/
++200218.951-0985543.562/
++195106.400-0985937.751/
++194934.032-0990214.799/
++194545.114-0990146.263/
++194242.509-0985828.219/
++193526.900-0990847.449/
++193643.949-0991433.232/
++195310.088-0991500.144/
++195731.494-0991738.317/
++201049.872-0992955.765/
++201747.869-0994020.700/
++202714.000-0993059.000/
++202653.887-0992041.478/
++201421.986-0985724.853/
++201749.336-0984953.984/
++202550.219-0984806.761/
++202530.000-0983746.000/
++200518.889-0981534.012/
++200351.759-0982611.738</Point>
+        </Infill>
+    </Map>-->
+<Map Type="System2" CustomColourName="White" Name="z MMSM - Pistas 05 - Sectores Aproximacion">
+        <Line Pattern="Solid" Priority="1" Width="1">  
++200351.759-0982611.738/
++194831.234-0982330.881/
++194957.430-0983803.450/
++195912.697-0983741.952/
++200822.677-0984609.073/
++200615.594-0985106.767/
++200417.818-0985542.813/
++200218.951-0985543.562/
++195106.400-0985937.751/
++194934.032-0990214.799/
++194545.114-0990146.263/
++194242.509-0985828.219/
++193526.900-0990847.449/
++193643.949-0991433.232/
++195310.088-0991500.144/
++195731.494-0991738.317/
++201049.872-0992955.765/
++201747.869-0994020.700/
++202714.000-0993059.000/
++202653.887-0992041.478/
++201421.986-0985724.853/
++201749.336-0984953.984/
++202550.219-0984806.761/
++202530.000-0983746.000/
++200518.889-0981534.012/
++200351.759-0982611.738</Line>
+    </Map>    
 </Maps>

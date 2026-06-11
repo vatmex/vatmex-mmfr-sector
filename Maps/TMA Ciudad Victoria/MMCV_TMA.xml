@@ -7,7 +7,7 @@
         </Runway>
     </Map>
     <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
-        <Line Pattern="Dashed">
+        <Line Pattern="Solid">
 +240743.000-0991508.000/
 +240800.879-0991423.734/
 +240847.225-0991254.268/
@@ -116,8 +116,8 @@
 +242233.000-0993050.000/
 +240743.000-0991508.000</Line>
     </Map>
-    <Map Type="System2" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
-        <Line Pattern="Solid">
+    <Map Type="System" Name="Aeropuerto - Zona de Control (CTR)" Priority="1">
+        <Line Pattern="Dashed">
 +234719.60-0985749.98/
 +234720.00-0985732.83/
 +234719.58-0985715.68/
@@ -217,6 +217,7 @@
 +234551.63-0990125.22/
 +234556.17-0990120.18/
 +234828.00-0990359.00/
-+235051.00-0985802.00</Line>
++235051.00-0985802.00/
++234719.60-0985749.98</Line>
     </Map>
 </Maps>
