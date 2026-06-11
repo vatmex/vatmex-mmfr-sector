@@ -8,74 +8,65 @@
   CFL: "020"
 
 # =========================================
-# CONVENTIONAL (no RNAV conversion)
+# RWY 09 -> RNAV
 # =========================================
+
+# TEVIR1A group
 - if:
-    airway: ["UJ7", "V35"]
+    runway: ["09"]
+    waypoint: ["TEVI1A", "AVEN4A", "ULDU1A", "HMO", "ULDUD", "DAPAN", "TANRI", "URSIX", "ASUTA", "AXASA", "TEVIR"]
+  SID: "TEVI1A"
+
+# TUMAP1A group
+- if:
+    runway: ["09"]
+    waypoint: ["TUMA1A", "UDMO1A", "TUMAP", "LMM"]
+  SID: "TUMA1A"
+
+# SIDGA1A group
+- if:
+    runway: ["09"]
+    waypoint: ["SIDG1A", "TOPO5A", "KREP1A", "TOPOS", "SIDGA", "KREPE", "ELUBA", "TOVES", "SQN", "PVR"]
+  SID: "SIDG1A"
+
+# TIJ3A group
+- if:
+    runway: ["09"]
+    waypoint: ["TIJ3A", "MZB", "LAX", "SAN"]
+  SID: "TIJ3A"
+
+# SEVRA4 group
+- if:
+    runway: ["09"]
+    waypoint: ["SEVRA4", "PPE", "MXL", "SEVRA"]
   SID: "SEVRA4"
-
-- if:
-    airway: ["UJ3", "V3", "V41"]
-  SID: "ULDU1B"
-
-- if:
-    airway: ["T64", "UT64"]
-  SID: "KREP1B"
-
 # =========================================
-# CONVENTIONAL -> RNAV CONVERSIONS
-# (RNAV SID replaces conventional)
+# RWY 27 -> RNAV
 # =========================================
+
+# TEVIR2B group
 - if:
-    airway: ["UT18"]
+    runway: ["27"]
+    waypoint: ["TEVI2B", "AVEN5B", "ULDU1B", "HMO", "ULDUD", "DAPAN", "TANRI", "URSIX", "ASUTA", "AXASA", "TEVIR"]
   SID: "TEVI2B"
 
+# TUMAP2B group
 - if:
-    airway: ["UT4"]
+    runway: ["27"]
+    waypoint: ["TUMA2B", "UDMO1B", "UDMOV", "TUMAP", "LMM"]
   SID: "TUMA2B"
 
+# SIDGA1B group
 - if:
-    airway: ["UT6", "UJ20", "J1", "V42"]
+    runway: ["27"]
+    waypoint: ["SIDG1B", "TOPO5B", "KREP1B", "TOPOS", "SIDGA", "KREPE", "ELUBA", "TOVES", "SQN", "PVR"]
   SID: "SIDG1B"
 
-# =========================================
-# RNAV waypoint fallback
-# =========================================
+# TIJ4B group
 - if:
-    waypoint: ["TEVIR"]
-  SID: "TEVI2B"
-
-- if:
-    waypoint: ["TUMAP"]
-  SID: "TUMA2B"
-
-- if:
-    waypoint: ["SIDGA"]
-  SID: "SIDG1B"
-
-- if:
-    waypoint: ["SEVRA"]
-  SID: "SEVRA4"
-
-- if:
-    waypoint: ["ULDUD"]
-  SID: "ULDU1B"
-
-- if:
-    waypoint: ["AVENA"]
-  SID: "TEVI2B"
-
-- if:
-    waypoint: ["UDMOV"]
-  SID: "TUMA2B"
-
-- if:
-    waypoint: ["TOPOS"]
-  SID: "SIDG1B"
-
-- if:
-    waypoint: ["KREPE"]
-  SID: "KREP1B"
+    runway: ["27"]
+    waypoint: ["TIJ4B", "PPE", "MXL", "SEVRA", "MZB", "LAX", "SAN", "ULDU1B", "ULDUD", "DAPAN", "TANRI", "URSIX", "ASUTA", "AXASA"]
+  SID: "TIJ4B"
 
 # Departure Frequencies
 - departures: ["118.1", "120.3", "128.0"]

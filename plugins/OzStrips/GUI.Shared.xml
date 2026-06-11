@@ -361,6 +361,42 @@
             Gets or sets when this record was last modified.
             </summary>
         </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeDTO">
+            <summary>
+            CDMAerodrome DTO.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeDTO.Aircraft">
+            <summary>
+            Gets or sets the list of CDM active aircraft.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeDTO.AerodromeServerCode">
+            <summary>
+            Gets or sets the server code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeDTO.Slots">
+            <summary>
+            Gets or sets the list of slots.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeDTO.Departures">
+            <summary>
+            Gets or sets the list of departures.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeDTO.CurrentResults">
+            <summary>
+            Gets or sets the list of CDM results last generated.
+            </summary>
+            Gets a thread-safe copy of CDM results.
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeDTO.Parameters">
+            <summary>
+            Gets or sets the parameters.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO">
             <summary>
             An aircraft in the CDM system.
@@ -756,6 +792,26 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.Radials">
             <summary>
             Gets or sets a list of radials, where at least one must match the planned departure radial.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.ZuluTimes">
+            <summary>
+            Gets or sets a list of zulu times.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.TempAbove">
+            <summary>
+            Gets or sets the min-temp to match.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.DestRegex">
+            <summary>
+            Gets or sets the destination regex to match.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.ATISRegex">
+            <summary>
+            Gets or sets the regex to match against the ATIS.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.SCDeletionDTO">

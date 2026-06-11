@@ -35,15 +35,17 @@
         <Label HasLeader="false">
             <Point>ALMIS</Point>
             <Point>EPRIM</Point>
-	        <Point>UKTEN</Point>
+            <Point>UKTEN</Point>
             <Point>URNOK</Point>
-            <Point>MX771</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>ENAGA</Point>
             <Point>DARAN</Point>
+            <Point>ESPOS</Point>
+        </Label>
+
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Left">
             <Point>LARLO</Point>
-            <Point>ESPOS</Point>        
         </Label>
     </Map>
 <!--    <Map Type="System" Name="[MMMX - Pistas 05 - Llegadas RNAV (Nombres)]" Priority="1" Center="+192617.580-0990407.680">
@@ -59,7 +61,7 @@
             <Point>MX771</Point>
         </Label>
     </Map>-->
-    <Map Type="System" Name="MMMX - Pistas 05 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
+    <Map Type="System" Name=" MMMX - Pistas 05 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="ALMISR289" Pattern="Solid">+193554.519-0991727.220/+195737.424-0991319.118</Line>
         <Line Name="ALMISR006" Pattern="Solid">+193554.519-0991727.220/+194424.225-0993858.824</Line>
         <Line Name="ALMISD6" Pattern="Solid">
@@ -507,6 +509,15 @@
             <Point>EPRIM</Point>
         </Symbol>
     </Map>
+    <Map Type="System" CustomColourName="Coastline" Name=" MMMX - Pistas 05 - Aproximacion Frustrada 05R" Priority="1" Center="+192617.580-0990407.680">
+        <Line Name="MAP 05R" Pattern="Hash" Width="0.6">MX949/MX950/MX740/MX951/EPRIM</Line>
+        <!--<Symbol Type="HollowStar">
+            <Point>MX949</Point>
+            <Point>MX950</Point>
+            <Point>MX740</Point>
+            <Point>MX951</Point>
+        </Symbol>-->
+    </Map>
     <Map Type="System" Name=" MMMX - Pistas 05 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="ATURO2A" Pattern="Dotted">MEX/MX800/MX802/MX803/MX804/MX805/OTMAL/ATURO</Line>
         <Line Name="AXIRI2A" Pattern="Dotted">OTMAL/AXIRI</Line>
@@ -616,24 +627,10 @@ SEBON</Line>
             <Point>RAKEM</Point>
         </Label>
     </Map>-->
-    <Map Type="Filled" Name="z MMMX - Pistas 05 - Sectores Llegadas [Fondo]">
-        <Infill CustomColourName="RadarAirway" Priority="2">
-        <Point>  
-+194510.343-0980009.002/
-+194525.915-0982239.743/
-+194831.234-0982330.881/
-+194957.430-0983803.450/
-+194027.241-0983923.325/
-+193150.751-0985426.416/
-+193503.345-0985602.480/
-+193526.900-0990847.449/
-+193643.949-0991433.232/
-+195310.073-0991500.174/
-+195731.512-0991738.329/
-+195634.308-0992605.054/
-+195302.017-0993335.294/
-+194713.994-0993908.670/
-+193400.542-0992305.460/
+<Map Type="Filled" Name="z MMMX - Pistas 05 - Sectores Llegadas [Fondo]">
+    <Infill CustomColourName="RadarAirway" Priority="2">
+        <Point>
++193207.298-0993013.170/
 +193204.629-0993023.250/
 +193508.272-0993156.146/
 +193219.167-0995006.065/
@@ -658,16 +655,24 @@ SEBON</Line>
 +200518.889-0981534.012/
 +195106.000-0975956.000/
 +194510.343-0980009.002/
-+190057.000-0980146.000/
-+185202.300-0981045.913/
-+183603.259-0982654.304/
-+182503.000-0983801.000/
-+182527.205-0985014.842/
-+182547.745-0990037.540/
-+182647.000-0993034.000/
-+184703.438-0995314.912/
-+185332.466-0993708.554/
-+190011.627-0992041.696/
++194525.915-0982239.743/
++194831.234-0982330.881/
++194957.430-0983803.450/
++194027.241-0983923.325/
++193150.751-0985426.416/
++193503.345-0985602.480/
++193526.900-0990847.449/
++193643.949-0991433.232/
++195310.073-0991500.174/
++195731.512-0991738.329/
++195634.308-0992605.054/
++195302.017-0993335.294/
++194713.994-0993908.670/
++193400.542-0992305.460/
++193207.622-0993011.945/
++190008.901-0992040.223/
++190008.577-0992041.448/
++190009.845-0992041.826/
 +185621.270-0992058.544/
 +185127.461-0991505.439/
 +184825.299-0990736.477/
@@ -681,12 +686,18 @@ SEBON</Line>
 +185349.683-0982930.187/
 +185822.658-0982710.932/
 +185202.300-0981045.913/
-+190057.000-0980146.000/
-+194510.343-0980009.002/</Point>
-        </Infill>
-    </Map>
-<Map Type="System2" Pattern="Solid" Priority="1" Width="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Llegadas [Contorno]">
-        <Line>  
++183603.259-0982654.304/
++182503.000-0983801.000/
++182527.205-0985014.842/
++182547.745-0990037.540/
++182647.000-0993034.000/
++184703.438-0995314.912/
++185332.466-0993708.554/
++190011.388-0992042.286</Point>
+    </Infill>
+</Map>
+<Map Type="System2" Pattern="Solid" Priority="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Llegadas">
+        <Line Width="0.7">  
 +194510.343-0980009.002/
 +194525.915-0982239.743/
 +194831.234-0982330.881/
@@ -726,7 +737,7 @@ SEBON</Line>
 +200518.889-0981534.012/
 +195106.000-0975956.000/
 +194510.343-0980009.002/</Line>
-        <Line>
+        <Line Width="0.7">
 +185202.300-0981045.913/
 +183603.259-0982654.304/
 +182503.000-0983801.000/
@@ -750,8 +761,8 @@ SEBON</Line>
 +185822.658-0982710.932/
 +185202.300-0981045.913</Line>
     </Map>
-<Map Type="System2" Pattern="Solid" Priority="1" Width="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Aproximacion [Contorno]">
-        <Line>  
+<Map Type="System2" Pattern="Solid" Priority="1" Width="0.7" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Aproximacion">
+        <Line Width="0.7">  
 +194713.994-0993908.670/
 +195302.017-0993335.294/
 +195634.308-0992605.054/
@@ -760,7 +771,7 @@ SEBON</Line>
 +193643.949-0991433.232/
 +193400.542-0992305.460/
 +194713.994-0993908.670</Line>
-        <Line Pattern="Solid" Priority="1">
+        <Line Width="0.7" Pattern="Solid" Priority="1">
 +191148.565-0990252.939/
 +190918.052-0990618.946/
 +190203.197-0991614.189/
@@ -791,8 +802,8 @@ SEBON</Line>
 +191108.358-0985918.113</Point>
         </Infill>
     </Map>
-<Map Type="System2" Pattern="Solid" Priority="1" Width="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Final [Contorno]">
-        <Line>  
+<Map Type="System2" Pattern="Solid" Priority="1" Width="0.7" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Final">
+        <Line Width="0.7">  
 +191108.358-0985918.113/
 +191148.548-0990252.965/
 +190918.052-0990618.946/
@@ -865,8 +876,8 @@ SEBON</Line>
 +190057.000-0980146.000</Point>
         </Infill>
     </Map>
-<Map Type="System2" Pattern="Solid" Priority="1" Width="1" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Salidas [Contorno]">
-        <Line>  
+<Map Type="System2" Pattern="Solid" Priority="1" Width="0.7" CustomColourName="White" Name="z MMMX - Pistas 05 - Sectores Salidas">
+        <Line Width="0.7">  
 +190057.000-0980146.000/
 +185202.300-0981045.913/
 +185822.658-0982710.932/

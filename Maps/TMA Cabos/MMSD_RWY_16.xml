@@ -38,17 +38,19 @@
         <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
             <Point>MARAK</Point>
             <Point>SD800</Point>
-            <Point>MARUX</Point>
-            <Point>GOSIM</Point>
-            <Point>DASON</Point>
-            <Point>BALCE</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>AXEDA</Point>
         </Label>
-        <Label LabelOrientation="NE" HasLeader="true" Alignment="Left">
+
+        <Label HasLeader="false">
+            <Point>MARUX</Point>
+            <Point>GOSIM</Point>
+            <Point>DASON</Point>
+            <Point>BALCE</Point>
             <Point>SHAWA</Point>
         </Label>
+
     </Map>
     <Map Type="System" Name="MMSD - Pista 16 - RNP 16" Priority="1" Center="+230956.019-1094320.211">
         <Line Pattern="Solid">AXEDA/SD800</Line>
@@ -96,11 +98,13 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMSD - Pista 16 - Salidas RNAV (Nombres)" Priority="1" Center="+230956.019-1094320.211">
-        <Label HasLeader="true">
+
+        <Label HasLeader="false">
             <Point>ALRIN</Point>
             <Point>ANEGO</Point>
             <Point>ILIGA</Point>
             <Point>UKUXA</Point>
         </Label>
+
     </Map>
 </Maps>

@@ -28,10 +28,13 @@
     <Map Type="System" Name="MMSL - Pista 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+225653.965-1095617.973">
         <Label HasLeader="false">
             <Point>ALRIN</Point>
-            <Point>ENEKO</Point>
             <Point>ILIGA</Point>
-            <Point>LEPOM</Point>
             <Point>TESAC</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>ENEKO</Point>
+            <Point>LEPOM</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMSL - Pista 29 - RNP 29" Priority="1" Center="+225653.965-1095617.973">

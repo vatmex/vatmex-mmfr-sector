@@ -31,7 +31,7 @@
     <Colour id="StripBackground">
         <Use>Strip Backgrounds</Use>
         <Name>GreenGrey</Name>
-        <R>2</R>
+        <R>0</R>
         <G>55</G>
         <B>77</B>
     </Colour>
@@ -186,9 +186,9 @@
     <Colour id="ASDBackground">
         <Use>ASD Backgrounds</Use>
         <Name>DarkBlue</Name>
-        <R>10</R>
-        <G>24</G>
-        <B>31</B>
+        <R>0</R>
+        <G>43</G>
+        <B>51</B>
     </Colour>
     <Colour id="CPDLCSendButton">
         <Use>CPDLC Hot-Send Button</Use>
@@ -355,9 +355,9 @@
     <Colour id="Infill">
         <Use>Filled Area Map</Use>
         <Name>MidGrey</Name>
-        <R>11</R>
-        <G>19</G>
-        <B>25</B>
+        <R>0</R>
+        <G>25</G>
+        <B>30</B>
     </Colour>
     <Colour id="SecondaryMap">
         <Use>Alternative System Map</Use>
@@ -454,10 +454,17 @@
     <Colour id="Custom">
         <Use>Radar Airways</Use>
         <Name>RadarAirway</Name>
-        <R>7</R>
-        <G>13</G>
-        <B>15</B>
+        <R>0</R>
+        <G>25</G>
+        <B>30</B>
     </Colour>
+    <Colour id="Custom">
+        <Use>Coastline</Use>
+        <Name>Coastline</Name>
+        <R>99</R>
+        <G>99</G>
+        <B>99</B>
+    </Colour>    
     <!--Prueba (Taxiway centerlines)-->
     <Colour id="Custom">
         <Use>Taxiway Centerlines</Use>

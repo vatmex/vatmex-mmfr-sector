@@ -49,7 +49,6 @@
     <Map Type="System" Name="MMLO - Pista 13 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
         <Label HasLeader="false">
             <Point>AGU</Point>
-            <Point>LIBOL</Point>
             <Point>MEDAB</Point>
             <Point>NAGIV</Point>
             <Point>OMINA</Point>
@@ -57,6 +56,10 @@
             <Point>ODGAR</Point>
             <Point>RIGEP</Point>
             <Point>ULUMU</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>LIBOL</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMLO - Pista 13 - RNP 13" Priority="1" Center="+203124.320-1031841.798">

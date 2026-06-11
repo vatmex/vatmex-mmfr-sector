@@ -44,15 +44,18 @@
             <Point>PBC</Point>
         </Symbol>
         <Label>
-            <Point>KELBO</Point>
             <Point>NADUN</Point>
+            <Point>VINRI</Point>
+        </Label>        
+
+        <Label HasLeader="false">
+            <Point>KELBO</Point>
             <Point>OTMOS</Point>
             <Point>PBC</Point>
             <Point>TOREO</Point>
-            <Point>VINRI</Point>
             <Point>VITOS</Point>
             <Point>OTIGA</Point>
-        </Label>        
+        </Label>
     </Map>
 <Map Type="System" Name="MMSM - Pistas 04 - Llegadas PQRS RNAV" Priority="1" Center="+194440.700-0990053.200">
         <Line Name="VITOS1R" Pattern="Dashed">VITOS/SM642/SM644/SM646/SM648/SM650/SM652/EMOXI/SM30N/SM624/BENAX/NADUN</Line>
@@ -98,13 +101,16 @@
             <Point>VITOS</Point>
         </Symbol>
         <Label>
-            <Point>KELBO</Point>
             <Point>NADUN</Point>
+        </Label>        
+
+        <Label HasLeader="false">
+            <Point>KELBO</Point>
             <Point>OTMOS</Point>
             <Point>TOREO</Point>
             <Point>VITOS</Point>
             <Point>OTIGA</Point>
-        </Label>        
+        </Label>
     </Map>
 <!--    <Map Type="System" Name="MMSM - Pistas 04 - Llegadas RNAV (Vectores)" Priority="1" Center="+194440.70-0990053.200">
         <Line Name="VINRIR317" Pattern="Solid">+195406.098-0991340.000/+201058.802-0993017.770</Line>
@@ -390,19 +396,22 @@ SM520</Line>
             <Point>ULEBA</Point>
         </Symbol>
         <Label>
+            <Point>KATMI</Point>
+            <Point>LORSU</Point>
+        </Label>        
+
+        <Label HasLeader="false">
             <Point>ATURO</Point>
             <Point>AXIRI</Point>
             <Point>IKLAN</Point>
             <Point>ILETO</Point>
-            <Point>KATMI</Point>
-            <Point>LORSU</Point>
             <Point>NOXOS</Point>
             <Point>OVAGO</Point>
             <Point>SEBON</Point>
             <Point>TEVOS</Point>
             <Point>UKUNO</Point>
             <Point>ULEBA</Point>
-        </Label>        
+        </Label>
     </Map>
     <Map Type="System" Name="MMSM - Pistas 04 - Salidas PQRS RNAV" Priority="1" Center="+194440.700-0990053.200">
         <Line Name="ATURO1P" Pattern="Dotted">SM704/SM706/SM710/SM712/ATURO</Line>
@@ -530,19 +539,22 @@ SM520</Line>
             <Point>ULEBA</Point>
         </Symbol>
         <Label>
+            <Point>KATMI</Point>
+            <Point>LORSU</Point>
+        </Label>        
+
+        <Label HasLeader="false">
             <Point>ATURO</Point>
             <Point>AXIRI</Point>
             <Point>IKLAN</Point>
             <Point>ILETO</Point>
-            <Point>KATMI</Point>
-            <Point>LORSU</Point>
             <Point>NOXOS</Point>
             <Point>OVAGO</Point>
             <Point>SEBON</Point>
             <Point>TEVOS</Point>
             <Point>UKUNO</Point>
             <Point>ULEBA</Point>
-        </Label>        
+        </Label>
     </Map>
 <!--<Map Type="Filled" Name="MMSM - Pistas 05 - Sectores Aproximacion [Fondo]">
         <Infill CustomColourName="RadarAirway" Priority="1">
@@ -575,7 +587,7 @@ SM520</Line>
 +200351.759-0982611.738</Point>
         </Infill>
     </Map>-->
-<Map Type="System2" CustomColourName="White" Name="z MMSM - Pistas 05 - Sectores Aproximacion [Contorno]">
+<Map Type="System2" CustomColourName="White" Name="z MMSM - Pistas 05 - Sectores Aproximacion">
         <Line Pattern="Solid" Priority="1" Width="1">  
 +200351.759-0982611.738/
 +194831.234-0982330.881/

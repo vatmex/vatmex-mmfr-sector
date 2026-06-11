@@ -37,7 +37,6 @@
             <Point>AGMUM</Point>
             <Point>CLOVR</Point>
             <Point>ESRAP</Point>
-            <Point>ITPIS</Point>
             <Point>KATPO</Point>
             <Point>MIBTA</Point>
             <Point>MISUL</Point>
@@ -45,15 +44,22 @@
             <Point>MY410</Point>
             <Point>MY498</Point>
             <Point>NAPNO</Point>
-            <Point>NOTAL</Point>
             <Point>OKOTO</Point>
-            <Point>RETOS</Point>
             <Point>SLW</Point>
             <Point>ULAVA</Point>
             <Point>VETNU</Point>
             <Point>WICLO</Point>
             <Point>MY403</Point>
-        </Label>        
+        </Label>
+
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
+            <Point>NOTAL</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>ITPIS</Point>
+            <Point>RETOS</Point>
+        </Label>
+             
     </Map>
 
  <!-- Disabled   <Map Type="System" Name="MMMY - Pista 30 - ILS W 30" Priority="1" Center="+284208.380-1055746.670">
@@ -176,11 +182,13 @@ MY408</Line>
             <Point>MY606</Point>
             <Point>RALLO</Point>
         </Symbol>
-        <Label HasLeader="true">
+
+        <Label HasLeader="false">
             <Point>DAJOR</Point>
             <Point>DOTOR</Point>
             <Point>GRALA</Point>
             <Point>KERGA</Point>
-        </Label>        
+        </Label>
+        
     </Map>
 </Maps>

@@ -42,14 +42,19 @@
     </Map>
     <Map Type="System" Name="Pista 22 - Llegadas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
         <Label>
-            <Point>KEDIX</Point>
-            <Point>OBRUG</Point>
-            <Point>KEDMA</Point>
             <Point>ESVEL</Point>
-            <Point>NOTUP</Point>
-            <Point>LIPEP</Point>
             <Point>MUVBA</Point>
             <Point>VETKA</Point>
+        </Label>
+
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
+            <Point>KEDIX</Point>
+            <Point>OBRUG</Point>
+        </Label>
+        <Label HasLeader="true">
+            <Point>KEDMA</Point>
+            <Point>NOTUP</Point>
+            <Point>LIPEP</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 22 - RNP 22" Priority="1" Center="+204048.261-1051515.123">
@@ -125,11 +130,15 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="Pista 22 - Salidas RNAV (Nombres)" Priority="2" Center="+204048.261-1051515.123">
-        <Label>
+
+        <Label HasLeader="true">
             <Point>BOBDI</Point>
-            <Point>XUDED</Point>
             <Point>VOLAT</Point>
             <Point>LIPEP</Point>
         </Label>
+        <Label HasLeader="false">
+            <Point>XUDED</Point>
+        </Label>
+
     </Map>
 </Maps>

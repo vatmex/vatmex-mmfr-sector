@@ -41,19 +41,28 @@
             <Point>PBC</Point>
         </Symbol>
         <Label>
-            <Point>DARAN</Point>
-            <Point>ENAGA</Point>
-            <Point>ESPOS</Point>
             <Point>ESTIN</Point>
-            <Point>LARLO</Point>
             <Point>SESTA</Point>
-            <Point>OTMOS</Point>
-            <Point>MX665</Point>
             <Point>DUSGO</Point>
             <Point>VIKSA</Point>
             <Point>MX403</Point>
+        </Label>
+        <Label HasLeader="false">
+            <Point>ESTIN</Point>
+            <Point>VIKSA</Point>
+            <Point>MX403</Point>
             <Point>PBC</Point>
-        </Label>        
+            <Point>PBC</Point>
+        </Label>
+        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>DARAN</Point>
+            <Point>ENAGA</Point>
+            <Point>ESPOS</Point>
+        </Label>
+
+        <Label LabelOrientation="S" HasLeader="true" Alignment="Left">
+            <Point>LARLO</Point>
+        </Label>
     </Map>
 <!--    <Map Type="System" Name="[MMMX - Pistas 23 - Llegadas RNAV (Nombres)]" Priority="2" Center="+192617.580-0990407.680">
         <Label>
@@ -71,7 +80,7 @@
             <Point>PBC</Point>
         </Label>
     </Map>-->
-    <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
+    <Map Type="System" Name="[MMMX - Pistas 23 - Llegadas RNAV (Vectores)]" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="SESTAR278" Pattern="Solid">+193524.910-0984738.439/+193218.7367-0982224.177</Line>
         <Line Name="SESTAR178" Pattern="Solid">+193524.910-0984738.439/+195909.456-0984414.159</Line>
         <Line Name="SESTAD6" Pattern="Solid">
@@ -326,6 +335,19 @@
             <Point>VIKSA</Point>
         </Symbol>
     </Map>
+    <Map Type="System" CustomColourName="Coastline" Name="[MMMX - Pistas 23 - Aproximacion Frustrada 23L]" Priority="1" Center="+192617.580-0990407.680">
+        <Line Name="MAP 23L" Pattern="Hash" Width="0.6">MX415/MX416/VIKSA</Line>
+        <!--<Symbol Type="HollowStar">
+            <Point>MX415</Point>
+            <Point>MX416</Point>
+            <Point>VIKSA</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>MX415</Point>
+            <Point>MX416</Point>
+            <Point>VIKSA</Point>
+        </Label>-->
+    </Map>
     <Map Type="System" Name="[MMMX - Pistas 23 - Salidas RNAV]" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="ATURO3B" Pattern="Dotted">MEX/MX503/MX520/SEGUM/MX550/MX527/ATURO</Line>
         <Line Name="AXIRI2B" Pattern="Dotted">MX527/AXIRI</Line>
@@ -371,6 +393,10 @@
             <Point>USBAN</Point>
         </Symbol>
         <Label>
+            <Point>RAKEM</Point>
+        </Label>        
+
+        <Label HasLeader="false">
             <Point>ATURO</Point>
             <Point>AXIRI</Point>
             <Point>IKLAN</Point>
@@ -381,8 +407,7 @@
             <Point>TEVOS</Point>
             <Point>UKUNO</Point>
             <Point>ULEBA</Point>
-            <Point>RAKEM</Point>
-        </Label>        
+        </Label>
     </Map>
 <!--    <Map Type="System" Name="[MMMX - Pistas 23 - Salidas RNAV (Nombres)]" Priority="2" Center="+192617.580-0990407.680">
         <Label>
@@ -400,7 +425,7 @@
         </Label>
     </Map>-->
 
-    <Map Type="Filled" Name="z MMMX - Pistas 23 - Sectores Llegadas [Fondo]">
+    <Map Type="Filled" Name="z [MMMX - Pistas 23 - Sectores Llegadas [Fondo]]">
         <Infill CustomColourName="RadarAirway" Priority="1">
             <Point>
 +190057.000-0980146.000/
@@ -450,8 +475,8 @@
 +190057.000-0980146.000</Point>
         </Infill>
     </Map>
-<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Llegadas [Contorno]">
-        <Line Pattern="Solid" Priority="1" Width="1">  
+<Map Type="System2" CustomColourName="White" Name="z [MMMX - Pistas 23 - Sectores Llegadas]">
+        <Line Pattern="Solid" Priority="1" Width="0.7">  
 +190057.000-0980146.000/
 +183605.657-0982651.882/
 +184643.485-0983831.433/
@@ -498,7 +523,7 @@
 +194110.321-0980017.776/
 +190057.000-0980146.000</Line>
     </Map>
-    <Map Type="Filled" Name="z MMMX - Pistas 23 - Sectores Aproximacion [Fondo]">
+    <Map Type="Filled" Name="z [MMMX - Pistas 23 - Sectores Aproximacion [Fondo]]">
         <Infill CustomColourName="RadarAirway" Priority="1">
             <Point>
 +193754.531-0982145.605/
@@ -519,8 +544,8 @@
 +193754.531-0982145.605</Point>
         </Infill>
     </Map>
-<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Aproximacion [Contorno]">
-        <Line Pattern="Solid" Priority="1" Width="1">  
+<Map Type="System2" CustomColourName="White" Name="z [MMMX - Pistas 23 - Sectores Aproximacion]">
+        <Line Pattern="Solid" Priority="1" Width="0.7">  
 +193754.531-0982145.605/
 +193144.099-0982154.599/
 +193347.005-0984135.700/
@@ -538,8 +563,8 @@
 +193842.988-0981623.019/
 +193754.531-0982145.605</Line>
     </Map>
-    <Map Type="System2" Name="z MMMX - Pistas 23 - Sectores Final [Contorno]" Priority="1">
-        <Line Name="FINL23" Pattern="Solid" Width="1">
+    <Map Type="System2" Name="z [MMMX - Pistas 23 - Sectores Final]" Priority="1">
+        <Line Name="FINL23" Pattern="Solid" Width="0.7">
 +192754.080-0990511.913/
 +192704.620-0990450.151/
 +192439.090-0990302.097/
@@ -548,7 +573,7 @@
 +193812.810-0984912.584/
 +192754.080-0990511.913</Line>
     </Map>
-    <Map Type="Filled" Name="z MMMX - Pistas 23 - Sectores Salidas [Fondo]">
+    <Map Type="Filled" Name="z [MMMX - Pistas 23 - Sectores Salidas [Fondo]]">
         <Infill CustomColourName="RadarAirway" Priority="1">
             <Point>
 +191738.443-0985002.007/
@@ -600,8 +625,8 @@
 +191738.443-0985002.007</Point>
         </Infill>
     </Map>
-<Map Type="System2" CustomColourName="White" Name="z MMMX - Pistas 23 - Sectores Salidas [Contorno]">
-        <Line Pattern="Solid" Priority="1" Width="1">
+<Map Type="System2" CustomColourName="White" Name="z [MMMX - Pistas 23 - Sectores Salidas]">
+        <Line Pattern="Solid" Priority="1" Width="0.7">
 +191738.443-0985002.007/
 +191211.147-0985839.233/
 +190756.299-0985602.134/
