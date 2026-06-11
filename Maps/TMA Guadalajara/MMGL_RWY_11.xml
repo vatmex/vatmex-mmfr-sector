@@ -46,16 +46,12 @@
             <Point>VOLAT</Point>
         </Symbol>
         <Label HasLeader="true">
-            <Point>AMULA</Point>
             <Point>IGSON</Point>
-            <Point>KASUP</Point>
             <Point>MEZCA</Point>
             <Point>MUTEM</Point>
-            <Point>USBIM</Point>
             <Point>VOLAT</Point>
             <Point>BRUJA</Point>
             <Point>GL531</Point>
-            <Point>LONVA</Point>
             <Point>GL513</Point>
             <Point>DULNO</Point>
         </Label>
@@ -66,6 +62,15 @@
             <Point>DATSO</Point>
             <Point>ULOGA</Point>
         </Label>        
+
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>AMULA</Point>
+        </Label>
+        <Label HasLeader="false">
+            <Point>KASUP</Point>
+            <Point>USBIM</Point>
+            <Point>LONVA</Point>
+        </Label>
     </Map>
 
 <Map Type="System" Name="Pistas 11 - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
@@ -297,16 +302,19 @@
             <Point>OTOKI</Point>
             <Point>SEDEM</Point>
         </Symbol>
-        <Label>
+
+        <Label HasLeader="false">
             <Point>EMIRI</Point>
             <Point>KELVA</Point>
             <Point>LONKU</Point>
-            <Point>NOTUP</Point>
             <Point>OTOKI</Point>
-        </Label>
-        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>FEISE</Point>
             <Point>SEDEM</Point>
-        </Label>            
+        </Label>
+        <Label HasLeader="true">
+            <Point>NOTUP</Point>
+        </Label>
+
+            
     </Map>
 </Maps>

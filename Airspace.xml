@@ -1266,7 +1266,7 @@
         </Airport>
         <Airport Name="MMSM">
             <Runway Name="04C" DataRunway="04C">
-                <SID Name="ATUR2C" />
+                <SID Name="ATUR2C" Default="True" />
                 <SID Name="AXIR2C" />
                 <SID Name="IKLA2C" />
                 <SID Name="LORS2A" />
@@ -1274,45 +1274,71 @@
                 <SID Name="UKUN2E" />
                 <SID Name="ILET2E" />
                 <SID Name="TEVO2E" />
-                <SID Name="TEVO1J" />
                 <SID Name="ULEB2E" />
-                <SID Name="ULEB1J" />
                 <SID Name="OVAG2E" />
-                <SID Name="OVAG1J" />
                 <SID Name="SEBO2E" />
-                <SID Name="SEBO1J" />
                 <SID Name="KATM2A" />
+                <SID Name="ATUR1P" />
+                <SID Name="AXIR1P" />
+                <SID Name="IKLA1P" />
+                <SID Name="LORS1P" />
+                <SID Name="NOXO1P" />
+                <SID Name="UKUN1P" />
+                <SID Name="ILET1P" />
+                <SID Name="TEVO1P" />
+                <SID Name="ULEB1P" />
+                <SID Name="OVAG1P" />
+                <SID Name="SEBO1P" />
+                <SID Name="KATM1P" />                
                 <STAR Name="KELB1A" ApproachName="ILS04CZ.NADUN" />
                 <STAR Name="OTMO2A" ApproachName="ILS04CZ.NADUN" />
                 <STAR Name="PBC2C" ApproachName="ILS04CZ.NADUN" />
                 <STAR Name="TORE1A" ApproachName="ILS04CZ.NADUN" />
                 <STAR Name="VITO2A" ApproachName="ILS04CZ.NADUN" />
+                <STAR Name="KELB1R" ApproachName="ILS04CZ.NADUN" />
+                <STAR Name="OTMO1R" ApproachName="ILS04CZ.NADUN" />
+                <STAR Name="OTIG1R" ApproachName="ILS04CZ.NADUN" />
+                <STAR Name="TORE1R" ApproachName="ILS04CZ.NADUN" />
+                <STAR Name="VITO1R" ApproachName="ILS04CZ.NADUN" />
             </Runway>
             <Runway Name="04L" DataRunway="04L">
-                <SID Name="ATUR2D" />
+                <SID Name="ATUR2D" Default="True" />
                 <SID Name="AXIR2D" />
                 <SID Name="IKLA2D" />
                 <SID Name="LORS2B" />
                 <SID Name="NOXO2F" />
                 <SID Name="UKUN2F" />
                 <SID Name="ILET2F" />
-                <SID Name="TEVO2F" />
-                <SID Name="TEVO1J" />
+                <SID Name="TEVO2F" />                
                 <SID Name="ULEB2F" />
-                <SID Name="ULEB1J" />
                 <SID Name="OVAG2F" />
-                <SID Name="OVAG1J" />
                 <SID Name="SEBO2F" />
-                <SID Name="SEBO1J" />
                 <SID Name="KATM2B" />
+                <SID Name="ATUR1Q" />
+                <SID Name="AXIR1Q" />
+                <SID Name="IKLA1Q" />
+                <SID Name="LORS1Q" />
+                <SID Name="NOXO1Q" />
+                <SID Name="UKUN1Q" />
+                <SID Name="ILET1Q" />
+                <SID Name="TEVO1Q" />
+                <SID Name="ULEB1Q" />
+                <SID Name="OVAG1Q" />
+                <SID Name="SEBO1Q" />
+                <SID Name="KATM1Q" />                
                 <STAR Name="KELB1A" ApproachName="ILS04LZ.NADUN" />
                 <STAR Name="OTMO2A" ApproachName="ILS04LZ.NADUN" />
                 <STAR Name="PBC2C" ApproachName="ILS04LZ.NADUN" />
                 <STAR Name="TORE1A" ApproachName="ILS04LZ.NADUN" />
                 <STAR Name="VITO2A" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="KELB1R" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="OTMO1R" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="OTIG1R" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="TORE1R" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="VITO1R" ApproachName="ILS04LZ.NADUN" />
             </Runway>
             <Runway Name="22C" DataRunway="22C">
-                <SID Name="ATUR2E" />
+                <SID Name="ATUR2E" Default="True" />
                 <SID Name="AXIR2E" />
                 <SID Name="IKLA2E" />
                 <SID Name="LORS2C" />
@@ -1324,17 +1350,34 @@
                 <SID Name="OVAG2G" />
                 <SID Name="SEBO2G" />
                 <SID Name="KATM2C" />
+                <SID Name="ATUR1R" />
+                <SID Name="AXIR1R" />
+                <SID Name="IKLA1R" />
+                <SID Name="LORS1R" />
+                <SID Name="NOXO1R" />
+                <SID Name="UKUN1R" />
+                <SID Name="ILET1R" />
+                <SID Name="TEVO1R" />
+                <SID Name="ULEB1R" />
+                <SID Name="OVAG1R" />
+                <SID Name="SEBO1R" />
+                <SID Name="KATM1R" />                
                 <STAR Name="KELB1B" ApproachName="ILS22CZ.EMOXI" />
                 <STAR Name="OTIG1A" ApproachName="ILS22CZ.EMOXI" />
                 <STAR Name="OTMO1B" ApproachName="ILS22CZ.EMOXI" />
                 <STAR Name="TORE1B" ApproachName="ILS22CZ.EMOXI" />
                 <STAR Name="VITO1B" ApproachName="ILS22CZ.EMOXI" />
+                <STAR Name="KELB1S" ApproachName="ILS22CZ.DUNIS" />
+                <STAR Name="PBC1S" ApproachName="ILS22CZ.DUNIS" />
+                <STAR Name="OTMO1S" ApproachName="ILS22CZ.DUNIS" />
+                <STAR Name="TORE1S" ApproachName="ILS22CZ.DUNIS" />
+                <STAR Name="VITO1S" ApproachName="ILS22CZ.DUNIS" />
             </Runway>
             <Runway Name="22R" DataRunway="22R">
                 <SID Name="ATUR2F" />
                 <SID Name="AXIR2F" />
                 <SID Name="IKLA2F" />
-                <SID Name="IKLA2F" />
+                <SID Name="LORS2D" />
                 <SID Name="NOXO2H" />
                 <SID Name="UKUN2H" />
                 <SID Name="ILET2H" />
@@ -1343,11 +1386,28 @@
                 <SID Name="OVAG2H" />
                 <SID Name="SEBO2H" />
                 <SID Name="KATM2D" />
+                <SID Name="ATUR1S" />
+                <SID Name="AXIR1S" />
+                <SID Name="IKLA1S" />
+                <SID Name="LORS1S" />
+                <SID Name="NOXO1S" />
+                <SID Name="UKUN1S" />
+                <SID Name="ILET1S" />
+                <SID Name="TEVO1S" />
+                <SID Name="ULEB1S" />
+                <SID Name="OVAG1S" />
+                <SID Name="SEBO1S" />
+                <SID Name="KATM1S" />                
                 <STAR Name="KELB1B" ApproachName="ILS22RZ.EMOXI" />
                 <STAR Name="OTIG1A" ApproachName="ILS22RZ.EMOXI" />
                 <STAR Name="OTMO1B" ApproachName="ILS22RZ.EMOXI" />
                 <STAR Name="TORE1B" ApproachName="ILS22RZ.EMOXI" />
                 <STAR Name="VITO1B" ApproachName="ILS22RZ.EMOXI" />
+                <STAR Name="KELB1S" ApproachName="ILS22RZ.DUNIS" />
+                <STAR Name="PBC1S" ApproachName="ILS22RZ.DUNIS" />
+                <STAR Name="OTMO1S" ApproachName="ILS22RZ.DUNIS" />
+                <STAR Name="TORE1S" ApproachName="ILS22RZ.DUNIS" />
+                <STAR Name="VITO1S" ApproachName="ILS22RZ.DUNIS" />
             </Runway>
         </Airport>
         <Airport Name="MMSP">
@@ -3056,7 +3116,7 @@
         <Point Name="AMAVO" Type="Fix">+211315.000-1040441.000</Point>
         <Point Name="AMEDA" Type="Fix">+255218.600-1075337.800</Point>
         <Point Name="AMEKU" Type="Fix">+182952.000-0985911.000</Point>
-        <Point Name="AMIDA" Type="Fix">+183441.000-0872059.000</Point>
+        <Point Name="AMIDA" Type="Fix">+183746.000-0871806.000</Point>
         <Point Name="AMIDI" Type="Fix">+164927.600-0985316.900</Point>
         <Point Name="AMIGO" Type="Fix">+322755.873-1164357.830</Point>
         <Point Name="AMORI" Type="Fix">+245754.000-0971425.000</Point>
@@ -3269,7 +3329,6 @@
         <Point Name="ELSOM" Type="Fix">+320737.000-1142711.000</Point>
         <Point Name="ELSON" Type="Fix">+190821.000-0873355.000</Point>
         <Point Name="ELTEX" Type="Fix">+310255.000-1111818.000</Point>
-        <Point Name="ELUBA" Type="Fix">+314745.300-1163625.000</Point>
         <Point Name="ELUNI" Type="Fix">+214200.000-0924442.000</Point>
         <Point Name="ELURA" Type="Fix">+202918.000-0950000.000</Point>
         <Point Name="ELURO" Type="Fix">+304830.000-1105826.000</Point>
@@ -3299,6 +3358,7 @@
         <Point Name="ERDAM" Type="Fix">+211430.000-0870047.600</Point>
         <Point Name="ERDEL" Type="Fix">+183926.000-0975918.000</Point>
         <Point Name="ERILI" Type="Fix">+213345.000-0991635.000</Point>
+        <Point Name="ELUBA" Type="Fix">+314745.300-1163625.000</Point>
         <Point Name="ESPOS" Type="Fix">+184350.950-0994936.510</Point>
         <Point Name="ESPOT" Type="Fix">+222917.000-1003322.000</Point>
         <Point Name="ESRUS" Type="Fix">+232120.000-1041247.000</Point>
@@ -3828,10 +3888,10 @@
         <Point Name="SEDIM" Type="Fix">+193219.130-0994652.610</Point>
         <Point Name="SEDUN" Type="Fix">+270002.000-1090048.000</Point>
         <Point Name="SEGIP" Type="Fix">+175021.000-1015621.000</Point>
-        <Point Name="SEGUM" Type="Fix">+193847.100-0991910.500</Point>
         <Point Name="SEKEV" Type="Fix">+205154.000-1053237.000</Point>
         <Point Name="SEKIS" Type="Fix">+201846.700-1030710.300</Point>
         <Point Name="SEKUB" Type="Fix">+233830.000-1034705.000</Point>
+        <Point Name="SEGUM" Type="Fix">+193847.100-0991910.500</Point>
         <Point Name="SELIR" Type="Fix">+212717.000-0975451.000</Point>
         <Point Name="SELIS" Type="Fix">+164842.000-0990335.000</Point>
         <Point Name="SELUL" Type="Fix">+225110.000-0881414.000</Point>
@@ -5127,10 +5187,6 @@
         <Point Name="SM33N" Type="Fix">+194955.200-0985511.900</Point>
         <Point Name="SM35N" Type="Fix">+194300.800-0990338.500</Point>
         <Point Name="SM36N" Type="Fix">+195210.200-0990035.700</Point>
-        <Point Name="SM42N" Type="Fix">+195159.700-0985115.000</Point>
-        <Point Name="SM43N" Type="Fix">+194911.700-0985440.800</Point>
-        <Point Name="SM45N" Type="Fix">+194307.900-0990205.900</Point>
-        <Point Name="SM46N" Type="Fix">+194729.000-0985912.900</Point>
         <Point Name="SM370" Type="Fix">+192940.600-0982644.200</Point>
         <Point Name="SM372" Type="Fix">+193957.100-0982801.700</Point>
         <Point Name="SM374" Type="Fix">+194942.600-0982922.100</Point>
@@ -5151,6 +5207,8 @@
         <Point Name="SM416" Type="Fix">+201257.400-0991038.100</Point>
         <Point Name="SM418" Type="Fix">+201244.800-0991754.500</Point>
         <Point Name="SM420" Type="Fix">+201006.800-0992437.700</Point>
+        <Point Name="SM42N" Type="Fix">+195159.700-0985115.000</Point>
+        <Point Name="SM43N" Type="Fix">+194911.700-0985440.800</Point>
         <Point Name="SM440" Type="Fix">+201147.900-0992547.000</Point>
         <Point Name="SM442" Type="Fix">+201442.500-0991821.300</Point>
         <Point Name="SM444" Type="Fix">+201456.400-0991018.900</Point>
@@ -5158,6 +5216,8 @@
         <Point Name="SM448" Type="Fix">+200736.000-0985632.300</Point>
         <Point Name="SM450" Type="Fix">+195012.000-0991019.700</Point>
         <Point Name="SM452" Type="Fix">+195144.000-0990517.200</Point>
+        <Point Name="SM45N" Type="Fix">+194307.900-0990205.900</Point>
+        <Point Name="SM46N" Type="Fix">+194729.000-0985912.900</Point>
         <Point Name="SM500" Type="Fix">+194701.000-0985844.900</Point>
         <Point Name="SM501" Type="Fix">+194621.400-0985809.200</Point>
         <Point Name="SM502" Type="Fix">+194800.100-0985732.700</Point>
@@ -5256,6 +5316,7 @@
         <Point Name="TJ565" Type="Fix">+321754.301-1163646.000</Point>
         <Point Name="TJ566" Type="Fix">+322359.301-1164229.401</Point>
         <Point Name="TJ567" Type="Fix">+323112.899-1170406.801</Point>
+        <Point Name="TJ745" Type="Fix">+322111.401-1164037.300</Point>
         <Point Name="TJ700" Type="Fix">+323152.500-1165345.300</Point>
         <Point Name="TJ702" Type="Fix">+323020.300-1165130.700</Point>
         <Point Name="TJ704" Type="Fix">+322924.200-1165105.200</Point>
@@ -5265,7 +5326,6 @@
         <Point Name="TJ715" Type="Fix">+322501.400-1163758.100</Point>
         <Point Name="TJ720" Type="Fix">+322400.000-1163019.900</Point>
         <Point Name="TJ725" Type="Fix">+322325.800-1162743.800</Point>
-        <Point Name="TJ745" Type="Fix">+322111.401-1164037.300</Point>
         <Point Name="TJ750" Type="Fix">+321638.400-1164305.500</Point>
         <Point Name="TJ754" Type="Fix">+321204.400-1164533.900</Point>
         <Point Name="TJ758" Type="Fix">+320749.600-1164542.200</Point>
@@ -5646,8 +5706,8 @@
         <Point Name="CUEMANCO" Type="Fix">+191656.000-0990615.000</Point>
         <Point Name="DURAZNOS" Type="Fix">+194035.000-0992317.000</Point>
         <Point Name="EDIFICIOS ALTITUDE" Type="Fix">+185613.000-0991359.000</Point>
-        <Point Name="ENTRONQUE" Type="Fix">+191946.000-0993221.000</Point>
         <Point Name="ENTRONQUE CARRETERA" Type="Fix">+194147.000-0985833.000</Point>
+        <Point Name="ENTRONQUE" Type="Fix">+191946.000-0993221.000</Point>
         <Point Name="ESTADIO PBC" Type="Fix">+190441.000-0980952.000</Point>
         <Point Name="ESTADIO TLC" Type="Fix">+191714.000-0994000.000</Point>
         <Point Name="ESTANQUES ACUICULTURA" Type="Fix">+185009.000-0991622.000</Point>
@@ -5675,7 +5735,8 @@
         <Point Name="MINA DE ECATEPEC" Type="Fix">+193746.000-0985913.000</Point>
         <Point Name="NEALTICAN" Type="Fix">+190306.000-0982536.000</Point>
         <Point Name="NORTE ABASTOS" Type="Fix">+192244.000-0990544.000</Point>
-        <Point Name="OJO DE AGUA" Type="Fix">+194042.000-0990158.000</Point>        <Point Name="OLIMPICO" Type="Fix">+192446.000-0990410.000</Point>
+        <Point Name="OJO DE AGUA" Type="Fix">+194042.000-0990158.000</Point>1
+        <Point Name="OLIMPICO" Type="Fix">+192446.000-0990410.000</Point>
         <Point Name="OXTOT" Type="Fix">+193920.000-0984732.000</Point>
         <Point Name="OZUMBA" Type="Fix">+190224.000-0984748.000</Point>
         <Point Name="PABELLON" Type="Fix">+193050.000-0990852.000</Point>
@@ -5692,8 +5753,8 @@
         <Point Name="PLAZA TOWN" Type="Fix">+194722.000-0990318.000</Point>
         <Point Name="POETAS" Type="Fix">+192059.000-0991535.000</Point>
         <Point Name="POWER CENTER" Type="Fix">+193743.000-0990727.000</Point>
-        <Point Name="PRESA" Type="Fix">+185445.000-0980630.000</Point>
         <Point Name="PRESA TAXHIMAY" Type="Fix">+194945.000-0992346.000</Point>
+        <Point Name="PRESA" Type="Fix">+185445.000-0980630.000</Point>
         <Point Name="PUENTE SAN JUAN" Type="Fix">+192353.000-0990330.000</Point>
         <Point Name="RANCHO AZUL" Type="Fix">+194320.000-0985713.000</Point>
         <Point Name="ROJO GOMEZ" Type="Fix">+192419.000-0990415.000</Point>
@@ -5726,8 +5787,8 @@
         <Point Name="VERONICA" Type="Fix">+192128.000-0992726.000</Point>
         <Point Name="VILLA ALPINA" Type="Fix">+192522.000-0992345.000</Point>
         <Point Name="VILLA DEL CARBON" Type="Fix">+194341.000-0992748.000</Point>
-        <Point Name="VIVEROS" Type="Fix">+192105.000-0991014.000</Point>
         <Point Name="VIVEROS CVA" Type="Fix">+183650.000-0992020.000</Point>
+        <Point Name="VIVEROS" Type="Fix">+192105.000-0991014.000</Point>
         <Point Name="VOLVO" Type="Fix">+192026.000-0985808.000</Point>
         <Point Name="XOCHICALCO" Type="Fix">+184814.000-0991748.000</Point>
         <Point Name="XOCHIMILCO" Type="Fix">+191517.000-0990631.000</Point>

@@ -36,24 +36,27 @@
             <Point>ALRUN</Point>
         </Symbol>
     <Label HasLeader="true">
-            <Point>GABOB</Point>
-            <Point>CAEAR</Point>
-            <Point>NAPRI</Point>
-            <Point>ETGOT</Point>
-            <Point>VOLOR</Point>
+        <Point>NAPRI</Point>
+        <Point>ETGOT</Point>
+        <Point>VOLOR</Point>
     </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>ALRUN</Point>
             <Point>HADOW</Point>
             <Point>ULISO</Point>
-            <Point>ILELA</Point>
-            <Point>LIFTS</Point>
         </Label>
                 <Label LabelOrientation="W" HasLeader="true" VerticalAlignment="Middle">
-            <Point>XUBSU</Point>
-            <Point>AVOMA</Point>      
-            <Point>DYSON</Point>
-        </Label>
+                    <Point>DYSON</Point>
+                </Label>
+
+                <Label HasLeader="false">
+                    <Point>GABOB</Point>
+                    <Point>CAEAR</Point>
+                    <Point>ILELA</Point>
+                    <Point>LIFTS</Point>
+                    <Point>XUBSU</Point>
+                    <Point>AVOMA</Point>
+                </Label>
     </Map>
     <Map Type="System" Name="Pista 28 - RNP 28" Priority="1" Center="+205613.280-0893927.700">
         <Line Pattern="Solid">HADOW/MD500</Line>
@@ -107,7 +110,8 @@
             <Point>MD702</Point>
             <Point>MD803</Point>
         </Symbol>
-        <Label HasLeader="true">
+
+        <Label HasLeader="false">
             <Point>ISARO</Point>
             <Point>VIVEP</Point>
             <Point>NAPLA</Point>
@@ -115,9 +119,9 @@
             <Point>EPNAS</Point>
             <Point>SIFTO</Point>
             <Point>ELSIP</Point>
-        </Label>
-        <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
             <Point>GREPE</Point>
-        </Label>     
+        </Label>
+
+     
     </Map>
 </Maps>

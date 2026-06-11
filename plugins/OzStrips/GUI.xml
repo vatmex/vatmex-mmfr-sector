@@ -39,9 +39,24 @@
             Gets or sets the default PDC format.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.UseNose">
+            <summary>
+            Gets or sets a value indicating whether NOSE alt rules should be used.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.StripColours">
             <summary>
             Gets or sets default strip colours.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.RadarTransInhibitedSIDS">
+            <summary>
+            Gets or sets a list of SIDs that forcefully do not have a radar transition.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.RequireHeadingSIDs">
+            <summary>
+            Gets or sets a list of SIDs that require a heading to be passed like a radar sid.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AllowAutoOpen">
@@ -85,6 +100,13 @@
             </summary>
             <param name="aerodrome">ICAO code.</param>
             <returns>Aerodrome type.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.CircuitBayEnabled(System.String)">
+            <summary>
+            Determines if this aerodrome list should have the circuit bay enabled.
+            </summary>
+            <param name="aerodrome">ICAO Code.</param>
+            <returns>Activity status.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.#ctor">
             <summary>
@@ -1402,6 +1424,11 @@
             Gets or sets type of aerodrome.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList.EnableCircuit">
+            <summary>
+            Gets or sets whether the circuit should be enabled.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList.Aerodromes">
             <summary>
             Gets or sets aerodrome ICAO codes.
@@ -1467,9 +1494,24 @@
             Gets or sets a list of default strip colours.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.UseNose">
+            <summary>
+            Gets or sets a string when present indicates that nose rules should be used.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.DefaultLayout">
             <summary>
             Gets or sets the default layout.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.InhibitRadarTransSIDs">
+            <summary>
+            Gets or sets a list of SIDs that forcefully should not display a radar transition.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.RequireHeadingSIDs">
+            <summary>
+            Gets or sets a list of SIDs that require a heading to be set.
             </summary>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.Load">
@@ -2473,7 +2515,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.9.0.
+              Looks up a localized string similar to 0.9.1.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher">
@@ -2691,9 +2733,6 @@
             Marks the server as desynchronised when effecting an aerodrome change.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Dispose">
-            <inheritdoc/>
-        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.CreateCacheDTO">
             <summary>
             Creates the cache data transfer object.
@@ -2719,6 +2758,9 @@
             <summary>
             Client is reconnecting.
             </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.DisposeAsync">
+            <inheritdoc/>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Strip">
             <summary>
