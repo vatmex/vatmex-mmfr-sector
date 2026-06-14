@@ -833,12 +833,19 @@ Airports:
     - {Identifier: LETIS, Track: 221.1, DistanceNM: 10.06}
     - {Identifier: UN500, Track: 213.7, DistanceNM: 33.73}
     - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
-    - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN604, Track: 213.7, DistanceNM: 5.99}
-    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN630, Track: 213.7, DistanceNM: 5.98}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
     - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
+    Pressure:
+      After: PUREG
+      Segments:
+      - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
+      - {Identifier: UN604, Track: 213.7, DistanceNM: 5.99}
+      - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
+      - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+      - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+      - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: NOSAT
     RunwayIdentifier: 30R
     Segments:
@@ -846,13 +853,21 @@ Airports:
     - {Identifier: LETIS, Track: 221.1, DistanceNM: 10.06}
     - {Identifier: UN500, Track: 213.7, DistanceNM: 33.73}
     - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
-    - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN601, Track: 213.7, DistanceNM: 5.22}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN619, Track: 213.7, DistanceNM: 5.21}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
     - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
     - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
+    Pressure:
+      After: PUREG
+      Segments:
+      - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
+      - {Identifier: UN601, Track: 213.7, DistanceNM: 5.22}
+      - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+      - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+      - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+      - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+      - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   - FeederFix: PAULE
     RunwayIdentifier: 12R
     Segments:
@@ -1027,12 +1042,19 @@ Airports:
     - {Identifier: UN606, Track: 123.7, DistanceNM: 26.51}
     - {Identifier: UN500, Track: 123.8, DistanceNM: 8.0}
     - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
-    - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN604, Track: 213.7, DistanceNM: 5.99}
-    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN630, Track: 213.7, DistanceNM: 5.98}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
     - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
+    Pressure:
+      After: PUREG
+      Segments:
+      - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
+      - {Identifier: UN604, Track: 213.7, DistanceNM: 5.99}
+      - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
+      - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+      - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+      - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: VOMAR
     RunwayIdentifier: 30R
     Segments:
@@ -1042,13 +1064,21 @@ Airports:
     - {Identifier: UN606, Track: 123.7, DistanceNM: 26.51}
     - {Identifier: UN500, Track: 123.8, DistanceNM: 8.0}
     - {Identifier: PUREG, Track: 123.9, DistanceNM: 9.16}
-    - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN601, Track: 213.7, DistanceNM: 5.22}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN619, Track: 213.7, DistanceNM: 5.21}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
     - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
     - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
+    Pressure:
+      After: PUREG
+      Segments:
+      - {Identifier: OTSOL, Track: 123.9, DistanceNM: 5.0}
+      - {Identifier: UN601, Track: 213.7, DistanceNM: 5.22}
+      - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+      - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+      - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+      - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+      - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   - FeederFix: XUDUN
     RunwayIdentifier: 12L
     Segments:
@@ -1081,12 +1111,19 @@ Airports:
     - {Identifier: UN605, Track: 123.7, DistanceNM: 26.48}
     - {Identifier: UN608, Track: 123.8, DistanceNM: 8.0}
     - {Identifier: DEPVA, Track: 123.9, DistanceNM: 9.16}
-    - {Identifier: LOPKA, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN604, Track: 33.6, DistanceNM: 5.26}
-    - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN630, Track: 33.6, DistanceNM: 5.27}
     - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
     - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
+    Pressure:
+      After: DEPVA
+      Segments:
+      - {Identifier: LOPKA, Track: 123.9, DistanceNM: 5.0}
+      - {Identifier: UN604, Track: 33.6, DistanceNM: 5.26}
+      - {Identifier: UN630, Track: 304.0, DistanceNM: 5.0}
+      - {Identifier: UN631, Track: 303.9, DistanceNM: 8.48}
+      - {Identifier: UN632, Track: 303.9, DistanceNM: 5.58}
+      - {Identifier: 30L, Track: 303.9, DistanceNM: 0.49}
   - FeederFix: XUDUN
     RunwayIdentifier: 30R
     Segments:
@@ -1096,13 +1133,21 @@ Airports:
     - {Identifier: UN605, Track: 123.7, DistanceNM: 26.48}
     - {Identifier: UN608, Track: 123.8, DistanceNM: 8.0}
     - {Identifier: DEPVA, Track: 123.9, DistanceNM: 9.16}
-    - {Identifier: LOPKA, Track: 123.9, DistanceNM: 5.0}
-    - {Identifier: UN601, Track: 33.6, DistanceNM: 6.03}
-    - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+    - {Identifier: UN619, Track: 33.6, DistanceNM: 6.04}
     - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
     - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
     - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
     - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
+    Pressure:
+      After: DEPVA
+      Segments:
+      - {Identifier: LOPKA, Track: 123.9, DistanceNM: 5.0}
+      - {Identifier: UN601, Track: 33.6, DistanceNM: 6.03}
+      - {Identifier: UN619, Track: 304.0, DistanceNM: 5.0}
+      - {Identifier: UN620, Track: 303.9, DistanceNM: 5.58}
+      - {Identifier: UN621, Track: 303.9, DistanceNM: 3.14}
+      - {Identifier: UN622, Track: 303.9, DistanceNM: 5.32}
+      - {Identifier: 30R, Track: 303.8, DistanceNM: 0.74}
   DepartureAirports:
   - {Identifier: MMAA, Aircraft: [JET], Distance: 775, EstimatedFlightTimeMinutes: 118}
   - {Identifier: MMAA, Aircraft: [NONJET], Distance: 775, EstimatedFlightTimeMinutes: 201}
