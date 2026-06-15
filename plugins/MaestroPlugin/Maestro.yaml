@@ -195,11 +195,11 @@ Airports:
   - Identifier: 05R
     Runways:
     - Identifier: 05R
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   - Identifier: 23L
     Runways:
     - Identifier: 23L
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   TerminalTrajectories:
   - FeederFix: DARAN
     RunwayIdentifier: 05R
@@ -697,25 +697,25 @@ Airports:
   - Identifier: 12L
     Runways:
     - Identifier: 12L
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   - Identifier: 30R
     Runways:
     - Identifier: 30R
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   - Identifier: 12L/12R
     DependencyRateSeconds: 26
     Runways:
     - Identifier: 12L
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
     - Identifier: 12R
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   - Identifier: 30L/30R
     DependencyRateSeconds: 26
     Runways:
     - Identifier: 30L
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
     - Identifier: 30R
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   TerminalTrajectories:
   - FeederFix: ILUBA
     RunwayIdentifier: 12R
@@ -1395,11 +1395,11 @@ Airports:
   - Identifier: 11R
     Runways:
     - Identifier: 11R
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   - Identifier: 29L
     Runways:
     - Identifier: 29L
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   TerminalTrajectories:
   - FeederFix: AMULA
     RunwayIdentifier: 11R
@@ -2092,7 +2092,7 @@ Airports:
   - Identifier: '28'
     Runways:
     - Identifier: '28'
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   TerminalTrajectories:
   - FeederFix: ANALU
     RunwayIdentifier: '28'
@@ -2152,11 +2152,11 @@ Airports:
   - Identifier: '12'
     Runways:
     - Identifier: '12'
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   - Identifier: '30'
     Runways:
     - Identifier: '30'
-      LandingRateSeconds: 180
+      LandingRateSeconds: 155
   TerminalTrajectories:
   - FeederFix: ITPIS
     RunwayIdentifier: '12'
