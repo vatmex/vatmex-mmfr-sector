@@ -119,6 +119,21 @@
 <!--        <Volumes>MMMX_TMA</Volumes> -->
         <ResponsibleSectors>MXARR5,MAPP5,MXFNA5,MXDEP5,SMAPP4,TOAPP,PBAPP</ResponsibleSectors>
     </Sector>
+    <Sector FullName="ACC Mexico Sector SS" Frequency="133.100" Callsign="MMEX_SS_CTR" Name="MEXS">
+        <ResponsibleSectors>MEX5,MEX9,MEX10</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC Mexico Sector WS" Frequency="123.900" Callsign="MMEX_WS_CTR" Name="MEXW">
+        <ResponsibleSectors>MEX6,MEX7,MEX8</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC Mexico Sector ES" Frequency="126.600" Callsign="MMEX_ES_CTR" Name="MEXE">
+        <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC Monterrey SW" Frequency="125.600" Callsign="MMTY_W_CTR" Name="MTYW">
+        <ResponsibleSectors>MTY3,MTY4,MTY5</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC Monterrey SE" Frequency="125.425" Callsign="MMTY_E_CTR" Name="MTYE">
+        <ResponsibleSectors>MTY1,MTY2</ResponsibleSectors>
+    </Sector>    
 
     <!--Prioritarios CUN TMA-->
     <Sector FullName="Aproximacion Cancun 12" Frequency="124.700" Callsign="MMUN_1_APP" Name="UNAPP12">
@@ -596,15 +611,6 @@
     <Sector FullName="ACC Mexico Sector NS" Frequency="128.500" Callsign="MMEX_NS_CTR" Name="MEXN" DisplayInHandoffWindow="False">
         <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>
     </Sector>
-    <Sector FullName="ACC Mexico Sector SS" Frequency="133.100" Callsign="MMEX_SS_CTR" Name="MEXS">
-        <ResponsibleSectors>MEX5,MEX9,MEX10</ResponsibleSectors>
-    </Sector>
-    <Sector FullName="ACC Mexico Sector WS" Frequency="123.900" Callsign="MMEX_WS_CTR" Name="MEXW">
-        <ResponsibleSectors>MEX6,MEX7,MEX8</ResponsibleSectors>
-    </Sector>
-    <Sector FullName="ACC Mexico Sector ES" Frequency="126.600" Callsign="MMEX_ES_CTR" Name="MEXE">
-        <ResponsibleSectors>MEX1,MEX2,MEX3,MEX4</ResponsibleSectors>
-    </Sector>
     <Sector FullName="ACC Mexico Sector 1" Frequency="126.600" Callsign="MMEX_1_CTR" Name="MEX1" DisplayInHandoffWindow="False">
         <Volumes>MMEX_SECTOR_1</Volumes>
     </Sector>
@@ -702,12 +708,6 @@
     </Sector>
     <Sector FullName="ACC Monterrey Combinado" Frequency="124.500" Callsign="MMTY_CTR" Name="MTYC">
         <ResponsibleSectors>MTY1,MTY2,MTY3,MTY4,MTY5</ResponsibleSectors>
-    </Sector>
-    <Sector FullName="ACC Monterrey SW" Frequency="125.600" Callsign="MMTY_W_CTR" Name="MTYW">
-        <ResponsibleSectors>MTY3,MTY4,MTY5</ResponsibleSectors>
-    </Sector>
-    <Sector FullName="ACC Monterrey SE" Frequency="125.425" Callsign="MMTY_E_CTR" Name="MTYE">
-        <ResponsibleSectors>MTY1,MTY2</ResponsibleSectors>
     </Sector>
     <Sector FullName="ACC Monterrey Sector 1" Frequency="124.500" Callsign="MMTY_1_CTR" Name="MTY1" DisplayInHandoffWindow="False">
         <Volumes>MMTY_SECTOR_1</Volumes>
