@@ -2166,50 +2166,107 @@ Airports:
     RunwayIdentifier: '12'
     Segments:
     - {Identifier: ULAVA, Track: 251.2, DistanceNM: 8.49}
-    - {Identifier: AGMUM, Track: 251.2, DistanceNM: 17.03}
-    - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
-    - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
-    - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
-    - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
-    - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
-    - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+    - {Identifier: MY600, Track: 278.0, DistanceNM: 46.54}
     - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
     - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
     - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
     - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
     - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+    Pressure:
+      After: ULAVA
+      Segments:
+      - {Identifier: DUXAM, Track: 271.5, DistanceNM: 38.14}
+      - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+      - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+      - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+      - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+      - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+      - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+    MaxPressure:
+      After: ULAVA
+      Segments:
+      - {Identifier: AGMUM, Track: 251.2, DistanceNM: 17.03}
+      - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
+      - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
+      - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
+      - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
+      - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
+      - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+      - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+      - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+      - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+      - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+      - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
   - FeederFix: NOTAL
     RunwayIdentifier: '12'
     Segments:
     - {Identifier: VETNU, Track: 143.6, DistanceNM: 15.67}
     - {Identifier: NAPNO, Track: 143.7, DistanceNM: 6.62}
-    - {Identifier: AGMUM, Track: 143.7, DistanceNM: 28.45}
-    - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
-    - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
-    - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
-    - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
-    - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
-    - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+    - {Identifier: MY600, Track: 226.7, DistanceNM: 16.12}
     - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
     - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
     - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
     - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
     - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+    Pressure:
+      After: NAPNO
+      Segments:
+      - {Identifier: DUXAM, Track: 192.8, DistanceNM: 16.86}
+      - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+      - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+      - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+      - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+      - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+      - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+    MaxPressure:
+      After: NAPNO
+      Segments:
+      - {Identifier: AGMUM, Track: 143.7, DistanceNM: 28.45}
+      - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
+      - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
+      - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
+      - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
+      - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
+      - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+      - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+      - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+      - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+      - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+      - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
   - FeederFix: RETOS
     RunwayIdentifier: '12'
     Segments:
-    - {Identifier: MIBTA, Track: 334.9, DistanceNM: 18.08}
-    - {Identifier: KATPO, Track: 334.9, DistanceNM: 19.6}
-    - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
-    - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
-    - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
-    - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
-    - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
-    - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
-    - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
-    - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+    - {Identifier: RETOS, Track: 324.8, DistanceNM: 0.0}
+    - {Identifier: RET51, Track: 324.8, DistanceNM: 41.7}
+    - {Identifier: RET52, Track: 300.3, DistanceNM: 19.61}
+    - {Identifier: MY603, Track: 210.5, DistanceNM: 6.1}
     - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
     - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+    Pressure:
+      After: RETOS
+      Segments:
+      - {Identifier: DUXAM, Track: 323.3, DistanceNM: 56.81}
+      - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+      - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+      - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+      - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+      - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+      - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
+    MaxPressure:
+      After: RETOS
+      Segments:
+      - {Identifier: MIBTA, Track: 334.9, DistanceNM: 18.08}
+      - {Identifier: KATPO, Track: 334.9, DistanceNM: 19.6}
+      - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
+      - {Identifier: CURTO, Track: 302.6, DistanceNM: 4.14}
+      - {Identifier: SIKRO, Track: 302.5, DistanceNM: 7.42}
+      - {Identifier: DUXAM, Track: 302.4, DistanceNM: 4.94}
+      - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
+      - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
+      - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
+      - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
+      - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
+      - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
   - FeederFix: SLW
     RunwayIdentifier: '12'
     Segments:
