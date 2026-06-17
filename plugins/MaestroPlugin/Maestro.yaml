@@ -708,12 +708,12 @@ Airports:
     - Identifier: 12L
       LandingRateSeconds: 155
     - Identifier: 12R
-      LandingRateSeconds: 155
+      LandingRateSeconds: 180
   - Identifier: 30L/30R
     DependencyRateSeconds: 26
     Runways:
     - Identifier: 30L
-      LandingRateSeconds: 155
+      LandingRateSeconds: 180
     - Identifier: 30R
       LandingRateSeconds: 155
   TerminalTrajectories:
@@ -1395,11 +1395,11 @@ Airports:
   - Identifier: 11R
     Runways:
     - Identifier: 11R
-      LandingRateSeconds: 155
+      LandingRateSeconds: 150
   - Identifier: 29L
     Runways:
     - Identifier: 29L
-      LandingRateSeconds: 155
+      LandingRateSeconds: 150
   TerminalTrajectories:
   - FeederFix: AMULA
     RunwayIdentifier: 11R
@@ -2156,35 +2156,15 @@ Airports:
   - Identifier: '12'
     Runways:
     - Identifier: '12'
-      LandingRateSeconds: 155
+      LandingRateSeconds: 170
   - Identifier: '30'
     Runways:
     - Identifier: '30'
-      LandingRateSeconds: 155
+      LandingRateSeconds: 170
   TerminalTrajectories:
   - FeederFix: ITPIS
     RunwayIdentifier: '12'
     Segments:
-    - {Identifier: ULAVA, Track: 251.2, DistanceNM: 8.49}
-    - {Identifier: MY600, Track: 278.0, DistanceNM: 46.54}
-    - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
-    - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
-    - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
-    - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
-    - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
-    Pressure:
-      After: ULAVA
-      Segments:
-      - {Identifier: DUXAM, Track: 271.5, DistanceNM: 38.14}
-      - {Identifier: MY600, Track: 302.4, DistanceNM: 10.09}
-      - {Identifier: MY601, Track: 211.2, DistanceNM: 5.3}
-      - {Identifier: TASNA, Track: 211.2, DistanceNM: 6.01}
-      - {Identifier: MY603, Track: 121.4, DistanceNM: 4.95}
-      - {Identifier: MY604, Track: 121.3, DistanceNM: 2.0}
-      - {Identifier: '12', Track: 121.4, DistanceNM: 6.04}
-    MaxPressure:
-      After: ULAVA
-      Segments:
       - {Identifier: AGMUM, Track: 251.2, DistanceNM: 17.03}
       - {Identifier: KATPO, Track: 212.1, DistanceNM: 6.01}
       - {Identifier: MEGNA, Track: 302.6, DistanceNM: 5.0}
