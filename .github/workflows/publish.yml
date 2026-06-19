@@ -8,14 +8,14 @@ jobs:
   zip-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v4
     - name: Archive Release
-      uses: thedoctor0/zip-release@master
+      uses: thedoctor0/zip-release@0.7.6
       with:
         filename: 'profile.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig *.md'
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
         server: ftp.sawbe.com
         server-dir: mexico-dark/
