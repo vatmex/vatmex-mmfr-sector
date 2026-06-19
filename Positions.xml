@@ -3224,7 +3224,7 @@
             <ControllerInfo>
                 <Line>Terrestre Mexico / Mexico Ground</Line>
                 <Line>DCL/PDC [MMMX]</Line>
-                <Line>Serving MMMX arrivals and departures</Line>
+                <Line>Serving MMMX North T1</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
@@ -3256,7 +3256,7 @@
             <ControllerInfo>
                 <Line>Terrestre Mexico Sur / Mexico Ground South</Line>
                 <Line>DCL/PDC [MMMX]</Line>
-                <Line>Serving MMMX arrivals and departures</Line>
+                <Line>Serving MMMX South T2</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
@@ -4622,7 +4622,6 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Split FNO" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
@@ -4672,7 +4671,6 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Split FNO" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
@@ -4723,7 +4721,6 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Mexico/Sector - Volcanes" />
-                <Map Name="ACC Mexico/Split FNO" />
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
@@ -5724,8 +5721,8 @@
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CJS, CUU, CVM, MAM, MTY, NLD, REX,</Line>
-                <Line>SLW, TRC and all airports within MMTY ACC.</Line>
+                <Line>Covering CVM, MAM, REX,</Line>
+                <Line>and MTY ITPIS/RETOS STARs.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+284326.9063-1055601.5313</Point>
@@ -5775,8 +5772,8 @@
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CJS, CUU, CVM, MAM, MTY, NLD, REX,</Line>
-                <Line>SLW, TRC and all airports within MMTY ACC.</Line>
+                <Line>Covering CJS, CUU, NLD, SLW,</Line>
+                <Line>and MTY NOTAL/SLW STARs.</Line>                
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+284326.9063-1055601.5313</Point>
@@ -5968,55 +5965,6 @@
                 <Point>+184239.210-0981947.677</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Salidas Mexico - MXDEP" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="250" MagneticVariation="-4" VisibilityRange="100"  DynamicInfill="true">
-            <Sectors>
-            <Sector Name="MXDEP5" />
-            <Sector Name="TOAPP" />
-            <Sector Name="PBAPP" />
-        </Sectors>
-            <Maps>
-                <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/ Aeropuerto - Volcanes" />
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Salidas [Fondo]" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
-                <Map Name="[Universal]/Sector - Radioayudas" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
-                <Window Airport="MMMX" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="29000">
-                <AdditionalLevels>8200,9200</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMMX" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Salidas Mexico / Mexico Departures</Line>
-                <Line>Serving MEX departures,</Line>
-                <Line>and TLC and PBC arrivals and departures</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+200937.407-0994825.774</Point>
-                <Point>+200705.803-0981718.702</Point>
-                <Point>+184503.035-0995049.146</Point>
-                <Point>+184239.210-0981947.677</Point>
-            </ManualVisibility>
-        </Position>
         <Position Name="Salidas Guadalajara - GLDEP" Type="ASD" DefaultCenter="+203649.320-1031746.800" DefaultRange="250" MagneticVariation="-6" VisibilityRange="150">
             <Sectors>
                 <Sector Name="GLDEP" />
@@ -6055,7 +6003,7 @@
             <ManualVisibility>
                 <Point>+203118.494-1031839.996</Point>
             </ManualVisibility>
-        </Position>        
+        </Position>     
     </Group>
 
     <Group Name="FNO CUN APP">
