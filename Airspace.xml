@@ -139,13 +139,15 @@
         </Airport>
         <Airport Name="MMCE">
             <Runway Name="13" DataRunway="13">
-                <SID Name="CME4A" Default="True" />
+                <SID Name="CME1C" Default="True" />
+                <SID Name="CME4A" />
                 <SID Name="CONT2A" />
                 <SID Name="DUTKA2" />
                 <SID Name="TETU2A" />
             </Runway>
             <Runway Name="31" DataRunway="31">
-                <SID Name="CME4B" Default="True" />
+                <SID Name="CME1D" Default="True" />
+                <SID Name="CME4B" />
                 <SID Name="CONT2B" />
                 <SID Name="NOPON1" />
                 <SID Name="PIGNO2" />
@@ -4328,6 +4330,8 @@
         <Point Name="CB910" Type="Fix">+184600.360-0991819.520</Point>
         <Point Name="CB911" Type="Fix">+184322.330-0991350.410</Point>
         <Point Name="CB912" Type="Fix">+184312.040-0990446.220</Point>
+        <Point Name="CE600" Type="Fix">+183414.500-0914334.300</Point>
+        <Point Name="CE700" Type="Fix">+184455.700-0915308.900</Point>
         <Point Name="CIMAT" Type="Fix">+204648.799-0901630.100</Point>
         <Point Name="CL400" Type="Fix">+244133.500-1073136.700</Point>
         <Point Name="CL401" Type="Fix">+243721.400-1073436.400</Point>
@@ -6290,6 +6294,12 @@
         </SID>
         <SID Name="CME4B" Airport="MMCE" Runways="31">
             <Route Runway="31">CME</Route>
+        </SID>
+        <SID Name="CME1C" Airport="MMCE" Runways="13">
+            <Route Runway="13">CE600 CME</Route>
+        </SID>
+        <SID Name="CME1D" Airport="MMCE" Runways="31">
+            <Route Runway="31">CE700 CME</Route>
         </SID>
         <SID Name="CONT2A" Airport="MMCE" Runways="13">
             <Route Runway="13">CONTO</Route>
