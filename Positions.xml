@@ -1163,7 +1163,7 @@
                 <Map Name="z ATZ Chetumal/ASMGCS_MMCM_GATES" />
             </Maps>
         </Position>
-        <Position Name="MMCP" Type="ASMGCS" ASMGCSAirport="MMCP" DefaultCenter="+194901.050-0903001.770" DefaultRange="3" MagneticVariation="-1" Rotation="285">
+        <Position Name="MMCP" Type="ASMGCS" ASMGCSAirport="MMCP" DefaultCenter="+194901.050-0903001.770" DefaultRange="3" MagneticVariation="0" Rotation="285">
             <Maps>
                 <Map Name="z CTR Campeche/ASMGCS_MMCP_RWY" />
                 <Map Name="z CTR Campeche/ASMGCS_MMCP_APR" />
@@ -1392,7 +1392,7 @@
         </Position>
 
         <!-- CTR Campeche -->
-        <Position Name="Torre Campeche - CPTW1" Type="ASD" DefaultCenter="+194900.500-0903001.109" DefaultRange="40" MagneticVariation="-1">
+        <Position Name="Torre Campeche - CPTW1" Type="ASD" DefaultCenter="+194900.500-0903001.109" DefaultRange="40" MagneticVariation="0">
             <Sectors>
                 <Sector Name="CPTW1" />
             </Sectors>
