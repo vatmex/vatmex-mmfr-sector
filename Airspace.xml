@@ -106,11 +106,13 @@
         </Airport>
         <Airport Name="MMBT">
             <Runway Name="07" DataRunway="07">
-                <SID Name="HUX3A" Default="True" />
+                <SID Name="HUX1E" Default="True" />
+                <SID Name="HUX3A" />
                 <SID Name="HUX3B" />
             </Runway>
             <Runway Name="25" DataRunway="25">
-                <SID Name="HUX3C" Default="True" />
+                <SID Name="HUX1F" Default="True" />
+                <SID Name="HUX3C" />
                 <SID Name="HUX3D" />
             </Runway>
         </Airport>
@@ -4296,6 +4298,8 @@
         <Point Name="BESUD" Type="Fix">+282605.000-1060118.600</Point>
         <Point Name="BOBLI" Type="Fix">+185849.500-0961840.500</Point>
         <Point Name="BRUJA" Type="Fix">+201018.580-1033353.790</Point>
+        <Point Name="BT422" Type="Fix">+154723.400-0960827.900</Point>
+        <Point Name="BT523" Type="Fix">+154446.700-0962240.700</Point>
         <Point Name="BUYCK" Type="Fix">+204503.801-0891252.300</Point>
         <Point Name="CALHO" Type="Fix">+203319.800-0870105.800</Point>
         <Point Name="CASEM" Type="Fix">+233608.600-1094419.600</Point>
@@ -6211,6 +6215,12 @@
         </SID>
         <SID Name="HUX3D" Airport="MMBT" Runways="25">
             <Route Runway="25">HUX</Route>
+        </SID>
+        <SID Name="HUX1E" Airport="MMBT" Runways="07">
+            <Route Runway="07">BT422 HUX</Route>
+        </SID>
+        <SID Name="HUX1F" Airport="MMBT" Runways="25">
+            <Route Runway="25">BT523 HUX</Route>
         </SID>
         <!--MMCB-->
         <SID Name="CVJ1A" Airport="MMCB" Runways="03">
