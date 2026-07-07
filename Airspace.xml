@@ -250,10 +250,12 @@
         </Airport>
         <Airport Name="MMCT">
             <Runway Name="10" DataRunway="10">
-                <SID Name="CZA4A" Default="True" />
+                <SID Name="CZA1C" Default="True" />
+                <SID Name="CZA4A" />
             </Runway>
             <Runway Name="28" DataRunway="28">
-                <SID Name="CZA4B" Default="True" />
+                <SID Name="CZA1D" Default="True" />
+                <SID Name="CZA4B" />
             </Runway>
         </Airport>
         <Airport Name="MMCU">
@@ -4387,6 +4389,8 @@
         <Point Name="CLOVR" Type="Fix">+253721.100-0994924.900</Point>
         <Point Name="CP402" Type="Fix">+194301.600-0902827.800</Point>
         <Point Name="CP502" Type="Fix">+195640.400-0903200.800</Point>
+        <Point Name="CT402" Type="Fix">+203721.700-0881932.700</Point>
+        <Point Name="CT502" Type="Fix">+203948.100-0883414.700</Point>
         <Point Name="CU400" Type="Fix">+283503.400-1055921.700</Point>
         <Point Name="CU401" Type="Fix">+283221.000-1055957.000</Point>
         <Point Name="CU403" Type="Fix">+283245.300-1060225.700</Point>
@@ -6551,6 +6555,12 @@
         </SID>
         <SID Name="CZA4B" Airport="MMCT" Runways="28">
             <Route Runway="28">CZA</Route>
+        </SID>
+        <SID Name="CZA1C" Airport="MMCT" Runways="10">
+            <Route Runway="10">CT402 CZA</Route>
+        </SID>
+        <SID Name="CZA1D" Airport="MMCT" Runways="28">
+            <Route Runway="28">CT502 CZA</Route>
         </SID>
         <!--MMCU-->
         <SID Name="CUU4A" Airport="MMCU" Runways="18L">
