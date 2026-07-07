@@ -227,10 +227,12 @@
         </Airport>
         <Airport Name="MMCP">
             <Runway Name="16" DataRunway="16">
-                <SID Name="CPE3A" Default="True" />
+                <SID Name="CPE1C" Default="True" />
+                <SID Name="CPE4A" />
             </Runway>
             <Runway Name="34" DataRunway="34">
-                <SID Name="CPE3B" Default="True" />
+                <SID Name="CPE1D" Default="True" />
+                <SID Name="CPE4B" />
             </Runway>
         </Airport>
         <Airport Name="MMCS">
@@ -4379,6 +4381,8 @@
         <Point Name="CL821" Type="Fix">+240858.400-1065131.000</Point>
         <Point Name="CL822" Type="Fix">+243120.900-1075520.800</Point>
         <Point Name="CLOVR" Type="Fix">+253721.100-0994924.900</Point>
+        <Point Name="CP402" Type="Fix">+194301.600-0902827.800</Point>
+        <Point Name="CP502" Type="Fix">+195640.400-0903200.800</Point>
         <Point Name="CU400" Type="Fix">+283503.400-1055921.700</Point>
         <Point Name="CU401" Type="Fix">+283221.000-1055957.000</Point>
         <Point Name="CU403" Type="Fix">+283245.300-1060225.700</Point>
@@ -6503,10 +6507,16 @@
             <Route Runway="31">USBEN</Route>
         </SID>
         <!--MMCP-->
-        <SID Name="CPE3A" Airport="MMCP" Runways="16">
+        <SID Name="CPE1C" Airport="MMCP" Runways="16">
+            <Route Runway="16">CP402 CPE</Route>
+        </SID>
+        <SID Name="CPE4A" Airport="MMCP" Runways="16">
             <Route Runway="16">CPE</Route>
         </SID>
-        <SID Name="CPE3B" Airport="MMCP" Runways="34">
+        <SID Name="CPE1D" Airport="MMCP" Runways="34">
+            <Route Runway="34">CP502 CPE</Route>
+        </SID>
+        <SID Name="CPE4B" Airport="MMCP" Runways="34">
             <Route Runway="34">CPE</Route>
         </SID>
         <!--MMCS-->
