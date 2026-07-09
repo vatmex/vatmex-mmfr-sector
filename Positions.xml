@@ -2243,18 +2243,19 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Merida Este - MIDE" Type="ASD" DefaultCenter="+223343.430-0881516.280" DefaultRange="600" MagneticVariation="+2">
+        <Position Name="Control Merida Este - MIDE" Type="ASD" DefaultCenter="+223606.000-0871041.000" DefaultRange="600" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDE" />
                 <Sector Name="MID3" />
+                <Sector Name="MID4" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="ACC Merida/Fondos - Terminales" />
+                <Map Name="ACC Merida/Split FNO H2" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />                
@@ -2270,7 +2271,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
+            <CFL QuickLevel="4000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
             <!--
@@ -2293,19 +2294,16 @@
             <Sectors>
                 <Sector Name="MIDW" />
                 <Sector Name="MID1" />
-                <Sector Name="MID2" />
-                <Sector Name="MID4" />
                 <Sector Name="MID5" />
                 <Sector Name="MID6" />
-                <Sector Name="MID7" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="ACC Merida/Fondos - Terminales" />
+                <Map Name="ACC Merida/Split FNO H2" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />  
@@ -2321,7 +2319,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
+            <CFL QuickLevel="3000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
             <!--
@@ -2340,6 +2338,53 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Control Merida Sur - MIDS" Type="ASD" DefaultCenter="+195542.000-0880841.000" DefaultRange="600" MagneticVariation="+2">
+            <Sectors>
+                <Sector Name="MIDS" />
+                <Sector Name="MID2" />
+                <Sector Name="MID7" />
+            </Sectors>
+            <Maps>
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
+                <Map Name="ACC Merida/Split FNO H2" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />  
+            </Maps>
+            <!--
+            <ATIS>
+                <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
+                <Window Airport="MMUN" />
+            </ATIS>
+            -->
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="3000">
+                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+            </CFL>
+            <!--
+            <ArrivalLists>
+                <Airport Name="MMUN" />
+            </ArrivalLists>
+            -->
+            <ControllerInfo>
+                <Line>Merida Control Sur</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+210249.9531-0865231.1875</Point>
+                <Point>+194642.2891-0902841.3750</Point>
+                <Point>+163526.8633-0930236.1563</Point>
+                <Point>+123404.2930-0985708.3125</Point>
+            </ManualVisibility>
+        </Position>        
     </Group>
 
     <Group Name="ACC Mexico">
