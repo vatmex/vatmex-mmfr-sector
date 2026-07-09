@@ -50,17 +50,19 @@
             <Point>DYSON</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>XUBSU</Point>
             <Point>ULISO</Point>
         </Label>
 
         <Label HasLeader="false">
-            <Point>CANOZ</Point>
             <Point>GABOB</Point>
-            <Point>CAEAR</Point>
-            <Point>XUBSU</Point>
-            <Point>AVOMA</Point>
             <Point>LIFTS</Point>
             <Point>ILELA</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>AVOMA</Point>
+            <Point>CAEAR</Point>
+            <Point>CANOZ</Point>
         </Label>
     </Map>
 
@@ -126,9 +128,11 @@
             <Point>ELSIP</Point>
             <Point>SIFTO</Point>
             <Point>EPNAS</Point>
-            <Point>CAEAR</Point>
             <Point>NAPLA</Point>
             <Point>GREPE</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>CAEAR</Point>
         </Label>
 
     </Map>

@@ -42,14 +42,16 @@
             <Point>OTREL</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>EMOSA</Point>
             <Point>ILUBA</Point>
         </Label>        
 
         <Label HasLeader="false">
             <Point>ANADI</Point>
             <Point>ANIKO</Point>
-            <Point>EMOSA</Point>
             <Point>IMUBI</Point>
+        </Label>
+        <Label LabelOrientation="NW" HasLeader="true" Alignment="Right" VerticalAlignment="Middle">
             <Point>VIGTU</Point>
         </Label>
     </Map>
