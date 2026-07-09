@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+    <!--Prioritarios CUN TMA-->
+    <Sector FullName="Aproximacion Cancun 12" Frequency="124.700" Callsign="MMUN_1_APP" Name="UNAPP12">
+        <Volumes>UNAPP12</Volumes>
+    </Sector>
+    <Sector FullName="Aproximacion Cancun 30" Frequency="124.700" Callsign="MMUN_3_APP" Name="UNAPP30" DisplayInHandoffWindow="False">
+        <Volumes>UNAPP30</Volumes>
+    </Sector>
+    <Sector FullName="Final Cancun 12" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNFNA12">
+        <Volumes>UNFNA12</Volumes>
+    </Sector>
+    <Sector FullName="Final Cancun 30" Frequency="122.700" Callsign="MMUN_F3_APP" Name="UNFNA30" DisplayInHandoffWindow="False">
+        <Volumes>UNFNA30</Volumes>
+    </Sector>
+    <Sector FullName="Llegadas Cancun 12" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNARR12">
+        <Volumes>UNARR12</Volumes>
+    </Sector>
+    <Sector FullName="Llegadas Cancun 30" Frequency="123.200" Callsign="MMUN_T30_APP" Name="UNARR30" DisplayInHandoffWindow="False">
+        <Volumes>UNARR30</Volumes>
+    </Sector>    
+    <Sector FullName="Salidas Cancun 12" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEC12">
+        <ResponsibleSectors>UNDEN12,UNDES12,UNDEW12</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Salidas Cancun 30" Frequency="124.200" Callsign="MMUN_30_DEP" Name="UNDEC30" DisplayInHandoffWindow="False">
+        <ResponsibleSectors>UNDEN30,UNDES30,UNDEW30</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="Aproximacion Cancun Combinado" Frequency="124.700" Callsign="MMUN_APP" Name="UNAPP">
+        <ResponsibleSectors>UNAPP12,UNARR12,UNFNA12,UNDEC12</ResponsibleSectors>
+    </Sector>    
+    <Sector FullName="ACC Merida Combinado" Frequency="128.300" Callsign="MMID_CTR" Name="MIDC">
+        <ResponsibleSectors>MID1,MID2,MID3,MID4,MID5,MID6,MID7</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC Merida Sector NE" Frequency="128.200" Callsign="MMID_E_CTR" Name="MIDE">
+        <ResponsibleSectors>MID3,MID4</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC Merida Sector W" Frequency="123.750" Callsign="MMID_W_CTR" Name="MIDW">
+        <ResponsibleSectors>MID1,MID5,MID6</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC Merida Sector S" Frequency="125.800" Callsign="MMID_S_CTR" Name="MIDS">
+        <ResponsibleSectors>MID2,MID7</ResponsibleSectors>
+    </Sector>
+   <Sector FullName="ACC Merida Sector 1" Frequency="128.300" Callsign="MMID_1_CTR" Name="MID1" DisplayInHandoffWindow="False">
+        <Volumes>MMID_SECTOR_1</Volumes>
+    </Sector>
+    <Sector FullName="ACC Merida Sector 2" Frequency="125.800" Callsign="MMID_2_CTR" Name="MID2" DisplayInHandoffWindow="False">
+        <Volumes>MMID_SECTOR_2</Volumes>
+    </Sector>
+    <Sector FullName="ACC Merida Sector 3" Frequency="128.200" Callsign="MMID_3_CTR" Name="MID3" DisplayInHandoffWindow="False">
+        <Volumes>MMID_SECTOR_3</Volumes>
+    </Sector>
+    <Sector FullName="ACC Merida Sector 4" Frequency="125.200" Callsign="MMID_4_CTR" Name="MID4" DisplayInHandoffWindow="False">
+        <Volumes>MMID_SECTOR_4</Volumes>
+    </Sector>
+    <Sector FullName="ACC Merida Sector 5" Frequency="123.750" Callsign="MMID_5_CTR" Name="MID5" DisplayInHandoffWindow="False">
+        <Volumes>MMID_SECTOR_5</Volumes>
+    </Sector>
+    <Sector FullName="ACC Merida Sector 6" Frequency="126.700" Callsign="MMID_6_CTR" Name="MID6" DisplayInHandoffWindow="False">
+        <Volumes>MMID_SECTOR_6</Volumes>
+    </Sector>
+    <Sector FullName="ACC Merida Sector 7" Frequency="126.700" Callsign="MMID_7_CTR" Name="MID7" DisplayInHandoffWindow="False">
+        <Volumes>MMID_SECTOR_7</Volumes>
+    </Sector>    
     <!--Prioritarios MEX TMA-->
     <Sector FullName="Llegadas Mexico 05" Frequency="129.650" Callsign="MMMX_T_APP" Name="MXARR5">
         <Volumes>
@@ -187,65 +248,7 @@
     </Sector>
     <Sector FullName="ACC Monterrey Sector 5" Frequency="125.600" Callsign="MMTY_5_CTR" Name="MTY5" DisplayInHandoffWindow="False">
         <Volumes>MMTY_SECTOR_5</Volumes>
-    </Sector>    
-    <!--Prioritarios CUN TMA-->
-    <Sector FullName="Aproximacion Cancun 12" Frequency="124.700" Callsign="MMUN_1_APP" Name="UNAPP12">
-        <Volumes>UNAPP12</Volumes>
     </Sector>
-    <Sector FullName="Aproximacion Cancun 30" Frequency="124.700" Callsign="MMUN_3_APP" Name="UNAPP30" DisplayInHandoffWindow="False">
-        <Volumes>UNAPP30</Volumes>
-    </Sector>
-    <Sector FullName="Final Cancun 12" Frequency="122.700" Callsign="MMUN_F_APP" Name="UNFNA12">
-        <Volumes>UNFNA12</Volumes>
-    </Sector>
-    <Sector FullName="Final Cancun 30" Frequency="122.700" Callsign="MMUN_F3_APP" Name="UNFNA30" DisplayInHandoffWindow="False">
-        <Volumes>UNFNA30</Volumes>
-    </Sector>
-    <Sector FullName="Llegadas Cancun 12" Frequency="123.200" Callsign="MMUN_T_APP" Name="UNARR12">
-        <Volumes>UNARR12</Volumes>
-    </Sector>
-    <Sector FullName="Llegadas Cancun 30" Frequency="123.200" Callsign="MMUN_T30_APP" Name="UNARR30" DisplayInHandoffWindow="False">
-        <Volumes>UNARR30</Volumes>
-    </Sector>    
-    <Sector FullName="Salidas Cancun 12" Frequency="124.200" Callsign="MMUN_DEP" Name="UNDEC12">
-        <ResponsibleSectors>UNDEN12,UNDES12,UNDEW12</ResponsibleSectors>
-    </Sector>
-    <Sector FullName="Salidas Cancun 30" Frequency="124.200" Callsign="MMUN_30_DEP" Name="UNDEC30" DisplayInHandoffWindow="False">
-        <ResponsibleSectors>UNDEN30,UNDES30,UNDEW30</ResponsibleSectors>
-    </Sector>
-    <Sector FullName="Aproximacion Cancun Combinado" Frequency="124.700" Callsign="MMUN_APP" Name="UNAPP">
-        <ResponsibleSectors>UNAPP12,UNARR12,UNFNA12,UNDEC12</ResponsibleSectors>
-    </Sector>    
-    <Sector FullName="ACC Merida Combinado" Frequency="128.300" Callsign="MMID_CTR" Name="MIDC">
-        <ResponsibleSectors>MID1,MID2,MID3,MID4,MID5,MID6,MID7</ResponsibleSectors>
-    </Sector>
-    <Sector FullName="ACC Merida Sector NE" Frequency="125.800" Callsign="MMID_E_CTR" Name="MIDE">
-        <ResponsibleSectors>MID3</ResponsibleSectors>
-    </Sector>
-    <Sector FullName="ACC Merida Sector W" Frequency="126.700" Callsign="MMID_W_CTR" Name="MIDW">
-        <ResponsibleSectors>MID1,MID2,MID4,MID5,MID6,MID7</ResponsibleSectors>
-    </Sector>
-   <Sector FullName="ACC Merida Sector 1" Frequency="128.300" Callsign="MMID_1_CTR" Name="MID1" DisplayInHandoffWindow="False">
-        <Volumes>MMID_SECTOR_1</Volumes>
-    </Sector>
-    <Sector FullName="ACC Merida Sector 2" Frequency="125.800" Callsign="MMID_2_CTR" Name="MID2" DisplayInHandoffWindow="False">
-        <Volumes>MMID_SECTOR_2</Volumes>
-    </Sector>
-    <Sector FullName="ACC Merida Sector 3" Frequency="128.200" Callsign="MMID_3_CTR" Name="MID3" DisplayInHandoffWindow="False">
-        <Volumes>MMID_SECTOR_3</Volumes>
-    </Sector>
-    <Sector FullName="ACC Merida Sector 4" Frequency="125.200" Callsign="MMID_4_CTR" Name="MID4" DisplayInHandoffWindow="False">
-        <Volumes>MMID_SECTOR_4</Volumes>
-    </Sector>
-    <Sector FullName="ACC Merida Sector 5" Frequency="123.750" Callsign="MMID_5_CTR" Name="MID5" DisplayInHandoffWindow="False">
-        <Volumes>MMID_SECTOR_5</Volumes>
-    </Sector>
-    <Sector FullName="ACC Merida Sector 6" Frequency="126.700" Callsign="MMID_6_CTR" Name="MID6" DisplayInHandoffWindow="False">
-        <Volumes>MMID_SECTOR_6</Volumes>
-    </Sector>
-    <Sector FullName="ACC Merida Sector 7" Frequency="126.700" Callsign="MMID_7_CTR" Name="MID7" DisplayInHandoffWindow="False">
-        <Volumes>MMID_SECTOR_7</Volumes>
-    </Sector>    
     <Sector FullName="ACC Mazatlan Sector 1" Frequency="128.300" Callsign="MMZT_1_CTR" Name="MZT1" DisplayInHandoffWindow="False">
         <Volumes>MMZT_SECTOR_1</Volumes>
     </Sector>

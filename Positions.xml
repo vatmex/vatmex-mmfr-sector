@@ -1033,7 +1033,6 @@
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CEN, CUL, DGO, LAP, LMM, MZT and SJD.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+274123.933-1093434.548</Point>
@@ -1081,7 +1080,6 @@
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering HMO, MXL and TIJ.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+320131.681-1181616.190</Point>
@@ -1134,8 +1132,6 @@
             <ControllerInfo>
                 <Line>Mazatlan Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CEN, CUL, DGO, HMO, LAP, LMM, MXL,</Line>
-                <Line>MZT, SJD, TIJ and all airports within MMZT ACC.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+293843.176-1180137.394</Point>
@@ -1167,7 +1163,7 @@
                 <Map Name="z ATZ Chetumal/ASMGCS_MMCM_GATES" />
             </Maps>
         </Position>
-        <Position Name="MMCP" Type="ASMGCS" ASMGCSAirport="MMCP" DefaultCenter="+194901.050-0903001.770" DefaultRange="3" MagneticVariation="-1" Rotation="285">
+        <Position Name="MMCP" Type="ASMGCS" ASMGCSAirport="MMCP" DefaultCenter="+194901.050-0903001.770" DefaultRange="3" MagneticVariation="0" Rotation="285">
             <Maps>
                 <Map Name="z CTR Campeche/ASMGCS_MMCP_RWY" />
                 <Map Name="z CTR Campeche/ASMGCS_MMCP_APR" />
@@ -1396,7 +1392,7 @@
         </Position>
 
         <!-- CTR Campeche -->
-        <Position Name="Torre Campeche - CPTW1" Type="ASD" DefaultCenter="+194900.500-0903001.109" DefaultRange="40" MagneticVariation="-1">
+        <Position Name="Torre Campeche - CPTW1" Type="ASD" DefaultCenter="+194900.500-0903001.109" DefaultRange="40" MagneticVariation="0">
             <Sectors>
                 <Sector Name="CPTW1" />
             </Sectors>
@@ -2239,8 +2235,6 @@
             <ControllerInfo>
                 <Line>Merida Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CME, CUN, MID, TGZ, VSA and</Line>
-                <Line>all airports within MMID ACC.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+210249.9531-0865231.1875</Point>
@@ -2249,18 +2243,19 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Merida Este - MIDE" Type="ASD" DefaultCenter="+223343.430-0881516.280" DefaultRange="600" MagneticVariation="+2">
+        <Position Name="Control Merida Este - MIDE" Type="ASD" DefaultCenter="+223606.000-0871041.000" DefaultRange="600" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDE" />
                 <Sector Name="MID3" />
+                <Sector Name="MID4" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="ACC Merida/Fondos - Terminales" />
+                <Map Name="ACC Merida/Split FNO H2" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />                
@@ -2276,7 +2271,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
+            <CFL QuickLevel="4000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
             <!--
@@ -2287,7 +2282,6 @@
             <ControllerInfo>
                 <Line>Merida Control Este</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CUN, CZM and TQO</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+210249.9531-0865231.1875</Point>
@@ -2300,19 +2294,16 @@
             <Sectors>
                 <Sector Name="MIDW" />
                 <Sector Name="MID1" />
-                <Sector Name="MID2" />
-                <Sector Name="MID4" />
                 <Sector Name="MID5" />
                 <Sector Name="MID6" />
-                <Sector Name="MID7" />
             </Sectors>
             <Maps>
-                <Map Name="ACC Merida/Limites - Sectores" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
                 <Map Name="[Universal]/Sector - Aerovias" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="ACC Merida/Fondos - Terminales" />
+                <Map Name="ACC Merida/Split FNO H2" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />  
@@ -2328,7 +2319,7 @@
                 <Window Type="State" State="Announced" Visible="true" />
                 <Window Type="State" State="Preactive" Visible="true" />
             </Strips>
-            <CFL QuickLevel="20000">
+            <CFL QuickLevel="3000">
                 <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
             </CFL>
             <!--
@@ -2339,7 +2330,6 @@
             <ControllerInfo>
                 <Line>Merida Control Oeste</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CME, CUN, MID, TGZ, VSA, CZM and TQO</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+210249.9531-0865231.1875</Point>
@@ -2348,6 +2338,53 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Control Merida Sur - MIDS" Type="ASD" DefaultCenter="+195542.000-0880841.000" DefaultRange="600" MagneticVariation="+2">
+            <Sectors>
+                <Sector Name="MIDS" />
+                <Sector Name="MID2" />
+                <Sector Name="MID7" />
+            </Sectors>
+            <Maps>
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
+                <Map Name="ACC Merida/Split FNO H2" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="ACC Merida/Limites - Terminales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />  
+            </Maps>
+            <!--
+            <ATIS>
+                <Editor Airport="MMUN" Frequency="127.700" Server="NA" />
+                <Window Airport="MMUN" />
+            </ATIS>
+            -->
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="3000">
+                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+            </CFL>
+            <!--
+            <ArrivalLists>
+                <Airport Name="MMUN" />
+            </ArrivalLists>
+            -->
+            <ControllerInfo>
+                <Line>Merida Control Sur</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+210249.9531-0865231.1875</Point>
+                <Point>+194642.2891-0902841.3750</Point>
+                <Point>+163526.8633-0930236.1563</Point>
+                <Point>+123404.2930-0985708.3125</Point>
+            </ManualVisibility>
+        </Position>        
     </Group>
 
     <Group Name="ACC Mexico">
@@ -3189,7 +3226,7 @@
             -->
             <ControllerInfo>
                 <Line>Entrega Mexico / Mexico Delivery</Line>
-                <Line>DCL/PDC [MMMX]</Line>
+                <Line>ACARS-DCL [MMMX]</Line>
                 <Line>Serving MMMX departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -3223,7 +3260,7 @@
             -->
             <ControllerInfo>
                 <Line>Terrestre Mexico / Mexico Ground</Line>
-                <Line>DCL/PDC [MMMX]</Line>
+                <Line>ACARS-DCL [MMMX]</Line>
                 <Line>Serving MMMX North T1</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -3255,7 +3292,7 @@
             -->
             <ControllerInfo>
                 <Line>Terrestre Mexico Sur / Mexico Ground South</Line>
-                <Line>DCL/PDC [MMMX]</Line>
+                <Line>ACARS-DCL [MMMX]</Line>
                 <Line>Serving MMMX South T2</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -3297,7 +3334,7 @@
             -->
             <ControllerInfo>
                 <Line>Torre Mexico / Mexico Tower</Line>
-                <Line>DCL/PDC [MMMX]</Line>
+                <Line>ACARS-DCL [MMMX]</Line>
                 <Line>Serving MMMX arrivals and departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -3562,7 +3599,6 @@
             -->
             <ControllerInfo>
                 <Line>Aproximacion Mexico / Mexico Approach</Line>
-                <Line>DCL/PDC [MMMX]</Line>
                 <Line>Serving MMMX, MMTO, MMCB, MMPB and MMSM</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -4601,10 +4637,8 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Mexico Control | DCL/PDC [MMMX]</Line>
+                <Line>Mexico Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering ACA, BJX, GDL, MEX, MLM, OAX, PVR, QET, SLP,</Line>
-                <Line>TAM, VER, ZIH, ZLO and all airports within MMEX ACC.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+22.887442-102.693261</Point>
@@ -4653,7 +4687,6 @@
             <ControllerInfo>
                 <Line>Mexico Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering ACA, BJX, MEX, MLM, QET and ZIH.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+22.887442-102.693261</Point>
@@ -4702,7 +4735,6 @@
             <ControllerInfo>
                 <Line>Mexico Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering BJX, GDL, PVR, SLP and ZLO.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+22.887442-102.693261</Point>
@@ -4751,9 +4783,7 @@
             -->
             <ControllerInfo>
                 <Line>Mexico Control</Line>
-                <Line>DCL/PDC [MMMX]</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering ACA, MEX, OAX, TAM and VER.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+22.887442-102.693261</Point>
@@ -5671,8 +5701,6 @@
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CJS, CUU, CVM, MAM, MTY, NLD, REX,</Line>
-                <Line>SLW, TRC and all airports within MMTY ACC.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+284326.9063-1055601.5313</Point>
@@ -5721,8 +5749,6 @@
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CVM, MAM, REX,</Line>
-                <Line>and MTY ITPIS/RETOS STARs.</Line>
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+284326.9063-1055601.5313</Point>
@@ -5772,8 +5798,6 @@
             <ControllerInfo>
                 <Line>Monterrey Control</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-                <Line>Covering CJS, CUU, NLD, SLW,</Line>
-                <Line>and MTY NOTAL/SLW STARs.</Line>                
             </ControllerInfo>
             <ManualVisibility>
                 <Point>+284326.9063-1055601.5313</Point>
@@ -5827,183 +5851,6 @@
                 <Point>+190857.890-1043416.669</Point>
             </ManualVisibility>
         </Position>
-    </Group>
-
-    <Group Name="FNO MEX APP">
-        <Position Name="Llegadas Mexico - MARR1" Type="ASD" DefaultCenter="+192616.968-0990408.781" DefaultRange="240" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
-            <Sectors>
-            <Sector Name="MXARR5" />
-            <Sector Name="SMAPP4" />
-        </Sectors>
-            <Maps>
-                <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Llegadas" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Llegadas [Fondo]" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
-                <Window Airport="MMMX" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="18000">
-                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMMX" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Llegadas Mexico / Mexico Arrivals</Line>
-                <Line>Serving MEX and NLU arrivals</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+200937.407-0994825.774</Point>
-                <Point>+200705.803-0981718.702</Point>
-                <Point>+184503.035-0995049.146</Point>
-                <Point>+184239.210-0981947.677</Point>
-            </ManualVisibility>
-        </Position>
-        <Position Name="Aproximacion Mexico - MAPP1" Type="ASD" DefaultCenter="+192152.968-0991228.781" DefaultRange="180" MagneticVariation="-4" VisibilityRange="100" DynamicInfill="true">
-            <Sectors>
-            <Sector Name="MAPP5" />
-        </Sectors>
-            <Maps>
-                <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Z 05R" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Aproximacion" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
-                <Window Airport="MMMX" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="12500">
-                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMMX" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Aproximacion Mexico / Mexico Approach</Line>
-                <Line>Serving MEX arrivals</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+200937.407-0994825.774</Point>
-                <Point>+200705.803-0981718.702</Point>
-                <Point>+184503.035-0995049.146</Point>
-                <Point>+184239.210-0981947.677</Point>
-            </ManualVisibility>
-        </Position>
-        <Position Name="Final Mexico - MXFN1" Type="ASD" DefaultCenter="+192322.968-0990906.781" DefaultRange="80" MagneticVariation="-4" VisibilityRange="100">
-            <Sectors>
-            <Sector Name="MXFNA5" />
-        </Sectors>
-            <Maps>
-                <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Z 05R" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Final" />
-                <Map Name="TMA Mexico/z MMMX - Pistas 05 - Sectores Final [Fondo]" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - Aproximacion Frustrada 05R" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMMX" Frequency="127.650" Server="NA" />
-                <Window Airport="MMMX" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="12500">
-                <AdditionalLevels>7300,8200,9200</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMMX" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Aproximacion Mexico / Mexico Approach</Line>
-                <Line>Serving MEX final approach</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+200937.407-0994825.774</Point>
-                <Point>+200705.803-0981718.702</Point>
-                <Point>+184503.035-0995049.146</Point>
-                <Point>+184239.210-0981947.677</Point>
-            </ManualVisibility>
-        </Position>
-        <Position Name="Salidas Guadalajara - GLDEP" Type="ASD" DefaultCenter="+203649.320-1031746.800" DefaultRange="250" MagneticVariation="-6" VisibilityRange="150">
-            <Sectors>
-                <Sector Name="GLDEP" />
-            </Sectors>
-            <Maps>
-                <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Guadalajara/ Pistas 29 - ILS X 29L" />
-                <Map Name="TMA Guadalajara/ Pistas 29 - Salidas RNAV" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
-                <Window Airport="MMGL" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="23000">
-                <AdditionalLevels>8200,9200,9400</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMGL" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Salidas Guadalajara / Guadalajara Departures</Line>
-                <Line>Serving MMGL departures</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+203118.494-1031839.996</Point>
-            </ManualVisibility>
-        </Position>     
     </Group>
 
     <Group Name="FNO CUN APP">

@@ -48,6 +48,7 @@
             <Point>DYSON</Point>
         </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+            <Point>XUBSU</Point>
             <Point>ULISO</Point>
         </Label>
         <Label LabelOrientation="SW" HasLeader="true">
@@ -59,13 +60,14 @@
         </Label>                  
 
         <Label HasLeader="false">
-            <Point>CAEAR</Point>
             <Point>GABOB</Point>
-            <Point>CANOZ</Point>
-            <Point>XUBSU</Point>
-            <Point>AVOMA</Point>
             <Point>LIFTS</Point>
             <Point>ILELA</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>AVOMA</Point>
+            <Point>CANOZ</Point>
+            <Point>CAEAR</Point>
         </Label>
     </Map>
     <Map Type="System" Name="Pista 36 - RNP 36" Priority="1" Center="+205613.280-0893927.700">
@@ -128,9 +130,11 @@
             <Point>ELSIP</Point>
             <Point>SIFTO</Point>
             <Point>EPNAS</Point>
-            <Point>CAEAR</Point>
             <Point>NAPLA</Point>
             <Point>GREPE</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>CAEAR</Point>
         </Label>
    
              

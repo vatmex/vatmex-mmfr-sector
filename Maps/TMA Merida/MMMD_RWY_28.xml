@@ -41,6 +41,7 @@
         <Point>VOLOR</Point>
     </Label>
         <Label LabelOrientation="E" HasLeader="true" VerticalAlignment="Middle">
+                    <Point>XUBSU</Point>
             <Point>ALRUN</Point>
             <Point>HADOW</Point>
             <Point>ULISO</Point>
@@ -51,12 +52,13 @@
 
                 <Label HasLeader="false">
                     <Point>GABOB</Point>
-                    <Point>CAEAR</Point>
                     <Point>ILELA</Point>
                     <Point>LIFTS</Point>
-                    <Point>XUBSU</Point>
-                    <Point>AVOMA</Point>
                 </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+                    <Point>AVOMA</Point>
+                    <Point>CAEAR</Point>
+        </Label>
     </Map>
     <Map Type="System" Name="Pista 28 - RNP 28" Priority="1" Center="+205613.280-0893927.700">
         <Line Pattern="Solid">HADOW/MD500</Line>
@@ -115,11 +117,13 @@
             <Point>ISARO</Point>
             <Point>VIVEP</Point>
             <Point>NAPLA</Point>
-            <Point>CAEAR</Point>
             <Point>EPNAS</Point>
             <Point>SIFTO</Point>
             <Point>ELSIP</Point>
             <Point>GREPE</Point>
+        </Label>
+        <Label LabelOrientation="N" HasLeader="true" Alignment="Center">
+            <Point>CAEAR</Point>
         </Label>
 
      
