@@ -4732,7 +4732,6 @@
         <Point Name="LERUS" Type="Fix">+192043.770-0981543.040</Point>
         <Point Name="LO400" Type="Fix">+210345.600-1013325.500</Point>
         <Point Name="LO401" Type="Fix">+210715.200-1013715.800</Point>
-        <Point Name="LO403" Type="Fix">+210212.600-1014228.500</Point>
         <Point Name="LO420" Type="Fix">+213234.100-1020713.200</Point>
         <Point Name="LO421" Type="Fix">+211807.100-1013313.500</Point>
         <Point Name="LO422" Type="Fix">+212725.500-1012314.900</Point>
@@ -6151,10 +6150,10 @@
             <Route Runway="36">AS613 AS614 AS615 AS620 MANTA UKIRO</Route>
         </SID>
         <STAR Name="BJX1C" Airport="MMAS" Runways="18">
-            <Route Runway="18">BJX LO403 AS513 AS912 ETBAM AS901 SESKO</Route>
+            <Route Runway="18">BJX RIGEP AS513 AS912 ETBAM AS901 SESKO</Route>
         </STAR>
         <STAR Name="BJX1D" Airport="MMAS" Runways="36">
-            <Route Runway="36">BJX LO403 AS513 MIDLA</Route>
+            <Route Runway="36">BJX RIGEP AS513 MIDLA</Route>
         </STAR>
         <STAR Name="BOPA1A" Airport="MMAS" Runways="18">
             <Route Runway="18">BOPAX AS905 AS904 SESKO</Route>
