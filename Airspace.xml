@@ -205,10 +205,12 @@
         </Airport>
         <Airport Name="MMCM">
             <Runway Name="10" DataRunway="10">
-                <SID Name="CTM3A" Default="True" />
+                <SID Name="CTM1C" Default="True" />
+                <SID Name="CTM3A" />
             </Runway>
             <Runway Name="28" DataRunway="28">
-                <SID Name="CTM3B" Default="True" />
+                <SID Name="CTM1D" Default="True" />
+                <SID Name="CTM3B" />
             </Runway>
         </Airport>
         <Airport Name="MMCN">
@@ -3245,6 +3247,8 @@
         <Point Name="CAPUL" Type="Fix">+223942.000-1045215.000</Point>
         <Point Name="CHALY" Type="Fix">+200932.000-0975323.000</Point>
         <Point Name="CLONN" Type="Fix">+253800.000-0953100.000</Point>
+        <Point Name="CM402" Type="Fix">+182809.100-0881305.900</Point>
+        <Point Name="CM503" Type="Fix">+183211.100-0882711.200</Point>
         <Point Name="COAPA" Type="Fix">+213019.000-0965523.000</Point>
         <Point Name="CODLE" Type="Fix">+251755.000-1045309.000</Point>
         <Point Name="COFRE" Type="Fix">+214932.000-0934328.000</Point>
@@ -6484,6 +6488,12 @@
             <Route>SAVIR CL501 CL500</Route>
         </Approach>
         <!--MMCM-->
+        <SID Name="CTM1C" Airport="MMCM" Runways="10">
+            <Route Runway="10">CM402 CTM</Route>
+        </SID>
+        <SID Name="CTM1D" Airport="MMCM" Runways="28">
+            <Route Runway="28">CM503 CTM</Route>
+        </SID>
         <SID Name="CTM3A" Airport="MMCM" Runways="10">
             <Route Runway="10">CTM</Route>
         </SID>
