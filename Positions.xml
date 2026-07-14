@@ -2255,7 +2255,7 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="ACC Merida/Split FNO H2" />
+                <Map Name="ACC Merida/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />                
@@ -2303,7 +2303,7 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="ACC Merida/Split FNO H2" />
+                <Map Name="ACC Merida/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />  
@@ -2350,7 +2350,7 @@
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
-                <Map Name="ACC Merida/Split FNO H2" />
+                <Map Name="ACC Merida/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="ACC Merida/Limites - Terminales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />  
@@ -5852,137 +5852,4 @@
             </ManualVisibility>
         </Position>
     </Group>
-
-    <Group Name="FNO CUN APP">
-        <Position Name="Llegadas Cancun - UNAR1" Type="ASD" DefaultCenter="+212236.581-0865955.706" DefaultRange="230" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
-            <Sectors>
-                <Sector Name="UNARR12" />
-            </Sectors>
-            <Maps>
-                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Llegadas RNAV" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L - Final Extendido" />
-                <Map Name="TMA Cancun/z MMUN - Pistas 12 - Sectores Llegadas" />
-                <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-                <Window Airport="MMUN" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="3000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMUN" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Llegadas Cancun / Cancun Arrivals</Line>
-                <Line>Serving CUN arrivals</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+213915.943-0875358.220</Point>
-                <Point>+210210.428-0865212.944</Point>
-                <Point>+203028.963-0865441.589</Point>
-            </ManualVisibility>
-        </Position>
-        <Position Name="Final Cancun - UNAF1" Type="ASD" DefaultCenter="+211722.581-0870835.706" DefaultRange="120" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
-            <Sectors>
-                <Sector Name="UNFNA12" />
-            </Sectors>
-            <Maps>
-                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Llegadas RNAV" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Cancun/z MMUN - Pistas 12 - Sectores Final" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L - Final Extendido" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-                <Window Airport="MMUN" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="3000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMUN" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Aproximacion Cancun / Cancun Approach</Line>
-                <Line>Serving CUN final approach</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+213915.943-0875358.220</Point>
-                <Point>+210210.428-0865212.944</Point>
-                <Point>+203028.963-0865441.589</Point>
-            </ManualVisibility>
-        </Position>
-        <Position Name="Aproximacion Cancun - UNAP1" Type="ASD" DefaultCenter="+212007.581-0865350.706" DefaultRange="180" MagneticVariation="+2" VisibilityRange="100" DynamicInfill="true">
-            <Sectors>
-                <Sector Name="UNAPP12" />
-            </Sectors>
-            <Maps>
-                <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L-R - Llegadas RNAV" />
-                <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Cancun/MMUN - Pista 12L - Final Extendido" />
-                <Map Name="TMA Cancun/z MMUN - Pistas 12 - Sectores Aproximacion" />
-            </Maps>
-            <!--
-            <ATIS>
-                <Editor Airport="MMUN" Frequency="127.7" Server="NA" />
-                <Window Airport="MMUN" />
-            </ATIS>
-            -->
-            <Strips Mode="State" Sort="Alpha">
-                <Window Type="State" State="Jurisdiction" Visible="true" />
-                <Window Type="State" State="Announced" Visible="true" />
-                <Window Type="State" State="Preactive" Visible="true" />
-            </Strips>
-            <CFL QuickLevel="3000">
-                <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-            </CFL>
-            <!--
-            <ArrivalLists>
-                <Airport Name="MMUN" />
-            </ArrivalLists>
-            -->
-            <ControllerInfo>
-                <Line>Aproximacion Cancun / Cancun Approach</Line>
-                <Line>Serving CUN arrivals</Line>
-                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
-            </ControllerInfo>
-            <ManualVisibility>
-                <Point>+213915.943-0875358.220</Point>
-                <Point>+210210.428-0865212.944</Point>
-                <Point>+203028.963-0865441.589</Point>
-            </ManualVisibility>
-        </Position>
-    </Group>
-
 </Positions>
