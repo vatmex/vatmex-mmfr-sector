@@ -1,7 +1,7 @@
 @echo off
 SETLOCAL ENABLEDELAYEDEXPANSION
 
-echo Maestro Plugin DLL Unblock Utility
+echo Hold Plugin DLL Unblock Utility
 echo ===================================
 echo.
 echo This script will unblock all DLL files in the current directory and subdirectories.
@@ -17,8 +17,8 @@ for /r %%F in ("*.dll") do (
 if %dllCount% equ 0 (
     echo No DLL files found in the current directory or subdirectories.
     echo.
-    echo Make sure you have placed this script in the same folder as the Maestro plugin DLLs.
-    echo Expected location: Documents\vatSys Files\Profiles\[ProfileName]\Plugins\MaestroPlugin\
+    echo Make sure you have placed this script in the same folder as the Hold plugin DLLs.
+    echo Expected location: Documents\vatSys Files\Profiles\[ProfileName]\Plugins\HoldPlugin\
     goto :end
 )
 

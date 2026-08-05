@@ -205,10 +205,12 @@
         </Airport>
         <Airport Name="MMCM">
             <Runway Name="10" DataRunway="10">
-                <SID Name="CTM3A" Default="True" />
+                <SID Name="CTM1C" Default="True" />
+                <SID Name="CTM3A" />
             </Runway>
             <Runway Name="28" DataRunway="28">
-                <SID Name="CTM3B" Default="True" />
+                <SID Name="CTM1D" Default="True" />
+                <SID Name="CTM3B" />
             </Runway>
         </Airport>
         <Airport Name="MMCN">
@@ -426,10 +428,10 @@
         </Airport>
         <Airport Name="MMGA">
             <Runway Name="10" DataRunway="10">
-                <SID Name="CRL1A" Default="True" />
+                <SID Name="BCO1A" Default="True" />
             </Runway>
             <Runway Name="28" DataRunway="28">
-                <SID Name="CRL1B" Default="True" />
+                <SID Name="BCO1B" Default="True" />
             </Runway>
         </Airport>
         <Airport Name="MMGL">
@@ -679,7 +681,7 @@
                 <SID Name="AGU1C" />
                 <SID Name="AVRIK3" />
                 <SID Name="ANIL1D" />
-                <SID Name="JAST1C" />
+                <SID Name="MUTE1C" />
                 <SID Name="KARIR1" />
                 <SID Name="NAGIV1" />
                 <SID Name="TIDI1C" />
@@ -699,7 +701,7 @@
                 <SID Name="ANIL3C" />
                 <SID Name="ANIL2E" />
                 <SID Name="HORT1C" />
-                <SID Name="JAST1D" />
+                <SID Name="MUTE1D" />
                 <SID Name="MANTA3" />
                 <SID Name="NOSUK3" />
                 <SID Name="TIDI1D" />
@@ -1127,7 +1129,7 @@
                 <SID Name="BUBE2A" />
                 <SID Name="ENEMI2" />
                 <SID Name="KEND2A" />
-                <SID Name="LIPE1C" />
+                <SID Name="KASU1C" />
                 <SID Name="SEKE2A" />
                 <SID Name="SILM2A" />
                 <SID Name="VOLA1C" />
@@ -1145,7 +1147,7 @@
                 <SID Name="BUBE2B" />
                 <SID Name="DETBO2" />
                 <SID Name="KEND2B" />
-                <SID Name="LIPE1D" />
+                <SID Name="KASU1D" />
                 <SID Name="SEKE2B" />
                 <SID Name="SILM2B" />
                 <SID Name="VOLA1D" />
@@ -1931,7 +1933,7 @@
             PPE/LIDUK/OMTIB/HMO/NOTOT/OMSUX/GYM/SUTNU/CEN
         </Airway>
         <Airway Name="V8">
-            CUU/CRL/SESGA/LMM/COPAS/OMSIB/XOMSA/LAP
+            CUU/BCO/SESGA/LMM/COPAS/OMSIB/XOMSA/LAP
         </Airway>
         <Airway Name="V9">
             CEN/ENATA/DURTU/LAP/TAMET/ATUMI/CSL
@@ -1940,7 +1942,7 @@
             MAM/IRBID/REX/REALA/MTY/SLW/OMIXA/TETUN/TRC/XOTIN/VIKDO/DGO/LONRI/SAVOM/LIDIK/CUL/TOVER/ILAVI/ENEKO/MANUS/LAP
         </Airway>
         <Airway Name="V11">
-            CEN/VIVON/CRL/ELQ/VOKES/TRC/AVUVA/PESPA/CDR/LOMSA/IMODA/XOSIM/TTM/TMN/ADRAX/AGLEN/SLM
+            CEN/VIVON/BCO/ELQ/VOKES/TRC/AVUVA/PESPA/CDR/LOMSA/IMODA/XOSIM/TTM/TMN/ADRAX/AGLEN/SLM
         </Airway>
         <Airway Name="V12">
             CVM/TEPAS/ITMAT/CDR/XORVO/DURPA/TUGIR/DGO/LONRI/SAVOM/LIDIK/CUL/XOMGA/IKBOR/LEPOM/GOSIM/MENVI/SJD/CSL/LETAT/URLET/GODOY/LTO
@@ -2033,7 +2035,7 @@
             CPE/AXIMA/DANIS/CTM
         </Airway>
         <Airway Name="V37">
-            NLD/ILIGO/RIKAN/DAJOR/URTAN/MTY/UBVIV/RABAX/TRC/EMIMO/BOPEM/DGO/TAKNI/PIDNI/MAVED/BRISA/TNY/ENEMI/PVR
+            NLD/ILIGO/RIKAN/DAJOR/URTAN/MTY/UBVIV/RABAX/TRC/EMIMO/BOPEM/DGO/TAKNI/PIDNI/MAVED/VODON/BRISA/TNY/ENEMI/PVR
         </Airway>
         <Airway Name="V38">
             PERGO/MID/RENES/LIFTS/MORIC/NOSEX/CTM
@@ -2222,7 +2224,7 @@
             TIJ/ULDUD/DAPAN/TANRI/AVRIL/PPE/LIDUK/OMTIB/HMO/MIURA/SEBEK/USBEN/CEN/BAMPO/VESKI/LMM/TEKAS/TOYAC/PALIA/MZT/USDAD/BRISA/KEDMA/RADAP/AMAVO/SEDEM/TEILA/GDL/EBDEG/ONGEL/UPN/ALIPO/PEKSI/OLULA/NUXCO/AGLON/VIDRU/ACA
         </Airway>
         <Airway Name="UJ4">
-            HMO/OTIGO/CRL/ELQ/ETLEP/MTY/EMAKI/DOTOR/EBDAT/MAM
+            HMO/OTIGO/BCO/ELQ/ETLEP/MTY/EMAKI/DOTOR/EBDAT/MAM
         </Airway>
         <Airway Name="UJ5">
             DGO/VEVRA/SEKUB/XOLGA/ESTIV/ZCL/GABLI/HORTA/PIGVU/QET/PITUS/SLM/MEX/URTOV/PBC/MISAS/AVTUD/MTT/NUKAR/VSA/NOXEG/EBLEV/CTM
@@ -2234,7 +2236,7 @@
             TIJ/SEVRA/URSIX/MXL/AMUDI/ELSOM/PPE/LIDUK/OMTIB/HMO/MIURA/SEBEK/USBEN/CEN/EMANI/KEBEX/KIPAX/LERIV/BOKTA/CUL/DANOP/MELBO/GAMOS/MZT/AJORO/SOUSY/AMULA/PERBU/LONVA/AVROD/GDL/EBDEG/ONGEL/UPN/AXAKO/AVROX/ZIH
         </Airway>
         <Airway Name="UJ8">
-            CUU/CRL/SESGA/LMM/COPAS/OMSIB/XOMSA/LAP
+            CUU/BCO/SESGA/LMM/COPAS/OMSIB/XOMSA/LAP
         </Airway>
         <Airway Name="UJ9">
             LTO/TULES/LAP/AMARI/SJD/XUGNU/ROBSO/KEDIX/MAVIK/SEKEV/PVR/DETBO/TEVEK/IGROT/TIDEK/COL/IGSAT/GABNU/ZIH/AVURO/NICOS/ACA/KATRA/ANVAN/PXM/HUX/XOSLO/IZT/XOMSO/TGZ/OMVAB/GRUTA/VSA/AGAVE/NOPON/CME/CONTO/JOTAS/CPE/ELSIP/TAJJO/VOLEB/MID/DURPI/NAPRI/CZA/KASIV/XOSIX/DUPIX/CZM
@@ -2291,7 +2293,7 @@
             TIJ/TOPOS/SIDGA/SQN/GRN/OVERI/LTO/GODOY/ORCAS/LAP/ONGEX/MARUX/KIPUM/OLESI/DUPOP/MZT/LESIT/UKODA/UKIKI/DGO/MIVIS/SUSOV/ELOLU/RUBNA/TRC/IPSAG/MURDU/MOV/ITPUM/USBAR/NOTAK/NLD
         </Airway>
         <Airway Name="UJ22">
-            CEN/VIVON/CRL
+            CEN/VIVON/BCO
         </Airway>
         <Airway Name="UJ23">
             LMM/NOVOP/KAVRA/ALRIN/KIPUM/DASON/SJD
@@ -2333,7 +2335,7 @@
             TTM/TMN
         </Airway>
         <Airway Name="UJ37">
-            TRC/EMIMO/BOPEM/DGO/TAKNI/PIDNI/MAVED/BRISA/TNY/ENEMI/PVR
+            TRC/EMIMO/BOPEM/DGO/TAKNI/PIDNI/MAVED/VODON/BRISA/TNY/ENEMI/PVR
         </Airway>
         <Airway Name="UJ38">
             HMO/OMIKA/IGTAN/OTUPA/TATGA/OMISI/OVOGI/CUU/TASTO/VOMAS/RUDLO/RABAX/SLW/LIRGA/ELERA/AVURI/ITBEN/ONGUB/CVM
@@ -3245,6 +3247,8 @@
         <Point Name="CAPUL" Type="Fix">+223942.000-1045215.000</Point>
         <Point Name="CHALY" Type="Fix">+200932.000-0975323.000</Point>
         <Point Name="CLONN" Type="Fix">+253800.000-0953100.000</Point>
+        <Point Name="CM402" Type="Fix">+182809.100-0881305.900</Point>
+        <Point Name="CM503" Type="Fix">+183211.100-0882711.200</Point>
         <Point Name="COAPA" Type="Fix">+213019.000-0965523.000</Point>
         <Point Name="CODLE" Type="Fix">+251755.000-1045309.000</Point>
         <Point Name="COFRE" Type="Fix">+214932.000-0934328.000</Point>
@@ -4119,6 +4123,7 @@
         <Point Name="VOBED" Type="Fix">+205623.000-0871313.000</Point>
         <Point Name="VODAG" Type="Fix">+201701.000-0942610.000</Point>
         <Point Name="VODIV" Type="Fix">+201848.000-0920258.000</Point>
+        <Point Name="VODON" Type="Fix">+220124.000-1044603.000</Point>
         <Point Name="VOGAS" Type="Fix">+200929.000-1020426.000</Point>
         <Point Name="VOGON" Type="Fix">+161454.000-0960005.000</Point>
         <Point Name="VOKAM" Type="Fix">+173913.000-0991411.000</Point>
@@ -5818,6 +5823,7 @@
         <Point Name="ACA" Type="Navaid" NavaidType="VOR" Frequency="115.900">+164530.500-0994514.270</Point>
         <Point Name="ADN" Type="Navaid" NavaidType="VOR" Frequency="115.400">+255155.590-1001419.660</Point>
         <Point Name="AGU" Type="Navaid" NavaidType="VOR" Frequency="113.600">+214241.040-1021908.570</Point>
+        <Point Name="BCO" Type="Navaid" NavaidType="VOR" Frequency="117.400">+274315.050-1073824.680</Point>
         <Point Name="BJX" Type="Navaid" NavaidType="VOR" Frequency="115.800">+205951.210-1012857.320</Point>
         <Point Name="CDR" Type="Navaid" NavaidType="VOR" Frequency="117.100">+240935.000-1012914.590</Point>
         <Point Name="CEN" Type="Navaid" NavaidType="VOR" Frequency="115.100">+272341.130-1095014.220</Point>
@@ -5825,7 +5831,6 @@
         <Point Name="CME" Type="Navaid" NavaidType="VOR" Frequency="113.000">+183937.580-0914818.530</Point>
         <Point Name="COL" Type="Navaid" NavaidType="VOR" Frequency="117.700">+191630.460-1033444.420</Point>
         <Point Name="CPE" Type="Navaid" NavaidType="VOR" Frequency="116.200">+194951.000-0903014.200</Point>
-        <Point Name="CRL" Type="Navaid" NavaidType="VOR" Frequency="117.400">+274315.050-1073824.680</Point>
         <Point Name="CSL" Type="Navaid" NavaidType="VOR" Frequency="116.600">+225648.970-1095554.800</Point>
         <Point Name="CTM" Type="Navaid" NavaidType="VOR" Frequency="116.300">+183033.470-0882001.150</Point>
         <Point Name="CUA" Type="Navaid" NavaidType="VOR" Frequency="116.300">+184707.390-0985402.700</Point>
@@ -6150,10 +6155,10 @@
             <Route Runway="36">AS613 AS614 AS615 AS620 MANTA UKIRO</Route>
         </SID>
         <STAR Name="BJX1C" Airport="MMAS" Runways="18">
-            <Route Runway="18">BJX LO403 AS513 AS912 ETBAM AS901 SESKO</Route>
+            <Route Runway="18">BJX RIGEP AS513 AS912 ETBAM AS901 SESKO</Route>
         </STAR>
         <STAR Name="BJX1D" Airport="MMAS" Runways="36">
-            <Route Runway="36">BJX LO403 AS513 MIDLA</Route>
+            <Route Runway="36">BJX RIGEP AS513 MIDLA</Route>
         </STAR>
         <STAR Name="BOPA1A" Airport="MMAS" Runways="18">
             <Route Runway="18">BOPAX AS905 AS904 SESKO</Route>
@@ -6483,6 +6488,12 @@
             <Route>SAVIR CL501 CL500</Route>
         </Approach>
         <!--MMCM-->
+        <SID Name="CTM1C" Airport="MMCM" Runways="10">
+            <Route Runway="10">CM402 CTM</Route>
+        </SID>
+        <SID Name="CTM1D" Airport="MMCM" Runways="28">
+            <Route Runway="28">CM503 CTM</Route>
+        </SID>
         <SID Name="CTM3A" Airport="MMCM" Runways="10">
             <Route Runway="10">CTM</Route>
         </SID>
@@ -6986,12 +6997,12 @@
         </SID>
         <!-- *********** MMGA *********** -->
         <!-- MMGA-SID-1 -->
-        <SID Name="CRL1A" Airport="MMGA" Runways="10">
-            <Route Runway="10">CRL</Route>
+        <SID Name="BCO1A" Airport="MMGA" Runways="10">
+            <Route Runway="10">BCO</Route>
         </SID>
         <!-- MMGA-SID-2 -->
-        <SID Name="CRL1B" Airport="MMGA" Runways="28">
-            <Route Runway="28">CRL</Route>
+        <SID Name="BCO1B" Airport="MMGA" Runways="28">
+            <Route Runway="28">BCO</Route>
         </SID>
         <!--MMGL-->
         <SID Name="GDL1A" Airport="MMGL" Runways="11L,11R">
@@ -7528,11 +7539,11 @@
         <SID Name="HORT1C" Airport="MMLO" Runways="31">
             <Route Runway="31">LO712 HORTA</Route>
         </SID>
-        <SID Name="JAST1C" Airport="MMLO" Runways="13">
-            <Route Runway="13">LO900 LO905 LO906 JASTO</Route>
+        <SID Name="MUTE1C" Airport="MMLO" Runways="13">
+            <Route Runway="13">LO900 LO905 LO906 MUTEM</Route>
         </SID>
-        <SID Name="JAST1D" Airport="MMLO" Runways="31">
-            <Route Runway="31">LO701 LO703 LO704 JASTO</Route>
+        <SID Name="MUTE1D" Airport="MMLO" Runways="31">
+            <Route Runway="31">LO701 LO703 LO704 MUTEM</Route>
         </SID>
         <SID Name="KARIR1" Airport="MMLO" Runways="13">
             <Route Runway="13">LO900 LO901 LO903 LO904 KARIR</Route>
@@ -8659,11 +8670,11 @@
         <SID Name="KEND2B" Airport="MMPR" Runways="22">
             <Route Runway="22">KENDU</Route>
         </SID>
-        <SID Name="LIPE1C" Airport="MMPR" Runways="04">
-            <Route Runway="04">PR502 PR506 LIPEP</Route>
+        <SID Name="KASU1C" Airport="MMPR" Runways="04">
+            <Route Runway="04">PR502 PR506 KASUP</Route>
         </SID>
-        <SID Name="LIPE1D" Airport="MMPR" Runways="22">
-            <Route Runway="22">PR557 PR558 PR555 LIPEP</Route>
+        <SID Name="KASU1D" Airport="MMPR" Runways="22">
+            <Route Runway="22">PR557 PR558 PR555 KASUP</Route>
         </SID>
         <SID Name="SEKE2A" Airport="MMPR" Runways="04">
             <Route Runway="04">SEKEV</Route>
