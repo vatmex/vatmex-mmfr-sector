@@ -1143,7 +1143,7 @@
             <Runway Name="22" DataRunway="22">
                 <SID Name="PVR4B" Default="True" />
                 <SID Name="ALPAP2" />
-                <SID Name="BOBD1B" />
+                <SID Name="BOBD2B" />
                 <SID Name="BUBE2B" />
                 <SID Name="DETBO2" />
                 <SID Name="KEND2B" />
@@ -1152,7 +1152,7 @@
                 <SID Name="SILM2B" />
                 <SID Name="VOLA1D" />
                 <SID Name="XOSP2B" />
-                <SID Name="XUDE1B" />
+                <SID Name="XUDE2B" />
                 <STAR Name="ESVEL1" ApproachName="RNP22.VETKA" />
                 <STAR Name="KEDI1B" ApproachName="RNP22.MUVBA" />
                 <STAR Name="KEDM1B" ApproachName="RNP22.VETKA" />
@@ -5098,6 +5098,8 @@
         <Point Name="PR555" Type="Fix">+202319.500-1044936.200</Point>
         <Point Name="PR557" Type="Fix">+203522.500-1052123.700</Point>
         <Point Name="PR558" Type="Fix">+202417.700-1051507.900</Point>
+        <Point Name="PR570" Type="Fix">+203608.300-1052035.900</Point>
+        <Point Name="PR571" Type="Fix">+203832.300-1052803.500</Point>
         <Point Name="PR601" Type="Fix">+204234.000-1052345.300</Point>
         <Point Name="PR602" Type="Fix">+205001.600-1051758.200</Point>
         <Point Name="PR604" Type="Fix">+204140.800-1053259.700</Point>
@@ -8666,8 +8668,8 @@
         <SID Name="BOBD1A" Airport="MMPR" Runways="04">
             <Route Runway="04">PR502 PR503 PR505 BOBDI</Route>
         </SID>
-        <SID Name="BOBD1B" Airport="MMPR" Runways="22">
-            <Route Runway="22">PR551 PR552 BOBDI</Route>
+        <SID Name="BOBD2B" Airport="MMPR" Runways="22">
+            <Route Runway="22">PR570 PR571 PR551 PR552 BOBDI</Route>
         </SID>
         <SID Name="BUBE2A" Airport="MMPR" Runways="04">
             <Route Runway="04">BUBEV</Route>
@@ -8720,8 +8722,8 @@
         <SID Name="XUDE1A" Airport="MMPR" Runways="04">
             <Route Runway="04">PR502 PR503 XUDED</Route>
         </SID>
-        <SID Name="XUDE1B" Airport="MMPR" Runways="22">
-            <Route Runway="22">PR551 PR552 PR553 XUDED</Route>
+        <SID Name="XUDE2B" Airport="MMPR" Runways="22">
+            <Route Runway="22">PR570 PR571 PR551 PR552 PR553 XUDED</Route>
         </SID>
         <STAR Name="ESVEL1" Airport="MMPR" Runways="22">
             <Route Runway="22">ESVEL PR659 PR658 PR656 VETKA</Route>
