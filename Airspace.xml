@@ -688,11 +688,11 @@
                 <SID Name="UKIR1C" />
                 <SID Name="URVEM3" />
                 <STAR Name="AGU1E" ApproachName="RNP13.ODGAR" />
-                <STAR Name="JAST1E" ApproachName="RNP13.JASTO" />
+                <STAR Name="JAST1E" ApproachName="RNP13.RIGEP" />
                 <STAR Name="LIBO1A" ApproachName="RNP13.ODGAR" />
-                <STAR Name="MEDA1A" ApproachName="RNP13.JASTO" />
-                <STAR Name="NAGI1A" ApproachName="RNP13.JASTO" />
-                <STAR Name="OMIN1C" ApproachName="RNP13.JASTO" />
+                <STAR Name="MEDA1A" ApproachName="RNP13.RIGEP" />
+                <STAR Name="NAGI1A" ApproachName="RNP13.RIGEP" />
+                <STAR Name="OMIN1C" ApproachName="RNP13.RIGEP" />
             </Runway>
             <Runway Name="31" DataRunway="31">
                 <SID Name="BJX3B" Default="True" />
@@ -760,11 +760,11 @@
 <STAR Name="GABO1A" ApproachName="ILS10X.TEXOB" />
                 <STAR Name="ILEL1A" ApproachName="ILS10X.SEBEP" />
                 <STAR Name="ISAR1D" />
-                <STAR Name="LIFT1A" ApproachName="ILS103.SEBEP" />
-<STAR Name="NAPR1A" ApproachName="ILS103.SEBEP" />
+                <STAR Name="LIFT1A" ApproachName="ILS10X.SEBEP" />
+<STAR Name="NAPR1A" ApproachName="ILS10X.SEBEP" />
 <STAR Name="VIVE1F" />
                 <STAR Name="XUBS1A" />
-                <STAR Name="XUBS1B" ApproachName="ILS103.TEXOB" />
+                <STAR Name="XUBS1B" ApproachName="ILS10X.TEXOB" />
             </Runway>
             <Runway Name="18" DataRunway="18">
                 <SID Name="MID4C" Default="True" />
@@ -3194,6 +3194,7 @@
         <Point Name="AXANI" Type="Fix">+253633.000-0982138.000</Point>
         <Point Name="AXARO" Type="Fix">+231318.000-0863939.000</Point>
         <Point Name="AXASA" Type="Fix">+322016.000-1150350.000</Point>
+        <Point Name="AXEDA" Type="Fix">+232025.900-1093904.100</Point>
         <Point Name="AXEDO" Type="Fix">+233041.000-1005548.000</Point>
         <Point Name="AXELI" Type="Fix">+190557.000-0954502.200</Point>
         <Point Name="AXEPA" Type="Fix">+281530.300-1044425.500</Point>
@@ -3404,6 +3405,7 @@
         <Point Name="GAVIA" Type="Fix">+181901.000-0952201.000</Point>
         <Point Name="GODOY" Type="Fix">+245447.000-1110749.000</Point>
         <Point Name="GOLFO" Type="Fix">+310416.000-1141937.000</Point>
+        <Point Name="GORIG" Type="Fix">+290649.400-1104949.300</Point>
         <Point Name="GOSAT" Type="Fix">+204954.000-0893853.000</Point>
         <Point Name="GOSIM" Type="Fix">+233957.100-1090042.700</Point>
         <Point Name="GOSUL" Type="Fix">+202516.000-0862840.000</Point>
@@ -3512,7 +3514,7 @@
         <Point Name="KARIR" Type="Fix">+213328.700-1010138.700</Point>
         <Point Name="KARUN" Type="Fix">+203236.460-1024645.450</Point>
         <Point Name="KASIV" Type="Fix">+203609.300-0875822.200</Point>
-        <Point Name="KASUP" Type="Fix">+203733.000-1042706.000</Point>
+        <Point Name="KASUP" Type="Fix">+203732.600-1042705.600</Point>
         <Point Name="KATIS" Type="Fix">+115910.000-0982504.000</Point>
         <Point Name="KATLA" Type="Fix">+244850.000-1024957.000</Point>
         <Point Name="KATLI" Type="Fix">+252527.000-1062249.000</Point>
@@ -3610,6 +3612,7 @@
         <Point Name="MAPEN" Type="Fix">+184101.000-0981246.000</Point>
         <Point Name="MAPIL" Type="Fix">+224217.000-0974928.000</Point>
         <Point Name="MAPUM" Type="Fix">+232741.000-0902525.000</Point>
+        <Point Name="MARAK" Type="Fix">+232439.800-1094243.800</Point>
         <Point Name="MARED" Type="Fix">+201347.000-0922134.000</Point>
         <Point Name="MARID" Type="Fix">+194550.000-0872646.000</Point>
         <Point Name="MARUS" Type="Fix">+214855.000-0903540.000</Point>
@@ -4245,6 +4248,8 @@
         <Point Name="AMEVI" Type="Fix">+291342.301-1104753.001</Point>
         <Point Name="AMURU" Type="Fix">+283353.500-1060924.500</Point>
         <Point Name="AN800" Type="Fix">+260914.500-1000207.600</Point>
+        <Point Name="AN807" Type="Fix">+255607.200-1001118.700</Point>
+        <Point Name="AN900" Type="Fix">+260046.000-1000803.900</Point>
         <Point Name="AN903" Type="Fix">+260827.000-1002230.000</Point>
         <Point Name="AN904" Type="Fix">+255900.800-1002850.300</Point>
         <Point Name="AN909" Type="Fix">+261307.200-1001921.300</Point>
@@ -4701,6 +4706,11 @@
         <Point Name="IO406" Type="Fix">+253300.300-1011215.100</Point>
         <Point Name="IO407" Type="Fix">+254232.600-1005958.100</Point>
         <Point Name="IO500" Type="Fix">+252831.200-1005541.700</Point>
+        <Point Name="IO501" Type="Fix">+252646.800-1005647.900</Point>
+        <Point Name="IO502" Type="Fix">+252502.500-1005754.000</Point>
+        <Point Name="IO503" Type="Fix">+252502.200-1010112.800</Point>
+        <Point Name="IO504" Type="Fix">+252319.900-1010037.600</Point>
+        <Point Name="IO506" Type="Fix">+254443.400-1005542.900</Point>
         <Point Name="IO600" Type="Fix">+252045.300-1010444.100</Point>
         <Point Name="IO700" Type="Fix">+253605.900-1005542.300</Point>
         <Point Name="IO701" Type="Fix">+254006.700-1005542.600</Point>
@@ -4712,6 +4722,7 @@
         <Point Name="IO803" Type="Fix">+250605.700-1005547.600</Point>
         <Point Name="IO805" Type="Fix">+253605.600-1011651.200</Point>
         <Point Name="IO806" Type="Fix">+254103.300-1011119.300</Point>
+        <Point Name="IO900" Type="Fix">+253942.500-1005542.600</Point>
         <Point Name="IRDAN" Type="Fix">+273230.100-0994419.600</Point>
         <Point Name="IRDUS" Type="Fix">+201847.300-0870019.900</Point>
         <Point Name="IRGIL" Type="Fix">+201250.700-0881847.200</Point>
@@ -5628,6 +5639,9 @@
         <Point Name="VR706" Type="Fix">+184715.800-0952512.300</Point>
         <Point Name="VR707" Type="Fix">+184507.100-0954222.600</Point>
         <Point Name="VR708" Type="Fix">+185452.000-0962452.000</Point>
+        <Point Name="VR800" Type="Fix">+191849.800-0960908.900</Point>
+        <Point Name="VR900" Type="Fix">+185751.400-0961329.900</Point>
+        <Point Name="VR901" Type="Fix">+190246.900-0961228.700</Point>
         <Point Name="WICLO" Type="Fix">+253259.500-1001955.800</Point>
         <Point Name="XESIN" Type="Fix">+204818.500-1011630.100</Point>
         <Point Name="XUBLI" Type="Fix">+203739.900-0871042.500</Point>
@@ -5967,10 +5981,10 @@
             <Route Runway="10">AA422 AA423 AMUSI</Route>
         </SID>
         <SID Name="AMUS2B" Airport="MMAA" Runways="28">
-            <Route Runway="28">AA512 AA516 A513 AMUSI</Route>
+            <Route Runway="28">AA512 AA516 AA513 AMUSI</Route>
         </SID>
         <SID Name="KATRA3" Airport="MMAA" Runways="10">
-            <Route Runway="10">KASTRA</Route>
+            <Route Runway="10">KATRA</Route>
         </SID>
         <SID Name="NICOS4" Airport="MMAA" Runways="28">
             <Route Runway="28">NICOS</Route>
@@ -6043,7 +6057,7 @@
             <Route Runway="02">OBNIN AN910 DAJOR</Route>
         </SID>
         <SID Name="DAJO2D" Airport="MMAN" Runways="20">
-            <Route Runway="20">ALSEX PILDA GUELP RALLO AXILO DAJOR</Route>
+            <Route Runway="20">ALSEX PILDA GUELF RALLO AXILO DAJOR</Route>
         </SID>
         <SID Name="DOTO1C" Airport="MMAN" Runways="02">
             <Route Runway="02">OBNIN AN910 AN911 DOTOR</Route>
@@ -6104,7 +6118,7 @@
             <Route Runway="18">MEZCA</Route>
         </SID>
         <SID Name="SETOS1" Airport="MMAS" Runways="18">
-            <Route Runway="18">SETOS3</Route>
+            <Route Runway="18">SETOS</Route>
         </SID>
         <SID Name="DANGO1" Airport="MMAS" Runways="36">
             <Route Runway="36">DANGO</Route>
@@ -6808,7 +6822,7 @@
             <Route Runway="30">DUPIX</Route>
         </SID>
         <SID Name="GOSUL2" Airport="MMCZ" Runways="12">
-            <Route Runway="12">GOSUL2</Route>
+            <Route Runway="12">GOSUL</Route>
         </SID>
         <SID Name="ITAKU2" Airport="MMCZ" Runways="12">
             <Route Runway="12">ITAKU</Route>
@@ -8885,7 +8899,7 @@
             <Route Runway="16">MENVI</Route>
         </SID>
         <SID Name="MENV3B" Airport="MMSD" Runways="34">
-            <Route Runway="34">MENVU</Route>
+            <Route Runway="34">MENVI</Route>
         </SID>
         <SID Name="SIBA3A" Airport="MMSD" Runways="16">
             <Route Runway="16">SIBAU</Route>
@@ -8970,7 +8984,7 @@
             <Route Runway="11">SL805 SL510 SL512 SL520 ILIGA</Route>
         </SID>
         <SID Name="ILIG2D" Airport="MMSL" Runways="29">
-            <Route Runway="29">>SL500 SL503 SL502 SL512 SL520 ILIGA</Route>
+            <Route Runway="29">SL500 SL503 SL502 SL512 SL520 ILIGA</Route>
         </SID>
         <SID Name="LETAT2" Airport="MMSL" Runways="29">
             <Route Runway="29">LETAT</Route>
@@ -9473,7 +9487,7 @@
             <Route Runway="32">LIDOX</Route>
         </SID>
         <SID Name="LIRNU2" Airport="MMSP" Runways="32">
-            <Route Runway="32">LIRNO</Route>
+            <Route Runway="32">LIRNU</Route>
         </SID>
         <SID Name="MERGO2" Airport="MMSP" Runways="14">
             <Route Runway="14">MERGO</Route>
@@ -9553,7 +9567,7 @@
             <Route Runway="33">SAXAV</Route>
         </SID>
         <SID Name="URVOD1" Airport="MMTG" Runways="33">
-            <Route Runway="33">ORVOD</Route>
+            <Route Runway="33">URVOD</Route>
         </SID>
         <SID Name="XOMSO1" Airport="MMTG" Runways="33">
             <Route Runway="33">XOMSO</Route>
@@ -9632,10 +9646,10 @@
             <Route>TUBUS TJ423 TJ402 TJ414 TJ415 TJ416</Route>
         </Approach>
         <Approach Name="RNP27Z.KREPE" Airport="MMTJ" Runway="27">
-            <Route>KREPE TJ556 TJ563 TJ745 TJ557 TL560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
+            <Route>KREPE TJ556 TJ563 TJ745 TJ557 TJ560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
         </Approach>
         <Approach Name="RNP27Z.ULDUD" Airport="MMTJ" Runway="27">
-            <Route>ULDUD TJ557 TL560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
+            <Route>ULDUD TJ557 TJ560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
         </Approach>
         <!-- *********** MMEP *********** -->
         <!-- MMTM-SID-1 -->
@@ -9829,7 +9843,7 @@
         <Approach Name="RNP30.ESKIE" Airport="MMTL" Runway="30">
             <Route Runway="30">ESKIE TL430 TL420 TL410</Route>
         </Approach>
-        <Approach Name="RNP30.ESKIE" Airport="MMTL" Runway="30">
+        <Approach Name="RNP30.OTREL" Airport="MMTL" Runway="30">
             <Route Runway="30">OTREL TL420 TL410</Route>
         </Approach>
         <!--MMTN-->
@@ -9890,7 +9904,7 @@
             <Route Runway="33">LENUL TO634 TO632 SEGUM TO602 TO420 TO421 TO422 SEDIM TO401 TO402 TO403 TO404 TO405 VERLU</Route>
         </STAR>
         <STAR Name="ELIL2B" Airport="MMTO" Runways="33">
-            <Route Runway="33">ELILA TO410 TO411 TO412 TO413 TO414 TO415 VERLFU</Route>
+            <Route Runway="33">ELILA TO410 TO411 TO412 TO413 TO414 TO415 VERLU</Route>
         </STAR>
         <STAR Name="ITLA3B" Airport="MMTO" Runways="33">
             <Route Runway="33">ITLAS TO430 TO431 TO432 TO433 SEDIM TO401 TO402 TO403 TO404 TO405 VERLU</Route>
@@ -9987,10 +10001,10 @@
             <Route Runway="12L">DUGNI</Route>
         </SID>
         <SID Name="DUGN2C" Airport="MMUN" Runways="30L">
-            <Route Runway="30L">DUGMI</Route>
+            <Route Runway="30L">DUGNI</Route>
         </SID>
         <SID Name="DUGN2D" Airport="MMUN" Runways="30R">
-            <Route Runway="30R">DUGMI</Route>
+            <Route Runway="30R">DUGNI</Route>
         </SID>
         <SID Name="DUMB1A" Airport="MMUN" Runways="12R">
             <Route Runway="12R">DUMBU</Route>
@@ -10262,7 +10276,7 @@
             <Route Runway="01">AXORO</Route>
         </SID>
         <SID Name="BOLTA1" Airport="MMVR" Runways="01">
-            <Route Runway="01">BOLTA1</Route>
+            <Route Runway="01">BOLTA</Route>
         </SID>
         <SID Name="DUPL1C" Airport="MMVR" Runways="01">
             <Route Runway="01">VR602 AXELI VR606 VR605 DUPLO</Route>
@@ -10295,7 +10309,7 @@
             <Route Runway="19">VR501 AXELI VR502 VR504 GOTAS</Route>
         </SID>
         <SID Name="IKLE1C" Airport="MMVR" Runways="01">
-            <Route Runway="01">VR510 VR610 VR511 IKLES</Route>
+            <Route Runway="01">VR602 VR510 VR600 VR511 IKLES</Route>
         </SID>
         <SID Name="IKLE1D" Airport="MMVR" Runways="19">
             <Route Runway="19">VR512 VR509 VR510 VR511 IKLES</Route>
@@ -10435,7 +10449,7 @@
             <Route Runway="27">ZH700 ZH703 ZH704 ZH200 AVURO</Route>
         </SID>
         <SID Name="EBGAB4" Airport="MMZH" Runways="27">
-            <Route Runway="27">EBGAD</Route>
+            <Route Runway="27">EBGAB</Route>
         </SID>
         <SID Name="GABNU4" Airport="MMZH" Runways="27">
             <Route Runway="27">GABNU</Route>
@@ -10630,7 +10644,7 @@
             <Runway Name="11" Position="+314756.200-1163633.400" />
             <Runway Name="29" Position="+314729.600-1163546.500" />
         </Airport>
-        <Airport ICAO="MMGA" FullName="BARRANCAS DEL COBRE" Position="+274333.400-1073915.650" Elevation="8139">
+        <Airport ICAO="MMGA" FullName="BARRANCAS DEL COBRE" Position="+274333.400-1073915.650" Elevation="8140">
             <Runway Name="10" Position="+274342.890-1073941.250" />
             <Runway Name="28" Position="+274317.630-1073833.210" />
         </Airport>
