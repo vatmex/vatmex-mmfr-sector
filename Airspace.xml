@@ -1012,15 +1012,15 @@
         </Airport>
         <Airport Name="MMNL">
             <Runway Name="15" DataRunway="15">
-                <SID Name="NLD3A" Default="True" />
+                <SID Name="NLD1A" Default="True" />
                 <SID Name="ALUX1A" />
-                <SID Name="DUVKA3" />
-                <SID Name="LIPT2A" />
-                <SID Name="NOTA3A" />
-                <SID Name="ONKA3A" />
+                <SID Name="DUVKA1" />
+                <SID Name="LIPT1A" />
+                <SID Name="NOTA1A" />
+                <SID Name="ONKA1A" />
                 <SID Name="RUDM1A" />
                 <SID Name="SASE1A" />
-                <SID Name="XOVES3" />
+                <SID Name="XOVES1" />
                 <STAR Name="EMPI1A" ApproachName="ILS15X.IRDAN" />
                 <STAR Name="ILIG1A" ApproachName="ILS15X.IRDAN" />
                 <STAR Name="MATU1A" ApproachName="ILS15X.IRDAN" />
@@ -1028,12 +1028,12 @@
                 <STAR Name="USBA1A" ApproachName="ILS15X.IRDAN" />
             </Runway>
             <Runway Name="33" DataRunway="33">
-                <SID Name="NLD2B" Default="True" />
+                <SID Name="NLD1B" Default="True" />
                 <SID Name="ALUX1B" />
-                <SID Name="GAGLO2" />
-                <SID Name="LIPT2B" />
-                <SID Name="NOTA2B" />
-                <SID Name="ONKA2B" />
+                <SID Name="GAGLO1" />
+                <SID Name="LIPT1B" />
+                <SID Name="NOTA1B" />
+                <SID Name="ONKA1B" />
                 <SID Name="RUDM1B" />
                 <SID Name="SASE1B" />
                 <STAR Name="EMPI1B" ApproachName="RNP33.ITREB" />
@@ -8424,10 +8424,10 @@
             <Route Runway="09">XUBUD</Route>
         </SID>
         <!--MMNL-->
-        <SID Name="NLD3A" Airport="MMNL" Runways="15">
+        <SID Name="NLD1A" Airport="MMNL" Runways="15">
             <Route Runway="15">NLD</Route>
         </SID>
-        <SID Name="NLD2B" Airport="MMNL" Runways="33">
+        <SID Name="NLD1B" Airport="MMNL" Runways="33">
             <Route Runway="33">NLD</Route>
         </SID>
         <SID Name="ALUX1A" Airport="MMNL" Runways="15">
@@ -8436,28 +8436,28 @@
         <SID Name="ALUX1B" Airport="MMNL" Runways="33">
             <Route Runway="33">NL901 NL913 ALUXO</Route>
         </SID>
-        <SID Name="DUVKA3" Airport="MMNL" Runways="15">
+        <SID Name="DUVKA1" Airport="MMNL" Runways="15">
             <Route Runway="15">DUVKA</Route>
         </SID>
-        <SID Name="GAGLO2" Airport="MMNL" Runways="33">
+        <SID Name="GAGLO1" Airport="MMNL" Runways="33">
             <Route Runway="33">GAGLO</Route>
         </SID>
-        <SID Name="LIPT2A" Airport="MMNL" Runways="15">
+        <SID Name="LIPT1A" Airport="MMNL" Runways="15">
             <Route Runway="15">LIPTU</Route>
         </SID>
-        <SID Name="LIPT2B" Airport="MMNL" Runways="33">
+        <SID Name="LIPT1B" Airport="MMNL" Runways="33">
             <Route Runway="33">LIPTU</Route>
         </SID>
-        <SID Name="NOTA3A" Airport="MMNL" Runways="15">
+        <SID Name="NOTA1A" Airport="MMNL" Runways="15">
             <Route Runway="15">NOTAK</Route>
         </SID>
-        <SID Name="NOTA2B" Airport="MMNL" Runways="33">
+        <SID Name="NOTA1B" Airport="MMNL" Runways="33">
             <Route Runway="33">NOTAK</Route>
         </SID>
-        <SID Name="ONKA3A" Airport="MMNL" Runways="15">
+        <SID Name="ONKA1A" Airport="MMNL" Runways="15">
             <Route Runway="15">ONKAL</Route>
         </SID>
-        <SID Name="ONKA2B" Airport="MMNL" Runways="33">
+        <SID Name="ONKA1B" Airport="MMNL" Runways="33">
             <Route Runway="33">ONKAL</Route>
         </SID>
         <SID Name="RUDM1A" Airport="MMNL" Runways="15">
@@ -8472,7 +8472,7 @@
         <SID Name="SASE1B" Airport="MMNL" Runways="33">
             <Route Runway="33">NL901 NL902 NL903 NL910 SASES</Route>
         </SID>
-        <SID Name="XOVES3" Airport="MMNL" Runways="15">
+        <SID Name="XOVES1" Airport="MMNL" Runways="15">
             <Route Runway="15">XOVES</Route>
         </SID>
         <STAR Name="EMPI1A" Airport="MMNL" Runways="15">
