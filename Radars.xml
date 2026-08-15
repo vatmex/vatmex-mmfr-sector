@@ -177,6 +177,10 @@
         <Lat>19.430814</Lat>
         <Long>-99.070132</Long>
     </Radar>
+    <Radar Name="Merida ADSB" Type="ADSB" Elevation="146" MaxRange="250">
+        <Lat>20.940288</Lat>
+        <Long>-89.652717</Long>
+    </Radar>    
     <Radar Name="Monterrey ADSB" Type="ADSB" Elevation="1391" MaxRange="250">
         <Lat>25.776586</Lat>
         <Long>-100.113342</Long>
@@ -283,6 +287,20 @@
         <Lat>22.897389</Lat>
         <Long>-102.685778</Long>
     </Radar>
+
+    <!-- <Radar Name="Houston MSSR" Type="SSR_ModeC" Elevation="195" MaxRange="200">
+        <Lat>29.998353</Lat>
+        <Long>-95.353530</Long>
+    </Radar>
+    <Radar Name="New Orleans MSSR" Type="SSR_ModeC" Elevation="102" MaxRange="200">
+        <Lat>29.988954</Lat>
+        <Long>-90.267634</Long>
+    </Radar>
+    <Radar Name="Key West MSSR" Type="SSR_ModeC" Elevation="101" MaxRange="200">
+        <Lat>24.544833</Lat>
+        <Long>-81.803556</Long>
+    </Radar>
+    -->
 
     <!--ASDE-X-->
     <Radar Name="MMAA_SMR" Type="SMR_ADSB" Elevation="26" MaxRange="2">
