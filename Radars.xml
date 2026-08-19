@@ -47,7 +47,7 @@
         <Lat>21.659909</Lat>
         <Long>-102.227859</Long>
     </Radar>
-    <Radar Name="Cerro Gordo MSSR" Type="SSR_ModeC" Elevation="10136" MaxRange="200">
+    <Radar Name="Cerro Gordo MSSR" Type="SSR_ModeC" Elevation="13000" MaxRange="200">
         <Lat>19.754333</Lat>
         <Long>-98.826194</Long>
     </Radar>
@@ -143,6 +143,10 @@
         <Lat>17.991352</Lat>
         <Long>-92.810148</Long>
     </Radar>
+    <!-- <Radar Name="Cuernavaca FAKE" Type="SSR_ModeC" Elevation="12000" MaxRange="60">
+        <Lat>18.831893</Lat>
+        <Long>-99.259355</Long>
+    </Radar>     -->
 
     <!--ADSB SENEAM-->
     <Radar Name="Cerro Catedral ADSB" Type="ADSB" Elevation="12475" MaxRange="250">
