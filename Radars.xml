@@ -1,219 +1,283 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Radars>
     <!--PRIMARY-->
-    <Radar Name="Cancun Primario" Type="PRI" Elevation="172" MaxRange="60">
+    <Radar Name="Cancun PSR" Type="PRI" Elevation="122" MaxRange="60">
         <Lat>21.047133</Lat>
         <Long>-86.879846</Long>
     </Radar>
-    <Radar Name="Cerro del Penon Primario" Type="PRI" Elevation="7650" MaxRange="40">
+    <Radar Name="Cerro del Penon PSR" Type="PRI" Elevation="7674" MaxRange="60">
         <Lat>19.440812</Lat>
         <Long>-99.083347</Long>
     </Radar>
-    <Radar Name="Guadalajara Primario" Type="PRI" Elevation="5166" MaxRange="50">
+    <Radar Name="Guadalajara PSR" Type="PRI" Elevation="5111" MaxRange="60">
         <Lat>20.53284</Lat>
         <Long>-103.309975</Long>
     </Radar>
-    <Radar Name="Lucia Primario" Type="PRI" Elevation="7460" MaxRange="30">
-        <Lat>19.744866</Lat>
-        <Long>-99.014535</Long>
+    <Radar Name="Santa Lucia PSR" Type="PRI" Elevation="7469" MaxRange="60">
+        <Lat>19.741719</Lat>
+        <Long>-99.043594</Long>
     </Radar>
-    <Radar Name="Monterrey Primario" Type="PRI" Elevation="1426" MaxRange="30">
+    <Radar Name="Monterrey PSR" Type="PRI" Elevation="1391" MaxRange="60">
         <Lat>25.790521</Lat>
         <Long>-100.107565</Long>
     </Radar>
-    <Radar Name="Queretaro Primario" Type="PRI" Elevation="6296" MaxRange="30">
-        <Lat>20.613439</Lat>
-        <Long>-100.199525</Long>
+    <Radar Name="Queretaro PSR" Type="PRI" Elevation="6360" MaxRange="60">
+        <Lat>20.613333</Lat>
+        <Long>-100.199306</Long>
     </Radar>
-    <Radar Name="Tijuana Primario" Type="PRI" Elevation="637" MaxRange="50">
+    <Radar Name="Tijuana PSR" Type="PRI" Elevation="590" MaxRange="60">
         <Lat>32.539045</Lat>
         <Long>-116.97821</Long>
     </Radar>
-    <Radar Name="Toluca Primario" Type="PRI" Elevation="8616" MaxRange="30">
+    <Radar Name="Toluca PSR" Type="PRI" Elevation="8573" MaxRange="60">
         <Lat>19.336215</Lat>
         <Long>-99.570331</Long>
     </Radar>
 
     <!--SECONDARY-->
-    <Radar Name="Acapulco MSSR" Type="SSR_ModeS" Elevation="166" MaxRange="250">
+    <Radar Name="Acapulco MSSR TAR" Type="SSR_ModeC" Elevation="113" MaxRange="200">
         <Lat>16.757441</Lat>
         <Long>-99.745702</Long>
     </Radar>
-    <Radar Name="Cabos MSSR" Type="SSR_ModeS" Elevation="529" MaxRange="250">
-        <Lat>23.153229</Lat>
-        <Long>-109.72329</Long>
-    </Radar>
-    <Radar Name="Cancun MSSR" Type="SSR_ModeS" Elevation="172" MaxRange="250">
+    <Radar Name="Cancun MSSR TAR" Type="SSR_ModeC" Elevation="122" MaxRange="200">
         <Lat>21.047133</Lat>
         <Long>-86.879846</Long>
     </Radar>
-    <Radar Name="Cerro los Gallos MSSR" Type="SSR_ModeS" Elevation="7840" MaxRange="250">
+    <Radar Name="Aguascalientes (Cerro los Gallos) MSSR TAR" Type="SSR_ModeC" Elevation="7770" MaxRange="200">
         <Lat>21.659909</Lat>
         <Long>-102.227859</Long>
     </Radar>
-    <Radar Name="Cerro Gordo MSSR" Type="SSR_ModeS" Elevation="6106" MaxRange="250">
-        <Lat>19.754342</Lat>
-        <Long>-98.826084</Long>
+    <Radar Name="Cerro Gordo MSSR" Type="SSR_ModeC" Elevation="13000" MaxRange="200">
+        <Lat>19.754333</Lat>
+        <Long>-98.826194</Long>
     </Radar>
-    <Radar Name="Cerro del Penon MSSR" Type="SSR_ModeS" Elevation="7650" MaxRange="250">
+    <Radar Name="Cerro del Penon MSSR TAR" Type="SSR_ModeC" Elevation="7674" MaxRange="200">
         <Lat>19.440812</Lat>
         <Long>-99.083347</Long>
     </Radar>
-    <Radar Name="Cerro El Potosi MSSR" Type="SSR_ModeS" Elevation="12335" MaxRange="250">
-        <Lat>24.871446</Lat>
-        <Long>-100.232808</Long>
+    <Radar Name="Cerro de Potosi MSSR" Type="SSR_ModeC" Elevation="12304" MaxRange="200">
+        <Lat>24.871472</Lat>
+        <Long>-100.232694</Long>
     </Radar>
-    <Radar Name="Cerro las Rusias MSSR" Type="SSR_ModeS" Elevation="9674" MaxRange="250">
-        <Lat>23.747818</Lat>
-        <Long>-105.53425</Long>
+    <Radar Name="Cerro de las Rusias MSSR" Type="SSR_ModeC" Elevation="9595" MaxRange="200">
+        <Lat>23.747833</Lat>
+        <Long>-105.534250</Long>
     </Radar>
-    <Radar Name="Cerro Santa Eulalia MSSR" Type="SSR_ModeS" Elevation="7153" MaxRange="250">
-        <Lat>28.620317</Lat>
-        <Long>-105.866048</Long>
+    <Radar Name="Cerro de Santa Eulalia MSSR TAR" Type="SSR_ModeC" Elevation="7014" MaxRange="200">
+        <Lat>28.620306</Lat>
+        <Long>-105.866111</Long>
     </Radar>
-    <Radar Name="Culiacan MSSR" Type="SSR_ModeS" Elevation="255" MaxRange="250">
+    <Radar Name="Culiacan MSSR" Type="SSR_ModeC" Elevation="203" MaxRange="200">
         <Lat>24.770961</Lat>
         <Long>-107.47406</Long>
     </Radar>
-    <Radar Name="Guadalajara MSSR" Type="SSR_ModeS" Elevation="5166" MaxRange="250">
+    <Radar Name="Guadalajara MSSR TAR" Type="SSR_ModeC" Elevation="5111" MaxRange="200">
         <Lat>20.53284</Lat>
         <Long>-103.309975</Long>
     </Radar>
-    <Radar Name="Hermosillo MSSR" Type="SSR_ModeS" Elevation="777" MaxRange="250">
+    <Radar Name="Hermosillo MSSR TAR" Type="SSR_ModeC" Elevation="808" MaxRange="200">
         <Lat>29.080162</Lat>
         <Long>-111.061659</Long>
     </Radar>
-    <Radar Name="La Paz MSSR" Type="SSR_ModeS" Elevation="219" MaxRange="250">
+    <Radar Name="La Paz MSSR" Type="SSR_ModeC" Elevation="191" MaxRange="200">
         <Lat>24.052608</Lat>
         <Long>-110.362777</Long>
     </Radar>
-    <Radar Name="Leon MSSR" Type="SSR_ModeS" Elevation="6106" MaxRange="250">
+    <Radar Name="Leon MSSR TAR" Type="SSR_ModeC" Elevation="6019" MaxRange="200">
         <Lat>20.993208</Lat>
         <Long>-101.477136</Long>
     </Radar>
-    <Radar Name="Merida MSSR" Type="SSR_ModeS" Elevation="188" MaxRange="250">
+    <Radar Name="Merida MSSR TAR" Type="SSR_ModeC" Elevation="146" MaxRange="200">
         <Lat>20.940288</Lat>
         <Long>-89.652717</Long>
     </Radar>
-    <Radar Name="Mochis MSSR" Type="SSR_ModeS" Elevation="166" MaxRange="250">
+    <Radar Name="Los Mochis MSSR" Type="SSR_ModeC" Elevation="119" MaxRange="200">
         <Lat>25.687797</Lat>
         <Long>-109.074658</Long>
     </Radar>
-    <Radar Name="Monterrey MSSR" Type="SSR_ModeS" Elevation="1426" MaxRange="250">
+    <Radar Name="Monterrey MSSR TAR" Type="SSR_ModeC" Elevation="1391" MaxRange="200">
         <Lat>25.790521</Lat>
         <Long>-100.107565</Long>
     </Radar>
-    <Radar Name="Puerto Penasco MSSR" Type="SSR_ModeS" Elevation="324" MaxRange="250">
+    <Radar Name="Puerto Penasco MSSR" Type="SSR_ModeC" Elevation="272" MaxRange="200">
         <Lat>31.299555</Lat>
         <Long>-113.547687</Long>
     </Radar>
-    <Radar Name="Puerto Vallarta MSSR" Type="SSR_ModeS" Elevation="173" MaxRange="250">
+    <Radar Name="Puerto Vallarta MSSR TAR" Type="SSR_ModeC" Elevation="121" MaxRange="200">
         <Lat>20.686676</Lat>
         <Long>-105.240463</Long>
     </Radar>
-        <Radar Name="Queretaro MSSR" Type="SSR_ModeS" Elevation="6296" MaxRange="250">
-        <Lat>20.613439</Lat>
-        <Long>-100.199525</Long>
-    </Radar>    
-    <Radar Name="Lucia MSSR" Type="SSR_ModeS" Elevation="7460" MaxRange="250">
-        <Lat>19.744866</Lat>
-        <Long>-99.014535</Long>
+        <Radar Name="Queretaro MSSR" Type="SSR_ModeC" Elevation="6360" MaxRange="200">
+        <Lat>20.613333</Lat>
+        <Long>-100.199306</Long>
     </Radar>
-    <Radar Name="Tampico MSSR" Type="SSR_ModeS" Elevation="230" MaxRange="250">
+    <Radar Name="San Jose del Cabo MSSR TAR" Type="SSR_ModeC" Elevation="479" MaxRange="200">
+        <Lat>23.153229</Lat>
+        <Long>-109.72329</Long>
+    </Radar>
+    <Radar Name="Santa Lucia MSSR" Type="SSR_ModeC" Elevation="7469" MaxRange="200">
+        <Lat>19.741719</Lat>
+        <Long>-99.043594</Long>
+    </Radar>
+    <Radar Name="Tampico MSSR" Type="SSR_ModeC" Elevation="230" MaxRange="200">
         <Lat>22.283734</Lat>
         <Long>-97.863327</Long>
     </Radar>
-    <Radar Name="Tijuana MSSR" Type="SSR_ModeS" Elevation="637" MaxRange="250">
+    <Radar Name="Tijuana MSSR TAR" Type="SSR_ModeC" Elevation="590" MaxRange="200">
         <Lat>32.539045</Lat>
         <Long>-116.97821</Long>
     </Radar>
-    <Radar Name="Toluca MSSR" Type="SSR_ModeS" Elevation="8616" MaxRange="250">
+    <Radar Name="Toluca MSSR TAR" Type="SSR_ModeC" Elevation="8573" MaxRange="200">
         <Lat>19.336215</Lat>
         <Long>-99.570331</Long>
     </Radar>
-    <Radar Name="Tuxtla MSSR" Type="SSR_ModeS" Elevation="1641" MaxRange="250">
+    <Radar Name="Tuxtla MSSR" Type="SSR_ModeC" Elevation="1641" MaxRange="200">
         <Lat>16.563916</Lat>
         <Long>-93.015379</Long>
     </Radar>
-    <Radar Name="Veracruz MSSR" Type="SSR_ModeS" Elevation="240" MaxRange="250">
+    <Radar Name="Veracruz MSSR" Type="SSR_ModeC" Elevation="240" MaxRange="200">
         <Lat>19.139191</Lat>
         <Long>-96.192067</Long>
     </Radar>
-    <Radar Name="Villahermosa MSSR" Type="SSR_ModeS" Elevation="196" MaxRange="250">
+    <Radar Name="Villahermosa MSSR" Type="SSR_ModeC" Elevation="196" MaxRange="200">
         <Lat>17.991352</Lat>
         <Long>-92.810148</Long>
     </Radar>
+    <!-- <Radar Name="Cuernavaca FAKE" Type="SSR_ModeC" Elevation="12000" MaxRange="60">
+        <Lat>18.831893</Lat>
+        <Long>-99.259355</Long>
+    </Radar>     -->
 
     <!--ADSB SENEAM-->
-    <Radar Name="Cerro Catedral ADSB" Type="ADSB" Elevation="6106" MaxRange="250">
-        <Lat>19.754342</Lat>
-        <Long>-98.826084</Long>
+    <Radar Name="Cerro Catedral ADSB" Type="ADSB" Elevation="12475" MaxRange="250">
+        <Lat>19.550139</Lat>
+        <Long>-99.520667</Long>
     </Radar>
-    <Radar Name="Cerro Gordo ADSB" Type="ADSB" Elevation="6106" MaxRange="250">
-        <Lat>19.754342</Lat>
-        <Long>-98.826084</Long>
+    <Radar Name="Cerro Gordo ADSB" Type="ADSB" Elevation="10136" MaxRange="250">
+        <Lat>19.754333</Lat>
+        <Long>-98.826194</Long>
     </Radar>
-    <Radar Name="Ciudad del Carmen ADSB" Type="ADSB" Elevation="40" MaxRange="250">
+    <Radar Name="Ciudad del Carmen ADSB" Type="ADSB" Elevation="108" MaxRange="250">
         <Lat>18.648225</Lat>
         <Long>-91.800496</Long>
     </Radar>
-    <Radar Name="Colima ADSB" Type="ADSB" Elevation="2497" MaxRange="250">
+    <Radar Name="Colima ADSB" Type="ADSB" Elevation="2565" MaxRange="250">
         <Lat>19.280620</Lat>
         <Long>-103.578159</Long>
     </Radar>
-    <Radar Name="Cuernavaca ADSB" Type="ADSB" Elevation="4325" MaxRange="250">
+    <Radar Name="Cuernavaca ADSB" Type="ADSB" Elevation="4393" MaxRange="250">
         <Lat>18.831893</Lat>
         <Long>-99.259355</Long>
     </Radar>
-    <Radar Name="Guadalajara ADSB" Type="ADSB" Elevation="5043" MaxRange="250">
+    <Radar Name="Guadalajara ADSB" Type="ADSB" Elevation="5111" MaxRange="250">
         <Lat>20.525775</Lat>
         <Long>-103.303748</Long>
     </Radar>
-    <Radar Name="Huatulco ADSB" Type="ADSB" Elevation="494" MaxRange="250">
+    <Radar Name="Huatulco ADSB" Type="ADSB" Elevation="562" MaxRange="250">
         <Lat>15.773527</Lat>
         <Long>-96.255753</Long>
     </Radar>
-    <Radar Name="Mexico ADSB" Type="ADSB" Elevation="7327" MaxRange="250">
+    <Radar Name="Mexico ADSB" Type="ADSB" Elevation="7391" MaxRange="250">
         <Lat>19.430814</Lat>
         <Long>-99.070132</Long>
     </Radar>
-    <Radar Name="Monterrey ADSB" Type="ADSB" Elevation="1306" MaxRange="250">
+    <Radar Name="Merida ADSB" Type="ADSB" Elevation="146" MaxRange="250">
+        <Lat>20.940288</Lat>
+        <Long>-89.652717</Long>
+    </Radar>    
+    <Radar Name="Monterrey ADSB" Type="ADSB" Elevation="1391" MaxRange="250">
         <Lat>25.776586</Lat>
         <Long>-100.113342</Long>
     </Radar>
-    <Radar Name="Oaxaca ADSB" Type="ADSB" Elevation="5019" MaxRange="250">
+    <Radar Name="Oaxaca ADSB" Type="ADSB" Elevation="5087" MaxRange="250">
         <Lat>17.002315</Lat>
         <Long>-96.721703</Long>
     </Radar>
-    <Radar Name="Puebla ADSB" Type="ADSB" Elevation="7391" MaxRange="250">
+    <Radar Name="Puebla ADSB" Type="ADSB" Elevation="7459" MaxRange="250">
         <Lat>19.165485</Lat>
         <Long>-98.375736</Long>
     </Radar>
-    <Radar Name="Puerto Vallarta ADSB" Type="ADSB" Elevation="53" MaxRange="250">
+    <Radar Name="Puerto Vallarta ADSB" Type="ADSB" Elevation="121" MaxRange="250">
         <Lat>20.679023</Lat>
         <Long>-105.249204</Long>
     </Radar>
-    <Radar Name="Queretaro ADSB" Type="ADSB" Elevation="6326" MaxRange="250">
+    <Radar Name="Queretaro ADSB" Type="ADSB" Elevation="6360" MaxRange="250">
         <Lat>20.622249</Lat>
         <Long>-100.186582</Long>
     </Radar>
-    <Radar Name="Toluca ADSB" Type="ADSB" Elevation="8496" MaxRange="250">
+    <Radar Name="Toluca ADSB" Type="ADSB" Elevation="8573" MaxRange="250">
         <Lat>19.340549</Lat>
         <Long>-99.561263</Long>
     </Radar>
-    <Radar Name="Zihuatanejo ADSB" Type="ADSB" Elevation="56" MaxRange="250">
+    <Radar Name="Zihuatanejo ADSB" Type="ADSB" Elevation="124" MaxRange="250">
         <Lat>17.606163</Lat>
         <Long>-101.462511</Long>
     </Radar>
 
-    <!--ADSB FAA-->
-    <Radar Name="CTV3003 ADSB" Type="ADSB" Elevation="10" MaxRange="250">
-        <Lat>22.979209</Lat>
-        <Long>-93.826537</Long>
+    <!--ADSB SENEAM 2024-->
+    <Radar Name="Acapulco ADSB" Type="ADSB" Elevation="113" MaxRange="250">
+        <Lat>16.757441</Lat>
+        <Long>-99.745702</Long>
     </Radar>
-    <Radar Name="CTV3103 ADSB" Type="ADSB" Elevation="10" MaxRange="250">
-        <Lat>25.482000</Lat>
-        <Long>-91.239984</Long>
+    <Radar Name="Cancun ADSB" Type="ADSB" Elevation="122" MaxRange="250">
+        <Lat>21.047133</Lat>
+        <Long>-86.879846</Long>
+    </Radar>
+    <Radar Name="Cerro de Potosi ADSB" Type="ADSB" Elevation="12304" MaxRange="250">
+        <Lat>24.871472</Lat>
+        <Long>-100.232694</Long>
+    </Radar>
+    <Radar Name="Cerro de Santa Eulalia ADSB" Type="ADSB" Elevation="7014" MaxRange="250">
+        <Lat>28.620306</Lat>
+        <Long>-105.866111</Long>
+    </Radar>
+    <Radar Name="La Paz ADSB" Type="ADSB" Elevation="191" MaxRange="250">
+        <Lat>24.052608</Lat>
+        <Long>-110.362777</Long>
+    </Radar>
+    <Radar Name="Puerto Penasco ADSB" Type="ADSB" Elevation="272" MaxRange="250">
+        <Lat>31.299555</Lat>
+        <Long>-113.547687</Long>
+    </Radar>
+    <Radar Name="Cabo San Lucas ADSB" Type="ADSB" Elevation="790" MaxRange="250">
+        <Lat>22.948333</Lat>
+        <Long>-109.938333</Long>
+    </Radar>
+    <Radar Name="Chetumal ADSB" Type="ADSB" Elevation="137" MaxRange="250">
+        <Lat>18.504639</Lat>
+        <Long>-88.326806</Long>
+    </Radar>
+    <Radar Name="Ciudad Juarez ADSB" Type="ADSB" Elevation="4002" MaxRange="250">
+        <Lat>31.636361</Lat>
+        <Long>-106.428750</Long>
+    </Radar>
+    <Radar Name="Loreto ADSB" Type="ADSB" Elevation="134" MaxRange="250">
+        <Lat>25.989889</Lat>
+        <Long>-111.346972</Long>
+    </Radar>
+    <Radar Name="Matamoros ADSB" Type="ADSB" Elevation="123" MaxRange="250">
+        <Lat>25.769944</Lat>
+        <Long>-97.525222</Long>
+    </Radar>
+    <Radar Name="Mazatlan ADSB" Type="ADSB" Elevation="136" MaxRange="250">
+        <Lat>23.161472</Lat>
+        <Long>-106.264583</Long>
+    </Radar>
+    <Radar Name="Monclova ADSB" Type="ADSB" Elevation="1962" MaxRange="250">
+        <Lat>26.955500</Lat>
+        <Long>-101.471028</Long>
+    </Radar>
+    <Radar Name="Tapachula ADSB" Type="ADSB" Elevation="193" MaxRange="250">
+        <Lat>14.794361</Lat>
+        <Long>-92.369972</Long>
+    </Radar>
+    <Radar Name="Torreon ADSB" Type="ADSB" Elevation="3789" MaxRange="250">
+        <Lat>25.568278</Lat>
+        <Long>-103.410667</Long>
+    </Radar>
+    <Radar Name="Villahermosa ADSB" Type="ADSB" Elevation="196" MaxRange="250">
+        <Lat>17.991352</Lat>
+        <Long>-92.810148</Long>
     </Radar>
 
     <!--ASDE-X-->

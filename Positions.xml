@@ -992,7 +992,7 @@
         </Position>
 
         <!-- ACC Mazatlan -->
-        <Position Name="Control Mazatlan SE - MZTE" Type="ASD" DefaultCenter="+233230.966-1083147.199" DefaultRange="1200" MagneticVariation="-8" VisibilityRange="300">
+        <Position Name="Control Mazatlan SE - MZTE" Type="ASD" DefaultCenter="+233230.966-1083147.199" DefaultRange="1200" MagneticVariation="-7" VisibilityRange="300">
             <Sectors>
                 <Sector Name="MZTE" />
                 <Sector Name="MZT3" />
@@ -1041,7 +1041,7 @@
                 <Point>+200841.775-1063051.306</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mazatlan SW - MZTW" Type="ASD" DefaultCenter="+285551.008-1135106.586" DefaultRange="900" MagneticVariation="-12" VisibilityRange="300">
+        <Position Name="Control Mazatlan SW - MZTW" Type="ASD" DefaultCenter="+285551.008-1135106.586" DefaultRange="900" MagneticVariation="-9" VisibilityRange="300">
             <Sectors>
                 <Sector Name="MZTW" />
                 <Sector Name="MZT1" />
@@ -1088,7 +1088,7 @@
                 <Point>+254759.084-1121909.005</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+265502.570-1110958.625" DefaultRange="1330" MagneticVariation="-12"  DynamicInfill="false" VisibilityRange="400">
+        <Position Name="Control Mazatlan (Combinado) - MZTC" Type="ASD" DefaultCenter="+265502.570-1110958.625" DefaultRange="1330" MagneticVariation="-8"  DynamicInfill="false" VisibilityRange="400">
             <Sectors>
                 <Sector Name="MZTC" />
                 <Sector Name="MZT1" />
@@ -1242,7 +1242,7 @@
                 <Map Name="TMA Tuxtla Gutierrez/ASMGCS_MMTG_GATES" />
             </Maps>
         </Position>
-        <Position Name="MMTL" Type="ASMGCS" ASMGCSAirport="MMTL" DefaultCenter="+201021.120-0873939.550" DefaultRange="3" MagneticVariation="-2" Rotation="332">
+        <Position Name="MMTL" Type="ASMGCS" ASMGCSAirport="MMTL" DefaultCenter="+201021.120-0873939.550" DefaultRange="3" MagneticVariation="+2" Rotation="332">
             <Maps>
                 <Map Name="TMA Cancun/ASMGCS_MMTL_RWY" />
                 <Map Name="TMA Cancun/ASMGCS_MMTL_APR" />
@@ -2243,7 +2243,7 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Merida Este - MIDE" Type="ASD" DefaultCenter="+223606.000-0871041.000" DefaultRange="600" MagneticVariation="+2">
+        <Position Name="Control Merida Este - MIDE" Type="ASD" DefaultCenter="+223606.000-0871041.000" DefaultRange="600" MagneticVariation="+3">
             <Sectors>
                 <Sector Name="MIDE" />
                 <Sector Name="MID3" />
@@ -2290,7 +2290,7 @@
                 <Point>+123404.2930-0985708.3125</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Merida Oeste - MIDW" Type="ASD" DefaultCenter="+195018.094-0902909.983" DefaultRange="1300" MagneticVariation="+2">
+        <Position Name="Control Merida Oeste - MIDW" Type="ASD" DefaultCenter="+195018.094-0902909.983" DefaultRange="1300" MagneticVariation="0">
             <Sectors>
                 <Sector Name="MIDW" />
                 <Sector Name="MID1" />
@@ -4695,7 +4695,7 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mexico SW - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-4" DynamicInfill="true">
+        <Position Name="Control Mexico SW - MEXW" Type="ASD" DefaultCenter="+210721.164-1030924.000" DefaultRange="750" MagneticVariation="-5" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXW" />
                 <Sector Name="MEX6" />
@@ -4743,7 +4743,7 @@
                 <Point>+19.149414-104.571297</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Mexico SE - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="980" MagneticVariation="-4" DynamicInfill="true">
+        <Position Name="Control Mexico SE - MEXE" Type="ASD" DefaultCenter="+193850.312-0972526.625" DefaultRange="980" MagneticVariation="-3" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MEXE" />
                 <Sector Name="MEX1" />
@@ -4884,7 +4884,7 @@
                 <Map Name="TMA Monterrey/ASMGCS_MMMY_LINES" />
             </Maps>
         </Position>
-        <Position Name="MMNL" Type="ASMGCS" ASMGCSAirport="MMNL" DefaultCenter="+272639.939-0993403.155" DefaultRange="2" MagneticVariation="-5" Rotation="124">
+        <Position Name="MMNL" Type="ASMGCS" ASMGCSAirport="MMNL" DefaultCenter="+272639.939-0993403.155" DefaultRange="2" MagneticVariation="-4" Rotation="124">
             <Maps>
                 <Map Name="TMA Nuevo Laredo/ASMGCS_MMNL_RWY" />
                 <Map Name="TMA Nuevo Laredo/ASMGCS_MMNL_APR" />
@@ -5660,7 +5660,7 @@
         </Position>
 
         <!-- ACC Monterrey -->
-        <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-5"  DynamicInfill="false">
+        <Position Name="Control Monterrey (Combinado) - MTYC" Type="ASD" DefaultCenter="+271000.000-1003000.000" DefaultRange="1050" MagneticVariation="-4"  DynamicInfill="false">
             <Sectors>
                 <Sector Name="MTYC" />
                 <Sector Name="MTY1" />
@@ -5709,7 +5709,7 @@
                 <Point>+242209.9141-0950934.2813</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Monterrey SE - MTYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-5" DynamicInfill="true">
+        <Position Name="Control Monterrey SE - MTYE" Type="ASD" DefaultCenter="+242744.852-0965934.688" DefaultRange="500" MagneticVariation="-3" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MTYE" />
                 <Sector Name="MTY1" />
@@ -5757,7 +5757,7 @@
                 <Point>+242209.9141-0950934.2813</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Control Monterrey SW - MTYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-5" DynamicInfill="true">
+        <Position Name="Control Monterrey SW - MTYW" Type="ASD" DefaultCenter="+274033.461-1034639.188" DefaultRange="950" MagneticVariation="-6" DynamicInfill="true">
             <Sectors>
                 <Sector Name="MTYW" />
                 <Sector Name="MTY3" />
@@ -5809,7 +5809,7 @@
     </Group>
 
     <Group Name="FIR Mexico">
-        <Position Name="FIR Mexico (Combinado) - MFRC" Type="ASD" DefaultCenter="+233938.420-1025746.608" DefaultRange="2300" MagneticVariation="-4">
+        <Position Name="FIR Mexico (Combinado) - MFRC" Type="ASD" DefaultCenter="+233938.420-1025746.608" DefaultRange="2300" MagneticVariation="-5">
             <Sectors>
                 <Sector Name="MFRC" />
             </Sectors>
