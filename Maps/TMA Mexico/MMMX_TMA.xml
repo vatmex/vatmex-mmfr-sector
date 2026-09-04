@@ -41,7 +41,7 @@
     </Map>
     <Map Type="System" Name="Aeropuerto - Rutas VFR" Priority="1">
         <!--DEPARTURES MMCB-->
-        <Line Name="CUATLA" Pattern="Broken">TECNOLOGICO CVA/LAS ESTACAS/CUAUTLA</Line>
+        <Line Name="CUAUTLA" Pattern="Broken">TECNOLOGICO CVA/LAS ESTACAS/CUAUTLA</Line>
         <Line Name="MEXICO BAJA" Pattern="Broken">YAUTEPEC/OZUMBA</Line>
         <Line Name="MEXICO CHARLIE" Pattern="Broken">ESTANQUES ACUICULTURA/EDIFICIOS ALTITUDE/TRES MARIAS</Line>
         <Line Name="PUEBLA CHARLIE" Pattern="Broken">LIBRAMIENTO CVA/LOBOS/YAUTEPEC/TLACOTEPEC</Line>
@@ -75,12 +75,12 @@
         <Line Name="CUERNAVACA BAJA" Pattern="Broken">CUEMANCO/CHALCO/OZUMBA</Line>
         <Line Name="CUERNAVACA BAJA 2" Pattern="Broken">VOLVO/CHALCO</Line>
         <Line Name="LUCIA" Pattern="Broken">CARACOL/MINA DE ECATEPEC/RANCHO AZUL</Line>
-        <Line Name="PACHUCA" Pattern="Broken">RANCHO AZUL/TOLMAN</Line>
+        <Line Name="PACHUCA" Pattern="Broken">RANCHO AZUL/AXAPUS</Line>
         <Line Name="PUEBLA MIKE" Pattern="Broken">VOLVO/SAN MARTIN/PASO DE RIO FRIO</Line>
         <Line Name="PUEBLA MIKE 2" Pattern="Broken">CHIMALHUACAN/SAN MARTIN</Line>
-        <Line Name="PUEBLA BAJA" Pattern="Broken">CHIMALHUACAN/CALPULALPAN/CERRO DE LAS ANTENAS</Line>
+        <Line Name="PUEBLA BAJA" Pattern="Broken">CHIMALHUACAN/TEQUEX/CALPULALPAN/CERRO DE LAS ANTENAS</Line>
         <Line Name="QUERETARO MIKE" Pattern="Broken">SATELITE/MADIN</Line>
-        <Line Name="TOLUCA AICM BI DIRECCIONAL" Pattern="Broken">PERISUR/POETAS/CAPILLA</Line>
+        <Line Name="TOLUCA AICM BI DIRECCIONAL" Pattern="Broken">PERISUR/POETAS/CAPILLA/VERONICA</Line>
         <Line Name="TOLUCA LLEGADA" Pattern="Broken">CAPILLA/CLUB GOLF BOSQUES/PANTEON</Line>
         <Line Name="TOLUCA CDMX BI DIRECCIONAL" Pattern="Broken">BOSQUE REAL/CAPILLA</Line>
         <!--CONECTORS MMMX-->
@@ -117,11 +117,11 @@
         <Line Name="QUERETARO 04L-22R" Pattern="Broken">CHAPA DE MOTA/CUAUTITLAN</Line>
         <Line Name="QUERETARO 04C-22C" Pattern="Broken">CHAPA DE MOTA/DURAZNOS/AEROPUERTO MMJC/MADIN</Line>
         <Line Name="PACHUCA 04L-22R" Pattern="Broken">AEROPUERTO MMPC/LAGO ZUMPANGO</Line>
-        <Line Name="PACHUCA 04C-22C" Pattern="Broken">AEROPUERTO MMPC/TOLMAN/OXTOT/CARACOL</Line>
-        <Line Name="PUEBLA 04L-22R" Pattern="Broken">CALPULALPAN/TOLMAN/SANTO DOMINGO/ARCO NORTE/LAGO ZUMPANGO</Line>
+        <Line Name="PACHUCA 04C-22C" Pattern="Broken">AEROPUERTO MMPC/AXAPUS/OXTOT/CARACOL</Line>
+        <Line Name="PUEBLA 04L-22R" Pattern="Broken">CALPULALPAN/AXAPUS/SANTO DOMINGO/ARCO NORTE/LAGO ZUMPANGO</Line>
         <Line Name="NORTE PCA" Pattern="Broken">DURAZNOS/PRESA TAXHIMAY/TEPEJI DEL RIO/AEROPUERTO MMPC</Line>
         <!--DEPARTURE CIV HELICOPTER MMSM-->
-        <Line Name="NORTE PCA" Pattern="Broken">TECAMAC/ENTRONQUE CARRETERA/TOLMAN</Line>
+        <Line Name="NORTE PCA" Pattern="Broken">TECAMAC/ENTRONQUE CARRETERA/AXAPUS</Line>
         <Line Name="NORTE PCA" Pattern="Broken">ENTRONQUE CARRETERA/MINA DE ECATEPEC</Line>
         <!--CONNECTORS MMSM-->
         <Line Name="SAN JUAN DEL RIO-CHAPA DE MOTA" Pattern="Broken">SAN JUAN DEL RIO/CHAPA DE MOTA</Line>
@@ -148,6 +148,18 @@
         <Line Name="MMTO-SAN NICOLAS" Pattern="Broken">MMTO/SAN NICOLAS</Line>
         <Line Name="MMTO-VERONICA" Pattern="Broken">MMTO/VERONICA</Line>
         <Line Name="MMTO-TECNOLOGICO TLC" Pattern="Broken">MMTO/TECNOLOGICO TLC</Line>
+
+        <!--MMPC - VAC 12.6-->
+        <Line Name="TAXHIMAY" Pattern="Broken">PRESA TAXHIMAY/POLITECNICO</Line>
+        <Line Name="AXAPUS" Pattern="Broken">AXAPUS/SAN VICENTE/AUTODROMO SOLANA</Line>
+        <Line Name="ZUMPANGO" Pattern="Broken">LAGO ZUMPANGO/TEPOZAN</Line>
+        <!--MMJC - VAC 12.7-->
+        <Line Name="TAXHIMAY" Pattern="Broken">PRESA TAXHIMAY/BODEGAS</Line>
+        <Line Name="PABELLON" Pattern="Broken">PABELLON/MADIN</Line>
+        <!--VFR/IFR TRANSITIONS - VAC 12.8-->
+        <Line Name="TAXHIMAY" Pattern="Broken">AEROPUERTO MMJC/BODEGAS/PRESA TAXHIMAY</Line>
+        <Line Name="VILLA ALPINA" Pattern="Broken">AEROPUERTO MMJC/BODEGAS/VILLA ALPINA</Line>
+        <Line Name="URMAS" Pattern="Broken">AEROPUERTO MMPC/ESTADIO HIDALGO/ERBAM/URMAS</Line>
 
         <Symbol Type="SolidTriangle">
             <Point>AEROPUERTO MMJC</Point>
@@ -196,7 +208,7 @@
             <Point>LAGO ZUMPANGO</Point>
             <Point>ARCO NORTE</Point>
             <Point>SANTO DOMINGO</Point>
-            <Point>TOLMAN</Point>
+            <Point>AXAPUS</Point>
             <Point>INVERNADERO SANTA MARIA</Point>
             <Point>SAN LUIS</Point>
             <Point>PIRAMIDES</Point>
@@ -269,7 +281,7 @@
             <Point>TLACOTEPEC</Point>
             <Point>TLALTENANGO</Point>
             <Point>TLALTIZAPAN</Point>
-            <Point>TOLMAN</Point>
+            <Point>AXAPUS</Point>
             <Point>VALSEQUILLO</Point>
             <Point>VERONICA</Point>
             <Point>VILLA DEL CARBON</Point>
@@ -281,6 +293,13 @@
             <Point>YAUTEPEC</Point>
             <Point>ZARAGOZA</Point>
             <Point>ZOLOTEPEC</Point>
+                    <Point>AUTODROMO SOLANA</Point>
+            <Point>BODEGAS</Point>
+            <Point>ESTADIO HIDALGO</Point>
+            <Point>POLITECNICO</Point>
+            <Point>SAN VICENTE</Point>
+            <Point>TEPOZAN</Point>
+            <Point>TEQUEX</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name=" Aeropuerto - Volcanes" Priority="1">
