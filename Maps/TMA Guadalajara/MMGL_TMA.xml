@@ -867,4 +867,138 @@
 +203958.418-1032824.693/
 +204002.071-1032852.489</Line>
     </Map>
+    <Map Type="System" Name="Aeropuerto - Rutas VFR" Priority="1">
+        <!--BIDIRECTIONAL FIXED WING - VAC 13.2-->
+        <Line Name="CUEXCO" Pattern="Broken">CUEXCO/PIRAMIDE/MMGL</Line>
+        <Line Name="ESTADIO" Pattern="Broken">ESTADIO/CAMPO DE GOLF/MMGL</Line>
+        <Line Name="GUACHINANGO" Pattern="Broken">GUACHINANGO/LAGUNILLAS/QUILILLA/ZACOALCO</Line>
+        <Line Name="ISLA DEL PRESIDIO" Pattern="Broken">ISLA DEL PRESIDIO/PACO/CAJITITLAN</Line>
+        <Line Name="LAGUNA SECA" Pattern="Broken">LAGUNA SECA/ZAPOTITLAN DE HGO/VIVEROS GDL/JOCOTEPEC/SAN JUAN COSALA/PACO</Line>
+        <Line Name="OCOTLAN" Pattern="Broken">OCOTLAN/ISLA DEL PRESIDIO/PACO/PIRAMIDE/MMGL</Line>
+        <Line Name="ZAPOTLANEJO" Pattern="Broken">ZAPOTLANEJO/CASETA DE COBRO/TONALA/MMGL</Line>
+        <!--DEPARTURES FIXED WING - VAC 12.3-->
+        <Line Name="SALIDA E-NE" Pattern="Broken">CAMPO DE GOLF/TONALA/CASETA DE COBRO/ZAPOTLANEJO</Line>
+        <Line Name="SALIDA SE" Pattern="Broken">PIRAMIDE/PACO/ISLA DEL PRESIDIO</Line>
+        <Line Name="SALIDA S" Pattern="Broken">PIRAMIDE/CAJITITLAN</Line>
+        <Line Name="SALIDA W" Pattern="Broken">PIRAMIDE/CUEXCO</Line>
+        <!--HELICOPTER CORRIDORS - VAC 13.3 13.4 13.5-->
+        <Line Name="CORREDOR GOLF" Pattern="Broken">GASOLINERA/HOSPITAL CIVIL ORIENTE/CASETA DE COBRO</Line>
+        <Line Name="CORREDOR OSCAR" Pattern="Broken">FATO/PRESA MALENO/CISTERNA/IMSS 180/OUTLET</Line>
+        <Line Name="CORREDOR ROMEO" Pattern="Broken">FATO/VFG/PACO</Line>
+        <Line Name="CORREDOR SIERRA" Pattern="Broken">FATO/PRESA MALENO/CISTERNA/TLAJOMULCO/SANTA CRUZ DE LAS FLORES</Line>
+        <Line Name="CORREDOR VICTOR" Pattern="Broken">SANTA CRUZ DE LAS FLORES/OUTLET/COSTCO/IXTEPETE/METROPOLITANO/AUTONOMA</Line>
+        <Line Name="CORREDOR CHARLIE" Pattern="Broken">RETORNO/UTJ/METROPOLITANO/ESTADIO CHIVAS</Line>
+        <Line Name="CORREDOR JULIETT" Pattern="Broken">ESTADIO CHIVAS/METROPOLITANO/HOTEL TAPATIO/CAMPO DE GOLF/RETORNO</Line>
+        <!--VFR CORRIDORS N AND Q - reporting points only, corridor width not published-->
+        <Line Name="CORREDOR NOVEMBER" Pattern="Broken">SAN FRANCISCO DE IXCATAN/ESTADIO</Line>
+        <Line Name="CORREDOR NOVEMBER 2" Pattern="Broken">LOS CAMACHOS/ESTADIO</Line>
+        <Line Name="CORREDOR QUEBEC" Pattern="Broken">QUILILLA/CRUCERO MACRO/CUEXCO</Line>
+        <Symbol Type="HollowSquare">
+            <Point>ACATLAN</Point>
+            <Point>AMECA</Point>
+            <Point>AUTONOMA</Point>
+            <Point>CAJITITLAN</Point>
+            <Point>CAMPO DE GOLF</Point>
+            <Point>CASETA DE COBRO</Point>
+            <Point>CENTRO LOGISTICO</Point>
+            <Point>CISTERNA</Point>
+            <Point>COSTCO</Point>
+            <Point>CRUCERO MACRO</Point>
+            <Point>CUEXCO</Point>
+            <Point>ESTADIO</Point>
+            <Point>ESTADIO CHIVAS</Point>
+            <Point>FATO</Point>
+            <Point>GASOLINERA</Point>
+            <Point>GUACHINANGO</Point>
+            <Point>HOSPITAL CIVIL ORIENTE</Point>
+            <Point>HOTEL TAPATIO</Point>
+            <Point>HYATT</Point>
+            <Point>IMSS 180</Point>
+            <Point>ISLA DEL PRESIDIO</Point>
+            <Point>IXTEPETE</Point>
+            <Point>JOCOTEPEC</Point>
+            <Point>LAGUNA SECA</Point>
+            <Point>LAGUNILLAS</Point>
+            <Point>LOS CAMACHOS</Point>
+            <Point>METROPOLITANO</Point>
+            <Point>OCOTLAN</Point>
+            <Point>OUTLET</Point>
+            <Point>PACO</Point>
+            <Point>PIRAMIDE</Point>
+            <Point>PLANTA</Point>
+            <Point>PONCITLAN</Point>
+            <Point>PRESA MALENO</Point>
+            <Point>QUILILLA</Point>
+            <Point>RETORNO</Point>
+            <Point>SAN FRANCISCO DE IXCATAN</Point>
+            <Point>SAN JUAN COSALA</Point>
+            <Point>SANTA CRUZ DE LAS FLORES</Point>
+            <Point>TLAJOMULCO</Point>
+            <Point>TONALA</Point>
+            <Point>UTJ</Point>
+            <Point>VFG</Point>
+            <Point>VIVEROS GDL</Point>
+            <Point>ZACOALCO</Point>
+            <Point>ZAPOTITLAN DE HGO</Point>
+            <Point>ZAPOTLAN DEL REY</Point>
+            <Point>ZAPOTLANEJO</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>ACATLAN</Point>
+            <Point>AMECA</Point>
+            <Point>AUTONOMA</Point>
+            <Point>CAJITITLAN</Point>
+            <Point>CAMPO DE GOLF</Point>
+            <Point>CASETA DE COBRO</Point>
+            <Point>CENTRO LOGISTICO</Point>
+            <Point>CISTERNA</Point>
+            <Point>COSTCO</Point>
+            <Point>CRUCERO MACRO</Point>
+            <Point>CUEXCO</Point>
+            <Point>ESTADIO</Point>
+            <Point>ESTADIO CHIVAS</Point>
+            <Point>FATO</Point>
+            <Point>GASOLINERA</Point>
+            <Point>GUACHINANGO</Point>
+            <Point>HOSPITAL CIVIL ORIENTE</Point>
+            <Point>HOTEL TAPATIO</Point>
+            <Point>HYATT</Point>
+            <Point>IMSS 180</Point>
+            <Point>ISLA DEL PRESIDIO</Point>
+            <Point>IXTEPETE</Point>
+            <Point>JOCOTEPEC</Point>
+            <Point>LAGUNA SECA</Point>
+            <Point>LAGUNILLAS</Point>
+            <Point>LOS CAMACHOS</Point>
+            <Point>METROPOLITANO</Point>
+            <Point>OCOTLAN</Point>
+            <Point>OUTLET</Point>
+            <Point>PACO</Point>
+            <Point>PIRAMIDE</Point>
+            <Point>PLANTA</Point>
+            <Point>PONCITLAN</Point>
+            <Point>PRESA MALENO</Point>
+            <Point>QUILILLA</Point>
+            <Point>RETORNO</Point>
+            <Point>SAN FRANCISCO DE IXCATAN</Point>
+            <Point>SAN JUAN COSALA</Point>
+            <Point>SANTA CRUZ DE LAS FLORES</Point>
+            <Point>TLAJOMULCO</Point>
+            <Point>TONALA</Point>
+            <Point>UTJ</Point>
+            <Point>VFG</Point>
+            <Point>VIVEROS GDL</Point>
+            <Point>ZACOALCO</Point>
+            <Point>ZAPOTITLAN DE HGO</Point>
+            <Point>ZAPOTLAN DEL REY</Point>
+            <Point>ZAPOTLANEJO</Point>
+        </Label>
+        <!--INDEX PANEL PROBE - spacing and alignment need a visual check-->
+        <Label HasLeader="false">
+            <Point Name="RUTAS VFR MMGL">+210500.000-1042000.000</Point>
+            <Point Name="CUEXCO">+210330.000-1042000.000</Point>
+            <Point Name="ESTADIO - CAMPO DE GOLF - MMGL">+210200.000-1042000.000</Point>
+            <Point Name="LAGUNA SECA - ZAPOTITLAN DE HGO - VIVEROS - JOCOTEPEC - SAN JUAN COSALA - PACO">+210030.000-1042000.000</Point>
+        </Label>
+    </Map>
 </Maps>
