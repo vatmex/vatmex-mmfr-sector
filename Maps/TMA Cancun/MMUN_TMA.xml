@@ -720,4 +720,107 @@
 +205632.000-0855821.000</Point>
         </Infill>
     </Map>    
+    <Map Type="System" Name="Aeropuerto - Rutas VFR" Priority="1">
+        <!--ARRIVALS - VAC 12.2. CORREDOR VFR has no published coordinates, so TAJAMAR and EL REY are drawn direct to MMUN-->
+        <Line Name="BONFIL UNO" Pattern="Broken">ISLA HOLBOX/BASURERO/TAJAMAR/MMUN</Line>
+        <Line Name="KULKANA UNO" Pattern="Broken">ISLA HOLBOX/LEONA VICARIO/KULKANA/MMUN</Line>
+        <Line Name="BONFIL DOS" Pattern="Broken">ISLA HOLBOX/ISLA BLANCA/TAJAMAR/MMUN</Line>
+        <Line Name="KULKANA DOS" Pattern="Broken">PUNTA MAROMA/EL REY/MMUN</Line>
+        <Line Name="KULKANA TRES" Pattern="Broken">LEONA VICARIO/KULKANA/MMUN</Line>
+        <!--DEPARTURES - VAC 12.3-->
+        <Line Name="TAJAMAR UNO" Pattern="Broken">MMUN/TAJAMAR/BASURERO/ISLA HOLBOX</Line>
+        <Line Name="LEONA UNO" Pattern="Broken">MMUN/KULKANA/LEONA VICARIO/ISLA HOLBOX</Line>
+        <Line Name="TAJAMAR DOS" Pattern="Broken">MMUN/TAJAMAR/ISLA BLANCA/ISLA HOLBOX</Line>
+        <Line Name="MAROMA UNO" Pattern="Broken">MMUN/EL REY/PUNTA MAROMA</Line>
+        <Line Name="LEONA DOS" Pattern="Broken">MMUN/KULKANA/LEONA VICARIO</Line>
+        <!--CORRIDOR CROSSINGS - VAC 8.2. The two routes through VICTORIA are omitted: no such reporting point is published-->
+        <Line Name="CRUCE MORTERO SECO" Pattern="Broken">MORTERO SECO/VILLA OTOCH</Line>
+        <Line Name="CRUCE KASAHE" Pattern="Broken">KASAHE/MORTERO SECO/VILLA OTOCH</Line>
+        <Line Name="CRUCE EL REY" Pattern="Broken">EL REY/MORTERO SECO/VILLA OTOCH</Line>
+        <!--HELICOPTERS - VAC 12.4-->
+        <Line Name="TREN MAYA-MOON PALACE" Pattern="Broken">TREN MAYA/MOON PALACE</Line>
+        <!--RESTRICTED AREA FOR VFR - VAC 17, vertices C1 to C8-->
+        <Line Name="AREA RESTRINGIDA VFR" Pattern="Dashed">
++210806.000-0865700.000/
++210407.000-0865217.000/
++210317.000-0865057.000/
++210042.000-0864511.000/
++205706.000-0864742.000/
++210040.000-0865207.000/
++210153.000-0865403.000/
++210409.000-0865941.000/
++210806.000-0865700.000
+        </Line>
+        <Symbol Type="HollowSquare">
+            <Point>BASURERO</Point>
+            <Point>BONFIL</Point>
+            <Point>CAMPO MILITAR</Point>
+            <Point>EL REY</Point>
+            <Point>ISLA BLANCA</Point>
+            <Point>ISLA HOLBOX</Point>
+            <Point>ISLA MUJERES</Point>
+            <Point>KASAHE</Point>
+            <Point>KULKANA</Point>
+            <Point>LAGOS DEL SOL</Point>
+            <Point>LEONA VICARIO</Point>
+            <Point>MOON PALACE</Point>
+            <Point>MORTERO SECO</Point>
+            <Point>POLIFORUM</Point>
+            <Point>PUERTO MORELOS</Point>
+            <Point>PUNTA CANCUN</Point>
+            <Point>PUNTA MAROMA</Point>
+            <Point>PUNTA NIZUC</Point>
+            <Point>TAJAMAR</Point>
+            <Point>TREN MAYA</Point>
+            <Point>VILLA OTOCH</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>BASURERO</Point>
+            <Point>BONFIL</Point>
+            <Point>CAMPO MILITAR</Point>
+            <Point>EL REY</Point>
+            <Point>ISLA BLANCA</Point>
+            <Point>ISLA HOLBOX</Point>
+            <Point>ISLA MUJERES</Point>
+            <Point>KASAHE</Point>
+            <Point>KULKANA</Point>
+            <Point>LAGOS DEL SOL</Point>
+            <Point>LEONA VICARIO</Point>
+            <Point>MOON PALACE</Point>
+            <Point>MORTERO SECO</Point>
+            <Point>POLIFORUM</Point>
+            <Point>PUERTO MORELOS</Point>
+            <Point>PUNTA CANCUN</Point>
+            <Point>PUNTA MAROMA</Point>
+            <Point>PUNTA NIZUC</Point>
+            <Point>TAJAMAR</Point>
+            <Point>TREN MAYA</Point>
+            <Point>VILLA OTOCH</Point>
+        </Label>
+        <!--INDICE DE RUTAS - texto libre, VAC 8.2, 12.2 a 12.4-->
+        <Label HasLeader="false">
+            <Point Name="RUTAS VFR MMUN">+211200.000-0872000.000</Point>
+            <Point Name="LLEGADAS">+211030.000-0872000.000</Point>
+            <Point Name="BONFIL UNO: ISLA HOLBOX - BASURERO - TAJAMAR - CORREDOR VFR - MMUN">+210900.000-0872000.000</Point>
+            <Point Name="KULKANA UNO: ISLA HOLBOX - LEONA VICARIO - KULKANA - MMUN">+210730.000-0872000.000</Point>
+            <Point Name="BONFIL DOS: ISLA HOLBOX - ISLA BLANCA - TAJAMAR - CORREDOR VFR - MMUN">+210600.000-0872000.000</Point>
+            <Point Name="KULKANA DOS: PUNTA MAROMA - EL REY - CORREDOR VFR - MMUN">+210430.000-0872000.000</Point>
+            <Point Name="KULKANA TRES: LEONA VICARIO - KULKANA - MMUN">+210300.000-0872000.000</Point>
+            <Point Name="SALIDAS">+210130.000-0872000.000</Point>
+            <Point Name="TAJAMAR UNO: MMUN - CORREDOR VFR - TAJAMAR - BASURERO - ISLA HOLBOX">+210000.000-0872000.000</Point>
+            <Point Name="LEONA UNO: MMUN - KULKANA - LEONA VICARIO - ISLA HOLBOX">+205830.000-0872000.000</Point>
+            <Point Name="TAJAMAR DOS: MMUN - CORREDOR VFR - TAJAMAR - ISLA BLANCA - ISLA HOLBOX">+205700.000-0872000.000</Point>
+            <Point Name="MAROMA UNO: MMUN - CORREDOR VFR - EL REY - PUNTA MAROMA">+205530.000-0872000.000</Point>
+            <Point Name="LEONA DOS: MMUN - KULKANA - LEONA VICARIO">+205400.000-0872000.000</Point>
+            <Point Name="CRUCE DE CORREDORES: 1500 FT POR CORREDOR VFR O 900 FT CIRCUNNAVEGANDO">+205230.000-0872000.000</Point>
+            <Point Name="MORTERO SECO - VILLA OTOCH">+205100.000-0872000.000</Point>
+            <Point Name="KASAHE - MORTERO SECO - VILLA OTOCH">+204930.000-0872000.000</Point>
+            <Point Name="EL REY - MORTERO SECO - VILLA OTOCH">+204800.000-0872000.000</Point>
+            <Point Name="PUERTO MORELOS - VICTORIA - PUNTA CANCUN">+204630.000-0872000.000</Point>
+            <Point Name="VICTORIA - TAJAMAR">+204500.000-0872000.000</Point>
+            <Point Name="HELICOPTEROS: TREN MAYA - MOON PALACE 100 FT AGL, DESPUES 500 FT AGL">+204330.000-0872000.000</Point>
+            <Point Name="CORREDOR VFR 12R/30L Y 12L/30R: 1500 FT, ASIGNADO POR TWR">+204200.000-0872000.000</Point>
+            <Point Name="LLEGADAS: DESCENSO A 900 FT EN KASAHE">+204030.000-0872000.000</Point>
+        </Label>
+    </Map>
 </Maps>
