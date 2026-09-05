@@ -446,4 +446,52 @@
 +210610.179-0894023.613/
 +210612.094-0893950.089</Line>
     </Map>
+    <Map Type="System" Name="Aeropuerto - Corredores VFR" Priority="1">
+        <!--ALA FIJA-->
+        <Line Pattern="Broken">TIMUCUY/EKNAKAN/HOMUN</Line>
+        <Line Pattern="Broken">XMATKUIL/SOTUTA/ABALA/MUNA</Line>
+        <Line Pattern="Broken">LA ISLA/COUNTRY CLUB/PUERTO CHICXULUB</Line>
+        <Line Pattern="Broken">SISAL MID/CHELEM/PAPACAL/DEPORTIVA CAUCEL</Line>
+        <Line Pattern="Broken">TELCHAC/PUERTO CHICXULUB/CHELEM/PAPACAL/DEPORTIVA CAUCEL</Line>
+        <Line Pattern="Broken">TAHMEK/TIXKOKOB/HEROES</Line>
+        <Line Pattern="Broken">MAXCANU/UMAN</Line>
+        <Symbol Type="HollowSquare">
+            <Point>ABALA</Point>
+            <Point>CHELEM</Point>
+            <Point>COUNTRY CLUB</Point>
+            <Point>DEPORTIVA CAUCEL</Point>
+            <Point>EKNAKAN</Point>
+            <Point>HEROES</Point>
+            <Point>HOMUN</Point>
+            <Point>LA ISLA</Point>
+            <Point>MAXCANU</Point>
+            <Point>MUNA</Point>
+            <Point>PAPACAL</Point>
+            <Point>PUERTO CHICXULUB</Point>
+            <Point>SISAL MID</Point>
+            <Point>SOTUTA</Point>
+            <Point>TAHMEK</Point>
+            <Point>TELCHAC</Point>
+            <Point>TIMUCUY</Point>
+            <Point>TIXKOKOB</Point>
+            <Point>UMAN</Point>
+            <Point>XMATKUIL</Point>
+        </Symbol>
+        <!--nombres solo en extremos de ruta-->
+        <Label HasLeader="false">
+            <Point>DEPORTIVA CAUCEL</Point>
+            <Point>HEROES</Point>
+            <Point>HOMUN</Point>
+            <Point>LA ISLA</Point>
+            <Point>MAXCANU</Point>
+            <Point>MUNA</Point>
+            <Point>PUERTO CHICXULUB</Point>
+            <Point>SISAL MID</Point>
+            <Point>TAHMEK</Point>
+            <Point>TELCHAC</Point>
+            <Point>TIMUCUY</Point>
+            <Point>UMAN</Point>
+            <Point>XMATKUIL</Point>
+        </Label>
+    </Map>
 </Maps>
