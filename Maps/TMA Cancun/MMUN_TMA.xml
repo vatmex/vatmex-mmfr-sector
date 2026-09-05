@@ -721,36 +721,15 @@
         </Infill>
     </Map>    
     <Map Type="System" Name="Aeropuerto - Rutas VFR" Priority="1">
-        <!--ARRIVALS - VAC 12.2. CORREDOR VFR has no published coordinates, so TAJAMAR and EL REY are drawn direct to MMUN-->
-        <Line Name="BONFIL UNO" Pattern="Broken">ISLA HOLBOX/BASURERO/TAJAMAR/MMUN</Line>
-        <Line Name="KULKANA UNO" Pattern="Broken">ISLA HOLBOX/LEONA VICARIO/KULKANA/MMUN</Line>
-        <Line Name="BONFIL DOS" Pattern="Broken">ISLA HOLBOX/ISLA BLANCA/TAJAMAR/MMUN</Line>
-        <Line Name="KULKANA DOS" Pattern="Broken">PUNTA MAROMA/EL REY/MMUN</Line>
-        <Line Name="KULKANA TRES" Pattern="Broken">LEONA VICARIO/KULKANA/MMUN</Line>
-        <!--DEPARTURES - VAC 12.3-->
-        <Line Name="TAJAMAR UNO" Pattern="Broken">MMUN/TAJAMAR/BASURERO/ISLA HOLBOX</Line>
-        <Line Name="LEONA UNO" Pattern="Broken">MMUN/KULKANA/LEONA VICARIO/ISLA HOLBOX</Line>
-        <Line Name="TAJAMAR DOS" Pattern="Broken">MMUN/TAJAMAR/ISLA BLANCA/ISLA HOLBOX</Line>
-        <Line Name="MAROMA UNO" Pattern="Broken">MMUN/EL REY/PUNTA MAROMA</Line>
-        <Line Name="LEONA DOS" Pattern="Broken">MMUN/KULKANA/LEONA VICARIO</Line>
-        <!--CORRIDOR CROSSINGS - VAC 8.2. The two routes through VICTORIA are omitted: no such reporting point is published-->
-        <Line Name="CRUCE MORTERO SECO" Pattern="Broken">MORTERO SECO/VILLA OTOCH</Line>
-        <Line Name="CRUCE KASAHE" Pattern="Broken">KASAHE/MORTERO SECO/VILLA OTOCH</Line>
-        <Line Name="CRUCE EL REY" Pattern="Broken">EL REY/MORTERO SECO/VILLA OTOCH</Line>
-        <!--HELICOPTERS - VAC 12.4-->
-        <Line Name="TREN MAYA-MOON PALACE" Pattern="Broken">TREN MAYA/MOON PALACE</Line>
-        <!--RESTRICTED AREA FOR VFR - VAC 17, vertices C1 to C8-->
-        <Line Name="AREA RESTRINGIDA VFR" Pattern="Dashed">
-+210806.000-0865700.000/
-+210407.000-0865217.000/
-+210317.000-0865057.000/
-+210042.000-0864511.000/
-+205706.000-0864742.000/
-+210040.000-0865207.000/
-+210153.000-0865403.000/
-+210409.000-0865941.000/
-+210806.000-0865700.000
-        </Line>
+        <!--ALA FIJA-->
+        <Line Pattern="Broken">ISLA HOLBOX/BASURERO/TAJAMAR</Line>
+        <Line Pattern="Broken">ISLA HOLBOX/LEONA VICARIO/KULKANA</Line>
+        <Line Pattern="Broken">ISLA HOLBOX/ISLA BLANCA/TAJAMAR</Line>
+        <Line Pattern="Broken">PUNTA MAROMA/EL REY</Line>
+        <Line Pattern="Broken">KASAHE/MORTERO SECO/VILLA OTOCH</Line>
+        <Line Pattern="Broken">EL REY/MORTERO SECO</Line>
+        <!--ALA ROTATIVA-->
+        <Line Pattern="Dotted">TREN MAYA/MOON PALACE</Line>
         <Symbol Type="HollowSquare">
             <Point>BASURERO</Point>
             <Point>BONFIL</Point>
@@ -774,41 +753,58 @@
             <Point>TREN MAYA</Point>
             <Point>VILLA OTOCH</Point>
         </Symbol>
-        <!--IDENTIFICADORES DE RUTA - texto libre en el punto medio del segmento exterior, max 25 caracteres-->
+        <!--etiquetas solo en el primer y ultimo punto de cada ruta-->
         <Label HasLeader="false">
-            <Point Name="BONFIL 1 / TAJAMAR 1">+212329.500-0870913.500</Point>
-            <Point Name="BONFIL 2 / TAJAMAR 2">+212703.500-0870525.500</Point>
-            <Point Name="KULKANA 1 / LEONA 1">+211510.000-0871738.000</Point>
-            <Point Name="KULKANA 3 / LEONA 2">+210007.000-0870311.500</Point>
-            <Point Name="KULKANA 2 / MAROMA 1">+204752.000-0865925.500</Point>
-            <Point Name="CRUCE CORREDOR 1500FT">+210547.500-0865933.000</Point>
-            <Point Name="HELI 100FT AGL">+210029.500-0865122.500</Point>
-            <Point Name="AREA RESTRINGIDA VFR">+210230.000-0865222.250</Point>
-        </Label>
-    </Map>
-    <Map Type="System" Name="Aeropuerto - Rutas VFR (Nombres)" Priority="1">
-        <Label HasLeader="false">
-            <Point>BASURERO</Point>
-            <Point>BONFIL</Point>
-            <Point>CAMPO MILITAR</Point>
             <Point>EL REY</Point>
-            <Point>ISLA BLANCA</Point>
             <Point>ISLA HOLBOX</Point>
-            <Point>ISLA MUJERES</Point>
             <Point>KASAHE</Point>
             <Point>KULKANA</Point>
-            <Point>LAGOS DEL SOL</Point>
             <Point>LEONA VICARIO</Point>
             <Point>MOON PALACE</Point>
-            <Point>MORTERO SECO</Point>
-            <Point>POLIFORUM</Point>
-            <Point>PUERTO MORELOS</Point>
-            <Point>PUNTA CANCUN</Point>
             <Point>PUNTA MAROMA</Point>
-            <Point>PUNTA NIZUC</Point>
             <Point>TAJAMAR</Point>
             <Point>TREN MAYA</Point>
             <Point>VILLA OTOCH</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Rutas VFR (Lista)" Priority="1">
+        <!--texto libre, max 25 caracteres por linea, cortado solo entre nombres-->
+        <Label HasLeader="false">
+            <Point Name="RUTAS VFR MMUN">+211000.000-0872800.000</Point>
+            <Point Name="BONFIL UNO">+210830.000-0872800.000</Point>
+            <Point Name="ISLA HOLBOX - BASURERO -">+210700.000-0872800.000</Point>
+            <Point Name="TAJAMAR">+210530.000-0872800.000</Point>
+            <Point Name="KULKANA UNO">+210400.000-0872800.000</Point>
+            <Point Name="ISLA HOLBOX -">+210230.000-0872800.000</Point>
+            <Point Name="LEONA VICARIO - KULKANA">+210100.000-0872800.000</Point>
+            <Point Name="BONFIL DOS">+205930.000-0872800.000</Point>
+            <Point Name="ISLA HOLBOX - ISLA BLANCA">+205800.000-0872800.000</Point>
+            <Point Name="TAJAMAR">+205630.000-0872800.000</Point>
+            <Point Name="KULKANA DOS">+205500.000-0872800.000</Point>
+            <Point Name="PUNTA MAROMA - EL REY">+205330.000-0872800.000</Point>
+            <Point Name="KULKANA TRES">+205200.000-0872800.000</Point>
+            <Point Name="LEONA VICARIO - KULKANA">+205030.000-0872800.000</Point>
+            <Point Name="TAJAMAR UNO">+204900.000-0872800.000</Point>
+            <Point Name="TAJAMAR - BASURERO -">+204730.000-0872800.000</Point>
+            <Point Name="ISLA HOLBOX">+204600.000-0872800.000</Point>
+            <Point Name="LEONA UNO">+204430.000-0872800.000</Point>
+            <Point Name="KULKANA - LEONA VICARIO -">+204300.000-0872800.000</Point>
+            <Point Name="ISLA HOLBOX">+204130.000-0872800.000</Point>
+            <Point Name="TAJAMAR DOS">+204000.000-0872800.000</Point>
+            <Point Name="TAJAMAR - ISLA BLANCA -">+203830.000-0872800.000</Point>
+            <Point Name="ISLA HOLBOX">+203700.000-0872800.000</Point>
+            <Point Name="MAROMA UNO">+203530.000-0872800.000</Point>
+            <Point Name="EL REY - PUNTA MAROMA">+203400.000-0872800.000</Point>
+            <Point Name="LEONA DOS">+203230.000-0872800.000</Point>
+            <Point Name="KULKANA - LEONA VICARIO">+203100.000-0872800.000</Point>
+            <Point Name="CRUCE KASAHE">+202930.000-0872800.000</Point>
+            <Point Name="KASAHE - MORTERO SECO -">+202800.000-0872800.000</Point>
+            <Point Name="VILLA OTOCH">+202630.000-0872800.000</Point>
+            <Point Name="CRUCE EL REY">+202500.000-0872800.000</Point>
+            <Point Name="EL REY - MORTERO SECO -">+202330.000-0872800.000</Point>
+            <Point Name="VILLA OTOCH">+202200.000-0872800.000</Point>
+            <Point Name="HELICOPTEROS">+202030.000-0872800.000</Point>
+            <Point Name="TREN MAYA - MOON PALACE">+201900.000-0872800.000</Point>
         </Label>
     </Map>
 </Maps>
