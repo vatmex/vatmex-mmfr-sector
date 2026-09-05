@@ -867,4 +867,103 @@
 +203958.418-1032824.693/
 +204002.071-1032852.489</Line>
     </Map>
+    <Map Type="System" Name="Aeropuerto - Corredores VFR" Priority="1">
+        <!--ALA FIJA-->
+        <Line Pattern="Broken">CUEXCO/PIRAMIDE</Line>
+        <Line Pattern="Broken">ESTADIO/CAMPO DE GOLF</Line>
+        <Line Pattern="Broken">GUACHINANGO/LAGUNILLAS/QUILILLA/ZACOALCO</Line>
+        <Line Pattern="Broken">ISLA DEL PRESIDIO/PACO/CAJITITLAN</Line>
+        <Line Pattern="Broken">LAGUNA SECA/ZAPOTITLAN DE HGO/VIVEROS GDL/JOCOTEPEC/SAN JUAN COSALA/PACO</Line>
+        <Line Pattern="Broken">OCOTLAN/ISLA DEL PRESIDIO/PACO/PIRAMIDE</Line>
+        <Line Pattern="Broken">ZAPOTLANEJO/CASETA DE COBRO/TONALA</Line>
+        <Line Pattern="Broken">CAMPO DE GOLF/TONALA/CASETA DE COBRO/ZAPOTLANEJO</Line>
+        <Line Pattern="Broken">PIRAMIDE/CAJITITLAN</Line>
+        <Line Pattern="Broken">SAN FRANCISCO DE IXCATAN/LOS CAMACHOS/ESTADIO</Line>
+        <Line Pattern="Broken">QUILILLA/CRUCERO MACRO/CUEXCO</Line>
+        <!--ALA ROTATIVA-->
+        <Line Pattern="Dotted">GASOLINERA/HOSPITAL CIVIL ORIENTE/CASETA DE COBRO</Line>
+        <Line Pattern="Dotted">FATO/PRESA MALENO/CISTERNA/IMSS 180/OUTLET</Line>
+        <Line Pattern="Dotted">FATO/VFG/PACO</Line>
+        <Line Pattern="Dotted">FATO/PRESA MALENO/CISTERNA/TLAJOMULCO/SANTA CRUZ</Line>
+        <Line Pattern="Dotted">SANTA CRUZ/OUTLET/COSTCO/IXTEPETE/METROPOLITANO/AUTONOMA</Line>
+        <Line Pattern="Dotted">RETORNO/UTJ/METROPOLITANO/ESTADIO CHIVAS</Line>
+        <Line Pattern="Dotted">ESTADIO CHIVAS/METROPOLITANO/HOTEL TAPATIO/CAMPO DE GOLF/RETORNO</Line>
+        <Symbol Type="HollowSquare">
+            <Point>ACATLAN</Point>
+            <Point>AMECA</Point>
+            <Point>AUTONOMA</Point>
+            <Point>CAJITITLAN</Point>
+            <Point>CAMPO DE GOLF</Point>
+            <Point>CASETA DE COBRO</Point>
+            <Point>CENTRO LOGISTICO</Point>
+            <Point>CISTERNA</Point>
+            <Point>COSTCO</Point>
+            <Point>CRUCERO MACRO</Point>
+            <Point>CUEXCO</Point>
+            <Point>ESTADIO</Point>
+            <Point>ESTADIO CHIVAS</Point>
+            <Point>FATO</Point>
+            <Point>GASOLINERA</Point>
+            <Point>GUACHINANGO</Point>
+            <Point>HOSPITAL CIVIL ORIENTE</Point>
+            <Point>HOTEL TAPATIO</Point>
+            <Point>HYATT</Point>
+            <Point>IMSS 180</Point>
+            <Point>ISLA DEL PRESIDIO</Point>
+            <Point>IXTEPETE</Point>
+            <Point>JOCOTEPEC</Point>
+            <Point>LAGUNA SECA</Point>
+            <Point>LAGUNILLAS</Point>
+            <Point>LOS CAMACHOS</Point>
+            <Point>METROPOLITANO</Point>
+            <Point>OCOTLAN</Point>
+            <Point>OUTLET</Point>
+            <Point>PACO</Point>
+            <Point>PIRAMIDE</Point>
+            <Point>PLANTA</Point>
+            <Point>PONCITLAN</Point>
+            <Point>PRESA MALENO</Point>
+            <Point>QUILILLA</Point>
+            <Point>RETORNO</Point>
+            <Point>SAN FRANCISCO DE IXCATAN</Point>
+            <Point>SAN JUAN COSALA</Point>
+            <Point>SANTA CRUZ</Point>
+            <Point>TLAJOMULCO</Point>
+            <Point>TONALA</Point>
+            <Point>UTJ</Point>
+            <Point>VFG</Point>
+            <Point>VIVEROS GDL</Point>
+            <Point>ZACOALCO</Point>
+            <Point>ZAPOTITLAN DE HGO</Point>
+            <Point>ZAPOTLAN DEL REY</Point>
+            <Point>ZAPOTLANEJO</Point>
+        </Symbol>
+        <!--nombres solo en extremos de ruta-->
+        <Label HasLeader="false">
+            <Point>AUTONOMA</Point>
+            <Point>CAJITITLAN</Point>
+            <Point>CAMPO DE GOLF</Point>
+            <Point>CASETA DE COBRO</Point>
+            <Point>CISTERNA</Point>
+            <Point>CUEXCO</Point>
+            <Point>ESTADIO</Point>
+            <Point>ESTADIO CHIVAS</Point>
+            <Point>GASOLINERA</Point>
+            <Point>GUACHINANGO</Point>
+            <Point>ISLA DEL PRESIDIO</Point>
+            <Point>LAGUNA SECA</Point>
+            <Point>OCOTLAN</Point>
+            <Point>OUTLET</Point>
+            <Point>PACO</Point>
+            <Point>PIRAMIDE</Point>
+            <Point>QUILILLA</Point>
+            <Point>RETORNO</Point>
+            <Point>SAN FRANCISCO DE IXCATAN</Point>
+            <Point>SANTA CRUZ</Point>
+            <Point>TLAJOMULCO</Point>
+            <Point>TONALA</Point>
+            <Point>ZACOALCO</Point>
+            <Point>ZAPOTLANEJO</Point>
+        </Label>
+    </Map>
 </Maps>

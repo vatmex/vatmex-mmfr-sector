@@ -900,7 +900,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Tijuana / Tijuana Clearance</Line>
+                <Line>Autorizacion Tijuana / Tijuana Clearance</Line>
                 <Line>Serving MMTJ departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1490,7 +1490,8 @@
             <Maps>
                 <Map Name="TMA Merida/Aeropuerto - Pistas" />
                 <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
-
+                <Map Name="TMA Merida/Pista 10 - ILS X 10" />
+                <Map Name="TMA Merida/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -1508,7 +1509,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Merida / Merida Delivery</Line>
+                <Line>Autorizacion Merida / Merida Delivery</Line>
                 <Line>Serving MMMD departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1518,10 +1519,11 @@
                 <Sector Name="MDTW1" />
             </Sectors>
             <Maps>
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
                 <Map Name="TMA Merida/Aeropuerto - Pistas" />
                 <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
                 <Map Name="TMA Merida/Pista 10 - ILS X 10" />
-                <Map Name="TMA Merida/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Merida/Aeropuerto - Corredores VFR" />
             </Maps>
             <!--
             <ATIS>
@@ -1790,7 +1792,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Tulum / Tulum Delivery</Line>
+                <Line>Autorizacion Tulum / Tulum Delivery</Line>
                 <Line>Serving MMTL departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1882,13 +1884,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
-                <Map Name="ACC Merida/Limites - Sectores" />
-
+                <Map Name="TMA Cancun/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -1907,7 +1906,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Cancun / Cancun Delivery</Line>
+                <Line>Autorizacion Cancun / Cancun Delivery</Line>
                 <Line>Serving MMUN departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1921,14 +1920,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
-
-                <Map Name="ACC Merida/Limites - Sectores" />
-
+                <Map Name="TMA Cancun/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -1961,14 +1956,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
-
-                <Map Name="ACC Merida/Limites - Sectores" />
-
+                <Map Name="TMA Cancun/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -1995,16 +1986,16 @@
                 <Point>+210236.205-0865233.131</Point>
             </ManualVisibility>
         </Position>
-        <Position Name="Torre Cancun - UNTW1" Type="ASD" DefaultCenter="+211005.697-0865157.398" DefaultRange="95" MagneticVariation="+2" VisibilityRange="50">
+        <Position Name="Torre Cancun - UNTW1" Type="ASD" DefaultCenter="+210224.000-0865225.000" DefaultRange="95" MagneticVariation="+2" VisibilityRange="50">
             <Sectors>
                 <Sector Name="UNTW1" />
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
+                <Map Name="TMA Cancun/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -2783,7 +2774,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Guadalajara / Guadalajara Delivery</Line>
+                <Line>Autorizacion Guadalajara / Guadalajara Delivery</Line>
                 <Line>Serving MMGL departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -2863,15 +2854,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
-
                 <Map Name="TMA Guadalajara/ Pistas 29 - ILS X 29L" />
                 <Map Name="TMA Guadalajara/[Pistas 11 - ILS X 11R]" />
-
-                <Map Name="ACC Mexico/Limites - Sectores" />
-
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="TMA Guadalajara/Aeropuerto - Corredores VFR" />                
             </Maps>
             <!--
             <ATIS>
@@ -3148,7 +3134,7 @@
             <Maps>
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
                 <Map Name="TMA Mexico/MMCB - Zona de Control (CTR)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -3174,13 +3160,9 @@
             <Maps>
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/z MMPB - Sectores Aproximacion [Contorno]" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
                 <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMPB - Pista 35 - RNP 35" />
-                <Map Name="[Universal]/Sector - Radioayudas" />
-                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMPB" Visible="false" />
@@ -3202,16 +3184,11 @@
                 <Sector Name="MXCDL" />
             </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 23 - ILS Z 23L]" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
-                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
-                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
-
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMX" Visible="false" />
@@ -3225,7 +3202,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Mexico / Mexico Delivery</Line>
+                <Line>Autorizacion Mexico / Mexico Delivery</Line>
                 <Line>ACARS-DCL [MMMX]</Line>
                 <Line>Serving MMMX departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -3236,16 +3213,11 @@
                 <Sector Name="MXSMC" />
             </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
-                <Map Name="TMA Mexico/ Aeropuerto - Rutas VFR" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 23 - ILS Z 23L]" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
-                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
-                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
-
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMX" Visible="false" />
@@ -3270,16 +3242,11 @@
                 <Sector Name="MXRMP" />
             </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
-                <Map Name="TMA Mexico/ Aeropuerto - Rutas VFR" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 23 - ILS Z 23L]" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
-                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
-                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
-
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
                 <Window Type="ADEP" Beacon="MMMX" Visible="false" />
@@ -3302,20 +3269,11 @@
                 <Sector Name="MXTWR" />
             </Sectors>
             <Maps>
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Z 05R" />
-                <Map Name="TMA Mexico/ MMMX - Pistas 23 - ILS Z 23L" />
+                <Map Name="TMA Mexico/[MMMX - Pistas 23 - ILS Z 23L]" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
-                <Map Name="TMA Mexico/MMMX - Rutas VFR" />
-                <Map Name="TMA Mexico/MMPB - Rutas VFR" />
-                <Map Name="TMA Mexico/MMSM - Rutas VFR" />
-                <Map Name="TMA Mexico/MMTO - Rutas VFR" />
-
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
-                <Map Name="ACC Mexico/Cobertura Radar" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
             </Maps>
             <!--
             <ATIS>
@@ -3345,14 +3303,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
-
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
-
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3365,7 +3319,7 @@
             </Strips>
             <CFL QuickLevel="29000" />
             <ControllerInfo>
-                <Line>Entrega Santa Lucia / Santa Lucia Delivery</Line>
+                <Line>Autorizacion Santa Lucia / Santa Lucia Delivery</Line>
                 <Line>Serving MMSM departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -3376,14 +3330,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
-
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
-
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3407,14 +3357,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
-                <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
-
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
-
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3444,18 +3390,9 @@
             <Maps>
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/z MMPB - Sectores Aproximacion [Contorno]" />
-                <Map Name="TMA Mexico/z MMTO - Sector Aproximacion [Contorno]" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
-
-                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
                 <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
                 <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
-
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="[Universal]/Sector - Radioayudas" />
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3482,18 +3419,9 @@
             <Maps>
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Mexico/z MMPB - Sectores Aproximacion [Contorno]" />
-                <Map Name="TMA Mexico/z MMTO - Sector Aproximacion [Contorno]" />
-                <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
-
-                <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
+                <Map Name="TMA Mexico/Aeropuerto - Corredores VFR" />
                 <Map Name="TMA Mexico/MMTO - Pista 15 - ILS Z 15" />
                 <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
-
-                <Map Name="ACC Mexico/Limites - Sectores" />
-                <Map Name="[Universal]/Sector - Radioayudas" />
-                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -3664,7 +3592,6 @@
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/ Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Mexico/z MMTO - Sector Aproximacion [Contorno]" />
                 <Map Name="TMA Mexico/MMMX - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMTO - Zona de Control (CTR)" />
@@ -5327,7 +5254,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Monterrey / Monterrey Delivery</Line>
+                <Line>Autorizacion Monterrey / Monterrey Delivery</Line>
                 <Line>Serving MMMY departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
