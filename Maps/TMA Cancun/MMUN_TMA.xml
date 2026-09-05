@@ -824,58 +824,60 @@
             <Point>TREN MAYA</Point>
             <Point>VILLA OTOCH</Point>
         </Symbol>
-        <!--etiquetas solo en el primer y ultimo punto de cada ruta-->
+        <!--nombres solo en extremos de ruta-->
         <Label HasLeader="false">
             <Point>EL REY</Point>
             <Point>ISLA HOLBOX</Point>
             <Point>KASAHE</Point>
             <Point>KULKANA</Point>
             <Point>LEONA VICARIO</Point>
-            <Point>MOON PALACE</Point>
             <Point>PUNTA MAROMA</Point>
             <Point>TAJAMAR</Point>
-            <Point>TREN MAYA</Point>
             <Point>VILLA OTOCH</Point>
         </Label>
-    </Map>
-    <Map Type="System" Name="Aeropuerto - Rutas VFR (Lista)" Priority="1">
-        <!--texto libre, max 25 caracteres por linea, cortado solo entre nombres-->
+        <!--numeros en puntos intermedios, y lista de rutas-->
         <Label HasLeader="false">
-            <Point Name="RUTAS VFR MMUN">+211000.000-0872800.000</Point>
-            <Point Name="BONFIL UNO">+210830.000-0872800.000</Point>
-            <Point Name="ISLA HOLBOX - BASURERO -">+210700.000-0872800.000</Point>
-            <Point Name="TAJAMAR">+210530.000-0872800.000</Point>
-            <Point Name="KULKANA UNO">+210400.000-0872800.000</Point>
-            <Point Name="ISLA HOLBOX -">+210230.000-0872800.000</Point>
-            <Point Name="LEONA VICARIO - KULKANA">+210100.000-0872800.000</Point>
-            <Point Name="BONFIL DOS">+205930.000-0872800.000</Point>
-            <Point Name="ISLA HOLBOX - ISLA BLANCA">+205800.000-0872800.000</Point>
-            <Point Name="TAJAMAR">+205630.000-0872800.000</Point>
-            <Point Name="KULKANA DOS">+205500.000-0872800.000</Point>
-            <Point Name="PUNTA MAROMA - EL REY">+205330.000-0872800.000</Point>
-            <Point Name="KULKANA TRES">+205200.000-0872800.000</Point>
-            <Point Name="LEONA VICARIO - KULKANA">+205030.000-0872800.000</Point>
-            <Point Name="TAJAMAR UNO">+204900.000-0872800.000</Point>
-            <Point Name="TAJAMAR - BASURERO -">+204730.000-0872800.000</Point>
-            <Point Name="ISLA HOLBOX">+204600.000-0872800.000</Point>
-            <Point Name="LEONA UNO">+204430.000-0872800.000</Point>
-            <Point Name="KULKANA - LEONA VICARIO -">+204300.000-0872800.000</Point>
-            <Point Name="ISLA HOLBOX">+204130.000-0872800.000</Point>
-            <Point Name="TAJAMAR DOS">+204000.000-0872800.000</Point>
-            <Point Name="TAJAMAR - ISLA BLANCA -">+203830.000-0872800.000</Point>
-            <Point Name="ISLA HOLBOX">+203700.000-0872800.000</Point>
-            <Point Name="MAROMA UNO">+203530.000-0872800.000</Point>
-            <Point Name="EL REY - PUNTA MAROMA">+203400.000-0872800.000</Point>
-            <Point Name="LEONA DOS">+203230.000-0872800.000</Point>
-            <Point Name="KULKANA - LEONA VICARIO">+203100.000-0872800.000</Point>
-            <Point Name="CRUCE KASAHE">+202930.000-0872800.000</Point>
-            <Point Name="KASAHE - MORTERO SECO -">+202800.000-0872800.000</Point>
-            <Point Name="VILLA OTOCH">+202630.000-0872800.000</Point>
-            <Point Name="CRUCE EL REY">+202500.000-0872800.000</Point>
-            <Point Name="EL REY - MORTERO SECO -">+202330.000-0872800.000</Point>
-            <Point Name="VILLA OTOCH">+202200.000-0872800.000</Point>
-            <Point Name="HELICOPTEROS">+202030.000-0872800.000</Point>
-            <Point Name="TREN MAYA - MOON PALACE">+201900.000-0872800.000</Point>
+            <Point Name="RUTAS VFR MMUN">+212708.000-0862453.000</Point>
+            <Point Name="BONFIL UNO">+212538.000-0862453.000</Point>
+            <Point Name="ISLA HOLBOX - 1 BASURERO">+212408.000-0862453.000</Point>
+            <Point Name="TAJAMAR">+212238.000-0862453.000</Point>
+            <Point Name="KULKANA UNO">+212108.000-0862453.000</Point>
+            <Point Name="ISLA HOLBOX -">+211938.000-0862453.000</Point>
+            <Point Name="LEONA VICARIO - KULKANA">+211808.000-0862453.000</Point>
+            <Point Name="BONFIL DOS">+211638.000-0862453.000</Point>
+            <Point Name="ISLA HOLBOX -">+211508.000-0862453.000</Point>
+            <Point Name="2 ISLA BLANCA - TAJAMAR">+212708.000-0863053.000</Point>
+            <Point Name="KULKANA DOS">+212538.000-0863053.000</Point>
+            <Point Name="PUNTA MAROMA - EL REY">+212408.000-0863053.000</Point>
+            <Point Name="KULKANA TRES">+212238.000-0863053.000</Point>
+            <Point Name="LEONA VICARIO - KULKANA">+212108.000-0863053.000</Point>
+            <Point Name="TAJAMAR UNO">+211938.000-0863053.000</Point>
+            <Point Name="TAJAMAR - 1 BASURERO -">+211808.000-0863053.000</Point>
+            <Point Name="ISLA HOLBOX">+211638.000-0863053.000</Point>
+            <Point Name="LEONA UNO">+211508.000-0863053.000</Point>
+            <Point Name="KULKANA - LEONA VICARIO -">+212708.000-0863653.000</Point>
+            <Point Name="ISLA HOLBOX">+212538.000-0863653.000</Point>
+            <Point Name="TAJAMAR DOS">+212408.000-0863653.000</Point>
+            <Point Name="TAJAMAR - 2 ISLA BLANCA -">+212238.000-0863653.000</Point>
+            <Point Name="ISLA HOLBOX">+212108.000-0863653.000</Point>
+            <Point Name="MAROMA UNO">+211938.000-0863653.000</Point>
+            <Point Name="EL REY - PUNTA MAROMA">+211808.000-0863653.000</Point>
+            <Point Name="LEONA DOS">+211638.000-0863653.000</Point>
+            <Point Name="KULKANA - LEONA VICARIO">+211508.000-0863653.000</Point>
+            <Point Name="CRUCE KASAHE">+212708.000-0864253.000</Point>
+            <Point Name="KASAHE - 4 MORTERO SECO -">+212538.000-0864253.000</Point>
+            <Point Name="VILLA OTOCH">+212408.000-0864253.000</Point>
+            <Point Name="CRUCE EL REY">+212238.000-0864253.000</Point>
+            <Point Name="EL REY - 4 MORTERO SECO -">+212108.000-0864253.000</Point>
+            <Point Name="VILLA OTOCH">+211938.000-0864253.000</Point>
+            <Point Name="HELICOPTEROS">+211808.000-0864253.000</Point>
+            <Point Name="5 TREN MAYA -">+211638.000-0864253.000</Point>
+            <Point Name="3 MOON PALACE">+211508.000-0864253.000</Point>
+            <Point Name="1">+211554.000-0865526.000</Point>
+            <Point Name="2">+212302.000-0864750.000</Point>
+            <Point Name="3">+205919.000-0864936.000</Point>
+            <Point Name="4">+210241.000-0870429.000</Point>
+            <Point Name="5">+210140.000-0865309.000</Point>
         </Label>
     </Map>
 </Maps>

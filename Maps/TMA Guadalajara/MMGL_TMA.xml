@@ -938,7 +938,7 @@
             <Point>ZAPOTLAN DEL REY</Point>
             <Point>ZAPOTLANEJO</Point>
         </Symbol>
-        <!--etiquetas solo en el primer y ultimo punto de cada ruta-->
+        <!--nombres solo en extremos de ruta-->
         <Label HasLeader="false">
             <Point>AUTONOMA</Point>
             <Point>CAJITITLAN</Point>
@@ -947,7 +947,6 @@
             <Point>CUEXCO</Point>
             <Point>ESTADIO</Point>
             <Point>ESTADIO CHIVAS</Point>
-            <Point>FATO</Point>
             <Point>GASOLINERA</Point>
             <Point>GUACHINANGO</Point>
             <Point>ISLA DEL PRESIDIO</Point>
@@ -964,76 +963,94 @@
             <Point>ZACOALCO</Point>
             <Point>ZAPOTLANEJO</Point>
         </Label>
-    </Map>
-    <Map Type="System" Name="Aeropuerto - Rutas VFR (Lista)" Priority="1">
-        <!--texto libre, max 25 caracteres por linea, cortado solo entre nombres-->
+        <!--numeros en puntos intermedios, y lista de rutas-->
         <Label HasLeader="false">
-            <Point Name="MMGL ALA FIJA">+204656.000-1034520.000</Point>
-            <Point Name="CUEXCO">+204526.000-1034520.000</Point>
-            <Point Name="CUEXCO - PIRAMIDE">+204356.000-1034520.000</Point>
-            <Point Name="ESTADIO">+204226.000-1034520.000</Point>
-            <Point Name="ESTADIO - CAMPO DE GOLF">+204056.000-1034520.000</Point>
-            <Point Name="GUACHINANGO">+203926.000-1034520.000</Point>
-            <Point Name="GUACHINANGO - LAGUNILLAS">+203756.000-1034520.000</Point>
-            <Point Name="QUILILLA - ZACOALCO">+203626.000-1034520.000</Point>
-            <Point Name="ISLA DEL PRESIDIO">+203456.000-1034520.000</Point>
-            <Point Name="ISLA DEL PRESIDIO - PACO">+203326.000-1034520.000</Point>
-            <Point Name="CAJITITLAN">+203156.000-1034520.000</Point>
-            <Point Name="LAGUNA SECA">+203026.000-1034520.000</Point>
-            <Point Name="LAGUNA SECA -">+202856.000-1034520.000</Point>
-            <Point Name="ZAPOTITLAN DE HGO -">+202726.000-1034520.000</Point>
-            <Point Name="VIVEROS GDL - JOCOTEPEC -">+202556.000-1034520.000</Point>
-            <Point Name="SAN JUAN COSALA - PACO">+202426.000-1034520.000</Point>
-            <Point Name="OCOTLAN">+202256.000-1034520.000</Point>
-            <Point Name="OCOTLAN -">+202126.000-1034520.000</Point>
-            <Point Name="ISLA DEL PRESIDIO - PACO">+201956.000-1034520.000</Point>
-            <Point Name="PIRAMIDE">+201826.000-1034520.000</Point>
-            <Point Name="ZAPOTLANEJO">+201656.000-1034520.000</Point>
-            <Point Name="ZAPOTLANEJO -">+201526.000-1034520.000</Point>
-            <Point Name="CASETA DE COBRO - TONALA">+201356.000-1034520.000</Point>
-            <Point Name="SALIDA E-NE">+201226.000-1034520.000</Point>
-            <Point Name="CAMPO DE GOLF - TONALA -">+201056.000-1034520.000</Point>
-            <Point Name="CASETA DE COBRO -">+200926.000-1034520.000</Point>
-            <Point Name="ZAPOTLANEJO">+200756.000-1034520.000</Point>
-            <Point Name="SALIDA S">+200626.000-1034520.000</Point>
-            <Point Name="PIRAMIDE - CAJITITLAN">+200456.000-1034520.000</Point>
-            <Point Name="CORREDOR NOVEMBER">+200326.000-1034520.000</Point>
-            <Point Name="SAN FRANCISCO DE IXCATAN">+200156.000-1034520.000</Point>
-            <Point Name="LOS CAMACHOS - ESTADIO">+200026.000-1034520.000</Point>
-            <Point Name="CORREDOR QUEBEC">+195856.000-1034520.000</Point>
-            <Point Name="QUILILLA - CRUCERO MACRO">+195726.000-1034520.000</Point>
-            <Point Name="CUEXCO">+195556.000-1034520.000</Point>
-        </Label>
-        <Label HasLeader="false">
-            <Point Name="MMGL HELICOPTEROS">+204656.000-1035820.000</Point>
-            <Point Name="CORREDOR GOLF">+204526.000-1035820.000</Point>
-            <Point Name="GASOLINERA -">+204356.000-1035820.000</Point>
-            <Point Name="HOSPITAL CIVIL ORIENTE -">+204226.000-1035820.000</Point>
-            <Point Name="CASETA DE COBRO">+204056.000-1035820.000</Point>
-            <Point Name="CORREDOR OSCAR">+203926.000-1035820.000</Point>
-            <Point Name="FATO - PRESA MALENO -">+203756.000-1035820.000</Point>
-            <Point Name="CISTERNA - IMSS 180 -">+203626.000-1035820.000</Point>
-            <Point Name="OUTLET">+203456.000-1035820.000</Point>
-            <Point Name="CORREDOR ROMEO">+203326.000-1035820.000</Point>
-            <Point Name="FATO - VFG - PACO">+203156.000-1035820.000</Point>
-            <Point Name="CORREDOR SIERRA">+203026.000-1035820.000</Point>
-            <Point Name="FATO - PRESA MALENO -">+202856.000-1035820.000</Point>
-            <Point Name="CISTERNA - TLAJOMULCO -">+202726.000-1035820.000</Point>
-            <Point Name="SANTA CRUZ DE LAS FLORES">+202556.000-1035820.000</Point>
-            <Point Name="CORREDOR VICTOR">+202426.000-1035820.000</Point>
-            <Point Name="SANTA CRUZ DE LAS FLORES">+202256.000-1035820.000</Point>
-            <Point Name="OUTLET - COSTCO -">+202126.000-1035820.000</Point>
-            <Point Name="IXTEPETE - METROPOLITANO">+201956.000-1035820.000</Point>
-            <Point Name="AUTONOMA">+201826.000-1035820.000</Point>
-            <Point Name="CORREDOR CHARLIE">+201656.000-1035820.000</Point>
-            <Point Name="RETORNO - UTJ -">+201526.000-1035820.000</Point>
-            <Point Name="METROPOLITANO -">+201356.000-1035820.000</Point>
-            <Point Name="ESTADIO CHIVAS">+201226.000-1035820.000</Point>
-            <Point Name="CORREDOR JULIETT">+201056.000-1035820.000</Point>
-            <Point Name="ESTADIO CHIVAS -">+200926.000-1035820.000</Point>
-            <Point Name="METROPOLITANO -">+200756.000-1035820.000</Point>
-            <Point Name="HOTEL TAPATIO -">+200626.000-1035820.000</Point>
-            <Point Name="CAMPO DE GOLF - RETORNO">+200456.000-1035820.000</Point>
+            <Point Name="RUTAS VFR MMGL">+205318.000-1032242.000</Point>
+            <Point Name="CUEXCO">+205148.000-1032242.000</Point>
+            <Point Name="CUEXCO - PIRAMIDE">+205018.000-1032242.000</Point>
+            <Point Name="ESTADIO">+204848.000-1032242.000</Point>
+            <Point Name="ESTADIO - CAMPO DE GOLF">+204718.000-1032242.000</Point>
+            <Point Name="GUACHINANGO">+204548.000-1032242.000</Point>
+            <Point Name="GUACHINANGO -">+204418.000-1032242.000</Point>
+            <Point Name="10 LAGUNILLAS - QUILILLA">+205318.000-1032842.000</Point>
+            <Point Name="ZACOALCO">+205148.000-1032842.000</Point>
+            <Point Name="ISLA DEL PRESIDIO">+205018.000-1032842.000</Point>
+            <Point Name="ISLA DEL PRESIDIO - PACO">+204848.000-1032842.000</Point>
+            <Point Name="CAJITITLAN">+204718.000-1032842.000</Point>
+            <Point Name="LAGUNA SECA">+204548.000-1032842.000</Point>
+            <Point Name="LAGUNA SECA -">+204418.000-1032842.000</Point>
+            <Point Name="19 ZAPOTITLAN DE HGO -">+205318.000-1033442.000</Point>
+            <Point Name="18 VIVEROS GDL -">+205148.000-1033442.000</Point>
+            <Point Name="9 JOCOTEPEC -">+205018.000-1033442.000</Point>
+            <Point Name="14 SAN JUAN COSALA - PACO">+204848.000-1033442.000</Point>
+            <Point Name="OCOTLAN">+204718.000-1033442.000</Point>
+            <Point Name="OCOTLAN -">+204548.000-1033442.000</Point>
+            <Point Name="ISLA DEL PRESIDIO - PACO">+204418.000-1033442.000</Point>
+            <Point Name="PIRAMIDE">+205318.000-1034042.000</Point>
+            <Point Name="ZAPOTLANEJO">+205148.000-1034042.000</Point>
+            <Point Name="ZAPOTLANEJO -">+205018.000-1034042.000</Point>
+            <Point Name="CASETA DE COBRO - TONALA">+204848.000-1034042.000</Point>
+            <Point Name="SALIDA E-NE">+204718.000-1034042.000</Point>
+            <Point Name="CAMPO DE GOLF - TONALA -">+204548.000-1034042.000</Point>
+            <Point Name="CASETA DE COBRO -">+204418.000-1034042.000</Point>
+            <Point Name="ZAPOTLANEJO">+205318.000-1034642.000</Point>
+            <Point Name="SALIDA S">+205148.000-1034642.000</Point>
+            <Point Name="PIRAMIDE - CAJITITLAN">+205018.000-1034642.000</Point>
+            <Point Name="CORREDOR NOVEMBER">+204848.000-1034642.000</Point>
+            <Point Name="SAN FRANCISCO DE IXCATAN">+204718.000-1034642.000</Point>
+            <Point Name="11 LOS CAMACHOS - ESTADIO">+204548.000-1034642.000</Point>
+            <Point Name="CORREDOR QUEBEC">+204418.000-1034642.000</Point>
+            <Point Name="QUILILLA -">+205318.000-1035242.000</Point>
+            <Point Name="3 CRUCERO MACRO - CUEXCO">+205148.000-1035242.000</Point>
+            <Point Name="CORREDOR GOLF">+205018.000-1035242.000</Point>
+            <Point Name="GASOLINERA -">+204848.000-1035242.000</Point>
+            <Point Name="5 HOSPITAL CIVIL ORIENTE">+204718.000-1035242.000</Point>
+            <Point Name="CASETA DE COBRO">+204548.000-1035242.000</Point>
+            <Point Name="CORREDOR OSCAR">+204418.000-1035242.000</Point>
+            <Point Name="4 FATO - 13 PRESA MALENO">+205318.000-1035842.000</Point>
+            <Point Name="1 CISTERNA - 7 IMSS 180 -">+205148.000-1035842.000</Point>
+            <Point Name="OUTLET">+205018.000-1035842.000</Point>
+            <Point Name="CORREDOR ROMEO">+204848.000-1035842.000</Point>
+            <Point Name="4 FATO - 17 VFG - PACO">+204718.000-1035842.000</Point>
+            <Point Name="CORREDOR SIERRA">+204548.000-1035842.000</Point>
+            <Point Name="4 FATO - 13 PRESA MALENO">+204418.000-1035842.000</Point>
+            <Point Name="1 CISTERNA -">+205318.000-1040442.000</Point>
+            <Point Name="15 TLAJOMULCO -">+205148.000-1040442.000</Point>
+            <Point Name="SANTA CRUZ DE LAS FLORES">+205018.000-1040442.000</Point>
+            <Point Name="CORREDOR VICTOR">+204848.000-1040442.000</Point>
+            <Point Name="SANTA CRUZ DE LAS FLORES">+204718.000-1040442.000</Point>
+            <Point Name="OUTLET - 2 COSTCO -">+204548.000-1040442.000</Point>
+            <Point Name="8 IXTEPETE -">+204418.000-1040442.000</Point>
+            <Point Name="12 METROPOLITANO -">+205318.000-1041042.000</Point>
+            <Point Name="AUTONOMA">+205148.000-1041042.000</Point>
+            <Point Name="CORREDOR CHARLIE">+205018.000-1041042.000</Point>
+            <Point Name="RETORNO - 16 UTJ -">+204848.000-1041042.000</Point>
+            <Point Name="12 METROPOLITANO -">+204718.000-1041042.000</Point>
+            <Point Name="ESTADIO CHIVAS">+204548.000-1041042.000</Point>
+            <Point Name="CORREDOR JULIETT">+204418.000-1041042.000</Point>
+            <Point Name="ESTADIO CHIVAS -">+205318.000-1041642.000</Point>
+            <Point Name="12 METROPOLITANO -">+205148.000-1041642.000</Point>
+            <Point Name="6 HOTEL TAPATIO -">+205018.000-1041642.000</Point>
+            <Point Name="CAMPO DE GOLF - RETORNO">+204848.000-1041642.000</Point>
+            <Point Name="1">+202949.000-1032116.000</Point>
+            <Point Name="2">+203446.000-1032700.000</Point>
+            <Point Name="3">+202613.000-1033226.000</Point>
+            <Point Name="4">+203053.000-1031850.000</Point>
+            <Point Name="5">+203343.000-1031327.000</Point>
+            <Point Name="6">+203640.000-1031912.000</Point>
+            <Point Name="7">+203025.000-1032356.000</Point>
+            <Point Name="8">+203753.000-1032620.000</Point>
+            <Point Name="9">+201710.000-1032548.000</Point>
+            <Point Name="10">+202025.000-1035944.000</Point>
+            <Point Name="11">+204917.000-1032032.000</Point>
+            <Point Name="12">+204023.000-1032624.000</Point>
+            <Point Name="13">+203036.000-1031938.000</Point>
+            <Point Name="14">+201715.000-1032028.000</Point>
+            <Point Name="15">+202832.000-1032649.000</Point>
+            <Point Name="16">+203703.000-1032117.000</Point>
+            <Point Name="17">+202801.000-1031548.000</Point>
+            <Point Name="18">+201725.000-1032720.000</Point>
+            <Point Name="19">+201939.000-1032838.000</Point>
         </Label>
     </Map>
 </Maps>
