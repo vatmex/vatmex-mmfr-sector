@@ -514,15 +514,21 @@
             </ManualVisibility>
         </Position>
 
-        <!-- CTR Loreto -->
-        <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="55" MagneticVariation="-9">
+        <!-- ADA Loreto -->
+        <Position Name="Torre Loreto (Asesoramiento) - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="55" MagneticVariation="-9">
             <Sectors>
                 <Sector Name="LTTW1" />
             </Sectors>
             <Maps>
                 <Map Name="z ADA Loreto/Aeropuerto - Pistas" />
+                <Map Name="z ADA Loreto/Aeropuerto - Area de Asesoramiento (ADA)" />
                 <Map Name="z ADA Loreto/Aeropuerto - Zona de Control (CTR)" />
-
+                <Map Name="ACC Mazatlan/Limites - Sectores" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
