@@ -774,6 +774,19 @@
             <Point>TREN MAYA</Point>
             <Point>VILLA OTOCH</Point>
         </Symbol>
+        <!--IDENTIFICADORES DE RUTA - texto libre en el punto medio del segmento exterior, max 25 caracteres-->
+        <Label HasLeader="false">
+            <Point Name="BONFIL 1 / TAJAMAR 1">+212329.500-0870913.500</Point>
+            <Point Name="BONFIL 2 / TAJAMAR 2">+212703.500-0870525.500</Point>
+            <Point Name="KULKANA 1 / LEONA 1">+211510.000-0871738.000</Point>
+            <Point Name="KULKANA 3 / LEONA 2">+210007.000-0870311.500</Point>
+            <Point Name="KULKANA 2 / MAROMA 1">+204752.000-0865925.500</Point>
+            <Point Name="CRUCE CORREDOR 1500FT">+210547.500-0865933.000</Point>
+            <Point Name="HELI 100FT AGL">+210029.500-0865122.500</Point>
+            <Point Name="AREA RESTRINGIDA VFR">+210230.000-0865222.250</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="Aeropuerto - Rutas VFR (Nombres)" Priority="1">
         <Label HasLeader="false">
             <Point>BASURERO</Point>
             <Point>BONFIL</Point>
@@ -796,31 +809,6 @@
             <Point>TAJAMAR</Point>
             <Point>TREN MAYA</Point>
             <Point>VILLA OTOCH</Point>
-        </Label>
-        <!--INDICE DE RUTAS - texto libre, VAC 8.2, 12.2 a 12.4-->
-        <Label HasLeader="false">
-            <Point Name="RUTAS VFR MMUN">+211200.000-0872000.000</Point>
-            <Point Name="LLEGADAS">+211030.000-0872000.000</Point>
-            <Point Name="BONFIL UNO: ISLA HOLBOX - BASURERO - TAJAMAR - CORREDOR VFR - MMUN">+210900.000-0872000.000</Point>
-            <Point Name="KULKANA UNO: ISLA HOLBOX - LEONA VICARIO - KULKANA - MMUN">+210730.000-0872000.000</Point>
-            <Point Name="BONFIL DOS: ISLA HOLBOX - ISLA BLANCA - TAJAMAR - CORREDOR VFR - MMUN">+210600.000-0872000.000</Point>
-            <Point Name="KULKANA DOS: PUNTA MAROMA - EL REY - CORREDOR VFR - MMUN">+210430.000-0872000.000</Point>
-            <Point Name="KULKANA TRES: LEONA VICARIO - KULKANA - MMUN">+210300.000-0872000.000</Point>
-            <Point Name="SALIDAS">+210130.000-0872000.000</Point>
-            <Point Name="TAJAMAR UNO: MMUN - CORREDOR VFR - TAJAMAR - BASURERO - ISLA HOLBOX">+210000.000-0872000.000</Point>
-            <Point Name="LEONA UNO: MMUN - KULKANA - LEONA VICARIO - ISLA HOLBOX">+205830.000-0872000.000</Point>
-            <Point Name="TAJAMAR DOS: MMUN - CORREDOR VFR - TAJAMAR - ISLA BLANCA - ISLA HOLBOX">+205700.000-0872000.000</Point>
-            <Point Name="MAROMA UNO: MMUN - CORREDOR VFR - EL REY - PUNTA MAROMA">+205530.000-0872000.000</Point>
-            <Point Name="LEONA DOS: MMUN - KULKANA - LEONA VICARIO">+205400.000-0872000.000</Point>
-            <Point Name="CRUCE DE CORREDORES: 1500 FT POR CORREDOR VFR O 900 FT CIRCUNNAVEGANDO">+205230.000-0872000.000</Point>
-            <Point Name="MORTERO SECO - VILLA OTOCH">+205100.000-0872000.000</Point>
-            <Point Name="KASAHE - MORTERO SECO - VILLA OTOCH">+204930.000-0872000.000</Point>
-            <Point Name="EL REY - MORTERO SECO - VILLA OTOCH">+204800.000-0872000.000</Point>
-            <Point Name="PUERTO MORELOS - VICTORIA - PUNTA CANCUN">+204630.000-0872000.000</Point>
-            <Point Name="VICTORIA - TAJAMAR">+204500.000-0872000.000</Point>
-            <Point Name="HELICOPTEROS: TREN MAYA - MOON PALACE 100 FT AGL, DESPUES 500 FT AGL">+204330.000-0872000.000</Point>
-            <Point Name="CORREDOR VFR 12R/30L Y 12L/30R: 1500 FT, ASIGNADO POR TWR">+204200.000-0872000.000</Point>
-            <Point Name="LLEGADAS: DESCENSO A 900 FT EN KASAHE">+204030.000-0872000.000</Point>
         </Label>
     </Map>
 </Maps>
