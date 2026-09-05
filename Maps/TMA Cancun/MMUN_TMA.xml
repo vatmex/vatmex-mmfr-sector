@@ -830,54 +830,20 @@
             <Point>ISLA HOLBOX</Point>
             <Point>KASAHE</Point>
             <Point>KULKANA</Point>
-            <Point>LEONA VICARIO</Point>
+            <Point>MORTERO SECO</Point>
             <Point>PUNTA MAROMA</Point>
             <Point>TAJAMAR</Point>
             <Point>VILLA OTOCH</Point>
         </Label>
-        <!--numeros en puntos intermedios, y lista de rutas-->
+        <!--identificador de cada ruta, sobre el tramo exterior-->
         <Label HasLeader="false">
-            <Point Name="RUTAS VFR MMUN">+212708.000-0862453.000</Point>
-            <Point Name="BONFIL UNO">+212538.000-0862453.000</Point>
-            <Point Name="ISLA HOLBOX - 1 BASURERO">+212408.000-0862453.000</Point>
-            <Point Name="TAJAMAR">+212238.000-0862453.000</Point>
-            <Point Name="KULKANA UNO">+212108.000-0862453.000</Point>
-            <Point Name="ISLA HOLBOX -">+211938.000-0862453.000</Point>
-            <Point Name="LEONA VICARIO - KULKANA">+211808.000-0862453.000</Point>
-            <Point Name="BONFIL DOS">+211638.000-0862453.000</Point>
-            <Point Name="ISLA HOLBOX -">+211508.000-0862453.000</Point>
-            <Point Name="2 ISLA BLANCA - TAJAMAR">+212708.000-0863053.000</Point>
-            <Point Name="KULKANA DOS">+212538.000-0863053.000</Point>
-            <Point Name="PUNTA MAROMA - EL REY">+212408.000-0863053.000</Point>
-            <Point Name="KULKANA TRES">+212238.000-0863053.000</Point>
-            <Point Name="LEONA VICARIO - KULKANA">+212108.000-0863053.000</Point>
-            <Point Name="TAJAMAR UNO">+211938.000-0863053.000</Point>
-            <Point Name="TAJAMAR - 1 BASURERO -">+211808.000-0863053.000</Point>
-            <Point Name="ISLA HOLBOX">+211638.000-0863053.000</Point>
-            <Point Name="LEONA UNO">+211508.000-0863053.000</Point>
-            <Point Name="KULKANA - LEONA VICARIO -">+212708.000-0863653.000</Point>
-            <Point Name="ISLA HOLBOX">+212538.000-0863653.000</Point>
-            <Point Name="TAJAMAR DOS">+212408.000-0863653.000</Point>
-            <Point Name="TAJAMAR - 2 ISLA BLANCA -">+212238.000-0863653.000</Point>
-            <Point Name="ISLA HOLBOX">+212108.000-0863653.000</Point>
-            <Point Name="MAROMA UNO">+211938.000-0863653.000</Point>
-            <Point Name="EL REY - PUNTA MAROMA">+211808.000-0863653.000</Point>
-            <Point Name="LEONA DOS">+211638.000-0863653.000</Point>
-            <Point Name="KULKANA - LEONA VICARIO">+211508.000-0863653.000</Point>
-            <Point Name="CRUCE KASAHE">+212708.000-0864253.000</Point>
-            <Point Name="KASAHE - 4 MORTERO SECO -">+212538.000-0864253.000</Point>
-            <Point Name="VILLA OTOCH">+212408.000-0864253.000</Point>
-            <Point Name="CRUCE EL REY">+212238.000-0864253.000</Point>
-            <Point Name="EL REY - 4 MORTERO SECO -">+212108.000-0864253.000</Point>
-            <Point Name="VILLA OTOCH">+211938.000-0864253.000</Point>
-            <Point Name="HELICOPTEROS">+211808.000-0864253.000</Point>
-            <Point Name="5 TREN MAYA -">+211638.000-0864253.000</Point>
-            <Point Name="3 MOON PALACE">+211508.000-0864253.000</Point>
-            <Point Name="1">+211554.000-0865526.000</Point>
-            <Point Name="2">+212302.000-0864750.000</Point>
-            <Point Name="3">+205919.000-0864936.000</Point>
-            <Point Name="4">+210241.000-0870429.000</Point>
-            <Point Name="5">+210140.000-0865309.000</Point>
+            <Point Name="BONFIL 1 / TAJAMAR 1">+212329.500-0870913.500</Point>
+            <Point Name="KULKANA 1-3 / LEONA 1-2">+211510.000-0871738.000</Point>
+            <Point Name="BONFIL 2 / TAJAMAR 2">+212703.500-0870525.500</Point>
+            <Point Name="KULKANA 2 / MAROMA 1">+204752.000-0865925.500</Point>
+            <Point Name="CRUCE KASAHE">+205952.500-0870045.500</Point>
+            <Point Name="CRUCE EL REY">+205724.000-0870235.500</Point>
+            <Point Name="HELICOPTEROS">+210029.500-0865122.500</Point>
         </Label>
     </Map>
 </Maps>
