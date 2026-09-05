@@ -900,7 +900,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Tijuana / Tijuana Clearance</Line>
+                <Line>Autorizacion Tijuana / Tijuana Clearance</Line>
                 <Line>Serving MMTJ departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1490,7 +1490,8 @@
             <Maps>
                 <Map Name="TMA Merida/Aeropuerto - Pistas" />
                 <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
-
+                <Map Name="TMA Merida/Pista 10 - ILS X 10" />
+                <Map Name="TMA Merida/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -1508,7 +1509,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Merida / Merida Delivery</Line>
+                <Line>Autorizacion Merida / Merida Delivery</Line>
                 <Line>Serving MMMD departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1518,10 +1519,11 @@
                 <Sector Name="MDTW1" />
             </Sectors>
             <Maps>
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
                 <Map Name="TMA Merida/Aeropuerto - Pistas" />
                 <Map Name="TMA Merida/Aeropuerto - Zona de Control (CTR)" />
                 <Map Name="TMA Merida/Pista 10 - ILS X 10" />
-                <Map Name="TMA Merida/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Merida/Aeropuerto - Corredores VFR" />
             </Maps>
             <!--
             <ATIS>
@@ -1790,7 +1792,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Tulum / Tulum Delivery</Line>
+                <Line>Autorizacion Tulum / Tulum Delivery</Line>
                 <Line>Serving MMTL departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1882,13 +1884,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
-                <Map Name="ACC Merida/Limites - Sectores" />
-
+                <Map Name="TMA Cancun/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -1907,7 +1906,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Cancun / Cancun Delivery</Line>
+                <Line>Autorizacion Cancun / Cancun Delivery</Line>
                 <Line>Serving MMUN departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -1921,14 +1920,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
-
-                <Map Name="ACC Merida/Limites - Sectores" />
-
+                <Map Name="TMA Cancun/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -1961,14 +1956,10 @@
             </Sectors>
             <Maps>
                 <Map Name="TMA Cancun/Aeropuerto - Pistas" />
-                <Map Name="TMA Cancun/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Cancun/MMUN - Zona de Control (CTR)" />
-
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
-
-                <Map Name="ACC Merida/Limites - Sectores" />
-
+                <Map Name="TMA Cancun/Aeropuerto - Corredores VFR" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
@@ -2005,6 +1996,7 @@
                 <Map Name="TMA Cancun/ MMUN - Pista 12L - ILS X 12L" />
                 <Map Name="TMA Cancun/[MMUN - Pista 30R - RNP]" />
                 <Map Name="TMA Cancun/Aeropuerto - Corredores VFR" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <!--
             <ATIS>
@@ -2782,7 +2774,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Guadalajara / Guadalajara Delivery</Line>
+                <Line>Autorizacion Guadalajara / Guadalajara Delivery</Line>
                 <Line>Serving MMGL departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -3210,7 +3202,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Mexico / Mexico Delivery</Line>
+                <Line>Autorizacion Mexico / Mexico Delivery</Line>
                 <Line>ACARS-DCL [MMMX]</Line>
                 <Line>Serving MMMX departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
@@ -3327,7 +3319,7 @@
             </Strips>
             <CFL QuickLevel="29000" />
             <ControllerInfo>
-                <Line>Entrega Santa Lucia / Santa Lucia Delivery</Line>
+                <Line>Autorizacion Santa Lucia / Santa Lucia Delivery</Line>
                 <Line>Serving MMSM departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
@@ -5262,7 +5254,7 @@
             </ArrivalLists>
             -->
             <ControllerInfo>
-                <Line>Entrega Monterrey / Monterrey Delivery</Line>
+                <Line>Autorizacion Monterrey / Monterrey Delivery</Line>
                 <Line>Serving MMMY departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
