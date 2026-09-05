@@ -791,7 +791,7 @@
 +205632.000-0855821.000</Point>
         </Infill>
     </Map>    
-    <Map Type="System" Name="Aeropuerto - Rutas VFR" Priority="1">
+    <Map Type="System" Name="Aeropuerto - Corredores VFR" Priority="1">
         <!--ALA FIJA-->
         <Line Pattern="Broken">ISLA HOLBOX/BASURERO/TAJAMAR</Line>
         <Line Pattern="Broken">ISLA HOLBOX/LEONA VICARIO/KULKANA</Line>
@@ -826,12 +826,18 @@
         </Symbol>
         <!--nombres solo en extremos de ruta-->
         <Label HasLeader="false">
+            <Point>BASURERO</Point>
             <Point>EL REY</Point>
+            <Point>ISLA BLANCA</Point>
             <Point>ISLA HOLBOX</Point>
+            <Point>ISLA MUJERES</Point>
             <Point>KASAHE</Point>
             <Point>KULKANA</Point>
+            <Point>LEONA VICARIO</Point>
             <Point>MORTERO SECO</Point>
+            <Point>PUNTA CANCUN</Point>
             <Point>PUNTA MAROMA</Point>
+            <Point>PUNTA NIZUC</Point>
             <Point>TAJAMAR</Point>
             <Point>VILLA OTOCH</Point>
         </Label>
