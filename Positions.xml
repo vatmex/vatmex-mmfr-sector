@@ -82,11 +82,11 @@
         </Position>
         <Position Name="MMLT" Type="ASMGCS" ASMGCSAirport="MMLT" DefaultCenter="+255923.160-1112059.450" DefaultRange="2" MagneticVariation="-9" Rotation="287">
             <Maps>
-                <Map Name="z CTR Loreto/ASMGCS_MMLT_RWY" />
-                <Map Name="z CTR Loreto/ASMGCS_MMLT_APR" />
-                <Map Name="z CTR Loreto/ASMGCS_MMLT_TWY" />
-                <Map Name="z CTR Loreto/ASMGCS_MMLT_BLD" />
-                <Map Name="z CTR Loreto/ASMGCS_MMLT_LABELS" />
+                <Map Name="z ADA Loreto/ASMGCS_MMLT_RWY" />
+                <Map Name="z ADA Loreto/ASMGCS_MMLT_APR" />
+                <Map Name="z ADA Loreto/ASMGCS_MMLT_TWY" />
+                <Map Name="z ADA Loreto/ASMGCS_MMLT_BLD" />
+                <Map Name="z ADA Loreto/ASMGCS_MMLT_LABELS" />
             </Maps>
         </Position>
         <Position Name="MMML" Type="ASMGCS" ASMGCSAirport="MMML" DefaultCenter="+323746.960-1151431.150" DefaultRange="2" MagneticVariation="-13" Rotation="345">
@@ -235,6 +235,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -276,6 +277,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -429,6 +431,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -490,6 +493,7 @@
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Fijos Principales (Nombres)" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -514,15 +518,22 @@
             </ManualVisibility>
         </Position>
 
-        <!-- CTR Loreto -->
-        <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="55" MagneticVariation="-9">
+        <!-- ADA Loreto -->
+        <Position Name="Torre Loreto (Asesoramiento) - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="200" MagneticVariation="-9">
             <Sectors>
                 <Sector Name="LTTW1" />
             </Sectors>
             <Maps>
-                <Map Name="z CTR Loreto/Aeropuerto - Pistas" />
-                <Map Name="z CTR Loreto/Aeropuerto - Zona de Control (CTR)" />
-
+                <Map Name="z ADA Loreto/Aeropuerto - Pistas" />
+                <Map Name="z ADA Loreto/Aeropuerto - Area de Asesoramiento (ADA)" />
+                <Map Name="z ADA Loreto/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="ACC Mazatlan/Limites - Sectores" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="Beacon" Sort="Alpha">
@@ -554,6 +565,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -626,6 +638,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -1333,6 +1346,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -1660,6 +1674,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -1699,6 +1714,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -2158,6 +2174,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -3101,6 +3118,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -3463,6 +3481,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
@@ -3505,6 +3524,7 @@
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Llegadas RNAV" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - ILS Y 05R" />
                 <Map Name="TMA Mexico/ MMMX - Pistas 05 - Salidas RNAV" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
             </Maps>
             <!--
             <ATIS>
@@ -3728,6 +3748,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -4151,6 +4172,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -4247,6 +4269,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -4428,6 +4451,7 @@
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
@@ -4494,6 +4518,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -4893,6 +4918,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -5041,6 +5067,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -5132,6 +5159,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -5431,6 +5459,7 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
 
                 <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
             <Strips Mode="State" Sort="Alpha">
@@ -5494,6 +5523,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
@@ -5561,6 +5591,7 @@
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Aerovias Clase E" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Geografia - Linea de Costa" />

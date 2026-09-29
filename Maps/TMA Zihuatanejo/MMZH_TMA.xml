@@ -218,6 +218,44 @@
         <Line Name="TABRA2C" Pattern="Dashed">TABRA/ZH607</Line>
         <Line Name="VILTO2C" Pattern="Dashed">VILTO/ZH605/ZH606/ZH607</Line>
     </Map>
+        <Map Type="System" Name="Aeropuerto - Pista 09 - Salidas RNAV" Priority="1" Center="+174139.629-1012701.469">
+                <Label HasLeader="false">
+            <Point>IGSAT</Point>
+            <Point>ILENA</Point>
+            <Point>IKLUB</Point>
+            <Point>IMENU</Point>
+            <Point>TABRA</Point>
+            <Point>VILTO</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>AVURO</Point>
+        </Label>
+        <Symbol Type="HollowStar">
+            <Point>AVURO</Point>
+            <Point>IGSAT</Point>
+            <Point>ILENA</Point>
+            <Point>IKLUB</Point>
+            <Point>TABRA</Point>
+            <Point>VILTO</Point>
+
+            <Point>ZH600</Point>
+            <Point>ZH601</Point>
+            <Point>ZH602</Point>
+            <Point>ZH603</Point>
+            <Point>ZH604</Point>
+            <Point>ZH203</Point>
+            <Point>ZH204</Point>
+            <Point>ZH205</Point>
+            <Point>ZH207</Point>
+        </Symbol>
+        <Line Name="AVURO2C" Pattern="Dashed">+173604.740-1012655.520/ZH600/ZH604/ZH204/AVURO</Line>
+        <Line Name="IGSAT2A" Pattern="Dashed">ZH600/ZH601/ZH602/ZH207/IGSAT</Line>
+        <Line Name="IKLUB2A" Pattern="Dashed">ZH207/IKLUB</Line>
+        <Line Name="ILENA2A" Pattern="Dashed">ZH601/ZH604/ZH603/ZH203/ILENA</Line>
+        <Line Name="TABRA2A" Pattern="Dashed">ZH207/TABRA</Line>
+        <Line Name="VILTO2A" Pattern="Dashed">ZH602/ZH205/VILTO</Line>
+    </Map>
     <Map Type="System" Name="MMZH - Pista 09 - RNP 09" Priority="1" Center="+174139.629-1012701.469">
         <Line Name="FINAL" Pattern="Solid">IMENU/ZH400/ZH401/+173604.740-1012655.520</Line>
         <Line Name="LAT" Pattern="Solid">ALUNO/ZH400</Line>
@@ -281,7 +319,43 @@
             <Point>ZH500</Point>
             <Point>ZH501</Point>
         </Symbol>
-    </Map>    
+    </Map>   
+            <Map Type="System" Name="Aeropuerto - Pista 27 - Salidas RNAV" Priority="1" Center="+174139.629-1012701.469">
+                <Label HasLeader="false">
+            <Point>IGSAT</Point>
+            <Point>ILENA</Point>
+            <Point>IKLUB</Point>
+            <Point>TABRA</Point>
+            <Point>VILTO</Point>
+        </Label>
+
+        <Label HasLeader="true">
+            <Point>AVURO</Point>
+        </Label>
+        <Symbol Type="HollowStar">
+            <Point>AVURO</Point>
+            <Point>IGSAT</Point>
+            <Point>ILENA</Point>
+            <Point>IKLUB</Point>
+            <Point>TABRA</Point>
+            <Point>VILTO</Point>
+
+            <Point>ZH700</Point>
+            <Point>ZH701</Point>
+            <Point>ZH702</Point>
+            <Point>ZH703</Point>
+            <Point>ZH704</Point>
+            <Point>ZH705</Point>
+            <Point>ZH706</Point>
+            <Point>ZH200</Point>
+        </Symbol>
+        <Line Name="AVURO2D" Pattern="Dashed">+173604.740-1012655.520/ZH700/ZH703/ZH704/ZH200/AVURO</Line>
+        <Line Name="IGSAT2B" Pattern="Dashed">ZH700/ZH701/ZH702/IGSAT</Line>
+        <Line Name="IKLUB2A" Pattern="Dashed">ZH702/IKLUB</Line>
+        <Line Name="ILENA2A" Pattern="Dashed">ZH704/ZH705/ZH706/ILENA</Line>
+        <Line Name="TABRA2A" Pattern="Dashed">ZH702/TABRA</Line>
+        <Line Name="VILTO2A" Pattern="Dashed">ZH702//VILTO</Line>
+    </Map> 
     <Map Type="System" Name="Aeropuerto - Pista 27 - Llegadas RNAV (Nombres)" Priority="1" Center="+174139.629-1012701.469">
         <Label HasLeader="false">
             <Point>IGSAT</Point>
