@@ -725,4 +725,19 @@
     <Sector FullName="FIR Mexico" Frequency="131.400" Callsign="MMFR_FSS" Name="MFRC">
         <Volumes>MFRC</Volumes>
     </Sector>
+    <Sector FullName="MMFR (Combinado)" Frequency="130.400" Callsign="MMFR_C_FSS" Name="MFR0">
+        <ResponsibleSectors>MEXC,MIDC,MTYC,MZTC,MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10,MID1,MID2,MID3,MID4,MID5,MID6,MID7,MTY1,MTY2,MTY3,MTY4,MTY5,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZT8</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC MMID + MMEX" Frequency="132.400" Callsign="MMFR_2_FSS" Name="MFR2">
+        <ResponsibleSectors>MIDC,MEXC,MID1,MID2,MID3,MID4,MID5,MID6,MID7,MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC MMZT + MMTY" Frequency="133.400" Callsign="MMFR_3_FSS" Name="MFR3">
+        <ResponsibleSectors>MZTC,MTYC,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZT8,MTY1,MTY2,MTY3,MTY4,MTY5</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC MMTY + MMID" Frequency="134.400" Callsign="MMFR_4_FSS" Name="MFR4">
+        <ResponsibleSectors>MTYC,MIDC,MTY1,MTY2,MTY3,MTY4,MTY5,MID1,MID2,MID3,MID4,MID5,MID6,MID7</ResponsibleSectors>
+    </Sector>
+    <Sector FullName="ACC MMEX + MMZT" Frequency="135.400" Callsign="MMFR_5_FSS" Name="MFR5">
+        <ResponsibleSectors>MEXC,MZTC,MEX1,MEX2,MEX3,MEX4,MEX5,MEX6,MEX7,MEX8,MEX9,MEX10,MZT1,MZT2,MZT3,MZT4,MZT5,MZT6,MZT7,MZT8</ResponsibleSectors>
+    </Sector>
 </Sectors>
