@@ -5805,5 +5805,329 @@
                 <Point>+190857.890-1043416.669</Point>
             </ManualVisibility>
         </Position>
+        <!-- MMFR FSS combinations: position number = last digit of frequency -->
+        <Position Name="MMFR (Combinado) - MFR0" Type="ASD" DefaultCenter="+233938.420-1025746.608" DefaultRange="2300" MagneticVariation="-5">
+            <Sectors>
+                <Sector Name="MFR0" />
+                <Sector Name="MEXC" />
+                <Sector Name="MIDC" />
+                <Sector Name="MTYC" />
+                <Sector Name="MZTC" />
+                <Sector Name="MEX1" />
+                <Sector Name="MEX2" />
+                <Sector Name="MEX3" />
+                <Sector Name="MEX4" />
+                <Sector Name="MEX5" />
+                <Sector Name="MEX6" />
+                <Sector Name="MEX7" />
+                <Sector Name="MEX8" />
+                <Sector Name="MEX9" />
+                <Sector Name="MEX10" />
+                <Sector Name="MID1" />
+                <Sector Name="MID2" />
+                <Sector Name="MID3" />
+                <Sector Name="MID4" />
+                <Sector Name="MID5" />
+                <Sector Name="MID6" />
+                <Sector Name="MID7" />
+                <Sector Name="MTY1" />
+                <Sector Name="MTY2" />
+                <Sector Name="MTY3" />
+                <Sector Name="MTY4" />
+                <Sector Name="MTY5" />
+                <Sector Name="MZT1" />
+                <Sector Name="MZT2" />
+                <Sector Name="MZT3" />
+                <Sector Name="MZT4" />
+                <Sector Name="MZT5" />
+                <Sector Name="MZT6" />
+                <Sector Name="MZT7" />
+                <Sector Name="MZT8" />
+            </Sectors>
+            <Maps>
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Volcanes" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="[FIR]/Limites - MMFR" />
+                <Map Name="[FIR]/Limites - MMFO" />
+                <Map Name="[FIR]/Limites - CTA Mazatlan" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />
+                <Map Name="[FIR]/Limites - CTA Monterrey" />
+
+            </Maps>
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000">
+                <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
+            </CFL>            
+            <ControllerInfo>
+                <Line>MMFR (Combinado)</Line>
+                <Line>Providing control in the Mexico, Merida, Monterrey and Mazatlan ACCs</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+225314.791-1024135.740</Point>
+                <Point>+221722.571-0975146.879</Point>
+                <Point>+155230.382-0970454.170</Point>
+                <Point>+190857.890-1043416.669</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="ACC MMID + MMEX - MFR2" Type="ASD" DefaultCenter="+195738.531-0934912.529" DefaultRange="1700" MagneticVariation="-1">
+            <Sectors>
+                <Sector Name="MFR2" />
+                <Sector Name="MIDC" />
+                <Sector Name="MEXC" />
+                <Sector Name="MID1" />
+                <Sector Name="MID2" />
+                <Sector Name="MID3" />
+                <Sector Name="MID4" />
+                <Sector Name="MID5" />
+                <Sector Name="MID6" />
+                <Sector Name="MID7" />
+                <Sector Name="MEX1" />
+                <Sector Name="MEX2" />
+                <Sector Name="MEX3" />
+                <Sector Name="MEX4" />
+                <Sector Name="MEX5" />
+                <Sector Name="MEX6" />
+                <Sector Name="MEX7" />
+                <Sector Name="MEX8" />
+                <Sector Name="MEX9" />
+                <Sector Name="MEX10" />
+            </Sectors>
+            <Maps>
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Volcanes" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="[FIR]/Limites - MMFR" />
+                <Map Name="[FIR]/Limites - MMFO" />
+                <Map Name="[FIR]/Limites - CTA Mazatlan" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />
+                <Map Name="[FIR]/Limites - CTA Monterrey" />
+
+            </Maps>
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000">
+                <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
+            </CFL>            
+            <ControllerInfo>
+                <Line>ACC MMID + MMEX</Line>
+                <Line>Providing control in the Merida and Mexico ACCs</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+210249.9531-0865231.1875</Point>
+                <Point>+194642.2891-0902841.3750</Point>
+                <Point>+163526.8633-0930236.1563</Point>
+                <Point>+123404.2930-0985708.3125</Point>
+                <Point>+22.887442-102.693261</Point>
+                <Point>+22.289603-097.863022</Point>
+                <Point>+15.875106-097.081714</Point>
+                <Point>+19.149414-104.571297</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="ACC MMZT + MMTY - MFR3" Type="ASD" DefaultCenter="+270623.992-1070845.580" DefaultRange="1800" MagneticVariation="-6">
+            <Sectors>
+                <Sector Name="MFR3" />
+                <Sector Name="MZTC" />
+                <Sector Name="MTYC" />
+                <Sector Name="MZT1" />
+                <Sector Name="MZT2" />
+                <Sector Name="MZT3" />
+                <Sector Name="MZT4" />
+                <Sector Name="MZT5" />
+                <Sector Name="MZT6" />
+                <Sector Name="MZT7" />
+                <Sector Name="MZT8" />
+                <Sector Name="MTY1" />
+                <Sector Name="MTY2" />
+                <Sector Name="MTY3" />
+                <Sector Name="MTY4" />
+                <Sector Name="MTY5" />
+            </Sectors>
+            <Maps>
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Volcanes" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="[FIR]/Limites - MMFR" />
+                <Map Name="[FIR]/Limites - MMFO" />
+                <Map Name="[FIR]/Limites - CTA Mazatlan" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />
+                <Map Name="[FIR]/Limites - CTA Monterrey" />
+
+            </Maps>
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000">
+                <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
+            </CFL>            
+            <ControllerInfo>
+                <Line>ACC MMZT + MMTY</Line>
+                <Line>Providing control in the Mazatlan and Monterrey ACCs</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+293843.176-1180137.394</Point>
+                <Point>+280153.729-1082942.724</Point>
+                <Point>+200511.991-1133814.193</Point>
+                <Point>+213939.948-1025505.017</Point>
+                <Point>+284326.9063-1055601.5313</Point>
+                <Point>+261311.2344-1015737.9063</Point>
+                <Point>+234442.7969-0985719.0000</Point>
+                <Point>+242209.9141-0950934.2813</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="ACC MMTY + MMID - MFR4" Type="ASD" DefaultCenter="+225548.745-0942817.345" DefaultRange="1900" MagneticVariation="-1">
+            <Sectors>
+                <Sector Name="MFR4" />
+                <Sector Name="MTYC" />
+                <Sector Name="MIDC" />
+                <Sector Name="MTY1" />
+                <Sector Name="MTY2" />
+                <Sector Name="MTY3" />
+                <Sector Name="MTY4" />
+                <Sector Name="MTY5" />
+                <Sector Name="MID1" />
+                <Sector Name="MID2" />
+                <Sector Name="MID3" />
+                <Sector Name="MID4" />
+                <Sector Name="MID5" />
+                <Sector Name="MID6" />
+                <Sector Name="MID7" />
+            </Sectors>
+            <Maps>
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Volcanes" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="[FIR]/Limites - MMFR" />
+                <Map Name="[FIR]/Limites - MMFO" />
+                <Map Name="[FIR]/Limites - CTA Mazatlan" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />
+                <Map Name="[FIR]/Limites - CTA Monterrey" />
+
+            </Maps>
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000">
+                <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
+            </CFL>            
+            <ControllerInfo>
+                <Line>ACC MMTY + MMID</Line>
+                <Line>Providing control in the Monterrey and Merida ACCs</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+284326.9063-1055601.5313</Point>
+                <Point>+261311.2344-1015737.9063</Point>
+                <Point>+234442.7969-0985719.0000</Point>
+                <Point>+242209.9141-0950934.2813</Point>
+                <Point>+210249.9531-0865231.1875</Point>
+                <Point>+194642.2891-0902841.3750</Point>
+                <Point>+163526.8633-0930236.1563</Point>
+                <Point>+123404.2930-0985708.3125</Point>
+            </ManualVisibility>
+        </Position>
+        <Position Name="ACC MMEX + MMZT - MFR5" Type="ASD" DefaultCenter="+242731.473-1065952.832" DefaultRange="1900" MagneticVariation="-6">
+            <Sectors>
+                <Sector Name="MFR5" />
+                <Sector Name="MEXC" />
+                <Sector Name="MZTC" />
+                <Sector Name="MEX1" />
+                <Sector Name="MEX2" />
+                <Sector Name="MEX3" />
+                <Sector Name="MEX4" />
+                <Sector Name="MEX5" />
+                <Sector Name="MEX6" />
+                <Sector Name="MEX7" />
+                <Sector Name="MEX8" />
+                <Sector Name="MEX9" />
+                <Sector Name="MEX10" />
+                <Sector Name="MZT1" />
+                <Sector Name="MZT2" />
+                <Sector Name="MZT3" />
+                <Sector Name="MZT4" />
+                <Sector Name="MZT5" />
+                <Sector Name="MZT6" />
+                <Sector Name="MZT7" />
+                <Sector Name="MZT8" />
+            </Sectors>
+            <Maps>
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Fijos Coordinacion" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Volcanes" />
+                <Map Name="[Universal]/Fondos - Terminales" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
+                <Map Name="[FIR]/Limites - MMFR" />
+                <Map Name="[FIR]/Limites - MMFO" />
+                <Map Name="[FIR]/Limites - CTA Mazatlan" />
+                <Map Name="[FIR]/Limites - CTA Merida" />
+                <Map Name="[FIR]/Limites - CTA Mexico" />
+                <Map Name="[FIR]/Limites - CTA Monterrey" />
+
+            </Maps>
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="20000">
+                <AdditionalLevels>4400,4800,7300,7800,8300,10400,10700</AdditionalLevels>
+            </CFL>            
+            <ControllerInfo>
+                <Line>ACC MMEX + MMZT</Line>
+                <Line>Providing control in the Mexico and Mazatlan ACCs</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+22.887442-102.693261</Point>
+                <Point>+22.289603-097.863022</Point>
+                <Point>+15.875106-097.081714</Point>
+                <Point>+19.149414-104.571297</Point>
+                <Point>+293843.176-1180137.394</Point>
+                <Point>+280153.729-1082942.724</Point>
+                <Point>+200511.991-1133814.193</Point>
+                <Point>+213939.948-1025505.017</Point>
+            </ManualVisibility>
+        </Position>
     </Group>
 </Positions>
