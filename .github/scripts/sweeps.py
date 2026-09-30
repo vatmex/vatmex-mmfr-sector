@@ -18,7 +18,7 @@ import os, re, sys, xml.etree.ElementTree as ET
 ALLOWED_S4  = {'IPL', 'OLS'}                        # US VORs, not defined here
 ALLOWED_S5  = {'MULLT', 'OLS', 'TCATE'}             # classified in MMFR-LOG
 ALLOWED_S5B = {'IPL.V137.MXL', 'OLS.V393.HMO', 'OLS.V625.HMO'}
-MAX_S8      = 33                                    # unresolved default maps, 2610a
+MAX_S8      = 4                                     # unresolved default maps: MMTL x3, Chihuahua x1
 DMS = re.compile(r'^[+-]\d{6}(\.\d+)?[+-]\d{7}(\.\d+)?$')
 DEC = re.compile(r'^([+-]\d{1,2}\.\d+)([+-]\d{1,3}\.\d+)$')
 OFF = re.compile(r'^-?\d+(\.\d+)?,\s*-?\d+(\.\d+)?$')
