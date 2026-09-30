@@ -11,6 +11,8 @@ Instrument traps, all hit on 2026-09-29/30 while building the 2610a gate:
   * coordinates are DMS (+DDMMSS.sss-DDDMMSS.sss) OR decimal (+18.152749-096.080979);
   * Tracks.xml <Point1..3>/<Line> hold "x,y" symbol drawing offsets, not coordinates;
   * resolve Positions.xml defaults against <Map Name>, never against filenames.
+  * match the .xml extension case-insensitively: MMTL_RWY12.XML, MMTL_RWY30.XML and
+    MMLP_TMA.XML are uppercase, and a lowercase-only walk silently skips them.
 Known residue is allow-listed below; anything new fails.
 """
 import os, re, sys, xml.etree.ElementTree as ET
@@ -18,7 +20,7 @@ import os, re, sys, xml.etree.ElementTree as ET
 ALLOWED_S4  = {'IPL', 'OLS'}                        # US VORs, not defined here
 ALLOWED_S5  = {'MULLT', 'OLS', 'TCATE'}             # classified in MMFR-LOG
 ALLOWED_S5B = {'IPL.V137.MXL', 'OLS.V393.HMO', 'OLS.V625.HMO'}
-MAX_S8      = 4                                     # unresolved default maps: MMTL x3, Chihuahua x1
+MAX_S8      = 0                                     # unresolved default maps
 DMS = re.compile(r'^[+-]\d{6}(\.\d+)?[+-]\d{7}(\.\d+)?$')
 DEC = re.compile(r'^([+-]\d{1,2}\.\d+)([+-]\d{1,3}\.\d+)$')
 OFF = re.compile(r'^-?\d+(\.\d+)?,\s*-?\d+(\.\d+)?$')
@@ -37,7 +39,7 @@ xmlf, bad6 = [], []
 for d, _, fs in os.walk('.'):
     if '.git' in d.split(os.sep): continue
     for f in fs:
-        if f.endswith('.xml'):
+        if f.lower().endswith('.xml'):
             p = os.path.join(d, f); xmlf.append(p)
             try: ET.parse(p)
             except Exception as e: bad6.append('%s: %s' % (p, e))
@@ -73,7 +75,7 @@ report('S4', s4 <= ALLOWED_S4, 'airway members undefined: %s (new: %s)' % (sorte
 s5, s5b, idx = set(), set(), set()
 for d, _, fs in os.walk('Maps'):
     for f in fs:
-        if not f.endswith('.xml'): continue
+        if not f.lower().endswith('.xml'): continue
         r = ET.parse(os.path.join(d, f)).getroot()
         for m in r.iter('Map'):
             if m.get('Name'): idx.add(os.path.relpath(d, 'Maps') + '/' + m.get('Name'))
