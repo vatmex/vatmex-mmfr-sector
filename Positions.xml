@@ -519,7 +519,7 @@
         </Position>
 
         <!-- ADA Loreto -->
-        <Position Name="Torre Loreto (Asesoramiento) - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="200" MagneticVariation="-9">
+        <Position Name="Torre Loreto (Asesoramiento) - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="200" MagneticVariation="-9" VisibilityRange="100">
             <Sectors>
                 <Sector Name="LTTW1" />
             </Sectors>
@@ -550,6 +550,9 @@
                 <Line>Serving MMLT arrivals and departures</Line>
                 <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
             </ControllerInfo>
+            <ManualVisibility>
+                <Point>+255923.530-1112054.060</Point>
+            </ManualVisibility>
         </Position>
 
         <!-- TMA Mexicali -->
