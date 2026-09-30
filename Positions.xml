@@ -460,8 +460,6 @@
                 <Sector Name="LPTW1" />
             </Sectors>
             <Maps>
-                <Map Name="TMA La Paz/Aeropuerto - Pistas" />
-                <Map Name="TMA La Paz/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
             </Maps>
@@ -485,9 +483,6 @@
                 <Sector Name="LPAPP" />
             </Sectors>
             <Maps>
-                <Map Name="TMA La Paz/Aeropuerto - Pistas" />
-                <Map Name="TMA La Paz/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA La Paz/Aeropuerto - Zona de Control (CTR)" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
                 <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Principales" />
@@ -976,7 +971,6 @@
                 <Map Name="TMA Tijuana/Pista 27 - Salidas RNAV" />
                 <Map Name="TMA Tijuana/Pista 27 - Salidas RNAV (Nombres)" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion (Nombres)" />
             </Maps>
             <!--
             <ATIS>
@@ -3473,14 +3467,11 @@
                 <Map Name="TMA Mexico/ Aeropuerto - Pistas" />
                 <Map Name="TMA Mexico/ Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite" />
-                <Map Name="TMA Mexico/Aeropuerto - Corredor Satelite (Nombres)" />
 
                 <Map Name="TMA Mexico/MMPB - Zona de Control (CTR)" />
                 <Map Name="TMA Mexico/MMPB - Pista 35 - Llegadas RNAV" />
-                <Map Name="TMA Mexico/MMPB - Pista 35 - Llegadas RNAV (Nombres)" />
                 <Map Name="TMA Mexico/MMPB - Pista 35 - RNP 35" />
                 <Map Name="TMA Mexico/MMPB - Pista 35 - Salidas RNAV" />
-                <Map Name="TMA Mexico/MMPB - Pista 35 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
@@ -3908,7 +3899,6 @@
             <Maps>
                 <Map Name="TMA Vallarta/Aeropuerto - Pistas" />
                 <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Vallarta/Aeropuerto - Minimas de Vectoreo (Etiquetas)" />
                 <Map Name="TMA Vallarta/Aeropuerto - Area Terminal (TMA)" />
 
                 <Map Name="TMA Vallarta/Pista 22 - RNP 22" />
@@ -4959,7 +4949,6 @@
                 <Map Name="ACC Monterrey/Limites - Sectores" />
 
                 <Map Name="[Universal]/Geografia - Linea de Costa" />
-                <Map Name="ACC Mexico/Cobertura Radar" />
             </Maps>
             <!--
             <ATIS>
@@ -5777,7 +5766,6 @@
             <Maps>
                 <Map Name="[Universal]/Sector - Fijos Principales" />
                 <Map Name="[Universal]/Sector - Fijos Coordinacion" />
-                <Map Name="[Universal]/Sector - Fijos Coordinacion (Nombres)" />
                 <Map Name="[Universal]/Sector - Radioayudas" />
                 <Map Name="[Universal]/Sector - Radioayudas (Nombres)" />
                 <Map Name="[Universal]/Sector - Aerovias" />
