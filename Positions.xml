@@ -1468,6 +1468,35 @@
         </Position>
 
         <!-- ATZ Ixtepec -->
+        <Position Name="Terrestre Ixtepec - ITSMC" Type="ASD" DefaultCenter="+162657.423-0950537.303" DefaultRange="40" MagneticVariation="-4">
+            <Sectors>
+                <Sector Name="ITSMC" />
+            </Sectors>
+            <Maps>
+                <Map Name="z ATZ Ixtepec/Aeropuerto - Pistas" />
+                <Map Name="z ATZ Ixtepec/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo" />
+                <Map Name="[Universal]/Sector - Fijos de Enrutamiento Directo (Nombres)" />
+                <Map Name="[Universal]/Sector - Fijos Principales" />
+                <Map Name="[Universal]/Sector - Aerovias" />
+                <Map Name="[Universal]/Sector - Radioayudas" />
+                <Map Name="[Universal]/Geografia - Linea de Costa" />
+            </Maps>
+            <Strips Mode="Beacon" Sort="Alpha">
+                <Window Type="ADEP" Beacon="MMIT" Visible="false" />
+            </Strips>
+            <CFL QuickLevel="20000" />
+            <!--
+            <ArrivalLists>
+                <Airport Name="MMIT" />
+            </ArrivalLists>
+            -->
+            <ControllerInfo>
+                <Line>Terrestre Ixtepec / Ixtepec Ground</Line>
+                <Line>Serving MMIT arrivals and departures</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+        </Position>
         <Position Name="Torre Ixtepec - ITTW1" Type="ASD" DefaultCenter="+162657.423-0950537.303" DefaultRange="40" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="ITTW1" />
