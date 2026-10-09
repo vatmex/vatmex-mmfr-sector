@@ -1,139 +1,138 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <TrackSymbols>
-    <TrackSymbol Type="Primary" StrokeWidth="3.5">
-        <EllipseGeometry Center="0,0" RadiusX="2" RadiusY="2" />
-    </TrackSymbol>
-
-    <!-- Special Code 1 Open Square -->
-    <TrackSymbol Type="ModeA" SpecialCode="1200">
+    <!-- XML-only primary return: 13 px circle with projecting cross arms.
+         Arms remain visible with a filled secondary circle on combined returns. -->
+    <TrackSymbol Type="Primary" StrokeWidth="0" RotateToTrack="False">
         <PathGeometry>
-            <Figure Start="-6,-6" FigureBegin="Hollow" FigureEnd="Open">
-                <Line>-6,6</Line>
-                <Line>6,6</Line>
-                <Line>6,-6</Line>
-            </Figure>
-        </PathGeometry>
-    </TrackSymbol>
-    <TrackSymbol Type="ModeS" SpecialCode="1200">
-        <PathGeometry>
-            <Figure Start="-6,-6" FigureBegin="Hollow" FigureEnd="Open">
-                <Line>-6,6</Line>
-                <Line>6,6</Line>
-                <Line>6,-6</Line>
-            </Figure>
-        </PathGeometry>
-    </TrackSymbol>
-
-    <!-- Special Code 2 Hourglass -->
-    <TrackSymbol Type="ModeA" SpecialCode="1400">
-        <PathGeometry>
-            <Figure Start="-1,0" FigureBegin="Hollow" FigureEnd="Open">
-                <Line>-6, -5</Line>
-                <Line>-6, -6</Line>
-                <Line>6, -6</Line>
-                <Line>6, -5</Line>
-                <Line>1, 0</Line>
-                <Line>-1, 0</Line>
-                <Line>-6, 5</Line>
-                <Line>-6, 6</Line>
-                <Line>6, 6</Line>
-                <Line>6, 5</Line>
-                <Line>1, 0</Line>
-            </Figure>
-        </PathGeometry>
-    </TrackSymbol>
-    <TrackSymbol Type="ModeS" SpecialCode="1400">
-        <PathGeometry>
-            <Figure Start="-1,0" FigureBegin="Hollow" FigureEnd="Open">
-                <Line>-6, -5</Line>
-                <Line>-6, -6</Line>
-                <Line>6, -6</Line>
-                <Line>6, -5</Line>
-                <Line>1, 0</Line>
-                <Line>-1, 0</Line>
-                <Line>-6, 5</Line>
-                <Line>-6, 6</Line>
-                <Line>6, 6</Line>
-                <Line>6, 5</Line>
-                <Line>1, 0</Line>
-            </Figure>
-        </PathGeometry>
-    </TrackSymbol>
-
-    <!-- Special Code 3 Pentagram -->
-    <TrackSymbol Type="ModeA" SpecialCode="1500">
-        <PathGeometry>
-            <Figure Start="0,-8" FigureBegin="Hollow" FigureEnd="Closed">
-                <Line>-7,4</Line>
-                <Line>7,4</Line>
-            </Figure>
-            <Figure Start="0,8" FigureBegin="Hollow" FigureEnd="Closed">
-                <Line>7,-4</Line>
-                <Line>-7,-4</Line>
-            </Figure>
-        </PathGeometry>
-    </TrackSymbol>
-    <TrackSymbol Type="ModeS" SpecialCode="1500">
-        <PathGeometry>
-            <Figure Start="0,-8" FigureBegin="Hollow" FigureEnd="Closed">
-                <Line>-7,4</Line>
-                <Line>7,4</Line>
-            </Figure>
-            <Figure Start="0,8" FigureBegin="Hollow" FigureEnd="Closed">
-                <Line>7,-4</Line>
-                <Line>-7,-4</Line>
-            </Figure>
-        </PathGeometry>
-    </TrackSymbol>
-
-    <!-- Special Code 4 Ellipse -->
-    <TrackSymbol Type="ModeA" SpecialCode="2000">
-        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="4.5" />
-    </TrackSymbol>
-    <TrackSymbol Type="ModeS" SpecialCode="2000">
-        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="4.5" />
-    </TrackSymbol>
-
-    <!-- Special Code 5 Sideways Hourglass -->
-    <TrackSymbol Type="ModeA" SpecialCode="3000">
-        <PathGeometry>
-            <Figure Start="0,-1" FigureBegin="Hollow" FigureEnd="Open">
-                <Line>-5, 6</Line>
-                <Line>-6, 6</Line>
-                <Line>-6, -6</Line>
-                <Line>-6, -5</Line>
-                <Line>0, -1</Line>
-                <Line>0, 1</Line>
-                <Line>5, 6</Line>
-                <Line>6, 6</Line>
-                <Line>6, -6</Line>
-                <Line>6, -5</Line>
-                <Line>-1, 0</Line>
-            </Figure>
-        </PathGeometry>
-    </TrackSymbol>
-    <TrackSymbol Type="ModeS" SpecialCode="3000">
-        <PathGeometry>
-            <Figure Start="0, -1" FigureBegin="Hollow" FigureEnd="Open">
-                <Line>-5, -6</Line>
-                <Line>-6, -6</Line>
-                <Line>-6, 6</Line>
-                <Line>-5, 6</Line>
-                <Line>0, 1</Line>
-                <Line>0, -1</Line>
-                <Line>5, -6</Line>
-                <Line>6, -6</Line>
-                <Line>6, 6</Line>
-                <Line>0, 1</Line>
+            <Figure Start="6.44418,-0.85000" FigureBegin="Filled" FigureEnd="Closed">
+                <Line>9.50000,-0.85000</Line>
+                <Line>9.50000,0.85000</Line>
+                <Line>6.44418,0.85000</Line>
+                <Line>6.35321,1.37359</Line>
+                <Line>6.21977,1.88799</Line>
+                <Line>6.04475,2.38978</Line>
+                <Line>5.82932,2.87559</Line>
+                <Line>5.57493,3.34218</Line>
+                <Line>5.28327,3.78643</Line>
+                <Line>4.95630,4.20537</Line>
+                <Line>4.59619,4.59619</Line>
+                <Line>4.20537,4.95630</Line>
+                <Line>3.78643,5.28327</Line>
+                <Line>3.34218,5.57493</Line>
+                <Line>2.87559,5.82932</Line>
+                <Line>2.38978,6.04475</Line>
+                <Line>1.88799,6.21977</Line>
+                <Line>1.37359,6.35321</Line>
+                <Line>0.85000,6.44418</Line>
+                <Line>0.85000,6.44418</Line>
+                <Line>0.85000,9.50000</Line>
+                <Line>-0.85000,9.50000</Line>
+                <Line>-0.85000,6.44418</Line>
+                <Line>-1.37359,6.35321</Line>
+                <Line>-1.88799,6.21977</Line>
+                <Line>-2.38978,6.04475</Line>
+                <Line>-2.87559,5.82932</Line>
+                <Line>-3.34218,5.57493</Line>
+                <Line>-3.78643,5.28327</Line>
+                <Line>-4.20537,4.95630</Line>
+                <Line>-4.59619,4.59619</Line>
+                <Line>-4.95630,4.20537</Line>
+                <Line>-5.28327,3.78643</Line>
+                <Line>-5.57493,3.34218</Line>
+                <Line>-5.82932,2.87559</Line>
+                <Line>-6.04475,2.38978</Line>
+                <Line>-6.21977,1.88799</Line>
+                <Line>-6.35321,1.37359</Line>
+                <Line>-6.44418,0.85000</Line>
+                <Line>-6.44418,0.85000</Line>
+                <Line>-9.50000,0.85000</Line>
+                <Line>-9.50000,-0.85000</Line>
+                <Line>-6.44418,-0.85000</Line>
+                <Line>-6.35321,-1.37359</Line>
+                <Line>-6.21977,-1.88799</Line>
+                <Line>-6.04475,-2.38978</Line>
+                <Line>-5.82932,-2.87559</Line>
+                <Line>-5.57493,-3.34218</Line>
+                <Line>-5.28327,-3.78643</Line>
+                <Line>-4.95630,-4.20537</Line>
+                <Line>-4.59619,-4.59619</Line>
+                <Line>-4.20537,-4.95630</Line>
+                <Line>-3.78643,-5.28327</Line>
+                <Line>-3.34218,-5.57493</Line>
+                <Line>-2.87559,-5.82932</Line>
+                <Line>-2.38978,-6.04475</Line>
+                <Line>-1.88799,-6.21977</Line>
+                <Line>-1.37359,-6.35321</Line>
+                <Line>-0.85000,-6.44418</Line>
+                <Line>-0.85000,-6.44418</Line>
+                <Line>-0.85000,-9.50000</Line>
+                <Line>0.85000,-9.50000</Line>
+                <Line>0.85000,-6.44418</Line>
+                <Line>1.37359,-6.35321</Line>
+                <Line>1.88799,-6.21977</Line>
+                <Line>2.38978,-6.04475</Line>
+                <Line>2.87559,-5.82932</Line>
+                <Line>3.34218,-5.57493</Line>
+                <Line>3.78643,-5.28327</Line>
+                <Line>4.20537,-4.95630</Line>
+                <Line>4.59619,-4.59619</Line>
+                <Line>4.95630,-4.20537</Line>
+                <Line>5.28327,-3.78643</Line>
+                <Line>5.57493,-3.34218</Line>
+                <Line>5.82932,-2.87559</Line>
+                <Line>6.04475,-2.38978</Line>
+                <Line>6.21977,-1.88799</Line>
+                <Line>6.35321,-1.37359</Line>
+                <Line>6.44418,-0.85000</Line>
             </Figure>
         </PathGeometry>
     </TrackSymbol>
 
-    <!-- SSR Circle -->
-    <TrackSymbol Type="ModeA">
+    <!-- Special Code 1: same filled SSR circle -->
+    <TrackSymbol Type="ModeA" SpecialCode="1200" StrokeWidth="0" RotateToTrack="False">
         <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
     </TrackSymbol>
-    <TrackSymbol Type="ModeS">
+    <TrackSymbol Type="ModeS" SpecialCode="1200" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+
+    <!-- Special Code 2: same filled SSR circle -->
+    <TrackSymbol Type="ModeA" SpecialCode="1400" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+    <TrackSymbol Type="ModeS" SpecialCode="1400" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+
+    <!-- Special Code 3: same filled SSR circle -->
+    <TrackSymbol Type="ModeA" SpecialCode="1500" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+    <TrackSymbol Type="ModeS" SpecialCode="1500" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+
+    <!-- Special Code 4: same filled SSR circle -->
+    <TrackSymbol Type="ModeA" SpecialCode="2000" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+    <TrackSymbol Type="ModeS" SpecialCode="2000" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+
+    <!-- Special Code 5: same filled SSR circle -->
+    <TrackSymbol Type="ModeA" SpecialCode="3000" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+    <TrackSymbol Type="ModeS" SpecialCode="3000" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+
+    <!-- Secondary radar: plain filled circle; primary cross arms distinguish combined returns. -->
+    <TrackSymbol Type="ModeA" StrokeWidth="0" RotateToTrack="False">
+        <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+    </TrackSymbol>
+    <TrackSymbol Type="ModeS" StrokeWidth="0" RotateToTrack="False">
         <EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
     </TrackSymbol>
 
