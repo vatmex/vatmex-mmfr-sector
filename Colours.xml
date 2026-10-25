@@ -101,9 +101,9 @@
     <Colour id="Warning">
         <Use>Warning Indications</Use>
         <Name>BrightYellow</Name>
-        <R>239</R>
-        <G>220</G>
-        <B>97</B>
+        <R>240</R>
+        <G>210</G>
+        <B>0</B>
     </Colour>
     <Colour id="VSCSBackground">
         <Use>VSCS Background</Use>
@@ -187,8 +187,8 @@
         <Use>ASD Backgrounds</Use>
         <Name>DarkBlue</Name>
         <R>0</R>
-        <G>43</G>
-        <B>51</B>
+        <G>46</G>
+        <B>58</B>
     </Colour>
     <Colour id="CPDLCSendButton">
         <Use>CPDLC Hot-Send Button</Use>
@@ -236,7 +236,7 @@
         <Use>HandOver</Use>
         <Name>Salmon</Name>
         <R>255</R>
-        <G>205</G>
+        <G>225</G>
         <B>105</B>
     </Colour>
     <Colour id="Announced">
@@ -342,7 +342,7 @@
         <Name>Yellow</Name>
         <R>200</R>
         <G>180</G>
-        <B>85</B>
+        <B>75</B>
     </Colour>
     <Colour id="PrimaryMap">
         <Use>System Maps</Use>
@@ -356,8 +356,8 @@
         <Use>Filled Area Map</Use>
         <Name>MidGrey</Name>
         <R>0</R>
-        <G>25</G>
-        <B>30</B>
+        <G>19</G>
+        <B>25</B>
     </Colour>
     <Colour id="SecondaryMap">
         <Use>Alternative System Map</Use>
@@ -450,13 +450,13 @@
         <G>235</G>
         <B>0</B>
     </Colour>
-    <!--Cobertura Radar Aerovias-->
+    <!--Aerovias Clase E-->
     <Colour id="Custom">
         <Use>Radar Airways</Use>
         <Name>RadarAirway</Name>
         <R>0</R>
-        <G>25</G>
-        <B>30</B>
+        <G>19</G>
+        <B>25</B>
     </Colour>
     <Colour id="Custom">
         <Use>Coastline</Use>
@@ -487,4 +487,11 @@
         <G>0</G>
         <B>0</B>
     </Colour>    
+    <Colour id="Custom">
+        <Use>MMMX taxiway, parking and hold-short lines</Use>
+        <Name>MMMX_KML_YELLOW</Name>
+        <R>179</R>
+        <G>161</G>
+        <B>61</B>
+    </Colour>
 </Colours>

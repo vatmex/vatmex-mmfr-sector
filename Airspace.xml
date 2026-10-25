@@ -2755,7 +2755,7 @@
             URTEL/VOMAR
         </Airway>
         <Airway Name="UT36">
-            CUU/OVEKO/SUTIL/UMAXA/IMARI/TAVLO/NABAS/KEBEX/LMM
+            CUU/OVEKO/SUTIL/UMAXA/IMARI/TAVLO/NABAS/KEBEX/LMM/DASVU/ENEKO
         </Airway>
         <Airway Name="UT37">
             SESNO/EBDUB/AVRAV/ULUMA/NOTEN/BESOG/ELISO/HALOT/PERGO
@@ -2858,6 +2858,12 @@
         </Airway>
         <Airway Name="UT94">
             MID/XOLRO/ALPOM/DYSON/VODIV/MARED/KONLA/DUSOV/OMPAN/BOLTA/VER
+        </Airway>
+        <Airway Name="UT95">
+            PNG/ELQ/PUSEK/LMM
+        </Airway>
+        <Airway Name="UT98">
+            CUL/VOLUR/PNG
         </Airway>
         <Airway Name="UT100">
             TAM/SELIR/ENAGA
@@ -3846,6 +3852,7 @@
         <Point Name="POSTA" Type="Fix">+233936.000-1061741.000</Point>
         <Point Name="POZOS" Type="Fix">+192321.000-0870745.000</Point>
         <Point Name="PURAM" Type="Fix">+201204.000-1024123.000</Point>
+        <Point Name="PUSEK" Type="Fix">+263444.000-1063344.000</Point>
         <Point Name="PUVAR" Type="Fix">+220226.000-0890553.000</Point>
         <Point Name="PUXON" Type="Fix">+264137.000-1115001.000</Point>
         <Point Name="PYRAN" Type="Fix">+260306.000-0981403.000</Point>
@@ -4138,6 +4145,7 @@
         <Point Name="VOLER" Type="Fix">+222351.400-1014823.700</Point>
         <Point Name="VOLIS" Type="Fix">+251324.700-1014643.300</Point>
         <Point Name="VOLUM" Type="Fix">+290518.000-1110000.000</Point>
+        <Point Name="VOLUR" Type="Fix">+255141.000-1053655.000</Point>
         <Point Name="VOLUX" Type="Fix">+205159.000-1035309.000</Point>
         <Point Name="VOMAR" Type="Fix">+220806.100-0875645.600</Point>
         <Point Name="VOMAS" Type="Fix">+280328.300-1045155.800</Point>
@@ -10957,10 +10965,10 @@
             <Runway Name="22L" Position="+194447.400-0985943.260" />
         </Airport>
         <Airport ICAO="MMSP" FullName="SAN LUIS POTOSI" Position="+221515.342-1005550.737" Elevation="6035">
-            <Runway Name="14" Position="+221624.813-1005635.068" />
-            <Runway Name="32" Position="+221500.809-1005541.445" />
-            <Runway Name="04" Position="+221508.488-1005558.731" />
-            <Runway Name="22" Position="+221530.366-1005533.179" />
+            <Runway Name="14" Position="+221624.780-1005635.180" />
+            <Runway Name="32" Position="+221500.800-1005541.460" />
+            <Runway Name="04" Position="+221508.370-1005558.870" />
+            <Runway Name="22" Position="+221530.370-1005533.180" />
         </Airport>
         <Airport ICAO="MMTM" FullName="TAMPICO" Position="+221723.190-0975151.910" Elevation="82">
             <Runway Name="14" Position="+221807.290-0975226.950" />
