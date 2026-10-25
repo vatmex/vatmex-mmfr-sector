@@ -3037,6 +3037,45 @@
                 <Point>+203118.494-1031839.996</Point>
             </ManualVisibility>
         </Position>
+        <Position Name="Salidas Guadalajara - GLDEP" Type="ASD" DefaultCenter="+203649.320-1031746.800" DefaultRange="250" MagneticVariation="-6" VisibilityRange="150">
+            <Sectors>
+                <Sector Name="GLDEP" />
+            </Sectors>
+            <Maps>
+                <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
+                <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
+                <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
+                <Map Name="TMA Guadalajara/ Pistas 29 - ILS X 29L" />
+                <Map Name="TMA Guadalajara/ Pistas 29 - Salidas RNAV" />
+            </Maps>
+            <!--
+            <ATIS>
+                <Editor Airport="MMGL" Frequency="127.9" Server="NA" />
+                <Window Airport="MMGL" />
+            </ATIS>
+            -->
+            <Strips Mode="State" Sort="Alpha">
+                <Window Type="State" State="Jurisdiction" Visible="true" />
+                <Window Type="State" State="Announced" Visible="true" />
+                <Window Type="State" State="Preactive" Visible="true" />
+            </Strips>
+            <CFL QuickLevel="23000">
+                <AdditionalLevels>8200,9200,9400</AdditionalLevels>
+            </CFL>
+            <!--
+            <ArrivalLists>
+                <Airport Name="MMGL" />
+            </ArrivalLists>
+            -->
+            <ControllerInfo>
+                <Line>Salidas Guadalajara / Guadalajara Departures</Line>
+                <Line>Serving MMGL departures</Line>
+                <Line>We want to do better! Feedback? https //vatmex.com.mx</Line>
+            </ControllerInfo>
+            <ManualVisibility>
+                <Point>+203118.494-1031839.996</Point>
+            </ManualVisibility>
+        </Position>
 
         <!-- TMA Leon -->
         <Position Name="Torre Aguascalientes - ASTW1" Type="ASD" DefaultCenter="+214241.671-1021907.937" DefaultRange="45" MagneticVariation="-6">
