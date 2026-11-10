@@ -244,30 +244,354 @@
         </PathGeometry>
     </TrackSymbol>
 
-    <!-- Ground Diamond -->
-    <TrackSymbol Type="Ground" StrokeWidth="0">
+    <!-- Ground airplane: SVG outline, nose up, height 20 -->
+    <TrackSymbol Type="Ground" StrokeWidth="1" RotateToTrack="True">
         <PathGeometry>
-            <Figure Start="0,-6" FigureBegin="Filled" FigureEnd="Closed">
-                <Line>-4, 2</Line>
-                <Line>0, 6</Line>
-                <Line>4, 2</Line>
+            <Figure Start="0.0109,-10.0000" FigureBegin="Filled" FigureEnd="Closed">
+                <Bezier>
+                    <Point1>-0.9580,-10.0016</Point1>
+                    <Point2>-1.6944,-9.0377</Point2>
+                    <Point3>-1.6932,-8.0638</Point3>
+                </Bezier>
+                <Line>-1.6990,-3.1189</Line>
+                <Line>-8.0060,-0.2434</Line>
+                <Bezier>
+                    <Point1>-8.5595,0.0827</Point1>
+                    <Point2>-9.1495,0.3785</Point2>
+                    <Point3>-9.1480,1.4708</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-9.1476,2.0278</Point1>
+                    <Point2>-9.1460,3.1861</Point2>
+                    <Point3>-7.4311,3.1876</Point3>
+                </Bezier>
+                <Line>-1.7056,2.6170</Line>
+                <Line>-1.7099,6.7095</Line>
+                <Line>-4.0991,8.1430</Line>
+                <Bezier>
+                    <Point1>-4.4554,8.3534</Point1>
+                    <Point2>-4.5893,8.6014</Point2>
+                    <Point3>-4.5742,8.9077</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-4.5559,9.0727</Point1>
+                    <Point2>-4.6937,9.9992</Point2>
+                    <Point3>-3.9508,10.0000</Point3>
+                </Bezier>
+                <Line>0.0004,9.5066</Line>
+                <Line>3.9516,10.0000</Line>
+                <Bezier>
+                    <Point1>4.4896,10.0008</Point1>
+                    <Point2>4.5711,9.5831</Point2>
+                    <Point3>4.5882,8.9178</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>4.5878,8.4850</Point1>
+                    <Point2>4.4298,8.4202</Point2>
+                    <Point3>4.0490,8.1698</Point3>
+                </Bezier>
+                <Line>1.7192,6.7033</Line>
+                <Line>1.7122,2.6275</Line>
+                <Line>7.4346,3.2028</Line>
+                <Bezier>
+                    <Point1>9.1491,3.2047</Point1>
+                    <Point2>9.1476,2.0456</Point2>
+                    <Point3>9.1480,1.4894</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>9.1464,0.3963</Point1>
+                    <Point2>8.5564,0.0998</Point2>
+                    <Point3>8.0021,-0.2271</Point3>
+                </Bezier>
+                <Line>1.7017,-3.1248</Line>
+                <Line>1.6932,-8.0638</Line>
+                <Bezier>
+                    <Point1>1.6924,-9.0373</Point1>
+                    <Point2>0.9797,-9.9992</Point2>
+                    <Point3>0.0109,-10.0000</Point3>
+                </Bezier>
             </Figure>
         </PathGeometry>
     </TrackSymbol>
 
-    <!-- Ground Circle -->
-    <TrackSymbol Type="GroundLight" StrokeWidth="0">
-        <EllipseGeometry Center="0,0" RadiusX="6" RadiusY="6" />
+    <!-- Ground airplane: SVG outline, nose up, height 20 -->
+    <TrackSymbol Type="GroundLight" StrokeWidth="0" RotateToTrack="True">
+        <PathGeometry>
+            <Figure Start="0.0109,-10.0000" FigureBegin="Filled" FigureEnd="Closed">
+                <Bezier>
+                    <Point1>-0.9580,-10.0016</Point1>
+                    <Point2>-1.6944,-9.0377</Point2>
+                    <Point3>-1.6932,-8.0638</Point3>
+                </Bezier>
+                <Line>-1.6990,-3.1189</Line>
+                <Line>-8.0060,-0.2434</Line>
+                <Bezier>
+                    <Point1>-8.5595,0.0827</Point1>
+                    <Point2>-9.1495,0.3785</Point2>
+                    <Point3>-9.1480,1.4708</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-9.1476,2.0278</Point1>
+                    <Point2>-9.1460,3.1861</Point2>
+                    <Point3>-7.4311,3.1876</Point3>
+                </Bezier>
+                <Line>-1.7056,2.6170</Line>
+                <Line>-1.7099,6.7095</Line>
+                <Line>-4.0991,8.1430</Line>
+                <Bezier>
+                    <Point1>-4.4554,8.3534</Point1>
+                    <Point2>-4.5893,8.6014</Point2>
+                    <Point3>-4.5742,8.9077</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-4.5559,9.0727</Point1>
+                    <Point2>-4.6937,9.9992</Point2>
+                    <Point3>-3.9508,10.0000</Point3>
+                </Bezier>
+                <Line>0.0004,9.5066</Line>
+                <Line>3.9516,10.0000</Line>
+                <Bezier>
+                    <Point1>4.4896,10.0008</Point1>
+                    <Point2>4.5711,9.5831</Point2>
+                    <Point3>4.5882,8.9178</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>4.5878,8.4850</Point1>
+                    <Point2>4.4298,8.4202</Point2>
+                    <Point3>4.0490,8.1698</Point3>
+                </Bezier>
+                <Line>1.7192,6.7033</Line>
+                <Line>1.7122,2.6275</Line>
+                <Line>7.4346,3.2028</Line>
+                <Bezier>
+                    <Point1>9.1491,3.2047</Point1>
+                    <Point2>9.1476,2.0456</Point2>
+                    <Point3>9.1480,1.4894</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>9.1464,0.3963</Point1>
+                    <Point2>8.5564,0.0998</Point2>
+                    <Point3>8.0021,-0.2271</Point3>
+                </Bezier>
+                <Line>1.7017,-3.1248</Line>
+                <Line>1.6932,-8.0638</Line>
+                <Bezier>
+                    <Point1>1.6924,-9.0373</Point1>
+                    <Point2>0.9797,-9.9992</Point2>
+                    <Point3>0.0109,-10.0000</Point3>
+                </Bezier>
+            </Figure>
+        </PathGeometry>
     </TrackSymbol>
 
-    <!-- Ground Circle -->
-    <TrackSymbol Type="GroundMedium" StrokeWidth="0">
-        <EllipseGeometry Center="0,0" RadiusX="6" RadiusY="6" />
+    <!-- Ground airplane: SVG outline, nose up, height 20 -->
+    <TrackSymbol Type="GroundMedium" StrokeWidth="0" RotateToTrack="True">
+        <PathGeometry>
+            <Figure Start="0.0109,-10.0000" FigureBegin="Filled" FigureEnd="Closed">
+                <Bezier>
+                    <Point1>-0.9580,-10.0016</Point1>
+                    <Point2>-1.6944,-9.0377</Point2>
+                    <Point3>-1.6932,-8.0638</Point3>
+                </Bezier>
+                <Line>-1.6990,-3.1189</Line>
+                <Line>-8.0060,-0.2434</Line>
+                <Bezier>
+                    <Point1>-8.5595,0.0827</Point1>
+                    <Point2>-9.1495,0.3785</Point2>
+                    <Point3>-9.1480,1.4708</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-9.1476,2.0278</Point1>
+                    <Point2>-9.1460,3.1861</Point2>
+                    <Point3>-7.4311,3.1876</Point3>
+                </Bezier>
+                <Line>-1.7056,2.6170</Line>
+                <Line>-1.7099,6.7095</Line>
+                <Line>-4.0991,8.1430</Line>
+                <Bezier>
+                    <Point1>-4.4554,8.3534</Point1>
+                    <Point2>-4.5893,8.6014</Point2>
+                    <Point3>-4.5742,8.9077</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-4.5559,9.0727</Point1>
+                    <Point2>-4.6937,9.9992</Point2>
+                    <Point3>-3.9508,10.0000</Point3>
+                </Bezier>
+                <Line>0.0004,9.5066</Line>
+                <Line>3.9516,10.0000</Line>
+                <Bezier>
+                    <Point1>4.4896,10.0008</Point1>
+                    <Point2>4.5711,9.5831</Point2>
+                    <Point3>4.5882,8.9178</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>4.5878,8.4850</Point1>
+                    <Point2>4.4298,8.4202</Point2>
+                    <Point3>4.0490,8.1698</Point3>
+                </Bezier>
+                <Line>1.7192,6.7033</Line>
+                <Line>1.7122,2.6275</Line>
+                <Line>7.4346,3.2028</Line>
+                <Bezier>
+                    <Point1>9.1491,3.2047</Point1>
+                    <Point2>9.1476,2.0456</Point2>
+                    <Point3>9.1480,1.4894</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>9.1464,0.3963</Point1>
+                    <Point2>8.5564,0.0998</Point2>
+                    <Point3>8.0021,-0.2271</Point3>
+                </Bezier>
+                <Line>1.7017,-3.1248</Line>
+                <Line>1.6932,-8.0638</Line>
+                <Bezier>
+                    <Point1>1.6924,-9.0373</Point1>
+                    <Point2>0.9797,-9.9992</Point2>
+                    <Point3>0.0109,-10.0000</Point3>
+                </Bezier>
+            </Figure>
+        </PathGeometry>
     </TrackSymbol>
 
-    <!-- Ground Circle -->
-    <TrackSymbol Type="GroundHeavy" StrokeWidth="5">
-        <EllipseGeometry Center="0,0" RadiusX="5" RadiusY="5" />
+    <!-- Ground airplane: SVG outline, nose up, height 20 -->
+    <TrackSymbol Type="GroundHeavy" StrokeWidth="0" RotateToTrack="True">
+        <PathGeometry>
+            <Figure Start="0.0109,-10.0000" FigureBegin="Filled" FigureEnd="Closed">
+                <Bezier>
+                    <Point1>-0.9580,-10.0016</Point1>
+                    <Point2>-1.6944,-9.0377</Point2>
+                    <Point3>-1.6932,-8.0638</Point3>
+                </Bezier>
+                <Line>-1.6990,-3.1189</Line>
+                <Line>-8.0060,-0.2434</Line>
+                <Bezier>
+                    <Point1>-8.5595,0.0827</Point1>
+                    <Point2>-9.1495,0.3785</Point2>
+                    <Point3>-9.1480,1.4708</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-9.1476,2.0278</Point1>
+                    <Point2>-9.1460,3.1861</Point2>
+                    <Point3>-7.4311,3.1876</Point3>
+                </Bezier>
+                <Line>-1.7056,2.6170</Line>
+                <Line>-1.7099,6.7095</Line>
+                <Line>-4.0991,8.1430</Line>
+                <Bezier>
+                    <Point1>-4.4554,8.3534</Point1>
+                    <Point2>-4.5893,8.6014</Point2>
+                    <Point3>-4.5742,8.9077</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-4.5559,9.0727</Point1>
+                    <Point2>-4.6937,9.9992</Point2>
+                    <Point3>-3.9508,10.0000</Point3>
+                </Bezier>
+                <Line>0.0004,9.5066</Line>
+                <Line>3.9516,10.0000</Line>
+                <Bezier>
+                    <Point1>4.4896,10.0008</Point1>
+                    <Point2>4.5711,9.5831</Point2>
+                    <Point3>4.5882,8.9178</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>4.5878,8.4850</Point1>
+                    <Point2>4.4298,8.4202</Point2>
+                    <Point3>4.0490,8.1698</Point3>
+                </Bezier>
+                <Line>1.7192,6.7033</Line>
+                <Line>1.7122,2.6275</Line>
+                <Line>7.4346,3.2028</Line>
+                <Bezier>
+                    <Point1>9.1491,3.2047</Point1>
+                    <Point2>9.1476,2.0456</Point2>
+                    <Point3>9.1480,1.4894</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>9.1464,0.3963</Point1>
+                    <Point2>8.5564,0.0998</Point2>
+                    <Point3>8.0021,-0.2271</Point3>
+                </Bezier>
+                <Line>1.7017,-3.1248</Line>
+                <Line>1.6932,-8.0638</Line>
+                <Bezier>
+                    <Point1>1.6924,-9.0373</Point1>
+                    <Point2>0.9797,-9.9992</Point2>
+                    <Point3>0.0109,-10.0000</Point3>
+                </Bezier>
+            </Figure>
+        </PathGeometry>
+    </TrackSymbol>
+
+    <!-- Ground airplane: SVG outline, nose up, height 20 -->
+    <TrackSymbol Type="GroundSuper" StrokeWidth="0" RotateToTrack="True">
+        <PathGeometry>
+            <Figure Start="0.0109,-10.0000" FigureBegin="Filled" FigureEnd="Closed">
+                <Bezier>
+                    <Point1>-0.9580,-10.0016</Point1>
+                    <Point2>-1.6944,-9.0377</Point2>
+                    <Point3>-1.6932,-8.0638</Point3>
+                </Bezier>
+                <Line>-1.6990,-3.1189</Line>
+                <Line>-8.0060,-0.2434</Line>
+                <Bezier>
+                    <Point1>-8.5595,0.0827</Point1>
+                    <Point2>-9.1495,0.3785</Point2>
+                    <Point3>-9.1480,1.4708</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-9.1476,2.0278</Point1>
+                    <Point2>-9.1460,3.1861</Point2>
+                    <Point3>-7.4311,3.1876</Point3>
+                </Bezier>
+                <Line>-1.7056,2.6170</Line>
+                <Line>-1.7099,6.7095</Line>
+                <Line>-4.0991,8.1430</Line>
+                <Bezier>
+                    <Point1>-4.4554,8.3534</Point1>
+                    <Point2>-4.5893,8.6014</Point2>
+                    <Point3>-4.5742,8.9077</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>-4.5559,9.0727</Point1>
+                    <Point2>-4.6937,9.9992</Point2>
+                    <Point3>-3.9508,10.0000</Point3>
+                </Bezier>
+                <Line>0.0004,9.5066</Line>
+                <Line>3.9516,10.0000</Line>
+                <Bezier>
+                    <Point1>4.4896,10.0008</Point1>
+                    <Point2>4.5711,9.5831</Point2>
+                    <Point3>4.5882,8.9178</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>4.5878,8.4850</Point1>
+                    <Point2>4.4298,8.4202</Point2>
+                    <Point3>4.0490,8.1698</Point3>
+                </Bezier>
+                <Line>1.7192,6.7033</Line>
+                <Line>1.7122,2.6275</Line>
+                <Line>7.4346,3.2028</Line>
+                <Bezier>
+                    <Point1>9.1491,3.2047</Point1>
+                    <Point2>9.1476,2.0456</Point2>
+                    <Point3>9.1480,1.4894</Point3>
+                </Bezier>
+                <Bezier>
+                    <Point1>9.1464,0.3963</Point1>
+                    <Point2>8.5564,0.0998</Point2>
+                    <Point3>8.0021,-0.2271</Point3>
+                </Bezier>
+                <Line>1.7017,-3.1248</Line>
+                <Line>1.6932,-8.0638</Line>
+                <Bezier>
+                    <Point1>1.6924,-9.0373</Point1>
+                    <Point2>0.9797,-9.9992</Point2>
+                    <Point3>0.0109,-10.0000</Point3>
+                </Bezier>
+            </Figure>
+        </PathGeometry>
     </TrackSymbol>
 
 </TrackSymbols>
